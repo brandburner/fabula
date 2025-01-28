@@ -2,7 +2,7 @@
 from typing import Dict, List, Optional, Tuple
 import logging
 import re
-from fuzzywuzzy import fuzz
+from thefuzz import fuzz, process
 from baml_client import b
 from baml_client.type_builder import TypeBuilder
 from entity_registry import EntityRegistry

@@ -6,6 +6,11 @@ __pycache__/
 # C extensions
 *.so
 
+# Private test data
+source_docs/doctor_who/
+source_docs/west_wing/
+source_docs/peep_show/
+
 # Distribution / packaging
 .Python
 build/

@@ -51,6 +51,12 @@ OUTPUT_JSON_PATH = Path("output/pre_processed/quantum_archive_graph.json")
 # ]
 # OUTPUT_JSON_PATH = Path("output/pre_processed/networking_event_graph.json")
 
+# INPUT_JSON_PATH = Path("source_docs/ai_fanfic/star_trek_tng/echoes_of_the_past_transcript.json")
+# CONTEXT_FILES = [
+#     Path("source_docs/ai_fanfic/star_trek_tng/echoes_of_the_past_treatment.txt")
+# ]
+# OUTPUT_JSON_PATH = Path("output/pre_processed/echoes_of_the_past.json")
+
 
 LOG_DIR = Path("logs")
 
