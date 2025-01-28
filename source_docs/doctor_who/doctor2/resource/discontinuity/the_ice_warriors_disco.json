@@ -1,0 +1,73 @@
+{
+    "title": "The Ice Warriors",
+    "air_date": "11 November 1967",
+    "num_episodes": 6,
+    "episode_titles": [
+        "Episode 1",
+        "Episode 2",
+        "Episode 3",
+        "Episode 4",
+        "Episode 5",
+        "Episode 6"
+    ],
+    "episode_duration": 25,
+    "writers": [
+        "Brian Hayles"
+    ],
+    "directors": [
+        "Derek Martinus"
+    ],
+    "media_format": "B_W",
+    "dialogue_triumphs": [
+        "Penley on Clent: 'He's got a printed circuit where his heart should be.'",
+        "The Doctor on Victoria's knowledge of stink bombs: 'The benefits of a classical education?'"
+    ],
+    "dialogue_disasters": [
+        "You will maintain your Earthling body temperature by helping me."
+    ],
+    "goofs": [
+        "In episode one, the TARDIS lands on its side. However, in episode six it dematerializes standing upright.",
+        "Varga's head design changes after he wakes up."
+    ],
+    "continuity_notes": [
+        {
+            "name": "Ice Warriors",
+            "type": "Character",
+            "description": "An alien species from Mars, first introduced in this episode. They have a 'far greater fluid content' than humans.",
+            "origin": "Mars",
+            "current_status": "Awakened from frozen state on Earth"
+        },
+        {
+            "name": "Mars",
+            "type": "Location",
+            "description": "Home planet of the Ice Warriors, referred to as 'the Red Planet' with a mainly nitrogen-based atmosphere.",
+            "origin": null,
+            "current_status": "Implied to be in a state of decline or 'dying'"
+        }
+    ],
+    "technobabble": [
+        "The Doctor can tell that the computer is malfunctioning by the sound of its pitch."
+    ],
+    "roots": [
+        "The Thing from Another World",
+        "War of the Worlds",
+        "Quatermass and the Pit"
+    ],
+    "links": [
+        "Following 'The Abominable Snowmen', the snow leads Jamie to speculate that the TARDIS has moved 'further up the mountain'. They say they have been on retreat in Tibet."
+    ],
+    "locations": [
+        {
+            "name": "Brittanicus Ice Base",
+            "type": "Location",
+            "description": "A scientific base on Earth during the second Ice Age",
+            "origin": "Earth",
+            "current_status": "Operational during the story"
+        }
+    ],
+    "future_history": "The story takes place during 'the second Ice Age' around 3000 AD. The Doctor speculates that ionisation and dispersal of carbon dioxide into the atmosphere caused climatic changes leading to the ice age. Artificial food sources ended world famine about a hundred years before the story, leading to an abandonment of natural forms of growth. Ionisation helps prevent the advance of glaciers. Rehabilitation centres for evacuees are in Africa.",
+    "untold_adventures": null,
+    "qv": null,
+    "additional_notes": "It is Walters who first coins the phrase 'Ice Warrior' to describe Varga. The Ice Warriors rarely refer to themselves by this title (the exception is in 'The Monster of Peladon').",
+    "bottom_line": "A great minimalist tundra landscape, fine performances from Peter Barkworth and Peter Sallis, and the eerie hissing voices of the Ice Warriors themselves, help turn a standard 'don't trust the machines' storyline into something special."
+}

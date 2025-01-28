@@ -1,0 +1,97 @@
+{
+    "title": "Paradise Towers",
+    "air_date": "5 October 1987",
+    "num_episodes": 4,
+    "episode_titles": [
+        "Part One",
+        "Part Two",
+        "Part Three",
+        "Part Four"
+    ],
+    "episode_duration": 25,
+    "writers": [
+        "Stephen Wyatt"
+    ],
+    "directors": [
+        "Nicholas Mallett"
+    ],
+    "media_format": "Color",
+    "dialogue_triumphs": [
+        "'Are these old ladies annoying you?' 'No.' 'Are you annoying these old ladies?'",
+        "'Clothes don't maketh the man.'"
+    ],
+    "dialogue_disasters": null,
+    "goofs": [],
+    "continuity_notes": [
+        {
+            "name": "Paradise Towers",
+            "type": "Location",
+            "description": "A 21st-century high-rise building designed by Kroagnon, which won many awards.",
+            "origin": "Earth, 21st century",
+            "current_status": "Inhabited by the elderly, young, and caretakers after those of fighting age left for war."
+        },
+        {
+            "name": "Kroagnon",
+            "type": "Character",
+            "description": "Also known as the Great Architect, designer of Paradise Towers and other famous structures.",
+            "origin": null,
+            "current_status": "Brain exiled to the basement of Paradise Towers."
+        },
+        {
+            "name": "TARDIS Swimming Pool",
+            "type": "Object",
+            "description": "A feature of the TARDIS that was leaking and had to be jettisoned.",
+            "origin": "TARDIS",
+            "current_status": "Jettisoned due to leakage."
+        },
+        {
+            "name": "Griophos",
+            "type": "Location",
+            "description": "A planet with a spectacular pool for the exclusive use of flesh-eating octopi called Gulmeri.",
+            "origin": null,
+            "current_status": null
+        },
+        {
+            "name": "Kangs",
+            "type": "Organization",
+            "description": "A group in Paradise Towers, likely composed of young residents.",
+            "origin": "Paradise Towers",
+            "current_status": "Active in Paradise Towers; made the Doctor an honorary member."
+        }
+    ],
+    "technobabble": [
+        "The Robotic Self-activating Megapodic Mark 7Z cleaners have oxymotive blades.",
+        "The Doctor describes an antique phone as a splendid piece of audioarchitectonicalmetrasynchosity.",
+        "Kroagnon 'transplants' his brain into the Chief Caretaker's body via corporal ectoscopy."
+    ],
+    "roots": [
+        "J. G. Ballard's High Rise",
+        "Albert Speer's architecture",
+        "Monty Python's architects sketch",
+        "Lord of the Flies",
+        "Arsenic and Old Lace",
+        "Ever Decreasing Circles",
+        "Terry and June (the rezzies)",
+        "Brazil",
+        "Several of Tharg's Future Shocks from the 2000AD comic",
+        "A Clockwork Orange",
+        "Rambo",
+        "Hansel and Gretel",
+        "The Restaurant at the End of the Universe"
+    ],
+    "links": [],
+    "locations": [
+        {
+            "name": "Paradise Towers",
+            "type": "Location",
+            "description": "A 21st-century high-rise building designed by Kroagnon, inhabited by various groups after the war.",
+            "origin": "Earth, 21st century",
+            "current_status": "Setting of the episode, with various factions living within."
+        }
+    ],
+    "future_history": "Paradise Towers won many awards in the 21st century, suggesting advanced architectural developments.",
+    "untold_adventures": null,
+    "qv": null,
+    "additional_notes": "The episode features semantic cleverness with phrases like 'taken to the cleaners', 'brain quarters', and 'cowardly cutlet'. The caretakers are portrayed in a way reminiscent of the Village People and Basil Fawlty.",
+    "bottom_line": "A lovely basic idea, somewhat thwarted by its uncertain tone and presentation. The episode doesn't quite work despite its clever elements and mockery of rule-bound caretakers."
+}

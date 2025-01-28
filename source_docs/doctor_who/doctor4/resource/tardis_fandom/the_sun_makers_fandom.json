@@ -1,0 +1,162 @@
+{
+  "metadata": {
+    "title": "The Sun Makers",
+    "series": "Doctor Who",
+    "season": "15",
+    "episode_number": 4,
+    "release_date": "1977-11-26",
+    "release_end_date": "1977-12-17",
+    "writer": "Robert Holmes",
+    "director": "Pennant Roberts",
+    "producer": "Graham Williams",
+    "main_actors": [
+      "Tom Baker",
+      "Louise Jameson",
+      "John Leeson",
+      "Richard Leech",
+      "Jonina Scott",
+      "Roy Macready",
+      "William Simons",
+      "Michael Keating",
+      "Adrienne Burgess",
+      "Carole Hopkin",
+      "Henry Woolf",
+      "David Rowlands",
+      "Derek Crewe",
+      "Colin McCormack",
+      "Tom Kelly"
+    ],
+    "time_reference": "far future"
+  },
+  "cast_crew": [
+    {
+      "cast": {
+        "name": "Tom Baker",
+        "role": "actor"
+      },
+      "crew": {
+        "name": "Graham Williams",
+        "role": "producer"
+      }
+    },
+    {
+      "cast": {
+        "name": "Louise Jameson",
+        "role": "actor"
+      },
+      "crew": {
+        "name": "Pennant Roberts",
+        "role": "director"
+      }
+    },
+    {
+      "cast": {
+        "name": "John Leeson",
+        "role": "actor"
+      },
+      "uncredited_cast": {
+        "name": "John Leeson",
+        "role": "voice of K9"
+      },
+      "crew": {
+        "name": "Robert Holmes",
+        "role": "writer"
+      }
+    }
+  ],
+  "home_media": [
+    {
+      "releases": {
+        "media_type": "DVD",
+        "date": "2011-08-01",
+        "special_features": [
+          "Commentary by Tom Baker, Louise Jameson, Michael Keating, and Pennant Roberts",
+          "Running from the Tax Man - Behind the scenes feature",
+          "Outtakes",
+          "The Doctor's Composer - Part Two",
+          "BBC Trailer",
+          "Production Information Subtitles",
+          "Photo Gallery",
+          "Coming Soon Trailer",
+          "Radio Times Listings"
+        ]
+      }
+    }
+  ],
+  "story_notes": [
+    {
+      "notes": [
+        "Robert Holmes aired his dislike of taxation in the story.",
+        "Holmes received special permission to write limited serials.",
+        "The story was inspired by the concept of man-made stars and colonial rule.",
+        "Louise Jameson preferred this story but was dissatisfied with her character's direction."
+      ]
+    }
+  ],
+  "worldbuilding": {
+    "in_universe_mythology": [
+      "Gallifrey is a Class 3 planet",
+      "Usurians are poisonous fungi"
+    ],
+    "real_world_cultural_references": [
+      "Galileo Galilei is referenced",
+      "The exchange riffs on Karl Marx and Friedrich Engels' The Communist Manifesto"
+    ],
+    "individuals": [
+      "The Collector",
+      "Gatherer Hade",
+      "Marn",
+      "Cordo",
+      "Mandrel",
+      "Bisham",
+      "Veet",
+      "The Doctor",
+      "Leela",
+      "K9"
+    ],
+    "items": [
+      "Consumcard",
+      "Jelly babies",
+      "Humbug",
+      "Liquorice allsort"
+    ],
+    "locations": [
+      "Megropolis One",
+      "Pluto",
+      "Undercity",
+      "Main Control",
+      "Correction Centre"
+    ]
+  },
+  "ratings": {
+    "ratings_millions": [
+      {
+        "part": "Part one",
+        "viewers": 8.5
+      },
+      {
+        "part": "Part two",
+        "viewers": 9.5
+      },
+      {
+        "part": "Part three",
+        "viewers": 8.9
+      },
+      {
+        "part": "Part four",
+        "viewers": 8.4
+      }
+    ]
+  },
+  "continuity": {
+    "continuity_notes": [
+      "The Collector's race name Usurians is a play on 'usury'.",
+      "Leela's darker outfit last appears in this story."
+    ]
+  },
+  "plot": [
+    {
+      "plot_summary": "Far in the future, Earth is uninhabitable, and humanity has colonised Pluto with artificial suns. The Doctor, Leela, and K9 discover Megropolis One is under oppressive rule by the Collector. Cordo, a worker, faces taxation he can't afford, leading him to contemplate suicide, but he is saved by the Doctor and Leela. They join the rebel band against the oppressive regime, leveraging technology and K9 to challenge the ruling elite, ultimately causing the Collector's plan to backfire, restoring the dignity and freedom of Megropolis' inhabitants."
+    }
+  ]
+}

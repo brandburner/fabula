@@ -1,0 +1,183 @@
+{
+  "metadata": {
+    "title": "Snakedance",
+    "series": "Doctor Who",
+    "season": "20",
+    "release_date": "18 - 26 January 1983",
+    "writer": "Christopher Bailey",
+    "director": "Fiona Cumming",
+    "producer": "John Nathan-Turner",
+    "main_actors": [
+      "Peter Davison",
+      "Janet Fielding",
+      "Sarah Sutton",
+      "John Carson",
+      "Colette O'Neil",
+      "Preston Lockwood",
+      "Martin Clunes",
+      "Brian Miller"
+    ],
+    "time_reference": "Manussan year 3426"
+  },
+  "cast_crew": [
+    {
+      "cast": {
+        "name": "Peter Davison",
+        "role": "The Doctor"
+      },
+      "crew": {
+        "name": "Fiona Cumming",
+        "role": "Director"
+      }
+    },
+    {
+      "cast": {
+        "name": "Janet Fielding",
+        "role": "Tegan Jovanka"
+      },
+      "crew": {
+        "name": "Christopher Bailey",
+        "role": "Writer"
+      }
+    },
+    {
+      "cast": {
+        "name": "Sarah Sutton",
+        "role": "Nyssa"
+      },
+      "crew": {
+        "name": "John Nathan-Turner",
+        "role": "Producer"
+      }
+    },
+    {
+      "cast": {
+        "name": "Martin Clunes",
+        "role": "Lon"
+      },
+      "crew": {
+        "name": "Eric Saward",
+        "role": "Script Editor"
+      }
+    },
+    {
+      "cast": {
+        "name": "John Carson",
+        "role": "Ambril"
+      },
+      "crew": {
+        "name": "Angela Smith",
+        "role": "Production Associate"
+      }
+    },
+    {
+      "cast": {
+        "name": "Brian Miller",
+        "role": "Dugdale"
+      },
+      "crew": {
+        "name": "Johnathon Morris",
+        "role": "Chela"
+      }
+    }
+  ],
+  "home_media": [
+    {
+      "releases": {
+        "media_type": "DVD",
+        "date": "7 March 2011",
+        "details": "Released in a box set called Mara Tales with Kinda.",
+        "special_features": [
+          "Commentary by Peter Davison, Janet Fielding, and Sarah Sutton",
+          "Making of Snakedance featurette",
+          "In Studio - behind the scenes",
+          "Deleted Scenes",
+          "Saturday Superstore appearance",
+          "Isolated Score",
+          "Radio Times Billings",
+          "Production Information"
+        ]
+      }
+    },
+    {
+      "releases": {
+        "media_type": "VHS",
+        "date": "December 1994",
+        "details": "Released in the UK markets.",
+        "special_features": []
+      }
+    },
+    {}
+  ],
+  "story_notes": [
+    {
+      "notes": [
+        "The story explores themes of mental control and fear through the lens of an ancient evil.",
+        "Several character names are derived from Buddhist terminology.",
+        "Peter Davison was surprised by a This Is Your Life surprise event while filming.",
+        "The final episode overran, affecting the original script."
+      ]
+    }
+  ],
+  "worldbuilding": {
+    "in_universe_mythology": [
+      "The Mara, an ancient evil created from the negative emotions of the Manussans."
+    ],
+    "real_world_cultural_references": [
+      "References to snake-handling Christian sects in the United States."
+    ],
+    "individuals": [
+      "Dojjen, a previous Director of Historical Research.",
+      "Ambril, current Director of Historical Research."
+    ],
+    "items": [
+      "The Great Crystal, a vital artifact in the rituals on Manussa.",
+      "A blue jewel that plays a significant role in the story."
+    ],
+    "locations": [
+      "The planet Manussa",
+      "Cave of the Snake",
+      "Hall of Mirrors"
+    ]
+  },
+  "ratings": {
+    "ratings_millions": [
+      {
+        "part": "Part One",
+        "viewers": 6.7
+      },
+      {
+        "part": "Part Two",
+        "viewers": 7.7
+      },
+      {
+        "part": "Part Three",
+        "viewers": 6.6
+      },
+      {
+        "part": "Part Four",
+        "viewers": 7.4
+      }
+    ]
+  },
+  "continuity": {
+    "continuity_notes": [
+      "The Doctor and Tegan previously encountered the Mara in Kinda.",
+      "References to the Mara's history and mythology are explored."
+    ]
+  },
+  "plot": [
+    {
+      "plot_summary": "Part One: The TARDIS lands on Manussa during a time of festivities. Tegan is haunted by dreams connected to the Mara and inadvertently guides the TARDIS there. The Doctor begins investigating Tegan's dreams while the local authorities prepare for a ceremony involving the Mara."
+    },
+    {
+      "plot_summary": "Part Two: Tegan becomes trapped under the Mara's influence again. The Mara communicates with her through a mirror. The Doctor and Nyssa attempt to find Tegan while learning more about the Mara's legend."
+    },
+    {
+      "plot_summary": "Part Three: The Doctor is imprisoned as the Mara's influence grows stronger. He works with Nyssa to understand ancient texts that reveal the truth about the Mara's creation and the crystals of Manussa that amplify negative emotions."
+    },
+    {
+      "plot_summary": "Part Four: The Doctor enacts a ritual to defeat the Mara while trying to save Tegan. A confrontation culminates in the destruction of the Mara as Tegan regains her agency, weeping for her lost control."
+    }
+  ]
+}

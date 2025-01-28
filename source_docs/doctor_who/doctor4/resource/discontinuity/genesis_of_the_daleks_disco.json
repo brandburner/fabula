@@ -1,0 +1,100 @@
+{
+    "title": "Genesis of the Daleks",
+    "air_date": "8 March 1975",
+    "num_episodes": 6,
+    "episode_titles": [
+        "Part One",
+        "Part Two",
+        "Part Three",
+        "Part Four",
+        "Part Five",
+        "Part Six"
+    ],
+    "episode_duration": 25,
+    "writers": [
+        "Terry Nation"
+    ],
+    "directors": [
+        "David Maloney"
+    ],
+    "media_format": "Color",
+    "dialogue_triumphs": [
+        "The Doctor asks Davros, 'If you created a virus in your laboratory, something contagious and infectious, that killed on contact\u2026 would you use it?' Davros: 'The only living thing. A microscopic organism reigning supreme\u2026 To hold in my hand a capsule that contained such power. To know that life and death on such a scale was my choice\u2026 To know that the tiny pressure of my thumb, enough to break the glass, would end everything. Yes, I would do it. That power would set me up above the gods! And through the Daleks I shall have that power!'",
+        "The Doctor, with the future of the Daleks in his hands: 'If someone who knew the future pointed out a child to you and told you that the child would grow up\u2026 to be a ruthless dictator who would destroy millions of lives, could you then kill that child?\u2026 Do I have that right?'"
+    ],
+    "dialogue_disasters": null,
+    "goofs": [
+        "Sarah has a premonition of 'Revenge of the Cybermen' (she mentions the beacon, but Nerva was not a beacon in that story).",
+        "At the end of episode two, Sarah falls outside the gantry: in episode three's resolution, she falls onto a platform inside it.",
+        "In episode three, between the Doctor looking up at the rocket and the soldier crawling to the switch, there is a single frame of the Doctor's back, the result of sloppy editing.",
+        "The Doctor seems magically to recover his coat between episodes one and six."
+    ],
+    "continuity_notes": [
+        {
+            "name": "Time Lords",
+            "type": "Organization",
+            "description": "An advanced race capable of time travel, who intercept the TARDIS crew and send the Doctor on a mission.",
+            "origin": "Gallifrey",
+            "current_status": "Interfering with history by sending the Doctor to alter the Daleks' creation."
+        },
+        {
+            "name": "Daleks",
+            "type": "Character",
+            "description": "Genetically engineered creatures created by Davros, destined to become a major threat to the universe.",
+            "origin": "Skaro",
+            "current_status": "In the process of being created by Davros."
+        },
+        {
+            "name": "Davros",
+            "type": "Character",
+            "description": "The creator of the Daleks, a brilliant but ruthless scientist.",
+            "origin": "Skaro",
+            "current_status": "Conducting experiments to create the Daleks."
+        },
+        {
+            "name": "Time Ring",
+            "type": "Object",
+            "description": "A device given to the Doctor by the Time Lords to return to his TARDIS.",
+            "origin": "Gallifrey",
+            "current_status": "In the Doctor's possession."
+        }
+    ],
+    "technobabble": [
+        "The Doctor's pocket contains 'an etheric beam locator, it's also useful for detecting ion-charged emissions'"
+    ],
+    "roots": [
+        "Dr Strangelove",
+        "Things to Come",
+        "Terry Nation's The Avengers episodes 'Invasion of the Earthmen' and 'Legacy of Death'",
+        "William L. Shirer's The Rise and Fall of the Third Reich",
+        "The Satan Bug",
+        "Ingmar Bergman's The Seventh Seal"
+    ],
+    "links": [
+        "The Dalek Invasion of Earth",
+        "The Evil of the Daleks",
+        "Destiny of the Daleks",
+        "Resurrection of the Daleks",
+        "Revelation of the Daleks",
+        "Remembrance of the Daleks"
+    ],
+    "locations": [
+        {
+            "name": "Skaro",
+            "type": "Location",
+            "description": "Home planet of the Daleks, Thals, and Kaleds, devastated by a thousand-year war.",
+            "origin": null,
+            "current_status": "Ravaged by war between the Kaleds and the Thals."
+        }
+    ],
+    "future_history": "The episode establishes a potential future where the Daleks become the supreme power in the Universe, which the Time Lords seek to prevent.",
+    "untold_adventures": [
+        "The Doctor mentions a Dalek invasion of Mars failing due to a virus."
+    ],
+    "qv": [
+        "The First Dalek History, 'The Daleks'",
+        "Venus, 'The Time Monster'"
+    ],
+    "additional_notes": "This story significantly alters the established history of the Daleks, creating a new timeline where Davros plays a crucial role in their development.",
+    "bottom_line": "'Genesis of the Daleks' includes, in Davros, possibly the ultimate Doctor Who villain."
+}

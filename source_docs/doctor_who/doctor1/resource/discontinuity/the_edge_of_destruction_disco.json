@@ -1,0 +1,91 @@
+{
+    "title": "The Edge of Destruction",
+    "air_date": "8 February 1964",
+    "num_episodes": 2,
+    "episode_titles": [
+        "The Edge of Destruction",
+        "The Brink of Disaster"
+    ],
+    "episode_duration": 25,
+    "writers": [
+        "David Whitaker"
+    ],
+    "directors": [
+        "Richard Martin",
+        "Frank Cox"
+    ],
+    "media_format": "B_W",
+    "dialogue_triumphs": [
+        "We've had time taken away from us, and now it's being given back because it's running out."
+    ],
+    "dialogue_disasters": [
+        "You'd be blown to atoms by a split second!"
+    ],
+    "goofs": [
+        "William Hartnell says the same line ('It's not very likely') twice",
+        "William Hartnell fumbles 'You knocked both Susan and I unconscious'",
+        "William Hartnell omits the scripted explanation for the melted clocks",
+        "'Fast Return' (in English) appears to be written on the TARDIS console in felt-tip"
+    ],
+    "continuity_notes": [
+        {
+            "name": "TARDIS",
+            "type": "Object",
+            "description": "The Doctor's time and space machine",
+            "origin": null,
+            "current_status": "Malfunctioning due to a faulty fast return switch"
+        },
+        {
+            "name": "Fast Return Switch",
+            "type": "Object",
+            "description": "A component of the TARDIS console that allows quick return to previous locations",
+            "origin": "TARDIS",
+            "current_status": "Malfunctioning, causing the crisis in the story"
+        },
+        {
+            "name": "Cloister Bell",
+            "type": "Object",
+            "description": "An alarm sound in the TARDIS",
+            "origin": "TARDIS",
+            "current_status": "An early version is heard from the fault locator"
+        },
+        {
+            "name": "Skaro",
+            "type": "Location",
+            "description": "Home planet of the Daleks",
+            "origin": null,
+            "current_status": "Seen on the TARDIS scanner"
+        }
+    ],
+    "technobabble": [
+        "The TARDIS's power source is held beneath the central column",
+        "The TARDIS has an inbuilt memory of previous locations"
+    ],
+    "roots": [
+        "Haunted house stories",
+        "The Time Machine",
+        "The Outer Limits"
+    ],
+    "links": [
+        "The Sensorites",
+        "Inferno",
+        "Galaxy 4"
+    ],
+    "locations": [
+        {
+            "name": "TARDIS Interior",
+            "type": "Location",
+            "description": "The inside of the Doctor's time machine",
+            "origin": null,
+            "current_status": "Setting for the entire story"
+        }
+    ],
+    "future_history": null,
+    "untold_adventures": [
+        "The Doctor and Susan's visit to the planet Quinnis in the 'fourth universe'",
+        "The Doctor receiving a coat from Gilbert and Sullivan"
+    ],
+    "qv": null,
+    "additional_notes": "Susan and the Doctor appear to have a telepathic link with each other and the TARDIS. The Doctor's unfamiliarity with the TARDIS and delayed realization of the problem suggest he may not be fully acquainted with all its functions.",
+    "bottom_line": "'The Edge of Destruction' manages to flesh out the central figures at the expense of the plot."
+}

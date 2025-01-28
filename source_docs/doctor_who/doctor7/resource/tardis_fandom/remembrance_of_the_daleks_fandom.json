@@ -1,0 +1,172 @@
+{
+  "metadata": {
+    "title": "Remembrance of the Daleks",
+    "series": "Doctor Who",
+    "season": "25",
+    "release_date": "1988-10-05",
+    "release_end_date": "1988-10-26",
+    "writer": "Ben Aaronovitch",
+    "director": "Andrew Morgan",
+    "producer": "John Nathan-Turner",
+    "main_actors": [
+      "Sylvester McCoy",
+      "Sophie Aldred",
+      "Simon Williams",
+      "Dursley McLinden",
+      "Pamela Salem",
+      "Karen Gledhill",
+      "George Sewell",
+      "Michael Sheard",
+      "Jasmine Breaks"
+    ],
+    "time_reference": "1963"
+  },
+  "cast_crew": [
+    {
+      "cast": {
+        "name": "Sylvester McCoy",
+        "role": "Doctor"
+      },
+      "crew": {
+        "name": "Andrew Morgan",
+        "role": "Director"
+      }
+    },
+    {
+      "cast": {
+        "name": "Sophie Aldred",
+        "role": "Ace"
+      },
+      "crew": {
+        "name": "Ben Aaronovitch",
+        "role": "Writer"
+      }
+    },
+    {
+      "cast": {
+        "name": "Simon Williams",
+        "role": "Gilmore"
+      },
+      "crew": {
+        "name": "John Nathan-Turner",
+        "role": "Producer"
+      }
+    }
+  ],
+  "home_media": [
+    {
+      "releases": {
+        "media_type": "DVD",
+        "date": "2001-02-26",
+        "details": "This was the second release of 2001 featuring the Seventh Doctor.",
+        "special_features": [
+          "Commentary by Sylvester McCoy (The Doctor) and Sophie Aldred (Ace)",
+          "Extended and Deleted Scenes",
+          "Outtakes",
+          "Multi-Angle Sequences",
+          "Trailers & Continuity"
+        ]
+      }
+    },
+    {
+      "releases": {
+        "media_type": "VHS",
+        "date": "1993-09",
+        "details": "Released in the UK as Doctor Who: Remembrance of the Daleks.",
+        "special_features": []
+      }
+    },
+    {
+      "releases": {
+        "media_type": "DVD",
+        "date": "2009-10-01",
+        "details": "Special Edition.",
+        "special_features": [
+          "Commentary",
+          "Back to School",
+          "Remembrances",
+          "Davros Connections",
+          "5.1 Mix",
+          "Deleted Scenes"
+        ]
+      }
+    }
+  ],
+  "story_notes": [
+    {
+      "notes": [
+        "Terry Molloy was credited by the pseudonym 'Roy Tromelly' for part three to preserve the surprise of Davros' return in part four.",
+        "This was the first story to show a Dalek levitating up a staircase.",
+        "The Daleks were portrayed to have time corridor technology."
+      ]
+    }
+  ],
+  "worldbuilding": {
+    "in_universe_mythology": [
+      "The Daleks and Davros as central antagonists.",
+      "Hand of Omega: an all-powerful relic of Time Lord civilization."
+    ],
+    "real_world_cultural_references": [
+      "References to 1960s Britain, including music preferences (Ace prefers Beatles).",
+      "Doctor references several famous speeches from historical figures."
+    ],
+    "individuals": [
+      "Ace",
+      "Gilmore",
+      "Ratcliffe"
+    ],
+    "items": [
+      "Hand of Omega",
+      "baseball bat",
+      "ghetto blaster"
+    ],
+    "locations": [
+      "Coal Hill School",
+      "76 Totter's Lane",
+      "Shoreditch"
+    ]
+  },
+  "ratings": {
+    "ratings_millions": [
+      {
+        "part": "Part 1",
+        "viewers": 5.5
+      },
+      {
+        "part": "Part 2",
+        "viewers": 5.8
+      },
+      {
+        "part": "Part 3",
+        "viewers": 5.1
+      },
+      {
+        "part": "Part 4",
+        "viewers": 5.0
+      }
+    ]
+  },
+  "continuity": {
+    "continuity_notes": [
+      "The Doctor mentions his nine hundred years' experience with alien technology.",
+      "This story highlights the backstory of the Doctor and the Hand of Omega."
+    ]
+  },
+  "plot": [
+    {
+      "plot_summary": "The Doctor and Ace return to 1963 London to confront the Daleks, who are attempting to perfect their time travel capabilities and locate the Hand of Omega. A civil war breaks out between two factions of Daleks, and the Doctor must manipulate the situation to prevent catastrophe."
+    },
+    {
+      "plot_summary": "Part 1: The Doctor and Ace arrive in London. They discover the Daleks are after something significant and investigate Coal Hill School, leading to confrontations with Daleks and military personnel."
+    },
+    {
+      "plot_summary": "Part 2: The Doctor and Ace evade capture and the Imperial Daleks attack, forcing them to regroup and prepare for battle against the Daleks."
+    },
+    {
+      "plot_summary": "Part 3: The Doctor devises a plan to use the Daleks\u2019 technology against them while Ace faces danger herself at Coal Hill School."
+    },
+    {
+      "plot_summary": "Part 4: A climactic confrontation occurs between Dalek factions, leading to the destruction of Skaro and the Doctor's clever manipulation of the Hand of Omega, leaving Ace to contemplate the moral implications of their actions."
+    }
+  ]
+}

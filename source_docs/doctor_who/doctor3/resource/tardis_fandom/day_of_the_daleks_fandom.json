@@ -1,0 +1,171 @@
+{
+  "metadata": {
+    "title": "Day of the Daleks",
+    "series": "Doctor Who",
+    "season": "9",
+    "release_date": "1 January 1972",
+    "release_end_date": "22 January 1972",
+    "writer": "Louis Marks",
+    "director": "Paul Bernard",
+    "producer": "Barry Letts",
+    "main_actors": [
+      "Jon Pertwee",
+      "Katy Manning",
+      "Nicholas Courtney",
+      "John Levene",
+      "Richard Franklin",
+      "Wilfred Carter",
+      "Jimmy Winston",
+      "Anna Barry",
+      "Scott Fredericks",
+      "Aubrey Woods",
+      "Jean McFarlane",
+      "Deborah Brayshaw",
+      "Alex MacIntosh"
+    ],
+    "time_reference": "22nd century and alternate timeline"
+  },
+  "cast_crew": [
+    {
+      "cast": {
+        "name": "Jon Pertwee",
+        "role": "Doctor"
+      },
+      "crew": {
+        "name": "Paul Bernard",
+        "role": "Director"
+      }
+    },
+    {
+      "cast": {
+        "name": "Katy Manning",
+        "role": "Jo Grant"
+      },
+      "crew": {
+        "name": "Barry Letts",
+        "role": "Producer"
+      }
+    },
+    {
+      "cast": {
+        "name": "Nicholas Courtney",
+        "role": "Brigadier Lethbridge-Stewart"
+      },
+      "crew": {
+        "name": "Louis Marks",
+        "role": "Writer"
+      }
+    },
+    {
+      "cast": {
+        "name": "John Levene",
+        "role": "Sergeant Benton"
+      },
+      "crew": {
+        "name": "Terrance Dicks",
+        "role": "Script Editor"
+      }
+    },
+    {
+      "cast": {
+        "name": "Richard Franklin",
+        "role": "Captain Mike Yates"
+      },
+      "crew": {
+        "name": "Dudley Simpson",
+        "role": "Incidental Music"
+      }
+    }
+  ],
+  "home_media": [
+    {
+      "releases": {
+        "media_type": "VHS",
+        "date": "July 1986",
+        "details": "Edited movie format",
+        "special_features": []
+      }
+    },
+    {
+      "releases": {
+        "media_type": "DVD",
+        "date": "12 September 2011",
+        "details": "Special Edition with new CGI effects and vocal re-recordings.",
+        "special_features": [
+          "Commentary by cast and crew",
+          "Behind-the-scenes documentary",
+          "Photograph gallery",
+          "Production subtitles"
+        ]
+      }
+    },
+    {
+      "releases": {
+        "media_type": "BLU_RAY",
+        "date": "2023",
+        "details": "Re-released with special features.",
+        "special_features": []
+      }
+    }
+  ],
+  "story_notes": [
+    {
+      "notes": [
+        "This serial marks the return of the Daleks as ongoing adversaries after five years.",
+        "Features the first appearance of the Ogrons.",
+        "Notable for being the first Dalek story produced in color."
+      ]
+    }
+  ],
+  "worldbuilding": {
+    "in_universe_mythology": [],
+    "real_world_cultural_references": [
+      "The freedom fighters are inspired by real revolutionary figures."
+    ],
+    "individuals": [
+      "Sir Reginald Styles",
+      "General of the guerillas",
+      "Controller of the Daleks"
+    ],
+    "items": [
+      "Time transmitter",
+      "Ultrasonic disintegrator",
+      "Dalekinium"
+    ],
+    "locations": [
+      "Auderly House",
+      "22nd century Earth",
+      "Military conference site"
+    ]
+  },
+  "ratings": {
+    "ratings_millions": [
+      {
+        "part": "Episode One",
+        "viewers": 9.9
+      },
+      {
+        "part": "Episode Two",
+        "viewers": 10.6
+      },
+      {
+        "part": "Episode Three",
+        "viewers": 9.2
+      },
+      {
+        "part": "Episode Four",
+        "viewers": 9.5
+      }
+    ]
+  },
+  "continuity": {
+    "continuity_notes": [
+      "This story dealt with time travel and temporal paradoxes."
+    ]
+  },
+  "plot": [
+    {
+      "plot_summary": "Freedom fighters from the 22nd Century attempt to thwart a new Dalek invasion of Earth by going back in time to assassinate Sir Reginald Styles, whose actions their history blames for the subsequent Dalek conquest."
+    }
+  ]
+}

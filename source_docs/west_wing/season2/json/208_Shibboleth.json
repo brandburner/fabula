@@ -1,0 +1,3408 @@
+{
+    "Series": "'Shibboleth'",
+    "Episode": {
+        "Number": "2.8",
+        "Title": "Shibboleth",
+        "Original Airdate": "November 22, 2000, 9:00 P.M. EST",
+        "Credits": {
+            "Teleplay By": "AARON SORKIN",
+            "Story By": "PATRICK H. CADDELL",
+            "Directed By": "LAURA INNES"
+        },
+        "Sections": [
+            {
+                "Section": "Teaser",
+                "Scenes": [
+                    {
+                        "Scene Heading": "FADE IN: EXT. SAN DIEGO HARBOR - NIGHT",
+                        "Description": "24TH STREET TERMINAL",
+                        "Dialogues": [
+                            {
+                                "Character": "SAN DIEGO HARBOR",
+                                "Line": "As we see the night sky, we hear a garbled sound from a radio. A man speaks."
+                            },
+                            {
+                                "Character": "MAN",
+                                "Line": "Yeah, I'm gonna need Romero and Rydell on a backup. We close in on a small ship. Surrounding it are several boats by the dock, paramedic trucks and police cars by the harbor. The United States Coast Guard is all over the place.",
+                                "Descriptor": "OS"
+                            },
+                            {
+                                "Character": "MAN",
+                                "Line": "I'm gonna need them there in 20... In about 20.",
+                                "Descriptor": "OS"
+                            },
+                            {
+                                "Character": "RADIO",
+                                "Line": "Why the priority?",
+                                "Descriptor": "VO"
+                            },
+                            {
+                                "Character": "MAN",
+                                "Line": "It's 'cause we need a support team out there. Over.",
+                                "Descriptor": "OS"
+                            },
+                            {
+                                "Character": "RADIO",
+                                "Line": "Yes sir. The camera pans and we see the man, COMMANDER CALE of the Coast Guard, now talking to another man, a few feet from the police cars.",
+                                "Descriptor": "VO"
+                            },
+                            {
+                                "Character": "COMMANDER CALE",
+                                "Line": "Oh. Take this right over there. Okay? The man nods and leaves. Behind Cale, a car pulls over. The I.N.S. man, JOSEPH RUSSO, comes out quickly and approaches the commander."
+                            },
+                            {
+                                "Character": "JOSEPH RUSSO",
+                                "Line": "Commander Cale!"
+                            },
+                            {
+                                "Character": "CALE",
+                                "Line": "Yeah?"
+                            },
+                            {
+                                "Character": "RUSSO",
+                                "Line": "Joseph Russo, I.N.S. They shake hands and shout over all the sounds of the place."
+                            },
+                            {
+                                "Character": "CALE",
+                                "Line": "It's a container ship, Horizon. We're holding them a mile out. They started from the Fujian Province."
+                            },
+                            {
+                                "Character": "RUSSO",
+                                "Line": "How many?"
+                            },
+                            {
+                                "Character": "CALE",
+                                "Line": "About a hundred."
+                            },
+                            {
+                                "Character": "RUSSO",
+                                "Line": "Did you call the State Department?"
+                            },
+                            {
+                                "Character": "CALE",
+                                "Line": "Yeah. We're gonna need some translators who speak Mandarin."
+                            },
+                            {
+                                "Character": "RUSSO",
+                                "Line": "We got 'em. A helicopter roars overhead."
+                            },
+                            {
+                                "Character": "CALE",
+                                "Line": "Are we talking about expedited removal, or...?"
+                            },
+                            {
+                                "Character": "RUSSO",
+                                "Line": "I'm sorry?"
+                            },
+                            {
+                                "Character": "CALE",
+                                "Line": "Are we talking about expedited removal?"
+                            },
+                            {
+                                "Character": "RUSSO",
+                                "Line": "That's not up to me. They part ways. A troubled look on Cale's face as Russo heads back to the car."
+                            }
+                        ]
+                    },
+                    {
+                        "Scene Heading": "CUT TO: EXT. THE WHITE HOUSE - NIGHT",
+                        "Description": "We see a nice overhead shot of the White House. Sam speaks.",
+                        "Dialogues": [
+                            {
+                                "Character": "SAM",
+                                "Line": "Well over three and a half centuries ago, sprinkling by faith and bound by a common desire for liberty...",
+                                "Descriptor": "VO"
+                            }
+                        ]
+                    },
+                    {
+                        "Scene Heading": "CUT TO: INT. A DARK OFFICE - CONTINUOUS",
+                        "Description": "Sam is sitting on a couch reading from a piece of paper. Toby watches him, as he swings left to right on his chair.",
+                        "Dialogues": [
+                            {
+                                "Character": "SAM",
+                                "Line": "A small band of pilgrims sought out a place in the New World where they could worship according to their own beliefs... and solve crimes.",
+                                "Descriptor": "cont."
+                            },
+                            {
+                                "Character": "TOBY",
+                                "Line": "Sam..."
+                            },
+                            {
+                                "Character": "SAM",
+                                "Line": "It'd be good."
+                            },
+                            {
+                                "Character": "TOBY",
+                                "Line": "Read the thing."
+                            },
+                            {
+                                "Character": "SAM",
+                                "Line": "By day, they churn butter and worship according to their own beliefs and by night, they solve crimes."
+                            },
+                            {
+                                "Character": "TOBY",
+                                "Line": "Read the thing."
+                            },
+                            {
+                                "Character": "SAM",
+                                "Line": "Pilgrim detectives."
+                            },
+                            {
+                                "Character": "TOBY",
+                                "Line": "Do you see me laughing?"
+                            },
+                            {
+                                "Character": "SAM",
+                                "Line": "I think you're laughing on the inside."
+                            },
+                            {
+                                "Character": "TOBY",
+                                "Line": "Okay."
+                            },
+                            {
+                                "Character": "SAM",
+                                "Line": "With the big hats."
+                            },
+                            {
+                                "Character": "TOBY",
+                                "Line": "Give me the speech. C.J. enters as Toby switches chairs."
+                            },
+                            {
+                                "Character": "C.J.",
+                                "Line": "Have either of you heard of... uh, I don't know, something, the... Jamestown Mayflower Daughters of the American Revolution Preservation Soceity?"
+                            },
+                            {
+                                "Character": "TOBY",
+                                "Line": "The Jamestown Mayflower Daughters?"
+                            },
+                            {
+                                "Character": "C.J.",
+                                "Line": "I may have gotten the name wrong. They're inviting the White House to participate in some kind of... I don't know, Thanksgiving Revolutionary War re-enactment."
+                            },
+                            {
+                                "Character": "TOBY",
+                                "Line": "C.J., let's not torture American History completely to death."
+                            },
+                            {
+                                "Character": "C.J.",
+                                "Line": "Who the hell are...?"
+                            },
+                            {
+                                "Character": "TOBY",
+                                "Line": "Jamestown was the 16th century. The Mayflower landed at Plymouth in the 17th century. The Fathers of the Daughters of the American Revolution fought in...? C.J. throws up her arms."
+                            },
+                            {
+                                "Character": "TOBY",
+                                "Line": "The 18th century!"
+                            },
+                            {
+                                "Character": "C.J.",
+                                "Line": "It's a festival feast of some kind! Who cares? C.J. walks next door to her office to get her jacket."
+                            },
+                            {
+                                "Character": "SAM",
+                                "Line": "[to Toby] Somebody needs to learn the true meaning of Thanksgiving. C.J. comes back while putting on her jacket. She stands by the door."
+                            },
+                            {
+                                "Character": "C.J.",
+                                "Line": "Re-enactments and proclamations and Native American cornhusks hanging contests with native..."
+                            },
+                            {
+                                "Character": "TOBY",
+                                "Line": "Cornhusks hanging?"
+                            },
+                            {
+                                "Character": "C.J.",
+                                "Line": "Whatever. I'm the Thanksgiving cruise director around here."
+                            },
+                            {
+                                "Character": "SAM",
+                                "Line": "It wasn't like this last year?"
+                            },
+                            {
+                                "Character": "C.J.",
+                                "Line": "I wasn't here last year."
+                            },
+                            {
+                                "Character": "SAM",
+                                "Line": "Where were you last year?"
+                            },
+                            {
+                                "Character": "C.J.",
+                                "Line": "They sent me home last year. You don't remember me having a 102.7-degree fever and having all kinds of flu-like symptoms?"
+                            },
+                            {
+                                "Character": "TOBY",
+                                "Line": "No."
+                            },
+                            {
+                                "Character": "C.J.",
+                                "Line": "That's 'cause every time we come up on a holiday, you guys check out like seniors who are done with finals."
+                            },
+                            {
+                                "Character": "TOBY",
+                                "Line": "We are writing a very important Thanksgiving proclamation."
+                            },
+                            {
+                                "Character": "SAM",
+                                "Line": "And possibly a new action-adventure series."
+                            },
+                            {
+                                "Character": "TOBY",
+                                "Line": "Nobody here has checked out."
+                            },
+                            {
+                                "Character": "JOSH",
+                                "Line": "[walks up] Hey, I was just flipping a nickel in my office. Sixteen times in a row, it came out tails. C.J. looks knowingly at Toby and Sam."
+                            },
+                            {
+                                "Character": "C.J.",
+                                "Line": "I'm going home."
+                            },
+                            {
+                                "Character": "TOBY",
+                                "Line": "Have a good night."
+                            },
+                            {
+                                "Character": "C.J.",
+                                "Line": "Yeah. Yeah. C.J. leaves, and Josh enters."
+                            },
+                            {
+                                "Character": "JOSH",
+                                "Line": "Sixteen times in a row. [flips his nickel again] Yeah. Donna shows up at the door. The guys look up."
+                            },
+                            {
+                                "Character": "DONNA",
+                                "Line": "Excuse me, fellas. [looks at somebody out the hall] It's okay. You can come in here. No response. Donna motions for the guys to come out into the hall. Josh, Sam and Toby come out of the room and see what was out in the HALLWAY. Behind Donna is MORTON HORN, along with two turkeys, gobbling inside their own cages."
+                            },
+                            {
+                                "Character": "DONNA",
+                                "Line": "This is Morton Horn. He's from Jasper Farms, Virginia. [to Morton] Tell them what you're doing here, Morton."
+                            },
+                            {
+                                "Character": "MORTON HORN",
+                                "Line": "I'm dropping off the turkeys."
+                            },
+                            {
+                                "Character": "DONNA",
+                                "Line": "He's dropping off the turkeys."
+                            },
+                            {
+                                "Character": "TOBY",
+                                "Line": "What are, uh...?"
+                            },
+                            {
+                                "Character": "DONNA",
+                                "Line": "Nobody left me instructions. He had a pass from the Northwest Entrance."
+                            },
+                            {
+                                "Character": "MORTON",
+                                "Line": "I'm dropping off the turkeys."
+                            },
+                            {
+                                "Character": "TOBY",
+                                "Line": "Yeah."
+                            },
+                            {
+                                "Character": "MORTON",
+                                "Line": "Where should I put 'em? After a moment, the guys seem to agree on their responses."
+                            },
+                            {
+                                "Character": "JOSH",
+                                "Line": "C.J.'s office."
+                            },
+                            {
+                                "Character": "SAM",
+                                "Line": ""
+                            },
+                            {
+                                "Character": "C.J.",
+                                "Line": ""
+                            },
+                            {
+                                "Character": "JOSH",
+                                "Line": "I'd definitely put them in C.J.'s office."
+                            },
+                            {
+                                "Character": "TOBY",
+                                "Line": "Good idea."
+                            },
+                            {
+                                "Character": "JOSH",
+                                "Line": "C.J. Cregg's office."
+                            },
+                            {
+                                "Character": "SAM",
+                                "Line": "It's right there."
+                            },
+                            {
+                                "Character": "TOBY",
+                                "Line": "Well, C.J.'s office is right there..."
+                            },
+                            {
+                                "Character": "JOSH",
+                                "Line": "C.J. handles all the..."
+                            },
+                            {
+                                "Character": "TOBY",
+                                "Line": "Donna will show you."
+                            },
+                            {
+                                "Character": "JOSH",
+                                "Line": "...birds."
+                            },
+                            {
+                                "Character": "TOBY",
+                                "Line": ""
+                            },
+                            {
+                                "Character": "C.J.",
+                                "Line": ""
+                            },
+                            {
+                                "Character": "JOSH",
+                                "Line": "Yeah."
+                            },
+                            {
+                                "Character": "DONNA",
+                                "Line": "Okay."
+                            },
+                            {
+                                "Character": "TOBY",
+                                "Line": "And Morton, Ms. Cregg is gone for the night, uh, and her office is secure, so you should feel free to let the turkeys out of the cage, and allow them to, you know, roam freely, as they were meant to do."
+                            },
+                            {
+                                "Character": "JOSH",
+                                "Line": "[after nodding] Absolutely."
+                            },
+                            {
+                                "Character": "MORTON",
+                                "Line": "Okay."
+                            },
+                            {
+                                "Character": "TOBY",
+                                "Line": "Okay. The turkeys gobble as Morton gets them ready to walk off."
+                            },
+                            {
+                                "Character": "JOSH",
+                                "Line": "Show her who's slacking off. [flips his nickel again]"
+                            },
+                            {
+                                "Character": "TOBY",
+                                "Line": "Pizza? Sam nods."
+                            },
+                            {
+                                "Character": "JOSH",
+                                "Line": "Yeah. Toby and Sam go back inside the room. Bonnie walks up behind Josh. They walk to JOSH'S"
+                            },
+                            {
+                                "Character": "BULLPEN AREA.",
+                                "Line": ""
+                            },
+                            {
+                                "Character": "BONNIE",
+                                "Line": "Josh, they need you on the phone."
+                            },
+                            {
+                                "Character": "JOSH",
+                                "Line": "What's going on?"
+                            },
+                            {
+                                "Character": "BONNIE",
+                                "Line": "A Commander Cale of the Coast Guard is talking to the watch commander in the Situation Room, and they want you to sit in on the call."
+                            },
+                            {
+                                "Character": "JOSH",
+                                "Line": "Why? He picks up a phone and pushes a button as Bonnie walks away."
+                            },
+                            {
+                                "Character": "BONNIE",
+                                "Line": "I don't know. Something about a boat from China."
+                            },
+                            {
+                                "Character": "JOSH",
+                                "Line": "[into phone] Josh Lyman."
+                            }
+                        ]
+                    },
+                    {
+                        "Scene Heading": "SMASH CUT TO: MAIN TITLES.",
+                        "Description": "",
+                        "Dialogues": [
+                            {
+                                "Character": "END TEASER",
+                                "Line": "* * *"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "Section": "Act One",
+                "Scenes": [
+                    {
+                        "Scene Heading": "FADE IN: EXT. WASHINGTON D.C. - DAY",
+                        "Description": "",
+                        "Dialogues": [
+                            {
+                                "Character": "MONDAY MORNING",
+                                "Line": "We see an outside view of the White House and Washington Monument."
+                            }
+                        ]
+                    },
+                    {
+                        "Scene Heading": "CUT TO: INT. LEO'S OFFICE - CONTINUOUS",
+                        "Description": "Josh and Leo walk inside.",
+                        "Dialogues": [
+                            {
+                                "Character": "JOSH",
+                                "Line": "It's an 800-foot container ship called the Horizon. Eighty-three Chinese were stowed away in containers in the hold."
+                            },
+                            {
+                                "Character": "LEO",
+                                "Line": "I heard 96."
+                            },
+                            {
+                                "Character": "JOSH",
+                                "Line": "Thirteen of them died on the way."
+                            },
+                            {
+                                "Character": "LEO",
+                                "Line": "What happened to the dead bodies?"
+                            },
+                            {
+                                "Character": "JOSH",
+                                "Line": "They came over with the 83 lives ones. INS has them in a temporary detention facility by the water."
+                            },
+                            {
+                                "Character": "LEO",
+                                "Line": "Brief C.J."
+                            },
+                            {
+                                "Character": "JOSH",
+                                "Line": "[gets up to leave] You doing anything for Thanksgiving?"
+                            },
+                            {
+                                "Character": "LEO",
+                                "Line": "The First Family. What about you?"
+                            },
+                            {
+                                "Character": "JOSH",
+                                "Line": "Toby and Sam and I are gonna watch football."
+                            },
+                            {
+                                "Character": "LEO",
+                                "Line": "Brief C.J. on the Chinese."
+                            },
+                            {
+                                "Character": "JOSH",
+                                "Line": "Yeah. Leo, do me a favor, would you? Don't tell the President we're just watching football. He'll want to invite us for dinner."
+                            },
+                            {
+                                "Character": "LEO",
+                                "Line": "Well yes, I'm sure upon hearing the news that you're free the President of the United States will insist that you join him for dinner."
+                            },
+                            {
+                                "Character": "JOSH",
+                                "Line": "I'm just saying, we've been working hard and we'd prefer to watch football rather than listen to a history of the yam in Latin."
+                            },
+                            {
+                                "Character": "LEO",
+                                "Line": "Brief C.J.!"
+                            },
+                            {
+                                "Character": "JOSH",
+                                "Line": "Yeah. Josh walks out to hallway and sees C.J. They talk as they walk through towards their offices."
+                            },
+                            {
+                                "Character": "JOSH",
+                                "Line": "Hey!"
+                            },
+                            {
+                                "Character": "C.J.",
+                                "Line": "Hello."
+                            },
+                            {
+                                "Character": "JOSH",
+                                "Line": "Listen..."
+                            },
+                            {
+                                "Character": "C.J.",
+                                "Line": "What?"
+                            },
+                            {
+                                "Character": "JOSH",
+                                "Line": "About a hundred Chinese stowed away in a cargo hold of a container ship. INS has them in a temporary internment camp in San Diego."
+                            },
+                            {
+                                "Character": "C.J.",
+                                "Line": "I'll need more than that."
+                            },
+                            {
+                                "Character": "JOSH",
+                                "Line": "I don't have more than that, but I will in a few minutes, so stay out of the pressroom until you talk to me."
+                            },
+                            {
+                                "Character": "C.J.",
+                                "Line": "What about the recess appointments?"
+                            },
+                            {
+                                "Character": "JOSH",
+                                "Line": "Toby wants to talk to you about adding a name."
+                            },
+                            {
+                                "Character": "C.J.",
+                                "Line": "Who?"
+                            },
+                            {
+                                "Character": "JOSH",
+                                "Line": "Josephine McGarry."
+                            },
+                            {
+                                "Character": "C.J.",
+                                "Line": "Really?"
+                            },
+                            {
+                                "Character": "JOSH",
+                                "Line": "Yeah."
+                            },
+                            {
+                                "Character": "C.J.",
+                                "Line": "Is this as a favor to Leo?"
+                            },
+                            {
+                                "Character": "JOSH",
+                                "Line": "This is Toby sniffing around for a fight on school prayer."
+                            },
+                            {
+                                "Character": "C.J.",
+                                "Line": "He'll get one. Josh hangs back as C.J. heads toward her office."
+                            },
+                            {
+                                "Character": "C.J.",
+                                "Line": "Well, I'm gonna see what's next for me in this week of unendurable Thanksgiving nonsense."
+                            },
+                            {
+                                "Character": "JOSH",
+                                "Line": "Okay."
+                            },
+                            {
+                                "Character": "CAROL",
+                                "Line": "Hey C.J."
+                            },
+                            {
+                                "Character": "C.J.",
+                                "Line": "Hey Carol. C.J. walks into her OFFICE, not noticing the turkey on her couch and the turkey on her desk. She's looking over some papers and starts taking her coat off when she notices the birds."
+                            },
+                            {
+                                "Character": "CAROL",
+                                "Line": "Oh yeah, the turkeys came. Donna runs up from down the hall."
+                            },
+                            {
+                                "Character": "DONNA",
+                                "Line": "Wait, wait, wait, wait, wait... I'm coming! [enters] I didn't know you were here yet."
+                            },
+                            {
+                                "Character": "C.J.",
+                                "Line": "I am."
+                            },
+                            {
+                                "Character": "DONNA",
+                                "Line": "The turkeys came."
+                            },
+                            {
+                                "Character": "C.J.",
+                                "Line": "So Carol said."
+                            },
+                            {
+                                "Character": "CAROL",
+                                "Line": "Excuse me. [leaves]"
+                            },
+                            {
+                                "Character": "DONNA",
+                                "Line": "Josh and Toby and Sam said they should go in your office."
+                            },
+                            {
+                                "Character": "C.J.",
+                                "Line": "Yes."
+                            },
+                            {
+                                "Character": "DONNA",
+                                "Line": "These are the turkeys."
+                            },
+                            {
+                                "Character": "C.J.",
+                                "Line": "The turkeys for what?"
+                            },
+                            {
+                                "Character": "DONNA",
+                                "Line": "You weren't here last year."
+                            },
+                            {
+                                "Character": "C.J.",
+                                "Line": "When?"
+                            },
+                            {
+                                "Character": "DONNA",
+                                "Line": "Over Thanksgiving. You were sick."
+                            },
+                            {
+                                "Character": "C.J.",
+                                "Line": "Yes."
+                            },
+                            {
+                                "Character": "DONNA",
+                                "Line": "Ever year on Thanksgiving, the President pardons a turkey."
+                            },
+                            {
+                                "Character": "C.J.",
+                                "Line": "He pardons a turkey."
+                            },
+                            {
+                                "Character": "DONNA",
+                                "Line": "Yeah, and it's your event, so..."
+                            },
+                            {
+                                "Character": "C.J.",
+                                "Line": "What, are there two?"
+                            },
+                            {
+                                "Character": "DONNA",
+                                "Line": "I'm sorry?"
+                            },
+                            {
+                                "Character": "C.J.",
+                                "Line": "Why are there two turkeys?"
+                            },
+                            {
+                                "Character": "DONNA",
+                                "Line": "Customarily, the Press Secretary decides--"
+                            },
+                            {
+                                "Character": "C.J.",
+                                "Line": "No."
+                            },
+                            {
+                                "Character": "DONNA",
+                                "Line": "--which of the two finalists is more photogenic. Their names--"
+                            },
+                            {
+                                "Character": "C.J.",
+                                "Line": "I don't want to know their names."
+                            },
+                            {
+                                "Character": "DONNA",
+                                "Line": "This one's Eric and this one's Troy."
+                            },
+                            {
+                                "Character": "C.J.",
+                                "Line": "Eric and Troy."
+                            },
+                            {
+                                "Character": "DONNA",
+                                "Line": "Yeah."
+                            },
+                            {
+                                "Character": "C.J.",
+                                "Line": "And I'm to choose the more photogenic of the two to receive a Presidential pardon."
+                            },
+                            {
+                                "Character": "DONNA",
+                                "Line": "Yeah."
+                            },
+                            {
+                                "Character": "C.J.",
+                                "Line": "Okay, I have actually a Masters degree from the University of California at Berkeley."
+                            },
+                            {
+                                "Character": "DONNA",
+                                "Line": "That's a good school."
+                            },
+                            {
+                                "Character": "C.J.",
+                                "Line": "Yeah. The turkeys start making noises as C.J. stares incredulously."
+                            },
+                            {
+                                "Character": "DONNA",
+                                "Line": "They eat grain or really whatever's lying around, and Troy doesn't like to be touched. C.J. stares at Troy."
+                            },
+                            {
+                                "Character": "C.J.",
+                                "Line": "Okay. I'd like to be alone now."
+                            },
+                            {
+                                "Character": "DONNA",
+                                "Line": "I understand. Donna leaves as C.J. stares with her jacket still halfway off."
+                            }
+                        ]
+                    },
+                    {
+                        "Scene Heading": "CUT TO: INT. COMMUNICATIONS OFFICE - DAY",
+                        "Description": "Charlie is walking through with a shopping bag in his hand. Sam sees him.",
+                        "Dialogues": [
+                            {
+                                "Character": "SAM",
+                                "Line": "Hey!"
+                            },
+                            {
+                                "Character": "CHARLIE",
+                                "Line": "Hey Sam. They walk and talk in the HALLWAY."
+                            },
+                            {
+                                "Character": "SAM",
+                                "Line": "What's going on?"
+                            },
+                            {
+                                "Character": "CHARLIE",
+                                "Line": "I'm shopping for a new carving knife for the President."
+                            },
+                            {
+                                "Character": "SAM",
+                                "Line": "Yes, the President takes carving knives very seriously."
+                            },
+                            {
+                                "Character": "CHARLIE",
+                                "Line": "Yes, I've discovered."
+                            },
+                            {
+                                "Character": "SAM",
+                                "Line": "Would you mind telling him I'm gonna need a few minutes to talk about the Chinese in San Diego? Something's going on."
+                            },
+                            {
+                                "Character": "CHARLIE",
+                                "Line": "What?"
+                            },
+                            {
+                                "Character": "SAM",
+                                "Line": "We're just getting it in now. Sam heads off down the hallway as Charlie enters the OUTER OVAL OFFICE."
+                            },
+                            {
+                                "Character": "MRS. LANDINGHAM",
+                                "Line": "How'd it go?"
+                            },
+                            {
+                                "Character": "CHARLIE",
+                                "Line": "I think I've got it this time."
+                            },
+                            {
+                                "Character": "MRS. LANDINGHAM",
+                                "Line": "Well I wouldn't get your hopes up, dear."
+                            },
+                            {
+                                "Character": "CHARLIE",
+                                "Line": "Nope, this is a very good knife."
+                            },
+                            {
+                                "Character": "MRS. LANDINGHAM",
+                                "Line": "He's very particular."
+                            },
+                            {
+                                "Character": "CHARLIE",
+                                "Line": "That's one word for it."
+                            },
+                            {
+                                "Character": "MRS. LANDINGHAM",
+                                "Line": "I heard that! Charlie enters THE OVAL OFFICE."
+                            },
+                            {
+                                "Character": "CHARLIE",
+                                "Line": "Mr. President?"
+                            },
+                            {
+                                "Character": "BARTLET",
+                                "Line": "Ah!"
+                            },
+                            {
+                                "Character": "CHARLIE",
+                                "Line": "I think you'll find this to your liking, Mr. President. Charlie opens a box with a carving knife inside."
+                            },
+                            {
+                                "Character": "BARTLET",
+                                "Line": "Yes, yes! Indeed I do."
+                            },
+                            {
+                                "Character": "CHARLIE",
+                                "Line": "Excellent."
+                            },
+                            {
+                                "Character": "BARTLET",
+                                "Line": "Chef's choice. Twice the amount of carbon, which means it'll hold a sharp edge up to ten times longer and you can see the handle which texturized molded polymer has no rivets or air pockets."
+                            },
+                            {
+                                "Character": "CHARLIE",
+                                "Line": "Well, I'm glad you're happy, Mr. President."
+                            },
+                            {
+                                "Character": "BARTLET",
+                                "Line": "This is an American knife."
+                            },
+                            {
+                                "Character": "CHARLIE",
+                                "Line": "Yes."
+                            },
+                            {
+                                "Character": "BARTLET",
+                                "Line": "No German knives for us."
+                            },
+                            {
+                                "Character": "CHARLIE",
+                                "Line": "No, sir."
+                            },
+                            {
+                                "Character": "BARTLET",
+                                "Line": "Good job."
+                            },
+                            {
+                                "Character": "CHARLIE",
+                                "Line": "Thank you, sir. [turns to leave]"
+                            },
+                            {
+                                "Character": "BARTLET",
+                                "Line": "Hold on. Charlie turns back around and sees Bartlet carving the air with the knife."
+                            },
+                            {
+                                "Character": "CHARLIE",
+                                "Line": "Sir?"
+                            },
+                            {
+                                "Character": "BARTLET",
+                                "Line": "Nah... Nah. No, the balance isn't right."
+                            },
+                            {
+                                "Character": "CHARLIE",
+                                "Line": "[sighs] I'll take it back, sir."
+                            },
+                            {
+                                "Character": "BARTLET",
+                                "Line": "Yeah. You know what we need?"
+                            },
+                            {
+                                "Character": "CHARLIE",
+                                "Line": "A German knife?"
+                            },
+                            {
+                                "Character": "BARTLET",
+                                "Line": "Yeah."
+                            },
+                            {
+                                "Character": "CHARLIE",
+                                "Line": "I'll get on it. And Mr. President, Sam asked me to give you a heads up. He'll need a few minutes to talk about San Diego."
+                            },
+                            {
+                                "Character": "BARTLET",
+                                "Line": "You tell him they already briefed me on San Diego."
+                            },
+                            {
+                                "Character": "CHARLIE",
+                                "Line": "He said there might be something else."
+                            },
+                            {
+                                "Character": "BARTLET",
+                                "Line": "Okay."
+                            },
+                            {
+                                "Character": "CHARLIE",
+                                "Line": "Thank you, Mr. President. Charlie leaves as Toby enters the Oval Office."
+                            },
+                            {
+                                "Character": "TOBY",
+                                "Line": "Sir."
+                            },
+                            {
+                                "Character": "BARTLET",
+                                "Line": "The German's know how to make a knife, Charlie!"
+                            },
+                            {
+                                "Character": "CHARLIE",
+                                "Line": "Yes sir."
+                            },
+                            {
+                                "Character": "BARTLET",
+                                "Line": "[to Toby] Josephine McGarry?"
+                            },
+                            {
+                                "Character": "TOBY",
+                                "Line": "She's been put on a lot of short lists. Why not pull the trigger?"
+                            },
+                            {
+                                "Character": "BARTLET",
+                                "Line": "She's a controversial woman."
+                            },
+                            {
+                                "Character": "TOBY",
+                                "Line": "That's not a flaw."
+                            },
+                            {
+                                "Character": "BARTLET",
+                                "Line": "It is when it's a recess appointment. A recess appointment assumes the Senate's gonna have no problem with the nominee. The Senate is going to have a considerable problem with this nominee."
+                            },
+                            {
+                                "Character": "TOBY",
+                                "Line": "That's the Senate's problem."
+                            },
+                            {
+                                "Character": "BARTLET",
+                                "Line": "Toby..."
+                            },
+                            {
+                                "Character": "TOBY",
+                                "Line": "Mr. President, you want to have a debate on school prayer?"
+                            },
+                            {
+                                "Character": "BARTLET",
+                                "Line": "Yes, I do."
+                            },
+                            {
+                                "Character": "TOBY",
+                                "Line": "This'll do it."
+                            },
+                            {
+                                "Character": "BARTLET",
+                                "Line": "I got to say... look, I'm just... Toby, I'm not wild about the woman. I've known her for 25 years and I think she's all about Eve."
+                            },
+                            {
+                                "Character": "TOBY",
+                                "Line": "Well, I wouldn't cast her in a play, but at the Department of Education... Leo knocks on the door and walks in."
+                            },
+                            {
+                                "Character": "LEO",
+                                "Line": "Good morning."
+                            },
+                            {
+                                "Character": "TOBY",
+                                "Line": "[to Bartlet] You want to have a debate on school prayer?"
+                            },
+                            {
+                                "Character": "BARTLET",
+                                "Line": "Yeah."
+                            },
+                            {
+                                "Character": "TOBY",
+                                "Line": "This'll start it."
+                            },
+                            {
+                                "Character": "LEO",
+                                "Line": "What're we talking about?"
+                            },
+                            {
+                                "Character": "BARTLET",
+                                "Line": "Recess appointments."
+                            },
+                            {
+                                "Character": "LEO",
+                                "Line": "I've got the final list right here."
+                            },
+                            {
+                                "Character": "BARTLET",
+                                "Line": "Hey Leo..."
+                            },
+                            {
+                                "Character": "LEO",
+                                "Line": "[reading from his list] \"James Alkins, Assistant Secretary of Transportation for Aviation; Leslie Krier, Assistant Secretary of Commerce for Ecological Development; Humberto CPO Department Administrator for the EPA...\""
+                            },
+                            {
+                                "Character": "TOBY",
+                                "Line": "Leo, we're adding a name."
+                            },
+                            {
+                                "Character": "LEO",
+                                "Line": "Who?"
+                            },
+                            {
+                                "Character": "BARTLET",
+                                "Line": "Josey."
+                            },
+                            {
+                                "Character": "LEO",
+                                "Line": "No. No!"
+                            },
+                            {
+                                "Character": "BARTLET",
+                                "Line": "Assistant Secretary for Primary and Secondary Education."
+                            },
+                            {
+                                "Character": "LEO",
+                                "Line": "Did my sister...?"
+                            },
+                            {
+                                "Character": "BARTLET",
+                                "Line": "We want the debate."
+                            },
+                            {
+                                "Character": "LEO",
+                                "Line": "...my sister call you and ask you for this?"
+                            },
+                            {
+                                "Character": "BARTLET",
+                                "Line": "She did not call me."
+                            },
+                            {
+                                "Character": "LEO",
+                                "Line": "I'm amazed!"
+                            },
+                            {
+                                "Character": "TOBY",
+                                "Line": "She called me."
+                            },
+                            {
+                                "Character": "LEO",
+                                "Line": "I'm less amazed. Take her name off the list."
+                            },
+                            {
+                                "Character": "BARTLET",
+                                "Line": "Not patronate, yet she's qualified."
+                            },
+                            {
+                                "Character": "LEO",
+                                "Line": "Sir..."
+                            },
+                            {
+                                "Character": "TOBY",
+                                "Line": "Which she is. Ph.D. in education, six years as a principal, four years as superintendent and a significant Democrat!"
+                            },
+                            {
+                                "Character": "LEO",
+                                "Line": "They'll bring up school prayer."
+                            },
+                            {
+                                "Character": "TOBY",
+                                "Line": "No kidding."
+                            },
+                            {
+                                "Character": "LEO",
+                                "Line": "Mr. President, please don't hop on the back of Toby's horse, it'll take you to a fight we're not geared up for."
+                            },
+                            {
+                                "Character": "TOBY",
+                                "Line": "We are geared up for it, and if we're not we should get out!"
+                            },
+                            {
+                                "Character": "LEO",
+                                "Line": "Sure! You first!"
+                            },
+                            {
+                                "Character": "TOBY",
+                                "Line": "I'll take the meetings."
+                            },
+                            {
+                                "Character": "LEO",
+                                "Line": "You're damn right, you'll take the meetings and you'll start with aides to the Republican leadership and you'll gauge exactly the volume of dumbness with no reward we can expect! Josh knocks on the door, and he and Sam enter."
+                            },
+                            {
+                                "Character": "JOSH",
+                                "Line": "Excuse me, Mr. President."
+                            },
+                            {
+                                "Character": "BARTLET",
+                                "Line": "[to Toby] Take the meetings."
+                            },
+                            {
+                                "Character": "TOBY",
+                                "Line": "I'm very happy to."
+                            },
+                            {
+                                "Character": "BARTLET",
+                                "Line": "[to Josh and Sam] Yeah?"
+                            },
+                            {
+                                "Character": "JOSH",
+                                "Line": "Mr. President, there's a wrinkle in the situation in San Diego."
+                            },
+                            {
+                                "Character": "LEO",
+                                "Line": "What is it?"
+                            },
+                            {
+                                "Character": "JOSH",
+                                "Line": "You're not gonna believe it."
+                            },
+                            {
+                                "Character": "BARTLET",
+                                "Line": "What?"
+                            },
+                            {
+                                "Character": "SAM",
+                                "Line": "They're claiming they're Christian Evangelicals fleeing persecution."
+                            },
+                            {
+                                "Character": "BARTLET",
+                                "Line": "You're kidding me."
+                            },
+                            {
+                                "Character": "JOSH",
+                                "Line": "They're seeking religious asylum."
+                            },
+                            {
+                                "Character": "BARTLET",
+                                "Line": "You're kidding me!"
+                            },
+                            {
+                                "Character": "SAM",
+                                "Line": "No."
+                            },
+                            {
+                                "Character": "JOSH",
+                                "Line": "The Christian community is gonna scream that they've got to stay, China's gonna say send them back, INS is gonna say the law's a law. This is a whole new thing."
+                            },
+                            {
+                                "Character": "BARTLET",
+                                "Line": "Yeah."
+                            },
+                            {
+                                "Character": "FADE OUT.",
+                                "Line": "* * *"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "Section": "Act Two",
+                "Scenes": [
+                    {
+                        "Scene Heading": "FADE IN: EXT. THE WHITE HOUSE - OVERHEAD SHOT - DAY",
+                        "Description": "",
+                        "Dialogues": [
+                            {
+                                "Character": "TUESDAY",
+                                "Line": ""
+                            }
+                        ]
+                    },
+                    {
+                        "Scene Heading": "CUT TO: INT. THE BRIEFING ROOM - CONTINUOUS",
+                        "Description": "C.J. is holding a briefing.",
+                        "Dialogues": [
+                            {
+                                "Character": "C.J.",
+                                "Line": "Well, the INS conducts something called a 'credible fear interview.' This is not a hearing on whether or not to grant asylum, just a hearing to determine if the detainee has a credible fear that they'll be harmed if returned to their country. The reporters wave their hands."
+                            },
+                            {
+                                "Character": "C.J.",
+                                "Line": "Steve."
+                            },
+                            {
+                                "Character": "STEVE",
+                                "Line": "Will the White House be meeting with leaders of the Christian community to hear their input?"
+                            },
+                            {
+                                "Character": "C.J.",
+                                "Line": "Yes, we will. On the following days, we will be meeting with Reverend Al Caldwell, members of Beijing's Embassy and INS agents. The president has asked Josh Lyman and Sam Seaborn to run these meetings so it's entirely possible that by week's end we'll have alienated Christians, China and our own government. The reporters laugh."
+                            },
+                            {
+                                "Character": "C.J.",
+                                "Line": "That's all I have on the refugees. I was going to release the list of recess appointments, but I'm going to wait a day.  I can tell you the list has been sent to appropriate committee chairs and I imagine one of them will leak it to you some time this afternoon. The reporters laugh again."
+                            },
+                            {
+                                "Character": "C.J.",
+                                "Line": "I'll also remind you that it's Thanksgiving week, which means the traditional presidential pardon...you know...of the chosen turkey. That will be Wednesday afternoon. Thursday morning, the president will make his Thanksgiving proclamation in the Rose Garden. Among the guests will be members of the Boys and Girls Clubs of America and members of the Big Brothers and Big Sisters of America."
+                            },
+                            {
+                                "Character": "REPORTER",
+                                "Line": "Will you be leading them in song?"
+                            },
+                            {
+                                "Character": "C.J.",
+                                "Line": "I'm sorry?"
+                            },
+                            {
+                                "Character": "REPORTER",
+                                "Line": "The press secretary usually leads the kids in song. C.J. looks to her right and then back to the REPORTER."
+                            },
+                            {
+                                "Character": "C.J.",
+                                "Line": "Yes, of course I will be leading them in song for I am the press secretary. The reporters laugh."
+                            },
+                            {
+                                "Character": "C.J.",
+                                "Line": "Thank you. She turns to leave the room as several reporters call her name. She looks at Carol."
+                            },
+                            {
+                                "Character": "C.J.",
+                                "Line": "I've got to learn some songs."
+                            }
+                        ]
+                    },
+                    {
+                        "Scene Heading": "CUT TO: INT. HALLWAY - CONTINUOUS",
+                        "Description": "We follow Sam and Josh who are walking down the hall.",
+                        "Dialogues": [
+                            {
+                                "Character": "JOSH",
+                                "Line": "Don't bring it up at the meeting."
+                            },
+                            {
+                                "Character": "SAM",
+                                "Line": "Josh..."
+                            },
+                            {
+                                "Character": "JOSH",
+                                "Line": "Don't bring it up at the meeting."
+                            },
+                            {
+                                "Character": "SAM",
+                                "Line": "A man in a threatened to blow up a theatre in the name of God!"
+                            },
+                            {
+                                "Character": "JOSH",
+                                "Line": "Yes."
+                            },
+                            {
+                                "Character": "SAM",
+                                "Line": "A theatre with people in it."
+                            },
+                            {
+                                "Character": "JOSH",
+                                "Line": "Yes."
+                            },
+                            {
+                                "Character": "SAM",
+                                "Line": "But sending illegal Chinese immigrants back to China is objectionable."
+                            },
+                            {
+                                "Character": "JOSH",
+                                "Line": "Don't bring it up at the meeting."
+                            },
+                            {
+                                "Character": "SAM",
+                                "Line": "It might slip out."
+                            },
+                            {
+                                "Character": "JOSH",
+                                "Line": "Shove it back in."
+                            },
+                            {
+                                "Character": "SAM",
+                                "Line": "Okay. Josh and Sam enter THE ROOSEVELT ROOM, where Reverend Al Caldwell, JOHN LA SALLE, and Mary Marsh are waiting for them."
+                            },
+                            {
+                                "Character": "JOSH",
+                                "Line": "Good morning, Reverend Caldwell."
+                            },
+                            {
+                                "Character": "CALDWELL",
+                                "Line": "Good morning, Josh, Sam."
+                            },
+                            {
+                                "Character": "JOHN LA SALLE",
+                                "Line": "Good morning."
+                            },
+                            {
+                                "Character": "SAM",
+                                "Line": "Good morning, reverend."
+                            },
+                            {
+                                "Character": "JOSH",
+                                "Line": "Good morning everyone. Welcome. Good morning, Mary. La Salle and Caldwell join Mary Marsh at the conference table."
+                            },
+                            {
+                                "Character": "MARY MARSH",
+                                "Line": "Josh, the White House will face considerable embarrassment if the president continues to maintain his stranglehold on indifference when it comes to persecuted Christians around the world."
+                            },
+                            {
+                                "Character": "JOSH",
+                                "Line": "Okay, we're done with good morning. Josh and Sam sit."
+                            },
+                            {
+                                "Character": "MARY MARSH",
+                                "Line": "These are people from a country that oppresses Christians. The president has to grant their asylum request."
+                            },
+                            {
+                                "Character": "JOSH",
+                                "Line": "The president doesn't grant asylum requests. The INS judge does."
+                            },
+                            {
+                                "Character": "MARY MARSH",
+                                "Line": "The INS judge is going to do what the president urges him to do. And if the president doesn't urge the INS judge to grant the asylum, he's going to regret it."
+                            },
+                            {
+                                "Character": "JOSH",
+                                "Line": "Mary, I swear to God, you are not going to get anywhere in this building threatening me."
+                            },
+                            {
+                                "Character": "SAM",
+                                "Line": "Do we know they were persecuted in China?"
+                            },
+                            {
+                                "Character": "CALDWELL",
+                                "Line": "Excuse me?"
+                            },
+                            {
+                                "Character": "SAM",
+                                "Line": "Do we know they were persecuted?"
+                            },
+                            {
+                                "Character": "LA SALLE",
+                                "Line": "They're Christians."
+                            },
+                            {
+                                "Character": "SAM",
+                                "Line": "I believe that they are Christians. I'm asking if they were persecuted."
+                            },
+                            {
+                                "Character": "LA SALLE",
+                                "Line": "Yes."
+                            },
+                            {
+                                "Character": "JOSH",
+                                "Line": "How do you know?"
+                            },
+                            {
+                                "Character": "MARY MARSH",
+                                "Line": "They stuffed themselves in 20 by 20 foot container compartments for a month and a half. Why else would they be here?"
+                            },
+                            {
+                                "Character": "CALDWELL",
+                                "Line": "The leaders of the Funjchek church were thrown into labor camps. Last August, three Taiwanese-born evangelicals were arrested in Henan province..."
+                            },
+                            {
+                                "Character": "LA SALLE",
+                                "Line": "For -- I'm quoting now - 'activities incompatible with tourist status under which they entered China.'"
+                            },
+                            {
+                                "Character": "CALDWELL",
+                                "Line": "In other words, for spreading the gospel, 100 of their followers were detained and one woman was beaten by the police."
+                            },
+                            {
+                                "Character": "MARY MARSH",
+                                "Line": "Chinese Catholics are being arrested by the wagon load for recognizing the Vatican's authority."
+                            },
+                            {
+                                "Character": "CALDWELL",
+                                "Line": "An 82-year-old bishop was released after 30 years in prison and then arrested again. An 84-year-old bishop was tortured until he passed out."
+                            },
+                            {
+                                "Character": "MARY MARSH",
+                                "Line": "He's now in a coma."
+                            },
+                            {
+                                "Character": "CALDWELL",
+                                "Line": "China harasses Christians, Josh. The State Department says so. Amnesty International says so. I say so. It is fact."
+                            },
+                            {
+                                "Character": "MARY MARSH",
+                                "Line": "And the scores of millions of American Christians and Christians around the world will not stand blithely by while religious freedom is threatened."
+                            },
+                            {
+                                "Character": "SAM",
+                                "Line": "Sure you will."
+                            },
+                            {
+                                "Character": "JOSH",
+                                "Line": "[warning tone] Sam..."
+                            },
+                            {
+                                "Character": "SAM",
+                                "Line": "No. They will stand blithely by while religious freedom is threatened. They're just not doing it this time."
+                            },
+                            {
+                                "Character": "JOSH",
+                                "Line": "Okay."
+                            },
+                            {
+                                "Character": "MARY MARSH",
+                                "Line": "This is about the play?"
+                            },
+                            {
+                                "Character": "SAM",
+                                "Line": "A guy writes a play called 'Apostles,' in which Jesus Christ is gay, and you protest. Fine. But when a guy threatens to blow up the theatre, you guys are nowhere to be heard from."
+                            },
+                            {
+                                "Character": "MARY MARSH",
+                                "Line": "That play was disgusting."
+                            },
+                            {
+                                "Character": "SAM",
+                                "Line": "So you're committed to religious freedom for all people unless you don't like what they have to say?"
+                            },
+                            {
+                                "Character": "MARY MARSH",
+                                "Line": "That's not what I..."
+                            },
+                            {
+                                "Character": "SAM",
+                                "Line": "Don't look now but I think the playwright's headed to China."
+                            },
+                            {
+                                "Character": "CALDWELL",
+                                "Line": "Josh? He motions his head toward the hallway."
+                            },
+                            {
+                                "Character": "JOSH",
+                                "Line": "Yeah. He gets up and walks into HALLWAY with Reverend Caldwell."
+                            },
+                            {
+                                "Character": "JOSH",
+                                "Line": "Sorry about that."
+                            },
+                            {
+                                "Character": "CALDWELL",
+                                "Line": "No, Sam's right and it's a point well taken.  I just don't want to get bogged down in a Mary Marsh mud fight."
+                            },
+                            {
+                                "Character": "JOSH",
+                                "Line": "Sir..."
+                            },
+                            {
+                                "Character": "CALDWELL",
+                                "Line": "This is too important."
+                            },
+                            {
+                                "Character": "JOSH",
+                                "Line": "Yes it is."
+                            },
+                            {
+                                "Character": "CALDWELL",
+                                "Line": "I want you to know and I want the president to know. My church will pay out the bond for each of the refugees."
+                            },
+                            {
+                                "Character": "JOSH",
+                                "Line": "Well, we may be talking about more money..."
+                            },
+                            {
+                                "Character": "CALDWELL",
+                                "Line": "I know how much we're talking about. My church will pay it. If they won't, I will."
+                            },
+                            {
+                                "Character": "JOSH",
+                                "Line": "Okay. Thank you, Reverend. I'll pass that along."
+                            },
+                            {
+                                "Character": "CALDWELL",
+                                "Line": "Thank you. He looks down the hall to see Toby headed in his direction."
+                            },
+                            {
+                                "Character": "CALDWELL",
+                                "Line": "Good morning, Toby."
+                            },
+                            {
+                                "Character": "TOBY",
+                                "Line": "Good morning, Reverend."
+                            },
+                            {
+                                "Character": "CALDWELL",
+                                "Line": "You look determined."
+                            },
+                            {
+                                "Character": "TOBY",
+                                "Line": "I am, sir. He walks around the reverend."
+                            },
+                            {
+                                "Character": "CALDWELL",
+                                "Line": "Good boy. Caldwell turns away from Toby and walks with Josh. We follow Toby as he enters THE MURAL ROOM. Four Republican congressional aides are waiting for him."
+                            },
+                            {
+                                "Character": "AIDE 1",
+                                "Line": "Before we get to anything else, I want to object to the totally crappy way we were informed about this."
+                            },
+                            {
+                                "Character": "TOBY",
+                                "Line": "You knew you were getting faxed a list of recess appointments."
+                            },
+                            {
+                                "Character": "AIDE 1",
+                                "Line": "Toby, what makes you think...?"
+                            },
+                            {
+                                "Character": "TOBY",
+                                "Line": "Article 2, section 2. 'The president shall have the power to fill all vacancies that may happen during the recess of the Senate by granting commissions which shall expire at the end of their next session.'"
+                            },
+                            {
+                                "Character": "AIDE 2",
+                                "Line": "You can't just slip her in, Toby."
+                            },
+                            {
+                                "Character": "TOBY",
+                                "Line": "Slip who in?"
+                            },
+                            {
+                                "Character": "AIDE 3",
+                                "Line": "Don't be cute."
+                            },
+                            {
+                                "Character": "TOBY",
+                                "Line": "I can't help it."
+                            },
+                            {
+                                "Character": "AIDE 3",
+                                "Line": "McGarry's sister."
+                            },
+                            {
+                                "Character": "TOBY",
+                                "Line": "It's Mr. McGarry. And her name is Dr. Josephine McGarry. She has a Ph.D. in education from Cornell. She's published many scholarly essays on public education. She was superintendent of the Atlanta School District servicing 58,000 students with some of the highest test scores in the country. What in particular troubles the senators you  work for about her resume?"
+                            },
+                            {
+                                "Character": "AIDE 1",
+                                "Line": "I think you know."
+                            },
+                            {
+                                "Character": "TOBY",
+                                "Line": "I do but I'd like you to say it."
+                            },
+                            {
+                                "Character": "AIDE 4",
+                                "Line": "She's anti-religion."
+                            },
+                            {
+                                "Character": "TOBY",
+                                "Line": "Is she?"
+                            },
+                            {
+                                "Character": "AIDE 4",
+                                "Line": "Yes, she is."
+                            },
+                            {
+                                "Character": "TOBY",
+                                "Line": "Hmm. She's on the board of visitors at her church. She teaches Sunday mornings at the Immaculate Heart of Mary School."
+                            },
+                            {
+                                "Character": "AIDE 2",
+                                "Line": "You know what we're talking about, Toby. She's against prayer."
+                            },
+                            {
+                                "Character": "TOBY",
+                                "Line": "She's against prayer?"
+                            },
+                            {
+                                "Character": "AIDE 3",
+                                "Line": "School prayer."
+                            },
+                            {
+                                "Character": "TOBY",
+                                "Line": "Ah."
+                            },
+                            {
+                                "Character": "AIDE 3",
+                                "Line": "As she's published many times in her scholarly essays."
+                            },
+                            {
+                                "Character": "TOBY",
+                                "Line": "You wanna know who else is against it? The 11th U.S. Circuit Court of Appeals. Organized prayer in public schools is prohibited and your problem with her is that while superintendent, she enforced the law."
+                            },
+                            {
+                                "Character": "AIDE 2",
+                                "Line": "A law that 70 percent say is wrong. Seventy percent of the people say..."
+                            },
+                            {
+                                "Character": "TOBY",
+                                "Line": "Laws don't work like that, Wayne. We don't ask for a show of hands."
+                            },
+                            {
+                                "Character": "AIDE 1",
+                                "Line": "You understand that the Senate Republicans..."
+                            },
+                            {
+                                "Character": "TOBY",
+                                "Line": "No, I don't. Can you explain it to me slowly using small words and visual aides?"
+                            },
+                            {
+                                "Character": "AIDE 3",
+                                "Line": "Toby..."
+                            },
+                            {
+                                "Character": "TOBY",
+                                "Line": "[irritated] Senate Reublicans will hold up confirmations of other nominees."
+                            },
+                            {
+                                "Character": "AIDE 4",
+                                "Line": "This is an abuse of the recess appointment. It's there for convenience. It's not there to circumvent the Senate's constitutional right to confirm nominees!"
+                            },
+                            {
+                                "Character": "TOBY",
+                                "Line": "Neither is the filibuster. I'll put down my gun when you put down yours."
+                            },
+                            {
+                                "Character": "AIDE 2",
+                                "Line": "The fact is, if you don't think she can be confirmed, it's outrageous..."
+                            },
+                            {
+                                "Character": "TOBY",
+                                "Line": "[getting angry] No. What's outrageous is that this would never come to a vote if we did it in session. There's no way the Senate couldn't confirm her; she's too qualified. [yells] This would never come to a vote! [pause] So... hold up all the appointments you want. Shut down the government because a teacher did as she was told. You'll have given us a second term and we won't even have to leave the building. But not because I'm right and you're wrong. Although I am and you are. But because I am better at this than you are."
+                            },
+                            {
+                                "Character": "AIDE 3",
+                                "Line": "Not this time."
+                            },
+                            {
+                                "Character": "TOBY",
+                                "Line": "I'm sorry?"
+                            },
+                            {
+                                "Character": "AIDE 3",
+                                "Line": "You're not better this time. He reaches for an envelope inside his briefcase and slides across the couch to Toby."
+                            },
+                            {
+                                "Character": "AIDE 3",
+                                "Line": "This is a picture of her."
+                            },
+                            {
+                                "Character": "TOBY",
+                                "Line": "Doing what?"
+                            },
+                            {
+                                "Character": "AIDE 3",
+                                "Line": "Enforcing the law. He looks at Toby and then at the other aides. Toby opens the envelope and looks at the picture. He looks at the third aide, who has a smug look on his face."
+                            },
+                            {
+                                "Character": "FADE OUT.",
+                                "Line": "* * *"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "Section": "Act Three",
+                "Scenes": [
+                    {
+                        "Scene Heading": "FADE IN: INT. LEO'S OFFICE - DAY",
+                        "Description": "Leo is in his desk, looking at a newspaper clipping, shaking his head. Toby is standing in the middle of the office.",
+                        "Dialogues": [
+                            {
+                                "Character": "TOBY",
+                                "Line": "It was a home game, there was an organized prayer and she's breaking it up."
+                            },
+                            {
+                                "Character": "LEO",
+                                "Line": "Yes she is."
+                            },
+                            {
+                                "Character": "TOBY",
+                                "Line": "It's not good, but it's not, you know--"
+                            },
+                            {
+                                "Character": "LEO",
+                                "Line": "These are high school students. Two of them are on their knees praying while being handcuffed, with my sister standing next to the cop whose hand is on his nightstick."
+                            },
+                            {
+                                "Character": "TOBY",
+                                "Line": "[picking up paper] He's resting it on his nightstick."
+                            },
+                            {
+                                "Character": "LEO",
+                                "Line": "I'm sure that explanation will be in the caption."
+                            },
+                            {
+                                "Character": "TOBY",
+                                "Line": "Leo..."
+                            },
+                            {
+                                "Character": "LEO",
+                                "Line": "One of the students is wearing his marching band uniform, one of the students is black..."
+                            },
+                            {
+                                "Character": "TOBY",
+                                "Line": "Listen..."
+                            },
+                            {
+                                "Character": "LEO",
+                                "Line": "And you say it's \"not good.\""
+                            },
+                            {
+                                "Character": "TOBY",
+                                "Line": "Yeah, look..."
+                            },
+                            {
+                                "Character": "LEO",
+                                "Line": "That's a penetrating diagnosis from the White House Communications Director."
+                            },
+                            {
+                                "Character": "TOBY",
+                                "Line": "It's not like we weren't aware of the incident."
+                            },
+                            {
+                                "Character": "LEO",
+                                "Line": "We didn't know there was art."
+                            },
+                            {
+                                "Character": "TOBY",
+                                "Line": "It's a local paper."
+                            },
+                            {
+                                "Character": "LEO",
+                                "Line": "It's not local anymore!"
+                            },
+                            {
+                                "Character": "TOBY",
+                                "Line": "Well I can save it."
+                            },
+                            {
+                                "Character": "LEO",
+                                "Line": "[leaning forward] Does she know she was submitted?"
+                            },
+                            {
+                                "Character": "TOBY",
+                                "Line": "Yes."
+                            },
+                            {
+                                "Character": "LEO",
+                                "Line": "How?"
+                            },
+                            {
+                                "Character": "TOBY",
+                                "Line": "I called her."
+                            },
+                            {
+                                "Character": "LEO",
+                                "Line": "Toby!"
+                            },
+                            {
+                                "Character": "TOBY",
+                                "Line": "I can save this!"
+                            },
+                            {
+                                "Character": "LEO",
+                                "Line": "Margaret!"
+                            },
+                            {
+                                "Character": "TOBY",
+                                "Line": "Leo..."
+                            },
+                            {
+                                "Character": "LEO",
+                                "Line": "At a football game, a high school, marching band, on their knees. Don't we think breaking up Norman Rockwell had the cops, the handcuffs, the nightstick, and my sister."
+                            },
+                            {
+                                "Character": "MARGARET",
+                                "Line": "[enters] Yeah."
+                            },
+                            {
+                                "Character": "LEO",
+                                "Line": "[motioning] Get Josephine on the phone."
+                            },
+                            {
+                                "Character": "MARGARET",
+                                "Line": "Yeah. [leaves]"
+                            },
+                            {
+                                "Character": "LEO",
+                                "Line": "I begged you to go slow with this nomination."
+                            },
+                            {
+                                "Character": "TOBY",
+                                "Line": "The post needed..."
+                            },
+                            {
+                                "Character": "LEO",
+                                "Line": "The post did not desperately need to be filled. Neither the economy nor national security nor infrastructure will collapse without an assistant secretary of primary and secondary education."
+                            },
+                            {
+                                "Character": "TOBY",
+                                "Line": "It brings the problem front and center."
+                            },
+                            {
+                                "Character": "LEO",
+                                "Line": "Great. And what prize do we get for that?"
+                            },
+                            {
+                                "Character": "TOBY",
+                                "Line": "Leo..."
+                            },
+                            {
+                                "Character": "LEO",
+                                "Line": "What prize do we get for bringing it front and center?"
+                            },
+                            {
+                                "Character": "MARGARET",
+                                "Line": "[enters] Leo."
+                            },
+                            {
+                                "Character": "LEO",
+                                "Line": "What?"
+                            },
+                            {
+                                "Character": "MARGARET",
+                                "Line": "Your sister. Leo makes a \"one second\" sign as Margaret leaves."
+                            },
+                            {
+                                "Character": "TOBY",
+                                "Line": "I'll be in my office. Toby picks up the paper and heads towards the door."
+                            },
+                            {
+                                "Character": "LEO",
+                                "Line": "It brings your problem front and center, Toby. Toby pauses."
+                            },
+                            {
+                                "Character": "LEO",
+                                "Line": "Leave the newspaper. Toby returns the paper and leaves. Leo picks up the phone."
+                            },
+                            {
+                                "Character": "LEO",
+                                "Line": "Hey Jo."
+                            }
+                        ]
+                    },
+                    {
+                        "Scene Heading": "CUT TO: EXT. THE WHITE HOUSE | OVERHEAD SHOT - DAY",
+                        "Description": "",
+                        "Dialogues": [
+                            {
+                                "Character": "WEDNESDAY",
+                                "Line": ""
+                            }
+                        ]
+                    },
+                    {
+                        "Scene Heading": "CUT TO: INT. JOSH'S BULLPEN AREA - CONTINUOUS",
+                        "Description": "Donna is at her desk, standing looking through a folder as C.J. comes up.",
+                        "Dialogues": [
+                            {
+                                "Character": "C.J.",
+                                "Line": "Donna."
+                            },
+                            {
+                                "Character": "DONNA",
+                                "Line": "Hey, C.J."
+                            },
+                            {
+                                "Character": "C.J.",
+                                "Line": "Can I borrow you for just a minute? Donna agrees. They head towards C.J.'s office, passing Josh."
+                            },
+                            {
+                                "Character": "JOSH",
+                                "Line": "Hey C.J."
+                            },
+                            {
+                                "Character": "C.J.",
+                                "Line": "Hey I'd love to stay around and talk with you but I have a turkey pardoning in 5 minutes."
+                            },
+                            {
+                                "Character": "JOSH",
+                                "Line": "I thought that was tomorrow."
+                            },
+                            {
+                                "Character": "C.J.",
+                                "Line": "No tomorrow's the singing."
+                            },
+                            {
+                                "Character": "JOSH",
+                                "Line": "You're singing?"
+                            },
+                            {
+                                "Character": "C.J.",
+                                "Line": "I'm leading the children in song."
+                            },
+                            {
+                                "Character": "JOSH",
+                                "Line": "Excellent."
+                            },
+                            {
+                                "Character": "C.J.",
+                                "Line": "Yes. I need Donna for a moment."
+                            },
+                            {
+                                "Character": "JOSH",
+                                "Line": "You need help with the song?"
+                            },
+                            {
+                                "Character": "C.J.",
+                                "Line": "I don't need help with the song. Donna?"
+                            },
+                            {
+                                "Character": "DONNA",
+                                "Line": "[to Josh] The INS guys will be here in a minute."
+                            },
+                            {
+                                "Character": "JOSH",
+                                "Line": "Yeah. C.J. and Donna walk away."
+                            },
+                            {
+                                "Character": "DONNA",
+                                "Line": "What do you need?"
+                            },
+                            {
+                                "Character": "C.J.",
+                                "Line": "I need help with the song."
+                            },
+                            {
+                                "Character": "DONNA",
+                                "Line": "Is it the usual song?"
+                            },
+                            {
+                                "Character": "C.J.",
+                                "Line": "There's a usual song?"
+                            },
+                            {
+                                "Character": "DONNA",
+                                "Line": "\"We Gather Together.\""
+                            },
+                            {
+                                "Character": "C.J.",
+                                "Line": "The song."
+                            },
+                            {
+                                "Character": "DONNA",
+                                "Line": "That's the usual song. They're now standing in front of C.J.'s closed office door."
+                            },
+                            {
+                                "Character": "C.J.",
+                                "Line": "So you know it?"
+                            },
+                            {
+                                "Character": "DONNA",
+                                "Line": "Everybody knows it."
+                            },
+                            {
+                                "Character": "C.J.",
+                                "Line": "I don't know it."
+                            },
+                            {
+                                "Character": "DONNA",
+                                "Line": "[sighs] Didn't you go to elementary school?"
+                            },
+                            {
+                                "Character": "C.J.",
+                                "Line": "Yes, right before being a National Merit Scholar."
+                            },
+                            {
+                                "Character": "DONNA",
+                                "Line": "\"Madrigals\" is another song."
+                            },
+                            {
+                                "Character": "C.J.",
+                                "Line": "\"Madrigals?\""
+                            },
+                            {
+                                "Character": "DONNA",
+                                "Line": "A couple of guys wearing costumes and playing the lute, it's no problem."
+                            },
+                            {
+                                "Character": "C.J.",
+                                "Line": "You're not the one conducting a musical on CNN."
+                            },
+                            {
+                                "Character": "DONNA",
+                                "Line": "Do you want me to teach you the song?"
+                            },
+                            {
+                                "Character": "C.J.",
+                                "Line": "Yes."
+                            },
+                            {
+                                "Character": "DONNA",
+                                "Line": "Now?"
+                            },
+                            {
+                                "Character": "C.J.",
+                                "Line": "Not now, right now I have, you know, actual serious work to do. [while waving a camera flash] Donna heads off as C.J. goes into her OFFICE. Eric and Troy are still inside."
+                            },
+                            {
+                                "Character": "C.J.",
+                                "Line": "Okay, it's show time guys. I've observed you under a number of conditions, and this is the final. I don't like you wigging out in the President's face I just don't like the photo, so... She flashes the camera flash, as the turkeys make turkey noises."
+                            },
+                            {
+                                "Character": "C.J.",
+                                "Line": "You both did fine. Troy, I want you know it was neck-and-neck but I'm giving it to Eric. You were in it right to the end but it's the flapping thing you've got going on. I tell you what's of some concern to me, had I been talking out loud this whole time, that's very unsettling. Donna enters."
+                            },
+                            {
+                                "Character": "C.J.",
+                                "Line": "Okay, Eric, here we go. C.J. tries to get Eric to get off the chair and out the door."
+                            },
+                            {
+                                "Character": "C.J.",
+                                "Line": "Come on Eric, let's go."
+                            },
+                            {
+                                "Character": "DONNA",
+                                "Line": "The guy said to support him under his hindquarters."
+                            },
+                            {
+                                "Character": "C.J.",
+                                "Line": "Well I don't know where his hindquarters are and I'm not going to look that hard. Come on Eric... Come on, down. She snaps her fingers. Donna also tries to help out. C.J. keeps Troy from coming instead."
+                            },
+                            {
+                                "Character": "C.J.",
+                                "Line": "Troy..."
+                            }
+                        ]
+                    },
+                    {
+                        "Scene Heading": "CUT TO: INT. JOSH'S OFFICE - DAY",
+                        "Description": "Sam and Josh enter the office as two INS agents, Betram and Gardner, follow.",
+                        "Dialogues": [
+                            {
+                                "Character": "BETRAM",
+                                "Line": "The passages would cost anywhere from $20,000 to $40,000."
+                            },
+                            {
+                                "Character": "JOSH",
+                                "Line": "$40,000 buys them a spot in a container?"
+                            },
+                            {
+                                "Character": "BETRAM",
+                                "Line": "Yeah."
+                            },
+                            {
+                                "Character": "SAM",
+                                "Line": "How do these people have $40,000?"
+                            },
+                            {
+                                "Character": "JOSH",
+                                "Line": "They don't."
+                            },
+                            {
+                                "Character": "GARDNER",
+                                "Line": "That's the problem."
+                            },
+                            {
+                                "Character": "JOSH",
+                                "Line": "They have to pay off the smugglers when they get here so they become indentured servants."
+                            },
+                            {
+                                "Character": "SAM",
+                                "Line": "Sweatshops?"
+                            },
+                            {
+                                "Character": "BETRAM",
+                                "Line": "Drugs, prostitution..."
+                            },
+                            {
+                                "Character": "JOSH",
+                                "Line": "You should know that Al Caldwell and the Christian League have offered to pay their bonds."
+                            },
+                            {
+                                "Character": "GARDNER",
+                                "Line": "Al Caldwell and the Christian League should know that it's not uncommon for them to be coached."
+                            },
+                            {
+                                "Character": "SAM",
+                                "Line": "On religious persecution?"
+                            },
+                            {
+                                "Character": "JOSH",
+                                "Line": "It's a good alibi."
+                            },
+                            {
+                                "Character": "BETRAM",
+                                "Line": "Listen it's not for me to say, but you got to be serious about illegal immigration, and you got to do these things within existing laws."
+                            },
+                            {
+                                "Character": "JOSH",
+                                "Line": "Thanks for coming by."
+                            },
+                            {
+                                "Character": "BETRAM",
+                                "Line": "Good seeing you."
+                            },
+                            {
+                                "Character": "GARDNER",
+                                "Line": "Take it easy."
+                            },
+                            {
+                                "Character": "JOSH",
+                                "Line": "You too. The INS agents leave."
+                            },
+                            {
+                                "Character": "SAM",
+                                "Line": "A lot of them left their families, two months on the water, in a container, dead bodies in there... They had to want it. Josh sits down and sighs."
+                            }
+                        ]
+                    },
+                    {
+                        "Scene Heading": "CUT TO: INT. THE OVAL OFFICE - DAY",
+                        "Description": "The President is standing over his desk looking over and writing on some papers. C.J. knocks on door and enters.",
+                        "Dialogues": [
+                            {
+                                "Character": "C.J.",
+                                "Line": "Mr. President?"
+                            },
+                            {
+                                "Character": "BARTLET",
+                                "Line": "Yeah?"
+                            },
+                            {
+                                "Character": "C.J.",
+                                "Line": "We're all set."
+                            },
+                            {
+                                "Character": "BARTLET",
+                                "Line": "[looks up] What am I doing?"
+                            },
+                            {
+                                "Character": "C.J.",
+                                "Line": "Pardoning a turkey."
+                            },
+                            {
+                                "Character": "BARTLET",
+                                "Line": "Okay. He turns his attention back to papers as C.J. leaves. While the door still open, Charlie enters with an open knife box in his hands."
+                            },
+                            {
+                                "Character": "CHARLIE",
+                                "Line": "Mr. President?"
+                            },
+                            {
+                                "Character": "BARTLET",
+                                "Line": "Excellent. [comes around his desk]"
+                            },
+                            {
+                                "Character": "CHARLIE",
+                                "Line": "I think you'll like this."
+                            },
+                            {
+                                "Character": "BARTLET",
+                                "Line": "[takes the knife] The Missermeister. Meridian 3000 series. One-piece forged blade, riveted palm handle."
+                            },
+                            {
+                                "Character": "CHARLIE",
+                                "Line": "Terrific."
+                            },
+                            {
+                                "Character": "BARTLET",
+                                "Line": "I don't like the handles."
+                            },
+                            {
+                                "Character": "CHARLIE",
+                                "Line": "Okay. Josh and Sam enter the Oval Office as Charlie heads out."
+                            },
+                            {
+                                "Character": "JOSH",
+                                "Line": "Mr. President?"
+                            },
+                            {
+                                "Character": "BARTLET",
+                                "Line": "How's it going?"
+                            },
+                            {
+                                "Character": "JOSH",
+                                "Line": "Sir, we've taken a couple dozen meetings in the last two days."
+                            },
+                            {
+                                "Character": "BARTLET",
+                                "Line": "You met with Chinese embassy officials?"
+                            },
+                            {
+                                "Character": "JOSH",
+                                "Line": "Last night. They say..."
+                            },
+                            {
+                                "Character": "BARTLET",
+                                "Line": "Christians aren't persecuted in China. Since they aren't oppressed, they don't qualify for refugee status."
+                            },
+                            {
+                                "Character": "JOSH",
+                                "Line": "Under U.S. or U.N. Conditions here."
+                            },
+                            {
+                                "Character": "SAM",
+                                "Line": "They also make the point that they broke Chinese law when the left the country illegally, and should be sent back to the country of origin."
+                            },
+                            {
+                                "Character": "BARTLET",
+                                "Line": "It's a fair point."
+                            },
+                            {
+                                "Character": "JOSH",
+                                "Line": "The INS agents also feel it's not uncommon in this situation for refugees to... How do I put it... Feign faith."
+                            },
+                            {
+                                "Character": "BARTLET",
+                                "Line": "Yeah. They'll be coached."
+                            },
+                            {
+                                "Character": "JOSH",
+                                "Line": "So how do you tell the difference between...?"
+                            },
+                            {
+                                "Character": "BARTLET",
+                                "Line": "Do you guys know what a \"shibboleth\" is?"
+                            },
+                            {
+                                "Character": "SAM",
+                                "Line": "It's a catch phrase isn't it?"
+                            },
+                            {
+                                "Character": "JOSH",
+                                "Line": "A clichE."
+                            },
+                            {
+                                "Character": "BARTLET",
+                                "Line": "It's from the Bible. \"Then said now unto him, say now 'shibboleth\" and he said \"sibboleth\" for he could not frame to pronounce it right.\" It was a password, the way the army used to distinguish true Israelites from impostors sent across the river Jordan by the enemy."
+                            },
+                            {
+                                "Character": "JOSH",
+                                "Line": "Sir..."
+                            },
+                            {
+                                "Character": "BARTLET",
+                                "Line": "I'm having one of the Chinese refugees flown here. I'll meet with him tonight."
+                            },
+                            {
+                                "Character": "C.J.",
+                                "Line": "[rushes into the room] Mr. President, I can't, you know, indefinitely, with the turkey."
+                            },
+                            {
+                                "Character": "BARTLET",
+                                "Line": "Yep."
+                            },
+                            {
+                                "Character": "JOSH",
+                                "Line": "Excuse me, Mr. President, what are you going to ask the Chinese refugee? Bartlet puts on his coat with C.J.'s assistance."
+                            },
+                            {
+                                "Character": "BARTLET",
+                                "Line": "I'm going to ask him to say \"Shibboleth.\""
+                            }
+                        ]
+                    },
+                    {
+                        "Scene Heading": "CUT TO: INT. LEO'S OFFICE - DAY",
+                        "Description": "Leo is looking off intently with his hand near his mouth. The door opens and Margaret enters.",
+                        "Dialogues": [
+                            {
+                                "Character": "MARGARET",
+                                "Line": "Leo?"
+                            },
+                            {
+                                "Character": "LEO",
+                                "Line": "She's here?"
+                            },
+                            {
+                                "Character": "MARGARET",
+                                "Line": "Yeah."
+                            },
+                            {
+                                "Character": "LEO",
+                                "Line": "Okay. Margaret leaves. Leo gets up and walks around to the other side of his desk. His sister, JOSEPHINE McGARRY, enters. JOSEPHINE McGARRY I understand they've already started beating the drums over me."
+                            },
+                            {
+                                "Character": "LEO",
+                                "Line": "Yeah."
+                            },
+                            {
+                                "Character": "JOSEY",
+                                "Line": "I don't think I need to tell you that I'm not going to shrink from a fight."
+                            },
+                            {
+                                "Character": "LEO",
+                                "Line": "No, you don't. In fact you look for them."
+                            },
+                            {
+                                "Character": "JOSEY",
+                                "Line": "Just like my brother."
+                            },
+                            {
+                                "Character": "LEO",
+                                "Line": "I don't look for fights, Josey. There are enough of them to look for me."
+                            },
+                            {
+                                "Character": "JOSEY",
+                                "Line": "Leo..."
+                            },
+                            {
+                                "Character": "LEO",
+                                "Line": "And I am trying to stage manage an undisciplined White House through what I would say was a difficult time except I haven't experienced an easy one yet."
+                            },
+                            {
+                                "Character": "JOSEY",
+                                "Line": "This is going to be a big victory for us, Leo. I will have support lined up from the AFT, NEA... I will have support..."
+                            },
+                            {
+                                "Character": "LEO",
+                                "Line": "Jo, I want you to withdraw your name from consideration."
+                            },
+                            {
+                                "Character": "JOSEY",
+                                "Line": "Why?"
+                            },
+                            {
+                                "Character": "LEO",
+                                "Line": "You feel you can do more as superintendent in Atlanta."
+                            },
+                            {
+                                "Character": "JOSEY",
+                                "Line": "No, I mean why...?"
+                            },
+                            {
+                                "Character": "LEO",
+                                "Line": "'Cause the President won't. And even if he would it'd look bad."
+                            },
+                            {
+                                "Character": "JOSEY",
+                                "Line": "No, I'm asking you why you...?"
+                            },
+                            {
+                                "Character": "LEO",
+                                "Line": "They got a hold of the picture."
+                            },
+                            {
+                                "Character": "JOSEY",
+                                "Line": "Of what?"
+                            },
+                            {
+                                "Character": "LEO",
+                                "Line": "You know of what."
+                            },
+                            {
+                                "Character": "JOSEY",
+                                "Line": "There are a lot of pictures, Leo."
+                            },
+                            {
+                                "Character": "LEO",
+                                "Line": "This one is special. This one is \"game's over.\" Leo is now sitting on the couch, Josey in a chair."
+                            },
+                            {
+                                "Character": "JOSEY",
+                                "Line": "The handcuffs."
+                            },
+                            {
+                                "Character": "LEO",
+                                "Line": "Yeah."
+                            },
+                            {
+                                "Character": "JOSEY",
+                                "Line": "And you wouldn't even consider sticking by me."
+                            },
+                            {
+                                "Character": "LEO",
+                                "Line": "A few years ago on a campaign swing through the south, I met a stringer photographer named Odabee Jones. Was an unusual name and so I've remembered it. He told me he had you to thank for starting his career in photojournalism 'cause you'd given him a head's up when there was going to be something worth shooting."
+                            },
+                            {
+                                "Character": "JOSEY",
+                                "Line": "Leo, what in God's name are you...?"
+                            },
+                            {
+                                "Character": "LEO",
+                                "Line": "Look at the photo credit on the picture. She looks, leans back and starts to talk but Leo speaks."
+                            },
+                            {
+                                "Character": "LEO",
+                                "Line": "You called the photographer! You wanted a picture taken of that. [beat] Those kids are commendable in this day in age, those kids are phenomenal... Now we have laws and they are difficult and they have to be enforced, and it's right that they're enforced... but we do not strut ever! A long pause before she responds."
+                            },
+                            {
+                                "Character": "JOSEY",
+                                "Line": "Is there something you need me to sign? Leo opens a folder to a letter typed up, gives her a pen; she signs it, gives back the pen, sets the letter down, and gets up; moves towards the door."
+                            },
+                            {
+                                "Character": "JOSEY",
+                                "Line": "Anything else?"
+                            },
+                            {
+                                "Character": "LEO",
+                                "Line": "[standing up] Kiss your kids hello for me. Josey sighs and leaves as Toby enters."
+                            },
+                            {
+                                "Character": "TOBY",
+                                "Line": "[sighs] She'll get over it."
+                            },
+                            {
+                                "Character": "LEO",
+                                "Line": "She hasn't gotten over my making her return the stolen milk duds."
+                            },
+                            {
+                                "Character": "TOBY",
+                                "Line": "You were right."
+                            },
+                            {
+                                "Character": "LEO",
+                                "Line": "I know."
+                            },
+                            {
+                                "Character": "TOBY",
+                                "Line": "Josey was the wrong face to put on this."
+                            },
+                            {
+                                "Character": "LEO",
+                                "Line": "Yes."
+                            },
+                            {
+                                "Character": "TOBY",
+                                "Line": "But I'll tell you why it should be front and center. It's not the first amendment, it's not religious freedom, it's not church and state, it's not... abstract..."
+                            },
+                            {
+                                "Character": "LEO",
+                                "Line": "What is it?"
+                            },
+                            {
+                                "Character": "TOBY",
+                                "Line": "It's the fourth grader who gets his ass kicked at recess 'cause he sat out the voluntary prayer in homeroom. It's another way of making kids different from other kids when they're required by law to be there. That's why you want it front and center; fourth grader; that's the prize."
+                            },
+                            {
+                                "Character": "LEO",
+                                "Line": "What'd they do to you? Toby looks uncomfortable, looks at his feet, shifts his weight from one leg to the other as Ginger enters."
+                            },
+                            {
+                                "Character": "GINGER",
+                                "Line": "[motions out] Leo?"
+                            },
+                            {
+                                "Character": "LEO",
+                                "Line": "Yeah. He pauses as Ginger leaves."
+                            },
+                            {
+                                "Character": "LEO",
+                                "Line": "You're right about that part. That part needs to be talked about more."
+                            },
+                            {
+                                "Character": "TOBY",
+                                "Line": "It does."
+                            },
+                            {
+                                "Character": "LEO",
+                                "Line": "Okay."
+                            },
+                            {
+                                "Character": "TOBY",
+                                "Line": "What are you doing for dinner tomorrow? 'Cause Josh and Sam and I are watching the game."
+                            },
+                            {
+                                "Character": "LEO",
+                                "Line": "I'm with the First Family."
+                            },
+                            {
+                                "Character": "TOBY",
+                                "Line": "Okay. [turns around, then turns back] Hey Leo, do me a favor, don't tell the President that we're just..."
+                            },
+                            {
+                                "Character": "LEO",
+                                "Line": "Oh the President could honestly give a damn what you guys are doing tomorrow Toby."
+                            },
+                            {
+                                "Character": "TOBY",
+                                "Line": "Yeah... He clears his throat as he leaves. Leo goes into the Oval Office."
+                            },
+                            {
+                                "Character": "FADE OUT.",
+                                "Line": "* * *"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "Section": "Act Four",
+                "Scenes": [
+                    {
+                        "Scene Heading": "FADE IN: EXT. THE WHITE HOUSE - NIGHT",
+                        "Description": "",
+                        "Dialogues": [
+                            {
+                                "Character": "MRS. LANDINGHAM",
+                                "Line": "Uh, Mr. President?",
+                                "Descriptor": "VO"
+                            },
+                            {
+                                "Character": "BARTLET",
+                                "Line": "Is he here?"
+                            },
+                            {
+                                "Character": "MRS. LANDINGHAM",
+                                "Line": "Yes, sir.",
+                                "Descriptor": "VO"
+                            }
+                        ]
+                    },
+                    {
+                        "Scene Heading": "CUT TO: INT. THE OVAL OFFICE - CONTINUOUS",
+                        "Description": "",
+                        "Dialogues": [
+                            {
+                                "Character": "BARTLET",
+                                "Line": "Good. He goes from behind his desk to his jacket on a chair. Leo is with him."
+                            },
+                            {
+                                "Character": "LEO",
+                                "Line": "Did we get an interpreter?"
+                            },
+                            {
+                                "Character": "BARTLET",
+                                "Line": "He speaks English. He's a chemistry professor."
+                            },
+                            {
+                                "Character": "LEO",
+                                "Line": "Yeah?"
+                            },
+                            {
+                                "Character": "BARTLET",
+                                "Line": "[puts on his jacket] There was a while there I wanted to be a chemistry professor."
+                            },
+                            {
+                                "Character": "LEO",
+                                "Line": "What happened?"
+                            },
+                            {
+                                "Character": "BARTLET",
+                                "Line": "I never actually studied chemistry."
+                            },
+                            {
+                                "Character": "LEO",
+                                "Line": "Well, if these college chemistry departments are really demanding that way..."
+                            },
+                            {
+                                "Character": "BARTLET",
+                                "Line": "Yeah. Mrs. Landingham comes in. Behind her is an Asian man, JHIN-WEI and two aides."
+                            },
+                            {
+                                "Character": "MRS. LANDINGHAM",
+                                "Line": "Mr. President?"
+                            },
+                            {
+                                "Character": "JHIN",
+                                "Line": "WEI comes in, and the two aides stay by the door."
+                            },
+                            {
+                                "Character": "BARTLET",
+                                "Line": "Jhin-Wei?"
+                            },
+                            {
+                                "Character": "JHIN",
+                                "Line": "WEI Yes sir. They shake hands."
+                            },
+                            {
+                                "Character": "BARTLET",
+                                "Line": "I'm Jed Bartlet. This is Leo McGarry."
+                            },
+                            {
+                                "Character": "LEO",
+                                "Line": "How do you do?"
+                            },
+                            {
+                                "Character": "BARTLET",
+                                "Line": "Thanks for coming all this way."
+                            },
+                            {
+                                "Character": "JHIN",
+                                "Line": "WEI Yes sir."
+                            },
+                            {
+                                "Character": "LEO",
+                                "Line": "[to the aides] Fellas... would you mind waiting outside? Mrs. Landingham escorts the two aides outside."
+                            },
+                            {
+                                "Character": "BARTLET",
+                                "Line": "Would you care to sit down? It's perfectly all right. They sit. Leo leans in front of the desk."
+                            },
+                            {
+                                "Character": "BARTLET",
+                                "Line": "[motions to the table] There are some sandwiches here. If you get hungry, feel free to eat as much as you want."
+                            },
+                            {
+                                "Character": "JHIN",
+                                "Line": "WEI Yes sir."
+                            },
+                            {
+                                "Character": "BARTLET",
+                                "Line": "There are questions as to the veracity of your claim to the asylum."
+                            },
+                            {
+                                "Character": "JHIN",
+                                "Line": "WEI Yes sir."
+                            },
+                            {
+                                "Character": "BARTLET",
+                                "Line": "How did you become a Christian?"
+                            },
+                            {
+                                "Character": "JHIN",
+                                "Line": "WEI I began attending a house church with my wife in Fujian. Eventually, I was baptized."
+                            },
+                            {
+                                "Character": "BARTLET",
+                                "Line": "How do you practice?"
+                            },
+                            {
+                                "Character": "JHIN",
+                                "Line": "WEI We share bibles--we don't have enough. We sing hymns. We hear sermons. We recite the Lord's Prayer. We are charible."
+                            },
+                            {
+                                "Character": "BARTLET",
+                                "Line": "Who's the head of your church?"
+                            },
+                            {
+                                "Character": "JHIN",
+                                "Line": "WEI The head of our parish is an 84 year old man named Wen-Ling. He's been beaten and imprisoned many times. The head of our church is Jesus Christ."
+                            },
+                            {
+                                "Character": "BARTLET",
+                                "Line": "Can you name any of Jesus' disciples? [beat] If you can't, that's okay. I usually can't remember the names of my kids, or for that matter..."
+                            },
+                            {
+                                "Character": "JHIN",
+                                "Line": "WEI Peter, Andrew, John, Phillip, Bartholomew, Thomas, Matthew, Thaddeus, Simon, Judas and James. [beat] Mr. President, Christianity is not demonstrated through a recitation of facts. You're seeking evidence of faith, a wholehearted acceptance of God's promise for a better world. 'For we hold that man is justified by faith alone' is what St. Paul said. 'Justified by faith alone.' Faith is the true... uh, I'm trying to... shibboleth. Faith is the true shibboleth."
+                            },
+                            {
+                                "Character": "BARTLET",
+                                "Line": "[beat] Yes, it is. And you sir, just said the magic word in more ways than one. Thank you. [They stand.] It was a pleasure to meet you."
+                            },
+                            {
+                                "Character": "JHIN",
+                                "Line": "WEI Thank you, Mr. President. After they shake hands, Jhin-Wei turns to leave the Oval Office. Bartlet watches him go, then turns around to face Leo."
+                            },
+                            {
+                                "Character": "LEO",
+                                "Line": "We're trying to sell more 747s to China, already a big customer. We want China to crack down on violators of American copyrights. We're trying to get China to negotiate a settlement with Tibet..."
+                            },
+                            {
+                                "Character": "BARTLET",
+                                "Line": "Right."
+                            },
+                            {
+                                "Character": "LEO",
+                                "Line": "Right. Bartlet sits back down again. Leo goes to sit in front of him."
+                            },
+                            {
+                                "Character": "BARTLET",
+                                "Line": "We don't have to grant asylum."
+                            },
+                            {
+                                "Character": "LEO",
+                                "Line": "If you're suggesting what I think you are, you should know it happened before."
+                            },
+                            {
+                                "Character": "BARTLET",
+                                "Line": "Where are they?"
+                            },
+                            {
+                                "Character": "LEO",
+                                "Line": "An I.N.S. detention facility in Otay-Mesa. They're being guarded by I.N.S. agents aided by the 22nd Division of the California National Guard."
+                            },
+                            {
+                                "Character": "BARTLET",
+                                "Line": "Not the Coast Guard?"
+                            },
+                            {
+                                "Character": "LEO",
+                                "Line": "No."
+                            },
+                            {
+                                "Character": "BARTLET",
+                                "Line": "Before... when it happened before... how did it work?"
+                            },
+                            {
+                                "Character": "LEO",
+                                "Line": "Well, you don't want to piss off China, and you want to send them back... You got to ask yourself, how secure is the I.N.S. detention facility?"
+                            },
+                            {
+                                "Character": "BARTLET",
+                                "Line": "[beat] Mrs. Landingham? Mrs. Landingham approaches the open door from her desk."
+                            },
+                            {
+                                "Character": "MRS. LANDINGHAM",
+                                "Line": "Yes sir?"
+                            },
+                            {
+                                "Character": "BARTLET",
+                                "Line": "I need to talk to the Governor of California."
+                            },
+                            {
+                                "Character": "MRS. LANDINGHAM",
+                                "Line": "Yes sir. She heads to the phone on her desk."
+                            }
+                        ]
+                    },
+                    {
+                        "Scene Heading": "CUT TO: EXT. THE WHITE HOUSE - DAY",
+                        "Description": "",
+                        "Dialogues": [
+                            {
+                                "Character": "THURSDAY MORNING",
+                                "Line": ""
+                            },
+                            {
+                                "Character": "THANKSGIVING",
+                                "Line": ""
+                            }
+                        ]
+                    },
+                    {
+                        "Scene Heading": "CUT TO: INT. HALLWAY - CONTINUOUS",
+                        "Description": "C.J. comes out of a room and sees Carol.",
+                        "Dialogues": [
+                            {
+                                "Character": "C.J.",
+                                "Line": "Carol?"
+                            },
+                            {
+                                "Character": "CAROL",
+                                "Line": "Yeah?"
+                            },
+                            {
+                                "Character": "C.J.",
+                                "Line": "We're starting in five minutes. You can move the press to the Rose Garden."
+                            },
+                            {
+                                "Character": "CAROL",
+                                "Line": "Yeah. They part ways. C.J. meets Toby as he stops on his tracks and follows her."
+                            },
+                            {
+                                "Character": "TOBY",
+                                "Line": "Hey Toscanini."
+                            },
+                            {
+                                "Character": "C.J.",
+                                "Line": "I'm busy."
+                            },
+                            {
+                                "Character": "TOBY",
+                                "Line": "You're learning the song?"
+                            },
+                            {
+                                "Character": "C.J.",
+                                "Line": "I know the song."
+                            },
+                            {
+                                "Character": "TOBY",
+                                "Line": "You don't know the song?"
+                            },
+                            {
+                                "Character": "C.J.",
+                                "Line": "'We gather together to ask the Lord's blessing. He chastens and hastens his will to make known.'"
+                            },
+                            {
+                                "Character": "TOBY",
+                                "Line": "You know what it means?"
+                            },
+                            {
+                                "Character": "C.J.",
+                                "Line": "I don't have to know what it means."
+                            },
+                            {
+                                "Character": "TOBY",
+                                "Line": "Listen. I don't know what you're doing for dinner tonight, but Josh and Sam and I..."
+                            },
+                            {
+                                "Character": "C.J.",
+                                "Line": "It's about damn time you asked me! I have been sitting here for two weeks turning down all kinds of very, frankly, glamorous invitations from people I like more than you. You can't ask a girl at the last minute..."
+                            },
+                            {
+                                "Character": "TOBY",
+                                "Line": "[stops] Well, if you can't come..."
+                            },
+                            {
+                                "Character": "C.J.",
+                                "Line": "No. I can come. I can come. I can come. They walk again."
+                            },
+                            {
+                                "Character": "TOBY",
+                                "Line": "Good."
+                            },
+                            {
+                                "Character": "C.J.",
+                                "Line": "Should I bring anything?"
+                            },
+                            {
+                                "Character": "TOBY",
+                                "Line": "Yeah. Do you know how to, you know, cook food?"
+                            },
+                            {
+                                "Character": "C.J.",
+                                "Line": "We're in the Rose Garden in five minutes. She walks away from him and goes to her OFFICE. She sees Morton trying to get one of the turkeys. Donna is with him."
+                            },
+                            {
+                                "Character": "DONNA",
+                                "Line": "C.J., this is Morton Horn. He's from Jasper Farms. He's here to take one of the turkeys back."
+                            },
+                            {
+                                "Character": "C.J.",
+                                "Line": "What do you mean?"
+                            },
+                            {
+                                "Character": "MORTON",
+                                "Line": "Well, I'm here to take one of the turkeys back."
+                            },
+                            {
+                                "Character": "C.J.",
+                                "Line": "[tries to stop him] No. No. These turkeys are going to a petting zoo in Delaware. Troy flaps his wings behind her."
+                            },
+                            {
+                                "Character": "MORTON",
+                                "Line": "Well, one of them is."
+                            },
+                            {
+                                "Character": "C.J.",
+                                "Line": "Yeah, but I'm gonna send both of them."
+                            },
+                            {
+                                "Character": "DONNA",
+                                "Line": "C.J., Jasper Farms donated one turkey and then the other one..."
+                            },
+                            {
+                                "Character": "C.J.",
+                                "Line": "Right, but I'm gonna take them both."
+                            },
+                            {
+                                "Character": "MORTON",
+                                "Line": "No. I got to take a turkey back."
+                            },
+                            {
+                                "Character": "C.J.",
+                                "Line": "[grabs her wallet] I'm gonna buy them from you. What's he, 30 bucks?"
+                            },
+                            {
+                                "Character": "MORTON",
+                                "Line": "These turkeys are 275 dollars."
+                            },
+                            {
+                                "Character": "C.J.",
+                                "Line": "For a turkey!?"
+                            },
+                            {
+                                "Character": "MORTON",
+                                "Line": "They're especially raised."
+                            },
+                            {
+                                "Character": "C.J.",
+                                "Line": "At the Waldorf?"
+                            },
+                            {
+                                "Character": "MORTON",
+                                "Line": "Ma'am, I..."
+                            },
+                            {
+                                "Character": "C.J.",
+                                "Line": "I'll pay it."
+                            },
+                            {
+                                "Character": "MORTON",
+                                "Line": "It's already been sold."
+                            },
+                            {
+                                "Character": "C.J.",
+                                "Line": "Give them a different turkey."
+                            },
+                            {
+                                "Character": "MORTON",
+                                "Line": "Well, all of them have been sold."
+                            },
+                            {
+                                "Character": "DONNA",
+                                "Line": "C.J., I think..."
+                            },
+                            {
+                                "Character": "MORTON",
+                                "Line": "Ma'am, it was my understanding that one of these turkeys has to be pardoned, the other one sent back to Jasper Farms."
+                            },
+                            {
+                                "Character": "C.J.",
+                                "Line": "Yeah, and I chose Eric because Troy doesn't like to be touched, which, surely we're not gonna execute him for."
+                            },
+                            {
+                                "Character": "MORTON",
+                                "Line": "Ma'am, I have a job and I need..."
+                            },
+                            {
+                                "Character": "C.J.",
+                                "Line": "Come with me, please."
+                            },
+                            {
+                                "Character": "MORTON",
+                                "Line": "Ma'am!"
+                            },
+                            {
+                                "Character": "C.J.",
+                                "Line": "Grab the turkey, and come with me."
+                            },
+                            {
+                                "Character": "MORTON",
+                                "Line": "[sighs] Alright. C.J. and Donna head out. Morton grabs Troy from the desk and follows them."
+                            }
+                        ]
+                    },
+                    {
+                        "Scene Heading": "CUT TO: INT. OUTER OVAL OFFICE - DAY",
+                        "Description": "Mrs. Landingham is busy on her desk as Bartlet opens the door to the Oval Office. He comes out and just stands by the door.",
+                        "Dialogues": [
+                            {
+                                "Character": "BARTLET",
+                                "Line": "Mrs. Landingham, can I look at a copy of the Thanksgiving proclamation?"
+                            },
+                            {
+                                "Character": "MRS. LANDINGHAM",
+                                "Line": "Sir, why don't you use the Intercom?"
+                            },
+                            {
+                                "Character": "BARTLET",
+                                "Line": "'Cause..."
+                            },
+                            {
+                                "Character": "MRS. LANDINGHAM",
+                                "Line": "'Cause you don't know how to use the Intercom."
+                            },
+                            {
+                                "Character": "BARTLET",
+                                "Line": "I was standing at the door."
+                            },
+                            {
+                                "Character": "MRS. LANDINGHAM",
+                                "Line": "Maybe after the ceremony, you could get one of the fourth graders to come in and show you how to use the Intercom."
+                            },
+                            {
+                                "Character": "BARTLET",
+                                "Line": "[starts to approach] Can I look at a copy...?"
+                            },
+                            {
+                                "Character": "MRS. LANDINGHAM",
+                                "Line": "Sam's bringing it in. Charlie suddenly comes in."
+                            },
+                            {
+                                "Character": "CHARLIE",
+                                "Line": "Mr. President."
+                            },
+                            {
+                                "Character": "BARTLET",
+                                "Line": "What you got, Charles?"
+                            },
+                            {
+                                "Character": "CHARLIE",
+                                "Line": "A winner, Mr. President. Charlie heads straight for THE OVAL OFFICE as Bartlet follows swiftly behind."
+                            },
+                            {
+                                "Character": "CHARLIE",
+                                "Line": "The 1985 Kimono Yomada made in Japan with the best materials available."
+                            },
+                            {
+                                "Character": "BARTLET",
+                                "Line": "Lighter weight blade."
+                            },
+                            {
+                                "Character": "CHARLIE",
+                                "Line": "Which facilitates cutting and reduces user fatigue. Bartlet walks around behind his desk. Charlie stands in front."
+                            },
+                            {
+                                "Character": "BARTLET",
+                                "Line": "I once test-drove the Komin Yomada."
+                            },
+                            {
+                                "Character": "CHARLIE",
+                                "Line": "And?"
+                            },
+                            {
+                                "Character": "BARTLET",
+                                "Line": "Not wild about it--How about this?"
+                            },
+                            {
+                                "Character": "CHARLIE",
+                                "Line": "Okay, Mr. President. I say this with all possible respect, but each of these knives cut, you know, meat. Why is it important?"
+                            },
+                            {
+                                "Character": "BARTLET",
+                                "Line": "Because it's something we pass on. Something with a history so we can say, 'My father gave this to me. His father gave it to him, and now I'm giving it to you.'"
+                            },
+                            {
+                                "Character": "CHARLIE",
+                                "Line": "Well, okay sir, but if that's true, then why don't you already have one?"
+                            },
+                            {
+                                "Character": "BARTLET",
+                                "Line": "I do have one."
+                            },
+                            {
+                                "Character": "CHARLIE",
+                                "Line": "Why do you need a new one?"
+                            },
+                            {
+                                "Character": "BARTLET",
+                                "Line": "I'm giving mine away."
+                            },
+                            {
+                                "Character": "CHARLIE",
+                                "Line": "To who?"
+                            },
+                            {
+                                "Character": "BARTLET",
+                                "Line": "Whom."
+                            },
+                            {
+                                "Character": "CHARLIE",
+                                "Line": "To whom?"
+                            },
+                            {
+                                "Character": "BARTLET",
+                                "Line": "Funny you should ask. He opens a desk drawer from his left and pulls out what looks like an antique knife case, nicely wrapped with a piece of red ribbon."
+                            },
+                            {
+                                "Character": "BARTLET",
+                                "Line": "Charlie, my father gave this to me, and his father gave it to him, and now I'm giving it to you. He extends his hand to offer the knife case to his personal aide. Charlie gently takes it and gazes at it for a moment."
+                            },
+                            {
+                                "Character": "BARTLET",
+                                "Line": "Take a look. Charlie unties the red ribbon and opens the case to reveal the knife inside, in which he stares at it admiringly."
+                            },
+                            {
+                                "Character": "BARTLET",
+                                "Line": "The fully tapered bolster allows for sharpening the entire edge of the blade."
+                            },
+                            {
+                                "Character": "CHARLIE",
+                                "Line": "It says, 'P.R.' I thought I knew all, but I don't recognize the manufacturer."
+                            },
+                            {
+                                "Character": "BARTLET",
+                                "Line": "Yeah. This was made for my family by a Boston silversmith named Paul Revere. Charlie swiftly looks up in surprise, much appreciation now seen in his eyes. Behind him, C.J. quietly enters."
+                            },
+                            {
+                                "Character": "C.J.",
+                                "Line": "Mr. President?"
+                            },
+                            {
+                                "Character": "BARTLET",
+                                "Line": "I'm proud of you, Charlie. Still taken aback, Charlie gives him a soft response."
+                            },
+                            {
+                                "Character": "CHARLIE",
+                                "Line": "Thank you, sir. [beat] Five minutes in the Rose Garden."
+                            },
+                            {
+                                "Character": "BARTLET",
+                                "Line": "Yeah. Charlie turns around to leave as C.J. stands at the back of the room, clearing her throat before speaking."
+                            },
+                            {
+                                "Character": "C.J.",
+                                "Line": "Mr. President."
+                            },
+                            {
+                                "Character": "BARTLET",
+                                "Line": "Yeah?"
+                            },
+                            {
+                                "Character": "C.J.",
+                                "Line": "Hi!"
+                            },
+                            {
+                                "Character": "BARTLET",
+                                "Line": "Hi."
+                            },
+                            {
+                                "Character": "C.J.",
+                                "Line": "I'm sorry to ask you this, sir."
+                            },
+                            {
+                                "Character": "BARTLET",
+                                "Line": "Not too late to stop yourself."
+                            },
+                            {
+                                "Character": "C.J.",
+                                "Line": "I need you to pardon a turkey."
+                            },
+                            {
+                                "Character": "BARTLET",
+                                "Line": "I already pardoned a turkey."
+                            },
+                            {
+                                "Character": "C.J.",
+                                "Line": "I need you to pardon another one."
+                            },
+                            {
+                                "Character": "BARTLET",
+                                "Line": "Didn't I do it right?"
+                            },
+                            {
+                                "Character": "C.J.",
+                                "Line": "You did it great, but I need you to come out here and pardon another one."
+                            },
+                            {
+                                "Character": "BARTLET",
+                                "Line": "Aren't I gonna get a reputation for being soft on turkeys?"
+                            },
+                            {
+                                "Character": "C.J.",
+                                "Line": "Sir, could you come out here and just get this over with?"
+                            },
+                            {
+                                "Character": "BARTLET",
+                                "Line": "No, I'm not just gonna get this--What the hell is going on?"
+                            },
+                            {
+                                "Character": "C.J.",
+                                "Line": "[approaches] They sent me two turkeys. The most photo-friendly of the two gets a Presidential pardon and a full life at a children's zoo. The runner-up gets eaten."
+                            },
+                            {
+                                "Character": "BARTLET",
+                                "Line": "If the Oscars were like that, I'd watch."
+                            },
+                            {
+                                "Character": "C.J.",
+                                "Line": "Mr. President..."
+                            },
+                            {
+                                "Character": "BARTLET",
+                                "Line": "Just buy the second turkey."
+                            },
+                            {
+                                "Character": "C.J.",
+                                "Line": "They already sold it."
+                            },
+                            {
+                                "Character": "BARTLET",
+                                "Line": "There's not much I can do."
+                            },
+                            {
+                                "Character": "C.J.",
+                                "Line": "You can pardon the turkey."
+                            },
+                            {
+                                "Character": "BARTLET",
+                                "Line": "The turkey hasn't committed a crime."
+                            },
+                            {
+                                "Character": "C.J.",
+                                "Line": "Sir..."
+                            },
+                            {
+                                "Character": "BARTLET",
+                                "Line": "C.J., I have really no judicial jurisdiction over birds."
+                            },
+                            {
+                                "Character": "C.J.",
+                                "Line": "Yes, I know that, and you know that, but Morton Horn doesn't know that."
+                            },
+                            {
+                                "Character": "BARTLET",
+                                "Line": "Who's Morton...?"
+                            },
+                            {
+                                "Character": "C.J.",
+                                "Line": "He's a high school kid from the turkey place."
+                            },
+                            {
+                                "Character": "BARTLET",
+                                "Line": "He's in high school and he doesn't know I can't pardon his turkey?"
+                            },
+                            {
+                                "Character": "C.J.",
+                                "Line": "That's what I'm betting."
+                            },
+                            {
+                                "Character": "BARTLET",
+                                "Line": "C.J., if we don't and I mean completely overhaul public education in this country..."
+                            },
+                            {
+                                "Character": "C.J.",
+                                "Line": "Yes sir, but maybe this is not the best time to..."
+                            },
+                            {
+                                "Character": "BARTLET",
+                                "Line": "Where the hell is he?"
+                            },
+                            {
+                                "Character": "C.J.",
+                                "Line": "Right out there. Bartlet immediately heads for the door, with C.J. following behind him."
+                            }
+                        ]
+                    },
+                    {
+                        "Scene Heading": "CUT TO: INT. OUTER OVAL OFFICE - CONTINUOUS",
+                        "Description": "As Bartlet and C.J. come out of the Oval Office, we see Donna and Morton by the door of the room near Charlie's desk. Troy, the turkey, is in front of them.",
+                        "Dialogues": [
+                            {
+                                "Character": "C.J.",
+                                "Line": "Morton, this is President Bartlet."
+                            },
+                            {
+                                "Character": "BARTLET",
+                                "Line": "Hey, Morton."
+                            },
+                            {
+                                "Character": "MORTON",
+                                "Line": "Wow."
+                            },
+                            {
+                                "Character": "BARTLET",
+                                "Line": "Well said. Is that the turkey?"
+                            },
+                            {
+                                "Character": "DONNA",
+                                "Line": "Yes."
+                            },
+                            {
+                                "Character": "BARTLET",
+                                "Line": "[to the turkey] You're pardoned."
+                            },
+                            {
+                                "Character": "C.J.",
+                                "Line": "Sir..."
+                            },
+                            {
+                                "Character": "BARTLET",
+                                "Line": "What do you want?"
+                            },
+                            {
+                                "Character": "C.J.",
+                                "Line": "[with hand gestures] Well, you know..."
+                            },
+                            {
+                                "Character": "BARTLET",
+                                "Line": "[to the turkey again] By the power vested in me by the Constitution of the United States, I hereby pardon you."
+                            },
+                            {
+                                "Character": "MORTON",
+                                "Line": "[pleased] Okay."
+                            },
+                            {
+                                "Character": "BARTLET",
+                                "Line": "No, it's not okay."
+                            },
+                            {
+                                "Character": "C.J.",
+                                "Line": "Sir..."
+                            },
+                            {
+                                "Character": "BARTLET",
+                                "Line": "Morton, I can't pardon a turkey. If you think I can pardon a turkey, then you have got to go back to your school and insist that you be better prepared to go out in the world."
+                            },
+                            {
+                                "Character": "DONNA",
+                                "Line": "You can't pardon a turkey?"
+                            },
+                            {
+                                "Character": "BARTLET",
+                                "Line": "[beat] No. I tell you what I can do. I'm drafting this turkey into military service. In the meantime, somebody will be drafting a check, which will have my signature on it, so the folks can buy themselves a Butterball."
+                            },
+                            {
+                                "Character": "MORTON",
+                                "Line": "Okay."
+                            },
+                            {
+                                "Character": "C.J.",
+                                "Line": "Donna, will you have Morton take Troy back to his pen, and remember to support his hindquarters."
+                            },
+                            {
+                                "Character": "BARTLET",
+                                "Line": "[quietly to C.J.] What's wrong with him?"
+                            },
+                            {
+                                "Character": "C.J.",
+                                "Line": "The turkey's hindquarters. As Morton picks up Troy and walks off with Donna, Sam and Josh come in the room."
+                            },
+                            {
+                                "Character": "BARTLET",
+                                "Line": "[to Sam] I'm still waiting for the thing."
+                            },
+                            {
+                                "Character": "SAM",
+                                "Line": "[holds up a folder] Right here."
+                            },
+                            {
+                                "Character": "BARTLET",
+                                "Line": "Let's go in. Bartlet goes inside THE OVAL OFFICE. Josh and Sam follow, but C.J. stays behind."
+                            },
+                            {
+                                "Character": "C.J.",
+                                "Line": "Sir..."
+                            },
+                            {
+                                "Character": "BARTLET",
+                                "Line": "Give me two minutes."
+                            },
+                            {
+                                "Character": "C.J.",
+                                "Line": "[points to the colonnade] I'm gonna step out there and begin the singing and lute playing."
+                            },
+                            {
+                                "Character": "BARTLET",
+                                "Line": "Whatever! C.J. drops her hand and heads out the door.",
+                                "Descriptor": "OS"
+                            }
+                        ]
+                    },
+                    {
+                        "Scene Heading": "CUT TO: INT. THE OVAL OFFICE - CONTINUOUS",
+                        "Description": "Bartlet is on his way to go behind the desk. Josh and Sam stands in front.",
+                        "Dialogues": [
+                            {
+                                "Character": "JOSH",
+                                "Line": "I'm assuming you've heard?"
+                            },
+                            {
+                                "Character": "BARTLET",
+                                "Line": "By the way, the Latin word for 'yam' is 'dioscorea.'"
+                            },
+                            {
+                                "Character": "JOSH",
+                                "Line": "You've heard."
+                            },
+                            {
+                                "Character": "BARTLET",
+                                "Line": "About the Chinese refugees?"
+                            },
+                            {
+                                "Character": "SAM",
+                                "Line": "They escaped."
+                            },
+                            {
+                                "Character": "BARTLET",
+                                "Line": "Yeah. Can you believe it?"
+                            },
+                            {
+                                "Character": "JOSH",
+                                "Line": "No, as a matter of fact, neither one of us can believe it, sir."
+                            },
+                            {
+                                "Character": "BARTLET",
+                                "Line": "That detention center was being guarded by the 22nd Division of the California National Guard. Now, what does it say about our reserve army?"
+                            },
+                            {
+                                "Character": "SAM",
+                                "Line": "That 83 men, women and children who haven't eaten in two months staged a prison break."
+                            },
+                            {
+                                "Character": "BARTLET",
+                                "Line": "Let me read this. He now has the folder in his hand, puts on his glasses, and starts to read from the paper inside."
+                            },
+                            {
+                                "Character": "BARTLET",
+                                "Line": "'Well over three and a half centuries ago, strengthened by faith and bound by a common desire for liberty, a small band of pilgrims sought out a place in the New World where they could worship according to their own beliefs. Now therefore I, Josiah Bartlet, President of the United States, by virtue of authority and laws vested in me, do hereby proclaim this to be a National Day of Thanksgiving.'"
+                            },
+                            {
+                                "Character": "SAM",
+                                "Line": "I'll see you out there, sir. [walks out to the portico]"
+                            },
+                            {
+                                "Character": "JOSH",
+                                "Line": "You asked the Governor to stand down the 22nd Division."
+                            },
+                            {
+                                "Character": "BARTLET",
+                                "Line": "[taking off his glasses] And call in the Red Cross. We didn't do anything illegal. We're not involved in any massive criminal conspiracy. There's no way I was letting them go, and we needed to help China save face, so now they can tell their people that the mighty American military was overpowered by..."
+                            },
+                            {
+                                "Character": "JOSH",
+                                "Line": "Yeah. Bartlet starts to head out to the colonnade."
+                            },
+                            {
+                                "Character": "JOSH",
+                                "Line": "So the guy passed the test, huh?"
+                            },
+                            {
+                                "Character": "BARTLET",
+                                "Line": "You think I would've sent him back if he'd failed catechism? Let me tell you something. We can be the world's policeman. We can be the world's bank, the world's factory, the world's farm. What does it mean if we're not also... He pauses for a moment, smiling a little. From a distance we hear several children starting to sing."
+                            },
+                            {
+                                "Character": "BARTLET",
+                                "Line": "We've made it into the New World, Josh. You know what I get to do now? I get to proclaim the National Day of Thanksgiving."
+                            },
+                            {
+                                "Character": "HERALD",
+                                "Line": "Ladies and gentlemen, boys and girls, the President of the United States.",
+                                "Descriptor": "OS"
+                            },
+                            {
+                                "Character": "BARTLET",
+                                "Line": "[to Josh] This is a great job. With a big smile, he opens the door to the COLONNADE, and heads for THE ROSE"
+                            },
+                            {
+                                "Character": "GARDEN.",
+                                "Line": "Josh stays still at the door for a moment, and then follows him. A Secret Service Agent goes to close the door. Somewhere nearby, children continue to sing, with angelic voices we can now hear bright and clear."
+                            },
+                            {
+                                "Character": "SINGERS",
+                                "Line": "...to ask the Lord's blessing. He chastens and hastens His will to make known. The weak and oppressing Now seized from distressing Sing praises to His name, He forgets not His own. The song ends, and from the door, we slowly--",
+                                "Descriptor": "OS"
+                            }
+                        ]
+                    },
+                    {
+                        "Scene Heading": "DISSOLVE TO: END TITLES.",
+                        "Description": "",
+                        "Dialogues": [
+                            {
+                                "Character": "FADE TO BLACK.",
+                                "Line": "* * *"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+}

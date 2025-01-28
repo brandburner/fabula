@@ -1,0 +1,130 @@
+{
+    "title": "The Twin Dilemma",
+    "air_date": "22 March 1984",
+    "num_episodes": 4,
+    "episode_titles": [
+        "Part One",
+        "Part Two",
+        "Part Three",
+        "Part Four"
+    ],
+    "episode_duration": 25,
+    "writers": [
+        "Anthony Steven"
+    ],
+    "directors": [
+        "Peter Moffat"
+    ],
+    "media_format": "Color",
+    "dialogue_triumphs": [
+        "Thou craggy knob!",
+        "Why do you like to play the man of mystery? It's a role you play very badly!"
+    ],
+    "dialogue_disasters": [
+        "Our genius has been abused.",
+        "May my bones rot for obeying it!",
+        "Take care not to blow their hearts, or their minds!",
+        "The sound of giant slugs!"
+    ],
+    "goofs": [
+        "The Jocondan's awful death by embolism.",
+        "Azmael keeps a slug-killing potion hanging around, but has never thought of using it.",
+        "The twins believe Edgeworth's story that his teleportation into their living room is a conjuring trick.",
+        "Why do the kidnappers stop off on Titan 3?",
+        "Peri makes no mention of the Doctor's heroic sacrifice on her behalf, nor thanks him for it.",
+        "Why does Azmael call himself Edgeworth?",
+        "Peri has a touching faith in the notion that, as a policeman, Hugo cannot be a homicidal maniac.",
+        "The altered revitaliser machine sends Peri ten seconds back in time, and thus... back to the TARDIS?",
+        "Putting three planets in the same orbit, would not, even if fluffed, 'blow a hole in the Universe'."
+    ],
+    "continuity_notes": [
+        {
+            "name": "The Doctor",
+            "type": "Character",
+            "description": "Time Lord protagonist, recently regenerated",
+            "origin": "Gallifrey",
+            "current_status": "Displaying advanced medical talents and erratic behavior post-regeneration"
+        },
+        {
+            "name": "Peri",
+            "type": "Character",
+            "description": "The Doctor's companion",
+            "origin": "Earth",
+            "current_status": "Traveling with the Doctor, adjusting to his new incarnation"
+        },
+        {
+            "name": "Azmael",
+            "type": "Character",
+            "description": "Time Lord, former teacher of the Doctor",
+            "origin": "Gallifrey",
+            "current_status": "Using the alias 'Edgeworth', involved in the plot"
+        },
+        {
+            "name": "Mestor",
+            "type": "Character",
+            "description": "Alien antagonist, resembling a giant slug",
+            "origin": "Unknown",
+            "current_status": "Main villain of the story"
+        },
+        {
+            "name": "Hugo",
+            "type": "Character",
+            "description": "Policeman",
+            "origin": "Unknown",
+            "current_status": "Involved in the story, potential companion material"
+        }
+    ],
+    "technobabble": [
+        "The presence of zanium suggests an extra-terrestrial kidnap."
+    ],
+    "roots": [
+        "Caligula",
+        "Beau Brummel",
+        "Thomas Moore's 'Lalla Rukh'",
+        "Longfellow's 'Excelsior'"
+    ],
+    "links": [
+        "The second Doctor's Yeti coat, the third Doctor's velvet jacket, and Tegan's coat are seen in the costume room.",
+        "The Doctor says: 'Brave heart, Tegan.'"
+    ],
+    "locations": [
+        {
+            "name": "Asteroid Titan 3",
+            "type": "Location",
+            "description": "An asteroid where part of the story takes place",
+            "origin": "Solar System",
+            "current_status": "Site of a stopover by kidnappers"
+        },
+        {
+            "name": "Joconda",
+            "type": "Location",
+            "description": "Planet involved in the story",
+            "origin": "Unknown",
+            "current_status": "Setting for part of the story"
+        },
+        {
+            "name": "Earth",
+            "type": "Location",
+            "description": "Home planet of humans",
+            "origin": "Solar System",
+            "current_status": "Setting for part of the story, August 2200"
+        },
+        {
+            "name": "Fiesta 95",
+            "type": "Location",
+            "description": "Holiday planet",
+            "origin": "Unknown",
+            "current_status": "Mentioned in the story"
+        }
+    ],
+    "future_history": "The story is set in August 2200, with a space police service run by a minister.",
+    "untold_adventures": [
+        "Azmael last met the Doctor in the Doctor's fourth incarnation, and was the best teacher the Doctor ever had. On that occasion, Azmael got drunk."
+    ],
+    "qv": [
+        "The Doctor's Degree",
+        "'The Moonbase'"
+    ],
+    "additional_notes": "Fashion Victims: The Jocondans, with their Bostick glue guns. Mestor, in a horribly bad costume that makes him look cross-eyed. Azmael chooses to wrap his sofa in aluminium foil. The Doctor, Peri and Hugo all go into the TARDIS costume room and emerge with awful clothes.",
+    "bottom_line": "The plot, if scientifically stupid, is actually rather good. The trouble is, there's not enough of it for two episodes, never mind four, and the slack's taken up with endless dull talking scenes. All this and farting music. Still, there are some very good performances in here, and it's a pity Hugo wasn't kept on."
+}

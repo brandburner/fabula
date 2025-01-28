@@ -1,0 +1,131 @@
+{
+    "title": "The Invasion of Time",
+    "air_date": "4 February 1978",
+    "num_episodes": 6,
+    "episode_titles": [
+        "Part One",
+        "Part Two",
+        "Part Three",
+        "Part Four",
+        "Part Five",
+        "Part Six"
+    ],
+    "episode_duration": 25,
+    "writers": [
+        "David Agnew"
+    ],
+    "directors": [
+        "Gerald Blake"
+    ],
+    "media_format": "Color",
+    "dialogue_triumphs": [
+        "Guard: 'The Castellan will have me shot.' Doctor: 'That's all right. I'll have him shot!'"
+    ],
+    "dialogue_disasters": null,
+    "goofs": [
+        "In episode one, the Doctor is wearing his scarf when he meets the Vardans, but it's on the hat stand when he returns to the TARDIS and he's not wearing it.",
+        "Stor has a cockney accent.",
+        "What happens to the rest of the Sontaran fleet once Stor is killed?",
+        "Leela and Andred fall in love despite barely having looked at one another before.",
+        "Why is Leela allowed to go to Gallifrey (and stay there!) when Sarah wasn't?"
+    ],
+    "continuity_notes": [
+        {
+            "name": "The Capitol",
+            "type": "Location",
+            "description": "A section of the Citadel on Gallifrey",
+            "origin": "Gallifrey",
+            "current_status": null
+        },
+        {
+            "name": "Castellan",
+            "type": "Character",
+            "description": "A Time Lord with a ministerial position, good for those hoping to be president",
+            "origin": "Gallifrey",
+            "current_status": "Changed role since 'The Deadly Assassin'"
+        },
+        {
+            "name": "K-9",
+            "type": "Character",
+            "description": "The Doctor's robotic companion",
+            "origin": null,
+            "current_status": "Referred to as the Doctor's 'second best friend', replaced with K-9 M II at the end"
+        },
+        {
+            "name": "TARDIS",
+            "type": "Object",
+            "description": "The Doctor's time and space machine",
+            "origin": "Gallifrey",
+            "current_status": "Interior includes a swimming pool, ancillary power station, sick bay, and storage areas"
+        },
+        {
+            "name": "Matrix",
+            "type": "Concept",
+            "description": "A vast computer network on Gallifrey, accessed by the President",
+            "origin": "Gallifrey",
+            "current_status": "The President becomes part of it and it part of him"
+        },
+        {
+            "name": "Rassilon",
+            "type": "Character",
+            "description": "Legendary figure in Time Lord history",
+            "origin": "Gallifrey",
+            "current_status": "Died 'aeons ago'"
+        },
+        {
+            "name": "The Outsiders",
+            "type": "Organization",
+            "description": "Gallifreyans living outside the Capitol",
+            "origin": "Gallifrey",
+            "current_status": "Time Lords who rejected the Capitol's effete life"
+        },
+        {
+            "name": "Vardans",
+            "type": "Character",
+            "description": "Alien race that can travel along broadcast wavelengths and are telepathic",
+            "origin": "Planet with coordinates 3052 alpha 7, 14th span",
+            "current_status": "Invading Gallifrey"
+        },
+        {
+            "name": "Sontarans",
+            "type": "Character",
+            "description": "Warrior race with a vast army",
+            "origin": null,
+            "current_status": "Invading Gallifrey after the Vardans"
+        }
+    ],
+    "technobabble": [
+        "Cyclic burst ratio",
+        "Encephialographic barrier",
+        "Winklegruber",
+        "Crimps",
+        "The Doctor tells Rodan that 'after I feed in the doppler effect and eliminate the red shift then the invasion will succeed.'"
+    ],
+    "roots": [
+        "Duck Soup",
+        "The Mikado",
+        "Juvenal ('who guards the guards?')",
+        "Monty Python's 'Deja Vu' sketch"
+    ],
+    "links": [
+        "There are many references to 'The Deadly Assassin'",
+        "The TARDIS cypher indent key is again seen"
+    ],
+    "locations": [
+        {
+            "name": "Gallifrey",
+            "type": "Location",
+            "description": "Home planet of the Time Lords",
+            "origin": null,
+            "current_status": "Under invasion by Vardans and Sontarans"
+        }
+    ],
+    "future_history": null,
+    "untold_adventures": null,
+    "qv": [
+        "Sontarans and Rutans, 'The Time Warrior'",
+        "Temporal Grace, 'The Hand of Fear'"
+    ],
+    "additional_notes": "David Agnew is a pseudonym for Graham Williams, Anthony Read, and David Weir",
+    "bottom_line": "A work of desperation, 'The Invasion of Time' stands up reasonably well, although its basis in Gallifreyan lore requires the viewer to have seen (and remembered) 'The Deadly Assassin'. The main negative element is the Vardans (whose appearance, both assumed and real, is ludicrous). A knowing, post-modern feel is created when Tom Baker looks into camera and notes: 'Even the sonic screwdriver won't get me out of this one.'"
+}

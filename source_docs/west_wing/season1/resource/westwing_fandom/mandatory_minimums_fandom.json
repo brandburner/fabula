@@ -1,0 +1,102 @@
+{
+  "metadata": {
+    "title": "Mandatory Minimums",
+    "series": "The West Wing",
+    "season": "1",
+    "episode_number": 20,
+    "release_date": "May 3, 2000",
+    "writer": "Aaron Sorkin",
+    "director": "Robert Berlinger",
+    "main_actors": [
+      "Martin Sheen",
+      "Rob Lowe",
+      "John Spencer",
+      "Richard Schiff",
+      "Allison Janney",
+      "Bradley Whitford"
+    ],
+    "time_reference": "During President Bartlet's administration"
+  },
+  "cast_crew": [
+    {
+      "cast": {
+        "name": "Martin Sheen",
+        "role": "President Josiah Bartlet"
+      },
+      "crew": {
+        "name": "Aaron Sorkin",
+        "role": "Writer"
+      }
+    },
+    {
+      "cast": {
+        "name": "Bradley Whitford",
+        "role": "Josh Lyman"
+      },
+      "crew": {
+        "name": "Robert Berlinger",
+        "role": "Director"
+      }
+    }
+  ],
+  "home_media": [
+    {
+      "releases": {
+        "media_type": "DVD",
+        "date": "2001",
+        "details": "The West Wing: The Complete First Season",
+        "special_features": [
+          "Commentary from Aaron Sorkin",
+          "Behind the scenes featurettes",
+          "Deleted scenes"
+        ]
+      }
+    }
+  ],
+  "story_notes": [
+    {
+      "notes": [
+        "This episode marks a significant turning point for President Bartlet's character and his administration."
+      ]
+    }
+  ],
+  "worldbuilding": {
+    "in_universe_mythology": [
+      "The Federal Election Commission"
+    ],
+    "real_world_cultural_references": [
+      "Campaign finance reform"
+    ],
+    "individuals": [
+      "Joey Lucas",
+      "Al Kiefer",
+      "Andy Wyatt"
+    ],
+    "items": [
+      "FEC nominations",
+      "Drug legislation"
+    ],
+    "locations": [
+      "White House",
+      "Washington Hotel"
+    ]
+  },
+  "ratings": {
+    "ratings_millions": [
+      {
+        "part": "Mandatory Minimums",
+        "viewers": 8.0
+      }
+    ]
+  },
+  "continuity": {
+    "continuity_notes": [
+      "This episode follows the events of previous episodes regarding campaign finance."
+    ]
+  },
+  "plot": [
+    {
+      "plot_summary": "President Bartlet announces his choices for the Federal Election Commission, causing backlash from political opponents. The episode involves strategic discussions about drug policy and Josh's romantic feelings for Joey Lucas."
+    }
+  ]
+}

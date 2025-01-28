@@ -1,0 +1,104 @@
+{
+    "title": "Pyramids of Mars",
+    "air_date": "25 October 1975",
+    "num_episodes": 4,
+    "episode_titles": [
+        "Part One",
+        "Part Two",
+        "Part Three",
+        "Part Four"
+    ],
+    "episode_duration": 25,
+    "writers": [
+        "Stephen Harris (pseudonym for Robert Holmes, Lewis Griefer)"
+    ],
+    "directors": [
+        "Paddy Russell"
+    ],
+    "media_format": "Color",
+    "dialogue_triumphs": [
+        "The Doctor: 'I'm a Time Lord\u2026 You don't understand the implications. I'm not a human being. I walk in eternity.'",
+        "The Doctor: 'If I knew I wouldn't need to ask. Don't be obtuse, man!'",
+        "The Doctor: 'Deactivating a generator loop without the correct key is like repairing a watch with a hammer and chisel. One false move and you'll never tell the time again.'",
+        "Sutekh: 'Your evil is my good. I am Sutekh the destroyer. Where I tread, I leave nothing but dust and darkness. I find that good!'"
+    ],
+    "dialogue_disasters": null,
+    "goofs": [
+        "Sarah mentions being in the city of the Exxilons, but she was never there in 'Death to the Daleks'.",
+        "A technician's hands are visible holding down Sutekh's throne cushions as he stands up.",
+        "Sarah puts on a period dress before realizing they've landed in 1911.",
+        "Marcus's tie design changes frequently.",
+        "The Osiran warning is in English.",
+        "The Doctor's puzzle-solving in the pyramid contains a mathematical error.",
+        "If Scarman controls the mummies telepathically, the Doctor should have been spotted when disguised as one."
+    ],
+    "continuity_notes": [
+        {
+            "name": "Osirans",
+            "type": "Character",
+            "description": "Dome-headed alien race with cerebrums like spiral staircases, led by Horus and Sutekh.",
+            "origin": "Phaester Osiris",
+            "current_status": "Ancient race, mostly extinct"
+        },
+        {
+            "name": "Sutekh",
+            "type": "Character",
+            "description": "Osiran known as 'the Typhonian beast', destroyer of worlds, imprisoned for 7000 years.",
+            "origin": "Phaester Osiris",
+            "current_status": "Imprisoned on Earth, attempting to escape"
+        },
+        {
+            "name": "The Doctor",
+            "type": "Character",
+            "description": "Time Lord protagonist, about 750 years old in this story, with a respiratory bypass system.",
+            "origin": "Gallifrey",
+            "current_status": "Attempting to stop Sutekh"
+        },
+        {
+            "name": "TARDIS",
+            "type": "Object",
+            "description": "The Doctor's time machine, claimed to be isomorphic (only operable by the Doctor).",
+            "origin": "Gallifrey",
+            "current_status": "Functional, used for travel to 1911"
+        }
+    ],
+    "technobabble": [
+        "Relative continuum stabiliser",
+        "Parallax coil",
+        "Cytronic particle accelerator",
+        "Etheric impulses",
+        "Decadron crucible",
+        "Triobiphysics"
+    ],
+    "roots": [
+        "Egyptian mythology",
+        "Mummy films (especially Hammer's The Mummy and Blood from the Mummy's Tomb)",
+        "Edgar Allen Poe (decoding principles)",
+        "H. G. Wells",
+        "The Sword of Rhiannon",
+        "Norse mythology (Loki's imprisonment)",
+        "Bram Stoker's The Jewel of the Seven Stars"
+    ],
+    "links": [
+        "Sarah finds one of Victoria's old dresses."
+    ],
+    "locations": [
+        {
+            "name": "The Old Priory",
+            "type": "Location",
+            "description": "Site of the story's events in 1911, later becomes a UNIT HQ.",
+            "origin": "Earth",
+            "current_status": "Setting of the main action, accidentally burned down by the Doctor"
+        }
+    ],
+    "future_history": null,
+    "untold_adventures": [
+        "The Doctor was given his picklock by Marie Antoinette."
+    ],
+    "qv": [
+        "Dating the UNIT Stories, 'The Invasion'",
+        "The Location of Gallifrey, 'Terror of the Autons'"
+    ],
+    "additional_notes": "The episode features a discussion about the ability to 'choose the future' and explores the Doctor's sense of moral obligation.",
+    "bottom_line": "'Pyramids of Mars' features one of the series' most chilling enemies and includes classic Doctor Who moments, such as the Doctor explaining the horror of what will happen if Sutekh isn't stopped."
+}

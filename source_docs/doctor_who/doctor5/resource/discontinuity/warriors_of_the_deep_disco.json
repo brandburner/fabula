@@ -1,0 +1,117 @@
+{
+    "title": "Warriors of the Deep",
+    "air_date": "5 January 1984",
+    "num_episodes": 4,
+    "episode_titles": [
+        "Part One",
+        "Part Two",
+        "Part Three",
+        "Part Four"
+    ],
+    "episode_duration": 25,
+    "writers": [
+        "Johnny Byrne"
+    ],
+    "directors": [
+        "Pennant Roberts"
+    ],
+    "media_format": "Color",
+    "dialogue_triumphs": [
+        "I sometimes wonder why I like the people of this miserable planet so much",
+        "There should have been another way."
+    ],
+    "dialogue_disasters": [
+        "You'll get no help from me, \"Silurian\"!"
+    ],
+    "goofs": [
+        "In episode one, Icthar's (human) eyes are visible, blinking through the costume.",
+        "In episode three, the 'Silurians' are clearly wearing T-shirts under their neck sections.",
+        "Tegan decides to put on a bra between episodes one and two.",
+        "Dr Solow's karate chop seems a bit optimistic.",
+        "The Doctor leaves the TARDIS unlocked in his haste to explore.",
+        "Polystyrene doors are visible.",
+        "Vorshak's stoic reaction to being shot.",
+        "Missile Command on the BBC Micro.",
+        "The Myrka's poor design and execution."
+    ],
+    "continuity_notes": [
+        {
+            "name": "Silurians",
+            "type": "Character",
+            "description": "Ancient reptilian race, now referring to themselves by the human-given name. Led by Icthar, sole survivor of the noble Silurian Triad.",
+            "origin": "Earth's distant past",
+            "current_status": "Awakened from hibernation, seeking to reclaim Earth"
+        },
+        {
+            "name": "Sea Devils",
+            "type": "Character",
+            "description": "Aquatic cousins of the Silurians, allied with them in this story.",
+            "origin": "Earth's oceans",
+            "current_status": "Awakened to aid Silurians, wearing laser-proof armor and carrying cutting devices"
+        },
+        {
+            "name": "Hexachromite gas",
+            "type": "Object",
+            "description": "Chemical compound lethal to marine and reptile life, including Silurians and Sea Devils.",
+            "origin": null,
+            "current_status": "Used as a plot device and weapon"
+        },
+        {
+            "name": "Turlough",
+            "type": "Character",
+            "description": "The Doctor's companion, skilled with firearms and electronics.",
+            "origin": "Trion",
+            "current_status": "Traveling with the Doctor to learn more"
+        },
+        {
+            "name": "Tegan",
+            "type": "Character",
+            "description": "The Doctor's companion, interested in Earth's future.",
+            "origin": "Earth",
+            "current_status": "Traveling with the Doctor"
+        },
+        {
+            "name": "TARDIS",
+            "type": "Object",
+            "description": "The Doctor's time and space machine, capable of short-range 'hops' using a materialisation flip-flop.",
+            "origin": "Gallifrey",
+            "current_status": "Functional, used to reach the sea base"
+        }
+    ],
+    "technobabble": [
+        "Materialisation flip-flop",
+        "Hexachromite gas"
+    ],
+    "roots": [
+        "Wargames",
+        "Dr No (guard costume design, the reactor pool)",
+        "Ice Station Zebra"
+    ],
+    "links": [
+        "Doctor Who and the Silurians",
+        "The Sea Devils"
+    ],
+    "locations": [
+        {
+            "name": "Earth's sea bed",
+            "type": "Location",
+            "description": "Underwater location where much of the story takes place",
+            "origin": "Earth",
+            "current_status": "Site of conflict between humans and reptilian species"
+        },
+        {
+            "name": "Earth orbit",
+            "type": "Location",
+            "description": "Space around Earth, featuring orbital weaponry",
+            "origin": "Earth",
+            "current_status": "Militarized zone in cold war between two power blocks"
+        }
+    ],
+    "future_history": "In 2084, Earth is divided into two power blocks engaged in a cold war. They regularly use orbital weaponry.",
+    "untold_adventures": [
+        "The Doctor's previous encounter with Icthar and the Silurians, involving Silurian battle cruisers and the Myrka"
+    ],
+    "qv": null,
+    "additional_notes": "The episode features notable costume and set design issues, including visible T-shirts under Silurian costumes and polystyrene doors. The use of eye make-up at the military base is noted as a fashion choice.",
+    "bottom_line": "A great script with outstanding performance by Peter Davison, marred by design and continuity issues. The Doctor's radical actions and the powerful final line are highlights."
+}

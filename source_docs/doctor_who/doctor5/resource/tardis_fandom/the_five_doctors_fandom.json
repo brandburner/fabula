@@ -1,0 +1,184 @@
+{
+  "metadata": {
+    "title": "The Five Doctors",
+    "series": "Doctor Who",
+    "season": "20",
+    "episode_number": 129,
+    "release_date": "23 November 1983",
+    "writer": "Terrance Dicks",
+    "director": "Peter Moffatt",
+    "producer": "John Nathan-Turner",
+    "main_actors": [
+      "Peter Davison",
+      "Jon Pertwee",
+      "Patrick Troughton",
+      "Richard Hurndall",
+      "Tom Baker"
+    ],
+    "time_reference": "Rassilon Era"
+  },
+  "cast_crew": [
+    {
+      "cast": {
+        "name": "Peter Davison",
+        "role": "Fifth Doctor"
+      },
+      "crew": {
+        "name": "Terrance Dicks",
+        "role": "Writer"
+      }
+    },
+    {
+      "cast": {
+        "name": "Jon Pertwee",
+        "role": "Third Doctor"
+      },
+      "crew": {
+        "name": "Peter Moffatt",
+        "role": "Director"
+      }
+    },
+    {
+      "cast": {
+        "name": "Patrick Troughton",
+        "role": "Second Doctor"
+      },
+      "crew": {
+        "name": "John Nathan-Turner",
+        "role": "Producer"
+      }
+    }
+  ],
+  "home_media": [
+    {
+      "releases": {
+        "media_type": "VHS",
+        "date": "1985",
+        "details": "Edited version",
+        "special_features": []
+      }
+    },
+    {
+      "releases": {
+        "media_type": "VHS",
+        "date": "1990",
+        "details": "Unedited version",
+        "special_features": []
+      }
+    },
+    {
+      "releases": {
+        "media_type": "VHS",
+        "date": "1995",
+        "details": "Extended/Special Edition version",
+        "special_features": []
+      }
+    },
+    {
+      "releases": {
+        "media_type": "DVD",
+        "date": "1999",
+        "special_features": []
+      }
+    },
+    {
+      "releases": {
+        "media_type": "DVD",
+        "date": "2008",
+        "details": "25th Anniversary Edition",
+        "special_features": [
+          "Commentary on 1983 TV version",
+          "Commentary on 1995 Special Edition",
+          "Celebration documentary",
+          "The Ties that Bind Us documentary",
+          "Five Doctors, One Studio behind-the-scenes",
+          "Out-takes and bloopers",
+          "(Not So) Special Effects",
+          "Publicity Clips",
+          "Trails and Continuities",
+          "Isolated Music track",
+          "Radio Times Billings",
+          "Photo Gallery",
+          "Coming Soon Trailer",
+          "Hidden audio commentary by David Tennant, Helen Raynor and Phil Collinson",
+          "Hidden BBC Video ident"
+        ]
+      }
+    }
+  ],
+  "story_notes": [
+    {
+      "notes": [
+        "This was the 20th Anniversary Special of Doctor Who.",
+        "It was the first time four incarnations of the Doctor appeared on-screen together.",
+        "This was the first televised Doctor Who story to premiere abroad before the UK transmission.",
+        "This was the first time the First Doctor was portrayed by an actor other than William Hartnell, with Richard Hurndall taking on the role.",
+        "Tom Baker declined to return as the Fourth Doctor, with his role being limited to footage from the unfinished story Shada.",
+        "It featured a record number of returning companions from previous eras of the show."
+      ]
+    }
+  ],
+  "worldbuilding": {
+    "in_universe_mythology": [
+      "Rassilon",
+      "Dark Time",
+      "Time Scoop",
+      "Death Zone",
+      "Dark Tower",
+      "Black Scrolls of Rassilon"
+    ],
+    "real_world_cultural_references": [
+      "Guy Fawkes",
+      "Halloween",
+      "Isaac Newton",
+      "Robert Browning's poem 'Childe Roland To The Dark Tower Came'"
+    ],
+    "individuals": [
+      "Susan Foreman",
+      "Jamie McCrimmon",
+      "Zoe Heriot",
+      "Liz Shaw",
+      "Mike Yates",
+      "Brigadier Lethbridge-Stewart",
+      "Sarah Jane Smith",
+      "K9",
+      "Borusa",
+      "Flavia",
+      "The Castellan",
+      "Rassilon",
+      "Tremas Master"
+    ],
+    "items": [
+      "Coronet of Rassilon",
+      "Seal of the High Council",
+      "Harp of Rassilon"
+    ],
+    "locations": [
+      "Eye of Orion",
+      "Death Zone",
+      "Dark Tower",
+      "Capitol on Gallifrey"
+    ]
+  },
+  "ratings": {
+    "ratings_millions": [
+      {
+        "part": "Original Broadcast",
+        "viewers": 7.7
+      }
+    ]
+  },
+  "continuity": {
+    "continuity_notes": [
+      "This story introduced the idea that the Time Lords could grant a new regeneration cycle to a Time Lord at the end of their original cycle.",
+      "The Brigadier recognizes the Fifth Doctor from the events of Mawdryn Undead.",
+      "The Master is offered a new regeneration cycle, something he had previously sought to steal in The Deadly Assassin.",
+      "The Doctor is called upon to become Lord President of Gallifrey, a role he had assumed before in The Deadly Assassin and The Invasion of Time."
+    ]
+  },
+  "plot": [
+    {
+      "plot_summary": "The Fifth Doctor, Tegan and Turlough are enjoying a peaceful break at the Eye of Orion when the Doctor begins to feel unwell, sensing something is wrong with his past incarnations. Meanwhile, across time and space, the First, Second, Third and Fourth Doctors are kidnapped by a mysterious figure using a forbidden Time Scoop device. \n\nThe Fifth Doctor travels to Gallifrey and discovers that the Time Lords' leader, Borusa, has been using the Time Scoop to bring the Doctors and their companions to the Death Zone on Gallifrey, where they must navigate dangerous obstacles to reach the Dark Tower and the tomb of Rassilon, who discovered the secret of immortality. \n\nThe Doctors and their companions face threats from the Daleks, Cybermen, Yeti and other adversaries as they make their way towards the Tower. Borusa, revealed to be the one controlling the Time Scoop, seeks to claim Rassilon's secret of immortality for himself. The Doctors combine their wills to free the Fifth Doctor from Borusa's control, and Borusa is transformed into a stone face, trapped with others who sought immortality. \n\nRassilon then appears and offers the Doctors immortality, but they all refuse. Rassilon sends the Doctors and their companions back to their proper places in time, with the Fifth Doctor becoming the new President of Gallifrey, much to his reluctance."
+    }
+  ]
+}

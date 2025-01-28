@@ -1,0 +1,97 @@
+{
+    "title": "The Curse of Peladon",
+    "air_date": "29 January 1972",
+    "num_episodes": 4,
+    "episode_titles": [
+        "Part One",
+        "Part Two",
+        "Part Three",
+        "Part Four"
+    ],
+    "episode_duration": 25,
+    "writers": [
+        "Brian Hayles"
+    ],
+    "directors": [
+        "Lennie Mayne"
+    ],
+    "media_format": "Color",
+    "dialogue_triumphs": [
+        "There is no plot! I am being completely honest with you!",
+        "If you can assure me of your support\u2026 then I shall act!"
+    ],
+    "dialogue_disasters": [
+        "One minute you're condemning the Doctor to death, and the next minute you're proposing to me!"
+    ],
+    "goofs": [
+        "The Doctor is nearly hit by the swinging secret passage door in episode one.",
+        "Jo's hair straightens when she climbs back into the citadel.",
+        "Why don't the delegates use Arcturus's radio?",
+        "There's only one bed in the Ice Warriors' quarters.",
+        "If Centauri's a hexapod, what's (s)he walking on?"
+    ],
+    "continuity_notes": [
+        {
+            "name": "Ice Warriors",
+            "type": "Character",
+            "description": "Martian species with an aristocratic society",
+            "origin": "Mars",
+            "current_status": "Part of the Galactic Federation, don't recognize the Doctor or TARDIS"
+        },
+        {
+            "name": "Trisilicate",
+            "type": "Object",
+            "description": "Mineral only found on Mars",
+            "origin": "Mars",
+            "current_status": null
+        },
+        {
+            "name": "The Doctor",
+            "type": "Character",
+            "description": "Time Lord with telepathic empathy with animals and skilled at spear fighting",
+            "origin": "Gallifrey",
+            "current_status": "Sent to Peladon by the Time Lords"
+        },
+        {
+            "name": "Time Lords",
+            "type": "Organization",
+            "description": "The Doctor's species, seemingly interested in the Federation's success",
+            "origin": "Gallifrey",
+            "current_status": "Monitoring and influencing galactic politics"
+        },
+        {
+            "name": "Galactic Federation",
+            "type": "Organization",
+            "description": "Interplanetary alliance including Earth, Mars, Alpha Centauri, and Arcturus",
+            "origin": null,
+            "current_status": "About to admit Peladon as a member"
+        }
+    ],
+    "technobabble": null,
+    "roots": [
+        "Hamlet",
+        "Star Trek, particularly 'Journey to Babel'",
+        "The Hound of the Baskervilles",
+        "the UK's entry into the EC",
+        "The Government Inspector"
+    ],
+    "links": [
+        "The Ice Warriors"
+    ],
+    "locations": [
+        {
+            "name": "Peladon",
+            "type": "Location",
+            "description": "Planet with atmosphere, temperature, and gravity similar to Earth",
+            "origin": null,
+            "current_status": "About to join the Galactic Federation"
+        }
+    ],
+    "future_history": "The Galactic Federation includes Alpha Centauri, Arcturus, Earth, and Mars. Earth is regarded as 'remote and unattractive' by Alpha Centauri. The Ice Warriors assume Earth still has an aristocratic system.",
+    "untold_adventures": [
+        "The Doctor's been to the coronation of Elizabeth I, or perhaps Victoria. He can't remember which, but isn't worried about attending twice."
+    ],
+    "qv": null,
+    "additional_notes": "Jo gets accidentally hypnotised by a spinning mirror. Fashion victims include the Pel's streaked hairdos and Jo's pink party frock. She keeps her high heels on to navigate narrow ledges. The appearance of Alpha Centauri is noted as a double entendre.",
+    "bottom_line": "Dull, but worthy. There's a fight scene in episode three that goes on forever, but is actually rather good."
+}

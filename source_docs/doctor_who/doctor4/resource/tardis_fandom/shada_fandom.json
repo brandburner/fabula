@@ -1,0 +1,161 @@
+{
+  "metadata": {
+    "title": "Shada",
+    "series": "Doctor Who",
+    "season": "17",
+    "release_date": "19 January 1980",
+    "release_end_date": "23 February 1980",
+    "writer": "Douglas Adams",
+    "director": "Pennant Roberts",
+    "producer": "Graham Williams",
+    "main_actors": [
+      "Tom Baker",
+      "Lalla Ward",
+      "Christopher Neame",
+      "Daniel Hill",
+      "Denis Carey",
+      "Victoria Burgoyne",
+      "David Brierley"
+    ],
+    "time_reference": "1979"
+  },
+  "cast_crew": [
+    {
+      "cast": {
+        "name": "Tom Baker",
+        "role": "The Doctor"
+      },
+      "crew": {
+        "name": "Douglas Adams",
+        "role": "Writer"
+      }
+    },
+    {
+      "cast": {
+        "name": "Lalla Ward",
+        "role": "Romana"
+      },
+      "crew": {
+        "name": "Pennant Roberts",
+        "role": "Director"
+      }
+    },
+    {
+      "cast": {
+        "name": "Christopher Neame",
+        "role": "Skagra"
+      },
+      "crew": {
+        "name": "Graham Williams",
+        "role": "Producer"
+      }
+    },
+    {
+      "cast": {
+        "name": "Daniel Hill",
+        "role": "Chris Parsons"
+      },
+      "crew": {
+        "name": "John Nathan-Turner",
+        "role": "Production Unit Manager"
+      }
+    },
+    {
+      "cast": {
+        "name": "Denis Carey",
+        "role": "Professor Chronotis"
+      },
+      "crew": {
+        "name": "Victor Meredith",
+        "role": "Production Designer"
+      }
+    },
+    {
+      "cast": {
+        "name": "Victoria Burgoyne",
+        "role": "Clare Keightley"
+      },
+      "crew": {
+        "name": "Dave Havard",
+        "role": "Visual Effects Designer"
+      }
+    },
+    {
+      "cast": {
+        "name": "David Brierley",
+        "role": "Voice of K9"
+      },
+      "crew": {
+        "name": "Tariq Anwar",
+        "role": "Film Editor"
+      }
+    }
+  ],
+  "home_media": [
+    {
+      "releases": {
+        "media_type": "VHS",
+        "date": "6 July 1992",
+        "details": "Incomplete footage with narration by Tom Baker",
+        "special_features": [
+          "Linking narration by Tom Baker",
+          "Footage from 'The Five Doctors'"
+        ]
+      }
+    },
+    {
+      "releases": {
+        "media_type": "DVD",
+        "date": "4 December 2017",
+        "details": "Completed with animated sequences",
+        "special_features": [
+          "Commentary",
+          "Deleted Scenes",
+          "Studio Shooting (2017)",
+          "Model Filming"
+        ]
+      }
+    }
+  ],
+  "story_notes": [
+    {
+      "notes": [
+        "Initially uncompleted due to union strikes.",
+        "Douglas Adams repurposed elements in 'Dirk Gently's Holistic Detective Agency'.",
+        "Notable scenes filmed at Cambridge University locations.",
+        "Story featured a non-broadcast mix of live-action and animated material in later releases."
+      ]
+    }
+  ],
+  "worldbuilding": {
+    "in_universe_mythology": [
+      "Shada - Time Lord prison",
+      "Salyavin - Time Lord criminal"
+    ],
+    "real_world_cultural_references": [
+      "Isaac Newton"
+    ],
+    "individuals": [
+      "The Doctor",
+      "Professor Chronotis (Salyavin)"
+    ],
+    "items": [
+      "The Worshipful and Ancient Law of Gallifrey"
+    ],
+    "locations": [
+      "St. Cedd's College, Cambridge"
+    ]
+  },
+  "continuity": {
+    "continuity_notes": [
+      "Elements of Shada were used in 'The Five Doctors'",
+      "Chronotis was on his last regeneration.",
+      "Romana II also appears in previous episodes with both Romanas."
+    ]
+  },
+  "plot": [
+    {
+      "plot_summary": "The Doctor and Romana visit Professor Chronotis at St. Cedd's College, where they discover a dangerous Time Lord book is missing. As Skagra seeks Salyavin to control the minds of the universe, they must find the book and protect Shada. Despite being incomplete due to strikes, Shada was completed with animation and links, centered around stopping Skagra's plans using technology and mind control."
+    }
+  ]
+}

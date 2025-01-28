@@ -1,0 +1,165 @@
+{
+  "metadata": {
+    "title": "Death to the Daleks",
+    "series": "Doctor Who",
+    "season": "11",
+    "release_date": "23 February 1974",
+    "release_end_date": "16 March 1974",
+    "writer": "Terry Nation",
+    "director": "Michael Briant",
+    "producer": "Barry Letts",
+    "main_actors": [
+      "Jon Pertwee",
+      "Elisabeth Sladen",
+      "Duncan Lamont",
+      "John Abineri",
+      "Neil Seiler",
+      "Julian Fox",
+      "Joy Harrison",
+      "Mostyn Evans",
+      "Arnold Yarrow",
+      "Roy Heymann"
+    ],
+    "time_reference": "Far future"
+  },
+  "cast_crew": [
+    {
+      "cast": {
+        "name": "Jon Pertwee",
+        "role": "Doctor"
+      },
+      "crew": {
+        "name": "Michael Briant",
+        "role": "Director"
+      }
+    },
+    {
+      "cast": {
+        "name": "Elisabeth Sladen",
+        "role": "Sarah Jane Smith"
+      },
+      "crew": {
+        "name": "Barry Letts",
+        "role": "Producer"
+      }
+    },
+    {
+      "cast": {
+        "name": "Duncan Lamont",
+        "role": "Dan Galloway"
+      },
+      "crew": {
+        "name": "Terry Nation",
+        "role": "Writer"
+      }
+    },
+    {
+      "cast": {
+        "name": "John Abineri",
+        "role": "Richard Railton"
+      },
+      "crew": {
+        "name": "Terrance Dicks",
+        "role": "Script Editor"
+      }
+    }
+  ],
+  "home_media": [
+    {
+      "releases": {
+        "media_type": "DVD",
+        "date": "18 June 2012",
+        "details": "Restored serial.",
+        "special_features": [
+          "Commentary with cast and crew",
+          "Beneath the City of the Exxilons",
+          "Studio Recording",
+          "Doctor Who Stories - Dalek Men",
+          "Production Information",
+          "Subtitles",
+          "Photo Gallery",
+          "Isolated Score"
+        ]
+      }
+    },
+    {
+      "releases": {
+        "media_type": "VHS",
+        "date": "July 1987",
+        "details": "Released in omnibus format, with a subsequent episodic format release in February 1995.",
+        "special_features": [
+          "Original release edits due to Australian censorship"
+        ]
+      }
+    }
+  ],
+  "story_notes": [
+    {
+      "notes": [
+        "Was the third serial of Season 11.",
+        "The Daleks first encountered by Sarah Jane Smith.",
+        "Originally titled Dalek Story.",
+        "Asserted as one of the last stories without any new Dalek designs."
+      ]
+    }
+  ],
+  "worldbuilding": {
+    "in_universe_mythology": [
+      "Exxilon civilization",
+      "Parrinium mineral"
+    ],
+    "real_world_cultural_references": [],
+    "individuals": [
+      "Bellal",
+      "Gotal"
+    ],
+    "items": [
+      "Dalek equipment",
+      "Parrinium"
+    ],
+    "locations": [
+      "Exxilon",
+      "Marine Space Corps Base",
+      "Exxilon city"
+    ]
+  },
+  "ratings": {
+    "ratings_millions": [
+      {
+        "part": "Part one",
+        "viewers": 8.1
+      },
+      {
+        "part": "Part two",
+        "viewers": 9.5
+      },
+      {
+        "part": "Part three",
+        "viewers": 10.5
+      },
+      {
+        "part": "Part four",
+        "viewers": 9.5
+      }
+    ]
+  },
+  "continuity": {
+    "continuity_notes": [
+      "This story marks the first time that Sarah Jane encounters the Daleks."
+    ]
+  },
+  "plot": [
+    {
+      "plot_summary": "An energy drain traps the Third Doctor and Sarah Jane Smith on Exxilon. They form an uneasy alliance with a squadron of Daleks and a Marine Space Corps expedition to escape the deadly traps of the mysterious city at the heart of the planet."
+    },
+    {
+      "plot_summary": "The Doctor and his companions must navigate the hostile environment after a series of conflicts with the Exxilons and begin to understand the true nature of the energy drain affecting them and the Daleks."
+    },
+    {
+      "plot_summary": "In a tense standoff, the Doctor must find a way to infiltrate the Exxilon city's ancient technology to deactivate the energy drain while the Daleks pursue them, looking to regain their own lost power."
+    },
+    {
+      "plot_summary": "The Doctor's efforts culminate in a dramatic showdown in the city's control room, where alliances shift, and the Daleks' true intentions are revealed. A heroic sacrifice is made as the Doctor and friends manage to turn the tide against their foes."
+    }
+  ]
+}

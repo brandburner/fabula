@@ -1,0 +1,161 @@
+{
+    "title": "Marco Polo",
+    "air_date": "22 February 1964",
+    "num_episodes": 7,
+    "episode_titles": [
+        "The Roof of the World",
+        "The Singing Sands",
+        "Five Hundred Eyes",
+        "The Wall of Lies",
+        "Rider from Shang-Tu",
+        "Mighty Kublai Khan",
+        "Assassin at Peking"
+    ],
+    "episode_duration": 25,
+    "writers": [
+        "John Lucarotti"
+    ],
+    "directors": [
+        "Waris Hussein",
+        "John Crockett"
+    ],
+    "media_format": "B_W",
+    "dialogue_triumphs": [
+        "Susan: 'One day we'll know all the mysteries of the skies and we'll stop our wanderings.'",
+        "How Tegana should kill the Doctor: 'With a stake through the heart.'",
+        "The Doctor on having the TARDIS put in the stables: 'What does he think it is, a potting shed or something?'",
+        "At backgammon, amongst other wonderful wagers, the Doctor wins the 'total produce of Burma for one year'.",
+        "Khan explains to Ping-Cho: 'Your beloved husband-to-be, so anxious to be worthy of your love, drank a potion of quicksilver and sulphur, the elixir of life and eternal youth. And expired.'"
+    ],
+    "dialogue_disasters": null,
+    "goofs": [
+        "William Hartnell has an odd hysterical fit in episode one, laughing his head off for a full minute at all the troubles that have befallen the travellers.",
+        "The caption slide at the end of episode two reads: 'Next Episode: The Cave of Five Hundred Eyes'.",
+        "In episode seven, Kublai Khan refers to backgammon as a game of cards.",
+        "The use of Peking is anachronistic (it should be Khan-balik).",
+        "In 1289, Polo was anxious to leave China against Kublai's wishes, so what's he doing on the Pamir Plateau?"
+    ],
+    "continuity_notes": [
+        {
+            "name": "TARDIS",
+            "type": "Object",
+            "description": "The Doctor's time machine and spaceship",
+            "origin": null,
+            "current_status": "One burnt-out circuit deactivates the lights, water supply and heating. Condensation forms in the interior as it would inside any box in a hot climate."
+        },
+        {
+            "name": "The Doctor",
+            "type": "Character",
+            "description": "The titular character of the series",
+            "origin": null,
+            "current_status": "Can play backgammon well, but loses his bet with Kublai Khan over the TARDIS. Can horse-ride, but has back trouble as a result. Has problems with high altitudes and lack of water, and likes bean sprout soup."
+        },
+        {
+            "name": "Barbara",
+            "type": "Character",
+            "description": "One of the Doctor's companions",
+            "origin": null,
+            "current_status": "Knows lots of Buddhist history."
+        },
+        {
+            "name": "Ian",
+            "type": "Character",
+            "description": "One of the Doctor's companions",
+            "origin": null,
+            "current_status": "Can ride, sword-fight, isn't very good at chess and knows lots of O' level science things, plus the fact that bamboo bangs in fire."
+        },
+        {
+            "name": "Susan",
+            "type": "Character",
+            "description": "The Doctor's granddaughter",
+            "origin": null,
+            "current_status": "Uses words like 'fab' and is surprised by the idea of arranged marriages. She's had 'many homes in many places'."
+        }
+    ],
+    "technobabble": null,
+    "roots": [
+        "Marco Polo's Travels",
+        "John Lucarotti's Canadian TV series about Polo"
+    ],
+    "links": [
+        "The TARDIS Lock, 'The Sensorites'",
+        "The Location of Gallifrey, 'Terror of the Autons'",
+        "Venus, 'The Time Monster'"
+    ],
+    "locations": [
+        {
+            "name": "The Himalayas",
+            "type": "Location",
+            "description": "Mountain range in Asia",
+            "origin": null,
+            "current_status": "Part of the journey in 1289"
+        },
+        {
+            "name": "The Plain of Pamir",
+            "type": "Location",
+            "description": "Plateau in Central Asia",
+            "origin": null,
+            "current_status": "Part of the journey in 1289"
+        },
+        {
+            "name": "Lop",
+            "type": "Location",
+            "description": "Location in Asia",
+            "origin": null,
+            "current_status": "Part of the journey in 1289"
+        },
+        {
+            "name": "The Gobi desert",
+            "type": "Location",
+            "description": "Desert in Asia",
+            "origin": null,
+            "current_status": "Part of the journey in 1289"
+        },
+        {
+            "name": "Tun-Huang",
+            "type": "Location",
+            "description": "Location in Asia",
+            "origin": null,
+            "current_status": "Part of the journey in 1289"
+        },
+        {
+            "name": "Sinju",
+            "type": "Location",
+            "description": "Location in Asia",
+            "origin": null,
+            "current_status": "Part of the journey in 1289"
+        },
+        {
+            "name": "Cheng-Ting",
+            "type": "Location",
+            "description": "Location in Asia",
+            "origin": null,
+            "current_status": "Part of the journey in 1289"
+        },
+        {
+            "name": "The Summer Palace at Shang-Tu",
+            "type": "Location",
+            "description": "Palace in Asia",
+            "origin": null,
+            "current_status": "Part of the journey in 1289"
+        },
+        {
+            "name": "Peking",
+            "type": "Location",
+            "description": "Capital of China (anachronistic name)",
+            "origin": null,
+            "current_status": "Final destination of the journey in 1289"
+        }
+    ],
+    "future_history": null,
+    "untold_adventures": [
+        "Susan has seen the metal seas of Venus."
+    ],
+    "qv": [
+        "The TARDIS Lock, 'The Sensorites'",
+        "The Location of Gallifrey, 'Terror of the Autons'",
+        "Venus, 'The Time Monster'"
+    ],
+    "additional_notes": "The device of Polo narrating map journey inserts is sweet, and the sheer length of time narrated makes this the longest 'real time' Who story.",
+    "bottom_line": "Obviously wonderful, but a little too loose and unstructured to be the all-conquering classic of repute. Then again, we're denied the splendour of the costumes and sets."
+}

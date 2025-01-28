@@ -1,0 +1,160 @@
+{
+  "metadata": {
+    "title": "The Dalek Invasion of Earth",
+    "series": "Doctor Who",
+    "season": "2",
+    "episode_number": 2,
+    "release_date": "21 November - 26 December 1964",
+    "writer": "Terry Nation",
+    "director": "Richard Martin",
+    "producer": "Verity Lambert",
+    "main_actors": [
+      "William Hartnell",
+      "William Russell",
+      "Jacqueline Hill",
+      "Carole Ann Ford"
+    ],
+    "time_reference": "2167"
+  },
+  "cast_crew": [
+    {
+      "cast": {
+        "name": "William Hartnell",
+        "role": "Dr. Who"
+      },
+      "crew": {
+        "name": "Richard Martin",
+        "role": "Director"
+      }
+    },
+    {
+      "cast": {
+        "name": "William Russell",
+        "role": "Ian Chesterton"
+      },
+      "crew": {
+        "name": "Verity Lambert",
+        "role": "Producer"
+      }
+    },
+    {
+      "cast": {
+        "name": "Jacqueline Hill",
+        "role": "Barbara Wright"
+      },
+      "crew": {
+        "name": "Terry Nation",
+        "role": "Writer"
+      }
+    }
+  ],
+  "home_media": [
+    {
+      "releases": {
+        "media_type": "DVD",
+        "date": "9 June 2003",
+        "special_features": [
+          "Commentary by William Russell, Carole Ann Ford, Richard Martin and Verity Lambert OBE",
+          "CGI Effects",
+          "TV Trailers",
+          "Production Subtitles",
+          "Future Memories - A brand-new 45-minute documentary",
+          "Future Visions - A look at the designs of Spencer Chapman",
+          "Talking Daleks - A new documentary looking at the creation of the Dalek voices",
+          "Now and Then - The serial's locations revisited, 40 years on",
+          "Script to Screen - A unique look at the way this story was shot in studio",
+          "Whatever Happened to ...Susan? - A BBC radio play starring Jane Asher as Susan",
+          "Rehearsal Film - Unique Super 8 footage from 1964",
+          "Dalek Cakes - Blue Peter's Valerie Singleton creates Dalek confections",
+          "Photo Gallery"
+        ]
+      }
+    }
+  ],
+  "story_notes": [
+    {
+      "notes": [
+        "The Daleks first started using \"exterminate\" on a regular basis to refer to the killing of individuals.",
+        "This furthers their parallels with Nazism, established in their debut.",
+        "The Daleks go so far as to refer to the killings as a \"final solution\".",
+        "This was the first story to be produced at the new Riverside Studios, the production team having moved from Lime Grove Studios.",
+        "It also saw a quarry used for location filming for the first time.",
+        "During recording, as Richard McNeff (Baker) was carrying William Hartnell down the ramp of the Dalek flying saucer, the ramp suddenly collapsed. Hartnell fell on a metal camera stand, landing awkwardly on his spine. Although he was temporarily paralysed, he recovered sufficiently to continue the recording, but it was decided he should have the following week off to recover from the bruised back he had sustained."
+      ]
+    }
+  ],
+  "worldbuilding": {
+    "in_universe_mythology": [
+      "The Daleks"
+    ],
+    "real_world_cultural_references": [
+      "The Boston Tea Party",
+      "Robert E. Lee",
+      "Hannibal"
+    ],
+    "individuals": [
+      "The Supreme Controller",
+      "Carl Tyler",
+      "David Campbell",
+      "Dortmun",
+      "Phil Madison",
+      "Larry Madison",
+      "Ashton",
+      "Wells"
+    ],
+    "items": [
+      "Dalek firebomb",
+      "Dortmun's acid bombs"
+    ],
+    "locations": [
+      "London",
+      "Bedfordshire",
+      "Battersea Power Station",
+      "The Houses of Parliament",
+      "Chelsea Heliport",
+      "The Civic Transport Museum",
+      "The Underground"
+    ]
+  },
+  "ratings": {
+    "ratings_millions": [
+      {
+        "part": "World's End",
+        "viewers": 11.4
+      },
+      {
+        "part": "The Daleks",
+        "viewers": 12.4
+      },
+      {
+        "part": "Day of Reckoning",
+        "viewers": 11.9
+      },
+      {
+        "part": "The End of Tomorrow",
+        "viewers": 11.9
+      },
+      {
+        "part": "The Waking Ally",
+        "viewers": 11.4
+      },
+      {
+        "part": "Flashpoint",
+        "viewers": 12.4
+      }
+    ]
+  },
+  "continuity": {
+    "continuity_notes": [
+      "The Doctor and Susan's previous encounters with the Daleks are referenced, including that the Daleks have adapted a way around their reliance on static electricity for power.",
+      "The Seventh Doctor later returns to the scene where Susan dropped her TARDIS key to recover it.",
+      "The Third Doctor encounters an alternative timeline in which the Daleks had again successfully invaded Earth.",
+      "The Eleventh Doctor and River Song visited the events of the Dalek invasion while trying to shut down renegade time corridors."
+    ]
+  },
+  "plot": [
+    {
+      "plot_summary": "The TARDIS returns to London in the 22nd century, where the Daleks have invaded and taken over the city. The Doctor and his companions must work with the human resistance to stop the Daleks and prevent them from extracting the Earth's core. After a series of adventures and battles, the Daleks' plan is thwarted and the invasion is ended, but at the cost of Susan leaving the Doctor to stay behind with a human man she has fallen in love with."
+    }
+  ]
+}

@@ -1,0 +1,139 @@
+{
+  "metadata": {
+    "title": "The Short List",
+    "series": "The West Wing",
+    "season": "1",
+    "episode_number": 9,
+    "release_date": "24 November 1999",
+    "writer": "Aaron Sorkin & Patrick Caddell",
+    "director": "Bill D'Elia",
+    "producer": "Aaron Sorkin",
+    "main_actors": [
+      "Martin Sheen",
+      "Rob Lowe",
+      "John Spencer",
+      "Richard Schiff",
+      "Allison Janney",
+      "Bradley Whitford"
+    ],
+    "time_reference": "During President Bartlet's first term"
+  },
+  "cast_crew": [
+    {
+      "cast": {
+        "name": "Martin Sheen",
+        "role": "President Josiah Bartlet"
+      },
+      "crew": {
+        "name": "Bill D'Elia",
+        "role": "Director"
+      }
+    },
+    {
+      "cast": {
+        "name": "Rob Lowe",
+        "role": "Sam Seaborn"
+      },
+      "crew": {
+        "name": "Aaron Sorkin",
+        "role": "Producer/Writer"
+      }
+    },
+    {
+      "cast": {
+        "name": "John Spencer",
+        "role": "Leo McGarry"
+      },
+      "crew": {
+        "name": "Patrick H. Caddell",
+        "role": "Consultant/Writer"
+      }
+    },
+    {
+      "cast": {
+        "name": "Richard Schiff",
+        "role": "Toby Ziegler"
+      },
+      "crew": {
+        "name": "Rick Cleveland",
+        "role": "Co-producer"
+      }
+    },
+    {
+      "cast": {
+        "name": "Allison Janney",
+        "role": "C.J. Cregg"
+      },
+      "crew": {
+        "name": "Lawrence O'Donnell Jr.",
+        "role": "Executive Story Editor"
+      }
+    },
+    {
+      "cast": {
+        "name": "Bradley Whitford",
+        "role": "Josh Lyman"
+      },
+      "crew": {
+        "name": "Dee Dee Myers",
+        "role": "Consultant/Writer"
+      }
+    }
+  ],
+  "home_media": [
+    {
+      "releases": {
+        "media_type": "DVD",
+        "date": "2001",
+        "details": "Contains complete Season 1 episodes.",
+        "special_features": [
+          "Audio commentaries",
+          "Behind-the-scenes featurettes",
+          "Character profiles"
+        ]
+      }
+    }
+  ],
+  "story_notes": [
+    {
+      "notes": [
+        "The story addresses themes of privacy and government oversight."
+      ]
+    }
+  ],
+  "worldbuilding": {
+    "in_universe_mythology": [
+      "Supreme Court nominations and politics."
+    ],
+    "real_world_cultural_references": [
+      "The political atmosphere of the late 1990s."
+    ],
+    "individuals": [
+      "Justice Joseph Crouch",
+      "Roberto Mendoza"
+    ],
+    "items": [
+      "Supreme Court"
+    ],
+    "locations": [
+      "White House",
+      "Oval Office"
+    ]
+  },
+  "ratings": {
+    "ratings_millions": [
+      {
+        "part": "Episode 9",
+        "viewers": 16.4
+      }
+    ]
+  },
+  "continuity": {
+    "continuity_notes": []
+  },
+  "plot": [
+    {
+      "plot_summary": "As President Bartlet prepares to nominate a new justice for the Supreme Court following a retirement, tensions rise as the background of the nominee unveils potential issues. Simultaneously, a congressman raises accusations of substance abuse among the White House staff, causing internal strife for Leo McGarry, who has a troubled past. Ultimately, Bartlet opts to nominate a different candidate after reconsidering the implications of his choice."
+    }
+  ]
+}

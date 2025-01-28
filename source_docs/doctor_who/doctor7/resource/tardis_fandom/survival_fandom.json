@@ -1,0 +1,153 @@
+{
+  "metadata": {
+    "title": "Survival",
+    "series": "Doctor Who",
+    "season": "26",
+    "episode_number": 4,
+    "release_date": "1989-11-22",
+    "release_end_date": "1989-12-06",
+    "writer": "Rona Munro",
+    "director": "Alan Wareing",
+    "producer": "John Nathan-Turner",
+    "main_actors": [
+      "Sylvester McCoy",
+      "Sophie Aldred",
+      "Anthony Ainley"
+    ],
+    "time_reference": "circa 1989"
+  },
+  "cast_crew": [
+    {
+      "cast": {
+        "name": "Sylvester McCoy",
+        "role": "The Doctor"
+      },
+      "crew": {
+        "name": "Rona Munro",
+        "role": "Writer"
+      }
+    },
+    {
+      "cast": {
+        "name": "Sophie Aldred",
+        "role": "Ace"
+      },
+      "crew": {
+        "name": "Alan Wareing",
+        "role": "Director"
+      }
+    },
+    {
+      "cast": {
+        "name": "Anthony Ainley",
+        "role": "The Master"
+      },
+      "crew": {
+        "name": "John Nathan-Turner",
+        "role": "Producer"
+      }
+    }
+  ],
+  "home_media": [
+    {
+      "releases": {
+        "media_type": "DVD",
+        "date": "2007-04-16",
+        "special_features": [
+          "Commentary by Sylvester McCoy (The Doctor), Sophie Aldred (Ace) and Andrew Cartmel (script editor)",
+          "Fan Commentary by the winners of a recent Doctor Who Magazine competition (Ep. 3 only)",
+          "Cat Flap - A two-part documentary covering the making of Survival",
+          "Deleted and Extended Scenes",
+          "Out-takes",
+          "Continuities",
+          "Photo Gallery",
+          "Isolated Score",
+          "Radio Times Listings",
+          "Subtitle Production Notes",
+          "Endgame - A documentary delving into why Doctor Who was cancelled at the end of Season 26 and what might have been in store for the Doctor and Ace if the series had continued into Season 27",
+          "Search Out Science - A schools programme featuring the Doctor and Ace, with Stephen Johnson and K9",
+          "Little Girl Lost - A retrospective look at the development of Sophie Aldred's character, Ace",
+          "Destiny of the Doctors - Anthony Ainley's last appearance as the Master, in these links from the 1997 computer game"
+        ]
+      }
+    },
+    {
+      "releases": {
+        "media_type": "VHS",
+        "date": "1995-10-01",
+        "special_features": []
+      }
+    }
+  ],
+  "story_notes": [
+    {
+      "notes": [
+        "Working titles for this story included Cat-Flap, Blood Hunt and The Survival.",
+        "Survival was one of only three Doctor Who serials to be recorded completely on BBC Outside Broadcast video, instead of the mix of on-location and studio video that was more usual since 1964's The Reign of Terror.",
+        "This was the last story until 2012 to feature the face of the current Doctor in the title sequence, a tradition dating back to The Macra Terror in 1967.",
+        "Midge's unexplained death is because BBC executives considered the original scripted fate for him unacceptably gruesome.",
+        "Rona Munro's original conception of the Cheetah People had been as basically human creatures, albeit with cat-like eyes and fangs, and perhaps a vaguely feline mouth.",
+        "The motorcycle duel between the Doctor and Midge was to have taken place in a disused lot or building site.",
+        "Sylvester McCoy, Sophie Aldred and Anthony Ainley all shared the same birthday.",
+        "The animatronic cat was created by the same man who created an animatronic dog for the sitcom I, Lovett."
+      ]
+    }
+  ],
+  "worldbuilding": {
+    "in_universe_mythology": [
+      "The Cheetah People"
+    ],
+    "real_world_cultural_references": [
+      "David Bowie",
+      "Cats"
+    ],
+    "individuals": [
+      "The Doctor",
+      "Ace",
+      "The Tremas Master",
+      "Shreela",
+      "Midge",
+      "Derek",
+      "Ange",
+      "Flo",
+      "Jay",
+      "Stevie"
+    ],
+    "items": [
+      "Captain Sorin's cap insignia",
+      "Cat food"
+    ],
+    "locations": [
+      "Perivale",
+      "The Cheetah Planet"
+    ]
+  },
+  "ratings": {
+    "ratings_millions": [
+      {
+        "part": "Part 1",
+        "viewers": 5.0
+      },
+      {
+        "part": "Part 2",
+        "viewers": 4.8
+      },
+      {
+        "part": "Part 3",
+        "viewers": 5.0
+      }
+    ]
+  },
+  "continuity": {
+    "continuity_notes": [
+      "The gap between Survival and the Doctor Who television movie was filled by British publisher Virgin Publishing, who from 1991 onwards produced the Virgin New Adventures range of novels, carrying on the adventures of the Doctor and Ace following the end of Survival.",
+      "The Tremas Master rids himself of the Cheetah virus and gains a new body in the novel First Frontier; a Kitling also appears in that story.",
+      "Ace previously met the Master during his previous incarnation in an alternative timeline, but they both lost all memory of these events after the proper timeline was restored."
+    ]
+  },
+  "plot": [
+    {
+      "plot_summary": "The Seventh Doctor brings Ace back to her hometown of Perivale, where her old friends are being kidnapped by a race of alien hunters called the Cheetah People, who were shown the way to Earth by the Doctor's old enemy the Tremas Master. The Doctor and Ace travel to the Cheetah Planet, where they confront the Master and Ace begins to transform into a Cheetah Person herself. In the end, the Doctor is able to return to Earth alone, while the fate of the Master is left uncertain."
+    }
+  ]
+}

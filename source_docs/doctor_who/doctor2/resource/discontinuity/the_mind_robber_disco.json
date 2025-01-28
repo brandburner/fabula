@@ -1,0 +1,100 @@
+{
+    "title": "The Mind Robber",
+    "air_date": "14 September 1968",
+    "num_episodes": 5,
+    "episode_titles": [
+        "Episode 1",
+        "Episode 2",
+        "Episode 3",
+        "Episode 4",
+        "Episode 5"
+    ],
+    "episode_duration": 25,
+    "writers": [
+        "Peter Ling",
+        "Derrick Sherwin (uncredited)"
+    ],
+    "directors": [
+        "David Maloney"
+    ],
+    "media_format": "B_W",
+    "dialogue_triumphs": [
+        "Gulliver: 'We obey our creator, that is all that can be expected of any character, unless the Master bids us otherwise.'"
+    ],
+    "dialogue_disasters": null,
+    "goofs": [
+        "In episode one, as the Doctor pushes the 'white' Jamie and Zoe into the TARDIS, the words 'producer Peter Bryant' can be seen on the scanner.",
+        "Shouldn't 'nowhere' be black (i.e. no photons)?"
+    ],
+    "continuity_notes": [
+        {
+            "name": "TARDIS Emergency Unit",
+            "type": "Object",
+            "description": "A device that takes the TARDIS out of the time-space dimension and out of reality.",
+            "origin": "TARDIS",
+            "current_status": "Used to escape from Dulkis"
+        },
+        {
+            "name": "Master of the Land of Fiction",
+            "type": "Character",
+            "description": "A writer of pulp fiction kidnapped from England in the summer of 1926, now controlling the Land of Fiction.",
+            "origin": "Earth",
+            "current_status": "Controlled by a computer master brain"
+        },
+        {
+            "name": "The Karkus",
+            "type": "Character",
+            "description": "A Germanic superhero from strip-cartoons in the 'hourly telepress' of the year 2000.",
+            "origin": "Land of Fiction",
+            "current_status": "Encountered by the Doctor and companions"
+        },
+        {
+            "name": "Mercury Fluid Links",
+            "type": "Object",
+            "description": "A component of the TARDIS that begins to vaporize, causing issues.",
+            "origin": "TARDIS",
+            "current_status": "Vaporizing"
+        }
+    ],
+    "technobabble": [
+        "The Karkus's anti-molecular ray disintegrator gun is, according to the Doctor, 'scientifically impossible'."
+    ],
+    "roots": [
+        "Peter Ling's observation of Crossroads fans who believe their favourite fictional characters are real",
+        "Fairy tales",
+        "Gulliver's Travels",
+        "Edmund Rostand's Cyrano",
+        "Marvel-style superhero comics",
+        "The Three Musketeers",
+        "Arthurian and Greek legends",
+        "E. Nesbit's The Treasure Seekers",
+        "Little Women",
+        "The Avengers",
+        "Rosencrantz and Guildenstern are Dead"
+    ],
+    "links": [
+        "The Daleks",
+        "The Wheel in Space",
+        "The Krotons",
+        "Logopolis",
+        "The Greatest Show in the Galaxy"
+    ],
+    "locations": [
+        {
+            "name": "Land of Fiction",
+            "type": "Location",
+            "description": "A realm outside of reality where fictional characters and stories come to life.",
+            "origin": "Unknown, possibly created by the Toymaker or the Gods of Ragnarok",
+            "current_status": "Main setting of the story"
+        }
+    ],
+    "future_history": "The Karkus is from the year 2000, suggesting the existence of an 'hourly telepress' with strip-cartoons in that time.",
+    "untold_adventures": null,
+    "qv": [
+        "The Celestial Toyroom",
+        "The Gods of Ragnarok ('The Greatest Show in the Galaxy')",
+        "Logopolis"
+    ],
+    "additional_notes": "Zoe is seen wearing a lam\u00e9 catsuit, noted as a 'Fashion Victim'. The story may be interpreted as a dream sequence, with the White Robots and Tin Soldiers possibly representing Jamie and Zoe's subconscious images of Cybermen and Quarks.",
+    "bottom_line": "A visually astounding serial with a combination of disturbing images, superb literalism, and memorable set-pieces, making it one of the most memorable stories of the era."
+}

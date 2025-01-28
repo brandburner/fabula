@@ -1,0 +1,92 @@
+{
+    "title": "The Web of Fear",
+    "air_date": "3 February 1968",
+    "num_episodes": 6,
+    "episode_titles": [
+        "Episode 1",
+        "Episode 2",
+        "Episode 3",
+        "Episode 4",
+        "Episode 5",
+        "Episode 6"
+    ],
+    "episode_duration": 25,
+    "writers": [
+        "Mervyn Haisman",
+        "Henry Lincoln"
+    ],
+    "directors": [
+        "Douglas Camfield"
+    ],
+    "media_format": "B_W",
+    "dialogue_triumphs": [
+        "Subversion of expectation, with a soldier asking Anne Travers, 'What's a girl like you doing in a job like this?' to which she replies with great sarcasm: 'Well, when I was a little girl I thought I'd like to be a scientist, so I became a scientist.'",
+        "The Doctor and Victoria in a typical exchange: 'Shall we go out and have a look?' 'Now, is it safe?' 'Oh, I shouldn't think so for a moment.'"
+    ],
+    "dialogue_disasters": null,
+    "goofs": [
+        "Jack Woolgar makes a hash of dialogue about the common room's role in World War II.",
+        "The Doctor calls Victoria 'Debbie'.",
+        "The Yeti changes shape in the museum scene (not intentional, surely?).",
+        "When Jamie and the others are looking at the scanner in the first episode Frazer Hines rests his hand on the console but withdraws it quickly as if he's burnt it.",
+        "When talking about 'underground trains', the Doctor says that this is 'a little after your time, I think, Victoria'. As Victoria comes from 1866, he's wrong: the underground line between Farringdon Street and Edgware Road opened in 1863.",
+        "The 'explosion' at the end of episode one happens several times."
+    ],
+    "continuity_notes": [
+        {
+            "name": "TARDIS",
+            "type": "Object",
+            "description": "The Doctor's time and space machine",
+            "origin": null,
+            "current_status": "Trapped in space by the Great Intelligence's web-like material"
+        },
+        {
+            "name": "Great Intelligence",
+            "type": "Character",
+            "description": "A malevolent entity capable of creating web-like material anywhere",
+            "origin": null,
+            "current_status": "Free to roam the universe again at the end of the adventure"
+        },
+        {
+            "name": "Yeti",
+            "type": "Character",
+            "description": "Robotic creatures controlled by the Great Intelligence",
+            "origin": null,
+            "current_status": "Different from those in 'The Abominable Snowmen': they roar, have glowing eyes when attacking, and carry web guns"
+        },
+        {
+            "name": "Colonel Lethbridge-Stewart",
+            "type": "Character",
+            "description": "Army officer who leads the forces against the Yeti",
+            "origin": null,
+            "current_status": "Meets the Doctor for the first time"
+        }
+    ],
+    "technobabble": null,
+    "roots": [
+        "Quatermass and the Pit (alien menace in the Underground)",
+        "The Avengers' 'The Cybemauts'",
+        "The Thing (1951)"
+    ],
+    "links": [
+        "Directly following the events of 'The Enemy of the World', reference is made to Salamander being sucked out of the TARDIS.",
+        "The Doctor still has a plaster on: later a small scar is visible."
+    ],
+    "locations": [
+        {
+            "name": "London Underground",
+            "type": "Location",
+            "description": "Various tube stations within or on the Circle Line",
+            "origin": "London, Earth",
+            "current_status": "Setting for the story, invaded by Yeti"
+        }
+    ],
+    "future_history": null,
+    "untold_adventures": null,
+    "qv": [
+        "Dating the UNIT Stories",
+        "'The Invasion'"
+    ],
+    "additional_notes": "Evans sings Sospan Bach while wandering in the tunnels. The Doctor plays the 'Skye Boat Song' on his recorder. Victoria finds a swingin' short skirt plus beads in the TARDIS wardrobe. The Colonel wears a tartan beret.",
+    "bottom_line": "The direction is exemplary, with some suitably Hammeresque touches. The set design is remarkable, and the story trots along. Shame they had to make Silverstein such a stereotypical Jew, though."
+}

@@ -1,0 +1,169 @@
+{
+  "metadata": {
+    "title": "Genesis of the Daleks",
+    "series": "Doctor Who",
+    "season": "12",
+    "episode_number": 4,
+    "release_date": "1975-03-08",
+    "release_end_date": "1975-04-12",
+    "writer": "Terry Nation",
+    "director": "David Maloney",
+    "producer": "Philip Hinchcliffe",
+    "main_actors": [
+      "Tom Baker",
+      "Elisabeth Sladen",
+      "Ian Marter",
+      "Michael Wisher",
+      "Peter Miles"
+    ],
+    "time_reference": "Skaro, Thousand Year War, circa 16th century"
+  },
+  "cast_crew": [
+    {
+      "cast": {
+        "name": "Tom Baker",
+        "role": "Doctor Who"
+      },
+      "crew": {
+        "name": "Terry Nation",
+        "role": "Writer"
+      }
+    },
+    {
+      "cast": {
+        "name": "Elisabeth Sladen",
+        "role": "Sarah Jane Smith"
+      },
+      "crew": {
+        "name": "David Maloney",
+        "role": "Director"
+      }
+    },
+    {
+      "cast": {
+        "name": "Ian Marter",
+        "role": "Harry Sullivan"
+      },
+      "crew": {
+        "name": "Philip Hinchcliffe",
+        "role": "Producer"
+      }
+    },
+    {
+      "cast": {
+        "name": "Michael Wisher",
+        "role": "Davros"
+      },
+      "crew": {
+        "name": "Dudley Simpson",
+        "role": "Music"
+      }
+    },
+    {
+      "cast": {
+        "name": "Peter Miles",
+        "role": "Nyder"
+      },
+      "crew": {
+        "name": "Robert Holmes",
+        "role": "Script Editor"
+      }
+    }
+  ],
+  "home_media": [
+    {
+      "releases": {
+        "media_type": "DVD",
+        "date": "2006-04-10",
+        "special_features": [
+          "Commentary by Tom Baker, Elisabeth Sladen, Peter Miles and David Maloney",
+          "Genesis of a Classic - Documentary",
+          "The Dalek Tapes - Feature",
+          "Continuity Compilation",
+          "Blue Peter - 1975 item",
+          "Radio Times Billings",
+          "Photo Gallery",
+          "Production Subtitles"
+        ]
+      }
+    }
+  ],
+  "story_notes": [
+    {
+      "notes": [
+        "Notable for the introduction of Davros, creator of the Daleks.",
+        "The only two Dalek serials during Tom Baker's tenure.",
+        "The TARDIS does not appear in this story, a rarity in the classic series.",
+        "Most-repeated Doctor Who story on BBC Television's analogue services.",
+        "Inspired by Nazi references, with parallels to the First World War."
+      ]
+    }
+  ],
+  "worldbuilding": {
+    "in_universe_mythology": [
+      "Time Lords were involved in averting the creation of the Daleks.",
+      "Thousand Year War between Kaleds and Thals on Skaro."
+    ],
+    "real_world_cultural_references": [
+      "Good King Wenceslas",
+      "Alexander the Great",
+      "Nazism, Social Darwinism"
+    ],
+    "individuals": [
+      "Davros",
+      "Nyder",
+      "Gharman"
+    ],
+    "items": [
+      "Time Ring",
+      "Dalek Mark III travel machine",
+      "Etheric beam locator",
+      "Trisilicate"
+    ],
+    "locations": [
+      "Skaro",
+      "Kaled Bunker",
+      "Thal Dome"
+    ]
+  },
+  "ratings": {
+    "ratings_millions": [
+      {
+        "part": "Part one",
+        "viewers": 10.7
+      },
+      {
+        "part": "Part two",
+        "viewers": 10.5
+      },
+      {
+        "part": "Part three",
+        "viewers": 8.5
+      },
+      {
+        "part": "Part four",
+        "viewers": 8.8
+      },
+      {
+        "part": "Part five",
+        "viewers": 9.8
+      },
+      {
+        "part": "Part six",
+        "viewers": 9.1
+      }
+    ]
+  },
+  "continuity": {
+    "continuity_notes": [
+      "Forms part of a continuous series of adventures for the TARDIS crew.",
+      "Time Rings introduced, used in future stories.",
+      "Davros returns in Destiny of the Daleks despite apparent destruction."
+    ]
+  },
+  "plot": [
+    {
+      "plot_summary": "The Fourth Doctor is sent by the Time Lords to Skaro to prevent the creation of the Daleks by their creator, Davros. On Skaro, the Doctor and his companions, Sarah and Harry, find themselves in the midst of a Thousand Year War between the Kaleds and Thals. Davros, the Kaled scientist, has been experimenting and creating a new race, the Daleks, to ensure Kaled supremacy. The Doctor faces a moral dilemma about potentially committing genocide to stop the Daleks and ultimately decides to delay their development instead of destroying them. The story concludes with the Daleks entombed, but not destroyed, leaving their rise inevitable. The Doctor, Harry, and Sarah escape Skaro using a Time Ring."
+    }
+  ]
+}

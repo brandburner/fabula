@@ -1,0 +1,137 @@
+{
+  "metadata": {
+    "title": "The Ice Warriors",
+    "series": "Doctor Who",
+    "season": "5",
+    "episode_number": 3,
+    "release_date": "11 November - 16 December 1967",
+    "writer": "Brian Hayles",
+    "director": "Derek Martinus",
+    "producer": "Innes Lloyd",
+    "main_actors": [
+      "Patrick Troughton",
+      "Frazer Hines",
+      "Deborah Watling"
+    ],
+    "time_reference": "circa 5000 AD"
+  },
+  "cast_crew": [
+    {
+      "cast": {
+        "name": "Patrick Troughton",
+        "role": "The Doctor"
+      },
+      "crew": {
+        "name": "Derek Martinus",
+        "role": "Director"
+      }
+    },
+    {
+      "cast": {
+        "name": "Frazer Hines",
+        "role": "Jamie McCrimmon"
+      },
+      "crew": {
+        "name": "Innes Lloyd",
+        "role": "Producer"
+      }
+    },
+    {
+      "cast": {
+        "name": "Deborah Watling",
+        "role": "Victoria Waterfield"
+      },
+      "crew": {
+        "name": "Brian Hayles",
+        "role": "Writer"
+      }
+    }
+  ],
+  "home_media": [
+    {
+      "releases": {
+        "media_type": "DVD",
+        "date": "2013",
+        "special_features": [
+          "Animated Episodes Two and Three",
+          "Commentary",
+          "Documentaries",
+          "Linking Material",
+          "Trailer"
+        ]
+      }
+    }
+  ],
+  "story_notes": [
+    {
+      "notes": [
+        "Brian Hayles originally envisioned the Ice Warriors as resembling human soldiers in medieval-style space armour.",
+        "Only episodes 'one', 'four', 'five' and 'six' of this six-part story exist in the BBC Archives.",
+        "A real bear was used in specially shot film inserts.",
+        "Miss Garrett's entire costume unexpectedly changes between episodes 'five' and 'six'.",
+        "Derek Martinus named this as his favourite story, mainly because the cast was so strong."
+      ]
+    }
+  ],
+  "worldbuilding": {
+    "in_universe_mythology": [
+      "The Ice Warriors have a sonic gun"
+    ],
+    "real_world_cultural_references": [
+      "The Ice Warrior's helmet is initially mistaken for a Dark Age battle helmet, of the type discovered in the archaeological dig at Sutton Hoo in 1939."
+    ],
+    "individuals": [
+      "Varga",
+      "Zondal",
+      "Turoc",
+      "Rintan",
+      "Isbur"
+    ],
+    "items": [
+      "The Ice Warrior's sonic gun"
+    ],
+    "locations": [
+      "Brittanicus Base"
+    ]
+  },
+  "ratings": {
+    "ratings_millions": [
+      {
+        "part": "One",
+        "viewers": 6.7
+      },
+      {
+        "part": "Two",
+        "viewers": 7.1
+      },
+      {
+        "part": "Three",
+        "viewers": 7.4
+      },
+      {
+        "part": "Four",
+        "viewers": 7.3
+      },
+      {
+        "part": "Five",
+        "viewers": 8.0
+      },
+      {
+        "part": "Six",
+        "viewers": 7.5
+      }
+    ]
+  },
+  "continuity": {
+    "continuity_notes": [
+      "The Doctor is wearing his fur coat, which he has worn several times before and after this story.",
+      "The Second Doctor later encounters the Ice Warriors on the Moon in 'The Seeds of Death'.",
+      "The Seventh Doctor tells Bernice Summerfield about this adventure, stating that it took place 'six hundred years ago'."
+    ]
+  },
+  "plot": [
+    {
+      "plot_summary": "The TARDIS arrives on Earth in a new ice age. The travellers make their way into a base where scientists, commanded by Leader Clent, are using an ioniser device to combat the advance of a glacier. A giant humanoid creature, called an Ice Warrior by one of the scientists, has been found buried in the nearby glacier. When thawed, it revives and is revealed to be Varga, captain of a Martian spacecraft that landed on Earth centuries ago and is still in the glacier. Varga sets about freeing his comrades and formulating a plan to conquer the Earth \u2014 Mars itself is now dead. The scientists realise that continued use of the ioniser could make the ship's engines explode. Their computer is unable to advise them without more information. Disaster seems imminent. The disaffected scientist Penley, supported by the Second Doctor, decides to risk activating the ioniser. There is only a minor explosion which destroys the Martians and, at the same time, checks the ice flow."
+    }
+  ]
+}

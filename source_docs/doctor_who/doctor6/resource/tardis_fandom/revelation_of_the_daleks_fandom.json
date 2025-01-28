@@ -1,0 +1,161 @@
+{
+  "metadata": {
+    "title": "Revelation of the Daleks",
+    "series": "Doctor Who",
+    "season": "22",
+    "release_date": "23 March 1985",
+    "release_end_date": "30 March 1985",
+    "writer": "Eric Saward",
+    "director": "Graeme Harper",
+    "producer": "John Nathan-Turner",
+    "main_actors": [
+      "Colin Baker",
+      "Nicola Bryant",
+      "Terry Molloy",
+      "Eleanor Bron",
+      "Hugh Walters",
+      "Clive Swift",
+      "Jenny Tomasin",
+      "Trevor Cooper",
+      "Colin Spaull",
+      "Alexei Sayle",
+      "William Gaunt",
+      "John Ogwen",
+      "Stephen Flynn",
+      "Bridget Lynch-Blosse"
+    ],
+    "time_reference": "Post-4590"
+  },
+  "cast_crew": [
+    {
+      "cast": {
+        "name": "Colin Baker",
+        "role": "The Doctor"
+      },
+      "crew": {
+        "name": "Graeme Harper",
+        "role": "Director"
+      }
+    },
+    {
+      "cast": {
+        "name": "Nicola Bryant",
+        "role": "Peri"
+      },
+      "crew": {
+        "name": "Eric Saward",
+        "role": "Writer"
+      }
+    },
+    {
+      "cast": {
+        "name": "Terry Molloy",
+        "role": "Davros"
+      },
+      "crew": {
+        "name": "John Nathan-Turner",
+        "role": "Producer"
+      }
+    },
+    {
+      "cast": {
+        "name": "Eleanor Bron",
+        "role": "Kara"
+      },
+      "crew": {
+        "name": "Alec Wheal",
+        "role": "Camera Supervisor"
+      }
+    },
+    {
+      "cast": {
+        "name": "Hugh Walters",
+        "role": "Vogel"
+      },
+      "crew": {
+        "name": "Pat Godfrey",
+        "role": "Costumes"
+      }
+    }
+  ],
+  "home_media": [
+    {
+      "releases": {
+        "media_type": "DVD",
+        "date": "11 July 2005",
+        "details": "Released as Doctor Who: Revelation of the Daleks.",
+        "special_features": [
+          "Commentary by Nicola Bryant (Peri), Terry Molloy (Davros), Eric Saward (Writer) and Graeme Harper (Director)",
+          "Revelation Exhumed - documentary",
+          "CGI Effects - new CGI versions",
+          "In Studio - behind the scenes",
+          "Deleted Scenes",
+          "Optional Dolby Digital 5.1 Surround Mix",
+          "Music-only Option"
+        ]
+      }
+    },
+    {}
+  ],
+  "story_notes": [
+    {
+      "notes": [
+        "The story continued a schism between the Daleks into Imperial and Renegade factions.",
+        "Final serial produced in 45-minute episodes until 2005.",
+        "Last full-length two-parter until 2005.",
+        "Davros's right hand is destroyed."
+      ]
+    }
+  ],
+  "worldbuilding": {
+    "in_universe_mythology": [
+      "Daleks",
+      "Davros",
+      "Tranquil Repose",
+      "Necros"
+    ],
+    "real_world_cultural_references": [
+      "Soylent Green",
+      "Evelyn Waugh's The Loved One",
+      "Star Trek"
+    ],
+    "individuals": [
+      "Arthur Stengos"
+    ],
+    "items": [
+      "Glass Dalek",
+      "Cryogenic capsules"
+    ],
+    "locations": [
+      "Necros",
+      "Tranquil Repose",
+      "Garden of Fond Memories"
+    ]
+  },
+  "ratings": {
+    "ratings_millions": [
+      {
+        "part": "Part one",
+        "viewers": 7.4
+      },
+      {
+        "part": "Part two",
+        "viewers": 7.7
+      }
+    ]
+  },
+  "continuity": {
+    "continuity_notes": [
+      "Davros survived his last meeting with the Doctor.",
+      "Peri's trauma from killing the mutant mirrors events from other stories."
+    ]
+  },
+  "plot": [
+    {
+      "plot_summary": "The Doctor and Peri arrive on the planet Necros to visit Tranquil Repose. They discover that the facility is being run by the Daleks and their creator, Davros, who is using the cryogenically frozen bodies to create a new Dalek army. The story unfolds with various characters attempting to navigate the dangers posed by Davros and the Daleks."
+    },
+    {
+      "plot_summary": "In the second part, multiple conspiracies and conflicts come to a head as the Doctor and his companions fight to stop Davros' plans. The Dalek factions battle each other, leading to a confrontation with Davros and a resolution that leads to Tranquil Repose being destroyed."
+    }
+  ]
+}

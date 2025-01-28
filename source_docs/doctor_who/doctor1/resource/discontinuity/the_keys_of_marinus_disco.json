@@ -1,0 +1,124 @@
+{
+    "title": "The Keys of Marinus",
+    "air_date": "11 April 1964",
+    "num_episodes": 6,
+    "episode_titles": [
+        "The Sea of Death",
+        "The Velvet Web",
+        "The Screaming Jungle",
+        "The Snows of Terror",
+        "Sentence of Death",
+        "The Keys of Marinus"
+    ],
+    "episode_duration": 25,
+    "writers": [
+        "Terry Nation"
+    ],
+    "directors": [
+        "John Gorrie"
+    ],
+    "media_format": "B_W",
+    "dialogue_triumphs": [
+        "I don't believe that man was made to be controlled by machines. Machines can make laws but they cannot preserve justice. Only human beings can do that."
+    ],
+    "dialogue_disasters": [
+        "It's Barbara's travel dial: there's blood on it."
+    ],
+    "goofs": [
+        "The radiation counter is on the opposite side of the console from its location in 'The Daleks'.",
+        "After the Doctor vanishes into the pyramid, to the right of the screen a studio technician's leg moves out of shot.",
+        "Just after Susan falls through the pyramid wall William Russell and Jacqueline Hill enter for their next scene.",
+        "After Ian falls through you can see Hill sneaking through the background.",
+        "The Voord that falls to his death is a cardboard cut-out.",
+        "When establishing the extent of the force-field around the TARDIS Carole Ann Ford walks in front of William Russell (and thus into the 'barrier'), despite the extravagant miming of the latter.",
+        "Although only seconds ahead of the others, when Barbara arrives at Morphoton she has time to discuss her taste in fabrics and meet the ostensible leader, Altos.",
+        "The shadow of the camera appears to pass over Susan's sleeping form in episode two.",
+        "At the end of this episode Barbara fails to break the domes of the Morpho brain creatures.",
+        "Why is Ian so ready to barter his travel dial \u2013 his only life-line back to the TARDIS \u2013 for a piece of fur from Vasor?",
+        "Sabetha slips when running from the ice soldiers.",
+        "The Voord following Sabetha in episode six trips over his own flippers."
+    ],
+    "continuity_notes": [
+        {
+            "name": "TARDIS Scanner",
+            "type": "Object",
+            "description": "The viewing screen in the TARDIS that shows the exterior environment.",
+            "origin": "TARDIS",
+            "current_status": "Implied to show monochrome images due to a fault."
+        },
+        {
+            "name": "TARDIS Time Mechanism",
+            "type": "Object",
+            "description": "The part of the TARDIS responsible for time travel.",
+            "origin": "TARDIS",
+            "current_status": "The Doctor mentions overcoming a problem with it, possibly referring to lack of control or ignorance of their location when landed."
+        },
+        {
+            "name": "Marinus",
+            "type": "Location",
+            "description": "A planet with diverse climatic zones and a large humanoid population.",
+            "origin": null,
+            "current_status": "Visited by the TARDIS crew, site of conflict between Arbitan and the Voords."
+        },
+        {
+            "name": "The Conscience",
+            "type": "Object",
+            "description": "A machine built 2000 years ago to influence thoughts throughout Marinus.",
+            "origin": "Marinus",
+            "current_status": "Central to the conflict, improved by Arbitan to potentially neutralize the Voords."
+        },
+        {
+            "name": "Voords",
+            "type": "Character",
+            "description": "Followers of Yartek who found a way to resist the Conscience machine.",
+            "origin": "Marinus",
+            "current_status": "In conflict with Arbitan and the protagonists, seeking control of the Keys of Marinus."
+        },
+        {
+            "name": "Yartek",
+            "type": "Character",
+            "description": "Leader of the Voords, with an exceptionally long lifespan.",
+            "origin": "Marinus",
+            "current_status": "Antagonist seeking control of the Conscience machine."
+        },
+        {
+            "name": "Arbitan",
+            "type": "Character",
+            "description": "Improved the Conscience machine 1300 years after the Voords' resistance began.",
+            "origin": "Marinus",
+            "current_status": "Seeks to neutralize the Voords using the improved Conscience machine."
+        }
+    ],
+    "technobabble": [
+        "Darrius has found a way of accelerating nature's 'tempo of destruction'.",
+        "The bottle containing the key is labelled De3O2 [DrivEl dioxide?]."
+    ],
+    "roots": [
+        "Courtroom drama",
+        "30s serials",
+        "Quest epics",
+        "Celtic myth",
+        "Fireball XL5 'The Hypnotic Sphere'",
+        "The Labours of Hercules"
+    ],
+    "links": [
+        "Ian is still wearing his 'Marco Polo' costume."
+    ],
+    "locations": [
+        {
+            "name": "Marinus",
+            "type": "Location",
+            "description": "A planet with diverse climatic zones including tropical jungles and snowy wastes.",
+            "origin": null,
+            "current_status": "Site of the main adventure, home to various autonomous groups or nations."
+        }
+    ],
+    "future_history": null,
+    "untold_adventures": [
+        "Susan says she has heard the noise made by the 'screaming jungle' before [see 'The Sensorites'].",
+        "The Doctor has met Pyrrho, the founder of scepticism."
+    ],
+    "qv": null,
+    "additional_notes": "The episode features several fluffs by William Hartnell and Jacqueline Hill, including misread lines and verbal stumbles.",
+    "bottom_line": "Terry Nation uses his favourite B-movie style of the episodic narrative to little effect. There's not enough room to develop the individual stories, most of which are very dull. The budget is also stretched to the limit, with the icebound landscape being stock footage wolves and polystyrene snow."
+}

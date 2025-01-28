@@ -1,0 +1,110 @@
+{
+    "title": "Battlefield",
+    "air_date": "6 September 1989",
+    "num_episodes": 4,
+    "episode_titles": [
+        "Part One",
+        "Part Two",
+        "Part Three",
+        "Part Four"
+    ],
+    "episode_duration": 25,
+    "writers": [
+        "Ben Aaronovitch"
+    ],
+    "directors": [
+        "Michael Kerrigan"
+    ],
+    "media_format": "Color",
+    "dialogue_triumphs": [
+        "Mordred on the Brig: 'He is steeped in blood.'",
+        "The Doctor: 'Exotic alien swords are easy to come by\u2026 Aces are rare.'",
+        "The Brigadier: 'Get off my world.'",
+        "The Brigadier: 'I just do the best I can.'"
+    ],
+    "dialogue_disasters": null,
+    "goofs": [
+        "The scabbard is given huge emphasis, then ignored.",
+        "Mordred drinks at least four pints of real ale without apparent effect.",
+        "The flying knight is Pythonesque.",
+        "The Brigadier gives the Doctor a rather listless karate chop.",
+        "The Doctor obviously realises the futility of his command that UNIT 'lock up' Morgaine and her son."
+    ],
+    "continuity_notes": [
+        {
+            "name": "The Doctor",
+            "type": "Character",
+            "description": "The Seventh incarnation of the Doctor, capable of hypnotizing humans and knocking them out with a touch.",
+            "origin": null,
+            "current_status": "Carries various items including Liz Shaw's UNIT pass, his own pass, a catapult, and alien coinage."
+        },
+        {
+            "name": "Ace",
+            "type": "Character",
+            "description": "The Doctor's companion, formerly a student of Mrs Parkinson.",
+            "origin": null,
+            "current_status": null
+        },
+        {
+            "name": "Brigadier Lethbridge-Stewart",
+            "type": "Character",
+            "description": "Former UNIT leader, now married to Doris and no longer teaching.",
+            "origin": "UNIT",
+            "current_status": "Called back into action for this adventure."
+        },
+        {
+            "name": "UNIT",
+            "type": "Organization",
+            "description": "United Nations Intelligence Taskforce, now equipped with various anti-alien weaponry.",
+            "origin": "Earth",
+            "current_status": "Active, with international troops including Czech, French, and Polish soldiers."
+        },
+        {
+            "name": "Bessie",
+            "type": "Object",
+            "description": "The Third Doctor's yellow roadster, now with a changed number plate.",
+            "origin": "Earth",
+            "current_status": "Retrieved from storage for this adventure."
+        }
+    ],
+    "technobabble": null,
+    "roots": [
+        "Malory",
+        "T. H. White",
+        "Arthurian legends",
+        "Tennyson's 'The Passing of Arthur'",
+        "Steve Parkhouse's Doctor/Merlin comic strips",
+        "DC's Camelot 3000",
+        "Back to the Future",
+        "Raiders of the Lost Ark",
+        "The Taming of the Shrew",
+        "Ace of Wands ('Seven Serpents, Sulphur and Salt')",
+        "The Bhagavad-Gita (for the Destroyer)",
+        "The creature in Legend (for the Destroyer's appearance)"
+    ],
+    "links": [
+        "Planet of the Spiders",
+        "Mawdryn Undead",
+        "The Five Doctors",
+        "The Time Warrior"
+    ],
+    "locations": [
+        {
+            "name": "Lake Vortigern, Carbury",
+            "type": "Location",
+            "description": "The main setting of the story, possibly in Wiltshire.",
+            "origin": "Earth",
+            "current_status": "Site of the battle between the Doctor and Morgaine's forces."
+        }
+    ],
+    "future_history": "The story is set in a near-future world with a king, roadsigns in kilometres, \u00a35 pieces, voice-operated phones, and inflated drink prices. It cannot be later than about 1995 given Zbrigniev's age.",
+    "untold_adventures": [
+        "The Doctor's future incarnation as Merlin in a parallel universe, where he aided Arthur in battles against Morgaine, including the final battle at Badon around 1200 AD."
+    ],
+    "qv": [
+        "UNIT Call-Signs, 'The Invasion'",
+        "Season 6(b), 'The War Games'"
+    ],
+    "additional_notes": "The episode features some of the first use of metaphor in Doctor Who, with the Destroyer personifying nuclear destruction.",
+    "bottom_line": "Apart from the need for a few more immediate explanations, this stands up very well as a heroic action yarn with a charming final scene. Trying to do too much at once isn't the worst of sins, and we were cheering when it was first shown."
+}

@@ -1,0 +1,3432 @@
+{
+    "Story": "An Unearthly Child",
+    "Airdate": "1963-11-23",
+    "Episodes": [
+        {
+            "Episode": "Episode One - The Dead Planet",
+            "Scenes": [
+                {
+                    "Scene": "76 Totter's Lane",
+                    "Dialogue": [
+                        {
+                            "Stage Direction": "A foggy night, and a policeman is patrolling his beat past I M Foreman's Scrap Merchants at 76 Totter's Lane. Inside is an assortment of items, including a Police telephone box."
+                        }
+                    ]
+                },
+                {
+                    "Scene": "Coal Hill School corridor",
+                    "Dialogue": [
+                        {
+                            "Stage Direction": "The bell is ringing for end of classes."
+                        },
+                        {
+                            "Character": "GIRL",
+                            "Line": "Night, Miss Wright."
+                        },
+                        {
+                            "Character": "BARBARA",
+                            "Line": "Wait in here, please, Susan. I won't be long."
+                        },
+                        {
+                            "Character": "BOY",
+                            "Line": "Goodnight, Miss Wright."
+                        }
+                    ]
+                },
+                {
+                    "Scene": "Laboratory",
+                    "Dialogue": [
+                        {
+                            "Stage Direction": "A man is tidying up after the class"
+                        },
+                        {
+                            "Character": "IAN",
+                            "Line": "Oh? Not gone yet?"
+                        },
+                        {
+                            "Character": "BARBARA",
+                            "Line": "Obviously not."
+                        },
+                        {
+                            "Character": "IAN",
+                            "Line": "Right, ask a silly question."
+                        },
+                        {
+                            "Character": "BARBARA",
+                            "Line": "I'm sorry."
+                        },
+                        {
+                            "Character": "IAN",
+                            "Line": "That's all right. I'll forgive you this time."
+                        },
+                        {
+                            "Character": "BARBARA",
+                            "Line": "Oh, I had a terrible day. I don't know what to make of it."
+                        },
+                        {
+                            "Character": "IAN",
+                            "Line": "Oh, what's the trouble? Can I help?"
+                        },
+                        {
+                            "Character": "BARBARA",
+                            "Line": "Oh, it's one of the girls, Susan Foreman."
+                        },
+                        {
+                            "Character": "IAN",
+                            "Line": "Susan Foreman? She your problem too?"
+                        },
+                        {
+                            "Character": "BARBARA",
+                            "Line": "Yes."
+                        },
+                        {
+                            "Character": "IAN",
+                            "Line": "You don't know what to make of her?"
+                        },
+                        {
+                            "Character": "BARBARA",
+                            "Line": "No."
+                        },
+                        {
+                            "Character": "IAN",
+                            "Line": "How old is she, Barbara?"
+                        },
+                        {
+                            "Character": "BARBARA",
+                            "Line": "Fifteen."
+                        },
+                        {
+                            "Character": "IAN",
+                            "Line": "Fifteen. She lets her knowledge out a bit at a time so as not to embarrass me. That's what I feel about her. She knows more science than I'll ever know. She's a genius. Is that what she's doing with history?"
+                        },
+                        {
+                            "Character": "BARBARA",
+                            "Line": "Something like that."
+                        },
+                        {
+                            "Character": "IAN",
+                            "Line": "So your problem is whether to stay in business or to hand over the class to her."
+                        },
+                        {
+                            "Character": "BARBARA",
+                            "Line": "No, not quite."
+                        },
+                        {
+                            "Character": "IAN",
+                            "Line": "What, then?"
+                        },
+                        {
+                            "Character": "BARBARA",
+                            "Line": "Ian, I must talk to someone about this, but I don't want to get the girl into trouble. And I know you're going to tell me I'm imagining things."
+                        },
+                        {
+                            "Character": "IAN",
+                            "Line": "No, I'm not."
+                        },
+                        {
+                            "Character": "BARBARA",
+                            "Line": "Well, I told you how good she is at history. I had a talk with her and told her she ought to specialise. Well, she seemed quite interested until I said I'd be willing to work with her at her home. Then she said that would be absolutely impossible as her grandfather didn't like strangers."
+                        },
+                        {
+                            "Character": "IAN",
+                            "Line": "He's a doctor, isn't he? That's a bit of a lame excuse."
+                        },
+                        {
+                            "Character": "BARBARA",
+                            "Line": "Well, I didn't pursue the point but then recently her homework's been so bad."
+                        },
+                        {
+                            "Character": "IAN",
+                            "Line": "Yes, I know."
+                        },
+                        {
+                            "Character": "BARBARA",
+                            "Line": "Finally I got so irritated with all her excuses I decided to have a talk with this grandfather of hers and tell him to take some interest in her."
+                        },
+                        {
+                            "Character": "IAN",
+                            "Line": "Did you indeed? And what's the old boy like?"
+                        },
+                        {
+                            "Character": "BARBARA",
+                            "Line": "Well, that's just it. I got her address from the secretary, 76 Totter's Lane, and I went along there one evening. Oh Ian, do pay attention."
+                        },
+                        {
+                            "Character": "IAN",
+                            "Line": "Sorry. You went along there one evening?"
+                        },
+                        {
+                            "Character": "BARBARA",
+                            "Line": "There isn't anything there. It's just an old junkyard."
+                        },
+                        {
+                            "Character": "IAN",
+                            "Line": "You must have gone to the wrong place."
+                        },
+                        {
+                            "Character": "BARBARA",
+                            "Line": "Well, that was the address the secretary gave me."
+                        },
+                        {
+                            "Character": "IAN",
+                            "Line": "The secretary got it wrong, then."
+                        },
+                        {
+                            "Character": "BARBARA",
+                            "Line": "No. I checked. There's a big wall on one side, houses on the other and nothing in the middle. And this nothing in the middle is number 76 Totter's Lane."
+                        },
+                        {
+                            "Character": "IAN",
+                            "Line": "Hmm. That's a bit of a mystery. Well, there must be a simple answer somewhere."
+                        },
+                        {
+                            "Character": "BARBARA",
+                            "Line": "Well, what?"
+                        },
+                        {
+                            "Character": "IAN",
+                            "Line": "Well, we'll have to find out for ourselves, won't we?"
+                        },
+                        {
+                            "Character": "BARBARA",
+                            "Line": "Thank you for the we. She's waiting in one of the classrooms. I'm lending her a book on the French Revolution."
+                        },
+                        {
+                            "Character": "IAN",
+                            "Line": "What's she going to do, rewrite it? Oh, all right. What do we do? Ask her point-blank?"
+                        },
+                        {
+                            "Character": "BARBARA",
+                            "Line": "No, I thought we could drive there, wait till she arrives and see where she goes."
+                        },
+                        {
+                            "Character": "IAN",
+                            "Line": "Oh, all right."
+                        },
+                        {
+                            "Character": "BARBARA",
+                            "Line": "That is, if you're not doing anything."
+                        },
+                        {
+                            "Character": "IAN",
+                            "Line": "No, I'm not. After you."
+                        }
+                    ]
+                },
+                {
+                    "Scene": "Classroom",
+                    "Dialogue": [
+                        {
+                            "Stage Direction": "Susan is listening to guitar rock music on her transistor radio. I'm thinking The Shadows. She looks a little elfin, like Audrey Hepburn"
+                        },
+                        {
+                            "Character": "BARBARA",
+                            "Line": "Susan?"
+                        },
+                        {
+                            "Character": "SUSAN",
+                            "Line": "Oh, I'm sorry, Miss Wright. I didn't hear you coming in. Aren't they fabulous?"
+                        },
+                        {
+                            "Character": "BARBARA",
+                            "Line": "Who?"
+                        },
+                        {
+                            "Character": "SUSAN",
+                            "Line": "It's John Smith and the Common Men. They've gone from nineteen to two."
+                        },
+                        {
+                            "Character": "IAN",
+                            "Line": "John Smith is the stage name of the Honourable Aubrey Waites. He started his career as Chris Waites and the Carollers, didn't he, Susan?"
+                        },
+                        {
+                            "Character": "SUSAN",
+                            "Line": "You are surprising, Mister Chesterton. I wouldn't expect you to know things like that."
+                        },
+                        {
+                            "Character": "IAN",
+                            "Line": "I have an enquiring mind. And a very sensitive ear."
+                        },
+                        {
+                            "Character": "SUSAN",
+                            "Line": "Oh, I'm sorry."
+                        },
+                        {
+                            "Stage Direction": "She turns the radio off."
+                        },
+                        {
+                            "Character": "IAN",
+                            "Line": "Thank you."
+                        },
+                        {
+                            "Character": "SUSAN",
+                            "Line": "Is that the book you promised me?"
+                        },
+                        {
+                            "Character": "BARBARA",
+                            "Line": "Yes."
+                        },
+                        {
+                            "Character": "SUSAN",
+                            "Line": "Thank you very much. It will be interesting. I'll return it tomorrow."
+                        },
+                        {
+                            "Character": "BARBARA",
+                            "Line": "Oh, that's not necessary. Keep it until you've finished it."
+                        },
+                        {
+                            "Character": "SUSAN",
+                            "Line": "I'll have finished it."
+                        },
+                        {
+                            "Character": "IAN",
+                            "Line": "Oh, where do you live, Susan? I'm giving Miss Wright a lift, I've got room for one more."
+                        },
+                        {
+                            "Character": "SUSAN",
+                            "Line": "No, thank you, Mister Chesterton. I like walking through the dark. It's mysterious."
+                        },
+                        {
+                            "Character": "BARBARA",
+                            "Line": "Be careful, Susan, there'll probably be fog again tonight."
+                        },
+                        {
+                            "Character": "SUSAN",
+                            "Line": "Mmm."
+                        },
+                        {
+                            "Character": "BARBARA",
+                            "Line": "See you in the morning."
+                        },
+                        {
+                            "Character": "SUSAN",
+                            "Line": "I expect so. Good night."
+                        },
+                        {
+                            "Character": "BARBARA",
+                            "Line": "Good night."
+                        },
+                        {
+                            "Character": "IAN",
+                            "Line": "Good night, Susan."
+                        },
+                        {
+                            "Stage Direction": "They leave. Susan sits on a desk and starts reading."
+                        },
+                        {
+                            "Character": "SUSAN",
+                            "Line": "But that's not right."
+                        }
+                    ]
+                },
+                {
+                    "Scene": "Totter's Lane",
+                    "Dialogue": [
+                        {
+                            "Stage Direction": "Ian and Barbara are parked up."
+                        },
+                        {
+                            "Character": "BARBARA",
+                            "Line": "Over there."
+                        },
+                        {
+                            "Character": "IAN",
+                            "Line": "We're lucky there was no fog. I'd never have found this."
+                        },
+                        {
+                            "Character": "BARBARA",
+                            "Line": "Well, she doesn't seem to have arrived yet. I suppose we are doing the right thing, aren't we?"
+                        },
+                        {
+                            "Character": "IAN",
+                            "Line": "You can't justify curiosity."
+                        },
+                        {
+                            "Character": "BARBARA",
+                            "Line": "But her homework?"
+                        },
+                        {
+                            "Character": "IAN",
+                            "Line": "A bit of an excuse, really, isn't it? I've seen far worse. The truth is, we're both curious about Susan and we won't be happy until we know some of the answers."
+                        },
+                        {
+                            "Character": "BARBARA",
+                            "Line": "You can't just pass it off like that. If I thought I was just being a busybody, I'd go straight home. I thought you agreed she was a bit of a mystery."
+                        },
+                        {
+                            "Character": "IAN",
+                            "Line": "Yes, but I think you'll find there's a very simple explanation to all this."
+                        },
+                        {
+                            "Character": "BARBARA",
+                            "Line": "Well, I don't know how you explain the fact that a fifteen year old girl does not know how many shillings there are in a pound."
+                        },
+                        {
+                            "Character": "IAN",
+                            "Line": "Really?"
+                        },
+                        {
+                            "Character": "BARBARA",
+                            "Line": "Really. She said she thought we were on the decimal system."
+                        },
+                        {
+                            "Character": "IAN",
+                            "Line": "Decimal system?"
+                        }
+                    ]
+                },
+                {
+                    "Scene": "Memory - classroom",
+                    "Dialogue": [
+                        {
+                            "Stage Direction": "The other pupils are laughing."
+                        },
+                        {
+                            "Character": "SUSAN",
+                            "Line": "I'm sorry, Miss Wright."
+                        },
+                        {
+                            "Character": "BARBARA",
+                            "Line": "Don't be silly, Susan. The United States has a decimal system. You know perfectly well that we do not."
+                        },
+                        {
+                            "Character": "SUSAN",
+                            "Line": "Of course, the decimal system hasn't started yet."
+                        }
+                    ]
+                },
+                {
+                    "Scene": "Totter's Lane",
+                    "Dialogue": [
+                        {
+                            "Character": "IAN",
+                            "Line": "I suppose she couldn't be a foreigner? No, doesn't make sense. Nothing about this girl makes sense. For instance, the other day I talking about chemical changes. I'd given out the litmus paper to show cause and effect"
+                        },
+                        {
+                            "Character": "BARBARA",
+                            "Line": "And she knew the answer before you'd started."
+                        },
+                        {
+                            "Character": "IAN",
+                            "Line": "Well, not quite. The answer simply didn't interest her."
+                        }
+                    ]
+                },
+                {
+                    "Scene": "Memory - laboratory",
+                    "Dialogue": [
+                        {
+                            "Character": "SUSAN",
+                            "Line": "Yes, I can see red turns to blue, Mister Chesterton, but that's because we're dealing with two inactive chemicals. They only act in relation to each other."
+                        },
+                        {
+                            "Character": "IAN",
+                            "Line": "But that's the whole point of the experiment, Susan."
+                        },
+                        {
+                            "Character": "SUSAN",
+                            "Line": "Yes, it's a bit obvious, isn't it? Well, I'm not trying to be rude, but couldn't we deal with two active chemicals? Then red could turn blue all by itself and get on with something else? I'm sorry, it was just an idea."
+                        }
+                    ]
+                },
+                {
+                    "Scene": "Totter's Lane",
+                    "Dialogue": [
+                        {
+                            "Character": "IAN",
+                            "Line": "She means it. These simple experiments are child's play to her."
+                        },
+                        {
+                            "Character": "BARBARA",
+                            "Line": "You know, it's almost got to the point where I deliberately want to trip her up."
+                        },
+                        {
+                            "Character": "IAN",
+                            "Line": "Yes. Something like that happened the other day. I'd set the class a problem with A, B and C as the three dimensions."
+                        }
+                    ]
+                },
+                {
+                    "Scene": "Memory - classroom",
+                    "Dialogue": [
+                        {
+                            "Character": "SUSAN",
+                            "Line": "It's impossible unless you use D and E."
+                        },
+                        {
+                            "Character": "IAN",
+                            "Line": "D and E? Whatever for? Do the problem that's set, Susan."
+                        },
+                        {
+                            "Character": "SUSAN",
+                            "Line": "I can't, Mister Chesterton. You can't simply work on three of the dimensions."
+                        },
+                        {
+                            "Character": "IAN",
+                            "Line": "Three of them? Oh, time being the fourth dimension, I suppose? Then what do you need E for? What do you make the fifth dimension?"
+                        },
+                        {
+                            "Character": "SUSAN",
+                            "Line": "Space."
+                        }
+                    ]
+                },
+                {
+                    "Scene": "Totter's Lane",
+                    "Dialogue": [
+                        {
+                            "Character": "BARBARA",
+                            "Line": "Too many questions and not enough answers."
+                        },
+                        {
+                            "Character": "IAN",
+                            "Line": "Stupid? Or just doesn't know. So we have a fifteen year old girl who is absolutely brilliant at some things, and excruciatingly bad at others."
+                        },
+                        {
+                            "Character": "BARBARA",
+                            "Line": "There she is."
+                        },
+                        {
+                            "Stage Direction": "Susan looks around then goes into the scrap yard."
+                        },
+                        {
+                            "Character": "BARBARA",
+                            "Line": "Look, can we go in now? I hate to think of her alone in that place."
+                        },
+                        {
+                            "Character": "IAN",
+                            "Line": "If she is alone. Look, she is fifteen. She might be meeting a boy. Didn't that occur to you?"
+                        },
+                        {
+                            "Character": "BARBARA",
+                            "Line": "I almost hope she is."
+                        },
+                        {
+                            "Character": "IAN",
+                            "Line": "What do you mean?"
+                        },
+                        {
+                            "Character": "BARBARA",
+                            "Line": "Well, it would be so wonderfully normal. It's silly, isn't it? I feel frightened. As if we're about to interfere in something that is best left alone."
+                        },
+                        {
+                            "Character": "IAN",
+                            "Line": "Come on, let's get it over with."
+                        },
+                        {
+                            "Stage Direction": "They get out of the car."
+                        },
+                        {
+                            "Character": "BARBARA",
+                            "Line": "Well, don't you feel it?"
+                        },
+                        {
+                            "Character": "IAN",
+                            "Line": "I take things as they come. Come on."
+                        }
+                    ]
+                },
+                {
+                    "Scene": "Junk yard",
+                    "Dialogue": [
+                        {
+                            "Stage Direction": "Ian has a small torch in his hand. There is no sign of Susan."
+                        },
+                        {
+                            "Character": "IAN",
+                            "Line": "What a mess. We're not turning over any of this stuff to find her.."
+                        },
+                        {
+                            "Character": "BARBARA",
+                            "Line": "Over there?"
+                        },
+                        {
+                            "Stage Direction": "Ian falls over a bucket or something."
+                        },
+                        {
+                            "Character": "IAN",
+                            "Line": "Blast. I've dropped it."
+                        },
+                        {
+                            "Character": "BARBARA",
+                            "Line": "What?"
+                        },
+                        {
+                            "Character": "IAN",
+                            "Line": "The torch."
+                        },
+                        {
+                            "Character": "BARBARA",
+                            "Line": "Well, use a match."
+                        },
+                        {
+                            "Character": "IAN",
+                            "Line": "I haven't got any. Oh, never mind."
+                        },
+                        {
+                            "Character": "BARBARA",
+                            "Line": "Susan?"
+                        },
+                        {
+                            "Character": "IAN",
+                            "Line": "Susan? Susan? Susan! Susan. Mister Chesterton and Miss Wright. She can't have got out without us seeing her."
+                        },
+                        {
+                            "Character": "BARBARA",
+                            "Line": "Ian, look at this."
+                        },
+                        {
+                            "Stage Direction": "She's found the police telephone box."
+                        },
+                        {
+                            "Character": "IAN",
+                            "Line": "It's a police box! What on earth's it doing here? These things are usually on the street. Feel it. Feel it. Do you feel it?"
+                        },
+                        {
+                            "Character": "BARBARA",
+                            "Line": "It's a faint vibration."
+                        },
+                        {
+                            "Character": "IAN",
+                            "Line": "It's alive!"
+                        },
+                        {
+                            "Stage Direction": "He walks around it."
+                        },
+                        {
+                            "Character": "IAN",
+                            "Line": "It's not connected to anything, unless it's through the floor."
+                        },
+                        {
+                            "Character": "BARBARA",
+                            "Line": "Look, I've had enough. Let's go and find a policeman."
+                        },
+                        {
+                            "Character": "IAN",
+                            "Line": "Yes, all right."
+                        },
+                        {
+                            "Stage Direction": "Someone coughs."
+                        },
+                        {
+                            "Character": "BARBARA",
+                            "Line": "Is that her?"
+                        },
+                        {
+                            "Character": "IAN",
+                            "Line": "That's not her. Quick."
+                        },
+                        {
+                            "Stage Direction": "They hide as an old man in Astrakhan hat and a long scarf enters the yard. He goes to the police box and puts a key in the lock."
+                        },
+                        {
+                            "Character": "SUSAN [OC]",
+                            "Line": "There you are, Grandfather."
+                        },
+                        {
+                            "Character": "BARBARA",
+                            "Line": "It's Susan."
+                        },
+                        {
+                            "Character": "IAN",
+                            "Line": "Shush!"
+                        },
+                        {
+                            "Stage Direction": "Ian comes out from the hiding place."
+                        },
+                        {
+                            "Character": "IAN",
+                            "Line": "Excuse me."
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "What are you doing here?"
+                        },
+                        {
+                            "Character": "IAN",
+                            "Line": "We're looking for a young girl."
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "We?"
+                        },
+                        {
+                            "Character": "BARBARA",
+                            "Line": "Good evening."
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "What do you want?"
+                        },
+                        {
+                            "Character": "IAN",
+                            "Line": "One of our pupils, Susan Foreman, came into this yard."
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "Really? In here? Are you sure?"
+                        },
+                        {
+                            "Character": "BARBARA",
+                            "Line": "Yes, we saw her from across the street."
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "(aside) One of their pupils, not the police, then."
+                        },
+                        {
+                            "Character": "IAN",
+                            "Line": "I beg your pardon?"
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "Why were you were spying on her? Who are you?"
+                        },
+                        {
+                            "Character": "IAN",
+                            "Line": "We heard a young girl's voice call out to you."
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "Your hearing must be very acute. I didn't hear anything."
+                        },
+                        {
+                            "Character": "BARBARA",
+                            "Line": "It came from in here."
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "You imagined it."
+                        },
+                        {
+                            "Character": "BARBARA",
+                            "Line": "I certainly did not imagine it."
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "Young man, is it reasonable to suppose that anybody would be inside a cupboard like that, hmm?"
+                        },
+                        {
+                            "Character": "IAN",
+                            "Line": "Would it therefore be unreasonable to ask you to let us have a look inside?"
+                        },
+                        {
+                            "Stage Direction": "The Doctor goes to an ornate picture frame."
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "I wonder why I've never seen that before. Now isn't that strange. Very damp and dirty."
+                        },
+                        {
+                            "Character": "BARBARA",
+                            "Line": "Won't you help us? We're two of her teachers from the Coal Hill School. We saw her come in and we haven't seen her leave. Naturally, we're worried."
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "Have to be cleaned. Hmm? Oh, I'm afraid it's none of my business. I suggest you leave here."
+                        },
+                        {
+                            "Character": "IAN",
+                            "Line": "Not until we're satisfied that Susan isn't in there. And frankly, I don't understand your attitude."
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "Yours leaves a lot to be desired."
+                        },
+                        {
+                            "Character": "IAN",
+                            "Line": "Will you open the door?"
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "There's nothing in there."
+                        },
+                        {
+                            "Character": "IAN",
+                            "Line": "Then what are you afraid to show us?"
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "Afraid? Oh, go away."
+                        },
+                        {
+                            "Character": "IAN",
+                            "Line": "I think we'd better go and fetch a policeman."
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "Very well."
+                        },
+                        {
+                            "Character": "IAN",
+                            "Line": "And you're coming with us."
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "Oh, am I? I don't think so, young man. No, I don't think so."
+                        },
+                        {
+                            "Character": "BARBARA",
+                            "Line": "We can't force him."
+                        },
+                        {
+                            "Character": "IAN",
+                            "Line": "But we can't leave him here. Doesn't it seem obvious to you he's got her locked up in there? Look at it. There's no door handle. There must be a secret lock somewhere."
+                        },
+                        {
+                            "Character": "BARBARA",
+                            "Line": "That was Susan's voice."
+                        },
+                        {
+                            "Character": "IAN",
+                            "Line": "But of course it was. Susan! Susan! Susan, are you in there? It's Mister Chesterton and Miss Wright, Susan."
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "Don't you think you're being rather high-handed, young man? You thought you saw a young girl enter the yard. You imagine you heard her voice. You believe she might be inside there. It's not very substantial, is it?"
+                        },
+                        {
+                            "Character": "BARBARA",
+                            "Line": "But why won't you help us?"
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "I'm not hindering you. If you both want to make fools of yourselves, I suggest you do what you said you'd do. Go and find a policeman."
+                        },
+                        {
+                            "Character": "IAN",
+                            "Line": "While you nip off quietly in the other direction."
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "Insulting. There's only one way in and out of this yard. I shall be here when you get back. I want to see your faces when you try to explain away your behaviour to a policeman."
+                        },
+                        {
+                            "Character": "IAN",
+                            "Line": "Nevertheless, we're going to find one. Come on, Barbara."
+                        },
+                        {
+                            "Character": "SUSAN [OC]",
+                            "Line": "What are you doing out there?"
+                        },
+                        {
+                            "Character": "IAN",
+                            "Line": "She is in there!"
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "Close the door!"
+                        },
+                        {
+                            "Character": "IAN",
+                            "Line": "Barbara!"
+                        },
+                        {
+                            "Stage Direction": "Barbara goes inside the box as Ian briefly struggles with the Doctor before following her."
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "Episode": "Episode Two - The Cave of Skulls",
+            "Scenes": [
+                {
+                    "Scene": "Cave",
+                    "Dialogue": [
+                        {
+                            "Stage Direction": "A group of unkempt people in furs are gathered around a man rubbing a bone with his hands"
+                        },
+                        {
+                            "Character": "MOTHER",
+                            "Line": "Where is the fire Za makes?"
+                        },
+                        {
+                            "Character": "HUR",
+                            "Line": "(a woman) In his hands. We are not going to the wood."
+                        },
+                        {
+                            "Character": "ZA",
+                            "Line": "My father made fire."
+                        },
+                        {
+                            "Character": "MOTHER",
+                            "Line": "They killed him for it. It is better that we live as we have always done."
+                        },
+                        {
+                            "Character": "ZA",
+                            "Line": "He showed me how to sharpen the stones and trap the bear and the tiger. He should have shown me this, too."
+                        },
+                        {
+                            "Character": "MOTHER",
+                            "Line": "So that everyone would bow to you as they did to him?"
+                        },
+                        {
+                            "Character": "ZA",
+                            "Line": "Tell me what my father did to make fire."
+                        },
+                        {
+                            "Character": "MOTHER",
+                            "Line": "I never saw him make it. That is all I know."
+                        },
+                        {
+                            "Character": "ZA",
+                            "Line": "Out of my sight, old woman. You should have died with him."
+                        },
+                        {
+                            "Character": "MOTHER",
+                            "Line": "Za will never make fire."
+                        },
+                        {
+                            "Character": "ZA",
+                            "Line": "Put on more of the dead fire."
+                        },
+                        {
+                            "Character": "(Hur adds ash, and Za rubs the bone between his hands again. HUR",
+                            "Line": "The old men are talking against you, Za. They say it would be better for the stranger Kal to lead us."
+                        },
+                        {
+                            "Character": "ZA",
+                            "Line": "Kal?"
+                        },
+                        {
+                            "Character": "HUR",
+                            "Line": "They say you sit all day rubbing your hands together while he brings us meat.)"
+                        },
+                        {
+                            "Character": "ZA",
+                            "Line": "Without meat, we go hungry. Without fire, we die."
+                        },
+                        {
+                            "Character": "HUR",
+                            "Line": "Old men see no further than tomorrow's meat. They will make Kal the leader. My father will give me to him."
+                        },
+                        {
+                            "Character": "ZA",
+                            "Line": "Kal is no leader."
+                        },
+                        {
+                            "Character": "HUR",
+                            "Line": "The leader is the one who makes fire."
+                        },
+                        {
+                            "Character": "ZA",
+                            "Line": "Where has the fire gone? Where? Where?"
+                        }
+                    ]
+                },
+                {
+                    "Scene": "Tardis",
+                    "Dialogue": [
+                        {
+                            "Stage Direction": "Barbara wakes up"
+                        },
+                        {
+                            "Character": "BARBARA",
+                            "Line": "Ian? Ian."
+                        },
+                        {
+                            "Character": "IAN",
+                            "Line": "I'm all right. I must have hit my head. The movement's stopped."
+                        },
+                        {
+                            "Character": "SUSAN",
+                            "Line": "The base is steady."
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "Layer of sand, rock formation. Good."
+                        },
+                        {
+                            "Character": "SUSAN",
+                            "Line": "We've left 1963."
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "Oh, yes, undoubtedly. I'll be able to tell you where presently. Zero? That's not right. I'm afraid this yearometer is not calculating properly. Hm! Well, anyway, the journey's finished. (to Ian) What are you doing down there?"
+                        },
+                        {
+                            "Character": "BARBARA",
+                            "Line": "What have you done?"
+                        },
+                        {
+                            "Character": "IAN",
+                            "Line": "Barbara, you don't believe all this nonsense."
+                        },
+                        {
+                            "Character": "SUSAN",
+                            "Line": "Well, look at the scanner screen."
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "Yes, look up there. They don't understand and I suspect they don't want to. Well, there you are. A new world for you."
+                        },
+                        {
+                            "Character": "IAN",
+                            "Line": "Sand and rock?"
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "Yes, that's the immediate view outside the ship."
+                        },
+                        {
+                            "Character": "BARBARA",
+                            "Line": "But where are we?"
+                        },
+                        {
+                            "Character": "IAN",
+                            "Line": "You mean that's what we'll see when we go outside?"
+                        },
+                        {
+                            "Character": "SUSAN",
+                            "Line": "Yes, you'll see it for yourself."
+                        },
+                        {
+                            "Character": "IAN",
+                            "Line": "I don't believe it."
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "You really are a stubborn young man, aren't you?"
+                        },
+                        {
+                            "Character": "IAN",
+                            "Line": "All right, show me some proof. Give me some concrete evidence. I'm sorry, Susan, I don't want to hurt you, but it's time you were brought back to reality."
+                        },
+                        {
+                            "Character": "SUSAN",
+                            "Line": "But you're wrong, Mister Chesterton."
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "They are saying I'm a charlatan. What concrete evidence would satisfy you?"
+                        },
+                        {
+                            "Character": "IAN",
+                            "Line": "Just open the doors, Doctor Foreman."
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "Eh? Doctor who? What's he talking about?"
+                        },
+                        {
+                            "Character": "BARBARA",
+                            "Line": "They're so sure, Ian."
+                        },
+                        {
+                            "Character": "IAN",
+                            "Line": "Yes, I know."
+                        },
+                        {
+                            "Character": "BARBARA",
+                            "Line": "And remember the difference between the outside of the police box and the inside."
+                        },
+                        {
+                            "Character": "IAN",
+                            "Line": "Yes, I know, but. Are you going to open the doors or aren't you?"
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "No."
+                        },
+                        {
+                            "Character": "IAN",
+                            "Line": "You see?"
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "Not until I'm quite sure it's safe to do so. Well, yes, good. Yes, it is, it's good. Excellent, excellent. You've got the radiation counter there. What's it read?"
+                        },
+                        {
+                            "Character": "SUSAN",
+                            "Line": "It's reading normal, Grandfather."
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "Splendid, splendid. Well, I think I'll take my Geiger counter with me in any case. So, you still challenge me, young man?"
+                        },
+                        {
+                            "Character": "IAN",
+                            "Line": "Well, just open the doors and prove your point."
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "You're so narrow-minded, aren't you? Don't be so insular."
+                        },
+                        {
+                            "Character": "SUSAN",
+                            "Line": "Grandfather, do you know where we are?"
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "Yes, we've gone back in time, all right. One or two samples and I shall be able to make an estimate. With rock pieces and a few plants. But I do wish this wouldn't keep letting me down. However, we can go out now."
+                        },
+                        {
+                            "Character": "IAN",
+                            "Line": "Just a minute. You say we've gone back in time?"
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "Yes, quite so."
+                        },
+                        {
+                            "Character": "IAN",
+                            "Line": "So that when we go out of that door, we won't be in a junkyard in London in England in the year 1963?"
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "That is quite correct. But your tone suggests ridicule."
+                        },
+                        {
+                            "Character": "IAN",
+                            "Line": "But it is ridiculous. Time doesn't go round and round in circles. You can't get on and off whenever you like in the past or the future."
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "Really? Where does time go, then?"
+                        },
+                        {
+                            "Character": "IAN",
+                            "Line": "It doesn't go anywhere. It just happens and then it's finished."
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "(to Barbara) You're not as doubtful as your friend, I hope?"
+                        },
+                        {
+                            "Character": "BARBARA",
+                            "Line": "No."
+                        },
+                        {
+                            "Character": "IAN",
+                            "Line": "Barbara, you can't"
+                        },
+                        {
+                            "Character": "BARBARA",
+                            "Line": "I can't help it. I just believe them, that's all."
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "If you could touch the alien sand and hear the cries of strange birds and watch them wheel in another sky, would that satisfy you?"
+                        },
+                        {
+                            "Character": "IAN",
+                            "Line": "Yes."
+                        },
+                        {
+                            "Stage Direction": "The Doctor opens the doors"
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "Now, see for yourself."
+                        },
+                        {
+                            "Character": "IAN",
+                            "Line": "It's not true. It can't be."
+                        },
+                        {
+                            "Character": "SUSAN",
+                            "Line": "That's not on the screen."
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "Well I've no more time to argue with you. I must get some samples, Susan."
+                        },
+                        {
+                            "Character": "SUSAN",
+                            "Line": "Be careful, Grandfather."
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "(exiting, muttering) Oh, dear, it's disgusting really."
+                        },
+                        {
+                            "Stage Direction": "Barbara leaves the Tardis"
+                        },
+                        {
+                            "Character": "BARBARA",
+                            "Line": "Ian, come out and look."
+                        },
+                        {
+                            "Stage Direction": "Ian stumbles and clutches his head"
+                        },
+                        {
+                            "Character": "SUSAN",
+                            "Line": "Oh here, lean on me."
+                        },
+                        {
+                            "Character": "IAN",
+                            "Line": "No, thank you. I'm all right, thanks."
+                        },
+                        {
+                            "Stage Direction": "Ian and Susan step outside, and the doors close behind them"
+                        }
+                    ]
+                },
+                {
+                    "Scene": "Wasteland",
+                    "Dialogue": [
+                        {
+                            "Character": "BARBARA",
+                            "Line": "Well?"
+                        },
+                        {
+                            "Character": "IAN",
+                            "Line": "But there must be some explanation."
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "It's still a police box. Why hasn't it changed? Dear, dear, how very disturbing."
+                        },
+                        {
+                            "Stage Direction": "The Doctor collects his rock samples, watched by the primitive man. Barbara comes across an animal skull in the sand"
+                        },
+                        {
+                            "Character": "BARBARA",
+                            "Line": "What do you think it could be? Ian, look at this."
+                        },
+                        {
+                            "Character": "IAN",
+                            "Line": "I don't know. It hasn't got any horns or antlers. Could be a horse. Could be anything. Incredible. A police box in the midst of. Oh, it just doesn't make sense."
+                        },
+                        {
+                            "Character": "SUSAN",
+                            "Line": "It should have changed. Wonder why it hasn't happened this time."
+                        },
+                        {
+                            "Character": "BARBARA",
+                            "Line": "The ship, you mean?"
+                        },
+                        {
+                            "Character": "SUSAN",
+                            "Line": "Yes, it's been an Ionic column and a sedan chair."
+                        },
+                        {
+                            "Character": "BARBARA",
+                            "Line": "Disguising itself wherever it goes."
+                        },
+                        {
+                            "Character": "SUSAN",
+                            "Line": "Yes, that's right. But it hasn't happened this time. I wonder why not. I wonder if this old head would help Grandfather. Where is he?"
+                        },
+                        {
+                            "Character": "BARBARA",
+                            "Line": "You're very quiet."
+                        },
+                        {
+                            "Character": "IAN",
+                            "Line": "I was wrong, wasn't I."
+                        },
+                        {
+                            "Character": "BARBARA",
+                            "Line": "Oh, look, I don't understand it any more than you do. The inside of the ship, suddenly finding ourselves here. Even some of the things Doctor Foreman says."
+                        },
+                        {
+                            "Character": "IAN",
+                            "Line": "That's not his name. Who is he? Doctor who? Perhaps if we knew his name we might have a clue to all this."
+                        },
+                        {
+                            "Character": "BARBARA",
+                            "Line": "Look, Ian, the point is, it's happened."
+                        },
+                        {
+                            "Character": "IAN",
+                            "Line": "Yes, it has. But it's impossible to accept. I know I'm here"
+                        },
+                        {
+                            "Character": "SUSAN",
+                            "Line": "I can't see him anywhere."
+                        },
+                        {
+                            "Character": "BARBARA",
+                            "Line": "He can't be far away. I had a feeling just now as if we were being watched. Grandfather."
+                        },
+                        {
+                            "Stage Direction": "The Doctor is lighting his pipe when the primitive man attacks. The Doctor cries out"
+                        },
+                        {
+                            "Character": "SUSAN",
+                            "Line": "Grandfather!"
+                        },
+                        {
+                            "Character": "IAN",
+                            "Line": "Come on!"
+                        },
+                        {
+                            "Stage Direction": "They run to where the Doctor was gathering his samples, and find his bag on the ground"
+                        },
+                        {
+                            "Character": "IAN",
+                            "Line": "Look."
+                        },
+                        {
+                            "Character": "SUSAN",
+                            "Line": "What is it?"
+                        },
+                        {
+                            "Character": "BARBARA",
+                            "Line": "Some of his things."
+                        },
+                        {
+                            "Character": "SUSAN",
+                            "Line": "Grandfather, where are you?"
+                        },
+                        {
+                            "Character": "IAN",
+                            "Line": "Susan, don't panic."
+                        },
+                        {
+                            "Character": "SUSAN",
+                            "Line": "I must find him."
+                        },
+                        {
+                            "Character": "IAN",
+                            "Line": "Susan."
+                        },
+                        {
+                            "Character": "SUSAN",
+                            "Line": "I must see."
+                        },
+                        {
+                            "Character": "IAN",
+                            "Line": "Well, be careful then."
+                        },
+                        {
+                            "Character": "BARBARA",
+                            "Line": "Ian, look."
+                        },
+                        {
+                            "Character": "IAN",
+                            "Line": "(broken Geiger counter) It's not much good any more."
+                        },
+                        {
+                            "Character": "BARBARA",
+                            "Line": "Well, maybe he saw something and went off to investigate."
+                        },
+                        {
+                            "Character": "IAN",
+                            "Line": "Leaving this? (his hat)"
+                        },
+                        {
+                            "Character": "BARBARA",
+                            "Line": "Well, what do you think happened?"
+                        },
+                        {
+                            "Character": "IAN",
+                            "Line": "I don't know. Perhaps he was excited and went off to investigate something as you suggest, but. He may have been taken."
+                        },
+                        {
+                            "Character": "SUSAN",
+                            "Line": "I can't see him. I can't find him anywhere. There's not a sign of him."
+                        },
+                        {
+                            "Character": "IAN",
+                            "Line": "Calm down, Susan."
+                        },
+                        {
+                            "Character": "BARBARA",
+                            "Line": "Susan, don't worry. What's the matter?"
+                        },
+                        {
+                            "Character": "SUSAN",
+                            "Line": "It's his notes. He'd never leave his notebook. It's too important to him. It's got the key codes of all the machines in the ship. It's got notes of everywhere we've been to. Something terrible has happened to him, I know it has. We must find him."
+                        },
+                        {
+                            "Character": "BARBARA",
+                            "Line": "Susan, Susan. We'll find him, I promise you. He can't be far away."
+                        },
+                        {
+                            "Character": "IAN",
+                            "Line": "What's on the other side of those rocks?"
+                        },
+                        {
+                            "Character": "SUSAN",
+                            "Line": "There's a line of trees. There's a gap in them. There might be a path on the other side."
+                        },
+                        {
+                            "Character": "IAN",
+                            "Line": "(gathering up the Doctor's things) All right, we'll try there first. Come on. Strange."
+                        },
+                        {
+                            "Character": "BARBARA",
+                            "Line": "What?"
+                        },
+                        {
+                            "Character": "IAN",
+                            "Line": "This sand. It's cold. It's nearly freezing."
+                        }
+                    ]
+                },
+                {
+                    "Scene": "Cave",
+                    "Dialogue": [
+                        {
+                            "Stage Direction": "The children are playing hunting, with one of them under a leopard's skin"
+                        },
+                        {
+                            "Character": "HORG",
+                            "Line": "Kal says, where he comes from, he's often seen men make fire."
+                        },
+                        {
+                            "Character": "ZA",
+                            "Line": "Kal is a liar."
+                        },
+                        {
+                            "Character": "HORG",
+                            "Line": "He says Orb will soon show him how it is done."
+                        },
+                        {
+                            "Character": "ZA",
+                            "Line": "All his tribe died in the last cold. If he had not found us, he would have died too."
+                        },
+                        {
+                            "Character": "HUR",
+                            "Line": "What else did he say?"
+                        },
+                        {
+                            "Character": "HORG",
+                            "Line": "He says Orb only shows the secret to the leader."
+                        },
+                        {
+                            "Character": "ZA",
+                            "Line": "I am leader. Orb will show me. I am the son of the great firemaker, but he does not show me how to put flames into the sticks. Kal comes. I do not kill him. I let him eat with us and sleep in our caves. I will have to spill some blood and make people bow to me."
+                        },
+                        {
+                            "Stage Direction": "There's a commotion as the Doctor is brought in and laid across a large rock"
+                        },
+                        {
+                            "Character": "ZA",
+                            "Line": "This is a strange creature."
+                        },
+                        {
+                            "Character": "KAL",
+                            "Line": "Is Za, son of the firemaker, afraid of an old man? When will Za make fire come from his hands?"
+                        },
+                        {
+                            "Character": "ZA",
+                            "Line": "When Orb decides it."
+                        },
+                        {
+                            "Character": "KAL",
+                            "Line": "Orb is for strong men. Orb has sent me this creature to make fire come from his fingers. I have seen it. Inside, he's full of fire. The smoke comes from his mouth."
+                        },
+                        {
+                            "Character": "ZA",
+                            "Line": "As lies come out of yours. He wears strange skins."
+                        },
+                        {
+                            "Character": "KAL",
+                            "Line": "Za is afraid. There was a strange tree. The creature was in it. Za would have run away had he seen it."
+                        },
+                        {
+                            "Character": "ZA",
+                            "Line": "Silence!"
+                        },
+                        {
+                            "Character": "KAL",
+                            "Line": "When I saw fire come from his fingers I remembered Za, son of the firemaker. And when the cold comes, you will all die if you wait for Za to make fire for you. I, Kal, am a true leader. We fought like the tiger and the bear. My strength was too much for him. He lay down to sleep. And I, Kal, carried him here to make fire for you."
+                        },
+                        {
+                            "Character": "ZA",
+                            "Line": "Why do you listen to Kal?"
+                        },
+                        {
+                            "Character": "HORG",
+                            "Line": "Za has many good skins. He has forgotten what the cold is like."
+                        },
+                        {
+                            "Character": "ZA",
+                            "Line": "Tomorrow, I kill many bears. You all have warm skins."
+                        },
+                        {
+                            "Character": "HORG",
+                            "Line": "I say tomorrow you will rub your hands together and hold them to the dry sticks and ask Orb to send you fire. And the bears will stay warm in their own skins."
+                        },
+                        {
+                            "Character": "ZA",
+                            "Line": "What I say I will do, I will do."
+                        },
+                        {
+                            "Character": "KAL",
+                            "Line": "The firemaker is dead. You all carry dry sticks with you. But tonight, I make them burn. I am leader."
+                        },
+                        {
+                            "Character": "HUR",
+                            "Line": "The creature has opened its eyes."
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "Where's my, where."
+                        },
+                        {
+                            "Character": "KAL",
+                            "Line": "Do you want fire, or do you want to die in the cold?"
+                        },
+                        {
+                            "Character": "ALL",
+                            "Line": "Fire! Fire!"
+                        },
+                        {
+                            "Character": "KAL",
+                            "Line": "When it's cold, the tiger comes to our caves again at night. Za will give you to the tiger. Za will give you to the cold. Za rubs his hands and waits for Orb to remember him. My creature can make fire come from his fingers. I have seen it. But I, Kal, brought him here. The creature is mine."
+                        },
+                        {
+                            "Character": "ZA",
+                            "Line": "He's just an old man in strange skins. Kal has been with us too long. It is time he died."
+                        },
+                        {
+                            "Character": "HORG",
+                            "Line": "I say there is truth in both of you. Za speaks truth, but fire cannot live in men. And Kal speaks the truth that we die without fire."
+                        },
+                        {
+                            "Character": "HUR",
+                            "Line": "Will my father listen to a woman? If this old man can make fire come from his fingers, let us see it now."
+                        },
+                        {
+                            "Character": "ZA",
+                            "Line": "I say what is to be done here, not old men and women."
+                        },
+                        {
+                            "Character": "KAL",
+                            "Line": "Za tries to talk like his father, the firemaker. Za does not want to see fire made. But I, Kal, am not afraid of fire. I will make my creature make fire."
+                        },
+                        {
+                            "Stage Direction": "The Doctor sits up"
+                        },
+                        {
+                            "Character": "ZA",
+                            "Line": "I will take him to the Cave of Skulls and he will tell me the secret!"
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "I can make fire for you. Let me go and I'll make all the fire you want. You don't have to be afraid of me. I'm an old man. How can an old man like me harm any of you?"
+                        },
+                        {
+                            "Character": "ZA",
+                            "Line": "What does he say?"
+                        },
+                        {
+                            "Character": "HORG",
+                            "Line": "Fire? He says he can make fire for us."
+                        },
+                        {
+                            "Character": "KAL",
+                            "Line": "He makes it for me and I give you fire. I am firemaker."
+                        },
+                        {
+                            "Character": "ZA",
+                            "Line": "He will make it for me."
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "(searching his pockets) My matches. Where are they? I must get back. Must get back to the ship."
+                        },
+                        {
+                            "Character": "KAL",
+                            "Line": "Kal's creature, he makes fire only for Kal."
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "Take me back to my ship and I will make fire for you. All the fire you want."
+                        },
+                        {
+                            "Character": "ZA",
+                            "Line": "This is more of your lies. The old man cannot make fire."
+                        },
+                        {
+                            "Character": "KAL",
+                            "Line": "There was a tree and the creature came from in it. And the fire, it came out of his fingers."
+                        },
+                        {
+                            "Character": "ZA",
+                            "Line": "You want to be strong like Za, son of the great firemaker. You all heard him say that there would be fire. There is no fire. Za does not tell you lies. He does not say, I will do this thing, and then not do it. He does not say, I will make you warm, and then leave you to the dark. He does not say, I will fight away the tiger with fire, and then let him come to you in the dark. Do you want a liar for your chief?"
+                        },
+                        {
+                            "Character": "ALL",
+                            "Line": "No!"
+                        },
+                        {
+                            "Character": "KAL",
+                            "Line": "Make fire. Make fire."
+                        },
+                        {
+                            "Character": "HUR",
+                            "Line": "You are trapped in your own lies, Kal."
+                        },
+                        {
+                            "Character": "ZA",
+                            "Line": "Great chief who is afraid of nothing. Oh great Kal, save us from the cold. Save us from the tiger."
+                        },
+                        {
+                            "Character": "KAL",
+                            "Line": "Make fire. Make fire come from your fingers as I saw you."
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "I have no matches. I cannot make fire. I cannot make fire!"
+                        },
+                        {
+                            "Character": "ZA",
+                            "Line": "Let the old man die. And we'll watch the great Kal as he kills his strong enemy."
+                        },
+                        {
+                            "Character": "KAL",
+                            "Line": "Make fire! Make fire! Or I kill you now!"
+                        },
+                        {
+                            "Character": "ZA",
+                            "Line": "Or we'll keep them and make them hunt for us. It's good to have someone to laugh at!"
+                        },
+                        {
+                            "Character": "SUSAN",
+                            "Line": "Grandfather!"
+                        },
+                        {
+                            "Stage Direction": "Susan, Ian and Barbara are quickly overpowered"
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "If he dies, there will be no fire."
+                        },
+                        {
+                            "Stage Direction": "Kal is fascinated by Barbara"
+                        },
+                        {
+                            "Character": "MOTHER",
+                            "Line": "Kill her. Kill her."
+                        },
+                        {
+                            "Character": "ZA",
+                            "Line": "Wait. You cannot kill all our enemies. When Orb gives fire back to the sky, let him look down on them. Then that is when they die, and Orb will give us fire again. Take them to the Cave of Skulls."
+                        },
+                        {
+                            "Character": "SUSAN",
+                            "Line": "No! Grandfather!"
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "All right."
+                        },
+                        {
+                            "Stage Direction": "Hur goes to Za, and her father tries to pull her back"
+                        },
+                        {
+                            "Character": "ZA",
+                            "Line": "The woman is mine."
+                        },
+                        {
+                            "Character": "HORG",
+                            "Line": "My daughter is for the leader of the tribe."
+                        },
+                        {
+                            "Character": "ZA",
+                            "Line": "Yes, the woman is mine."
+                        },
+                        {
+                            "Character": "HORG",
+                            "Line": "I do not like what has happened."
+                        },
+                        {
+                            "Character": "ZA",
+                            "Line": "Old men never like new things to happen."
+                        },
+                        {
+                            "Character": "HORG",
+                            "Line": "I was a great leader of many men."
+                        },
+                        {
+                            "Character": "ZA",
+                            "Line": "Many men, yes. They all dies when Orb left the sky and the great cold was on the ground. And Orb will give me fire again. To me. Not to you. Just as you will give me her."
+                        },
+                        {
+                            "Character": "HUR",
+                            "Line": "Za will be a strong leader of many men. If you give me to him, he will remember and always give you meat."
+                        },
+                        {
+                            "Character": "MOTHER",
+                            "Line": "There were leaders before there was fire. Fire will kill us all in the end. You should have killed the four strangers. Kill them."
+                        },
+                        {
+                            "Character": "ZA",
+                            "Line": "I have said we will wait until Orb shines again. Then they die."
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "Episode": "Episode Three - The Forest Of Fear",
+            "Scenes": [
+                {
+                    "Scene": "Cave of Skulls",
+                    "Dialogue": [
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "Oh, I'm sorry. I'm sorry, it's all my fault. I'm desperately sorry."
+                        },
+                        {
+                            "Character": "SUSAN",
+                            "Line": "Oh, don't blame yourself, Grandfather."
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "Look at those. Look at them. (the skulls)"
+                        },
+                        {
+                            "Character": "IAN",
+                            "Line": "Yes, they're all the same. They've been split wide open."
+                        },
+                        {
+                            "Stage Direction": "In the main cave, the tribe sleep. The old woman gets up and takes a flint hand axe. Meanwhile, in the cave of skulls, the group are trying to free themselves"
+                        },
+                        {
+                            "Character": "SUSAN",
+                            "Line": "I've found another piece with a rough edge."
+                        },
+                        {
+                            "Character": "IAN",
+                            "Line": "Thank you."
+                        },
+                        {
+                            "Stage Direction": "Ian is sawing at Barbara's bindings with pieces of flint"
+                        },
+                        {
+                            "Character": "IAN",
+                            "Line": "It's no good, it keeps crumbling."
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "Oh, it's hopeless, hopeless. Even if we do get free, we shall never move that stone."
+                        },
+                        {
+                            "Character": "IAN",
+                            "Line": "There's air coming in here from somewhere."
+                        },
+                        {
+                            "Character": "BARBARA",
+                            "Line": "Yes, there is. I can feel it on my face."
+                        },
+                        {
+                            "Character": "IAN",
+                            "Line": "It may only be a small opening. Don't count on it."
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "Well you obviously are."
+                        },
+                        {
+                            "Character": "IAN",
+                            "Line": "Of course I am. Any hope is better than none. Don't just lie there criticising us. Do something. Help us all to get out of here. Oh, this stone's no good."
+                        },
+                        {
+                            "Character": "BARBARA",
+                            "Line": "Well, don't give up, Ian. Please."
+                        },
+                        {
+                            "Character": "IAN",
+                            "Line": "Oh, all right."
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "No, no, don't waste time. Try those bones, they may be. They're sharper, perhaps."
+                        },
+                        {
+                            "Character": "IAN",
+                            "Line": "That's a good idea."
+                        },
+                        {
+                            "Character": "SUSAN",
+                            "Line": "Grandfather, I knew you'd think of something."
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "We must all take it in turns and try and cut his hands free."
+                        },
+                        {
+                            "Character": "IAN",
+                            "Line": "Surely we should get the girls free?"
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "No, no, we've got to free you first. You're the strongest, and you may have to defend us."
+                        },
+                        {
+                            "Character": "IAN",
+                            "Line": "All right."
+                        },
+                        {
+                            "Stage Direction": "later"
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "Susan, you have a go. My arms are tired."
+                        },
+                        {
+                            "Character": "SUSAN",
+                            "Line": "All right."
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "And don't think of failing."
+                        },
+                        {
+                            "Character": "BARBARA",
+                            "Line": "What?"
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "Well, try and remember, if you can, how you and the others found your way here. Concentrate on that please."
+                        },
+                        {
+                            "Character": "BARBARA",
+                            "Line": "Yes, yes, I'll try. You're trying to help me."
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "Fear makes companions of all of us. That's right."
+                        },
+                        {
+                            "Character": "BARBARA",
+                            "Line": "I never thought once you were afraid."
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "Fear is with all of us, and always will be. Just like that other sensation that lives with it."
+                        },
+                        {
+                            "Character": "BARBARA",
+                            "Line": "What's that?"
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "Your companion referred to it. Hope. Hope, that's right."
+                        },
+                        {
+                            "Stage Direction": "In the main cave, Hur wakes Za and mimes that the old woman has gone with his weapon. They go after her with an axe"
+                        },
+                        {
+                            "Stage Direction": "The old woman breaks through some brush into the cave of skulls. Susan screams"
+                        },
+                        {
+                            "Character": "MOTHER",
+                            "Line": "You will not make fire."
+                        }
+                    ]
+                },
+                {
+                    "Scene": "Outside the cave",
+                    "Dialogue": [
+                        {
+                            "Character": "ZA",
+                            "Line": "Now tell me."
+                        },
+                        {
+                            "Character": "HUR",
+                            "Line": "I saw the old woman take your knife."
+                        },
+                        {
+                            "Character": "ZA",
+                            "Line": "Why did you let her? She's old, you could have held her."
+                        },
+                        {
+                            "Character": "HUR",
+                            "Line": "Why did she take it?"
+                        },
+                        {
+                            "Character": "ZA",
+                            "Line": "She has gone into the forest."
+                        },
+                        {
+                            "Character": "HUR",
+                            "Line": "No. She's going to kill the strangers."
+                        },
+                        {
+                            "Character": "ZA",
+                            "Line": "Did she say this?"
+                        },
+                        {
+                            "Character": "HUR",
+                            "Line": "No, but she took your knife. She is afraid of fire."
+                        },
+                        {
+                            "Character": "ZA",
+                            "Line": "You should have stopped her."
+                        },
+                        {
+                            "Character": "HUR",
+                            "Line": "Kal was in the cave. Leaders are awake when others sleep. The strange tribe will not be able to show you how to make fire if the old woman kills them."
+                        },
+                        {
+                            "Character": "ZA",
+                            "Line": "If I stop her from killing them, they will give fire to me. And not to Kal. The woman could not have got into the cave. The great stone is still there. Why do you tell me this?"
+                        },
+                        {
+                            "Stage Direction": "He pushes Hur over and threatens her with his axe"
+                        },
+                        {
+                            "Character": "HUR",
+                            "Line": "No! No!"
+                        },
+                        {
+                            "Stage Direction": "Then they hear voices"
+                        },
+                        {
+                            "Character": "ZA",
+                            "Line": "The old woman is talking to them."
+                        }
+                    ]
+                },
+                {
+                    "Scene": "Cave of Skulls",
+                    "Dialogue": [
+                        {
+                            "Character": "MOTHER",
+                            "Line": "I will set you free if you will go away and not make fire. Fire will bring trouble and death to the tribe."
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "There will be no fire."
+                        }
+                    ]
+                },
+                {
+                    "Scene": "Outside the cave",
+                    "Dialogue": [
+                        {
+                            "Stage Direction": "Za and Hur strain at the big stone"
+                        },
+                        {
+                            "Character": "HUR",
+                            "Line": "No, we cannot move the great stone."
+                        },
+                        {
+                            "Character": "ZA",
+                            "Line": "The old woman is talking to them. I will move it."
+                        }
+                    ]
+                },
+                {
+                    "Scene": "Cave of Skulls",
+                    "Dialogue": [
+                        {
+                            "Stage Direction": "The old woman has freed our travellers"
+                        },
+                        {
+                            "Character": "MOTHER",
+                            "Line": "Hurry, hurry. You must go across the tuft and into the trees."
+                        },
+                        {
+                            "Character": "IAN",
+                            "Line": "Yes."
+                        },
+                        {
+                            "Stage Direction": "They get away, but the old woman is too slow. Za grabs her from the opening"
+                        },
+                        {
+                            "Character": "HUR",
+                            "Line": "She set them free!"
+                        },
+                        {
+                            "Character": "MOTHER",
+                            "Line": "They would have made fire. They would have made fire! No."
+                        },
+                        {
+                            "Stage Direction": "The old woman tries to stop Za from going after them. He knocks her down"
+                        },
+                        {
+                            "Character": "ZA",
+                            "Line": "They have gone into the night."
+                        },
+                        {
+                            "Character": "HUR",
+                            "Line": "They have taken fire with them."
+                        },
+                        {
+                            "Character": "ZA",
+                            "Line": "The beasts will kill them. They will kill us if we follow."
+                        },
+                        {
+                            "Character": "HUR",
+                            "Line": "Now, you are leader. You are as strong as the beasts. You will be stronger still when you know how fire is made. Stronger than Kal."
+                        }
+                    ]
+                },
+                {
+                    "Scene": "Forest",
+                    "Dialogue": [
+                        {
+                            "Stage Direction": "Barbara leads the way, with Susan, Ian then the Doctor trying to keep up"
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "Stop. Just a minute, let me get my"
+                        },
+                        {
+                            "Character": "IAN",
+                            "Line": "We can't stop here."
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "Just a moment."
+                        },
+                        {
+                            "Character": "IAN",
+                            "Line": "Look, we've got to go further on."
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "I know. I know that. But I must get. Breathe. I must breathe."
+                        },
+                        {
+                            "Character": "IAN",
+                            "Line": "Try. Try. I shall have to carry you."
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "There's no need for that. Don't be so childish. I'm not senile. Just let me get my breath for a moment."
+                        },
+                        {
+                            "Character": "SUSAN",
+                            "Line": "Oh, Grandfather, come on."
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "Yes. I'm not so young, you know."
+                        },
+                        {
+                            "Character": "BARBARA",
+                            "Line": "Are you sure this is the right way?"
+                        },
+                        {
+                            "Character": "IAN",
+                            "Line": "Yes, I think so."
+                        },
+                        {
+                            "Character": "BARBARA",
+                            "Line": "I can't remember. I simply can't remember."
+                        },
+                        {
+                            "Character": "IAN",
+                            "Line": "We're free, Barbara. Think about that. Free."
+                        },
+                        {
+                            "Character": "BARBARA",
+                            "Line": "Yes. Yes."
+                        },
+                        {
+                            "Stage Direction": "But the sounds of nocturnal hunters and prey alarm them. Further on, Susan is helping the Doctor"
+                        },
+                        {
+                            "Character": "SUSAN",
+                            "Line": "I'm sure I remember this place. But we didn't come round it, we went across it."
+                        },
+                        {
+                            "Character": "BARBARA",
+                            "Line": "Yes, there was a sort of trail."
+                        },
+                        {
+                            "Character": "IAN",
+                            "Line": "If that's true, we must be quite near the ship. How are you feeling?"
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "I'm all right. Don't keep on looking upon me as the weakest link of the party."
+                        },
+                        {
+                            "Stage Direction": "Barbara sees something scary"
+                        },
+                        {
+                            "Character": "IAN",
+                            "Line": "What's the matter?"
+                        },
+                        {
+                            "Character": "BARBARA",
+                            "Line": "I don't know. I saw something. Over there in the bushes."
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "What nonsense."
+                        },
+                        {
+                            "Character": "BARBARA",
+                            "Line": "The bushes moved. I saw them. I saw them! Oh, we're never going to get out of this awful place! Never! Never! Never!"
+                        },
+                        {
+                            "Character": "IAN",
+                            "Line": "Barbara."
+                        },
+                        {
+                            "Character": "SUSAN",
+                            "Line": "What do you think it could have been, Grandfather?"
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "Oh, sheer nonsense, child. Imagination."
+                        },
+                        {
+                            "Character": "BARBARA",
+                            "Line": "We'll die in this place."
+                        },
+                        {
+                            "Character": "IAN",
+                            "Line": "Barbara, no we won't. We're going to get back to the ship and then we'll be safe."
+                        },
+                        {
+                            "Character": "BARBARA",
+                            "Line": "Oh, Ian, what's happening to us?"
+                        },
+                        {
+                            "Character": "IAN",
+                            "Line": "Look, Barbara, we got out of the cave, didn't we?"
+                        },
+                        {
+                            "Character": "SUSAN",
+                            "Line": "I'm so cold."
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "I'm hot with all this exertion."
+                        },
+                        {
+                            "Character": "IAN",
+                            "Line": "We'll rest for a couple of minutes."
+                        },
+                        {
+                            "Character": "SUSAN",
+                            "Line": "Oh, good. Is there any chance of them following us?"
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "I expect so."
+                        },
+                        {
+                            "Character": "IAN",
+                            "Line": "Yes, that's why I don't want to stop here too long."
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "Do you think I want to?"
+                        },
+                        {
+                            "Character": "IAN",
+                            "Line": "No. We'll change the order. You and Susan go in front, Barbara and I'll bring up the rear. Susan seems to remember the way better than any of us."
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "You seem to have elected yourself leader of this little party."
+                        },
+                        {
+                            "Character": "IAN",
+                            "Line": "There isn't time to vote on it."
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "Just so long as you understand I won't follow your orders blindly."
+                        },
+                        {
+                            "Character": "IAN",
+                            "Line": "If there were only two of us, you could find your own way back to the ship."
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "Aren't you a tiresome young man!"
+                        },
+                        {
+                            "Character": "IAN",
+                            "Line": "And you're a stubborn old man. But you will lead, the girls in between, and I'll bring up the rear. Because that's the safest way. Barbara was probably right. I thought we heard something when we stopped back there."
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "Oh, sheer imagination."
+                        },
+                        {
+                            "Character": "IAN",
+                            "Line": "Why are you so confident about it?"
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "I won't allow myself to be frightened out of my wits by mere shadows, that's all."
+                        },
+                        {
+                            "Character": "IAN",
+                            "Line": "All right."
+                        },
+                        {
+                            "Stage Direction": "Hur and Za are tracking them"
+                        },
+                        {
+                            "Character": "HUR",
+                            "Line": "Look, there is a branch broken."
+                        },
+                        {
+                            "Character": "ZA",
+                            "Line": "They have strange feet."
+                        },
+                        {
+                            "Character": "HUR",
+                            "Line": "They wear skins on their feet."
+                        },
+                        {
+                            "Character": "ZA",
+                            "Line": "There are marks here."
+                        },
+                        {
+                            "Character": "HUR",
+                            "Line": "They've gone this way."
+                        },
+                        {
+                            "Stage Direction": "Animals call"
+                        },
+                        {
+                            "Character": "ZA",
+                            "Line": "It was wrong to do this. We should not have followed them."
+                        },
+                        {
+                            "Character": "HUR",
+                            "Line": "We cannot turn back now."
+                        },
+                        {
+                            "Stage Direction": "Further on, at the resting place"
+                        },
+                        {
+                            "Character": "IAN",
+                            "Line": "I think we'd better get going. Doctor, will you lead?"
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "Yes, yes, yes, yes."
+                        },
+                        {
+                            "Character": "IAN",
+                            "Line": "Come on, Barbara."
+                        },
+                        {
+                            "Stage Direction": "But almost immediately, she falls over a dead boar, and screams. Za hears it."
+                        },
+                        {
+                            "Character": "IAN [OC]",
+                            "Line": "Barbara, Barbara."
+                        },
+                        {
+                            "Character": "ZA",
+                            "Line": "Down here. That was one of the women."
+                        },
+                        {
+                            "Character": "SUSAN",
+                            "Line": "A dead animal."
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "It must have just been killed. By a larger animal, too."
+                        },
+                        {
+                            "Character": "IAN",
+                            "Line": "Shush. Shush. That must be them. They followed us. Quick, quick. Over there."
+                        },
+                        {
+                            "Stage Direction": "The four hide, and Hur and Za enter"
+                        },
+                        {
+                            "Character": "IAN",
+                            "Line": "Keep down, and not a sound."
+                        },
+                        {
+                            "Character": "ZA",
+                            "Line": "Wait. There is danger. I will go."
+                        },
+                        {
+                            "Stage Direction": "We don't actually see it, of course, but Za gets attacked by whatever killed the boar"
+                        },
+                        {
+                            "Character": "IAN",
+                            "Line": "Quick, now's our chance. Let's get away. Run!"
+                        },
+                        {
+                            "Character": "BARBARA",
+                            "Line": "Look at them. We can't just leave them! I don't care what they've done."
+                        },
+                        {
+                            "Character": "IAN",
+                            "Line": "Barbara. Barbara, come on."
+                        },
+                        {
+                            "Character": "BARBARA",
+                            "Line": "I think he's dead. There isn't any danger."
+                        },
+                        {
+                            "Character": "IAN",
+                            "Line": "Barbara, for heaven's sake."
+                        },
+                        {
+                            "Character": "BARBARA",
+                            "Line": "No."
+                        },
+                        {
+                            "Character": "SUSAN",
+                            "Line": "I'm going too."
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "Susan! You stay here with me."
+                        },
+                        {
+                            "Character": "SUSAN",
+                            "Line": "No, Grandfather. We can't leave them."
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "Silence! We're going back to the ship."
+                        },
+                        {
+                            "Character": "SUSAN",
+                            "Line": "No!"
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "What are you doing? They must be out of their minds."
+                        },
+                        {
+                            "Stage Direction": "Za is badly wounded, and Hur is crying"
+                        },
+                        {
+                            "Character": "HUR",
+                            "Line": "No, keep away."
+                        },
+                        {
+                            "Character": "IAN",
+                            "Line": "Let me look at him."
+                        },
+                        {
+                            "Character": "HUR",
+                            "Line": "No."
+                        },
+                        {
+                            "Character": "IAN",
+                            "Line": "I am your friend. You understand? Friend. I want to help him."
+                        },
+                        {
+                            "Character": "HUR",
+                            "Line": "Friend?"
+                        },
+                        {
+                            "Character": "IAN",
+                            "Line": "I want water."
+                        },
+                        {
+                            "Character": "HUR",
+                            "Line": "Water."
+                        },
+                        {
+                            "Character": "IAN",
+                            "Line": "Go and fetch some water for his wounds."
+                        },
+                        {
+                            "Character": "HUR",
+                            "Line": "Water is there."
+                        },
+                        {
+                            "Character": "BARBARA",
+                            "Line": "Please, show me. Give me your handkerchief."
+                        },
+                        {
+                            "Character": "IAN",
+                            "Line": "Here you are."
+                        },
+                        {
+                            "Character": "SUSAN",
+                            "Line": "Is he all right?"
+                        },
+                        {
+                            "Character": "IAN",
+                            "Line": "I think so. He must have buried his axe head in the animal. Thank you."
+                        },
+                        {
+                            "Stage Direction": "Barbara and Ian bathe his wounds"
+                        },
+                        {
+                            "Character": "HUR",
+                            "Line": "Water comes out of the skin!"
+                        },
+                        {
+                            "Character": "IAN",
+                            "Line": "Yes. I think most of this is the animal's blood."
+                        },
+                        {
+                            "Character": "SUSAN",
+                            "Line": "Good."
+                        },
+                        {
+                            "Character": "BARBARA",
+                            "Line": "There's a scar on the side of his head."
+                        },
+                        {
+                            "Character": "IAN",
+                            "Line": "Well, we've lost our chance of getting away. Your flat must be littered with stray cats and dogs."
+                        },
+                        {
+                            "Character": "BARBARA",
+                            "Line": "These are human beings, Ian."
+                        },
+                        {
+                            "Character": "IAN",
+                            "Line": "Yes, I know."
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "What exactly do you think you're doing?"
+                        },
+                        {
+                            "Character": "IAN",
+                            "Line": "Have you got any antiseptic in the ship?"
+                        },
+                        {
+                            "Character": "SUSAN",
+                            "Line": "Yes, lots."
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "One minute ago we were trying desperately to get away from these savages."
+                        },
+                        {
+                            "Character": "IAN",
+                            "Line": "All right, now we're helping them. You're a doctor, do something."
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "I'm not a doctor of medicine."
+                        },
+                        {
+                            "Character": "SUSAN",
+                            "Line": "Grandfather, we can make friends with them."
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "Oh, don't be ridiculous, child."
+                        },
+                        {
+                            "Character": "BARBARA",
+                            "Line": "Why? You treat everybody and everything as something less important than yourself."
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "You're trying to say that everything you do is reasonable, and everything I do is inhuman. Well, I'm afraid your judgement's at fault, Miss Wright, not mine. Haven't you realised if these two people can follow us, any of these people can follow us? The whole tribe might descend upon us at any moment."
+                        },
+                        {
+                            "Character": "HUR",
+                            "Line": "The tribe is asleep."
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "And what about the old woman who cut our bonds? You understand?"
+                        },
+                        {
+                            "Character": "IAN",
+                            "Line": "He's right. We're too exposed here. We'll make a stretcher and carry him."
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "You're not going to take him back to the ship?"
+                        },
+                        {
+                            "Character": "IAN",
+                            "Line": "Take your coat off, Barbara. Susan, try and find me two poles. Long ones, fairly straight."
+                        },
+                        {
+                            "Character": "BARBARA",
+                            "Line": "The old woman won't give us away. She helped."
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "Do you think so? These people have logic and reason, have they? Can't you see their minds change as rapidly as night and day? She's probably telling the whole tribe at this very moment."
+                        }
+                    ]
+                },
+                {
+                    "Scene": "Cave of Skulls",
+                    "Dialogue": [
+                        {
+                            "Character": "KAL",
+                            "Line": "The creatures. Where? Where?"
+                        },
+                        {
+                            "Character": "MOTHER",
+                            "Line": "Gone."
+                        },
+                        {
+                            "Character": "KAL",
+                            "Line": "The great stone. They could not move it."
+                        },
+                        {
+                            "Character": "MOTHER",
+                            "Line": "Za moved it."
+                        },
+                        {
+                            "Character": "KAL",
+                            "Line": "Za has gone with them?"
+                        },
+                        {
+                            "Character": "MOTHER",
+                            "Line": "Za and Hur went after them."
+                        },
+                        {
+                            "Character": "KAL",
+                            "Line": "There were skins around their hands and their feet. They could not move. Za helped them to get free? They're gone with Za to show him fire?"
+                        },
+                        {
+                            "Character": "MOTHER",
+                            "Line": "They won't make fire. There won't be fire any more."
+                        },
+                        {
+                            "Character": "KAL",
+                            "Line": "Old woman, you helped them."
+                        }
+                    ]
+                },
+                {
+                    "Scene": "Forest",
+                    "Dialogue": [
+                        {
+                            "Character": "IAN",
+                            "Line": "It's not going to work like this. What can we do?"
+                        },
+                        {
+                            "Character": "HUR",
+                            "Line": "No! He's mine."
+                        },
+                        {
+                            "Character": "SUSAN",
+                            "Line": "I was only trying to help."
+                        },
+                        {
+                            "Character": "IAN",
+                            "Line": "She doesn't understand, Susan. She's jealous of you."
+                        },
+                        {
+                            "Character": "HUR",
+                            "Line": "I don't understand what you are doing. You are like a mother with a child. Why do you not kill?"
+                        },
+                        {
+                            "Character": "IAN",
+                            "Line": "How can we explain to her? She doesn't understand kindness, friendship."
+                        },
+                        {
+                            "Character": "BARBARA",
+                            "Line": "We will make him well again. We will teach you how to make fire. In return, you show us the way back to our cave."
+                        },
+                        {
+                            "Character": "ZA",
+                            "Line": "Listen to them. They do not kill."
+                        },
+                        {
+                            "Character": "IAN",
+                            "Line": "Come on. Let's get on with this stretcher. Let's try the sleeves inside. That's it."
+                        },
+                        {
+                            "Character": "ZA",
+                            "Line": "Water."
+                        },
+                        {
+                            "Character": "HUR",
+                            "Line": "Water."
+                        },
+                        {
+                            "Character": "IAN",
+                            "Line": "How about giving us a hand, Doctor?"
+                        },
+                        {
+                            "Character": "SUSAN",
+                            "Line": "He's always like this if he doesn't get his own way."
+                        },
+                        {
+                            "Character": "BARBARA",
+                            "Line": "The old woman won't give us away. And now that we've got these two on our side, we should get back to the ship."
+                        },
+                        {
+                            "Character": "SUSAN",
+                            "Line": "Yes."
+                        },
+                        {
+                            "Stage Direction": "The Doctor picks up a stone, and Ian grabs his arm"
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "Get your hand off me."
+                        },
+                        {
+                            "Character": "IAN",
+                            "Line": "What are you doing?"
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "Well, I, I was going to get him to draw our way back to the Tardis."
+                        },
+                        {
+                            "Character": "IAN",
+                            "Line": "We've been too long as it is. Is the stretcher ready?"
+                        },
+                        {
+                            "Character": "BARBARA",
+                            "Line": "Yes."
+                        },
+                        {
+                            "Character": "IAN",
+                            "Line": "Right, you take one end of it."
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "You don't expect me to carry him, do you?"
+                        },
+                        {
+                            "Character": "IAN",
+                            "Line": "Do you want the women to do the job for you?"
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "Oh, very well."
+                        },
+                        {
+                            "Character": "IAN",
+                            "Line": "Right, now move him over very carefully. Now, back again, gently."
+                        },
+                        {
+                            "Stage Direction": "Za ends up on the stretcher, groaning"
+                        },
+                        {
+                            "Character": "IAN",
+                            "Line": "Good. Right, now, Susan, you get in front with her."
+                        }
+                    ]
+                },
+                {
+                    "Scene": "Cave",
+                    "Dialogue": [
+                        {
+                            "Character": "KAL",
+                            "Line": "They have gone. Za and Hur have gone with them and we must go after them."
+                        },
+                        {
+                            "Character": "HORG",
+                            "Line": "Hur would not help them to get away."
+                        },
+                        {
+                            "Character": "KAL",
+                            "Line": "She has gone with them."
+                        },
+                        {
+                            "Character": "HORG",
+                            "Line": "The old woman sleeps in the cave too, and she has gone."
+                        },
+                        {
+                            "Character": "KAL",
+                            "Line": "The old woman is in the Cave of Skulls."
+                        },
+                        {
+                            "Character": "HORG",
+                            "Line": "Hur would not go with them!"
+                        },
+                        {
+                            "Character": "KAL",
+                            "Line": "Ask the old woman. She will tell what is done."
+                        }
+                    ]
+                },
+                {
+                    "Scene": "Cave of Skulls",
+                    "Dialogue": [
+                        {
+                            "Character": "KAL",
+                            "Line": "She will tell."
+                        },
+                        {
+                            "Stage Direction": "But the old woman is dead"
+                        },
+                        {
+                            "Character": "KAL",
+                            "Line": "My eyes tell me what has happened. As they do when I sleep and I see things. Za and Hur came to free them, and find a way to make fire. The old woman saw them. Za killed old woman."
+                        },
+                        {
+                            "Character": "HORG",
+                            "Line": "The old woman is dead. It must have been as your eyes said it was."
+                        },
+                        {
+                            "Character": "KAL",
+                            "Line": "Za has gone with them, taking them to their cave. Za takes away fire. Now I, Kal, lead. Go!"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "Episode": "Episode Four - The Firemaker",
+            "Scenes": [
+                {
+                    "Scene": "Forest",
+                    "Dialogue": [
+                        {
+                            "Character": "IAN",
+                            "Line": "Back. Get back."
+                        }
+                    ]
+                },
+                {
+                    "Scene": "Cave",
+                    "Dialogue": [
+                        {
+                            "Character": "HORG",
+                            "Line": "They are coming."
+                        },
+                        {
+                            "Stage Direction": "The stretcher is put down and the travellers dragged away"
+                        },
+                        {
+                            "Character": "KAL",
+                            "Line": "Za and the woman went with them. I, Kal, stop them."
+                        },
+                        {
+                            "Character": "HUR",
+                            "Line": "They saved Za from death near the stream."
+                        },
+                        {
+                            "Character": "KAL",
+                            "Line": "They set them free from the Cave of Skulls and went with them."
+                        },
+                        {
+                            "Character": "HUR",
+                            "Line": "The old woman cut them free."
+                        },
+                        {
+                            "Character": "KAL",
+                            "Line": "Za is so weak a woman speaks for him."
+                        },
+                        {
+                            "Character": "HUR",
+                            "Line": "It was the old woman. She showed them a new way out of the Cave of Skulls."
+                        },
+                        {
+                            "Character": "KAL",
+                            "Line": "The old woman does not speak. She does not say she did this or did that. The old woman is dead. Za killed the old woman."
+                        },
+                        {
+                            "Character": "HUR",
+                            "Line": "No!"
+                        },
+                        {
+                            "Character": "KAL",
+                            "Line": "Za killed the old woman with his knife."
+                        },
+                        {
+                            "Character": "HUR",
+                            "Line": "No."
+                        },
+                        {
+                            "Character": "KAL",
+                            "Line": "Here. Here is the knife he killed her with."
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "This knife has no blood on it. I said, this knife has no blood on it."
+                        },
+                        {
+                            "Character": "KAL",
+                            "Line": "It is a bad knife. It does not show the things it does."
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "It is a finer knife than yours."
+                        },
+                        {
+                            "Character": "KAL",
+                            "Line": "I, Kal, say it is a bad knife."
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "This knife can cut and stab. I have never seen a better knife."
+                        },
+                        {
+                            "Character": "KAL",
+                            "Line": "I will show you one."
+                        },
+                        {
+                            "Stage Direction": "Kal pulls out his flint knife"
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "This knife shows what it has done. There is blood on it. (to Za) Who killed the old woman?"
+                        },
+                        {
+                            "Character": "ZA",
+                            "Line": "I did not kill her."
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "(to Kal) You killed the old woman."
+                        },
+                        {
+                            "Character": "KAL",
+                            "Line": "Yes! She set them free. She set them free. She did this. I, Kal, killed her."
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "Is this your strong leader? One who kills your old women? He is a bad leader. He will kill you all. Yes, all. (to Ian) Follow my example."
+                        },
+                        {
+                            "Stage Direction": "The Doctor picks up some stones and throws them at Kal"
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "Drive him out. Out."
+                        },
+                        {
+                            "Character": "IAN",
+                            "Line": "Yes, drive him out. He killed the old woman."
+                        },
+                        {
+                            "Stage Direction": "The tribe start pelting him with stones"
+                        },
+                        {
+                            "Character": "TRIBE",
+                            "Line": "Drive him out."
+                        },
+                        {
+                            "Stage Direction": "Kal leaves, and Za is on his feet again"
+                        },
+                        {
+                            "Character": "IAN",
+                            "Line": "Remember, Kal is not stronger than the whole tribe."
+                        },
+                        {
+                            "Character": "ZA",
+                            "Line": "Kal is no longer one of this tribe. We will watch for him. We will all fight Kal if he comes back. We will watch for him. Take them to the Cave of Skulls."
+                        },
+                        {
+                            "Character": "IAN",
+                            "Line": "Take us back to the desert and we will make fire for you."
+                        },
+                        {
+                            "Character": "ZA",
+                            "Line": "The great stone will close one place, and you will stand by another I will show you. Take them."
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "Don't struggle."
+                        },
+                        {
+                            "Character": "ZA",
+                            "Line": "They are inside the cave. You see them come out, kill them."
+                        }
+                    ]
+                },
+                {
+                    "Scene": "Cave of Skulls",
+                    "Dialogue": [
+                        {
+                            "Stage Direction": "They are not tied up this time"
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "This place is evil."
+                        }
+                    ]
+                },
+                {
+                    "Scene": "Cave",
+                    "Dialogue": [
+                        {
+                            "Character": "ZA",
+                            "Line": "Tell me what happened after I fought the beast in the forest."
+                        },
+                        {
+                            "Character": "HUR",
+                            "Line": "You were stronger than the beast. It took away your axe in its head. You lay on the earth. I believed you were dead."
+                        },
+                        {
+                            "Character": "ZA",
+                            "Line": "Tell me what they did."
+                        },
+                        {
+                            "Character": "HUR",
+                            "Line": "The young man of their tribe came towards you, but he did not kill. He told me his name."
+                        },
+                        {
+                            "Character": "ZA",
+                            "Line": "Name?"
+                        },
+                        {
+                            "Character": "HUR",
+                            "Line": "His name is Friend."
+                        },
+                        {
+                            "Character": "ZA",
+                            "Line": "They come from the other side of the mountains."
+                        },
+                        {
+                            "Character": "HUR",
+                            "Line": "Nothing lives there."
+                        },
+                        {
+                            "Character": "ZA",
+                            "Line": "There are other tribes there. This new tribe must come from there. Tell me more of what happened."
+                        },
+                        {
+                            "Character": "HUR",
+                            "Line": "I did not understand them. Their hands moved slowly and their faces were not fierce. It was like a mother guarding her baby."
+                        },
+                        {
+                            "Character": "ZA",
+                            "Line": "They are a new tribe. Not like us. Not like Kal. The young one, whose name is Friend, spoke to me."
+                        },
+                        {
+                            "Character": "HUR",
+                            "Line": "Do you remember it?"
+                        },
+                        {
+                            "Character": "ZA",
+                            "Line": "He said, Kal is not stronger than the whole tribe."
+                        },
+                        {
+                            "Character": "HUR",
+                            "Line": "I do not understand."
+                        },
+                        {
+                            "Character": "ZA",
+                            "Line": "The whole tribe drove Kal away with the stones. The whole tribe can collect more fruit than one. The whole tribe can kill a beast where one of the tribe would die."
+                        },
+                        {
+                            "Character": "HUR",
+                            "Line": "Do you think they come from Orb?"
+                        },
+                        {
+                            "Character": "ZA",
+                            "Line": "No. They are a tribe who know how fire is made, but they do not want to tell us."
+                        },
+                        {
+                            "Character": "HUR",
+                            "Line": "Then you will not kill them?"
+                        },
+                        {
+                            "Character": "ZA",
+                            "Line": "Horg says the leader must know how fire is made. I do not want to be driven into the forest like Kal. I must make fire, or they must die, as the old men say. I will speak with him. I must hear more things to remember. The leader would have things to remember."
+                        }
+                    ]
+                },
+                {
+                    "Scene": "Cave of Skulls",
+                    "Dialogue": [
+                        {
+                            "Stage Direction": "Ian is putting together the ingredients of a camp fire. Susan finds a stone"
+                        },
+                        {
+                            "Character": "SUSAN",
+                            "Line": "I think this is what you want, Mister Chesterton."
+                        },
+                        {
+                            "Character": "IAN",
+                            "Line": "Thank you."
+                        },
+                        {
+                            "Character": "BARBARA",
+                            "Line": "Here are some leaves, and some dead grass."
+                        },
+                        {
+                            "Character": "IAN",
+                            "Line": "Yes, well spread them around the hole. Don't put them inside. I hope this is going to work. Now, spread them around a bit more. Yes, that's it."
+                        },
+                        {
+                            "Stage Direction": "He's got twine around one twig, to twist another twig between two flat stones for friction"
+                        }
+                    ]
+                },
+                {
+                    "Scene": "Outside the second exit",
+                    "Dialogue": [
+                        {
+                            "Character": "ZA",
+                            "Line": "(to guard) I will speak with them. You wait here."
+                        },
+                        {
+                            "Stage Direction": "Kal is watching, hidden"
+                        }
+                    ]
+                },
+                {
+                    "Scene": "Cave of Skulls",
+                    "Dialogue": [
+                        {
+                            "Character": "SUSAN",
+                            "Line": "I can smell something."
+                        },
+                        {
+                            "Character": "BARBARA",
+                            "Line": "Yes, so can I."
+                        },
+                        {
+                            "Character": "SUSAN",
+                            "Line": "It's burning! It's burning!"
+                        },
+                        {
+                            "Character": "IAN",
+                            "Line": "It's a long way off yet."
+                        },
+                        {
+                            "Character": "ZA",
+                            "Line": "What is this?"
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "We are making fire."
+                        },
+                        {
+                            "Character": "ZA",
+                            "Line": "You are called Friend?"
+                        },
+                        {
+                            "Character": "IAN",
+                            "Line": "Yes."
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "Don't stop."
+                        },
+                        {
+                            "Character": "ZA",
+                            "Line": "Hur said you were called Friend. I am called Za. You are the leader of your tribe?"
+                        },
+                        {
+                            "Character": "IAN",
+                            "Line": "No. He is our leader."
+                        },
+                        {
+                            "Character": "SUSAN",
+                            "Line": "Are you going to set us free?"
+                        },
+                        {
+                            "Character": "ZA",
+                            "Line": "The tribe say you are from Orb and when you are returned to him on the stone of death, we will have fire again."
+                        },
+                        {
+                            "Character": "BARBARA",
+                            "Line": "But that's not true."
+                        },
+                        {
+                            "Character": "ZA",
+                            "Line": "I think you are from the other side of the mountains. If you show me how to make fire, I will take you back to the foot of the mountains. If you do not show me, I cannot stop you dying on the old stone."
+                        },
+                        {
+                            "Character": "IAN",
+                            "Line": "Put some more leaves and grass round it. I think it's beginning to work."
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "Do you understand? We are making fire for you."
+                        },
+                        {
+                            "Character": "ZA",
+                            "Line": "I am watching."
+                        },
+                        {
+                            "Character": "IAN",
+                            "Line": "The whole tribe should be watching. Everyone should know how to make fire."
+                        },
+                        {
+                            "Character": "ZA",
+                            "Line": "Everyone cannot be leader."
+                        },
+                        {
+                            "Character": "IAN",
+                            "Line": "No, that's perfectly true. But in our tribe, the firemaker is the least important man."
+                        },
+                        {
+                            "Character": "ZA",
+                            "Line": "Ha! I do not believe this."
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "He is the least important because we can all make fire."
+                        },
+                        {
+                            "Character": "SUSAN",
+                            "Line": "I hope he doesn't make Grandfather prove that."
+                        },
+                        {
+                            "Character": "IAN",
+                            "Line": "Look, I think it's beginning to work. Susan, Barbara, blow gently. That's it!"
+                        },
+                        {
+                            "Character": "SUSAN",
+                            "Line": "We've done it."
+                        },
+                        {
+                            "Character": "IAN",
+                            "Line": "Yes."
+                        },
+                        {
+                            "Character": "ZA",
+                            "Line": "Fire. Fire."
+                        }
+                    ]
+                },
+                {
+                    "Scene": "Cave",
+                    "Dialogue": [
+                        {
+                            "Character": "HORG",
+                            "Line": "Orb strikes the old stone and Za does not bring them out. We have no meat, and no fruit from the trees, and no roots. Za is no leader."
+                        },
+                        {
+                            "Character": "HUR",
+                            "Line": "Za would kill you if he could hear you. He's talking now with them in the Cave of Skulls. You should lie on the old stone until your blood runs into the earth."
+                        },
+                        {
+                            "Character": "HORG",
+                            "Line": "Za is letting them go away, just as the old woman set them free."
+                        },
+                        {
+                            "Character": "HUR",
+                            "Line": "Za told one of them to watch and guard them until he came out of the Cave of Skulls."
+                        }
+                    ]
+                },
+                {
+                    "Scene": "Cave of Skulls",
+                    "Dialogue": [
+                        {
+                            "Stage Direction": "Kal kills the guard and goes in. He sees the fire, and starts swinging at Za with his axe. Za uses a thick branch to defend himself and breaks Kal's axe with it. Finally, Za gets the upper hand and ends it by smashing Kal's head with a big stone."
+                        }
+                    ]
+                },
+                {
+                    "Scene": "Cave",
+                    "Dialogue": [
+                        {
+                            "Character": "HORG",
+                            "Line": "Orb is above us and there is no fire. Bring them out from the Cave of Skulls and Za as well. Come on."
+                        }
+                    ]
+                },
+                {
+                    "Scene": "Cave of Skulls",
+                    "Dialogue": [
+                        {
+                            "Stage Direction": "Ian lights a branch from the fire"
+                        },
+                        {
+                            "Character": "IAN",
+                            "Line": "Take this, and show it to your tribe."
+                        },
+                        {
+                            "Character": "ZA",
+                            "Line": "You, stay here."
+                        },
+                        {
+                            "Character": "IAN",
+                            "Line": "We will come with you."
+                        },
+                        {
+                            "Character": "ZA",
+                            "Line": "No, you'll stay here."
+                        },
+                        {
+                            "Character": "IAN",
+                            "Line": "I will come with you."
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "Give him a chance. Give him a chance. Let him show the tribe fire, establish himself as leader, then he'll let us go."
+                        },
+                        {
+                            "Character": "IAN",
+                            "Line": "But we ought to go with him now."
+                        }
+                    ]
+                },
+                {
+                    "Scene": "Cave",
+                    "Dialogue": [
+                        {
+                            "Character": "ZA",
+                            "Line": "Fire."
+                        },
+                        {
+                            "Character": "TRIBE",
+                            "Line": "Fire."
+                        },
+                        {
+                            "Character": "ZA",
+                            "Line": "Kal is dead. I give you fire. I am leader. We will give food and water to the new tribe in the Cave of Skulls."
+                        },
+                        {
+                            "Character": "HORG",
+                            "Line": "There is no meat."
+                        },
+                        {
+                            "Character": "ZA",
+                            "Line": "I will go into the forest and get meat."
+                        },
+                        {
+                            "Character": "HORG",
+                            "Line": "Yes. I remember how the meat and fire joined together."
+                        },
+                        {
+                            "Character": "ZA",
+                            "Line": "Good. Watch the new tribe. They must be here when I return."
+                        }
+                    ]
+                },
+                {
+                    "Scene": "Cave of Skulls",
+                    "Dialogue": [
+                        {
+                            "Character": "IAN",
+                            "Line": "It didn't work. They're going to keep us here."
+                        },
+                        {
+                            "Stage Direction": "Hur enters with some food"
+                        },
+                        {
+                            "Character": "IAN",
+                            "Line": "Why are you keeping us here?"
+                        },
+                        {
+                            "Character": "HUR",
+                            "Line": "Za has gone into the forest to find meat. There will be more food later."
+                        },
+                        {
+                            "Character": "BARBARA",
+                            "Line": "But why can't we go outside?"
+                        },
+                        {
+                            "Character": "SUSAN",
+                            "Line": "Please let us go. It's terrible in here."
+                        },
+                        {
+                            "Character": "HUR",
+                            "Line": "Za is leader."
+                        },
+                        {
+                            "Character": "SUSAN",
+                            "Line": "But we helped you. We gave you fire."
+                        },
+                        {
+                            "Character": "HUR",
+                            "Line": "We have fire now."
+                        },
+                        {
+                            "Stage Direction": "Hur leaves"
+                        },
+                        {
+                            "Character": "IAN",
+                            "Line": "Yes. And I was the fool who gave it to you. Why didn't I wait?"
+                        },
+                        {
+                            "Character": "BARBARA",
+                            "Line": "Well at least we're alive. We wouldn't be if we hadn't given them fire."
+                        },
+                        {
+                            "Stage Direction": "Later, Ian is sleeping"
+                        },
+                        {
+                            "Character": "BARBARA",
+                            "Line": "Ian."
+                        },
+                        {
+                            "Character": "SUSAN",
+                            "Line": "They brought us some meat."
+                        },
+                        {
+                            "Character": "BARBARA",
+                            "Line": "And the Doctor found a stone with a hole in it, and they filled it with water."
+                        },
+                        {
+                            "Character": "IAN",
+                            "Line": "All the comforts of home."
+                        },
+                        {
+                            "Stage Direction": "Za enters"
+                        },
+                        {
+                            "Character": "ZA",
+                            "Line": "The animal was hard to kill. The meat on it is good. They have brought you fruit and water has been put into a stone. Is this the stone? Has anyone hurt you?"
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "When are you going to let us go, hmm?"
+                        },
+                        {
+                            "Character": "ZA",
+                            "Line": "You will stay here. I have the meat and I have the stick, and a piece of skin. I can make fire now. Your tribe and my tribe will join together."
+                        },
+                        {
+                            "Character": "IAN",
+                            "Line": "We don't want to stay here."
+                        },
+                        {
+                            "Character": "ZA",
+                            "Line": "Why? There is no better place the other side of the mountains. Do not try to leave here."
+                        },
+                        {
+                            "Stage Direction": "Za leaves with their water"
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "Quench the fire. Take the fire away from them. Scaring them, somehow."
+                        },
+                        {
+                            "Character": "SUSAN",
+                            "Line": "(putting a skull on top of a burning brand) Hey, Grandfather, look! It's almost alive."
+                        },
+                        {
+                            "Character": "IAN",
+                            "Line": "Not alive, Susan. Almost dead. We're going to make four torches. We'll find the sticks. And we'll use the fat from the meat. And then"
+                        },
+                        {
+                            "Character": "SUSAN",
+                            "Line": "And then?"
+                        },
+                        {
+                            "Character": "IAN",
+                            "Line": "And then, to all intents and purposes, we're going to die."
+                        },
+                        {
+                            "Stage Direction": "The tribe continue to feast"
+                        },
+                        {
+                            "Character": "IAN",
+                            "Line": "When I give the sign."
+                        },
+                        {
+                            "Stage Direction": "Hur enters with more meat, sees the lit skulls and screams. The rest of the tribe come in and cower too"
+                        },
+                        {
+                            "Character": "SUSAN",
+                            "Line": "What are they?"
+                        },
+                        {
+                            "Stage Direction": "With the tribe distracted, our travellers make a run for it through the forest. Finally one of the sticks falls over"
+                        },
+                        {
+                            "Character": "ZA",
+                            "Line": "Look. It is nothing but fire and the bones of the dead. They have gone! While we look at their fire, they have gone!"
+                        },
+                        {
+                            "Character": "HUR",
+                            "Line": "Into the night. The dark will hide them."
+                        },
+                        {
+                            "Character": "ZA",
+                            "Line": "With fire, it is day."
+                        },
+                        {
+                            "Stage Direction": "So the men get themselves torches and the chase is on"
+                        }
+                    ]
+                },
+                {
+                    "Scene": "Desert",
+                    "Dialogue": [
+                        {
+                            "Stage Direction": "Our intrepid time travellers get inside the Tardis before the tribe arrive."
+                        }
+                    ]
+                },
+                {
+                    "Scene": "Tardis",
+                    "Dialogue": [
+                        {
+                            "Character": "IAN",
+                            "Line": "Come on, Doctor, get us off! Get us off!"
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "Yes."
+                        },
+                        {
+                            "Stage Direction": "The Tardis takes off as the spears fly towards it"
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "Yes, it's matching up."
+                        },
+                        {
+                            "Character": "SUSAN",
+                            "Line": "We're beginning to land."
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "Oh, how I wish."
+                        },
+                        {
+                            "Character": "IAN",
+                            "Line": "Have you taken us back to our own time?"
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "You know I can't do that. Please be reasonable."
+                        },
+                        {
+                            "Character": "IAN",
+                            "Line": "What?"
+                        },
+                        {
+                            "Character": "BARBARA",
+                            "Line": "Please, you must take us back. You must."
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "You see, this isn't operating properly. Or rather, the code is still a secret. When you put the right data, precise information to a second of the beginning of a journey, then we can fix a destination, but I had no data at my disposal."
+                        },
+                        {
+                            "Character": "BARBARA",
+                            "Line": "Are you saying that you don't know how to work this thing?"
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "Well of course I can't. I'm not a miracle worker."
+                        },
+                        {
+                            "Character": "SUSAN",
+                            "Line": "You can't blame Grandfather. We left the other place too quickly, that's all."
+                        },
+                        {
+                            "Character": "IAN",
+                            "Line": "Just a minute. Did you try and take us back to our own time?"
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "Well, I got you away from that other time, didn't I?"
+                        },
+                        {
+                            "Character": "IAN",
+                            "Line": "That isn't what I asked you."
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "It's the only way I can answer you, young man. Now. Now we shall see."
+                        },
+                        {
+                            "Stage Direction": "The monitor shows strange trees"
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "It could be anywhere. Dear, dear, dear, dear. It's no help to us at all. Well, I suggest before we go outside and explore, let us clean ourselves up."
+                        },
+                        {
+                            "Character": "SUSAN",
+                            "Line": "Oh, yes."
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "Now what does the radiation read, Susan?"
+                        },
+                        {
+                            "Character": "SUSAN",
+                            "Line": "It's reading normal, Grandfather."
+                        },
+                        {
+                            "Stage Direction": "But after they walk away, the needle goes up into the Danger Zone"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

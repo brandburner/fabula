@@ -1,0 +1,151 @@
+{
+  "metadata": {
+    "title": "Celestial Navigation",
+    "series": "The West Wing",
+    "season": "1",
+    "episode_number": 15,
+    "release_date": "16 February 2000",
+    "writer": "Aaron Sorkin, Dee Dee Myers & Lawrence O'Donnell Jr.",
+    "director": "Christopher Misiano",
+    "main_actors": [
+      "Martin Sheen",
+      "Rob Lowe",
+      "John Spencer",
+      "Richard Schiff",
+      "Allison Janney",
+      "Bradley Whitford"
+    ],
+    "time_reference": "Current day of the Bartlet Administration"
+  },
+  "cast_crew": [
+    {
+      "cast": {
+        "name": "Martin Sheen",
+        "role": "President Josiah Bartlet"
+      },
+      "crew": {
+        "name": "Christopher Misiano",
+        "role": "Director"
+      }
+    },
+    {
+      "cast": {
+        "name": "Rob Lowe",
+        "role": "Sam Seaborn"
+      },
+      "crew": {
+        "name": "Aaron Sorkin",
+        "role": "Writer"
+      }
+    },
+    {
+      "cast": {
+        "name": "John Spencer",
+        "role": "Leo McGarry"
+      },
+      "crew": {
+        "name": "Dee Dee Myers",
+        "role": "Writer"
+      }
+    },
+    {
+      "cast": {
+        "name": "Richard Schiff",
+        "role": "Toby Ziegler"
+      },
+      "crew": {
+        "name": "Lawrence O'Donnell Jr.",
+        "role": "Writer"
+      }
+    },
+    {
+      "cast": {
+        "name": "Allison Janney",
+        "role": "C.J. Cregg"
+      },
+      "crew": {
+        "name": "Lawrence O'Donnell Jr.",
+        "role": "Consulting Producer"
+      }
+    },
+    {
+      "cast": {
+        "name": "Bradley Whitford",
+        "role": "Josh Lyman"
+      },
+      "crew": {
+        "name": "Rick Cleveland",
+        "role": "Producer"
+      }
+    },
+    {
+      "cast": {
+        "name": "Edward James Olmos",
+        "role": "Justice Roberto Mendoza"
+      },
+      "crew": {
+        "name": "Patrick H. Caddell",
+        "role": "Co-Producer"
+      }
+    }
+  ],
+  "home_media": [
+    {
+      "releases": {
+        "media_type": "DVD",
+        "date": "2001",
+        "details": "The West Wing: Season 1",
+        "special_features": [
+          "Commentary on select episodes",
+          "Behind-the-scenes featurette",
+          "Season highlights"
+        ]
+      }
+    }
+  ],
+  "story_notes": [
+    {
+      "notes": [
+        "The episode deals with themes of racial profiling and political repercussions.",
+        "Introduces Justice Roberto Mendoza, highlighting the complexities of political endorsements."
+      ]
+    }
+  ],
+  "worldbuilding": {
+    "in_universe_mythology": [],
+    "real_world_cultural_references": [
+      "References to real-life political figures and events during Clinton's presidency."
+    ],
+    "individuals": [
+      "Justice Roberto Mendoza",
+      "Deborah O'Leary"
+    ],
+    "items": [
+      "Air Force jet",
+      "Press briefing room"
+    ],
+    "locations": [
+      "White House",
+      "Connecticut police station"
+    ]
+  },
+  "ratings": {
+    "ratings_millions": [
+      {
+        "part": "Episode 15",
+        "viewers": 12.5
+      }
+    ]
+  },
+  "continuity": {
+    "continuity_notes": [
+      "This episode continues the overarching narrative of President Bartlet's administration.",
+      "Character relationships and development are further explored."
+    ]
+  },
+  "plot": [
+    {
+      "plot_summary": "Sam and Toby work to secure the release of President Bartlet's Supreme Court nominee who has been arrested for drunk driving. Meanwhile, Josh fills in for C.J. at a press conference, causing various complications as he tries to manage press relations following a controversial statement from a cabinet member."
+    }
+  ]
+}

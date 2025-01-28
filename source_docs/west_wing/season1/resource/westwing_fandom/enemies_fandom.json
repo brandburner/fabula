@@ -1,0 +1,155 @@
+{
+  "metadata": {
+    "title": "Enemies",
+    "series": "The West Wing",
+    "season": "1",
+    "episode_number": 8,
+    "release_date": "17 November 1999",
+    "writer": "Ron Osborn & Jeff Reno, Rick Cleveland, Lawrence O'Donnell Jr., Patrick H. Caddell",
+    "director": "Alan Taylor",
+    "producer": "Aaron Sorkin",
+    "main_actors": [
+      "Martin Sheen",
+      "Rob Lowe",
+      "John Spencer",
+      "Richard Schiff",
+      "Allison Janney",
+      "Bradley Whitford",
+      "Tim Matheson"
+    ],
+    "time_reference": "Contemporary, during the Bartlet administration"
+  },
+  "cast_crew": [
+    {
+      "cast": {
+        "name": "Martin Sheen",
+        "role": "President Josiah Bartlet"
+      },
+      "crew": {
+        "name": "Alan Taylor",
+        "role": "Director"
+      }
+    },
+    {
+      "cast": {
+        "name": "Rob Lowe",
+        "role": "Sam Seaborn"
+      },
+      "crew": {
+        "name": "Rick Cleveland",
+        "role": "Consulting Producer"
+      }
+    },
+    {
+      "cast": {
+        "name": "John Spencer",
+        "role": "Leo McGarry"
+      },
+      "crew": {
+        "name": "Lawrence O'Donnell Jr.",
+        "role": "Executive Story Editor"
+      }
+    },
+    {
+      "cast": {
+        "name": "Richard Schiff",
+        "role": "Toby Ziegler"
+      },
+      "crew": {
+        "name": "Aaron Sorkin",
+        "role": "Creator"
+      }
+    },
+    {
+      "cast": {
+        "name": "Allison Janney",
+        "role": "C.J. Cregg"
+      },
+      "crew": {
+        "name": "Patrick H. Caddell",
+        "role": "Consulting Producer"
+      }
+    },
+    {
+      "cast": {
+        "name": "Bradley Whitford",
+        "role": "Josh Lyman"
+      },
+      "crew": {
+        "name": "Jeff Reno",
+        "role": "Consulting Producer"
+      }
+    },
+    {
+      "cast": {
+        "name": "Tim Matheson",
+        "role": "Vice President John Hoynes"
+      },
+      "crew": {
+        "name": "Alan Taylor",
+        "role": "Director"
+      }
+    }
+  ],
+  "home_media": [
+    {
+      "releases": {
+        "media_type": "DVD",
+        "date": "2004-01-24",
+        "details": "Season 1 DVD Box Set",
+        "special_features": [
+          "Commentary",
+          "Behind-the-scenes featurette",
+          "Interviews with cast and crew"
+        ]
+      }
+    }
+  ],
+  "story_notes": [
+    {
+      "notes": [
+        "The Antiquities Act referenced in the plot is a real law that allows the President to designate national monuments."
+      ]
+    }
+  ],
+  "worldbuilding": {
+    "in_universe_mythology": [
+      "National Parks of the United States",
+      "The impact of political decisions on environmental policies"
+    ],
+    "real_world_cultural_references": [
+      "References to American politics and the operations of Congress"
+    ],
+    "individuals": [
+      "President Josiah Bartlet",
+      "Vice President John Hoynes"
+    ],
+    "items": [
+      "Land-use rider",
+      "Opera tickets"
+    ],
+    "locations": [
+      "Oval Office",
+      "White House",
+      "Roosevelt Room"
+    ]
+  },
+  "ratings": {
+    "ratings_millions": [
+      {
+        "part": "Enemies",
+        "viewers": 10.0
+      }
+    ]
+  },
+  "continuity": {
+    "continuity_notes": [
+      "This episode explores the dynamics between the President and his staff, establishing character relationships that evolve throughout the series."
+    ]
+  },
+  "plot": [
+    {
+      "plot_summary": "As President Bartlet confronts political opponents aiming to derail a key banking bill, personal and professional conflicts arise within the West Wing. C.J. navigates rumors about the President's relationship with the Vice President, while Josh and Mandy clash over the administration's stance on environmental issues. Meanwhile, Leo struggles with his daughter's independent choices. As tensions rise, creative solutions emerge to protect the bill and alleviate the competitive nature of their political landscape."
+    }
+  ]
+}

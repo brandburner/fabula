@@ -1,0 +1,104 @@
+{
+    "title": "The Daemons",
+    "air_date": "22 May 1971",
+    "num_episodes": 5,
+    "episode_titles": [
+        "Episode 1",
+        "Episode 2",
+        "Episode 3",
+        "Episode 4",
+        "Episode 5"
+    ],
+    "episode_duration": 25,
+    "writers": [
+        "Guy Leopold (Barry Letts, Robert Sloman)"
+    ],
+    "directors": [
+        "Christopher Barry"
+    ],
+    "media_format": "Color",
+    "dialogue_triumphs": [
+        "Harry, the TV producer, asks Professor Horner what to do if the Devil puts in an appearance on live TV: 'Use your initiative, lad, get your chatty friend to interview him!'"
+    ],
+    "dialogue_disasters": [
+        "The Brigadier issues the most ludicrous order in military history: 'Chap with wings there\u2026 Five rounds rapid!'",
+        "Jo alludes to 'the occult and all that magic bit.'"
+    ],
+    "goofs": [
+        "A signpost next to the heat barrier says: 'Devil's End 1'. However, in episode two, the barrier has a five mile radius, centred on the church.",
+        "In episode two, Garvin holds his broken shotgun together during his fight with Benton.",
+        "The last witchcraft statute in England was repealed in 1736, not as recently as Miss Hawthorne suggests.",
+        "In episode three the energy exchanger interferes with radio communication, but by episode five it has lost this annoying side-effect.",
+        "How do Yates and Benton have time to change into civvies?"
+    ],
+    "continuity_notes": [
+        {
+            "name": "Azal",
+            "type": "Character",
+            "description": "The last of the Daemons, an alien race from the planet D\u00e6mos",
+            "origin": "Planet D\u00e6mos, 60,000 light years from Earth",
+            "current_status": "Awakened and confronting the Doctor and UNIT"
+        },
+        {
+            "name": "Daemons",
+            "type": "Character",
+            "description": "Alien race that came to Earth 100,000 years ago to engineer mankind's genetic development",
+            "origin": "Planet D\u00e6mos",
+            "current_status": "Extinct except for Azal"
+        },
+        {
+            "name": "Bok",
+            "type": "Character",
+            "description": "A stone robot creature created or animated by Azal",
+            "origin": "Devil's End",
+            "current_status": "Active and serving Azal"
+        },
+        {
+            "name": "UNIT",
+            "type": "Organization",
+            "description": "United Nations Intelligence Taskforce, a military organization dealing with extraterrestrial threats",
+            "origin": null,
+            "current_status": "Actively investigating the events in Devil's End"
+        }
+    ],
+    "technobabble": [
+        "An EHF wide band-width, variable phase oscillator, with a negative feedback circuit",
+        "Negative diathermy buffer the molecular movement of the air with reverse phase shortwaves"
+    ],
+    "roots": [
+        "60s British horror films like The Witches, Curse of the Crimson Altar and The Devil Rides Out",
+        "Dennis Wheatley novels",
+        "Quatermass and the Pit",
+        "The Night of the Big Heat",
+        "Invasion (specifically the heat barrier)",
+        "The Quatermass Experiment (interrupted TV broadcast)",
+        "Star Trek's 'Who Mourns for Adonis?'",
+        "The Avengers' 'The House that Jack Built' (the revolving signpost)",
+        "Arthur C. Clarke's Childhood's End",
+        "Village of the Damned",
+        "Erich von Daniken"
+    ],
+    "links": [
+        "When the Doctor reveals Azal is an alien, Benton asks 'like the Axons or the Cybermen?'"
+    ],
+    "locations": [
+        {
+            "name": "Devil's End",
+            "type": "Location",
+            "description": "A village in Wiltshire where the events of the story take place",
+            "origin": "England",
+            "current_status": "Site of alien activity and UNIT investigation"
+        }
+    ],
+    "future_history": null,
+    "untold_adventures": [
+        "The Doctor has possibly met Hitler and/or Genghis Khan"
+    ],
+    "qv": [
+        "Atlantis, 'The Time Monster'",
+        "Venus, 'The Time Monster'",
+        "Aliens and Mankind, 'Image of the Fendahl'"
+    ],
+    "additional_notes": "The Master's Black Mass is 'Mary Had a Little Lamb' backwards. The Bok design derives from a Notre Dame gargoyle.",
+    "bottom_line": "For a certain age group this story is the most memorable example of 70s Doctor Who. However, 'The D\u00e6mons' isn't really very good. Its denouement is risible, and even the much-praised church explosion effect looks cheap. The final scene is charming ('You see Jo, there is magic in the world after all') with a memorable Brigadier/Yates exchange: 'Fancy a dance sir?' 'Kind of you Captain\u2026 I think I'd rather have a pint!'"
+}

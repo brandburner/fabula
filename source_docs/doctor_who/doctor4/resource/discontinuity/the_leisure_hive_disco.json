@@ -1,0 +1,112 @@
+{
+    "title": "The Leisure Hive",
+    "air_date": "30 August 1980",
+    "num_episodes": 4,
+    "episode_titles": [
+        "Part One",
+        "Part Two",
+        "Part Three",
+        "Part Four"
+    ],
+    "episode_duration": 25,
+    "writers": [
+        "David Fisher"
+    ],
+    "directors": [
+        "Lovett Bickford"
+    ],
+    "media_format": "Color",
+    "dialogue_triumphs": [
+        "Brock tells the court that the Doctor's scarf strangled Stimson. The Doctor responds: 'Arrest the scarf then.'"
+    ],
+    "dialogue_disasters": null,
+    "goofs": [
+        "The wires pulling K-9 along the beach are visible in episode one.",
+        "The Doctor and Romana are able to comment on Hardin's experiment, despite having missed the hologram of it.",
+        "In episode two the top of the sonic screwdriver is nearly bent off.",
+        "Presumably the Foamasi have to put on corsets before they don the skin-suits.",
+        "Why is everyone taken in by the phoney Brock's sudden acceptance of a seat on the board, and why is he (a West Lodge Foamasi) so interested in Hardin's experiments as a possible source of revenue when his interest is in the running-down of the Hive so that his group can buy it?"
+    ],
+    "continuity_notes": [
+        {
+            "name": "The Doctor",
+            "type": "Character",
+            "description": "Time Lord protagonist",
+            "origin": "Gallifrey",
+            "current_status": "Aged 500 years due to rejuvenator malfunction"
+        },
+        {
+            "name": "Romana",
+            "type": "Character",
+            "description": "Time Lady companion",
+            "origin": "Gallifrey",
+            "current_status": "Traveling with the Doctor"
+        },
+        {
+            "name": "K-9",
+            "type": "Character",
+            "description": "Robotic dog companion",
+            "origin": null,
+            "current_status": "Vulnerable to salt water"
+        },
+        {
+            "name": "Randomiser",
+            "type": "Object",
+            "description": "Device to randomize TARDIS destinations",
+            "origin": null,
+            "current_status": "Left on Argolis"
+        },
+        {
+            "name": "Gallifrey",
+            "type": "Location",
+            "description": "Home planet of the Time Lords",
+            "origin": null,
+            "current_status": "Described as 'an obscure planet in the constellation of Kasterborous'"
+        }
+    ],
+    "technobabble": [
+        "Tachyonics",
+        "Unreal transfer"
+    ],
+    "roots": [
+        "The Godfather and the Mafia",
+        "Greek myth",
+        "Blake's 7's 'Children of Auron'"
+    ],
+    "links": [
+        "Horror of Fang Rock",
+        "The Armageddon Factor",
+        "Pyramids of Mars"
+    ],
+    "locations": [
+        {
+            "name": "Brighton",
+            "type": "Location",
+            "description": "Seaside resort town in England",
+            "origin": "Earth",
+            "current_status": "Visited by the Doctor and Romana"
+        },
+        {
+            "name": "The Leisure Hive",
+            "type": "Location",
+            "description": "Main setting of the story",
+            "origin": "Argolis",
+            "current_status": "Operational leisure facility"
+        },
+        {
+            "name": "Argolis",
+            "type": "Location",
+            "description": "Planet hosting the Leisure Hive",
+            "origin": null,
+            "current_status": "First of the leisure planets, nearly destroyed by nuclear war"
+        }
+    ],
+    "future_history": "Argolis was nearly destroyed in a nuclear war with the Foamasi in 2250. The survivors built the Leisure Hive around 2270. A 20-year moratorium on a reduplication programme began around 2270. Romana mentions that this part of the galaxy doesn't discover 'unreal transfer' until 2386.",
+    "untold_adventures": null,
+    "qv": [
+        "The Doctor's Age",
+        "Pyramids of Mars"
+    ],
+    "additional_notes": "This episode marks a new direction for Doctor Who, moving away from traditional technobabble and featuring more stylish visuals.",
+    "bottom_line": "A brave, if not altogether successful, experiment. The episode looks gorgeous thanks to stylish sets and imaginative visuals, but the overall execution is not entirely successful."
+}

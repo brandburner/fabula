@@ -1,0 +1,3489 @@
+{
+    "Story": "Delta and the Bannermen",
+    "Airdate": "1987-11-02",
+    "Episodes": [
+        {
+            "Episode": "Part One",
+            "Scenes": [
+                {
+                    "Scene": "Planet surface",
+                    "Dialogue": [
+                        {
+                            "Stage Direction": "On an alien planet with a very big moon in the sky, troops appear at the top of a ridge. Below them, green humanoids lie dead amongst explosions. They fire at fleeing survivors.  Don Henderson is in charge."
+                        },
+                        {
+                            "Character": "GAVROK",
+                            "Line": "Take no prisoners! Kill them all!"
+                        },
+                        {
+                            "Stage Direction": "A young woman in white is defended by two green aliens. They kill one of their attackers, who retaliate. As Gavrok sounds a horn, the young woman shoots, cracking it."
+                        },
+                        {
+                            "Character": "DELTA",
+                            "Line": "Are you strong enough to run?"
+                        },
+                        {
+                            "Character": "CHIMA",
+                            "Line": "Run where? They've firebombed every ship we have."
+                        },
+                        {
+                            "Character": "DELTA",
+                            "Line": "Then we'll have to take one of theirs. Now!"
+                        },
+                        {
+                            "Stage Direction": "Delta and Chima run, dodging explosions, and kill the guard at the nearest spaceship."
+                        }
+                    ]
+                },
+                {
+                    "Scene": "Spaceship",
+                    "Dialogue": [
+                        {
+                            "Character": "DELTA",
+                            "Line": "I'll cover the hatch."
+                        },
+                        {
+                            "Stage Direction": "But Gavrok is inside. He shoots Chima in the back as he goes to the pilot's seat."
+                        },
+                        {
+                            "Character": "GAVROK",
+                            "Line": "You are the last survivor, but not for long."
+                        },
+                        {
+                            "Stage Direction": "The dying Chima shoots Gavrok, sending him tumbling out of the hatch. Delta closes it and goes to Chima."
+                        },
+                        {
+                            "Character": "DELTA",
+                            "Line": "You saved my life, Chima. I'm sorry."
+                        },
+                        {
+                            "Character": "CHIMA",
+                            "Line": "Go. Get away. Take this with you."
+                        },
+                        {
+                            "Stage Direction": "Delta takes the incubator."
+                        }
+                    ]
+                },
+                {
+                    "Scene": "Planet surface",
+                    "Dialogue": [
+                        {
+                            "Character": "GAVROK",
+                            "Line": "Help!"
+                        },
+                        {
+                            "Stage Direction": "The spaceship lifts off as Gavrok's Bannermen come running."
+                        }
+                    ]
+                },
+                {
+                    "Scene": "Tardis",
+                    "Dialogue": [
+                        {
+                            "Character": "TOLLMASTER [OC]",
+                            "Line": "Attention, incoming craft. You're approaching Tollport G seven one five. Please have your credits ready."
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "It's strange how in some galaxies these tollports spring up all over the place like mushrooms, yet in others you can go for light years without seeing a single one."
+                        },
+                        {
+                            "Character": "MEL",
+                            "Line": "Doctor"
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "I think it relates to the way that space is being developed. I mean, there never has been a consistent three dimensional planning policy."
+                        },
+                        {
+                            "Character": "MEL",
+                            "Line": "Doctor, something doesn't look right. Only the landing lights are on. It looks abandoned."
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "And by completely ignoring the overspill from the fourth dimension they sometimes build one port right on top of the other, only realising it when there's an interface slippage."
+                        },
+                        {
+                            "Character": "MEL",
+                            "Line": "Doctor, this is serious. There's something wrong."
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "Yes, it is serious. I don't seem to have any change. Er, take five credits from the kitty, Mel."
+                        },
+                        {
+                            "Stage Direction": "Mel takes a tin can from under the console and looks inside."
+                        },
+                        {
+                            "Character": "MEL",
+                            "Line": "There's nothing in here again."
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "That kitty defies all known laws of physics. I keep filling it up and it's always empty. Mel, there's something wrong. Only their landing lights are on."
+                        }
+                    ]
+                },
+                {
+                    "Scene": "Tollport G715",
+                    "Dialogue": [
+                        {
+                            "Stage Direction": "A familiar voice makes a tannoy announcement in a large hangar area."
+                        },
+                        {
+                            "Character": "TOLLMASTER [OC]",
+                            "Line": "Tollport G seven one five. Please have your credits ready."
+                        },
+                        {
+                            "Stage Direction": "The Tardis materialises neatly in the middle of the landing pad and the Doctor comes out carefully."
+                        },
+                        {
+                            "Character": "TOLLMASTER [OC]",
+                            "Line": "Tollport G seven one five. Tollport G seven one five."
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "Mel, I don't like the look of this one little bit."
+                        },
+                        {
+                            "Character": "MEL",
+                            "Line": "Me too. It's spooky."
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "Get ready to run back into the Tardis at the first sign of trouble."
+                        },
+                        {
+                            "Character": "MEL",
+                            "Line": "Okay."
+                        },
+                        {
+                            "Stage Direction": "They make their way to an office with lit windows."
+                        },
+                        {
+                            "Character": "TOLLMASTER [OC]",
+                            "Line": "Halt!"
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "Who's there? Why don't you come out of the light and show yourself?"
+                        },
+                        {
+                            "Stage Direction": "A figure comes out of the office and blows a party trumpet. Dressed in purple sequined jacket and peaked cap."
+                        },
+                        {
+                            "Character": "TOLLMASTER",
+                            "Line": "Surprise, surprise! By Jove, yes. Welcome, friends. A thousand welcomes."
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "It's a funny way to welcome your friends. We thought you'd been attacked by space pirates. Now, about this toll fee"
+                        },
+                        {
+                            "Character": "TOLLMASTER",
+                            "Line": "Toll fee? Tonight is your lucky night. Because you are our ten billionth customer."
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "Ten billion customers?"
+                        },
+                        {
+                            "Character": "TOLLMASTER",
+                            "Line": "And one."
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "You mean to say ten billion people have come here?"
+                        },
+                        {
+                            "Character": "TOLLMASTER",
+                            "Line": "Exactly."
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "Congratulations. Now, about this toll fee."
+                        },
+                        {
+                            "Character": "TOLLMASTER",
+                            "Line": "But, but you've won! You've won the grand prize."
+                        },
+                        {
+                            "Character": "MEL",
+                            "Line": "What is it? I've never won anything before."
+                        },
+                        {
+                            "Character": "TOLLMASTER",
+                            "Line": "Your prize. Hang about. You have won our fabulous Fifties tour. A week, a whole week, in Disneyland, planet Earth. And this time, they're going back to 1959. The rock and roll years."
+                        },
+                        {
+                            "Character": "MEL",
+                            "Line": "Oh, that's fantastic! Oh, let's go, Doctor. Please agree. Our last holiday wasn't exactly ice hot. Oh, please?"
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "A holiday? Yes, a week's holiday would be quite pleasant. A green swarth, a babbling brook, birds twittering."
+                        }
+                    ]
+                },
+                {
+                    "Scene": "Welsh countryside",
+                    "Dialogue": [
+                        {
+                            "Character": "DOCTOR [OC]",
+                            "Line": "Just what's required. A large dose of tranquillity."
+                        },
+                        {
+                            "Stage Direction": "On a woodland lane, two Americans get out of a car and take a piece of paper from a small canister attached to a broken branch. They read it, then the younger one eats it."
+                        },
+                        {
+                            "Character": "WEISMULLER",
+                            "Line": "I never had a red alert before."
+                        },
+                        {
+                            "Character": "HAWK",
+                            "Line": "Me neither."
+                        },
+                        {
+                            "Character": "WEISMULLER",
+                            "Line": "I think we'd better find a telephone real fast."
+                        },
+                        {
+                            "Character": "HAWK",
+                            "Line": "Out here?"
+                        },
+                        {
+                            "Character": "WEISMULLER",
+                            "Line": "Get in the car. Get in the car."
+                        },
+                        {
+                            "Stage Direction": "A police telephone box is standing on a piece of parched earth near a wood when a Morris Minor car BUO193 pulls up and two portly men get out. One is wearing an NY logo baseball cap and jacket, and is therefore an American. Everyone say Hi! to  Stubby Kaye. He goes up to the police box and pulls out the telephone which is, of course, marked for public use."
+                        },
+                        {
+                            "Character": "WEISMULLER",
+                            "Line": "Hello, will you put me through to the White House, Washington DC? This is a priority call, code eleven."
+                        },
+                        {
+                            "Stage Direction": "His companion takes a telescope from the car boot and surveys their surroundings."
+                        },
+                        {
+                            "Character": "WEISMULLER",
+                            "Line": "Hello? This is Agent Jerome P Weismuller speaking from Wales, in England. Yes, sir. Yes, sir. Oh, oh yes, sir. We'll get right on it, sir."
+                        },
+                        {
+                            "Stage Direction": "He puts the telephone back and his companion comes over. He is also American."
+                        },
+                        {
+                            "Character": "HAWK",
+                            "Line": "Well?"
+                        },
+                        {
+                            "Character": "WEISMULLER",
+                            "Line": "That was the President's right hand man. Wow!"
+                        },
+                        {
+                            "Character": "HAWK",
+                            "Line": "Come on, Weismuller, spill the beans. Why the red alert?"
+                        },
+                        {
+                            "Character": "WEISMULLER",
+                            "Line": "He says that Cape Canaveral has fired a space rocket with an artificial satellite."
+                        },
+                        {
+                            "Character": "HAWK",
+                            "Line": "This is history in the making, Weismuller. What are we supposed to do about it?"
+                        },
+                        {
+                            "Character": "WEISMULLER",
+                            "Line": "Surveillance, Hawk, surveillance. We've been selected. It's our job to track the thing."
+                        },
+                        {
+                            "Stage Direction": "Out in space, the booster rocket is separating to release the second stage engine."
+                        }
+                    ]
+                },
+                {
+                    "Scene": "Tollport G715",
+                    "Dialogue": [
+                        {
+                            "Character": "MEL",
+                            "Line": "Are we going to have a whole space cruiser to ourselves?"
+                        },
+                        {
+                            "Character": "TOLLMASTER",
+                            "Line": "Oh, no. You're going on a scheduled tour with the Navarino's 1950's club."
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "Navarinos from the tribe on Navarro? Squat, wrinkly, purply creatures? Won't they be a little conspicuous on Earth?"
+                        },
+                        {
+                            "Character": "TOLLMASTER",
+                            "Line": "Oh, I don't think so. Not now. They've been through a transformation arch. Now, follow me. We must stick to time. Everyone knows I'm a stickler for time."
+                        },
+                        {
+                            "Stage Direction": "The transformation process appears to be uncomfortable."
+                        },
+                        {
+                            "Character": "ADLON",
+                            "Line": "Come on."
+                        },
+                        {
+                            "Character": "BOLLIT",
+                            "Line": "Don't be a coward."
+                        },
+                        {
+                            "Character": "ADLON",
+                            "Line": "Come on, it doesn't hurt. Come on, come on. That's it. (Last one through is the bus driver, to the cheers of his passengers.)"
+                        },
+                        {
+                            "Character": "MURRAY",
+                            "Line": "Thank you very much. Thank you."
+                        },
+                        {
+                            "Stage Direction": "The Tollmaster takes the Doctor and Mel to the charabanc, Nostalgia Trips."
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "Who's that?"
+                        },
+                        {
+                            "Character": "TOLLMASTER",
+                            "Line": "Oh, that's Murray, your pilot."
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "Oh, this is going to be very interesting."
+                        },
+                        {
+                            "Character": "MEL",
+                            "Line": "What is?"
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "Nostalgia Trips, the most notorious travel firm in the five galaxies. It was a Nostalgia Trip cruiser that got stuck with the glass eaters of Tharl."
+                        },
+                        {
+                            "Character": "MEL",
+                            "Line": "Oh, dear."
+                        },
+                        {
+                            "Character": "TOLLMASTER",
+                            "Line": "Yes, well, they may have had one or two little problems in the past, but that's all sorted out now."
+                        },
+                        {
+                            "Character": "MEL",
+                            "Line": "But the brochure shows a space cruiser, not an old bus."
+                        },
+                        {
+                            "Character": "TOLLMASTER",
+                            "Line": "Old bus? This is a very expensive conversion. The chassis and the engine, they're from a Helstrom Two, the very latest thing in space cruisers. The old-fashioned bodywork, well, that's just to please the tourists. We're not fools, you know."
+                        },
+                        {
+                            "Character": "MURRAY",
+                            "Line": "I've been through that thing a hundred times and I still don't like it. Oh, welcome aboard. I'm Murray."
+                        },
+                        {
+                            "Character": "MEL",
+                            "Line": "I'm Mel and this is the Doctor."
+                        },
+                        {
+                            "Character": "MURRAY",
+                            "Line": "That's great. Knowing Nostalgia Trips, we may need a doctor. Come on, folks. All aboard!"
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "Mel, you go ahead on the bus. I'll follow on in the Tardis."
+                        },
+                        {
+                            "Character": "MEL",
+                            "Line": "Thanks."
+                        },
+                        {
+                            "Character": "MURRAY",
+                            "Line": "Oh, you don't think the old bus'll make it, Doctor? Underneath this streamliner shell is a Helstrom Fireball engine. None finer."
+                        },
+                        {
+                            "Character": "TOLLMASTER",
+                            "Line": "Come along, folks. All aboard. Have fun. Remember your time. 1959. Is that your husband or have you brought the bulldog with you? Oh, kiss me quick. My goodness me, what a time we're going to have."
+                        }
+                    ]
+                },
+                {
+                    "Scene": "Spaceship",
+                    "Dialogue": [
+                        {
+                            "Stage Direction": "Delta covers Chima's body, and turns to the flight controls where Gavrok is on a monitor."
+                        },
+                        {
+                            "Character": "GAVROK [on monitor]",
+                            "Line": "You cannot escape me. Wherever you go, I will track you down."
+                        },
+                        {
+                            "Character": "DELTA",
+                            "Line": "My people will survive, Gavrok. GAVROK [on monitor]: You are the last. Turn back. There is nowhere you can hide."
+                        },
+                        {
+                            "Character": "DELTA",
+                            "Line": "Your trace finder can follow my ship, but you'll never take me."
+                        },
+                        {
+                            "Stage Direction": "Delta shoots the monitor."
+                        },
+                        {
+                            "Character": "TOLLMASTER [OC]",
+                            "Line": "Attention, incoming craft. You are approaching Tollport G seven one five. Please have your credits ready."
+                        }
+                    ]
+                },
+                {
+                    "Scene": "Gavrok's spaceship",
+                    "Dialogue": [
+                        {
+                            "Character": "GAVROK",
+                            "Line": "She's somehow switched off the homing trace. Visual pursuit. Copy her vector."
+                        },
+                        {
+                            "Stage Direction": "At the Tollport, the Doctor watches as Delta lands the spaceship, and the bus opens its rear engine cover to reveal its own rocket engines."
+                        },
+                        {
+                            "Character": "GAVROK",
+                            "Line": "You're overshooting, fool. She went into that space toll."
+                        },
+                        {
+                            "Character": "TOLLMASTER [OC]",
+                            "Line": "Attention, incoming craft. You're approach"
+                        },
+                        {
+                            "Stage Direction": "Gavrok puts his fist through the speaker."
+                        }
+                    ]
+                },
+                {
+                    "Scene": "Nostalgia Trips bus",
+                    "Dialogue": [
+                        {
+                            "Stage Direction": "Delta runs to the bus and gets on board. The Doctor goes into the Tardis as the bus takes off."
+                        },
+                        {
+                            "Character": "MURRAY",
+                            "Line": "Please keep your seats during the flight and no dancing in the aisles. Now, are we all feeling fine?"
+                        },
+                        {
+                            "Character": "ALL",
+                            "Line": "Yes!"
+                        },
+                        {
+                            "Character": "MURRAY",
+                            "Line": "All right. 1959, here we come!"
+                        },
+                        {
+                            "Stage Direction": "He plays Bill Haley, Rock Around the Clock on the bus speakers, and Mel joins in."
+                        }
+                    ]
+                },
+                {
+                    "Scene": "Welsh countryside",
+                    "Dialogue": [
+                        {
+                            "Stage Direction": "Hawk is rigging up an aerial by tying a wire to a tree branch."
+                        },
+                        {
+                            "Character": "HAWK",
+                            "Line": "That better? Do you hear anything yet?"
+                        },
+                        {
+                            "Stage Direction": "The receiver set is in a wicker picnic hamper."
+                        },
+                        {
+                            "Character": "WEISMULLER",
+                            "Line": "No, no, nothing. All I get is something called Housewives' Choice. I can't even get any rock and roll."
+                        },
+                        {
+                            "Character": "HAWK",
+                            "Line": "No signal from the satellite?"
+                        },
+                        {
+                            "Character": "WEISMULLER",
+                            "Line": "No. Come on down. You try. I tell you, it's hopeless, Hawk. That thing could be anywhere."
+                        }
+                    ]
+                },
+                {
+                    "Scene": "Nostalgia Trips bus",
+                    "Dialogue": [
+                        {
+                            "Stage Direction": "A rocket's final stage releases a satellite. Looks like the old footage of the Sputnik launch looked like rather than an American one, to me."
+                        },
+                        {
+                            "Character": "MURRAY",
+                            "Line": "Come on now, all of you sing."
+                        },
+                        {
+                            "Stage Direction": "The passengers join in with Bill Haley except for Delta, who doesn't know the words, and a thin faced man wearing shades."
+                        },
+                        {
+                            "Character": "MEL",
+                            "Line": "Do you often do the Fifties run?"
+                        },
+                        {
+                            "Character": "MURRAY",
+                            "Line": "Ah ha. I love that sort of thing. The music, the haircuts, the baggy suits."
+                        },
+                        {
+                            "Character": "MEL",
+                            "Line": "(to Delta) Where are you from?"
+                        },
+                        {
+                            "Character": "MURRAY",
+                            "Line": "You're not a late arrival from the Navarino party, are you?"
+                        },
+                        {
+                            "Character": "DELTA",
+                            "Line": "No. I'm a Chimeron."
+                        },
+                        {
+                            "Stage Direction": "Then the satellite hits the bus. Most people start screaming as they go down, fast."
+                        }
+                    ]
+                },
+                {
+                    "Scene": "Welsh countryside",
+                    "Dialogue": [
+                        {
+                            "Character": "HAWK",
+                            "Line": "Forget it, Weismuller. Without those coordinates, we're shooting in the dark."
+                        },
+                        {
+                            "Character": "WEISMULLER",
+                            "Line": "I am not making that call, and that's that."
+                        },
+                        {
+                            "Character": "HAWK",
+                            "Line": "The boss said we were to share everything. That includes responsibility, you know."
+                        },
+                        {
+                            "Character": "WEISMULLER",
+                            "Line": "Let me tell you something. If they think we fouled up, they'll be ringing us every five minutes. Now you go ahead and make that call."
+                        },
+                        {
+                            "Stage Direction": "The police telephone rings. Weismuller answers it."
+                        },
+                        {
+                            "Character": "WEISMULLER",
+                            "Line": "Hello? Agent Weismuller speaking. Oh, no, sir. No, no, nothing yet. Oh gee, that's too bad. Oh. Oh, oh, yes sir. Yes, we'll do our very best, sir. Thank you."
+                        },
+                        {
+                            "Character": "HAWK",
+                            "Line": "What's up?"
+                        },
+                        {
+                            "Character": "WEISMULLER",
+                            "Line": "Bad news. That satellite has gone haywire, and the scientists think it's going to fall to Earth somewhere around here. And the President wants us to find it before certain enemy powers get their mitts on it."
+                        },
+                        {
+                            "Character": "HAWK",
+                            "Line": "If we don't screw up on this one, it could mean promotion. We could go home, Weismuller. Home."
+                        },
+                        {
+                            "Character": "WEISMULLER",
+                            "Line": "Home. The wife."
+                        }
+                    ]
+                },
+                {
+                    "Scene": "Nostalgia Trips bus",
+                    "Dialogue": [
+                        {
+                            "Stage Direction": "The Tardis is alongside the bus, with the Doctor frantically working the controls."
+                        },
+                        {
+                            "Character": "MURRAY",
+                            "Line": "Keep calm, folks. We're just experiencing a little technical difficulty."
+                        },
+                        {
+                            "Stage Direction": "With his foot on one panel, the Doctor reaches to another with his umbrella. There is a bang, then a ray goes out from the Tardis' blue light to envelope the bus."
+                        }
+                    ]
+                },
+                {
+                    "Scene": "Outside Shangri La",
+                    "Dialogue": [
+                        {
+                            "Stage Direction": "The bus lands with a bump on a rose bed, and the Tardis materialises nearby. The music to Workers Play Time is in the air. Murray staggers off the bus and we see the little satellite is embedded into the radiator grill."
+                        },
+                        {
+                            "Character": "MURRAY",
+                            "Line": "Oh, thanks, Doctor. We ran into this piece of space junk. What did you do?"
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "Well, I simply applied the Tardis vortex drive to generate an antigravity spiral to halt your descent. Sorry about the bumpy landing. A miscalculation."
+                        },
+                        {
+                            "Character": "MURRAY",
+                            "Line": "We could sure use a guy like you at head office."
+                        },
+                        {
+                            "Stage Direction": "All the passengers have disembarked. Mel comes over to the Doctor and Murray and the mod in the shades hangs about nearby."
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "The satellite seems to have jammed your navigational pod. Ah, hello, Mel. Nice trip?"
+                        },
+                        {
+                            "Character": "MURRAY",
+                            "Line": "Hey, this doesn't look like Disneyland."
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "No, well, according to my reckoning, it seems to be somewhere in, er, Wales."
+                        },
+                        {
+                            "Character": "MURRAY",
+                            "Line": "We've got to do something with all these people till we get the bus fixed."
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "Maybe that series of primitive dwellings could be used as some sort of way station."
+                        },
+                        {
+                            "Character": "MEL",
+                            "Line": "It's a holiday camp."
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "Excellent. Just what we're looking for."
+                        },
+                        {
+                            "Character": "MEL",
+                            "Line": "Oh, but Doctor, it looks. I don't know, it looks a bit grim."
+                        },
+                        {
+                            "Stage Direction": "That's because it is Butlins, Barry Island, South Glamorgan. It no longer exists."
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "Oh, don't go by appearances, Mel. Often the most interesting people stay at these places. This is the real Fifties."
+                        }
+                    ]
+                },
+                {
+                    "Scene": "Shangri La",
+                    "Dialogue": [
+                        {
+                            "Stage Direction": "They stroll in through the main gate and are greeted by a Welshman in a striped jacket, with a dog on a lead."
+                        },
+                        {
+                            "Character": "BURTON",
+                            "Line": "Oh, hello! Expected you hours ago. Trouble with the bus, is it? Oh, it happens all the time. Still, you're not far from the chalets."
+                        },
+                        {
+                            "Character": "MURRAY",
+                            "Line": "Do you mind if we rest at the camp until we get the bus shipshape?"
+                        },
+                        {
+                            "Character": "BURTON",
+                            "Line": "Mind, my dear boy? That is what we are here for. Welcome, campers. I am your camp leader while you are here at Shangri La. My name is Burton, and if there's anything you need, just ask. (Welsh.) Follow me, isn't it."
+                        },
+                        {
+                            "Character": "MURRAY",
+                            "Line": "That's right, folks. Follow, er, Burton. He'll look after you until the cruiser's ready to roll. Thank you very much. Thank you."
+                        }
+                    ]
+                },
+                {
+                    "Scene": "Chalet area",
+                    "Dialogue": [
+                        {
+                            "Stage Direction": "Burton leads the tour group past young women playing with hula hoops to a row of two storey chalets."
+                        },
+                        {
+                            "Character": "BURTON",
+                            "Line": "Now, follow me. Welcome to Shangri La, where your dreams come true. Now, you will all be sharing cabins, but we all eat together. Over there is the dining hall with the shower block behind. Breakfast is at eight, lunch is at one, and supper is at six. Any questions? Splendid. Right, you two. Follow me and I'll show you to your chalet."
+                        },
+                        {
+                            "Stage Direction": "Mel and Delta follow Burton into number 2."
+                        }
+                    ]
+                },
+                {
+                    "Scene": "Mel and Delta's chalet",
+                    "Dialogue": [
+                        {
+                            "Stage Direction": "Two single beds, a wash stand, table and chairs."
+                        },
+                        {
+                            "Character": "BURTON",
+                            "Line": "Right, you will find a list of our rules and regulations behind the door. Any questions? Splendid."
+                        },
+                        {
+                            "Stage Direction": "Burton leaves."
+                        },
+                        {
+                            "Character": "MEL",
+                            "Line": "Not that it really makes much difference, but which bed would you like? I don't really mind. One's about as good as the other. Look, I know it isn't like the brochure, but don't be too upset."
+                        },
+                        {
+                            "Character": "DELTA",
+                            "Line": "How long are we in this place for?"
+                        },
+                        {
+                            "Character": "MEL",
+                            "Line": "Till the bus is fixed."
+                        },
+                        {
+                            "Character": "DELTA",
+                            "Line": "And then?"
+                        },
+                        {
+                            "Character": "MEL",
+                            "Line": "Well, then it's off to Disneyland, I suppose."
+                        },
+                        {
+                            "Character": "DELTA",
+                            "Line": "It might give me enough time."
+                        }
+                    ]
+                },
+                {
+                    "Scene": "Outside the chalets",
+                    "Dialogue": [
+                        {
+                            "Stage Direction": "Burton shouts in Welsh to someone, then hands the Doctor a key."
+                        },
+                        {
+                            "Character": "BURTON",
+                            "Line": "Oh, look, your chalet is number one oh one in row Y. Oh, if you need any help with the bus, I'm sure our young mechanic will be pleased to assist. I'll see you at lunch, is it?"
+                        },
+                        {
+                            "Stage Direction": "Burton leaves the Doctor and Murray with young Billy."
+                        },
+                        {
+                            "Character": "BILLY",
+                            "Line": "Hi, I'm Billy."
+                        },
+                        {
+                            "Character": "MURRAY",
+                            "Line": "Murray."
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "I'm the Doctor."
+                        },
+                        {
+                            "Character": "BILLY",
+                            "Line": "Old man Burton said there was something wrong with your bus, is that right?"
+                        },
+                        {
+                            "Character": "MURRAY",
+                            "Line": "Well, we hit this low orbital satellite, which jammed the navi-pod and here we are."
+                        },
+                        {
+                            "Stage Direction": "Burton is telling off some boys playing on the chalet steps."
+                        }
+                    ]
+                },
+                {
+                    "Scene": "Mel and Delta's chalet",
+                    "Dialogue": [
+                        {
+                            "Character": "MEL",
+                            "Line": "Look, I can see something's bothering you. Do you want to talk about it?"
+                        },
+                        {
+                            "Character": "DELTA",
+                            "Line": "No."
+                        }
+                    ]
+                },
+                {
+                    "Scene": "By the bus",
+                    "Dialogue": [
+                        {
+                            "Stage Direction": "The Doctor uses his umbrella to prise out the satellite and Murray carries it away. Billy watches, bemused"
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "Ah, this is the cause of the problem. An extremely crude low orbital satellite capable only of the most rudimentary of radio transmissions."
+                        },
+                        {
+                            "Character": "MURRAY",
+                            "Line": "Ah, thanks, Doctor. I've got to fill in an accident report, otherwise head office will withdraw my licence. As it is, it's touch and go."
+                        },
+                        {
+                            "Stage Direction": "Billy has lifted the radiator cover and whistles."
+                        },
+                        {
+                            "Character": "BILLY",
+                            "Line": "I've never seen an engine like that."
+                        },
+                        {
+                            "Character": "MURRAY",
+                            "Line": "Yes, it's a Helstrom Fireball. Capable of warp five in a good tail wind."
+                        },
+                        {
+                            "Character": "BILLY",
+                            "Line": "What exactly is it you want to do?"
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "Well, you see that navi-pod? It needs to be unbolted so we can replace the broken crystal."
+                        },
+                        {
+                            "Character": "BILLY",
+                            "Line": "Right."
+                        },
+                        {
+                            "Stage Direction": "Billy sets to work while Murray puts the satellite in the rear rocket compartment. The Doctor fetches a small box from the Tardis and carries it as if it is extremely fragile. He hands it to Murray."
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "Now, inside this box is the only Quarb crystal this side of Softel nebula."
+                        },
+                        {
+                            "Character": "MURRAY",
+                            "Line": "Thank goodness you came along, Doctor. Head office says it's my last chance to make good."
+                        },
+                        {
+                            "Stage Direction": "Billy shows them the broken item."
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "Ah, well done. Now, carefully does it."
+                        },
+                        {
+                            "Stage Direction": "The Doctor takes the broken crystal from Billy and hands him the new one. A young woman gets off her motor scooter and walks over to them."
+                        },
+                        {
+                            "Character": "RAY",
+                            "Line": "Hi, Billy."
+                        },
+                        {
+                            "Character": "BILLY",
+                            "Line": "Oh, hi, Rachel. This is Murray and the Doctor."
+                        },
+                        {
+                            "Character": "RAY",
+                            "Line": "Please call me Ray. Oh, do you guys want a hand?"
+                        },
+                        {
+                            "Character": "MURRAY",
+                            "Line": "You haven't by chance got a one and five eights socket, have you?"
+                        },
+                        {
+                            "Stage Direction": "Murray laughs, but Ray gets one from her bag."
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "Do you always carry around a full set of tools with you?"
+                        },
+                        {
+                            "Character": "RAY",
+                            "Line": "Oh, it's what Billy taught me, always to be prepared."
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "A stitch in time fills up space."
+                        },
+                        {
+                            "Character": "MURRAY",
+                            "Line": "Oh! I've broken it! Your crystal. No licence, no job, no future."
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "Well, if you think it might help, I could transport everyone in the Tardis."
+                        },
+                        {
+                            "Character": "MURRAY",
+                            "Line": "No, thank you, Doctor. The captain never leaves his ship."
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "Hmm. Well, there is another alternative. I could accelerate growth in the thermo-booster and create a crystal in about er, twenty four hours."
+                        },
+                        {
+                            "Character": "MURRAY",
+                            "Line": "That's fantastic. You've saved my life, Doctor. I can't see any problem staying here for twenty four hours."
+                        },
+                        {
+                            "Character": "RAY",
+                            "Line": "Oh, great. I'll see you all at the dance, then."
+                        },
+                        {
+                            "Character": "MURRAY",
+                            "Line": "A dance? With live music?"
+                        },
+                        {
+                            "Character": "RAY",
+                            "Line": "Ah ha. Billy here plays great rock and roll."
+                        },
+                        {
+                            "Character": "MURRAY",
+                            "Line": "Sounds too good to miss."
+                        },
+                        {
+                            "Character": "RAY",
+                            "Line": "Okay. See you later, alligator."
+                        },
+                        {
+                            "Character": "MURRAY",
+                            "Line": "I love all that fifties talk."
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "Yes. A most personable young lady. Practical, too. She seems very fond of you, Billy."
+                        },
+                        {
+                            "Character": "BILLY",
+                            "Line": "She's all right. Like my little sister, you know. Now, if you don't need me for anything else, I think I'll go wash up for dinner."
+                        },
+                        {
+                            "Character": "MURRAY",
+                            "Line": "Oh, sounds like a good idea. All this spannering really works up an appetite."
+                        }
+                    ]
+                },
+                {
+                    "Scene": "Mel and Delta's chalet",
+                    "Dialogue": [
+                        {
+                            "Stage Direction": "A gong sounds, and Delta rushes to the window with her ray gun ready."
+                        },
+                        {
+                            "Character": "DELTA",
+                            "Line": "What's that?"
+                        },
+                        {
+                            "Character": "MEL",
+                            "Line": "It's the dinner gong. I think I'll finish unpacking later. I'll go and get something to eat."
+                        },
+                        {
+                            "Character": "DELTA",
+                            "Line": "Can you be trusted?"
+                        },
+                        {
+                            "Character": "MEL",
+                            "Line": "Yes, completely. Discretion's my middle name. I'll see you later."
+                        },
+                        {
+                            "Stage Direction": "Mel leaves. Delta opens the incubator to reveal a giant silver sea-urchin style egg."
+                        }
+                    ]
+                },
+                {
+                    "Scene": "Tollport G715",
+                    "Dialogue": [
+                        {
+                            "Stage Direction": "Gavrok and his Bannermen are dragging the Tollmaster along."
+                        },
+                        {
+                            "Character": "GAVROK",
+                            "Line": "Come on, son. Tell me her destination and I will let you live."
+                        },
+                        {
+                            "Character": "TOLLMASTER",
+                            "Line": "I can't. It's more than my job's worth. It's strictly confidential."
+                        },
+                        {
+                            "Character": "GAVROK",
+                            "Line": "I'm getting tired of this. Tell me now!"
+                        },
+                        {
+                            "Character": "TOLLMASTER",
+                            "Line": "They were going, they were going to Disneyland, planet Earth. When they struck the satellite, they were blown off course. I don't know where."
+                        },
+                        {
+                            "Character": "GAVROK",
+                            "Line": "Can you not do better than that?"
+                        },
+                        {
+                            "Character": "TOLLMASTER",
+                            "Line": "Honestly, I don't know."
+                        },
+                        {
+                            "Character": "GAVROK",
+                            "Line": "I can see that you have done your best. Let him go."
+                        },
+                        {
+                            "Character": "TOLLMASTER",
+                            "Line": "Thank you. Oh, thank you. Thank you, thank you, sir. Thank you, thank you gentlemen. Thank you, thank you, thank you."
+                        },
+                        {
+                            "Stage Direction": "The Tollmaster runs away. Gavrok shoots him in the back."
+                        },
+                        {
+                            "Character": "GAVROK",
+                            "Line": "We've wasted enough time here. Plot a course for Earth. I want every informer throughout the galaxy to look for her."
+                        }
+                    ]
+                },
+                {
+                    "Scene": "Main hall",
+                    "Dialogue": [
+                        {
+                            "Stage Direction": "Currently serving as the dining room. A small boy gives the Doctor an apple. The waitress serves the next table with the meal as Mel joins him."
+                        },
+                        {
+                            "Character": "MEL",
+                            "Line": "Doctor, there's something odd here."
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "Well, it is home, for the moment. At least until the navi-pod's fixed. Personally speaking, I rather like it."
+                        },
+                        {
+                            "Character": "MEL",
+                            "Line": "I'm determined to try and enjoy myself if I can."
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "Excellent."
+                        },
+                        {
+                            "Stage Direction": "Delta sits at another table."
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "About your room mate."
+                        },
+                        {
+                            "Character": "MEL",
+                            "Line": "She's got a gun. She's very on edge."
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "Have you managed to speak to her at all?"
+                        },
+                        {
+                            "Character": "MEL",
+                            "Line": "Of course, but she's totally withdrawn. It makes me nervous."
+                        },
+                        {
+                            "Stage Direction": "While Delta stares at her plate of food, Billy sits down opposite her. She smiles briefly then leaves."
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "If she's who I think she is, then she's in danger."
+                        },
+                        {
+                            "Character": "MEL",
+                            "Line": "From someone here?"
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "That's what we've got to find out."
+                        },
+                        {
+                            "Stage Direction": "Burton attracts everyone's attention by tapping on a glass."
+                        },
+                        {
+                            "Character": "BURTON",
+                            "Line": "Well, this is to remind you that tonight we are having our Get To Know You dance."
+                        },
+                        {
+                            "Character": "ALL",
+                            "Line": "Hooray!"
+                        },
+                        {
+                            "Character": "BURTON",
+                            "Line": "Everyone is most welcome, from eight till late."
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "Try to get her to come to the dance. It might relax her, and then maybe she'll speak with us later on."
+                        },
+                        {
+                            "Character": "MEL",
+                            "Line": "I'll see what I can do."
+                        },
+                        {
+                            "Stage Direction": "Mel takes the Doctor's apple and leaves."
+                        },
+                        {
+                            "Stage Direction": "Later that evening, the tables and chairs are gone and a band is playing 'Singing the Blues' on a low stage. Everyone is dancing and enjoying themselves. Billy is showing the Doctor a loudspeaker set."
+                        },
+                        {
+                            "Character": "BILLY",
+                            "Line": "What do you think of it, Doctor? I built it myself from spare parts from the war."
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "How appropriate."
+                        },
+                        {
+                            "Character": "BILLY",
+                            "Line": "What?"
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "I said, for a primitive piece of technology it certainly delivers the decibels."
+                        },
+                        {
+                            "Character": "BILLY",
+                            "Line": "That's what rock and roll's all about."
+                        },
+                        {
+                            "Stage Direction": "Billy takes the microphone and sings."
+                        },
+                        {
+                            "Character": "BILLY",
+                            "Line": "Well, I never felt more like singing the blues, cos I never thought that I'd ever lose your love, dear. Why'd you do me this way?"
+                        },
+                        {
+                            "Character": "MURRAY",
+                            "Line": "Hey, this is great. The 1950 nights back on Navarro were never like this."
+                        },
+                        {
+                            "Stage Direction": "Murray dances off with Mel."
+                        },
+                        {
+                            "Character": "BILLY",
+                            "Line": "The dream is gone I thought was mine."
+                        },
+                        {
+                            "Character": "RAY",
+                            "Line": "See, Doctor? It's not as bad as all that, now, is it?"
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "Bad? No. Rather nice, in fact."
+                        },
+                        {
+                            "Character": "RAY",
+                            "Line": "Oh, let's go down to the front. I can't see Billy properly from here."
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "Er, have you known each other long?"
+                        },
+                        {
+                            "Character": "RAY",
+                            "Line": "Oh, since we were children. I even learnt all about motorbikes in the hope it'd make him notice me, but it doesn't seem to have made a blind bit of difference."
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "Come on, let's go down to the front."
+                        },
+                        {
+                            "Stage Direction": "The song ends."
+                        },
+                        {
+                            "Character": "BILLY",
+                            "Line": "Thanks, mates. And now, a romantic number from across the pond, for a very special lady in the audience. Why do fools fall in love."
+                        },
+                        {
+                            "Stage Direction": "Ray's smile fades as she follows Billy's eyes to Delta, now wearing a green spotted dress."
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "I was wondering, Ray, if"
+                        },
+                        {
+                            "Character": "RAY",
+                            "Line": "Thank you, Doctor, I'd love to."
+                        },
+                        {
+                            "Stage Direction": "They dance."
+                        }
+                    ]
+                },
+                {
+                    "Scene": "Welsh countryside",
+                    "Dialogue": [
+                        {
+                            "Stage Direction": "An owl hoots and a waxing half moon hangs in the sky as the two Americans are silhouetted inside their small tent."
+                        },
+                        {
+                            "Character": "WEISMULLER",
+                            "Line": "Throw some more wood on the fire, Hawk."
+                        },
+                        {
+                            "Character": "HAWK",
+                            "Line": "Why don't you, Weismuller?"
+                        },
+                        {
+                            "Character": "WEISMULLER",
+                            "Line": "Because you're nearer to the flap, Hawk. Go on, go on, go on, get out of here."
+                        },
+                        {
+                            "Stage Direction": "Hawk crawls out of the tent."
+                        },
+                        {
+                            "Character": "HAWK",
+                            "Line": "I'll get you, Weismuller. I'll get you."
+                        }
+                    ]
+                },
+                {
+                    "Scene": "Outside the main hall",
+                    "Dialogue": [
+                        {
+                            "Stage Direction": "The Doctor collects his jacket and umbrella from a chair."
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "Lovely dance."
+                        },
+                        {
+                            "Character": "MURRAY",
+                            "Line": "Oh, it's hot in there."
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "Ah, you Navarinos have a notoriously high metabolic rate."
+                        },
+                        {
+                            "Character": "MURRAY",
+                            "Line": "That hula hoop competition nearly finished me off."
+                        },
+                        {
+                            "Stage Direction": "Delta pushes between them and walks out."
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "Excuse me, Murray."
+                        },
+                        {
+                            "Character": "MURRAY",
+                            "Line": "Hey, you'll miss the last dance, Doctor!"
+                        }
+                    ]
+                },
+                {
+                    "Scene": "Laundry store",
+                    "Dialogue": [
+                        {
+                            "Stage Direction": "The music is being piped through the camp speakers. It's Mister Sandman. The Doctor finds Ray crying inside the Laundry store."
+                        },
+                        {
+                            "Character": "RAY",
+                            "Line": "Oh, hi. I was just, er"
+                        },
+                        {
+                            "Stage Direction": "Ray cries on the Doctor's shoulder."
+                        },
+                        {
+                            "Character": "RAY",
+                            "Line": "Oh, Doctor, am I being a fool? Billy didn't even offer to take me home."
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "There, there. There's many a slap twixt a cup and a lap, Ray."
+                        },
+                        {
+                            "Character": "RAY",
+                            "Line": "But somehow I always thought Billy and me would end up together. Oh, it shows how wrong you can be. Oh, listen to me."
+                        },
+                        {
+                            "Stage Direction": "The door opens."
+                        },
+                        {
+                            "Character": "RAY",
+                            "Line": "We're not supposed to be in here."
+                        },
+                        {
+                            "Stage Direction": "They hide behind racks of pink bed sheets. The thin faced man from the bus comes in and extends the aerial of a large radio telephone."
+                        },
+                        {
+                            "Character": "KEILLOR",
+                            "Line": "Connect me with the Bannerman leader."
+                        },
+                        {
+                            "Character": "GAVROK [OC]",
+                            "Line": "Gavrok here. Go ahead."
+                        },
+                        {
+                            "Character": "KEILLOR",
+                            "Line": "I understand you're offering a reward for the Chimeron queen."
+                        },
+                        {
+                            "Character": "GAVROK [OC]",
+                            "Line": "Affirmative. One million units."
+                        },
+                        {
+                            "Character": "KEILLOR",
+                            "Line": "I've found her. Repeat, I've found her."
+                        },
+                        {
+                            "Character": "GAVROK [OC]",
+                            "Line": "What is your status?"
+                        },
+                        {
+                            "Character": "KEILLOR",
+                            "Line": "I'm a soldier of fortune. Now, do you want to trade or not?"
+                        },
+                        {
+                            "Character": "GAVROK [OC]",
+                            "Line": "Affirmative."
+                        },
+                        {
+                            "Character": "KEILLOR",
+                            "Line": "She's at a place called Shangri La, in South Wales, Western Hemisphere, Earth. Now lock into this signal to guide you in."
+                        },
+                        {
+                            "Character": "GAVROK [OC]",
+                            "Line": "The reward will be yours when we arrive. End transmission."
+                        },
+                        {
+                            "Stage Direction": "The Doctor sneezes. Keillor pulls out a gun and goes searching."
+                        }
+                    ]
+                },
+                {
+                    "Scene": "Mel and Delta's chalet",
+                    "Dialogue": [
+                        {
+                            "Character": "DELTA",
+                            "Line": "Thank you."
+                        },
+                        {
+                            "Character": "MEL",
+                            "Line": "What for?"
+                        },
+                        {
+                            "Character": "DELTA",
+                            "Line": "For lending me your dress. For making an effort to be kind."
+                        },
+                        {
+                            "Character": "MEL",
+                            "Line": "Oh, I'd help anyone in trouble, if I could."
+                        },
+                        {
+                            "Character": "DELTA",
+                            "Line": "Mel, there's something you should know."
+                        },
+                        {
+                            "Stage Direction": "The egg starts to hatch. Mel screams as a green face emerges. Billy bursts in with the bouquet he has brought for Delta."
+                        },
+                        {
+                            "Character": "DELTA",
+                            "Line": "My baby. My beautiful baby."
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "Episode": "Part Two",
+            "Scenes": [
+                {
+                    "Scene": "Gavrok's spaceship",
+                    "Dialogue": [
+                        {
+                            "Character": "GAVROK",
+                            "Line": "My bounty hunter will be paid off sooner than he thinks. Arm the beacon hunter."
+                        },
+                        {
+                            "Stage Direction": "Gavrok presses a red button. In the Laundry store, Keillor goes up in a flash of flames. Ray screams. Only a pair of blue suede shoes and a mangled radio telephone remain. The blast has knocked the Doctor and Ray unconscious."
+                        }
+                    ]
+                },
+                {
+                    "Scene": "Mel and Delta's chalet",
+                    "Dialogue": [
+                        {
+                            "Stage Direction": "To the strains of Goodnight Campers aka Goodnight Sweetheart over the camp speakers, Billy approaches their door with a bouquet and slicks back his hair. Inside, Delta is cradling her little green offspring. Billy enters without knocking."
+                        },
+                        {
+                            "Character": "DELTA",
+                            "Line": "My life's at risk. I'm going to trust you, and I think you deserve a full explanation. I think you'd better close the door."
+                        },
+                        {
+                            "Stage Direction": "Billy does so."
+                        }
+                    ]
+                },
+                {
+                    "Scene": "Goronwy's cottage",
+                    "Dialogue": [
+                        {
+                            "Stage Direction": "As dawn breaks and the cock crows, an old bee keeper is smoking his hives whilst singing that wartime favourite - You are my honey, honeysuckle. The two Americans drive up and stop outside the wall to talk to the venerable  Hugh Lloyd."
+                        },
+                        {
+                            "Character": "GORONWY",
+                            "Line": "Good morning. What a beautiful morning it is."
+                        },
+                        {
+                            "Character": "WEISMULLER",
+                            "Line": "Sure is. By the way, have you er, have you seen anything weird fall out of the sky?"
+                        },
+                        {
+                            "Character": "GORONWY",
+                            "Line": "Oh dear me, no. I've seen many things fall out of the sky, but nothing which could be described as weird."
+                        },
+                        {
+                            "Character": "HAWK",
+                            "Line": "What about lights? Anything like that?"
+                        },
+                        {
+                            "Character": "GORONWY",
+                            "Line": "Oh, there are strange lights in the night sky all the time. Not just the Aurora Borealis, mind, but low pulsing lights on occasions and low shooting stars."
+                        },
+                        {
+                            "Character": "WEISMULLER",
+                            "Line": "Uh huh. Er, anything in the last day or so?"
+                        },
+                        {
+                            "Character": "GORONWY",
+                            "Line": "I shall ask my bees. They know everything that happens."
+                        },
+                        {
+                            "Character": "HAWK",
+                            "Line": "Sure. Well, I reckon we've taken up enough of your time."
+                        },
+                        {
+                            "Character": "GORONWY",
+                            "Line": "If you stayed a bit longer, young man, you might understand."
+                        },
+                        {
+                            "Stage Direction": "A butterfly lands on Goronwy's palm."
+                        },
+                        {
+                            "Character": "GORONWY",
+                            "Line": "Take a look at this butterfly. Arguably one of the most beautiful creatures in the whole of nature. Yet if you were to see a pupa, you'd think it was the ugliest sight you've ever seen. But you can't have one without the other."
+                        }
+                    ]
+                },
+                {
+                    "Scene": "Mel and Delta's chalet",
+                    "Dialogue": [
+                        {
+                            "Stage Direction": "The baby is maturing into something more humanoid very quickly."
+                        },
+                        {
+                            "Character": "DELTA",
+                            "Line": "And so, I'm the last Chimeron queen. My planet is right now in the grip of the invaders. My people are dead. Poor Mel's exhausted. I think we'd better let her get some sleep. Billy, I feel like a walk."
+                        },
+                        {
+                            "Character": "BILLY",
+                            "Line": "Sure. The hills around here are beautiful. We can go somewhere really special."
+                        },
+                        {
+                            "Character": "DELTA",
+                            "Line": "But I can't walk too far with the baby."
+                        },
+                        {
+                            "Character": "BILLY",
+                            "Line": "I never said anything about walking."
+                        },
+                        {
+                            "Stage Direction": "The baby frets in a rather high pitch as they leave Mel to her rest."
+                        }
+                    ]
+                },
+                {
+                    "Scene": "Garage",
+                    "Dialogue": [
+                        {
+                            "Stage Direction": "Billy has a bike and sidecar."
+                        },
+                        {
+                            "Character": "DELTA",
+                            "Line": "What is it?"
+                        },
+                        {
+                            "Character": "BILLY",
+                            "Line": "She's a Vincent. My pride and joy."
+                        }
+                    ]
+                },
+                {
+                    "Scene": "Laundry store",
+                    "Dialogue": [
+                        {
+                            "Stage Direction": "The noise of the beast starting up wakes the Doctor, who runs out of the Laundry store in time to see them driving away. He runs back inside to Ray."
+                        },
+                        {
+                            "Character": "RAY",
+                            "Line": "Oh, my head."
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "Do you feel all right? Nothing hurt or broken?"
+                        },
+                        {
+                            "Character": "RAY",
+                            "Line": "But, but what happened to that guy with the gun?"
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "I'm afraid he was paid in kind. You see this signal beacon? It exploded from the inside. Obviously the Bannermen locked into his signal and fired off a high impulse beam right along his transmission track."
+                        },
+                        {
+                            "Character": "RAY",
+                            "Line": "So they, they killed him?"
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "I'm afraid so. Ionised."
+                        },
+                        {
+                            "Character": "RAY",
+                            "Line": "And this is all that's left of him."
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "Yes. A poignant reminder that violence always rebounds on itself. But we must warn the others that an attack is imminent."
+                        }
+                    ]
+                },
+                {
+                    "Scene": "Office",
+                    "Dialogue": [
+                        {
+                            "Stage Direction": "The camp announcer checks his vocal chords, sits at the sound desk and strikes a gong."
+                        },
+                        {
+                            "Character": "VINNY",
+                            "Line": "Good morning. Let's start with a song. When the red, red robin comes bob, bob, bobbing along."
+                        }
+                    ]
+                },
+                {
+                    "Scene": "Mel and Delta's chalet",
+                    "Dialogue": [
+                        {
+                            "Stage Direction": "The Doctor and Ray run inside. She has changed into her biker leathers."
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "Mel, Mel, are you all right?"
+                        },
+                        {
+                            "Character": "MEL",
+                            "Line": "Hmm? Oh, nothing a good night's sleep wouldn't cure."
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "Well, I'm afraid that'll have to wait. Do you know where Delta and Billy have gone?"
+                        },
+                        {
+                            "Character": "MEL",
+                            "Line": "They didn't tell me. Billy was taking her to some beauty spot, I think."
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "Well, we've got to find them as quick as we can. And organise an evacuation of the camp. The Bannermen are on their way."
+                        },
+                        {
+                            "Character": "MEL",
+                            "Line": "I'll get Murray to organise the tour party."
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "Good. But they'll be one short."
+                        },
+                        {
+                            "Character": "RAY",
+                            "Line": "He was ionised."
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "Yes. But I must try and find Delta and Billy. Do you know where they might be, Ray?"
+                        },
+                        {
+                            "Character": "RAY",
+                            "Line": "Well, there are a couple of beauty spots in the area we could try. And also a few special places only known to Billy and me."
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "Well, we're going to have to keep looking for them until we find them. But first we must convince Burton to evacuate the camp. Mel, you find Murray. Ray, come with me."
+                        },
+                        {
+                            "Character": "MEL",
+                            "Line": "Right."
+                        }
+                    ]
+                },
+                {
+                    "Scene": "By the river",
+                    "Dialogue": [
+                        {
+                            "Stage Direction": "Delta hands the baby to Billy while she gets out of the sidecar."
+                        },
+                        {
+                            "Character": "BILLY",
+                            "Line": "Oh, you're a bit of a heavyweight, aren't you?"
+                        },
+                        {
+                            "Character": "DELTA",
+                            "Line": "The most rapid growth occurs in the lymphoid state. She'll double her size and her weight in the next few hours."
+                        },
+                        {
+                            "Character": "BILLY",
+                            "Line": "Come on."
+                        }
+                    ]
+                },
+                {
+                    "Scene": "Office",
+                    "Dialogue": [
+                        {
+                            "Stage Direction": "Burton is still in a garish silk dressing gown."
+                        },
+                        {
+                            "Character": "BURTON",
+                            "Line": "Now, let me try and get this right. Now, are you telling me that you are not the Happy Hearts Holiday Club from Bolton, but instead are spacemen in fear of an attack from some other spacemen, and because of the danger, you want me to evacuate the entire camp?"
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "An excellent summary, Mister Burton. Now, if you start right away, then we'll be able to get them to safety."
+                        },
+                        {
+                            "Character": "BURTON",
+                            "Line": "Oh well, if that is all that is needed, it should be easy. Oh, by the way, can we have space buns and tea afterwards? Or don't they drink tea on Mars?"
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "I thought you might be a little skeptical. What can I do to convince you?"
+                        },
+                        {
+                            "Character": "BURTON",
+                            "Line": "Oh, this is a waste of time, Doctor."
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "Listen, Mister Burton. If you don't act right away, innocent people will die! I will do whatever I can to convince you I'm not suffering from some sort of delusion."
+                        },
+                        {
+                            "Character": "BURTON",
+                            "Line": "All right, Doctor. Dan das sochivy."
+                        },
+                        {
+                            "Character": "RAY",
+                            "Line": "Meinwyr, meinwyr."
+                        },
+                        {
+                            "Character": "BURTON",
+                            "Line": "How about showing us your spaceship, eh?"
+                        },
+                        {
+                            "Character": "RAY",
+                            "Line": "Oh, can I come too, Doctor?"
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "Of course, but let's go quickly."
+                        }
+                    ]
+                },
+                {
+                    "Scene": "Outside chalet 108",
+                    "Dialogue": [
+                        {
+                            "Stage Direction": "Mel has changed into embroidered denim shirt and jeans, and is hammering on the door."
+                        },
+                        {
+                            "Character": "MEL",
+                            "Line": "Murray! Murray, wake up!"
+                        },
+                        {
+                            "Stage Direction": "Sleepy Murray opens the door. He is reading the Eagle comic."
+                        },
+                        {
+                            "Character": "MURRAY",
+                            "Line": "What's the matter?"
+                        },
+                        {
+                            "Character": "MEL",
+                            "Line": "There's an emergency, Murray. We have to get ready to leave as soon as the bus is fixed."
+                        },
+                        {
+                            "Character": "MURRAY",
+                            "Line": "What kind of emergency?"
+                        },
+                        {
+                            "Character": "MEL",
+                            "Line": "The Bannerman warfleet's on its way."
+                        },
+                        {
+                            "Character": "MURRAY",
+                            "Line": "You stay there. I'll get changed."
+                        },
+                        {
+                            "Character": "MEL",
+                            "Line": "Okay."
+                        }
+                    ]
+                },
+                {
+                    "Scene": "Outside Shangri La",
+                    "Dialogue": [
+                        {
+                            "Stage Direction": "Burton, Ray and the Doctor come out of the Tardis after their guided tour."
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "It's called a Tardis, an acronym for Time And Relative Dimensions In Space."
+                        },
+                        {
+                            "Character": "BURTON",
+                            "Line": "Really? Couldn't we take it for a bit of a spin, Doctor?"
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "Yes, with pleasure, but first things first. We must clear the camp."
+                        },
+                        {
+                            "Character": "BURTON",
+                            "Line": "Right."
+                        }
+                    ]
+                },
+                {
+                    "Scene": "Chalet area",
+                    "Dialogue": [
+                        {
+                            "Character": "MURRAY",
+                            "Line": "Everybody out, campers! Attention! Everybody out! Listen, everybody out! Now look, we should quickly pack and then wait at the bus until we're ready to leave."
+                        },
+                        {
+                            "Character": "BOLLIT",
+                            "Line": "(a lady) Well, what's the big rush, Murray? It's nice here."
+                        },
+                        {
+                            "Character": "MURRAY",
+                            "Line": "Truth is, there's a Bannerman war fleet on its way here. Nice and easy, folks. Don't panic! Nice and easy, nice and easy, don't panic."
+                        },
+                        {
+                            "Stage Direction": "All the alien visitors rush back into their chalets to pack."
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "I see you've got everything under control, Murray. We must go and see the crystal. If it's ready, then you must leave."
+                        },
+                        {
+                            "Character": "MURRAY",
+                            "Line": "You won't see me for dust, Doctor."
+                        }
+                    ]
+                },
+                {
+                    "Scene": "Office",
+                    "Dialogue": [
+                        {
+                            "Stage Direction": "Burton makes an announcement over the speakers."
+                        },
+                        {
+                            "Character": "BURTON",
+                            "Line": "Good morning, everyone. This is a matter of some urgency."
+                        }
+                    ]
+                },
+                {
+                    "Scene": "Chalet area",
+                    "Dialogue": [
+                        {
+                            "Character": "BURTON [OC]",
+                            "Line": "Could all staff, without exception, assemble in my office immediately. Could all employees"
+                        }
+                    ]
+                },
+                {
+                    "Scene": "Outside Shangri La",
+                    "Dialogue": [
+                        {
+                            "Stage Direction": "The Doctor hands over a large container two thirds full of red liquid."
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "It's almost re-grown. Just another half hour. And then you've got to leave, whether I come back or not."
+                        },
+                        {
+                            "Character": "MURRAY",
+                            "Line": "Back from where?"
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "I've got to find Delta. Mel, you stay here and organise things. Come on, let's go, Ray."
+                        },
+                        {
+                            "Stage Direction": "Ray puts on her crash helmet as the Doctor gets onto the passenger seat of her scooter."
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "Take care of the crystal!"
+                        },
+                        {
+                            "Character": "MURRAY",
+                            "Line": "Count on me, Doctor."
+                        }
+                    ]
+                },
+                {
+                    "Scene": "Office",
+                    "Dialogue": [
+                        {
+                            "Character": "BURTON",
+                            "Line": "I've call you all here at such short notice because we are facing a crisis. Now, what I would like you all to do is to go back to your chalets and pack whatever you need for one night. I have already ordered a bus to take us all away from here. You will spend the night in Llandrindod Wells and return in a day or so. Any questions? Splendid."
+                        },
+                        {
+                            "Character": "VINNY",
+                            "Line": "I don't normally like running away, sir. What's up?"
+                        },
+                        {
+                            "Character": "BURTON",
+                            "Line": "Ah, well, it's because we're facing an attack. It's because we are er, well, we are in danger, you know. Well, it's top secret. I've got a man here now from the Ministry of Defence, so look sharp, will you?"
+                        },
+                        {
+                            "Character": "VINNY",
+                            "Line": "Are you staying, sir?"
+                        },
+                        {
+                            "Character": "BURTON",
+                            "Line": "Well, of course. They would have to drag me away from here, man."
+                        },
+                        {
+                            "Character": "VINNY",
+                            "Line": "Then I'll stay too, Major."
+                        },
+                        {
+                            "Character": "BURTON",
+                            "Line": "Thank you, Vinny, but you will all have to go, and that is an order. Look sharp now. Off you go."
+                        }
+                    ]
+                },
+                {
+                    "Scene": "By the river",
+                    "Dialogue": [
+                        {
+                            "Stage Direction": "The lovebirds have spread a blanket on the ground and have a transistor radio with them. The girl is growing fast, and making musical chime noises."
+                        },
+                        {
+                            "Character": "BILLY",
+                            "Line": "That noise she makes. It's almost like singing."
+                        },
+                        {
+                            "Character": "DELTA",
+                            "Line": "It's partly a song, and partly a defence mechanism."
+                        },
+                        {
+                            "Character": "BILLY",
+                            "Line": "Against the Bannermen."
+                        }
+                    ]
+                },
+                {
+                    "Scene": "Fern Dell",
+                    "Dialogue": [
+                        {
+                            "Stage Direction": "Looking down into a steep valley."
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "Did you come here with Billy often?"
+                        },
+                        {
+                            "Character": "RAY",
+                            "Line": "We called it Fern Dell. We used to play here as children. But I don't see his bike anywhere."
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "Could it be hidden?"
+                        },
+                        {
+                            "Character": "RAY",
+                            "Line": "Oh no, not the Vincent. It's just too big."
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "Well, they're not here. Come on."
+                        }
+                    ]
+                },
+                {
+                    "Scene": "Outside Shangri La",
+                    "Dialogue": [
+                        {
+                            "Stage Direction": "Burton is loading his customers on the bus."
+                        },
+                        {
+                            "Character": "BURTON",
+                            "Line": "Come on! Don't stand about, but come on. Go on now. Come on, come on."
+                        },
+                        {
+                            "Stage Direction": "Murray is pacing up and down, watching the crystal finish growing."
+                        },
+                        {
+                            "Character": "MEL",
+                            "Line": "Fortunately they didn't have much packing to do. How's the crystal coming?"
+                        },
+                        {
+                            "Character": "MURRAY",
+                            "Line": "I'm trying to use mind power to make it grow faster, but I haven't had much luck."
+                        },
+                        {
+                            "Stage Direction": "Burton comes over."
+                        },
+                        {
+                            "Character": "BURTON",
+                            "Line": "I'm doing this with grave misgivings, but I cannot risk my staff for it."
+                        },
+                        {
+                            "Character": "MURRAY",
+                            "Line": "Just like a captain, Mister Burton."
+                        },
+                        {
+                            "Character": "BURTON",
+                            "Line": "Major, actually. I am still not sure what I saw in that police box, but I cannot risk my staff for it."
+                        },
+                        {
+                            "Character": "MEL",
+                            "Line": "You're doing the right thing."
+                        },
+                        {
+                            "Stage Direction": "Vinny runs onto the bus as it pulls away."
+                        }
+                    ]
+                },
+                {
+                    "Scene": "Gavrok's spaceship",
+                    "Dialogue": [
+                        {
+                            "Stage Direction": "A grid map of Wales is on the viewscreen. A light is flashing on the south coast."
+                        },
+                        {
+                            "Character": "GAVROK",
+                            "Line": "She's somewhere in that quadrant. It's a pity we had to destroy the beacon when we killed that mercenary. We'll have to scan the whole area until we find some trace of advanced technology emissions. But she will soon be dead."
+                        }
+                    ]
+                },
+                {
+                    "Scene": "Welsh countryside",
+                    "Dialogue": [
+                        {
+                            "Stage Direction": "The American agents have returned to their campsite. Hawk is holding up the aerial again while Weismuller is cooking sausages."
+                        },
+                        {
+                            "Character": "WEISMULLER",
+                            "Line": "You're wasting your time, Hawk."
+                        },
+                        {
+                            "Character": "HAWK",
+                            "Line": "Well, it's better that stopping every stranger we find and asking them if they've seen our lost satellite."
+                        },
+                        {
+                            "Character": "WEISMULLER",
+                            "Line": "But there's no point in listening to that radio. It stopped transmitting. That's why you and I have to look for that satellite."
+                        },
+                        {
+                            "Character": "HAWK",
+                            "Line": "Then I'll listen to Voice of America. Anything's better than your yammering."
+                        },
+                        {
+                            "Stage Direction": "The Doctor and Ray pull up by the gate to the field they are in."
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "Excuse me! Have you seen a couple go by? A fellow on a big black bike and a lady with a green polka dot dress."
+                        },
+                        {
+                            "Character": "WEISMULLER",
+                            "Line": "Mister, we haven't even seen a squirrel this morning."
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "Are there any other places, Ray?"
+                        },
+                        {
+                            "Character": "RAY",
+                            "Line": "Well, there is just one last chance."
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "Well, let's give it a try."
+                        }
+                    ]
+                },
+                {
+                    "Scene": "Outside Shangri La",
+                    "Dialogue": [
+                        {
+                            "Stage Direction": "The aliens are all gathered at the back of the Nostalgia Trips bus."
+                        },
+                        {
+                            "Character": "MEL",
+                            "Line": "Well, I don't know much about crystalline structures, but that looks about cooked."
+                        },
+                        {
+                            "Character": "MURRAY",
+                            "Line": "Yes, looks ready to me, Mel. Well, here goes."
+                        }
+                    ]
+                },
+                {
+                    "Scene": "Country lane",
+                    "Dialogue": [
+                        {
+                            "Stage Direction": "Ray stops at a gate across their path."
+                        },
+                        {
+                            "Character": "RAY",
+                            "Line": "Oh, this is the end of the road, Doctor. I don't know where else to try."
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "Ah, these tyre marks show a heavy motorcycle and sidecar. Come on."
+                        },
+                        {
+                            "Stage Direction": "He opens the gate for her, and shuts it after."
+                        }
+                    ]
+                },
+                {
+                    "Scene": "By the river",
+                    "Dialogue": [
+                        {
+                            "Stage Direction": "The not so little girl is feeding."
+                        },
+                        {
+                            "Character": "DELTA",
+                            "Line": "If I can get the hatchling safely to the Brood planet, then I can take my case to judgement. They will then send an expeditionary force to get rid of Gavrok and his Bannermen."
+                        },
+                        {
+                            "Character": "BILLY",
+                            "Line": "Well, I'll do whatever I can to help, Delta."
+                        },
+                        {
+                            "Stage Direction": "The scooter comes slowly down the track and stops behind the Vincent."
+                        },
+                        {
+                            "Character": "BILLY",
+                            "Line": "That's Ray and the Doctor. They're sure in a hurry."
+                        },
+                        {
+                            "Character": "DELTA",
+                            "Line": "The Bannermen!"
+                        },
+                        {
+                            "Character": "RAY",
+                            "Line": "Oh, thank heavens!"
+                        },
+                        {
+                            "Character": "BILLY",
+                            "Line": "Why is everyone in such a lather?"
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "Found you at last."
+                        },
+                        {
+                            "Character": "DELTA",
+                            "Line": "Gavrok?"
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "Yes. We overheard a space mercenary give the position of the camp. There's a price on your head."
+                        },
+                        {
+                            "Character": "BILLY",
+                            "Line": "Yeah? Well, where is this guy? I reckon we've got a score to settle."
+                        },
+                        {
+                            "Character": "RAY",
+                            "Line": "He's been ionised."
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "Murray's fixing the bus. He shouldn't be long. Then you can leave. So we've got to go back now."
+                        }
+                    ]
+                },
+                {
+                    "Scene": "Gavrok's spaceship",
+                    "Dialogue": [
+                        {
+                            "Character": "GAVROK",
+                            "Line": "Transmitter identified. Triangulate and set course."
+                        },
+                        {
+                            "Stage Direction": "To the strains of the Dick Barton theme, our heroes drive back to the camp."
+                        }
+                    ]
+                },
+                {
+                    "Scene": "Welsh countryside",
+                    "Dialogue": [
+                        {
+                            "Stage Direction": "Gavrok's spaceship comes in for a silent landing as Hawk gives up with the radio."
+                        },
+                        {
+                            "Character": "HAWK",
+                            "Line": "Ain't no use, Weismuller. There's nothing out there."
+                        },
+                        {
+                            "Character": "WEISMULLER",
+                            "Line": "Well, I don't want to be an old I told you so, but if you had listened to me before"
+                        },
+                        {
+                            "Stage Direction": "They watch the spaceship touch down across the stream."
+                        },
+                        {
+                            "Character": "HAWK",
+                            "Line": "Hey, Weismuller, do you think that's it?"
+                        },
+                        {
+                            "Character": "WEISMULLER",
+                            "Line": "Well, I don't know. I ain't never seen a satellite before."
+                        },
+                        {
+                            "Stage Direction": "The Bannermen come out."
+                        },
+                        {
+                            "Character": "WEISMULLER",
+                            "Line": "I always thought that they'd be smaller, somehow. Look, I don't know what's going on around here, but I think we'd better get out of here real fast."
+                        },
+                        {
+                            "Stage Direction": "Gavrok sounds his horn."
+                        },
+                        {
+                            "Character": "GAVROK",
+                            "Line": "Halt!"
+                        },
+                        {
+                            "Character": "WEISMULLER",
+                            "Line": "Oh, hi there. We weren't going anywhere."
+                        },
+                        {
+                            "Character": "GAVROK",
+                            "Line": "Where is the Chimeron queen?"
+                        },
+                        {
+                            "Character": "HAWK",
+                            "Line": "Beats me, chief."
+                        },
+                        {
+                            "Stage Direction": "At Gavrok's signal, a Bannerman shoots the radio set into ions."
+                        },
+                        {
+                            "Character": "WEISMULLER",
+                            "Line": "Hey, that's the property of Uncle Sam."
+                        },
+                        {
+                            "Character": "GAVROK",
+                            "Line": "Where is he, your Uncle Sam?"
+                        },
+                        {
+                            "Character": "HAWK",
+                            "Line": "No, you don't understand."
+                        },
+                        {
+                            "Stage Direction": "Their tent is destroyed."
+                        },
+                        {
+                            "Character": "WEISMULLER",
+                            "Line": "Boy, you sure get sore real quick."
+                        },
+                        {
+                            "Stage Direction": "Gavrok aims his own weapon, then changes his mind."
+                        },
+                        {
+                            "Character": "GAVROK",
+                            "Line": "I will lead the main party. You two, guard them. Come."
+                        }
+                    ]
+                },
+                {
+                    "Scene": "Outside Shangri La",
+                    "Dialogue": [
+                        {
+                            "Character": "MURRAY",
+                            "Line": "Well, we're all gassed up and ready to go."
+                        },
+                        {
+                            "Character": "MEL",
+                            "Line": "Then you must leave at once, Murray."
+                        },
+                        {
+                            "Character": "MURRAY",
+                            "Line": "What about the Doctor and Delta?"
+                        },
+                        {
+                            "Character": "MEL",
+                            "Line": "We can follow you in the Tardis, wherever you go."
+                        },
+                        {
+                            "Character": "MURRAY",
+                            "Line": "I know, but I feel bad about leaving you here. It's your last chance to hitch a ride."
+                        },
+                        {
+                            "Character": "MEL",
+                            "Line": "No, I made an arrangement. I'd better stick to it. Thanks anyway."
+                        },
+                        {
+                            "Character": "MURRAY",
+                            "Line": "Well, it's time to get this show on the road. As they say around here, see you later, alligator."
+                        },
+                        {
+                            "Character": "MEL",
+                            "Line": "In a while, crocodile. Bye!"
+                        },
+                        {
+                            "Character": "MURRAY",
+                            "Line": "Bye!"
+                        },
+                        {
+                            "Character": "MEL",
+                            "Line": "Bye-bye!"
+                        },
+                        {
+                            "Stage Direction": "But just as the bus engines fire up, Gavrok and the Bannermen arrive and disintegrate the whole thing. Mel is knocked to the ground."
+                        },
+                        {
+                            "Character": "GAVROK",
+                            "Line": "So, one of them escaped."
+                        },
+                        {
+                            "Character": "MEL",
+                            "Line": "You killed all those innocent people!"
+                        },
+                        {
+                            "Character": "GAVROK",
+                            "Line": "Was the Chimeron queen amongst them?"
+                        },
+                        {
+                            "Character": "MEL",
+                            "Line": "Yes. Yes, she's dead."
+                        },
+                        {
+                            "Character": "GAVROK",
+                            "Line": "Would you lie?"
+                        },
+                        {
+                            "Character": "MEL",
+                            "Line": "You saw what happened to the bus. No one could have survived that!"
+                        },
+                        {
+                            "Character": "GAVROK",
+                            "Line": "That's right. The Chimerons are finished!"
+                        },
+                        {
+                            "Stage Direction": "The Bannermen hiss in delight. Then the motor convoy comes up onto the car park."
+                        },
+                        {
+                            "Character": "DELTA",
+                            "Line": "The Bannermen!"
+                        },
+                        {
+                            "Stage Direction": "They swerve away."
+                        },
+                        {
+                            "Character": "GAVROK",
+                            "Line": "Attack!"
+                        },
+                        {
+                            "Character": "MEL",
+                            "Line": "No!"
+                        },
+                        {
+                            "Character": "GAVROK",
+                            "Line": "You lied!"
+                        },
+                        {
+                            "Character": "BURTON",
+                            "Line": "Stop! It would be extremely foolish of you to kill her. Keep her as a hostage. She's far more use to you alive."
+                        },
+                        {
+                            "Character": "GAVROK",
+                            "Line": "Kill any other survivors. Tie these two up. They will not be hostages, but bait."
+                        }
+                    ]
+                },
+                {
+                    "Scene": "Country lane",
+                    "Dialogue": [
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "Stop, stop. Stop! Stop! He's not following us."
+                        },
+                        {
+                            "Character": "RAY",
+                            "Line": "Mel's still in there, Doctor, and Burton."
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "My immediate objectives are to set them free and find Delta and the baby somewhere safe."
+                        },
+                        {
+                            "Character": "BILLY",
+                            "Line": "Can you hear something?"
+                        },
+                        {
+                            "Character": "RAY",
+                            "Line": "I can't hear anything."
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "Shush. Those marks behind her ear are high frequency antennae. What are you picking up?"
+                        },
+                        {
+                            "Character": "DELTA",
+                            "Line": "It's not clear, but it's coming from down there."
+                        },
+                        {
+                            "Character": "BILLY",
+                            "Line": "There's nothing there except old Goronwy's place."
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "Does he keep bees?"
+                        },
+                        {
+                            "Character": "BILLY",
+                            "Line": "Yeah. How did you know that?"
+                        },
+                        {
+                            "Character": "DELTA",
+                            "Line": "It's his bees who are telling us to come."
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "Quick."
+                        }
+                    ]
+                },
+                {
+                    "Scene": "Welsh countryside",
+                    "Dialogue": [
+                        {
+                            "Character": "WEISMULLER",
+                            "Line": "You think they would?"
+                        },
+                        {
+                            "Stage Direction": "Hawk shakes his head."
+                        },
+                        {
+                            "Character": "WEISMULLER",
+                            "Line": "Nah, I don't think they would."
+                        }
+                    ]
+                },
+                {
+                    "Scene": "Outside Goronwy's cottage",
+                    "Dialogue": [
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "I wonder if you could help us."
+                        },
+                        {
+                            "Character": "GORONWY",
+                            "Line": "Of course, of course. I am Goronwy."
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "Oh, and I'm the Doctor."
+                        },
+                        {
+                            "Stage Direction": "Billy brings the hatchling. Goronwy gives her the remains of his lunch."
+                        },
+                        {
+                            "Character": "GORONWY",
+                            "Line": "Oh, there you are. Have some of that. Lovely."
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "Is it possible for these people to stay with you for a few hours?"
+                        },
+                        {
+                            "Character": "GORONWY",
+                            "Line": "Yes, of course. Come inside and have a cup of tea. Come along. There we are. I take it she likes a bit of honey."
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "I'm going to have to leave at once. I wonder if you could lend me a pillowcase and a broom handle."
+                        },
+                        {
+                            "Character": "GORONWY",
+                            "Line": "Oh, I should think so."
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "Splendid. Oh, Billy, may I borrow your bike?"
+                        },
+                        {
+                            "Character": "BILLY",
+                            "Line": "All right, Doctor, but try and be careful though, won't you?"
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "I'll treat it as if it were the Tardis."
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "Episode": "Part Three",
+            "Scenes": [
+                {
+                    "Scene": "Welsh countryside",
+                    "Dialogue": [
+                        {
+                            "Stage Direction": "At Shangri La, Gavrok raises his weapon. Mel gets into the sidecar while the Doctor starts the engine and Burton gets on the pillion. Then they drive away. Gavrok fires his weapon into the air. The red flare is seen by the two Bannermen guarding Weismuller and Hawk."
+                        },
+                        {
+                            "Character": "CALLON",
+                            "Line": "Up."
+                        },
+                        {
+                            "Character": "ARREX",
+                            "Line": "Up, up."
+                        },
+                        {
+                            "Character": "HAWK",
+                            "Line": "What's happening now, Weismuller?"
+                        },
+                        {
+                            "Stage Direction": "The Bannermen put metal collars linked by a yoke around their necks."
+                        },
+                        {
+                            "Character": "WEISMULLER",
+                            "Line": "I don't know, but whatever it is, it's, it's better than, than just sitting around. Hey! Holy mackerel."
+                        },
+                        {
+                            "Stage Direction": "The Bannermen run off."
+                        },
+                        {
+                            "Character": "WEISMULLER",
+                            "Line": "Boy. Listen, let's try sitting down again, eh?"
+                        },
+                        {
+                            "Character": "HAWK",
+                            "Line": "Okay."
+                        },
+                        {
+                            "Character": "WEISMULLER",
+                            "Line": "All right. One, two, three."
+                        },
+                        {
+                            "Stage Direction": "Ray climbs over the gate and runs up to them."
+                        },
+                        {
+                            "Character": "RAY",
+                            "Line": "I thought they'd never go. Can you move?"
+                        },
+                        {
+                            "Character": "HAWK",
+                            "Line": "Sure, if I leave my neck behind."
+                        },
+                        {
+                            "Character": "WEISMULLER",
+                            "Line": "Oh, gee. It's no use, lady. They've got a special kind of wrench. It's sort of like a dinky Allen key."
+                        },
+                        {
+                            "Stage Direction": "Ray rummages in her tool bag."
+                        },
+                        {
+                            "Character": "RAY",
+                            "Line": "Is this dinky enough?"
+                        },
+                        {
+                            "Character": "HAWK",
+                            "Line": "It's looking good, sister."
+                        },
+                        {
+                            "Character": "RAY",
+                            "Line": "I'll have you out in a minute, then follow me in your car."
+                        },
+                        {
+                            "Stage Direction": "The yoke falls to the ground."
+                        },
+                        {
+                            "Character": "WEISMULLER",
+                            "Line": "Who is she?"
+                        }
+                    ]
+                },
+                {
+                    "Scene": "Country lane",
+                    "Dialogue": [
+                        {
+                            "Character": "MEL",
+                            "Line": "We did it, Doctor! Free!"
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "Yes, there's more to this than we can fry, Mel."
+                        },
+                        {
+                            "Stage Direction": "The two Bannermen take up positions behind some large stepping stones by a ford."
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "Duck!"
+                        },
+                        {
+                            "Stage Direction": "Bang! Mel screams."
+                        },
+                        {
+                            "Character": "MEL",
+                            "Line": "Did they get you, Doctor?"
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "No, and I don't think they intended to."
+                        },
+                        {
+                            "Character": "MEL",
+                            "Line": "You could have fooled me."
+                        },
+                        {
+                            "Stage Direction": "There is a tracker on the bike."
+                        }
+                    ]
+                },
+                {
+                    "Scene": "Goronwy's cottage",
+                    "Dialogue": [
+                        {
+                            "Stage Direction": "Goronwy has got Billy into the bee keepers net hat. The hatchling now stands as tall as Delta's shoulder."
+                        },
+                        {
+                            "Character": "GORONWY",
+                            "Line": "This is the queen's hive."
+                        },
+                        {
+                            "Character": "BILLY",
+                            "Line": "What's that white stuff?"
+                        },
+                        {
+                            "Character": "GORONWY",
+                            "Line": "Oh, royal jelly. It's a superfood created by the bees themselves. It has the ability to change an ordinary worker bee's larvae into a queen."
+                        },
+                        {
+                            "Character": "BILLY",
+                            "Line": "And that's all there is to it, a better diet?"
+                        },
+                        {
+                            "Character": "GORONWY",
+                            "Line": "Never underestimate the powers of nature, Billy. Now, I want to show you something."
+                        },
+                        {
+                            "Stage Direction": "Goronwy puts the comb back in the hive and leads them to an outbuilding."
+                        }
+                    ]
+                },
+                {
+                    "Scene": "Honey store",
+                    "Dialogue": [
+                        {
+                            "Character": "GORONWY",
+                            "Line": "Now, look at all those jars. Wales' finest honey, all created by my little friends."
+                        },
+                        {
+                            "Character": "BILLY",
+                            "Line": "How long did it take them to make all this lot?"
+                        },
+                        {
+                            "Character": "GORONWY",
+                            "Line": "Oh, I don't know. We've been working together so long I've completely lost track of all time. But I remember this one especially well. 1932, a hot summer and abundant cherry blossom. A classic honey."
+                        },
+                        {
+                            "Stage Direction": "Delta gets the feeding tube from her handbag."
+                        },
+                        {
+                            "Character": "DELTA",
+                            "Line": "She's due to change. The singing time is near."
+                        },
+                        {
+                            "Character": "BILLY",
+                            "Line": "What's the singing time?"
+                        },
+                        {
+                            "Character": "DELTA",
+                            "Line": "The next stage in her growth. This food will help boost her energy for the change."
+                        },
+                        {
+                            "Character": "BILLY",
+                            "Line": "Will she grow up to be a princess, too?"
+                        },
+                        {
+                            "Character": "DELTA",
+                            "Line": "Yes. Her hair and her eyes are already changing. I've fed her this since she was born."
+                        },
+                        {
+                            "Stage Direction": "The hatchling makes plaintive noises."
+                        },
+                        {
+                            "Character": "BILLY",
+                            "Line": "Sometimes that sounds good, other times it's horrible."
+                        },
+                        {
+                            "Character": "DELTA",
+                            "Line": "One frequency is an attack warning, and the other is musical. Soon she'll be able to control both."
+                        },
+                        {
+                            "Character": "GORONWY",
+                            "Line": "Ah, Ray's back with those two lovely American gentlemen."
+                        },
+                        {
+                            "Stage Direction": "Goronwy, Delta and the hatchling leave. Billy picks up the pack of three feeding tubes Delta has left on the table."
+                        },
+                        {
+                            "Character": "GORONWY",
+                            "Line": "Hello!"
+                        }
+                    ]
+                },
+                {
+                    "Scene": "Welsh countryside",
+                    "Dialogue": [
+                        {
+                            "Stage Direction": "The two Bannermen return and report in."
+                        },
+                        {
+                            "Character": "CALLON",
+                            "Line": "Tracker dart in place, sir, but the prisoners have escaped."
+                        },
+                        {
+                            "Character": "GAVROK [OC]",
+                            "Line": "Idiot. Pursue at once. I will follow the signal."
+                        }
+                    ]
+                },
+                {
+                    "Scene": "Country lane",
+                    "Dialogue": [
+                        {
+                            "Stage Direction": "A choice has to be made."
+                        },
+                        {
+                            "Character": "MEL",
+                            "Line": "Let's go that way."
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "Which way? That way?"
+                        }
+                    ]
+                },
+                {
+                    "Scene": "Outside Shangri La",
+                    "Dialogue": [
+                        {
+                            "Character": "GAVROK",
+                            "Line": "Return to the fighter."
+                        },
+                        {
+                            "Stage Direction": "The tracker beeps as they get to the Tardis."
+                        },
+                        {
+                            "Character": "GAVROK",
+                            "Line": "Sonic cone."
+                        },
+                        {
+                            "Stage Direction": "A Bannerman places a cone on the roof and they back away. Gavrok activates it then throws a piece of wood at it as a test. It goes bang."
+                        }
+                    ]
+                },
+                {
+                    "Scene": "Field",
+                    "Dialogue": [
+                        {
+                            "Character": "MEL",
+                            "Line": "Doctor!"
+                        },
+                        {
+                            "Stage Direction": "They bounce through a herd of cows and eventually pull up by a pair of goats."
+                        },
+                        {
+                            "Character": "MEL",
+                            "Line": "Why are we stopping, Doctor?"
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "In order to lengthen our odds, may I borrow a length of your ribbon?"
+                        },
+                        {
+                            "Stage Direction": "The red ribbon in Mel's hair."
+                        }
+                    ]
+                },
+                {
+                    "Scene": "Outside Goronwy's cottage",
+                    "Dialogue": [
+                        {
+                            "Character": "HAWK",
+                            "Line": "All I know is, they're not Americans."
+                        },
+                        {
+                            "Character": "RAY",
+                            "Line": "But we've already explained who they are."
+                        },
+                        {
+                            "Character": "WEISMULLER",
+                            "Line": "Yeah, they're like hit men from Mars."
+                        },
+                        {
+                            "Character": "HAWK",
+                            "Line": "You too, Weismuller? Whoever they are, I plan to get even."
+                        },
+                        {
+                            "Character": "GORONWY",
+                            "Line": "Listen."
+                        },
+                        {
+                            "Stage Direction": "The Doctor drives up."
+                        },
+                        {
+                            "Character": "RAY",
+                            "Line": "You rescued them, Doctor!"
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "Ah, we're not in the clear yet. Er, Ray tells me you've got some honey stored, Goronwy."
+                        },
+                        {
+                            "Character": "GORONWY",
+                            "Line": "Only about ten thousand jars, Doctor."
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "Excellent! Billy, Ray, you come with me and Goronwy. I've got one final thing to do."
+                        }
+                    ]
+                },
+                {
+                    "Scene": "Gavrok's spaceship",
+                    "Dialogue": [
+                        {
+                            "Character": "GAVROK",
+                            "Line": "Signal has stabilised. Prepare to blast off."
+                        }
+                    ]
+                },
+                {
+                    "Scene": "Goronwy's cottage",
+                    "Dialogue": [
+                        {
+                            "Stage Direction": "Callon and Arrex see Delta and her child in Goronwy's garden. As they move in to hide behind some hay bales, Delta discovers she has only one pack of feeding tubes left."
+                        },
+                        {
+                            "Character": "WEISMULLER",
+                            "Line": "But it's our patriotic duty to call Washington, Hawk."
+                        },
+                        {
+                            "Character": "HAWK",
+                            "Line": "Yeah, well, you go ahead, Weismuller. I ain't licked yet."
+                        },
+                        {
+                            "Stage Direction": "Delta's child stands up and emits her high pitched scream as she grows another six inches. All the windows in Goronwy's cottage blow out. The Bannermen grab their heads in pain. Delta shoots at them but one gets away."
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "She saved Delta's life with a warning cry. She's now into the singing time."
+                        },
+                        {
+                            "Character": "BILLY",
+                            "Line": "Do you think there are any more of them?"
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "Certainly. We'd better get back to the Tardis, so we'll get ready to leave immediately."
+                        }
+                    ]
+                },
+                {
+                    "Scene": "Gavrok's spaceship",
+                    "Dialogue": [
+                        {
+                            "Character": "GAVROK",
+                            "Line": "Prepare to land."
+                        },
+                        {
+                            "Stage Direction": "The Bannerman's ship lands in the goat field."
+                        }
+                    ]
+                },
+                {
+                    "Scene": "Outside Goronwy's cottage",
+                    "Dialogue": [
+                        {
+                            "Stage Direction": "The Doctor reaches through the kitchen window and turns on the radio. Buddy Holly's That'll Be The Day blares out."
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "Now, I need something of Delta's."
+                        },
+                        {
+                            "Stage Direction": "He takes her white scarf just as she puts it round her neck."
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "Thank you."
+                        },
+                        {
+                            "Stage Direction": "Mel and Burton squeeze into the back of the American's car as the Doctor puts the scarf under the door to the honey store and closes it, then runs back to the convoy."
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "Are you ready, my cariad?"
+                        },
+                        {
+                            "Character": "RAY",
+                            "Line": "(welsh) Doctor."
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "Head 'em up! Roll 'em out!"
+                        },
+                        {
+                            "Stage Direction": "The little scooter leads the car and motorbike down the lane. Delta's daughter rides pillion behind Billy."
+                        }
+                    ]
+                },
+                {
+                    "Scene": "Goat field",
+                    "Dialogue": [
+                        {
+                            "Stage Direction": "Gavrok leads his Bannermen cautiously round the side of their spacecraft."
+                        },
+                        {
+                            "Character": "GAVROK",
+                            "Line": "What is this?"
+                        },
+                        {
+                            "Stage Direction": "He takes the tracker from a Bannerman and homes in on the signal. The Doctor has used Mel's ribbon to hang the tracking device around a goat's neck. Then another Bannerman bursts through the bushes, his ears still ringing."
+                        },
+                        {
+                            "Character": "ARREX",
+                            "Line": "Gavrok! I found their hideout, sir."
+                        },
+                        {
+                            "Stage Direction": "Gavrok lowers his gun."
+                        }
+                    ]
+                },
+                {
+                    "Scene": "Outside Goronwy's cottage",
+                    "Dialogue": [
+                        {
+                            "Stage Direction": "The music is blaring out."
+                        },
+                        {
+                            "Character": "GAVROK",
+                            "Line": "They're still there. Stand by to storm it."
+                        }
+                    ]
+                },
+                {
+                    "Scene": "Outside Shangri La",
+                    "Dialogue": [
+                        {
+                            "Stage Direction": "The Doctor spots the stick on the ground."
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "Stay back! The Tardis has been booby-trapped."
+                        },
+                        {
+                            "Character": "HAWK",
+                            "Line": "Booby-trapped? Ain't nothing but a telephone booth."
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "See up there, next to the light? There's a small beam weapon. It emits a cone of sensitivity all round the Tardis. Anything entering that cone detonates an explosion."
+                        },
+                        {
+                            "Character": "RAY",
+                            "Line": "Can't you somehow get around it?"
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "I don't know. It's a very sophisticated system."
+                        },
+                        {
+                            "Character": "HAWK",
+                            "Line": "I reckon this is all so much eyewash. I'm a-calling the chief."
+                        },
+                        {
+                            "Stage Direction": "The Doctor grabs Hawk's arm, stopping him just as his fingers touch the cone area. Fizz! Ouch!"
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "I did warn you. If you'd have stepped into that beam, you'd have been atomised."
+                        }
+                    ]
+                },
+                {
+                    "Scene": "Outside Goronwy's cottage",
+                    "Dialogue": [
+                        {
+                            "Character": "GAVROK",
+                            "Line": "Open fire!"
+                        },
+                        {
+                            "Stage Direction": "Bullets pock-mark the building."
+                        }
+                    ]
+                },
+                {
+                    "Scene": "Outside Shangri La",
+                    "Dialogue": [
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "Mister Burton?"
+                        },
+                        {
+                            "Character": "BURTON",
+                            "Line": "Yes?"
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "Take everyone back to the camp."
+                        },
+                        {
+                            "Character": "BURTON",
+                            "Line": "Right."
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "Let me stay here and try and work out how to diffuse that booby-trap, because if it explodes with its full force, it could take us all with it."
+                        }
+                    ]
+                },
+                {
+                    "Scene": "Outside Goronwy's cottage",
+                    "Dialogue": [
+                        {
+                            "Character": "GAVROK",
+                            "Line": "Forward!"
+                        },
+                        {
+                            "Stage Direction": "They run up to the cottage and Gavrok shoots the radio, stopping 'Lollipop' in mid word."
+                        },
+                        {
+                            "Character": "GAVROK",
+                            "Line": "Where are they? Scum!"
+                        },
+                        {
+                            "Stage Direction": "Two Bannermen find the scarf laying under the honey store door."
+                        },
+                        {
+                            "Character": "BANNERMAN",
+                            "Line": "Gavrok!"
+                        },
+                        {
+                            "Stage Direction": "Gavrok powers his way through the door. His men follow and all the storage racks topple onto them, jars breaking and covering the men with lovely honey. They stagger back outside to be attacked by the bees."
+                        }
+                    ]
+                },
+                {
+                    "Scene": "Garage",
+                    "Dialogue": [
+                        {
+                            "Stage Direction": "Billy drinks the contents of one of Delta's vials."
+                        },
+                        {
+                            "Character": "DELTA",
+                            "Line": "What's that you're hiding, Billy?"
+                        },
+                        {
+                            "Stage Direction": "He shows her."
+                        },
+                        {
+                            "Character": "DELTA",
+                            "Line": "You haven't been eating that, have you?"
+                        },
+                        {
+                            "Character": "BILLY",
+                            "Line": "I had to, Delta. I'm not a Chimeron, but if I'm to come with you, then I have to become one."
+                        },
+                        {
+                            "Character": "DELTA",
+                            "Line": "But it's never been tried on humans before. It might kill you."
+                        },
+                        {
+                            "Character": "BILLY",
+                            "Line": "It'll be all right. I think. Look at my skin and my hair. They're already changing."
+                        },
+                        {
+                            "Stage Direction": "Delta leans in close."
+                        },
+                        {
+                            "Character": "BURTON",
+                            "Line": "Oh, I'm sorry to interrupt, but we're ready for you at the office now, Billy."
+                        },
+                        {
+                            "Character": "BILLY",
+                            "Line": "Sure thing, Mister Burton."
+                        },
+                        {
+                            "Stage Direction": "Billy picks up his home-made mega-amplifier."
+                        }
+                    ]
+                },
+                {
+                    "Scene": "Outside Shangri La",
+                    "Dialogue": [
+                        {
+                            "Stage Direction": "The Doctor is using the stick to trace out the range of the sonic cone, the occasional bang! keeping him on track. He backs into Ray."
+                        },
+                        {
+                            "Character": "RAY",
+                            "Line": "Oh, what are you doing, Doctor?"
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "Well, I was marking out where the sonic cone meets the ground."
+                        },
+                        {
+                            "Character": "RAY",
+                            "Line": "Why?"
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "Well, you see, the beam casts a shadow at the base of the Tardis. Now, if we could tunnel under the cone and come up in that shadow, then perhaps I could disarm it."
+                        },
+                        {
+                            "Character": "RAY",
+                            "Line": "Er, Doctor?"
+                        },
+                        {
+                            "Stage Direction": "The Bannerman spacecraft lands."
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "Yes, I know it's time consuming, but it's our only choice."
+                        },
+                        {
+                            "Character": "RAY",
+                            "Line": "No, look."
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "Apart from plan B. Run!"
+                        }
+                    ]
+                },
+                {
+                    "Scene": "Main hall",
+                    "Dialogue": [
+                        {
+                            "Stage Direction": "Mel finishes bandaging Hawk's hand."
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "They're here! Ray, everyone else stay here until its safe to come out. Goronwy, have you got the beeswax? Thank you. Delta and your daughter, come with me. Barricade the door."
+                        }
+                    ]
+                },
+                {
+                    "Scene": "Office",
+                    "Dialogue": [
+                        {
+                            "Stage Direction": "Burton is swishing his ceremonial sabre around while Billy wires in his speaker to the camp sound system."
+                        },
+                        {
+                            "Character": "BURTON",
+                            "Line": "Oh, I haven't used it in over forty years, but it'll still put the wind up a Bannerman."
+                        },
+                        {
+                            "Character": "BILLY",
+                            "Line": "Almost finished with these connections, Mister Burton."
+                        },
+                        {
+                            "Character": "BURTON",
+                            "Line": "Through shot and shell, eh? We'll teach these blighters a lesson."
+                        },
+                        {
+                            "Stage Direction": "The Doctor enters and nearly meets the point of the sabre."
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "Oh! Excellent effort, Mister Burton, but the weapon we're using will be a little more sophisticated. Are you ready, Billy?"
+                        },
+                        {
+                            "Character": "BILLY",
+                            "Line": "Ready to rock and roll."
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "Right, let's roll."
+                        }
+                    ]
+                },
+                {
+                    "Scene": "Chalet block roof",
+                    "Dialogue": [
+                        {
+                            "Character": "BILLY",
+                            "Line": "They're coming."
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "All haste and no speed makes Jill a dull girl. Pass the side cutters."
+                        }
+                    ]
+                },
+                {
+                    "Scene": "Play area",
+                    "Dialogue": [
+                        {
+                            "Stage Direction": "The Bannermen use the giant animals as cover."
+                        },
+                        {
+                            "Character": "GAVROK",
+                            "Line": "Once inside, you will kill everyone except the young princess. I will deal with her personally."
+                        }
+                    ]
+                },
+                {
+                    "Scene": "Chalet block roof",
+                    "Dialogue": [
+                        {
+                            "Character": "BILLY",
+                            "Line": "Now?"
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "A moment's impatience would mean our certain annihilation."
+                        }
+                    ]
+                },
+                {
+                    "Scene": "Play area",
+                    "Dialogue": [
+                        {
+                            "Character": "GAVROK",
+                            "Line": "Snipers, forward! Kill them! On the roof!"
+                        }
+                    ]
+                },
+                {
+                    "Scene": "Chalet block roof",
+                    "Dialogue": [
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "Ah, they've spotted us, Billy. Run!"
+                        },
+                        {
+                            "Stage Direction": "The speaker takes some hits."
+                        }
+                    ]
+                },
+                {
+                    "Scene": "Play area",
+                    "Dialogue": [
+                        {
+                            "Character": "GAVROK",
+                            "Line": "Forward!"
+                        },
+                        {
+                            "Stage Direction": "Gavrok goes to the entrance and sounds his horn, then spots the stick inside the sonic cone of the Tardis."
+                        }
+                    ]
+                },
+                {
+                    "Scene": "Office",
+                    "Dialogue": [
+                        {
+                            "Stage Direction": "Billy and the Doctor dodge bullets as they run down the steps and across to the office."
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "Now!"
+                        },
+                        {
+                            "Stage Direction": "Delta's daughter starts her high-pitched scream. Billy's and the camp speakers amplify it across Shangri La, and the Bannermen start writhing on the ground, clutching their heads. Outside, Gavrok staggers an inch too close to the Tardis. Bang! Flash! Delta's daughter stops her attack."
+                        }
+                    ]
+                },
+                {
+                    "Scene": "Play area",
+                    "Dialogue": [
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "Secure them with these."
+                        },
+                        {
+                            "Stage Direction": "The Doctor gives Weismuller some skipping ropes."
+                        },
+                        {
+                            "Character": "WEISMULLER",
+                            "Line": "Oh, thanks, Doctor. You know, when I was an Eagle scout, knots was my best thing. Okay, pal, here's my speciality. A running noose combined with a dog shank. How about that?"
+                        }
+                    ]
+                },
+                {
+                    "Scene": "Office",
+                    "Dialogue": [
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "It's over. Well done, Princess, that was wonderful. It's over, Mister Burton."
+                        },
+                        {
+                            "Stage Direction": "Burton is still looking out of the window. The Doctor taps him on the shoulder and Burton turns, sword raised."
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "Mister Burton, it's over. It's over."
+                        },
+                        {
+                            "Stage Direction": "Burton removes the cotton wool from his ears."
+                        },
+                        {
+                            "Character": "BURTON",
+                            "Line": "Oh! Aye."
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "It's over, we won!"
+                        },
+                        {
+                            "Character": "BURTON",
+                            "Line": "Oh, lovely, lovely."
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "Now, come and see your new spaceship, Delta, Princess."
+                        }
+                    ]
+                },
+                {
+                    "Scene": "Play area",
+                    "Dialogue": [
+                        {
+                            "Stage Direction": "The Bannermen are all trussed up, with Mel and Ray standing guard with their own weapons."
+                        },
+                        {
+                            "Character": "WEISMULLER",
+                            "Line": "Boy, you're the sorriest bunch of Bannermen I've ever seen."
+                        },
+                        {
+                            "Character": "DELTA",
+                            "Line": "Thank you for your help and courage. All of you."
+                        },
+                        {
+                            "Character": "MEL",
+                            "Line": "Are Billy and the Doctor all right?"
+                        },
+                        {
+                            "Character": "DELTA",
+                            "Line": "Yes. Billy's just changing."
+                        }
+                    ]
+                },
+                {
+                    "Scene": "Billy's chalet",
+                    "Dialogue": [
+                        {
+                            "Stage Direction": "Billy is wearing a white spacesuit. His skin is getting shinier and his hair darker."
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "I know without a male the race will be wiped out, but I haven't seen many examples of species crossing. There could be the most dreadful mutation."
+                        },
+                        {
+                            "Character": "BILLY",
+                            "Line": "It's our only chance, Doctor."
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "I can't condone this foolishness, but then, love has never been known for its rationality."
+                        }
+                    ]
+                },
+                {
+                    "Scene": "Main hall",
+                    "Dialogue": [
+                        {
+                            "Character": "GORONWY",
+                            "Line": "And then, you see, the new young queen comes along and the whole colony swarms all around her, and off they go to find a new hive. A new hive and a new life."
+                        },
+                        {
+                            "Character": "HAWK",
+                            "Line": "That's amazing."
+                        },
+                        {
+                            "Character": "GORONWY",
+                            "Line": "Well, let's go and see what's happening."
+                        }
+                    ]
+                },
+                {
+                    "Scene": "Gavrok's spaceship",
+                    "Dialogue": [
+                        {
+                            "Character": "WEISMULLER",
+                            "Line": "Well, that should hold them all the way back to Mars, or wherever you're going."
+                        },
+                        {
+                            "Character": "DELTA",
+                            "Line": "Considerably further than that."
+                        },
+                        {
+                            "Stage Direction": "Billy drives the Doctor over there on his bike. Mel meets them."
+                        },
+                        {
+                            "Character": "WEISMULLER",
+                            "Line": "Bye."
+                        },
+                        {
+                            "Character": "DELTA",
+                            "Line": "Bye-bye."
+                        },
+                        {
+                            "Stage Direction": "Weismuller leaves. Billy takes his guitar and suitcase onto the spacecraft."
+                        },
+                        {
+                            "Character": "BILLY",
+                            "Line": "Everything ship-shape?"
+                        },
+                        {
+                            "Character": "DELTA",
+                            "Line": "Yes."
+                        },
+                        {
+                            "Character": "BILLY",
+                            "Line": "I'll just stow all my gear."
+                        }
+                    ]
+                },
+                {
+                    "Scene": "Play area",
+                    "Dialogue": [
+                        {
+                            "Character": "RAY",
+                            "Line": "What are you thinking, Doctor?"
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "I was just speculating what this vehicle would be like with more sophisticated braking and suspension systems."
+                        },
+                        {
+                            "Character": "RAY",
+                            "Line": "Are you kidding? This is the best there is."
+                        },
+                        {
+                            "Character": "DELTA",
+                            "Line": "I don't know how I can ever thank you for what you've done. You've saved my planet and my people. You will always be welcome."
+                        },
+                        {
+                            "Character": "BILLY",
+                            "Line": "Goodbye, everyone. I'll always think of you here at Shangri La, Ray."
+                        },
+                        {
+                            "Character": "RAY",
+                            "Line": "Goodbye, Billy. I won't forget you, either."
+                        },
+                        {
+                            "Character": "BILLY",
+                            "Line": "Oh, I almost forgot. Will you look after the Vincent for me? Remember to feather the clutch."
+                        },
+                        {
+                            "Stage Direction": "Billy, Delta and her daughter go back into the spacecraft. Ray starts up the Vincent."
+                        },
+                        {
+                            "Character": "RAY",
+                            "Line": "Bye."
+                        },
+                        {
+                            "Character": "ALL",
+                            "Line": "Bye!"
+                        }
+                    ]
+                },
+                {
+                    "Scene": "Gavrok's spaceship",
+                    "Dialogue": [
+                        {
+                            "Character": "SINGER",
+                            "Line": "Love is the answer. Here's to the future."
+                        },
+                        {
+                            "Character": "BILLY",
+                            "Line": "Let's make this baby fly."
+                        },
+                        {
+                            "Stage Direction": "Delta works the controls and it takes off."
+                        }
+                    ]
+                },
+                {
+                    "Scene": "Outside Shangri La",
+                    "Dialogue": [
+                        {
+                            "Stage Direction": "The Doctor goes up to the Tardis."
+                        },
+                        {
+                            "Character": "MEL",
+                            "Line": "Stop!"
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "No, don't worry. Gavrok absorbed so much energy that the device has lost all its power."
+                        },
+                        {
+                            "Stage Direction": "The Doctor knocks the cone off the top of the Tardis with his umbrella."
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "Way hey. Ah, Mister Burton. Thank you for saving Mel's life."
+                        },
+                        {
+                            "Character": "BURTON",
+                            "Line": "No, thank you, Doctor. I haven't had such a shindig since I went buffalo hunting in Africa. Oh, it's a ferocious brute, you know, the buffalo."
+                        },
+                        {
+                            "Character": "GORONWY",
+                            "Line": "1928, hibiscus blossom."
+                        },
+                        {
+                            "Stage Direction": "The Doctor takes the proffered jar of honey."
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "Oh, what a sweet gesture. Oh, you're more than a collector, Goronwy. You're a man of taste."
+                        },
+                        {
+                            "Character": "BURTON",
+                            "Line": "Oh, good heavens. The Skegness Glee Club, and I haven't got any staff."
+                        },
+                        {
+                            "Stage Direction": "A charabanc pulls up."
+                        },
+                        {
+                            "Character": "BURTON",
+                            "Line": "Oh, I'll have to go. Goodbye, my dear."
+                        },
+                        {
+                            "Character": "MEL",
+                            "Line": "Goodbye."
+                        },
+                        {
+                            "Stage Direction": "Burton runs over to his customers."
+                        },
+                        {
+                            "Character": "BURTON",
+                            "Line": "Ah, welcome, campers. Now I am your camp leader while you are at Shangri La. My name is Burton."
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "I believe this is your satellite, gentlemen."
+                        },
+                        {
+                            "Stage Direction": "It is hanging up on the camp fence. The Doctor gestures for Mel to get into the Tardis, then raises his hat to Goronwy and follows her."
+                        },
+                        {
+                            "Character": "WEISMULLER",
+                            "Line": "We did it! We actually did it, Hawk."
+                        },
+                        {
+                            "Character": "HAWK",
+                            "Line": "It's wonderful! It's wonderful!"
+                        },
+                        {
+                            "Character": "WEISMULLER",
+                            "Line": "Thanks, Doctor."
+                        },
+                        {
+                            "Stage Direction": "The Tardis dematerialises. The last line of the song we hear is 'Happy days are here again'."
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

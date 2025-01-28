@@ -1,0 +1,3805 @@
+{
+    "Story": "The Curse of Peladon",
+    "Airdate": "1972-01-29",
+    "Episodes": [
+        {
+            "Episode": "Episode One",
+            "Scenes": [
+                {
+                    "Scene": "Throne room",
+                    "Dialogue": [
+                        {
+                            "Stage Direction": "It is a dark and stormy night on a distant planet. The castle appears to have been carved halfway up the steep sides of a mountain, yet still boasts impressive battlements and crenellations. It's passages are lit by flaming torches and its guards are semi-clad in leather, and hold pikestaffs. A man in a flowing cloak enters and bows to the young king and his advisor. Everyone say Hi! to Patrick Troughton's son, David."
+                        },
+                        {
+                            "Character": "TORBIS",
+                            "Line": "The delegate from Alpha Centauri has arrived, your Majesty. He will present his credentials to you shortly."
+                        },
+                        {
+                            "Character": "PELADON",
+                            "Line": "Thank you, Torbis."
+                        },
+                        {
+                            "Character": "TORBIS",
+                            "Line": "We wait now only for the chairman delegate from Earth. Then the discussions can begin."
+                        },
+                        {
+                            "Stage Direction": "A taller man wearing the same blue robes, and with the same white hair and beard with brown stripe across the top of the head, speaks."
+                        },
+                        {
+                            "Character": "HEPESH",
+                            "Line": "You will persist then in this folly? Nothing I can say will deter you?"
+                        },
+                        {
+                            "Character": "TORBIS",
+                            "Line": "Hepesh, you have already had your say in the Grand Council. The question has been discussed and decided."
+                        },
+                        {
+                            "Character": "HEPESH",
+                            "Line": "Decided by you, Torbis, and the fools who support you! You mislead the King, you abandon the ancient ways of our people."
+                        },
+                        {
+                            "Character": "TORBIS",
+                            "Line": "Nothing but ignorance and superstition."
+                        },
+                        {
+                            "Character": "HEPESH",
+                            "Line": "You will bring the curse of Aggedor upon us!"
+                        },
+                        {
+                            "Character": "TORBIS",
+                            "Line": "It'll take much more than your childish mumbo-jumbo to frighten me."
+                        },
+                        {
+                            "Character": "PELADON",
+                            "Line": "Enough! I will not have my Chancellor and my High Priest squabbling on the steps of the throne."
+                        },
+                        {
+                            "Character": "HEPESH",
+                            "Line": "You Majesty is right to rebuke us, nevertheless I must persist"
+                        },
+                        {
+                            "Character": "TORBIS",
+                            "Line": "Must I remind you, Priest"
+                        },
+                        {
+                            "Character": "PELADON",
+                            "Line": "My friends! My good friends. You are more to me than my Chancellors, my regents, much more. It grieves my heart to hear such hate between two brothers."
+                        },
+                        {
+                            "Character": "TORBIS",
+                            "Line": "May I speak, your Majesty?"
+                        },
+                        {
+                            "Character": "PELADON",
+                            "Line": "Very well."
+                        },
+                        {
+                            "Character": "TORBIS",
+                            "Line": "It was not I who chose to quarrel. Ever since the death of his exalted Majesty, your father, I have been as a parent to you. If you should forget now all that I have ever taught you, if you should let the superstitious fear of this foolish man"
+                        },
+                        {
+                            "Character": "HEPESH",
+                            "Line": "The folly has not been mine but yours."
+                        },
+                        {
+                            "Character": "TORBIS",
+                            "Line": "Your Majesty, my whole life would be a failure. As a sacred trust, I undertook to"
+                        },
+                        {
+                            "Character": "HEPESH",
+                            "Line": "Sacred trust?"
+                        },
+                        {
+                            "Character": "PELADON",
+                            "Line": "Hepesh, please! Torbis, I shall not betray you."
+                        },
+                        {
+                            "Character": "HEPESH",
+                            "Line": "But sire!"
+                        },
+                        {
+                            "Character": "PELADON",
+                            "Line": "No, Hepesh! The decision has been taken. If the committee of assessment judges favourably, then Peladon will join the Galactic Federation. And I shall expect your loyal help and support at this difficult time."
+                        },
+                        {
+                            "Character": "HEPESH",
+                            "Line": "Your Majesty."
+                        },
+                        {
+                            "Character": "PELADON",
+                            "Line": "Torbis, please inform the others that Alpha Centauri has arrived."
+                        },
+                        {
+                            "Stage Direction": "Torbis leaves, and strides along the corridor until a large shadow falls across him. He looks up and tries to protect himself as it roars. A guard, Peladon and Hepesh hear the sound and run out of the throne room."
+                        }
+                    ]
+                },
+                {
+                    "Scene": "Corridor",
+                    "Dialogue": [
+                        {
+                            "Stage Direction": "The guard gets to Torbis first, then he too is attacked by the large something before it retreats and Peladon arrives."
+                        },
+                        {
+                            "Character": "PELADON",
+                            "Line": "Torbis! Torbis!"
+                        },
+                        {
+                            "Character": "HEPESH",
+                            "Line": "Grun, what happened? What happened, Grun?"
+                        },
+                        {
+                            "Stage Direction": "The guard, Grun, is a mute. He points at an emblem on a torch sconce."
+                        },
+                        {
+                            "Character": "HEPESH",
+                            "Line": "So, the spirit of Aggedor has risen again. The ancient curse of Peladon will be fulfilled."
+                        }
+                    ]
+                },
+                {
+                    "Scene": "Tardis",
+                    "Dialogue": [
+                        {
+                            "Stage Direction": "The Tardis has materialised on a small ledge some way below the castle. The Doctor has exchanged his velvet jacket and cloak for plaid ones, and Jo looks like she's going to a debutante's ball."
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "There you are, Jo. A perfect landing."
+                        },
+                        {
+                            "Character": "JO",
+                            "Line": "And about time too."
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "Now, now, Miss Grant. Let's not be impatient."
+                        },
+                        {
+                            "Character": "JO",
+                            "Line": "Impatient? Look, I'm all dolled up. I'm all dolled up for a night out on the town with Mike Yates when you talk me into a joyride in this thing."
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "It's hardly a joyride, Jo. This is the Tardis' first test flight since I got it working again."
+                        },
+                        {
+                            "Character": "JO",
+                            "Line": "Yes, I know, but you said we'd only. You said we'd only be a few minutes, right?"
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "Mmm hmm."
+                        },
+                        {
+                            "Character": "JO",
+                            "Line": "Well we've been simply ages. Look, I'm going to be very late, so if you'll just open the doors and let me out, I'll be"
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "One minute, Jo. Routine landing procedures first, eh? Let's see what the scanners have to tell us."
+                        },
+                        {
+                            "Character": "JO",
+                            "Line": "Precisely nothing."
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "Must be on the blink."
+                        },
+                        {
+                            "Character": "JO",
+                            "Line": "I might have expected it. The Tardis always is."
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "I hope you're as in good condition when you're as old as she is."
+                        },
+                        {
+                            "Stage Direction": "The Doctor takes a component from the underside of the console."
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "Now, let's have a look. Yes. Yes, there's a tiny fault in the interstitial beam synthesiser. Still, I can put that right later."
+                        },
+                        {
+                            "Stage Direction": "The Doctor puts the component in his pocket."
+                        },
+                        {
+                            "Character": "JO",
+                            "Line": "Doctor?"
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "Mmm hmm?"
+                        },
+                        {
+                            "Character": "JO",
+                            "Line": "You're sure we're back at base?"
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "Yes, well, everything outside seems perfectly normal. Atmosphere, temperature, gravity. Yeah. Cheer up, Jo. It's a perfect landing."
+                        },
+                        {
+                            "Stage Direction": "The Tardis suddenly tilts."
+                        },
+                        {
+                            "Character": "JO",
+                            "Line": "You did say perfect?"
+                        }
+                    ]
+                },
+                {
+                    "Scene": "Outside the Tardis",
+                    "Dialogue": [
+                        {
+                            "Stage Direction": "The ledge is half as wide as the Tardis, which is being buffeted by the strong winds. Luckily, or otherwise, the Tardis has landed with her doors opening onto the ledge. The Doctor jumps out and looks straight down the precipice."
+                        },
+                        {
+                            "Character": "JO [OC]",
+                            "Line": "Doctor, what's the matter? Where are we?"
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "Well, we seem to be half way up a mountain. We're balanced on the edge."
+                        },
+                        {
+                            "Character": "JO [OC]",
+                            "Line": "Well, what are we going to do?"
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "Come towards me. Come on! Now, give me your hand, very, very gently! Ready now?"
+                        },
+                        {
+                            "Character": "JO",
+                            "Line": "Yes!"
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "Right, jump!"
+                        },
+                        {
+                            "Stage Direction": "Jo leaps into the Doctor's arms and the Tardis now tumbles down the mountainside."
+                        },
+                        {
+                            "Character": "JO",
+                            "Line": "It's smashed to pieces!"
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "Jo, the Tardis may have its faults, but it is indestructible. Our main worry is how to get to it. We certainly can't climb down there. Jo! Jo, look up there!"
+                        },
+                        {
+                            "Character": "JO",
+                            "Line": "Oo, looks a bit doomy."
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "Well, we certainly can't recover the Tardis by ourselves. We'd better get up there and see if we can find help."
+                        },
+                        {
+                            "Character": "JO",
+                            "Line": "Up there?"
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "Yeah, that's right."
+                        },
+                        {
+                            "Character": "JO",
+                            "Line": "But I'm not exactly dressed for mountaineering."
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "Well, you could always wait here, I suppose."
+                        },
+                        {
+                            "Character": "JO",
+                            "Line": "No thanks. Anyway, we don't even know where we are."
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "Exactly. So the sooner we find out, the better. Come on."
+                        }
+                    ]
+                },
+                {
+                    "Scene": "Throne room",
+                    "Dialogue": [
+                        {
+                            "Stage Direction": "A non-humanoid enters. It is upright, green, with one large eye above the frill of its cloak, and six grasping appendages round its thorax."
+                        },
+                        {
+                            "Character": "HEPESH",
+                            "Line": "The delegate from Alpha Centauri, member of the Galactic Federation, presents his credentials before his Majesty, King Peladon."
+                        },
+                        {
+                            "Character": "PELADON",
+                            "Line": "Peladon welcomes the delegate from Alpha Centauri."
+                        },
+                        {
+                            "Stage Direction": "Although described as he, Alpha Centauri speaks with an extremely high- pitched voice and a tendency to bounce up and down."
+                        },
+                        {
+                            "Character": "ALPHA",
+                            "Line": "As a member of the preliminary assessment commission, I have great hopes that your planet will be acceptable as a candidate for the Galactic Federation."
+                        },
+                        {
+                            "Character": "PELADON",
+                            "Line": "That is my firm intention. My Chancellor will (pause) My High Priest will give you all assistance to this end."
+                        },
+                        {
+                            "Character": "HEPESH",
+                            "Line": "We willing accept the hands of true friendship. Unfortunately, discussions cannot begin until the arrival of the chairman delegate from Earth."
+                        },
+                        {
+                            "Character": "PELADON",
+                            "Line": "He will be here soon, Hepesh, never fear. Earth is many light years away from us? Is that not so, Alpha Centauri?"
+                        },
+                        {
+                            "Character": "ALPHA",
+                            "Line": "Indeed, your Majesty. (giggles) A remote and unattractive planet at best."
+                        },
+                        {
+                            "Character": "HEPESH",
+                            "Line": "I say again the omens are not good."
+                        },
+                        {
+                            "Character": "PELADON",
+                            "Line": "Hepesh."
+                        },
+                        {
+                            "Character": "HEPESH",
+                            "Line": "Once before your Majesty saw fit to ignore my warnings, and now your Chancellor, Torbis, lies dead, slain by the wrath of Aggedor."
+                        },
+                        {
+                            "Character": "PELADON",
+                            "Line": "Hepesh, enough!"
+                        },
+                        {
+                            "Character": "ALPHA",
+                            "Line": "Slain? Danger here? Then the conference must be cancelled!"
+                        },
+                        {
+                            "Character": "PELADON",
+                            "Line": "This is not a matter to trouble the delegates. Torbis, my former Chancellor, died earlier tonight in mysterious circumstances. But the truth will be brought to light. Meanwhile, there is no danger to you or to your fellow delegates."
+                        },
+                        {
+                            "Character": "ALPHA",
+                            "Line": "I accept your Majesty's assurances."
+                        },
+                        {
+                            "Character": "PELADON",
+                            "Line": "Thank you. Lord Hepesh will take you to your fellow delegates."
+                        }
+                    ]
+                },
+                {
+                    "Scene": "Mountainside",
+                    "Dialogue": [
+                        {
+                            "Stage Direction": "Amidst the thunder and lightning, the Doctor and Jo crawl up the rough steep slope where only a few scrawny clumps of grass survive. They rest on a small ledge. Jo is out of breath."
+                        },
+                        {
+                            "Character": "JO",
+                            "Line": "It's no good. I can't go any further. I nearly broke my neck coming up this far."
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "Well, we certainly can't stay here, Jo. I'll tell you what. Let's traverse along this ledge for a bit. I'll see if there's another way out. Have a look that way."
+                        },
+                        {
+                            "Character": "JO",
+                            "Line": "Okay."
+                        },
+                        {
+                            "Stage Direction": "They split up."
+                        },
+                        {
+                            "Character": "JO [OC]",
+                            "Line": "Doctor!"
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "Yes, what is it? Jo? Jo, where are you? Jo, where are you?"
+                        },
+                        {
+                            "Stage Direction": "Jo looks out of an opening in the rock."
+                        },
+                        {
+                            "Character": "JO",
+                            "Line": "Over here! Come on!"
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "What is it?"
+                        },
+                        {
+                            "Character": "JO",
+                            "Line": "A tunnel. Come on."
+                        }
+                    ]
+                },
+                {
+                    "Scene": "Delegate's conference room",
+                    "Dialogue": [
+                        {
+                            "Stage Direction": "A pair of doors decorated with the same face as the torch sconce open."
+                        },
+                        {
+                            "Character": "HEPESH",
+                            "Line": "This chamber is reserved for the delegate's private meetings."
+                        },
+                        {
+                            "Character": "ARCTURUS",
+                            "Line": "Greetings. You are the delegate from Alpha Centauri? (An electronic voice comes from a head in a glass dome on top of a tank. Liquid constantly flows down the inside of the dome.)"
+                        },
+                        {
+                            "Character": "HEPESH",
+                            "Line": "The delegate from Arcturus."
+                        },
+                        {
+                            "Character": "ALPHA",
+                            "Line": "Greetings, delegate. There has been an incident. A court official has been slain."
+                        },
+                        {
+                            "Character": "ARCTURUS",
+                            "Line": "Slain? There has been violence? I am in danger?"
+                        },
+                        {
+                            "Character": "HEPESH",
+                            "Line": "An internal matter, delegate Arcturus. Do not be concerned."
+                        },
+                        {
+                            "Character": "ARCTURUS",
+                            "Line": "The delegation must be concerned, if only for its own safety."
+                        },
+                        {
+                            "Character": "ALPHA",
+                            "Line": "We are committed to the rejection of violence."
+                        },
+                        {
+                            "Character": "ARCTURUS",
+                            "Line": "But we are capable of self defence, should it prove necessary. Allow me to demonstrate."
+                        },
+                        {
+                            "Stage Direction": "A small dish emerges from the bottom of the tank. There is a red flash and an innocent decorated pot on a pedestal is destroyed."
+                        },
+                        {
+                            "Character": "ARCTURUS",
+                            "Line": "So, be warned. Do not provoke us."
+                        },
+                        {
+                            "Character": "HEPESH",
+                            "Line": "We desire only your friendship."
+                        },
+                        {
+                            "Character": "ARCTURUS",
+                            "Line": "Then make sure that our mission is not endangered."
+                        }
+                    ]
+                },
+                {
+                    "Scene": "Tunnel",
+                    "Dialogue": [
+                        {
+                            "Stage Direction": "The Doctor and Jo come to a grill looking into a room with flaming torches by a large stone statue of a creature with raised claws."
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "Jo, come at look at this."
+                        },
+                        {
+                            "Character": "JO",
+                            "Line": "What on Earth is it?"
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "It looks like some sort of shrine."
+                        },
+                        {
+                            "Character": "JO",
+                            "Line": "I've never seen anything like it before."
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "No, neither have I. At least not on Earth. Come on."
+                        }
+                    ]
+                },
+                {
+                    "Scene": "Throne room",
+                    "Dialogue": [
+                        {
+                            "Character": "PELADON",
+                            "Line": "I remember when you and Torbis first brought me to this throne room."
+                        },
+                        {
+                            "Character": "HEPESH",
+                            "Line": "At first you refused to sit upon the throne. You said that rightfully it could only be your father's place."
+                        },
+                        {
+                            "Character": "PELADON",
+                            "Line": "But Torbis lifted me up and set me here. And then you said"
+                        },
+                        {
+                            "Character": "HEPESH",
+                            "Line": "And then I said, though the royal blood that flows in your veins is mingled with that of strangers, yet you shall be Peladon of Peladon. Greater than your father, greater than any past or future king. And then the Earth woman"
+                        },
+                        {
+                            "Character": "PELADON",
+                            "Line": "And then my mother, Hepesh. She smiled and placed my left hand in yours and my right hand in Torbis's."
+                        },
+                        {
+                            "Character": "HEPESH",
+                            "Line": "And together we made a boy into a king."
+                        },
+                        {
+                            "Character": "PELADON",
+                            "Line": "And now Torbis is dead."
+                        },
+                        {
+                            "Character": "HEPESH",
+                            "Line": "His task was almost done, as mine will be when once I have anointed you king."
+                        },
+                        {
+                            "Character": "PELADON",
+                            "Line": "Why did he die, Hepesh?"
+                        },
+                        {
+                            "Character": "HEPESH",
+                            "Line": "He saw your future as a servant of the Galactic Federation. I see you as an independent ruler of a great and glorious kingdom."
+                        },
+                        {
+                            "Character": "PELADON",
+                            "Line": "You really believe he was destroyed by Aggedor, don't you?"
+                        },
+                        {
+                            "Character": "HEPESH",
+                            "Line": "Yes, it was a warning."
+                        },
+                        {
+                            "Character": "PELADON",
+                            "Line": "But the Federation delegates are here at my invitation. It should have been me that was struck down."
+                        },
+                        {
+                            "Character": "HEPESH",
+                            "Line": "No. No, it was Torbis blind advice that would have destroyed your kingdom. You would have become a slave, not a king."
+                        },
+                        {
+                            "Character": "PELADON",
+                            "Line": "But Hepesh, you were always telling me a king must choose and choose courageously."
+                        },
+                        {
+                            "Character": "HEPESH",
+                            "Line": "Aggedor has shown the way."
+                        },
+                        {
+                            "Character": "PELADON",
+                            "Line": "Backwards into superstition? It was you who taught me to fight, to ride, and to think. Help me to realise my dream. I know what is best for my people."
+                        },
+                        {
+                            "Character": "HEPESH",
+                            "Line": "I do not trust these aliens."
+                        },
+                        {
+                            "Character": "PELADON",
+                            "Line": "Well then, trust me."
+                        },
+                        {
+                            "Character": "HEPESH",
+                            "Line": "I tell you, I know their minds. I will not let them lead you into a trap."
+                        },
+                        {
+                            "Character": "PELADON",
+                            "Line": "But their motives are open and honest."
+                        },
+                        {
+                            "Character": "HEPESH",
+                            "Line": "But to them, Peladon, we are merely savages. Savages to be tamed. They despise and distrust us."
+                        },
+                        {
+                            "Character": "PELADON",
+                            "Line": "Then I will talk to them, convince them. Summon the delegates. Now, Hepesh!"
+                        }
+                    ]
+                },
+                {
+                    "Scene": "Tunnel",
+                    "Dialogue": [
+                        {
+                            "Character": "JO",
+                            "Line": "Which way now?"
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "Which way indeed? Eenie, meenie, mynie, mo."
+                        },
+                        {
+                            "Stage Direction": "Roar in the distance."
+                        },
+                        {
+                            "Character": "JO",
+                            "Line": "Meenie?"
+                        },
+                        {
+                            "Stage Direction": "They head away from the roar."
+                        },
+                        {
+                            "Character": "JO",
+                            "Line": "Oh no, it's blocked up."
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "Yes. If the tunnel's never used, why is this torch still alight?"
+                        },
+                        {
+                            "Stage Direction": "The Doctor grasps the sconce. It doesn't move down but it does move up, and a concealed door springs open."
+                        },
+                        {
+                            "Character": "JO",
+                            "Line": "Right again, Doctor."
+                        }
+                    ]
+                },
+                {
+                    "Scene": "Corridor",
+                    "Dialogue": [
+                        {
+                            "Stage Direction": "They peer around the side of a tapestry."
+                        },
+                        {
+                            "Character": "JO",
+                            "Line": "Where are we?"
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "Somewhere inside the castle, I should think. Let's take a look around."
+                        },
+                        {
+                            "Stage Direction": "There are footsteps so they duck back behind the tapestry as a familiar scaly-armoured green figure hisses its way past. They follow it to a corner."
+                        },
+                        {
+                            "Character": "JO",
+                            "Line": "What was that?"
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "That, Jo, was an Ice Warrior. A native of the planet Mars."
+                        },
+                        {
+                            "Character": "JO",
+                            "Line": "You've seen them before?"
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "Yes, indeed I have, and believe me, they're not very pleasant company."
+                        },
+                        {
+                            "Character": "JO",
+                            "Line": "Oh, come on, let's get back to the tunnel quickly."
+                        },
+                        {
+                            "Stage Direction": "But castle guards have arrived and now surround them."
+                        }
+                    ]
+                },
+                {
+                    "Scene": "Throne room",
+                    "Dialogue": [
+                        {
+                            "Stage Direction": "The Ice Warrior enters and is directed to its place by it's master, still green and permanently out of breath, but no scaly armour and a long cloak."
+                        },
+                        {
+                            "Character": "PELADON",
+                            "Line": "Thank you. By now, you all know of the tragic incident involving my Chancellor, Torbis. He was more than an advisor. He was, like Hepesh, a trusted friend."
+                        },
+                        {
+                            "Character": "IZLYR",
+                            "Line": "(the Ice Lord) And yet he was killed. Why?"
+                        },
+                        {
+                            "Character": "HEPESH",
+                            "Line": "It was a supernatural warning."
+                        },
+                        {
+                            "Character": "PELADON",
+                            "Line": "My High Priest connects this death with one of our ancient legends."
+                        },
+                        {
+                            "Character": "ARCTURUS",
+                            "Line": "Your Priest speaks of a warning. Perhaps it is more than that."
+                        },
+                        {
+                            "Character": "PELADON",
+                            "Line": "Superstition, nothing more."
+                        },
+                        {
+                            "Character": "IZLYR",
+                            "Line": "This incident could well mean a threat to us, and to the Federation."
+                        },
+                        {
+                            "Character": "PELADON",
+                            "Line": "But it was Torbis who died. The legend only concerns my people."
+                        },
+                        {
+                            "Character": "ALPHA",
+                            "Line": "Your legend seems violent and unpleasant, and rather too convenient."
+                        },
+                        {
+                            "Character": "HEPESH",
+                            "Line": "The legend of the curse of Peladon has been handed down through countless centuries."
+                        },
+                        {
+                            "Character": "IZLYR",
+                            "Line": "I think, perhaps, we should hear this legend."
+                        },
+                        {
+                            "Character": "HEPESH",
+                            "Line": "It concerns the royal beast of Peladon, now extinct. It is written, Mighty is Aggedor, fiercest of all the beasts of Peladon. Young men would hunt it to prove their courage. His fur trims our royal garment. His head is our royal emblem. It is also written there will come a day when the spirit of Aggedor will rise again to warn and defend his royal master, King Peladon. For at that day, a stranger will appear in the land, bringing peril to Peladon."
+                        },
+                        {
+                            "Stage Direction": "Peladon sees the Doctor and Jo being brought in by the guards."
+                        },
+                        {
+                            "Character": "HEPESH",
+                            "Line": "And great tribulation to his kingdom."
+                        },
+                        {
+                            "Stage Direction": "The Doctor stares as the Ice Warriors approach him."
+                        },
+                        {
+                            "Character": "IZLYR",
+                            "Line": "Chairman delegate from Earth, greetings. Delegate Izlyr from Mars. Sub- delegate Ssorg."
+                        },
+                        {
+                            "Stage Direction": "At a nod from Hepesh, Grun leaves Peladon's side and goes out behind a tapestry."
+                        },
+                        {
+                            "Character": "ALPHA",
+                            "Line": "Delegate Alpha Centauri. The Galactic Committee is terribly in need of your experience and judgement."
+                        },
+                        {
+                            "Character": "ARCTURUS",
+                            "Line": "I am delegate Arcturus. You are late."
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "Late? Er, yes, my apologies to the Committee but, er, our space shuttle crash-landed down the mountain. I wonder if something could be done about rescuing it."
+                        },
+                        {
+                            "Character": "HEPESH",
+                            "Line": "That will be arranged. I am Hepesh, High Priest of Peladon."
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "How do you do?"
+                        },
+                        {
+                            "Character": "HEPESH",
+                            "Line": "Protocol demands that you should present formally your credentials to King Peladon. Hand them to me."
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "I'm afraid that will not be possible. We have lost everything in the crash."
+                        },
+                        {
+                            "Character": "PELADON",
+                            "Line": "We can deal with protocol later, Hepesh. Present the chairman delegate from Earth, and his companion."
+                        },
+                        {
+                            "Character": "HEPESH",
+                            "Line": "I presume this female is of royal blood?"
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "Well, naturally. Why, why do you bother to ask?"
+                        },
+                        {
+                            "Character": "HEPESH",
+                            "Line": "We are standing in the royal throne room of Peladon. Only men of rank and females of royal blood may set foot here. The penalty for trespass is death."
+                        },
+                        {
+                            "Character": "JO",
+                            "Line": "Doctor, I do not deal through intermediaries. Kindly present us to our royal host."
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "Yes, of course. Will you excuse me."
+                        },
+                        {
+                            "Stage Direction": "The Doctor kneels before Peladon."
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "Your Majesty, as delegate from Earth, I greet you. May I present Her Royal Highness, the Princess Josephine, of Tardis."
+                        },
+                        {
+                            "Stage Direction": "Peladon stands. Jo walks forward and curtsies, and Peladon takes her hand."
+                        },
+                        {
+                            "Character": "PELADON",
+                            "Line": "Greetings, Princess. I'm sorry to hear that your journey ended so uncomfortably."
+                        },
+                        {
+                            "Character": "JO",
+                            "Line": "The whole affair was most deplorable. The pilot was exceedingly inefficient."
+                        },
+                        {
+                            "Character": "PELADON",
+                            "Line": "Well, I'm glad it was nothing more. You bring a welcome beauty to a serious occasion."
+                        },
+                        {
+                            "Character": "JO",
+                            "Line": "Thank you, your Majesty."
+                        },
+                        {
+                            "Character": "IZLYR",
+                            "Line": "Royal Highness."
+                        },
+                        {
+                            "Stage Direction": "The Doctor has to nudge Jo to stop looking into Peladon's eyes and turn to the Ice Lord instead."
+                        },
+                        {
+                            "Character": "IZLYR",
+                            "Line": "What are your powers on the committee of assessment?"
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "The Princess is here in the capacity of a royal observer only."
+                        },
+                        {
+                            "Character": "IZLYR",
+                            "Line": "Ah, as on my planet, you still retain the aristocratic process."
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "Yes, in a democratic sort of way."
+                        },
+                        {
+                            "Character": "ARCTURUS",
+                            "Line": "Chairman delegate from Earth, we are not here to indulge in social diplomacy."
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "No, no, of course not, I"
+                        },
+                        {
+                            "Character": "ARCTURUS",
+                            "Line": "We are here to consider admitting this somewhat primitive planet into the Galactic Federation."
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "Yes, thank you for reminding me. I"
+                        },
+                        {
+                            "Character": "ALPHA",
+                            "Line": "Unfortunately, the success of our mission in threatened, violently."
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "Threatened? Perhaps you'd be kind enough to explain that to me from the beginning?"
+                        }
+                    ]
+                },
+                {
+                    "Scene": "Outside the Throne room",
+                    "Dialogue": [
+                        {
+                            "Stage Direction": "Grun is on a ledge above the corridor, working the end of a long pole under the base of yet another statue of Aggedor. Fragments of the conversation drift down the corridor."
+                        },
+                        {
+                            "Character": "PELADON [OC]",
+                            "Line": "This is an internal affair. We need not trouble the chairman delegate."
+                        },
+                        {
+                            "Character": "ARCTURUS [OC]",
+                            "Line": "By a legend, we are told."
+                        },
+                        {
+                            "Character": "HEPESH [OC]",
+                            "Line": "(unintelligible)"
+                        },
+                        {
+                            "Character": "ARCTURUS [OC]",
+                            "Line": "Or a blatant attempt to intimidate this commission. ALPHA [OC]: I cannot"
+                        },
+                        {
+                            "Stage Direction": "They all speak at once."
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "Episode": "Episode Two",
+            "Scenes": [
+                {
+                    "Scene": "Outside the Throne room",
+                    "Dialogue": [
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "Look out!"
+                        },
+                        {
+                            "Stage Direction": "Jo steps back as the Doctor rushes forward to push the other delegates out of the path of the falling statue."
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "Look out!"
+                        }
+                    ]
+                },
+                {
+                    "Scene": "Throne room",
+                    "Dialogue": [
+                        {
+                            "Stage Direction": "Peladon runs for the door, but Hepesh stops him."
+                        },
+                        {
+                            "Character": "PELADON",
+                            "Line": "What has happened?"
+                        },
+                        {
+                            "Character": "HEPESH",
+                            "Line": "Wait, there may be danger."
+                        },
+                        {
+                            "Character": "PELADON",
+                            "Line": "But the delegates may be harmed!"
+                        },
+                        {
+                            "Character": "HEPESH",
+                            "Line": "Your Majesty's safety is all that matters."
+                        }
+                    ]
+                },
+                {
+                    "Scene": "Outside the Throne room",
+                    "Dialogue": [
+                        {
+                            "Stage Direction": "Grun sneaks away."
+                        },
+                        {
+                            "Character": "JO",
+                            "Line": "Phew, that was a bit close, wasn't it?"
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "All you all right, Princess?"
+                        },
+                        {
+                            "Character": "JO",
+                            "Line": "Yes, thank you. I think so."
+                        },
+                        {
+                            "Character": "IZLYR",
+                            "Line": "You have saved our lives. Thank you."
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "I'm sorry to have been so abrupt about it, gentlemen."
+                        },
+                        {
+                            "Character": "ALPHA",
+                            "Line": "This is terrible! We could all have been killed!"
+                        },
+                        {
+                            "Character": "JO",
+                            "Line": "Well I feel definitely wobbly at the knees."
+                        },
+                        {
+                            "Stage Direction": "Hepesh enters."
+                        },
+                        {
+                            "Character": "HEPESH",
+                            "Line": "Aggedor has been merciful. We must give thanks that you have all been spared."
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "I think we should investigate what caused this, Hepesh."
+                        },
+                        {
+                            "Character": "ALPHA",
+                            "Line": "I agree."
+                        },
+                        {
+                            "Character": "IZLYR",
+                            "Line": "Yes, indeed."
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "If only as a matter of protocol."
+                        },
+                        {
+                            "Stage Direction": "Grun is back in the throne room."
+                        },
+                        {
+                            "Character": "HEPESH",
+                            "Line": "It is a sign of Aggedor's anger. His ghost walks amongst us."
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "It must have been a pretty substantial type of ghost to have shifted a solid granite statue."
+                        },
+                        {
+                            "Character": "ALPHA",
+                            "Line": "Yes, very."
+                        },
+                        {
+                            "Character": "HEPESH",
+                            "Line": "The spirit of Aggedor can move mountains."
+                        },
+                        {
+                            "Character": "JO",
+                            "Line": "It seemed more like he was trying to remove us."
+                        },
+                        {
+                            "Character": "ALPHA",
+                            "Line": "Our mission is peaceful, We come to help your people, to raise them from barbarism."
+                        },
+                        {
+                            "Character": "JO",
+                            "Line": "Maybe they don't want to be raised."
+                        },
+                        {
+                            "Character": "IZLYR",
+                            "Line": "Hepesh, you say this is foretold in your ancient writings. What sort of manifestation is there supposed to be?"
+                        },
+                        {
+                            "Character": "HEPESH",
+                            "Line": "It is written, his coming shall be full or terror and darkness. His cry shall be heard in the night, and death shall walk in the land of Peladon!"
+                        },
+                        {
+                            "Character": "JO",
+                            "Line": "Well, there was no cry of warning, and nobody actually saw him, did they?"
+                        },
+                        {
+                            "Character": "HEPESH",
+                            "Line": "To the unbeliever, all signs are as dust in the wind."
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "Well, the point is what does King Peladon believe?"
+                        },
+                        {
+                            "Character": "IZLYR",
+                            "Line": "If this man speaks for King Peladon, our purpose here is wasted."
+                        },
+                        {
+                            "Character": "ARCTURUS",
+                            "Line": "The conference must be cancelled."
+                        },
+                        {
+                            "Character": "HEPESH",
+                            "Line": "I agree."
+                        },
+                        {
+                            "Character": "PELADON",
+                            "Line": "No! I am King, not Hepesh! And not Aggedor. Would you rejoin us? Hepesh."
+                        }
+                    ]
+                },
+                {
+                    "Scene": "Throne room",
+                    "Dialogue": [
+                        {
+                            "Character": "PELADON",
+                            "Line": "Negotiations must continue."
+                        },
+                        {
+                            "Character": "IZLYR",
+                            "Line": "Negotiations are only possible in a peaceful atmosphere."
+                        },
+                        {
+                            "Character": "ARCTURUS",
+                            "Line": "Political conflict violates Federation law."
+                        },
+                        {
+                            "Character": "PELADON",
+                            "Line": "Centuries ago on your own planets, war and violence flourished."
+                        },
+                        {
+                            "Stage Direction": "Jo looks towards the tapestry then the Doctor. The Doctor nods."
+                        },
+                        {
+                            "Character": "ALPHA",
+                            "Line": "We have learned to control our past."
+                        },
+                        {
+                            "Character": "PELADON",
+                            "Line": "Then you must teach Peladon. Without help we will never raise ourselves from the dark ages. Do not desert us now."
+                        },
+                        {
+                            "Stage Direction": "Jo quietly sidles away and goes behind the tapestry."
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "Your Majesty is an enlightened ruler, but who will your people believe? King Peladon or Aggedor?"
+                        },
+                        {
+                            "Stage Direction": "Jo emerges above the corridor where the remains of the statue are being cleared away. She finds a small metal tool."
+                        },
+                        {
+                            "Character": "ARCTURUS",
+                            "Line": "Doctor, you are our chairman. Do we go or stay?"
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "I think it would be a tragedy if the conference were to break up now."
+                        },
+                        {
+                            "Character": "IZLYR",
+                            "Line": "If we remain, we put ourselves at risk."
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "His Majesty deserves the opportunity to convince us, surely?"
+                        },
+                        {
+                            "Character": "ALPHA",
+                            "Line": "But if we do decide to leave, are we free to go?"
+                        },
+                        {
+                            "Stage Direction": "Jo returns quietly."
+                        },
+                        {
+                            "Character": "PELADON",
+                            "Line": "Of course."
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "You don't think that King Peladon would keep you here by force, do you?"
+                        },
+                        {
+                            "Character": "ALPHA",
+                            "Line": "Such things have been known on primitive planets."
+                        },
+                        {
+                            "Character": "PELADON",
+                            "Line": "Why should I detain you?"
+                        },
+                        {
+                            "Character": "ARCTURUS",
+                            "Line": "As pawns in some political game, perhaps?"
+                        },
+                        {
+                            "Character": "ALPHA",
+                            "Line": "That has happened before."
+                        },
+                        {
+                            "Character": "IZLYR",
+                            "Line": "It would be most unwise."
+                        },
+                        {
+                            "Character": "PELADON",
+                            "Line": "There is no plot! I am being completely honest with you. Please, stay and help me to help my people."
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "Your Majesty, we will adjourn now and consider our position. We will let you know our decision as soon as possible."
+                        },
+                        {
+                            "Stage Direction": "The Doctor and the delegates leave. Jo is last in the line."
+                        },
+                        {
+                            "Character": "PELADON",
+                            "Line": "Your Highness, would you remain a moment? Hepesh, you may leave us."
+                        },
+                        {
+                            "Character": "HEPESH",
+                            "Line": "Your Majesty."
+                        },
+                        {
+                            "Stage Direction": "Hepesh leaves, then the guards."
+                        },
+                        {
+                            "Character": "PELADON",
+                            "Line": "Do you believe me?"
+                        },
+                        {
+                            "Character": "JO",
+                            "Line": "I'm only an observer. It's up to the committee to decide whether or not to help you."
+                        },
+                        {
+                            "Character": "PELADON",
+                            "Line": "I'm talking from a personal point of view. I don't often get the chance."
+                        },
+                        {
+                            "Character": "JO",
+                            "Line": "Being a king is no fun?"
+                        },
+                        {
+                            "Character": "PELADON",
+                            "Line": "It's very lonely. But you must know that. It's so hard to find someone to talk to as a person."
+                        },
+                        {
+                            "Character": "JO",
+                            "Line": "But you have Hepesh. He seems very fond of you, just like a father."
+                        },
+                        {
+                            "Character": "PELADON",
+                            "Line": "Hepesh is an old man, like your friend the Doctor."
+                        },
+                        {
+                            "Character": "JO",
+                            "Line": "I somehow don't think he'd care for that."
+                        },
+                        {
+                            "Character": "PELADON",
+                            "Line": "I was brought up by wise old men. I hardly ever see anyone young or beautiful. My mother was an Earth woman, so you see, there is a bond between us. Do you believe me?"
+                        },
+                        {
+                            "Stage Direction": "Peladon takes Jo's hand and gazes into her eyes."
+                        },
+                        {
+                            "Character": "JO",
+                            "Line": "Yes. Yes, I believe you."
+                        },
+                        {
+                            "Character": "PELADON",
+                            "Line": "Then speak for me to the commission. Make them see my case."
+                        },
+                        {
+                            "Character": "JO",
+                            "Line": "I see. All you want is a political ally."
+                        },
+                        {
+                            "Character": "PELADON",
+                            "Line": "No, I want you as a friend."
+                        },
+                        {
+                            "Character": "JO",
+                            "Line": "Oh, no. No. I'm strictly neutral. Count me out!"
+                        }
+                    ]
+                },
+                {
+                    "Scene": "Aggedor's Shrine",
+                    "Dialogue": [
+                        {
+                            "Stage Direction": "Down in the depths of the castle, Hepesh finishes his obeisance then turns to the kneeling guard."
+                        },
+                        {
+                            "Character": "HEPESH",
+                            "Line": "The failure was not yours, Grun. You acted well. Aggedor has been merciful to his enemies. But now the hour for mercy has passed. Now an evil influence comes between King Peladon and his true destiny. It must be destroyed. Aggedor will give his blessing. I dedicate you to the destruction of the King's enemy, to purge the soul of Peladon by this act and to give the ghost of Aggedor release! There, it is done. The foremost of the King's enemies is the chairman delegate from Earth, the one they call the Doctor. Destroy him, Grun!"
+                        }
+                    ]
+                },
+                {
+                    "Scene": "The Doctor's room",
+                    "Dialogue": [
+                        {
+                            "Stage Direction": "The Doctor examines Jo's find."
+                        },
+                        {
+                            "Character": "JO",
+                            "Line": "Well? What is it?"
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "It's an electronic key. Used for opening doors by identifying the bearer electronically. Probably used for their spaceship."
+                        },
+                        {
+                            "Character": "JO",
+                            "Line": "Whose spaceship?"
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "Well, the Ice Warriors of course. It's made from trisilicate, which can only be found on the planet Mars."
+                        },
+                        {
+                            "Character": "JO",
+                            "Line": "So you think that it was Ssorg who made those footprints on the balcony?"
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "Yes, I think it's highly likely."
+                        },
+                        {
+                            "Character": "JO",
+                            "Line": "Wasn't he in the throne room with us?"
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "I'm not sure. Well, you managed to slip away without anybody noticing, remember?"
+                        },
+                        {
+                            "Character": "JO",
+                            "Line": "Yes. But what would they be after?"
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "Well, the last time that I encountered them, Jo, they were trying to colonise the planet Earth, and Peladon is very like Earth."
+                        },
+                        {
+                            "Character": "JO",
+                            "Line": "Hmm. But they say they're here for the same reason as the other delegates. Peace."
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "Do they. Well, believe me, I know the Ice Warriors, Jo. They're a savage and a warlike race. No, among the delegates, only Ssorg's strength could have shifted that statue."
+                        },
+                        {
+                            "Character": "JO",
+                            "Line": "I still think you're jumping to conclusions."
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "Well, who else could be responsible? Arcturus is only a box of tricks, and I hardly think Centauri would hurt a fly, would you?"
+                        },
+                        {
+                            "Character": "JO",
+                            "Line": "No, I think he's rather sweet. Or is he a she?"
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "Neither. She is an it. It's a hermaphrodite hexapod."
+                        },
+                        {
+                            "Character": "JO",
+                            "Line": "Oh."
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "The point is, what possible motive could they have?"
+                        },
+                        {
+                            "Character": "JO",
+                            "Line": "Look, why don't we just organise someone to dig out the Tardis and get out here? Did you have to get us involved in all this?"
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "I didn't really have any choice, did I."
+                        },
+                        {
+                            "Character": "JO",
+                            "Line": "Oh, come on. You love all that chairman delegate stuff. Admit it."
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "Well, how do you like being a princess, Princess?"
+                        },
+                        {
+                            "Character": "JO",
+                            "Line": "Like you said, I didn't really have much choice."
+                        },
+                        {
+                            "Stage Direction": "An electronic wailing noise starts up."
+                        },
+                        {
+                            "Character": "JO",
+                            "Line": "What's that?"
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "It sounds like an alarm. Come on."
+                        }
+                    ]
+                },
+                {
+                    "Scene": "Delegate's conference room",
+                    "Dialogue": [
+                        {
+                            "Stage Direction": "Jo and the Doctor run along the corridor to discover Arcturus with a panel in his life support box open."
+                        },
+                        {
+                            "Character": "JO",
+                            "Line": "What are you going to do?"
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "Well, someone's taken the servo-junction unit of his life support system. I'll have to re-wire the circuits."
+                        },
+                        {
+                            "Character": "JO",
+                            "Line": "Well, what does this servo thing look like?"
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "It's a small plastic cube full of very fine circuitry. Why?"
+                        },
+                        {
+                            "Character": "JO",
+                            "Line": "Well, whoever took it must have been the one who tried to kill Arcturus."
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "Obviously. So?"
+                        },
+                        {
+                            "Character": "JO",
+                            "Line": "So if we could find it. Look, I can search all the delegates rooms."
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "You'll do no such thing, Jo. It's far too dangerous. I'm going to try a little direct confrontation here."
+                        },
+                        {
+                            "Character": "JO",
+                            "Line": "But if we had some real evidence."
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "Jo, please do as I say, there's a good girl."
+                        },
+                        {
+                            "Stage Direction": "Izlyr enters, followed by Hepesh."
+                        },
+                        {
+                            "Character": "IZLYR",
+                            "Line": "What are you doing to Arcturus?"
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "Someone has disconnected a vital part of his life support system. I'm trying to save him. Now, please, leave me alone."
+                        },
+                        {
+                            "Stage Direction": "Alpha enters and Jo leaves."
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "I think that should do it."
+                        },
+                        {
+                            "Stage Direction": "The alarm winds down."
+                        },
+                        {
+                            "Character": "IZLYR",
+                            "Line": "Have you succeeded?"
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "Yes, he'll be all right in a moment."
+                        },
+                        {
+                            "Character": "HEPESH",
+                            "Line": "This is the work of Aggedor."
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "This is the work of a skilled, technical knowledge. Your medieval monster, Hepesh, would simply have tried to smash Arcturus' protective globe."
+                        },
+                        {
+                            "Character": "IZLYR",
+                            "Line": "What are you suggesting? I reject the accusation."
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "Yes, of course, you would. But nevertheless, you can't deny that you do have the necessary technical knowledge."
+                        },
+                        {
+                            "Character": "IZLYR",
+                            "Line": "The technology of Centauri is competent enough. And so is that of Earth. And it was you, Doctor, that we discovered."
+                        }
+                    ]
+                },
+                {
+                    "Scene": "Ice Warrior's room",
+                    "Dialogue": [
+                        {
+                            "Stage Direction": "Jo enters and goes over to a large, ornate metal chest and looks inside. Then she checks various items on a table before opening a wooden chest and finding what she is looking for. She is about to leave with it when she hears heavy breathing, and hides behind a tapestry of course. Ssorg enters. He sees the open metal chest and then Jo's pink shoes sticking out beneath the tapestry. He pulls it aside."
+                        },
+                        {
+                            "Character": "SSORG",
+                            "Line": "Why are you here?"
+                        },
+                        {
+                            "Character": "JO",
+                            "Line": "I was looking for something and I found it."
+                        },
+                        {
+                            "Character": "SSORG",
+                            "Line": "This is not ours."
+                        },
+                        {
+                            "Stage Direction": "Ssorg takes the component."
+                        },
+                        {
+                            "Character": "JO",
+                            "Line": "No, you took it from poor Arcturus when you tried to kill him."
+                        },
+                        {
+                            "Character": "SSORG",
+                            "Line": "You will stay. I must inform Izlyr."
+                        },
+                        {
+                            "Stage Direction": "Ssorg takes a weapon from the metal chest and leaves."
+                        }
+                    ]
+                },
+                {
+                    "Scene": "Delegate's conference room",
+                    "Dialogue": [
+                        {
+                            "Character": "ARCTURUS",
+                            "Line": "I have been attacked."
+                        },
+                        {
+                            "Character": "ALPHA",
+                            "Line": "By whom, Arcturus? By whom?"
+                        },
+                        {
+                            "Character": "HEPESH",
+                            "Line": "Was the face of Aggedor revealed to you?"
+                        },
+                        {
+                            "Character": "ARCTURUS",
+                            "Line": "Memory circuits out of phase."
+                        },
+                        {
+                            "Character": "ALPHA",
+                            "Line": "It must have been a dreadful experience! We have to ask him later."
+                        },
+                        {
+                            "Character": "IZLYR",
+                            "Line": "We cannot wait. It is too important. We must know now."
+                        },
+                        {
+                            "Character": "ARCTURUS",
+                            "Line": "I cannot remember."
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "How very fortunate, Izlyr. Excuse me, gentlemen."
+                        }
+                    ]
+                },
+                {
+                    "Scene": "Corridor",
+                    "Dialogue": [
+                        {
+                            "Stage Direction": "The Doctor turns a corner and is stopped by Grun."
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "Let me past, Grun."
+                        },
+                        {
+                            "Stage Direction": "Grun takes the Doctor's arm and gestures."
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "What do you want? You want me to come with you? All right, all right, I'm coming. Where are you taking me?"
+                        },
+                        {
+                            "Stage Direction": "Grun leads the Doctor back past the conference room. Hepesh watches them go."
+                        }
+                    ]
+                },
+                {
+                    "Scene": "Delegate's conference room",
+                    "Dialogue": [
+                        {
+                            "Character": "ARCTURUS",
+                            "Line": "I saw no one, delegate Izlyr. The attack was too quick."
+                        },
+                        {
+                            "Character": "IZLYR",
+                            "Line": "We discovered the Doctor. He seemed to be attacking your life support mechanism."
+                        },
+                        {
+                            "Character": "ALPHA",
+                            "Line": "But what motive could the Doctor have?"
+                        },
+                        {
+                            "Character": "IZLYR",
+                            "Line": "Ask his masters on Earth."
+                        },
+                        {
+                            "Character": "ARCTURUS",
+                            "Line": "The Princess, why is she here?"
+                        },
+                        {
+                            "Character": "ALPHA",
+                            "Line": "A diplomatic courtesy, surely? Peladon's mother was an Earth woman."
+                        },
+                        {
+                            "Character": "IZLYR",
+                            "Line": "Exactly. And if Peladon marries this Earth princess the blood relationship will be strengthened and could be used to foster Earth's interests inside the Federation."
+                        },
+                        {
+                            "Character": "ARCTURUS",
+                            "Line": "That must not be allowed to happen."
+                        },
+                        {
+                            "Stage Direction": "Ssorg enters, without the weapon."
+                        },
+                        {
+                            "Character": "SSORG",
+                            "Line": "Lord Izlyr?"
+                        },
+                        {
+                            "Character": "IZLYR",
+                            "Line": "Yes, what is it?"
+                        },
+                        {
+                            "Character": "SSORG",
+                            "Line": "I must speak with you."
+                        },
+                        {
+                            "Character": "IZLYR",
+                            "Line": "Of course. If you will excuse us, Arcturus."
+                        },
+                        {
+                            "Character": "ARCTURUS",
+                            "Line": "There has been some new development?"
+                        },
+                        {
+                            "Character": "ALPHA",
+                            "Line": "Something dreadful, no doubt. Really, this barbarous planet."
+                        },
+                        {
+                            "Character": "IZLYR",
+                            "Line": "Sub-delegate Ssorg has discovered the missing servo-junction unit."
+                        },
+                        {
+                            "Character": "ARCTURUS",
+                            "Line": "Where?"
+                        },
+                        {
+                            "Character": "IZLYR",
+                            "Line": "In the hands of the Earth Princess."
+                        },
+                        {
+                            "Stage Direction": "Who is using a table and a box to climb up to an opening in the thick castle wall and out on to a narrow ledge. There she makes her perilous way to the next opening. That leads to a corridor which fortunately has a table she can step down onto, then run off."
+                        }
+                    ]
+                },
+                {
+                    "Scene": "Corridor",
+                    "Dialogue": [
+                        {
+                            "Stage Direction": "Grun activates a torch sconce door opener and gestures for the Doctor to go through."
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "In here? Why? Is someone in trouble? Well, who, Grun? Not the Princess? All right, all right!"
+                        },
+                        {
+                            "Stage Direction": "Grun pulls the Doctor through the doorway. Elsewhere, Jo can't decide which corridor to take. Then there is a roar and she looks up at a living version of the statue of Aggedor. She flees back the way she came."
+                        }
+                    ]
+                },
+                {
+                    "Scene": "Tunnel",
+                    "Dialogue": [
+                        {
+                            "Stage Direction": "There is a roar."
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "What is that noise, Grun?"
+                        },
+                        {
+                            "Stage Direction": "Grun runs away."
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "Grun! Grun, come back here! Grun! Grun! Grun!"
+                        },
+                        {
+                            "Stage Direction": "Another distant roar, and the Doctor makes his way towards it."
+                        }
+                    ]
+                },
+                {
+                    "Scene": "Corridor",
+                    "Dialogue": [
+                        {
+                            "Stage Direction": "Jo runs into the Ice Warriors."
+                        },
+                        {
+                            "Character": "JO",
+                            "Line": "The monster!"
+                        },
+                        {
+                            "Character": "IZLYR",
+                            "Line": "How did you escape from my room?"
+                        },
+                        {
+                            "Character": "JO",
+                            "Line": "The monster, Aggedor. He's down there!"
+                        },
+                        {
+                            "Character": "IZLYR",
+                            "Line": "Ssorg."
+                        },
+                        {
+                            "Stage Direction": "Ssorg moves off with his weapon."
+                        },
+                        {
+                            "Character": "JO",
+                            "Line": "No, you can't! Look, it'll kill Ssorg."
+                        },
+                        {
+                            "Character": "IZLYR",
+                            "Line": "Ssorg's sonic gun can destroy any living creature."
+                        },
+                        {
+                            "Stage Direction": "Grun comes out from behind a tapestry and leaves just before Ssorg arrives."
+                        },
+                        {
+                            "Character": "IZLYR",
+                            "Line": "Where were you going?"
+                        },
+                        {
+                            "Character": "JO",
+                            "Line": "I was going to find the Doctor and King Peladon, when I saw"
+                        },
+                        {
+                            "Character": "SSORG",
+                            "Line": "There is nothing."
+                        },
+                        {
+                            "Character": "JO",
+                            "Line": "But it was there. I saw him."
+                        },
+                        {
+                            "Character": "IZLYR",
+                            "Line": "You say you see this monster when there is no monster. You are trying to trick us."
+                        },
+                        {
+                            "Character": "JO",
+                            "Line": "No! Oh, look, please, I've got to find the Doctor."
+                        },
+                        {
+                            "Character": "IZLYR",
+                            "Line": "Then we will help you. It is time that you and the Doctor answered my questions."
+                        },
+                        {
+                            "Stage Direction": "The Doctor would like to be found, as he is currently being chased through the tunnels under the castle by a large hairy beast with big claws and fangs."
+                        }
+                    ]
+                },
+                {
+                    "Scene": "Ice Warrior's room",
+                    "Dialogue": [
+                        {
+                            "Character": "IZLYR",
+                            "Line": "Sit down, Princess. Why did you try to escape?"
+                        },
+                        {
+                            "Character": "JO",
+                            "Line": "I was frightened. Can you blame me?"
+                        },
+                        {
+                            "Character": "IZLYR",
+                            "Line": "So, Princess, you believe that we tried to kill Arcturus."
+                        },
+                        {
+                            "Character": "JO",
+                            "Line": "Well if you didn't, why was the missing servo-unit in your room?"
+                        },
+                        {
+                            "Character": "IZLYR",
+                            "Line": "Perhaps you brought it here as part of your scheme to trap us."
+                        },
+                        {
+                            "Character": "JO",
+                            "Line": "But that's just not true! I. One of you must have tried to kill Arcturus."
+                        },
+                        {
+                            "Character": "IZLYR",
+                            "Line": "Nobody tried to kill him."
+                        },
+                        {
+                            "Character": "JO",
+                            "Line": "What?"
+                        },
+                        {
+                            "Character": "IZLYR",
+                            "Line": "To destroy Arcturus, the helium regenerator must be deactivated."
+                        },
+                        {
+                            "Character": "JO",
+                            "Line": "What about the unit?"
+                        },
+                        {
+                            "Character": "IZLYR",
+                            "Line": "Merely sensor equipment. Disconnecting that only produces metabolic coma."
+                        },
+                        {
+                            "Character": "JO",
+                            "Line": "So it couldn't be fatal?"
+                        },
+                        {
+                            "Character": "IZLYR",
+                            "Line": "Only uncomfortable."
+                        },
+                        {
+                            "Character": "JO",
+                            "Line": "I'm sorry if I might have misjudged you, but the Doctor did say you were a race of warriors."
+                        },
+                        {
+                            "Character": "IZLYR",
+                            "Line": "We were once, but now we reject violence except in self-defence."
+                        },
+                        {
+                            "Character": "JO",
+                            "Line": "What about Ssorg's gun? This is supposed to be a peaceful mission."
+                        },
+                        {
+                            "Character": "IZLYR",
+                            "Line": "Unfortunately, in order to preserve peace, it is necessary to survive."
+                        },
+                        {
+                            "Character": "JO",
+                            "Line": "Well, if you didn't do it, who did? Who could benefit by it?"
+                        },
+                        {
+                            "Character": "IZLYR",
+                            "Line": "Perhaps the Doctor will be able to explain."
+                        }
+                    ]
+                },
+                {
+                    "Scene": "Aggedor's Shrine",
+                    "Dialogue": [
+                        {
+                            "Stage Direction": "The Doctor runs down a dead end with a burning torch on the wall. He moves the sconce to open a doorway which leads into the shrine he saw when he first entered the castle. The Doctor goes up to the statue and touches it."
+                        },
+                        {
+                            "Character": "HEPESH",
+                            "Line": "Sacrilege! Seize him, Grun! You have defiled the inner sanctum of the holy temple of Aggedor! Your mind, your word, your being, all are evil!"
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "Give me a chance to explain, Hepesh."
+                        },
+                        {
+                            "Character": "HEPESH",
+                            "Line": "Take him before the King."
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "No, Hepesh, give me a chance!"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "Episode": "Episode Three",
+            "Scenes": [
+                {
+                    "Scene": "Throne room",
+                    "Dialogue": [
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "But there was no sacrilege intended, sir."
+                        },
+                        {
+                            "Character": "HEPESH",
+                            "Line": "Only the alien's death can purify the holy temple of Aggedor."
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "I had no idea that the tunnels would lead there."
+                        },
+                        {
+                            "Character": "PELADON",
+                            "Line": "Tunnels? I know of no tunnels. Hepesh?"
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "Surely your Majesty must know that beneath the citadel there is a network of secret passages."
+                        },
+                        {
+                            "Character": "HEPESH",
+                            "Line": "He is lying, your Majesty. There are no such passages."
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "King Peladon, I swear to you that I am telling the truth. I am innocent."
+                        },
+                        {
+                            "Character": "HEPESH",
+                            "Line": "Your Majesty, I"
+                        },
+                        {
+                            "Character": "JO",
+                            "Line": "You've got to believe him!"
+                        },
+                        {
+                            "Character": "IZLYR",
+                            "Line": "His ignorance of the law at least deserves consideration."
+                        },
+                        {
+                            "Character": "HEPESH",
+                            "Line": "No, his crime is too great."
+                        },
+                        {
+                            "Character": "IZLYR",
+                            "Line": "A Royal pardon would count highly with the Federation."
+                        },
+                        {
+                            "Character": "HEPESH",
+                            "Line": "The Federation cannot override our holy laws. It is forbidden by its charter."
+                        },
+                        {
+                            "Character": "ARCTURUS",
+                            "Line": "That is correct. Galactic Articles of Peace, paragraph twenty nine, subsection two."
+                        },
+                        {
+                            "Character": "ALPHA",
+                            "Line": "Then we are powerless to interfere."
+                        },
+                        {
+                            "Character": "JO",
+                            "Line": "But you can't just let him be killed!"
+                        },
+                        {
+                            "Character": "HEPESH",
+                            "Line": "You cannot prevent it."
+                        },
+                        {
+                            "Character": "JO",
+                            "Line": "No, but a King can. You asked me once if I believed in you. I want to believe in you, and here is your opportunity to show that you are a civilised King."
+                        },
+                        {
+                            "Character": "HEPESH",
+                            "Line": "He can do nothing. This is ancient law."
+                        },
+                        {
+                            "Character": "PELADON",
+                            "Line": "Hepesh is right. I am powerless to save him."
+                        },
+                        {
+                            "Character": "JO",
+                            "Line": "I'm begging you! Please."
+                        },
+                        {
+                            "Character": "PELADON",
+                            "Line": "There is one alternative. Trial by combat."
+                        },
+                        {
+                            "Character": "HEPESH",
+                            "Line": "But the Earth delegate is not of noble blood!"
+                        },
+                        {
+                            "Character": "JO",
+                            "Line": "That's barbaric!"
+                        },
+                        {
+                            "Character": "PELADON",
+                            "Line": "It is all I can offer."
+                        },
+                        {
+                            "Character": "HEPESH",
+                            "Line": "He cannot be given an honourable alternative."
+                        },
+                        {
+                            "Character": "PELADON",
+                            "Line": "You forget, Hepesh, he is a man of rank, and as such, an honourary nobleman of the citadel. What do you say, Doctor?"
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "Very well, your Majesty, I accept the challenge. But who do I fight?"
+                        },
+                        {
+                            "Character": "PELADON",
+                            "Line": "You will be held captive in your room until dawn. Then you will lowered into the pit beneath the citadel, where you will engage in combat to the death with the King's Champion, Grun."
+                        }
+                    ]
+                },
+                {
+                    "Scene": "Outside the Doctor's room",
+                    "Dialogue": [
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "Yes, you're a wily old bird, aren't old you, Hepesh? But you do realise, don't you, that my death would cause a major interplanetary scandal? Consider the consequences, Hepesh."
+                        }
+                    ]
+                },
+                {
+                    "Scene": "Throne room",
+                    "Dialogue": [
+                        {
+                            "Character": "JO",
+                            "Line": "How can I ever believe in you now?"
+                        },
+                        {
+                            "Character": "PELADON",
+                            "Line": "I'm sorry, but there are some things I cannot change, even for you."
+                        },
+                        {
+                            "Character": "JO",
+                            "Line": "Did you even want to? What do mercy and compassion mean to you? You need someone to die to justify your own stupid superstition!"
+                        },
+                        {
+                            "Character": "PELADON",
+                            "Line": "I want no one to die! Can't you see? I've done all I can. He means a great deal to you."
+                        },
+                        {
+                            "Character": "JO",
+                            "Line": "Yes."
+                        },
+                        {
+                            "Character": "PELADON",
+                            "Line": "Princess, I'm helpless. Don't hate me for that."
+                        },
+                        {
+                            "Character": "JO",
+                            "Line": "I don't hate you."
+                        },
+                        {
+                            "Character": "PELADON",
+                            "Line": "Both Torbis and my father died before they could break the traditions that bind us. But my mother taught me all she could of justice, compassion and love. She knew the time would come."
+                        },
+                        {
+                            "Character": "JO",
+                            "Line": "Then make it now! Be the King she wanted you to be. Be the King I want you to be."
+                        },
+                        {
+                            "Character": "PELADON",
+                            "Line": "Oh, there's so much I could do if I had someone by my side to help me. Oh, Princess, will you not give your Royal agreement to an interplanetary alliance by marriage with me?"
+                        },
+                        {
+                            "Character": "JO",
+                            "Line": "You know, I just don't understand you. I really don't. One minute you're condemning the Doctor to death, and the next minute you're proposing to me."
+                        },
+                        {
+                            "Character": "PELADON",
+                            "Line": "Josephine, the matters are completely separate. I had to condemn the Doctor. That was my duty as a King. What I'm trying to say to you now, that comes from my feelings as a man."
+                        },
+                        {
+                            "Character": "JO",
+                            "Line": "Then there's no connection between the two?"
+                        },
+                        {
+                            "Character": "PELADON",
+                            "Line": "But of course not. How could there be!"
+                        }
+                    ]
+                },
+                {
+                    "Scene": "The Doctor's room",
+                    "Dialogue": [
+                        {
+                            "Stage Direction": "The Doctor is lying on the bed while Hepesh paces."
+                        },
+                        {
+                            "Character": "HEPESH",
+                            "Line": "The door of your room will be left open. There will be no one there to stand in your way."
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "I see. Killed while trying to escape, is that it?"
+                        },
+                        {
+                            "Character": "HEPESH",
+                            "Line": "I don't want your death. Trust me."
+                        }
+                    ]
+                },
+                {
+                    "Scene": "Delegate's conference room",
+                    "Dialogue": [
+                        {
+                            "Character": "ARCTURUS",
+                            "Line": "The facts point to one thing, a unilateral blood alliance between Peladon and Earth."
+                        },
+                        {
+                            "Character": "IZLYR",
+                            "Line": "It is unusual to celebrate such an event with an execution."
+                        },
+                        {
+                            "Character": "ARCTURUS",
+                            "Line": "That possibility is obviously intended to confuse us."
+                        },
+                        {
+                            "Character": "ALPHA",
+                            "Line": "I do not understand! What is happening?"
+                        },
+                        {
+                            "Character": "ARCTURUS",
+                            "Line": "This is a conspiracy to destroy Federation unity and we are to be the victims."
+                        }
+                    ]
+                },
+                {
+                    "Scene": "The Doctor's room",
+                    "Dialogue": [
+                        {
+                            "Stage Direction": "Hepesh draws a map of the tunnels."
+                        },
+                        {
+                            "Character": "HEPESH",
+                            "Line": "There lies your route to freedom. Take it, leave our planet and live."
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "I'm afraid I can't. Well, not without my space shuttle."
+                        },
+                        {
+                            "Character": "HEPESH",
+                            "Line": "A large blue box was found on the lower slope of the mountain."
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "Yes, that's it. Where is it now?"
+                        },
+                        {
+                            "Character": "HEPESH",
+                            "Line": "It is being brought to the citadel."
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "Well, that's splendid. And what about Princess Josephine?"
+                        },
+                        {
+                            "Character": "HEPESH",
+                            "Line": "She will be allowed to leave with you."
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "Hepesh, why do you go to so much trouble? You could simply have me killed."
+                        },
+                        {
+                            "Character": "HEPESH",
+                            "Line": "I do not mean to have this planet destroyed in retaliation by the spaceships of the Federation."
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "Yet you slap the Federation in the face by sabotaging the commission. Why?"
+                        },
+                        {
+                            "Character": "HEPESH",
+                            "Line": "Because I'm afraid."
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "Afraid? Afraid of what? The Federation is your safeguard."
+                        },
+                        {
+                            "Character": "HEPESH",
+                            "Line": "That is not true! I know the Federation's real intent."
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "The Federation's real intent is to help you."
+                        },
+                        {
+                            "Character": "HEPESH",
+                            "Line": "No! They'll exploit us for our minerals, enslave us with their machines, corrupt us with their technology. The face of Peladon will be changed, the past swept away, and everything that I know and value will have gone."
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "The progress that they offer, that we offer, isn't like that."
+                        },
+                        {
+                            "Character": "HEPESH",
+                            "Line": "I would rather be a cave dweller and free."
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "Free? With your people imprisoned by ritual and superstition?"
+                        },
+                        {
+                            "Character": "HEPESH",
+                            "Line": "We need Aggedor."
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "You can hardly expect your pet ghost to take on the whole Federation single-handed, can you?"
+                        },
+                        {
+                            "Character": "HEPESH",
+                            "Line": "We do not stand alone."
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "Oh? Who stands with you?"
+                        },
+                        {
+                            "Character": "HEPESH",
+                            "Line": "Take your chance while you still can. It will soon be dawn."
+                        }
+                    ]
+                },
+                {
+                    "Scene": "Delegate's conference room",
+                    "Dialogue": [
+                        {
+                            "Character": "ALPHA",
+                            "Line": "But Princess, we must leave, if only in order to avoid violence."
+                        },
+                        {
+                            "Character": "JO",
+                            "Line": "But you can't just scuttle off and leave the Doctor."
+                        },
+                        {
+                            "Character": "ALPHA",
+                            "Line": "What will the Grand Council say?"
+                        },
+                        {
+                            "Character": "JO",
+                            "Line": "That you have no power to cancel a mission just like that."
+                        },
+                        {
+                            "Character": "IZLYR",
+                            "Line": "The Princess is right. Federation authorisation would be required."
+                        },
+                        {
+                            "Character": "ARCTURUS",
+                            "Line": "If we stay, we risk being taken as hostages."
+                        },
+                        {
+                            "Character": "ALPHA",
+                            "Line": "We must leave while we have the chance. We're in terrible danger!"
+                        },
+                        {
+                            "Character": "JO",
+                            "Line": "But so is the Doctor!"
+                        },
+                        {
+                            "Character": "ARCTURUS",
+                            "Line": "This is a very delicate political situation."
+                        },
+                        {
+                            "Character": "JO",
+                            "Line": "It'll be even more delicate if the Doctor is killed."
+                        },
+                        {
+                            "Character": "IZLYR",
+                            "Line": "Yes. That will amount to a declaration of war."
+                        },
+                        {
+                            "Character": "ARCTURUS",
+                            "Line": "An interesting problem."
+                        },
+                        {
+                            "Character": "IZLYR",
+                            "Line": "And the Federation would totally destroy Peladon."
+                        },
+                        {
+                            "Character": "ALPHA",
+                            "Line": "Yes it would."
+                        },
+                        {
+                            "Character": "ARCTURUS",
+                            "Line": "Therefore, we must do nothing."
+                        },
+                        {
+                            "Character": "JO",
+                            "Line": "Oh, great. Thanks a lot!"
+                        },
+                        {
+                            "Stage Direction": "Jo leaves."
+                        },
+                        {
+                            "Character": "IZLYR",
+                            "Line": "Ssorg."
+                        },
+                        {
+                            "Stage Direction": "Izlyr gestures him to follow Jo. Meanwhile, the Doctor has attached an extension with a revolving mirror to his sonic screwdriver. When it spins, it emits a hypnotising low hum that nearly puts him to sleep. He picks up the map and leaves his room."
+                        }
+                    ]
+                },
+                {
+                    "Scene": "Outside the Ice Warrior's room",
+                    "Dialogue": [
+                        {
+                            "Character": "SSORG",
+                            "Line": "Princess. Wait."
+                        },
+                        {
+                            "Character": "JO",
+                            "Line": "Well, what do you want?"
+                        },
+                        {
+                            "Character": "SSORG",
+                            "Line": "Delegate Izlyr must talk with you. Will you enter? Please?"
+                        }
+                    ]
+                },
+                {
+                    "Scene": "Ice Warrior's room",
+                    "Dialogue": [
+                        {
+                            "Stage Direction": "Jo enters, then Izlyr and Ssorg."
+                        },
+                        {
+                            "Character": "JO",
+                            "Line": "Well?"
+                        },
+                        {
+                            "Character": "IZLYR",
+                            "Line": "You left the meeting in anger. JO: Not much else I could do once you lot had ganged up to leave the Doctor stranded."
+                        },
+                        {
+                            "Character": "IZLYR",
+                            "Line": "We have not, as you say, ganged up. Arcturus is a coward by logic and Centauri is a coward by instinct, but they will not leave the Doctor stranded."
+                        },
+                        {
+                            "Character": "JO",
+                            "Line": "And why the sudden change?"
+                        },
+                        {
+                            "Character": "IZLYR",
+                            "Line": "Because Federation law allows only unanimous decisions and I voted to stay."
+                        },
+                        {
+                            "Character": "JO",
+                            "Line": "You? Why would you do that?"
+                        },
+                        {
+                            "Character": "IZLYR",
+                            "Line": "You remember when the statue fell? The Doctor saved my life. Now I intend to save his."
+                        },
+                        {
+                            "Character": "JO",
+                            "Line": "You really mean it?"
+                        }
+                    ]
+                },
+                {
+                    "Scene": "Corridor",
+                    "Dialogue": [
+                        {
+                            "Stage Direction": "Arcturus is eavesdropping with a device up against the wall."
+                        },
+                        {
+                            "Character": "JO [OC]",
+                            "Line": "You'll help me save the Doctor?"
+                        },
+                        {
+                            "Character": "IZLYR [OC]",
+                            "Line": "Yes, it is essential that the Doctor escapes."
+                        },
+                        {
+                            "Character": "JO [OC]",
+                            "Line": "You go and get the Doctor, and meet me at the tunnel. He'll show you where it is. All right?"
+                        },
+                        {
+                            "Character": "IZLYR [OC]",
+                            "Line": "Right."
+                        },
+                        {
+                            "Stage Direction": "Arcturus trundles away. Jo leaves the room."
+                        },
+                        {
+                            "Character": "IZLYR",
+                            "Line": "Come, Ssorg."
+                        },
+                        {
+                            "Stage Direction": "Elsewhere, the Doctor opens the secret door to the tunnels."
+                        }
+                    ]
+                },
+                {
+                    "Scene": "Guard room",
+                    "Dialogue": [
+                        {
+                            "Character": "HEPESH",
+                            "Line": "Gather all our men, Captain. Search the catacombs and the dungeons, and remember, the alien is dangerous. If he resists, kill him."
+                        },
+                        {
+                            "Character": "CAPTAIN",
+                            "Line": "My lord."
+                        }
+                    ]
+                },
+                {
+                    "Scene": "Tunnel",
+                    "Dialogue": [
+                        {
+                            "Stage Direction": "The Doctor follows Hepesh's map, and meets up with the shaggy beast. He prepares his modified sonic screwdriver."
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "Yes. I rather hoped I'd meet up with you, old chap."
+                        },
+                        {
+                            "Stage Direction": "He starts the mirror spinning and walks forward. Jo now enters the tunnels."
+                        }
+                    ]
+                },
+                {
+                    "Scene": "Guard room",
+                    "Dialogue": [
+                        {
+                            "Character": "HEPESH",
+                            "Line": "Our ally has plotted well, Grun. Whatever the Doctor does now, he'll be discredited. Oh, I know you wanted to kill him yourself, fulfil your oath as King's Champion, but never fear. He is moving into ever greater danger. I promise you, the King's honour will be maintained. Trust me."
+                        }
+                    ]
+                },
+                {
+                    "Scene": "The Doctor's room",
+                    "Dialogue": [
+                        {
+                            "Character": "IZLYR",
+                            "Line": "It seems that the Doctor has escaped without our help."
+                        },
+                        {
+                            "Character": "SSORG",
+                            "Line": "Or he has been eliminated."
+                        },
+                        {
+                            "Character": "IZLYR",
+                            "Line": "If that is so, Hepesh and this planet will have much to answer for."
+                        }
+                    ]
+                },
+                {
+                    "Scene": "Tunnel",
+                    "Dialogue": [
+                        {
+                            "Stage Direction": "The creature is up close to the Doctor, mesmerised by the spinning mirror as the Doctor sings to it."
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "Klokleda partha mennin kletch. Haroon, haroon, haroon. Klokleda sheena tirra nach. Haroon, haroon, haroon."
+                        },
+                        {
+                            "Stage Direction": "The creature goes quiet."
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "Haroon, haroon, haroon. Haroon, haroon, haroon. Haroon, haroon, haroon. Haroon, haroon, haroon. Well, I must say, you seem quite partial to old Venusian lullabies, don't you, Aggedor, old chap, hmm? Right, let's see how friendly you really are. All right, take it easy."
+                        },
+                        {
+                            "Stage Direction": "The Doctor strokes Aggedor's head."
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "There, that's it. There's a good chap."
+                        },
+                        {
+                            "Stage Direction": "The Doctor taps his head and Aggedor leaps up with a roar."
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "Oh, sorry. Not quite under."
+                        },
+                        {
+                            "Stage Direction": "The Doctor spins the mirror and sings again."
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "Klokleda partha mennin kletch. Haroon, haroon, haroon. Klokleda"
+                        },
+                        {
+                            "Stage Direction": "Nearby, Jo hears Aggedor's roar, grabs a torch and runs."
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "Tirra nach. Haroon, haran, haroon."
+                        },
+                        {
+                            "Character": "JO",
+                            "Line": "Hang on, Doctor!"
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "No, Jo, keep back!"
+                        },
+                        {
+                            "Character": "JO",
+                            "Line": "I'll scare him off!"
+                        },
+                        {
+                            "Stage Direction": "Jo waves the torch at Aggedor, who runs away."
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "Jo, keep back!"
+                        },
+                        {
+                            "Character": "JO",
+                            "Line": "Get back! Go on, back!"
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "Jo!"
+                        },
+                        {
+                            "Character": "JO",
+                            "Line": "Are you all right?"
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "Oh, Jo, you idiot. I'd just started to get through to him."
+                        },
+                        {
+                            "Character": "JO",
+                            "Line": "How?"
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "By a kind of technical hypnosis."
+                        },
+                        {
+                            "Character": "JO",
+                            "Line": "You weren't talking to him?"
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "No, not exactly. Merely empathy."
+                        },
+                        {
+                            "Stage Direction": "The Doctor sets the mirror spinning."
+                        },
+                        {
+                            "Character": "JO",
+                            "Line": "Empathy?"
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "Yes, it's a kind of telepathic understanding, Jo. Jo? Oh, good grief. Jo, snap out of it!"
+                        },
+                        {
+                            "Character": "JO",
+                            "Line": "What? What happened?"
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "Well, you just ruined a very promising experiment, that's what happened."
+                        },
+                        {
+                            "Character": "JO",
+                            "Line": "I'm sorry. I thought you were going to be killed. I only wanted to help you."
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "Yes. Yes, of course you did. And very brave you were, too. Come on. Let's see if we can find King Peladon."
+                        }
+                    ]
+                },
+                {
+                    "Scene": "Throne room",
+                    "Dialogue": [
+                        {
+                            "Character": "IZLYR",
+                            "Line": "Where is the Doctor? And where is the Princess?"
+                        },
+                        {
+                            "Character": "PELADON",
+                            "Line": "It seems they have escaped."
+                        },
+                        {
+                            "Character": "HEPESH",
+                            "Line": "A coward admitting his guilt. His life is forfeit. He will be hunted and killed like an animal."
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "I'm sorry to disappoint you, Hepesh."
+                        },
+                        {
+                            "Character": "HEPESH",
+                            "Line": "Guard!"
+                        },
+                        {
+                            "Character": "PELADON",
+                            "Line": "Wait!"
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "Your Majesty. I bring you a message. From Aggedor."
+                        },
+                        {
+                            "Character": "HEPESH",
+                            "Line": "He commits ever greater sacrilege! No one sees Aggedor and lives."
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "Well we just did. And I must say, he's quite pleasant company, for an animal. He didn't even seem to mind when I scratched him behind the ears."
+                        },
+                        {
+                            "Character": "HEPESH",
+                            "Line": "He defiles everything that is sacred. He must be silenced."
+                        },
+                        {
+                            "Character": "IZLYR",
+                            "Line": "Let us hear what he has to say."
+                        },
+                        {
+                            "Character": "HEPESH",
+                            "Line": "No!"
+                        },
+                        {
+                            "Character": "PELADON",
+                            "Line": "We shall hear him, Hepesh. Doctor?"
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "Aggedor is no spirit, your Majesty, but a truly noble beast. But his power is being used falsely, however, to prevent any chance that you may have of entering the Galactic Federation."
+                        },
+                        {
+                            "Character": "HEPESH",
+                            "Line": "You lie! The spirit of Aggedor will take his revenge! His manifestation is holy!"
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "Rubbish! His manifestation, as you call it, is solid, hairy, fact."
+                        },
+                        {
+                            "Character": "JO",
+                            "Line": "It's true. It's no ghost. I've seen it as well."
+                        },
+                        {
+                            "Character": "HEPESH",
+                            "Line": "Then produce this creature, if you can."
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "He lives in the tunnels beneath the city, sire."
+                        },
+                        {
+                            "Character": "PELADON",
+                            "Line": "Tunnels. You spoke of them before, Doctor, yet I know nothing of them."
+                        },
+                        {
+                            "Character": "HEPESH",
+                            "Line": "There are no tunnels, your Majesty."
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "The entrance is hidden, your Majesty."
+                        },
+                        {
+                            "Character": "IZLYR",
+                            "Line": "Then we must organise a search."
+                        },
+                        {
+                            "Character": "HEPESH",
+                            "Line": "No! This is merely a device to postpone the trial by combat."
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "Once I have proved what Aggedor really is, the trial by combat, sir, will hardly become necessary."
+                        },
+                        {
+                            "Character": "HEPESH",
+                            "Line": "So you want us to spend a lifetime searching for these mythical tunnels. A coward's devious excuse. Take him to the pit."
+                        },
+                        {
+                            "Character": "JO",
+                            "Line": "No!"
+                        },
+                        {
+                            "Character": "HEPESH",
+                            "Line": "Let him face his challenge."
+                        },
+                        {
+                            "Character": "JO",
+                            "Line": "Peladon, you can't!"
+                        },
+                        {
+                            "Character": "HEPESH",
+                            "Line": "Peladon!"
+                        },
+                        {
+                            "Character": "HEPESH",
+                            "Line": "Take him away."
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "Episode": "Episode Four",
+            "Scenes": [
+                {
+                    "Scene": "Pit",
+                    "Dialogue": [
+                        {
+                            "Stage Direction": "Alpha squeals, the Doctor looks up and Ssorg uses his sonic weapon. Arcturus' casing explodes. Hepesh and the guard Captain leave."
+                        },
+                        {
+                            "Character": "JO",
+                            "Line": "So, Arcturus was behind everything."
+                        }
+                    ]
+                },
+                {
+                    "Scene": "Throne room",
+                    "Dialogue": [
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "Arcturus and Hepesh."
+                        },
+                        {
+                            "Character": "PELADON",
+                            "Line": "But what about the attack on Arcturus?"
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "Faked, your Majesty. He told Hepesh what to do."
+                        },
+                        {
+                            "Character": "IZLYR",
+                            "Line": "That is what I suspected."
+                        },
+                        {
+                            "Character": "JO",
+                            "Line": "And the things I found on the balcony and in Izlyr's room?"
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "Planted by Hepesh, or one of his agents."
+                        },
+                        {
+                            "Character": "PELADON",
+                            "Line": "And the manifestation of Aggedor?"
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "Well, that's simple, your Majesty. Hepesh found that on a high mountain a few still existed. So he captured one, trained it and kept it hidden in the tunnels beneath the citadel, ready to pop out whenever he needed a bit of haunting."
+                        },
+                        {
+                            "Character": "PELADON",
+                            "Line": "But why did he do all this? What did he hope to gain?"
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "The entire planet of Peladon, or effective control of it, which comes to the same thing."
+                        },
+                        {
+                            "Character": "PELADON",
+                            "Line": "And Arcturus?"
+                        },
+                        {
+                            "Character": "IZLYR",
+                            "Line": "His planet lacks mineral deposits. Peladon has them in abundance."
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "That's why he wanted to make sure that Peladon did not enter the Galactic Federation. You see, he'd already made a private secret alliance with Hepesh."
+                        },
+                        {
+                            "Character": "ALPHA",
+                            "Line": "Extremely unethical! Fortunately the scheme has been foiled, so all is well."
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "Ah, but is it?"
+                        },
+                        {
+                            "Character": "JO",
+                            "Line": "Yes. Arcturus is dead."
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "But Hepesh is still very much alive."
+                        },
+                        {
+                            "Stage Direction": "And making his way through the tunnels."
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "You see, Hepesh believed everything that Arcturus told him. He still does. He firmly believes that entering the Galactic Federation would mean slavery and he'd go to any lengths to stop you joining."
+                        },
+                        {
+                            "Character": "JO",
+                            "Line": "But what can he do?"
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "Accuse the Ice Warriors of murdering Arcturus."
+                        },
+                        {
+                            "Character": "IZLYR",
+                            "Line": "Yes, Mars and the world of Arcturus are old enemies. That would mean war."
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "Exactly. And then all the rest of the Galactic Federation would take sides and"
+                        },
+                        {
+                            "Character": "ALPHA",
+                            "Line": "The Federation will be ripped! There will be interplanetary conflict!"
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "And Peladon would become the first battlefield. Blasted and sterile."
+                        },
+                        {
+                            "Character": "PELADON",
+                            "Line": "What shall I do, Doctor?"
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "Replace Hepesh with someone you can trust, your Majesty. Now!"
+                        }
+                    ]
+                },
+                {
+                    "Scene": "Tunnel",
+                    "Dialogue": [
+                        {
+                            "Character": "HEPESH",
+                            "Line": "Captain."
+                        },
+                        {
+                            "Character": "CAPTAIN",
+                            "Line": "My lord."
+                        }
+                    ]
+                },
+                {
+                    "Scene": "Throne room",
+                    "Dialogue": [
+                        {
+                            "Character": "PELADON",
+                            "Line": "The shame will destroy him."
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "It's not easy to be a king, Peladon. But unless you replace Hepesh, he will destroy everything that you have worked for."
+                        },
+                        {
+                            "Stage Direction": "Grun nods to the Doctor to leave the room."
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "Well, sire?"
+                        },
+                        {
+                            "Character": "PELADON",
+                            "Line": "There could be civil war. Will the Federation back me?"
+                        },
+                        {
+                            "Character": "ALPHA",
+                            "Line": "The Galactic Charter does not permit our involvement in internal politics."
+                        },
+                        {
+                            "Character": "IZLYR",
+                            "Line": "A unanimous decision could call on emergency powers."
+                        },
+                        {
+                            "Character": "JO",
+                            "Line": "The circumstances are unusual, you know, and your own safety is involved."
+                        },
+                        {
+                            "Character": "ALPHA",
+                            "Line": "But it would be a break with all precedent. I can't persuade myself that interference of this kind is justified."
+                        },
+                        {
+                            "Stage Direction": "Grun leaves quietly."
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "Then I think we ought to try and persuade you. Your Majesty, will you excuse us? We have the need of a private conference for the benefit of Alpha Centauri."
+                        },
+                        {
+                            "Character": "PELADON",
+                            "Line": "Very well. I shall consider all you have said, and if you can assure me of your support, then I shall act."
+                        }
+                    ]
+                },
+                {
+                    "Scene": "Corridor",
+                    "Dialogue": [
+                        {
+                            "Character": "(Grun opens the hidden door to the tunnels and goes through, gets a large rock and wedges it open. He returns the torch to its original position and goes into the tunnels. Elsewhere -) ALPHA",
+                            "Line": "Mind you, I reserve my legal right of veto. IZLYR: We will discuss the matter fully, I assure you. ALPHA: It would be different if there were precedents for such a situation, but there aren't. We must consider all possibilities. We must not be rash!"
+                        },
+                        {
+                            "Stage Direction": "The Doctor and Jo are walking down a different corridor."
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "Jo, do you realise how dangerous and complex this situation has become? Hepesh could still bring Peladon to his way of thinking, and if that happens, he'll have won without a fight."
+                        },
+                        {
+                            "Character": "JO",
+                            "Line": "But he can't just accuse the Ice Warriors of murder. There were witnesses. Ssorg had to shoot him to save your life."
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "Jo, you seem to be forgetting something else. Officially we don't even exist. We're just a couple of imposters."
+                        },
+                        {
+                            "Stage Direction": "They arrive at the entrance to the tunnels."
+                        },
+                        {
+                            "Character": "JO",
+                            "Line": "You playing the grand ambassador and Centauri upstaging everybody, and Peladon acting like a wet fish, I think it's about time that"
+                        },
+                        {
+                            "Stage Direction": "The Doctor hushes Jo."
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "Yeah, so that's why Grun was beckoning at me like that."
+                        },
+                        {
+                            "Character": "JO",
+                            "Line": "Hmm?"
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "Jo, I want you to go ahead and take charge of the conference. Work on Centauri. Once you've got a unanimous decision, act."
+                        },
+                        {
+                            "Character": "JO",
+                            "Line": "Well, what are you going to do?"
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "I'm going to see a man about an open door. Off you go."
+                        },
+                        {
+                            "Character": "JO",
+                            "Line": "All right, if you say so."
+                        },
+                        {
+                            "Stage Direction": "The Doctor picks up the rock and goes through the entrance."
+                        }
+                    ]
+                },
+                {
+                    "Scene": "Tunnel",
+                    "Dialogue": [
+                        {
+                            "Stage Direction": "He puts the rock down, closes the door and leaves. Elsewhere - "
+                        },
+                        {
+                            "Character": "HEPESH",
+                            "Line": "Is everything ready for the attack, Captain?"
+                        },
+                        {
+                            "Character": "CAPTAIN",
+                            "Line": "The men are armed and ready, sir."
+                        },
+                        {
+                            "Character": "HEPESH",
+                            "Line": "Good. Now remember, I want no harm to come to the king. He's to be taken prisoner and kept in safe custody."
+                        },
+                        {
+                            "Stage Direction": "Grun taps Hepesh on the shoulder and gestures."
+                        },
+                        {
+                            "Character": "HEPESH",
+                            "Line": "What do you want, Grun? You want me to go with you? No, Grun, I've things to do. Now, Captain, as soon as we arrive at the chamber."
+                        },
+                        {
+                            "Stage Direction": "Grun turns Hepesh to face him and gestures again."
+                        },
+                        {
+                            "Character": "HEPESH",
+                            "Line": "Grun, in the past you have served me well. I shall not forget. But for the moment, leave me! Now"
+                        },
+                        {
+                            "Stage Direction": "Hepesh turns his back on Grun, so the mute grabs him around the waist and drags him away."
+                        },
+                        {
+                            "Character": "HEPESH",
+                            "Line": "Guard! Guard!"
+                        },
+                        {
+                            "Stage Direction": "A young guard attacks Grun, who has to put down Hepesh. The Champion quickly deals with the young man, then the Captain comes at him with a sword. Hepesh hits Grun over the head with a very large rock."
+                        },
+                        {
+                            "Character": "HEPESH",
+                            "Line": "Come, Captain. It's time!"
+                        }
+                    ]
+                },
+                {
+                    "Scene": "Delegate's conference room",
+                    "Dialogue": [
+                        {
+                            "Character": "IZLYR",
+                            "Line": "Members of the Committee of Assessment, the motion is that we urge the Federation to support King Peladon in bringing peace to this troubled planet."
+                        },
+                        {
+                            "Character": "JO",
+                            "Line": "Those in favour?"
+                        },
+                        {
+                            "Stage Direction": "All raise their arms except Alpha, who looks around nervously then decides it doesn't want to be the odd one out."
+                        },
+                        {
+                            "Character": "IZLYR",
+                            "Line": "Carried unanimously."
+                        },
+                        {
+                            "Character": "JO",
+                            "Line": "Thank you. Alpha Centauri, you've made a very wise decision."
+                        },
+                        {
+                            "Character": "ALPHA",
+                            "Line": "I trust so, your Highness. For the record, my agreement is registered under protest. I accept no responsibility."
+                        },
+                        {
+                            "Character": "IZLYR",
+                            "Line": "We must inform the Federation."
+                        },
+                        {
+                            "Character": "ALPHA",
+                            "Line": "With all this fuss, I forgot to mention it. This morning, I found my communicator broken!"
+                        },
+                        {
+                            "Character": "IZLYR",
+                            "Line": "Then we must use mine. Ssorg, the communicator. We must contact our spaceships."
+                        },
+                        {
+                            "Character": "JO",
+                            "Line": "Definitely."
+                        },
+                        {
+                            "Stage Direction": "Ssorg leaves."
+                        },
+                        {
+                            "Character": "JO",
+                            "Line": "Spaceships?"
+                        },
+                        {
+                            "Character": "IZLYR",
+                            "Line": "I take it your spaceship, like ours, is orbiting this planet?"
+                        },
+                        {
+                            "Character": "JO",
+                            "Line": "Oh, yes! Yes, of course."
+                        },
+                        {
+                            "Character": "IZLYR",
+                            "Line": "You seem disturbed, Princess."
+                        },
+                        {
+                            "Character": "JO",
+                            "Line": "No, not in the slightest."
+                        },
+                        {
+                            "Character": "IZLYR",
+                            "Line": "I take it there is no doubt that the Earth government will ratify your decision, in view of the special circumstances?"
+                        },
+                        {
+                            "Character": "JO",
+                            "Line": "Circumstances? Well, I'm not quite sure. What circumstances?"
+                        },
+                        {
+                            "Character": "IZLYR",
+                            "Line": "Your forthcoming marriage with King Peladon."
+                        },
+                        {
+                            "Stage Direction": "While Jo's jaw hits the floor, Hepesh leads his guards into the citadel and Ssorg discovers their transmitter is also smashed."
+                        }
+                    ]
+                },
+                {
+                    "Scene": "Tunnel",
+                    "Dialogue": [
+                        {
+                            "Stage Direction": "The Doctor finds Grun waking up."
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "Grun! Grun, what happened? Who attacked you? Who?"
+                        },
+                        {
+                            "Stage Direction": "Grun writes H in the dirt floor."
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "H. What, Hepesh? And a soldier? How many soldiers? Many? If he takes charge of the citadel, we don't stand much chance."
+                        },
+                        {
+                            "Stage Direction": "Aggedor roars nearby."
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "Perhaps we do. Come on. You're not frightened, are you, a big chap like you? Well, don't be. You come with me, come on."
+                        }
+                    ]
+                },
+                {
+                    "Scene": "Delegate's conference room",
+                    "Dialogue": [
+                        {
+                            "Character": "JO",
+                            "Line": "Well, I'm sorry to disappoint you, but a marriage has not been arranged. To coin a phrase, we're just good friends."
+                        },
+                        {
+                            "Character": "ALPHA",
+                            "Line": "But it would have made a magnificent coronation."
+                        },
+                        {
+                            "Character": "JO",
+                            "Line": "Before we have a coronation, we have to have a king. Are you going to help me or not?"
+                        },
+                        {
+                            "Character": "ALPHA",
+                            "Line": "Well"
+                        },
+                        {
+                            "Stage Direction": "Ssorg enters."
+                        },
+                        {
+                            "Character": "SSORG",
+                            "Line": "Lord Izlyr, the link with our spaceship has been deliberately destroyed."
+                        },
+                        {
+                            "Character": "ALPHA",
+                            "Line": "Yours too?"
+                        },
+                        {
+                            "Character": "IZLYR",
+                            "Line": "Then we must make use of yours, Princess."
+                        },
+                        {
+                            "Character": "JO",
+                            "Line": "Well, don't look at me. Ours was damaged when we crash-landed."
+                        },
+                        {
+                            "Character": "ALPHA",
+                            "Line": "We're completely cut off?"
+                        },
+                        {
+                            "Character": "JO",
+                            "Line": "Hepesh?"
+                        },
+                        {
+                            "Character": "IZLYR",
+                            "Line": "Yes, Hepesh."
+                        }
+                    ]
+                },
+                {
+                    "Scene": "Outside the Throne room",
+                    "Dialogue": [
+                        {
+                            "Stage Direction": "Two of Hepesh's men take position on the ledge. Hepesh sends the Captain to deal with the sentries outside the door."
+                        },
+                        {
+                            "Character": "CAPTAIN",
+                            "Line": "Men, fall in."
+                        },
+                        {
+                            "Stage Direction": "The guards obey, and the two on the ledge jump them and knock them out."
+                        },
+                        {
+                            "Character": "HEPESH",
+                            "Line": "Remember, Captain, no harm must befall the king. Proceed."
+                        }
+                    ]
+                },
+                {
+                    "Scene": "Delegate's conference room",
+                    "Dialogue": [
+                        {
+                            "Stage Direction": "Alpha is having an hysterical monologue at Ssorg while Jo and Izlyr have a discussion."
+                        },
+                        {
+                            "Character": "ALPHA",
+                            "Line": "What will happen? What will we do?"
+                        },
+                        {
+                            "Character": "JO",
+                            "Line": "Yes, but I'm sure the Doctor would know what to do."
+                        },
+                        {
+                            "Character": "ALPHA",
+                            "Line": "I'm a civil servant, not a scientist!"
+                        },
+                        {
+                            "Character": "IZLYR",
+                            "Line": "Yes, but where is he?"
+                        },
+                        {
+                            "Character": "ALPHA",
+                            "Line": "There's no escape!"
+                        },
+                        {
+                            "Character": "JO",
+                            "Line": "Well, I don't know."
+                        },
+                        {
+                            "Character": "ALPHA",
+                            "Line": "Without our communicators, we cannot return to our spacecraft! I knew something like this would happen!"
+                        },
+                        {
+                            "Character": "IZLYR",
+                            "Line": "Arcturus was an unattractive person, Princess"
+                        },
+                        {
+                            "Character": "ALPHA",
+                            "Line": "We're all going to be killed! How are we to escape from this barbarous planet?"
+                        },
+                        {
+                            "Character": "IZLYR",
+                            "Line": "But I think I preferred his cold logic"
+                        },
+                        {
+                            "Character": "ALPHA",
+                            "Line": "We should never have come here at all! It was madness!"
+                        },
+                        {
+                            "Character": "IZLYR",
+                            "Line": "To the hysteria of Centauri."
+                        },
+                        {
+                            "Character": "ALPHA",
+                            "Line": "I thought so all the time! Now there's no escape!"
+                        },
+                        {
+                            "Character": "JO",
+                            "Line": "Oh, Centauri, stop it."
+                        },
+                        {
+                            "Character": "ALPHA",
+                            "Line": "We shall all be killed!"
+                        },
+                        {
+                            "Character": "IZLYR",
+                            "Line": "Centauri."
+                        },
+                        {
+                            "Character": "ALPHA",
+                            "Line": "I tell you, we will be killed! What are we going to do?"
+                        },
+                        {
+                            "Character": "JO",
+                            "Line": "Centauri, stop it! Nothing has happened yet. We're quite safe here."
+                        },
+                        {
+                            "Character": "IZLYR",
+                            "Line": "They would not dare to attack Federation delegates."
+                        },
+                        {
+                            "Character": "ALPHA",
+                            "Line": "But"
+                        }
+                    ]
+                },
+                {
+                    "Scene": "Throne room",
+                    "Dialogue": [
+                        {
+                            "Stage Direction": "With a yell, the Captain and his guards rush in. The Captain holds Peladon at sword point while the two lots of guards duel each other. After several deaths, presumably his own men."
+                        },
+                        {
+                            "Character": "CAPTAIN",
+                            "Line": "Surrender, or the King will die!"
+                        },
+                        {
+                            "Stage Direction": "The King's guard gives in. Hepesh enters."
+                        },
+                        {
+                            "Character": "PELADON",
+                            "Line": "Hepesh. I thought you would bring me the crown of kingship. Are you going to bring me death instead?"
+                        },
+                        {
+                            "Character": "HEPESH",
+                            "Line": "You have become a stranger to me, Peladon. Return to the ancient ways of our people, and you will live on, our beloved king. If not, the royal line of Peladon must meet an ignoble end."
+                        }
+                    ]
+                },
+                {
+                    "Scene": "Tunnel",
+                    "Dialogue": [
+                        {
+                            "Stage Direction": "Aggedor roars up ahead."
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "Grun, you're a brave warrior. What you're going to see now may amaze you, but just you trust me."
+                        },
+                        {
+                            "Stage Direction": "Aggedor approaches, the Doctor gets his modified screwdriver out and sets the mirror spinning."
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "All right, old chap. You remember me, don't you? You remember me. (sings) Klokleda partha mennin klatch. Haroon, haroon, haroon. Klokleda sheena teri nach. Haroon, haroon, haroon."
+                        }
+                    ]
+                },
+                {
+                    "Scene": "Delegate's conference room",
+                    "Dialogue": [
+                        {
+                            "Stage Direction": "There is a knock on the door. Jo and Alpha move back and Ssorg readies his weapon."
+                        },
+                        {
+                            "Character": "IZLYR",
+                            "Line": "Enter."
+                        },
+                        {
+                            "Stage Direction": "Hepesh enters."
+                        },
+                        {
+                            "Character": "IZLYR",
+                            "Line": "Ssorg will destroy you if you try to harm us."
+                        },
+                        {
+                            "Character": "HEPESH",
+                            "Line": "I am unarmed and alone. Where is the Doctor?"
+                        },
+                        {
+                            "Character": "JO",
+                            "Line": "I don't know."
+                        },
+                        {
+                            "Character": "HEPESH",
+                            "Line": "He will not escape capture for long."
+                        },
+                        {
+                            "Character": "IZLYR",
+                            "Line": "What do you want?"
+                        },
+                        {
+                            "Character": "HEPESH",
+                            "Line": "You will all accompany me to the throne room."
+                        },
+                        {
+                            "Character": "JO",
+                            "Line": "Why?"
+                        },
+                        {
+                            "Character": "HEPESH",
+                            "Line": "My men hold King Peladon prisoner. If I do not return will all of you immediately, he will die. Follow me."
+                        }
+                    ]
+                },
+                {
+                    "Scene": "Tunnel",
+                    "Dialogue": [
+                        {
+                            "Stage Direction": "Aggedor is very relaxed."
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "Haroon, haroon, haroon. Haroon, harun, haroon. Haroon, harun, haroon. Haroon, harun, haroon. Haroon, harun, haroon. There you are, Grun. Yes, he's quite under now. Not such a terrifying creature after all, is he? Right, I think it's about time that King Peladon learned the truth, don't you? Come on, Aggedor. Come on, old chap, that's it. Come on, Aggedor. That's it. Come on, Grun."
+                        },
+                        {
+                            "Stage Direction": "The Doctor leads Aggedor by the horn, while Grun nervously follows behind."
+                        }
+                    ]
+                },
+                {
+                    "Scene": "Throne room",
+                    "Dialogue": [
+                        {
+                            "Stage Direction": "Hepesh enters, followed by Jo and the delegates."
+                        },
+                        {
+                            "Character": "HEPESH",
+                            "Line": "You see? I did not lie."
+                        },
+                        {
+                            "Character": "JO",
+                            "Line": "What are you going to do to him?"
+                        },
+                        {
+                            "Character": "HEPESH",
+                            "Line": "Nothing if the delegates cooperate."
+                        },
+                        {
+                            "Character": "IZLYR",
+                            "Line": "You will answer to Federation justice for this."
+                        },
+                        {
+                            "Character": "HEPESH",
+                            "Line": "The Federation has no jurisdiction over me or over this planet. It is you who will answer for your interference."
+                        },
+                        {
+                            "Character": "ALPHA",
+                            "Line": "You are holding us here by force! You will answer for that!"
+                        },
+                        {
+                            "Character": "HEPESH",
+                            "Line": "I am not holding you. I do not want you either as guests or as hostages. I know the retribution this planet would suffer if anything happened to any of you. Therefore go in peace. Tell your masters Peladon wants nothing of their Federation, but go now!"
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "Who dares challenge Peladon!"
+                        },
+                        {
+                            "Stage Direction": "The Doctor holds the doors half closed behind him."
+                        },
+                        {
+                            "Character": "JO",
+                            "Line": "Doctor!"
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "Kneel and pay homage to his sacred guardian!"
+                        },
+                        {
+                            "Stage Direction": "The Doctor flings open the doors and Aggedor shuffles in, escorted by Grun."
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "Kneel!"
+                        },
+                        {
+                            "Character": "PELADON",
+                            "Line": "Hepesh! He is real!"
+                        },
+                        {
+                            "Character": "ALPHA",
+                            "Line": "The beast!"
+                        },
+                        {
+                            "Character": "HEPESH",
+                            "Line": "Do not listen to the alien! I am your High Priest!"
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "And I speak for Aggedor. And I accuse you, Hepesh, of being not only a traitor to your king, but also to your sacred trust."
+                        },
+                        {
+                            "Character": "HEPESH",
+                            "Line": "Do not listen to the alien! This is not Aggedor's spirit! I will show you the reality of this creature!"
+                        },
+                        {
+                            "Stage Direction": "Hepesh takes a torch from its sconce."
+                        },
+                        {
+                            "Character": "HEPESH",
+                            "Line": "I am his master! When I speak he obeys!"
+                        },
+                        {
+                            "Stage Direction": "A soldier pulls the Doctor back as Hepesh waves the torch in Aggedor's face."
+                        },
+                        {
+                            "Character": "HEPESH",
+                            "Line": "Aggedor! Aggedor! Kill him!"
+                        },
+                        {
+                            "Stage Direction": "Aggedor looks at the Doctor, then knocks the torch from Hepesh's hand and attacks him. The Doctor intervenes with the screwdriver and backs Aggedor out of the room."
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "Back! Back, that's it. Back, back."
+                        },
+                        {
+                            "Character": "PELADON",
+                            "Line": "Hepesh!"
+                        },
+                        {
+                            "Stage Direction": "Peladon takes the injured Hepesh in his arms."
+                        },
+                        {
+                            "Character": "HEPESH",
+                            "Line": "I wanted to save our world. To preserve the old ways. Perhaps I was wrong, Peladon. I hope so. The future you set so much store by is yours now."
+                        },
+                        {
+                            "Stage Direction": "Hepesh dies. Jo puts her arms around Peladon."
+                        },
+                        {
+                            "Character": "JO",
+                            "Line": "Peladon, they're waiting for you."
+                        },
+                        {
+                            "Stage Direction": "Peladon covers Hepesh's face. The Doctor enters. Jo shakes her head."
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "Tell your men to lay down their arms. Your leader is dead."
+                        },
+                        {
+                            "Character": "CAPTAIN",
+                            "Line": "Your Majesty."
+                        },
+                        {
+                            "Stage Direction": "The Captain kneels and offers his sword with its point at his heart. Peladon takes it."
+                        },
+                        {
+                            "Character": "PELADON",
+                            "Line": "There will be no punishments. The memory of this unhappy day shall be wiped from our history."
+                        },
+                        {
+                            "Character": "CAPTAIN",
+                            "Line": "Your Majesty."
+                        }
+                    ]
+                },
+                {
+                    "Scene": "Corridor",
+                    "Dialogue": [
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "Come on, Jo. Follow me. I've got a nice surprise for you."
+                        },
+                        {
+                            "Character": "JO",
+                            "Line": "What?"
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "You wait and see. You ready?"
+                        },
+                        {
+                            "Character": "JO",
+                            "Line": "Yes."
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "All right then."
+                        }
+                    ]
+                },
+                {
+                    "Scene": "Delegate's conference room",
+                    "Dialogue": [
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "Right, take a look at this."
+                        },
+                        {
+                            "Character": "JO",
+                            "Line": "The Tardis! Wow!"
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "Some of Peladon's stout lads heaved here up the mountainside for us."
+                        },
+                        {
+                            "Character": "JO",
+                            "Line": "Is she all right?"
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "Yes, never better. I told you the Tardis was indestructible."
+                        },
+                        {
+                            "Character": "JO",
+                            "Line": "Well, I hope it gets us back to Earth this time."
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "So do I, Jo. So do I."
+                        },
+                        {
+                            "Character": "JO",
+                            "Line": "Is there any doubt?"
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "You don't really think that our appearance on the planet of Peladon at this precise crisis in their history was just coincidence, do you?"
+                        },
+                        {
+                            "Character": "JO",
+                            "Line": "Time Lords again."
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "Yes, I think so."
+                        },
+                        {
+                            "Character": "JO",
+                            "Line": "Ah, you didn't beat them after all."
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "No, not yet, but I will, Jo. Just give me time. Still, now we've done what they wanted us to do, I suppose they'll whip us straight back to Earth."
+                        },
+                        {
+                            "Character": "JO",
+                            "Line": "At least we get to see a real coronation before we go, eh?"
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "Yeah, that's true. You know, I haven't seen a coronation since Elizabeth the first's. Or was it Queen Victoria?"
+                        },
+                        {
+                            "Character": "JO",
+                            "Line": "Name dropper."
+                        },
+                        {
+                            "Stage Direction": "Aggedor enters."
+                        },
+                        {
+                            "Character": "JO",
+                            "Line": "Oh!"
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "Don't worry. It's only Aggedor."
+                        },
+                        {
+                            "Character": "JO",
+                            "Line": "Phew!"
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "The trouble is he seems to have grown rather fond of me. He keeps following me about. Hello, Aggedor."
+                        },
+                        {
+                            "Character": "JO",
+                            "Line": "Hello."
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "There's a good chap. All right, down, Aggedor. Down boy, down! I think I'd better go and lock him up."
+                        },
+                        {
+                            "Character": "JO",
+                            "Line": "Yes, please."
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "Come on. Come on, Aggedor."
+                        },
+                        {
+                            "Stage Direction": "Peladon enters as the Doctor and Aggedor leave."
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "Your Majesty. Easy, Aggedor. That's it. Come on, this way."
+                        },
+                        {
+                            "Character": "JO",
+                            "Line": "Hello. Oughtn't you to be getting ready for the big occasion?"
+                        },
+                        {
+                            "Character": "PELADON",
+                            "Line": "I wanted to see you first, to ask you to stay."
+                        },
+                        {
+                            "Character": "JO",
+                            "Line": "But I can't."
+                        },
+                        {
+                            "Character": "PELADON",
+                            "Line": "Why can't you?"
+                        },
+                        {
+                            "Character": "JO",
+                            "Line": "Don't ask me for reasons. You wouldn't believe them."
+                        },
+                        {
+                            "Character": "PELADON",
+                            "Line": "I need you."
+                        },
+                        {
+                            "Character": "JO",
+                            "Line": "But you don't understand. I'm not even a real Princess."
+                        },
+                        {
+                            "Character": "PELADON",
+                            "Line": "That doesn't matter."
+                        },
+                        {
+                            "Character": "JO",
+                            "Line": "Oh, Peladon, I'm very, very fond of you, but I can't stay. Really."
+                        },
+                        {
+                            "Character": "PELADON",
+                            "Line": "Well look, I must go now. I'll talk to you again after the coronation. I shan't give up, you know? I shall go on asking."
+                        },
+                        {
+                            "Stage Direction": "Jo kisses Peladon. The Doctor enters."
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "Your Majesty. Oh, excuse me sire, but your court officials are in a state of considerable panic."
+                        },
+                        {
+                            "Character": "PELADON",
+                            "Line": "Oh, yes, of course. I must go. Your Highness?"
+                        },
+                        {
+                            "Character": "JO",
+                            "Line": "Goodbye."
+                        },
+                        {
+                            "Character": "PELADON",
+                            "Line": "Doctor."
+                        },
+                        {
+                            "Stage Direction": "Peladon leaves."
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "Right, we'll just see the ceremony and slip quietly away, all right?"
+                        },
+                        {
+                            "Character": "JO",
+                            "Line": "Yes. Fine."
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "Jo? You do want to come back?"
+                        },
+                        {
+                            "Character": "JO",
+                            "Line": "I think I'd better, don't you?"
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "Mmm hmm. In any case, I wouldn't like to lose you. Shall we join the procession?"
+                        },
+                        {
+                            "Character": "JO",
+                            "Line": "Yes!"
+                        }
+                    ]
+                },
+                {
+                    "Scene": "Corridor",
+                    "Dialogue": [
+                        {
+                            "Stage Direction": "A woman in sequined black is arguing with Izlyr and Alpha."
+                        },
+                        {
+                            "Character": "AMAZONIA",
+                            "Line": "I'm telling you, my good fellow, I am the official Earth delegate!"
+                        },
+                        {
+                            "Character": "ALPHA",
+                            "Line": "But the Doctor is the accredited Earth delegate."
+                        },
+                        {
+                            "Character": "AMAZONIA",
+                            "Line": "Doctor? What Doctor? Doctor who?"
+                        },
+                        {
+                            "Stage Direction": "The Doctor and Jo go back around the corner."
+                        },
+                        {
+                            "Character": "IZLYR [OC]",
+                            "Line": "The Doctor and the Princess Josephine."
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "Pity about that. I rather wanted to see that coronation."
+                        },
+                        {
+                            "Character": "JO",
+                            "Line": "Never mind. We could always go to Queen Victoria's."
+                        },
+                        {
+                            "Character": "IZLYR [OC]",
+                            "Line": "Yes."
+                        },
+                        {
+                            "Character": "ALPHA [OC]",
+                            "Line": "You must have heard of Princess Josephine!"
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "Queen Victoria's? I've already seen Queen Victoria's. JO: I haven't. Let's go again."
+                        },
+                        {
+                            "Character": "AMAZONIA [OC]",
+                            "Line": "They're obviously imposters!"
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "All right."
+                        },
+                        {
+                            "Character": "ALPHA [OC]",
+                            "Line": "I do not understand."
+                        },
+                        {
+                            "Character": "AMAZONIA",
+                            "Line": "Where are they now?"
+                        },
+                        {
+                            "Character": "IZLYR",
+                            "Line": "I think they were in the delegate's conference room. Come, I will take you there."
+                        }
+                    ]
+                },
+                {
+                    "Scene": "Delegate's conference room",
+                    "Dialogue": [
+                        {
+                            "Stage Direction": "The Doctor and Jo get into the Tardis shortly before the delegates enter."
+                        },
+                        {
+                            "Character": "AMAZONIA",
+                            "Line": "Well, where are they?"
+                        },
+                        {
+                            "Character": "IZLYR",
+                            "Line": "What is that?"
+                        },
+                        {
+                            "Stage Direction": "The Tardis dematerialises to the sound of dropping jaws."
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

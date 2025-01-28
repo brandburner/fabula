@@ -1,0 +1,190 @@
+{
+  "metadata": {
+    "title": "Logopolis",
+    "series": "Doctor Who",
+    "season": "18",
+    "episode_number": 7,
+    "release_date": "28 February 1981",
+    "release_end_date": "21 March 1981",
+    "writer": "Christopher H. Bidmead",
+    "director": "Peter Grimwade",
+    "producer": "John Nathan-Turner",
+    "main_actors": [
+      "Tom Baker",
+      "Matthew Waterhouse",
+      "Janet Fielding",
+      "Sarah Sutton",
+      "Anthony Ainley",
+      "John Fraser"
+    ],
+    "time_reference": "1981"
+  },
+  "cast_crew": [
+    {
+      "cast": {
+        "name": "Tom Baker",
+        "role": "The Fourth Doctor"
+      },
+      "crew": {
+        "name": "Christopher H. Bidmead",
+        "role": "Writer"
+      }
+    },
+    {
+      "cast": {
+        "name": "Matthew Waterhouse",
+        "role": "Adric"
+      },
+      "crew": {
+        "name": "Peter Grimwade",
+        "role": "Director"
+      }
+    },
+    {
+      "cast": {
+        "name": "Janet Fielding",
+        "role": "Tegan"
+      },
+      "crew": {
+        "name": "John Nathan-Turner",
+        "role": "Producer"
+      }
+    },
+    {
+      "cast": {
+        "name": "Adrian Gibbs",
+        "role": "The Watcher"
+      },
+      "uncredited_cast": {
+        "name": "Ray Knight",
+        "role": "Policeman 1"
+      },
+      "crew": {
+        "name": "Val McCrimmon",
+        "role": "Assistant Floor Manager"
+      }
+    }
+  ],
+  "home_media": [
+    {
+      "releases": {
+        "media_type": "DVD",
+        "date": "2007",
+        "details": "Part of New Beginnings box set",
+        "special_features": [
+          "Commentary by Tom Baker, Janet Fielding and Christopher H. Bidmead",
+          "A New Body at Last - 50-minute documentary",
+          "Nationwide - Interviews with Tom Baker and Peter Davison",
+          "Pebble Mill at One - Peter Davison interview",
+          "BBC News Reports on Tom Baker's departure and Peter Davison's arrival",
+          "Music-only Option - Original score",
+          "Trailers & Continuity Announcements",
+          "Radio Times Billings",
+          "The Doctor Who Annual 1982",
+          "Photo Gallery",
+          "Production Subtitles"
+        ]
+      }
+    },
+    {
+      "releases": {
+        "media_type": "BLU_RAY",
+        "date": "18 March 2019",
+        "details": "Released with updated special effects as part of The Collection range",
+        "special_features": [
+          "Audio Commentary by actors Tom Baker and Janet Fielding and writer Christopher H. Bidmead",
+          "Hanging on by a Thread - New documentary with cast",
+          "A New Body at Last - 2006 DVD documentary",
+          "Behind the Sofa",
+          "Studio Footage - Regeneration scenes",
+          "Audio Restoration - Restoration work overview",
+          "Tomorrow's Times: The Fourth Doctor era press coverage",
+          "Stripped For Action - Fourth Doctor's comic strips",
+          "Doctor Who Stories - 2003 interview with Tom Baker",
+          "BBC1 Continuity Announcements",
+          "The Five Faces of Doctor Who - Trailer",
+          "HD Photo Gallery"
+        ]
+      }
+    },
+    {
+      "releases": {
+        "media_type": "VHS",
+        "date": "2 March 1992",
+        "special_features": []
+      }
+    }
+  ],
+  "story_notes": [
+    {
+      "notes": [
+        "Logopolis is notable for being the final regular appearance of Tom Baker as the Fourth Doctor.",
+        "This serial includes the first appearance of Peter Davison as the Fifth Doctor.",
+        "Introduced during this story is an interim version of the Doctor called the Watcher.",
+        "This was Anthony Ainley\u2019s first full story as the Tremas Master.",
+        "Tom Baker, as of 2024, is the longest-serving actor in the role of the Doctor.",
+        "The name Logopolis comes from Greek meaning 'city of numbers'."
+      ]
+    }
+  ],
+  "worldbuilding": {
+    "in_universe_mythology": [
+      "The Cloister Bell in the TARDIS rings in times of catastrophic events.",
+      "Logopolitans use Block Transfer Computations to stabilize the universe.",
+      "The Watcher is a transitional form of the Doctor that emerges before a regeneration."
+    ],
+    "real_world_cultural_references": [
+      "The term 'entropy' and the Second Law of Thermodynamics are crucial concepts in the story.",
+      "Doctor misquotes 'chess-board is the world' from Huxley."
+    ],
+    "individuals": [
+      "The Watcher",
+      "The Fourth Doctor",
+      "The Fifth Doctor"
+    ],
+    "items": [
+      "TARDIS",
+      "Cloister Bell",
+      "Chameleon Circuit"
+    ],
+    "locations": [
+      "TARDIS",
+      "Logopolis",
+      "Pharos Project in Sussex",
+      "London 1981",
+      "Traken (mentioned)"
+    ]
+  },
+  "ratings": {
+    "ratings_millions": [
+      {
+        "part": "Part one",
+        "viewers": 7.1
+      },
+      {
+        "part": "Part two",
+        "viewers": 7.7
+      },
+      {
+        "part": "Part three",
+        "viewers": 5.8
+      },
+      {
+        "part": "Part four",
+        "viewers": 6.1
+      }
+    ]
+  },
+  "continuity": {
+    "continuity_notes": [
+      "The Doctor discusses Romana II's recent departure.",
+      "Reference to Doctor and Master\u2019s confrontation on a radio telescope from earlier stories.",
+      "The TARDIS's chameleon circuit being repaired contradicts a previous statement by the Doctor."
+    ]
+  },
+  "plot": [
+    {
+      "plot_summary": "The Doctor, seeking to repair the TARDIS's faulty chameleon circuit, arrives on a planet called Logopolis. The Master, having recently gained control over the body of Tremas, seeks to wreak havoc across the universe, using Logopolis for his own purposes. Meanwhile, a mysterious figure known as the Watcher observes these events. Several companions, including new additions Nyssa and Tegan, become entangled in this conflict. Entropy threatens to unravel the universe and the Doctor must unite with the Master to save reality. However, their alliance leads to the Doctor falling from the Pharos Project's radio telescope, ushering in his regeneration into his fifth incarnation."
+    }
+  ]
+}

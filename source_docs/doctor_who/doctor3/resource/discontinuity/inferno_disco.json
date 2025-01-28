@@ -1,0 +1,102 @@
+{
+    "title": "Inferno",
+    "air_date": "9 May 1970",
+    "num_episodes": 7,
+    "episode_titles": [
+        "Episode 1",
+        "Episode 2",
+        "Episode 3",
+        "Episode 4",
+        "Episode 5",
+        "Episode 6",
+        "Episode 7"
+    ],
+    "episode_duration": 25,
+    "writers": [
+        "Don Houghton"
+    ],
+    "directors": [
+        "Douglas Camfield",
+        "Barry Letts (uncredited)"
+    ],
+    "media_format": "Color",
+    "dialogue_triumphs": [
+        "Listen to that! It's the sound of the planet screaming out its rage!",
+        "Sutton on fascism: 'Marvellous, isn't it? The world's going up in flames and they're still playing at toy soldiers!'"
+    ],
+    "dialogue_disasters": [
+        "The Doctor, responding to Greg's less than enthusiastic impression of the TARDIS console: 'What did you expect? Some kind of space-rocket with Batman at the controls?'"
+    ],
+    "goofs": [
+        "On the nuclear output gauge in the Doctor's workshop, megavolts is spelled 'Megga Volts'.",
+        "Bessie travels with the Doctor and the TARDIS console into the parallel universe, despite the fact that it is 10 feet away from them."
+    ],
+    "continuity_notes": [
+        {
+            "name": "The Doctor",
+            "type": "Character",
+            "description": "Time Lord protagonist",
+            "origin": "Gallifrey",
+            "current_status": "Exiled to Earth, working with UNIT"
+        },
+        {
+            "name": "TARDIS Console",
+            "type": "Object",
+            "description": "Control mechanism for the TARDIS",
+            "origin": "Gallifrey",
+            "current_status": "Removable and capable of independent travel"
+        },
+        {
+            "name": "Parallel Universe",
+            "type": "Concept",
+            "description": "An alternate version of Earth with a fascist regime",
+            "origin": null,
+            "current_status": "Accessible through the TARDIS console"
+        }
+    ],
+    "technobabble": [
+        "Stahlman's gas was a potential energy source found under the Earth's crust."
+    ],
+    "roots": [
+        "The Quatermass serials",
+        "1984",
+        "Star Trek episode 'Mirror Mirror'",
+        "The Day the Earth Caught Fire",
+        "It's a Wonderful Life",
+        "John Wyndham's 'Random Quest'",
+        "The Troubleshooters",
+        "Doppleganger",
+        "Conan Doyle's 'When the World Screams'"
+    ],
+    "links": [
+        "Venus",
+        "The Time Monster"
+    ],
+    "locations": [
+        {
+            "name": "Top-secret research establishment",
+            "type": "Location",
+            "description": "Site of the drilling project",
+            "origin": "Earth",
+            "current_status": "Active research facility"
+        },
+        {
+            "name": "Fascist Earth parallel universe",
+            "type": "Location",
+            "description": "Alternate version of Earth ruled by a fascist regime",
+            "origin": "Parallel universe",
+            "current_status": "In danger due to drilling project"
+        }
+    ],
+    "future_history": null,
+    "untold_adventures": [
+        "The Doctor met [the future?] King Edward VII in Paris",
+        "The Doctor was at Krakatoa during the eruption of 1883"
+    ],
+    "qv": [
+        "Venus",
+        "The Time Monster"
+    ],
+    "additional_notes": "When this story was broadcast in Australia a continuity announcer noted at the end of episode one that Dr Who and the green man would be back tomorrow, and that merchandise was available, 'although probably not a green man'.",
+    "bottom_line": "By equal measures, a horror tale, a political fable and a love story. ('There's nothing like a happy ending, is there?') Has there ever been a better scene in Doctor Who than the reflective 'So free will is not an illusion after all' moment? Well acted and beautifully written, this is one of the best stories ever."
+}

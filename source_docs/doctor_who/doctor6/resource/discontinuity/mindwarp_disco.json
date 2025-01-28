@@ -1,0 +1,115 @@
+{
+    "title": "Mindwarp",
+    "air_date": "4 October 1986",
+    "num_episodes": 4,
+    "episode_titles": [
+        "Part One",
+        "Part Two",
+        "Part Three",
+        "Part Four"
+    ],
+    "episode_duration": 25,
+    "writers": [
+        "Philip Martin"
+    ],
+    "directors": [
+        "Ron Jones"
+    ],
+    "media_format": "Color",
+    "dialogue_triumphs": [
+        "Today, prudence shall be our watchword, tomorrow we shall soak the land in blood.",
+        "Dead, no, worse than that, poor!"
+    ],
+    "dialogue_disasters": [
+        "Peri: 'Nobody likes brain alteration.'"
+    ],
+    "goofs": [
+        "The TARDIS is missing its information notice on location.",
+        "The third Mentor appears to be watching The A-Team on TV!"
+    ],
+    "continuity_notes": [
+        {
+            "name": "The Doctor",
+            "type": "Character",
+            "description": "A Time Lord who travels through time and space",
+            "origin": "Gallifrey",
+            "current_status": "Taken out of time during this story by the Time Lords"
+        },
+        {
+            "name": "Time Lords",
+            "type": "Organization",
+            "description": "Advanced civilization with the ability to manipulate time",
+            "origin": "Gallifrey",
+            "current_status": "Using Yrcanos as an assassin to prevent Crozier's discovery from affecting natural evolution"
+        },
+        {
+            "name": "Yrcanos",
+            "type": "Character",
+            "description": "King of the Krontep, Lord of the Vingten, Conqueror of the Tonkonp Empire",
+            "origin": "Krontep",
+            "current_status": "Being used as an assassin by the Time Lords"
+        },
+        {
+            "name": "Peri",
+            "type": "Character",
+            "description": "The Doctor's companion",
+            "origin": "Earth",
+            "current_status": "Involved in the events on Thoros Beta"
+        },
+        {
+            "name": "Kiv",
+            "type": "Character",
+            "description": "Leader of the Mentors",
+            "origin": "Thoros Beta",
+            "current_status": "Seeking brain transplant"
+        },
+        {
+            "name": "Mentors",
+            "type": "Organization",
+            "description": "Advanced race with significant cultural and economic influence",
+            "origin": "Thoros Beta",
+            "current_status": "Enslaving Alphans and engaging in interplanetary commerce"
+        }
+    ],
+    "technobabble": [
+        "Crozier's equipment includes a lexifier and an endrodiotone."
+    ],
+    "roots": [
+        "The Island of Doctor Moreau",
+        "Gangsters",
+        "The Prisoner episode 'A Change of Mind'",
+        "Space: 1999 ('The Metamorph')",
+        "Flash Gordon",
+        "Black Adder",
+        "Mad scientist/brain transplant films"
+    ],
+    "links": [
+        "References to 'Vengeance on Varos.'"
+    ],
+    "locations": [
+        {
+            "name": "Thoros Beta",
+            "type": "Location",
+            "description": "Home planet of the Mentors",
+            "origin": null,
+            "current_status": "Site of the main events in the story"
+        },
+        {
+            "name": "Thoros Alpha",
+            "type": "Location",
+            "description": "Planet in the same system as Thoros Beta, home to enslaved Alphans",
+            "origin": null,
+            "current_status": "Under Mentor control"
+        }
+    ],
+    "future_history": "There will be many battles over the ringworlds of the planet Tokl in the 24th century. The Mentors approve a loan to the Search-Conv Corps, a salvage company.",
+    "untold_adventures": [
+        "Immediately prior to this, the Doctor and Peri were on Thordon, where the warlords were being supplied phasers by Thoros Beta."
+    ],
+    "qv": [
+        "The Doctor's Doctorate",
+        "'The Moonbase'"
+    ],
+    "additional_notes": "Fashion Victims: Peri's white stilettos. Very 80s. Everybody's eye make-up. Double Entendres: 'We had to act!'",
+    "bottom_line": "Good design. The script tries to be comic, grotesque, straight and farcical all at the same time, and, directed without much thought, falls between several stools. Things happen really slowly, though Brian Blessed's way-over-the-top performance helps. We're glad Peri didn't die, though, because, dramatic as it is, it's also a stupid way to go. Crozier's sip of tea before saving Kiv is way-cool."
+}

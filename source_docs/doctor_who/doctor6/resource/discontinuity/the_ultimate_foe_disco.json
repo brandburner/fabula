@@ -1,0 +1,122 @@
+{
+    "title": "The Ultimate Foe",
+    "air_date": "29 November 1986",
+    "num_episodes": 2,
+    "episode_titles": [
+        "Part One",
+        "Part Two"
+    ],
+    "episode_duration": 25,
+    "writers": [
+        "Robert Holmes",
+        "Eric Saward",
+        "Pip Baker",
+        "Jane Baker"
+    ],
+    "directors": [
+        "Chris Clough"
+    ],
+    "media_format": "Color",
+    "dialogue_triumphs": [
+        "In all my travelling throughout the universe I have battled against evil, against power-mad conspirators. I should have stayed here. The oldest civilisation: decadent, degenerate, and rotten to the core. Power-mad conspirators, Daleks, Sontarans\u2026 Cybermen, they're still in the nursery compared to us. Ten million years of absolute power. That's what it takes to be really corrupt.",
+        "The Master attempting to hypnotise Glitz with a swinging watch: 'Are you listening, Sabalom Glitz?' Glitz: 'Not really, I was just wondering how many grotzis this little bauble cost you.'"
+    ],
+    "dialogue_disasters": [
+        "That's it, Doc, now we're getting at the dirt.",
+        "I'm about as truthful, honest, and as boring as they come.",
+        "Never mind the Sidney Carton heroics.",
+        "A megabyte modem!",
+        "How utterly evil!",
+        "There's nothing you can do to prevent the catharsis of spurious morality!"
+    ],
+    "goofs": [],
+    "continuity_notes": [
+        {
+            "name": "Time Lords",
+            "type": "Organization",
+            "description": "The oldest civilization in the known universe, with great power for ten million years.",
+            "origin": "Gallifrey",
+            "current_status": "Decadent and corrupt, with the High Council deposed and insurrectionists running amok in the Capitol."
+        },
+        {
+            "name": "The Matrix",
+            "type": "Object",
+            "description": "A vast computer network containing the knowledge and experiences of Time Lords.",
+            "origin": "Gallifrey",
+            "current_status": "Can be physically entered, contains different levels of perceived reality."
+        },
+        {
+            "name": "The Valeyard",
+            "type": "Character",
+            "description": "An amalgamation of all the Doctor's evil, between his twelfth and final incarnation.",
+            "origin": "The Doctor's future",
+            "current_status": "Promised the Doctor's remaining incarnations by the High Council."
+        },
+        {
+            "name": "Earth",
+            "type": "Location",
+            "description": "Planet moved billions of miles across space by Time Lords.",
+            "origin": "Solar System",
+            "current_status": "Renamed Ravolox, nearly destroyed by a fireball caused by moving the sun."
+        },
+        {
+            "name": "Peri",
+            "type": "Character",
+            "description": "Former companion of the Doctor",
+            "origin": "Earth",
+            "current_status": "Now Queen to Yrcanos"
+        }
+    ],
+    "technobabble": [
+        "Particle disseminator that disseminates gravitons, quarks and tau mesons",
+        "Limbo atrophier"
+    ],
+    "roots": [
+        "Ananias (Acts 5)",
+        "Baron Munchhausen",
+        "Hamlet",
+        "An American Werewolf in London",
+        "Warlock comic",
+        "A Tale of Two Cities",
+        "Dickens in general"
+    ],
+    "links": [
+        "The Invasion of Time",
+        "The Trial of a Time Lord",
+        "Dragonfire",
+        "Time and the Rani",
+        "Terminus",
+        "The Monster of Peladon",
+        "Battlefield",
+        "The Sensorites",
+        "The Time Meddler",
+        "Planet of the Spiders",
+        "Logopolis",
+        "The Keeper of Traken",
+        "Nightmare of Eden"
+    ],
+    "locations": [
+        {
+            "name": "Gallifrey",
+            "type": "Location",
+            "description": "Homeworld of the Time Lords",
+            "origin": null,
+            "current_status": "In political turmoil with the High Council deposed"
+        },
+        {
+            "name": "The Matrix",
+            "type": "Location",
+            "description": "Virtual reality within Time Lord computer systems",
+            "origin": "Gallifrey",
+            "current_status": "Can be physically entered and manipulated"
+        }
+    ],
+    "future_history": "The trial takes place around two million years after the 20th century, with Time Lord civilization existing from eight million years in Earth's past to at least two million years in the future.",
+    "untold_adventures": [
+        "The Doctor's adventures with Mel before and after the events of the trial",
+        "The Doctor potentially visiting Peri to check on her health after returning Mel to her correct point in time"
+    ],
+    "qv": null,
+    "additional_notes": "The episode features a complex timeline involving Mel and the Doctor, with Mel meeting a future version of the Doctor during the trial before her first chronological meeting with him.",
+    "bottom_line": "We watched the whole of 'Trial' in a day, and expected to hate it, but apart from padding in the middle, and some preposterous dialogue, the plot hangs together remarkably well. Episode 13 is a masterpiece, and, considering the production nightmare, 14 achieves near-greatness."
+}

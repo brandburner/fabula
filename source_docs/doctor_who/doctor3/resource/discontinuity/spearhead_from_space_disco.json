@@ -1,0 +1,119 @@
+{
+    "title": "Spearhead from Space",
+    "air_date": "3 January 1970",
+    "num_episodes": 4,
+    "episode_titles": [
+        "Part One",
+        "Part Two",
+        "Part Three",
+        "Part Four"
+    ],
+    "episode_duration": 25,
+    "writers": [
+        "Robert Holmes"
+    ],
+    "directors": [
+        "Derek Martinus"
+    ],
+    "media_format": "Color",
+    "dialogue_triumphs": [],
+    "dialogue_disasters": null,
+    "goofs": [
+        "The Doctor clutches his head before being shot at the start of episode two.",
+        "The Doctor is gurning as he's attacked by tentacles.",
+        "The Nestenes don't kill the General once duplicated, instead leaving him comatose in a wax museum."
+    ],
+    "continuity_notes": [
+        {
+            "name": "The Doctor",
+            "type": "Character",
+            "description": "Time Lord with two hearts, inhuman blood type and cardiovascular system. Can communicate with eyebrows in the language of Delphon and put himself into a coma.",
+            "origin": "Gallifrey",
+            "current_status": "Recently regenerated, working with UNIT"
+        },
+        {
+            "name": "TARDIS",
+            "type": "Object",
+            "description": "The Doctor's time and space machine",
+            "origin": "Gallifrey",
+            "current_status": "Dematerialization codes changed by Time Lords"
+        },
+        {
+            "name": "Liz Shaw",
+            "type": "Character",
+            "description": "Expert on meteorites with degrees in medicine, physics, and other subjects",
+            "origin": "Earth",
+            "current_status": "Seconded to UNIT from Cambridge University"
+        },
+        {
+            "name": "UNIT",
+            "type": "Organization",
+            "description": "United Nations Intelligence Taskforce, dealing with extraterrestrial threats",
+            "origin": "Earth",
+            "current_status": "Active, with London HQ and various capabilities"
+        },
+        {
+            "name": "Nestenes",
+            "type": "Character",
+            "description": "Alien collective intelligence colonizing worlds for 1000 million years",
+            "origin": "Unknown",
+            "current_status": "Attempting to invade Earth"
+        },
+        {
+            "name": "Autons",
+            "type": "Character",
+            "description": "Plastic servants of the Nestenes, capable of various abilities including energy projection",
+            "origin": "Created by Nestenes",
+            "current_status": "Active on Earth as invasion force"
+        }
+    ],
+    "technobabble": [
+        "Nestene energy units are manufactured spheres made of non-thermoplastic, non-thermosetting plastic with no polymer chains, estimated at 3000cc capacity."
+    ],
+    "roots": [
+        "The Quatermass Experiment",
+        "Quatermass II",
+        "The Day the Earth Stood Still",
+        "Invasion of the Body Snatchers",
+        "Invasion (1966 British SF film)",
+        "The Avengers' 'The Cybernauts' and 'Never, Never Say Die'",
+        "Adam Adamant Lives!' 'A Vintage Year for Scoundrels'",
+        "Richard Gordon 'Doctor' films",
+        "Emergency \u2013 Ward 10",
+        "The Invaders",
+        "Captain Scarlet",
+        "Thunderball",
+        "Invaders from Mars"
+    ],
+    "links": [
+        "The Web of Fear",
+        "The Invasion",
+        "The Wheel in Space"
+    ],
+    "locations": [
+        {
+            "name": "London",
+            "type": "Location",
+            "description": "Capital city of the United Kingdom",
+            "origin": "Earth",
+            "current_status": "Site of UNIT HQ and invasion activity"
+        },
+        {
+            "name": "Ashbridge",
+            "type": "Location",
+            "description": "Town in the Epping area of Essex",
+            "origin": "Earth",
+            "current_status": "Location of story events"
+        }
+    ],
+    "future_history": null,
+    "untold_adventures": [
+        "Two attempted invasions of Earth since UNIT was formed, both involving the Doctor"
+    ],
+    "qv": [
+        "The TARDIS Lock, 'The Sensorites'",
+        "Season 6(b), 'The War Games'"
+    ],
+    "additional_notes": "The Doctor discards his trilby in this story. He has a cobra/dragon tattoo on his right forearm, possibly a Time Lord criminal brand.",
+    "bottom_line": "Gloriously well directed on film, with a gorgeous tracking shot in episode one."
+}

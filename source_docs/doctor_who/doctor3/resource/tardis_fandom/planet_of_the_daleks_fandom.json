@@ -1,0 +1,209 @@
+{
+  "metadata": {
+    "title": "Planet of the Daleks",
+    "series": "Doctor Who",
+    "season": "10",
+    "release_date": "7 April 1973",
+    "release_end_date": "12 May 1973",
+    "writer": "Terry Nation",
+    "director": "David Maloney",
+    "producer": "Barry Letts",
+    "main_actors": [
+      "Jon Pertwee",
+      "Katy Manning",
+      "Bernard Horsfall",
+      "Prentis Hancock",
+      "Tim Preece",
+      "Jane How",
+      "Roy Skelton"
+    ],
+    "time_reference": "2540 AD"
+  },
+  "cast_crew": [
+    {
+      "cast": {
+        "name": "Jon Pertwee",
+        "role": "Dr. Who"
+      },
+      "crew": {
+        "name": "David Maloney",
+        "role": "Director"
+      }
+    },
+    {
+      "cast": {
+        "name": "Katy Manning",
+        "role": "Jo Grant"
+      },
+      "crew": {
+        "name": "Barry Letts",
+        "role": "Producer"
+      }
+    },
+    {
+      "cast": {
+        "name": "Bernard Horsfall",
+        "role": "Taron"
+      },
+      "crew": {
+        "name": "Terry Nation",
+        "role": "Writer"
+      }
+    },
+    {
+      "cast": {
+        "name": "Prentis Hancock",
+        "role": "Vaber"
+      },
+      "crew": {
+        "name": "Dudley Simpson",
+        "role": "Music"
+      }
+    },
+    {
+      "cast": {
+        "name": "Tim Preece",
+        "role": "Codal"
+      },
+      "crew": {
+        "name": "Hazel Pethig",
+        "role": "Costumes"
+      }
+    },
+    {
+      "cast": {
+        "name": "Jane How",
+        "role": "Rebec"
+      },
+      "crew": {
+        "name": "Terrance Dicks",
+        "role": "Script Editor"
+      }
+    },
+    {
+      "cast": {
+        "name": "Roy Skelton",
+        "role": "Wester"
+      },
+      "crew": {
+        "name": "Jean McMillan",
+        "role": "Make-Up"
+      }
+    }
+  ],
+  "home_media": [
+    {
+      "releases": {
+        "media_type": "DVD",
+        "date": "5 October 2009",
+        "details": "Released with the previous story, Frontier in Space, in a boxed set called Dalek War",
+        "special_features": [
+          "Commentary",
+          "The Perfect Scenario: The End of Dreams",
+          "The Rumble in the Jungle",
+          "Multi-colourisation",
+          "Stripped for Action - The Daleks",
+          "Blue Peter segments",
+          "Production Design Documents"
+        ]
+      }
+    },
+    {
+      "releases": {
+        "media_type": "BLU_RAY",
+        "date": "9 November 2020",
+        "details": "Part of the Time Lord Victorious multimedia event",
+        "special_features": []
+      }
+    },
+    {
+      "releases": {
+        "media_type": "VHS",
+        "date": "November 1999",
+        "details": "Released as part of the second Dalek Tin set",
+        "special_features": []
+      }
+    },
+    {}
+  ],
+  "story_notes": [
+    {
+      "notes": [
+        "Episode one aired on 7 April 1973",
+        "The story is recognized as a reworking of The Daleks.",
+        "Terry Nation was unaware that episode titles had been dropped.",
+        "Katy Manning's character was credited as 'Jo' only in Radio Times for episode four."
+      ]
+    }
+  ],
+  "worldbuilding": {
+    "in_universe_mythology": [
+      "Daleks",
+      "TARDIS",
+      "Thals"
+    ],
+    "real_world_cultural_references": [
+      "The contemporary Vietnam War influences in the story.",
+      "David Bowie visited during production."
+    ],
+    "individuals": [],
+    "items": [],
+    "locations": [
+      "Spiridon"
+    ]
+  },
+  "ratings": {
+    "ratings_millions": [
+      {
+        "part": "Episode one",
+        "viewers": 11.0
+      },
+      {
+        "part": "Episode two",
+        "viewers": 10.7
+      },
+      {
+        "part": "Episode three",
+        "viewers": 10.1
+      },
+      {
+        "part": "Episode four",
+        "viewers": 8.3
+      },
+      {
+        "part": "Episode five",
+        "viewers": 9.7
+      },
+      {
+        "part": "Episode six",
+        "viewers": 8.5
+      }
+    ]
+  },
+  "continuity": {
+    "continuity_notes": [
+      "Continuing the storyline from Frontier in Space.",
+      "Introduces elements leading into the Second Dalek War."
+    ]
+  },
+  "plot": [
+    {
+      "plot_summary": "Episode one: The Doctor and Jo arrive on Spiridon where they encounter a group of Thals, only to discover that the Daleks are hiding and can become invisible."
+    },
+    {
+      "plot_summary": "Episode two: Jo tries to help the Doctor recover while they learn about the Daleks' weakness regarding light waves and the Spiridons' enslavement."
+    },
+    {
+      "plot_summary": "Episode three: Jo infiltrates the Dalek base while the Thals and the Doctor find the Dalek army stored in suspended animation."
+    },
+    {
+      "plot_summary": "Episode four: The group escapes from the Daleks using a makeshift hot-air balloon while plotting to destroy the Dalek base."
+    },
+    {
+      "plot_summary": "Episode five: Plans are uncovered regarding the Daleks using a deadly bacterium, and attempts are made to sabotage their operations."
+    },
+    {
+      "plot_summary": "Episode six: The Doctor and the Thals execute their plan to freeze the Dalek army and escape as the Dalek Supreme orders a recovery operation."
+    }
+  ]
+}

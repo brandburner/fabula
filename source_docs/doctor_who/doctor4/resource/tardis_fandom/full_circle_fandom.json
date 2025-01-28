@@ -1,0 +1,152 @@
+{
+  "metadata": {
+    "title": "Full Circle",
+    "series": "Doctor Who",
+    "season": "18",
+    "episode_number": 3,
+    "release_date": "1980-10-25",
+    "release_end_date": "1980-11-15",
+    "writer": "Andrew Smith",
+    "director": "Peter Grimwade",
+    "producer": "John Nathan-Turner",
+    "main_actors": [
+      "Tom Baker",
+      "Lalla Ward",
+      "Matthew Waterhouse",
+      "John Leeson"
+    ],
+    "time_reference": "32nd century"
+  },
+  "cast_crew": [
+    {
+      "cast": {
+        "name": "Tom Baker",
+        "role": "The Fourth Doctor"
+      },
+      "crew": {
+        "name": "Andrew Smith",
+        "role": "Writer"
+      }
+    },
+    {
+      "cast": {
+        "name": "Lalla Ward",
+        "role": "Romana"
+      },
+      "crew": {
+        "name": "Peter Grimwade",
+        "role": "Director"
+      }
+    },
+    {
+      "cast": {
+        "name": "Matthew Waterhouse",
+        "role": "Adric"
+      },
+      "crew": {
+        "name": "John Nathan-Turner",
+        "role": "Producer"
+      }
+    },
+    {
+      "cast": {
+        "name": "John Leeson",
+        "role": "Voice of K9"
+      },
+      "crew": {
+        "name": "Paddy Kingsland",
+        "role": "Incidental Music Composer"
+      }
+    }
+  ],
+  "home_media": [
+    {
+      "releases": {
+        "media_type": "DVD",
+        "date": "Unknown",
+        "details": "Released in a box set with 'State of Decay' and 'Warriors' Gate' titled 'The E-Space Trilogy'",
+        "special_features": [
+          "Commentary by Matthew Waterhouse, Andrew Smith, and Christopher H. Bidmead",
+          "All Aboard the Starliner - Cast and crew look back at the making of this story",
+          "K-9 in E-Space",
+          "E-Space - Fact or Fiction?",
+          "Swap Shop - Noel Edmonds chats to Matthew Waterhouse",
+          "Isolated Music Score",
+          "Continuity",
+          "Radio Times Billings",
+          "Photo Gallery",
+          "Coming Soon Trailer",
+          "Production Information Subtitles"
+        ]
+      }
+    }
+  ],
+  "story_notes": [
+    {
+      "notes": [
+        "The working title for this story was The Planet That Slept.",
+        "Adric's name was suggested as an anagram of physicist Paul Dirac.",
+        "Andrew Smith was a seventeen-year-old who achieved his lifelong ambition to write for the show.",
+        "Andrew Smith visited the location shoot but was unwell and vomited on the Marshmen costumes.",
+        "The notion of Alzarius' coordinates being the negative of Gallifrey's was introduced by John Nathan-Turner."
+      ]
+    }
+  ],
+  "worldbuilding": {
+    "in_universe_mythology": [
+      "E-Space trilogy",
+      "Charged Vacuum Emboitement (CVE)"
+    ],
+    "real_world_cultural_references": [
+      "TARDIS being referred to as Noah's Ark",
+      "Adric's mathematical badge as an anagram of Paul Dirac"
+    ],
+    "individuals": [
+      "Adric with a Badge of Mathematical Excellence",
+      "Deciders: Draith, Garif, Nefred"
+    ],
+    "items": [
+      "Starliner",
+      "Riverfruit"
+    ],
+    "locations": [
+      "Alzarius",
+      "The Starliner",
+      "Outlers' cave",
+      "Terradon"
+    ]
+  },
+  "ratings": {
+    "ratings_millions": [
+      {
+        "part": "1",
+        "viewers": 5.9
+      },
+      {
+        "part": "2",
+        "viewers": 3.7
+      },
+      {
+        "part": "3",
+        "viewers": 5.9
+      },
+      {
+        "part": "4",
+        "viewers": 5.5
+      }
+    ]
+  },
+  "continuity": {
+    "continuity_notes": [
+      "The Doctor is looking forward to reuniting with Leela, K9 Mark I and Andred on Gallifrey.",
+      "Romana is summoned to Gallifrey because she was supposed to help the Doctor only with the quest for the Key to Time.",
+      "The Doctor mentions having dropped off their 'Earth friend' whom they had picked up on Tigella.",
+      "The Primords in 'Inferno' share the Marshmen's trait of being weakened by gas."
+    ]
+  },
+  "plot": [
+    {
+      "plot_summary": "The TARDIS is transported through a Charged Vacuum Emboitement into E-Space, landing on Alzarius where the humanoid inhabitants live in fear of the Marshmen who emerge at Mistfall. With society maintaining an endless cycle of repairing a starliner to leave the planet, the Fourth Doctor discovers the shocking truth about their origins. Adric joins the crew as they attempt to escape the Marshmen's assault."
+    }
+  ]
+}

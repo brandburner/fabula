@@ -1,0 +1,159 @@
+{
+  "metadata": {
+    "title": "Mr. Willis of Ohio",
+    "series": "The West Wing",
+    "season": "1",
+    "episode_number": 6,
+    "release_date": "3 November 1999",
+    "writer": "Aaron Sorkin",
+    "director": "Christopher Misiano",
+    "producer": "Aaron Sorkin",
+    "main_actors": [
+      "Martin Sheen",
+      "Rob Lowe",
+      "John Spencer",
+      "Richard Schiff",
+      "Allison Janney",
+      "Bradley Whitford",
+      "Moira Kelly"
+    ],
+    "time_reference": "2000"
+  },
+  "cast_crew": [
+    {
+      "cast": {
+        "name": "Martin Sheen",
+        "role": "President Jed Bartlet"
+      },
+      "crew": {
+        "name": "Christopher Misiano",
+        "role": "Director"
+      }
+    },
+    {
+      "cast": {
+        "name": "Rob Lowe",
+        "role": "Sam Seaborn"
+      },
+      "crew": {
+        "name": "Aaron Sorkin",
+        "role": "Writer"
+      }
+    },
+    {
+      "cast": {
+        "name": "John Spencer",
+        "role": "Leo McGarry"
+      },
+      "crew": {
+        "name": "Aaron Sorkin",
+        "role": "Producer"
+      }
+    },
+    {
+      "cast": {
+        "name": "Richard Schiff",
+        "role": "Toby Ziegler"
+      },
+      "crew": {
+        "name": "Rick Cleveland",
+        "role": "Co-producer"
+      }
+    },
+    {
+      "cast": {
+        "name": "Allison Janney",
+        "role": "C.J. Cregg"
+      },
+      "crew": {
+        "name": "Lawrence O'Donnell Jr.",
+        "role": "Consultant"
+      }
+    },
+    {
+      "cast": {
+        "name": "Bradley Whitford",
+        "role": "Josh Lyman"
+      },
+      "crew": {
+        "name": "Patrick H. Caddell",
+        "role": "Consultant"
+      }
+    },
+    {
+      "cast": {
+        "name": "Moira Kelly",
+        "role": "Mandy Hampton"
+      },
+      "crew": {
+        "name": "Kevin Falls",
+        "role": "Co-producer"
+      }
+    }
+  ],
+  "home_media": [
+    {
+      "releases": {
+        "media_type": "DVD",
+        "date": "2001",
+        "details": "Contains all episodes from Season 1.",
+        "special_features": [
+          "Behind-the-scenes featurette",
+          "Commentary from creators",
+          "Deleted scenes"
+        ]
+      }
+    }
+  ],
+  "story_notes": [
+    {
+      "notes": [
+        "First appearance of Congressman Joe Willis.",
+        "Introduces subplots related to the census in America."
+      ]
+    }
+  ],
+  "worldbuilding": {
+    "in_universe_mythology": [],
+    "real_world_cultural_references": [
+      "Census procedures in the U.S.",
+      "Political landscape of Washington D.C."
+    ],
+    "individuals": [
+      "President Jed Bartlet",
+      "Leo McGarry",
+      "Sam Seaborn",
+      "CJ Cregg",
+      "Josh Lyman"
+    ],
+    "items": [
+      "The Constitution",
+      "Census materials",
+      "Poker chips"
+    ],
+    "locations": [
+      "The Oval Office",
+      "Georgetown Bar",
+      "White House"
+    ]
+  },
+  "ratings": {
+    "ratings_millions": [
+      {
+        "part": "Episode 6",
+        "viewers": 18.5
+      }
+    ]
+  },
+  "continuity": {
+    "continuity_notes": [
+      "This episode references the future events concerning Zoey Bartlet.",
+      "Establishes political dynamics that will evolve throughout the series."
+    ]
+  },
+  "plot": [
+    {
+      "plot_summary": "In this episode, Toby and Mandy work to persuade a group of congressmen, including Mr. Willis, to support a commerce bill with a vital census count provision. Parallelly, a bar outing involving Zoey Bartlet and her friends leads to a tense situation that raises concerns for her safety. The episode explores themes of political naivete, the importance of democracy, and the consequences of personal crises within the staff."
+    }
+  ]
+}

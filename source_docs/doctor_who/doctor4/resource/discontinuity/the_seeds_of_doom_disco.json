@@ -1,0 +1,136 @@
+{
+    "title": "The Seeds of Doom",
+    "air_date": "31 January 1976",
+    "num_episodes": 6,
+    "episode_titles": [
+        "Part One",
+        "Part Two",
+        "Part Three",
+        "Part Four",
+        "Part Five",
+        "Part Six"
+    ],
+    "episode_duration": 25,
+    "writers": [
+        "Robert Banks Stewart"
+    ],
+    "directors": [
+        "Douglas Camfield"
+    ],
+    "media_format": "Color",
+    "dialogue_triumphs": [
+        "The Doctor and Amelia Ducat discuss her painting (a homage to The Importance of Being Ernest): 'We found it in a car boot.' 'A car boot?' 'Yes, a Daimler car boot.' 'The car is immaterial!'",
+        "The Doctor jumps through a skylight, thumps Scorby and pulls a gun on Chase. The millionaire dryly asks, 'What do you do for an encore?' 'I win!' replies the Doctor."
+    ],
+    "dialogue_disasters": [
+        "Chase on minions: 'Why am I surrounded by idiots?!'",
+        "An RAF pilot on his plans for the Krynoid: 'Okay chaps\u2026 let's turn it into chop suey!'",
+        "One of Chase's guards captures Sarah and calls her 'little girl'. Big girl's blouse, surely?"
+    ],
+    "goofs": [
+        "Why doesn't Scorby just shoot the Doctor and the others in Antarctica rather than go to all the trouble of tying up Sarah in the generator and setting it to blow up?",
+        "The TARDIS returns to Antarctica at the end of the story, the Doctor having not re-set the coordinates \u2013 but the TARDIS never went there in the first place (he and Sarah travelled by helicopter).",
+        "In episode six, during the 'steam!' scene, the Doctor grabs Sarah's chest."
+    ],
+    "continuity_notes": [
+        {
+            "name": "Krynoid",
+            "type": "Object",
+            "description": "A 'galactic weed' that has been buried for at least 20,000 years.",
+            "origin": "Unknown alien planet",
+            "current_status": "Threat to Earth"
+        },
+        {
+            "name": "The Doctor",
+            "type": "Character",
+            "description": "Time Lord protagonist, expert on alien flora",
+            "origin": "Gallifrey",
+            "current_status": "Called in as an expert by the World Ecology Bureau, claims to be President of the Galactic Flora Society"
+        },
+        {
+            "name": "Sarah Jane Smith",
+            "type": "Character",
+            "description": "The Doctor's companion",
+            "origin": "Earth",
+            "current_status": "Accompanying the Doctor, referred to as 'Miss Smith, my best friend'"
+        },
+        {
+            "name": "The Brigadier",
+            "type": "Character",
+            "description": "UNIT leader",
+            "origin": "Earth",
+            "current_status": "In Geneva during the events of this story"
+        },
+        {
+            "name": "Major Beresford",
+            "type": "Character",
+            "description": "UNIT commander in the Brigadier's absence",
+            "origin": "Earth",
+            "current_status": "Commanding UNIT forces"
+        },
+        {
+            "name": "World Ecology Bureau",
+            "type": "Organization",
+            "description": "Organization dealing with ecological threats",
+            "origin": "Earth",
+            "current_status": "Active, involved in investigating the Krynoid threat"
+        }
+    ],
+    "technobabble": [
+        "The Doctor speculates that volcanic turbulence on its home planet sends surface matter shooting into space."
+    ],
+    "roots": [
+        "The Thing from Another World (an isolated Antarctic base)",
+        "The Quatermass Experiment (alien parasites infecting scientists)",
+        "The Trollenberg Terror (ditto)",
+        "The Day of the Triffids (murderous plants)",
+        "The Avengers episode 'Man-Eater of Surrey Green' (the above, plus a dotty old lady and a villainous chauffeur)",
+        "The Mutations"
+    ],
+    "links": [
+        "The Doctor quotes from the nursery rhyme 'The House that Jack Built'.",
+        "Scorby says: 'When it comes to money, Mr Chase and I are of the same religion' to which the Doctor replies: 'Franklin Adams, American humorist!'"
+    ],
+    "locations": [
+        {
+            "name": "South Pole",
+            "type": "Location",
+            "description": "Antarctic research base where the Krynoid pod is discovered",
+            "origin": "Earth",
+            "current_status": "Site of initial Krynoid threat"
+        },
+        {
+            "name": "World Ecology Bureau",
+            "type": "Location",
+            "description": "Headquarters of the organization investigating ecological threats",
+            "origin": "Earth",
+            "current_status": "Active during the Krynoid incident"
+        },
+        {
+            "name": "Amelia Ducat's home",
+            "type": "Location",
+            "description": "Residence of the painter Amelia Ducat",
+            "origin": "Earth",
+            "current_status": "Visited by the Doctor and Sarah"
+        },
+        {
+            "name": "Harrison Chase's mansion",
+            "type": "Location",
+            "description": "Home of the villainous Harrison Chase",
+            "origin": "Earth",
+            "current_status": "Center of Krynoid activity"
+        },
+        {
+            "name": "England",
+            "type": "Location",
+            "description": "Main setting for the latter part of the story",
+            "origin": "Earth",
+            "current_status": "Under threat from the Krynoid"
+        }
+    ],
+    "future_history": null,
+    "untold_adventures": null,
+    "qv": null,
+    "additional_notes": "The story is set in Autumn 1973, as evidenced by the two pence minimum to operate the pay phone. The Doctor attempts to take Sarah to the holiday planet of Cassiopeia at the end of the story.",
+    "bottom_line": "Robert Banks Stewart's unfamiliarity with Doctor Who's format leads to a script that is really an Avengers episode in disguise. The Doctor is as violent as he's ever been, engaging in fisticuffs, carrying a gun and describing Sarah as 'Miss Smith, my best friend' (turning Sarah from a flapping ornament into a quasi-Mrs Peel). Another gem, and one much befitting from an excellent performance from Tony Beckley as Harrison Chase (the scene in episode five in which Chase communicates with his plants is particularly chilling)."
+}

@@ -1,0 +1,102 @@
+{
+    "title": "Day of the Daleks",
+    "air_date": "1 January 1972",
+    "num_episodes": 4,
+    "episode_titles": [
+        "Episode 1",
+        "Episode 2",
+        "Episode 3",
+        "Episode 4"
+    ],
+    "episode_duration": 25,
+    "writers": [
+        "Louis Marks"
+    ],
+    "directors": [
+        "Paul Bernard"
+    ],
+    "media_format": "Color",
+    "dialogue_triumphs": [
+        "'No one can withstand The Power of the Daleks!'"
+    ],
+    "dialogue_disasters": null,
+    "goofs": [
+        "One Ogron talks a lot faster than the others.",
+        "The Daleks' mind analysis machine shows the title graphics, complete with 'Doctor Who Jon Pertwee'.",
+        "The Controller's shiny face and the odd behaviour of his female assistants remain unexplained.",
+        "It's lucky that the Daleks build their HQ close to where Auderley House was.",
+        "The guerillas' time machine has different effects in episode one and two.",
+        "The Doctor and Jo fail to meet themselves again, despite the scene in episode one.",
+        "The Daleks show great tactical skill in attacking the rear of the house but allow the delegates to get away from the front.",
+        "On the original video release credits, Monia undergoes a sex change to become Monica."
+    ],
+    "continuity_notes": [
+        {
+            "name": "Daleks",
+            "type": "Character",
+            "description": "Alien race of cyborgs, primary antagonists of Doctor Who",
+            "origin": "Skaro",
+            "current_status": "Seeking Earth's minerals to fuel their expanding empire"
+        },
+        {
+            "name": "Ogrons",
+            "type": "Character",
+            "description": "Brutish alien race used as servants by the Daleks",
+            "origin": "One of the outer planets",
+            "current_status": "Working for the Daleks"
+        },
+        {
+            "name": "Dalekanium",
+            "type": "Object",
+            "description": "Explosive material used by the Daleks",
+            "origin": "Dalek technology",
+            "current_status": "Formula stolen from the Daleks"
+        },
+        {
+            "name": "Blinovitch Limitation Effect",
+            "type": "Concept",
+            "description": "A principle of time travel that prevents multiple attempts to change history",
+            "origin": null,
+            "current_status": "Affecting the guerillas' attempts to kill Styles"
+        }
+    ],
+    "technobabble": [
+        "The Daleks possess a time vortex magnetron."
+    ],
+    "roots": [
+        "The Outer Limits episodes 'Soldier' and 'Demon With a Glass Hand'",
+        "The Day of the Jackal",
+        "Star Trek's 'Errand of Mercy'",
+        "Planet of the Apes",
+        "Diamonds are Forever"
+    ],
+    "links": [
+        "Jo makes a reference to her trip in 'Colony in Space'."
+    ],
+    "locations": [
+        {
+            "name": "Auderley",
+            "type": "Location",
+            "description": "House where the peace conference is to be held",
+            "origin": "Earth",
+            "current_status": "Site of planned peace conference"
+        },
+        {
+            "name": "Dalek-occupied Earth",
+            "type": "Location",
+            "description": "Future version of Earth under Dalek control",
+            "origin": "Earth",
+            "current_status": "Under Dalek occupation in the 22nd century"
+        }
+    ],
+    "future_history": "In the aftermath of the destruction of the peace conference, a series of wars broke out and, over the next 100 years, seven-eighths of the world's population was wiped out.",
+    "untold_adventures": [
+        "The Doctor has met Napoleon: '\"Boney,\" I said, \"an army marches on its stomach.\"'"
+    ],
+    "qv": [
+        "The First Dalek History",
+        "'The Daleks'"
+    ],
+    "additional_notes": "Fashion Victims: Jo, in a lumberjack-checked blouse, white boots and red neck-scarf and knickers.",
+    "bottom_line": "A clever (if unoriginal) idea which is spoiled by the pointless inclusion of the Daleks themselves. The series' first proper look at some of the complexities of time travel is handled well even if some of the international politics is moronic."
+}

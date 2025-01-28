@@ -1,0 +1,199 @@
+{
+  "metadata": {
+    "title": "Kinda",
+    "series": "Doctor Who",
+    "season": "19",
+    "release_date": "1 - 9 February 1982",
+    "writer": "Christopher Bailey",
+    "director": "Peter Grimwade",
+    "producer": "John Nathan-Turner",
+    "main_actors": [
+      "Peter Davison",
+      "Matthew Waterhouse",
+      "Janet Fielding",
+      "Sarah Sutton",
+      "Nerys Hughes",
+      "Richard Todd",
+      "Simon Rouse",
+      "Mary Morris",
+      "Sarah Prince",
+      "Adrian Mills",
+      "Anna Wing",
+      "Roger Milner",
+      "Jeff Stewart"
+    ],
+    "time_reference": "c. 3984"
+  },
+  "cast_crew": [
+    {
+      "cast": {
+        "name": "Peter Davison",
+        "role": "The Doctor"
+      },
+      "crew": {
+        "name": "Peter Grimwade",
+        "role": "Director"
+      }
+    },
+    {
+      "cast": {
+        "name": "Matthew Waterhouse",
+        "role": "Adric"
+      },
+      "crew": {
+        "name": "John Nathan-Turner",
+        "role": "Producer"
+      }
+    },
+    {
+      "cast": {
+        "name": "Janet Fielding",
+        "role": "Tegan"
+      },
+      "crew": {
+        "name": "Christopher Bailey",
+        "role": "Writer"
+      }
+    },
+    {
+      "cast": {
+        "name": "Sarah Sutton",
+        "role": "Nyssa"
+      },
+      "crew": {
+        "name": "Eric Saward",
+        "role": "Script Editor"
+      }
+    },
+    {
+      "cast": {
+        "name": "Nerys Hughes",
+        "role": "Todd"
+      },
+      "crew": {
+        "name": "Val McCrimmon",
+        "role": "Assistant Floor Manager"
+      }
+    },
+    {
+      "cast": {
+        "name": "Richard Todd",
+        "role": "Sanders"
+      },
+      "crew": {
+        "name": "Barbara Kidd",
+        "role": "Costume Designer"
+      }
+    },
+    {
+      "cast": {
+        "name": "Simon Rouse",
+        "role": "Hindle"
+      },
+      "crew": {
+        "name": "Nick McCarty",
+        "role": "Incidental Music Composer"
+      }
+    }
+  ],
+  "home_media": [
+    {
+      "releases": {
+        "media_type": "DVD",
+        "date": "7 March 2011",
+        "details": "Released in a box set called Mara Tales",
+        "special_features": [
+          "Commentary by cast members",
+          "The making of Kinda",
+          "Directing With Attitude - A back look at Peter Grimwade's career",
+          "Deleted and Extended Scenes",
+          "Optional CGI Effects Sequence",
+          "CGI Effects Comparison Featurette",
+          "Isolated Score"
+        ]
+      }
+    },
+    {
+      "releases": {
+        "media_type": "VHS",
+        "date": "October 1994",
+        "details": "Released in the UK",
+        "special_features": []
+      }
+    },
+    {},
+    {}
+  ],
+  "story_notes": [
+    {
+      "notes": [
+        "Working title was 'The Kinda'.",
+        "Kinda is heavily influenced by Buddhist concepts.",
+        "Peter Davison and Janet Fielding praised the script.",
+        "Notable for being the only story not featuring TARDIS interior scenes."
+      ]
+    }
+  ],
+  "worldbuilding": {
+    "in_universe_mythology": [
+      "The Mara represents temptation and has connections to Buddhist lore."
+    ],
+    "real_world_cultural_references": [
+      "The plot draws parallels with Australian colonialism.",
+      "Names derived from Buddhist terminology."
+    ],
+    "individuals": [
+      "Hindle",
+      "Sanders",
+      "Panna"
+    ],
+    "items": [
+      "Total Survival Suit",
+      "Crystalline wind chimes"
+    ],
+    "locations": [
+      "Deva Loka",
+      "Kinda village"
+    ]
+  },
+  "ratings": {
+    "ratings_millions": [
+      {
+        "part": "Part One",
+        "viewers": 8.4
+      },
+      {
+        "part": "Part Two",
+        "viewers": 9.4
+      },
+      {
+        "part": "Part Three",
+        "viewers": 8.5
+      },
+      {
+        "part": "Part Four",
+        "viewers": 8.9
+      }
+    ]
+  },
+  "continuity": {
+    "continuity_notes": [
+      "The Mara reappears in later stories, especially affecting Tegan.",
+      "Mention of an Earth-like mother world suggests temporal placement."
+    ]
+  },
+  "plot": [
+    {
+      "plot_summary": "The TARDIS lands on Deva Loka, where the crew encounters a human expedition facing strange occurrences. Tegan falls under the influence of the Mara, an ancient evil entity. The story unfolds over four parts, focusing on overcoming psychological and physical challenges posed by the Mara and the unstable human leaders."
+    },
+    {
+      "plot_summary": "As Tegan struggles against the Mara's influence, tensions rise within the expedition's remaining members, leading to drastic measures by Hindle, the commander. The Doctor and his friends must navigate both the human and the Kinda to save Deva Loka from destruction."
+    },
+    {
+      "plot_summary": "The truth behind the Mara emerges as Tegan begins to lose her grip on reality, and the Doctor devises a plan to save both her and the Kinda. The struggles culminate in confrontations that reveal the Mara's weakness and the nature of perceived threats in the jungle."
+    },
+    {
+      "plot_summary": "In a dramatic showdown, the Doctor and his companions confront both the Mara, which manifests physically, and the increasingly unstable Hindle. They ultimately triumph by understanding the Mara's nature, setting the stage for a hopeful but cautious departure from Deva Loka."
+    }
+  ]
+}

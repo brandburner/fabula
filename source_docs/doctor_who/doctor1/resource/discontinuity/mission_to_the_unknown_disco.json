@@ -1,0 +1,87 @@
+{
+    "title": "Mission to the Unknown",
+    "air_date": "9 October 1965",
+    "num_episodes": 1,
+    "episode_titles": [
+        "Mission to the Unknown"
+    ],
+    "episode_duration": 25,
+    "writers": [
+        "Terry Nation"
+    ],
+    "directors": [
+        "Derek Martinus"
+    ],
+    "media_format": "B_W",
+    "dialogue_triumphs": [],
+    "dialogue_disasters": [
+        "Space Security Service, licensed to kill.",
+        "Destroy and exterminate! (What, both?)"
+    ],
+    "goofs": [
+        "The Daleks announce their secret plan on the city's external loudspeaker system, where Cory hears it."
+    ],
+    "continuity_notes": [
+        {
+            "name": "Space Security Service (SSS)",
+            "type": "Organization",
+            "description": "An Earth-based organization with the authority to kill and give orders to military and civilian personnel.",
+            "origin": "Earth",
+            "current_status": "Active, aware of Skaro and Dalek ships"
+        },
+        {
+            "name": "Daleks",
+            "type": "Character",
+            "description": "Hostile alien race planning to invade the Milky Way galaxy",
+            "origin": "Skaro",
+            "current_status": "Planning galactic invasion"
+        },
+        {
+            "name": "Varga plants",
+            "type": "Object",
+            "description": "Plants created in Dalek labs that can transform humans into more Varga plants through their poisonous thorns",
+            "origin": "Skaro",
+            "current_status": "Present on Kembel, slowly mobile"
+        },
+        {
+            "name": "Skaro",
+            "type": "Location",
+            "description": "Home planet of the Daleks, likely not in the Milky Way galaxy",
+            "origin": null,
+            "current_status": "Active, source of Varga plants"
+        }
+    ],
+    "technobabble": null,
+    "roots": [
+        "James Bond",
+        "The Day of the Triffids"
+    ],
+    "links": [
+        "The Daleks' Master Plan",
+        "The Daleks",
+        "Pyramids of Mars",
+        "Terror of the Autons",
+        "Image of the Fendal",
+        "The Ribos Operation",
+        "Vengeance On Varos"
+    ],
+    "locations": [
+        {
+            "name": "Kembel",
+            "type": "Location",
+            "description": "A hostile world avoided by most species",
+            "origin": null,
+            "current_status": "Site of Dalek activity, six months before 'The Daleks' Master Plan'"
+        }
+    ],
+    "future_history": "Earth is the political center of the Solar System, which includes settlements on Mars, Venus, Jupiter, and moon colonies. Humans still use rockets for planetary landings. The constellations of Earth are renamed between 1995 and 3999, including Kasterborous, Mir, Canthares, Skytha, and Cetes.",
+    "untold_adventures": [
+        "Dalek invasion 1000 years ago (actually closer to 1800 years)"
+    ],
+    "qv": [
+        "The First Dalek History",
+        "The Daleks"
+    ],
+    "additional_notes": "This episode is unique as it does not feature the regular TARDIS crew, which was likely a shock to viewers. It was followed by a Dalek-less historical episode.",
+    "bottom_line": "Macho, with a sinister atmosphere."
+}

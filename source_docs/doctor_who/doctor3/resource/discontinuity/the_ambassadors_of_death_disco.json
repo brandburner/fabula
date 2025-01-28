@@ -1,0 +1,134 @@
+{
+    "title": "The Ambassadors of Death",
+    "air_date": "21 March 1970",
+    "num_episodes": 7,
+    "episode_titles": [
+        "Episode 1",
+        "Episode 2",
+        "Episode 3",
+        "Episode 4",
+        "Episode 5",
+        "Episode 6",
+        "Episode 7"
+    ],
+    "episode_duration": 25,
+    "writers": [
+        "David Whitaker",
+        "Malcolm Hulke (uncredited)",
+        "Trevor Ray (uncredited)"
+    ],
+    "directors": [
+        "Michael Ferguson"
+    ],
+    "media_format": "Color",
+    "dialogue_triumphs": [
+        "The Doctor being rude to Ralph Cornish: 'The man's a fool. How can I possibly tell who the message is from until I know what it says? Let me explain this to you in very simple terms!'"
+    ],
+    "dialogue_disasters": null,
+    "goofs": [
+        "In episode one, when the video screen retracts, the CSO image stays for several seconds.",
+        "When the spacecraft rotates, the image from the cockpit camera rotates with it (it should be fixed on one point).",
+        "The UNIT soldier who is killed by touching the same barrier as an alien in episode four, is alive and well and back at work in episode six.",
+        "From this story onwards no military personnel ever moves between 'attention' and 'at ease' properly.",
+        "'Variant' is spelt 'varient' on location props.",
+        "Taltalian's accent is French in the studio and English on location.",
+        "Recovery Seven's nose cone changes colour between prop and model shots.",
+        "Quinlan's office safe slips about as the alien tries to open the door.",
+        "And how does the Doctor manage to get the TARDIS console through the doors?"
+    ],
+    "continuity_notes": [
+        {
+            "name": "The Ambassadors",
+            "type": "Character",
+            "description": "Alien beings from another galaxy who were on Mars before humans. They thrive on radioactivity, measured at over two million rads.",
+            "origin": "Another galaxy",
+            "current_status": "Misunderstood as invaders"
+        },
+        {
+            "name": "Carrington",
+            "type": "Character",
+            "description": "A survivor of the Mars Probe 6 mission who plans to telecast across the globe on a 'worldwide hook-up'.",
+            "origin": "Earth",
+            "current_status": "Planning to expose the aliens"
+        },
+        {
+            "name": "The Brigadier",
+            "type": "Character",
+            "description": "UNIT commander who is arrested by a superior for the second time in three stories.",
+            "origin": "Earth",
+            "current_status": "Leading UNIT operations"
+        },
+        {
+            "name": "Bessie",
+            "type": "Object",
+            "description": "The Doctor's car, fitted with an 'anti-theft device' which sticks the villain to the car.",
+            "origin": "Earth",
+            "current_status": "The Doctor's transportation"
+        },
+        {
+            "name": "TARDIS",
+            "type": "Object",
+            "description": "The Doctor's time machine, currently undergoing repairs to its time vector generator.",
+            "origin": "Gallifrey",
+            "current_status": "Under repair"
+        },
+        {
+            "name": "Liz Shaw",
+            "type": "Character",
+            "description": "The Doctor's assistant who can speak French and experiences a brief time jump.",
+            "origin": "Earth",
+            "current_status": "Assisting the Doctor"
+        }
+    ],
+    "technobabble": [
+        "The Doctor performs a conjuring trick, or can genuinely teleport objects which he passes off as 'transmigration of object' without further explanation.",
+        "M3 variant fuel is used for the Recovery 8 rocket.",
+        "Reegan uses H37 explosive to set a trap for Taltalian and the Doctor."
+    ],
+    "roots": [
+        "2001: A Space Odyssey",
+        "NASA space programme coverage",
+        "David Bowie",
+        "The Avengers episode 'The Radioactive Man'",
+        "The Day the Earth Stood Still",
+        "Invasion of the Body Snatchers",
+        "Ray Bradbury's Martian Chronicles",
+        "The Outer Limits",
+        "The Projected Man",
+        "The Quatermass Experiment"
+    ],
+    "links": [
+        "The Ice Warriors"
+    ],
+    "locations": [
+        {
+            "name": "Space Control",
+            "type": "Location",
+            "description": "The main base of operations for the space missions",
+            "origin": "Hertfordshire, Earth",
+            "current_status": "Active during the events of the story"
+        },
+        {
+            "name": "Recovery 7 and 8",
+            "type": "Object",
+            "description": "Spacecraft in orbit",
+            "origin": "Earth",
+            "current_status": "In use for space missions"
+        },
+        {
+            "name": "Alien spacecraft",
+            "type": "Object",
+            "description": "Vessel of the alien Ambassadors",
+            "origin": "Another galaxy",
+            "current_status": "In Earth orbit"
+        }
+    ],
+    "future_history": null,
+    "untold_adventures": null,
+    "qv": [
+        "The Three Doctors",
+        "The Wheel in Space"
+    ],
+    "additional_notes": "The story features fashion choices including Liz Shaw wearing a Brian Jones-style fedora, knee-length boots, and an extremely short skirt. The Doctor is seen in a 'hideous stripey dressing gown'.",
+    "bottom_line": "In need of a major re-evaluation, 'The Ambassadors of Death' benefits from a multi-layered script and spooky spacesuited aliens. It also contains one of the series' finest climaxes as the Doctor tells Carrington he understands the General's motives and allows him to keep his dignity."
+}

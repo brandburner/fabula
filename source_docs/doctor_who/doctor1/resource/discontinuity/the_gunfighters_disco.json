@@ -1,0 +1,87 @@
+{
+    "title": "The Gunfighters",
+    "air_date": "30 April 1966",
+    "num_episodes": 4,
+    "episode_titles": [
+        "A Holiday for the Doctor",
+        "Don't Shoot the Pianist",
+        "Johnny Ringo",
+        "The O.K. Corral"
+    ],
+    "episode_duration": 25,
+    "writers": [
+        "Donald Cotton"
+    ],
+    "directors": [
+        "Rex Tucker"
+    ],
+    "media_format": "B_W",
+    "dialogue_triumphs": [
+        "Doctor (in the dentist's chair): 'I never touch alcohol.' Holliday (taking a swig): 'Well, I do.'",
+        "Steven (on being forced to find a tune to play): 'Let's hope the piano knows it.'",
+        "The Ballad, played all through the story, giddily starts to narrate it: 'So pick him up gentle/ And carry him so/ He's gone kind of mental/ From Earp's heavy blow.'",
+        "'He gave me a gun, he extracted my tooth\u2026 What more do you want?'"
+    ],
+    "dialogue_disasters": null,
+    "goofs": [
+        "Episodes one and two have the world's quietest gunshots",
+        "In episode four's climactic gunfight Earp and Masterson apparently walk through a withering barrage of fire unscathed",
+        "In the ballad, 'earning your gunfighter's wings' is anachronistic, the phrase being coined in WWI",
+        "Shane Rimmer asks: 'You don't know where Holliday\u2026 You never met Holliday either?'",
+        "The Clanton gang have amazing accents, Billy having obviously been to finishing school, and Johnny Ringo to the RSC",
+        "Hartnell's reply to 'Goodbye and good luck' is 'The same to you and many of them!'",
+        "In episode three, when asked where Steven is, Hartnell replies: 'She's gone off with a gentleman called Johnny Ringo.'"
+    ],
+    "continuity_notes": [
+        {
+            "name": "The Doctor",
+            "type": "Character",
+            "description": "The First Doctor, played by William Hartnell",
+            "origin": null,
+            "current_status": "Can get toothache and tonsillitis, keeps a gun collection in the TARDIS, never touches alcohol, preferring milk"
+        },
+        {
+            "name": "TARDIS",
+            "type": "Object",
+            "description": "The Doctor's time machine and spacecraft",
+            "origin": "Gallifrey",
+            "current_status": "Contains a gun collection"
+        },
+        {
+            "name": "Steven Taylor",
+            "type": "Character",
+            "description": "The Doctor's companion",
+            "origin": null,
+            "current_status": "Always wanted to be a cowboy, poor singer"
+        },
+        {
+            "name": "Dodo Dupont",
+            "type": "Character",
+            "description": "The Doctor's companion",
+            "origin": null,
+            "current_status": "Can play piano a little better than Steven can sing"
+        }
+    ],
+    "technobabble": null,
+    "roots": [
+        "Westerns, particularly High Noon and Gunfight at the O.K. Corral",
+        "Kate's performance is very Mae West",
+        "Carry On Cowboy",
+        "Oscar Wilde's Impressions of America"
+    ],
+    "links": null,
+    "locations": [
+        {
+            "name": "Tombstone",
+            "type": "Location",
+            "description": "Town in the American Old West, site of the famous Gunfight at the O.K. Corral",
+            "origin": "Arizona Territory, United States",
+            "current_status": "Setting for the episode, a few days leading up to 26 October 1881"
+        }
+    ],
+    "future_history": null,
+    "untold_adventures": null,
+    "qv": null,
+    "additional_notes": "The Doctor is named Deputy Sheriff of Tombstone. The given aliases for the party are Miss Dodo Dupont, Steven Regret, and Dr Caligari [from the owner of the magical cabinet]. Steven's cowboy outfit is described as 'OTT' (over the top).",
+    "bottom_line": "With Hartnell, Purves and Anthony Jacobs in amazing form, and such a great script, this is a comic masterpiece, winning you over with its sheer charm."
+}

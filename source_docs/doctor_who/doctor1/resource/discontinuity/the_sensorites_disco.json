@@ -1,0 +1,103 @@
+{
+    "title": "The Sensorites",
+    "air_date": "20 June 1964",
+    "num_episodes": 6,
+    "episode_titles": [
+        "Strangers in Space",
+        "The Unwilling Warriors",
+        "Hidden Danger",
+        "A Race Against Death",
+        "Kidnap",
+        "A Desperate Venture"
+    ],
+    "episode_duration": 25,
+    "writers": [
+        "Peter R. Newman"
+    ],
+    "directors": [
+        "Mervyn Pinfield",
+        "Frank Cox"
+    ],
+    "media_format": "B_W",
+    "dialogue_triumphs": [
+        "Maitland: 'Did you know, his hair was almost white?' Doctor: 'Nothing wrong with that!'"
+    ],
+    "dialogue_disasters": [
+        "It is useless to resist.",
+        "I have never thought of that!"
+    ],
+    "goofs": [
+        "In episode one, as the Doctor ponders 'or to kill us?' the camera hits the desk in front of him.",
+        "Maitland's drill marks are visible before he cuts them.",
+        "In episode two, the Sensorites stand on each other's feet.",
+        "Sound carries in space [the Sensorites send it deliberately].",
+        "According to the Doctor, the shoulder flash they find in episode six says INNER, but it actually says INEER."
+    ],
+    "continuity_notes": [
+        {
+            "name": "Sensorites",
+            "type": "Character",
+            "description": "Alien race with telepathic abilities and sensitivity to loud noises and darkness. They have a caste system and can control spaceships and human brains.",
+            "origin": "Sensesphere",
+            "current_status": "Interacting with the TARDIS crew and Earth astronauts"
+        },
+        {
+            "name": "The Doctor",
+            "type": "Character",
+            "description": "Time Lord protagonist, shown to have knowledge of poisoning and ability to fly a spaceship. Reveals he has only one heart at this point.",
+            "origin": null,
+            "current_status": "Investigating the situation on Sensesphere"
+        },
+        {
+            "name": "Susan",
+            "type": "Character",
+            "description": "The Doctor's granddaughter, revealed to be a few years younger than Carol. Has advanced telepathic abilities.",
+            "origin": "Same planet as the Doctor",
+            "current_status": "Assisting the Doctor and demonstrating her telepathic skills"
+        },
+        {
+            "name": "TARDIS",
+            "type": "Object",
+            "description": "Time and space travel device with a complex locking mechanism",
+            "origin": null,
+            "current_status": "Parked on Sensesphere, with details about its lock mechanism revealed"
+        }
+    ],
+    "technobabble": [
+        "The Sensorites' hand-rays burn, cut, activate photoelectric cells, stun, and paralyse for an hour at a range of 30 yards.",
+        "The TARDIS lock has a metabolism detector."
+    ],
+    "roots": [
+        "Yangtze Incident",
+        "Fireball XL5 (xenophobic dome-heads)"
+    ],
+    "links": [
+        "The TARDIS crew discuss their adventures so far (but miss out 'The Edge of Destruction')."
+    ],
+    "locations": [
+        {
+            "name": "Sensesphere",
+            "type": "Location",
+            "description": "Home planet of the Sensorites, with slightly larger landmass than usual. Features include Yellow Mountains and outer wastes of the desert.",
+            "origin": null,
+            "current_status": "Setting for the majority of the story"
+        },
+        {
+            "name": "Earth spacecraft",
+            "type": "Location",
+            "description": "28th century Earth vessel where the TARDIS crew first encounters the situation",
+            "origin": "Earth",
+            "current_status": "In orbit around Sensesphere"
+        }
+    ],
+    "future_history": "The story is set in the 28th century. Earth has too much air traffic, and the lower half of England is known as Central City. Big Ben has been destroyed, and London hasn't existed for 400 years. Space exploration and mining rights on other planets are important.",
+    "untold_adventures": [
+        "The Doctor deliberately quarrelled with Henry VIII and was sent to the Tower of London.",
+        "The Doctor and Susan encountered telepathic plants on the planet Esto."
+    ],
+    "qv": [
+        "The TARDIS Scanner, 'Full Circle'"
+    ],
+    "additional_notes": "The story features detailed information about the TARDIS lock mechanism and its evolution throughout the series.",
+    "bottom_line": "It veers from sinister to unintentionally hilarious, with everyone fluffing their lines. The presence of Peter Glaze's familiar body language leads one to expect Don MacLean to burst onto set, tripping over his circular feet."
+}

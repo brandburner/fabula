@@ -1,0 +1,196 @@
+{
+  "metadata": {
+    "title": "The Caves of Androzani",
+    "series": "Doctor Who",
+    "season": "21",
+    "release_date": "8 March 1984",
+    "release_end_date": "16 March 1984",
+    "writer": "Robert Holmes",
+    "director": "Graeme Harper",
+    "producer": "John Nathan-Turner",
+    "main_actors": [
+      "Peter Davison",
+      "Nicola Bryant",
+      "Christopher Gable",
+      "John Normington",
+      "Robert Glenister",
+      "Maurice Ro\u00ebves",
+      "Martin Cochrane",
+      "Roy Holder",
+      "Barbara Kinghorn",
+      "David Neal"
+    ],
+    "time_reference": "51st century"
+  },
+  "cast_crew": [
+    {
+      "cast": {
+        "name": "Peter Davison",
+        "role": "The Doctor"
+      },
+      "crew": {
+        "name": "Graeme Harper",
+        "role": "Director"
+      }
+    },
+    {
+      "cast": {
+        "name": "Nicola Bryant",
+        "role": "Peri Brown"
+      },
+      "crew": {
+        "name": "Robert Holmes",
+        "role": "Writer"
+      }
+    },
+    {
+      "cast": {
+        "name": "Christopher Gable",
+        "role": "Sharaz Jek"
+      },
+      "crew": {
+        "name": "John Nathan-Turner",
+        "role": "Producer"
+      }
+    },
+    {
+      "cast": {
+        "name": "John Normington",
+        "role": "Morgus"
+      },
+      "crew": {
+        "name": "Eric Saward",
+        "role": "Script Editor"
+      }
+    },
+    {
+      "cast": {
+        "name": "Robert Glenister",
+        "role": "Salateen"
+      },
+      "crew": {
+        "name": "Roger Limb",
+        "role": "Composer"
+      }
+    },
+    {
+      "cast": {
+        "name": "Maurice Ro\u00ebves",
+        "role": "Stotz"
+      },
+      "crew": {
+        "name": "Alec Wheal",
+        "role": "Camera Supervisor"
+      }
+    }
+  ],
+  "home_media": [
+    {
+      "releases": {
+        "media_type": "DVD",
+        "date": "18 June 2001",
+        "details": "Includes audio commentary and behind the scenes footage.",
+        "special_features": [
+          "Audio Commentary by Peter Davison, Nicola Bryant, and Graeme Harper",
+          "Behind the Scenes - The Regeneration",
+          "BBC1 Trailer",
+          "Extended Scene",
+          "Photo Gallery"
+        ]
+      }
+    },
+    {
+      "releases": {
+        "media_type": "DVD",
+        "date": "4 October 2011",
+        "details": "Extended features including new behind-the-scenes footage.",
+        "special_features": [
+          "Commentary by Peter Davison, Nicola Bryant, and Graeme Harper",
+          "Chain Reaction - Cast and crew look back on the making of this story",
+          "Behind the Scenes - The Regeneration",
+          "Isolated Score"
+        ]
+      }
+    },
+    {
+      "releases": {
+        "media_type": "VHS",
+        "date": "February 1992",
+        "special_features": []
+      }
+    }
+  ],
+  "story_notes": [
+    {
+      "notes": [
+        "This was the last serial featuring Peter Davison as the Fifth Doctor.",
+        "The regeneration scene is notable for the new Doctor's first words being given.",
+        "In a 2009 poll, this story was voted the single best televised Doctor Who story."
+      ]
+    }
+  ],
+  "worldbuilding": {
+    "in_universe_mythology": [
+      "Spectrox is a deadly and valuable substance used for extending life."
+    ],
+    "real_world_cultural_references": [
+      "Frank Herbert's Dune - Themes of war over resources.",
+      "Gaston Leroux's Phantom of the Opera - Masked villain with obsession."
+    ],
+    "individuals": [
+      "Morgus",
+      "Sharaz Jek",
+      "General Chellak",
+      "President of Androzani"
+    ],
+    "items": [
+      "Spectrox",
+      "Queen Bat's Milk",
+      "Gas Carbines"
+    ],
+    "locations": [
+      "Androzani Minor",
+      "Androzani Major",
+      "Caves of Androzani"
+    ]
+  },
+  "ratings": {
+    "ratings_millions": [
+      {
+        "part": "Part One",
+        "viewers": 6.9
+      },
+      {
+        "part": "Part Two",
+        "viewers": 6.6
+      },
+      {
+        "part": "Part Three",
+        "viewers": 7.8
+      },
+      {
+        "part": "Part Four",
+        "viewers": 7.8
+      }
+    ]
+  },
+  "continuity": {
+    "continuity_notes": [
+      "The events lead directly to the introduction of the Sixth Doctor in the next serial."
+    ]
+  },
+  "plot": [
+    {
+      "plot_summary": "The Doctor and Peri arrive on Androzani Minor amidst a conflict over the substance Spectrox, where they are captured, poisoned, and must fight for survival against ruthless enemies and deadly creatures."
+    },
+    {
+      "plot_summary": "Chellak and his soldiers think they've executed the Doctor and Peri, but they've been saved by Jek, who desires the Doctor as a companion while keeping Peri against her will."
+    },
+    {
+      "plot_summary": "Peri's fate hangs in the balance as the Doctor discovers he and Peri are suffering from Spectrox toxaemia, and there is only one way to counteract it, leading them into the depths of Androzani Minor."
+    },
+    {
+      "plot_summary": "As the story reaches its tension-filled climax, alliances shift, lives are lost, and the Doctor regenerates into the Sixth Doctor, right after saving Peri from the poison."
+    }
+  ]
+}

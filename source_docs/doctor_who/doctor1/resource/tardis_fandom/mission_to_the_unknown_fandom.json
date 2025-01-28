@@ -1,0 +1,104 @@
+{
+  "metadata": {
+    "title": "Mission to the Unknown",
+    "series": "Doctor Who",
+    "season": "3",
+    "episode_number": 2,
+    "release_date": "9 October 1965",
+    "writer": "Terry Nation",
+    "director": "Derek Martinus",
+    "producer": "Verity Lambert",
+    "main_actors": [
+      "Edward de Souza",
+      "Barry Jackson",
+      "Jeremy Young"
+    ],
+    "time_reference": "4000 AD"
+  },
+  "cast_crew": [
+    {
+      "cast": {
+        "name": "Edward de Souza",
+        "role": "Marc Cory"
+      },
+      "crew": {
+        "name": "Terry Nation",
+        "role": "Writer"
+      }
+    },
+    {
+      "cast": {
+        "name": "Barry Jackson",
+        "role": "Jeff Garvey"
+      },
+      "crew": {
+        "name": "Derek Martinus",
+        "role": "Director"
+      }
+    },
+    {
+      "cast": {
+        "name": "Jeremy Young",
+        "role": "Gordon Lowery"
+      },
+      "crew": {
+        "name": "Verity Lambert",
+        "role": "Producer"
+      }
+    }
+  ],
+  "home_media": [
+    {}
+  ],
+  "story_notes": [
+    {
+      "notes": [
+        "This one-episode story does not exist in the BBC Archives, having been wiped as late as the early 1970s.",
+        "This episode came about because the previous season's Planet of Giants was shortened from its planned four instalments to just three. An extra episode was slotted in to compensate.",
+        "Possibly for contractual reasons, it was specified that the regular cast were not to appear. The Doctor, Steven Taylor and Vicki Pallister do not appear and are not mentioned in this episode.",
+        "Terry Nation wrote this episode partially as an attempt to develop and sell the idea of a Dalek television series divorced from the larger Doctor Who universe.",
+        "Both Mission to the Unknown and The Daleks' Master Plan were the only 1960s Doctor Who stories offered for overseas sale but never purchased.",
+        "Given there are also no telesnaps, only production stills taken on-set by the crew still exist for visual reference."
+      ]
+    }
+  ],
+  "worldbuilding": {
+    "in_universe_mythology": [
+      "Varga plants"
+    ],
+    "real_world_cultural_references": [],
+    "individuals": [
+      "Cory",
+      "Lowery",
+      "Garvey"
+    ],
+    "items": [
+      "Dalek spaceship",
+      "Varga thorn",
+      "Seismic detector"
+    ],
+    "locations": [
+      "Kembel",
+      "Solar System"
+    ]
+  },
+  "ratings": {
+    "ratings_millions": [
+      {
+        "part": "",
+        "viewers": 8.3
+      }
+    ]
+  },
+  "continuity": {
+    "continuity_notes": [
+      "Lowery recalls that the Daleks had invaded Earth \"a thousand years ago.\"",
+      "Varga plants are seen again in other Dalek stories."
+    ]
+  },
+  "plot": [
+    {
+      "plot_summary": "On the planet Kembel, Space Security Service agent Marc Cory is investigating a recent sighting of a Dalek spaceship. His suspicion that the creatures may have established a base proves well-founded. He learns of a plot by the Daleks to invade and destroy the Solar System, but he is discovered and exterminated. The Daleks and their allies vow to conquer the universe, beginning with the planet Earth."
+    }
+  ]
+}

@@ -1,0 +1,112 @@
+{
+    "title": "The Time Warrior",
+    "air_date": "15 December 1973",
+    "num_episodes": 4,
+    "episode_titles": [
+        "Part One",
+        "Part Two",
+        "Part Three",
+        "Part Four"
+    ],
+    "episode_duration": 25,
+    "writers": [
+        "Robert Holmes"
+    ],
+    "directors": [
+        "Alan Bromly"
+    ],
+    "media_format": "Color",
+    "dialogue_triumphs": [
+        "I'll chop him up so fine not even a sparrow will fill its beak.",
+        "Yours is indeed a towering intelligence.",
+        "A longshanked rascal with a mighty nose!",
+        "She'll not get far before one of my guards grabs her taille!"
+    ],
+    "dialogue_disasters": null,
+    "goofs": [
+        "Bloodaxe has lots of horse trouble in episode one.",
+        "Irongron's gun goes off before he fires it.",
+        "Irongron fails to notice that his 'robot' has a fleshy neck.",
+        "Nobody tells the serving wenches to leave the exploding castle.",
+        "'Wessex' after the Norman conquest is an anachronism.",
+        "Possible anachronistic potatoes, though not as clear as commonly thought."
+    ],
+    "continuity_notes": [
+        {
+            "name": "Linx",
+            "type": "Character",
+            "description": "Commander of the Fifth Army Space Fleet of the Sontaran Army Space Corps. Has three fingers and muscles designed for load-bearing rather than leverage.",
+            "origin": "Sontaran homeworld",
+            "current_status": "On a reconnaissance mission to Earth"
+        },
+        {
+            "name": "Sontarans",
+            "type": "Organization",
+            "description": "Warlike clone race with high gravity homeworld. At war with Rutans for millennia.",
+            "origin": "Sontaran homeworld",
+            "current_status": "Engaged in war with Rutans, developing time travel technology"
+        },
+        {
+            "name": "Rutans",
+            "type": "Organization",
+            "description": "Alien race at war with Sontarans for millennia.",
+            "origin": "Ruta 3",
+            "current_status": "Engaged in war with Sontarans"
+        },
+        {
+            "name": "The Doctor",
+            "type": "Character",
+            "description": "Time Lord protagonist, has encountered Sontarans before despite memory loss.",
+            "origin": "Gallifrey",
+            "current_status": "Investigating time disturbances in medieval England"
+        },
+        {
+            "name": "Sarah Jane Smith",
+            "type": "Character",
+            "description": "New companion to the Doctor, aware of UNIT.",
+            "origin": "Earth",
+            "current_status": "Accompanying the Doctor on her first adventure"
+        }
+    ],
+    "technobabble": [
+        "Linx carries a weapon that can strike, burn, stun, control humans and make captives speak."
+    ],
+    "roots": [
+        "A Connecticut Yankee at King Arthur's Court",
+        "Robin Hood",
+        "Star Trek ('A Piece of the Action')",
+        "This Island Earth"
+    ],
+    "links": [
+        "The Brigadier refers to Jo and Metebelis 3."
+    ],
+    "locations": [
+        {
+            "name": "Wessex",
+            "type": "Location",
+            "description": "Region in medieval England during the reign of King Richard I",
+            "origin": "Earth",
+            "current_status": "Setting for the majority of the story's events"
+        },
+        {
+            "name": "England",
+            "type": "Location",
+            "description": "Country on Earth in the present day",
+            "origin": "Earth",
+            "current_status": "Secondary setting for parts of the story"
+        }
+    ],
+    "future_history": null,
+    "untold_adventures": [
+        "The Doctor would like to study under Rembrandt"
+    ],
+    "qv": [
+        "The Two Doctors",
+        "Horror of Fang Rock",
+        "Terror of the Autons",
+        "The Sontaran Experiment",
+        "The Invasion of Time"
+    ],
+    "additional_notes": "This story introduces the Sontarans and Sarah Jane Smith. It also features anachronistic use of the term 'Wessex' and potentially anachronistic potatoes.",
+    "bottom_line": "The script is one of Robert Holmes' funniest. With David Daker and John J. Carney's OTT performances, and Elisabeth Sladen's instant presence, the result is a rather wonderful romp."
+}

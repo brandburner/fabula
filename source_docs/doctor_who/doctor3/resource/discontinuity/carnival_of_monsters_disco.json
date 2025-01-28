@@ -1,0 +1,111 @@
+{
+    "title": "Carnival of Monsters",
+    "air_date": "27 January 1973",
+    "num_episodes": 4,
+    "episode_titles": [
+        "Part One",
+        "Part Two",
+        "Part Three",
+        "Part Four"
+    ],
+    "episode_duration": 25,
+    "writers": [
+        "Robert Holmes"
+    ],
+    "directors": [
+        "Barry Letts"
+    ],
+    "media_format": "Color",
+    "dialogue_triumphs": [
+        "Orum on Functionaries: 'Give them a hygiene chamber, they store fossil fuel in it!'"
+    ],
+    "dialogue_disasters": null,
+    "goofs": [
+        "In episode one the sound of a pencil dropping and rolling across the studio floor can be heard.",
+        "Lots of wigs come unstuck.",
+        "The Doctor is told that Vorg is in charge of the scope in episode four, but later he asks whether Vorg is in charge.",
+        "The Drashigs are introduced twice in episode two.",
+        "Vorg claims he can't control the Drashigs (they're not intelligent) but he can control the plesiosaur.",
+        "The 1926 calendar is wrong (the date structure is that of 1925).",
+        "When questioned by Jo about the banning of the miniscopes, the Doctor suggests that this one was missed, completely forgetting that they could be in a time before the ban."
+    ],
+    "continuity_notes": [
+        {
+            "name": "Miniscope",
+            "type": "Object",
+            "description": "A device that miniaturizes and contains living beings for entertainment purposes. Banned by the Time Lords.",
+            "origin": "Created by the Eternity Perpetual Company",
+            "current_status": "In use by Vorg, won at the Great Wallarian Exhibition"
+        },
+        {
+            "name": "Metebelis 3",
+            "type": "Location",
+            "description": "The famous blue planet of the Acteon group",
+            "origin": null,
+            "current_status": "Mentioned for the first time in this episode"
+        },
+        {
+            "name": "SS Bernice",
+            "type": "Object",
+            "description": "A ship that disappeared in the Indian Ocean in 1926, now trapped in a time loop within the miniscope",
+            "origin": "Earth",
+            "current_status": "Trapped in miniscope"
+        },
+        {
+            "name": "Drashigs",
+            "type": "Character",
+            "description": "Terrifying carnivores from a swampy satellite of Grundle",
+            "origin": "Satellite of Grundle",
+            "current_status": "Contained within the miniscope"
+        }
+    ],
+    "technobabble": [
+        "The miniscope's shell is made of molecular-bonded disillion",
+        "The sonic screwdriver is used to explode marsh gas"
+    ],
+    "roots": [
+        "J. B. Priestley, especially 'Time and the Conways'",
+        "Round the Horne (palare)",
+        "A Passage to India",
+        "Hard Times",
+        "The Hound of the Baskervilles"
+    ],
+    "links": [
+        "The Green Death",
+        "Planet of the Spiders",
+        "The Two Doctors",
+        "Death to the Daleks"
+    ],
+    "locations": [
+        {
+            "name": "Inter Minor",
+            "type": "Location",
+            "description": "Home planet of the bureaucratic Minorians",
+            "origin": null,
+            "current_status": "Setting for part of the episode"
+        },
+        {
+            "name": "Miniscope",
+            "type": "Location",
+            "description": "Interior of the device containing miniaturized beings",
+            "origin": "Created by the Eternity Perpetual Company",
+            "current_status": "Setting for part of the episode"
+        }
+    ],
+    "future_history": "The story is said to take place '1000 years after the Great Space Plague'",
+    "untold_adventures": [
+        "The Doctor took boxing lessons from John L. Sullivan (American heavyweight champion, 1892)"
+    ],
+    "qv": [
+        "The Aztecs",
+        "The Reign of Terror",
+        "The Romans",
+        "The Gunfighters",
+        "The Time Meddler",
+        "The War Games",
+        "The Time Monster",
+        "City of Death"
+    ],
+    "additional_notes": "This is the only Doctor Who story to mention Fred Astaire (despite being set seven years before Astaire became well known).",
+    "bottom_line": "'Carnival of Monsters' is a parody of television and its viewers. It retains the cheeky power of its initial broadcast."
+}

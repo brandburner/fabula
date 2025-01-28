@@ -1,0 +1,92 @@
+{
+    "title": "The Awakening",
+    "air_date": "19 January 1984",
+    "num_episodes": 2,
+    "episode_titles": [
+        "Part One",
+        "Part Two"
+    ],
+    "episode_duration": 25,
+    "writers": [
+        "Eric Pringle"
+    ],
+    "directors": [
+        "Michael Owen Morris"
+    ],
+    "media_format": "Color",
+    "dialogue_triumphs": [
+        "Doctor? Doctor bain't a proper name. Will Chandler be a proper name."
+    ],
+    "dialogue_disasters": null,
+    "goofs": [
+        "The apparitions are accompanied by superimposed stars that seem to have been produced on a BBC Micro."
+    ],
+    "continuity_notes": [
+        {
+            "name": "Tinclavic",
+            "type": "Object",
+            "description": "A material mined by Terileptils on the planet Raaga for the almost exclusive use of the inhabitants of Harkol in the star system of Rifta.",
+            "origin": "Planet Raaga",
+            "current_status": "Piece carried by Sir George"
+        },
+        {
+            "name": "The Malus",
+            "type": "Character",
+            "description": "The occupant of a Harkol computer-controlled reconnaissance probe that came to Earth in 1643 as the spearhead of an invasion fleet which never followed.",
+            "origin": "Harkol",
+            "current_status": "Present in Little Hodcombe"
+        },
+        {
+            "name": "Andrew Verney",
+            "type": "Character",
+            "description": "Tegan's grandfather, another member of her cursed family.",
+            "origin": "Earth",
+            "current_status": "Present in Little Hodcombe"
+        },
+        {
+            "name": "The Doctor",
+            "type": "Character",
+            "description": "The main protagonist of Doctor Who, a Time Lord from Gallifrey.",
+            "origin": "Gallifrey",
+            "current_status": "Fond of tea, investigating events in Little Hodcombe"
+        },
+        {
+            "name": "Tegan",
+            "type": "Character",
+            "description": "The Doctor's companion, with a seemingly cursed family history.",
+            "origin": "Earth",
+            "current_status": "Accompanying the Doctor in Little Hodcombe"
+        },
+        {
+            "name": "Will Chandler",
+            "type": "Character",
+            "description": "A character from the past that the Doctor promises to take home in the TARDIS.",
+            "origin": "Earth, possibly 17th century",
+            "current_status": "Present in Little Hodcombe, to be returned home by the Doctor"
+        }
+    ],
+    "technobabble": null,
+    "roots": [
+        "By the Sword Divided and other Civil War drama",
+        "Games echoing past evil and psychic projections reminiscent of Sapphire and Steel"
+    ],
+    "links": [
+        "The Doctor says that he will take Will home in the TARDIS, and this has been accomplished by the start of 'Frontios'.",
+        "Tinclavic is mentioned in 'The Visitation'",
+        "Tegan's family is also mentioned in 'Logopolis' and 'Arc of Infinity'"
+    ],
+    "locations": [
+        {
+            "name": "Little Hodcombe",
+            "type": "Location",
+            "description": "An English village where the events of the episode take place.",
+            "origin": "Earth",
+            "current_status": "Site of alien influence and historical reenactment in 1984"
+        }
+    ],
+    "future_history": null,
+    "untold_adventures": null,
+    "qv": null,
+    "additional_notes": "The episode features a double entendre (or single entendre as noted) where Willow says that if Tegan doesn't change into the May Queen's costume he'll do it for her.",
+    "bottom_line": "The theme of alien pseudo-diabolist influence on an English village had previously been central to 'The Daemons', but the energy of 'The Awakening' is also its freshness. A beautiful and well-scripted adventure."
+}

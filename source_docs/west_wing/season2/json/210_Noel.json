@@ -1,0 +1,3428 @@
+{
+    "Series": "'Noel'",
+    "Episode": {
+        "Number": null,
+        "Title": null,
+        "Original Airdate": null,
+        "Credits": {
+            "Teleplay By": "AARON SORKIN",
+            "Story By": "PETER PARNELL",
+            "Directed By": "THOMAS SCHLAMME"
+        },
+        "Sections": [
+            {
+                "Section": "Teaser",
+                "Scenes": [
+                    {
+                        "Scene Heading": "FADE IN: INT. THE WHITE HOUSE - A SECLUDED ROOM - DAY",
+                        "Description": "",
+                        "Dialogues": [
+                            {
+                                "Character": "CHRISTMAS EVE",
+                                "Line": "Josh pushes the double doors into a slightly bright room. Waiting for him inside is the scheduled therapist, DR. STANLEY KEYWORTH. In the corner of the room is"
+                            },
+                            {
+                                "Character": "KAYTHA TRASK.",
+                                "Line": "Josh approaches them to say hello as Dr. Keyworth and Kaytha stand up."
+                            },
+                            {
+                                "Character": "JOSH",
+                                "Line": "Hi."
+                            },
+                            {
+                                "Character": "STANLEY KEYWORTH",
+                                "Line": "Hi, Josh."
+                            },
+                            {
+                                "Character": "KAYTHA TRASK",
+                                "Line": "Hi."
+                            },
+                            {
+                                "Character": "STANLEY",
+                                "Line": "I'm Stanley Keyworth. This is Kaytha Trask."
+                            },
+                            {
+                                "Character": "JOSH",
+                                "Line": "Josh Lyman."
+                            },
+                            {
+                                "Character": "KAYTHA",
+                                "Line": "Hi."
+                            },
+                            {
+                                "Character": "JOSH",
+                                "Line": "Do I call you doctor?"
+                            },
+                            {
+                                "Character": "STANLEY",
+                                "Line": "I'm sorry?"
+                            },
+                            {
+                                "Character": "JOSH",
+                                "Line": "Is it Dr. Keyworth?"
+                            },
+                            {
+                                "Character": "STANLEY",
+                                "Line": "Oh, whatever you want. You can call me Stanley if you want."
+                            },
+                            {
+                                "Character": "JOSH",
+                                "Line": "[to Kaytha] And Dr...? I'm sorry?"
+                            },
+                            {
+                                "Character": "KAYTHA",
+                                "Line": "Trask. But it's not doctor. I'm not a psychologist."
+                            },
+                            {
+                                "Character": "STANLEY",
+                                "Line": "[as he sits] Kaytha is, uh, training as a traumatologist."
+                            },
+                            {
+                                "Character": "JOSH",
+                                "Line": "I was wondering why there were two of you."
+                            },
+                            {
+                                "Character": "STANLEY",
+                                "Line": "Kaytha's training. You don't mind, do you?"
+                            },
+                            {
+                                "Character": "JOSH",
+                                "Line": "No. Kaytha slowly goes back to the corner to her chair. Stanley eyes Josh's bandaged hand."
+                            },
+                            {
+                                "Character": "STANLEY",
+                                "Line": "What happened to your hand?"
+                            },
+                            {
+                                "Character": "JOSH",
+                                "Line": "[sits] I-I uh, I cut it putting down a glass."
+                            },
+                            {
+                                "Character": "STANLEY",
+                                "Line": "It broke?"
+                            },
+                            {
+                                "Character": "JOSH",
+                                "Line": "Yeah."
+                            },
+                            {
+                                "Character": "STANLEY",
+                                "Line": "The glass broke?"
+                            },
+                            {
+                                "Character": "JOSH",
+                                "Line": "Yeah. Stanley writes something in one of his papers."
+                            },
+                            {
+                                "Character": "STANLEY",
+                                "Line": "Well, uh, let me tell you about who we are."
+                            },
+                            {
+                                "Character": "JOSH",
+                                "Line": "Sure."
+                            },
+                            {
+                                "Character": "STANLEY",
+                                "Line": "We're from ATVA."
+                            },
+                            {
+                                "Character": "JOSH",
+                                "Line": "Yeah."
+                            },
+                            {
+                                "Character": "STANLEY",
+                                "Line": "That's the American Trauma Victims Association."
+                            },
+                            {
+                                "Character": "JOSH",
+                                "Line": "Yeah."
+                            },
+                            {
+                                "Character": "STANLEY",
+                                "Line": "We're commonly called in by the government to work with trauma victims. I'll give you some examples. The pipe bomb at Lancaster Middle School. We worked with the parents and the kids..."
+                            },
+                            {
+                                "Character": "JOSH",
+                                "Line": "[interrupts] Tulsa, Hurricane Beth, the Chatham fires, the Iowa tornadoes, the FBI raid in Rock Creek."
+                            },
+                            {
+                                "Character": "STANLEY",
+                                "Line": "So, you are familiar with us?"
+                            },
+                            {
+                                "Character": "JOSH",
+                                "Line": "Dr. Keyworth, I'm the Deputy White House Chief of Staff. I oversee 1100 White House employees. I answer directly to Leo McGarry and the President of the United States. Do you think you're talking to the paperboy?"
+                            },
+                            {
+                                "Character": "STANLEY",
+                                "Line": "No."
+                            },
+                            {
+                                "Character": "JOSH",
+                                "Line": "In your wildest dreams did you imagine that I'd walk in this room without knowing exactly who you are and what you do?"
+                            },
+                            {
+                                "Character": "STANLEY",
+                                "Line": "No."
+                            },
+                            {
+                                "Character": "JOSH",
+                                "Line": "Then why did you lie to me right off the bat?"
+                            },
+                            {
+                                "Character": "STANLEY",
+                                "Line": "Josh..."
+                            },
+                            {
+                                "Character": "JOSH",
+                                "Line": "[indicating Kaytha] She's not here training!"
+                            },
+                            {
+                                "Character": "STANLEY",
+                                "Line": "As a matter of fact, she is."
+                            },
+                            {
+                                "Character": "JOSH",
+                                "Line": "I read briefing books everyday on subjects considerably more complicated than ATVA."
+                            },
+                            {
+                                "Character": "STANLEY",
+                                "Line": "She is here training in trauma therapy."
+                            },
+                            {
+                                "Character": "JOSH",
+                                "Line": "Yeah, but that's not why there are two of you."
+                            },
+                            {
+                                "Character": "STANLEY",
+                                "Line": "No."
+                            },
+                            {
+                                "Character": "JOSH",
+                                "Line": "That's not the reason why there are two of you."
+                            },
+                            {
+                                "Character": "STANLEY",
+                                "Line": "No."
+                            },
+                            {
+                                "Character": "JOSH",
+                                "Line": "I get up, go to the bathroom, go to my office, answer the phone -- one of you watches me."
+                            },
+                            {
+                                "Character": "STANLEY",
+                                "Line": "Yeah."
+                            },
+                            {
+                                "Character": "JOSH",
+                                "Line": "Stanley, you got off to a bad start."
+                            },
+                            {
+                                "Character": "STANLEY",
+                                "Line": "Yes, I did."
+                            },
+                            {
+                                "Character": "JOSH",
+                                "Line": "Yes, you did."
+                            },
+                            {
+                                "Character": "STANLEY",
+                                "Line": "Let's start again."
+                            },
+                            {
+                                "Character": "JOSH",
+                                "Line": "You gonna lie to me this time?"
+                            },
+                            {
+                                "Character": "STANLEY",
+                                "Line": "No. You gonna lie to me?"
+                            },
+                            {
+                                "Character": "JOSH",
+                                "Line": "Haven't yet."
+                            },
+                            {
+                                "Character": "STANLEY",
+                                "Line": "Really?"
+                            },
+                            {
+                                "Character": "JOSH",
+                                "Line": "Yeah. Stanley nods and waits a moment."
+                            },
+                            {
+                                "Character": "STANLEY",
+                                "Line": "How did you cut your hand? Josh suddenly does not respond."
+                            },
+                            {
+                                "Character": "STANLEY",
+                                "Line": "You're not talking to the paperboy, either, Josh. We close in on the speechless Josh and --"
+                            }
+                        ]
+                    },
+                    {
+                        "Scene Heading": "SMASH CUT TO: MAIN TITLES.",
+                        "Description": "",
+                        "Dialogues": [
+                            {
+                                "Character": "END TEASER",
+                                "Line": "* * *"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "Section": "Act One",
+                "Scenes": [
+                    {
+                        "Scene Heading": "FADE IN: INT. SECLUDED ROOM - DAY",
+                        "Description": "Josh's therapy continues.",
+                        "Dialogues": [
+                            {
+                                "Character": "STANLEY",
+                                "Line": "I'd asked a woman for some coffee a few minutes ago. Do you want some coffee?"
+                            },
+                            {
+                                "Character": "JOSH",
+                                "Line": "No thanks."
+                            },
+                            {
+                                "Character": "STANLEY",
+                                "Line": "Tea?"
+                            },
+                            {
+                                "Character": "JOSH",
+                                "Line": "No."
+                            },
+                            {
+                                "Character": "STANLEY",
+                                "Line": "Maybe later."
+                            },
+                            {
+                                "Character": "JOSH",
+                                "Line": "Yeah."
+                            },
+                            {
+                                "Character": "STANLEY",
+                                "Line": "The woman I asked works for you I think... Donna?"
+                            },
+                            {
+                                "Character": "JOSH",
+                                "Line": "Yeah."
+                            },
+                            {
+                                "Character": "STANLEY",
+                                "Line": "She works for you?"
+                            },
+                            {
+                                "Character": "JOSH",
+                                "Line": "She's my assistant."
+                            },
+                            {
+                                "Character": "STANLEY",
+                                "Line": "Was she at Rosalyn?"
+                            },
+                            {
+                                "Character": "JOSH",
+                                "Line": "It's Rosslyn."
+                            },
+                            {
+                                "Character": "STANLEY",
+                                "Line": "I'm sorry?"
+                            },
+                            {
+                                "Character": "JOSH",
+                                "Line": "The shooting took place at Rosslyn, Virginia, not Rosalyn."
+                            },
+                            {
+                                "Character": "STANLEY",
+                                "Line": "I'm sorry. I'm not from around here."
+                            },
+                            {
+                                "Character": "JOSH",
+                                "Line": "Where are you from?"
+                            },
+                            {
+                                "Character": "STANLEY",
+                                "Line": "San Francisco, California."
+                            },
+                            {
+                                "Character": "JOSH",
+                                "Line": "I always thought it was San Franchisco."
+                            },
+                            {
+                                "Character": "STANLEY",
+                                "Line": "Was she with you?"
+                            },
+                            {
+                                "Character": "JOSH",
+                                "Line": "Donna?"
+                            },
+                            {
+                                "Character": "STANLEY",
+                                "Line": "Yeah."
+                            },
+                            {
+                                "Character": "JOSH",
+                                "Line": "Nope."
+                            },
+                            {
+                                "Character": "STANLEY",
+                                "Line": "Who was with you?"
+                            },
+                            {
+                                "Character": "JOSH",
+                                "Line": "Everybody was with me. We'd just gone to a Town Hall meeting. We'd just gotten off television."
+                            },
+                            {
+                                "Character": "STANLEY",
+                                "Line": "Who's everybody?"
+                            },
+                            {
+                                "Character": "JOSH",
+                                "Line": "The President travels with a large group of people."
+                            },
+                            {
+                                "Character": "STANLEY",
+                                "Line": "Who's...?"
+                            },
+                            {
+                                "Character": "JOSH",
+                                "Line": "It was geared to young people. There were Department of Education people, event staff, obviously C.J. Cregg and the press corps, Leo McGarry was there, Bob Shanahan, Toby Ziegler, Ziegler's deputy Sam Seaborn, Zoey Bartlet was there obviously, Charlie Young..."
+                            },
+                            {
+                                "Character": "STANLEY",
+                                "Line": "Who was with you? Josh makes a face."
+                            },
+                            {
+                                "Character": "STANLEY",
+                                "Line": "Josh, I'm trying to get you to tell me what happened."
+                            },
+                            {
+                                "Character": "JOSH",
+                                "Line": "Stanley, I walked out of the building, I heard gunshots, people started screaming, I woke up in a hospital room."
+                            },
+                            {
+                                "Character": "STANLEY",
+                                "Line": "Okay. What happened 3 weeks ago?"
+                            },
+                            {
+                                "Character": "JOSH",
+                                "Line": "I don't know what you're referring to."
+                            },
+                            {
+                                "Character": "STANLEY",
+                                "Line": "I don't know what I'm referring to either but some of the people you work with became concerned with your behavior three weeks ago."
+                            },
+                            {
+                                "Character": "JOSH",
+                                "Line": "Well, I've been concerned with their behavior since long before that."
+                            },
+                            {
+                                "Character": "STANLEY",
+                                "Line": "Josh."
+                            },
+                            {
+                                "Character": "JOSH",
+                                "Line": "They were talking about the pilot."
+                            },
+                            {
+                                "Character": "STANLEY",
+                                "Line": "The pilot?"
+                            },
+                            {
+                                "Character": "JOSH",
+                                "Line": "Robert Cano, the Air Force pilot."
+                            },
+                            {
+                                "Character": "STANLEY",
+                                "Line": "And what about him?"
+                            },
+                            {
+                                "Character": "JOSH",
+                                "Line": "I don't know."
+                            },
+                            {
+                                "Character": "STANLEY",
+                                "Line": "You just said they were talking about the pilot"
+                            },
+                            {
+                                "Character": "JOSH",
+                                "Line": "I said they may have been talking about the pilot."
+                            },
+                            {
+                                "Character": "STANLEY",
+                                "Line": "Well that's not what you said."
+                            },
+                            {
+                                "Character": "JOSH",
+                                "Line": "There was a lot going on. There was the IMF treaty, the petroleum reserves, Alaska, the President's..."
+                            },
+                            {
+                                "Character": "STANLEY",
+                                "Line": "But you mentioned the pilot."
+                            },
+                            {
+                                "Character": "JOSH",
+                                "Line": "I didn't mention the pilot for any specific reason. I was saying there was a lot happening three weeks ago."
+                            },
+                            {
+                                "Character": "STANLEY",
+                                "Line": "Okay then let's talk about three weeks ago."
+                            }
+                        ]
+                    },
+                    {
+                        "Scene Heading": "CUT TO: INT. THE WHITE HOUSE LOBBY - THREE WEEKS AGO",
+                        "Description": "Josh enters the White House lobby where Toby is standing watching a brass quintet play 'Joy To The World' very loudly.",
+                        "Dialogues": [
+                            {
+                                "Character": "JOSH",
+                                "Line": "Toby!"
+                            },
+                            {
+                                "Character": "TOBY",
+                                "Line": "Yeah?"
+                            },
+                            {
+                                "Character": "JOSH",
+                                "Line": "What the hell's going on?"
+                            },
+                            {
+                                "Character": "TOBY",
+                                "Line": "What do you mean?"
+                            },
+                            {
+                                "Character": "JOSH",
+                                "Line": "Who are these guys?"
+                            },
+                            {
+                                "Character": "TOBY",
+                                "Line": "They're a brass quintet."
+                            },
+                            {
+                                "Character": "JOSH",
+                                "Line": "I'm sorry?"
+                            },
+                            {
+                                "Character": "TOBY",
+                                "Line": "[yelling] A brass quintet... two trumpets, trombone, baritone horn, French horn. Do you like them?"
+                            },
+                            {
+                                "Character": "JOSH",
+                                "Line": "Do I like them for what?"
+                            },
+                            {
+                                "Character": "TOBY",
+                                "Line": "To play Christmas carols here in the lobby in the morning and evenings as people are coming and going."
+                            },
+                            {
+                                "Character": "JOSH",
+                                "Line": "No."
+                            },
+                            {
+                                "Character": "TOBY",
+                                "Line": "Why?"
+                            },
+                            {
+                                "Character": "JOSH",
+                                "Line": "Because this isn't the Paramus mall."
+                            },
+                            {
+                                "Character": "TOBY",
+                                "Line": "Let me tell you something, the last two Christmases in this White House I've been accused of not being in the proper spirit. I was called names. Not this year! For the next three weeks I will be filling this lobby with music in the mornings and evenings so that we may all experience this season of... [turning to musicians with annoyance] Would you people stop playing for one damn minute! The brass quintet dies out."
+                            },
+                            {
+                                "Character": "TOBY",
+                                "Line": "This season of peace and joy."
+                            },
+                            {
+                                "Character": "JOSH",
+                                "Line": "Okay."
+                            },
+                            {
+                                "Character": "TOBY",
+                                "Line": "So what do you think?"
+                            },
+                            {
+                                "Character": "JOSH",
+                                "Line": "They seem fine."
+                            },
+                            {
+                                "Character": "TOBY",
+                                "Line": "And the loose change they collect goes to pay for musical instruments in DC public schools. They start to walk."
+                            },
+                            {
+                                "Character": "JOSH",
+                                "Line": "Toby, Ben Zaharian stepped off the reservation last night."
+                            },
+                            {
+                                "Character": "TOBY",
+                                "Line": "What'd he do? [over shoulder] You guys can keep playing. The band starts up again and can be heard throughout the halls."
+                            },
+                            {
+                                "Character": "JOSH",
+                                "Line": "He was at a Q&A at the NRDC about drilling the North Slope. He was asked if the President would consider tapping into the SPR and he said tapping into the SPR has a lot of merit."
+                            },
+                            {
+                                "Character": "TOBY",
+                                "Line": "I'll get into it."
+                            },
+                            {
+                                "Character": "JOSH",
+                                "Line": "Thank you. Josh exits. Toby sees Sam."
+                            },
+                            {
+                                "Character": "TOBY",
+                                "Line": "Sam!"
+                            },
+                            {
+                                "Character": "SAM",
+                                "Line": "Yeah."
+                            },
+                            {
+                                "Character": "TOBY",
+                                "Line": "Ben Zaharian did a Q&A last night and he was asked a question about the strategic petroleum reserve."
+                            },
+                            {
+                                "Character": "SAM",
+                                "Line": "And he said the SPR's for emergencies like times of war?"
+                            },
+                            {
+                                "Character": "TOBY",
+                                "Line": "He said tapping into the SPR has a lot of merit."
+                            },
+                            {
+                                "Character": "SAM",
+                                "Line": "I'll talk to a deputy."
+                            },
+                            {
+                                "Character": "TOBY",
+                                "Line": "Would you please go in and give C.J. a heads up?"
+                            }
+                        ]
+                    },
+                    {
+                        "Scene Heading": "CUT TO: INT. THE PRESS ROOM - CONTINUOUS",
+                        "Description": "C.J. is at the briefing. Carol is by the side.",
+                        "Dialogues": [
+                            {
+                                "Character": "C.J.",
+                                "Line": "...And expressed his confidence when the IMF and the World Bank meet in Prague next week some of those restrictions will be relaxed."
+                            },
+                            {
+                                "Character": "REPORTERS",
+                                "Line": "C.J.!"
+                            },
+                            {
+                                "Character": "FEMALE REPORTER",
+                                "Line": "To what extent could Pete Didian's objections throw a wrench into the works?"
+                            },
+                            {
+                                "Character": "C.J.",
+                                "Line": "Well congress isn't in session but you mean... Sam enters."
+                            },
+                            {
+                                "Character": "FEMALE REPORTER",
+                                "Line": "Yeah after the first."
+                            },
+                            {
+                                "Character": "C.J.",
+                                "Line": "He sits on the foreign ep sub committee so... Mark."
+                            },
+                            {
+                                "Character": "MARK",
+                                "Line": "This is way out of left field but do you know anything about a woman... I don't know how to say this... going a little crazy during a tour."
+                            },
+                            {
+                                "Character": "C.J.",
+                                "Line": "A White House tour? Sam passes Carol a note who passes it along to C.J."
+                            },
+                            {
+                                "Character": "MARK",
+                                "Line": "Yeah, a woman saw a painting and started screaming."
+                            },
+                            {
+                                "Character": "C.J.",
+                                "Line": "I don't know Mark. There's a painting of Dolly Madison in the grand foyer. You catch it in the wrong light it can scare the... The reporters chuckle."
+                            },
+                            {
+                                "Character": "MARK",
+                                "Line": "Okay."
+                            },
+                            {
+                                "Character": "C.J.",
+                                "Line": "What else? Katie?"
+                            },
+                            {
+                                "Character": "KATIE",
+                                "Line": "C.J., last night the energy secretary gave a speech at the Natural Resource Defense Council about the perils of drilling on the North Slope. During a Q&A he was asked about tapping into the Strategic Petroleum Reserve to help ease oil prices. He responded that the idea had a lot of merit. Does this signal a shift in policy since last June? C.J. glances at Sam who gives her a small nod."
+                            },
+                            {
+                                "Character": "C.J.",
+                                "Line": "No, it doesn't, but I will say that a bad idea in June isn't necessarily a bad idea in December."
+                            },
+                            {
+                                "Character": "KATIE",
+                                "Line": "Why?"
+                            },
+                            {
+                                "Character": "C.J.",
+                                "Line": "You don't need to lower the price of heating oil during the summer. Thank you everyone. C.J. goes over to Sam. Both walk out to the HALLWAY."
+                            },
+                            {
+                                "Character": "SAM",
+                                "Line": "Thank you."
+                            },
+                            {
+                                "Character": "C.J.",
+                                "Line": "Is somebody going to speak to somebody?"
+                            },
+                            {
+                                "Character": "SAM",
+                                "Line": "I'll talk to a deputy."
+                            },
+                            {
+                                "Character": "C.J.",
+                                "Line": "Please."
+                            },
+                            {
+                                "Character": "SAM",
+                                "Line": "What do you suppose that was about with the woman?"
+                            },
+                            {
+                                "Character": "C.J.",
+                                "Line": "What woman?"
+                            },
+                            {
+                                "Character": "SAM",
+                                "Line": "The woman who went crazy on the tour?"
+                            },
+                            {
+                                "Character": "C.J.",
+                                "Line": "We get about five of those a week."
+                            },
+                            {
+                                "Character": "SAM",
+                                "Line": "Really?"
+                            },
+                            {
+                                "Character": "C.J.",
+                                "Line": "Yeah."
+                            },
+                            {
+                                "Character": "SAM",
+                                "Line": "What exactly about the White House tour makes them go crazy?"
+                            },
+                            {
+                                "Character": "C.J.",
+                                "Line": "The blue blazers? You're going to talk to someone at the energy department."
+                            },
+                            {
+                                "Character": "SAM",
+                                "Line": "Yeah. They separate. JOSH comes up and begins to walk through the halls with C.J."
+                            },
+                            {
+                                "Character": "JOSH",
+                                "Line": "Good save."
+                            },
+                            {
+                                "Character": "C.J.",
+                                "Line": "Thank you. Where's the President?"
+                            },
+                            {
+                                "Character": "JOSH",
+                                "Line": "The situation room."
+                            },
+                            {
+                                "Character": "C.J.",
+                                "Line": "What's going on?"
+                            },
+                            {
+                                "Character": "JOSH",
+                                "Line": "Something about a pilot."
+                            }
+                        ]
+                    },
+                    {
+                        "Scene Heading": "CUT TO: INT. THE SITUATION ROOM - DAY",
+                        "Description": "Enter the President and Leo. Everyone stands.",
+                        "Dialogues": [
+                            {
+                                "Character": "BARTLET",
+                                "Line": "What's going on? Sit down."
+                            },
+                            {
+                                "Character": "MAN 1",
+                                "Line": "Mr. President an F16 Falcon from the 27-fighter wing at Cannon Air Force Base in New Mexico has left his group."
+                            },
+                            {
+                                "Character": "BARTLET",
+                                "Line": "What does that mean?"
+                            },
+                            {
+                                "Character": "KEN",
+                                "Line": "Returning home from an exercise the flight leader visually realized that the tail plane was no longer in formation."
+                            },
+                            {
+                                "Character": "MAN 1",
+                                "Line": "There was no communication from the aircraft and now it refuses to respond to urgent radio calls."
+                            },
+                            {
+                                "Character": "BARTLET",
+                                "Line": "Is he in there alone? Is there a crew?"
+                            },
+                            {
+                                "Character": "LEO",
+                                "Line": "The Falcon is a single seat fighter."
+                            },
+                            {
+                                "Character": "BARTLET",
+                                "Line": "Did he crash?"
+                            },
+                            {
+                                "Character": "MAN 2",
+                                "Line": "If he crashed he would have triggered electronic signals that would have been picked up by ground base."
+                            },
+                            {
+                                "Character": "BARTLET",
+                                "Line": "Is there any chance he's trying to contact the ground and can't?"
+                            },
+                            {
+                                "Character": "MAN 1",
+                                "Line": "Massive collapse of this plane's communication system isn't very likely."
+                            },
+                            {
+                                "Character": "LEO",
+                                "Line": "Ken, what does he have up there?"
+                            },
+                            {
+                                "Character": "KEN",
+                                "Line": "Well he's got a 20mm Vulcan cannon and 7 AIM sidewinder missiles."
+                            },
+                            {
+                                "Character": "BARTLET",
+                                "Line": "Is his intention to defect with a military asset or his intention to blow something up?"
+                            },
+                            {
+                                "Character": "MAN 1",
+                                "Line": "We don't know what his intention is."
+                            },
+                            {
+                                "Character": "BARTLET",
+                                "Line": "Don't our fighter pilors have to go through some kind of psychological testing?"
+                            },
+                            {
+                                "Character": "KEN",
+                                "Line": "Oh they go through extensive screening sir. He was deemed psychologically fit to fly."
+                            },
+                            {
+                                "Character": "BARTLET",
+                                "Line": "Let me ask a ridiculous question and I know the answer is no. Is there any way to bring this plane down without shooting it down?"
+                            },
+                            {
+                                "Character": "MAN 1",
+                                "Line": "No sir."
+                            },
+                            {
+                                "Character": "BARTLET",
+                                "Line": "What about populated areas?"
+                            },
+                            {
+                                "Character": "KEN",
+                                "Line": "We can take him over the Sierra Madres."
+                            },
+                            {
+                                "Character": "MAN 1",
+                                "Line": "Mr. President, it's possible the pilot lost consciousness due to a dramatic loss of air pressure and that's why this is happening."
+                            },
+                            {
+                                "Character": "MAN 2",
+                                "Line": "We've scrambled F16 out of Edwards to get a visual sighting."
+                            },
+                            {
+                                "Character": "MAN 1",
+                                "Line": "If the pilot is dead they'll see signs in the cockpit, if he's conscious he'll know he's been painted and he'll be given an order by the interceptors to land at a designated area."
+                            },
+                            {
+                                "Character": "KEN",
+                                "Line": "If he doesn't that's when we make a decision."
+                            },
+                            {
+                                "Character": "BARTLET",
+                                "Line": "Yeah okay."
+                            },
+                            {
+                                "Character": "STANLEY",
+                                "Line": "And that's the first time you heard about the pilot?",
+                                "Descriptor": "VO"
+                            }
+                        ]
+                    },
+                    {
+                        "Scene Heading": "CUT TO: INT. THE SECLUDED MEETING ROOM - PRESENT",
+                        "Description": "We go back to Josh and his meeting.",
+                        "Dialogues": [
+                            {
+                                "Character": "JOSH",
+                                "Line": "[very tired] I'm sorry?"
+                            },
+                            {
+                                "Character": "STANLEY",
+                                "Line": "That was the first time you heard about the pilot?"
+                            },
+                            {
+                                "Character": "JOSH",
+                                "Line": "No I wasn't in the situation room. I don't sit in on those meetings."
+                            },
+                            {
+                                "Character": "STANLEY",
+                                "Line": "But that day was when you first heard out the pilot?"
+                            },
+                            {
+                                "Character": "JOSH",
+                                "Line": "Yeah they'd tell me a little later because I had an assignment."
+                            },
+                            {
+                                "Character": "STANLEY",
+                                "Line": "Having to do with the pilot?"
+                            },
+                            {
+                                "Character": "JOSH",
+                                "Line": "Yeah."
+                            },
+                            {
+                                "Character": "STANLEY",
+                                "Line": "What was it?"
+                            },
+                            {
+                                "Character": "JOSH",
+                                "Line": "I'm sorry if this question sounds rude but how long will we be here today?"
+                            },
+                            {
+                                "Character": "STANLEY",
+                                "Line": "Well I'm sorry if this answer sounds rude but as long as I want. I was asked here by Leo McGarry."
+                            },
+                            {
+                                "Character": "JOSH",
+                                "Line": "I know who asked you here."
+                            },
+                            {
+                                "Character": "STANLEY",
+                                "Line": "Three weeks ago, the pilot."
+                            },
+                            {
+                                "Character": "JOSH",
+                                "Line": "For the fourth time there was a lot going on that day and I'm not sure why we have to be fixated on..."
+                            },
+                            {
+                                "Character": "STANLEY",
+                                "Line": "What was the assignment with the pilot?"
+                            },
+                            {
+                                "Character": "JOSH",
+                                "Line": "I was supposed to look into his personal records to figure out why he... There's a loud knocking on the door. Josh jumps. We flash to Josh in a white dress shirt and undone tie at home as someone knocks on his door. He looks very startled and his hand is bleeding. We cut back to the room."
+                            },
+                            {
+                                "Character": "STANLEY",
+                                "Line": "It's the coffee, Josh."
+                            },
+                            {
+                                "Character": "FADE OUT.",
+                                "Line": "* * *"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "Section": "Act Two",
+                "Scenes": [
+                    {
+                        "Scene Heading": "FADE IN: INT. THE WHITE HOUSE HALLWAY - THREE WEEKS AGO",
+                        "Description": "Leo and Josh are walking down the hallway together. Leo is holding a coffee cup.",
+                        "Dialogues": [
+                            {
+                                "Character": "JOSH",
+                                "Line": "When did you find out?"
+                            },
+                            {
+                                "Character": "LEO",
+                                "Line": "We were in the situation room about an hour ago."
+                            },
+                            {
+                                "Character": "JOSH",
+                                "Line": "How long has he been up there?"
+                            },
+                            {
+                                "Character": "LEO",
+                                "Line": "Ninety minutes since he broke formation. He grabs a cookie as they continue walking."
+                            },
+                            {
+                                "Character": "LEO",
+                                "Line": "They've deployed the 57th Fighter Wing from Nellis, Nevada, the 388th, the 58th from Arizona, the 301st out of Texas.",
+                                "Descriptor": "cont."
+                            },
+                            {
+                                "Character": "JOSH",
+                                "Line": "How long before I see this on television?"
+                            },
+                            {
+                                "Character": "LEO",
+                                "Line": "I'm amazed News Center 4 doesn't have their traffic helicopter up there right now."
+                            },
+                            {
+                                "Character": "JOSH",
+                                "Line": "And how long before we make visual contact?"
+                            },
+                            {
+                                "Character": "LEO",
+                                "Line": "About ten minutes."
+                            },
+                            {
+                                "Character": "JOSH",
+                                "Line": "What do we know about the pilot?"
+                            },
+                            {
+                                "Character": "LEO",
+                                "Line": "Not as much as I'd like to."
+                            },
+                            {
+                                "Character": "JOSH",
+                                "Line": "Want me to get into it?"
+                            },
+                            {
+                                "Character": "LEO",
+                                "Line": "Get the biographical info. How did this guy get through a fairly intense psychological screening process?"
+                            },
+                            {
+                                "Character": "JOSH",
+                                "Line": "Yeah."
+                            },
+                            {
+                                "Character": "LEO",
+                                "Line": "We gave this guy an $18 million warplane."
+                            },
+                            {
+                                "Character": "JOSH",
+                                "Line": "I'll get in to it. Leo walks off, and Josh keeps walking. He bumps into Donna."
+                            },
+                            {
+                                "Character": "JOSH",
+                                "Line": "Sorry. Donna."
+                            },
+                            {
+                                "Character": "DONNA",
+                                "Line": "I have the personnel file for the pilot."
+                            },
+                            {
+                                "Character": "JOSH",
+                                "Line": "How did you know I was going to ask you for that?"
+                            },
+                            {
+                                "Character": "DONNA",
+                                "Line": "I'm tuned to you."
+                            },
+                            {
+                                "Character": "JOSH",
+                                "Line": "Seriously."
+                            },
+                            {
+                                "Character": "DONNA",
+                                "Line": "I anticipate your every need."
+                            },
+                            {
+                                "Character": "JOSH",
+                                "Line": "Yeah, but to be walking by with the guy's personnel file?"
+                            },
+                            {
+                                "Character": "DONNA",
+                                "Line": "They called me ten minutes ago, Josh, don't be a yutz. They both stop walking for a beat."
+                            },
+                            {
+                                "Character": "JOSH",
+                                "Line": "Oh. They resume walking, and go through the LOBBY, where the quintet is playing 'God Rest Ye Merry, Gentlemen.'"
+                            },
+                            {
+                                "Character": "DONNA",
+                                "Line": "On the other hand, you're a very handsome man."
+                            },
+                            {
+                                "Character": "JOSH",
+                                "Line": "What do you need?"
+                            },
+                            {
+                                "Character": "DONNA",
+                                "Line": "You're a very powerful and a very handsome man."
+                            },
+                            {
+                                "Character": "JOSH",
+                                "Line": "What do you need?"
+                            },
+                            {
+                                "Character": "DONNA",
+                                "Line": "You know how I never ask you for anything?"
+                            },
+                            {
+                                "Character": "JOSH",
+                                "Line": "[sounding annoyed] What do you need?"
+                            },
+                            {
+                                "Character": "DONNA",
+                                "Line": "Yo-Yo Ma is playing at the Christmas party."
+                            },
+                            {
+                                "Character": "JOSH",
+                                "Line": "Which one?"
+                            },
+                            {
+                                "Character": "DONNA",
+                                "Line": "Congressional."
+                            },
+                            {
+                                "Character": "JOSH",
+                                "Line": "Fine."
+                            },
+                            {
+                                "Character": "DONNA",
+                                "Line": "I can come?"
+                            },
+                            {
+                                "Character": "JOSH",
+                                "Line": "Give me the file."
+                            },
+                            {
+                                "Character": "DONNA",
+                                "Line": "Can I come?"
+                            },
+                            {
+                                "Character": "JOSH",
+                                "Line": "To the Congressional Christmas party?"
+                            },
+                            {
+                                "Character": "DONNA",
+                                "Line": "Yeah."
+                            },
+                            {
+                                "Character": "JOSH",
+                                "Line": "Yeah."
+                            },
+                            {
+                                "Character": "DONNA",
+                                "Line": "You can take your Pablo Casals, you can keep your Rostopovich, I say Yo-Yo Ma rules."
+                            },
+                            {
+                                "Character": "JOSH",
+                                "Line": "Hmm."
+                            },
+                            {
+                                "Character": "DONNA",
+                                "Line": "What? DONNA stops to make copies."
+                            },
+                            {
+                                "Character": "JOSH",
+                                "Line": "[looking over the file] This guy? The pilot?"
+                            },
+                            {
+                                "Character": "DONNA",
+                                "Line": "What about him?"
+                            },
+                            {
+                                "Character": "JOSH",
+                                "Line": "He's got the same birthday as me. I'll be in here. Josh heads for his office. Sam walks up to him."
+                            },
+                            {
+                                "Character": "SAM",
+                                "Line": "Josh."
+                            },
+                            {
+                                "Character": "JOSH",
+                                "Line": "Yeah?"
+                            },
+                            {
+                                "Character": "SAM",
+                                "Line": "So I spoke to Jessie Witt at Energy."
+                            },
+                            {
+                                "Character": "JOSH",
+                                "Line": "Yeah."
+                            },
+                            {
+                                "Character": "SAM",
+                                "Line": "I dressed her down pretty good."
+                            },
+                            {
+                                "Character": "JOSH",
+                                "Line": "They're not going to get us to change our policy on the SPR by announcing that we should change our policy. [goes behind his desk]"
+                            },
+                            {
+                                "Character": "SAM",
+                                "Line": "And I told her that, I told her that in no uncertain terms. [looks down at the file]"
+                            },
+                            {
+                                "Character": "JOSH",
+                                "Line": "And?"
+                            },
+                            {
+                                "Character": "SAM",
+                                "Line": "I think we should change our policy."
+                            },
+                            {
+                                "Character": "JOSH",
+                                "Line": "I kind of have to do this thing right now. Can we talk about it later?"
+                            },
+                            {
+                                "Character": "SAM",
+                                "Line": "Yeah. [starts to leave]"
+                            },
+                            {
+                                "Character": "JOSH",
+                                "Line": "[sits] You know this guy, the pilot?"
+                            },
+                            {
+                                "Character": "SAM",
+                                "Line": "Yeah. [turns]"
+                            },
+                            {
+                                "Character": "JOSH",
+                                "Line": "We have the same birthday."
+                            },
+                            {
+                                "Character": "SAM",
+                                "Line": "Okay, well, I'm gonna go talk to Leo about the SPR."
+                            },
+                            {
+                                "Character": "JOSH",
+                                "Line": "Yeah. Sam leaves and Josh begins to look at the file."
+                            }
+                        ]
+                    },
+                    {
+                        "Scene Heading": "CUT TO: INT. HALLWAY - DAY",
+                        "Description": "C.J. and a woman are walking in the hall.",
+                        "Dialogues": [
+                            {
+                                "Character": "WOMAN",
+                                "Line": ""
+                            },
+                            {
+                                "Character": "C.J.",
+                                "Line": ""
+                            },
+                            {
+                                "Character": "C.J",
+                                "Line": "Yeah?"
+                            },
+                            {
+                                "Character": "WOMAN",
+                                "Line": "Bernard Thatch from the White House Visitor's office is waiting for you inside."
+                            },
+                            {
+                                "Character": "C.J.",
+                                "Line": "Yeah, I asked him to come see me. The woman walks off and C.J. enters THE ROOSEVELT ROOM, where BERNARD THATCH is waiting for her. He is a tall guy with a hard English accent."
+                            },
+                            {
+                                "Character": "BERNARD THATCH",
+                                "Line": "Claudia Jean."
+                            },
+                            {
+                                "Character": "C.J.",
+                                "Line": "How you doing, Bernard? [They shake hands.]"
+                            },
+                            {
+                                "Character": "BERNARD",
+                                "Line": "I'm not at all well."
+                            },
+                            {
+                                "Character": "C.J.",
+                                "Line": "That's not unusual, is it?"
+                            },
+                            {
+                                "Character": "BERNARD",
+                                "Line": "No."
+                            },
+                            {
+                                "Character": "C.J.",
+                                "Line": "I understand there was an incident on a tour."
+                            },
+                            {
+                                "Character": "BERNARD",
+                                "Line": "There's always an incident on a tour. People touch things."
+                            },
+                            {
+                                "Character": "C.J.",
+                                "Line": "Well, you should punish them for that, Bernard."
+                            },
+                            {
+                                "Character": "BERNARD",
+                                "Line": "I've begged my supervisors to allow me."
+                            },
+                            {
+                                "Character": "C.J.",
+                                "Line": "This had to do with a painting."
+                            },
+                            {
+                                "Character": "BERNARD",
+                                "Line": "Oh, yes. It's all in the report. It wasn't a problem."
+                            },
+                            {
+                                "Character": "C.J.",
+                                "Line": "Yeah, but it made it to the Press Room, so I just wanted to check in."
+                            },
+                            {
+                                "Character": "BERNARD",
+                                "Line": "The guide was pointing out the Gustave Callioux hanging outside the Blue Room. C.J. nods."
+                            },
+                            {
+                                "Character": "BERNARD",
+                                "Line": "A woman began screaming completely incoherently."
+                            },
+                            {
+                                "Character": "C.J.",
+                                "Line": "In English?"
+                            },
+                            {
+                                "Character": "BERNARD",
+                                "Line": "If it was a language at all, its origin was unknown to me. I sent for the agent on duty, who attempted to take a statement, but not speaking whatever language was simply escorted her out of the building."
+                            },
+                            {
+                                "Character": "C.J.",
+                                "Line": "Well, okay. Thanks for stopping by. They begin to move towards the door."
+                            },
+                            {
+                                "Character": "BERNARD",
+                                "Line": "C.J., your necklace is a monument to bourgeois taste."
+                            },
+                            {
+                                "Character": "C.J.",
+                                "Line": "Thank you. [fingers necklace]"
+                            },
+                            {
+                                "Character": "BERNARD",
+                                "Line": "You're welcome. Bernard exits the room, and C.J. follows him. They proceed to have a pedoconference."
+                            },
+                            {
+                                "Character": "C.J.",
+                                "Line": "Listen, who is Gustave Callioux, and how long has this painting been hanging outside the Blue Room?"
+                            },
+                            {
+                                "Character": "BERNARD",
+                                "Line": "Callioux was a contemporary of Courbet, who was considerably more gifted. This is a painting of the cliffs of Etretat, cleverly titled \"The Cliffs of Etretat. It is a minor work."
+                            },
+                            {
+                                "Character": "C.J.",
+                                "Line": "What's it doing here?"
+                            },
+                            {
+                                "Character": "BERNARD",
+                                "Line": "It was on loan from the Musee d'Orsay to the National Gallery. The President, on a visit to the gallery, and possessing even less taste in fine art than you have in accessories, announced that he liked the painting. The French government offered it as a gift to the White House. [Both stop walking.] I suppose in retribution for EuroDisney. So here it hangs, like a gym sock on a shower rod."
+                            },
+                            {
+                                "Character": "C.J.",
+                                "Line": "You're a snob."
+                            },
+                            {
+                                "Character": "BERNARD",
+                                "Line": "Yes. Bernard leaves, and C.J., smiling, walks the other way."
+                            },
+                            {
+                                "Character": "BARTLET",
+                                "Line": "I'd stay on the phone with Cashmen and Berryhill.",
+                                "Descriptor": "VO"
+                            }
+                        ]
+                    },
+                    {
+                        "Scene Heading": "CUT TO: INT. THE ROOSEVELT ROOM - DAY",
+                        "Description": "Charlie enters in on a meeting, and we see Bartlet sitting with several staffers.",
+                        "Dialogues": [
+                            {
+                                "Character": "BARTLET",
+                                "Line": "They're going to know when the F-16's have painted him before I will."
+                            },
+                            {
+                                "Character": "WOMAN",
+                                "Line": "Thank you, Mr. President. Everyone gets up and moves to leave."
+                            },
+                            {
+                                "Character": "BARTLET",
+                                "Line": "Thank you. Charlie hands Bartlet a folder."
+                            },
+                            {
+                                "Character": "BARTLET",
+                                "Line": "When I was in tenth grade me and my friends took my dad's Ford Country Squire for a joyride to Vermont. He locked me in the garage till Easter. They exit the room, into the HALLWAY."
+                            },
+                            {
+                                "Character": "BARTLET",
+                                "Line": "What do you think we should do with this pilot once we get his ass on the ground?"
+                            },
+                            {
+                                "Character": "CHARLIE",
+                                "Line": "You think that's gonna happen?"
+                            },
+                            {
+                                "Character": "BARTLET",
+                                "Line": "[sadly] No."
+                            },
+                            {
+                                "Character": "CHARLIE",
+                                "Line": "Mr. President, they've asked me to talk to you about your Christmas cards."
+                            },
+                            {
+                                "Character": "BARTLET",
+                                "Line": "What about them? They both walk in THE OVAL OFFICE."
+                            },
+                            {
+                                "Character": "CHARLIE",
+                                "Line": "They want to know which ones you're going to sign by hand and which ones get the autopen."
+                            },
+                            {
+                                "Character": "BARTLET",
+                                "Line": "I'm gonna sign them all by hand."
+                            },
+                            {
+                                "Character": "CHARLIE",
+                                "Line": "Sir, we went through this last year."
+                            },
+                            {
+                                "Character": "BARTLET",
+                                "Line": "I'm gonna sign them all by hand."
+                            },
+                            {
+                                "Character": "CHARLIE",
+                                "Line": "I'm not sure that's practical."
+                            },
+                            {
+                                "Character": "BARTLET",
+                                "Line": "I don't like the whole idea of the autopen."
+                            },
+                            {
+                                "Character": "CHARLIE",
+                                "Line": "Nonetheless."
+                            },
+                            {
+                                "Character": "BARTLET",
+                                "Line": "Let's do them all by hand. How many can there be?"
+                            },
+                            {
+                                "Character": "CHARLIE",
+                                "Line": "Christmas cards."
+                            },
+                            {
+                                "Character": "BARTLET",
+                                "Line": "How many am I sending out?"
+                            },
+                            {
+                                "Character": "CHARLIE",
+                                "Line": "1,110,000."
+                            },
+                            {
+                                "Character": "BARTLET",
+                                "Line": "Seriously?"
+                            },
+                            {
+                                "Character": "CHARLIE",
+                                "Line": "Yes, sir."
+                            },
+                            {
+                                "Character": "BARTLET",
+                                "Line": "I'm sending out 1.1 million Christmas cards? [sits down]"
+                            },
+                            {
+                                "Character": "CHARLIE",
+                                "Line": "It's a three-tier system, sir. There are about a thousand names on the First Family's list, then there are about a one hundred thousand campaign workers and contributors."
+                            },
+                            {
+                                "Character": "BARTLET",
+                                "Line": "Who are the other million?"
+                            },
+                            {
+                                "Character": "CHARLIE",
+                                "Line": "You send a Christmas card to everyone who writes a letter to the White House."
+                            },
+                            {
+                                "Character": "BARTLET",
+                                "Line": "I do?"
+                            },
+                            {
+                                "Character": "CHARLIE",
+                                "Line": "Yes, sir. And somewhere around a million people wrote you letters this year."
+                            },
+                            {
+                                "Character": "BARTLET",
+                                "Line": "Okay, but some of those were death threats."
+                            },
+                            {
+                                "Character": "CHARLIE",
+                                "Line": "They've weeded those out."
+                            },
+                            {
+                                "Character": "BARTLET",
+                                "Line": "Well, I'm not signing 1.1 million cards."
+                            },
+                            {
+                                "Character": "CHARLIE",
+                                "Line": "I wouldn't think so. Charlie starts to leave, and Leo enters."
+                            },
+                            {
+                                "Character": "LEO",
+                                "Line": "Mr. President?"
+                            },
+                            {
+                                "Character": "BARTLET",
+                                "Line": "1.1 million cards?"
+                            },
+                            {
+                                "Character": "CHARLIE",
+                                "Line": "Yes, sir. [exits]"
+                            },
+                            {
+                                "Character": "BARTLET",
+                                "Line": "[to Leo] Yeah?"
+                            },
+                            {
+                                "Character": "LEO",
+                                "Line": "Situation Room."
+                            },
+                            {
+                                "Character": "BARTLET",
+                                "Line": "What happened?"
+                            }
+                        ]
+                    },
+                    {
+                        "Scene Heading": "CUT TO: INT. MEETING ROOM - PRESENT",
+                        "Description": "",
+                        "Dialogues": [
+                            {
+                                "Character": "JOSH",
+                                "Line": "He was dead."
+                            },
+                            {
+                                "Character": "STANLEY",
+                                "Line": "The pilot."
+                            },
+                            {
+                                "Character": "JOSH",
+                                "Line": "Robert Cano, yeah. Leo came and told me."
+                            },
+                            {
+                                "Character": "STANLEY",
+                                "Line": "What had you found out about him?"
+                            },
+                            {
+                                "Character": "JOSH",
+                                "Line": "[quietly] What do you mean?"
+                            },
+                            {
+                                "Character": "STANLEY",
+                                "Line": "You were supposed to learn about the pilot and brief the President."
+                            },
+                            {
+                                "Character": "JOSH",
+                                "Line": "I didn't learn anything."
+                            },
+                            {
+                                "Character": "STANLEY",
+                                "Line": "Well, you must have learned something."
+                            },
+                            {
+                                "Character": "JOSH",
+                                "Line": "There wasn't time. There was maybe twenty minutes between when I got the assignment and when Leo came in."
+                            },
+                            {
+                                "Character": "STANLEY",
+                                "Line": "How'd he die?"
+                            },
+                            {
+                                "Character": "JOSH",
+                                "Line": "Cano?"
+                            },
+                            {
+                                "Character": "STANLEY",
+                                "Line": "Yeah."
+                            },
+                            {
+                                "Character": "JOSH",
+                                "Line": "He crashed into a mountain, Stanley."
+                            },
+                            {
+                                "Character": "STANLEY",
+                                "Line": "No, I mean, was it 'cause he lost oxygen? Did you have to shoot him down?"
+                            },
+                            {
+                                "Character": "JOSH",
+                                "Line": "This was on the front page of the newspapers."
+                            }
+                        ]
+                    },
+                    {
+                        "Scene Heading": "CUT TO: INT. JOSH'S OFFICE - THREE WEEKS AGO",
+                        "Description": "Josh in his office, looking at photos.",
+                        "Dialogues": [
+                            {
+                                "Character": "STANLEY",
+                                "Line": "Well, it wasn't in the front page of the sports section, so... There is a knock on Josh's door. Leo enters.",
+                                "Descriptor": "VO"
+                            },
+                            {
+                                "Character": "LEO",
+                                "Line": "It's over."
+                            },
+                            {
+                                "Character": "JOSH",
+                                "Line": "The F-16?"
+                            },
+                            {
+                                "Character": "LEO",
+                                "Line": "Yeah, he went into a mountain north of Mexico City."
+                            },
+                            {
+                                "Character": "JOSH",
+                                "Line": "Was the pilot alive when it crashed?"
+                            },
+                            {
+                                "Character": "LEO",
+                                "Line": "Yeah."
+                            },
+                            {
+                                "Character": "JOSH",
+                                "Line": "We know that for sure, or we're just...?"
+                            },
+                            {
+                                "Character": "LEO",
+                                "Line": "There was a radio communication."
+                            },
+                            {
+                                "Character": "JOSH",
+                                "Line": "From the pilot?"
+                            },
+                            {
+                                "Character": "LEO",
+                                "Line": "Yeah."
+                            },
+                            {
+                                "Character": "JOSH",
+                                "Line": "What'd he say?"
+                            },
+                            {
+                                "Character": "LEO",
+                                "Line": "He said, \"It wasn't the plane.\""
+                            },
+                            {
+                                "Character": "JOSH",
+                                "Line": "That's it?"
+                            },
+                            {
+                                "Character": "LEO",
+                                "Line": "Yeah."
+                            },
+                            {
+                                "Character": "JOSH",
+                                "Line": "Okay. [begins to look through the photos again]"
+                            },
+                            {
+                                "Character": "LEO",
+                                "Line": "[sits] So what do you know?"
+                            },
+                            {
+                                "Character": "JOSH",
+                                "Line": "The same things you know. He's from Tallahassee. He trained at Laughlin on T-37's. LEO'S BODY, STANLEY'S VOICE What else?"
+                            }
+                        ]
+                    },
+                    {
+                        "Scene Heading": "CUT TO: INT. MEETING ROOM - PRESENT",
+                        "Description": "",
+                        "Dialogues": [
+                            {
+                                "Character": "JOSH",
+                                "Line": "Stanley."
+                            },
+                            {
+                                "Character": "STANLEY",
+                                "Line": "What else did you know?"
+                            },
+                            {
+                                "Character": "JOSH",
+                                "Line": "I didn't know anything. I knew his, I knew his name, I knew his rank, uh, I knew where he trained. I knew his missions."
+                            },
+                            {
+                                "Character": "STANLEY",
+                                "Line": "What else?"
+                            },
+                            {
+                                "Character": "JOSH",
+                                "Line": "We had the same birthday."
+                            },
+                            {
+                                "Character": "STANLEY",
+                                "Line": "That's right. And what else?"
+                            }
+                        ]
+                    },
+                    {
+                        "Scene Heading": "CUT TO: INT. JOSH'S OFFICE - THREE WEEKS AGO",
+                        "Description": "",
+                        "Dialogues": [
+                            {
+                                "Character": "JOSH",
+                                "Line": "He's got some medals. One of them's a... Purple Heart."
+                            },
+                            {
+                                "Character": "LEO",
+                                "Line": "For what?"
+                            },
+                            {
+                                "Character": "JOSH",
+                                "Line": "His plane was shot at over Bosnia. It caught fire, he ejected. We hear sounds of gunshots and screaming faintly in the background."
+                            },
+                            {
+                                "Character": "JOSH",
+                                "Line": "And there were some injuries. The sounds continue, with sirens, and slowly fade away as the camera turns back to Stanley.",
+                                "Descriptor": "cont."
+                            },
+                            {
+                                "Character": "STANLEY",
+                                "Line": "That's right, Josh. That's right."
+                            },
+                            {
+                                "Character": "FADE OUT.",
+                                "Line": "* * *"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "Section": "Act Three",
+                "Scenes": [
+                    {
+                        "Scene Heading": "FADE IN: INT. THE WHITE HOUSE LOBBY - FIVE DAYS AGO",
+                        "Description": "Bagpipes are heard in the White House Lobby. There is a band of traditionally dressed Scottish musicians playing near the Christmas tree. Josh walks by Toby, who is standing next to them.",
+                        "Dialogues": [
+                            {
+                                "Character": "JOSH",
+                                "Line": "Toby."
+                            },
+                            {
+                                "Character": "TOBY",
+                                "Line": "Yeah."
+                            },
+                            {
+                                "Character": "JOSH",
+                                "Line": "Bagpipes?"
+                            },
+                            {
+                                "Character": "TOBY",
+                                "Line": "Yeah."
+                            },
+                            {
+                                "Character": "JOSH",
+                                "Line": "You put bagpipes in the lobby?"
+                            },
+                            {
+                                "Character": "TOBY",
+                                "Line": "Not just any bagpipes, Josh. Those guys are the Duncan McTavish Clarney Highland Bagpipe Regiment. They start walking."
+                            },
+                            {
+                                "Character": "JOSH",
+                                "Line": "They're a bagpipe regiment."
+                            },
+                            {
+                                "Character": "TOBY",
+                                "Line": "They're three guys from Delaware, but they can play."
+                            },
+                            {
+                                "Character": "JOSH",
+                                "Line": "Two weeks ago, it was a brass quintet; yesterday, it was the Capital Blue Plate Banjo Band."
+                            },
+                            {
+                                "Character": "TOBY",
+                                "Line": "Capitol Bluegrass Banjo Brigade and those guys were featured on the local news."
+                            },
+                            {
+                                "Character": "JOSH",
+                                "Line": "They're pretty loud."
+                            },
+                            {
+                                "Character": "TOBY",
+                                "Line": "The bagpipes?"
+                            },
+                            {
+                                "Character": "JOSH",
+                                "Line": "Yeah."
+                            },
+                            {
+                                "Character": "TOBY",
+                                "Line": "That's because the shepherds would need to call in the goats from high atop the hills..."
+                            },
+                            {
+                                "Character": "JOSH",
+                                "Line": "Shepherds herd sheep, they don't do it in Delaware and these guys can't play in the lobby!"
+                            },
+                            {
+                                "Character": "TOBY",
+                                "Line": "They money that people toss in their cases will go to buy band uniforms for the St. Mary's Assumption Marching Red Raiders."
+                            },
+                            {
+                                "Character": "JOSH",
+                                "Line": "Toby, I'm not kidding."
+                            },
+                            {
+                                "Character": "TOBY",
+                                "Line": "These guys have a fourteen-song repertoire..."
+                            },
+                            {
+                                "Character": "JOSH",
+                                "Line": "[screaming] I can hear the damn sirens all over the building! [long pause] The... bagpipes."
+                            },
+                            {
+                                "Character": "TOBY",
+                                "Line": "[stops] Josh?"
+                            },
+                            {
+                                "Character": "JOSH",
+                                "Line": "The... bagpipes. Josh walks away from Toby, who is standing, watching him."
+                            },
+                            {
+                                "Character": "JOSH",
+                                "Line": "They can't play in the lobby! C.J. walks out a door in front of Toby."
+                            },
+                            {
+                                "Character": "C.J.",
+                                "Line": "Toby!"
+                            },
+                            {
+                                "Character": "TOBY",
+                                "Line": "[still looks as Josh heads for his office.] Yeah."
+                            },
+                            {
+                                "Character": "C.J.",
+                                "Line": "Hang on a second. Carol, a few days ago I met with Bernard Thatch of the White House Visitors Office."
+                            },
+                            {
+                                "Character": "CAROL",
+                                "Line": "Yes, he didn't like my shoes.",
+                                "Descriptor": "OS"
+                            },
+                            {
+                                "Character": "C.J.",
+                                "Line": "He said the Secret Service took a report from a woman who had some kind of an episode on a tour?"
+                            },
+                            {
+                                "Character": "TOBY",
+                                "Line": "C.J.?"
+                            },
+                            {
+                                "Character": "C.J.",
+                                "Line": "Uh, hang on. I should really glance at that report, could you get it for me?"
+                            },
+                            {
+                                "Character": "CAROL",
+                                "Line": "Yeah. [leaves]"
+                            },
+                            {
+                                "Character": "C.J.",
+                                "Line": "Toby, if I get asked the SPR question... Josh comes out of his office and starts yelling."
+                            },
+                            {
+                                "Character": "JOSH",
+                                "Line": "Would it be possible to hold the noise down out here?!"
+                            },
+                            {
+                                "Character": "DONNA",
+                                "Line": "[stops in front of him] Do you need something?"
+                            },
+                            {
+                                "Character": "JOSH",
+                                "Line": "I... need the CBO spec."
+                            },
+                            {
+                                "Character": "DONNA",
+                                "Line": "It's on your desk. Toby and C.J. are watching, stunned.",
+                                "Descriptor": "OS"
+                            },
+                            {
+                                "Character": "JOSH",
+                                "Line": "It's like a damn hockey game out here. He slams his door shut."
+                            }
+                        ]
+                    },
+                    {
+                        "Scene Heading": "CUT TO: INT. MEETING ROOM - PRESENT",
+                        "Description": "Stanley and Josh are sitting across from each other by a table.",
+                        "Dialogues": [
+                            {
+                                "Character": "STANLEY",
+                                "Line": "Did you know at this point that there were people who were concerned about you?"
+                            },
+                            {
+                                "Character": "JOSH",
+                                "Line": "I don't... I'm not really comfortable with that question."
+                            },
+                            {
+                                "Character": "STANLEY",
+                                "Line": "I mean concerned with your behavior."
+                            },
+                            {
+                                "Character": "JOSH",
+                                "Line": "I understand what you meant."
+                            },
+                            {
+                                "Character": "STANLEY",
+                                "Line": "If you look back to the days following the pilot, do you remember anything unusual about your behavior?"
+                            },
+                            {
+                                "Character": "JOSH",
+                                "Line": "No."
+                            },
+                            {
+                                "Character": "STANLEY",
+                                "Line": "Why do you think your friends were saying that?"
+                            },
+                            {
+                                "Character": "JOSH",
+                                "Line": "This is incredibly prosecutorial!"
+                            },
+                            {
+                                "Character": "STANLEY",
+                                "Line": "I don't care!"
+                            },
+                            {
+                                "Character": "JOSH",
+                                "Line": "I think if you want to know what my friends were thinking and why they were thinking it, you should talk to my friends."
+                            },
+                            {
+                                "Character": "STANLEY",
+                                "Line": "I did."
+                            },
+                            {
+                                "Character": "JOSH",
+                                "Line": "So I gather."
+                            },
+                            {
+                                "Character": "STANLEY",
+                                "Line": "What was going on on the 19th?"
+                            },
+                            {
+                                "Character": "JOSH",
+                                "Line": "The 19th of this month?"
+                            },
+                            {
+                                "Character": "STANLEY",
+                                "Line": "Five days ago."
+                            },
+                            {
+                                "Character": "JOSH",
+                                "Line": "Stanley, to say 'what was going on on the 19th...' the number of things that go on here during a day..."
+                            },
+                            {
+                                "Character": "STANLEY",
+                                "Line": "Name some things that went on five days ago."
+                            }
+                        ]
+                    },
+                    {
+                        "Scene Heading": "CUT TO: INT. C.J.'S OFFICE - FIVE DAYS AGO",
+                        "Description": "C.J. is on a couch with a drink in her hand and an old photograph. Josh walks in.",
+                        "Dialogues": [
+                            {
+                                "Character": "JOSH",
+                                "Line": "C.J.! C.J.! C.J.!"
+                            },
+                            {
+                                "Character": "C.J.",
+                                "Line": "[preoccupied with the photograph] Yeah."
+                            },
+                            {
+                                "Character": "JOSH",
+                                "Line": "What are you doing?"
+                            },
+                            {
+                                "Character": "C.J.",
+                                "Line": "Eating lunch."
+                            },
+                            {
+                                "Character": "JOSH",
+                                "Line": "Why is..."
+                            },
+                            {
+                                "Character": "C.J.",
+                                "Line": "Something's strange about this photograph."
+                            },
+                            {
+                                "Character": "JOSH",
+                                "Line": "Listen, why is there no more information coming about Robert Cano?"
+                            },
+                            {
+                                "Character": "C.J.",
+                                "Line": "'Cause there's no new information."
+                            },
+                            {
+                                "Character": "JOSH",
+                                "Line": "Okay. [turns to leave the office]"
+                            },
+                            {
+                                "Character": "C.J.",
+                                "Line": "There isn't!"
+                            },
+                            {
+                                "Character": "JOSH",
+                                "Line": "[turns around and laughs sarcastically] You accept that?"
+                            },
+                            {
+                                "Character": "C.J.",
+                                "Line": "Yeah!"
+                            },
+                            {
+                                "Character": "JOSH",
+                                "Line": "A perfectly healthy air force pilot kills himself and nobody's asking why?"
+                            },
+                            {
+                                "Character": "C.J.",
+                                "Line": "A lot of people are asking why, we just don't know why except that he obviously wasn't perfectly healthy anymore!"
+                            },
+                            {
+                                "Character": "JOSH",
+                                "Line": "All right. [turns to leave again]"
+                            },
+                            {
+                                "Character": "C.J.",
+                                "Line": "Hang on. [gets up and shows him the picture] Look at this picture. Does something in this picture look familiar?"
+                            },
+                            {
+                                "Character": "JOSH",
+                                "Line": "It's a man holding a little girl."
+                            },
+                            {
+                                "Character": "C.J.",
+                                "Line": "Look behind the man on the wall."
+                            },
+                            {
+                                "Character": "JOSH",
+                                "Line": "The painting."
+                            },
+                            {
+                                "Character": "C.J.",
+                                "Line": "Yeah."
+                            },
+                            {
+                                "Character": "JOSH",
+                                "Line": "Yeah."
+                            },
+                            {
+                                "Character": "C.J.",
+                                "Line": "It looks familiar?"
+                            },
+                            {
+                                "Character": "JOSH",
+                                "Line": "It's the same one that's hanging outside the Blue Room. Josh walks out as Donna passes by him."
+                            },
+                            {
+                                "Character": "C.J.",
+                                "Line": "Are you kidding?"
+                            },
+                            {
+                                "Character": "JOSH",
+                                "Line": "I need information."
+                            },
+                            {
+                                "Character": "C.J.",
+                                "Line": "I'm going to the Blue Room."
+                            },
+                            {
+                                "Character": "DONNA",
+                                "Line": "Yo-Yo Ma rules! Josh stops and stares at her with discontent."
+                            }
+                        ]
+                    },
+                    {
+                        "Scene Heading": "CUT TO: INT. MEETING ROOM - PRESENT",
+                        "Description": "Josh is now pacing the room.",
+                        "Dialogues": [
+                            {
+                                "Character": "JOSH",
+                                "Line": "She wouldn't shut up about Yo-Yo Ma."
+                            },
+                            {
+                                "Character": "STANLEY",
+                                "Line": "You don't like the cello?"
+                            },
+                            {
+                                "Character": "JOSH",
+                                "Line": "I like the cello fine. You asked me what was going on that day and one of the things that was going on was that Donna wouldn't shut up about Yo-Yo Ma."
+                            },
+                            {
+                                "Character": "STANLEY",
+                                "Line": "Who was playing at the Christmas Party?"
+                            },
+                            {
+                                "Character": "JOSH",
+                                "Line": "Yeah."
+                            },
+                            {
+                                "Character": "STANLEY",
+                                "Line": "Now, the day of that party you had a meeting at the Oval Office."
+                            },
+                            {
+                                "Character": "JOSH",
+                                "Line": "Probably."
+                            },
+                            {
+                                "Character": "STANLEY",
+                                "Line": "No, you did."
+                            },
+                            {
+                                "Character": "JOSH",
+                                "Line": "Okay."
+                            },
+                            {
+                                "Character": "STANLEY",
+                                "Line": "You don't remember having a meeting at the Oval Office that day?"
+                            },
+                            {
+                                "Character": "JOSH",
+                                "Line": "It's not unusual for me to meet with the President in the Oval Office five or ten times a day."
+                            },
+                            {
+                                "Character": "STANLEY",
+                                "Line": "The meeting I'm talking about wasn't usual."
+                            },
+                            {
+                                "Character": "JOSH",
+                                "Line": "Stanley..."
+                            },
+                            {
+                                "Character": "STANLEY",
+                                "Line": "Come on! You're pissed at Sam, you're pissed at Toby, you're pissed at C.J., you're pissed at Donna. Who's next?"
+                            }
+                        ]
+                    },
+                    {
+                        "Scene Heading": "CUT TO: INT. THE OVAL OFFICE - DAY OF THE PARTY",
+                        "Description": "A meeting is happening involving the men of the staff. Sam speaks off screen, and all we see is President Bartlet.",
+                        "Dialogues": [
+                            {
+                                "Character": "SAM",
+                                "Line": "Sir, last year New England had 16.3 million barrels of commercial inventory. This year, they have six.",
+                                "Descriptor": "OS"
+                            }
+                        ]
+                    },
+                    {
+                        "Scene Heading": "CUT TO: INT. MEETING ROOM - PRESENT",
+                        "Description": "",
+                        "Dialogues": [
+                            {
+                                "Character": "JOSH",
+                                "Line": "Nobody was next. I... I... I don't know what you heard about this meeting, but... It wasn't even my meeting!"
+                            }
+                        ]
+                    },
+                    {
+                        "Scene Heading": "CUT TO: INT. THE OVAL OFFICE - DAY OF THE PARTY",
+                        "Description": "",
+                        "Dialogues": [
+                            {
+                                "Character": "BARTLET",
+                                "Line": "OPEC will find a way to punish us. Leo, Sam and Josh are standing in front of him."
+                            },
+                            {
+                                "Character": "SAM",
+                                "Line": "The Saudis have announced that they'd welcome the US tapping into the SPR to calm the market. Even the Saudis think that the price is too high."
+                            },
+                            {
+                                "Character": "BARTLET",
+                                "Line": "If the Saudis are that concerned, why don't they just make the old faster?"
+                            },
+                            {
+                                "Character": "SAM",
+                                "Line": "Well, they're not that concerned."
+                            },
+                            {
+                                "Character": "BARTLET",
+                                "Line": "I didn't think so."
+                            }
+                        ]
+                    },
+                    {
+                        "Scene Heading": "CUT TO: INT. MEETING ROOM - PRESENT",
+                        "Description": "Josh has his bandaged hand in front view on the table.",
+                        "Dialogues": [
+                            {
+                                "Character": "JOSH",
+                                "Line": "It was Sam's meeting. He wanted the President to get together with his Energy and Economic advisors on the SPR. I was only there for a political perspective."
+                            },
+                            {
+                                "Character": "STANLEY",
+                                "Line": "What does that mean?"
+                            },
+                            {
+                                "Character": "JOSH",
+                                "Line": "There are only two things that ever stopped the government from doing anything money or politics."
+                            },
+                            {
+                                "Character": "STANLEY",
+                                "Line": "So, you were there to say it was a bad idea politically?"
+                            },
+                            {
+                                "Character": "JOSH",
+                                "Line": "Yeah."
+                            },
+                            {
+                                "Character": "STANLEY",
+                                "Line": "Did you think it was?"
+                            },
+                            {
+                                "Character": "JOSH",
+                                "Line": "Yeah."
+                            },
+                            {
+                                "Character": "STANLEY",
+                                "Line": "Did you say so?"
+                            },
+                            {
+                                "Character": "JOSH",
+                                "Line": "I'm paid to say so!"
+                            },
+                            {
+                                "Character": "STANLEY",
+                                "Line": "What'd you say?"
+                            },
+                            {
+                                "Character": "JOSH",
+                                "Line": "I told him to... [pause and smirks] You're not gonna understand it."
+                            },
+                            {
+                                "Character": "STANLEY",
+                                "Line": "I'm a fairly well-educated guy."
+                            },
+                            {
+                                "Character": "JOSH",
+                                "Line": "You need to understand the background."
+                            },
+                            {
+                                "Character": "STANLEY",
+                                "Line": "Did you raise your voice?"
+                            },
+                            {
+                                "Character": "JOSH",
+                                "Line": "To the President?"
+                            },
+                            {
+                                "Character": "STANLEY",
+                                "Line": "Yeah."
+                            },
+                            {
+                                "Character": "JOSH",
+                                "Line": "[laughs] No!"
+                            },
+                            {
+                                "Character": "STANLEY",
+                                "Line": "Okay."
+                            },
+                            {
+                                "Character": "JOSH",
+                                "Line": "You don't raise your voice to the President."
+                            },
+                            {
+                                "Character": "STANLEY",
+                                "Line": "Okay."
+                            },
+                            {
+                                "Character": "JOSH",
+                                "Line": "You certainly don't do it in the Oval Office."
+                            },
+                            {
+                                "Character": "STANLEY",
+                                "Line": "Okay."
+                            },
+                            {
+                                "Character": "JOSH",
+                                "Line": "There's always lively discussion and the President's informal with his staff, but there's a line you don't cross... Ever. You don't ever cross that line."
+                            }
+                        ]
+                    },
+                    {
+                        "Scene Heading": "CUT TO: INT. THE OVAL OFFICE - DAY OF THE PARTY",
+                        "Description": "",
+                        "Dialogues": [
+                            {
+                                "Character": "BARTLET",
+                                "Line": "Let's set up a meeting."
+                            },
+                            {
+                                "Character": "SAM",
+                                "Line": "Sir, can I say..."
+                            },
+                            {
+                                "Character": "BARTLET",
+                                "Line": "You sold me. We're setting up a meeting. [about to walk out of the office]"
+                            },
+                            {
+                                "Character": "SAM",
+                                "Line": "Excellent!"
+                            },
+                            {
+                                "Character": "JOSH",
+                                "Line": "Can I say I think it's a bad idea?"
+                            },
+                            {
+                                "Character": "BARTLET",
+                                "Line": "[stops and turns to Josh] Why?"
+                            },
+                            {
+                                "Character": "JOSH",
+                                "Line": "It's not something Didion's gonna like."
+                            },
+                            {
+                                "Character": "BARTLET",
+                                "Line": "Well, I'm just talking about a meeting, but if I decide to do it, the President controls the SPR and not Congress."
+                            },
+                            {
+                                "Character": "JOSH",
+                                "Line": "Yeah, but Didion controls the IMF vote."
+                            },
+                            {
+                                "Character": "BARTLET",
+                                "Line": "The two aren't related."
+                            },
+                            {
+                                "Character": "LEO",
+                                "Line": "Let's move on."
+                            },
+                            {
+                                "Character": "JOSH",
+                                "Line": "The two are related!"
+                            },
+                            {
+                                "Character": "BARTLET",
+                                "Line": "How?"
+                            },
+                            {
+                                "Character": "JOSH",
+                                "Line": "Through Didion."
+                            },
+                            {
+                                "Character": "BARTLET",
+                                "Line": "I'm saying the Strategic Petroleum Reserve and forgiving the IMF debt are not related."
+                            },
+                            {
+                                "Character": "LEO",
+                                "Line": "Anything else?"
+                            },
+                            {
+                                "Character": "JOSH",
+                                "Line": "[ignoring Leo] Of course they're related."
+                            },
+                            {
+                                "Character": "LEO",
+                                "Line": "Josh."
+                            },
+                            {
+                                "Character": "JOSH",
+                                "Line": "If Didion doesn't like that we're tapping into the SPR, he won't let the IMF debt out of committee."
+                            },
+                            {
+                                "Character": "BARTLET",
+                                "Line": "We'll talk to him tonight."
+                            },
+                            {
+                                "Character": "JOSH",
+                                "Line": "Mr. President..."
+                            },
+                            {
+                                "Character": "BARTLET",
+                                "Line": "At the Christmas party, we'll take him aside..."
+                            },
+                            {
+                                "Character": "JOSH",
+                                "Line": "[raises his voice a bit] No, sir, you can't just take him aside..."
+                            },
+                            {
+                                "Character": "LEO",
+                                "Line": "Josh, we can move on..."
+                            },
+                            {
+                                "Character": "JOSH",
+                                "Line": "[puts his hand in front of Leo's face] We can't move on from it!"
+                            },
+                            {
+                                "Character": "SAM",
+                                "Line": "Josh..."
+                            },
+                            {
+                                "Character": "JOSH",
+                                "Line": "We can't just take him aside! If we tell him we need his help then we give him visibility and power, and we put him in a position to say 'no' and be a hero to his party! Who wouldn't want to do that for a living?"
+                            },
+                            {
+                                "Character": "BARTLET",
+                                "Line": "Josh, Didion's a good guy, we can talk to him. Josh walks very close to the President, waves his hands wildly."
+                            },
+                            {
+                                "Character": "JOSH",
+                                "Line": "You need to listen to me. You have to listen to me. I can't help you, unless you listen to me! You can't send Christmas cards to everyone, you can't do it! [yelling] Forget the SPR, let's get the IMF loans like we said we were going to, listen to what I have to say about Didion, and please, listen to me! Everyone is looking at each other, lost. Josh's breathing heavily, and for a long moment, his breathing is the only sound heard."
+                            },
+                            {
+                                "Character": "SAM",
+                                "Line": "Josh."
+                            },
+                            {
+                                "Character": "JOSH",
+                                "Line": "All right, let's move on."
+                            },
+                            {
+                                "Character": "LEO",
+                                "Line": "Josh, go wait in my office, would you?"
+                            },
+                            {
+                                "Character": "JOSH",
+                                "Line": "I suppose if it's just a meeting, we..."
+                            },
+                            {
+                                "Character": "LEO",
+                                "Line": "Wait in my office."
+                            },
+                            {
+                                "Character": "JOSH",
+                                "Line": "Okay. He walks out while the conversation carries on awkwardly."
+                            },
+                            {
+                                "Character": "BARTLET",
+                                "Line": "We'll talk with Didion tonight?"
+                            },
+                            {
+                                "Character": "LEO",
+                                "Line": "Yeah."
+                            },
+                            {
+                                "Character": "BARTLET",
+                                "Line": "By the way, it's not intervention in a free market if that's what he's worried about."
+                            },
+                            {
+                                "Character": "SAM",
+                                "Line": "I agree!"
+                            },
+                            {
+                                "Character": "BARTLET",
+                                "Line": "It's not free trade if the price of oil is being controlled by a cartel."
+                            },
+                            {
+                                "Character": "LEO",
+                                "Line": "No."
+                            },
+                            {
+                                "Character": "BARTLET",
+                                "Line": "Sam, you'll be in on this?"
+                            },
+                            {
+                                "Character": "SAM",
+                                "Line": "Yes, sir."
+                            },
+                            {
+                                "Character": "BARTLET",
+                                "Line": "Thank you."
+                            },
+                            {
+                                "Character": "SAM",
+                                "Line": "Thank you, Mr. President. Leo and Sam walk out through different doors while the President sits with his hack to the camera. Leo walks into his OFFICE where Josh is standing, and closes the door."
+                            },
+                            {
+                                "Character": "LEO",
+                                "Line": "Have you ever heard of ATVA?"
+                            },
+                            {
+                                "Character": "JOSH",
+                                "Line": "Leo..."
+                            },
+                            {
+                                "Character": "LEO",
+                                "Line": "I'm here."
+                            },
+                            {
+                                "Character": "JOSH",
+                                "Line": "I think I should go back in there."
+                            },
+                            {
+                                "Character": "LEO",
+                                "Line": "It's the American Trauma Victims Association."
+                            },
+                            {
+                                "Character": "JOSH",
+                                "Line": "Leo..."
+                            },
+                            {
+                                "Character": "LEO",
+                                "Line": "We call them in to treat trauma victims, specifically with..."
+                            },
+                            {
+                                "Character": "JOSH",
+                                "Line": "I know what ATVA is."
+                            },
+                            {
+                                "Character": "LEO",
+                                "Line": "You're gonna sit with a guy."
+                            },
+                            {
+                                "Character": "JOSH",
+                                "Line": "Leo..."
+                            },
+                            {
+                                "Character": "LEO",
+                                "Line": "You're gonna sit with a guy."
+                            },
+                            {
+                                "Character": "JOSH",
+                                "Line": "If this is because of what I just said in there, I wasn't at my best with..."
+                            },
+                            {
+                                "Character": "LEO",
+                                "Line": "Josh, I'm not sure you were fully conscious while you were saying it."
+                            }
+                        ]
+                    },
+                    {
+                        "Scene Heading": "CUT TO: INT. MEETING ROOM - PRESENT",
+                        "Description": "",
+                        "Dialogues": [
+                            {
+                                "Character": "STANLEY",
+                                "Line": "Well, thank god for Leo."
+                            },
+                            {
+                                "Character": "JOSH",
+                                "Line": "Yeah."
+                            },
+                            {
+                                "Character": "STANLEY",
+                                "Line": "I'm serious. The man's an alcoholic, he knew what he was talking about."
+                            },
+                            {
+                                "Character": "JOSH",
+                                "Line": "I'm not sure it was as bad as maybe it was..."
+                            },
+                            {
+                                "Character": "STANLEY",
+                                "Line": "It was."
+                            },
+                            {
+                                "Character": "JOSH",
+                                "Line": "Stanley, you can ask the questions and you can answer them, but you can't do both at the same time."
+                            },
+                            {
+                                "Character": "STANLEY",
+                                "Line": "Yes, I can."
+                            },
+                            {
+                                "Character": "JOSH",
+                                "Line": "Why?"
+                            },
+                            {
+                                "Character": "STANLEY",
+                                "Line": "Because I know the answers, and I don't work for you."
+                            },
+                            {
+                                "Character": "JOSH",
+                                "Line": "Is there gonna be a..."
+                            },
+                            {
+                                "Character": "STANLEY",
+                                "Line": "How'd you cut your hand?"
+                            },
+                            {
+                                "Character": "JOSH",
+                                "Line": "Stanley..."
+                            },
+                            {
+                                "Character": "STANLEY",
+                                "Line": "Nah, how'd you do it? We see a flashback of Josh in his apartment, sitting on a couch with a glass."
+                            },
+                            {
+                                "Character": "JOSH",
+                                "Line": "I put a glass down. Josh breaks the glass in his hand. We cut back to Stanley, rolling up his sleeve.",
+                                "Descriptor": "VO"
+                            },
+                            {
+                                "Character": "STANLEY",
+                                "Line": "Yeah, I don't think you did."
+                            },
+                            {
+                                "Character": "JOSH",
+                                "Line": "Stanley, I got home from the thing, I made a drink, I sat down, I pushed the magazine aside to use as a coaster, and I missed the coaster. We cut to the flashback again. Josh is looking at his bloody hands. We go back to the meeting room."
+                            },
+                            {
+                                "Character": "STANLEY",
+                                "Line": "You missed the coaster with quite a bit of force."
+                            },
+                            {
+                                "Character": "JOSH",
+                                "Line": "I work out when I can."
+                            },
+                            {
+                                "Character": "STANLEY",
+                                "Line": "I swear I am completely unimpressed with clever answers."
+                            },
+                            {
+                                "Character": "JOSH",
+                                "Line": "And I was so hoping we'd have a second day."
+                            },
+                            {
+                                "Character": "STANLEY",
+                                "Line": "[smiles] You're in nine kinds of pain. You don't know what's going on inside of you, and you are so locked into damage control, that you can't..."
+                            },
+                            {
+                                "Character": "JOSH",
+                                "Line": "You diagnosed me in eight hours?"
+                            },
+                            {
+                                "Character": "STANLEY",
+                                "Line": "Josh, I diagnosed you in five minutes. Josh looks at him, shocked."
+                            },
+                            {
+                                "Character": "STANLEY",
+                                "Line": "Talk about the night of the party."
+                            }
+                        ]
+                    },
+                    {
+                        "Scene Heading": "CUT TO: INT. JOSH'S APARTMENT - NIGHT OF THE PARTY",
+                        "Description": "There is knocking on the door, Josh doesn't move from the couch.",
+                        "Dialogues": [
+                            {
+                                "Character": "SUPERINTENDENT",
+                                "Line": "[behind the door, off screen] Mr. Lyman? You in there?"
+                            },
+                            {
+                                "Character": "STANLEY",
+                                "Line": "You said you put down the glass when you came home from a party that night.",
+                                "Descriptor": "VO"
+                            },
+                            {
+                                "Character": "JOSH",
+                                "Line": "Yeah. The Congressional Christmas party. More knocking."
+                            },
+                            {
+                                "Character": "SUPERINTENDENT",
+                                "Line": "Mr. Lyman?"
+                            }
+                        ]
+                    },
+                    {
+                        "Scene Heading": "CUT TO: INT. MEETING ROOM - PRESENT",
+                        "Description": "",
+                        "Dialogues": [
+                            {
+                                "Character": "JOSH",
+                                "Line": "The Congressional Christmas party was white-tie, which is unusual, but the President likes it..."
+                            },
+                            {
+                                "Character": "FADE OUT.",
+                                "Line": "* * *"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "Section": "Act Four",
+                "Scenes": [
+                    {
+                        "Scene Heading": "FADE IN: INT. THE PRESIDENT'S BEDROOM - NIGHT",
+                        "Description": "Charlie is standing in the center of the room, wearing a frock, looking uncomfortable. Bartlet enters.",
+                        "Dialogues": [
+                            {
+                                "Character": "BARTLET",
+                                "Line": "You look good, Charlie."
+                            },
+                            {
+                                "Character": "CHARLIE",
+                                "Line": "I didn't know people dressed like this anymore, sir."
+                            },
+                            {
+                                "Character": "BARTLET",
+                                "Line": "I've brought it back."
+                            },
+                            {
+                                "Character": "CHARLIE",
+                                "Line": "Yes, sir."
+                            },
+                            {
+                                "Character": "BARTLET",
+                                "Line": "Like Woodrow Wilson and top hats."
+                            },
+                            {
+                                "Character": "CHARLIE",
+                                "Line": "We're not gonna wear top hats with this are we, sir?"
+                            },
+                            {
+                                "Character": "BARTLET",
+                                "Line": "No. Thank you. A man helps him on with coat as he and Charlie leave the room."
+                            },
+                            {
+                                "Character": "MAN",
+                                "Line": "Good evening, Mr. President."
+                            },
+                            {
+                                "Character": "BARTLET",
+                                "Line": "Charlie, this is how Statesmen dress. This is how they dress in times of occasion."
+                            },
+                            {
+                                "Character": "CHARLIE",
+                                "Line": "Yes sir."
+                            },
+                            {
+                                "Character": "BARTLET",
+                                "Line": "It's regal."
+                            },
+                            {
+                                "Character": "CHARLIE",
+                                "Line": "Yes sir."
+                            },
+                            {
+                                "Character": "AGENT",
+                                "Line": "Eagle's moving."
+                            }
+                        ]
+                    },
+                    {
+                        "Scene Heading": "CUT TO: INT. C.J.'S OFFICE - NIGHT",
+                        "Description": "C.J. enters her office, where Bernard and two people are waiting for her there.",
+                        "Dialogues": [
+                            {
+                                "Character": "C.J.",
+                                "Line": "Hello. I'm sorry to keep you waiting."
+                            },
+                            {
+                                "Character": "BERNARD",
+                                "Line": "C.J., this is Rebecca Haussmann and her son, David."
+                            },
+                            {
+                                "Character": "C.J.",
+                                "Line": "I'm C.J. Cregg, David. We spoke on the phone."
+                            },
+                            {
+                                "Character": "DAVID",
+                                "Line": "Yes."
+                            },
+                            {
+                                "Character": "C.J.",
+                                "Line": "Mrs. Haussmann, I'm C.J. Cregg. I'm the White House Press Secretary. [to David] Does she understand me?"
+                            },
+                            {
+                                "Character": "DAVID",
+                                "Line": "A little."
+                            },
+                            {
+                                "Character": "C.J.",
+                                "Line": "This is your painting. Your father was Augie Haussmann?"
+                            },
+                            {
+                                "Character": "MRS. HAUSSMANN",
+                                "Line": "Yes."
+                            },
+                            {
+                                "Character": "DAVID",
+                                "Line": "He was an art collector, mostly of minor impressionists that nobody really cared that much about. He was a French Jew."
+                            },
+                            {
+                                "Character": "C.J.",
+                                "Line": "And the Vichy Laws stripped him of his property?"
+                            },
+                            {
+                                "Character": "DAVID",
+                                "Line": "[nods] Yeah."
+                            },
+                            {
+                                "Character": "C.J.",
+                                "Line": "Well, best as we can tell, the Nazis sold the painting to a Swiss dealer sometime after your grandfather perished at Auschwitz. It made its way to the Musee d'Orsee, and then to the National Gallery, where the President spotted it. We've contacted the French..."
+                            },
+                            {
+                                "Character": "BERNARD",
+                                "Line": "[interrupting] Who probably surrendered."
+                            },
+                            {
+                                "Character": "C.J.",
+                                "Line": "...who wanted to settle this matter amicably. Mrs. Haussmann nods."
+                            },
+                            {
+                                "Character": "C.J.",
+                                "Line": "We'd like you to have our sincere apology, as well as, of course, the painting back."
+                            },
+                            {
+                                "Character": "MRS. HAUSSMANN",
+                                "Line": "Thank you. Bernard hands David the wrapped picture."
+                            },
+                            {
+                                "Character": "DAVID",
+                                "Line": "Well, you've made an old woman and her son very happy."
+                            },
+                            {
+                                "Character": "BERNARD",
+                                "Line": "David, do you happen to know what your grandfather paid for it originally?"
+                            },
+                            {
+                                "Character": "DAVID",
+                                "Line": "Well, it would have been about the equivalent of $300 U.S."
+                            },
+                            {
+                                "Character": "BERNARD",
+                                "Line": "Yes, that's about right. Would you explain to your mother that I had the painting appraised, and it's worth about $400,000 now. You should also tell her that, if she likes, we'd be honored to continue hanging the painting, and the longer we do, the higher it will appreciate."
+                            },
+                            {
+                                "Character": "MRS. HAUSSMANN",
+                                "Line": "[looks at David] No."
+                            },
+                            {
+                                "Character": "C.J.",
+                                "Line": "Officers McDaniel and Smith from the Park Police are gonna escort you home."
+                            },
+                            {
+                                "Character": "MRS. HAUSSMANN",
+                                "Line": "Thank you very much."
+                            },
+                            {
+                                "Character": "DAVID",
+                                "Line": "Thank you. C.J. and Bernard watch them leave, then leave themselves. They walk down the HALLWAY."
+                            },
+                            {
+                                "Character": "C.J.",
+                                "Line": "You see, you try very hard to be mean, but then you see that being nice is better."
+                            },
+                            {
+                                "Character": "BERNARD",
+                                "Line": "You're a freakish little woman. They part."
+                            },
+                            {
+                                "Character": "C.J.",
+                                "Line": "So that moment's over?"
+                            },
+                            {
+                                "Character": "BERNARD",
+                                "Line": "Yes. Josh walks by."
+                            },
+                            {
+                                "Character": "C.J.",
+                                "Line": "Oh, Josh! Sam said the Didion meeting went well."
+                            },
+                            {
+                                "Character": "JOSH",
+                                "Line": "Yeah, we'll support a LIEHEAP subsidy for air-conditioning in the Texas 23rd."
+                            },
+                            {
+                                "Character": "C.J.",
+                                "Line": "Josh, it's Christmas."
+                            },
+                            {
+                                "Character": "JOSH",
+                                "Line": "Yeah."
+                            },
+                            {
+                                "Character": "C.J.",
+                                "Line": "We're starting in five minutes."
+                            },
+                            {
+                                "Character": "JOSH",
+                                "Line": "Yeah. C.J. leaves, Josh stands there."
+                            }
+                        ]
+                    },
+                    {
+                        "Scene Heading": "CUT TO: INT. MEETING ROOM - PRESENT",
+                        "Description": "",
+                        "Dialogues": [
+                            {
+                                "Character": "JOSH",
+                                "Line": "What was the diagnosis?"
+                            },
+                            {
+                                "Character": "STANLEY",
+                                "Line": "I'm sorry?"
+                            },
+                            {
+                                "Character": "JOSH",
+                                "Line": "You said you diagnosed me in five minutes. What was the diagnosis?"
+                            },
+                            {
+                                "Character": "STANLEY",
+                                "Line": "You have Post-Traumatic Stress Disorder."
+                            },
+                            {
+                                "Character": "JOSH",
+                                "Line": "Well, that doesn't really sound like something they let you have if you work for the President. Can we have it be something else? Seriously, I-I think you might be wrong about that. I-I'm not tryin' to be difficult."
+                            },
+                            {
+                                "Character": "STANLEY",
+                                "Line": "I don't think you are."
+                            },
+                            {
+                                "Character": "JOSH",
+                                "Line": "I know that I-I'm givin' you cocky answers, I that should be..."
+                            },
+                            {
+                                "Character": "STANLEY",
+                                "Line": "Listen..."
+                            },
+                            {
+                                "Character": "JOSH",
+                                "Line": "I know that you want me to talk about my feelings."
+                            },
+                            {
+                                "Character": "STANLEY",
+                                "Line": "No I don't, Josh. The last thing I want you to do is talk about your feelings. I think if you heard a tape recording of this day, you wouldn't hear the word 'feelings.' What we need to be able to get you to do is to remember the shooting without reliving it. And you have been reliving it. We hear Bartlet's speech introducing Yo-Yo Ma."
+                            },
+                            {
+                                "Character": "BARTLET",
+                                "Line": "We have polling that indicates that if Johann Sebastian Bach were alive today, he would have voted for me. The crowd laughs.",
+                                "Descriptor": "VO"
+                            },
+                            {
+                                "Character": "STANLEY",
+                                "Line": "Right? It happened during the Christmas party?"
+                            },
+                            {
+                                "Character": "JOSH",
+                                "Line": "I'm not tryin' to give cocky answers..."
+                            },
+                            {
+                                "Character": "STANLEY",
+                                "Line": "I am the guy you tell, Josh! It happened at the Christmas party. We hear Bartlet again."
+                            },
+                            {
+                                "Character": "BARTLET",
+                                "Line": "The Bach Suite in G Major. Please help me in welcoming Yo-Yo Ma. The crowd applauds.",
+                                "Descriptor": "VO"
+                            },
+                            {
+                                "Character": "STANLEY",
+                                "Line": "Josh?"
+                            },
+                            {
+                                "Character": "JOSH",
+                                "Line": "I was fine."
+                            },
+                            {
+                                "Character": "STANLEY",
+                                "Line": "Josh?"
+                            },
+                            {
+                                "Character": "JOSH",
+                                "Line": "It was the Bach G Major. We hear music playing. We flash to see scenes of the Christmas party."
+                            },
+                            {
+                                "Character": "STANLEY",
+                                "Line": "It's a nice piece."
+                            },
+                            {
+                                "Character": "JOSH",
+                                "Line": "It is."
+                            },
+                            {
+                                "Character": "STANLEY",
+                                "Line": "Did he play it well?"
+                            },
+                            {
+                                "Character": "JOSH",
+                                "Line": "It's Yo-Yo Ma."
+                            },
+                            {
+                                "Character": "STANLEY",
+                                "Line": "I've never heard him in person."
+                            },
+                            {
+                                "Character": "JOSH",
+                                "Line": "He's really-he's really quite something, We see flashes of the White House Senior Staff listening to Yo-Yo Ma."
+                            },
+                            {
+                                "Character": "STANLEY",
+                                "Line": "How did it start? We cut back to the therapy.",
+                                "Descriptor": "VO"
+                            },
+                            {
+                                "Character": "JOSH",
+                                "Line": "I don't know."
+                            },
+                            {
+                                "Character": "STANLEY",
+                                "Line": "Yes, you do."
+                            },
+                            {
+                                "Character": "JOSH",
+                                "Line": "I was just sitting there. We cut back to the party."
+                            },
+                            {
+                                "Character": "STANLEY",
+                                "Line": "And then what happened?"
+                            },
+                            {
+                                "Character": "JOSH",
+                                "Line": "I don't know! We suddenly hear a gunshot."
+                            },
+                            {
+                                "Character": "STANLEY",
+                                "Line": "Are you in the fourth grade?"
+                            },
+                            {
+                                "Character": "JOSH",
+                                "Line": "I don't know how it started!"
+                            },
+                            {
+                                "Character": "KAYTHA",
+                                "Line": "You tasted something bitter in your mouth. Josh has a flashback to the shooting."
+                            },
+                            {
+                                "Character": "KAYTHA",
+                                "Line": "It was the adrenaline. The bitter taste was the adrenaline.",
+                                "Descriptor": "cont."
+                            },
+                            {
+                                "Character": "STANLEY",
+                                "Line": "What happened then? We see Josh at the party. He's hearing scream and shots."
+                            },
+                            {
+                                "Character": "JOSH",
+                                "Line": "I couldn't make it stop. At the party, Josh winces as if in pain. He has a flashback to the shooting and feels as though he is being shot. He remembers the doctors and the ambulance."
+                            },
+                            {
+                                "Character": "JOSH",
+                                "Line": "I couldn't make it stop."
+                            },
+                            {
+                                "Character": "STANLEY",
+                                "Line": "No you couldn't, Josh, but you've been trying for weeks and that's why you feel sick inside. We cut back to the party."
+                            },
+                            {
+                                "Character": "STANLEY",
+                                "Line": "And what happened when you went home that night?"
+                            }
+                        ]
+                    },
+                    {
+                        "Scene Heading": "CUT TO: INT. JOSH'S APARTMENT - NIGHT OF THE PARTY",
+                        "Description": "Josh is looking at his bloody hand.",
+                        "Dialogues": [
+                            {
+                                "Character": "SUPERINTENDENT",
+                                "Line": "Mr. Lyman? Are you in there?"
+                            }
+                        ]
+                    },
+                    {
+                        "Scene Heading": "CUT TO: INT. MEETING ROOM - PRESENT",
+                        "Description": "",
+                        "Dialogues": [
+                            {
+                                "Character": "STANLEY",
+                                "Line": "You had an episode at the party, that afternoon you had blown up in the Oval Office. What happened when you went home that night?"
+                            },
+                            {
+                                "Character": "JOSH",
+                                "Line": "Honestly nothing!"
+                            },
+                            {
+                                "Character": "STANLEY",
+                                "Line": "Okay. He gets up and moves closer to Josh."
+                            },
+                            {
+                                "Character": "JOSH",
+                                "Line": "I sat down on the couch..."
+                            },
+                            {
+                                "Character": "STANLEY",
+                                "Line": "Can you honestly tell me..."
+                            },
+                            {
+                                "Character": "JOSH",
+                                "Line": "[in his head, he sees the action.] I-I pushed the magazine aside as a coaster..."
+                            },
+                            {
+                                "Character": "STANLEY",
+                                "Line": "...that when the Pilot committed suicide... Can you honestly tell me that you didn't wonder if you were suicidal too? Josh has been hearing the Bach Suite in his head-stops and sees himself with a bloody hand."
+                            },
+                            {
+                                "Character": "JOSH",
+                                "Line": "I didn't wonder that."
+                            },
+                            {
+                                "Character": "STANLEY",
+                                "Line": "You're lying."
+                            },
+                            {
+                                "Character": "JOSH",
+                                "Line": "I didn't wonder that."
+                            },
+                            {
+                                "Character": "STANLEY",
+                                "Line": "Everything that the two of you had in common..."
+                            },
+                            {
+                                "Character": "JOSH",
+                                "Line": "We had nothing in common!"
+                            },
+                            {
+                                "Character": "STANLEY",
+                                "Line": "You know you had the same birthday..."
+                            },
+                            {
+                                "Character": "JOSH",
+                                "Line": "Who gives a damn if we had the same birthday?"
+                            },
+                            {
+                                "Character": "STANLEY",
+                                "Line": "But you knew something else."
+                            },
+                            {
+                                "Character": "JOSH",
+                                "Line": "Stanley..."
+                            },
+                            {
+                                "Character": "STANLEY",
+                                "Line": "You knew he has been shot down once, that his plane had caught on fire, that he had ejected, and that there were some injuries."
+                            },
+                            {
+                                "Character": "JOSH",
+                                "Line": "[yelling] Stanley! I made myself a drink, I pushed aside a magazine to use as a coaster."
+                            },
+                            {
+                                "Character": "STANLEY",
+                                "Line": "[yelling] Josh! Josh. How did you cut your hand?"
+                            }
+                        ]
+                    },
+                    {
+                        "Scene Heading": "CUT TO: INT. JOSH'S APARTMENT - NIGHT OF THE PARTY",
+                        "Description": "Josh is at his apartment having flashbacks. He can't take it anymore and puts his hand through the window.",
+                        "Dialogues": [
+                            {
+                                "Character": "SUPERINTENDENT",
+                                "Line": "[knocking on door] Mr. Lyman? It's your Super. [knocks] Mr. Lyman, are you okay in there? Josh looks at his hand."
+                            },
+                            {
+                                "Character": "SUPERINTENDENT",
+                                "Line": "Mr. Lyman! The piece ends. We hear applause."
+                            }
+                        ]
+                    },
+                    {
+                        "Scene Heading": "CUT TO: INT. MEETING ROOM - PRESENT",
+                        "Description": "",
+                        "Dialogues": [
+                            {
+                                "Character": "STANLEY",
+                                "Line": "Okay then."
+                            },
+                            {
+                                "Character": "JOSH",
+                                "Line": "Okay then?"
+                            },
+                            {
+                                "Character": "STANLEY",
+                                "Line": "[nods] That's that."
+                            },
+                            {
+                                "Character": "JOSH",
+                                "Line": "I'm cured?"
+                            },
+                            {
+                                "Character": "STANLEY",
+                                "Line": "[humoring him] Yeah, Josh. You're cured. No problem."
+                            },
+                            {
+                                "Character": "JOSH",
+                                "Line": "Stanley..."
+                            },
+                            {
+                                "Character": "STANLEY",
+                                "Line": "I'm gonna recommend a therapist you'll like."
+                            },
+                            {
+                                "Character": "JOSH",
+                                "Line": "I like you!"
+                            },
+                            {
+                                "Character": "STANLEY",
+                                "Line": "You're to easy a case for me."
+                            },
+                            {
+                                "Character": "JOSH",
+                                "Line": "I broke a window!"
+                            },
+                            {
+                                "Character": "STANLEY",
+                                "Line": "Yeah. Stop doing that. I want to commend you on not hurting anybody else and not hurting yourself too badly, but nevertheless, stop doing that. [gets up from the chair]"
+                            },
+                            {
+                                "Character": "JOSH",
+                                "Line": "And... that'll do the trick?"
+                            },
+                            {
+                                "Character": "STANLEY",
+                                "Line": "Yup. Kaytha gets up."
+                            },
+                            {
+                                "Character": "JOSH",
+                                "Line": "I-I'm gettin' short-changed here."
+                            },
+                            {
+                                "Character": "STANLEY",
+                                "Line": "Merry Christmas, Josh! We're done. [puts papers in briefcase] I'll call your office after the holidays and give you a number."
+                            },
+                            {
+                                "Character": "KAYTHA",
+                                "Line": "It was nice meeting you."
+                            },
+                            {
+                                "Character": "JOSH",
+                                "Line": "Hang on! What happens if tomorrow some pilot with my birthday decides to kill himself?"
+                            },
+                            {
+                                "Character": "STANLEY",
+                                "Line": "No, that wasn't what started it."
+                            },
+                            {
+                                "Character": "JOSH",
+                                "Line": "What started it?"
+                            },
+                            {
+                                "Character": "STANLEY",
+                                "Line": "You were already cooking for a few hours before the pilot."
+                            },
+                            {
+                                "Character": "JOSH",
+                                "Line": "I was?"
+                            },
+                            {
+                                "Character": "STANLEY",
+                                "Line": "Usually with a gunshot victim it's a car backfiring, or a twig snapping, but that's not what it was with you."
+                            },
+                            {
+                                "Character": "JOSH",
+                                "Line": "What was it?"
+                            },
+                            {
+                                "Character": "STANLEY",
+                                "Line": "[turns to Kaytha] Kaytha?"
+                            },
+                            {
+                                "Character": "KAYTHA",
+                                "Line": "The music."
+                            },
+                            {
+                                "Character": "STANLEY",
+                                "Line": "The brass quintet."
+                            },
+                            {
+                                "Character": "JOSH",
+                                "Line": "Why would the music have started it?"
+                            },
+                            {
+                                "Character": "STANLEY",
+                                "Line": "Well, I know it's gonna sound like I'm telling you that two plus two equals a bushel of potatoes, but at this moment, in your head, music is the same thing as..."
+                            },
+                            {
+                                "Character": "JOSH",
+                                "Line": "...as sirens."
+                            },
+                            {
+                                "Character": "STANLEY",
+                                "Line": "[nods] Yeah. [puts on his coat]"
+                            },
+                            {
+                                "Character": "JOSH",
+                                "Line": "So that's gonna be my reaction every time I hear music?"
+                            },
+                            {
+                                "Character": "STANLEY",
+                                "Line": "No."
+                            },
+                            {
+                                "Character": "JOSH",
+                                "Line": "Why not?"
+                            },
+                            {
+                                "Character": "STANLEY",
+                                "Line": "Because we get better. [starts to leave]"
+                            },
+                            {
+                                "Character": "JOSH",
+                                "Line": "All the same, I need some more therapy!"
+                            },
+                            {
+                                "Character": "STANLEY",
+                                "Line": "Oh, you're gonna get some!"
+                            },
+                            {
+                                "Character": "JOSH",
+                                "Line": "I mean now! [gets up]"
+                            },
+                            {
+                                "Character": "STANLEY",
+                                "Line": "Merry Christmas, Josh!"
+                            },
+                            {
+                                "Character": "JOSH",
+                                "Line": "We can order a pizza!"
+                            },
+                            {
+                                "Character": "STANLEY",
+                                "Line": "[laughs] Have a good night! Stanley leaves with Kaytha. Josh follows him out of the room and calls."
+                            },
+                            {
+                                "Character": "JOSH",
+                                "Line": "Stanley, I haven't told you my dreams yet!"
+                            },
+                            {
+                                "Character": "STANLEY",
+                                "Line": "Fax 'em over to me!",
+                                "Descriptor": "OS"
+                            },
+                            {
+                                "Character": "JOSH",
+                                "Line": "Merry Christmas. Josh leaves the room as well."
+                            }
+                        ]
+                    },
+                    {
+                        "Scene Heading": "CUT TO: INT. THE WHITE HOUSE LOBBY - NIGHT",
+                        "Description": "Leo is sitting in a chair reading. Josh enters and doesn't notice Leo.",
+                        "Dialogues": [
+                            {
+                                "Character": "LEO",
+                                "Line": "How'd it go?"
+                            },
+                            {
+                                "Character": "JOSH",
+                                "Line": "[turns] Did you wait around for me? Leo takes off his glasses."
+                            },
+                            {
+                                "Character": "JOSH",
+                                "Line": "He thinks I may have an eating disorder."
+                            },
+                            {
+                                "Character": "LEO",
+                                "Line": "[gets up] Josh."
+                            },
+                            {
+                                "Character": "JOSH",
+                                "Line": "And a fear of rectangles. That's not weird, is it? [pause] I didn't cut my hand on a glass. I broke a window in my apartment."
+                            },
+                            {
+                                "Character": "LEO",
+                                "Line": "This guy's walking down a street, when he falls in a hole. The walls are so steep. He can't get out. A doctor passes by, and the guy shouts up \"Hey you! Can you help me out?\" The doctor writes him a prescription, throws it down the hole and moves on. Then a priest comes along and the guy shouts up \"Father, I'm down in this hole, can you help me out?\" The priest writes out a prayer, throws it down in the hole and moves on. Then a friend walks by. \"Hey Joe, it's me, can you help me out?\" And the friend jumps in the hole! Our guy says \"Are you stupid? Now we're both down here!\" and the friend says, \"Yeah, but I've been down here before, and I know the way out.\" Josh looks at him."
+                            },
+                            {
+                                "Character": "LEO",
+                                "Line": "As long as I got a job, you got a job, you understand? [gestures to Josh's hand] You wrapped that yourself, right?",
+                                "Descriptor": "cont."
+                            },
+                            {
+                                "Character": "JOSH",
+                                "Line": "[raises eyebrows] The bandage?"
+                            },
+                            {
+                                "Character": "LEO",
+                                "Line": "Yeah."
+                            },
+                            {
+                                "Character": "JOSH",
+                                "Line": "Yeah."
+                            },
+                            {
+                                "Character": "LEO",
+                                "Line": "Okay. Donna's gonna take you to the emergency room."
+                            },
+                            {
+                                "Character": "JOSH",
+                                "Line": "She knows?"
+                            },
+                            {
+                                "Character": "LEO",
+                                "Line": "She was the one who guessed."
+                            },
+                            {
+                                "Character": "JOSH",
+                                "Line": "I don't need the emergency room."
+                            },
+                            {
+                                "Character": "LEO",
+                                "Line": "Come on, it could be infected, you could have a thing."
+                            },
+                            {
+                                "Character": "JOSH",
+                                "Line": "What thing? Donna enters with Josh's coat."
+                            },
+                            {
+                                "Character": "LEO",
+                                "Line": "How the hell do I know?"
+                            },
+                            {
+                                "Character": "JOSH",
+                                "Line": "Leo..."
+                            },
+                            {
+                                "Character": "DONNA",
+                                "Line": "Let's go. She helps Josh on with his coat."
+                            },
+                            {
+                                "Character": "JOSH",
+                                "Line": "See you later."
+                            },
+                            {
+                                "Character": "LEO",
+                                "Line": "Okay. Josh and Donna leave. Leo stands for a minute then leaves. Carolers can be heard singing \"Carol of the Bells.\""
+                            }
+                        ]
+                    },
+                    {
+                        "Scene Heading": "CUT TO: EXT. THE WHITE HOUSE GATES - NIGHT",
+                        "Description": "Carolers are singing outside. Josh and Donna come through the gates.",
+                        "Dialogues": [
+                            {
+                                "Character": "JOSH",
+                                "Line": "I don't need a doctor."
+                            },
+                            {
+                                "Character": "DONNA",
+                                "Line": "Are you a doctor?"
+                            },
+                            {
+                                "Character": "JOSH",
+                                "Line": "No."
+                            },
+                            {
+                                "Character": "DONNA",
+                                "Line": "Then be quiet. Josh and Donna stop in front of the carolers. Josh listens with a distant look on his face. Donna looks at him."
+                            },
+                            {
+                                "Character": "DONNA",
+                                "Line": "Josh?"
+                            },
+                            {
+                                "Character": "JOSH",
+                                "Line": "Yeah."
+                            },
+                            {
+                                "Character": "DONNA",
+                                "Line": "Let's go."
+                            },
+                            {
+                                "Character": "JOSH",
+                                "Line": "Okay. Donna leads him away. The carolers continue singing, while sirens can be heard. As the carolers end their song, we --"
+                            }
+                        ]
+                    },
+                    {
+                        "Scene Heading": "DISSOLVE TO: END TITLES.",
+                        "Description": "",
+                        "Dialogues": [
+                            {
+                                "Character": "FADE TO BLACK.",
+                                "Line": "* * *"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+}

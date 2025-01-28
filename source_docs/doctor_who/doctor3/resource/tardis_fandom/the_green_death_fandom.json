@@ -1,0 +1,214 @@
+{
+  "metadata": {
+    "title": "The Green Death",
+    "series": "Doctor Who",
+    "season": "10",
+    "release_date": "19 May 1973",
+    "release_end_date": "23 June 1973",
+    "writer": "Robert Sloman",
+    "director": "Michael Briant",
+    "producer": "Barry Letts",
+    "main_actors": [
+      "Jon Pertwee",
+      "Katy Manning",
+      "Nicholas Courtney",
+      "John Levene",
+      "Richard Franklin",
+      "Stewart Bevan",
+      "Jerome Willis",
+      "Tony Adams"
+    ],
+    "time_reference": "March 1973"
+  },
+  "cast_crew": [
+    {
+      "cast": {
+        "name": "Jon Pertwee",
+        "role": "Doctor"
+      },
+      "crew": {
+        "name": "Michael Briant",
+        "role": "Director"
+      }
+    },
+    {
+      "cast": {
+        "name": "Katy Manning",
+        "role": "Jo Grant"
+      },
+      "crew": {
+        "name": "Robert Sloman",
+        "role": "Writer"
+      }
+    },
+    {
+      "cast": {
+        "name": "Nicholas Courtney",
+        "role": "Brigadier Lethbridge-Stewart"
+      },
+      "crew": {
+        "name": "Barry Letts",
+        "role": "Producer"
+      }
+    },
+    {
+      "cast": {
+        "name": "John Levene",
+        "role": "Sergeant Benton"
+      },
+      "crew": {
+        "name": "Terrance Dicks",
+        "role": "Script Editor"
+      }
+    },
+    {
+      "cast": {
+        "name": "Richard Franklin",
+        "role": "Captain Mike Yates"
+      },
+      "crew": {
+        "name": "Dudley Simpson",
+        "role": "Incidental Music"
+      }
+    },
+    {
+      "cast": {
+        "name": "Stewart Bevan",
+        "role": "Cliff Jones"
+      },
+      "crew": {
+        "name": "Ann Rayment",
+        "role": "Make-Up"
+      }
+    },
+    {
+      "cast": {
+        "name": "Jerome Willis",
+        "role": "Stevens"
+      },
+      "crew": {
+        "name": "Barbara Kidd",
+        "role": "Costumes"
+      }
+    },
+    {
+      "cast": {
+        "name": "Tony Adams",
+        "role": "Elgin"
+      },
+      "crew": {
+        "name": "John Burrowes",
+        "role": "Designer"
+      }
+    }
+  ],
+  "home_media": [
+    {
+      "releases": {
+        "media_type": "DVD",
+        "date": "10 May 2004",
+        "details": "Released as Doctor Who: The Green Death.",
+        "special_features": [
+          "Stewart Bevan Interview",
+          "Robert Sloman Interview",
+          "Global Conspiracy Sketch",
+          "Visual Effects Documentary",
+          "Photo Gallery",
+          "Production Subtitles",
+          "Easter Egg Commentary"
+        ]
+      }
+    },
+    {
+      "releases": {
+        "media_type": "DVD",
+        "date": "5 August 2013",
+        "details": "Special Edition Release.",
+        "special_features": [
+          "Commentary with Katy Manning, Barry Letts, and Terrance Dicks",
+          "Bonus Commentary with other cast members",
+          "The One With the Maggots Documentary",
+          "Radio Times Listings",
+          "Production Information Subtitles"
+        ]
+      }
+    },
+    {
+      "releases": {
+        "media_type": "VHS",
+        "date": "August 1996",
+        "details": "Released in memory of Jon Pertwee.",
+        "special_features": []
+      }
+    }
+  ],
+  "story_notes": [
+    {
+      "notes": [
+        "This was the last story to use the 'Pertwee Logo'.",
+        "This is Katy Manning's final story, but she reprised her role in 'The Sarah Jane Adventures'.",
+        "The character Cliff Jones was written as a younger version of the Doctor."
+      ]
+    }
+  ],
+  "worldbuilding": {
+    "in_universe_mythology": [
+      "BOSS - Biomorphic Organizational Systems Supervisor"
+    ],
+    "real_world_cultural_references": [
+      "Environmental concerns, referenced through the character of Professor Jones."
+    ],
+    "individuals": [
+      "Professor Clifford Jones",
+      "Stevens"
+    ],
+    "items": [
+      "Sonic screwdriver",
+      "Maggots"
+    ],
+    "locations": [
+      "Llanfairfach, Wales",
+      "Global Chemicals",
+      "The Nut Hutch"
+    ]
+  },
+  "ratings": {
+    "ratings_millions": [
+      {
+        "part": "Episode one",
+        "viewers": 9.2
+      },
+      {
+        "part": "Episode two",
+        "viewers": 7.2
+      },
+      {
+        "part": "Episode three",
+        "viewers": 7.8
+      },
+      {
+        "part": "Episode four",
+        "viewers": 6.8
+      },
+      {
+        "part": "Episode five",
+        "viewers": 8.3
+      },
+      {
+        "part": "Episode six",
+        "viewers": 7.0
+      }
+    ]
+  },
+  "continuity": {
+    "continuity_notes": [
+      "The Doctor's journey to Metebelis III and the blue crystal have future implications.",
+      "Jo Grant reappears in multiple stories, illustrating her ongoing connection to the Doctor."
+    ]
+  },
+  "plot": [
+    {
+      "plot_summary": "A miner in Llanfairfach is found dead with a glowing green substance on him. The Doctor and Jo investigate the environmental hazards posed by Global Chemicals, leading to encounters with giant maggots and a supercomputer controlling the corporation. As pollution threatens the area, Jo and Professor Jones develop a relationship, culminating in their engagement, while the Doctor deals with his sadness over Jo's departure."
+    }
+  ]
+}

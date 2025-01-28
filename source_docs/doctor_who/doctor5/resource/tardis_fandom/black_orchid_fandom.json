@@ -1,0 +1,166 @@
+{
+  "metadata": {
+    "title": "Black Orchid",
+    "series": "Doctor Who",
+    "season": "19",
+    "release_date": "1982-03-01",
+    "release_end_date": "1982-03-02",
+    "writer": "Terence Dudley",
+    "director": "Ron Jones",
+    "producer": "John Nathan-Turner",
+    "main_actors": [
+      "Peter Davison",
+      "Matthew Waterhouse",
+      "Janet Fielding",
+      "Sarah Sutton",
+      "Barbara Murray",
+      "Moray Watson",
+      "Michael Cochrane",
+      "Brian Hawksley",
+      "Timothy Block",
+      "Ahmed Khalil",
+      "Gareth Milne"
+    ],
+    "time_reference": "11 June 1925"
+  },
+  "cast_crew": [
+    {
+      "cast": {
+        "name": "Peter Davison",
+        "role": "The Doctor"
+      },
+      "crew": {
+        "name": "Ron Jones",
+        "role": "Director"
+      }
+    },
+    {
+      "cast": {
+        "name": "Matthew Waterhouse",
+        "role": "Adric"
+      },
+      "crew": {
+        "name": "Terence Dudley",
+        "role": "Writer"
+      }
+    },
+    {
+      "cast": {
+        "name": "Janet Fielding",
+        "role": "Tegan"
+      },
+      "crew": {
+        "name": "John Nathan-Turner",
+        "role": "Producer"
+      }
+    },
+    {
+      "cast": {
+        "name": "Sarah Sutton",
+        "role": "Nyssa / Ann Talbot"
+      },
+      "crew": {
+        "name": "Eric Saward",
+        "role": "Script Editor"
+      }
+    }
+  ],
+  "home_media": [
+    {
+      "releases": {
+        "media_type": "DVD",
+        "date": "2008-04-14",
+        "special_features": [
+          "Commentary by Peter Davison, Janet Fielding, Sarah Sutton, and Matthew Waterhouse",
+          "Deleted Scenes",
+          "Now and Then - A look at the locations used in the making of this story",
+          "Stripped for Action - The Fifth Doctor - A look at the Fifth Doctor's comic strip adventures",
+          "Points of View - Barry Took airs disgruntled viewers' letters about the rescheduling of Doctor Who",
+          "Film Restoration - Before and after examples of techniques used during the restoration of the location film elements of this story",
+          "Photo Gallery",
+          "Subtitles"
+        ]
+      }
+    },
+    {
+      "releases": {
+        "media_type": "BLU_RAY",
+        "date": "Not specified",
+        "details": "Features a brand new HD film transfer.",
+        "special_features": [
+          "Audio commentary by Peter Davison, Janet Fielding, Sarah Sutton, and Matthew Waterhouse",
+          "Info Text",
+          "Extended Version - Part One with deleted sequences re-integrated",
+          "Making-of Documentary",
+          "Behind the Sofa"
+        ]
+      }
+    },
+    {
+      "releases": {
+        "media_type": "VHS",
+        "date": "1994-07",
+        "special_features": []
+      }
+    }
+  ],
+  "story_notes": [
+    {
+      "notes": [
+        "The working title for this story was The Beast.",
+        "This is the first two-part serial of the 1980s.",
+        "Notable for Peter Davison actually playing cricket during the story, showcasing his love for the game.",
+        "The script was not well received by the main cast, citing weak narrative and stereotypes."
+      ]
+    }
+  ],
+  "worldbuilding": {
+    "in_universe_mythology": [
+      "George Cranleigh was thought to have been dead but was actually tortured and returned home in disguise."
+    ],
+    "real_world_cultural_references": [
+      "The Charleston dance popularized in the 1920s.",
+      "The Doctor sings a song from the musical 'No No Nanette', which debuted in 1925."
+    ],
+    "individuals": [
+      "George Cranleigh",
+      "Lady Cranleigh",
+      "Sir Robert Muir",
+      "Lord Charles Cranleigh"
+    ],
+    "items": [
+      "Black orchid",
+      "Cricket equipment",
+      "Costumes for a fancy dress ball"
+    ],
+    "locations": [
+      "Cranleigh Hall",
+      "Cranleigh Halt",
+      "Buckinghamshire Railway Centre",
+      "Withyham Cricket Club"
+    ]
+  },
+  "ratings": {
+    "ratings_millions": [
+      {
+        "part": "Part One",
+        "viewers": 9.9
+      },
+      {
+        "part": "Part Two",
+        "viewers": 10.1
+      }
+    ]
+  },
+  "continuity": {
+    "continuity_notes": [
+      "References to the Doctor's desire to be a train driver.",
+      "Nyssa mentions their recent part in the Great Fire of London."
+    ]
+  },
+  "plot": [
+    {
+      "plot_summary": "The TARDIS arrives in 1925 where the Fifth Doctor mistakenly participates in a local cricket match. Invited to a masquerade ball at Cranleigh Hall, events take a sinister turn as murders occur, leading to the Doctor having to unravel the mystery while navigating mistaken identities and a hidden past involving the host family."
+    }
+  ]
+}

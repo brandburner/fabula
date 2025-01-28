@@ -1,0 +1,176 @@
+{
+  "metadata": {
+    "title": "Castrovalva",
+    "series": "Doctor Who",
+    "season": "19",
+    "release_date": "4 - 12 January 1982",
+    "writer": "Christopher H. Bidmead",
+    "director": "Fiona Cumming",
+    "producer": "John Nathan-Turner",
+    "main_actors": [
+      "Peter Davison",
+      "Matthew Waterhouse",
+      "Sarah Sutton",
+      "Janet Fielding",
+      "Anthony Ainley",
+      "Derek Waring",
+      "Michael Sheard",
+      "Frank Wylie",
+      "Neil Toynay"
+    ],
+    "time_reference": "Post-Regeneration"
+  },
+  "cast_crew": [
+    {
+      "cast": {
+        "name": "Peter Davison",
+        "role": "The Doctor"
+      },
+      "uncredited_cast": {
+        "name": "Tom Baker",
+        "role": "The Doctor (regeneration)"
+      },
+      "crew": {
+        "name": "Christopher H. Bidmead",
+        "role": "Writer"
+      }
+    },
+    {
+      "cast": {
+        "name": "Matthew Waterhouse",
+        "role": "Adric"
+      },
+      "crew": {
+        "name": "Fiona Cumming",
+        "role": "Director"
+      }
+    },
+    {
+      "cast": {
+        "name": "Sarah Sutton",
+        "role": "Nyssa"
+      },
+      "crew": {
+        "name": "John Nathan-Turner",
+        "role": "Producer"
+      }
+    },
+    {
+      "cast": {
+        "name": "Janet Fielding",
+        "role": "Tegan"
+      },
+      "crew": {
+        "name": "Eric Saward",
+        "role": "Script Editor"
+      }
+    },
+    {
+      "cast": {
+        "name": "Anthony Ainley",
+        "role": "The Master"
+      },
+      "crew": {
+        "name": "Ron Grainer",
+        "role": "Title Music"
+      }
+    }
+  ],
+  "home_media": [
+    {
+      "releases": {
+        "media_type": "DVD",
+        "date": "29 January 2007",
+        "details": "Part of the New Beginnings DVD box set.",
+        "special_features": [
+          "Commentary by Peter Davison, Janet Fielding, Christopher H. Bidmead, and Fiona Cumming",
+          "Being Doctor Who - Peter Davison discusses his iconic role",
+          "Directing Castrovalva - Fiona Cumming talks about directing",
+          "The Crowded TARDIS - Discussion about the TARDIS crew",
+          "Deleted Scenes - Two deleted sequences",
+          "Theme Music Video - Remix of the Doctor Who theme",
+          "Music-only Option - Original score",
+          "Trailers & Continuity Announcements",
+          "Radio Times Billings - Articles and listings",
+          "Doctor Who Annual 1982 (PDF DVD-ROM)",
+          "Easter Egg: 1981 Lord Mayor's Show footage"
+        ]
+      }
+    },
+    {}
+  ],
+  "story_notes": [
+    {
+      "notes": [
+        "First appearance of Peter Davison as the Fifth Doctor.",
+        "First to credit the Doctor as 'The Doctor' instead of 'Doctor Who'.",
+        "Transition from the traditional Saturday slot to a twice-weekly format."
+      ]
+    }
+  ],
+  "worldbuilding": {
+    "in_universe_mythology": [
+      "Block Transfer Computation",
+      "Event One - Creation of the Universe"
+    ],
+    "real_world_cultural_references": [
+      "M.C. Escher's artwork influencing the design of Castrovalva."
+    ],
+    "individuals": [
+      "The Portreeve",
+      "Shardovan",
+      "Mergrave"
+    ],
+    "items": [
+      "Zero Room",
+      "TARDIS",
+      "Hadron web"
+    ],
+    "locations": [
+      "Castrovalva",
+      "Pharos Project",
+      "Event One"
+    ]
+  },
+  "ratings": {
+    "ratings_millions": [
+      {
+        "part": "Part One",
+        "viewers": 10.1
+      },
+      {
+        "part": "Part Two",
+        "viewers": 8.7
+      },
+      {
+        "part": "Part Three",
+        "viewers": 10.4
+      },
+      {
+        "part": "Part Four",
+        "viewers": 10.5
+      }
+    ]
+  },
+  "continuity": {
+    "continuity_notes": [
+      "The Master is revealed to be the Portreeve at the end of the serial.",
+      "The Fifth Doctor's first adventure.",
+      "Directly follows the events of Logopolis."
+    ]
+  },
+  "plot": [
+    {
+      "plot_summary": "The Fifth Doctor faces troubling aftereffects of regeneration while his companions attempt to help him recover on the tranquil planet of Castrovalva. Meanwhile, the Master has captured Adric and intends to use him to ensnare the Doctor in an elaborate trap. The story unfolds as the Doctor's health improves and they uncover the true nature of Castrovalva and the Master's plan, culminating in a confrontation that sees the Master trapped, while the Doctor and his companions escape."
+    },
+    {
+      "plot_summary": "Part One introduces the Fifth Doctor's struggles post-regeneration and his companions' efforts to pilfer the TARDIS and navigate the Master's machinations, leading them to Castrovalva."
+    },
+    {
+      "plot_summary": "Part Two continues the theme of the Doctor's recovery as he regains some stability, but the Master's machinations unveil the complexities of the TARDIS's journey and the nature of the universe."
+    },
+    {
+      "plot_summary": "Parts Three and Four bring the Doctor face-to-face with the truth of Castrovalva as it begins to collapse, revealing the Master\u2019s plot and leading to a tense resolution."
+    }
+  ]
+}

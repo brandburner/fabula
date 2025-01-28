@@ -1,0 +1,116 @@
+{
+  "metadata": {
+    "title": "20 Hours in L.A.",
+    "series": "The West Wing",
+    "season": "1",
+    "episode_number": 16,
+    "release_date": "23 February 2000",
+    "writer": "Aaron Sorkin",
+    "director": "Alan Taylor",
+    "main_actors": [
+      "Martin Sheen",
+      "Rob Lowe",
+      "John Spencer",
+      "Richard Schiff",
+      "Allison Janney",
+      "Bradley Whitford"
+    ],
+    "time_reference": "Year 2000"
+  },
+  "cast_crew": [
+    {
+      "cast": {
+        "name": "Martin Sheen",
+        "role": "President Josiah Bartlet"
+      },
+      "crew": {
+        "name": "Alan Taylor",
+        "role": "Director"
+      }
+    },
+    {
+      "cast": {
+        "name": "Rob Lowe",
+        "role": "Sam Seaborn"
+      },
+      "crew": {
+        "name": "Aaron Sorkin",
+        "role": "Writer"
+      }
+    },
+    {
+      "cast": {
+        "name": "John Spencer",
+        "role": "Leo McGarry"
+      },
+      "crew": {
+        "name": "Rick Cleveland",
+        "role": "Producer"
+      }
+    }
+  ],
+  "home_media": [
+    {
+      "releases": {
+        "media_type": "DVD",
+        "date": "2000-12-19",
+        "details": "The West Wing: The Complete First Season",
+        "special_features": [
+          "Behind the Scenes Featurettes",
+          "Commentary by Cast and Crew",
+          "Deleted Scenes"
+        ]
+      }
+    }
+  ],
+  "story_notes": [
+    {
+      "notes": [
+        "This episode marks the first appearance of Joey Lucas, a key recurring character.",
+        "The subplot involving the Vice President and the ethanol tax credits reflects real legislative issues at the time."
+      ]
+    }
+  ],
+  "worldbuilding": {
+    "in_universe_mythology": [
+      "Discussion of the flag desecration amendment proposing a conflict between First Amendment rights and national symbols."
+    ],
+    "real_world_cultural_references": [
+      "References to contemporary politics surrounding LGBTQ+ rights and military service."
+    ],
+    "individuals": [
+      "President Josiah Bartlet",
+      "Leo McGarry",
+      "Josh Lyman",
+      "Ted Marcus"
+    ],
+    "items": [
+      "Ethanol Tax Credit Bill",
+      "Gays in the Military Legislation"
+    ],
+    "locations": [
+      "White House",
+      "Los Angeles",
+      "Celebrity Restaurant",
+      "Air Force Base"
+    ]
+  },
+  "ratings": {
+    "ratings_millions": [
+      {
+        "part": "20 Hours in L.A.",
+        "viewers": 14.9
+      }
+    ]
+  },
+  "continuity": {
+    "continuity_notes": [
+      "Establishes ongoing political tensions in the series regarding LGBTQ+ issues in the military."
+    ]
+  },
+  "plot": [
+    {
+      "plot_summary": "In this episode, President Bartlet travels to Los Angeles for a fundraiser hosted by Ted Marcus, who pressures him to oppose a congressional bill on military service by LGBTQ+ individuals. Meanwhile, Leo McGarry attempts to persuade Vice President Hoynes to break a Senate deadlock over an ethanol tax credit. In Los Angeles, romantic tensions emerge as Josh Lyman discovers that his former crush, Joey Lucas, is also attending the event, leading to comedic and poignant moments that explore the personal connections and political responsibilities of the characters."
+    }
+  ]
+}

@@ -1,0 +1,170 @@
+{
+  "metadata": {
+    "title": "The Time Warrior",
+    "series": "Doctor Who",
+    "season": "11",
+    "release_date": "15 December 1973",
+    "release_end_date": "5 January 1974",
+    "writer": "Robert Holmes",
+    "director": "Alan Bromly",
+    "producer": "Barry Letts",
+    "main_actors": [
+      "Jon Pertwee",
+      "Elisabeth Sladen",
+      "Nicholas Courtney",
+      "Kevin Lindsay",
+      "Donald Pelmear",
+      "David Daker",
+      "John J. Carney",
+      "June Brown",
+      "Alan Rowe",
+      "Jeremy Bulloch",
+      "Sheila Fay",
+      "Gordon Pitt",
+      "Steve Brunswick"
+    ],
+    "time_reference": "13th century"
+  },
+  "cast_crew": [
+    {
+      "cast": {
+        "name": "Jon Pertwee",
+        "role": "Third Doctor"
+      },
+      "crew": {
+        "name": "Robert Holmes",
+        "role": "Writer"
+      }
+    },
+    {
+      "cast": {
+        "name": "Elisabeth Sladen",
+        "role": "Sarah Jane Smith"
+      },
+      "crew": {
+        "name": "Alan Bromly",
+        "role": "Director"
+      }
+    },
+    {
+      "cast": {
+        "name": "Nicholas Courtney",
+        "role": "Brigadier Lethbridge Stewart"
+      },
+      "crew": {
+        "name": "Barry Letts",
+        "role": "Producer"
+      }
+    },
+    {
+      "cast": {
+        "name": "Kevin Lindsay",
+        "role": "Linx"
+      },
+      "crew": {
+        "name": "Terrance Dicks",
+        "role": "Script Editor"
+      }
+    },
+    {
+      "cast": {
+        "name": "Donald Pelmear",
+        "role": "Professor Rubeish"
+      },
+      "crew": {
+        "name": "James Acheson",
+        "role": "Costume Designer"
+      }
+    }
+  ],
+  "home_media": [
+    {
+      "releases": {
+        "media_type": "DVD",
+        "date": "3 September 2007",
+        "details": "Release in Region 2 as Doctor Who: The Time Warrior.",
+        "special_features": [
+          "Commentary by Elisabeth Sladen, Barry Letts, and Terrance Dicks",
+          "Beginning the End documentary",
+          "CGI Effects option",
+          "Continuity Compilation",
+          "Photo Gallery",
+          "Production Subtitles",
+          "Firsts featurette",
+          "Terrance Dicks bonus interview"
+        ]
+      }
+    },
+    {
+      "releases": {
+        "media_type": "VHS",
+        "date": "1989",
+        "details": "Released in compilation form.",
+        "special_features": []
+      }
+    }
+  ],
+  "story_notes": [
+    {
+      "notes": [
+        "The first appearance of the Sontarans in the series.",
+        "Introduced a new title sequence.",
+        "The Doctor's home planet was named 'Gallifrey' for the first time."
+      ]
+    }
+  ],
+  "worldbuilding": {
+    "in_universe_mythology": [
+      "Sontarans as a race of militant aliens",
+      "Irongron as a robber baron leveraging technology from Linx"
+    ],
+    "real_world_cultural_references": [
+      "King John and his wars referenced"
+    ],
+    "individuals": [
+      "Lavinia Smith",
+      "Lord Edward of Wessex",
+      "Lady Eleanor"
+    ],
+    "items": [
+      "Osmic projector",
+      "Robot knight",
+      "Breech-loading firearms"
+    ],
+    "locations": [
+      "Wessex Castle",
+      "Irongron's castle"
+    ]
+  },
+  "ratings": {
+    "ratings_millions": [
+      {
+        "part": "Part one",
+        "viewers": 8.7
+      },
+      {
+        "part": "Part two",
+        "viewers": 7.0
+      },
+      {
+        "part": "Part three",
+        "viewers": 6.6
+      },
+      {
+        "part": "Part four",
+        "viewers": 10.6
+      }
+    ]
+  },
+  "continuity": {
+    "continuity_notes": [
+      "The events are set shortly after Jo Grant's departure.",
+      "References to Sontarans appear in future episodes."
+    ]
+  },
+  "plot": [
+    {
+      "plot_summary": "In the medieval 13th century, the Doctor investigates the disappearance of scientists who are being kidnapped through time and encounters the Sontaran Linx, who is supplying weapons to the bandit Irongron. The Doctor teams up with new companion Sarah Jane Smith to thwart Linx's plan and restore the timeline."
+    }
+  ]
+}

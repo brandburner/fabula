@@ -1,0 +1,93 @@
+{
+    "title": "The Power of the Daleks",
+    "air_date": "5 November 1966",
+    "num_episodes": 6,
+    "episode_titles": [
+        "Episode 1",
+        "Episode 2",
+        "Episode 3",
+        "Episode 4",
+        "Episode 5",
+        "Episode 6"
+    ],
+    "episode_duration": 25,
+    "writers": [
+        "David Whitaker",
+        "Dennis Spooner (uncredited)"
+    ],
+    "directors": [
+        "Christopher Barry"
+    ],
+    "media_format": "B_W",
+    "dialogue_triumphs": [
+        "The Doctor on the Daleks: 'It can do many things, Lesterson. But the thing it does most efficiently is exterminate human beings.'"
+    ],
+    "dialogue_disasters": [
+        "'Daleks conquer and destroy.' (Repeat indefinitely.)"
+    ],
+    "goofs": [
+        "In one of the existing clips a Dalek has trouble getting through an archway.",
+        "There is obvious usage of Dalek photo blow-ups."
+    ],
+    "continuity_notes": [
+        {
+            "name": "The Second Doctor",
+            "type": "Character",
+            "description": "The newly regenerated incarnation of the Doctor, experiencing his first adventure.",
+            "origin": "Gallifrey",
+            "current_status": "Adjusting to his new body and personality after regeneration."
+        },
+        {
+            "name": "TARDIS",
+            "type": "Object",
+            "description": "The Doctor's time and space machine.",
+            "origin": "Gallifrey",
+            "current_status": "Implied to have a role in the Doctor's regeneration process."
+        },
+        {
+            "name": "Daleks",
+            "type": "Character",
+            "description": "The Doctor's most notorious enemies, cyborg beings driven by hatred.",
+            "origin": "Skaro",
+            "current_status": "Recognize the Doctor despite his new face, become dormant without static electricity."
+        },
+        {
+            "name": "Ben",
+            "type": "Character",
+            "description": "One of the Doctor's companions.",
+            "origin": "Earth",
+            "current_status": "Skeptical about the Doctor's new incarnation."
+        }
+    ],
+    "technobabble": [
+        "Vulcan has 'Oxygen density 172, radiation nil, temperature 86, strong suggestion of mercury deposits'.",
+        "Daleks know chemical formulae for sulphuric acid and sodium ethoxide."
+    ],
+    "roots": [
+        "Rouben Mamoulian's 1931 version of Dr Jekyll and Mr Hyde (the Doctor's transformation)",
+        "Gogol's The Government Inspector"
+    ],
+    "links": [
+        "The Doctor finds Saladin's dagger ('The Crusade') and a key to a Dalek door made of dalekanium in the TARDIS chest.",
+        "Brief mention of 'Marco Polo' ('China, I went there once')."
+    ],
+    "locations": [
+        {
+            "name": "Vulcan",
+            "type": "Location",
+            "description": "The planet where the story takes place, not related to Star Trek's Vulcan.",
+            "origin": null,
+            "current_status": "Setting for the main events of the story, pre-2164."
+        }
+    ],
+    "future_history": null,
+    "untold_adventures": [
+        "The Doctor's previous visit to China, possibly during the time of Marco Polo."
+    ],
+    "qv": [
+        "The First History of the Daleks",
+        "'The Daleks'"
+    ],
+    "additional_notes": "This story marks the first regeneration of the Doctor, a crucial moment in the series' history.",
+    "bottom_line": "'When I say run, run like a rabbit!' The first, and most important, reformatting of Doctor Who's central character is carried out with considerable style."
+}

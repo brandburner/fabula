@@ -1,0 +1,164 @@
+{
+  "metadata": {
+    "title": "The Horns of Nimon",
+    "series": "Doctor Who",
+    "season": "17",
+    "episode_number": 5,
+    "release_date": "1979-12-22",
+    "release_end_date": "1980-01-12",
+    "writer": "Anthony Read",
+    "director": "Kenny McBain",
+    "producer": "Graham Williams",
+    "main_actors": [
+      "Tom Baker",
+      "Lalla Ward",
+      "Graham Crowden",
+      "Michael Osborne",
+      "Bob Hornery",
+      "Malcolm Terris",
+      "Robin Sherringham",
+      "Bob Appleby",
+      "Trevor St. John Hacker",
+      "Janet Ellis",
+      "Simon Gipps-Kent",
+      "David Brierley",
+      "Clifford Norgate",
+      "John Bailey"
+    ],
+    "time_reference": "During the Skonnos Civil War"
+  },
+  "cast_crew": [
+    {
+      "cast": {
+        "name": "Tom Baker",
+        "role": "Doctor Who"
+      },
+      "crew": {
+        "name": "Anthony Read",
+        "role": "Writer"
+      }
+    },
+    {
+      "cast": {
+        "name": "Lalla Ward",
+        "role": "Romana"
+      },
+      "crew": {
+        "name": "Kenny McBain",
+        "role": "Director"
+      }
+    },
+    {
+      "cast": {
+        "name": "Graham Crowden",
+        "role": "Soldeed"
+      },
+      "crew": {
+        "name": "Graham Williams",
+        "role": "Producer"
+      }
+    },
+    {
+      "cast": {
+        "name": "Michael Osborne",
+        "role": "Sorak"
+      },
+      "crew": {
+        "name": "Douglas Adams",
+        "role": "Script Editor"
+      }
+    }
+  ],
+  "home_media": [
+    {
+      "releases": {
+        "media_type": "DVD",
+        "date": "2010-03-29",
+        "details": "Part of the Myths And Legends box set, alongside The Time Monster and Underworld.",
+        "special_features": [
+          "Commentary by Lalla Ward, Janet Ellis, Graham Crowden, and Anthony Read",
+          "Who Peter - Partners In Time documentary",
+          "Read The Writer - Anthony Read retrospective",
+          "Peter Howell Music Demos",
+          "Radio Times Billings (PDF)",
+          "Production Information Subtitles",
+          "Photo Gallery",
+          "Coming Soon Trailer",
+          "Easter Egg: Scottish Falsetto Sock Puppet Theatre"
+        ]
+      }
+    }
+  ],
+  "story_notes": [
+    {
+      "notes": [
+        "This story was based on the Greek myth of Theseus and the Minotaur.",
+        "The naming used in the story are anagrams or near-anagrams of mythological names.",
+        "The script was thought weak and was placed in the fifth slot expecting it to be forgotten."
+      ]
+    }
+  ],
+  "worldbuilding": {
+    "in_universe_mythology": [
+      "The Skonnan Empire",
+      "The Nimon",
+      "Travel between black holes"
+    ],
+    "real_world_cultural_references": [
+      "Based on Greek myth of Theseus and the Minotaur",
+      "Doctor quotes Hamlet from Shakespeare"
+    ],
+    "individuals": [
+      "The Fourth Doctor",
+      "Romana II",
+      "K9",
+      "Nimons",
+      "Soldeed",
+      "Seth"
+    ],
+    "items": [
+      "Hymetusite crystals",
+      "Nimon's travel capsule",
+      "Doctor's sonic screwdriver",
+      "Staff with jacenite"
+    ],
+    "locations": [
+      "Skonnos",
+      "Aneth",
+      "Crinoth",
+      "Nimon Power Complex"
+    ]
+  },
+  "ratings": {
+    "ratings_millions": [
+      {
+        "part": "Part one",
+        "viewers": 6.0
+      },
+      {
+        "part": "Part two",
+        "viewers": 8.8
+      },
+      {
+        "part": "Part three",
+        "viewers": 9.8
+      },
+      {
+        "part": "Part four",
+        "viewers": 10.4
+      }
+    ]
+  },
+  "continuity": {
+    "continuity_notes": [
+      "David Brierley's final participation as the voice of K9.",
+      "Final use of the original 1963 'Doctor Who Theme'.",
+      "Last story scored by composer Dudley Simpson."
+    ]
+  },
+  "plot": [
+    {
+      "plot_summary": "The TARDIS collides with a spaceship headed to Skonnos, carrying young sacrifices for the Nimon. The Doctor and Romana uncover the plot and battle against the labyrinthine Power Complex. They discover the Nimon are preparing for an invasion like intergalactic locusts moving from planet to planet, draining energy. The Doctor, Romana, and their allies escape as the Nimon Complex explodes, seemingly ending the threat, while reflecting on their adventure aboard the TARDIS."
+    }
+  ]
+}

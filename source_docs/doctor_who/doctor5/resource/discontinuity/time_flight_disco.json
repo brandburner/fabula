@@ -1,0 +1,123 @@
+{
+    "title": "Time-Flight",
+    "air_date": "22 March 1982",
+    "num_episodes": 4,
+    "episode_titles": [
+        "Part One",
+        "Part Two",
+        "Part Three",
+        "Part Four"
+    ],
+    "episode_duration": 25,
+    "writers": [
+        "Peter Grimwade"
+    ],
+    "directors": [
+        "Ron Jones"
+    ],
+    "media_format": "Color",
+    "dialogue_triumphs": [
+        "That's why this tree/ Doth continue to be / Since observed by yours faithfully, God."
+    ],
+    "dialogue_disasters": [
+        "He's been\u2026 atomised!",
+        "Andrew, I didn't know you had a New York stopover."
+    ],
+    "goofs": [
+        "Anthony Ainley seems to mention Chaka Demus and Pliers.",
+        "The Doctor incorrectly relates the Jurassic period to the Pleistocene epoch.",
+        "A bird flies in front of Concorde when it takes off from Jurassic England.",
+        "Heathrow's air traffic control consists of two men in a tiny room.",
+        "Angela Clifford disappears halfway through the story."
+    ],
+    "continuity_notes": [
+        {
+            "name": "The Doctor",
+            "type": "Character",
+            "description": "Time Lord protagonist",
+            "origin": "Gallifrey",
+            "current_status": "Unable to go back in time to save Adric due to rules that cannot be broken"
+        },
+        {
+            "name": "TARDIS",
+            "type": "Object",
+            "description": "The Doctor's time and space machine",
+            "origin": "Gallifrey",
+            "current_status": "Interior can be 'rotated' with reference to its exterior doorway"
+        },
+        {
+            "name": "The Master",
+            "type": "Character",
+            "description": "The Doctor's Time Lord nemesis",
+            "origin": "Gallifrey",
+            "current_status": "Escaped from Castrovalva, stranded on prehistoric Earth due to exhausted dynomorphic generator"
+        },
+        {
+            "name": "Xeraphin",
+            "type": "Character",
+            "description": "Alien race from Xeraphas",
+            "origin": "Xeraphas",
+            "current_status": "Became a single entity due to radiation sickness, built a citadel on prehistoric Earth"
+        },
+        {
+            "name": "Sir John Sudbury",
+            "type": "Character",
+            "description": "The Doctor's contact within UNIT's department C19",
+            "origin": "Earth",
+            "current_status": "Active in UNIT"
+        },
+        {
+            "name": "Tegan",
+            "type": "Character",
+            "description": "The Doctor's companion",
+            "origin": "Earth",
+            "current_status": "Traveling with the Doctor, has never flown in Concorde before"
+        }
+    ],
+    "technobabble": [
+        "Cross-tracing on the space-time axis",
+        "Exponential time contour",
+        "Neuronic nucleus",
+        "Passing through centuries of galactic radiation"
+    ],
+    "roots": [
+        "Airport",
+        "The Twilight Zone episode 'The Odyssey of Flight 33'",
+        "The Starlord comic strip 'Planet of the Damned'",
+        "Isaiah 6 (Xeraphin name)",
+        "The Arabian Nights",
+        "Freud",
+        "Jekyll and Hyde"
+    ],
+    "links": [
+        "Earthshock",
+        "Full Circle",
+        "Logopolis",
+        "Castrovalva",
+        "Mawdryn Undead",
+        "Planet of Fire"
+    ],
+    "locations": [
+        {
+            "name": "Heathrow Airport",
+            "type": "Location",
+            "description": "Major international airport in London",
+            "origin": "Earth",
+            "current_status": "Active in 1980"
+        },
+        {
+            "name": "Prehistoric Earth",
+            "type": "Location",
+            "description": "Earth 140 million years ago, during the Jurassic period",
+            "origin": "Earth",
+            "current_status": "Landing site for Concorde and location of Xeraphin citadel"
+        }
+    ],
+    "future_history": null,
+    "untold_adventures": [
+        "The return of the freighter crew ('Earthshock') to their own time"
+    ],
+    "qv": null,
+    "additional_notes": "The story features Concorde crash-landing in Jurassic England, which is considered a questionable plot point.",
+    "bottom_line": "Somebody, somewhere should have thrown this script in the bin the moment it had Concorde crash-landing in Jurassic England, but, instead, it was made on a typical end-of-season minimal budget. The actors give it their best, but it only exposes the paucity of the concept and the dialogue."
+}

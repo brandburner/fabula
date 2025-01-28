@@ -1,0 +1,131 @@
+{
+  "metadata": {
+    "title": "In This White House",
+    "series": "The West Wing",
+    "season": "2",
+    "episode_number": 4,
+    "release_date": "25 October 2000",
+    "writer": "Aaron Sorkin",
+    "director": "Ken Olin",
+    "main_actors": [
+      "Martin Sheen",
+      "Rob Lowe",
+      "Richard Schiff",
+      "Allison Janney",
+      "Bradley Whitford"
+    ],
+    "time_reference": "Contemporary United States"
+  },
+  "cast_crew": [
+    {
+      "cast": {
+        "name": "Rob Lowe",
+        "role": "Sam Seaborn"
+      },
+      "crew": {
+        "name": "Ken Olin",
+        "role": "Director"
+      }
+    },
+    {
+      "cast": {
+        "name": "Martin Sheen",
+        "role": "President Josiah Bartlet"
+      },
+      "crew": {
+        "name": "Aaron Sorkin",
+        "role": "Writer"
+      }
+    },
+    {
+      "cast": {
+        "name": "Richard Schiff",
+        "role": "Toby Ziegler"
+      },
+      "crew": {
+        "name": "Rick Cleveland",
+        "role": "Producer"
+      }
+    },
+    {
+      "cast": {
+        "name": "Allison Janney",
+        "role": "C.J. Cregg"
+      },
+      "crew": {
+        "name": "Lawrence O'Donnell Jr.",
+        "role": "Producer"
+      }
+    },
+    {
+      "cast": {
+        "name": "Bradley Whitford",
+        "role": "Josh Lyman"
+      },
+      "crew": {
+        "name": "Kevin Falls",
+        "role": "Producer"
+      }
+    }
+  ],
+  "home_media": [
+    {
+      "releases": {
+        "media_type": "DVD",
+        "date": "2003-09-02",
+        "details": "The West Wing: The Complete Second Season",
+        "special_features": [
+          "Commentary on Selected Episodes",
+          "Behind the Scenes Featurettes",
+          "Cast and Crew Interviews"
+        ]
+      }
+    }
+  ],
+  "story_notes": [
+    {
+      "notes": [
+        "Episode explores themes of bipartisan collaboration.",
+        "Addresses contemporary issues such as HIV/AIDS and pharmaceutical pricing."
+      ]
+    }
+  ],
+  "worldbuilding": {
+    "in_universe_mythology": [],
+    "real_world_cultural_references": [
+      "References to real-life political figures and historical events."
+    ],
+    "individuals": [
+      "President Bartlet",
+      "President Nimbala"
+    ],
+    "items": [
+      "AIDS drugs",
+      "Television program 'Capital Beat'"
+    ],
+    "locations": [
+      "The White House",
+      "Oval Office",
+      "Mural Room"
+    ]
+  },
+  "ratings": {
+    "ratings_millions": [
+      {
+        "part": "In This White House",
+        "viewers": 7.8
+      }
+    ]
+  },
+  "continuity": {
+    "continuity_notes": [
+      "Follows events from previous episodes surrounding ongoing political tensions.",
+      "Character development for Sam Seaborn and the introduction of Ainsley Hayes."
+    ]
+  },
+  "plot": [
+    {
+      "plot_summary": "In this episode, Sam is challenged by a Republican advisor on a political show, leading President Bartlet to consider hiring her, which stirs mixed reactions in the staff. Meanwhile, Toby and Josh negotiate with pharmaceutical companies regarding drug availability for Africa amidst a coup threat to President Nimbala."
+    }
+  ]
+}

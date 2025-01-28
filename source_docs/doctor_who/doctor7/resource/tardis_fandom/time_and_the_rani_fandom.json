@@ -1,0 +1,197 @@
+{
+  "metadata": {
+    "title": "Time and the Rani",
+    "series": "Doctor Who",
+    "season": "24",
+    "episode_number": 1,
+    "release_date": "7 September 1987",
+    "release_end_date": "28 September 1987",
+    "writer": "Pip & Jane Baker",
+    "director": "Andrew Morgan",
+    "producer": "John Nathan-Turner",
+    "main_actors": [
+      "Sylvester McCoy",
+      "Bonnie Langford",
+      "Kate O'Mara",
+      "Mark Greenstreet",
+      "Wanda Ventham",
+      "Donald Pickering"
+    ],
+    "time_reference": "Immediately after the regeneration of the Sixth Doctor"
+  },
+  "cast_crew": [
+    {
+      "cast": {
+        "name": "Sylvester McCoy",
+        "role": "The Seventh Doctor"
+      },
+      "uncredited_cast": {
+        "name": "Sylvester McCoy",
+        "role": "Sixth Doctor"
+      },
+      "crew": {
+        "name": "Andrew Morgan",
+        "role": "Director"
+      }
+    },
+    {
+      "cast": {
+        "name": "Bonnie Langford",
+        "role": "Mel Bush"
+      },
+      "crew": {
+        "name": "Pip Baker",
+        "role": "Writer"
+      }
+    },
+    {
+      "cast": {
+        "name": "Kate O'Mara",
+        "role": "The Rani"
+      },
+      "crew": {
+        "name": "Jane Baker",
+        "role": "Writer"
+      }
+    },
+    {
+      "cast": {
+        "name": "Mark Greenstreet",
+        "role": "Ikona"
+      },
+      "crew": {
+        "name": "John Nathan-Turner",
+        "role": "Producer"
+      }
+    },
+    {
+      "cast": {
+        "name": "Wanda Ventham",
+        "role": "Faroon"
+      },
+      "crew": {
+        "name": "Andrew Cartmel",
+        "role": "Script Editor"
+      }
+    },
+    {
+      "cast": {
+        "name": "Donald Pickering",
+        "role": "Beyus"
+      },
+      "crew": {
+        "name": "Keff McCulloch",
+        "role": "Incidental Music"
+      }
+    }
+  ],
+  "home_media": [
+    {
+      "releases": {
+        "media_type": "DVD",
+        "date": "13 September 2010",
+        "details": "Includes a restored version of the story.",
+        "special_features": [
+          "Commentary by Sylvester McCoy, Bonnie Langford, and Pip & Jane Baker",
+          "The Last Chance Saloon - behind the scenes",
+          "7D FX - examination of visual effects",
+          "Helter-Skelter - interview on CGI sequence",
+          "Lakertya - investigation of planet changes",
+          "Hot Gossip - interview with Kate O'Mara"
+        ]
+      }
+    },
+    {
+      "releases": {
+        "media_type": "VHS",
+        "date": "3 July 1995",
+        "special_features": []
+      }
+    },
+    {
+      "releases": {
+        "media_type": "BLU_RAY",
+        "date": "27 January 2021",
+        "details": "Included in the Season 24 Collection boxset.",
+        "special_features": [
+          "Extended Version"
+        ]
+      }
+    }
+  ],
+  "story_notes": [
+    {
+      "notes": [
+        "First Doctor Who story to feature computer-generated images.",
+        "The title was inspired by JB Priestley's play.",
+        "Ranked as the least favorite Seventh Doctor story by Doctor Who Magazine readers."
+      ]
+    }
+  ],
+  "worldbuilding": {
+    "in_universe_mythology": [
+      "The Rani's attempts to manipulate time using the minds of great thinkers."
+    ],
+    "real_world_cultural_references": [
+      "Abductions of Albert Einstein, Louis Pasteur, and Hypatia."
+    ],
+    "individuals": [
+      "The Doctor",
+      "The Rani",
+      "Ikona",
+      "Beyus"
+    ],
+    "items": [
+      "TARDIS",
+      "Hologram technology",
+      "Strange matter"
+    ],
+    "locations": [
+      "Lakertya",
+      "Rani's base"
+    ]
+  },
+  "ratings": {
+    "ratings_millions": [
+      {
+        "part": "Part one",
+        "viewers": 5.1
+      },
+      {
+        "part": "Part two",
+        "viewers": 4.2
+      },
+      {
+        "part": "Part three",
+        "viewers": 4.3
+      },
+      {
+        "part": "Part four",
+        "viewers": 4.9
+      }
+    ]
+  },
+  "continuity": {
+    "continuity_notes": [
+      "This story marks the regeneration from the Sixth Doctor to the Seventh Doctor.",
+      "In the audio story 'The Brink of Death', events leading to this regeneration are explained."
+    ]
+  },
+  "plot": [
+    {
+      "plot_summary": "The Rani captures the newly regenerated Seventh Doctor, seeking to control an asteroid made of strange matter. Meanwhile, Mel, the Doctor's companion, teams up with Lakertyan Ikona to thwart the Rani's plans and free the captive scientists she has kidnapped."
+    },
+    {
+      "plot_summary": "In part one, the Doctor regenerates during a crash landing, and the Rani plans to use him in her experiments."
+    },
+    {
+      "plot_summary": "In part two, the Doctor realizes he is being duped and regains his memory, and Mel finds allies among the Lakertyans."
+    },
+    {
+      "plot_summary": "In part three, the Doctor escapes from various traps, while the Rani's plans become more complex, involving a brain that controls the kidnapped scientists."
+    },
+    {
+      "plot_summary": "In part four, the climax unfolds with the Rani's plans foiled by the Lakertyan leader, and the Doctor and Mel manage to escape."
+    }
+  ]
+}

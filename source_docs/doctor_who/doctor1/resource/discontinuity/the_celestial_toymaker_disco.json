@@ -1,0 +1,75 @@
+{
+    "title": "The Celestial Toymaker",
+    "air_date": "2 April 1966",
+    "num_episodes": 4,
+    "episode_titles": [
+        "The Celestial Toyroom",
+        "The Hall of Dolls",
+        "The Dancing Floor",
+        "The Final Test"
+    ],
+    "episode_duration": 25,
+    "writers": [
+        "Brian Hayles",
+        "Gerry Davis (uncredited)",
+        "Donald Tosh (uncredited)"
+    ],
+    "directors": [
+        "Bill Sellars"
+    ],
+    "media_format": "B_W",
+    "dialogue_triumphs": [
+        "You need me?",
+        "Yes, I'm bored. I love to play games, but there's no one to play against\u2026 But you will become my perpetual opponent. We shall play endless games together, your brain against mine."
+    ],
+    "dialogue_disasters": null,
+    "goofs": [
+        "Peter Stephens makes a hash of ordering Dodo back to the beginning for breaking the rules of the TARDIS hopscotch game."
+    ],
+    "continuity_notes": [
+        {
+            "name": "The Celestial Toymaker",
+            "type": "Character",
+            "description": "A powerful, evil immortal who kidnaps others to play his 'quite notorious' deadly games. He has been waiting for the Doctor 'for a long time'.",
+            "origin": null,
+            "current_status": "Bored with his current world and wants to create another."
+        },
+        {
+            "name": "Dodo",
+            "type": "Character",
+            "description": "A companion of the Doctor",
+            "origin": null,
+            "current_status": "Mentions and sees the death of her mother."
+        }
+    ],
+    "technobabble": null,
+    "roots": [
+        "The works of Lewis Carroll",
+        "Oliver Twist (Cyril is inspired by the Artful Dodger)",
+        "Billy Bunter (Cyril's costume and performance)",
+        "Harpo Marx (Joey's use of a horn to communicate)",
+        "The Love for Three Oranges"
+    ],
+    "links": [
+        "Steven sees himself on the planet Kembel ('The Daleks' Master Plan')",
+        "Steven refers to Monoids ('The Ark')"
+    ],
+    "locations": [
+        {
+            "name": "The domain of the Celestial Toymaker",
+            "type": "Location",
+            "description": "A surreal realm controlled by the Celestial Toymaker where deadly games are played",
+            "origin": null,
+            "current_status": "Current setting of the episode"
+        }
+    ],
+    "future_history": null,
+    "untold_adventures": [
+        "The Doctor's first meeting with the Toymaker"
+    ],
+    "qv": [
+        "The TARDIS Scanner, 'Full Circle'"
+    ],
+    "additional_notes": "This episode is Doctor Who's first attempt at surrealism, turning symbols of childhood into a nightmarish prototype of The Crystal Maze.",
+    "bottom_line": "Doctor Who's first stab at surrealism is an unqualified success, taking the symbols of childhood and turning them into a nightmarish prototype of The Crystal Maze."
+}

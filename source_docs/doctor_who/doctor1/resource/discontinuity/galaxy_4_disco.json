@@ -1,0 +1,106 @@
+{
+    "title": "Galaxy 4",
+    "air_date": "11 September 1965",
+    "num_episodes": 4,
+    "episode_titles": [
+        "Four Hundred Dawns",
+        "Trap of Steel",
+        "Air Lock",
+        "The Exploding Planet"
+    ],
+    "episode_duration": 25,
+    "writers": [
+        "William Emms"
+    ],
+    "directors": [
+        "Derek Martinus",
+        "Mervyn Pinfield (uncredited)"
+    ],
+    "media_format": "B_W",
+    "dialogue_triumphs": [
+        "Importance lies in character, and what use is made of intelligence. We respect you as we respect all life."
+    ],
+    "dialogue_disasters": [
+        "Maaga's mission is to 'conquer space'."
+    ],
+    "goofs": [
+        "Maaga: 'Will you help us now?' Doctor: 'I don't seem to have much chance.' (The script reads 'choice'.)"
+    ],
+    "continuity_notes": [
+        {
+            "name": "TARDIS",
+            "type": "Object",
+            "description": "The Doctor's time machine and spacecraft",
+            "origin": null,
+            "current_status": "Provides a power source for the Rills' ship"
+        },
+        {
+            "name": "Drahvin Society",
+            "type": "Organization",
+            "description": "A society with two castes: Officers and Warriors",
+            "origin": "Drahva",
+            "current_status": "Seeking to conquer space"
+        },
+        {
+            "name": "Rills",
+            "type": "Character",
+            "description": "Telepathic beings that breathe ammonia and have advanced technology",
+            "origin": null,
+            "current_status": "Curious travelers interested in meeting other races"
+        },
+        {
+            "name": "Chumblies",
+            "type": "Object",
+            "description": "Robots created by the Rills, named by Vicki",
+            "origin": null,
+            "current_status": "Serving the Rills"
+        },
+        {
+            "name": "Vicki",
+            "type": "Character",
+            "description": "One of the Doctor's companions",
+            "origin": null,
+            "current_status": "Traveling with the Doctor, capable of cutting hair"
+        },
+        {
+            "name": "Steven",
+            "type": "Character",
+            "description": "One of the Doctor's companions",
+            "origin": null,
+            "current_status": "Traveling with the Doctor, gets a haircut from Vicki"
+        }
+    ],
+    "technobabble": null,
+    "roots": [
+        "The forceful women of The Avengers",
+        "Beauty and the Beast",
+        "Brave New World",
+        "Queen of Outer Space",
+        "Journey into Space",
+        "Lysistrata"
+    ],
+    "links": [
+        "Vicki refers to Xeros ('The Space Museum')"
+    ],
+    "locations": [
+        {
+            "name": "Unnamed Planet",
+            "type": "Location",
+            "description": "A dying planet with three suns",
+            "origin": null,
+            "current_status": "400 dawns from Drahva, not in Galaxy Four"
+        },
+        {
+            "name": "Drahva",
+            "type": "Location",
+            "description": "Home planet of the Drahvins",
+            "origin": "Galaxy Four",
+            "current_status": null
+        }
+    ],
+    "future_history": null,
+    "untold_adventures": null,
+    "qv": null,
+    "additional_notes": "The story presents an interesting twist on the traditional bug-eyed monster tale, with the seemingly benevolent humanoid Drahvins being the antagonists and the monstrous-looking Rills being peaceful and intelligent.",
+    "bottom_line": "'Galaxy 4' presents an interesting if flawed twist on the traditional bug-eyed monster tale."
+}

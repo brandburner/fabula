@@ -1,0 +1,175 @@
+{
+  "metadata": {
+    "title": "The Evil of the Daleks",
+    "series": "Doctor Who",
+    "season": "4",
+    "episode_number": 9,
+    "release_date": "20 May - 1 July 1967",
+    "writer": "David Whitaker",
+    "director": "Derek Martinus",
+    "producer": "Innes Lloyd",
+    "main_actors": [
+      "Patrick Troughton",
+      "Frazer Hines",
+      "Deborah Watling"
+    ],
+    "time_reference": "20 July 1966, 2 June 1866"
+  },
+  "cast_crew": [
+    {
+      "cast": {
+        "name": "Patrick Troughton",
+        "role": "The Second Doctor"
+      },
+      "crew": {
+        "name": "David Whitaker",
+        "role": "Writer"
+      }
+    },
+    {
+      "cast": {
+        "name": "Frazer Hines",
+        "role": "Jamie McCrimmon"
+      },
+      "crew": {
+        "name": "Derek Martinus",
+        "role": "Director"
+      }
+    },
+    {
+      "cast": {
+        "name": "Deborah Watling",
+        "role": "Victoria Waterfield"
+      },
+      "crew": {
+        "name": "Innes Lloyd",
+        "role": "Producer"
+      }
+    }
+  ],
+  "home_media": [
+    {
+      "releases": {
+        "media_type": "DVD",
+        "date": "27 September 2021",
+        "details": "Animated in both black-and-white and colour format",
+        "special_features": [
+          "Commentary tracks",
+          "Documentaries",
+          "Photo galleries",
+          "Episode reconstructions"
+        ]
+      }
+    },
+    {
+      "releases": {
+        "media_type": "BLU_RAY",
+        "date": "27 September 2021",
+        "details": "Animated in both black-and-white and colour format",
+        "special_features": [
+          "Commentary tracks",
+          "Documentaries",
+          "Photo galleries",
+          "Episode reconstructions"
+        ]
+      }
+    },
+    {
+      "releases": {
+        "media_type": "BLU_RAY",
+        "date": "27 September 2021",
+        "details": "Limited Edition Steelbook",
+        "special_features": [
+          "Commentary tracks",
+          "Documentaries",
+          "Photo galleries",
+          "Episode reconstructions"
+        ]
+      }
+    }
+  ],
+  "story_notes": [
+    {
+      "notes": [
+        "The story was intended to be the Doctor's final battle with the Daleks, facilitating the transition of The Daleks into its own spin-off TV series.",
+        "Only episode two exists in the BBC Archives, but the story was released on DVD, Blu-Ray and Limited Edition Steelbook in 2021 with all seven episodes animated in both black-and-white and colour format."
+      ]
+    }
+  ],
+  "worldbuilding": {
+    "in_universe_mythology": [
+      "The Dalek Emperor",
+      "The Dalek Factor"
+    ],
+    "real_world_cultural_references": [
+      "Edgar Allan Poe",
+      "The Crimean War",
+      "J. Clark Maxwell's discoveries about electromagnetism",
+      "Faraday's discoveries about static electricity"
+    ],
+    "individuals": [
+      "Edward Waterfield",
+      "Theodore Maxtible",
+      "Alpha",
+      "Beta",
+      "Omega"
+    ],
+    "items": [
+      "The TARDIS",
+      "Positronic brain",
+      "Time travel cabinet"
+    ],
+    "locations": [
+      "Gatwick Airport",
+      "Maxtible's estate",
+      "Skaro"
+    ]
+  },
+  "ratings": {
+    "ratings_millions": [
+      {
+        "part": "Episode 1",
+        "viewers": 8.1
+      },
+      {
+        "part": "Episode 2",
+        "viewers": 7.5
+      },
+      {
+        "part": "Episode 3",
+        "viewers": 6.1
+      },
+      {
+        "part": "Episode 4",
+        "viewers": 5.3
+      },
+      {
+        "part": "Episode 5",
+        "viewers": 5.1
+      },
+      {
+        "part": "Episode 6",
+        "viewers": 6.8
+      },
+      {
+        "part": "Episode 7",
+        "viewers": 6.1
+      }
+    ]
+  },
+  "continuity": {
+    "continuity_notes": [
+      "The Doctor uses his knowledge of the cave systems of Skaro from his first adventure there.",
+      "Jamie wonders if the Chameleons could be behind the theft of the TARDIS.",
+      "The ultimate fate of the humanised Daleks and the end of the Dalek Civil War is revealed in 'Children of the Revolution'."
+    ]
+  },
+  "plot": [
+    {
+      "plot_summary": "The Second Doctor and Jamie discover that the TARDIS has been stolen. They are drawn into a trap set by the Daleks, who are experimenting with implanting the 'human factor' into Daleks in order to make them invincible. The Doctor agrees to assist, but secretly sabotages the experiment, leading to a Dalek civil war on Skaro."
+    },
+    {
+      "plot_summary": "The Doctor, Jamie and the newly-introduced companion Victoria Waterfield are taken to Skaro, the Dalek home planet, where the Daleks attempt to implant the Dalek Factor into humans. The Doctor subverts this plan, leading to a Dalek civil war that destroys the Dalek city."
+    }
+  ]
+}

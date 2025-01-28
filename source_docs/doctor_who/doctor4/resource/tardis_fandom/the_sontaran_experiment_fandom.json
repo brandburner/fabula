@@ -1,0 +1,151 @@
+{
+  "metadata": {
+    "title": "The Sontaran Experiment",
+    "series": "Doctor Who",
+    "season": "12",
+    "episode_number": 3,
+    "release_date": "22 February 1975",
+    "release_end_date": "1 March 1975",
+    "writer": "Bob Baker and Dave Martin",
+    "director": "Rodney Bennett",
+    "producer": "Philip Hinchcliffe",
+    "main_actors": [
+      "Tom Baker",
+      "Elisabeth Sladen",
+      "Ian Marter",
+      "Donald Douglas",
+      "Glyn Jones",
+      "Peter Walshe",
+      "Kevin Lindsay"
+    ],
+    "time_reference": "Earth, 16087"
+  },
+  "cast_crew": [
+    {
+      "cast": {
+        "name": "Tom Baker",
+        "role": "Fourth Doctor"
+      },
+      "crew": {
+        "name": "Rodney Bennett",
+        "role": "Director"
+      }
+    },
+    {
+      "cast": {
+        "name": "Elisabeth Sladen",
+        "role": "Sarah Jane Smith"
+      },
+      "crew": {
+        "name": "Philip Hinchcliffe",
+        "role": "Producer"
+      }
+    },
+    {
+      "cast": {
+        "name": "Ian Marter",
+        "role": "Harry Sullivan"
+      },
+      "crew": {
+        "name": "Bob Baker",
+        "role": "Writer"
+      }
+    },
+    {
+      "cast": {
+        "name": "Donald Douglas",
+        "role": "Vural"
+      },
+      "crew": {
+        "name": "Dave Martin",
+        "role": "Writer"
+      }
+    },
+    {
+      "cast": {
+        "name": "Glyn Jones",
+        "role": "Krans"
+      },
+      "crew": {
+        "name": "Robert Holmes",
+        "role": "Script Editor"
+      }
+    }
+  ],
+  "home_media": [
+    {
+      "releases": {
+        "media_type": "DVD",
+        "date": "9 October 2006",
+        "special_features": [
+          "Commentary by Elisabeth Sladen, Philip Hinchcliffe and Bob Baker",
+          "Built for War - The genesis and development of the Sontaran race",
+          "Photo Gallery",
+          "Production Subtitles"
+        ]
+      }
+    },
+    {
+      "releases": {
+        "media_type": "VHS",
+        "date": "October 1991",
+        "details": "Released as a double video with Genesis of the Daleks",
+        "special_features": []
+      }
+    }
+  ],
+  "story_notes": [
+    {
+      "notes": [
+        "The Sontaran Experiment follows the storytelling from the previous serial The Ark in Space.",
+        "It was unusually recorded entirely on location on videotape rather than film.",
+        "This was a rare two-part serial for the 1970s, unusual for its time.",
+        "Tom Baker sustained a collarbone injury while filming but continued shooting with a concealing neck brace.",
+        "Robert Holmes rewrote significant portions of episode two."
+      ]
+    }
+  ],
+  "worldbuilding": {
+    "in_universe_mythology": [
+      "Sontaran race and their endless war with the Rutans",
+      "Field Major Styre of the Sontaran G3 Military Assessment Survey"
+    ],
+    "real_world_cultural_references": [
+      "Harry mentions feeling like a Morse message.",
+      "The Doctor references Waterloo and Trafalgar Square."
+    ],
+    "individuals": [
+      "Field Major Styre"
+    ],
+    "items": [
+      "The Doctor's sonic screwdriver",
+      "Five Hundred Year Diary"
+    ],
+    "locations": [
+      "Earth, 16087"
+    ]
+  },
+  "ratings": {
+    "ratings_millions": [
+      {
+        "part": "Part one",
+        "viewers": 11.0
+      },
+      {
+        "part": "Part two",
+        "viewers": 10.5
+      }
+    ]
+  },
+  "continuity": {
+    "continuity_notes": [
+      "The Sontarans are emphasized as a clone race, linking to The Time Warrior.",
+      "It forms part of a continuous narrative arc beginning from Robot."
+    ]
+  },
+  "plot": [
+    {
+      "plot_summary": "The Fourth Doctor, along with companions Sarah Jane Smith and Harry Sullivan, arrives on a seemingly deserted Earth, where they encounter a group of shipwrecked astronauts from a distant Earth colony. The astronauts have been lured by a fake distress signal and are being experimented on by Field Major Styre, leading the Doctor to stop the Sontaran's plans for a full-scale invasion."
+    }
+  ]
+}

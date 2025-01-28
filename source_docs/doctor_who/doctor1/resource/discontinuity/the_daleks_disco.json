@@ -1,0 +1,136 @@
+{
+    "title": "The Daleks",
+    "air_date": "21 December 1963",
+    "num_episodes": 7,
+    "episode_titles": [
+        "1: The Dead Planet",
+        "2: The Survivors",
+        "3: The Escape",
+        "4: The Ambush",
+        "5: The Expedition",
+        "6: The Ordeal",
+        "7: The Rescue"
+    ],
+    "episode_duration": 25,
+    "writers": [
+        "Terry Nation"
+    ],
+    "directors": [
+        "Christopher Barry",
+        "Richard Martin"
+    ],
+    "media_format": "B_W",
+    "dialogue_triumphs": [
+        "We're all working towards the same end.",
+        "Now there's a double meaning for you."
+    ],
+    "dialogue_disasters": [
+        "We mustn't diddle about here",
+        "We have a setisolidified lizard"
+    ],
+    "goofs": [
+        "The Daleks' Geiger counter has 'danger' written on it in English",
+        "In episode three Susan runs on the spot while stage hands whip her with twigs",
+        "Ganatus seems acquainted with 1960s Earth manners",
+        "Ian waits for Temmosus to finish his speech before warning the Thals that it's an ambush",
+        "In episode six a Dalek turns to consult some instruments and crashes into them",
+        "When Ian grabs the rock wall, William Russell ends up with a chunk of white polystyrene in his hand",
+        "When the Doctor shorts a Dalek control panel the explosion happens too early"
+    ],
+    "continuity_notes": [
+        {
+            "name": "TARDIS",
+            "type": "Object",
+            "description": "Time and space travel machine used by the Doctor",
+            "origin": "Gallifrey",
+            "current_status": "Functional but with some navigation issues"
+        },
+        {
+            "name": "The Doctor",
+            "type": "Character",
+            "description": "Time Lord protagonist, former pioneer among his people",
+            "origin": "Gallifrey",
+            "current_status": "Exploring Skaro with his companions"
+        },
+        {
+            "name": "Susan",
+            "type": "Character",
+            "description": "The Doctor's granddaughter and companion",
+            "origin": "Gallifrey",
+            "current_status": "Travelling with the Doctor"
+        },
+        {
+            "name": "Daleks",
+            "type": "Character",
+            "description": "Mutated beings inside metal casings, dependent on static electricity and radiation",
+            "origin": "Skaro",
+            "current_status": "Surviving in their city, hostile to outsiders"
+        },
+        {
+            "name": "Thals",
+            "type": "Character",
+            "description": "Humanoid inhabitants of Skaro, former warriors turned pacifists",
+            "origin": "Skaro",
+            "current_status": "Farmers, seeking help from the TARDIS crew"
+        }
+    ],
+    "technobabble": [
+        "The TARDIS fluid links use mercury",
+        "Magnedons are lizards whose bodies are composed of pliable metal held together by an internal magnetic force"
+    ],
+    "roots": [
+        "The Lord of the Rings",
+        "The Time Machine (especially the 1960 film)",
+        "War of the Worlds",
+        "Dan Dare",
+        "Pathfinders to Venus",
+        "Journey into Space",
+        "E. M. Forster's 'The Machine Stops'",
+        "Das Kabinett des Dr Caligari"
+    ],
+    "links": [
+        "Genesis of the Daleks",
+        "The Dalek Invasion of Earth",
+        "The Evil of the Daleks",
+        "Day of the Daleks",
+        "The Chase",
+        "Death to the Daleks",
+        "Frontier in Space",
+        "Planet of the Daleks",
+        "Mission to the Unknown",
+        "The Daleks' Master Plan"
+    ],
+    "locations": [
+        {
+            "name": "Skaro",
+            "type": "Location",
+            "description": "Home planet of the Daleks and Thals, twelfth planet of its system",
+            "origin": null,
+            "current_status": "Post-apocalyptic, radiation-scarred world"
+        },
+        {
+            "name": "Dalek City",
+            "type": "Location",
+            "description": "Metal city inhabited by the Daleks",
+            "origin": "Skaro",
+            "current_status": "Functional, powered by static electricity"
+        },
+        {
+            "name": "Lake of Mutations",
+            "type": "Location",
+            "description": "Body of water on Skaro containing mutated life forms",
+            "origin": "Skaro",
+            "current_status": "Active, dangerous"
+        }
+    ],
+    "future_history": "The story presents a post-apocalyptic future on Skaro, with a history of conflict between the Thals and the ancestors of the Daleks (Kaleds) dating back half a million years.",
+    "untold_adventures": [
+        "The Doctor's time as a pioneer among his own people"
+    ],
+    "qv": [
+        "The TARDIS Lock",
+        "The Sensorites"
+    ],
+    "additional_notes": "This story establishes the first history of the Daleks, which would be expanded and partly retconned in later stories. It also introduces key elements of TARDIS lore, such as the food machine and fault locator.",
+    "bottom_line": "A game of two halves. The first four episodes helped launch Doctor Who in the public imagination, and are thoughtful and gripping. The last three comprise a B-movie trek through hideous landscapes in order to defeat the monsters. As a whole, 'The Daleks' is brilliantly directed, full of inventive touches and wonderful set-pieces."
+}

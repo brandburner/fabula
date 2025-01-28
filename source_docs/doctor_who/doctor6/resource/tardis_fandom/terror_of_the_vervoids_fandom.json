@@ -1,0 +1,356 @@
+{
+  "metadata": {
+    "title": "Terror of the Vervoids",
+    "series": "Doctor Who",
+    "season": "23",
+    "episode_number": 3,
+    "release_date": "1 - 22 November 1986",
+    "writer": "Pip & Jane Baker",
+    "director": "Chris Clough",
+    "producer": "John Nathan-Turner",
+    "main_actors": [
+      "Colin Baker",
+      "Bonnie Langford"
+    ],
+    "time_reference": "2986 AD"
+  },
+  "cast_crew": [
+    {
+      "cast": {
+        "name": "Colin Baker",
+        "role": "The Doctor"
+      },
+      "crew": {
+        "name": "Chris Clough",
+        "role": "Director"
+      }
+    },
+    {
+      "cast": {
+        "name": "Bonnie Langford",
+        "role": "Melanie Bush"
+      },
+      "crew": {
+        "name": "John Nathan-Turner",
+        "role": "Producer"
+      }
+    },
+    {
+      "cast": {
+        "name": "Michael Jayston",
+        "role": "The Valeyard"
+      },
+      "crew": {
+        "name": "Pip & Jane Baker",
+        "role": "Writer"
+      }
+    },
+    {
+      "cast": {
+        "name": "Lynda Bellingham",
+        "role": "The Inquisitor"
+      },
+      "crew": {
+        "name": "Eric Saward",
+        "role": "Script Editor"
+      }
+    },
+    {
+      "cast": {
+        "name": "Honor Blackman",
+        "role": "Professor Lasky"
+      },
+      "crew": {
+        "name": "Andrew Rose",
+        "role": "Costumes"
+      }
+    },
+    {
+      "cast": {
+        "name": "Michael Craig",
+        "role": "Commodore Travers"
+      },
+      "crew": {
+        "name": "Dinah Walker",
+        "role": "Designer"
+      }
+    },
+    {
+      "cast": {
+        "name": "Denys Hawthorne",
+        "role": "Rudge"
+      },
+      "crew": {
+        "name": "Malcolm Clarke",
+        "role": "Incidental Music"
+      }
+    },
+    {
+      "cast": {
+        "name": "Yolande Palfrey",
+        "role": "Janet"
+      },
+      "crew": {
+        "name": "Dick Mills",
+        "role": "Special Sounds"
+      }
+    },
+    {
+      "cast": {
+        "name": "Malcolm Tierney",
+        "role": "Doland"
+      },
+      "crew": {
+        "name": "Dominic Glynn",
+        "role": "Theme Arrangement"
+      }
+    },
+    {
+      "cast": {
+        "name": "David Allister",
+        "role": "Bruchner"
+      },
+      "crew": {
+        "name": "Ron Grainer",
+        "role": "Title Music"
+      }
+    },
+    {
+      "cast": {
+        "name": "Tony Scoggo",
+        "role": "Grenville / Hallett"
+      },
+      "crew": {
+        "name": "Kevin Molloy",
+        "role": "Visual Effects"
+      }
+    },
+    {
+      "cast": {
+        "name": "Arthur Hewlett",
+        "role": "Kimber"
+      },
+      "crew": {
+        "name": "Shirley Coward",
+        "role": "Vision Mixer"
+      }
+    },
+    {
+      "cast": {
+        "name": "Simon Slater",
+        "role": "Edwardes"
+      },
+      "crew": {
+        "name": "Hugh Parson",
+        "role": "Videotape Editor"
+      }
+    },
+    {
+      "cast": {
+        "name": "Sam Howard",
+        "role": "Atza"
+      },
+      "crew": {
+        "name": "Danny Popkin",
+        "role": "Video Effects"
+      }
+    },
+    {
+      "cast": {
+        "name": "Leon Davis",
+        "role": "Ortezo"
+      },
+      "crew": {
+        "name": "Alan Arbuthnott",
+        "role": "Technical Co-Ordinator"
+      }
+    },
+    {
+      "cast": {
+        "name": "Hugh Beverton",
+        "role": "Guard / First Guard"
+      },
+      "crew": {
+        "name": "Brian Clark",
+        "role": "Sound"
+      }
+    },
+    {
+      "cast": {
+        "name": "Mike Mungarvan",
+        "role": "Duty Officer"
+      },
+      "crew": {
+        "name": "Don Babbage",
+        "role": "Lighting Director"
+      }
+    },
+    {
+      "cast": {
+        "name": "Martin Weedon",
+        "role": "Second Guard"
+      },
+      "crew": {
+        "name": "Jenny Doe",
+        "role": "Production Associate"
+      }
+    },
+    {
+      "cast": {
+        "name": "Barbara Ward",
+        "role": "Mutant / Ruth Baxter"
+      },
+      "crew": {
+        "name": "June Collins",
+        "role": "Production Associate"
+      }
+    },
+    {
+      "cast": {
+        "name": "Peppi Borza",
+        "role": "First Vervoid"
+      },
+      "crew": {
+        "name": "Ian Fraser",
+        "role": "Production Manager"
+      }
+    },
+    {
+      "cast": {
+        "name": "Bob Appleby",
+        "role": "Second Vervoid"
+      },
+      "crew": {
+        "name": "Jane Wellesley",
+        "role": "Production Assistant"
+      }
+    }
+  ],
+  "home_media": [
+    {
+      "releases": {
+        "media_type": "VHS",
+        "date": "October 1993",
+        "special_features": []
+      }
+    },
+    {
+      "releases": {
+        "media_type": "DVD",
+        "date": "29 September 2008",
+        "special_features": [
+          "Commentary by Colin Baker, Michael Craig, Chris Clough, and Pip and Jane Baker",
+          "The Making of Terror of the Vervoids",
+          "Deleted and Extended Scenes",
+          "The Lost Season",
+          "Now, Get Out of That",
+          "Trails and Continuity",
+          "The Saturday Picture Show"
+        ]
+      }
+    },
+    {
+      "releases": {
+        "media_type": "BLU_RAY",
+        "date": "3 October 2019",
+        "special_features": [
+          "Audio Commentary",
+          "5.1 Surround Sound Mix",
+          "Isolated Music Soundtrack",
+          "The Making of The Trial of a Time Lord: Part Three - Terror of the Vervoids",
+          "Behind the Sofa",
+          "Deleted and Extended Scenes",
+          "Studio Footage",
+          "Trails and Continuity",
+          "Terror of the Vervoids - A 2019 four-part special edition",
+          "Production Subtitles",
+          "HD Photo Gallery",
+          "PDF Written Archive",
+          "Alternative and Extended Cuts"
+        ]
+      }
+    }
+  ],
+  "story_notes": [
+    {
+      "notes": [
+        "This would be the last time in the series that Colin Baker would be seen in the TARDIS console room, as Sylvester McCoy stood in for him in the regeneration scene of TV: Time and the Rani.",
+        "The story was commissioned as The Ultimate Foe but no working title is recorded in production paperwork, though writers Pip & Jane Baker later recalled the story was called The Vervoids during production.",
+        "This story was a replacement for an original submission, \"Attack from the Mind\" by David Halliwell set on the planet Penelope. Later drafts included \"The Last Adventure\" by Christopher H. Bidmead and \"Paradise 5\" by P.J. Hammond.",
+        "The role of Sarah Lasky was written for a woman in her forties, but was played by Honor Blackman, who was almost 60 at the time of taping.",
+        "Pip and Jane Baker enjoyed the discipline of a whodunnit. They claimed that the production team assumed that Janet was the killer, as she had the best access.",
+        "According to Jane Baker, there was a betting group on who was going to be the murderer.",
+        "Bonnie Langford was delighted to learn that Chris Clough had hired dancers to play the Vervoids to ensure that the creatures would move gracefully.",
+        "A minor emergency occurred when the tube through which Vervoid actor Peppi Borza was \"exhaling\" marsh gas accidentally dropped down inside his mask, threatening to choke him.",
+        "There was a pessimistic atmosphere onset, as there was no confirmation that the show would come back for another series, leading to fears of cancellation."
+      ]
+    }
+  ],
+  "worldbuilding": {
+    "in_universe_mythology": [
+      "Article 7 of Gallifreyan law stipulates that genocide is unconditionally punishable by death.",
+      "Demeter seeds are specially bred edible seeds that will grow almost anywhere."
+    ],
+    "real_world_cultural_references": [
+      "According to Doland, the Roman Empire was built on slave labour.",
+      "The Doctor quotes The Listeners by Walter de la Mare: \"'Is there anybody there?' said the Traveller\""
+    ],
+    "individuals": [
+      "Melanie Bush comes from Pease Pottage, and has almost total recall. Her house had a large garden, with a compost heap.",
+      "Lasky is reading Murder on the Orient Express in the lounge.",
+      "Lasky is a thremmatologist."
+    ],
+    "items": [
+      "The Doctor asks for a phaser, arousing the astonishment of Melanie.",
+      "The Doctor and Mel discuss the husbandry concept of Judas goats, albeit erroneously (by stating they're decoys to lure out predators)"
+    ],
+    "locations": [
+      "Mogar is a planet in the Perseus arm of the Milky Way. It is the home planet of the Mogarians.",
+      "Between Mogar and Earth lies the Black Hole of Tartarus.",
+      "Stella Stora suffered from grain shortages around 2983."
+    ]
+  },
+  "ratings": {
+    "ratings_millions": [
+      {
+        "part": "Part nine (1)",
+        "viewers": 5.2
+      },
+      {
+        "part": "Part ten (2)",
+        "viewers": 4.6
+      },
+      {
+        "part": "Part eleven (3)",
+        "viewers": 5.3
+      },
+      {
+        "part": "Part twelve (4)",
+        "viewers": 5.3
+      }
+    ]
+  },
+  "continuity": {
+    "continuity_notes": [
+      "The Doctor previously encountered Travers.",
+      "The Doctor has a sense of evil when he arrives on the Hyperion.",
+      "The Doctor walks in the wrong direction to where he was heading but when his path was corrected, he stated that he was aware he was going the wrong way. He later does this in his tenth incarnation.",
+      "The Doctor tries to take Mel to Pyro Shika.",
+      "The Doctor recalls the Roman Empire falling."
+    ]
+  },
+  "plot": [
+    {
+      "plot_summary": "The Time Lords have brought the Doctor to trial, accusing him of gross interference in the affairs of other planets. If he is found guilty he must forfeit all his remaining regenerations. In the hope of proving his innocence, Melanie Bush, an as-of-yet unmet companion from later in his life, is summoned to the court. Hopefully, through her help, the jurors will be reassured in letting the Doctor go free by seeing what good acts he stands to commit as opposed to destructive ones. In his defence, the Doctor tells of an adventure from his personal future - set on board the Hyperion III space liner in his future. Answering a distress call, the Doctor and Mel arrive on the liner just as a series of grisly murders begins."
+    },
+    {
+      "plot_summary": "On the spaceliner Hyperion III, an elderly man named Kimber thinks he recognises a fellow passenger as an investigator called Hallett. However, the passenger denies this, claiming that he is a mineralogist called Grenville. A trio of scientist passengers - Professor Sarah Lasky and her colleagues Bruchner and Doland - are alarmed that Grenville might actually be an investigator. The Doctor and Mel materialise within the Hyperion III's cargo hold, next to the hydroponics centre. The Doctor tells Mel he can sense evil, and says they should leave, but they are seized by guards. Mel decides to go by herself to Cabin 6, but when she arrives, she discovers the Doctor is already there. They find the room has been wrecked, supposedly in a fight, and they find the silver Demeter seeds and a single boot. Rudge contacts Travers to inform him there has been an accident in the waste disposal unit; it seems that someone has been thrown inside. All that is left is a boot matching the one found by the Doctor and Mel in Cabin 6. They learn that these belonged to Grenville, but the Doctor does not recognise the name."
+    },
+    {
+      "plot_summary": "Mel enters the cargo hold, where she meets Edwardes. He agrees to show her the hydroponics centre. It was set up for the journey specially for Lasky, Doland and Bruchner, and that only low spectrum light is allowed inside to keep the pods dormant. When Edwardes tries to enter, he is electrocuted. Mel screams in fright, sparks fly around the mysterious pods and something begins to emerge from them. A Vervoid kills Kimber. Two guards arrive at the scene, and Mel tells them that Edwardes is dead. One of the guards leads Mel away, and the other guard examines Edwardes' corpse. Later, Doland and Bruchner arrive to find that all the pods have been opened. Bruchner looks on in horror, asking Doland if he realises what has been unleashed."
+    },
+    {
+      "plot_summary": "Lasky finds that the necessary chemicals to create herbicide had been taken by the Vervoids. She, Mel and the Doctor are then surrounded by the plants. Lasky tries to reason with them, but they kill her and take her body back to their lair. Escaping through the air ducts, Mel and the Doctor discover the pile of bodies. The Doctor tells the distraught Mel that this is the Vervoids' version of a compost heap. The Doctor has an idea that vionesium, the rare metal taken from Mogar and stored in the ship's vault, would accelerate the Vervoids' life-cycle towards its natural end. Exposed to oxygenated air, vionesium releases intense light and carbon dioxide - to the Vervoids, the basic ingredients for their life-cycle induced by the seasons of spring, summer and autumn. Travers lowers the lighting and heating"
+    }
+  ]
+}

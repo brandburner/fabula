@@ -1,0 +1,118 @@
+{
+    "title": "City of Death",
+    "air_date": "29 September 1979",
+    "num_episodes": 4,
+    "episode_titles": [
+        "Part One",
+        "Part Two",
+        "Part Three",
+        "Part Four"
+    ],
+    "episode_duration": 25,
+    "writers": [
+        "David Agnew (pseudonym for Douglas Adams, Graham Williams)",
+        "David Fisher (original plot)"
+    ],
+    "directors": [
+        "Michael Hayes"
+    ],
+    "media_format": "Color",
+    "dialogue_triumphs": [
+        "Duggan: 'You know what I don't understand?' Romana: 'I expect so.'",
+        "Kerensky: 'It's the Jagaroth who need all the chickens, is it?'",
+        "The Doctor: '1979 is more of a table wine.'",
+        "The Doctor: 'What a wonderful butler, he's so violent.'",
+        "The Doctor: 'You're a beautiful woman, probably.'",
+        "Scarlioni: 'Nobody could be as stupid as he seems.'"
+    ],
+    "dialogue_disasters": null,
+    "goofs": [
+        "In episode one, the wrist of Scaroth's monster glove flaps about.",
+        "The sketch of Romana seen outside the caf\u00e9 is different from the one seen inside.",
+        "In episode four Romana wires up a British three-pin plug in order to connect Scaroth's time equipment to the (French) mains.",
+        "The prehistoric atmosphere seems quite breathable and there's land to stand on, despite being 400 million years ago."
+    ],
+    "continuity_notes": [
+        {
+            "name": "The Doctor",
+            "type": "Character",
+            "description": "Time Lord protagonist, currently in his fourth incarnation",
+            "origin": "Gallifrey",
+            "current_status": "Traveling with Romana, investigating time disturbances in Paris"
+        },
+        {
+            "name": "Romana",
+            "type": "Character",
+            "description": "Time Lady companion, currently in her second incarnation",
+            "origin": "Gallifrey",
+            "current_status": "Traveling with the Doctor, claims to be 125 years old"
+        },
+        {
+            "name": "TARDIS",
+            "type": "Object",
+            "description": "The Doctor's time-space ship",
+            "origin": "Gallifrey",
+            "current_status": "Functional, with ability to track other time travelers"
+        },
+        {
+            "name": "Sonic Screwdriver",
+            "type": "Object",
+            "description": "Multipurpose tool used by the Doctor and Romana",
+            "origin": "Time Lord technology",
+            "current_status": "In use by both the Doctor and Romana"
+        },
+        {
+            "name": "Jagaroth",
+            "type": "Organization",
+            "description": "Ancient warlike alien race with advanced technology",
+            "origin": "Unknown",
+            "current_status": "Extinct except for Scaroth's fractured existence"
+        }
+    ],
+    "technobabble": null,
+    "roots": [
+        "Bulldog Drummond",
+        "Caper movies such as The Pink Panther",
+        "Bob Shaw's 'The Giaconda Caper'",
+        "The Maltese Falcon"
+    ],
+    "links": [
+        "The Doctor mentions the Daleks and Skaro."
+    ],
+    "locations": [
+        {
+            "name": "Paris",
+            "type": "Location",
+            "description": "Capital city of France",
+            "origin": "Earth",
+            "current_status": "Setting for the main events of the story in 1979"
+        },
+        {
+            "name": "Florence",
+            "type": "Location",
+            "description": "Italian city",
+            "origin": "Earth",
+            "current_status": "Visited in 1505 as part of the story"
+        },
+        {
+            "name": "Mid-Atlantic",
+            "type": "Location",
+            "description": "Area in the Atlantic Ocean",
+            "origin": "Earth",
+            "current_status": "Setting for events 400 million years ago"
+        }
+    ],
+    "future_history": null,
+    "untold_adventures": [
+        "The Doctor met Leonardo Da Vinci and the model for the Mona Lisa",
+        "The Doctor knew Shakespeare and advised him on metaphor, writing out some of Hamlet when Shakespeare sprained his wrist writing sonnets"
+    ],
+    "qv": [
+        "The Doctor's Age",
+        "Pyramids of Mars",
+        "Aliens and the Origins of Mankind",
+        "Image of the Fendahl"
+    ],
+    "additional_notes": "The story features a cameo appearance by John Cleese. The plot involves multiple copies of the Mona Lisa and time travel affecting Earth's history.",
+    "bottom_line": "Highly praised as one of the best Doctor Who stories, noted for its wit, plot complexity, and overall quality."
+}

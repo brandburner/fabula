@@ -1,0 +1,93 @@
+{
+    "title": "The Tomb of the Cybermen",
+    "air_date": "2 September 1967",
+    "num_episodes": 4,
+    "episode_titles": [
+        "Part One",
+        "Part Two",
+        "Part Three",
+        "Part Four"
+    ],
+    "episode_duration": 25,
+    "writers": [
+        "Gerry Davis",
+        "Kit Pedler"
+    ],
+    "directors": [
+        "Morris Barry"
+    ],
+    "media_format": "B_W",
+    "dialogue_triumphs": [
+        "The Doctor reassures Victoria, missing her father, with recollections of his own family: 'I have to really want to, to bring them back in front of my eyes. The rest of the time they\u2026 sleep in my mind and I forget. And so will you.'"
+    ],
+    "dialogue_disasters": [
+        "'You scream real good, Vic,' the captain tells Victoria, who mutters, 'Who'd be a woman?' 'How would you know, honey?' he replies."
+    ],
+    "goofs": [
+        "In episode one the Doctor and Jamie hold one of the tomb doors closed with their feet.",
+        "The Cybercontroller uses a visible harness to lift Toberman over his head.",
+        "Toberman returns the favour by spinning a dummy Cybercontroller.",
+        "The Cybermen retreat into their tombs backwards, the film having been reversed."
+    ],
+    "continuity_notes": [
+        {
+            "name": "TARDIS",
+            "type": "Object",
+            "description": "The Doctor's time machine and spacecraft",
+            "origin": "Gallifrey",
+            "current_status": "Appears to land like a spaceship in this episode"
+        },
+        {
+            "name": "The Doctor",
+            "type": "Character",
+            "description": "The main protagonist, a Time Lord from Gallifrey",
+            "origin": "Gallifrey",
+            "current_status": "Claims to have 'perfected' the TARDIS"
+        },
+        {
+            "name": "Cybermats",
+            "type": "Object",
+            "description": "Small, cybernetic creatures associated with the Cybermen",
+            "origin": "Telos",
+            "current_status": "Two sizes exist; the Doctor has a picture of one in his book but is unfamiliar with them"
+        },
+        {
+            "name": "Cybermen",
+            "type": "Character",
+            "description": "Cybernetic humanoids from Mondas",
+            "origin": "Mondas",
+            "current_status": "Sealed in their tombs for 500 years; bullet-proof, can fire sparks from fingers, and control cybernised humans remotely"
+        }
+    ],
+    "technobabble": [
+        "The X-ray laser is the Cybermen's standard weapon",
+        "The weapon testing room features a psychedelic target that can hypnotise humans, with a 'subliminal centre you're trained to see'"
+    ],
+    "roots": [
+        "Mummy movies, especially Hammer's The Mummy (starring George Pastell) and The Curse of the Mummy's Tomb",
+        "The Avengers episode 'The House that Jack Built'"
+    ],
+    "links": [
+        "'The Web of Fear'",
+        "'The Invasion'",
+        "'Earthshock'"
+    ],
+    "locations": [
+        {
+            "name": "Telos",
+            "type": "Location",
+            "description": "Planet where the Cybermen have been entombed",
+            "origin": null,
+            "current_status": "Has a rarefied atmosphere; site of Cybermen tombs"
+        }
+    ],
+    "future_history": "The Brotherhood of Logicians are a collective of the time's great thinkers, believing that logic and intelligence are supreme virtues. Orbiters send rockets down to planets. Parry's expedition is privately financed.",
+    "untold_adventures": null,
+    "qv": [
+        "The Doctor's Family, 'An Unearthly Child'",
+        "Cyber History, 'The Tenth Planet'",
+        "The Doctor's Age, 'Pyramids of Mars'"
+    ],
+    "additional_notes": "Victoria seems only slightly concerned by switching from Victorian gown to mini-dress. It's one of the few stories to feature anoraks.",
+    "bottom_line": "The first two episodes are wonderful, a well-directed and expensive-looking restating of the series' basics, but once the Cybermen are released from the Tombs, they go back in again."
+}

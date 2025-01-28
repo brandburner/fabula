@@ -1,0 +1,153 @@
+{
+  "metadata": {
+    "title": "The Happiness Patrol",
+    "series": "Doctor Who",
+    "season": "25",
+    "episode_number": 2,
+    "release_date": "1988-11-02",
+    "writer": "Graeme Curry",
+    "director": "Chris Clough",
+    "producer": "John Nathan-Turner",
+    "main_actors": [
+      "Sylvester McCoy",
+      "Sophie Aldred"
+    ],
+    "time_reference": "24th century"
+  },
+  "cast_crew": [
+    {
+      "cast": {
+        "name": "Sylvester McCoy",
+        "role": "The Doctor"
+      },
+      "crew": {
+        "name": "Graeme Curry",
+        "role": "Writer"
+      }
+    },
+    {
+      "cast": {
+        "name": "Sophie Aldred",
+        "role": "Ace"
+      },
+      "crew": {
+        "name": "Chris Clough",
+        "role": "Director"
+      }
+    },
+    {
+      "cast": {
+        "name": "Sheila Hancock",
+        "role": "Helen A"
+      },
+      "crew": {
+        "name": "John Nathan-Turner",
+        "role": "Producer"
+      }
+    }
+  ],
+  "home_media": [
+    {
+      "releases": {
+        "media_type": "VHS",
+        "date": "1997-08-18",
+        "special_features": []
+      }
+    },
+    {
+      "releases": {
+        "media_type": "DVD",
+        "date": "2012-05-07",
+        "details": "Ace Adventures box set",
+        "special_features": [
+          "Commentary",
+          "Happiness Will Prevail",
+          "When Worlds Collide",
+          "Deleted and Extended Scenes",
+          "Isolated Music Score",
+          "Radio Times Listings",
+          "Production Information",
+          "Subtitles",
+          "Coming Soon Trailer - Death to the Daleks"
+        ]
+      }
+    }
+  ],
+  "story_notes": [
+    {
+      "notes": [
+        "This story had the working title 'The Crooked Smile'.",
+        "There was a proposal for a similar story called 'The Jokers' during the William Hartnell era, but it featured the opposite concept where laughter was forbidden.",
+        "The Kandy Man's costume was modified after initial recordings to add a metal brace around the mouth.",
+        "The howl of the Stigorax Fifi was created using the modulated voice of director Chris Clough.",
+        "The character of Helen A was intended to satirize British Prime Minister Margaret Thatcher.",
+        "This would be the last Doctor Who TV story entirely shot in studio until 'Boom' over 35 years later."
+      ]
+    }
+  ],
+  "worldbuilding": {
+    "in_universe_mythology": [
+      "Theta Sigma was the Doctor's nickname at college"
+    ],
+    "real_world_cultural_references": [
+      "The Doctor sings a verse of 'As Time Goes By'"
+    ],
+    "individuals": [
+      "Ace",
+      "Helen A",
+      "Joseph C",
+      "Silas P",
+      "Daisy K",
+      "Priscilla P",
+      "Harold V",
+      "Gilbert M",
+      "Trevor Sigma",
+      "Susan Q",
+      "Earl Sigma",
+      "Wences",
+      "Wulfric"
+    ],
+    "items": [
+      "Fun Guns",
+      "Stigorax"
+    ],
+    "locations": [
+      "Terra Alpha",
+      "Kandy Kitchen"
+    ]
+  },
+  "ratings": {
+    "ratings_millions": [
+      {
+        "part": "1",
+        "viewers": 5.3
+      },
+      {
+        "part": "2",
+        "viewers": 4.6
+      },
+      {
+        "part": "3",
+        "viewers": 5.3
+      }
+    ]
+  },
+  "continuity": {
+    "continuity_notes": [
+      "The Doctor refers to encountering a Triceratops and Pterodactyl in the London Underground (TV: Invasion of the Dinosaurs)",
+      "The Doctor encounters the Kandy Man again in PROSE: The Trials of Tara",
+      "The TARDIS was also painted in TV: Paradise Towers and TV: Aliens of London"
+    ]
+  },
+  "plot": [
+    {
+      "plot_summary": "The Seventh Doctor and Ace arrive on the planet Terra Alpha, where sadness is outlawed and the population is ruled by the tyrannical Helen A and her Happiness Patrol. They discover the native Pipe People and help foment a rebellion against Helen A's regime."
+    },
+    {
+      "plot_summary": "The Doctor and Ace encounter the robotic Kandy Man, Helen A's executioner, and work to undermine her control. They help the Pipe People and some members of the Happiness Patrol, including the secretly depressed Susan Q, to overthrow Helen A's government."
+    },
+    {
+      "plot_summary": "As Helen A prepares to flee, the Doctor confronts her about her lack of emotion. Witnessing the death of her pet Stigorax, Fifi, Helen A finally experiences true sadness. The Doctor and Ace then depart, leaving the people of Terra Alpha to rebuild their society."
+    }
+  ]
+}

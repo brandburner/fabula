@@ -1,0 +1,151 @@
+{
+    "Story": "Fault Lines",
+    "Airdate": "2024-12-28",
+    "Episodes": [
+        {
+            "Episode": "Episode One - Fault Lines",
+            "Scenes": [
+                {
+                    "Scene": "Situation Room",
+                    "Dialogue": [
+                        {
+                            "Stage Direction": "Pre-dawn in the White House Situation Room. The room's characteristic dim lighting casts shadows across tired faces as multiple LCD screens display satellite imagery of the Kosovo-Serbia border region. Josh Lyman enters, his tie already loosened despite the early hour. National Security Advisor Nancy McNally stands at the head of the table, her usual commanding presence tinged with obvious concern."
+                        },
+                        {
+                            "Character": "NANCY MCNALLY",
+                            "Line": "Four USAID workers went dark three hours ago near the Kosovo-Serbia border. They were conducting post-conflict reconstruction assessments when we lost contact."
+                        },
+                        {
+                            "Stage Direction": "Josh takes his seat, unconsciously rubbing the old scar on his chest - a habit he's developed since Rosslyn when situations turn tense."
+                        },
+                        {
+                            "Character": "DONNA",
+                            "Line": "Serbian paramilitary group is claiming responsibility on social media. They're demanding the release of three commanders from The Hague."
+                        },
+                        {
+                            "Character": "KATE HARPER",
+                            "Line": "Our intelligence suggests elements within Serbian security services provided tactical support to the paramilitary group."
+                        },
+                        {
+                            "Stage Direction": "President Bartlet enters with Leo McGarry and General Alexander. The room immediately stands at attention. Bartlet's expression is grim, his usual intellectual playfulness entirely absent."
+                        },
+                        {
+                            "Character": "PRESIDENT BARTLET",
+                            "Line": "Where are we on options?"
+                        }
+                    ]
+                },
+                {
+                    "Scene": "Vice President's Office",
+                    "Dialogue": [
+                        {
+                            "Stage Direction": "The stately Office of the Vice President is dark except for a single desk lamp. Bob Russell sits alone, staring at a framed photograph of himself teaching a young Amanda Dalton to fish at his Colorado lake house. His carefully maintained political mask has slipped, revealing raw emotion."
+                        },
+                        {
+                            "Character": "RUSSELL",
+                            "Line": "She joined USAID because of him, you know."
+                        },
+                        {
+                            "Stage Direction": "Margaret stands in the doorway, clearly uncomfortable at witnessing this private moment."
+                        },
+                        {
+                            "Character": "MARGARET",
+                            "Line": "Sir, they're waiting for you in the Situation Room."
+                        },
+                        {
+                            "Character": "RUSSELL",
+                            "Line": "Because of a speech Bartlet gave. About America's obligation to help rebuild war-torn regions. To prevent the next conflict before it starts."
+                        },
+                        {
+                            "Stage Direction": "Russell places the photograph carefully back on his desk, visibly reconstructing his political persona as he stands."
+                        }
+                    ]
+                },
+                {
+                    "Scene": "Mural Room",
+                    "Dialogue": [
+                        {
+                            "Stage Direction": "The Russian Ambassador, Viktor Petrov, stands with perfect diplomatic posture as he delivers Moscow's position. C.J. and Leo observe from near the doorway, both noting Bartlet's tells - the subtle jaw clench, the hands clasped tightly behind his back."
+                        },
+                        {
+                            "Character": "AMBASSADOR PETROV",
+                            "Line": "This is, as we see it, an internal Serbian law enforcement matter. Any NATO intervention would constitute a serious violation of sovereign territory."
+                        },
+                        {
+                            "Character": "PRESIDENT BARTLET",
+                            "Line": "Mr. Ambassador, would you care to explain how the kidnapping of American aid workers constitutes an internal matter?"
+                        },
+                        {
+                            "Stage Direction": "C.J.'s BlackBerry buzzes. The news alerts make her close her eyes briefly, steeling herself for the coming media storm."
+                        },
+                        {
+                            "Character": "C.J.",
+                            "Line": "Sir, CNN is running with Amanda Dalton's identity."
+                        }
+                    ]
+                },
+                {
+                    "Scene": "Steam Pipe Trunk Distribution Venue",
+                    "Dialogue": [
+                        {
+                            "Stage Direction": "In the windowless office space, Sam Seaborn sits surrounded by crumpled paper and empty coffee cups. His laptop screen glows with two distinct documents - one for victory, one for tragedy. Toby stands in the doorway, watching his deputy with concern."
+                        },
+                        {
+                            "Character": "SAM",
+                            "Line": "The thing about tragedy is that it demands poetry. But how do you make poetry out of political violence?"
+                        },
+                        {
+                            "Character": "TOBY",
+                            "Line": "Sometimes poetry is in the restraint. We need to remind people why we send aid workers into dangerous places. Why we try to rebuild what others have destroyed."
+                        },
+                        {
+                            "Stage Direction": "Sam runs his hands through his already disheveled hair, his usual polish completely abandoned in the intensity of the moment."
+                        },
+                        {
+                            "Character": "SAM",
+                            "Line": "I keep thinking about what you said after Rosslyn. About how we're supposed to be the good guys."
+                        },
+                        {
+                            "Character": "TOBY",
+                            "Line": "We still are. That's why this is hard."
+                        }
+                    ]
+                },
+                {
+                    "Scene": "Oval Office",
+                    "Dialogue": [
+                        {
+                            "Stage Direction": "Rain streams down the windows of the Oval Office as Kate Harper bursts in, interrupting a tense strategy session. The room is crowded with senior staff, all showing signs of the crushing night."
+                        },
+                        {
+                            "Character": "KATE",
+                            "Line": "Serbian special police units have secured the compound. All hostages are safe."
+                        },
+                        {
+                            "Stage Direction": "Relief floods the room, but Josh remains by the window, his expression troubled. Donna approaches him quietly."
+                        },
+                        {
+                            "Character": "JOSH",
+                            "Line": "For about twenty minutes there, when we thought we'd lost them... I understood why nations go to war. Why they abandon principles for revenge."
+                        },
+                        {
+                            "Character": "DONNA",
+                            "Line": "But we didn't."
+                        },
+                        {
+                            "Character": "JOSH",
+                            "Line": "That's what scares me. Not that we might have failed, but that we might have succeeded in the wrong way."
+                        },
+                        {
+                            "Stage Direction": "President Bartlet watches his staff from behind the Resolute desk, his own tension not fully dissipated."
+                        },
+                        {
+                            "Character": "PRESIDENT BARTLET",
+                            "Line": "Charlie, get me President Kovach. And then the leadership of both parties. The American people deserve to know how close we came to the brink today - and who pushed us there."
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

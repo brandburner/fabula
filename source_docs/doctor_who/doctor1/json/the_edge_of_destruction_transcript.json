@@ -1,0 +1,2051 @@
+{
+    "Story": "The Edge of Destruction",
+    "Airdate": "1964-02-08",
+    "Episodes": [
+        {
+            "Episode": "Episode One - The Edge of Destruction",
+            "Scenes": [
+                {
+                    "Scene": "Tardis",
+                    "Dialogue": [
+                        {
+                            "Stage Direction": "The Tardis is in flight after leaving Skaro, when there is bang, it shakes and everyone falls over. It goes dark. We rejoin the action with the lights back on. The Doctor is lying on the floor, Ian slumped in a chair, Susan draped over the console. Barbara is the only one awake."
+                        },
+                        {
+                            "Character": "BARBARA",
+                            "Line": "Mister Chesterton? Ian Chesterton? I thought"
+                        },
+                        {
+                            "Stage Direction": "Susan wakes. She looks almost drunk."
+                        },
+                        {
+                            "Character": "SUSAN",
+                            "Line": "I know you. Ow!"
+                        },
+                        {
+                            "Character": "BARBARA",
+                            "Line": "Have you hurt your head?"
+                        },
+                        {
+                            "Character": "SUSAN",
+                            "Line": "Yes, terribly."
+                        },
+                        {
+                            "Character": "BARBARA",
+                            "Line": "Well, let me look at it."
+                        },
+                        {
+                            "Character": "SUSAN",
+                            "Line": "My neck hurts too. It's going away now. That's better. I couldn't think where I was"
+                        },
+                        {
+                            "Character": "BARBARA",
+                            "Line": "Do you want to sit down?"
+                        },
+                        {
+                            "Character": "SUSAN",
+                            "Line": "No, it's all right. Grandfather!"
+                        },
+                        {
+                            "Character": "BARBARA",
+                            "Line": "He's cut his head open."
+                        },
+                        {
+                            "Character": "SUSAN",
+                            "Line": "I've got some ointment."
+                        },
+                        {
+                            "Character": "BARBARA",
+                            "Line": "Well get some water too."
+                        },
+                        {
+                            "Character": "SUSAN",
+                            "Line": "Yes."
+                        },
+                        {
+                            "Stage Direction": "As she stands up again, Susan grabs her neck in pain, then sees Ian in the chair."
+                        },
+                        {
+                            "Character": "SUSAN",
+                            "Line": "Who's that? Oughtn't we to go and help him?"
+                        },
+                        {
+                            "Character": "BARBARA",
+                            "Line": "I don't like the look of this cut at all."
+                        },
+                        {
+                            "Character": "SUSAN",
+                            "Line": "Water. What happened?"
+                        },
+                        {
+                            "Character": "BARBARA",
+                            "Line": "I don't know. Well, go on."
+                        },
+                        {
+                            "Stage Direction": "Ian has woken, and is standing by the chair."
+                        },
+                        {
+                            "Character": "IAN",
+                            "Line": "You're working late tonight, Miss Wright. Can I have a glass of water?"
+                        },
+                        {
+                            "Character": "BARBARA",
+                            "Line": "Susan's fetching some."
+                        },
+                        {
+                            "Character": "IAN",
+                            "Line": "Susan Foreman, you mean?"
+                        },
+                        {
+                            "Character": "BARBARA",
+                            "Line": "Yes."
+                        },
+                        {
+                            "Character": "IAN",
+                            "Line": "What's he doing there?"
+                        },
+                        {
+                            "Character": "BARBARA",
+                            "Line": "Oh, he's cut his head. Are you feeling all right?"
+                        },
+                        {
+                            "Character": "IAN",
+                            "Line": "Dizzy. Shouldn't we help him? His heart seems all right, and his breathing's quite regular. I don't think that cut's as deep as you think."
+                        },
+                        {
+                            "Character": "BARBARA",
+                            "Line": "What do we do if his skull's fractured?"
+                        },
+                        {
+                            "Character": "IAN",
+                            "Line": "I don't think it's as bad as that."
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "I can't take you back, Susan. I can't."
+                        },
+                        {
+                            "Character": "IAN",
+                            "Line": "He's rambling."
+                        },
+                        {
+                            "Character": "BARBARA",
+                            "Line": "The ship! The Tardis!"
+                        },
+                        {
+                            "Character": "IAN",
+                            "Line": "What?"
+                        },
+                        {
+                            "Stage Direction": "Susan in in the next room. She has cut a length of bandage, and is now at the liquids dispenser."
+                        },
+                        {
+                            "Character": "SUSAN",
+                            "Line": "Empty?"
+                        },
+                        {
+                            "Stage Direction": "She gets a sachet of something from it."
+                        },
+                        {
+                            "Character": "SUSAN",
+                            "Line": "That's funny."
+                        },
+                        {
+                            "Stage Direction": "Susan returns to the console room and shrieks. The main doors are open."
+                        },
+                        {
+                            "Character": "SUSAN",
+                            "Line": "The doors! Well, they can't open on their own. They can't!"
+                        },
+                        {
+                            "Character": "IAN",
+                            "Line": "Perhaps he did it."
+                        },
+                        {
+                            "Character": "SUSAN",
+                            "Line": "Grandfather?"
+                        },
+                        {
+                            "Character": "IAN",
+                            "Line": "Did it before he cut his head open."
+                        },
+                        {
+                            "Character": "SUSAN",
+                            "Line": "No, he wouldn't."
+                        },
+                        {
+                            "Character": "BARBARA",
+                            "Line": "They must have been forced open when we crashed."
+                        },
+                        {
+                            "Character": "IAN",
+                            "Line": "Crashed?"
+                        },
+                        {
+                            "Character": "SUSAN",
+                            "Line": "No, the ship can't crash. It's impossible. Grandfather. Grandfather!"
+                        },
+                        {
+                            "Character": "BARBARA",
+                            "Line": "Susan, it's all right."
+                        },
+                        {
+                            "Character": "SUSAN",
+                            "Line": "No. No, there's something here. Inside the ship."
+                        },
+                        {
+                            "Character": "IAN",
+                            "Line": "What?"
+                        },
+                        {
+                            "Character": "BARBARA",
+                            "Line": "But that's not possible."
+                        },
+                        {
+                            "Character": "SUSAN",
+                            "Line": "You feel it, don't you?"
+                        },
+                        {
+                            "Character": "BARBARA",
+                            "Line": "Give me the bandage. What's this?"
+                        },
+                        {
+                            "Character": "SUSAN",
+                            "Line": "The coloured part is the ointment. You'll find the colour disappearing. It goes into the wound. When the bandage is completely white, it means the wound is healed."
+                        },
+                        {
+                            "Stage Direction": "Ian walks towards the open doors, and they close in front of him."
+                        },
+                        {
+                            "Character": "IAN",
+                            "Line": "Did you do that?"
+                        },
+                        {
+                            "Character": "SUSAN",
+                            "Line": "We haven't moved."
+                        },
+                        {
+                            "Stage Direction": "He walks back to the console, and the doors open again. Towards them and they shut."
+                        },
+                        {
+                            "Character": "SUSAN",
+                            "Line": "I'm going to try the controls."
+                        },
+                        {
+                            "Character": "BARBARA",
+                            "Line": "Be careful, Susan."
+                        },
+                        {
+                            "Stage Direction": "Susan stops, screams No! and collapses next to the Doctor."
+                        },
+                        {
+                            "Character": "IAN",
+                            "Line": "She's fainted. But she was all right a minute ago."
+                        },
+                        {
+                            "Character": "BARBARA",
+                            "Line": "Yes, and a while before that, you were all unconscious."
+                        },
+                        {
+                            "Character": "IAN",
+                            "Line": "What's going on here?"
+                        },
+                        {
+                            "Character": "BARBARA",
+                            "Line": "He's beginning to stir. Take the girl and put her to bed."
+                        },
+                        {
+                            "Stage Direction": "Ian hauls Susan up and over his shoulder."
+                        },
+                        {
+                            "Character": "IAN",
+                            "Line": "If anything happens, let me know."
+                        },
+                        {
+                            "Character": "BARBARA",
+                            "Line": "Well, what could happen?"
+                        },
+                        {
+                            "Character": "IAN",
+                            "Line": "I don't know."
+                        },
+                        {
+                            "Stage Direction": "Ian leaves, carrying Susan."
+                        },
+                        {
+                            "Character": "BARBARA",
+                            "Line": "How are you?"
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "My head."
+                        },
+                        {
+                            "Character": "BARBARA",
+                            "Line": "You cut your forehead, but you'll be all right."
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "It hurts here."
+                        },
+                        {
+                            "Character": "BARBARA",
+                            "Line": "Where? Show me. I can't see anything. There's no bump or bruise or anything."
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "No, I was hit on the back of the neck."
+                        }
+                    ]
+                },
+                {
+                    "Scene": "Room",
+                    "Dialogue": [
+                        {
+                            "Stage Direction": "Ian lets an S shaped recliner down from the wall and puts Susan on it."
+                        },
+                        {
+                            "Character": "IAN",
+                            "Line": "Water."
+                        },
+                        {
+                            "Stage Direction": "He goes to the dispenser."
+                        },
+                        {
+                            "Character": "IAN",
+                            "Line": "Empty?"
+                        },
+                        {
+                            "Stage Direction": "Removes a sachet from the slot."
+                        },
+                        {
+                            "Character": "IAN",
+                            "Line": "All right."
+                        },
+                        {
+                            "Stage Direction": "He puts some of the water on his handkerchief and goes back to Susan. She is sitting up and holding a pair of scissors."
+                        },
+                        {
+                            "Character": "IAN",
+                            "Line": "What are you doing?"
+                        },
+                        {
+                            "Character": "SUSAN",
+                            "Line": "No. Who are you?"
+                        },
+                        {
+                            "Character": "IAN",
+                            "Line": "Susan. You don't need that."
+                        },
+                        {
+                            "Stage Direction": "He reaches for the knife, and she stabs at him, then, groaning in pain, repeatedly stabs the recliner instead before collapsing again."
+                        },
+                        {
+                            "Stage Direction": "The Doctor is sitting on a bench by the wall, and the scissors are on a table."
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "No, no, the ship must have stopped and put us down somewhere."
+                        },
+                        {
+                            "Character": "BARBARA",
+                            "Line": "But where? Where are we?"
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "Oh, all these questions, Miss Wright. Please."
+                        },
+                        {
+                            "Character": "BARBARA",
+                            "Line": "You don't know, do you? You're just guessing, aren't you?"
+                        }
+                    ]
+                },
+                {
+                    "Scene": "Tardis",
+                    "Dialogue": [
+                        {
+                            "Stage Direction": "Barbara goes back into the console room."
+                        },
+                        {
+                            "Character": "BARBARA",
+                            "Line": "Can we have some light in here?"
+                        },
+                        {
+                            "Character": "DOCTOR [OC]",
+                            "Line": "What for?"
+                        }
+                    ]
+                },
+                {
+                    "Scene": "Room",
+                    "Dialogue": [
+                        {
+                            "Character": "IAN",
+                            "Line": "Have you any idea where we are, Doctor?"
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "Where is not as important as why, young man. I must go and check the fault locator again."
+                        },
+                        {
+                            "Character": "IAN",
+                            "Line": "Everything's in a mess."
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "You didn't touch the controls, did you?"
+                        },
+                        {
+                            "Character": "IAN",
+                            "Line": "No."
+                        }
+                    ]
+                },
+                {
+                    "Scene": "Tardis",
+                    "Dialogue": [
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "Or you?"
+                        },
+                        {
+                            "Stage Direction": "Barbara glares at him and goes into the room."
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "I know Susan wouldn't. I'm worried about that child. Temporary lapse of memory."
+                        }
+                    ]
+                },
+                {
+                    "Scene": "Room",
+                    "Dialogue": [
+                        {
+                            "Character": "BARBARA",
+                            "Line": "I was thinking."
+                        },
+                        {
+                            "Character": "IAN",
+                            "Line": "Yes?"
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "Well, yes, yes, anything may help."
+                        },
+                        {
+                            "Character": "BARBARA",
+                            "Line": "Do you think something could have got into the ship?"
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "No, no, no."
+                        },
+                        {
+                            "Character": "BARBARA",
+                            "Line": "When the doors were open?"
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "No, it's ridiculous."
+                        },
+                        {
+                            "Character": "IAN",
+                            "Line": "What do you mean? An animal, or a man or something?"
+                        },
+                        {
+                            "Character": "BARBARA",
+                            "Line": "Yes."
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "It's not very logical, is it?"
+                        },
+                        {
+                            "Character": "BARBARA",
+                            "Line": "Or another intelligence."
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "Well, as I said, it's not very logical."
+                        },
+                        {
+                            "Character": "BARBARA",
+                            "Line": "No, it isn't. But does it have to be? I mean, things aren't always very logical, are they? It's just that one's been through so much, I've"
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "I've been very patient with you, Miss Wright, and really, there's no more time for these absurd theories."
+                        },
+                        {
+                            "Character": "IAN",
+                            "Line": "Probably a mechanical fault."
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "Yes, or electric."
+                        }
+                    ]
+                },
+                {
+                    "Scene": "Tardis",
+                    "Dialogue": [
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "It may even be the main unit. I don't know. I'm very worried about it all. Young man, I think you'll have to help me with that fault locator now that Susan's been put out of action."
+                        },
+                        {
+                            "Character": "IAN",
+                            "Line": "Yes, yes, of course I will."
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "Thank you. It won't take us long."
+                        },
+                        {
+                            "Character": "IAN",
+                            "Line": "I wouldn't go near the control column if I were you, Doctor. It might give you an electric shock."
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "Yes, well, perhaps it would be wiser to check the fault locator first. I'm glad I thought of that. Yes, come along. Come along."
+                        },
+                        {
+                            "Character": "IAN",
+                            "Line": "Barbara."
+                        },
+                        {
+                            "Character": "BARBARA",
+                            "Line": "Keep an eye on Susan?"
+                        },
+                        {
+                            "Character": "IAN",
+                            "Line": "Yes. Don't tell her about something being in the ship."
+                        },
+                        {
+                            "Stage Direction": "Susan overhears this conversation while sneaking out to get the scissors."
+                        },
+                        {
+                            "Character": "BARBARA",
+                            "Line": "No, of course not."
+                        },
+                        {
+                            "Character": "IAN",
+                            "Line": "You know, the less said, the better, eh?"
+                        },
+                        {
+                            "Character": "DOCTOR [OC]",
+                            "Line": "Chesterton!"
+                        },
+                        {
+                            "Character": "IAN",
+                            "Line": "Coming. Coming."
+                        },
+                        {
+                            "Stage Direction": "At the fault locator panel, the Doctor is leaning against the wall."
+                        },
+                        {
+                            "Character": "IAN",
+                            "Line": "Are you all right?"
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "Oh yes, these numbers keep blurring before my eyes, that's all."
+                        },
+                        {
+                            "Character": "IAN",
+                            "Line": "What can I do to help?"
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "Well if you wouldn't mind standing in front of that indicator and what you will see will be a series of numbers."
+                        }
+                    ]
+                },
+                {
+                    "Scene": "Room",
+                    "Dialogue": [
+                        {
+                            "Character": "BARBARA",
+                            "Line": "You're awake now. How are you feeling? Susan? You do remember who I am, don't you?"
+                        },
+                        {
+                            "Character": "SUSAN",
+                            "Line": "Of course I do. You're Barbara."
+                        },
+                        {
+                            "Stage Direction": "Barbara puts a fresh moist towel on her forehead."
+                        },
+                        {
+                            "Character": "SUSAN",
+                            "Line": "Why?"
+                        },
+                        {
+                            "Character": "BARBARA",
+                            "Line": "Hmm?"
+                        },
+                        {
+                            "Character": "SUSAN",
+                            "Line": "There's nothing wrong with me."
+                        },
+                        {
+                            "Character": "BARBARA",
+                            "Line": "No, you're, you just need a rest, that's all."
+                        },
+                        {
+                            "Character": "SUSAN",
+                            "Line": "Where's Grandfather?"
+                        },
+                        {
+                            "Character": "BARBARA",
+                            "Line": "He's checking the controls with Ian."
+                        },
+                        {
+                            "Character": "SUSAN",
+                            "Line": "Have they found out what's wrong with the ship?"
+                        },
+                        {
+                            "Character": "BARBARA",
+                            "Line": "Ian thinks there was a power failure."
+                        },
+                        {
+                            "Character": "SUSAN",
+                            "Line": "Why did you ask me if I knew who you were?"
+                        },
+                        {
+                            "Character": "BARBARA",
+                            "Line": "Susan, why don't you give me those scissors? Give them to me. Susan, what's all this about?"
+                        },
+                        {
+                            "Character": "SUSAN",
+                            "Line": "You said there'd been a power failure."
+                        },
+                        {
+                            "Character": "BARBARA",
+                            "Line": "No, I didn't. I said that's what Ian thinks."
+                        },
+                        {
+                            "Character": "SUSAN",
+                            "Line": "I overheard the two of you. There's something here in the ship and he doesn't want you to tell me."
+                        },
+                        {
+                            "Character": "BARBARA",
+                            "Line": "I see. You just overheard a couple of words and you"
+                        },
+                        {
+                            "Character": "SUSAN",
+                            "Line": "No! You lied to me."
+                        },
+                        {
+                            "Character": "BARBARA",
+                            "Line": "We wouldn't hurt you, Susan. Surely you know that?"
+                        },
+                        {
+                            "Stage Direction": "Susan threatens Barbara, but when she stretches out her arm, Barbara manages to get the scissors away from her."
+                        },
+                        {
+                            "Character": "SUSAN",
+                            "Line": "I never noticed the shadows before. It's so silent in the ship."
+                        },
+                        {
+                            "Character": "BARBARA",
+                            "Line": "Yes. Or we're imagining things. We must be. I mean, how would anything get into the ship, anyway?"
+                        },
+                        {
+                            "Character": "SUSAN",
+                            "Line": "The doors were open."
+                        },
+                        {
+                            "Character": "BARBARA",
+                            "Line": "Yes, but, but where would it hide?"
+                        },
+                        {
+                            "Character": "SUSAN",
+                            "Line": "In one of us."
+                        },
+                        {
+                            "Character": "BARBARA",
+                            "Line": "No. No. We must stop talking about this. I mean, can you imagine what the others would say if we told them? They'd simply laugh at us."
+                        },
+                        {
+                            "Character": "SUSAN",
+                            "Line": "Supposing there isn't a fault."
+                        },
+                        {
+                            "Character": "IAN",
+                            "Line": "You must be clairvoyant. We've just checked everything and it's all perfect. Which is fantastic. How are you feeling?"
+                        },
+                        {
+                            "Character": "SUSAN",
+                            "Line": "I'm all right."
+                        },
+                        {
+                            "Character": "IAN",
+                            "Line": "Good."
+                        },
+                        {
+                            "Character": "SUSAN",
+                            "Line": "What's my grandfather doing?"
+                        },
+                        {
+                            "Character": "IAN",
+                            "Line": "That's what I came to tell you both. He's decided that the only fault can be outside the ship. He's gone to turn on the scanner."
+                        },
+                        {
+                            "Character": "SUSAN",
+                            "Line": "No! No, he mustn't!"
+                        },
+                        {
+                            "Stage Direction": "She dashes into the console room."
+                        }
+                    ]
+                },
+                {
+                    "Scene": "Tardis",
+                    "Dialogue": [
+                        {
+                            "Character": "SUSAN",
+                            "Line": "Don't touch!"
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "Hmm? Are you all right, child?"
+                        },
+                        {
+                            "Character": "SUSAN",
+                            "Line": "Yes. Grandfather, I tried to touch it, and it was like being hit, but without any pain."
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "Hit where?"
+                        },
+                        {
+                            "Character": "SUSAN",
+                            "Line": "Well, the back of my neck hurt."
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "Yes, rather like mine."
+                        },
+                        {
+                            "Character": "IAN",
+                            "Line": "Funny, it didn't affect Barbara and me like that."
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "No, it didn't, did it? I must find out what's outside the ship, Susan. Stand close beside me, will you?"
+                        },
+                        {
+                            "Stage Direction": "He reaches forward carefully and flicks a switch."
+                        },
+                        {
+                            "Character": "SUSAN",
+                            "Line": "Nothing happened to you."
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "No, indeed."
+                        },
+                        {
+                            "Character": "BARBARA",
+                            "Line": "Why does he keep looking at us like that?"
+                        },
+                        {
+                            "Character": "SUSAN",
+                            "Line": "Hey, the scanner's working."
+                        },
+                        {
+                            "Stage Direction": "A pastoral scene and the sound of birds."
+                        },
+                        {
+                            "Character": "BARBARA",
+                            "Line": "That could be England."
+                        },
+                        {
+                            "Character": "SUSAN",
+                            "Line": "Oh, yes, I remember that."
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "That's very curious. That can't be what's outside the ship. This is a photograph."
+                        },
+                        {
+                            "Stage Direction": "The main doors open and a brilliant light bursts in, with a roaring sound."
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "Close the door, Susan!"
+                        },
+                        {
+                            "Character": "IAN",
+                            "Line": "I'll do it."
+                        },
+                        {
+                            "Stage Direction": "The door closes."
+                        },
+                        {
+                            "Character": "IAN",
+                            "Line": "Well I didn't touch it."
+                        },
+                        {
+                            "Character": "BARBARA",
+                            "Line": "There's another picture."
+                        },
+                        {
+                            "Character": "SUSAN",
+                            "Line": "Oh, I recognise that. That's where we nearly lost the Tardis, four or five journey's back."
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "Yes, the planet Quinnis, of the fourth universe."
+                        },
+                        {
+                            "Character": "SUSAN",
+                            "Line": "That's not outside either. That's a photograph."
+                        },
+                        {
+                            "Character": "IAN",
+                            "Line": "Can you explain it?"
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "Did I ever tell you that the ship has a memory bank, hmm?"
+                        },
+                        {
+                            "Stage Direction": "He sits in the chair."
+                        },
+                        {
+                            "Character": "SUSAN",
+                            "Line": "Yes, it records our journeys."
+                        },
+                        {
+                            "Character": "IAN",
+                            "Line": "No, I don't think so."
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "Are you sure? I thought I did."
+                        },
+                        {
+                            "Character": "SUSAN",
+                            "Line": "Hey, look."
+                        },
+                        {
+                            "Stage Direction": "A cratered planetoid, a sea of stars, and a flash of light then blank."
+                        },
+                        {
+                            "Character": "IAN",
+                            "Line": "Well, what's all that about?"
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "Oh, don't you know? I thought you might be able to explain it."
+                        },
+                        {
+                            "Character": "IAN",
+                            "Line": "Why me?"
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "Trying to confuse me, eh?"
+                        },
+                        {
+                            "Character": "IAN",
+                            "Line": "What are you getting at?"
+                        },
+                        {
+                            "Character": "BARBARA",
+                            "Line": "Look, why don't we just try and open the doors and see for ourselves what's outside?"
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "What is inside, madam, is most important at the moment."
+                        },
+                        {
+                            "Stage Direction": "They are now lined up across the console - Doctor and Susan versus Barbara and Ian."
+                        },
+                        {
+                            "Character": "BARBARA",
+                            "Line": "Inside?"
+                        },
+                        {
+                            "Character": "IAN",
+                            "Line": "But you've just been telling us that the only people inside are ourselves."
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "Precisely. I know now who's responsible. You are. You sabotaged my ship."
+                        },
+                        {
+                            "Character": "BARBARA",
+                            "Line": "We didn't even touch your ship."
+                        },
+                        {
+                            "Character": "IAN",
+                            "Line": "(overlapping) What are you talking about?"
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "You're the cause of this disaster. And you knocked both Susan and I unconscious."
+                        },
+                        {
+                            "Character": "BARBARA",
+                            "Line": "Don't be ridiculous. We were all knocked out."
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "A charade. You attacked us."
+                        },
+                        {
+                            "Character": "IAN",
+                            "Line": "Absolute nonsense."
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "And when we were lying helpless on the floor, you tampered with my controls."
+                        },
+                        {
+                            "Character": "IAN",
+                            "Line": "But you checked everything yourself and you couldn't find anything wrong with it."
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "No, sir. We checked everything. You and I."
+                        },
+                        {
+                            "Character": "BARBARA",
+                            "Line": "But why would we? For what reason?"
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "Blackmail, that's why. You tried to force me to return you to England."
+                        },
+                        {
+                            "Character": "BARBARA",
+                            "Line": "Oh, don't be so stupid."
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "I know it. I'm sure of it."
+                        },
+                        {
+                            "Character": "BARBARA",
+                            "Line": "How dare you! Do you realise, you stupid old man, that you'd have died in the Cave of Skulls if Ian hadn't made fire for you?"
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "Oh, I"
+                        },
+                        {
+                            "Character": "BARBARA",
+                            "Line": "And what about what we went through against the Daleks? Not just for us, but for you and Susan too. And all because you tricked us into going down to the city."
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "But I, I"
+                        },
+                        {
+                            "Character": "BARBARA",
+                            "Line": "Accuse us? You ought to go down on your hands and knees and thank us. But gratitude's the last thing you'll ever have, or any sort of common sense either."
+                        },
+                        {
+                            "Stage Direction": "Barbara walks away, then clutches her head and screams. There is a curious clockwork device on a plinth. Barbara rips off her own watch and throws it across the room, then collapses into the chair, sobbing. Ian and Susan look at their own watches."
+                        },
+                        {
+                            "Character": "IAN",
+                            "Line": "You can't blame us for this, Doctor. Where is he?"
+                        },
+                        {
+                            "Stage Direction": "The Doctor re-enters with four cups on a tray."
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "I've decided we need more time to think. We're all somewhat overwrought. Mister Chesterton. (offers the cups around) Miss Wright. Susan."
+                        },
+                        {
+                            "Character": "IAN",
+                            "Line": "I wish I could understand you, Doctor. One moment you're abusing us, and the next, you're playing the perfect butler."
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "A little nightcap to help us relax and sleep."
+                        },
+                        {
+                            "Character": "IAN",
+                            "Line": "If it is night. We have no way of telling now."
+                        },
+                        {
+                            "Character": "BARBARA",
+                            "Line": "I'm going to bed."
+                        },
+                        {
+                            "Stage Direction": "Barbara leaves."
+                        },
+                        {
+                            "Character": "SUSAN",
+                            "Line": "Make it up with her, Grandfather. Please do."
+                        },
+                        {
+                            "Stage Direction": "Susan leaves."
+                        },
+                        {
+                            "Character": "IAN",
+                            "Line": "Doctor, some very strange things are happening. I feel we're in a very dangerous position. This is no time for personal quarrels."
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "Meaning?"
+                        },
+                        {
+                            "Character": "IAN",
+                            "Line": "I think you should go and apologise to Barbara at once."
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "I'm afraid we have no time for codes and manners. And I certainly don't underestimate the dangers, if they exist. But I must have time to think. I must think. Rash action is worse than no action at all, hmm?"
+                        },
+                        {
+                            "Character": "IAN",
+                            "Line": "I don't see anything rash in apologising to Barbara."
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "Episode": "Episode Two - The Brink of Disaster",
+            "Scenes": [
+                {
+                    "Scene": "Tardis",
+                    "Dialogue": [
+                        {
+                            "Stage Direction": "The attacker is a staring-eyed Ian. The Doctor throws him off easily and he falls to the floor with a cry. Barbara comes out of the room too."
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "So, it was you?"
+                        },
+                        {
+                            "Character": "BARBARA",
+                            "Line": "Ian!"
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "It's no use pretending."
+                        },
+                        {
+                            "Character": "BARBARA",
+                            "Line": "Well, help him."
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "Help him? You saw him. You saw what he tried to do."
+                        },
+                        {
+                            "Character": "BARBARA",
+                            "Line": "But now he's fainted just like Susan did."
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "Susan didn't faint. It was you that told me she fainted and I very nearly believed you."
+                        },
+                        {
+                            "Character": "BARBARA",
+                            "Line": "Oh, what does it matter?"
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "Matter? Matter, young lady? He very nearly tried to strangle me."
+                        },
+                        {
+                            "Character": "BARBARA",
+                            "Line": "But he has fainted. Look at him."
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "Oh, he's play-acting."
+                        },
+                        {
+                            "Character": "BARBARA",
+                            "Line": "No, he isn't. Oh, Doctor, don't you see? Something terrible's happening to all of us."
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "Not to me. Nothing's happened to me. This is a plot between the two of you to get control of my ship."
+                        },
+                        {
+                            "Character": "BARBARA",
+                            "Line": "Oh, that isn't true."
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "Can't you see I've found you out? Why won't you admit it, hmm?"
+                        },
+                        {
+                            "Character": "SUSAN",
+                            "Line": "Yes. Why don't you?"
+                        },
+                        {
+                            "Character": "BARBARA",
+                            "Line": "Susan!"
+                        },
+                        {
+                            "Character": "SUSAN",
+                            "Line": "You've been behaving very strangely. Both of you."
+                        },
+                        {
+                            "Character": "BARBARA",
+                            "Line": "But."
+                        },
+                        {
+                            "Character": "SUSAN",
+                            "Line": "I think you're right, Grandfather."
+                        },
+                        {
+                            "Character": "BARBARA",
+                            "Line": "But you're wrong. I swear we haven't done anything."
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "I told you I'd treat you as enemies."
+                        },
+                        {
+                            "Character": "SUSAN",
+                            "Line": "No!"
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "There's no other way."
+                        },
+                        {
+                            "Character": "BARBARA",
+                            "Line": "Well what are you going to do?"
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "That is my business."
+                        },
+                        {
+                            "Character": "BARBARA",
+                            "Line": "Ian, wake up. For heaven's sake, wake up, Ian. Ian, Ian, help me."
+                        },
+                        {
+                            "Character": "IAN",
+                            "Line": "I, I, I"
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "There's no alternative. Your little trick endangered our lives."
+                        },
+                        {
+                            "Character": "SUSAN",
+                            "Line": "How did he get like this?"
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "Oh, it's all a charade."
+                        },
+                        {
+                            "Character": "BARBARA",
+                            "Line": "He went near the control panel."
+                        },
+                        {
+                            "Character": "SUSAN",
+                            "Line": "It did happen to me, Grandfather."
+                        },
+                        {
+                            "Character": "BARBARA",
+                            "Line": "Yes, you remember. You lost your memory. And there was this terrible pain at the back of your neck."
+                        },
+                        {
+                            "Character": "SUSAN",
+                            "Line": "Yes. Yes, that's true."
+                        },
+                        {
+                            "Character": "BARBARA",
+                            "Line": "What do you think we've done? Hypnotised you? Drugged you? Susan, we wouldn't do anything like that. Believe me."
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "I see. Divide and conquer, eh? She's trying to poison your mind against me."
+                        },
+                        {
+                            "Character": "IAN",
+                            "Line": "(suddenly sitting up) Don't touch it, Doctor! (and falling back again)"
+                        },
+                        {
+                            "Character": "SUSAN",
+                            "Line": "I do believe you. Grandfather, they couldn't have done all the things that happened."
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "Oh, yes, I admit they were very smart."
+                        },
+                        {
+                            "Character": "SUSAN",
+                            "Line": "No, it's not a question of being smart."
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "Don't you see I wouldn't allow them to hurt you, child? They're very resourceful and cunning, and it only leaves me one recourse. They must be put off the ship."
+                        },
+                        {
+                            "Character": "SUSAN",
+                            "Line": "No! You can't do that!"
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "I can and I must."
+                        },
+                        {
+                            "Character": "BARBARA",
+                            "Line": "But you can't open the doors."
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "Don't underestimate my powers, young lady."
+                        },
+                        {
+                            "Character": "SUSAN",
+                            "Line": "Look, Grandfather. You've no means of telling what's out there. There may be no air, it may be freezing, it may be too hot to exist."
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "Yes, or it might be the Earth in the 20th century. Hadn't it occurred to you? My ship is very valuable, remember?"
+                        },
+                        {
+                            "Character": "BARBARA",
+                            "Line": "Why are you so suspicious of us?"
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "Put yourself in my place, young lady, and you'd do precisely the same thing, wouldn't you? Hmm?"
+                        },
+                        {
+                            "Character": "IAN",
+                            "Line": "What are you two saying to each other?"
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "You're getting off the ship, Chesterton."
+                        },
+                        {
+                            "Character": "IAN",
+                            "Line": "Now?"
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "Yes. Now. Get up."
+                        },
+                        {
+                            "Character": "IAN",
+                            "Line": "You'll have to help me, Barbara."
+                        },
+                        {
+                            "Character": "BARBARA",
+                            "Line": "Yes."
+                        },
+                        {
+                            "Character": "IAN",
+                            "Line": "You'll have to help me, Barbara."
+                        },
+                        {
+                            "Character": "BARBARA",
+                            "Line": "Yes."
+                        },
+                        {
+                            "Character": "IAN",
+                            "Line": "I'll be all right when I get outside."
+                        },
+                        {
+                            "Character": "SUSAN",
+                            "Line": "Oh, Grandfather. He doesn't know what's happening. I won't let you do this."
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "If, of course, they'd like to confess to me what they have done to my ship, I may even change my mind."
+                        },
+                        {
+                            "Stage Direction": "A klaxon alarm sounds."
+                        },
+                        {
+                            "Character": "BARBARA",
+                            "Line": "What, what was that?"
+                        },
+                        {
+                            "Character": "SUSAN",
+                            "Line": "The danger signal."
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "The fault locator! The whole of it!"
+                        },
+                        {
+                            "Character": "IAN",
+                            "Line": "Oh, don't touch it, Doctor."
+                        },
+                        {
+                            "Character": "BARBARA",
+                            "Line": "It's all right."
+                        },
+                        {
+                            "Character": "IAN",
+                            "Line": "No. No, you'll get knocked out."
+                        },
+                        {
+                            "Character": "BARBARA",
+                            "Line": "It's all right, Ian."
+                        },
+                        {
+                            "Character": "SUSAN",
+                            "Line": "Grandfather, tell me."
+                        },
+                        {
+                            "Character": "BARBARA",
+                            "Line": "It's all right."
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "The whole area of the fault locator has just given us a warning."
+                        },
+                        {
+                            "Character": "SUSAN",
+                            "Line": "But everything can't be. Everything can't be wrong!"
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "That's what it means, child."
+                        },
+                        {
+                            "Stage Direction": "Ian grabs the back of Barbara's neck."
+                        },
+                        {
+                            "Character": "BARBARA",
+                            "Line": "No! Ian! Ian, it's all right. It's, it's all right. It's all right."
+                        },
+                        {
+                            "Character": "IAN",
+                            "Line": "I pulled you away. The controls are alive. (passes out)"
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "No, you mustn't be frightened of me. Not now, please. I can't explain, but I've just realised the danger we're in."
+                        },
+                        {
+                            "Character": "SUSAN",
+                            "Line": "It went off again, Grandfather."
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "Hurry. Look. We must pull him round. You see that panel up there? You've heard me refer to it? The fault locator?"
+                        },
+                        {
+                            "Character": "BARBARA",
+                            "Line": "Yes."
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "If one small piece of apparatus fails, a little bulb illuminates and tells me precisely where the fault is. Can you imagine what would happen if the whole of it lights up? Hmm? It means that the ship is on the point of disintegration. You're not to blame. All four of us are to blame!"
+                        },
+                        {
+                            "Character": "IAN",
+                            "Line": "Oh, you're all right. That drink you gave us."
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "Oh, a mere harmless sleeping drug."
+                        },
+                        {
+                            "Character": "IAN",
+                            "Line": "I thought so."
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "Yes, you rather suspected I was up to some mischief."
+                        },
+                        {
+                            "Character": "IAN",
+                            "Line": "Yes. And I told you not to go near the control column. I told you you'll electrocute yourself."
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "I'm afraid I must have misjudged you both."
+                        },
+                        {
+                            "Character": "SUSAN",
+                            "Line": "Fifteen seconds. It's happening every fifteen seconds."
+                        },
+                        {
+                            "Character": "BARBARA",
+                            "Line": "But all the clock are"
+                        },
+                        {
+                            "Character": "SUSAN",
+                            "Line": "I counted."
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "Well please go on counting. Now both of you listen. Can you concentrate?"
+                        },
+                        {
+                            "Character": "IAN",
+                            "Line": "Yes, I think I'm all right."
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "We're on the brink of destruction, so all four of us must work closely together. We must find out where we are and what is happening to my ship."
+                        },
+                        {
+                            "Character": "IAN",
+                            "Line": "Just a moment. Why did you say that, the brink of destruction?"
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "There's a strong force at work somewhere, which is threatening my ship. It's so strong that every piece of equipment can be out of action at the same time."
+                        },
+                        {
+                            "Character": "IAN",
+                            "Line": "What? Total disintegration?"
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "Precisely. We haven't crash-landed, otherwise I would have discovered that immediately. And I don't believe there's an evil intelligence in the ship. Just at the same token, I don't really believe that you, either of you, have been the cause of this trouble."
+                        },
+                        {
+                            "Character": "IAN",
+                            "Line": "Well, what is, then?"
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "I don't know, but we must find out."
+                        },
+                        {
+                            "Character": "IAN",
+                            "Line": "Yes, but how long have we got?"
+                        },
+                        {
+                            "Character": "SUSAN",
+                            "Line": "It's definitely every quarter of a minute."
+                        },
+                        {
+                            "Character": "IAN",
+                            "Line": "Well what does that prove?"
+                        },
+                        {
+                            "Character": "BARBARA",
+                            "Line": "That we have a measure of time as long as it lasts. Yes, of course. That explains the clock face. We had time taken away from us, and now it's being given back to us because it's running out."
+                        },
+                        {
+                            "Stage Direction": "The ship shakes."
+                        },
+                        {
+                            "Character": "SUSAN",
+                            "Line": "The column."
+                        },
+                        {
+                            "Stage Direction": "Goes up and down once, with no sound."
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "But, it's impossible."
+                        },
+                        {
+                            "Character": "IAN",
+                            "Line": "Doctor, I thought it only moved when the power was on."
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "Yes. The heart of the machine is under the column."
+                        },
+                        {
+                            "Character": "IAN",
+                            "Line": "Well what made it move?"
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "The source of power. You see, when the column rises, it proves the extent of the power thrust."
+                        },
+                        {
+                            "Character": "BARBARA",
+                            "Line": "Then what would have happened if the column had come out completely?"
+                        },
+                        {
+                            "Character": "SUSAN",
+                            "Line": "Well, the power would be free to escape."
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "Can it be possible then, that this is the end?"
+                        },
+                        {
+                            "Character": "IAN",
+                            "Line": "The end? What are you talking about?"
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "We have ten minutes to survive."
+                        },
+                        {
+                            "Character": "BARBARA",
+                            "Line": "Ten minutes? As little as that?"
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "Maybe less."
+                        },
+                        {
+                            "Character": "IAN",
+                            "Line": "Be careful, Doctor."
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "Oh, it's quite safe here. This is where I stood when I tried the scanner switch."
+                        },
+                        {
+                            "Character": "BARBARA",
+                            "Line": "Yes. Yes. Why is that part safe?"
+                        },
+                        {
+                            "Character": "SUSAN",
+                            "Line": "We'll never stop it in time!"
+                        },
+                        {
+                            "Character": "BARBARA",
+                            "Line": "Don't, Susan. Please don't."
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "I don't know even where to begin, Chesterton. If only I had a clue."
+                        },
+                        {
+                            "Character": "BARBARA",
+                            "Line": "I think. I think, perhaps, we've been given nothing else but clues."
+                        },
+                        {
+                            "Character": "IAN",
+                            "Line": "Have we? Like the food machine, you mean."
+                        },
+                        {
+                            "Character": "BARBARA",
+                            "Line": "Yes."
+                        },
+                        {
+                            "Character": "IAN",
+                            "Line": "It registered empty, but it wasn't."
+                        },
+                        {
+                            "Character": "BARBARA",
+                            "Line": "But the clock is the most important. It made us aware of time."
+                        },
+                        {
+                            "Character": "SUSAN",
+                            "Line": "By taking time away from us."
+                        },
+                        {
+                            "Character": "BARBARA",
+                            "Line": "Yes. And it replaced time by the light on the fault locator."
+                        },
+                        {
+                            "Character": "IAN",
+                            "Line": "Yes, it did."
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "It? It? What do you mean? My machine can't think."
+                        },
+                        {
+                            "Character": "BARBARA",
+                            "Line": "You say it has a built-in defence mechanism?"
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "Yes, it has."
+                        },
+                        {
+                            "Character": "BARBARA",
+                            "Line": "Well that's where we've been wrong. Originally, the machine wasn't at fault, we were. And it's been trying to tell us so ever since."
+                        },
+                        {
+                            "Character": "IAN",
+                            "Line": "A machine that can think for itself?"
+                        },
+                        {
+                            "Character": "BARBARA",
+                            "Line": "Yes."
+                        },
+                        {
+                            "Character": "IAN",
+                            "Line": "Is that feasible, Doctor?"
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "Oh, think not as you or I do, but it must be able to think as a machine. You see, it has a bank of computers."
+                        },
+                        {
+                            "Character": "BARBARA",
+                            "Line": "You say the power is under this column?"
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "Yes."
+                        },
+                        {
+                            "Character": "BARBARA",
+                            "Line": "And the column holds it down."
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "Yes."
+                        },
+                        {
+                            "Character": "BARBARA",
+                            "Line": "Well, then, what would make it want to escape?"
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "I've been racking my brains. I don't know."
+                        },
+                        {
+                            "Character": "IAN",
+                            "Line": "Something outside?"
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "Yes, possible."
+                        },
+                        {
+                            "Character": "IAN",
+                            "Line": "A magnetic force?"
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "Well, it would have to be a gigantic one. A one as strong as a solar system."
+                        },
+                        {
+                            "Stage Direction": "Another bang and shake."
+                        },
+                        {
+                            "Character": "BARBARA",
+                            "Line": "You see? The machine's been warning us all along. All those blackouts we had."
+                        },
+                        {
+                            "Character": "SUSAN",
+                            "Line": "Yes. But only if anybody went near the control column."
+                        },
+                        {
+                            "Character": "BARBARA",
+                            "Line": "Yes."
+                        },
+                        {
+                            "Character": "IAN",
+                            "Line": "But it could be the power escaping."
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "No, no, it couldn't. If you felt the power, dear boy, you wouldn't live to speak of it. You'd be blown to atoms in a split second."
+                        },
+                        {
+                            "Character": "SUSAN",
+                            "Line": "Besides, it's the part of it that's safe."
+                        },
+                        {
+                            "Character": "BARBARA",
+                            "Line": "Yes. The scanner. I wonder."
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "We'll try it, but we're clutching at straws. Come."
+                        },
+                        {
+                            "Stage Direction": "Another bang and shake."
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "Now, Susan, and you, young lady, should those doors open again, I want you to be standing by them, and tell me whatever it is you see outside, understand?"
+                        },
+                        {
+                            "Stage Direction": "Susan and Barbara go to the door, the Doctor beckons Ian to him."
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "I lied, deliberately, so that they won't know."
+                        },
+                        {
+                            "Character": "IAN",
+                            "Line": "Won't know what?"
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "We have five minutes only. When the end does come, they won't know anything about it."
+                        },
+                        {
+                            "Character": "IAN",
+                            "Line": "There's no hope, then."
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "I can't see any. Will you face it with me?"
+                        },
+                        {
+                            "Character": "SUSAN",
+                            "Line": "What are you two talking about?"
+                        },
+                        {
+                            "Character": "IAN",
+                            "Line": "Oh, just a theory of mine that didn't work."
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "Yes, we must solve this problem, you know. We must."
+                        },
+                        {
+                            "Stage Direction": "The countryside picture is back on the scanner. The doors open onto a dazzling light."
+                        },
+                        {
+                            "Character": "SUSAN",
+                            "Line": "There's nothing there. Nothing. Nothing. Nothing but space."
+                        },
+                        {
+                            "Character": "BARBARA",
+                            "Line": "It's all right, Susan."
+                        },
+                        {
+                            "Stage Direction": "The scanner shows a jungle."
+                        },
+                        {
+                            "Character": "IAN",
+                            "Line": "Barbara could be right, Doctor."
+                        },
+                        {
+                            "Character": "BARBARA",
+                            "Line": "I am right. I know I am. Whenever there's a good picture, the doors open because it's safe for us to go outside. And then it shows us a terrible picture and the doors close again."
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "Yes, then we have the sequence. A planet, a planet in the solar system, getting further away. Blinding flash. Destruction. Yes, of course. It's our journey."
+                        },
+                        {
+                            "Character": "BARBARA",
+                            "Line": "And the ship refused to destroy itself."
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "Yes. Yes!"
+                        },
+                        {
+                            "Character": "BARBARA",
+                            "Line": "The defence mechanism stopped the ship, and it's been trying to tell us so ever since!"
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "Of course. Of course!"
+                        },
+                        {
+                            "Stage Direction": "Another big shake, and the lights dim."
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "I know. I know. I said it would take the force of a total solar system to attract the power away from my ship. We're at the very beginning, the new start of a solar system. Outside, the atoms are rushing towards each other. Fusing, coagulating, until minute little collections of matter are created. And so the process goes on, and on until dust is formed. Dust then becomes solid entity. A new birth, of a sun and its planets."
+                        },
+                        {
+                            "Character": "IAN",
+                            "Line": "But, Doctor, where are we? When we left the planet Skaro, where did you ask the machine to take us to? Think, Doctor!"
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "I, er, had hoped to reach your planet Earth. Skaro was in the future and I used the fast return switch."
+                        },
+                        {
+                            "Character": "IAN",
+                            "Line": "The fast return switch? You've sent us back too far. Doctor, show me. Show me that switch. Where is it?"
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "Well, I can't very well see it without a light, can I?"
+                        },
+                        {
+                            "Character": "SUSAN",
+                            "Line": "It's near the scanner switch."
+                        },
+                        {
+                            "Character": "BARBARA",
+                            "Line": "Really? But that's the part of the control that's safe."
+                        },
+                        {
+                            "Character": "SUSAN",
+                            "Line": "Yes."
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "Strange."
+                        },
+                        {
+                            "Character": "IAN",
+                            "Line": "Doctor, we haven't got very much time left."
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "Yes, I see. Here it is. (pulls a small torch from his pocket) Here, you see? Now, look, there's the switch. You see?"
+                        },
+                        {
+                            "Character": "IAN",
+                            "Line": "Yes, well how does it work?"
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "Well, you merely press it down, and. It's stuck. It hasn't released itself!"
+                        },
+                        {
+                            "Character": "IAN",
+                            "Line": "What? You mean it's been on all this time?"
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "Yes, it must have been."
+                        },
+                        {
+                            "Character": "IAN",
+                            "Line": "Well, come on, Doctor. Let's get it unstuck."
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "Hold that. Yes, just a minute now. Yes, there you are, you see?"
+                        },
+                        {
+                            "Character": "IAN",
+                            "Line": "What's wrong?"
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "The spring's not connecting. It's come off the base."
+                        },
+                        {
+                            "Character": "IAN",
+                            "Line": "Hurry, Doctor, hurry."
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "There we are. Take it out. Now, luckily we can turn it over and now it should work. There. Ah, that's all right."
+                        },
+                        {
+                            "Stage Direction": "The lights come back and the Tardis returns to normal."
+                        },
+                        {
+                            "Character": "SUSAN",
+                            "Line": "We're safe now."
+                        },
+                        {
+                            "Character": "BARBARA",
+                            "Line": "Are you sure?"
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "Yes, we can all relax. We're quite safe now. But it was a narrow squeak."
+                        },
+                        {
+                            "Character": "SUSAN",
+                            "Line": "Grandfather?"
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "Yes, my child?"
+                        },
+                        {
+                            "Character": "SUSAN",
+                            "Line": "What happened?"
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "What happened? It was the switch. It was still in place. You see, there's a little spring inside it and it was stuck. It hadn't released itself."
+                        },
+                        {
+                            "Character": "SUSAN",
+                            "Line": "But why didn't the fault locator tell us?"
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "Well, the switch hadn't broken down, therefore the fault locator couldn't give us any recognition. You see, let me give you a demonstration. (using his torch) Now, look, when I put my thumb on there, the light comes on. And it only stays on so long as my thumb is pressing that switch. As soon as I take if off, a little spring inside releases the switch here and out goes the light."
+                        },
+                        {
+                            "Character": "SUSAN",
+                            "Line": "Oh, I see. So if the spring were broken, it would be as if your finger were pressing it down all the time."
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "Precisely. As simple as that. You know, my dear child, I think your old grandfather is going a tiny little bit around the bend. Well, I think you were very brave and I was proud of you."
+                        },
+                        {
+                            "Character": "SUSAN",
+                            "Line": "Grandfather? What about them? You said some terrible things to them. When I thought he was going to attack you, even I was against him."
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "Yes, I, I, er, well"
+                        },
+                        {
+                            "Character": "IAN",
+                            "Line": "Don't bother to say anything, Doctor. You know there are times when I can read every thought on your face."
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "Really? And I always thought that you were a young man without any recrimination in you. Well, as for you, young lady, well, you were absolutely right. It was your instinct and intuition against my logic, and you succeeded. I mean, the blackouts, and the still pictures and the clock. Well, you read a story into all these things and were determined to hold on to it. We all owe you our lives."
+                        },
+                        {
+                            "Character": "BARBARA",
+                            "Line": "I, I"
+                        },
+                        {
+                            "Stage Direction": "Barbara leaves."
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "You know, I really believe I have underestimated that young lady in the past, Chartow. Well now, we can all start again, eh? Yes, we can. Yes. But which? Hmm? What are you laughing at, dear boy? Oh, really, you are"
+                        },
+                        {
+                            "Stage Direction": "The Doctor mumbles to himself and starts the Tardis off on another journey."
+                        }
+                    ]
+                },
+                {
+                    "Scene": "Room",
+                    "Dialogue": [
+                        {
+                            "Stage Direction": "Much later. Barbara is in day clothes and still sulking."
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "I'd like to talk to you, if I may. We've landed on a planet and the air is good, but it's rather cold outside."
+                        },
+                        {
+                            "Character": "BARBARA",
+                            "Line": "Susan told me."
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "Yes, you haven't forgiven me, have you."
+                        },
+                        {
+                            "Character": "BARBARA",
+                            "Line": "You said terrible things to us."
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "Yes, I suppose it's the injustice that's upsetting you, and when I made a threat to put you off the ship it must have affected you very deeply."
+                        },
+                        {
+                            "Character": "BARBARA",
+                            "Line": "What do you care what I think or feel?"
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "As we learn about each other, so we learn about ourselves."
+                        },
+                        {
+                            "Character": "BARBARA",
+                            "Line": "Perhaps."
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "Oh, yes. Because I accused you unjustly, you were determined to prove me wrong. So, you put your mind to the problem and, luckily, you solved it."
+                        },
+                        {
+                            "Character": "SUSAN",
+                            "Line": "Grandfather, we're going out now."
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "Oh, please, yes. Do open the doors, will you?"
+                        },
+                        {
+                            "Character": "SUSAN",
+                            "Line": "Are you coming?"
+                        },
+                        {
+                            "Character": "BARBARA",
+                            "Line": "Yes."
+                        },
+                        {
+                            "Character": "SUSAN",
+                            "Line": "Good."
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "Oh, by the way, Susan has left you some wearing apparel for outside. You know, we have a very extensive wardrobe here."
+                        },
+                        {
+                            "Character": "BARBARA",
+                            "Line": "Yes, she gave me these."
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "Yes, I think they're rather charming. We must look after you, you know. You're very valuable. Yes."
+                        },
+                        {
+                            "Stage Direction": "He helps her on with the coat, and offers his arm."
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "Shall we go?"
+                        }
+                    ]
+                },
+                {
+                    "Scene": "Tardis",
+                    "Dialogue": [
+                        {
+                            "Stage Direction": "Ian has donned an Ulster coat, and Susan is in boots and jacket."
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "Oh, good taste."
+                        },
+                        {
+                            "Character": "IAN",
+                            "Line": "Hello."
+                        },
+                        {
+                            "Character": "BARBARA",
+                            "Line": "Very chic."
+                        },
+                        {
+                            "Character": "SUSAN",
+                            "Line": "Look, snow!"
+                        },
+                        {
+                            "Stage Direction": "And throws some at them. Barbara chases after her."
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "Well, I think that's absolutely splendid, Chesterton. Yes, it suits you."
+                        },
+                        {
+                            "Character": "IAN",
+                            "Line": "Yes."
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "Always a trifle too big for me. You know, I acquired that ulster from Gilbert and Sullivan."
+                        },
+                        {
+                            "Character": "IAN",
+                            "Line": "Oh, really? I thought it was made for two. Well, shall we join the ladies, Doctor?"
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "Yes, why not. SUSAN [on scanner]: Grandfather, look."
+                        }
+                    ]
+                },
+                {
+                    "Scene": "Snowfield",
+                    "Dialogue": [
+                        {
+                            "Character": "SUSAN",
+                            "Line": "Look at this huge footprint. It must have been made by a giant."
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

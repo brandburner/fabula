@@ -1,0 +1,187 @@
+{
+  "metadata": {
+    "title": "Nightmare of Eden",
+    "series": "Doctor Who",
+    "season": "17",
+    "episode_number": 4,
+    "release_date": "1979-11-24",
+    "release_end_date": "1979-12-15",
+    "writer": "Bob Baker",
+    "director": "Alan Bromly",
+    "producer": "Graham Williams",
+    "main_actors": [
+      "Tom Baker",
+      "Lalla Ward",
+      "David Brierley",
+      "Lewis Fiander",
+      "David Daker",
+      "Geoffrey Bateman",
+      "Jennifer Lonsdale"
+    ],
+    "time_reference": "2116"
+  },
+  "cast_crew": [
+    {
+      "cast": {
+        "name": "Tom Baker",
+        "role": "actor"
+      },
+      "crew": {
+        "name": "Alan Bromly",
+        "role": "director"
+      }
+    },
+    {
+      "cast": {
+        "name": "Lalla Ward",
+        "role": "actor"
+      },
+      "crew": {
+        "name": "Graham Williams",
+        "role": "uncredited director"
+      }
+    },
+    {
+      "cast": {
+        "name": "David Brierley",
+        "role": "actor"
+      },
+      "crew": {
+        "name": "Graham Williams",
+        "role": "producer"
+      }
+    },
+    {
+      "cast": {
+        "name": "Lewis Fiander",
+        "role": "actor"
+      },
+      "crew": {
+        "name": "Bob Baker",
+        "role": "writer"
+      }
+    },
+    {
+      "cast": {
+        "name": "David Daker",
+        "role": "actor"
+      },
+      "crew": {
+        "name": "Douglas Adams",
+        "role": "script editor"
+      }
+    },
+    {
+      "cast": {
+        "name": "Geoffrey Bateman",
+        "role": "actor"
+      },
+      "crew": {
+        "name": "John Nathan-Turner",
+        "role": "production unit manager"
+      }
+    },
+    {
+      "cast": {
+        "name": "Jennifer Lonsdale",
+        "role": "actor"
+      },
+      "crew": {
+        "name": "Dudley Simpson",
+        "role": "incidental music"
+      }
+    }
+  ],
+  "home_media": [
+    {
+      "releases": {
+        "media_type": "VHS",
+        "date": "1999",
+        "special_features": []
+      }
+    },
+    {
+      "releases": {
+        "media_type": "DVD",
+        "date": "2012-04",
+        "details": "Region 2, May 2012 for Regions 1 and 4",
+        "special_features": [
+          "Commentary with actors Lalla Ward and Peter Craze, writer Bob Baker",
+          "The Nightmare of Television Centre - A look back at a somewhat troubled production",
+          "Going Solo - Writer Bob Baker talks about The Nightmare of Eden",
+          "The Doctor's Strange Love - With comedian Josie Long and writers Joe Lidster and Simon Guerrier",
+          "Ask Aspel - Lalla Ward's appearance on the popular BBC children's show",
+          "Radio Times Listings (DVD-ROM)",
+          "Production Information Subtitles",
+          "Photo Gallery",
+          "Coming Soon Trailer - Ace Adventures"
+        ]
+      }
+    },
+    {}
+  ],
+  "story_notes": [
+    {
+      "notes": [
+        "Vraxoin was originally called 'xylophilin' or 'zip', but was changed to ensure it wasn't appealing to children.",
+        "This was the only Doctor Who story of the classic series that Bob Baker wrote without Dave Martin.",
+        "Graham Williams finished directing after Alan Bromly resigned.",
+        "Alan Bromly received credit despite resigning partway through production.",
+        "This serial featured model effects recorded on video rather than film for the first time in Doctor Who.",
+        "The production was notoriously difficult and marked the departure of both Graham Williams and Douglas Adams from the show."
+      ]
+    }
+  ],
+  "worldbuilding": {
+    "in_universe_mythology": [
+      "Galactic Salvage Insurance was formed in London in 2068 and liquidated in 2096.",
+      "Vraxoin is a fungus known for inducing apathy."
+    ],
+    "real_world_cultural_references": [
+      "The story was inspired by disaster films of the 1970s such as Airport, The Poseidon Adventure and The Towering Inferno."
+    ],
+    "individuals": [
+      "Vraxoin smugglers Tryst and Dymond serve as the main antagonists.",
+      "Major Stott from the Space Corps."
+    ],
+    "items": [
+      "Continuous Event Transmuter (CET) machine, capable of displacing entire planetary areas into crystals.",
+      "Enchooka laser for smuggling vraxoin."
+    ],
+    "locations": [
+      "Space liner Empress and the private ship, Hecate."
+    ]
+  },
+  "ratings": {
+    "ratings_millions": [
+      {
+        "part": "Part one",
+        "viewers": 8.7
+      },
+      {
+        "part": "Part two",
+        "viewers": 9.6
+      },
+      {
+        "part": "Part three",
+        "viewers": 9.6
+      },
+      {
+        "part": "Part four",
+        "viewers": 9.4
+      }
+    ]
+  },
+  "continuity": {
+    "continuity_notes": [
+      "The CET machine is reminiscent of the miniscope from Carnival of Monsters.",
+      "The Doctor and Romana arrive using the TARDIS randomizer.",
+      "Members of the Space Corps appear, previously seen in The Space Pirates."
+    ]
+  },
+  "plot": [
+    {
+      "plot_summary": "The TARDIS arrives on the space liner Empress, which is locked with the Hecate after a hyperspace collision. The Fourth Doctor and Romana discover a drug smuggling operation involving vraxoin, an addictive substance produced by the Mandrels. Using the Continuous Event Transmuter, which can displace entire areas from planets, scientist Tryst and pilot Dymond plan to smuggle the drug. The Doctor realizes that killing Mandrels produces vraxoin. After separating the ships and defeating Tryst and Dymond, who are arrested, the Doctor returns the Mandrels to Eden."
+    }
+  ]
+}

@@ -1,0 +1,201 @@
+{
+  "metadata": {
+    "title": "The Stones of Blood",
+    "series": "Doctor Who",
+    "season": "16",
+    "episode_number": 3,
+    "release_date": "28 October 1978",
+    "release_end_date": "18 November 1978",
+    "writer": "David Fisher",
+    "director": "Darrol Blake",
+    "producer": "Graham Williams",
+    "main_actors": [
+      "Tom Baker",
+      "Mary Tamm",
+      "John Leeson",
+      "Beatrix Lehmann",
+      "Susan Engel"
+    ],
+    "time_reference": "Cornwall, 1978"
+  },
+  "cast_crew": [
+    {
+      "cast": {
+        "name": "Tom Baker",
+        "role": "Doctor Who"
+      },
+      "uncredited_cast": {
+        "name": "Gerald Cross",
+        "role": "Voice of the Guardian"
+      },
+      "crew": {
+        "name": "David Fisher",
+        "role": "Writer"
+      }
+    },
+    {
+      "cast": {
+        "name": "Mary Tamm",
+        "role": "Romana"
+      },
+      "crew": {
+        "name": "Darrol Blake",
+        "role": "Director"
+      }
+    },
+    {
+      "cast": {
+        "name": "John Leeson",
+        "role": "Voice of K9"
+      },
+      "crew": {
+        "name": "Graham Williams",
+        "role": "Producer"
+      }
+    },
+    {
+      "cast": {
+        "name": "Beatrix Lehmann",
+        "role": "Professor Rumford"
+      },
+      "crew": {
+        "name": "Rupert Jarvis",
+        "role": "Costumes"
+      }
+    },
+    {
+      "cast": {
+        "name": "Susan Engel",
+        "role": "Vivien Fay"
+      },
+      "crew": {
+        "name": "Dudley Simpson",
+        "role": "Incidental Music"
+      }
+    },
+    {
+      "cast": {
+        "name": "Nicholas McArdle",
+        "role": "De Vries"
+      },
+      "crew": {
+        "name": "Ann Briggs",
+        "role": "Make-Up"
+      }
+    },
+    {
+      "cast": {
+        "name": "Elaine Ives-Cameron",
+        "role": "Martha"
+      },
+      "crew": {
+        "name": "Hubert Cartwright",
+        "role": "O.B. Lighting"
+      }
+    },
+    {
+      "cast": {
+        "name": "Gerald Cross",
+        "role": "Voice of Megara"
+      },
+      "crew": {
+        "name": "Liz Parker",
+        "role": "Special Sounds"
+      }
+    },
+    {
+      "cast": {
+        "name": "David McAlister",
+        "role": "Voice of Megara"
+      },
+      "crew": {
+        "name": "Mat Irvine",
+        "role": "Visual Effects"
+      }
+    }
+  ],
+  "home_media": [
+    {
+      "releases": {
+        "media_type": "DVD",
+        "date": "24 September 2007",
+        "details": "Included in The Key to Time boxed set",
+        "special_features": [
+          "Commentary by Mary Tamm and Darrol Blake",
+          "Getting Blood from the Stones featurette",
+          "Deleted Scenes",
+          "Blue Peter & Nationwide segments",
+          "Photo Gallery",
+          "Continuities"
+        ]
+      }
+    }
+  ],
+  "story_notes": [
+    {
+      "notes": [
+        "Third of six linked serials in season 16, known as The Key to Time.",
+        "This story had the working titles of The Nine Maidens and The Stones of Time.",
+        "It was the one hundredth Doctor Who story.",
+        "Originally, Vivien Fay was offered to Honor Blackman, then Maria Aitken, finally cast to Susan Engel.",
+        "The exteriors were videotaped rather than filmed due to dislike of medium discontinuity."
+      ]
+    }
+  ],
+  "worldbuilding": {
+    "in_universe_mythology": [
+      "The Key to Time",
+      "Ogri from Ogros in the Tau Ceti system"
+    ],
+    "real_world_cultural_references": [
+      "Based around real British stone circle mythology",
+      "Ogri named after ogres from fairytales"
+    ],
+    "individuals": [
+      "Professor Amelia Rumford",
+      "Vivien Fay",
+      "Leonard de Vries",
+      "Cessair of Diplos"
+    ],
+    "items": [
+      "The Great Seal of Diplos"
+    ],
+    "locations": [
+      "Boscombe Moor, Cornwall",
+      "Nine Travellers",
+      "Boscombe Hall"
+    ]
+  },
+  "ratings": {
+    "ratings_millions": [
+      {
+        "part": "part one",
+        "viewers": 8.6
+      },
+      {
+        "part": "part two",
+        "viewers": 6.6
+      },
+      {
+        "part": "part three",
+        "viewers": 9.3
+      },
+      {
+        "part": "part four",
+        "viewers": 7.6
+      }
+    ]
+  },
+  "continuity": {
+    "continuity_notes": [
+      "Continues the quest for the Key to Time segments.",
+      "Modified Ogri appear in PROSE: Legacy.",
+      "First appearance of Mary Tamm's Romana on Earth."
+    ]
+  },
+  "plot": [
+    {
+      "plot_summary": "The Fourth Doctor and Romana I arrive in Cornwall to locate the third segment of the Key to Time. They encounter stone circles and a Druidic cult. Vivien Fay is revealed to be the criminal Cessair of Diplos, who uses stones called Ogri to her advantage. The Doctor reveals her identity using justice machines, the Megara, which sentence her to be imprisoned as a stone. The Doctor retrieves the third segment of the Key, the Great Seal of Diplos."
+    }
+  ]
+}

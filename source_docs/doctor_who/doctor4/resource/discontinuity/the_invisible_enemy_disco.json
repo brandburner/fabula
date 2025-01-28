@@ -1,0 +1,115 @@
+{
+    "title": "The Invisible Enemy",
+    "air_date": "1 October 1977",
+    "num_episodes": 4,
+    "episode_titles": [
+        "Part One",
+        "Part Two",
+        "Part Three",
+        "Part Four"
+    ],
+    "episode_duration": 25,
+    "writers": [
+        "Bob Baker",
+        "Dave Martin"
+    ],
+    "directors": [
+        "Derrick Goodwin"
+    ],
+    "media_format": "Color",
+    "dialogue_triumphs": [],
+    "dialogue_disasters": [
+        "The Age of Man is over. The Age of the Virus has begun!"
+    ],
+    "goofs": [
+        "The clones of the Doctor and Leela should have been naked when created.",
+        "Leela's antibodies create a time paradox.",
+        "The Titan relief crew kills the men they are relieving rather than just infecting them.",
+        "The TARDIS's dimensional stabilizer conveniently fits into Marius' equipment.",
+        "There are guns without triggers or holes in the barrel.",
+        "Marius's operating room is clearly a TV studio with no roof.",
+        "The first shot of the Bi-Al Foundation shows damage later caused by the shuttle crash.",
+        "When K-9 blasts a chunk out of the wall, it's obviously a pre-cut segment.",
+        "Marius's willingness to part with K-9 contradicts his statement that the dog is his 'best friend'."
+    ],
+    "continuity_notes": [
+        {
+            "name": "Leela",
+            "type": "Character",
+            "description": "The Doctor's companion, learning to write and operate the TARDIS.",
+            "origin": null,
+            "current_status": "Learning new skills and assisting the Doctor"
+        },
+        {
+            "name": "TARDIS Control Room",
+            "type": "Location",
+            "description": "The white control room, referred to as 'the number two control room'.",
+            "origin": null,
+            "current_status": "Recently reopened after being 'closed for redecoration'"
+        },
+        {
+            "name": "The Doctor",
+            "type": "Character",
+            "description": "Time Lord from Gallifrey with unique physiological abilities.",
+            "origin": "Gallifrey",
+            "current_status": "Battling an alien virus, using self-induced cataleptic trance"
+        },
+        {
+            "name": "K-9",
+            "type": "Character",
+            "description": "Robotic dog created by Professor Marius as a personal data-bank and companion.",
+            "origin": "Created by Professor Marius",
+            "current_status": "Joining the Doctor and Leela as a new companion"
+        }
+    ],
+    "technobabble": [
+        "Professor Marius is said to be an expert in extraterrestrial pathological endomorphisms.",
+        "The Doctor has 'a symbiotic self-renewing cell structure'.",
+        "The Virus is noetic and therefore only detectable during consciousness, and feeds on 'intellectual activity'."
+    ],
+    "roots": [
+        "The human interior of Richard Fleischer's Fantastic Voyage",
+        "The robots of Silent Running and Star Wars",
+        "Quatermass II (the virus 'spawning' scenes)",
+        "The Andromeda Strain",
+        "C. S. Lewis' Out of the Silent Planet (humanity as plague)",
+        "James White's 'Sector General' stories (hospital in space with senior consultant and dog)",
+        "Late 60s/early 70s medical series like The Expert and Dr Finlay's Casebook",
+        "2001 (design)"
+    ],
+    "links": [
+        "The Hand of Fear",
+        "The Brain of Morbius",
+        "Planet of Giants",
+        "Logopolis",
+        "The Armageddon Factor",
+        "Planet of Fire",
+        "The Three Doctors",
+        "The War Games",
+        "The Talons of Weng-Chiang",
+        "The Moonbase"
+    ],
+    "locations": [
+        {
+            "name": "Titan",
+            "type": "Location",
+            "description": "A moon of Saturn with coordinates quadrant 62, WHI 1212 9990 EX 41.",
+            "origin": null,
+            "current_status": "Site of human activity in the year 5000"
+        },
+        {
+            "name": "Bi-Al Foundation",
+            "type": "Location",
+            "description": "The Centre for Alien-Biomorphology located in the asteroid belt on satellite K4067.",
+            "origin": null,
+            "current_status": "Active research facility in the year 5000"
+        }
+    ],
+    "future_history": "The story takes place 'at the time of the Great Break Out' of 5000 AD, when mankind 'went leapfrogging across the galaxy like a tidal wave, or a disease'. First successful cloning experiments were carried out in 3922.",
+    "untold_adventures": [],
+    "qv": [
+        "The Doctor's Doctorate, 'The Moonbase'"
+    ],
+    "additional_notes": "The episode introduces K-9, who becomes a recurring companion. The story explores concepts of cloning and miniaturization.",
+    "bottom_line": "An ambitious project which has the look of a grand folly due to budget constraints and the tongue-in-cheek script. Great model work is dwarfed by the weight of the story's faults. K-9 makes a quite impressive debut, though, as with many aspects of 'The Invisible Enemy', the ideas are better than the realisation."
+}

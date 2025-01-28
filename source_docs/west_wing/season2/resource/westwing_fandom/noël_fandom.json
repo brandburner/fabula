@@ -1,0 +1,143 @@
+{
+  "metadata": {
+    "title": "No\u00ebl",
+    "series": "The West Wing",
+    "season": "2",
+    "episode_number": 10,
+    "release_date": "20 December 2000",
+    "writer": "Aaron Sorkin, Peter Parnell",
+    "director": "Thomas Schlamme",
+    "main_actors": [
+      "Martin Sheen",
+      "Bradley Whitford",
+      "John Spencer",
+      "Allison Janney",
+      "Rob Lowe",
+      "Richard Schiff"
+    ],
+    "time_reference": "During the Christmas season"
+  },
+  "cast_crew": [
+    {
+      "cast": {
+        "name": "Bradley Whitford",
+        "role": "Josh Lyman"
+      },
+      "crew": {
+        "name": "Thomas Schlamme",
+        "role": "Director"
+      }
+    },
+    {
+      "cast": {
+        "name": "Martin Sheen",
+        "role": "President Bartlet"
+      },
+      "crew": {
+        "name": "Aaron Sorkin",
+        "role": "Writer"
+      }
+    },
+    {
+      "cast": {
+        "name": "John Spencer",
+        "role": "Leo McGarry"
+      },
+      "crew": {
+        "name": "Peter Parnell",
+        "role": "Writer"
+      }
+    },
+    {
+      "cast": {
+        "name": "Allison Janney",
+        "role": "C.J. Cregg"
+      },
+      "crew": {
+        "name": "Rick Cleveland",
+        "role": "Producer"
+      }
+    },
+    {
+      "cast": {
+        "name": "Rob Lowe",
+        "role": "Sam Seaborn"
+      },
+      "crew": {
+        "name": "Lawrence O'Donnell Jr.",
+        "role": "Producer"
+      }
+    },
+    {
+      "cast": {
+        "name": "Richard Schiff",
+        "role": "Toby Ziegler"
+      },
+      "crew": {
+        "name": "Patrick H. Caddell",
+        "role": "Producer"
+      }
+    }
+  ],
+  "home_media": [
+    {
+      "releases": {
+        "media_type": "DVD",
+        "date": "4 September 2007",
+        "details": "The West Wing: The Complete Second Season",
+        "special_features": [
+          "Commentary on selected episodes",
+          "The West Wing: Season Two highlight reel",
+          "Behind the scenes featurettes"
+        ]
+      }
+    }
+  ],
+  "story_notes": [
+    {
+      "notes": [
+        "The episode explores themes of trauma and recovery, particularly through Josh's character.",
+        "Josh's connection with the deceased pilot serves as a critical plot point illustrating PTSD."
+      ]
+    }
+  ],
+  "worldbuilding": {
+    "in_universe_mythology": [
+      "American Trauma Victims Association (ATVA)",
+      "Post-Traumatic Stress Disorder (PTSD)"
+    ],
+    "real_world_cultural_references": [
+      "Yo-Yo Ma's performance during the Congressional Christmas party"
+    ],
+    "individuals": [
+      "Dr. Stanley Keyworth"
+    ],
+    "items": [
+      "White House Christmas cards",
+      "Paintings displayed in the White House"
+    ],
+    "locations": [
+      "White House",
+      "Situation Room",
+      "Oval Office"
+    ]
+  },
+  "ratings": {
+    "ratings_millions": [
+      {
+        "part": "No\u00ebl",
+        "viewers": 8.2
+      }
+    ]
+  },
+  "continuity": {
+    "continuity_notes": [
+      "This episode reflects Josh Lyman's unresolved emotional trauma from the previous season's events."
+    ]
+  },
+  "plot": [
+    {
+      "plot_summary": "Christmas draws near as Josh is ordered by Leo to consult with a doctor specializing in trauma victims. Josh struggles with the emotional aftermath of his near-fatal injuries from the Presidential assassination attempt, and finds himself relating to a deceased fighter pilot who took his own life. Meanwhile, President Bartlet tries to manage an overwhelming number of Christmas cards, while pressures mount in various situations within the White House."
+    }
+  ]
+}

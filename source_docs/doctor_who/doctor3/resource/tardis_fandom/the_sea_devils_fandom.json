@@ -1,0 +1,202 @@
+{
+  "metadata": {
+    "title": "The Sea Devils",
+    "series": "Doctor Who",
+    "season": "9",
+    "release_date": "26 February 1972",
+    "release_end_date": "1 April 1972",
+    "writer": "Malcolm Hulke",
+    "director": "Michael Briant",
+    "producer": "Barry Letts",
+    "main_actors": [
+      "Jon Pertwee",
+      "Roger Delgado",
+      "Katy Manning",
+      "Edwin Richfield",
+      "Clive Morton",
+      "Royston Tickner"
+    ],
+    "time_reference": "20th century"
+  },
+  "cast_crew": [
+    {
+      "cast": {
+        "name": "Jon Pertwee",
+        "role": "Doctor"
+      },
+      "crew": {
+        "name": "Malcolm Hulke",
+        "role": "Writer"
+      }
+    },
+    {
+      "cast": {
+        "name": "Roger Delgado",
+        "role": "Master"
+      },
+      "crew": {
+        "name": "Michael Briant",
+        "role": "Director"
+      }
+    },
+    {
+      "cast": {
+        "name": "Katy Manning",
+        "role": "Jo Grant"
+      },
+      "crew": {
+        "name": "Barry Letts",
+        "role": "Producer"
+      }
+    },
+    {
+      "cast": {
+        "name": "Edwin Richfield",
+        "role": "Captain Hart"
+      },
+      "crew": {
+        "name": "Terrance Dicks",
+        "role": "Script Editor"
+      }
+    },
+    {
+      "cast": {
+        "name": "Clive Morton",
+        "role": "Trenchard"
+      },
+      "crew": {
+        "name": "Tony Snoaden",
+        "role": "Designer"
+      }
+    },
+    {
+      "cast": {
+        "name": "Royston Tickner",
+        "role": "Robbins"
+      },
+      "crew": {
+        "name": "Maggie Fletcher",
+        "role": "Costume Designer"
+      }
+    }
+  ],
+  "home_media": [
+    {
+      "releases": {
+        "media_type": "DVD",
+        "date": "2007",
+        "details": "Released as part of the Beneath the Surface collection.",
+        "special_features": [
+          "Commentary by Michael Briant, Barry Letts, and Terrance Dicks",
+          "Hello Sailor! documentary",
+          "8mm Film - Amateur cine film with commentary",
+          "Trails and Continuities",
+          "Isolated Music track",
+          "Radio Times Billings",
+          "Photo Gallery",
+          "Production Subtitles"
+        ]
+      }
+    },
+    {
+      "releases": {
+        "media_type": "VHS",
+        "date": "1991",
+        "details": "Released in episodic format.",
+        "special_features": []
+      }
+    },
+    {
+      "releases": {
+        "media_type": "BLU_RAY",
+        "date": "2018",
+        "special_features": []
+      }
+    }
+  ],
+  "story_notes": [
+    {
+      "notes": [
+        "The story originally had the working title 'The Sea Silurians'.",
+        "This is one of the few stories where the TARDIS does not appear.",
+        "'I reversed the polarity of the neutron flow' is used in this story.",
+        "The Master watches The Clangers while imprisoned, a last-minute addition.",
+        "Jon Pertwee injured himself during filming after falling on the sonic screwdriver."
+      ]
+    }
+  ],
+  "worldbuilding": {
+    "in_universe_mythology": [
+      "The Sea Devils are an aquatic version of the Silurians."
+    ],
+    "real_world_cultural_references": [
+      "The Master watches The Clangers, a children's television series."
+    ],
+    "individuals": [
+      "Horatio Nelson"
+    ],
+    "items": [
+      "Sonic screwdriver",
+      "Silurian gun"
+    ],
+    "locations": [
+      "HMS Seaspite",
+      "Fortress Island",
+      "No Man's Land Fort"
+    ]
+  },
+  "ratings": {
+    "ratings_millions": [
+      {
+        "part": "Episode 1",
+        "viewers": 6.4
+      },
+      {
+        "part": "Episode 2",
+        "viewers": 9.7
+      },
+      {
+        "part": "Episode 3",
+        "viewers": 8.3
+      },
+      {
+        "part": "Episode 4",
+        "viewers": 7.8
+      },
+      {
+        "part": "Episode 5",
+        "viewers": 8.3
+      },
+      {
+        "part": "Episode 6",
+        "viewers": 8.5
+      }
+    ]
+  },
+  "continuity": {
+    "continuity_notes": [
+      "The Master's past friendship with the Doctor is alluded to.",
+      "The Master was previously captured in 'The D\u00e6mons'."
+    ]
+  },
+  "plot": [
+    {
+      "plot_summary": "The Doctor and Jo visit the Master in prison to discuss recent mysterious ship disappearances, uncovering a plot involving the Master and awoken Sea Devils."
+    },
+    {
+      "plot_summary": "The Doctor and Jo discover the Sea Devils and are rescued after a harrowing encounter with them."
+    },
+    {
+      "plot_summary": "The Master plots to use the Sea Devils as an army while the Doctor and Jo face challenges from Trenchard."
+    },
+    {
+      "plot_summary": "The Sea Devils attack as the Doctor uses his sonic screwdriver to defend the colonists."
+    },
+    {
+      "plot_summary": "Negotiations between the Doctor and the Sea Devils are disrupted leading to battles and conflict with the Master."
+    },
+    {
+      "plot_summary": "The Doctor and Jo face their greatest challenge yet as they confront the Master and the Sea Devils, ultimately escaping moments before destruction."
+    }
+  ]
+}

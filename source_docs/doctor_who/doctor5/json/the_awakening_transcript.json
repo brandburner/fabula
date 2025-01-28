@@ -1,0 +1,2826 @@
+{
+    "Story": "The Awakening",
+    "Airdate": "1984-01-19",
+    "Episodes": [
+        {
+            "Episode": "Part One",
+            "Scenes": [
+                {
+                    "Scene": "Stable yard",
+                    "Dialogue": [
+                        {
+                            "Stage Direction": "Three horsemen gallop across country as Jane Hampden searches for someone in Bishops Court Farm, Shapwick, Dorset. Everyone say Hi! to Polly James."
+                        },
+                        {
+                            "Character": "JANE",
+                            "Line": "Ben? Ben? Are you there, Ben?"
+                        },
+                        {
+                            "Stage Direction": "The horsemen ride in, dressed in Civil War armour. One of them rides at Jane with his lance pointed at her."
+                        },
+                        {
+                            "Character": "JANE",
+                            "Line": "Careful! You'll kill somebody."
+                        },
+                        {
+                            "Stage Direction": "He charges her again, and she dodges inside a barn."
+                        },
+                        {
+                            "Character": "JANE",
+                            "Line": "Don't be so stupid."
+                        }
+                    ]
+                },
+                {
+                    "Scene": "Barn",
+                    "Dialogue": [
+                        {
+                            "Stage Direction": "A man follows her in."
+                        },
+                        {
+                            "Character": "JANE",
+                            "Line": "Don't touch me! Get off!"
+                        },
+                        {
+                            "Character": "WOLSEY",
+                            "Line": "It's only me."
+                        },
+                        {
+                            "Stage Direction": "Everyone say Hi! to Glyn Houston as he takes his helmet off."
+                        },
+                        {
+                            "Character": "JANE",
+                            "Line": "Ben. Ben, you're mad!"
+                        },
+                        {
+                            "Character": "WOLSEY",
+                            "Line": "Nonsense, my dear. Just a bit of fun."
+                        },
+                        {
+                            "Character": "JANE",
+                            "Line": "Fun?"
+                        },
+                        {
+                            "Stage Direction": "The other two men enter. One removes his feathered hat and makes a deep Cavalier bow. Everyone say Hi to Dennis Lill making a return visit in King Charles beard and moustache."
+                        },
+                        {
+                            "Character": "JANE",
+                            "Line": "Sir George, you must stop these war games."
+                        },
+                        {
+                            "Character": "HUTCHINSON",
+                            "Line": "Stop them? Why, Miss Hampden, you of all people, our school teacher, should appreciate the value of reenacting actual events. It's a living history."
+                        },
+                        {
+                            "Character": "JANE",
+                            "Line": "It's getting out of hand. The village is in turmoil."
+                        },
+                        {
+                            "Character": "HUTCHINSON",
+                            "Line": "So there's been a little damage. That's the way people used to behave in those days. It's a game. You must expect high spirits."
+                        },
+                        {
+                            "Character": "JANE",
+                            "Line": "Not when people can get hurt. It must stop."
+                        },
+                        {
+                            "Character": "HUTCHINSON",
+                            "Line": "And so it shall. We have but one last battle to fight. Join us. See the merit of what we do."
+                        }
+                    ]
+                },
+                {
+                    "Scene": "Tardis",
+                    "Dialogue": [
+                        {
+                            "Stage Direction": "Turlough is lying on his back underneath the console."
+                        },
+                        {
+                            "Character": "TURLOUGH",
+                            "Line": "Is that any better?"
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "Er, no. No, no, still some time distortion."
+                        },
+                        {
+                            "Character": "TEGAN",
+                            "Line": "Is there a problem? We are going to Earth?"
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "Date, time and place asked for. How else could you visit your grandfather?"
+                        },
+                        {
+                            "Character": "TURLOUGH",
+                            "Line": "We're nearly there."
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "See?"
+                        },
+                        {
+                            "Stage Direction": "The Tardis shudders and squeals, then the time rotor resumes its smooth motion again, and stops."
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "Hmm. Well, we've arrived."
+                        },
+                        {
+                            "Character": "TURLOUGH",
+                            "Line": "We've hit an energy field."
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "Unexpected aura for a quiet English village."
+                        },
+                        {
+                            "Stage Direction": "The scanner shows falling masonry."
+                        },
+                        {
+                            "Character": "TEGAN",
+                            "Line": "Let's get out of here."
+                        },
+                        {
+                            "Character": "TURLOUGH",
+                            "Line": "Quickly, Doctor. Relocate the Tardis."
+                        },
+                        {
+                            "Character": "TEGAN",
+                            "Line": "Hold on! There's somebody out there."
+                        },
+                        {
+                            "Stage Direction": "A person moves amongst the rubble."
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "He's trapped. If there's another fall, he'll be killed."
+                        },
+                        {
+                            "Stage Direction": "The Doctor opens the door and runs out."
+                        },
+                        {
+                            "Character": "TURLOUGH",
+                            "Line": "We can't go out there!"
+                        },
+                        {
+                            "Stage Direction": "Tegan follows the Doctor."
+                        },
+                        {
+                            "Character": "TURLOUGH",
+                            "Line": "Doctor!"
+                        }
+                    ]
+                },
+                {
+                    "Scene": "Crypt",
+                    "Dialogue": [
+                        {
+                            "Character": "TEGAN",
+                            "Line": "He's gone."
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "Hello? Hello!"
+                        },
+                        {
+                            "Stage Direction": "The figure runs for the staircase going up."
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "Wait, please."
+                        },
+                        {
+                            "Character": "TEGAN",
+                            "Line": "Did you see his clothes? We're in the wrong century."
+                        },
+                        {
+                            "Character": "TURLOUGH",
+                            "Line": "We're not. I checked the time monitor. It is 1984."
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "Let's have a look around."
+                        }
+                    ]
+                },
+                {
+                    "Scene": "Manor house",
+                    "Dialogue": [
+                        {
+                            "Stage Direction": "A splendid period piece, with tapestries and panelling, and pewter dishes, and a massive oak table covered in maps, where Jane is sitting."
+                        },
+                        {
+                            "Character": "HUTCHINSON",
+                            "Line": "I don't understand you. Every man, woman and child in this village is involved in these war games except you. Why? It's great fun. An adventure."
+                        },
+                        {
+                            "Character": "JANE",
+                            "Line": "I understand that."
+                        },
+                        {
+                            "Character": "HUTCHINSON",
+                            "Line": "Then join us. Your influence could temper the more high-spirited, prevent accidents."
+                        },
+                        {
+                            "Character": "JANE",
+                            "Line": "Look, I don't care if a few high-spirited kids get their heads banged together. It's gone beyond that. Suppose what happened to me happens to somebody else, a stranger, a visitor to the village."
+                        },
+                        {
+                            "Character": "HUTCHINSON",
+                            "Line": "There will be no visitors to the village. It's been isolated from the outside world. No one can enter or leave."
+                        },
+                        {
+                            "Character": "JANE",
+                            "Line": "You can't do that!"
+                        },
+                        {
+                            "Character": "HUTCHINSON",
+                            "Line": "Can't I? It's been done."
+                        }
+                    ]
+                },
+                {
+                    "Scene": "Church",
+                    "Dialogue": [
+                        {
+                            "Stage Direction": "The place is disused and dirty. A few pews remain and there is debris on the altar. The stained glass is intact, however."
+                        },
+                        {
+                            "Character": "TEGAN",
+                            "Line": "Where'd he go?"
+                        },
+                        {
+                            "Character": "TURLOUGH",
+                            "Line": "Well, if he can move that quickly, he can't be hurt very badly."
+                        },
+                        {
+                            "Stage Direction": "The Doctor examines the carvings on the pulpit."
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "Interesting."
+                        },
+                        {
+                            "Character": "TEGAN",
+                            "Line": "I don't like it."
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "Then admire the craftsmanship. 17th century. Probably on a theme of a man being chased by the devil. Must admit I've never seen anything quite like it before."
+                        },
+                        {
+                            "Character": "TEGAN",
+                            "Line": "Looks as though a bomb's hit the place."
+                        },
+                        {
+                            "Character": "TURLOUGH",
+                            "Line": "Maybe it did."
+                        },
+                        {
+                            "Character": "TEGAN",
+                            "Line": "Can we find my grandfather?"
+                        },
+                        {
+                            "Stage Direction": "A door creaks."
+                        },
+                        {
+                            "Character": "TURLOUGH",
+                            "Line": "What was that?"
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "A ghost."
+                        },
+                        {
+                            "Stage Direction": "Fog pours in through a crack in the wall by the pulpit."
+                        }
+                    ]
+                },
+                {
+                    "Scene": "Outside the church",
+                    "Dialogue": [
+                        {
+                            "Stage Direction": "Which is St Bartholomew Shapwick, if you're interested."
+                        },
+                        {
+                            "Character": "TURLOUGH",
+                            "Line": "Why'd they build the church so far from the village?"
+                        },
+                        {
+                            "Character": "TEGAN",
+                            "Line": "Perhaps they were refused planning permission."
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "Behave yourselves. We have company."
+                        },
+                        {
+                            "Stage Direction": "Riders converge on them."
+                        },
+                        {
+                            "Character": "TURLOUGH",
+                            "Line": "We should go back."
+                        },
+                        {
+                            "Stage Direction": "Foot soldiers are running up behind them."
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "Too late."
+                        },
+                        {
+                            "Character": "WILLOW",
+                            "Line": "Where do you think you're going? This is Sir George Hutchinson's land."
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "If we're trespassing, I apologise."
+                        },
+                        {
+                            "Character": "WILLOW",
+                            "Line": "Little Hodcombe, for your own safety, is a closed area. We're in the middle of a war game."
+                        },
+                        {
+                            "Character": "TEGAN",
+                            "Line": "We're here to visit my grandfather."
+                        },
+                        {
+                            "Character": "WILLOW",
+                            "Line": "You'd better see Sir George. He'll sort it out. Move out!"
+                        },
+                        {
+                            "Stage Direction": "The disfigured man from the crypt watches from behind a gravestone."
+                        }
+                    ]
+                },
+                {
+                    "Scene": "Manor house",
+                    "Dialogue": [
+                        {
+                            "Stage Direction": "The Doctor, Turlough and Tegan are pushed into the panelled room."
+                        },
+                        {
+                            "Character": "TEGAN",
+                            "Line": "Stop it! Leave me alone!"
+                        },
+                        {
+                            "Character": "WOLSEY",
+                            "Line": "What's going on here?"
+                        },
+                        {
+                            "Character": "WILLOW",
+                            "Line": "Trespassers, Colonel. I've arrested them."
+                        },
+                        {
+                            "Character": "JANE",
+                            "Line": "I don't believe this."
+                        },
+                        {
+                            "Character": "WOLSEY",
+                            "Line": "Are you sure you should be doing this?"
+                        },
+                        {
+                            "Character": "WILLOW",
+                            "Line": "Sir George has been informed."
+                        },
+                        {
+                            "Character": "WOLSEY",
+                            "Line": "I'm sorry about this. Some of the men do get a bit carried away. We'll soon have the business sorted out and you safely on your way."
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "Thank you. It's a very impressive room, Colonel."
+                        },
+                        {
+                            "Character": "WOLSEY",
+                            "Line": "My pride and joy."
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "17th century."
+                        },
+                        {
+                            "Character": "WOLSEY",
+                            "Line": "Yes, perfect in every detail."
+                        },
+                        {
+                            "Character": "TEGAN",
+                            "Line": "What is going on?"
+                        },
+                        {
+                            "Character": "JANE",
+                            "Line": "I'm sorry, I don't know. I think everyone's gone mad."
+                        },
+                        {
+                            "Character": "TEGAN",
+                            "Line": "Look, we don't want to interfere. We're just here to visit my grandfather."
+                        },
+                        {
+                            "Character": "WILLOW",
+                            "Line": "Oh yes? And who might he be?"
+                        },
+                        {
+                            "Character": "TEGAN",
+                            "Line": "Andrew Verney."
+                        },
+                        {
+                            "Character": "WILLOW",
+                            "Line": "Verney?"
+                        },
+                        {
+                            "Character": "TEGAN",
+                            "Line": "What's wrong?"
+                        },
+                        {
+                            "Character": "JANE",
+                            "Line": "He disappeared a few days ago."
+                        },
+                        {
+                            "Character": "TEGAN",
+                            "Line": "Well, has anything been done to find him?"
+                        },
+                        {
+                            "Character": "JANE",
+                            "Line": "Ben?"
+                        },
+                        {
+                            "Character": "TEGAN",
+                            "Line": "Well?"
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "Now calm down, Tegan. I'm sure we can sort this out."
+                        },
+                        {
+                            "Character": "TEGAN",
+                            "Line": "Oh, for heaven's sake!"
+                        },
+                        {
+                            "Stage Direction": "Tegan runs out."
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "Tegan, come back! Turlough, fetch her, will you?"
+                        },
+                        {
+                            "Stage Direction": "Joseph Willow picks up a flintlock pistol and aims it at the Doctor as Turlough rushes out."
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "Please."
+                        },
+                        {
+                            "Character": "WILLOW",
+                            "Line": "You! Stay where you are!"
+                        }
+                    ]
+                },
+                {
+                    "Scene": "Stable yard",
+                    "Dialogue": [
+                        {
+                            "Stage Direction": "Tegan stops for breath, and a hand reaches round a doorway and grabs her red handbag."
+                        },
+                        {
+                            "Character": "TEGAN",
+                            "Line": "What are you doing? Give me that back!"
+                        },
+                        {
+                            "Stage Direction": "Tegan goes inside and starts up the stairs. The door slams shut behind her."
+                        }
+                    ]
+                },
+                {
+                    "Scene": "Manor house",
+                    "Dialogue": [
+                        {
+                            "Character": "HUTCHINSON",
+                            "Line": "What's this?"
+                        },
+                        {
+                            "Character": "WILLOW",
+                            "Line": "He tried to escape, sir."
+                        },
+                        {
+                            "Character": "HUTCHINSON",
+                            "Line": "He isn't a prisoner, Sergeant Willow. You must treat visitors with more respect."
+                        },
+                        {
+                            "Stage Direction": "Sir George makes Willow lower his pistol."
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "What is going on?"
+                        },
+                        {
+                            "Character": "HUTCHINSON",
+                            "Line": "A celebration. On the thirteenth of July, 1643, the English Civil War came to Little Hodcombe. A Parliamentary force and a regiment for the King destroyed each other, and the village."
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "And you're celebrating that?"
+                        },
+                        {
+                            "Character": "HUTCHINSON",
+                            "Line": "Why not? It's our heritage."
+                        },
+                        {
+                            "Character": "JANE",
+                            "Line": "It's a madness."
+                        },
+                        {
+                            "Character": "HUTCHINSON",
+                            "Line": "Yes. Miss Hampden, you see, disagrees with our activities."
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "Hmm. I can understand why."
+                        },
+                        {
+                            "Character": "HUTCHINSON",
+                            "Line": "Who are you?"
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "I'm known as the Doctor."
+                        },
+                        {
+                            "Character": "HUTCHINSON",
+                            "Line": "Are you a member of the theatrical profession?"
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "No more than you are."
+                        },
+                        {
+                            "Character": "HUTCHINSON",
+                            "Line": "Ah. Ha, ha! How did you get to the village?"
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "Through the woods, via the church."
+                        },
+                        {
+                            "Character": "WILLOW",
+                            "Line": "That's where I found him, sir."
+                        },
+                        {
+                            "Character": "HUTCHINSON",
+                            "Line": "I would avoid the church, if I were you. It's very dangerous. Could fall down at any minute."
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "Hmm, so I'd noticed."
+                        },
+                        {
+                            "Character": "HUTCHINSON",
+                            "Line": "However, since you're here, you must join in our games. It's our final battle."
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "Do you know, I'd love to, but first I must find Tegan and Turlough, and Tegan's grandfather. I gather he's disappeared. Good day!"
+                        },
+                        {
+                            "Stage Direction": "The Doctor pushes Willow's pistol along the table and runs out."
+                        },
+                        {
+                            "Character": "HUTCHINSON",
+                            "Line": "Wait, wait, wait."
+                        },
+                        {
+                            "Character": "WILLOW",
+                            "Line": "Tegan is Verney's granddaughter."
+                        },
+                        {
+                            "Character": "HUTCHINSON",
+                            "Line": "Double the perimeter guard. He mustn't get out of the village. And help him find Verney's granddaughter."
+                        },
+                        {
+                            "Character": "WILLOW",
+                            "Line": "Right."
+                        },
+                        {
+                            "Character": "HUTCHINSON",
+                            "Line": "I've something rather special in mind for her."
+                        },
+                        {
+                            "Character": "JANE",
+                            "Line": "Detaining people against their will is illegal, Sir George. The Doctor and his friends included."
+                        },
+                        {
+                            "Character": "HUTCHINSON",
+                            "Line": "I shouldn't let that bother you, Miss Hampden. As the local magistrate, I shall find myself quite innocent."
+                        }
+                    ]
+                },
+                {
+                    "Scene": "Barn",
+                    "Dialogue": [
+                        {
+                            "Stage Direction": "Twinkly lights appear on the upper level, then a torso and finally an ancient face appears."
+                        },
+                        {
+                            "Character": "TEGAN",
+                            "Line": "Oh, no! Come on! Help!"
+                        },
+                        {
+                            "Stage Direction": "The face glides down toward her as she pulls at the door. Then Turlough pushes it open from outside, knocking her down. The apparition vanishes."
+                        },
+                        {
+                            "Character": "TEGAN",
+                            "Line": "Oh, it's you."
+                        },
+                        {
+                            "Character": "TURLOUGH",
+                            "Line": "What's happening?"
+                        },
+                        {
+                            "Character": "TEGAN",
+                            "Line": "Later. Let's get away from here first."
+                        }
+                    ]
+                },
+                {
+                    "Scene": "Village",
+                    "Dialogue": [
+                        {
+                            "Stage Direction": "Little Hodcombe village square and cross are played by Shapwick, Dorset."
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "Turlough! Tegan!"
+                        },
+                        {
+                            "Stage Direction": "The disfigured man knocks the Doctor down. He's carrying Tegan's bag."
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "Wait! Come back!"
+                        },
+                        {
+                            "Stage Direction": "The man is at the far end of a lane by the time the Doctor gets back on his feet."
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "How could he get so far?"
+                        },
+                        {
+                            "Stage Direction": "The Doctor gives chase. Meanwhile, Wolsey and three troopers ride up to the village cross."
+                        },
+                        {
+                            "Character": "WOLSEY",
+                            "Line": "We'll never find her. She could be anywhere."
+                        },
+                        {
+                            "Character": "WILLOW",
+                            "Line": "Ask for more men."
+                        },
+                        {
+                            "Character": "WOLSEY",
+                            "Line": "Hutchinson won't allow it. He's got everyone guarding the perimeter."
+                        },
+                        {
+                            "Character": "WILLOW",
+                            "Line": "We're wasting our time with only four searching. If he wants her so badly, he's got to find more men."
+                        },
+                        {
+                            "Character": "WOLSEY",
+                            "Line": "Ring him."
+                        },
+                        {
+                            "Stage Direction": "They are next to a public telephone box."
+                        },
+                        {
+                            "Character": "WILLOW",
+                            "Line": "Not allowed. I'll have to go back to the house."
+                        },
+                        {
+                            "Character": "WOLSEY",
+                            "Line": "All right. Carry on searching, you two. Try Verney's cottage again. She might be there. I'll come with you."
+                        }
+                    ]
+                },
+                {
+                    "Scene": "Church",
+                    "Dialogue": [
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "Hello? I saw you enter. All I want is Tegan's bag. What have you done with her? I know you can hear me."
+                        },
+                        {
+                            "Stage Direction": "The sound of warfare drifts inside."
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "Gunpowder."
+                        },
+                        {
+                            "Stage Direction": "The shouting gets very loud. The Doctor clutches his head. Suddenly it stops as a young man breaks through a blocked up door. He speaks with a Mummerset accent."
+                        },
+                        {
+                            "Character": "CHANDLER",
+                            "Line": "Sorry it took me so long. Thought he'd never eat."
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "Who are you? I'm the Doctor."
+                        },
+                        {
+                            "Character": "CHANDLER",
+                            "Line": "Doctor? That don't be a proper name. Will Chandler be a proper name."
+                        },
+                        {
+                            "Stage Direction": "The Doctor steps forward and the young man grabs a piece of stone."
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "I won't hurt you."
+                        },
+                        {
+                            "Character": "CHANDLER",
+                            "Line": "I will hit 'ee. My hand's hurting."
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "Show me."
+                        },
+                        {
+                            "Stage Direction": "The Doctor examines his right arm."
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "What were you doing in there?"
+                        },
+                        {
+                            "Character": "CHANDLER",
+                            "Line": "It's a priest hole, innit. I hid from fighting."
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "What fighting?"
+                        },
+                        {
+                            "Character": "CHANDLER",
+                            "Line": "What fighting? Ere, where you been then?"
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "What year is this?"
+                        },
+                        {
+                            "Character": "CHANDLER",
+                            "Line": "Ah, I knows that one. Year sixteen hundred and forty three."
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "Sixteen hundred and forty three."
+                        },
+                        {
+                            "Character": "CHANDLER",
+                            "Line": "Is the battle done?"
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "Er, yes, Will. Battle's done."
+                        },
+                        {
+                            "Stage Direction": "Tegan and Turlough run in. Will hides behind a pew."
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "Ah, just in time."
+                        },
+                        {
+                            "Character": "TEGAN",
+                            "Line": "Time? We almost didn't make it."
+                        },
+                        {
+                            "Character": "TURLOUGH",
+                            "Line": "We have to get out of here."
+                        },
+                        {
+                            "Character": "TEGAN",
+                            "Line": "There's something very strange going on."
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "Yes, I know."
+                        },
+                        {
+                            "Character": "TURLOUGH",
+                            "Line": "Who is that?"
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "Will Chandler."
+                        },
+                        {
+                            "Character": "CHANDLER",
+                            "Line": "Sir?"
+                        },
+                        {
+                            "Character": "TEGAN",
+                            "Line": "Where did he come from?"
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "Ah, well, that's something we're going to have to talk about."
+                        }
+                    ]
+                },
+                {
+                    "Scene": "Manor house",
+                    "Dialogue": [
+                        {
+                            "Stage Direction": "Sir George is holding something malleable in his hand when voices are heard outside."
+                        },
+                        {
+                            "Character": "MAN [OC]",
+                            "Line": "We lost them through the woods."
+                        },
+                        {
+                            "Stage Direction": "Wolsey and Willow enter."
+                        },
+                        {
+                            "Character": "HUTCHINSON",
+                            "Line": "Where is she?"
+                        },
+                        {
+                            "Character": "WOLSEY",
+                            "Line": "We can't find her. We need more men."
+                        },
+                        {
+                            "Character": "HUTCHINSON",
+                            "Line": "I want Tegan, not excuses, Wolsey."
+                        },
+                        {
+                            "Character": "JANE",
+                            "Line": "Don't listen to him, Ben."
+                        },
+                        {
+                            "Character": "HUTCHINSON",
+                            "Line": "Miss Hampden, you are beginning to bore me with your constant bleating."
+                        },
+                        {
+                            "Character": "WILLOW",
+                            "Line": "She doesn't understand. We must have our Queen of the May."
+                        },
+                        {
+                            "Character": "HUTCHINSON",
+                            "Line": "Precisely. Think of it as the resurrection of an old tradition."
+                        },
+                        {
+                            "Character": "JANE",
+                            "Line": "Not the way you'd like to celebrate it. I know the old custom of this village. I know what happens to a May Queen at the end of her reign."
+                        },
+                        {
+                            "Character": "WOLSEY",
+                            "Line": "We're not going to harm her."
+                        },
+                        {
+                            "Character": "JANE",
+                            "Line": "You might not. I'm not so sure about them."
+                        },
+                        {
+                            "Character": "HUTCHINSON",
+                            "Line": "The tradition must continue. Something is coming to our village. Something very wonderful and strange."
+                        },
+                        {
+                            "Stage Direction": "Hutchinson leaves."
+                        },
+                        {
+                            "Character": "WOLSEY",
+                            "Line": "We must find Tegan."
+                        },
+                        {
+                            "Character": "JANE",
+                            "Line": "You're so gullible, Ben. You'll do anything he says."
+                        },
+                        {
+                            "Stage Direction": "Wolsey leaves."
+                        },
+                        {
+                            "Character": "JANE",
+                            "Line": "Right, I'm going to the police. I'll soon put a stop to this."
+                        },
+                        {
+                            "Character": "WILLOW",
+                            "Line": "Shut up! Just be grateful it is the stranger who is to be crowned Queen of the May. It so easily could have been you."
+                        },
+                        {
+                            "Stage Direction": "Jane slaps Willow and turns away."
+                        },
+                        {
+                            "Character": "WILLOW",
+                            "Line": "And it still might be if we don't find her."
+                        },
+                        {
+                            "Stage Direction": "Willow leaves, locking the door behind him."
+                        }
+                    ]
+                },
+                {
+                    "Scene": "Church",
+                    "Dialogue": [
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "There's been a confusion in time. Somehow 1984 has become linked with 1643."
+                        },
+                        {
+                            "Character": "TURLOUGH",
+                            "Line": "What about the apparitions?"
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "Psychic projections."
+                        },
+                        {
+                            "Character": "TEGAN",
+                            "Line": "The man we saw when we arrived? He was real enough."
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "Still a psychic projection, but with substance."
+                        },
+                        {
+                            "Character": "TURLOUGH",
+                            "Line": "Matter projected from the past? That would require enormous energy."
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "An alien power source."
+                        },
+                        {
+                            "Character": "TEGAN",
+                            "Line": "What about Will?"
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "A projection, too, and at the moment a benign one."
+                        },
+                        {
+                            "Stage Direction": "Will is asleep on a pew."
+                        },
+                        {
+                            "Character": "TURLOUGH",
+                            "Line": "This crack has got larger."
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "Yes. Ominous, isn't it? As is the fact your grandfather has disappeared. I think it's time I sought some answers."
+                        },
+                        {
+                            "Character": "TEGAN",
+                            "Line": "Where?"
+                        },
+                        {
+                            "Stage Direction": "The Doctor takes a coin from his pocket and holds his hands behind his back. Then he brings his fists in front, weighs them, and opens the empty one."
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "The village."
+                        },
+                        {
+                            "Character": "TEGAN",
+                            "Line": "Always so scientific."
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "Come on, Will. You're coming with me."
+                        },
+                        {
+                            "Character": "TEGAN",
+                            "Line": "What about us?"
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "You'll be safer in the Tardis. And don't argue. Will!"
+                        },
+                        {
+                            "Character": "TURLOUGH",
+                            "Line": "You heard the Doctor."
+                        }
+                    ]
+                },
+                {
+                    "Scene": "Outside the church",
+                    "Dialogue": [
+                        {
+                            "Stage Direction": "Will looks at the date on a lichen-covered gravestone. 1850."
+                        },
+                        {
+                            "Character": "CHANDLER",
+                            "Line": "This ain't possible."
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "Look at the others."
+                        },
+                        {
+                            "Stage Direction": "Riders come along the road so the Doctor opens a door."
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "Will, in here."
+                        },
+                        {
+                            "Stage Direction": "The Doctor drags the lad inside by the scruff of his neck."
+                        }
+                    ]
+                },
+                {
+                    "Scene": "Tardis",
+                    "Dialogue": [
+                        {
+                            "Stage Direction": "The twinkly lights are in here."
+                        },
+                        {
+                            "Character": "TURLOUGH",
+                            "Line": "We're too late."
+                        },
+                        {
+                            "Character": "TEGAN",
+                            "Line": "We must tell the Doctor."
+                        }
+                    ]
+                },
+                {
+                    "Scene": "Side chapel",
+                    "Dialogue": [
+                        {
+                            "Stage Direction": "There is a carved tomb up against the wall and engraved memorials set into the flagstone floor."
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "Strange. Will, come and see."
+                        },
+                        {
+                            "Stage Direction": "Will looks at the central memorial and whimpers."
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "What's the matter? Will? Will, what happened in 1643?"
+                        },
+                        {
+                            "Character": "CHANDLER",
+                            "Line": "Troopers come."
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "No. No, no. Something else."
+                        },
+                        {
+                            "Character": "CHANDLER",
+                            "Line": "Malus come. Malus's got to war, ain't he? He makes fighting worse. He makes them hate more."
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "The Malus is just a superstition."
+                        },
+                        {
+                            "Character": "CHANDLER",
+                            "Line": "No, no, no. I've seen Malus. I seen it."
+                        }
+                    ]
+                },
+                {
+                    "Scene": "Outside the church",
+                    "Dialogue": [
+                        {
+                            "Character": "TURLOUGH",
+                            "Line": "Now where?"
+                        },
+                        {
+                            "Character": "TEGAN",
+                            "Line": "He said he was going to the village."
+                        },
+                        {
+                            "Character": "TURLOUGH",
+                            "Line": "Let's go, but watch out for those horsemen."
+                        }
+                    ]
+                },
+                {
+                    "Scene": "Side chapel",
+                    "Dialogue": [
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "Will, tell me what happened? How did it appear?"
+                        },
+                        {
+                            "Character": "CHANDLER",
+                            "Line": "It was Roundheads and Cavaliers, and they were fighting in church. And there was a wind coming. Such a wind. And then Malus, he came from nowhere."
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "What did it look like? Like this? Did it look like this?"
+                        },
+                        {
+                            "Stage Direction": "The Doctor points to the etching, which we see looks like the apparition Tegan saw."
+                        },
+                        {
+                            "Character": "CHANDLER",
+                            "Line": "Yes!"
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "It's all right, it's all right, it's all right."
+                        },
+                        {
+                            "Stage Direction": "The Doctor presses the face in the image, and the whole slab begins to tilt to reveal a set of stairs."
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "Interesting. Come on, Will."
+                        }
+                    ]
+                },
+                {
+                    "Scene": "Village",
+                    "Dialogue": [
+                        {
+                            "Character": "TEGAN",
+                            "Line": "It's eerie."
+                        },
+                        {
+                            "Character": "TURLOUGH",
+                            "Line": "Where is everyone?"
+                        },
+                        {
+                            "Stage Direction": "They run down to a ford through the stream. Then horsemen come round the corner. Curiously, this ford is actually at Tarrant Monkton, in Dorset"
+                        },
+                        {
+                            "Character": "TEGAN",
+                            "Line": "Oh, no!"
+                        },
+                        {
+                            "Character": "TURLOUGH",
+                            "Line": "Split up!"
+                        },
+                        {
+                            "Stage Direction": "Turlough doubles back and Tegan runs through the ford, straight into the arms of Colonel Wolsey."
+                        },
+                        {
+                            "Character": "TEGAN",
+                            "Line": "Let me go!"
+                        },
+                        {
+                            "Character": "WILLOW",
+                            "Line": "Not yet, my dear."
+                        },
+                        {
+                            "Character": "WOLSEY",
+                            "Line": "Do you have to enjoy this sort of thing quite so much?"
+                        },
+                        {
+                            "Character": "WILLOW",
+                            "Line": "Just obeying orders, Colonel."
+                        },
+                        {
+                            "Character": "WOLSEY",
+                            "Line": "That's what they all say."
+                        },
+                        {
+                            "Character": "WILLOW",
+                            "Line": "Ha!"
+                        }
+                    ]
+                },
+                {
+                    "Scene": "Manor house",
+                    "Dialogue": [
+                        {
+                            "Stage Direction": "Jane is exploring the perfect C17 room for a way out when she triggers a secret door behind a tapestry. There are voices outside so she goes through. Hutchinson enters and sees the empty room and open doorway."
+                        },
+                        {
+                            "Character": "HUTCHINSON",
+                            "Line": "After her! You'll need some light. Get a candle. (The two troopers take candles from the mantelpiece and light them in the fire."
+                        }
+                    ]
+                },
+                {
+                    "Scene": "Secret chamber",
+                    "Dialogue": [
+                        {
+                            "Stage Direction": "The Doctor and Will come along a passageway."
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "Stay close, Will."
+                        },
+                        {
+                            "Stage Direction": "They hear steps on a staircase."
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "Quickly."
+                        },
+                        {
+                            "Stage Direction": "They hide under the staircase. Jane comes down, carefully."
+                        },
+                        {
+                            "Character": "HUTCHINSON [OC]",
+                            "Line": "Come on, hurry yourselves. Through here."
+                        },
+                        {
+                            "Stage Direction": "Jane gets to the bottom and looks around. The Doctor taps her arm."
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "In here."
+                        },
+                        {
+                            "Stage Direction": "Hutchinson and his troopers come down the stairs."
+                        },
+                        {
+                            "Character": "HUTCHINSON",
+                            "Line": "Keep that light near. We'll catch her before the church. Move yourselves! I don't want this to take all day."
+                        },
+                        {
+                            "Stage Direction": "They go down the passageway."
+                        },
+                        {
+                            "Character": "CHANDLER",
+                            "Line": "They be troopers."
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "No, no, just 20th century men playing a particularly nasty game."
+                        }
+                    ]
+                },
+                {
+                    "Scene": "Attic room",
+                    "Dialogue": [
+                        {
+                            "Stage Direction": "Willow pushes Tegan in and throws a green and white dress across a chair in the middle of the otherwise empty room."
+                        },
+                        {
+                            "Character": "WILLOW",
+                            "Line": "Change into that."
+                        },
+                        {
+                            "Character": "TEGAN",
+                            "Line": "Why?"
+                        },
+                        {
+                            "Character": "WILLOW",
+                            "Line": "Just do as you're told. Unless you want me to do it for you."
+                        },
+                        {
+                            "Stage Direction": "Willow leaves."
+                        }
+                    ]
+                },
+                {
+                    "Scene": "Secret chamber",
+                    "Dialogue": [
+                        {
+                            "Stage Direction": "Hutchinson and the troopers return and go up the stairs."
+                        },
+                        {
+                            "Character": "HUTCHINSON",
+                            "Line": "She won't get far. The village is sealed. Get me Sergeant Willow. I must see how the preparations are going. And see my horse is brought round immediately. I'll spend no more time on this."
+                        },
+                        {
+                            "Character": "JANE",
+                            "Line": "It's not like Sir George to give up so easily."
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "Be grateful. Where do the steps lead?"
+                        },
+                        {
+                            "Character": "JANE",
+                            "Line": "Colonel Wolsey's house. This must be the passage Andrew Verney discovered. He's our local historian."
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "Yes, Tegan told me."
+                        },
+                        {
+                            "Stage Direction": "The Doctor picks something up from the floor."
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "Just a minute."
+                        },
+                        {
+                            "Character": "JANE",
+                            "Line": "What is it?"
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "It's metal."
+                        },
+                        {
+                            "Stage Direction": "Jane takes the shiny lump from him."
+                        },
+                        {
+                            "Character": "JANE",
+                            "Line": "It can't be. It's all squashy."
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "It's tinclavic."
+                        },
+                        {
+                            "Character": "JANE",
+                            "Line": "Tinclavic? What is it? Where has it come from?"
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "The planet Ragga. Let's get back to the church."
+                        }
+                    ]
+                },
+                {
+                    "Scene": "Attic room",
+                    "Dialogue": [
+                        {
+                            "Stage Direction": "Tegan has changed into the village maid costume, complete with mob cap and is looking out of the window when Willow enters."
+                        },
+                        {
+                            "Character": "TEGAN",
+                            "Line": "Don't you ever knock before entering a room?"
+                        },
+                        {
+                            "Character": "WILLOW",
+                            "Line": "You'd better be careful. You're beginning to annoy me."
+                        },
+                        {
+                            "Stage Direction": "He takes her original dress."
+                        },
+                        {
+                            "Character": "TEGAN",
+                            "Line": "What are you doing?"
+                        },
+                        {
+                            "Character": "WILLOW",
+                            "Line": "Those are your clothes now, compliments of Sir George Hutchinson. You're our Queen of the May."
+                        },
+                        {
+                            "Character": "TEGAN",
+                            "Line": "What?"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "Episode": "Part Two",
+            "Scenes": [
+                {
+                    "Scene": "Church",
+                    "Dialogue": [
+                        {
+                            "Stage Direction": "The Doctor finally turns around."
+                        },
+                        {
+                            "Character": "JANE",
+                            "Line": "Doctor, are you all right?"
+                        },
+                        {
+                            "Stage Direction": "She helps him to a pew and puts her shawl around his shoulders."
+                        },
+                        {
+                            "Character": "JANE",
+                            "Line": "Are you sure you're all right?"
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "Yes."
+                        },
+                        {
+                            "Stage Direction": "More plaster falls down and the whole giant face is revealed. It moves forward slightly."
+                        },
+                        {
+                            "Character": "JANE",
+                            "Line": "It's a face."
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "Look at it. Does it look familiar?"
+                        },
+                        {
+                            "Character": "JANE",
+                            "Line": "Yes, I, I've seen it before."
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "Behind you."
+                        },
+                        {
+                            "Stage Direction": "The carving on the pulpit."
+                        },
+                        {
+                            "Character": "JANE",
+                            "Line": "But that's a representation of the devil!"
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "Yes. It's interesting, isn't it?"
+                        },
+                        {
+                            "Stage Direction": "The disfigured man appears in the far corner."
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "So there you are."
+                        },
+                        {
+                            "Stage Direction": "He limps forwards then the sparkly things appear."
+                        },
+                        {
+                            "Character": "JANE",
+                            "Line": "What's that?"
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "Psychic projection. Over here, Will."
+                        },
+                        {
+                            "Character": "JANE",
+                            "Line": "It looks so real."
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "Well, to all intents and purposes he is."
+                        },
+                        {
+                            "Stage Direction": "Gunfire outside."
+                        },
+                        {
+                            "Character": "CHANDLER",
+                            "Line": "It were like that before. Battle's coming."
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "No, Will, come back."
+                        },
+                        {
+                            "Character": "CHANDLER",
+                            "Line": "I'm not going to war again."
+                        },
+                        {
+                            "Stage Direction": "Will runs to the door and tries to open it. The disfigured man turns towards him and he scrambles out with a cry. Then the apparition transforms into a Cavalier."
+                        }
+                    ]
+                },
+                {
+                    "Scene": "Village green",
+                    "Dialogue": [
+                        {
+                            "Stage Direction": "Turlough is captured by a trooper. The green, annoyingly, is at Martin in Hampshire."
+                        },
+                        {
+                            "Character": "TURLOUGH",
+                            "Line": "All right, all right. You've made your point."
+                        },
+                        {
+                            "Stage Direction": "Hutchinson rides up."
+                        },
+                        {
+                            "Character": "HUTCHINSON",
+                            "Line": "One by one, you and your companions will return to my fold, and you will never get out again. It is a pity you've seen this. Lock him up."
+                        }
+                    ]
+                },
+                {
+                    "Scene": "Church",
+                    "Dialogue": [
+                        {
+                            "Stage Direction": "The Cavalier apparition walks forward. The Doctor grabs Jane."
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "Stand perfectly still."
+                        },
+                        {
+                            "Character": "JANE",
+                            "Line": "What is it?"
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "I told you. It's a psychic projection."
+                        },
+                        {
+                            "Character": "JANE",
+                            "Line": "It pains me to say it, but I'm sorry I ever doubted you."
+                        },
+                        {
+                            "Stage Direction": "The Doctor gives Jane her shawl back."
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "We all learn by our mistakes."
+                        },
+                        {
+                            "Stage Direction": "A strong wind blows through the church."
+                        },
+                        {
+                            "Character": "JANE",
+                            "Line": "Now what?"
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "More psychic disturbance."
+                        },
+                        {
+                            "Stage Direction": "The Cavalier stands in front of them and draws his sword."
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "Ah. It seems he intends to kill us. Make for the underground passage. Run!"
+                        }
+                    ]
+                },
+                {
+                    "Scene": "Farm building",
+                    "Dialogue": [
+                        {
+                            "Stage Direction": "The trooper throws Turlough into a building by a yard."
+                        },
+                        {
+                            "Character": "VERNEY",
+                            "Line": "Don't be afraid. My name's Andrew Verney."
+                        }
+                    ]
+                },
+                {
+                    "Scene": "Secret passageway",
+                    "Dialogue": [
+                        {
+                            "Character": "JANE",
+                            "Line": "Doctor, slow down. That thing isn't following us."
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "I need to speak to Sir George."
+                        },
+                        {
+                            "Character": "JANE",
+                            "Line": "Haven't you got enough troubles?"
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "Do you know anything about psychic energy?"
+                        },
+                        {
+                            "Character": "JANE",
+                            "Line": "Oh, you know I don't."
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "Then a quick lesson. It can of course occur in many and varied forms, but the type here, capable of creating projections, requires a focus point."
+                        },
+                        {
+                            "Character": "JANE",
+                            "Line": "Uh huh?"
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "Oh dear, oh dear. A medium."
+                        },
+                        {
+                            "Character": "JANE",
+                            "Line": "Oh, as with a poltergeist?"
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "Yes, a bit more complicated. In this it isn't the medium that's creating the projections, but the Malus. The medium simply gathers all the psychic energy for it to use. And what at the moment is creating the most psychic energy?"
+                        },
+                        {
+                            "Character": "JANE",
+                            "Line": "Um, er."
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "The war games."
+                        },
+                        {
+                            "Character": "JANE",
+                            "Line": "The war games?"
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "And who controls the games?"
+                        },
+                        {
+                            "Character": "JANE",
+                            "Line": "You'd better speak to Sir George."
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "Yes, the trouble is, I don't think he can have any idea of what he's doing. The Malus is pure evil. Given enough energy, it will not only destroy him, but everything else. Cheer up."
+                        }
+                    ]
+                },
+                {
+                    "Scene": "Manor house",
+                    "Dialogue": [
+                        {
+                            "Stage Direction": "While Will runs for his life across a corn field, Tegan has been brought downstairs and is considering opening a pair of windows to escape."
+                        },
+                        {
+                            "Character": "WOLSEY",
+                            "Line": "You wouldn't get very far."
+                        },
+                        {
+                            "Character": "TEGAN",
+                            "Line": "What?"
+                        },
+                        {
+                            "Character": "WOLSEY",
+                            "Line": "If you tried to escape. There are troopers everywhere."
+                        },
+                        {
+                            "Character": "TEGAN",
+                            "Line": "I wouldn't dream of putting you to so much trouble."
+                        },
+                        {
+                            "Character": "WOLSEY",
+                            "Line": "I rather think we're all Sir George's prisoners at the moment. If it's any comfort to you, your grandfather is safe."
+                        },
+                        {
+                            "Character": "TEGAN",
+                            "Line": "Then let me see him."
+                        },
+                        {
+                            "Stage Direction": "Sir George opens the door."
+                        },
+                        {
+                            "Character": "HUTCHINSON",
+                            "Line": "All in good time. You look charming, my dear. Positively charming."
+                        },
+                        {
+                            "Character": "TEGAN",
+                            "Line": "Thanks for nothing. Can I have my clothes back, please?"
+                        },
+                        {
+                            "Character": "HUTCHINSON",
+                            "Line": "Oh, but you're to be our Queen of the May. You must dress the part."
+                        },
+                        {
+                            "Character": "TEGAN",
+                            "Line": "I'm not in the mood for playing silly games."
+                        },
+                        {
+                            "Character": "HUTCHINSON",
+                            "Line": "This is no game. You are about to take part in an event that will change the future of mankind."
+                        }
+                    ]
+                },
+                {
+                    "Scene": "Farm building",
+                    "Dialogue": [
+                        {
+                            "Stage Direction": "Turlough tries the bars across the windows."
+                        },
+                        {
+                            "Character": "TURLOUGH",
+                            "Line": "Solid. Why are they keeping you prisoner here?"
+                        },
+                        {
+                            "Character": "VERNEY",
+                            "Line": "Because of what I discovered. Have you been to the church?"
+                        },
+                        {
+                            "Character": "TURLOUGH",
+                            "Line": "Oh. Yes."
+                        },
+                        {
+                            "Character": "VERNEY",
+                            "Line": "Years of research to discover something as evil as the Malus was more than just a legend."
+                        },
+                        {
+                            "Character": "TURLOUGH",
+                            "Line": "It wasn't active when you discovered it?"
+                        },
+                        {
+                            "Character": "VERNEY",
+                            "Line": "My mistake was telling Sir George Hutchinson. It was his deranged mind who caused its awakening."
+                        },
+                        {
+                            "Character": "TURLOUGH",
+                            "Line": "We must get out of here, let the Doctor know what's happening."
+                        },
+                        {
+                            "Character": "VERNEY",
+                            "Line": "But how?"
+                        },
+                        {
+                            "Character": "TURLOUGH",
+                            "Line": "Are there any guards?"
+                        },
+                        {
+                            "Character": "VERNEY",
+                            "Line": "I don't know."
+                        },
+                        {
+                            "Character": "TURLOUGH",
+                            "Line": "Guard! Guard! What are you like as a battering ram?"
+                        }
+                    ]
+                },
+                {
+                    "Scene": "Secret chamber",
+                    "Dialogue": [
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "Not much further."
+                        },
+                        {
+                            "Character": "JANE",
+                            "Line": "Doctor, wait. Will said he saw the Malus in 1643, in the church."
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "That's right."
+                        },
+                        {
+                            "Character": "JANE",
+                            "Line": "It's been there for hundreds of years."
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "Long before the Civil War started."
+                        },
+                        {
+                            "Character": "JANE",
+                            "Line": "Then why has it been dormant for so long?"
+                        },
+                        {
+                            "Stage Direction": "They start up the stairs."
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "It requires a massive force of psychic energy to activate it. When the Civil War came to Little Hodcombe, it created precisely that."
+                        },
+                        {
+                            "Character": "JANE",
+                            "Line": "And Sir George is trying to recreate the same event."
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "Yes, in every detail. Tegan's grandfather must have told him everything he discovered. He knows it's the only way for the Malus to be fully activated."
+                        },
+                        {
+                            "Character": "JANE",
+                            "Line": "Doctor, I've had a terrible thought. The last battle in the war games has to be for real!"
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "Precisely. The slaughter will be dreadful."
+                        },
+                        {
+                            "Character": "JANE",
+                            "Line": "You must stop him!"
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "Yes, I know."
+                        },
+                        {
+                            "Stage Direction": "At the top of the stairs they can hear the voices inside the room."
+                        },
+                        {
+                            "Character": "TEGAN [OC]",
+                            "Line": "History is littered with loonies like you."
+                        }
+                    ]
+                },
+                {
+                    "Scene": "Manor house",
+                    "Dialogue": [
+                        {
+                            "Character": "TEGAN",
+                            "Line": "Fortunately, most of them end up safely locked away."
+                        },
+                        {
+                            "Character": "HUTCHINSON",
+                            "Line": "Insight is often mistaken for madness, my dear."
+                        },
+                        {
+                            "Character": "WOLSEY",
+                            "Line": "I didn't realise that the Malus was so evil."
+                        },
+                        {
+                            "Character": "HUTCHINSON",
+                            "Line": "Don't worry, Wolsey. It will serve us."
+                        },
+                        {
+                            "Character": "TEGAN",
+                            "Line": "It will use you."
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "Tegan's right. You're energising a force so irresistibly destructive that nothing on Earth can control it. You must stop the war games."
+                        },
+                        {
+                            "Character": "HUTCHINSON",
+                            "Line": "Stop it? Are you mad? You speak treason."
+                        },
+                        {
+                            "Stage Direction": "Hutchinson levels a pistol at the Doctor."
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "Fluently! Stop the games."
+                        },
+                        {
+                            "Character": "HUTCHINSON",
+                            "Line": "Eliminate him, Wolsey. Now."
+                        },
+                        {
+                            "Stage Direction": "Hutchinson hands Wolsey the firing piece and leaves."
+                        },
+                        {
+                            "Character": "JANE",
+                            "Line": "Put that down, Ben."
+                        },
+                        {
+                            "Character": "WOLSEY",
+                            "Line": "I don't understand him any more."
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "Don't try. He's under the influence of the Malus. Are you with us, Colonel?"
+                        },
+                        {
+                            "Character": "WOLSEY",
+                            "Line": "Can you tell me what's going on, because I don't know any longer."
+                        },
+                        {
+                            "Character": "TEGAN",
+                            "Line": "Doctor."
+                        },
+                        {
+                            "Stage Direction": "The sparkly lights have appeared, then a faint face."
+                        },
+                        {
+                            "Character": "TEGAN",
+                            "Line": "Be careful."
+                        },
+                        {
+                            "Character": "JANE",
+                            "Line": "It's the thing in the church."
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "Not quite. It's a projection of the parent image, probably one of several energy-gathering points."
+                        },
+                        {
+                            "Character": "TEGAN",
+                            "Line": "Keep away from it."
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "Oh, it has no force, yet."
+                        },
+                        {
+                            "Character": "WOLSEY",
+                            "Line": "Well, let's put a stop to it."
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "I'm afraid you can't hurt it, Colonel. It has no substance."
+                        },
+                        {
+                            "Character": "WOLSEY",
+                            "Line": "We have to do something."
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "We must prevent the reenactment. Spoil it in any way we can. Reduce the amount of psychic energy being produced."
+                        },
+                        {
+                            "Character": "TEGAN",
+                            "Line": "Good. Then we can forget the May Queen procession."
+                        },
+                        {
+                            "Character": "WOLSEY",
+                            "Line": "The cart to take you to the village is already here."
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "Will there be guards for this procession?"
+                        },
+                        {
+                            "Character": "WOLSEY",
+                            "Line": "No, I'm the only escort, but they will send somebody to investigate."
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "Make sure that Tegan and Jane get safely back to the church. You can use the underground passage. I must search for Turlough and Will, and er, good luck."
+                        },
+                        {
+                            "Stage Direction": "The Doctor leaves."
+                        },
+                        {
+                            "Character": "TEGAN",
+                            "Line": "Do you know where my clothes are?"
+                        },
+                        {
+                            "Character": "WOLSEY",
+                            "Line": "I'll fetch them for you, but stay as you are for the moment."
+                        },
+                        {
+                            "Character": "TEGAN",
+                            "Line": "Why?"
+                        },
+                        {
+                            "Character": "WOLSEY",
+                            "Line": "Because if you don't turn up on that cart, Hutchinson will turn out the whole village to search for you. The Doctor won't stand a chance."
+                        },
+                        {
+                            "Stage Direction": "Will is by the village green, where the May pole is being erected."
+                        }
+                    ]
+                },
+                {
+                    "Scene": "Farm building",
+                    "Dialogue": [
+                        {
+                            "Character": "TURLOUGH",
+                            "Line": "This door must give soon."
+                        },
+                        {
+                            "Character": "VERNEY",
+                            "Line": "Agreed. But at the moment all we're doing is wearing out our shoulders."
+                        },
+                        {
+                            "Character": "TURLOUGH",
+                            "Line": "There's no other way."
+                        },
+                        {
+                            "Stage Direction": "Tegan leaves Wolsey's house in a cart decorated with ribbons and flowers, driven by Wolsey with Jane sitting behind her throne. Women throw petals over her. In the church, more plaster falls down and fog billows from the Malus' mouth."
+                        }
+                    ]
+                },
+                {
+                    "Scene": "Village",
+                    "Dialogue": [
+                        {
+                            "Stage Direction": "The Doctor finds Will hiding in a hedge."
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "Are you all right?"
+                        },
+                        {
+                            "Character": "CHANDLER",
+                            "Line": "It's just like before."
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "The last time you saw the Malus."
+                        },
+                        {
+                            "Character": "CHANDLER",
+                            "Line": "I's not pleased."
+                        },
+                        {
+                            "Stage Direction": "A small bonfire is lit by the May pole."
+                        },
+                        {
+                            "Character": "CHANDLER",
+                            "Line": "They burn Queen of the May."
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "The toast of Little Hodcombe."
+                        },
+                        {
+                            "Character": "CHANDLER",
+                            "Line": "Tain't funny. She were screaming."
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "That's nothing to what Tegan would have done. Come on."
+                        }
+                    ]
+                },
+                {
+                    "Scene": "Village green",
+                    "Dialogue": [
+                        {
+                            "Stage Direction": "The Doctor walks up to the gathering."
+                        },
+                        {
+                            "Character": "HUTCHINSON",
+                            "Line": "Stop that man! Stop! Hold him!"
+                        },
+                        {
+                            "Stage Direction": "Troopers grab the Doctor."
+                        },
+                        {
+                            "Character": "WILLOW",
+                            "Line": "You're just in time for the show. You can have a front seat."
+                        },
+                        {
+                            "Stage Direction": "More plaster falls from in front of the Malus, and its mouth opens wide. Tegan's cart enters the village."
+                        },
+                        {
+                            "Character": "HUTCHINSON",
+                            "Line": "Something's wrong."
+                        },
+                        {
+                            "Stage Direction": "The May Queen is a scarecrow."
+                        },
+                        {
+                            "Character": "HUTCHINSON",
+                            "Line": "What happened?"
+                        },
+                        {
+                            "Character": "WOLSEY",
+                            "Line": "Here's your Queen of the May, Sir George. You can burn her if you wish. Not as attractive as Tegan, but more humane."
+                        },
+                        {
+                            "Character": "HUTCHINSON",
+                            "Line": "What are you trying to do, wreck everything?"
+                        },
+                        {
+                            "Character": "WOLSEY",
+                            "Line": "No, trying to return some sanity to these proceedings."
+                        },
+                        {
+                            "Character": "HUTCHINSON",
+                            "Line": "You've ruined it. You've ruined everything. Kill him."
+                        },
+                        {
+                            "Stage Direction": "Hutchinson rides away, and Wolsey drives the cart off."
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "Over here, Will."
+                        },
+                        {
+                            "Stage Direction": "Will knocks down the trooper who lit the bonfire and takes his burning brand from him. He waves it around and the other troopers let the Doctor go. Hutchinson's horse rears and throws him. The Doctor and Will leap onto the cart."
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "Back to the church, and thank you, Colonel."
+                        },
+                        {
+                            "Stage Direction": "The Doctor throws the scarecrow off the cart as Wolsey urges his horse into a gallop."
+                        },
+                        {
+                            "Character": "HUTCHINSON",
+                            "Line": "After them! After them!"
+                        },
+                        {
+                            "Stage Direction": "The Malus' eyes and mouth close."
+                        }
+                    ]
+                },
+                {
+                    "Scene": "Farm yard",
+                    "Dialogue": [
+                        {
+                            "Stage Direction": "Turlough and Verney break the door down."
+                        },
+                        {
+                            "Character": "VERNEY",
+                            "Line": "We must get to the church and destroy the Malus before it becomes too powerful."
+                        },
+                        {
+                            "Character": "TURLOUGH",
+                            "Line": "Let's find the Doctor first."
+                        },
+                        {
+                            "Character": "VERNEY",
+                            "Line": "We haven't got the time. We can spend the whole day looking. Come on!"
+                        }
+                    ]
+                },
+                {
+                    "Scene": "Side chapel",
+                    "Dialogue": [
+                        {
+                            "Stage Direction": "The horse and cart trot up to the lynch gate. The Doctor runs inside as Jane and Tegan, now in her usual clothes, shut the entrance to the passageway."
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "Come on, there's still a lot to do."
+                        }
+                    ]
+                },
+                {
+                    "Scene": "Church",
+                    "Dialogue": [
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "Hurry."
+                        },
+                        {
+                            "Stage Direction": "The Malus' face is active again."
+                        }
+                    ]
+                },
+                {
+                    "Scene": "Crypt",
+                    "Dialogue": [
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "You didn't close the doors!"
+                        },
+                        {
+                            "Character": "TEGAN",
+                            "Line": "There was no point. Something was already inside it."
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "This is all we need."
+                        },
+                        {
+                            "Stage Direction": "The Doctor and Tegan enter the Tardis. Jane and Wolsey look at each other then follow."
+                        }
+                    ]
+                },
+                {
+                    "Scene": "Tardis",
+                    "Dialogue": [
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "Quietly, now. Don't alarm it."
+                        },
+                        {
+                            "Stage Direction": "The Doctor points at the image of a creature with a tail, hooked nose and lions mane that is clinging on part way up the Tardis wall."
+                        },
+                        {
+                            "Character": "TEGAN",
+                            "Line": "What are you doing?"
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "Well, if I can lock the signal conversion unit onto the frequency of the psychic energy feeding it, I might be able to direct the Malus."
+                        },
+                        {
+                            "Character": "WOLSEY",
+                            "Line": "Is that possible?"
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "Well, there's a remote chance."
+                        },
+                        {
+                            "Stage Direction": "The scanner shows Willow and a trooper outside."
+                        },
+                        {
+                            "Character": "TEGAN",
+                            "Line": "Doctor."
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "Ah. Perhaps you should close the doors."
+                        },
+                        {
+                            "Character": "WOLSEY",
+                            "Line": "They didn't waste much time."
+                        }
+                    ]
+                },
+                {
+                    "Scene": "Crypt",
+                    "Dialogue": [
+                        {
+                            "Character": "WILLOW",
+                            "Line": "A police box?"
+                        },
+                        {
+                            "Stage Direction": "Willow draws his sword while a trooper tries the door."
+                        },
+                        {
+                            "Character": "TROOPER",
+                            "Line": "It's locked."
+                        },
+                        {
+                            "Character": "WILLOW",
+                            "Line": "Well, don't just stand there, break it open."
+                        },
+                        {
+                            "Stage Direction": "The trooper gets a piece of broken column to use as a small battering ram."
+                        }
+                    ]
+                },
+                {
+                    "Scene": "Tardis",
+                    "Dialogue": [
+                        {
+                            "Character": "TEGAN",
+                            "Line": "Doctor, the Malus."
+                        },
+                        {
+                            "Stage Direction": "It's head turns to look at them."
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "It's growing stronger."
+                        },
+                        {
+                            "Stage Direction": "The Doctor hits the console."
+                        },
+                        {
+                            "Character": "WOLSEY",
+                            "Line": "Won't it work?"
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "It takes time. Excuse me, Colonel."
+                        },
+                        {
+                            "Stage Direction": "Jane gets out of his way, too."
+                        },
+                        {
+                            "Character": "JANE",
+                            "Line": "Sorry."
+                        }
+                    ]
+                },
+                {
+                    "Scene": "Church",
+                    "Dialogue": [
+                        {
+                            "Stage Direction": "Verney and Turlough run in."
+                        },
+                        {
+                            "Character": "VERNEY",
+                            "Line": "Oh, no!"
+                        },
+                        {
+                            "Character": "TURLOUGH",
+                            "Line": "Let's find the Doctor. There's nothing we can do."
+                        },
+                        {
+                            "Stage Direction": "They hear banging."
+                        },
+                        {
+                            "Character": "VERNEY",
+                            "Line": "What's that?"
+                        },
+                        {
+                            "Character": "TURLOUGH",
+                            "Line": "The Tardis is in the crypt. I think we should take a look."
+                        }
+                    ]
+                },
+                {
+                    "Scene": "Tardis",
+                    "Dialogue": [
+                        {
+                            "Character": "TEGAN",
+                            "Line": "Doctor!"
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "I know. It senses what I'm about. Now everybody stay perfectly calm and still!"
+                        }
+                    ]
+                },
+                {
+                    "Scene": "Village green",
+                    "Dialogue": [
+                        {
+                            "Stage Direction": "Sir George mounts his horse then puts his hands to his head."
+                        },
+                        {
+                            "Character": "HUTCHINSON",
+                            "Line": "No! Away. I must get to the church."
+                        }
+                    ]
+                },
+                {
+                    "Scene": "Crypt",
+                    "Dialogue": [
+                        {
+                            "Stage Direction": "Turlough and Verney creep in to see the perspiring trooper still hitting the Tardis door with the stone."
+                        },
+                        {
+                            "Character": "VERNEY",
+                            "Line": "(sotto) What do we do?"
+                        },
+                        {
+                            "Character": "TURLOUGH",
+                            "Line": "Shush."
+                        },
+                        {
+                            "Stage Direction": "They pick up pieces of masonry, rush forward and hit Willow and the trooper with them."
+                        }
+                    ]
+                },
+                {
+                    "Scene": "Tardis",
+                    "Dialogue": [
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "That's it."
+                        },
+                        {
+                            "Character": "TEGAN",
+                            "Line": "Can you control the Malus?"
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "Not quite, but it can no longer fuel itself from the turmoil in the village."
+                        },
+                        {
+                            "Stage Direction": "Green yuk starts to pour from its eyes and mouth."
+                        },
+                        {
+                            "Character": "JANE",
+                            "Line": "Doctor, look."
+                        },
+                        {
+                            "Stage Direction": "She points to Turlough and Verney on the scanner."
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "Ah. I think it's time we left this thing to die in peace."
+                        },
+                        {
+                            "Stage Direction": "He reaches for the door control but Jane pulls it instead, with a smile."
+                        }
+                    ]
+                },
+                {
+                    "Scene": "Crypt",
+                    "Dialogue": [
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "So, well done!"
+                        },
+                        {
+                            "Character": "TEGAN",
+                            "Line": "Granddad!"
+                        },
+                        {
+                            "Character": "VERNEY",
+                            "Line": "Tegan, my dear."
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "Save the greetings until later."
+                        },
+                        {
+                            "Character": "TEGAN",
+                            "Line": "Never a dull moment."
+                        }
+                    ]
+                },
+                {
+                    "Scene": "Church",
+                    "Dialogue": [
+                        {
+                            "Character": "WOLSEY",
+                            "Line": "Now what?"
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "I don't know yet."
+                        },
+                        {
+                            "Character": "TURLOUGH",
+                            "Line": "Doctor."
+                        },
+                        {
+                            "Stage Direction": "Three ghostly troopers stand nearby. They start to move forward."
+                        },
+                        {
+                            "Character": "WOLSEY",
+                            "Line": "Where did they come from?"
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "They're"
+                        },
+                        {
+                            "Character": "JANE",
+                            "Line": "Psychic projections."
+                        },
+                        {
+                            "Character": "WOLSEY",
+                            "Line": "I'd feel happier with a gun."
+                        },
+                        {
+                            "Character": "TEGAN",
+                            "Line": "Wouldn't make any difference. They're not real."
+                        },
+                        {
+                            "Character": "WOLSEY",
+                            "Line": "They look solid enough to me."
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "The Malus' last line of defence. They'll kill as effectively as any living thing."
+                        },
+                        {
+                            "Stage Direction": "Down in the crypt, the trooper comes round. Willow is still out cold."
+                        },
+                        {
+                            "Character": "TURLOUGH",
+                            "Line": "We're running out of places to run."
+                        },
+                        {
+                            "Character": "TEGAN",
+                            "Line": "The story of our lives."
+                        },
+                        {
+                            "Character": "VERNEY",
+                            "Line": "Why don't they attack?"
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "They will, in their own time. We're the Malus' last source of psychic energy. It'll make us sweat for as long as it can."
+                        },
+                        {
+                            "Stage Direction": "The apparitions draw their swords."
+                        },
+                        {
+                            "Character": "CHANDLER",
+                            "Line": "I's going to die."
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "Quiet, Will, quiet."
+                        },
+                        {
+                            "Character": "JANE",
+                            "Line": "He's right, Doctor."
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "Not yet, he isn't."
+                        },
+                        {
+                            "Stage Direction": "The trooper stumbles in from the crypt. The three troopers put their swords around his neck. The Malus opens its mouth and we hear his death scream as they presumably cut his head off."
+                        },
+                        {
+                            "Character": "TEGAN",
+                            "Line": "Oh, no."
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "Brave heart, Tegan."
+                        },
+                        {
+                            "Character": "JANE",
+                            "Line": "How could that happen?"
+                        },
+                        {
+                            "Character": "TURLOUGH",
+                            "Line": "They're gone."
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "The fight must have used a lot of psychic energy. The Malus needs to rest. Let's go before it recovers."
+                        },
+                        {
+                            "Stage Direction": "Hutchinson bursts in, brandishing a brace of pistols."
+                        },
+                        {
+                            "Character": "HUTCHINSON",
+                            "Line": "It is time at last! I am here, master."
+                        },
+                        {
+                            "Stage Direction": "The Malus revives."
+                        },
+                        {
+                            "Character": "WOLSEY",
+                            "Line": "Let me deal with him."
+                        },
+                        {
+                            "Character": "TEGAN",
+                            "Line": "He'll kill you."
+                        },
+                        {
+                            "Character": "WOLSEY",
+                            "Line": "He used to be a man of honour. Played the war games in the way they were intended."
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "Forget any codes of honour Sir George might once have held. He's now completely under the control of the Malus."
+                        },
+                        {
+                            "Character": "WOLSEY",
+                            "Line": "He's still mortal."
+                        },
+                        {
+                            "Character": "JANE",
+                            "Line": "Don't be a fool, Ben."
+                        },
+                        {
+                            "Character": "WOLSEY",
+                            "Line": "I have to try. I feel partly responsible for what's happened here."
+                        },
+                        {
+                            "Character": "JANE",
+                            "Line": "Ben."
+                        },
+                        {
+                            "Character": "WOLSEY",
+                            "Line": "Sir George?"
+                        },
+                        {
+                            "Character": "CHANDLER",
+                            "Line": "Be it important Sir George be dead?"
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "Not if there's another way."
+                        },
+                        {
+                            "Character": "WOLSEY",
+                            "Line": "Sir George, do you understand me?"
+                        },
+                        {
+                            "Character": "HUTCHINSON",
+                            "Line": "Who are you?"
+                        },
+                        {
+                            "Character": "WOLSEY",
+                            "Line": "Colonel Wolsey. Ben Wolsey, your friend."
+                        },
+                        {
+                            "Character": "HUTCHINSON",
+                            "Line": "Get back!"
+                        },
+                        {
+                            "Character": "WOLSEY",
+                            "Line": "We have something to settle."
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "Sir George, it's important you listen."
+                        },
+                        {
+                            "Stage Direction": "Willow suddenly wakes up."
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "Listen to Colonel Wolsey. Concentrate your thoughts. You must break free from the Malus."
+                        },
+                        {
+                            "Character": "HUTCHINSON",
+                            "Line": "Free? Why, I'm his willing servant."
+                        },
+                        {
+                            "Stage Direction": "Hutchinson has moved round to stand in front of the Malus."
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "You're his slave. He only wants you for one thing."
+                        },
+                        {
+                            "Character": "HUTCHINSON",
+                            "Line": "You're mistaken. He's offered me enormous power."
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "The Malus is here for one reason. To destroy. It's the only thing it knows how to do."
+                        },
+                        {
+                            "Character": "WOLSEY",
+                            "Line": "Now listen to the Doctor."
+                        },
+                        {
+                            "Character": "HUTCHINSON",
+                            "Line": "I don't believe you."
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "Without you, the Malus is helpless. Through you it feeds on the fear and anger generated through the war games. Once it's strong enough, it will destroy you."
+                        },
+                        {
+                            "Character": "HUTCHINSON",
+                            "Line": "No!"
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "Listen, Sir George. Your village is in turmoil. You're pointing a gun at a man who's a friend. That's the true influence of the Malus. Can't you feel the hate and rage inside your head? Think, man! Did you have such feelings before you activated that thing?"
+                        },
+                        {
+                            "Stage Direction": "Hutchinson is in pain."
+                        },
+                        {
+                            "Character": "HUTCHINSON",
+                            "Line": "I, I don't, I."
+                        },
+                        {
+                            "Stage Direction": "He drops a pistol as he clutches at his head. Willow enters with his dagger drawn and goes up to Wolsey, who also pulls a dagger."
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "No!"
+                        },
+                        {
+                            "Stage Direction": "Turlough and the Doctor pull them apart. Will runs up to Hutchinson and pushes him into the Malus."
+                        },
+                        {
+                            "Character": "CHANDLER",
+                            "Line": "It better you be dead!"
+                        },
+                        {
+                            "Stage Direction": "Hutchinson dies with a scream."
+                        },
+                        {
+                            "Character": "CHANDLER",
+                            "Line": "It be better he be dead."
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "It's all right, Will. It's all right."
+                        },
+                        {
+                            "Character": "JANE",
+                            "Line": "We must seal up the church."
+                        },
+                        {
+                            "Character": "VERNEY",
+                            "Line": "And inform the authorities. It has to be destroyed."
+                        },
+                        {
+                            "Stage Direction": "The roof starts to fall in."
+                        },
+                        {
+                            "Character": "TURLOUGH",
+                            "Line": "Now what?"
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "The Malus knows it's lost. It's going to fulfil its programming, Clear the ground, destroy everything it can. Come on!"
+                        }
+                    ]
+                },
+                {
+                    "Scene": "Crypt",
+                    "Dialogue": [
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "Quickly! Inside."
+                        },
+                        {
+                            "Character": "TURLOUGH",
+                            "Line": "Does it have the power?"
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "Enough to keep Will here and level a church. Come along."
+                        }
+                    ]
+                },
+                {
+                    "Scene": "Tardis",
+                    "Dialogue": [
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "Close the door, would you?"
+                        },
+                        {
+                            "Stage Direction": "Jane does so."
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "Hold on."
+                        },
+                        {
+                            "Stage Direction": "The Tardis dematerialises as the roof and tower fall in on the church. Then it explodes."
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "The Malus has destroyed itself."
+                        },
+                        {
+                            "Character": "WOLSEY",
+                            "Line": "Thank God."
+                        },
+                        {
+                            "Character": "JANE",
+                            "Line": "Well, now that it's gone, was it a beast or a machine?"
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "Oh, a living being, reengineered as an instrument of war and sent here to clear the way for an invasion."
+                        },
+                        {
+                            "Character": "TURLOUGH",
+                            "Line": "What went wrong? Why didn't they invade?"
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "I don't honestly know. I must look to see if there's anything in the computer about it."
+                        },
+                        {
+                            "Character": "TURLOUGH",
+                            "Line": "If the Malus is destroyed, why is Will still here? You did say he was only a psychic projection."
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "Ah, yes, yes. It seems I was mistaken. The Malus was able to intermingle the two time zones for a living being to pass through. Must have had incredible power."
+                        },
+                        {
+                            "Character": "TEGAN",
+                            "Line": "That's the last time I pay an unexpected call on you."
+                        },
+                        {
+                            "Character": "VERNEY",
+                            "Line": "As a rule, the villagers and I are much more welcoming."
+                        },
+                        {
+                            "Character": "WOLSEY",
+                            "Line": "There'll be lots of clearing up to do, in more ways than one. We'll need all the help we can get."
+                        },
+                        {
+                            "Stage Direction": "Wolsey offers his hand to Willow, who shakes it."
+                        },
+                        {
+                            "Character": "WILLOW",
+                            "Line": "And no recriminations?"
+                        },
+                        {
+                            "Character": "WOLSEY",
+                            "Line": "Not on my part."
+                        },
+                        {
+                            "Character": "JANE",
+                            "Line": "Nor mine."
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "Well, that seems to be it. We'll drop you all off, then we'll be on our way."
+                        },
+                        {
+                            "Character": "TURLOUGH",
+                            "Line": "Er, what about our young friend here?"
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "Ah, well, him too. 1643 isn't all that far away."
+                        },
+                        {
+                            "Character": "TEGAN",
+                            "Line": "Aren't you forgetting something?"
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "Probably. It isn't unusual. I've had a very hard day."
+                        },
+                        {
+                            "Character": "TEGAN",
+                            "Line": "Well, we came here to visit my grandfather. Be nice to spend a little time with him."
+                        },
+                        {
+                            "Character": "TURLOUGH",
+                            "Line": "I must admit I wouldn't mind staying for a while."
+                        },
+                        {
+                            "Character": "JANE",
+                            "Line": "Hmm, you're outnumbered seven to one."
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "I'm being bullied, coerced, forced against my will. I've had enough for one day."
+                        },
+                        {
+                            "Character": "VERNEY",
+                            "Line": "Even if you are, agree, man."
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "All right. Just for a little while. We've a great deal to do."
+                        },
+                        {
+                            "Character": "TURLOUGH",
+                            "Line": "Good. I quite miss that brown liquid they drink here."
+                        },
+                        {
+                            "Character": "CHANDLER",
+                            "Line": "Ale."
+                        },
+                        {
+                            "Character": "TURLOUGH",
+                            "Line": "No, er, tea."
+                        },
+                        {
+                            "Character": "CHANDLER",
+                            "Line": "What be tea?"
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "Oh, a noxious infusion of oriental leaves containing a high percentage of toxic acid."
+                        },
+                        {
+                            "Character": "CHANDLER",
+                            "Line": "Sounds an evil brew, don't it."
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "True. Personally, I rather like it."
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

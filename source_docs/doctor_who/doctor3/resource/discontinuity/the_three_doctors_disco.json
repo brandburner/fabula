@@ -1,0 +1,123 @@
+{
+    "title": "The Three Doctors",
+    "air_date": "30 December 1972",
+    "num_episodes": 4,
+    "episode_titles": [
+        "Part One",
+        "Part Two",
+        "Part Three",
+        "Part Four"
+    ],
+    "episode_duration": 25,
+    "writers": [
+        "Bob Baker",
+        "Dave Martin"
+    ],
+    "directors": [
+        "Lennie Mayne"
+    ],
+    "media_format": "Color",
+    "dialogue_triumphs": [
+        "The First Doctor: 'So, you're my replacements? A dandy and a clown!'"
+    ],
+    "dialogue_disasters": [
+        "A UNIT Corporal has his first encounter with alien life: 'Holy Moses! What's that?!'",
+        "The Brigadier in an oft-quoted fit of pique: 'Liberty Hall, Dr Tyler, Liberty Hall!'"
+    ],
+    "goofs": [
+        "The Brigadier says UNIT HQ is 'a top secret establishment'. It's therefore a surprise to see a large sign outside informing the world not only of its function, but also the name of the commanding officer.",
+        "Reflections from the studio are often visible on the TARDIS monitor (and the second Doctor is reflected in the time rotor before he appears).",
+        "The footsteps of those returning to Earth via the singularity can be heard as they walk down the steps after they've disappeared.",
+        "Jo's knickers can be seen in episode one."
+    ],
+    "continuity_notes": [
+        {
+            "name": "Time Lords",
+            "type": "Organization",
+            "description": "The governing body of the Doctor's home planet. They have a President, Chancellor, and High Council.",
+            "origin": "Gallifrey",
+            "current_status": "Called upon by the Doctor for help"
+        },
+        {
+            "name": "First Law of Time",
+            "type": "Concept",
+            "description": "A law forbidding Time Lords from crossing their own time-stream and meeting their former or future selves.",
+            "origin": "Time Lord society",
+            "current_status": "Broken by the President of the Time Lords"
+        },
+        {
+            "name": "The Doctor's Exile",
+            "type": "Concept",
+            "description": "The Doctor's punishment by the Time Lords, preventing him from time-traveling.",
+            "origin": "Time Lord judgment",
+            "current_status": "Lifted by the Time Lords"
+        },
+        {
+            "name": "TARDIS",
+            "type": "Object",
+            "description": "The Doctor's time and space travel machine",
+            "origin": "Gallifrey",
+            "current_status": "Functioning, with a new dematerialisation circuit given by the Time Lords"
+        },
+        {
+            "name": "Sonic Screwdriver",
+            "type": "Object",
+            "description": "The Doctor's multi-purpose tool",
+            "origin": "Unknown",
+            "current_status": "Functioning as a Geiger counter"
+        }
+    ],
+    "technobabble": [
+        "The Brigadier's description of the X-rays taken by Tyler as 'space lightning' prompts the Doctor to guess at 'a sort of controlled superlucent emission'."
+    ],
+    "roots": [
+        "The Wizard of Oz",
+        "Paradise Lost (Omega=Satan)",
+        "Robinson Crusoe",
+        "The Blob",
+        "The Beatles' 'I Am the Walrus'",
+        "Descartes",
+        "H. G. Wells"
+    ],
+    "links": [
+        "The Brigadier mentions his previous meetings with the second Doctor and the events of 'Spearhead from Space', but the Doctor is ignorant of the Autons, saying: 'As far as I'm concerned, it hasn't happened yet.'"
+    ],
+    "locations": [
+        {
+            "name": "UNIT HQ",
+            "type": "Location",
+            "description": "Headquarters of the Unified Intelligence Taskforce",
+            "origin": "Earth",
+            "current_status": "Active, with a new lab"
+        },
+        {
+            "name": "Nature reserve",
+            "type": "Location",
+            "description": "An area on Earth where part of the story takes place",
+            "origin": "Earth",
+            "current_status": "Site of incident"
+        },
+        {
+            "name": "Gallifrey",
+            "type": "Location",
+            "description": "Home planet of the Time Lords",
+            "origin": "Unknown",
+            "current_status": "Active"
+        },
+        {
+            "name": "Omega's planet",
+            "type": "Location",
+            "description": "A planet in the Universe of anti-matter",
+            "origin": "Universe of anti-matter",
+            "current_status": "Inhabited by Omega"
+        }
+    ],
+    "future_history": null,
+    "untold_adventures": null,
+    "qv": [
+        "Season 6(b), 'The War Games'",
+        "The Origins of the Time Lords, 'The Deadly Assassin'"
+    ],
+    "additional_notes": "Fashion Victims: Jo in a blue fur coat, mini-skirt and platform boots. Just the sort of sensible footwear needed for a rocky alien planet.",
+    "bottom_line": "An exercise in nostalgia, which both demystifies and changes the nature of Doctor Who, 'The Three Doctors' hasn't aged well. It's gaudy and it has a smug edge to it, as though the fact that it is an anniversary means that nobody has to try too hard. But the Troughton/Pertwee interplay makes up for this, almost excusing the sight of a clearly ill William Hartnell reduced to an image on a screen."
+}

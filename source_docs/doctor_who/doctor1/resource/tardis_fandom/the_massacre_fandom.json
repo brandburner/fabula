@@ -1,0 +1,142 @@
+{
+  "metadata": {
+    "title": "The Massacre",
+    "series": "Doctor Who",
+    "season": "3",
+    "episode_number": 22,
+    "release_date": "5 February - 26 February 1966",
+    "writer": "John Lucarotti, Donald Tosh",
+    "director": "Paddy Russell",
+    "producer": "John Wiles",
+    "main_actors": [
+      "William Hartnell",
+      "Peter Purves",
+      "Jackie Lane"
+    ],
+    "time_reference": "1572"
+  },
+  "cast_crew": [
+    {
+      "cast": {
+        "name": "William Hartnell",
+        "role": "Dr. Who / Abbot of Amboise"
+      },
+      "crew": {
+        "name": "John Lucarotti",
+        "role": "Writer"
+      }
+    },
+    {
+      "cast": {
+        "name": "Peter Purves",
+        "role": "Steven Taylor"
+      },
+      "crew": {
+        "name": "Donald Tosh",
+        "role": "Writer"
+      }
+    },
+    {
+      "cast": {
+        "name": "Jackie Lane",
+        "role": "Dodo Chaplet"
+      },
+      "crew": {
+        "name": "Paddy Russell",
+        "role": "Director"
+      }
+    },
+    {
+      "cast": {
+        "name": "Barry Justice",
+        "role": "King Charles IX"
+      },
+      "crew": {
+        "name": "John Wiles",
+        "role": "Producer"
+      }
+    }
+  ],
+  "home_media": [
+    {}
+  ],
+  "story_notes": [
+    {
+      "notes": [
+        "The episodes title is \"The Massacre of St. Bartholomew's Eve (TV story)\".",
+        "Some modern sources prefer the shortened title since the full title is a little inaccurate.",
+        "The original, full title is what we should use."
+      ]
+    }
+  ],
+  "worldbuilding": {
+    "in_universe_mythology": [
+      "the Cardinal of Lorraine",
+      "the Abbot's hunt of scientists and Protestants"
+    ],
+    "real_world_cultural_references": [
+      "the French Revolution",
+      "the Huguenot massacre"
+    ],
+    "individuals": [
+      "Charles Preslin",
+      "Catherine de Medici",
+      "Henry of Navarre",
+      "Queen Marguerite"
+    ],
+    "items": [
+      "the microscope"
+    ],
+    "locations": [
+      "Paris",
+      "the Louvre",
+      "the Abbot's house",
+      "Admiral de Coligny's house"
+    ]
+  },
+  "ratings": {
+    "ratings_millions": [
+      {
+        "part": "War of God",
+        "viewers": 8.0
+      },
+      {
+        "part": "The Sea Beggar",
+        "viewers": 6.0
+      },
+      {
+        "part": "Priest of Death",
+        "viewers": 5.9
+      },
+      {
+        "part": "Bell of Doom",
+        "viewers": 5.8
+      }
+    ]
+  },
+  "continuity": {
+    "continuity_notes": [
+      "The Doctor faced another double of himself in TV: The Enemy of the World and The Almost People (and in some sense The Chase, Meglos, and Arc of Infinity).",
+      "His companions meet natural doubles (as opposed to androids or shape-shifters) of themselves on other occasions, such as Romana I in TV: The Androids of Tara; Nyssa in TV: Black Orchid; Polly Wright in PROSE: That Time I Nearly Destroyed the World Whilst Looking for a Dress; and Peri Brown in AUDIO: The Church and the Crown.",
+      "Steven says that he's been to Egypt. (TV: The Daleks' Master Plan)",
+      "The Doctor asks Steven if he agrees that Dodo bears a resemblance to his granddaughter Susan Foreman, who previously left the TARDIS. (TV: The Dalek Invasion of Earth)",
+      "Steven reminds the Doctor that he never met Susan as he did not join the TARDIS crew until after her departure. (TV: The Chase)",
+      "Dodo later told James Stevens that she researched her family tree for a school project and discovered that her ancestors were Huguenots who fled France due to religious persecution. This seems to confirm Steven's theory that she is one of Anne's descendants. (PROSE: Who Killed Kennedy)",
+      "The Doctor and Steven previously visited France, specifically Vend\u00e9e, during the French Revolution. (AUDIO: Fields of Terror)"
+    ]
+  },
+  "plot": [
+    {
+      "plot_summary": "The TARDIS materialises in Paris in the year 1572 and the Doctor decides to visit the famous apothecary Charles Preslin. Steven, meanwhile, is befriended by a group of Huguenots from the household of the Protestant Admiral de Coligny. Having rescued a young serving girl, Anne Chaplet, from some pursuing guards, the Huguenots gain their first inkling of a heinous plan being hatched at the command of the Catholic Queen Mother, Catherine de Medici."
+    },
+    {
+      "plot_summary": "Steven extricates himself from the Huguenots and leaves the tavern. No sooner has he done this but a servant girl, Anne Chaplet, runs into him before entering the tavern and is quickly followed by four guards. In the tavern, the girl hides, and because the guards are Catholics and the girl is a fellow Huguenot, Nicholas and his friends hide the girl from the guards, but only Steven is interested in why she was running. Because of Steven's interest, Nicholas questions Anne, and they learn that Anne had overheard the guards mention Wassy and \"It will happen again before the week is up\", implying another Huguenot massacre perpetrated by the Catholics."
+    },
+    {
+      "plot_summary": "Steven hurries to de Coligny's house to inform Nicholas of the impending assassination. When he gets to the house he bursts in and informs Nicholas of the location of the assassination and Nicholas runs off. On his way back from the Louvre, the Admiral approaches where the assassin lies in wait with a rifle. Nicholas and Steven make it to the Admiral, but not before the assassin fires a shot, wounding the Admiral in the arm."
+    },
+    {
+      "plot_summary": "The next morning, Anne is hiding back at Preslin's shop, waiting for Steven to arrive. When Steven arrives, he informs her of the Doctor's death, still believing that he was pretending to be the Abbot. Telling her about the TARDIS key, the two begin to search for clothes in the shop, hoping that the Doctor had changed into the Abbot's garb at the shop and left the key with his clothes. The Doctor appears and tells them that this is not the case, much to the shock of Steven. The Doctor orders Anne to go to her aunt's house, despite the curfew. As soon as Anne has gone, the two make for the TARDIS. Once the curfew bell has rung, the Doctor and Steven leave in the TARDIS as the Massacre of St Bartholomew's Day commences."
+    }
+  ]
+}

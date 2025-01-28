@@ -1,0 +1,2857 @@
+{
+    "Series": "\"What Kind Of Day Has It Been\"",
+    "Episode": {
+        "Number": "1.12",
+        "Title": "What Kind Of Day Has It Been",
+        "Original Airdate": "May 17, 2000, 9:00 PM EST",
+        "Credits": {
+            "Directed By": "THOMAS SCHLAMME"
+        },
+        "Sections": [
+            {
+                "Section": "Teaser",
+                "Scenes": [
+                    {
+                        "Scene Heading": "FADE IN: EXT. THE NEWSEUM - NIGHT",
+                        "Description": "",
+                        "Dialogues": [
+                            {
+                                "Character": "LIVE TOWN HALL MEETING",
+                                "Line": ""
+                            },
+                            {
+                                "Character": "THE NEWSEUM",
+                                "Line": "ROSSLYN, VIRGINIA In the alley behind the Newseum, there are waiting crowds and limos."
+                            },
+                            {
+                                "Character": "BARTLET",
+                                "Line": "Here's another one. Two politicians are having an argument. One of them stands up and says, \"You're lying!\" The other one answers, \"Yes, I am, but hear me out.\" The audience laughs.",
+                                "Descriptor": "VO"
+                            }
+                        ]
+                    },
+                    {
+                        "Scene Heading": "CUT TO: INT. CONTROL ROOM - CONTINUOUS",
+                        "Description": "A monitor shot of Bartlet on stage.",
+                        "Dialogues": [
+                            {
+                                "Character": "MODERATOR",
+                                "Line": "Mr. President, do you have time for one more question?",
+                                "Descriptor": "VO"
+                            }
+                        ]
+                    },
+                    {
+                        "Scene Heading": "CUT TO: INT. STAGE - CONTINUOUS",
+                        "Description": "",
+                        "Dialogues": [
+                            {
+                                "Character": "BARTLET",
+                                "Line": "I don't think I answered the last one. Suzanne's got me telling jokes. Here's an answer to your question that I don't think you're going to like the current crop of 18-25 year olds is the most politically apathetic generation in American history. In 1972, half of that age group voted. In the last election, 32%. Your generation is considerably less likely than any previous one to write or call public officials, attend rallies, or work on political campaigns. A man once said this, \"decisions are made by those who show up.\" So are we failing you, or are you failing us? It's a little of both. Gina is on a catwalk above the audience, talking to another Secret Service Agent."
+                            },
+                            {
+                                "Character": "GINA",
+                                "Line": "We're moments away. I'm going to get the door."
+                            },
+                            {
+                                "Character": "BARTLET",
+                                "Line": ". . .there's a guy on my staff who showed me a report from the Center of Policy Alternatives that said 61% of your age group agree with the statement \"Politicians and political officials - In the lobby of the Newseum. Josh, C.J. and Carol stand in the room. Reporters mill-about."
+                            },
+                            {
+                                "Character": "BARTLET",
+                                "Line": "- have failed my generation. When asked how older generations see you, your answers were \"lazy\", \"confused,\" and \"unfocused\".",
+                                "Descriptor": "VO"
+                            },
+                            {
+                                "Character": "REPORTER",
+                                "Line": "What's that source?",
+                                "Descriptor": "OS"
+                            },
+                            {
+                                "Character": "JOSH",
+                                "Line": "The Center of Policy Alternatives. C.J. will have copies for the bus ride back."
+                            },
+                            {
+                                "Character": "BARTLET",
+                                "Line": "When asked how you see yourselves, your answers were \"ambitious\", \"determined\", and \"independent\". [CUT TO: Bartlet onstage] Uh, I want to continue with this, [Bartlet glances offstage to Charlie, who looks very happy] but there was some debate amongst my staff earlier today as to whether or not I should take off my jacket. Some thought that it would fit in nicely with the folksy atmosphere of a town meeting, others thought that it wouldn't be presidential. Can I trust you all to read nothing more into it than I've been talking for two hours and it's a little hot under these lights? The audience applauds as Bartlet takes off his jacket. Sam stands at the end of the control room, reading some notes.",
+                                "Descriptor": "OS"
+                            },
+                            {
+                                "Character": "BARTLET",
+                                "Line": "See all that ambition and determination doesn't translate into political action, Suzanne. Bonnie walks up to Sam.",
+                                "Descriptor": "VO"
+                            },
+                            {
+                                "Character": "BONNIE",
+                                "Line": "Where's Toby?"
+                            },
+                            {
+                                "Character": "SAM",
+                                "Line": "Why?"
+                            },
+                            {
+                                "Character": "BONNIE",
+                                "Line": "He's got a phone call."
+                            },
+                            {
+                                "Character": "SAM",
+                                "Line": "From who?"
+                            },
+                            {
+                                "Character": "BONNIE",
+                                "Line": "Peter Jobson."
+                            },
+                            {
+                                "Character": "SAM",
+                                "Line": "Give it to me."
+                            },
+                            {
+                                "Character": "BARTLET",
+                                "Line": "- that tax burden has crept further and further down the income and age ladder. And benefits are going more and more to the elderly and well-to-do. Totaling all payments to individuals... Toby is watching Bartlet on a monitor in the lobby.",
+                                "Descriptor": "VO"
+                            },
+                            {
+                                "Character": "SAM",
+                                "Line": "Toby?"
+                            },
+                            {
+                                "Character": "BARTLET",
+                                "Line": "We spend nine times as much on the elderly as we do on a single child. Toby turns around. Sam shoots his arm up in the air in a wavy motion. Toby sighs with relief and turns to look over the railing to Josh standing below.",
+                                "Descriptor": "VO"
+                            },
+                            {
+                                "Character": "BARTLET",
+                                "Line": "No wonder this upcoming generation has turned its back on a government that's forgotten them.",
+                                "Descriptor": "VO"
+                            },
+                            {
+                                "Character": "TOBY",
+                                "Line": "Josh. [makes the wavy sign to Josh] Josh is at the bottom of the stairs. He gets Leo's attention."
+                            },
+                            {
+                                "Character": "JOSH",
+                                "Line": "Leo. Leo turns around, Josh makes the wavy sign."
+                            },
+                            {
+                                "Character": "LEO",
+                                "Line": "What's that?"
+                            },
+                            {
+                                "Character": "JOSH",
+                                "Line": "It's the signal."
+                            },
+                            {
+                                "Character": "LEO",
+                                "Line": "I thought that was the signal for the other thing?"
+                            },
+                            {
+                                "Character": "JOSH",
+                                "Line": "It's the signal for this thing, now."
+                            },
+                            {
+                                "Character": "LEO",
+                                "Line": "When did that happen?"
+                            },
+                            {
+                                "Character": "JOSH",
+                                "Line": "It happened just... who cares, Leo? It's the signal for this thing, now."
+                            },
+                            {
+                                "Character": "LEO",
+                                "Line": "So, we're totally out of the woods?"
+                            },
+                            {
+                                "Character": "JOSH",
+                                "Line": "Go tell the President. C.J. is in the Newseum Press Room, walking behind the rows of reporters."
+                            },
+                            {
+                                "Character": "BARTLET",
+                                "Line": "Overall entitlement payments have crowded out public investment in infrastructure and they will have crowded out public investment in education., to say nothing of the general quality of life. So college kids are facing a future of having to pay higher taxes... C.J. hits Danny on the back of the head on her way past him.",
+                                "Descriptor": "VO"
+                            },
+                            {
+                                "Character": "C.J.",
+                                "Line": "Follow me."
+                            },
+                            {
+                                "Character": "DANNY",
+                                "Line": "Why?"
+                            },
+                            {
+                                "Character": "BARTLET",
+                                "Line": "Today's young people aren't exactly living for tomorrow.",
+                                "Descriptor": "VO"
+                            },
+                            {
+                                "Character": "C.J.",
+                                "Line": "I have a tip."
+                            },
+                            {
+                                "Character": "DANNY",
+                                "Line": "You do?"
+                            },
+                            {
+                                "Character": "C.J.",
+                                "Line": "Yes."
+                            },
+                            {
+                                "Character": "DANNY",
+                                "Line": "Okay."
+                            },
+                            {
+                                "Character": "C.J.",
+                                "Line": "I have a tip and I'm going to give it to you before the others."
+                            },
+                            {
+                                "Character": "DANNY",
+                                "Line": "Are we being watched?"
+                            },
+                            {
+                                "Character": "C.J.",
+                                "Line": "No."
+                            },
+                            {
+                                "Character": "DANNY",
+                                "Line": "Then why are we talking like this?"
+                            },
+                            {
+                                "Character": "C.J.",
+                                "Line": "I have news."
+                            },
+                            {
+                                "Character": "DANNY",
+                                "Line": "What's the news?"
+                            },
+                            {
+                                "Character": "C.J.",
+                                "Line": "I want you to acknowledge that I'm doing something nice for you."
+                            },
+                            {
+                                "Character": "DANNY",
+                                "Line": "What's the news?"
+                            },
+                            {
+                                "Character": "C.J.",
+                                "Line": "A peace pipe of sorts."
+                            },
+                            {
+                                "Character": "DANNY",
+                                "Line": "Yes."
+                            },
+                            {
+                                "Character": "C.J.",
+                                "Line": "An offering, in one sense."
+                            },
+                            {
+                                "Character": "DANNY",
+                                "Line": "What's the damn news?"
+                            },
+                            {
+                                "Character": "C.J.",
+                                "Line": "Call your science editor."
+                            },
+                            {
+                                "Character": "DANNY",
+                                "Line": "Why?"
+                            },
+                            {
+                                "Character": "C.J.",
+                                "Line": "It's about the Space Shuttle Columbia. Leo walks behind the audience. As Bartlet speaks, Leo walks up in front of a monitor and makes \"the signal\" so Bartlet can see it."
+                            },
+                            {
+                                "Character": "BARTLET",
+                                "Line": "Generation x advocacy group third millennium, 53 of 18 to 25 year olds believe the soap opera General Hospital will outlast Medicare. This from a generation convinced that the generation before them has ransomed their generation's future. That's why my youngest daughter Zoey is always mad at me. The audience laughs. Zoey looks down at her father affectionately."
+                            },
+                            {
+                                "Character": "BARTLET",
+                                "Line": "This is the part where Zoey tries to crawl under a seat to hide. Don't worry about it, sweetie, I'll bring out the baby pictures any second now."
+                            }
+                        ]
+                    },
+                    {
+                        "Scene Heading": "CUT TO: EXT. OUTSIDE THE NEWSEUM - NIGHT",
+                        "Description": "Crowds cheer on the side. Ron walks up to Gina.",
+                        "Dialogues": [
+                            {
+                                "Character": "RON",
+                                "Line": "Straight to the car."
+                            },
+                            {
+                                "Character": "GINA",
+                                "Line": "He's not going to work the rope line?"
+                            },
+                            {
+                                "Character": "RON",
+                                "Line": "There's a softball game the President wants to watch."
+                            },
+                            {
+                                "Character": "GINA",
+                                "Line": "They show softball on TV?"
+                            },
+                            {
+                                "Character": "RON",
+                                "Line": "Well, yeah."
+                            },
+                            {
+                                "Character": "GINA",
+                                "Line": "And the president watches it?"
+                            },
+                            {
+                                "Character": "RON",
+                                "Line": "He likes to unwind by watching sports on TV."
+                            },
+                            {
+                                "Character": "GINA",
+                                "Line": "Softball."
+                            },
+                            {
+                                "Character": "RON",
+                                "Line": "Whatever's on."
+                            },
+                            {
+                                "Character": "GINA",
+                                "Line": "Okay. [surveys the crowd]"
+                            }
+                        ]
+                    },
+                    {
+                        "Scene Heading": "CUT TO: INT. NEWSEUM AUDITORIUM - CONTINUOUS",
+                        "Description": "Charlie walks up to Josh in the back of the auditorium.",
+                        "Dialogues": [
+                            {
+                                "Character": "BARTLET",
+                                "Line": "Strange as it may seem, that was the first time in history that anyone had bothered to write that down.",
+                                "Descriptor": "VO"
+                            },
+                            {
+                                "Character": "CHARLIE",
+                                "Line": "Did you hear that?"
+                            },
+                            {
+                                "Character": "JOSH",
+                                "Line": "Yeah."
+                            },
+                            {
+                                "Character": "CHARLIE",
+                                "Line": "He used it."
+                            },
+                            {
+                                "Character": "JOSH",
+                                "Line": "Yeah."
+                            },
+                            {
+                                "Character": "CHARLIE",
+                                "Line": "He used the material I told him about."
+                            },
+                            {
+                                "Character": "JOSH",
+                                "Line": "Yeah."
+                            },
+                            {
+                                "Character": "CHARLIE",
+                                "Line": "You were right."
+                            },
+                            {
+                                "Character": "JOSH",
+                                "Line": "About what?"
+                            },
+                            {
+                                "Character": "CHARLIE",
+                                "Line": "It doesn't go away."
+                            },
+                            {
+                                "Character": "BARTLET",
+                                "Line": "Thank you, everyone. God bless you, and God bless America.",
+                                "Descriptor": "VO"
+                            },
+                            {
+                                "Character": "JOSH",
+                                "Line": "Here we go."
+                            }
+                        ]
+                    },
+                    {
+                        "Scene Heading": "CUT TO: EXT. OUTSIDE THE NEWSEUM - CONTINUOUS",
+                        "Description": "Gina speaks into her wrist mike.",
+                        "Dialogues": [
+                            {
+                                "Character": "GINA",
+                                "Line": "He's not working the rope line. Straight to the car. I've got Bookbag. Bartlet, the staff, and Zoey walk out to the limos. Gina escorts Zoey to one of the limos."
+                            },
+                            {
+                                "Character": "ZOEY",
+                                "Line": "[to Gina] Baby pictures, he's heckling me with it. And visa card bills [on her father walking to the crowd] And look, now he's working the rope line. If there's ever a chance he's going to walk past a crowd of people. Charlie! Charlie walks up, while Gina apprehensively looks over the crowd."
+                            },
+                            {
+                                "Character": "GINA",
+                                "Line": "[muttering] I saw something."
+                            },
+                            {
+                                "Character": "ZOEY",
+                                "Line": "By the way, Charlie apologized to me. He made a full apology."
+                            },
+                            {
+                                "Character": "GINA",
+                                "Line": "I saw something! In the crowd, a troublesome-looking young man looks up at something behind Gina's head. Gina turns around in slow-motion to see what he is looking at. Her eyes widen, and she's just about to scream..."
+                            }
+                        ]
+                    },
+                    {
+                        "Scene Heading": "SMASH CUT TO: MAIN TITLES.",
+                        "Description": "",
+                        "Dialogues": [
+                            {
+                                "Character": "END TEASER",
+                                "Line": "* * *"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "Section": "Act One",
+                "Scenes": [
+                    {
+                        "Scene Heading": "FADE IN: INT. THE SITUATION ROOM - DAY",
+                        "Description": "12 HOURS EARLIER Various military personnel are running to and fro. Leo enters and approaches Admiral Fitzwallace.",
+                        "Dialogues": [
+                            {
+                                "Character": "LEO",
+                                "Line": "What's going on?"
+                            },
+                            {
+                                "Character": "FITZWALLACE",
+                                "Line": "One second, Leo. [into phone] That was an SA-6? Surface to air? Thank you. That was Jabar Air Force base in Kuwait, says a Nighthawk didn't come back."
+                            },
+                            {
+                                "Character": "LEO",
+                                "Line": "Didn't come back from where?"
+                            },
+                            {
+                                "Character": "FITZWALLACE",
+                                "Line": "A three-hour patrol in the No-fly with the Five and Dime."
+                            },
+                            {
+                                "Character": "LEO",
+                                "Line": "Iraq."
+                            },
+                            {
+                                "Character": "FITZWALLACE",
+                                "Line": "Yeah."
+                            },
+                            {
+                                "Character": "LEO",
+                                "Line": "We have an F-117 down in Iraq."
+                            },
+                            {
+                                "Character": "FITZWALLACE",
+                                "Line": "Along with the pilot"
+                            },
+                            {
+                                "Character": "LEO",
+                                "Line": "How much of this is confirmed?"
+                            },
+                            {
+                                "Character": "FITZWALLACE",
+                                "Line": "None of it."
+                            },
+                            {
+                                "Character": "LEO",
+                                "Line": "How much time?"
+                            },
+                            {
+                                "Character": "FITZWALLACE",
+                                "Line": "I'll need ten more minutes."
+                            },
+                            {
+                                "Character": "LEO",
+                                "Line": "Ten minutes, and then I'm bringing in the President."
+                            },
+                            {
+                                "Character": "FITZWALLACE",
+                                "Line": "Confirmation in ten minutes."
+                            }
+                        ]
+                    },
+                    {
+                        "Scene Heading": "CUT TO: INT. THE WHITE HOUSE COLONNADE - DAY",
+                        "Description": "Bartlet and Charlie are walking from the Residence to the Oval Office.",
+                        "Dialogues": [
+                            {
+                                "Character": "BARTLET",
+                                "Line": "It seems to me that if this event is over by 10:00, then I can be back here by 11, and you know what that means."
+                            },
+                            {
+                                "Character": "CHARLIE",
+                                "Line": "Yes, sir. It means that you can watch the girls' softball game."
+                            },
+                            {
+                                "Character": "BARTLET",
+                                "Line": "Did you just snicker when you said that?"
+                            },
+                            {
+                                "Character": "CHARLIE",
+                                "Line": "No, sir."
+                            },
+                            {
+                                "Character": "BARTLET",
+                                "Line": "Yes, you did. As they enter THE OVAL OFFICE, an aide hands him a memo."
+                            },
+                            {
+                                "Character": "AIDE 1",
+                                "Line": "Mr. President."
+                            },
+                            {
+                                "Character": "BARTLET",
+                                "Line": "Thanks, Lou. [to Charlie] When you said Girls Softball Game, you snickered."
+                            },
+                            {
+                                "Character": "CHARLIE",
+                                "Line": "No, sir."
+                            },
+                            {
+                                "Character": "BARTLET",
+                                "Line": "Yes, you snickered. As if to indicate there was something wrong with my wanting to see a girls' softball game live via satellite."
+                            },
+                            {
+                                "Character": "CHARLIE",
+                                "Line": "Well, you seem pretty excited by it, sir. A knock on the door, and another aide sticks his head in."
+                            },
+                            {
+                                "Character": "AIDE 2",
+                                "Line": "They're ready for you, Sir."
+                            },
+                            {
+                                "Character": "BARTLET",
+                                "Line": "Thanks, Phil. [to Charlie, whom he leads down the hall] I am excited about it! You come to the end of a long day, you sit back, you open a beer, you watch a sporting event. That's what men do."
+                            },
+                            {
+                                "Character": "CHARLIE",
+                                "Line": "Girls' softball."
+                            },
+                            {
+                                "Character": "BARTLET",
+                                "Line": "If that's what's on, then that's what they watch. It's either that, or a cricket match between Scotland and Bermuda. Now, I am an educated man, Charlie, but when someone tries to explain cricket to me, all I want to do is hit him in the head with a teapot."
+                            },
+                            {
+                                "Character": "AIDE 3",
+                                "Line": "Good morning, Mr. President.",
+                                "Descriptor": "OS"
+                            },
+                            {
+                                "Character": "BARTLET",
+                                "Line": "Good morning, Patty. [to Charlie] So, it's softball. Sacramento State versus the University of the Pacific."
+                            },
+                            {
+                                "Character": "CHARLIE",
+                                "Line": "Well, that's a clash of the Titans, sir."
+                            },
+                            {
+                                "Character": "BARTLET",
+                                "Line": "Now, you're not going to spoil my fun."
+                            },
+                            {
+                                "Character": "CHARLIE",
+                                "Line": "I wouldn't want to, Sir."
+                            },
+                            {
+                                "Character": "BARTLET",
+                                "Line": "I'm going to get back at the end of the day, sit back, open a beer..."
+                            },
+                            {
+                                "Character": "CHARLIE",
+                                "Line": "And watch girls softball."
+                            },
+                            {
+                                "Character": "BARTLET",
+                                "Line": "That's right! They walk into the West Wing offices. Greeted by more aides."
+                            },
+                            {
+                                "Character": "AIDES",
+                                "Line": "Good morning, Mr. President. Good morning, sir."
+                            },
+                            {
+                                "Character": "BARTLET",
+                                "Line": "Hey, Steve. Hey, Mikey. [to Charlie] Listen, have I got any of the names right so far?"
+                            },
+                            {
+                                "Character": "CHARLIE",
+                                "Line": "No, sir, but you came pretty damn close to a couple of them."
+                            },
+                            {
+                                "Character": "BARTLET",
+                                "Line": "Okay. Charlie and Bartlet enter THE PRESS ROOM, which is filled with aides. C.J. is inside."
+                            },
+                            {
+                                "Character": "BARTLET",
+                                "Line": "Good morning, everybody!"
+                            },
+                            {
+                                "Character": "C.J.",
+                                "Line": "[pointing out the stage setup to Bartlet] I hope you don't mind if we get right to it."
+                            },
+                            {
+                                "Character": "BARTLET",
+                                "Line": "Sure."
+                            },
+                            {
+                                "Character": "C.J.",
+                                "Line": "It's a town hall meeting broadcast live on MSNBC. For the purposes of this rehearsal, Carol will be the moderator, she'll be seated at your right, which is camera left. You'll have a pitcher and a drinking glass."
+                            },
+                            {
+                                "Character": "BARTLET",
+                                "Line": "And when I speak, I should stand facing the audience, right?"
+                            },
+                            {
+                                "Character": "C.J.",
+                                "Line": "Sir"
+                            },
+                            {
+                                "Character": "BARTLET",
+                                "Line": "Do you know how I know this, C.J.? Because I've done it 2,000 to 300,000 times before. [to Sam, who just walked in] Hey, Sam."
+                            },
+                            {
+                                "Character": "SAM",
+                                "Line": "Yes, sir?"
+                            },
+                            {
+                                "Character": "BARTLET",
+                                "Line": "Why didn't the Columbia land last night?"
+                            },
+                            {
+                                "Character": "SAM",
+                                "Line": "I'm sorry, sir?"
+                            },
+                            {
+                                "Character": "BARTLET",
+                                "Line": "The Space Shuttle was supposed to land last night, someone told me that it didn't."
+                            },
+                            {
+                                "Character": "SAM",
+                                "Line": "I don't know, sir."
+                            },
+                            {
+                                "Character": "BARTLET",
+                                "Line": "Why don't you go ask Toby?"
+                            },
+                            {
+                                "Character": "SAM",
+                                "Line": "Why would Toby know?"
+                            },
+                            {
+                                "Character": "BARTLET",
+                                "Line": "His brother's on that flight."
+                            },
+                            {
+                                "Character": "SAM",
+                                "Line": "Really?"
+                            },
+                            {
+                                "Character": "BARTLET",
+                                "Line": "He's a payload specialist."
+                            },
+                            {
+                                "Character": "SAM",
+                                "Line": "I didn't know that"
+                            },
+                            {
+                                "Character": "BARTLET",
+                                "Line": "He's up there with four red-bellied Japanese newts. He wants to see how a newt's inner ears, which are remarkably similar to humans, are influenced by the absence of gravity. [to C.J.] Do you know what he calls them, C.J.?"
+                            },
+                            {
+                                "Character": "C.J.",
+                                "Line": "Astro-newts?"
+                            },
+                            {
+                                "Character": "BARTLET",
+                                "Line": "100% right. [to Sam] Go ask him why it didn't land."
+                            },
+                            {
+                                "Character": "SAM",
+                                "Line": "Yes, sir. Bartlet walks up to Stage and sits on stool. C.J follows him."
+                            },
+                            {
+                                "Character": "C.J.",
+                                "Line": "Okay, Mr. President."
+                            },
+                            {
+                                "Character": "CAROL",
+                                "Line": "Mr. President, the first question is..."
+                            },
+                            {
+                                "Character": "BARTLET",
+                                "Line": "C.J., you say I have a pitcher of water and a drinking glass. Now the water gets into the glass how?"
+                            }
+                        ]
+                    },
+                    {
+                        "Scene Heading": "CUT TO: INT. THE COMMUNICATIONS OFFICE - DAY",
+                        "Description": "Toby is pacing in front of Bonnie's desk.",
+                        "Dialogues": [
+                            {
+                                "Character": "TOBY",
+                                "Line": "And the question will go something like this, Mr. President, your administration has pursued a policy of, what? Constructive engagement..."
+                            },
+                            {
+                                "Character": "BONNIE",
+                                "Line": "Yes."
+                            },
+                            {
+                                "Character": "TOBY",
+                                "Line": "...towards China, even though it's a communist country that has systemically, what, imprisoned dissidents..."
+                            },
+                            {
+                                "Character": "BONNIE",
+                                "Line": "Yes."
+                            },
+                            {
+                                "Character": "TOBY",
+                                "Line": "Okay, oppressed blah, blah, blah. At the same time, your administration has refused to engage Cuba. Why the double standard?"
+                            },
+                            {
+                                "Character": "GINGER",
+                                "Line": "[walking by] Interesting question."
+                            },
+                            {
+                                "Character": "TOBY",
+                                "Line": "Thanks."
+                            },
+                            {
+                                "Character": "SAM",
+                                "Line": "Toby?"
+                            },
+                            {
+                                "Character": "TOBY",
+                                "Line": "We need an answer on Cuba. We need an answer on Cuba, and we need an answer on farm loans."
+                            },
+                            {
+                                "Character": "SAM",
+                                "Line": "Toby, college students aren't going to ask questions on Cuba."
+                            },
+                            {
+                                "Character": "TOBY",
+                                "Line": "There will be faculty there."
+                            },
+                            {
+                                "Character": "SAM",
+                                "Line": "You know, not only did I not know that you had a brother on the Space Shuttle right now, I didn't know you had a brother."
+                            },
+                            {
+                                "Character": "TOBY",
+                                "Line": "Yeah."
+                            },
+                            {
+                                "Character": "SAM",
+                                "Line": "I didn't know you had a brother!"
+                            },
+                            {
+                                "Character": "TOBY",
+                                "Line": "I do."
+                            },
+                            {
+                                "Character": "SAM",
+                                "Line": "Do you know why the Space Shuttle didn't land last night?"
+                            },
+                            {
+                                "Character": "TOBY",
+                                "Line": "Why?"
+                            },
+                            {
+                                "Character": "SAM",
+                                "Line": "Were you aware that the Space Shuttle was supposed to land last night and didn't?"
+                            },
+                            {
+                                "Character": "TOBY",
+                                "Line": "What do you want from me, Sam? Is there something going on on the shuttle?"
+                            },
+                            {
+                                "Character": "SAM",
+                                "Line": "I'll find out."
+                            },
+                            {
+                                "Character": "TOBY",
+                                "Line": "Thank you. And write me the answer on Cuba."
+                            },
+                            {
+                                "Character": "SAM",
+                                "Line": "Okay."
+                            }
+                        ]
+                    },
+                    {
+                        "Scene Heading": "CUT TO: INT. JOSH'S BULLPEN AREA - DAY",
+                        "Description": "Josh is just getting in, and is all over the muffins and coffee.",
+                        "Dialogues": [
+                            {
+                                "Character": "JOSH",
+                                "Line": "Donna?"
+                            },
+                            {
+                                "Character": "DONNA",
+                                "Line": "Yeah."
+                            },
+                            {
+                                "Character": "JOSH",
+                                "Line": "Did you get me the meeting with the Vice President?"
+                            },
+                            {
+                                "Character": "DONNA",
+                                "Line": "I did, but you're not going to be happy."
+                            },
+                            {
+                                "Character": "JOSH",
+                                "Line": "Jogging!"
+                            },
+                            {
+                                "Character": "DONNA",
+                                "Line": "Yeah."
+                            },
+                            {
+                                "Character": "JOSH",
+                                "Line": "We couldn't really, this time, just sit in chairs?"
+                            },
+                            {
+                                "Character": "DONNA",
+                                "Line": "He's jogging at 2; it's the only time he could fit you in."
+                            },
+                            {
+                                "Character": "JOSH",
+                                "Line": "Okay, order me boiled chicken and some pasta. Nothing like a meeting you have to carb-up for."
+                            },
+                            {
+                                "Character": "DONNA",
+                                "Line": "You're supposed to be at the town hall prep right now."
+                            },
+                            {
+                                "Character": "JOSH",
+                                "Line": "[walking into his office] Yeah, I'm headed to the Press Room."
+                            },
+                            {
+                                "Character": "DONNA",
+                                "Line": "It started 10 minutes ago.",
+                                "Descriptor": "VO"
+                            },
+                            {
+                                "Character": "JOSH",
+                                "Line": "[stopping behind his desk] Donna?"
+                            },
+                            {
+                                "Character": "DONNA",
+                                "Line": "[walking inside] Yeah?"
+                            },
+                            {
+                                "Character": "JOSH",
+                                "Line": "Where's my chair?"
+                            },
+                            {
+                                "Character": "DONNA",
+                                "Line": "We have to go. Donna walks out of office. Josh follows her as she goes by her desk."
+                            },
+                            {
+                                "Character": "JOSH",
+                                "Line": "Where's my chair?"
+                            },
+                            {
+                                "Character": "DONNA",
+                                "Line": "What chair?"
+                            },
+                            {
+                                "Character": "JOSH",
+                                "Line": "The chair I sit in at my desk."
+                            },
+                            {
+                                "Character": "DONNA",
+                                "Line": "It's at the shop."
+                            },
+                            {
+                                "Character": "JOSH",
+                                "Line": "At the shop?"
+                            },
+                            {
+                                "Character": "DONNA",
+                                "Line": "You said one of the wheels was wobbly."
+                            },
+                            {
+                                "Character": "JOSH",
+                                "Line": "Yeah, you call up a guy in maintenance, he uses a screwdriver."
+                            },
+                            {
+                                "Character": "DONNA",
+                                "Line": "Well, I sent it to the shop."
+                            },
+                            {
+                                "Character": "JOSH",
+                                "Line": "I didn't even know there was a shop."
+                            },
+                            {
+                                "Character": "DONNA",
+                                "Line": "It's not so much a shop as it is"
+                            },
+                            {
+                                "Character": "JOSH",
+                                "Line": "What?"
+                            },
+                            {
+                                "Character": "DONNA",
+                                "Line": "My friend Curtis."
+                            },
+                            {
+                                "Character": "JOSH",
+                                "Line": "Your friend Curtis."
+                            },
+                            {
+                                "Character": "DONNA",
+                                "Line": "Yeah."
+                            },
+                            {
+                                "Character": "JOSH",
+                                "Line": "Is fixing my chair?"
+                            },
+                            {
+                                "Character": "DONNA",
+                                "Line": "I'm throwing him some work."
+                            },
+                            {
+                                "Character": "JOSH",
+                                "Line": "And how much is Curtis charging the Federal Government to fix the wobbly wheel on my chair?"
+                            },
+                            {
+                                "Character": "DONNA",
+                                "Line": "He said he'd have to take a look at the job."
+                            },
+                            {
+                                "Character": "JOSH",
+                                "Line": "At his shop."
+                            },
+                            {
+                                "Character": "DONNA",
+                                "Line": "Yeah."
+                            },
+                            {
+                                "Character": "JOSH",
+                                "Line": "Okay."
+                            }
+                        ]
+                    },
+                    {
+                        "Scene Heading": "CUT TO: INT. THE PRESS ROOM - DAY",
+                        "Description": "",
+                        "Dialogues": [
+                            {
+                                "Character": "MANDY",
+                                "Line": "Mr. President, there are more than 40 million Americans without health insurance, and a majority of them are children. In the first year of your presidency, you proposed no new..."
+                            },
+                            {
+                                "Character": "BARTLET",
+                                "Line": "I proposed"
+                            },
+                            {
+                                "Character": "MANDY",
+                                "Line": "...comprehensive solution to the crisis. Can we expect real action in the future, or will your administration continue to nibble around the edges?"
+                            },
+                            {
+                                "Character": "BARTLET",
+                                "Line": "I wouldn't say my administration is nibbling around the edges."
+                            },
+                            {
+                                "Character": "JOSH",
+                                "Line": "Don't repeat the phrase, sir, that will be the soundbite. If we don't have a solution, the least we can do is acknowledge that there is a problem."
+                            },
+                            {
+                                "Character": "BARTLET",
+                                "Line": "I agree with you that far too many Americans don't have adequate access to health insurance, and that far too many of them are children. Yes, we can and we must do more."
+                            },
+                            {
+                                "Character": "LEO",
+                                "Line": "Mr. President?"
+                            },
+                            {
+                                "Character": "BARTLET",
+                                "Line": "Hang on. [to Josh] Now can I blame Congress?"
+                            },
+                            {
+                                "Character": "JOSH",
+                                "Line": "Knock yourself out."
+                            },
+                            {
+                                "Character": "LEO",
+                                "Line": "Mr. President, I need you in the situation room. Bartlet nods to everyone and follows Leo out."
+                            }
+                        ]
+                    },
+                    {
+                        "Scene Heading": "CUT TO: INT. THE SITUATION ROOM - DAY",
+                        "Description": "Fitzwallace and the Joint Chiefs of Staff rise as Bartlet comes in.",
+                        "Dialogues": [
+                            {
+                                "Character": "FITZWALLACE",
+                                "Line": "Good morning, Mr. President."
+                            },
+                            {
+                                "Character": "BARTLET",
+                                "Line": "Is the pilot still alive?"
+                            },
+                            {
+                                "Character": "FITZWALLACE",
+                                "Line": "He had an ACES II 0/0 ejector seat abroad."
+                            },
+                            {
+                                "Character": "ARMY OFFICER",
+                                "Line": "NATO command in Brussels says the AEGIS system on the North Dakota picked up a tracking signal on the south peninsula on the Fao Peninsula, south of Basra."
+                            },
+                            {
+                                "Character": "BARTLET",
+                                "Line": "He's in the middle of nowhere."
+                            },
+                            {
+                                "Character": "LEO",
+                                "Line": "Who else is out there?"
+                            },
+                            {
+                                "Character": "ARMY OFFICER",
+                                "Line": "The fourth corps of the Iraqi RG were patrolling the area."
+                            },
+                            {
+                                "Character": "AIR FORCE OFFICER",
+                                "Line": "Someone is within ten miles of the pilot."
+                            },
+                            {
+                                "Character": "BARTLET",
+                                "Line": "Our guy is ten miles from the Fourth Corps of the Iraqi Republican Guard?"
+                            },
+                            {
+                                "Character": "FITZWALLACE",
+                                "Line": "It's a matter of who gets there first."
+                            },
+                            {
+                                "Character": "LEO",
+                                "Line": "Fitz, you got a rescue scenario?"
+                            },
+                            {
+                                "Character": "FITZWALLACE",
+                                "Line": "Yeah, the 16th special operations group out of Hubert Field."
+                            },
+                            {
+                                "Character": "LEO",
+                                "Line": "They use the PAVE Hawks?"
+                            },
+                            {
+                                "Character": "FITZWALLACE",
+                                "Line": "And the MH-53J."
+                            },
+                            {
+                                "Character": "LEO",
+                                "Line": "[handing Bartlet photos] These are the special equipped helicopters. They fly treetop altitude at about 180 knots."
+                            },
+                            {
+                                "Character": "PHIL",
+                                "Line": "Mr. President, can I suggest that rather than jumping into a military rescue mission -"
+                            },
+                            {
+                                "Character": "LEO",
+                                "Line": "Oh, please."
+                            },
+                            {
+                                "Character": "PHIL",
+                                "Line": "That a phone call to the Iraqi ambassador"
+                            },
+                            {
+                                "Character": "LEO",
+                                "Line": "Bill, you wanna check with the embassy?"
+                            },
+                            {
+                                "Character": "PHIL",
+                                "Line": "I'm saying that three hours spent on diplomatic solutions"
+                            },
+                            {
+                                "Character": "LEO",
+                                "Line": "I'll tell you what, Phil. How about I drop you and your 47 million-dollar warplane that's already been picked up by Iraqi radar in the middle of the desert. Then you tell me if we've got three hours to find a diplomatic solution before we come and get you!"
+                            },
+                            {
+                                "Character": "BARTLET",
+                                "Line": "What's his name?"
+                            },
+                            {
+                                "Character": "FITZWALLACE",
+                                "Line": "I'm sorry, sir?"
+                            },
+                            {
+                                "Character": "BARTLET",
+                                "Line": "The pilot. What's his name?"
+                            },
+                            {
+                                "Character": "FITZWALLACE",
+                                "Line": "Captain Scott Hutchins."
+                            },
+                            {
+                                "Character": "BARTLET",
+                                "Line": "Where's he from?"
+                            },
+                            {
+                                "Character": "FITZWALLACE",
+                                "Line": "Rhode Island."
+                            },
+                            {
+                                "Character": "BARTLET",
+                                "Line": "How old is he?"
+                            },
+                            {
+                                "Character": "FITZWALLACE",
+                                "Line": "26."
+                            },
+                            {
+                                "Character": "BARTLET",
+                                "Line": "Rob told me in my intelligence briefing last week that the Iraqi government has put out a bounty the equivalent of 14,000 dollars U.S on any American plane shot down, or any American soldier captured. Now, he was just patrolling the No Fly zone, right?"
+                            },
+                            {
+                                "Character": "FITZWALLACE",
+                                "Line": "Yes, sir."
+                            },
+                            {
+                                "Character": "BARTLET",
+                                "Line": "He had not engaged."
+                            },
+                            {
+                                "Character": "FITZWALLACE",
+                                "Line": "No, sir."
+                            },
+                            {
+                                "Character": "BARTLET",
+                                "Line": "Bill, if it ends up that Fitzwallace has to call this kid's parents, I swear to God I'm invading Baghdad. [to Fitzwallace] Get him back."
+                            },
+                            {
+                                "Character": "FITZWALLACE",
+                                "Line": "Yes, sir."
+                            }
+                        ]
+                    },
+                    {
+                        "Scene Heading": "CUT TO: INT. LEO'S OFFICE - DAY",
+                        "Description": "C.J. walks into Leo's office.",
+                        "Dialogues": [
+                            {
+                                "Character": "C.J.",
+                                "Line": "Yeah."
+                            },
+                            {
+                                "Character": "LEO",
+                                "Line": "Oh C.J., The Iraqis shot down an F-117 Nighthawk in the Southern No-Fly Zone."
+                            },
+                            {
+                                "Character": "C.J.",
+                                "Line": "Is the pilot still alive?"
+                            },
+                            {
+                                "Character": "LEO",
+                                "Line": "Yeah, but he's caught between a couple of divisions of the Republican Guard."
+                            },
+                            {
+                                "Character": "C.J.",
+                                "Line": "Is there a Pentagon...?"
+                            },
+                            {
+                                "Character": "LEO",
+                                "Line": "Pentagon team is coming over to brief you."
+                            },
+                            {
+                                "Character": "C.J.",
+                                "Line": "Is there a rescue mission?"
+                            },
+                            {
+                                "Character": "LEO",
+                                "Line": "President gave the order about an hour ago."
+                            },
+                            {
+                                "Character": "C.J.",
+                                "Line": "If the Iraqis shot down an F-117, they're going to want to tell the world about it."
+                            },
+                            {
+                                "Character": "LEO",
+                                "Line": "Yeah."
+                            },
+                            {
+                                "Character": "C.J.",
+                                "Line": "There's going to be film of a burning airplane on CNN within two hours, and the press will have the news before you get done with whatever it is you've got going on in the situation room."
+                            },
+                            {
+                                "Character": "LEO",
+                                "Line": "Which is the problem of conducting a covert rescue mission in this age of instant news. You understand what I'm telling you?"
+                            },
+                            {
+                                "Character": "C.J.",
+                                "Line": "Yes, I do."
+                            },
+                            {
+                                "Character": "LEO",
+                                "Line": "'Cause there was a problem."
+                            },
+                            {
+                                "Character": "C.J.",
+                                "Line": "Leo, I'm saying..."
+                            },
+                            {
+                                "Character": "LEO",
+                                "Line": "There was a problem a few months ago with India/Pakistan, you were uncomfortable -"
+                            },
+                            {
+                                "Character": "C.J.",
+                                "Line": "Leo."
+                            },
+                            {
+                                "Character": "LEO",
+                                "Line": "You were uncomfortable lying to the press..."
+                            },
+                            {
+                                "Character": "C.J.",
+                                "Line": "I wasn't lying to the press about India/Pakistan, I was lied to by you, which made me look like an idiot."
+                            },
+                            {
+                                "Character": "LEO",
+                                "Line": "Well, I'm not lying to you now. Four Mh-53 J Pay-lows carrying 80 guys from the 16th special ops are out flying under radar."
+                            },
+                            {
+                                "Character": "C.J.",
+                                "Line": "We're going to pay a price for misleading the press."
+                            },
+                            {
+                                "Character": "LEO",
+                                "Line": "I don't care."
+                            },
+                            {
+                                "Character": "C.J.",
+                                "Line": "I understand."
+                            },
+                            {
+                                "Character": "JOSH",
+                                "Line": "[enters] Leo, an F-117?"
+                            },
+                            {
+                                "Character": "LEO",
+                                "Line": "[to C.J.] You should go to your briefing. C.J. exits."
+                            },
+                            {
+                                "Character": "LEO",
+                                "Line": "[to Josh] Yeah."
+                            },
+                            {
+                                "Character": "JOSH",
+                                "Line": "An F-117 is a stealth fighter, right?"
+                            },
+                            {
+                                "Character": "LEO",
+                                "Line": "Yeah."
+                            },
+                            {
+                                "Character": "JOSH",
+                                "Line": "At some point, we're going to be talking about how they shot down a stealth fighter."
+                            },
+                            {
+                                "Character": "LEO",
+                                "Line": "You can take that to the bank."
+                            },
+                            {
+                                "Character": "JOSH",
+                                "Line": "Anyway, I arranged a meeting with Hoynes."
+                            },
+                            {
+                                "Character": "LEO",
+                                "Line": "When?"
+                            },
+                            {
+                                "Character": "JOSH",
+                                "Line": "In an hour."
+                            },
+                            {
+                                "Character": "LEO",
+                                "Line": "Where?"
+                            },
+                            {
+                                "Character": "JOSH",
+                                "Line": "We're jogging."
+                            },
+                            {
+                                "Character": "LEO",
+                                "Line": "Listen to me. Don't tell him why it's bad for us. Tell him why it's bad for him."
+                            },
+                            {
+                                "Character": "JOSH",
+                                "Line": "I'm not worried about the meeting."
+                            },
+                            {
+                                "Character": "LEO",
+                                "Line": "Come see me after. Josh exits into the HALLWAY and runs into Toby. They continue walking."
+                            },
+                            {
+                                "Character": "TOBY",
+                                "Line": "An F-117?"
+                            },
+                            {
+                                "Character": "JOSH",
+                                "Line": "Yes."
+                            },
+                            {
+                                "Character": "TOBY",
+                                "Line": "How did it get seen?"
+                            },
+                            {
+                                "Character": "JOSH",
+                                "Line": "I'm sure that someone is looking into that."
+                            },
+                            {
+                                "Character": "TOBY",
+                                "Line": "I would think so."
+                            },
+                            {
+                                "Character": "JOSH",
+                                "Line": "In it's defense, the stealth fighter is a generation of technology behind the B-2 Spirit Bomber."
+                            },
+                            {
+                                "Character": "TOBY",
+                                "Line": "It's a stealth fighter, it should have stealth capability, right?"
+                            },
+                            {
+                                "Character": "JOSH",
+                                "Line": "Yeah."
+                            },
+                            {
+                                "Character": "TOBY",
+                                "Line": "Because if it doesn't, we should call it something else. Josh snorts in agreement and veers left to his own office. Toby walks into his OFFICE, where Sam is sitting on the front of Toby's desk, waiting for him."
+                            },
+                            {
+                                "Character": "SAM",
+                                "Line": "Hello."
+                            },
+                            {
+                                "Character": "TOBY",
+                                "Line": "Hi."
+                            },
+                            {
+                                "Character": "SAM",
+                                "Line": "One of the payload bay doors would not close."
+                            },
+                            {
+                                "Character": "TOBY",
+                                "Line": "I'm sorry."
+                            },
+                            {
+                                "Character": "SAM",
+                                "Line": "Specifically the starboard payload bay door."
+                            },
+                            {
+                                "Character": "TOBY",
+                                "Line": "Sam, if your ass isn't off my desk, and I mean stat..."
+                            },
+                            {
+                                "Character": "SAM",
+                                "Line": "[getting up] This is not his first shuttle mission. It is his fourth shuttle mission, Dr. David Ziegler, holding postgraduate degrees in both physiology and biology. Now I know more about your brother than I do about you, since I didn't know you had a brother."
+                            },
+                            {
+                                "Character": "TOBY",
+                                "Line": "A payload bay door wouldn't close?"
+                            },
+                            {
+                                "Character": "SAM",
+                                "Line": "I talked to the mission commander, guy name of Peter Jobson, he said the power drive unit on the starboard pay load door is jammed, they were going to need an EVA to fix it, and they didn't want to land till the morning."
+                            },
+                            {
+                                "Character": "TOBY",
+                                "Line": "It's morning every 45 minutes on the shuttle."
+                            },
+                            {
+                                "Character": "SAM",
+                                "Line": "Morning at Edwards."
+                            },
+                            {
+                                "Character": "TOBY",
+                                "Line": "It's morning right now."
+                            },
+                            {
+                                "Character": "SAM",
+                                "Line": "The EVA's taking them a little time."
+                            },
+                            {
+                                "Character": "TOBY",
+                                "Line": "Well, it's a red-letter day for U.S. Aviation, isn't it?"
+                            },
+                            {
+                                "Character": "SAM",
+                                "Line": "Toby. Peter Jobson was very calm. He said it was a minor problem."
+                            },
+                            {
+                                "Character": "TOBY",
+                                "Line": "All right, then go back to work. C.J.'s going to need the briefing room, so let's move prep to the Roosevelt Room as soon as the President is free."
+                            },
+                            {
+                                "Character": "SAM",
+                                "Line": "I don't believe he's going to get anything on Cuba, but we're working out an answer. Also on teachers."
+                            },
+                            {
+                                "Character": "TOBY",
+                                "Line": "Okay. [as Sam is walking out] Sam? Keep in touch with Peter Jobson and let me know as soon as it lands, would you?"
+                            },
+                            {
+                                "Character": "SAM",
+                                "Line": "Yeah. Bonnie enters."
+                            },
+                            {
+                                "Character": "BONNIE",
+                                "Line": "Toby?"
+                            },
+                            {
+                                "Character": "TOBY",
+                                "Line": "Yeah."
+                            },
+                            {
+                                "Character": "BONNIE",
+                                "Line": "CNN's got the Nighthawk."
+                            },
+                            {
+                                "Character": "TOBY",
+                                "Line": "Thank you."
+                            }
+                        ]
+                    },
+                    {
+                        "Scene Heading": "CUT TO: EXT. ROCK CREEK PARKWAY - DAY",
+                        "Description": "Josh and Hoynes are jogging towards the Lincoln Memorial.",
+                        "Dialogues": [
+                            {
+                                "Character": "JOSH",
+                                "Line": "There was a reckless deregulation of the S&L industry by a Democratic Congress, it was flooded with S&L donations. A disaster which nearly collapsed the banking industry and cost the taxpayers 500 billion dollars."
+                            },
+                            {
+                                "Character": "HOYNES",
+                                "Line": "What's your point?"
+                            },
+                            {
+                                "Character": "JOSH",
+                                "Line": "We're no better with the money than they are."
+                            },
+                            {
+                                "Character": "HOYNES",
+                                "Line": "Tell me about it."
+                            },
+                            {
+                                "Character": "JOSH",
+                                "Line": "Three-quarters of all soft money coming to the Democratic party isn't coming from labor unions, it's coming from corporations."
+                            },
+                            {
+                                "Character": "HOYNES",
+                                "Line": "Yes, I know."
+                            },
+                            {
+                                "Character": "JOSH",
+                                "Line": "Over a hundred businesses gave both parties in excess of $125,000 in the last election."
+                            },
+                            {
+                                "Character": "HOYNES",
+                                "Line": "I know."
+                            },
+                            {
+                                "Character": "JOSH",
+                                "Line": "They gave it to both parties! This isn't free speech or political values, Mr. Vice President. I don't know how we've done it, but we've legalized bribery."
+                            },
+                            {
+                                "Character": "HOYNES",
+                                "Line": "Yup."
+                            },
+                            {
+                                "Character": "JOSH",
+                                "Line": "So, now what we've got is two corporate parties - one pro-life, one pro-choice."
+                            },
+                            {
+                                "Character": "HOYNES",
+                                "Line": "Josh, like I said, what's your point? I mean, what's your point?"
+                            },
+                            {
+                                "Character": "JOSH",
+                                "Line": "We've noticed the sudden increase in racquetball and late-night poker games with democratic opponents of campaign finance reform."
+                            },
+                            {
+                                "Character": "HOYNES",
+                                "Line": "Come on, Josh, this is Washington, DC, you can't swing a dead cat without hitting a democratic opponent of campaign finance reform."
+                            },
+                            {
+                                "Character": "JOSH",
+                                "Line": "Can we stop running for a second? [They stop running] You're backing the wrong horse. You read the same polls I do. President's gone up nine points in three weeks. 51% job approval - big deal. But he's going on national television tonight, that's going to be another 5 that's 56%, a 14-point bump in a month."
+                            },
+                            {
+                                "Character": "HOYNES",
+                                "Line": "Look, Josh..."
+                            },
+                            {
+                                "Character": "JOSH",
+                                "Line": "Hang on. If we bring this pilot back home alive, that's another 10 points. And then we're off to the races with a job approval rating in the high 60s. Now every Democratic congressman in a tight race is looking to get his picture taken with the president, and you're looking around the racquetball court, saying, \"Where did everybody go?\" You've had some experience battling Jed Bartlet when he's right, and you've had some experience battling him when he's popular. Why in the world would you want to try it when he's both at the same time?"
+                            },
+                            {
+                                "Character": "HOYNES",
+                                "Line": "You know something, Josh, sometimes I wonder if I'd listened to you two years ago, would I be President right now? Do you ever wonder that?"
+                            },
+                            {
+                                "Character": "JOSH",
+                                "Line": "No sir, I know it for sure. [on Hoynes' nod] I'm done. Thank you for your time, sir. Josh walks off, Hoynes gestures to SS agents, and they continue jogging in the opposite direction."
+                            }
+                        ]
+                    },
+                    {
+                        "Scene Heading": "CUT TO: INT. BRIEFING ROOM - DAY",
+                        "Description": "C.J. enters with military officers to multiple camera flashes.",
+                        "Dialogues": [
+                            {
+                                "Character": "C.J.",
+                                "Line": "Good Afternoon. A U.S. Air Force F-117-A Nighthawk Stealth fighter attack aircraft flying a routine patrol out of Al Jabar Air Force Base in Kuwait was shot down over the southern no-fly zone in Iraq. At this point, we don't know the condition of the pilot. We do know that the plane does carry an ACES II 0/0 ejector seat, and that is was activated. General Richmond and General Clancy will talk more about that in a moment."
+                            },
+                            {
+                                "Character": "REPORTERS",
+                                "Line": "C.J.! C.J.!"
+                            },
+                            {
+                                "Character": "C.J.",
+                                "Line": "Danny."
+                            },
+                            {
+                                "Character": "DANNY",
+                                "Line": "Is there a rescue mission underway?"
+                            },
+                            {
+                                "Character": "C.J.",
+                                "Line": "Obviously there are a number of scenarios being contemplated, but I wouldn't want to speculate. Leo is watching C.J. through the glass window in the back of the room."
+                            },
+                            {
+                                "Character": "C.J.",
+                                "Line": "We have been in touch with the Iraqi government, and the President is looking for a diplomatic solution."
+                            },
+                            {
+                                "Character": "DANNY",
+                                "Line": "There have been no military moves?",
+                                "Descriptor": "VO"
+                            },
+                            {
+                                "Character": "C.J.",
+                                "Line": "No."
+                            },
+                            {
+                                "Character": "REPORTERS",
+                                "Line": "C.J.! C.J.!"
+                            },
+                            {
+                                "Character": "C.J.",
+                                "Line": "Chris."
+                            }
+                        ]
+                    },
+                    {
+                        "Scene Heading": "CUT TO: INT. THE ROOSEVELT ROOM - DAY",
+                        "Description": "Bartlet and his staff are preparing for the Town Hall meeting.",
+                        "Dialogues": [
+                            {
+                                "Character": "MANDY",
+                                "Line": "You could tag Congress as being obstructionist, but you have to first list your own accomplishments, or else you won't have any credibility. Sam enters."
+                            },
+                            {
+                                "Character": "BARTLET",
+                                "Line": "Expanding healthcare coverage for 5 million more poor children."
+                            },
+                            {
+                                "Character": "MANDY",
+                                "Line": "Yes."
+                            },
+                            {
+                                "Character": "BARTLET",
+                                "Line": "Making healthcare portable for people who change jobs."
+                            },
+                            {
+                                "Character": "MANDY",
+                                "Line": "You can also list the agenda for the coming year."
+                            },
+                            {
+                                "Character": "BARTLET",
+                                "Line": "You know what's hard about all this, C.J.?"
+                            },
+                            {
+                                "Character": "C.J.",
+                                "Line": "Sir?"
+                            },
+                            {
+                                "Character": "BARTLET",
+                                "Line": "I'm rehearsing here without the pitcher and glass, it's totally weird for me."
+                            },
+                            {
+                                "Character": "C.J.",
+                                "Line": "Yeah."
+                            },
+                            {
+                                "Character": "MANDY",
+                                "Line": "How do you feel about him taking off his jacket?"
+                            },
+                            {
+                                "Character": "SAM",
+                                "Line": "No."
+                            },
+                            {
+                                "Character": "MANDY",
+                                "Line": "I like it."
+                            },
+                            {
+                                "Character": "SAM",
+                                "Line": "It'll look staged."
+                            },
+                            {
+                                "Character": "MANDY",
+                                "Line": "Not if he does it at the right moment."
+                            },
+                            {
+                                "Character": "SAM",
+                                "Line": "What's he going to do, throw it over his shoulder?"
+                            },
+                            {
+                                "Character": "MANDY",
+                                "Line": "Maybe."
+                            },
+                            {
+                                "Character": "SAM",
+                                "Line": "I'm also not wild about the hand-held mike. Can we get him wired?"
+                            },
+                            {
+                                "Character": "BARTLET",
+                                "Line": "No, because with the mike and the stool, and the jacket thrown over my shoulder, and I can do the town hall meeting, and then do a couple of sets at the Copa. Zoey knocks on the door, and then enters with Charlie."
+                            },
+                            {
+                                "Character": "ZOEY",
+                                "Line": "Hey."
+                            },
+                            {
+                                "Character": "BARTLET",
+                                "Line": "My musical director, Zoey Bartlet."
+                            },
+                            {
+                                "Character": "ZOEY",
+                                "Line": "Are you working?"
+                            },
+                            {
+                                "Character": "BARTLET",
+                                "Line": "We're down to do I or do I not take my jacket off. He goes out into the HALLWAY to talk to Zoey."
+                            },
+                            {
+                                "Character": "ZOEY",
+                                "Line": "Do you want to know what I think?"
+                            },
+                            {
+                                "Character": "BARTLET",
+                                "Line": "I honestly couldn't care less. Listen, I want you to come with us tonight."
+                            },
+                            {
+                                "Character": "ZOEY",
+                                "Line": "Dad, I was... are you sweating?"
+                            },
+                            {
+                                "Character": "BARTLET",
+                                "Line": "I'm fine."
+                            },
+                            {
+                                "Character": "ZOEY",
+                                "Line": "Are you sure?"
+                            },
+                            {
+                                "Character": "BARTLET",
+                                "Line": "Yeah."
+                            },
+                            {
+                                "Character": "ZOEY",
+                                "Line": "Did you take your pills?"
+                            },
+                            {
+                                "Character": "BARTLET",
+                                "Line": "Zoey!"
+                            },
+                            {
+                                "Character": "ZOEY",
+                                "Line": "Fine, then, go ahead and collapse."
+                            },
+                            {
+                                "Character": "BARTLET",
+                                "Line": "Are you channeling Mom, now?"
+                            },
+                            {
+                                "Character": "ZOEY",
+                                "Line": "Dad"
+                            },
+                            {
+                                "Character": "BARTLET",
+                                "Line": "Come to Virginia tonight."
+                            },
+                            {
+                                "Character": "ZOEY",
+                                "Line": "I can watch on TV."
+                            },
+                            {
+                                "Character": "BARTLET",
+                                "Line": "It's not like being there in person."
+                            },
+                            {
+                                "Character": "ZOEY",
+                                "Line": "You're going to talk about me, and the camera's going to go on me, and my face is going to turn red, and it's just going to be awful for me."
+                            },
+                            {
+                                "Character": "BARTLET",
+                                "Line": "Bonus. Then it's settled."
+                            },
+                            {
+                                "Character": "ZOEY",
+                                "Line": "Listen. Charlie wanted to say something during prep."
+                            },
+                            {
+                                "Character": "BARTLET",
+                                "Line": "Okay."
+                            },
+                            {
+                                "Character": "ZOEY",
+                                "Line": "I'm going to go see Mom."
+                            },
+                            {
+                                "Character": "BARTLET",
+                                "Line": "And you're coming tonight."
+                            },
+                            {
+                                "Character": "ZOEY",
+                                "Line": "Yeah."
+                            },
+                            {
+                                "Character": "BARTLET",
+                                "Line": "Thanks. [to Gina, who's waiting near the door] Gina. He goes back into THE ROOSEVELT ROOM."
+                            },
+                            {
+                                "Character": "BARTLET",
+                                "Line": "All right, everyone, we're done. Thanks very much."
+                            },
+                            {
+                                "Character": "STAFF",
+                                "Line": "Thanks, Mr. President. Thank you, sir."
+                            },
+                            {
+                                "Character": "BARTLET",
+                                "Line": "Charlie, Zoey said you had something you wanted to mention?"
+                            },
+                            {
+                                "Character": "CHARLIE",
+                                "Line": "I'm sorry, sir?"
+                            },
+                            {
+                                "Character": "BARTLET",
+                                "Line": "Zoey said you had something you wanted to mention."
+                            },
+                            {
+                                "Character": "CHARLIE",
+                                "Line": "No, sir."
+                            },
+                            {
+                                "Character": "BARTLET",
+                                "Line": "Are you sure?"
+                            },
+                            {
+                                "Character": "CHARLIE",
+                                "Line": "Yes, sir, there was justI'm sorry, sir, there was just a misunderstanding."
+                            },
+                            {
+                                "Character": "BARTLET",
+                                "Line": "Okay."
+                            },
+                            {
+                                "Character": "SAM",
+                                "Line": "Mr. President?"
+                            },
+                            {
+                                "Character": "BARTLET",
+                                "Line": "Yeah?"
+                            },
+                            {
+                                "Character": "SAM",
+                                "Line": "I was thinking that it might not be a bad idea to have a signal worked out."
+                            },
+                            {
+                                "Character": "BARTLET",
+                                "Line": "A signal for what?"
+                            },
+                            {
+                                "Character": "SAM",
+                                "Line": "Good news regarding the pilot, if it comes while you're on television."
+                            },
+                            {
+                                "Character": "BARTLET",
+                                "Line": "What kind of signal did you have in mind?"
+                            },
+                            {
+                                "Character": "SAM",
+                                "Line": "Something like this. He makes a slow, upward wavy motion."
+                            },
+                            {
+                                "Character": "SAM",
+                                "Line": "Very subtle, very simple."
+                            },
+                            {
+                                "Character": "BARTLET",
+                                "Line": "What is that?"
+                            },
+                            {
+                                "Character": "SAM",
+                                "Line": "It's departure. It's a safe departure. Would you like a different signal?"
+                            },
+                            {
+                                "Character": "BARTLET",
+                                "Line": "No, that one's good."
+                            },
+                            {
+                                "Character": "SAM",
+                                "Line": "Should I spread it around?"
+                            },
+                            {
+                                "Character": "BARTLET",
+                                "Line": "Well, I think it's going to get around all by itself, but if you want to help it along a little, there's nothing wrong with that."
+                            },
+                            {
+                                "Character": "SAM",
+                                "Line": "Thank you, Mr. President. Bartlet makes the signal to Sam, who makes it back at him."
+                            }
+                        ]
+                    },
+                    {
+                        "Scene Heading": "CUT TO: INT. LEO'S OFFICE - DAY",
+                        "Description": "Josh enters.",
+                        "Dialogues": [
+                            {
+                                "Character": "LEO",
+                                "Line": "Hey, Josh."
+                            },
+                            {
+                                "Character": "JOSH",
+                                "Line": "What's going on?"
+                            },
+                            {
+                                "Character": "LEO",
+                                "Line": "I just talked to Hoynes."
+                            },
+                            {
+                                "Character": "JOSH",
+                                "Line": "Is he in?"
+                            },
+                            {
+                                "Character": "LEO",
+                                "Line": "Yeah. He's on board. You did a good job."
+                            },
+                            {
+                                "Character": "JOSH",
+                                "Line": "Good."
+                            },
+                            {
+                                "Character": "LEO",
+                                "Line": "Josh?"
+                            },
+                            {
+                                "Character": "JOSH",
+                                "Line": "Yeah."
+                            },
+                            {
+                                "Character": "LEO",
+                                "Line": "Did you happen to say to him that if Scott Hutchins comes back alive, there'll be a ten point bump?"
+                            },
+                            {
+                                "Character": "JOSH",
+                                "Line": "I did."
+                            },
+                            {
+                                "Character": "LEO",
+                                "Line": "I gotta tell you, if the President ever heard about that, he'd be out of his skin."
+                            },
+                            {
+                                "Character": "JOSH",
+                                "Line": "Leo."
+                            },
+                            {
+                                "Character": "LEO",
+                                "Line": "Even in private!"
+                            },
+                            {
+                                "Character": "JOSH",
+                                "Line": "I was just..."
+                            },
+                            {
+                                "Character": "LEO",
+                                "Line": "The guy's been blown out of the sky! He might be seriously injured. For sure he's in an Iraqi desert with no water. He's got to keep radio silence because we're for sure not the only ones looking for him, and if they get to him first, all he gives them is his name, rank, and serial number, they're going to beat him."
+                            },
+                            {
+                                "Character": "JOSH",
+                                "Line": "They're going to torture him. This is to say nothing of the 80 guys in a helicopter who are going to get shot at if they're picked up underneath the radar."
+                            },
+                            {
+                                "Character": "JOSH",
+                                "Line": "You're right."
+                            },
+                            {
+                                "Character": "LEO",
+                                "Line": "I know the President's been joking around all day. But he's been living and dying with this every hour, and I know he'd be really offended if he knew that you were discussing a political upside. And I gotta tell you, Josh, as a guy who flew planes in the war, I was really offended, too."
+                            },
+                            {
+                                "Character": "JOSH",
+                                "Line": "Yes, sir."
+                            },
+                            {
+                                "Character": "LEO",
+                                "Line": "Okay."
+                            },
+                            {
+                                "Character": "JOSH",
+                                "Line": "Okay."
+                            },
+                            {
+                                "Character": "LEO",
+                                "Line": "Now, you did good today. I'm just saying that there's a way to be a person."
+                            },
+                            {
+                                "Character": "JOSH",
+                                "Line": "I apologize."
+                            },
+                            {
+                                "Character": "LEO",
+                                "Line": "Your apology's accepted. Leo semi-reaches out, Josh moves in for a hug."
+                            },
+                            {
+                                "Character": "LEO",
+                                "Line": "[stopping him] What are you doing?"
+                            },
+                            {
+                                "Character": "JOSH",
+                                "Line": "It looked like you wanted to hug me."
+                            },
+                            {
+                                "Character": "LEO",
+                                "Line": "Oh, man, did you read that wrong."
+                            },
+                            {
+                                "Character": "JOSH",
+                                "Line": "Okay."
+                            },
+                            {
+                                "Character": "LEO",
+                                "Line": "[stops him as he's leaving] Hey, Sam was here before. We've got some kind of signal?"
+                            },
+                            {
+                                "Character": "JOSH",
+                                "Line": "Yeah, for if we know something during the town hall."
+                            },
+                            {
+                                "Character": "LEO",
+                                "Line": "Could be days."
+                            },
+                            {
+                                "Character": "JOSH",
+                                "Line": "Maybe not."
+                            },
+                            {
+                                "Character": "LEO",
+                                "Line": "What is the signal?"
+                            },
+                            {
+                                "Character": "JOSH",
+                                "Line": "It's this. [demonstrates the signal]"
+                            },
+                            {
+                                "Character": "LEO",
+                                "Line": "What is that?"
+                            },
+                            {
+                                "Character": "JOSH",
+                                "Line": "It's the signal."
+                            },
+                            {
+                                "Character": "LEO",
+                                "Line": "It looks like a hip-hop gesture."
+                            },
+                            {
+                                "Character": "JOSH",
+                                "Line": "It's, uh, a plane taking off."
+                            },
+                            {
+                                "Character": "LEO",
+                                "Line": "Doesn't look like a plane taking off."
+                            },
+                            {
+                                "Character": "JOSH",
+                                "Line": "[repeats it again] It means something good has happened. [does the signal going down instead of up] This means something bad has happened. [does the signal going up] This means something good has happened."
+                            },
+                            {
+                                "Character": "LEO",
+                                "Line": "I've got it."
+                            },
+                            {
+                                "Character": "JOSH",
+                                "Line": "You don't have to be a cryptographer."
+                            },
+                            {
+                                "Character": "LEO",
+                                "Line": "I said I've got it."
+                            },
+                            {
+                                "Character": "JOSH",
+                                "Line": "Leo. I really do apologize."
+                            },
+                            {
+                                "Character": "LEO",
+                                "Line": "Thank you."
+                            }
+                        ]
+                    },
+                    {
+                        "Scene Heading": "CUT TO: INT. HALLWAY - DAY",
+                        "Description": "Charlie catches up with Zoey and Gina.",
+                        "Dialogues": [
+                            {
+                                "Character": "CHARLIE",
+                                "Line": "Zoey, can I talk to you for a minute?"
+                            },
+                            {
+                                "Character": "ZOEY",
+                                "Line": "Yeah."
+                            },
+                            {
+                                "Character": "CHARLIE",
+                                "Line": "I can't believe you did that."
+                            },
+                            {
+                                "Character": "ZOEY",
+                                "Line": "You needed prompting. I can't believe you chickened out."
+                            },
+                            {
+                                "Character": "CHARLIE",
+                                "Line": "I didn't chicken out. And I didn't need prompting. It just wasn't appropriate. He leads her into JOSH'S OFFICE."
+                            },
+                            {
+                                "Character": "CHARLIE",
+                                "Line": "I don't have the same relationship with your father that you have, I don't have the same relationship that the staff has."
+                            },
+                            {
+                                "Character": "ZOEY",
+                                "Line": "I don't think it's out of line for you to put your two cents in. Josh walks in."
+                            },
+                            {
+                                "Character": "JOSH",
+                                "Line": "Hi."
+                            },
+                            {
+                                "Character": "CHARLIE",
+                                "Line": "I'm sorry, we were just using your office for a minute."
+                            },
+                            {
+                                "Character": "JOSH",
+                                "Line": "You can keep fighting in just a second, I just need to find something."
+                            },
+                            {
+                                "Character": "ZOEY",
+                                "Line": "I also don't think it was out of line for me to stick up for you, since you were clearly chicken."
+                            },
+                            {
+                                "Character": "CHARLIE",
+                                "Line": "Zoey, I work in a building with the smartest people in the world... Josh goes to sit down on his non-existent chair and Zoey and Charlie watch him fall to the floor. Gina pops her head in, concerned."
+                            },
+                            {
+                                "Character": "JOSH",
+                                "Line": "[sitting up] Donna! Donna enters."
+                            },
+                            {
+                                "Character": "DONNA",
+                                "Line": "Hi."
+                            },
+                            {
+                                "Character": "JOSH",
+                                "Line": "How you doing?"
+                            },
+                            {
+                                "Character": "DONNA",
+                                "Line": "We should get something temporary so that doesn't happen."
+                            },
+                            {
+                                "Character": "JOSH",
+                                "Line": "Yeah. Charlie and Zoey walk out."
+                            },
+                            {
+                                "Character": "CHARLIE",
+                                "Line": "Anyway, I wish you wouldn't do that anymore."
+                            },
+                            {
+                                "Character": "ZOEY",
+                                "Line": "Okay. But you're wrong. I'll see you later."
+                            }
+                        ]
+                    },
+                    {
+                        "Scene Heading": "CUT TO: INT. TOBY'S OFFICE - DAY",
+                        "Description": "Sam approaches and knocks on door.",
+                        "Dialogues": [
+                            {
+                                "Character": "TOBY",
+                                "Line": "Come in. What do you know?"
+                            },
+                            {
+                                "Character": "SAM",
+                                "Line": "Listen..."
+                            },
+                            {
+                                "Character": "TOBY",
+                                "Line": "Sam."
+                            },
+                            {
+                                "Character": "SAM",
+                                "Line": "No, it's not... Cathy's getting Peter Jobson on the phone for you, he's going to tell you about this."
+                            },
+                            {
+                                "Character": "TOBY",
+                                "Line": "Sam."
+                            },
+                            {
+                                "Character": "SAM",
+                                "Line": "There was a screw-up when they closed the door. They were doing something, which is called a manual winch op, which means they disconnect the motor from the door, and somehow either as a result of that, or of something completely unrelated, the two OMS engines are failing. OMS are the orbital maneuvering systems."
+                            },
+                            {
+                                "Character": "TOBY",
+                                "Line": "Do you know if they have primary RCS?"
+                            },
+                            {
+                                "Character": "SAM",
+                                "Line": "That's what they're trying now. Toby nods tersely."
+                            },
+                            {
+                                "Character": "SAM",
+                                "Line": "Toby. If this were at a certain level, they would call the President."
+                            },
+                            {
+                                "Character": "TOBY",
+                                "Line": "Yeah."
+                            },
+                            {
+                                "Character": "SAM",
+                                "Line": "Seriously."
+                            },
+                            {
+                                "Character": "TOBY",
+                                "Line": "Yeah."
+                            },
+                            {
+                                "Character": "SAM",
+                                "Line": "Anyway, Cathy's getting Peter Jobson."
+                            },
+                            {
+                                "Character": "TOBY",
+                                "Line": "Before, when you first asked me, the reason I reacted the way I didI was just embarrassed. Cause honestly, I forgot he was up there. They had switched his mission order around a couple of times and I just lost track of it. Cathy enters. Cathy Toby, Peter Jobson's on line 5. Toby picks up the phone."
+                            },
+                            {
+                                "Character": "TOBY",
+                                "Line": "[to Sam and Cathy] Thank you. Sam and Cathy leave. Toby starts to talk on the phone."
+                            }
+                        ]
+                    },
+                    {
+                        "Scene Heading": "CUT TO: INT. THE OVAL OFFICE - DAY",
+                        "Description": "Bartlet is lying on the couch. Charlie enters.",
+                        "Dialogues": [
+                            {
+                                "Character": "CHARLIE",
+                                "Line": "Mr. President?"
+                            },
+                            {
+                                "Character": "BARTLET",
+                                "Line": "Yeah?"
+                            },
+                            {
+                                "Character": "CHARLIE",
+                                "Line": "Admiral Fitzwallace told me that he's on his way over."
+                            },
+                            {
+                                "Character": "BARTLET",
+                                "Line": "Thanks."
+                            },
+                            {
+                                "Character": "CHARLIE",
+                                "Line": "Would you like anything?"
+                            },
+                            {
+                                "Character": "BARTLET",
+                                "Line": "No. Hey, what was it that Zoey was talking about before? Bartlet gets up, pulls pills out of his pocket, and drinks them with a glass of water on his desk."
+                            },
+                            {
+                                "Character": "CHARLIE",
+                                "Line": "It was nothing, sir."
+                            },
+                            {
+                                "Character": "BARTLET",
+                                "Line": "What was it?"
+                            },
+                            {
+                                "Character": "CHARLIE",
+                                "Line": "It was uh, it was a report that's been sitting on your desk for a few weeks."
+                            },
+                            {
+                                "Character": "BARTLET",
+                                "Line": "It has?"
+                            },
+                            {
+                                "Character": "CHARLIE",
+                                "Line": "Well, my desk, really. And so, I was reading it, and so I was reading it, and during prep this week, you've been having discussions with the senior staff about youth participation in the political process. You were saying..."
+                            },
+                            {
+                                "Character": "BARTLET",
+                                "Line": "What's the report?"
+                            },
+                            {
+                                "Character": "CHARLIE",
+                                "Line": "It's from a group called the Center for Policy Alternatives. And there's some things that hit home with me, and I mentioned it to Zoeyy, and that's why... Mrs. Landingham enters, interrupting."
+                            },
+                            {
+                                "Character": "MRS. LANDINGHAM",
+                                "Line": "Mr. President?"
+                            },
+                            {
+                                "Character": "BARTLET",
+                                "Line": "Yeah?"
+                            },
+                            {
+                                "Character": "MRS. LANDINGHAM",
+                                "Line": "Chairman Fitzwallace."
+                            },
+                            {
+                                "Character": "BARTLET",
+                                "Line": "Thank you. Mrs. Landingham exits."
+                            },
+                            {
+                                "Character": "BARTLET",
+                                "Line": "Charlie, whatever it is, stick it in my briefcase, would you?"
+                            },
+                            {
+                                "Character": "CHARLIE",
+                                "Line": "Yes, sir."
+                            },
+                            {
+                                "Character": "BARTLET",
+                                "Line": "Thank you. Fitzwallace enters as Charlie is leaving."
+                            },
+                            {
+                                "Character": "FITZWALLACE",
+                                "Line": "Charlie."
+                            },
+                            {
+                                "Character": "CHARLIE",
+                                "Line": "Sir."
+                            },
+                            {
+                                "Character": "FITZWALLACE",
+                                "Line": "Mr. President."
+                            },
+                            {
+                                "Character": "BARTLET",
+                                "Line": "Fitz, do you have any news at all?"
+                            },
+                            {
+                                "Character": "FITZWALLACE",
+                                "Line": "Actually, I think I might have something in a minute. They'll put the call through here."
+                            },
+                            {
+                                "Character": "BARTLET",
+                                "Line": "Okay."
+                            },
+                            {
+                                "Character": "FITZWALLACE",
+                                "Line": "Mind if I wait with you, sir?"
+                            },
+                            {
+                                "Character": "BARTLET",
+                                "Line": "No. Fitzwallace sits on the couch and Bartlet in the armchair."
+                            },
+                            {
+                                "Character": "FITZWALLACE",
+                                "Line": "How you feeling?"
+                            },
+                            {
+                                "Character": "BARTLET",
+                                "Line": "I feel fine."
+                            },
+                            {
+                                "Character": "FITZWALLACE",
+                                "Line": "Yeah?"
+                            },
+                            {
+                                "Character": "BARTLET",
+                                "Line": "Yeah, I feel fine. Fitzwallace looks down at the carpet."
+                            },
+                            {
+                                "Character": "FITZWALLACE",
+                                "Line": "The eagle on the seal in the carpet. In one talon he's holding arrows, and in the other an olive branch. Most of the time, the eagle's facing the olive branch, but when Congress declares war, the eagle faces the talons. How do they do that? You think they've got a second carpet sitting around in the basement someplace?"
+                            },
+                            {
+                                "Character": "BARTLET",
+                                "Line": "I don't know."
+                            },
+                            {
+                                "Character": "FITZWALLACE",
+                                "Line": "Maybe this piece in the middle cuts out and they do it like a basketball court."
+                            },
+                            {
+                                "Character": "BARTLET",
+                                "Line": "I honestly don't know, Fitz. Mrs. Landingham comes in."
+                            },
+                            {
+                                "Character": "MRS. LANDINGHAM",
+                                "Line": "Excuse me, Chairman, that's your call, the blinking light."
+                            },
+                            {
+                                "Character": "FITZWALLACE",
+                                "Line": "Thank you. I'll stop bugging you in just a minute Mr. President. [into phone] Yeah? Thanks. [to Bartlet] Mr. President, I have Captain Scott Hutchins on the phone, he's cleared Iraqi airspace, and he's on his way to Tel Aviv."
+                            },
+                            {
+                                "Character": "BARTLET",
+                                "Line": "Fitz..."
+                            },
+                            {
+                                "Character": "FITZWALLACE",
+                                "Line": "Congratulations, Sir."
+                            },
+                            {
+                                "Character": "BARTLET",
+                                "Line": "The kid's all right?"
+                            },
+                            {
+                                "Character": "FITZWALLACE",
+                                "Line": "Sprained ankle."
+                            },
+                            {
+                                "Character": "BARTLET",
+                                "Line": "Well, that's, that's a job awfully well done, Mr. Chairman."
+                            },
+                            {
+                                "Character": "FITZWALLACE",
+                                "Line": "Thank you, Mr. President."
+                            },
+                            {
+                                "Character": "BARTLET",
+                                "Line": "I owe you one."
+                            },
+                            {
+                                "Character": "FITZWALLACE",
+                                "Line": "No, that's not how it works."
+                            },
+                            {
+                                "Character": "BARTLET",
+                                "Line": "All the same, I'm going to check out that thing with the carpet."
+                            },
+                            {
+                                "Character": "FITZWALLACE",
+                                "Line": "Talk to the pilot. [goes to leave]"
+                            },
+                            {
+                                "Character": "BARTLET",
+                                "Line": "Seriously, I'm going to get an answer for you on that. Fitzwallace leaves, Bartlet picks up the phone."
+                            },
+                            {
+                                "Character": "BARTLET",
+                                "Line": "Captain Hutchins, this is President Bartlet. How's your ankle? Good. Now before you say another word, give me your parents' phone number. I never get to make this call."
+                            }
+                        ]
+                    },
+                    {
+                        "Scene Heading": "CUT TO: INT. THE BRIEFING ROOM - NIGHT",
+                        "Description": "",
+                        "Dialogues": [
+                            {
+                                "Character": "C.J.",
+                                "Line": "Radar officers aboard the Minneapolis monitored Captain Hutchins as his plane went what is called \"Feet Dry\" south of the 33rd parallel."
+                            },
+                            {
+                                "Character": "REPORTERS",
+                                "Line": "C.J.!"
+                            },
+                            {
+                                "Character": "C.J.",
+                                "Line": "Katie."
+                            },
+                            {
+                                "Character": "KATIE",
+                                "Line": "Did we use Saudi Arabian airspace, and if so, was it with the Saudis' permission?"
+                            },
+                            {
+                                "Character": "C.J.",
+                                "Line": "We did use Saudi airspace, we flew secretly on the way in, they were informed of the mission on the way out."
+                            },
+                            {
+                                "Character": "REPORTER",
+                                "Line": "Is that when the British were told?"
+                            },
+                            {
+                                "Character": "C.J.",
+                                "Line": "That's when the British were told."
+                            },
+                            {
+                                "Character": "REPORTERS",
+                                "Line": "C.J.!"
+                            },
+                            {
+                                "Character": "C.J.",
+                                "Line": "Folks, it's a few minutes after seven. Most of us have to pile into buses to get over to Arlington. All this material will be covered in much greater detail at the Pentagon briefing, which will take place 30 minutes after our return. That's all for now. C.J. exits as the reporters call her name. Danny gets up to go after her."
+                            }
+                        ]
+                    },
+                    {
+                        "Scene Heading": "CUT TO: INT. HALLWAY - CONTINUOUS",
+                        "Description": "",
+                        "Dialogues": [
+                            {
+                                "Character": "CAROL",
+                                "Line": "Nice!"
+                            },
+                            {
+                                "Character": "C.J.",
+                                "Line": "I have to congratulate you, Carol. I was afraid I was going to see Saudi Arabia spelled with a 'y'."
+                            },
+                            {
+                                "Character": "CAROL",
+                                "Line": "C.J., I'm a much better speller than you give me credit for."
+                            },
+                            {
+                                "Character": "C.J.",
+                                "Line": "Yes. One \"l\" in Tel Aviv."
+                            },
+                            {
+                                "Character": "CAROL",
+                                "Line": "Okay. Danny catches up to them."
+                            },
+                            {
+                                "Character": "DANNY",
+                                "Line": "C.J.!"
+                            },
+                            {
+                                "Character": "C.J.",
+                                "Line": "In my office. They go into C.J.'S OFFICE."
+                            },
+                            {
+                                "Character": "C.J.",
+                                "Line": "Danny, I don't even want to hear it. I did exactly the right thing. Your nose is bent out of joint, and I don't give a damn."
+                            },
+                            {
+                                "Character": "DANNY",
+                                "Line": "You looked at me point-blank and told me you were looking at a diplomatic..."
+                            },
+                            {
+                                "Character": "C.J.",
+                                "Line": "Danny..."
+                            },
+                            {
+                                "Character": "DANNY",
+                                "Line": "You looked at me and told me..."
+                            },
+                            {
+                                "Character": "C.J.",
+                                "Line": "What did you think I was going to do, Danny? Give you longitude and latitude? Did you think I was going to fork over the radio frequency that we're transmitting on?"
+                            },
+                            {
+                                "Character": "DANNY",
+                                "Line": "You didn't have to answer the question."
+                            },
+                            {
+                                "Character": "C.J.",
+                                "Line": "I did!"
+                            },
+                            {
+                                "Character": "DANNY",
+                                "Line": "You could have said, \"Danny, we're not ruling anything in or out, and I'm not going to let you take me down that path\" and we would have been done with it."
+                            },
+                            {
+                                "Character": "C.J.",
+                                "Line": "Danny, if by standing up and lying, I misdirected Iraqi intelligence for even half a beat, then it was absolutely worth it. That's a no-brainer. And if I didn't, it was certainly worth trying. There were only 50 people in the world who can't understand why I lied this morning, and they all work in the White House pressroom. I'm sleeping fine tonight."
+                            },
+                            {
+                                "Character": "DANNY",
+                                "Line": "You didn't have to call on me. Every hand shot up, everybody's hand shot up, everybody was going to ask the same question, you knew what your answer was going to be, and you called on me."
+                            },
+                            {
+                                "Character": "C.J.",
+                                "Line": "Well, yes, I did."
+                            },
+                            {
+                                "Character": "DANNY",
+                                "Line": "And you wouldn't have rather done that to a journalist that's been less supportive of this administration than I have?"
+                            },
+                            {
+                                "Character": "C.J.",
+                                "Line": "No, I chose you."
+                            },
+                            {
+                                "Character": "DANNY",
+                                "Line": "C.J., I'm not staying in the penalty box forever. I've covered the White House for eight years, and I've done it for the New York Times, the Washington Post, Time Magazine, and the Dallas Morning News! And I'm telling you, you can't mess me around like this."
+                            },
+                            {
+                                "Character": "C.J.",
+                                "Line": "Danny, I got to tell you, that was, seriously, that was a turn-on when you said that, though I don't know why you decided to be the most haughty on the Dallas Morning News."
+                            },
+                            {
+                                "Character": "DANNY",
+                                "Line": ""
+                            },
+                            {
+                                "Character": "C.J..",
+                                "Line": "Carol enters."
+                            },
+                            {
+                                "Character": "CAROL",
+                                "Line": "The buses are leaving."
+                            },
+                            {
+                                "Character": "C.J.",
+                                "Line": "[to Danny, who's still fuming] The buses are leaving. C.J. exits."
+                            }
+                        ]
+                    },
+                    {
+                        "Scene Heading": "CUT TO: INT. OUTER OVAL OFFICE - NIGHT",
+                        "Description": "Bartlet and Leo are exiting.",
+                        "Dialogues": [
+                            {
+                                "Character": "LEO",
+                                "Line": "Girls' softball?"
+                            },
+                            {
+                                "Character": "BARTLET",
+                                "Line": "Womens' softball. It's going to be great. Mrs. Landingham? I'm watching a live sporting event from beginning to end tonight."
+                            },
+                            {
+                                "Character": "MRS. LANDINGHAM",
+                                "Line": "And when Sacramento State and the University of the Pacific get together, it's usually a barnburner, sir."
+                            },
+                            {
+                                "Character": "BARTLET",
+                                "Line": "You're not going to spoil my good time for me, Mrs. Landingham."
+                            },
+                            {
+                                "Character": "MRS. LANDINGHAM",
+                                "Line": "Oh, sir, I think we both know from experience that's not true."
+                            },
+                            {
+                                "Character": "BARTLET",
+                                "Line": "Yeah."
+                            },
+                            {
+                                "Character": "MRS. LANDINGHAM",
+                                "Line": "You needed to be in the car ten minutes ago, Mr. President."
+                            },
+                            {
+                                "Character": "BARTLET",
+                                "Line": "Do you see me walking out the door?"
+                            },
+                            {
+                                "Character": "MRS. LANDINGHAM",
+                                "Line": "No, I see you standing and arguing with a senior citizen."
+                            },
+                            {
+                                "Character": "BARTLET",
+                                "Line": "I'm leaving. He leaves, with Leo behind."
+                            },
+                            {
+                                "Character": "LEO",
+                                "Line": "Sam's got some notes for you on Cuba, and some notes on farm loans that I'd like you to look over in the car."
+                            },
+                            {
+                                "Character": "BARTLET",
+                                "Line": "[handing Leo his briefcase] You know what, I'll be at the car in just a second."
+                            },
+                            {
+                                "Character": "LEO",
+                                "Line": "Yes, sir."
+                            },
+                            {
+                                "Character": "BARTLET",
+                                "Line": "Thank you. He heads off in the opposite direction."
+                            }
+                        ]
+                    },
+                    {
+                        "Scene Heading": "CUT TO: INT. TOBY'S OFFICE - NIGHT",
+                        "Description": "Bartlet enters. Toby's looking out the window.",
+                        "Dialogues": [
+                            {
+                                "Character": "BARTLET",
+                                "Line": "Toby? No reaction."
+                            },
+                            {
+                                "Character": "BARTLET",
+                                "Line": "Toby."
+                            },
+                            {
+                                "Character": "TOBY",
+                                "Line": "Excuse me, Mr. President. I'm sorry."
+                            },
+                            {
+                                "Character": "BARTLET",
+                                "Line": "You can't see them, they're over Australia now. I just spoke with the mission commander. They're trying firing something called an RCS?"
+                            },
+                            {
+                                "Character": "TOBY",
+                                "Line": "Yeah, it's the reaction control system. It's actually 40 separate engines around the shuttle."
+                            },
+                            {
+                                "Character": "BARTLET",
+                                "Line": "If that doesn't work, they've got about 39 other things they can try. There's redundancy after redundancy after redundancy built in. And for good measure, they have Atlantis warming up on the launch pad. It can dock with the Columbia in about two hours. We can do that now, Toby."
+                            },
+                            {
+                                "Character": "TOBY",
+                                "Line": "First thing the shuttle does after it leaves the atmosphere is open the cargo bay doors. That's what lets the heat out. Once those doors close, they have a pretty short window to get back before it overheats."
+                            },
+                            {
+                                "Character": "BARTLET",
+                                "Line": "Then they'll open those doors again."
+                            },
+                            {
+                                "Character": "TOBY",
+                                "Line": "How?"
+                            },
+                            {
+                                "Character": "BARTLET",
+                                "Line": "Same way they closed them - with a five-dollar wrench."
+                            },
+                            {
+                                "Character": "TOBY",
+                                "Line": "Mr. President."
+                            },
+                            {
+                                "Character": "BARTLET",
+                                "Line": "When we're done tonight, you should take the next flight out to Edwards' Air Force Base, meet the thing when it lands, stop being a horse's ass, and talk to your brother."
+                            },
+                            {
+                                "Character": "TOBY",
+                                "Line": "Mr. President. I appreciate you trying to be a comfort, and I appreciate that you have some understanding of the situation with my brother. But the thing was supposed to land 19 hours ago. Obviously, there's a problem. It's space travel, and I don't believe any problem is minor."
+                            },
+                            {
+                                "Character": "BARTLET",
+                                "Line": "Shuttle flies itself, Toby."
+                            },
+                            {
+                                "Character": "TOBY",
+                                "Line": "No, it doesn't, Mr. President."
+                            },
+                            {
+                                "Character": "BARTLET",
+                                "Line": "No, it doesn't. Bartlet exits. Toby slowly puts on his jacket and follows him out."
+                            },
+                            {
+                                "Character": "FADE TO",
+                                "Line": "INT. THE NEWSEUM - NIGHT Bartlet is already on the STAGE."
+                            },
+                            {
+                                "Character": "BARTLET",
+                                "Line": "Thank you, thank you very much. That was a joke about politicians. [audience laughter] Two politicians are having an argument. The first one yells, 'but you're lying!' and the other one answers, 'yes, I know, but hear me out!\" Gina walks on the CATWALK."
+                            },
+                            {
+                                "Character": "GINA",
+                                "Line": "[to the other agent] We're moments away. I'm going to get the door."
+                            },
+                            {
+                                "Character": "BARTLET",
+                                "Line": "I don't think I answered the last one. Suzanne's got me telling jokes. Here's an answer to your question that I don't think you're going to like. A man once said this, \"decisions are made by those who show up.\" So are we failing you, or are you failing us? [hand shake] A little of both. There's a guy on my staff named Charlie Young, he showed me a report from the Center of Policy Alternatives that says that 61% of you agree with the statement \"The older generation has failed my generation\". When asked how the older generation sees you, your top answers are \"lazy\", \"confused,\" and \"unfocused\". Josh watches in the LOBBY. Reporter What was that source again?"
+                            },
+                            {
+                                "Character": "JOSH",
+                                "Line": "Center for Policy Alternatives. C.J. will have copies for you on the bus ride back."
+                            },
+                            {
+                                "Character": "BARTLET",
+                                "Line": "If I take my jacket off, can I trust you all to read nothing more into it than I've been talking for two hours and it's a little hot under these lights? The audience applauds, and Bartlet takes off his jacket. In the PRESS AREA, C.J. walks behind the reporters. She hits Danny in the back of the head."
+                            },
+                            {
+                                "Character": "C.J.",
+                                "Line": "Follow me."
+                            },
+                            {
+                                "Character": "DANNY",
+                                "Line": "Why? [follows her] Bonnie approaches Sam in the CONTROL ROOM."
+                            },
+                            {
+                                "Character": "BONNIE",
+                                "Line": "Where's Toby?"
+                            },
+                            {
+                                "Character": "SAM",
+                                "Line": "Why?"
+                            },
+                            {
+                                "Character": "BONNIE",
+                                "Line": "He's got a phone call."
+                            },
+                            {
+                                "Character": "SAM",
+                                "Line": "From who?"
+                            },
+                            {
+                                "Character": "BONNIE",
+                                "Line": "Peter Jobson."
+                            },
+                            {
+                                "Character": "SAM",
+                                "Line": "Give it to me. Toby in the HALLWAY watches the President talk."
+                            },
+                            {
+                                "Character": "SAM",
+                                "Line": "Toby? Sam makes \"the signal\" when Toby turns around. Toby nods in relief. Toby makes the signal down in the lobby to Josh, and then turns around and sighs in relief."
+                            }
+                        ]
+                    },
+                    {
+                        "Scene Heading": "CUT TO: EXT. OUTSIDE THE NEWSEUM - CONTINUOUS",
+                        "Description": "Gina walks out to Ron.",
+                        "Dialogues": [
+                            {
+                                "Character": "RON",
+                                "Line": "Gina! Straight to the car."
+                            },
+                            {
+                                "Character": "GINA",
+                                "Line": "He's not going to work the rope line?"
+                            },
+                            {
+                                "Character": "RON",
+                                "Line": "There's a softball game the President wants to watch."
+                            },
+                            {
+                                "Character": "GINA",
+                                "Line": "They show softball on TV?"
+                            },
+                            {
+                                "Character": "RON",
+                                "Line": "Well, yeah."
+                            },
+                            {
+                                "Character": "GINA",
+                                "Line": "And the president watches it? Gina and Ron walk past a menacing looking young man wearing a cap, gray shirt, and the biggest \"Bartlet\" button in the world. He watches them pass, and then turns his attention to an office building window on the other side of the alley."
+                            }
+                        ]
+                    },
+                    {
+                        "Scene Heading": "CUT TO: INT. NEWSEUM - CONTINUOUS",
+                        "Description": "Bartlet is still on the stage.",
+                        "Dialogues": [
+                            {
+                                "Character": "BARTLET",
+                                "Line": "They're telling me that we're out of time. I just want to mention that at several points during the evening, I was referred to as both a liberal and a populist, and a fellow fourth from the back called me a socialist, which is nice, I haven't heard that for a while."
+                            }
+                        ]
+                    },
+                    {
+                        "Scene Heading": "CUT TO: EXT. OUTSIDE THE NEWSEUM - CONTINUOUS",
+                        "Description": "Gina looks over the crowd apprehensively.",
+                        "Dialogues": [
+                            {
+                                "Character": "BARTLET",
+                                "Line": "Actually, I'm an economics professor. My great-grandfather's great-grandfather was Dr. Josiah Bartlet, who was the New Hampshire delegate to the second Continental Congress, the one that sat in session in Philadelphia in the summer of 1776...",
+                                "Descriptor": "VO"
+                            }
+                        ]
+                    },
+                    {
+                        "Scene Heading": "CUT TO: INT. THE NEWSEUM - CONTINUOUS",
+                        "Description": "",
+                        "Dialogues": [
+                            {
+                                "Character": "BARTLET",
+                                "Line": "...and announced to the world that we were no longer subjects of King George III, but rather a self-governing people. We hold these truths to be self-evident, they said, that all men are created equal. Strange as it may seem, that was the first time in history that anyone had bothered to write that down. Decisions are made by those who show up. Class dismissed. Thank you, everyone. God bless you. And God bless America. The audience applauds."
+                            },
+                            {
+                                "Character": "JOSH",
+                                "Line": "Way to go."
+                            }
+                        ]
+                    },
+                    {
+                        "Scene Heading": "CUT TO: EXT. OUTSIDE THE NEWSEUM - CONTINUOUS",
+                        "Description": "Gina looks very apprehensively at the crowd. She looks right past creepy looking young guy, who's looking right at her.",
+                        "Dialogues": [
+                            {
+                                "Character": "GINA",
+                                "Line": "He's not working the rope line. [into wrist mike] Straight to the car. I've got Bookbag. Bartlet and his staff are walking down to the limos."
+                            },
+                            {
+                                "Character": "ZOEY",
+                                "Line": "He used it, you're feeling good about it, and you're looking for a way to thank me."
+                            },
+                            {
+                                "Character": "CHARLIE",
+                                "Line": "It had nothing to do with you, and you were still unbelievably wrong."
+                            },
+                            {
+                                "Character": "ZOEY",
+                                "Line": "I accept your apology."
+                            },
+                            {
+                                "Character": "BARTLET",
+                                "Line": "Toby! Walk with me."
+                            },
+                            {
+                                "Character": "TOBY",
+                                "Line": "Yes, sir?"
+                            },
+                            {
+                                "Character": "BARTLET",
+                                "Line": "What have you got to say for yourself?"
+                            },
+                            {
+                                "Character": "TOBY",
+                                "Line": "About what? Bartlet makes \"the signal\"."
+                            },
+                            {
+                                "Character": "TOBY",
+                                "Line": "[chuckling] Yes, sir! In the office building, bad men are loading ammunition. The creepy boy looks up at the office window. Gina meets Zoey at the end of gate before the limos."
+                            },
+                            {
+                                "Character": "ZOEY",
+                                "Line": "...baby pictures he keeps heckling me with, visa card bills. And look, now he's walking the ropeline. If ever there is a chance that he'll pass a crowd of people... Bartlet happy as a clam, works the ropeline.",
+                                "Descriptor": "to Gina"
+                            },
+                            {
+                                "Character": "ZOEY",
+                                "Line": "Charlie!"
+                            },
+                            {
+                                "Character": "GINA",
+                                "Line": "I saw something."
+                            },
+                            {
+                                "Character": "ZOEY",
+                                "Line": "Charlie apologized to me. A full apology."
+                            },
+                            {
+                                "Character": "GINA",
+                                "Line": "I saw something! The skinheads in the office building are looking down at the scene. Gina looks around frantically, spotting the creepy boy looking up at the office building past her head."
+                            },
+                            {
+                                "Character": "ZOEY",
+                                "Line": "Gina? The creepy boy turns to walk away and his cap is knocked off, revealing a \"skinned\" head. Gina turns around to see what he's looking at. Charlie turns with her. The skinheads in the office building raises their guns. Just as the first shot is about to go off, Gina yells.",
+                                "Descriptor": "VO"
+                            },
+                            {
+                                "Character": "GINA",
+                                "Line": "GUN! Gina turns, knocks Charlie to the ground by the limo. The skinheads shoots into the crowd. Secret Service Agents and passersby are scurrying. Gina pulls Zoey down and shields her from the gunfire, yelling, \"get down, get down!\" The agents fire up at the shooters. Some of them pull Bartlet back and down. Gina shoves Zoey into the limo. Josh looks behind the gates in horror. Agents fire, the crowd screaming and scurrying. Secret Service snipers fire at the gunmen. The gunmen fire at the crowd. Agents shove Bartlet into a limo. An agent knocks into C.J., who's standing next to Sam. A police car's top. Its light shatters. Sam tackles [or falls into] C.J., bringing them both to the ground as a limo window shatters right in front of them. Firing guns. Scurrying crowds. Toby caught on the ground at the bottom of the gate. Leo being held down onto the ground by SS agents, saying, \"stay down!\" Overhead shot of scurrying crowds, one limo towards the background, one, possibly two, people lying prone, face-down on the ground in front of it."
+                            }
+                        ]
+                    },
+                    {
+                        "Scene Heading": "DISSOLVE TO: END TITLES.",
+                        "Description": "",
+                        "Dialogues": [
+                            {
+                                "Character": "AGENTS",
+                                "Line": "Oh, god, we've got people down. People down, people down! Who's been hit? Who's been hit?",
+                                "Descriptor": "VO"
+                            },
+                            {
+                                "Character": "FADE TO BLACK.",
+                                "Line": "* * *"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+}

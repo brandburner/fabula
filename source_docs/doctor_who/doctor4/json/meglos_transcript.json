@@ -1,0 +1,4111 @@
+{
+    "Story": "Meglos",
+    "Airdate": "1980-09-27",
+    "Episodes": [
+        {
+            "Episode": "Part One",
+            "Scenes": [
+                {
+                    "Scene": "Tardis",
+                    "Dialogue": [
+                        {
+                            "Stage Direction": "The Doctor is repairing K9. Again."
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "You'd better stop the Tardis. We don't want any nasty jolts. Prion, did you say?"
+                        },
+                        {
+                            "Character": "ROMANA",
+                            "Line": "We're in the Prion planetary system. We'd better land."
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "No, no. Hovering will do."
+                        },
+                        {
+                            "Character": "ROMANA",
+                            "Line": "There's a planet called Tigella."
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "Tigella? Never heard of it."
+                        },
+                        {
+                            "Character": "ROMANA",
+                            "Line": "Well, there's one called Zolfa-Thura. That's in the history books."
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "Well, we're all in somebody's history books."
+                        },
+                        {
+                            "Character": "ROMANA",
+                            "Line": "A great civilisation blown away to sand and ashes."
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "Oh, yes."
+                        },
+                        {
+                            "Character": "ROMANA",
+                            "Line": "Now all that's left is the Screens."
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "Why, what screens?"
+                        },
+                        {
+                            "Character": "ROMANA",
+                            "Line": "The Screens of Zolfa-Thura."
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "Oh. Oh, those screens. Well, of course I've been to Tigella. Did you say Tigella?"
+                        },
+                        {
+                            "Character": "ROMANA",
+                            "Line": "That's right."
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "I've been there."
+                        },
+                        {
+                            "Character": "ROMANA",
+                            "Line": "When?"
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "Oo, well, a long time ago. Nice chap called Zastor showed me around. Yes. Remind me to get in touch with him sometime. In fact, I'll do it right now."
+                        },
+                        {
+                            "Character": "ROMANA",
+                            "Line": "No, no, no. Please, please, can we just do one thing at a time?"
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "First things first?"
+                        },
+                        {
+                            "Character": "ROMANA",
+                            "Line": "Exactly."
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "But not necessarily in that order. Tigella. Zastor."
+                        }
+                    ]
+                },
+                {
+                    "Scene": "Walkway 9",
+                    "Dialogue": [
+                        {
+                            "Stage Direction": "A blonde woman with two blond men is trying to cut into something. Their hairstyles are strongly reminiscent of Gerry Anderson's UFO moonbase."
+                        },
+                        {
+                            "Character": "CARIS",
+                            "Line": "It's going to blow!"
+                        },
+                        {
+                            "Stage Direction": "And so it does. An alarm sounds."
+                        },
+                        {
+                            "Character": "CARIS",
+                            "Line": "Emergency! Emergency!"
+                        }
+                    ]
+                },
+                {
+                    "Scene": "Central Control",
+                    "Dialogue": [
+                        {
+                            "Stage Direction": "Another blond man hands off a PADD to yet another blond. Everyone here has the same haircut and uniform. It's going to get confusing."
+                        },
+                        {
+                            "Character": "DEEDRIX",
+                            "Line": "And quickly."
+                        },
+                        {
+                            "Character": "WOMAN [OC]",
+                            "Line": "Burn out on one four nine. Medical and lighting assistance immediately."
+                        },
+                        {
+                            "Stage Direction": "Deedrix runs to his desk and uses the intercom."
+                        },
+                        {
+                            "Character": "DEEDRIX",
+                            "Line": "Medical detail dispatched. MAN 2 [OC]: Air purification unit one malfunctioning."
+                        },
+                        {
+                            "Stage Direction": "An old man dressed very differently from the others we have seen enters."
+                        },
+                        {
+                            "Character": "DEEDRIX",
+                            "Line": "Open up air vents three to eight in unit one. Zastor."
+                        },
+                        {
+                            "Character": "ZASTOR",
+                            "Line": "This is no time for formality. Please continue. MAN 3 [OC]: Irrigation levels holding steady."
+                        },
+                        {
+                            "Character": "DEEDRIX",
+                            "Line": "Thank you. Clearing."
+                        },
+                        {
+                            "Character": "ZASTOR",
+                            "Line": "Well, how bad is it, Deedrix?"
+                        },
+                        {
+                            "Character": "DEEDRIX",
+                            "Line": "We can't control it much longer."
+                        },
+                        {
+                            "Character": "ZASTOR",
+                            "Line": "So much for science."
+                        },
+                        {
+                            "Character": "DEEDRIX",
+                            "Line": "Without detailed investigation, there's nothing science can do."
+                        },
+                        {
+                            "Character": "ZASTOR",
+                            "Line": "Believe me, I understand."
+                        },
+                        {
+                            "Character": "DEEDRIX",
+                            "Line": "I've always argued"
+                        },
+                        {
+                            "Character": "ZASTOR",
+                            "Line": "That's certainly true."
+                        },
+                        {
+                            "Character": "DEEDRIX",
+                            "Line": "For thousands of years our lives have been dominated by a mystery. The Dodecahedron belongs to all of us, not just the Deons."
+                        },
+                        {
+                            "Character": "ZASTOR",
+                            "Line": "Their religion deserves respect."
+                        },
+                        {
+                            "Character": "DEEDRIX",
+                            "Line": "Religion. Control to walkway nine."
+                        }
+                    ]
+                },
+                {
+                    "Scene": "Walkway 9",
+                    "Dialogue": [
+                        {
+                            "Stage Direction": "One of the men is getting treatment for burnt eyes."
+                        },
+                        {
+                            "Character": "DEEDRIX [OC]",
+                            "Line": "Update on the burnout, please."
+                        },
+                        {
+                            "Character": "CARIS",
+                            "Line": "I'm replacing the transformer. There'll be no power in here for the next three hours. Now will they believe us?"
+                        }
+                    ]
+                },
+                {
+                    "Scene": "Central Control",
+                    "Dialogue": [
+                        {
+                            "Character": "DEEDRIX",
+                            "Line": "Thank you, Caris. Understood. All this rather proves her point."
+                        },
+                        {
+                            "Character": "ZASTOR",
+                            "Line": "How can we re-inhabit the surface? It would take years of preparation."
+                        },
+                        {
+                            "Character": "DEEDRIX",
+                            "Line": "Decades, more likely. There are better ways, but at least she has a rational plan."
+                        },
+                        {
+                            "Character": "ZASTOR",
+                            "Line": "Which the Deons have declared a blasphemy."
+                        },
+                        {
+                            "Character": "DEEDRIX",
+                            "Line": "You could overrule them."
+                        },
+                        {
+                            "Character": "ZASTOR",
+                            "Line": "How long would I remain leader if I were to?"
+                        },
+                        {
+                            "Character": "DEEDRIX",
+                            "Line": "And Tigella? Zastor, I tell you as a savant, a scientist, one who works hard to understand these things, that our safe and bountiful city may well be on the edge of total extinction."
+                        }
+                    ]
+                },
+                {
+                    "Scene": "Temple",
+                    "Dialogue": [
+                        {
+                            "Stage Direction": "A red-robed supplicant is kneeling on a small dais in front of the Priestess when a black clothed man enters. He whispers to the Priestess."
+                        },
+                        {
+                            "Character": "LEXA",
+                            "Line": "No."
+                        },
+                        {
+                            "Stage Direction": "Everyone, say a great big Hi! to Jacqueline Hill \\- formerly Barbara, one of the original companions."
+                        },
+                        {
+                            "Character": "LEXA",
+                            "Line": "Zastor is our leader, but he cannot lead us into sacrilege. Resume the Concurrence. I shall explain this yet again to Zastor."
+                        },
+                        {
+                            "Stage Direction": "Lexa leaves with the man, her long white hair flowing from the top of her tall headdress."
+                        }
+                    ]
+                },
+                {
+                    "Scene": "Walkway",
+                    "Dialogue": [
+                        {
+                            "Character": "ZASTOR",
+                            "Line": "I understand your anger, Lexa."
+                        },
+                        {
+                            "Character": "LEXA",
+                            "Line": "The power is angrier than we are."
+                        },
+                        {
+                            "Character": "ZASTOR",
+                            "Line": "But at the moment seems to be a little more controlled. So perhaps should we be. The savants are trying to help, or so they believe."
+                        },
+                        {
+                            "Character": "LEXA",
+                            "Line": "Believe? A word to large for their small minds.)"
+                        },
+                        {
+                            "Stage Direction": "They go down a spiral staircase."
+                        },
+                        {
+                            "Character": "LEXA",
+                            "Line": "They're children. Wilful, ignorant and lost."
+                        },
+                        {
+                            "Character": "ZASTOR",
+                            "Line": "As we all will be, savants and Deons alike, if the power fails us."
+                        },
+                        {
+                            "Character": "LEXA",
+                            "Line": "Why are we going to the debating chamber? This is hardly a matter for compromise."
+                        },
+                        {
+                            "Character": "ZASTOR",
+                            "Line": "I'm an old man, Lexa, with less faith perhaps than you, but I think you trust my judgment."
+                        },
+                        {
+                            "Character": "LEXA",
+                            "Line": "Yes."
+                        },
+                        {
+                            "Character": "ZASTOR",
+                            "Line": "They have some proposals. They will not touch the Dodecahedron."
+                        },
+                        {
+                            "Character": "LEXA",
+                            "Line": "They cannot enter the Power room!"
+                        },
+                        {
+                            "Stage Direction": "A distant rumble alarms her."
+                        },
+                        {
+                            "Character": "ZASTOR",
+                            "Line": "Some measurement, a few calculations."
+                        },
+                        {
+                            "Character": "LEXA",
+                            "Line": "Oh, not even you, Zastor, can revoke the ancient laws."
+                        },
+                        {
+                            "Stage Direction": "Deedrix meets them."
+                        },
+                        {
+                            "Character": "DEEDRIX",
+                            "Line": "And your Concurrence, Lexa, cannot revoke the laws of physics."
+                        },
+                        {
+                            "Character": "ZASTOR",
+                            "Line": "Deedrix, Lexa, we must behave like leaders."
+                        },
+                        {
+                            "Character": "DEEDRIX",
+                            "Line": "Then lead us by example, Zastor. Make a decision!"
+                        },
+                        {
+                            "Character": "ZASTOR",
+                            "Line": "I cannot interfere. I was afraid it would come to this. (to a guard) Yes, please, ask him to come."
+                        },
+                        {
+                            "Character": "LEXA",
+                            "Line": "Ask? Who?"
+                        },
+                        {
+                            "Character": "DEEDRIX",
+                            "Line": "Some new procrastination, Zastor?"
+                        },
+                        {
+                            "Character": "ZASTOR",
+                            "Line": "Some fifty years ago, I knew a man who solved the insoluble by the strangest means. He sees the threads that join the universe together and mends them when they break."
+                        },
+                        {
+                            "Character": "DEEDRIX",
+                            "Line": "A savant? Or one of her madmen."
+                        },
+                        {
+                            "Character": "ZASTOR",
+                            "Line": "A little of each and a great deal more of something else. He's nearby and asking to visit us."
+                        },
+                        {
+                            "Character": "DEEDRIX",
+                            "Line": "You sent for an alien?"
+                        },
+                        {
+                            "Character": "LEXA",
+                            "Line": "Why?"
+                        },
+                        {
+                            "Character": "ZASTOR",
+                            "Line": "You'll know when you see him. This probably needs his delicacy of touch."
+                        }
+                    ]
+                },
+                {
+                    "Scene": "Tardis",
+                    "Dialogue": [
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "He'd better not go in the sea in future. He's likely to get into deep water, you know."
+                        },
+                        {
+                            "Character": "ROMANA",
+                            "Line": "It was hardly his fault that someone neglected to sea-proof him."
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "Quite. Can you remember where I left his manual?"
+                        },
+                        {
+                            "Character": "ROMANA",
+                            "Line": "Yes, of course."
+                        },
+                        {
+                            "Stage Direction": "On the floor under the coat stand."
+                        },
+                        {
+                            "Character": "ROMANA",
+                            "Line": "Oh, I hope he's going to be all right. We're going to need him on Tigella."
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "Why? They're not hostile."
+                        },
+                        {
+                            "Character": "ROMANA",
+                            "Line": "The plants are. Lush, aggressive vegetation."
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "You mustn't believe everything you read in books."
+                        },
+                        {
+                            "Character": "ROMANA",
+                            "Line": "It says in the history books that it was the lush, aggressive vegetation that forced the Tigellans to retreat beneath the surface. You must have seen it last time you were there."
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "It was reasonably friendly to me. Mind you, it was a long time ago."
+                        },
+                        {
+                            "Stage Direction": "Romana finds the page in the manual."
+                        },
+                        {
+                            "Character": "ROMANA",
+                            "Line": "Post repair test questions."
+                        },
+                        {
+                            "Stage Direction": "The Doctor takes the book from her."
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "Ahem. Post repair test questions. K9, can you hear me? K9: Affirmative, (pause) mistress."
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "That's a promising start."
+                        }
+                    ]
+                },
+                {
+                    "Scene": "Debating chamber",
+                    "Dialogue": [
+                        {
+                            "Stage Direction": "Everyone is shouting at once."
+                        },
+                        {
+                            "Character": "ZASTOR",
+                            "Line": "Silence! Savants, Deons, remember the dignity of your high office. Have we been elected to squabble? If we cannot agree, we will at least have order."
+                        },
+                        {
+                            "Character": "DEEDRIX",
+                            "Line": "I've said all I have to say. I am needed back in the control room."
+                        },
+                        {
+                            "Character": "LEXA",
+                            "Line": "No! The Savants should be arrested for heresy."
+                        },
+                        {
+                            "Character": "DEEDRIX",
+                            "Line": "And crushed to death, no doubt."
+                        },
+                        {
+                            "Character": "ZASTOR",
+                            "Line": "Please, you will not mock the old laws."
+                        },
+                        {
+                            "Character": "DEEDRIX",
+                            "Line": "Well, how can there be any respect for a creed that practices primitive sacrifice. Are you making sacrifices now in the name of your monstrous myth?"
+                        },
+                        {
+                            "Character": "ZASTOR",
+                            "Line": "Please, Deedrix, remember where you are."
+                        },
+                        {
+                            "Character": "DEEDRIX",
+                            "Line": "No! This should be said before all Tigella. The Dodecahedron is no god! It is an artefact! Engineered."
+                        },
+                        {
+                            "Character": "LEXA",
+                            "Line": "It descended from the heavens!"
+                        },
+                        {
+                            "Character": "DEEDRIX",
+                            "Line": "Not the heavens. From somewhere, anywhere, but not the heavens."
+                        },
+                        {
+                            "Character": "LEXA",
+                            "Line": "Then where?"
+                        }
+                    ]
+                },
+                {
+                    "Scene": "Zolfa-Thura",
+                    "Dialogue": [
+                        {
+                            "Stage Direction": "On the dusty planet, with Tigella hanging in the sky, a hatch opens in a space module and a man in semi-Cossack, semi-renaissance clothing leads a motley group carefully out onto the surface and across to a set of five giant pentagons propped up in the sand forming a pentagon. One of the group is to be wearing a normal three-piece suit. The leader is  Bill Fraser, a grand old character actor."
+                        },
+                        {
+                            "Character": "GRUGGER",
+                            "Line": "Well?"
+                        },
+                        {
+                            "Character": "BROTADAC",
+                            "Line": "Sand. Nothing but sand. The whole planet."
+                        },
+                        {
+                            "Character": "GRUGGER",
+                            "Line": "Except for those."
+                        },
+                        {
+                            "Character": "BROTADAC",
+                            "Line": "Bring an Earthling to the screens of Zolfa-Thura. I never liked this job."
+                        },
+                        {
+                            "Character": "GRUGGER",
+                            "Line": "Male Caucasian around two metres tall."
+                        },
+                        {
+                            "Character": "BROTADAC",
+                            "Line": "Right, we've delivered him. So who pays us?"
+                        },
+                        {
+                            "Character": "GRUGGER",
+                            "Line": "Shut up. He's trying to say something."
+                        },
+                        {
+                            "Character": "BROTADAC",
+                            "Line": "It could be a trap. What does he know, anyway?"
+                        },
+                        {
+                            "Character": "EARTHLING",
+                            "Line": "Nothing. I don't know anything. What have I done?"
+                        },
+                        {
+                            "Character": "GRUGGER",
+                            "Line": "Nobody knows anything."
+                        },
+                        {
+                            "Character": "EARTHLING",
+                            "Line": "Why? Why me?"
+                        },
+                        {
+                            "Character": "GRUGGER",
+                            "Line": "Why any of us? Do you think I do this through choice? Oh, give him another one."
+                        },
+                        {
+                            "Stage Direction": "Brotadac gives the Earthling a hypospray in the neck."
+                        },
+                        {
+                            "Character": "GRUGGER",
+                            "Line": "The message was genuine. We'll wait."
+                        },
+                        {
+                            "Character": "BROTADAC",
+                            "Line": "Genuine? We don't even know who sent it. Let's kill him and go."
+                        },
+                        {
+                            "Character": "GRUGGER",
+                            "Line": "Let's think, for a change. Now, why would you send across the galaxy for a thing like that?"
+                        },
+                        {
+                            "Stage Direction": "The ground shakes, and a five-sided chamber rises up in the middle of the screens. A doorway opens and Grugger moves forward."
+                        },
+                        {
+                            "Character": "BROTADAC",
+                            "Line": "Stop! It must be a trap."
+                        },
+                        {
+                            "Character": "GRUGGER",
+                            "Line": "Shut up and follow me."
+                        }
+                    ]
+                },
+                {
+                    "Scene": "Meglos' laboratory",
+                    "Dialogue": [
+                        {
+                            "Stage Direction": "They enter a gleaming white room with shiny metal control panels, and a large cactus on stand near the middle of the room. Brotadac stuffs a piece of movable equipment into his pocket."
+                        },
+                        {
+                            "Character": "MEGLOS [OC]",
+                            "Line": "Arrival noted, gentlemen. Welcome. Don't be afraid."
+                        },
+                        {
+                            "Character": "GRUGGER",
+                            "Line": "Huh. Who do you think you're talking to?"
+                        },
+                        {
+                            "Character": "MEGLOS [OC]",
+                            "Line": "General Grugger, Lieutenant Brotadac, I presume, together with their band of fortune hunters. There should also be an Earthling somewhere."
+                        },
+                        {
+                            "Stage Direction": "Grugger gestures for the prisoner to be brought in."
+                        },
+                        {
+                            "Character": "GRUGGER",
+                            "Line": "You. What are you?"
+                        },
+                        {
+                            "Character": "MEGLOS [OC]",
+                            "Line": "Ah, forgive me. Most remiss. I am Meglos, only survivor of this planet."
+                        },
+                        {
+                            "Stage Direction": "They stare at the cactus."
+                        },
+                        {
+                            "Character": "MEGLOS [OC]",
+                            "Line": "Well observed, General Grugger. I am the plant. A xerophyte, to be precise. Ah! Ah, you've served me well, General Grugger. I now have a real proposition for you."
+                        }
+                    ]
+                },
+                {
+                    "Scene": "Debating chamber",
+                    "Dialogue": [
+                        {
+                            "Stage Direction": "The shouting match has resumed."
+                        },
+                        {
+                            "Character": "ZASTOR",
+                            "Line": "This chamber will yield to my authority!"
+                        },
+                        {
+                            "Character": "DEEDRIX",
+                            "Line": "You've lost it, delegated it to these aliens."
+                        },
+                        {
+                            "Character": "LEXA",
+                            "Line": "A Time Lord! A non-believer. Why should we trust him?"
+                        },
+                        {
+                            "Character": "ZASTOR",
+                            "Line": "The Doctor's good faith is beyond question."
+                        },
+                        {
+                            "Character": "DEEDRIX",
+                            "Line": "Faith! That word again. What we need is knowledge!"
+                        },
+                        {
+                            "Character": "ZASTOR",
+                            "Line": "He brings that, too."
+                        },
+                        {
+                            "Character": "DEEDRIX",
+                            "Line": "We have it here, if you will allow us to use it."
+                        },
+                        {
+                            "Character": "LEXA",
+                            "Line": "Oh, squabbles go round and round. Nothing is decided here. I shall seek guidance from the Power itself."
+                        },
+                        {
+                            "Character": "CARIS",
+                            "Line": "I have something to say to this chamber"
+                        },
+                        {
+                            "Character": "LEXA",
+                            "Line": "No."
+                        },
+                        {
+                            "Character": "ZASTOR",
+                            "Line": "Caris has risked her life to save this city. I wish to hear her."
+                        },
+                        {
+                            "Character": "CARIS",
+                            "Line": "Even if we manage to restore the power, or as the Deons would say, if the power condescends to restore itself, the food stocks will be destroyed. We will have to ascend to the surface."
+                        }
+                    ]
+                },
+                {
+                    "Scene": "Meglos' laboratory",
+                    "Dialogue": [
+                        {
+                            "Character": "BROTADAC",
+                            "Line": "It's a waste of time. Let's get our payment and go."
+                        },
+                        {
+                            "Character": "MEGLOS [OC]",
+                            "Line": "You Gaztaks pillage the galaxy. There are a thousand small marauding bands like yours. And what's it all for?"
+                        },
+                        {
+                            "Character": "BROTADAC",
+                            "Line": "Loot!"
+                        },
+                        {
+                            "Character": "MEGLOS [OC]",
+                            "Line": "A motley collection of trophies. How long did it take you to accumulate?"
+                        },
+                        {
+                            "Character": "BROTADAC",
+                            "Line": "Done it all our lives."
+                        },
+                        {
+                            "Character": "MEGLOS [OC]",
+                            "Line": "Pah! And you accuse me of wasting your time."
+                        },
+                        {
+                            "Character": "GRUGGER",
+                            "Line": "What you're asking us to do is impossible."
+                        },
+                        {
+                            "Character": "MEGLOS [OC]",
+                            "Line": "Impossible, or simply beyond your comprehension?"
+                        },
+                        {
+                            "Character": "BROTADAC",
+                            "Line": "There's only one way into that city."
+                        },
+                        {
+                            "Character": "GRUGGER",
+                            "Line": "And they guard that Dodecahedron with their lives. To them, it's a god."
+                        },
+                        {
+                            "Character": "BROTADAC",
+                            "Line": "They say the thing's dangerous to touch."
+                        },
+                        {
+                            "Character": "MEGLOS [OC]",
+                            "Line": "Really, gentlemen, I have considered the hazards. But your timidity worries me. You're not interested in the real power. So, if Lieutenant Brotadac will return my redimensioner, we will conclude our business."
+                        },
+                        {
+                            "Character": "GRUGGER",
+                            "Line": "What?"
+                        },
+                        {
+                            "Character": "MEGLOS [OC]",
+                            "Line": "The redimensioner you removed from my desk."
+                        },
+                        {
+                            "Character": "GRUGGER",
+                            "Line": "Oh, you fool. What do you know about mass conversion mechanics?"
+                        },
+                        {
+                            "Stage Direction": "Brotadac replaces the device."
+                        },
+                        {
+                            "Character": "GRUGGER",
+                            "Line": "I want to know a lot more about all this."
+                        }
+                    ]
+                },
+                {
+                    "Scene": "Tardis",
+                    "Dialogue": [
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "Bit of a nuisance if we have to reprogramme all his constants."
+                        },
+                        {
+                            "Character": "ROMANA",
+                            "Line": "I'm more worried about the power depletion. At this rate he's going to need recharging every two hours."
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "That's not a problem. I happen to be an expert in power sources."
+                        },
+                        {
+                            "Character": "ROMANA",
+                            "Line": "Tigella won't take long, then."
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "No, no, no. A quick flight, a quick service."
+                        },
+                        {
+                            "Character": "ROMANA",
+                            "Line": "What is the energy process, baryon multiplication?"
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "Erm, er, yes. Yes, something like that. They didn't actually let me see it last time. Religious objections."
+                        }
+                    ]
+                },
+                {
+                    "Scene": "Meglos' laboratory",
+                    "Dialogue": [
+                        {
+                            "Character": "GRUGGER",
+                            "Line": "The Dodecahedron was made here on Zolfa-Thura?"
+                        },
+                        {
+                            "Character": "MEGLOS [OC]",
+                            "Line": "Of course. The Tigellans are using only a fraction of its potential."
+                        },
+                        {
+                            "Character": "GRUGGER",
+                            "Line": "A fraction! It powers their entire planet."
+                        },
+                        {
+                            "Character": "MEGLOS [OC]",
+                            "Line": "Precisely. A mere fraction. The verdant fluctuations are part of its inbuilt programming. In restart mode it's present output will be raised to the power of twelve. It's energy could feed an entire galaxy."
+                        },
+                        {
+                            "Character": "GRUGGER",
+                            "Line": "That's impossible."
+                        },
+                        {
+                            "Character": "MEGLOS [OC]",
+                            "Line": "Within your limited frame of reference, yes. Now, if you will be so kind as to proceed."
+                        },
+                        {
+                            "Stage Direction": "The Earthling is led to the far side of the room and the cactus placed next to him. Grugger goes to Meglos's desk."
+                        },
+                        {
+                            "Character": "MEGLOS [OC]",
+                            "Line": "General Grugger, have I explained the procedure sufficiently?"
+                        },
+                        {
+                            "Character": "GRUGGER",
+                            "Line": "Yes, it's all right. It's this lever first and then that one to start the process."
+                        },
+                        {
+                            "Character": "MEGLOS [OC]",
+                            "Line": "Excellent. Then let it commence."
+                        },
+                        {
+                            "Character": "GRUGGER",
+                            "Line": "Oh, we'll definitely let it commence."
+                        },
+                        {
+                            "Stage Direction": "Meglos and the Earthling slide back into alcoves. Screens come down in front of them."
+                        },
+                        {
+                            "Character": "BROTADAC",
+                            "Line": "This is the switch, is it?"
+                        },
+                        {
+                            "Character": "GRUGGER",
+                            "Line": "Don't touch these controls, Brotadac."
+                        },
+                        {
+                            "Character": "BROTADAC",
+                            "Line": "Come on, he looks ready to me."
+                        },
+                        {
+                            "Character": "GRUGGER",
+                            "Line": "Yes, he does, doesn't he?"
+                        },
+                        {
+                            "Character": "BROTADAC",
+                            "Line": "Well, what's the hang up? I want to get off of this planet."
+                        },
+                        {
+                            "Character": "GRUGGER",
+                            "Line": "Get the others. So do I, but it would be a pity to leave all this."
+                        },
+                        {
+                            "Character": "BROTADAC",
+                            "Line": "You got a plan?"
+                        },
+                        {
+                            "Character": "GRUGGER",
+                            "Line": "We can take that, and that, and that. How much will all that be worth in Pallagos?"
+                        },
+                        {
+                            "Character": "BROTADAC",
+                            "Line": "Fifty million credits?"
+                        },
+                        {
+                            "Character": "GRUGGER",
+                            "Line": "Oh, that's very nice."
+                        },
+                        {
+                            "Character": "BROTADAC",
+                            "Line": "We struck lucky."
+                        },
+                        {
+                            "Character": "GRUGGER",
+                            "Line": "Lucky? Brains, Brotadac, brains. I think the four of us could dismantle that."
+                        },
+                        {
+                            "Character": "BROTADAC",
+                            "Line": "We could break that one up."
+                        },
+                        {
+                            "Character": "GRUGGER",
+                            "Line": "No, no, that's a nice piece."
+                        },
+                        {
+                            "Character": "BROTADAC",
+                            "Line": "I'll go and get the others."
+                        },
+                        {
+                            "Character": "GRUGGER",
+                            "Line": "I've already sent for them. Why aren't they here? Go and see what's happened to them."
+                        },
+                        {
+                            "Stage Direction": "But the door won't open."
+                        },
+                        {
+                            "Character": "BROTADAC",
+                            "Line": "It's stuck!"
+                        },
+                        {
+                            "Character": "GRUGGER",
+                            "Line": "Well, open it."
+                        },
+                        {
+                            "Character": "BROTADAC",
+                            "Line": "But it won't open."
+                        },
+                        {
+                            "Character": "GRUGGER",
+                            "Line": "What do you mean, it won't open. It won't open."
+                        },
+                        {
+                            "Character": "BROTADAC",
+                            "Line": "It opened all right when we come in. Automatically."
+                        },
+                        {
+                            "Character": "MEGLOS [OC]",
+                            "Line": "Correct, gentlemen. Automatically."
+                        },
+                        {
+                            "Character": "GRUGGER",
+                            "Line": "He's trapped us."
+                        },
+                        {
+                            "Character": "BROTADAC",
+                            "Line": "Didn't trust us."
+                        },
+                        {
+                            "Character": "MEGLOS [OC]",
+                            "Line": "Oh, nothing so petty. I knew that as, what shall we say, ardent pragmatists, you would feel bound to attempt some variation of our arrangement. I wanted it to come sooner rather than later. I know you and your kind so well, and if we are to cooperate, I want you to know me."
+                        },
+                        {
+                            "Character": "GRUGGER",
+                            "Line": "I see. Well, that's all right."
+                        },
+                        {
+                            "Character": "MEGLOS [OC]",
+                            "Line": "Well, gentlemen, shall we all descend together into the earth for another thousand years or shall we resume our original arrangements?"
+                        },
+                        {
+                            "Character": "GRUGGER",
+                            "Line": "Well, I'm prepared to forget that little incident."
+                        },
+                        {
+                            "Character": "MEGLOS [OC]",
+                            "Line": "Oh, I hope not."
+                        },
+                        {
+                            "Character": "BROTADAC",
+                            "Line": "We'll remember."
+                        },
+                        {
+                            "Character": "MEGLOS [OC]",
+                            "Line": "Good. Now, the second button, please."
+                        },
+                        {
+                            "Stage Direction": "Grugger complies, and energy pulses through the alcoves. The cactus starts to shrivel as the Earthling twitches."
+                        },
+                        {
+                            "Character": "BROTADAC",
+                            "Line": "I don't believe it!"
+                        },
+                        {
+                            "Stage Direction": "The Earthling's skin turns green, with spines. The screens rise again and the transformed Earthling steps out."
+                        },
+                        {
+                            "Character": "MEGLOS",
+                            "Line": "Thank you, General Grugger. Now we must work quickly. I've intercepted a Tigellan message. They've sent for a travelling Time Lord."
+                        },
+                        {
+                            "Stage Direction": "The Doctor's face and data come up on a monitor."
+                        },
+                        {
+                            "Character": "MEGLOS",
+                            "Line": "Who's travels I must interrupt. Now, where is he, and when?"
+                        }
+                    ]
+                },
+                {
+                    "Scene": "Tardis",
+                    "Dialogue": [
+                        {
+                            "Character": "ROMANA",
+                            "Line": "Where did you put the magnetic tweezers?"
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "In a cave. A sort of shrine."
+                        },
+                        {
+                            "Character": "ROMANA",
+                            "Line": "Where?"
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "In Tigella. What?"
+                        },
+                        {
+                            "Character": "ROMANA",
+                            "Line": "Magnetic tweezers?"
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "Oh."
+                        },
+                        {
+                            "Character": "ROMANA",
+                            "Line": "Thanks. I think I've almost done it."
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "Mind you, it's hardly surprising they're in awe of the thing. After all, their whole way of life depends on it."
+                        },
+                        {
+                            "Stage Direction": "Fizz, crackle."
+                        },
+                        {
+                            "Character": "ROMANA",
+                            "Line": "Oh blast, here we go again."
+                        },
+                        {
+                            "Stage Direction": "The Doctor trips over his own feet. Romana giggles."
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "What's the matter?"
+                        },
+                        {
+                            "Character": "ROMANA",
+                            "Line": "Well, now his probe circuit's jammed."
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "Well, that's easy. Just waggle his tail."
+                        },
+                        {
+                            "Character": "ROMANA",
+                            "Line": "All right. We've tried everything else."
+                        },
+                        {
+                            "Stage Direction": "K9's ears burst into life."
+                        },
+                        {
+                            "Character": "K9",
+                            "Line": "Thank you, mistress. Repairs complete."
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "Well done, Romana. Well done. You're becoming very accomplished at all this."
+                        },
+                        {
+                            "Character": "ROMANA",
+                            "Line": "Becoming? I was fully qualified when I arrived."
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "(sotto from across the room) K9, what do you know about the Prion planetary system? K9: The only viable civilisation was Zolfa-Thura. They destroyed themselves in global war. Planet now featureless desert."
+                        },
+                        {
+                            "Character": "ROMANA",
+                            "Line": "Good boy, K9."
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "So now Tigella's all that's left. K9: Affirmative."
+                        },
+                        {
+                            "Stage Direction": "Jump, fizz, crackle."
+                        },
+                        {
+                            "Character": "ROMANA",
+                            "Line": "Oh blast, here we go again."
+                        },
+                        {
+                            "Stage Direction": "The Doctor trips over his own feet. Romana giggles."
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "What's the matter?"
+                        },
+                        {
+                            "Character": "ROMANA",
+                            "Line": "Well, now his probe circuit's jammed."
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "Well, that's easy. Just waggle his tail."
+                        },
+                        {
+                            "Character": "ROMANA",
+                            "Line": "All right. We've tried everything else."
+                        },
+                        {
+                            "Stage Direction": "K9's ears burst into life."
+                        },
+                        {
+                            "Character": "K9",
+                            "Line": "Thank you, mistress. Repairs complete."
+                        },
+                        {
+                            "Stage Direction": "The Doctor and Romana stare at each other."
+                        }
+                    ]
+                },
+                {
+                    "Scene": "Meglos' laboratory",
+                    "Dialogue": [
+                        {
+                            "Stage Direction": "The repeating scene is on the monitor."
+                        },
+                        {
+                            "Character": "MEGLOS",
+                            "Line": "Flies trapped in amber. Not even the Doctor can escape a chronic hysteretic loop."
+                        },
+                        {
+                            "Character": "GRUGGER",
+                            "Line": "A what?"
+                        },
+                        {
+                            "Character": "MEGLOS",
+                            "Line": "I've caught him inside a fold of time."
+                        },
+                        {
+                            "Character": "GRUGGER",
+                            "Line": "Huh? Oh, good."
+                        },
+                        {
+                            "Character": "MEGLOS",
+                            "Line": "His only respite is the short period when he loops back to the start. Round and round, for all eternity."
+                        }
+                    ]
+                },
+                {
+                    "Scene": "Tardis",
+                    "Dialogue": [
+                        {
+                            "Stage Direction": "Fizz, crackle."
+                        },
+                        {
+                            "Character": "ROMANA",
+                            "Line": "Oh blast, here we go again."
+                        },
+                        {
+                            "Stage Direction": "The Doctor trips over his own feet. Romana giggles."
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "What's the matter?"
+                        },
+                        {
+                            "Character": "ROMANA",
+                            "Line": "Well, now his probe circuit's jammed."
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "Well, that's easy. Just waggle his tail."
+                        },
+                        {
+                            "Character": "ROMANA",
+                            "Line": "All right. We've tried everything else."
+                        },
+                        {
+                            "Stage Direction": "K9's ears burst into life."
+                        },
+                        {
+                            "Character": "K9",
+                            "Line": "Thank you, mistress. Repairs complete."
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "That's the third time. What's happening?"
+                        },
+                        {
+                            "Character": "ROMANA",
+                            "Line": "The Tardis appears to be functioning normally."
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "Yes. Then what? Repeated time cycles? Oh, no. It couldn't be a chronic hysteresis, could it?"
+                        },
+                        {
+                            "Character": "ROMANA",
+                            "Line": "Chronic hysteresis! (gulp) I hope not. If it is, we'll be stuck here forever."
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "Yes."
+                        },
+                        {
+                            "Stage Direction": "Fizz, crackle."
+                        },
+                        {
+                            "Character": "ROMANA",
+                            "Line": "Oh blast, here we go again."
+                        },
+                        {
+                            "Stage Direction": "The Doctor trips over his own feet. Romana giggles."
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "Episode": "Part Two",
+            "Scenes": [
+                {
+                    "Scene": "Tardis",
+                    "Dialogue": [
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "It's no good. Every time we try to"
+                        },
+                        {
+                            "Stage Direction": "Fizz, crackle."
+                        },
+                        {
+                            "Character": "ROMANA",
+                            "Line": "Oh blast, here we go again."
+                        },
+                        {
+                            "Stage Direction": "The Doctor trips over his own feet. Romana giggles."
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "What's the matter?"
+                        },
+                        {
+                            "Character": "ROMANA",
+                            "Line": "Well, now his probe circuit's jammed."
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "Well, that's easy. Just waggle his tail."
+                        },
+                        {
+                            "Character": "ROMANA",
+                            "Line": "All right. We've tried everything else."
+                        },
+                        {
+                            "Stage Direction": "K9's ears burst into life."
+                        },
+                        {
+                            "Character": "K9",
+                            "Line": "Thank you, mistress. Repairs complete."
+                        },
+                        {
+                            "Stage Direction": "Then they are back at the console again."
+                        },
+                        {
+                            "Character": "ROMANA",
+                            "Line": "What can we try now? K9, is there any way out of a chronic hysteresis? K9: Negative, mistress. No known technological procedure."
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "We're still looking."
+                        },
+                        {
+                            "Character": "ROMANA",
+                            "Line": "What if we stop the time rotor?"
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "Yes. No. That's a terrible idea."
+                        },
+                        {
+                            "Character": "ROMANA",
+                            "Line": "I'm only trying to help."
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "There's no known technological procedure. I'm sorry to whisper. There's no known technological procedure. There's no known technological procedure."
+                        },
+                        {
+                            "Stage Direction": "Fizz, crackle."
+                        },
+                        {
+                            "Character": "ROMANA",
+                            "Line": "Oh blast, here we go again."
+                        },
+                        {
+                            "Stage Direction": "The Doctor trips over his own feet. Romana giggles."
+                        }
+                    ]
+                },
+                {
+                    "Scene": "Grugger's spacecraft",
+                    "Dialogue": [
+                        {
+                            "Stage Direction": "Meglos's domain sinks back into the sands and the space module takes off. Brotadac is piloting with Meglos/the Doctor sitting behind him."
+                        },
+                        {
+                            "Character": "BROTADAC",
+                            "Line": "Tigella, twenty seconds to atmospheric entry. Activating heat shields."
+                        },
+                        {
+                            "Character": "MEGLOS",
+                            "Line": "Ha. Heat shields. How fascinating."
+                        },
+                        {
+                            "Character": "GRUGGER",
+                            "Line": "They work. If it wasn't for us you'd still be in Zolfa-Thura."
+                        },
+                        {
+                            "Character": "BROTADAC",
+                            "Line": "I've got a geographical fix on the main entrance. You want to land there?"
+                        },
+                        {
+                            "Character": "GRUGGER",
+                            "Line": "No. Jungle landfall a little to the north."
+                        },
+                        {
+                            "Character": "BROTADAC",
+                            "Line": "Stand by for landing. Entering foliage now."
+                        }
+                    ]
+                },
+                {
+                    "Scene": "Temple",
+                    "Dialogue": [
+                        {
+                            "Character": "ZASTOR",
+                            "Line": "Well, Lexa?"
+                        },
+                        {
+                            "Character": "LEXA",
+                            "Line": "You will not be pleased."
+                        },
+                        {
+                            "Character": "ZASTOR",
+                            "Line": "So your prayers have not been answered?"
+                        },
+                        {
+                            "Character": "LEXA",
+                            "Line": "The Time Lord may visit us."
+                        },
+                        {
+                            "Character": "ZASTOR",
+                            "Line": "Then you will allow him to inspect the Dodecahedron?"
+                        },
+                        {
+                            "Character": "LEXA",
+                            "Line": "On one condition. He must take the Deon oath."
+                        },
+                        {
+                            "Character": "ZASTOR",
+                            "Line": "Take the Deon? No, Lexa. That would be an insult to our guest."
+                        },
+                        {
+                            "Character": "LEXA",
+                            "Line": "Your guest."
+                        },
+                        {
+                            "Character": "ZASTOR",
+                            "Line": "You cannot make a Time Lord swear allegiance to Ti."
+                        },
+                        {
+                            "Character": "LEXA",
+                            "Line": "Once again, Zastor, you can impress us with your diplomacy."
+                        }
+                    ]
+                },
+                {
+                    "Scene": "Jungle",
+                    "Dialogue": [
+                        {
+                            "Character": "GRUGGER",
+                            "Line": "Right, we'll wait here for about an hour."
+                        },
+                        {
+                            "Character": "MEGLOS",
+                            "Line": "One hour exactly."
+                        },
+                        {
+                            "Character": "GRUGGER",
+                            "Line": "And we'll come and get you if anything goes wrong."
+                        },
+                        {
+                            "Character": "MEGLOS",
+                            "Line": "Goes wrong? General, you know sometimes I think you forget who I am."
+                        },
+                        {
+                            "Stage Direction": "Meglos stalks off."
+                        },
+                        {
+                            "Character": "BROTADAC",
+                            "Line": "That man could do anything. What a mind! Anything."
+                        },
+                        {
+                            "Character": "GRUGGER",
+                            "Line": "Don't think too hard, you'll burst something."
+                        },
+                        {
+                            "Character": "BROTADAC",
+                            "Line": "And I like his coat."
+                        }
+                    ]
+                },
+                {
+                    "Scene": "Central Control",
+                    "Dialogue": [
+                        {
+                            "Character": "DEEDRIX",
+                            "Line": "The moment he arrives, Caris will bring him to us."
+                        },
+                        {
+                            "Character": "LEXA",
+                            "Line": "Having filled his head with scientific nonsense, I presume."
+                        },
+                        {
+                            "Stage Direction": "Lexa leaves."
+                        },
+                        {
+                            "Character": "MAN [OC]",
+                            "Line": "Temperature rising in food store."
+                        },
+                        {
+                            "Character": "DEEDRIX",
+                            "Line": "I hope your friend the Doctor will appreciate our difficulties."
+                        },
+                        {
+                            "Character": "ZASTOR",
+                            "Line": "The Doctor has the maturity to respect many points of view."
+                        }
+                    ]
+                },
+                {
+                    "Scene": "City entrance",
+                    "Dialogue": [
+                        {
+                            "Character": "CARIS",
+                            "Line": "We could inhabit the surface again. If this Doctor fails us, we may have to."
+                        },
+                        {
+                            "Stage Direction": "There's a noise in the jungle, then the fake Doctor walks forward."
+                        },
+                        {
+                            "Character": "MEGLOS",
+                            "Line": "I'm the Time Lord. The Doctor. You were expecting me?"
+                        },
+                        {
+                            "Character": "CARIS",
+                            "Line": "Oh, yes, indeed. You're most welcome. Please, follow me."
+                        }
+                    ]
+                },
+                {
+                    "Scene": "Central Control",
+                    "Dialogue": [
+                        {
+                            "Character": "MAN [OC]",
+                            "Line": "Central storage banks overloading. Shall I close off receptor panels?"
+                        },
+                        {
+                            "Character": "DEEDRIX",
+                            "Line": "No, not yet. Reroute surplus to section five. They have spare capacity."
+                        },
+                        {
+                            "Stage Direction": "Lexa enters."
+                        },
+                        {
+                            "Character": "LEXA",
+                            "Line": "The oath-taking ceremony is prepared."
+                        },
+                        {
+                            "Character": "DEEDRIX",
+                            "Line": "What? You're making him take the oath? Zastor, this is ridiculous."
+                        },
+                        {
+                            "Character": "ZASTOR",
+                            "Line": "It's got to be done, Deedrix."
+                        },
+                        {
+                            "Stage Direction": "Caris enters, followed by Meglos/Doctor."
+                        },
+                        {
+                            "Character": "CARIS",
+                            "Line": "Zastor."
+                        },
+                        {
+                            "Character": "ZASTOR",
+                            "Line": "Doctor! It is good to see you again."
+                        },
+                        {
+                            "Character": "MEGLOS",
+                            "Line": "Again?"
+                        },
+                        {
+                            "Character": "ZASTOR",
+                            "Line": "It's been a long time. I'm Zastor, now the Tigellan leader."
+                        },
+                        {
+                            "Character": "MEGLOS",
+                            "Line": "Oh yes, of course, yes, I remember you very well."
+                        },
+                        {
+                            "Character": "ZASTOR",
+                            "Line": "You haven't changed much, Doctor. A little older, a little wiser."
+                        },
+                        {
+                            "Character": "MEGLOS",
+                            "Line": "Oh, much wiser. I gather your energy source is behaving somewhat capriciously."
+                        },
+                        {
+                            "Character": "DEEDRIX",
+                            "Line": "Capriciously? It's out of control."
+                        },
+                        {
+                            "Character": "MEGLOS",
+                            "Line": "Excuse me. Excuse me."
+                        },
+                        {
+                            "Stage Direction": "He takes Deedrix's seat."
+                        },
+                        {
+                            "Character": "MEGLOS",
+                            "Line": "An absorption system, I presume?"
+                        },
+                        {
+                            "Character": "DEEDRIX",
+                            "Line": "Yes, there's a series of receptor panels placed above the Dodecahedron and radiated energy is measured there."
+                        },
+                        {
+                            "Character": "MEGLOS",
+                            "Line": "And these screens can be closed down?"
+                        },
+                        {
+                            "Character": "DEEDRIX",
+                            "Line": "Well, yes, the central storage banks would contain enough energy for one hour, but it is extremely dangerous."
+                        },
+                        {
+                            "Character": "MEGLOS",
+                            "Line": "One hour is all I'll need. Turn them off."
+                        },
+                        {
+                            "Character": "DEEDRIX",
+                            "Line": "Close down receptor panels until further notice."
+                        },
+                        {
+                            "Character": "MEGLOS",
+                            "Line": "Good. Now show me the Dodecahedron."
+                        },
+                        {
+                            "Character": "ZASTOR",
+                            "Line": "Surely you remember the way, Doctor?"
+                        },
+                        {
+                            "Character": "MEGLOS",
+                            "Line": "Ah. Yes, of course. But now that you're leader, I'll follow you."
+                        },
+                        {
+                            "Character": "LEXA",
+                            "Line": "Before entering the Power room, you must take the Deon oath."
+                        },
+                        {
+                            "Character": "ZASTOR",
+                            "Line": "A mere formality, Doctor."
+                        },
+                        {
+                            "Character": "LEXA",
+                            "Line": "Will you swear allegiance to Ti, Doctor?"
+                        },
+                        {
+                            "Character": "MEGLOS",
+                            "Line": "I, swear allegiance to Ti? I'll swear allegiance to Ti with great pleasure. I'm flattered to be so honoured. Please, lead the way."
+                        }
+                    ]
+                },
+                {
+                    "Scene": "Tardis",
+                    "Dialogue": [
+                        {
+                            "Stage Direction": "Fizz, crackle."
+                        },
+                        {
+                            "Character": "ROMANA",
+                            "Line": "Oh blast, here we go again."
+                        },
+                        {
+                            "Stage Direction": "The Doctor trips over his own feet. Romana giggles."
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "What's the matter?"
+                        },
+                        {
+                            "Character": "ROMANA",
+                            "Line": "Well, now his probe circuit's jammed."
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "Well, that's easy. Just waggle his tail."
+                        },
+                        {
+                            "Character": "ROMANA",
+                            "Line": "All right. We've tried everything else."
+                        },
+                        {
+                            "Stage Direction": "K9's ears burst into life."
+                        },
+                        {
+                            "Character": "K9",
+                            "Line": "Thank you, mistress. Repairs complete."
+                        },
+                        {
+                            "Character": "ROMANA",
+                            "Line": "We can't get out of it. We've tried everything."
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "Yes. That's what you said when you were repairing K9. You'd tried everything. Tried everything. We've tried everything. Of course!"
+                        },
+                        {
+                            "Character": "ROMANA",
+                            "Line": "What?"
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "Can you remember the rest of what you said?"
+                        },
+                        {
+                            "Character": "ROMANA",
+                            "Line": "I should think so, we've been through it enough times."
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "K9? K9: Master?"
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "Then that's how we'll do it. Throw it out of phase."
+                        },
+                        {
+                            "Character": "ROMANA",
+                            "Line": "You mean go through the motions deliberately?"
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "Yes, yes, yes, before the cycle comes back again."
+                        },
+                        {
+                            "Character": "ROMANA",
+                            "Line": "Well, you were over there."
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "What?"
+                        },
+                        {
+                            "Character": "ROMANA",
+                            "Line": "Over there."
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "Yes, yes, of course. Good. Off you go, then."
+                        },
+                        {
+                            "Character": "ROMANA",
+                            "Line": "Oh blast here we go again."
+                        },
+                        {
+                            "Stage Direction": "The Doctor trips."
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "What's the matter?"
+                        },
+                        {
+                            "Character": "ROMANA",
+                            "Line": "Now his probe circuit's jammed."
+                        },
+                        {
+                            "Stage Direction": "But the Doctor misses his cue. Romana gestures frantically at K9's tail."
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "Ah. That's easy. Just waggle his tail."
+                        },
+                        {
+                            "Character": "ROMANA",
+                            "Line": "All right. We've tried everything else."
+                        },
+                        {
+                            "Stage Direction": "The Tardis shimmers."
+                        },
+                        {
+                            "Character": "K9",
+                            "Line": "Thank you, mistress. (echoes) Repairs complete."
+                        },
+                        {
+                            "Stage Direction": "The shimmering stops."
+                        },
+                        {
+                            "Character": "ROMANA",
+                            "Line": "Phase cancellation. We've done it!"
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "Well done. You know, for one awful moment I thought you'd forgotten your lines."
+                        }
+                    ]
+                },
+                {
+                    "Scene": "Temple",
+                    "Dialogue": [
+                        {
+                            "Stage Direction": "The fake Doctor is taking the oath."
+                        },
+                        {
+                            "Character": "LEXA",
+                            "Line": "Neither to transgress the laws of the Dodecahedron."
+                        },
+                        {
+                            "Character": "MEGLOS",
+                            "Line": "Neither to transgress the laws of the Dodecahedron."
+                        },
+                        {
+                            "Character": "LEXA",
+                            "Line": "Thanks be to Ti."
+                        },
+                        {
+                            "Character": "ALL",
+                            "Line": "Thanks be to Ti."
+                        },
+                        {
+                            "Character": "LEXA",
+                            "Line": "You are now free to enter the Power room."
+                        },
+                        {
+                            "Character": "DEEDRIX",
+                            "Line": "Thanks be to Ti."
+                        },
+                        {
+                            "Character": "MEGLOS",
+                            "Line": "People of Tigella, what I have to do is extremely dangerous."
+                        },
+                        {
+                            "Character": "ZASTOR",
+                            "Line": "In what way?"
+                        },
+                        {
+                            "Character": "MEGLOS",
+                            "Line": "To control the output, it will be necessary to increase the violence of the emissions."
+                        },
+                        {
+                            "Character": "DEEDRIX",
+                            "Line": "Then you'll be in danger yourself."
+                        },
+                        {
+                            "Character": "MEGLOS",
+                            "Line": "Well, hardly. I'm a Time Lord. Having lived in the future I can hardly die in the present."
+                        },
+                        {
+                            "Character": "DEEDRIX",
+                            "Line": "That can't be true. That's a philosophical paradox."
+                        },
+                        {
+                            "Character": "MEGLOS",
+                            "Line": "No, it's merely beyond your comprehension. However, all of your lives are in danger."
+                        },
+                        {
+                            "Character": "ZASTOR",
+                            "Line": "Then we must leave."
+                        },
+                        {
+                            "Character": "MEGLOS",
+                            "Line": "Precisely. (ecstatic) Only I, only I must enter the Power room."
+                        },
+                        {
+                            "Character": "LEXA",
+                            "Line": "But it was agreed that I should accompany him, on the god's behalf."
+                        },
+                        {
+                            "Character": "MEGLOS",
+                            "Line": "But now I have the protection of Ti himself, we must not appear to mistrust that blessing."
+                        },
+                        {
+                            "Character": "LEXA",
+                            "Line": "So be it."
+                        }
+                    ]
+                },
+                {
+                    "Scene": "Jungle",
+                    "Dialogue": [
+                        {
+                            "Stage Direction": "The Tardis materialises."
+                        },
+                        {
+                            "Character": "DOCTOR [OC]",
+                            "Line": "Well, according to my calculations, this should be sector eight of the city."
+                        },
+                        {
+                            "Character": "ROMANA [OC]",
+                            "Line": "Ah."
+                        },
+                        {
+                            "Stage Direction": "The Doctor comes out of the Tardis."
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "Yes."
+                        },
+                        {
+                            "Character": "ROMANA",
+                            "Line": "Well, if this is the city, I can only assume we're in some sort of park. K9 [OC]: Master?"
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "This place has grown up a bit since I was last here."
+                        },
+                        {
+                            "Character": "ROMANA",
+                            "Line": "Where is the city, then?"
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "That way. K9: Twenty two degrees north, thirty six point four degrees west."
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "Right."
+                        },
+                        {
+                            "Stage Direction": "And heads off at right angles to K9 and Romana."
+                        },
+                        {
+                            "Character": "ROMANA",
+                            "Line": "Doctor."
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "Yes? Ah, yes, well, anyone can make a mistake."
+                        }
+                    ]
+                },
+                {
+                    "Scene": "Power room",
+                    "Dialogue": [
+                        {
+                            "Stage Direction": "In the pulsing golden light of the Dodecahedron, the fake Doctor gestures Lexa and her acolytes to leave. They do."
+                        },
+                        {
+                            "Character": "MEGLOS",
+                            "Line": "Ten thousand years."
+                        },
+                        {
+                            "Stage Direction": "He places his redimensioner on the side of the Dodecahedron."
+                        }
+                    ]
+                },
+                {
+                    "Scene": "Jungle",
+                    "Dialogue": [
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "Well, I only got the direction wrong because of Tigella's anticlockwise rotation. K9: Anomaly."
+                        },
+                        {
+                            "Character": "ROMANA",
+                            "Line": "What is it, K9? K9: Partial incineration of vegetation evident."
+                        },
+                        {
+                            "Character": "ROMANA",
+                            "Line": "Nonsense, K9. These leaves are burnt. K9: Mistress."
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "Come on, there's no time for botany."
+                        },
+                        {
+                            "Character": "ROMANA",
+                            "Line": "Now what would cause that? Thinness of the atmosphere? K9: Negative, mistress. Projection of Dodecahedron power insufficient. Foliation scanning period now terminated, mistress. Expedition necessary."
+                        },
+                        {
+                            "Stage Direction": "Romana follows, carefully, and reaches an area of man-sized plants. One lassos her leg with its roots and another tries to smother her with it's flower head."
+                        }
+                    ]
+                },
+                {
+                    "Scene": "Outside the Power room",
+                    "Dialogue": [
+                        {
+                            "Character": "LEXA",
+                            "Line": "What are you doing here, Caris?"
+                        },
+                        {
+                            "Character": "CARIS",
+                            "Line": "Let go. Look, it's vital we understand what's happening inside there."
+                        },
+                        {
+                            "Character": "LEXA",
+                            "Line": "You were ordered to stay out of this area."
+                        },
+                        {
+                            "Character": "CARIS",
+                            "Line": "And so were you, Lexa."
+                        },
+                        {
+                            "Character": "LEXA",
+                            "Line": "Get back."
+                        },
+                        {
+                            "Stage Direction": "The two women hide as the fake Doctor comes out of the Power room and walks up a flight of stairs. They go over to the Power room doorway."
+                        },
+                        {
+                            "Character": "CARIS",
+                            "Line": "What's happened to the light?"
+                        },
+                        {
+                            "Character": "LEXA",
+                            "Line": "What!"
+                        },
+                        {
+                            "Stage Direction": "Lexa takes down a torch and the two go towards the Power room."
+                        }
+                    ]
+                },
+                {
+                    "Scene": "City entrance",
+                    "Dialogue": [
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "Hello there, I'm the Doctor. I'm expected."
+                        },
+                        {
+                            "Character": "GUARD",
+                            "Line": "I didn't see you go out."
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "What?"
+                        },
+                        {
+                            "Character": "GUARD",
+                            "Line": "This is the second time you've been in here."
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "I say, you've got a marvellous memory. It must be fifty of your years since I was last here. Romana? K9, do you know where she is? K9: Master."
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "Then run and fetch her, and tell her to hurry. K9: Master."
+                        },
+                        {
+                            "Stage Direction": "K9 turns round and the Doctor enters the city."
+                        }
+                    ]
+                },
+                {
+                    "Scene": "Power room",
+                    "Dialogue": [
+                        {
+                            "Stage Direction": "Lexa and Caris run in to discover that the Dodecahedron has gone."
+                        },
+                        {
+                            "Character": "CARIS",
+                            "Line": "It's not possible."
+                        }
+                    ]
+                },
+                {
+                    "Scene": "Jungle",
+                    "Dialogue": [
+                        {
+                            "Stage Direction": "Romana is still fighting the plant, and uses a giant wrench to cut its roots from her legs. She finally gets away."
+                        },
+                        {
+                            "Character": "ROMANA",
+                            "Line": "Urgh, bell plants. Very nasty. Now I see why they live underground."
+                        },
+                        {
+                            "Stage Direction": "She finds more burnt fronds."
+                        },
+                        {
+                            "Character": "ROMANA",
+                            "Line": "More scorching."
+                        }
+                    ]
+                },
+                {
+                    "Scene": "Central Control",
+                    "Dialogue": [
+                        {
+                            "Character": "ZASTOR",
+                            "Line": "Vanished?"
+                        },
+                        {
+                            "Character": "CARIS",
+                            "Line": "We watched the Doctor leave and, the Power room's empty!"
+                        },
+                        {
+                            "Character": "ZASTOR",
+                            "Line": "But that's inconceivable!"
+                        },
+                        {
+                            "Character": "DEEDRIX",
+                            "Line": "This is Control. Activate receptor panels."
+                        },
+                        {
+                            "Stage Direction": "The lights go out on the equipment banks."
+                        },
+                        {
+                            "Character": "DEEDRIX",
+                            "Line": "It's dead. It's dead. There's no power down there."
+                        },
+                        {
+                            "Character": "ZASTOR",
+                            "Line": "Where's the Doctor?"
+                        },
+                        {
+                            "Character": "LEXA",
+                            "Line": "He's betrayed us."
+                        },
+                        {
+                            "Character": "ZASTOR",
+                            "Line": "Now wait a minute. Tell me exactly what happened."
+                        },
+                        {
+                            "Character": "LEXA",
+                            "Line": "No, there isn't time. Out of my way."
+                        },
+                        {
+                            "Stage Direction": "Lexa uses the intercom."
+                        },
+                        {
+                            "Character": "LEXA",
+                            "Line": "This is a Control command. This is a Control command."
+                        }
+                    ]
+                },
+                {
+                    "Scene": "Walkway",
+                    "Dialogue": [
+                        {
+                            "Character": "LEXA [OC]",
+                            "Line": "Arrest the Time Lord. Stop him at all costs. He must not be allowed to leave the city."
+                        },
+                        {
+                            "Stage Direction": "The fake Doctor turns around. His skin is green with cactus spikes on it. He goes down a spiral staircase then hides as two guards run past. Once he has started to move again, he has to hide in a side passage as more guards go past. Meanwhile, elsewhere."
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "That's odd. I could have sworn Central Control was this way. Ah. Excuse me, I'm the Doctor. I'm expected."
+                        },
+                        {
+                            "Stage Direction": "The guard stares at him."
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "Well, will you just tell people I've arrived?"
+                        },
+                        {
+                            "Character": "DEEDRIX [OC]",
+                            "Line": "Stop the Time Lord. Stop the Doctor. Take him at all costs."
+                        },
+                        {
+                            "Stage Direction": "The guard points his rifle up the Doctor's nostril as Lexa and her acolytes arrive."
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "That's very impressive. It's not exactly what I expected, but it's very impressive."
+                        },
+                        {
+                            "Character": "LEXA",
+                            "Line": "There he is. Take him."
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "No, no, it's all right, I'm a doctor."
+                        },
+                        {
+                            "Character": "LEXA",
+                            "Line": "Where is the Dodecahedron."
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "I don't know. I don't even know where Central Control is. Zastor, how good to see you. Will you tell them who I am?"
+                        },
+                        {
+                            "Character": "LEXA",
+                            "Line": "I know who you are."
+                        },
+                        {
+                            "Character": "ZASTOR",
+                            "Line": "Doctor, what's happened?"
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "Please, please, stay calm. I'm sorry I'm late. We could have been here earlier, but for the chronic hysteresis. That's a sort of time loop, you see."
+                        },
+                        {
+                            "Character": "LEXA",
+                            "Line": "We?"
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "Yes, my assistant. She'll be along in a minute. Anyway Zastor, how are you?"
+                        },
+                        {
+                            "Character": "ZASTOR",
+                            "Line": "Baffled, Doctor."
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "Ah."
+                        },
+                        {
+                            "Character": "ZASTOR",
+                            "Line": "You'd better come with us."
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "But what about Romana?"
+                        },
+                        {
+                            "Character": "LEXA",
+                            "Line": "Oh, never mind about them. Take him away!"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "Episode": "Part Three",
+            "Scenes": [
+                {
+                    "Scene": "Jungle",
+                    "Dialogue": [
+                        {
+                            "Stage Direction": "Grugger grabs Romana's neck from behind."
+                        },
+                        {
+                            "Character": "GRUGGER",
+                            "Line": "Ah ha. Who is she?"
+                        },
+                        {
+                            "Character": "BROTADAC",
+                            "Line": "I found her here."
+                        },
+                        {
+                            "Character": "GRUGGER",
+                            "Line": "She's not a Tigellan. Where are you from?"
+                        },
+                        {
+                            "Character": "ROMANA",
+                            "Line": "If I told you, you wouldn't understand."
+                        },
+                        {
+                            "Character": "GRUGGER",
+                            "Line": "Try."
+                        },
+                        {
+                            "Character": "ROMANA",
+                            "Line": "Let go and I'll tell you. Thank you. My ship landed here by mistake."
+                        },
+                        {
+                            "Character": "BROTADAC",
+                            "Line": "Let's kill her. Meglos won't like it."
+                        },
+                        {
+                            "Character": "GRUGGER",
+                            "Line": "I'm handling this, not Meglos. What ship?"
+                        },
+                        {
+                            "Character": "ROMANA",
+                            "Line": "I'll show you if I can find it."
+                        },
+                        {
+                            "Character": "GRUGGER",
+                            "Line": "All right. Move. Go on."
+                        }
+                    ]
+                },
+                {
+                    "Scene": "Power room",
+                    "Dialogue": [
+                        {
+                            "Character": "CARIS",
+                            "Line": "And then we waited outside. We saw the Doctor leave, and when we came in here the Dodecahedron was gone."
+                        },
+                        {
+                            "Character": "DEEDRIX",
+                            "Line": "But how long was he here?"
+                        },
+                        {
+                            "Character": "CARIS",
+                            "Line": "Moments. Hardly any time."
+                        },
+                        {
+                            "Character": "DEEDRIX",
+                            "Line": "It's incomprehensible. There's no way that I know of, singlehandedly moving an object like that."
+                        },
+                        {
+                            "Character": "CARIS",
+                            "Line": "An object like what?"
+                        },
+                        {
+                            "Character": "DEEDRIX",
+                            "Line": "The Dodecahedron, of course."
+                        },
+                        {
+                            "Character": "CARIS",
+                            "Line": "What was it like? Oh yes, we can define its shape and size and colour, and from up there we could estimate its output, but what do we really know about it?"
+                        },
+                        {
+                            "Character": "DEEDRIX",
+                            "Line": "Over the years we've formed theories about how it works."
+                        },
+                        {
+                            "Character": "CARIS",
+                            "Line": "The source of all our energy, the heart of our civilisation, a device we've become totally dependent upon, and all we know about its internal structure are a few vague theories."
+                        },
+                        {
+                            "Stage Direction": "A group of acolytes enter."
+                        },
+                        {
+                            "Character": "DEEDRIX",
+                            "Line": "Yes, and all because of these Deons. When the Doctor came in here, you're certain he was alone?"
+                        },
+                        {
+                            "Character": "CARIS",
+                            "Line": "Completely."
+                        },
+                        {
+                            "Character": "DEEDRIX",
+                            "Line": "So how!"
+                        },
+                        {
+                            "Character": "MAN [OC]",
+                            "Line": "Central Control to Deedrix. Central Control to Deedrix. Power drain is reaching critical."
+                        },
+                        {
+                            "Character": "CARIS",
+                            "Line": "Critical! The whole city will collapse. How many times have I told the Chamber"
+                        },
+                        {
+                            "Character": "DEEDRIX",
+                            "Line": "We should be on the surface. yes, yes, I know. Come along, I'll need you too."
+                        },
+                        {
+                            "Stage Direction": "The acolytes are reluctant to move aside."
+                        }
+                    ]
+                },
+                {
+                    "Scene": "Jungle",
+                    "Dialogue": [
+                        {
+                            "Stage Direction": "Romana leads Grugger and his gang through the lush foliage."
+                        },
+                        {
+                            "Character": "GRUGGER",
+                            "Line": "That's our spacecraft! You've been leading us round in circles."
+                        }
+                    ]
+                },
+                {
+                    "Scene": "Central Control",
+                    "Dialogue": [
+                        {
+                            "Character": "DEEDRIX",
+                            "Line": "Essential services only. Close down all other sections. (to Caris) I'm reducing lighting and cutting thermostat temperature to minimum."
+                        },
+                        {
+                            "Character": "CARIS",
+                            "Line": "Giving us?"
+                        },
+                        {
+                            "Character": "DEEDRIX",
+                            "Line": "About two hours, but hurry!"
+                        },
+                        {
+                            "Stage Direction": "Caris runs out."
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "What, you mean completely disappeared? Evaporated?"
+                        },
+                        {
+                            "Character": "LEXA",
+                            "Line": "What did you do?"
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "Well, as I recall the Dodecahedron, it was much too large to move."
+                        },
+                        {
+                            "Character": "ZASTOR",
+                            "Line": "Can't you see you've paralysed our city?"
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "I'm so sorry."
+                        },
+                        {
+                            "Character": "LEXA",
+                            "Line": "Answer me. What happened to the Dodecahedron?"
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "I keep telling you, I don't know. I've only just arrived."
+                        },
+                        {
+                            "Character": "LEXA",
+                            "Line": "But I saw you."
+                        },
+                        {
+                            "Character": "DEEDRIX",
+                            "Line": "Doctor."
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "Yes."
+                        },
+                        {
+                            "Character": "DEEDRIX",
+                            "Line": "Whatever reasons you had for doing this, the fact remains that without the Dodecahedron's energy, in two hours time this city will be dead."
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "In two hour time. (to Lexa) You saw me? You saw me?"
+                        }
+                    ]
+                },
+                {
+                    "Scene": "Grugger's spacecraft",
+                    "Dialogue": [
+                        {
+                            "Character": "GRUGGER",
+                            "Line": "Now, you tried to trick us. Give me one good reason why I shouldn't kill you now."
+                        },
+                        {
+                            "Character": "ROMANA",
+                            "Line": "Anticlockwise rotation."
+                        },
+                        {
+                            "Character": "BROTADAC",
+                            "Line": "What?"
+                        },
+                        {
+                            "Character": "ROMANA",
+                            "Line": "I forgot that the planet rotates in an anticlockwise direction."
+                        },
+                        {
+                            "Character": "BROTADAC",
+                            "Line": "What's she talking about?"
+                        },
+                        {
+                            "Character": "GRUGGER",
+                            "Line": "Rotation, direction, revolving."
+                        },
+                        {
+                            "Character": "BROTADAC",
+                            "Line": "Oh."
+                        },
+                        {
+                            "Character": "GRUGGER",
+                            "Line": "Well, what difference does that make?"
+                        },
+                        {
+                            "Character": "ROMANA",
+                            "Line": "Don't you see? If we'd gone the other way, we wouldn't have come back to the same point."
+                        },
+                        {
+                            "Character": "GRUGGER",
+                            "Line": "Ah. No. Well, I'll give you one last chance, and you'd better get it right. Move!"
+                        }
+                    ]
+                },
+                {
+                    "Scene": "Food bay",
+                    "Dialogue": [
+                        {
+                            "Stage Direction": "Somewhere unobserved where there are a few plants in pots with lamps above them, Meglos is struggling with his inner Earthling."
+                        },
+                        {
+                            "Character": "MEGLOS",
+                            "Line": "I need you back in."
+                        },
+                        {
+                            "Character": "EARTHLING",
+                            "Line": "Let go of me! You've no right!"
+                        },
+                        {
+                            "Character": "MEGLOS",
+                            "Line": "Quite right, but academic."
+                        },
+                        {
+                            "Stage Direction": "He pulls the Earthling back inside himself."
+                        }
+                    ]
+                },
+                {
+                    "Scene": "Central Control",
+                    "Dialogue": [
+                        {
+                            "Character": "LEXA",
+                            "Line": "Even if this girl exists, it will prove nothing."
+                        },
+                        {
+                            "Character": "ZASTOR",
+                            "Line": "And he won't even admit to taking the Deon oath and entering the Power room."
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "I think I see the problem."
+                        },
+                        {
+                            "Character": "DEEDRIX",
+                            "Line": "I'm going to seal off the city. We'll search every area."
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "No, no, no, no, wait. Wait! Wait. There are three possibilities."
+                        },
+                        {
+                            "Character": "ZASTOR",
+                            "Line": "What do you mean?"
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "One, the chronic hysteresis. I've never been in one before but it just might have projected a time image of me. It's theoretically possible, isn't it?"
+                        },
+                        {
+                            "Character": "LEXA",
+                            "Line": "You'll have to do better than that, Doctor."
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "Ah."
+                        },
+                        {
+                            "Character": "LEXA",
+                            "Line": "I think you're a fraud and a liar."
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "Well, that makes even less sense."
+                        },
+                        {
+                            "Character": "LEXA",
+                            "Line": "Oh? Why?"
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "Well, you see, I just don't do that sort of thing."
+                        },
+                        {
+                            "Character": "ZASTOR",
+                            "Line": "And the third possibility?"
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "I think what we've got here is a good old-fashioned doppelganger."
+                        }
+                    ]
+                },
+                {
+                    "Scene": "Walkway",
+                    "Dialogue": [
+                        {
+                            "Stage Direction": "Caris runs along with another savant."
+                        },
+                        {
+                            "Character": "CARIS",
+                            "Line": "I'll deal with this. Go to section four food bays and turn off the ray lamps."
+                        },
+                        {
+                            "Stage Direction": "The savant runs on. Caris looks at an open panel, then a spiny hand rests on her shoulder. Meglos pulls Caris into the food bay."
+                        }
+                    ]
+                },
+                {
+                    "Scene": "Central Control",
+                    "Dialogue": [
+                        {
+                            "Character": "DEEDRIX",
+                            "Line": "Ice forming in the sub-corridors. I can't keep essential services running, Zastor. We'll have to evacuate."
+                        },
+                        {
+                            "Character": "ZASTOR",
+                            "Line": "One moment. I want to trust you, Doctor, but how can I doubt my own eyes?"
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "Well, that's the problem with doppelgangers, you see. You never know who's who."
+                        },
+                        {
+                            "Character": "LEXA",
+                            "Line": "Confine him. He must not be permitted down there again."
+                        },
+                        {
+                            "Character": "ZASTOR",
+                            "Line": "No, Lexa. Very well, Doctor. This time we will go to the Power room together."
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "Right, and let's hope that many hands will make the lights work."
+                        },
+                        {
+                            "Stage Direction": "The Doctor, Zastor and guards leave."
+                        },
+                        {
+                            "Character": "LEXA",
+                            "Line": "No, Zastor. There is another way."
+                        }
+                    ]
+                },
+                {
+                    "Scene": "Food bay",
+                    "Dialogue": [
+                        {
+                            "Character": "CARIS",
+                            "Line": "But why should I lead you out of the city, Doctor?"
+                        },
+                        {
+                            "Stage Direction": "Meglos has lost his green and spines again."
+                        },
+                        {
+                            "Character": "MEGLOS",
+                            "Line": "Well, precisely because I'm not the Doctor."
+                        },
+                        {
+                            "Character": "CARIS",
+                            "Line": "Then who are you?"
+                        },
+                        {
+                            "Character": "MEGLOS",
+                            "Line": "I am Meglos! The last Zolfa-Thuran."
+                        },
+                        {
+                            "Character": "CARIS",
+                            "Line": "The dead planet?"
+                        },
+                        {
+                            "Character": "MEGLOS",
+                            "Line": "Yes!"
+                        },
+                        {
+                            "Character": "CARIS",
+                            "Line": "But why should that make me obey you?"
+                        },
+                        {
+                            "Character": "MEGLOS",
+                            "Line": "Because of this."
+                        },
+                        {
+                            "Stage Direction": "He opens his hand. We're left to guess what is on his palm."
+                        },
+                        {
+                            "Character": "CARIS",
+                            "Line": "But that's impossible!"
+                        },
+                        {
+                            "Character": "MEGLOS",
+                            "Line": "Yes, the ultimate impossibility."
+                        }
+                    ]
+                },
+                {
+                    "Scene": "Outside the Power room",
+                    "Dialogue": [
+                        {
+                            "Character": "LEXA",
+                            "Line": "It is not in anger, believers. Although we have cause for anger, we will act in justice. Ezrith, come with me. The rest of you do nothing until I give the word."
+                        }
+                    ]
+                },
+                {
+                    "Scene": "Jungle",
+                    "Dialogue": [
+                        {
+                            "Stage Direction": "The jungle is getting noisy now as Romana leads the Gaztaks to the area of bell plants."
+                        },
+                        {
+                            "Character": "BROTADAC",
+                            "Line": "How much more of this, General?"
+                        },
+                        {
+                            "Character": "GRUGGER",
+                            "Line": "Shut up."
+                        },
+                        {
+                            "Character": "BROTADAC",
+                            "Line": "Look at this jacket."
+                        },
+                        {
+                            "Character": "GRUGGER",
+                            "Line": "Girl, how much longer is there of this?"
+                        },
+                        {
+                            "Character": "ROMANA",
+                            "Line": "I don't know. It is extremely hard to navigate on a planet that rotates anticlockwise. However, I'm pretty certain that it's this way. Or is it that way. No, no, no, no. It's definitely this way."
+                        }
+                    ]
+                },
+                {
+                    "Scene": "Outside the Power room",
+                    "Dialogue": [
+                        {
+                            "Stage Direction": "Deedrix comes down the spiral staircase to see the acolytes gathered there."
+                        },
+                        {
+                            "Character": "DEEDRIX",
+                            "Line": "Deons. What are they up to?"
+                        },
+                        {
+                            "Stage Direction": "He leads the Doctor, Zastor and a guard into the Power room."
+                        }
+                    ]
+                },
+                {
+                    "Scene": "Walkway",
+                    "Dialogue": [
+                        {
+                            "Character": "LEXA",
+                            "Line": "Follow us."
+                        },
+                        {
+                            "Stage Direction": "Two acolytes obey."
+                        }
+                    ]
+                },
+                {
+                    "Scene": "Power room",
+                    "Dialogue": [
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "It would have to be solid, assuming some process like baryon multiplication."
+                        },
+                        {
+                            "Character": "DEEDRIX",
+                            "Line": "Well, yes, we always presumed it would be heavy."
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "Huh, heavy? Assuming an atomic weight of two hundred, not even a dozen Tigellans could have carried it away."
+                        },
+                        {
+                            "Stage Direction": "Lexa enters."
+                        },
+                        {
+                            "Character": "DEEDRIX",
+                            "Line": "So where is it?"
+                        },
+                        {
+                            "Character": "LEXA",
+                            "Line": "There's no question about where it is. It's been taken back by the god."
+                        },
+                        {
+                            "Character": "ZASTOR",
+                            "Line": "What is this, Lexa?"
+                        },
+                        {
+                            "Character": "LEXA",
+                            "Line": "We are taking over. In order to pacify the god, all non-believers will be collected and exiled to the surface."
+                        },
+                        {
+                            "Character": "ZASTOR",
+                            "Line": "But they won't survive out there, Lexa. You can't"
+                        },
+                        {
+                            "Character": "LEXA",
+                            "Line": "Take him away."
+                        },
+                        {
+                            "Character": "ZASTOR",
+                            "Line": "No, Lexa, you need me as an advisor. I've been a believer all my life. You can't do this."
+                        },
+                        {
+                            "Stage Direction": "Zastor and Deedrix are removed by acolytes."
+                        },
+                        {
+                            "Character": "LEXA",
+                            "Line": "Faith dwells in the deeds, Zastor, not in the words."
+                        },
+                        {
+                            "Character": "DEEDRIX [OC]",
+                            "Line": "He's an old man, Lexa. The plants will kill him!"
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "Just how dangerous are the plants?"
+                        },
+                        {
+                            "Character": "LEXA",
+                            "Line": "Ultimately? Lethal."
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "Ah. In that case I must hurry. I've got a friend on the surface."
+                        },
+                        {
+                            "Character": "LEXA",
+                            "Line": "No, Doctor."
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "No?"
+                        },
+                        {
+                            "Character": "LEXA",
+                            "Line": "You are going to bring back the Dodecahedron."
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "I am? Well, I'd be delighted to help in the ordinary way."
+                        },
+                        {
+                            "Character": "LEXA",
+                            "Line": "No, Doctor, not in the ordinary way."
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "Not in the ordinary way."
+                        },
+                        {
+                            "Character": "LEXA",
+                            "Line": "No. Prepare him for sacrifice."
+                        }
+                    ]
+                },
+                {
+                    "Scene": "Jungle",
+                    "Dialogue": [
+                        {
+                            "Character": "ROMANA",
+                            "Line": "Wait."
+                        },
+                        {
+                            "Character": "BROTADAC",
+                            "Line": "We said we'd wait for Meglos."
+                        },
+                        {
+                            "Character": "GRUGGER",
+                            "Line": "He'll be back. Stop panicking."
+                        },
+                        {
+                            "Character": "BROTADAC",
+                            "Line": "How do we know there is a ship?"
+                        },
+                        {
+                            "Character": "GRUGGER",
+                            "Line": "If she's lying, she dies."
+                        },
+                        {
+                            "Stage Direction": "Grugger pulls Romana's hair."
+                        },
+                        {
+                            "Character": "ROMANA",
+                            "Line": "Ow! Don't keep doing that. I know I landed very close to here!"
+                        },
+                        {
+                            "Stage Direction": "Romana stamps on a bell plant root and runs. The plants attack Grugger and his men."
+                        }
+                    ]
+                },
+                {
+                    "Scene": "City entrance",
+                    "Dialogue": [
+                        {
+                            "Character": "WOMAN [OC]",
+                            "Line": "Closing the city exit. Closing the city exit."
+                        },
+                        {
+                            "Stage Direction": "The guards go inside. Romana runs forward and hears an electronic whimpering in the bushes."
+                        },
+                        {
+                            "Character": "ROMANA",
+                            "Line": "K9? K9. Do something. K9: Mistress."
+                        },
+                        {
+                            "Character": "ROMANA",
+                            "Line": "Oh, come on. I can't just leave you there."
+                        },
+                        {
+                            "Stage Direction": "Romana picks up K9 and runs for the city as Grugger and his men get free of the bell plants and follow her. The doors close behind Romana as she gets inside. She puts down K9 and an inner door closes in front of her. Romana is trapped."
+                        },
+                        {
+                            "Character": "BROTADAC",
+                            "Line": "What do we do now?"
+                        },
+                        {
+                            "Character": "GRUGGER",
+                            "Line": "We're going in."
+                        },
+                        {
+                            "Stage Direction": "Grugger fires his blaster at the outer door. Through the glass he can see Romana pounding on the inner door."
+                        }
+                    ]
+                },
+                {
+                    "Scene": "Walkway",
+                    "Dialogue": [
+                        {
+                            "Character": "CARIS",
+                            "Line": "You can't get out now. They've sealed the exit."
+                        },
+                        {
+                            "Character": "MEGLOS",
+                            "Line": "No, there's been a change of plan. There's a ventilation shaft on the second landing."
+                        },
+                        {
+                            "Character": "CARIS",
+                            "Line": "That's no good to you now. We've closed them all down to preserve the heat."
+                        },
+                        {
+                            "Character": "MEGLOS",
+                            "Line": "You're lying, of course."
+                        },
+                        {
+                            "Character": "CARIS",
+                            "Line": "You're trapped. We're all trapped. Lexa's in control."
+                        },
+                        {
+                            "Character": "MEGLOS",
+                            "Line": "No, we'll make for the main entrance. No one can stop me now."
+                        },
+                        {
+                            "Character": "EARTHLING [OC]",
+                            "Line": "Are you sure?"
+                        },
+                        {
+                            "Character": "MEGLOS",
+                            "Line": "What! Earthling? You again?"
+                        },
+                        {
+                            "Stage Direction": "Caris watches in horror as Meglos goes cactus-skinned and wrestles with the human trying to escape from his body."
+                        },
+                        {
+                            "Character": "MEGLOS",
+                            "Line": "It's no use struggling. You can't escape. No, Earthling, no. It will kill you."
+                        },
+                        {
+                            "Character": "EARTHLING",
+                            "Line": "Nothing could be worse than this."
+                        },
+                        {
+                            "Character": "MEGLOS",
+                            "Line": "What, a hero and a fool? You're a very dangerous combination, Earthling."
+                        },
+                        {
+                            "Stage Direction": "Meglos reabsorbs the Earthling and turns to see Caris holding her thermal lance from the top of the story."
+                        },
+                        {
+                            "Character": "CARIS",
+                            "Line": "Whoever or whatever you are, you're coming with me."
+                        }
+                    ]
+                },
+                {
+                    "Scene": "Inside the City entrance",
+                    "Dialogue": [
+                        {
+                            "Stage Direction": "The Gaztaks are trying a battering ram on the door."
+                        },
+                        {
+                            "Character": "GUARD",
+                            "Line": "Urgent, urgent. Come in, Central Control. (no reply) Into position. Ready to fire."
+                        },
+                        {
+                            "Stage Direction": "The point of the battering ram finally breaks the glass in the outer door. Romana squeals. The inner door goes up and she grabs K9."
+                        },
+                        {
+                            "Character": "GUARD",
+                            "Line": "Out of the way! Pull her clear!"
+                        },
+                        {
+                            "Character": "ROMANA",
+                            "Line": "Stay there. I'll find someone to recharge you."
+                        },
+                        {
+                            "Stage Direction": "The guards and the Gaztaks shoot at each other. Grugger stays safely at the back."
+                        }
+                    ]
+                },
+                {
+                    "Scene": "Walkway",
+                    "Dialogue": [
+                        {
+                            "Stage Direction": "Romana sees Caris and human-skinned Meglos."
+                        },
+                        {
+                            "Character": "ROMANA",
+                            "Line": "The Doctor?"
+                        },
+                        {
+                            "Stage Direction": "Romana hides, then hits Caris as she passes. She takes the thermal lance and runs after Meglos."
+                        }
+                    ]
+                },
+                {
+                    "Scene": "Inside the City entrance",
+                    "Dialogue": [
+                        {
+                            "Stage Direction": "The thugs have routed the city guards. Grugger picks up K9, shakes him and drops him again."
+                        },
+                        {
+                            "Character": "GRUGGER",
+                            "Line": "Bah, you're useless."
+                        },
+                        {
+                            "Stage Direction": "Grugger kicks K9, who does an electronic whimper."
+                        },
+                        {
+                            "Character": "MEGLOS",
+                            "Line": "Come on, let's go."
+                        },
+                        {
+                            "Stage Direction": "Meglos and the Gaztaks leave as Romana arrives."
+                        },
+                        {
+                            "Character": "ROMANA",
+                            "Line": "Doctor? What is he doing?"
+                        },
+                        {
+                            "Stage Direction": "Caris runs in."
+                        },
+                        {
+                            "Character": "CARIS",
+                            "Line": "That wasn't the Doctor."
+                        }
+                    ]
+                },
+                {
+                    "Scene": "City entrance",
+                    "Dialogue": [
+                        {
+                            "Character": "MEGLOS",
+                            "Line": "Well, General?"
+                        },
+                        {
+                            "Character": "GRUGGER",
+                            "Line": "Well? We waited one hour."
+                        },
+                        {
+                            "Character": "BROTADAC",
+                            "Line": "Precisely."
+                        },
+                        {
+                            "Character": "GRUGGER",
+                            "Line": "Shut up. And what's happened? Nothing. It's a catastrophe. You've failed."
+                        },
+                        {
+                            "Stage Direction": "Meglos places a small Dodecahedron on Grugger's palm."
+                        },
+                        {
+                            "Character": "GRUGGER",
+                            "Line": "The Dodecahedron!"
+                        },
+                        {
+                            "Character": "BROTADAC",
+                            "Line": "I knew he could do that. How did you do that?"
+                        },
+                        {
+                            "Character": "GRUGGER",
+                            "Line": "We told him how to do it."
+                        },
+                        {
+                            "Character": "MEGLOS",
+                            "Line": "Gentlemen, gentlemen. This is only the beginning."
+                        }
+                    ]
+                },
+                {
+                    "Scene": "Power room",
+                    "Dialogue": [
+                        {
+                            "Stage Direction": "A large slab hangs from the ceiling by ropes tied to pillars. The Doctor is tied down underneath, where the Dodecahedron should have been."
+                        },
+                        {
+                            "Character": "LEXA",
+                            "Line": "Faith, Deons. We can restore the Dodecahedron by offering the angry god an exchange for its return. His life for the great light that illuminates us all."
+                        }
+                    ]
+                },
+                {
+                    "Scene": "Grugger's spacecraft",
+                    "Dialogue": [
+                        {
+                            "Character": "BROTADAC",
+                            "Line": "We've done it! We've done it! A complete success!"
+                        },
+                        {
+                            "Character": "GRUGGER",
+                            "Line": "We're taking off, Brotadac. If you want to come with us, I suggest you close the doors."
+                        },
+                        {
+                            "Character": "BROTADAC",
+                            "Line": "Oh, er."
+                        },
+                        {
+                            "Character": "MEGLOS",
+                            "Line": "Well done, Brotadac. Destination Zolfa-Thura, I think, General."
+                        },
+                        {
+                            "Character": "GRUGGER",
+                            "Line": "I hope it was all worth it, Meglos."
+                        },
+                        {
+                            "Character": "MEGLOS",
+                            "Line": "Oh, I think you'll find this will replace the odd torn jacket, hmm?"
+                        }
+                    ]
+                },
+                {
+                    "Scene": "Walkway",
+                    "Dialogue": [
+                        {
+                            "Character": "MAN [OC]",
+                            "Line": "The Doctor has escaped. The doors are breached. All guards to the gate immediately."
+                        },
+                        {
+                            "Character": "ROMANA",
+                            "Line": "But if that was Meglos, what about the Doctor?"
+                        },
+                        {
+                            "Character": "CARIS",
+                            "Line": "You're sure he's here?"
+                        },
+                        {
+                            "Character": "ROMANA",
+                            "Line": "Positive."
+                        },
+                        {
+                            "Character": "CARIS",
+                            "Line": "Then where is he?"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "Episode": "Part Four",
+            "Scenes": [
+                {
+                    "Scene": "Walkway",
+                    "Dialogue": [
+                        {
+                            "Stage Direction": "Coming down a spiral staircase, Deedrix, Zastor and a pair of guards meet Caris and Romana running towards them."
+                        },
+                        {
+                            "Character": "CARIS",
+                            "Line": "Zastor! The Doctor!"
+                        },
+                        {
+                            "Character": "ZASTOR",
+                            "Line": "Has escaped. We heard."
+                        },
+                        {
+                            "Character": "ROMANA",
+                            "Line": "No, that was Meglos."
+                        },
+                        {
+                            "Character": "DEEDRIX",
+                            "Line": "The doppelganger."
+                        },
+                        {
+                            "Character": "ROMANA",
+                            "Line": "You should be up on the surface. You're under attack."
+                        },
+                        {
+                            "Character": "ZASTOR",
+                            "Line": "Go!"
+                        },
+                        {
+                            "Stage Direction": "The guards run off."
+                        },
+                        {
+                            "Character": "DEEDRIX",
+                            "Line": "The Power room."
+                        }
+                    ]
+                },
+                {
+                    "Scene": "Power room",
+                    "Dialogue": [
+                        {
+                            "Character": "ZASTOR",
+                            "Line": "Stop the sacrifice! Stop it!"
+                        },
+                        {
+                            "Stage Direction": "Deedrix grabs the torch from the acolyte."
+                        },
+                        {
+                            "Character": "LEXA",
+                            "Line": "Heretic! Take him out!"
+                        },
+                        {
+                            "Character": "ROMANA",
+                            "Line": "It's the wrong Doctor!"
+                        },
+                        {
+                            "Character": "CARIS",
+                            "Line": "The other one's escaped. We saw him."
+                        },
+                        {
+                            "Character": "LEXA",
+                            "Line": "You are forbidden in the Power room!"
+                        },
+                        {
+                            "Character": "ZASTOR",
+                            "Line": "There are two of them. He's innocent."
+                        },
+                        {
+                            "Character": "GUARD",
+                            "Line": "The Gaztaks have withdrawn."
+                        },
+                        {
+                            "Character": "DEEDRIX",
+                            "Line": "Yes, and the man you want's gone with them."
+                        },
+                        {
+                            "Character": "LEXA",
+                            "Line": "Gaztaks? Is this true?"
+                        },
+                        {
+                            "Stage Direction": "Zastor nods. The Doctor looks at the partly burnt rope."
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "Won't somebody please say yes?"
+                        }
+                    ]
+                },
+                {
+                    "Scene": "Grugger's spacecraft",
+                    "Dialogue": [
+                        {
+                            "Character": "GRUGGER",
+                            "Line": "I lost fifty percent of my crew on Tigella."
+                        },
+                        {
+                            "Character": "MEGLOS",
+                            "Line": "Three men? That's the price of success, General."
+                        },
+                        {
+                            "Character": "GRUGGER",
+                            "Line": "You would never have done it but for us."
+                        },
+                        {
+                            "Character": "MEGLOS",
+                            "Line": "You'll be rewarded. Both of you. All the power you need."
+                        },
+                        {
+                            "Character": "GRUGGER",
+                            "Line": "Take over, Brotadac."
+                        },
+                        {
+                            "Character": "BROTADAC",
+                            "Line": "General."
+                        },
+                        {
+                            "Stage Direction": "Brotadac takes the helm."
+                        },
+                        {
+                            "Character": "GRUGGER",
+                            "Line": "One day I will go back to Tigella with an army."
+                        },
+                        {
+                            "Character": "MEGLOS",
+                            "Line": "Unnecessary. Unnecessary with this. (the Dodecahedron) It's potential has scarcely been touched."
+                        },
+                        {
+                            "Character": "BROTADAC",
+                            "Line": "Approaching Zolfa-Thura."
+                        },
+                        {
+                            "Character": "GRUGGER",
+                            "Line": "Approaching full potential."
+                        },
+                        {
+                            "Character": "MEGLOS",
+                            "Line": "Precisely. Precisely."
+                        }
+                    ]
+                },
+                {
+                    "Scene": "Power room",
+                    "Dialogue": [
+                        {
+                            "Stage Direction": "The Doctor has been untied."
+                        },
+                        {
+                            "Character": "CARIS",
+                            "Line": "I saw him holding the Dodecahedron, Doctor."
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "Yes, but what does this Meglos want?"
+                        },
+                        {
+                            "Character": "CARIS",
+                            "Line": "He talked about taking it back to the dead planet."
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "Zolfa-Thura? Why would he want to do a thing like that?"
+                        },
+                        {
+                            "Character": "ROMANA",
+                            "Line": "There's nothing there except sand."
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "Right."
+                        },
+                        {
+                            "Character": "ROMANA",
+                            "Line": "And the screens."
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "Screens? What screens?"
+                        },
+                        {
+                            "Character": "ROMANA",
+                            "Line": "The Screens of Zolfa-Thura."
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "Of course. The Screens of Zolfa-Thura."
+                        }
+                    ]
+                },
+                {
+                    "Scene": "Zolfa-Thura",
+                    "Dialogue": [
+                        {
+                            "Character": "BROTADAC",
+                            "Line": "What's he doing now?"
+                        },
+                        {
+                            "Character": "GRUGGER",
+                            "Line": "I can't tell just yet."
+                        },
+                        {
+                            "Stage Direction": "Meglos is digging in the sand in the middle of the Screens. He buries the mini-Dodecahedron and walks out to the Gaztaks."
+                        },
+                        {
+                            "Character": "BROTADAC",
+                            "Line": "Buried it?"
+                        },
+                        {
+                            "Character": "GRUGGER",
+                            "Line": "Hmm."
+                        },
+                        {
+                            "Character": "BROTADAC",
+                            "Line": "Do you think he'd let me have that?"
+                        },
+                        {
+                            "Character": "GRUGGER",
+                            "Line": "What, the coat? You want it? Not cold, is it."
+                        },
+                        {
+                            "Character": "BROTADAC",
+                            "Line": "It's a rather nice coat. Now that he's finished playing the Doctor"
+                        },
+                        {
+                            "Character": "MEGLOS",
+                            "Line": "Well, gentlemen, we are ready."
+                        },
+                        {
+                            "Character": "GRUGGER",
+                            "Line": "What happens next?"
+                        },
+                        {
+                            "Character": "MEGLOS",
+                            "Line": "Activation."
+                        },
+                        {
+                            "Stage Direction": "Meglos uses his redimensioner and his control room complex rises from the sand with the Dodecahedron on top of it."
+                        },
+                        {
+                            "Character": "MEGLOS",
+                            "Line": "Now to see it work."
+                        }
+                    ]
+                },
+                {
+                    "Scene": "Inside the City entrance",
+                    "Dialogue": [
+                        {
+                            "Character": "ZASTOR",
+                            "Line": "Good luck on Zolfa-Thura, Doctor."
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "Thank you, Zastor. Come on, Romana, we're in a hurry."
+                        },
+                        {
+                            "Stage Direction": "But one of the Gaztaks lying on the floor isn't quite dead. He raises his weapon, and Lexa steps forward."
+                        },
+                        {
+                            "Character": "LEXA",
+                            "Line": "Romana!"
+                        },
+                        {
+                            "Stage Direction": "The Gaztak shoots Lexa."
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "She's dead."
+                        },
+                        {
+                            "Character": "ROMANA",
+                            "Line": "She saved my life."
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "Yes, but we've got other things to do, other lives to save. Come on."
+                        },
+                        {
+                            "Stage Direction": "Romana picks up K9 and follows the Doctor and Deedrix out, while Zastor and an acolyte kneel by Lexa."
+                        }
+                    ]
+                },
+                {
+                    "Scene": "Meglos' laboratory",
+                    "Dialogue": [
+                        {
+                            "Character": "MEGLOS",
+                            "Line": "My fellow Zolfa-Thurans tried to destroy all we had and all we knew to prevent this moment."
+                        },
+                        {
+                            "Character": "GRUGGER",
+                            "Line": "The Screens area absorbing the power."
+                        },
+                        {
+                            "Character": "MEGLOS",
+                            "Line": "Magnifying it. Concentrating it. The five beams they throw out can be made to converge on any point in the galaxy."
+                        },
+                        {
+                            "Character": "BROTADAC",
+                            "Line": "And blast it?"
+                        },
+                        {
+                            "Character": "MEGLOS",
+                            "Line": "To infinitesimal dust. Brotadac, you're a discerning sort of fellow. Choose a planet, any planet."
+                        },
+                        {
+                            "Stage Direction": "Brotadac looks at Grugger."
+                        },
+                        {
+                            "Character": "GRUGGER",
+                            "Line": "Oh, make your own mind up for a change."
+                        },
+                        {
+                            "Character": "BROTADAC",
+                            "Line": "I don't know."
+                        },
+                        {
+                            "Character": "MEGLOS",
+                            "Line": "And you, General Grugger? What's your choice?"
+                        },
+                        {
+                            "Character": "GRUGGER",
+                            "Line": "Tigella. Let's start with Tigella."
+                        }
+                    ]
+                },
+                {
+                    "Scene": "Zolfa-Thura",
+                    "Dialogue": [
+                        {
+                            "Stage Direction": "The Dodecahedron has returned to its proper size and is pulsing away as the Tardis materialises just outside the Screens."
+                        },
+                        {
+                            "Character": "ROMANA",
+                            "Line": "Well done, we're very close."
+                        },
+                        {
+                            "Character": "DEEDRIX",
+                            "Line": "It's lighting up the whole sky!"
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "Right, now, you all stay here."
+                        },
+                        {
+                            "Character": "ROMANA",
+                            "Line": "You can't go alone."
+                        },
+                        {
+                            "Character": "DEEDRIX",
+                            "Line": "The Gaztaks kill on sight."
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "Exactly. On sight. If Meglos can impersonate me"
+                        },
+                        {
+                            "Character": "ROMANA",
+                            "Line": "You can impersonate Meglos."
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "Right. I won't be long."
+                        }
+                    ]
+                },
+                {
+                    "Scene": "Meglos' laboratory",
+                    "Dialogue": [
+                        {
+                            "Character": "MEGLOS",
+                            "Line": "Final adjustment for relative motion."
+                        },
+                        {
+                            "Stage Direction": "Meglos takes off his scarf and goes to his desk to make the adjustments."
+                        },
+                        {
+                            "Character": "MEGLOS",
+                            "Line": "Well, gentlemen, the beams are now programmed to focus upon Tigella."
+                        },
+                        {
+                            "Character": "BROTADAC",
+                            "Line": "Start the countdown?"
+                        },
+                        {
+                            "Character": "MEGLOS",
+                            "Line": "Patience!"
+                        },
+                        {
+                            "Stage Direction": "Meglos takes off his coat. Brotadac helps him."
+                        },
+                        {
+                            "Character": "MEGLOS",
+                            "Line": "Brotadac, we are about to release a power many magnitudes greater than any intelligence has ever controlled."
+                        },
+                        {
+                            "Character": "BROTADAC",
+                            "Line": "We are?"
+                        },
+                        {
+                            "Character": "MEGLOS",
+                            "Line": "There can be no room for error. I'll just recheck the screen alignments."
+                        },
+                        {
+                            "Stage Direction": "Meglos leaves. Brotadac caresses the coat."
+                        }
+                    ]
+                },
+                {
+                    "Scene": "Zolfa-Thura",
+                    "Dialogue": [
+                        {
+                            "Stage Direction": "The Doctor, in coat and scarf, avoids a pair of Gaztaks coming out of the spacecraft, then goes over to the Screens. He sees Meglos come out and go around the building."
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "Shirt sleeves, eh?"
+                        },
+                        {
+                            "Character": "(The Doctor takes off his scarf and is about to remove his coat when a Gaztak puts his hand on his shoulder. He automatically puts his hands up, onto the back of a Screen. DOCTOR",
+                            "Line": "Ah, er, would you say this was vertical? GAZTAK: No. DOCTOR: No. No more than I. Would you just mind holding it up for me while I check from inside? That's it. There we are."
+                        },
+                        {
+                            "Stage Direction": "The Gaztak holds up the Screen and the Doctor removes his coat."
+                        }
+                    ]
+                },
+                {
+                    "Scene": "Meglos' laboratory",
+                    "Dialogue": [
+                        {
+                            "Stage Direction": "Brotadac is still stroking the coat."
+                        },
+                        {
+                            "Character": "GRUGGER",
+                            "Line": "Put it on."
+                        },
+                        {
+                            "Character": "BROTADAC",
+                            "Line": "What will he say?"
+                        },
+                        {
+                            "Character": "GRUGGER",
+                            "Line": "It doesn't matter. I've got this all figured out. We don't need him. Put it on."
+                        },
+                        {
+                            "Stage Direction": "The Doctor enters."
+                        },
+                        {
+                            "Character": "GRUGGER",
+                            "Line": "That was quick."
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "Well, I cut a few corners. I say, I like his coat. Now, what have we got here?"
+                        },
+                        {
+                            "Character": "BROTADAC",
+                            "Line": "Start the countdown?"
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "Not yet, not yet."
+                        },
+                        {
+                            "Character": "GRUGGER",
+                            "Line": "I thought it was already programmed."
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "Programmed?"
+                        },
+                        {
+                            "Character": "GRUGGER",
+                            "Line": "To annihilate Tigella."
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "Oh, well, it is, yes, it is. Nearly. Just a few minor adjustments. I wonder what that's for?"
+                        },
+                        {
+                            "Stage Direction": "The Doctor goes to the desk."
+                        },
+                        {
+                            "Character": "GRUGGER",
+                            "Line": "You said it focused the beams."
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "Oh, of course, yes. Of course."
+                        },
+                        {
+                            "Stage Direction": "The Gaztak enters with the Doctor's coat."
+                        },
+                        {
+                            "Character": "GRUGGER",
+                            "Line": "Two coats?"
+                        }
+                    ]
+                },
+                {
+                    "Scene": "Zolfa-Thura",
+                    "Dialogue": [
+                        {
+                            "Character": "MEGLOS",
+                            "Line": "Splendid. The magnification levels are constant. One more check and we're ready to go."
+                        },
+                        {
+                            "Stage Direction": "Over by the Tardis."
+                        },
+                        {
+                            "Character": "DEEDRIX",
+                            "Line": "The Screens. It's unbelievable."
+                        },
+                        {
+                            "Character": "CARIS",
+                            "Line": "I'd like to have a closer look."
+                        },
+                        {
+                            "Character": "ROMANA",
+                            "Line": "I think we should. Come along, K9."
+                        }
+                    ]
+                },
+                {
+                    "Scene": "Meglos' laboratory",
+                    "Dialogue": [
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "You've served me so well I thought you both deserved a little treat."
+                        },
+                        {
+                            "Stage Direction": "The Doctor gives his coat to Grugger."
+                        },
+                        {
+                            "Character": "GRUGGER",
+                            "Line": "So it's now just the countdown and activation."
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "That's it."
+                        },
+                        {
+                            "Character": "GRUGGER",
+                            "Line": "Good. Let's get on with it."
+                        },
+                        {
+                            "Character": "BROTADAC",
+                            "Line": "Sixty. Fifty nine."
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "No, no, Brotadac, no. The Screens don't reach their maximum capacity for two minutes. I'm just going outside for a little stroll to see if I can catch up with myself. And I don't recommend anyone touch those controls."
+                        },
+                        {
+                            "Stage Direction": "The Doctor leaves."
+                        },
+                        {
+                            "Character": "GRUGGER",
+                            "Line": "Get him."
+                        },
+                        {
+                            "Character": "BROTADAC",
+                            "Line": "What?"
+                        },
+                        {
+                            "Character": "GRUGGER",
+                            "Line": "Yes. Put him in the spacecraft security hold. We can manage without him. Get him! That's yours too, if you want."
+                        },
+                        {
+                            "Stage Direction": "The second coat."
+                        },
+                        {
+                            "Character": "BROTADAC",
+                            "Line": "Oh. Get him!"
+                        },
+                        {
+                            "Stage Direction": "Two Gaztaks run out."
+                        }
+                    ]
+                },
+                {
+                    "Scene": "Zolfa-Thura",
+                    "Dialogue": [
+                        {
+                            "Stage Direction": "The Doctor sees Meglos walking towards him. He heads off clockwise around the building as the Gaztaks come out and watches from behind a screen as they walk up to Meglos."
+                        },
+                        {
+                            "Character": "MEGLOS",
+                            "Line": "Shouldn't you be doing something?"
+                        },
+                        {
+                            "Stage Direction": "A Gaztak punches Meglos in the stomach. The Doctor doubles over, too."
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "Oh! Nasty."
+                        },
+                        {
+                            "Stage Direction": "The Gaztaks drag Meglos away."
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "That could have been me."
+                        },
+                        {
+                            "Stage Direction": "He walks back to the building and meets Brotadac and a Gaztak."
+                        },
+                        {
+                            "Character": "BROTADAC",
+                            "Line": "What are they playing at?"
+                        },
+                        {
+                            "Stage Direction": "And punches the Doctor in the stomach."
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "Ooof!"
+                        },
+                        {
+                            "Character": "BROTADAC",
+                            "Line": "Get him into the ship."
+                        }
+                    ]
+                },
+                {
+                    "Scene": "Outside Grugger's spacecraft",
+                    "Dialogue": [
+                        {
+                            "Stage Direction": "The first two Gaztaks come out and walk away as Romana, Deedrix, Caris and K9 peer round the prow of the spacecraft. They see the Doctor dragged on board."
+                        },
+                        {
+                            "Character": "ROMANA",
+                            "Line": "I knew he wouldn't get away with it. They've got the Doctor."
+                        }
+                    ]
+                },
+                {
+                    "Scene": "Security hold",
+                    "Dialogue": [
+                        {
+                            "Stage Direction": "The Doctor is pushed inside without ceremony. He straightens up and looks at his cellmate."
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "Haven't I seen you somewhere before?"
+                        }
+                    ]
+                },
+                {
+                    "Scene": "Outside Grugger's spacecraft",
+                    "Dialogue": [
+                        {
+                            "Character": "BROTADAC",
+                            "Line": "Stay there! If he tries anything, kill him."
+                        },
+                        {
+                            "Stage Direction": "Brotadac leaves a Gaztak on guard."
+                        },
+                        {
+                            "Character": "CARIS",
+                            "Line": "What are we going to do now?"
+                        }
+                    ]
+                },
+                {
+                    "Scene": "Security hold",
+                    "Dialogue": [
+                        {
+                            "Character": "MEGLOS",
+                            "Line": "Ten thousand years. Cretins. Morons. Half-wits."
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "Yes, they've not been very clever, have they, unlike us."
+                        },
+                        {
+                            "Character": "MEGLOS",
+                            "Line": "They probably won't even hit Tigella."
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "Well, if my calculations are correct, they certainly won't."
+                        },
+                        {
+                            "Character": "MEGLOS",
+                            "Line": "Your calculations?"
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "I inverted your control setting. If he starts the countdown, he'll destroy himself, as well as you and me and, well, the whole planet, of course."
+                        }
+                    ]
+                },
+                {
+                    "Scene": "Meglos' laboratory",
+                    "Dialogue": [
+                        {
+                            "Stage Direction": "Brotadac enters. Grugger is standing at the desk, tapping his fingers and thinking."
+                        },
+                        {
+                            "Character": "BROTADAC",
+                            "Line": "Locked away, no trouble."
+                        },
+                        {
+                            "Character": "GRUGGER",
+                            "Line": "Precisely. Prepare the countdown."
+                        }
+                    ]
+                },
+                {
+                    "Scene": "Outside Grugger's spacecraft",
+                    "Dialogue": [
+                        {
+                            "Stage Direction": "Deedrix reaches for a large stone."
+                        },
+                        {
+                            "Character": "ROMANA",
+                            "Line": "Go, K9."
+                        },
+                        {
+                            "Stage Direction": "K9 trundles past the guard, who smiles and watched. Deedrix comes up behind him and smashes the rock down on the back of his head. Not hard enough. The guard turns, so K9 shoots him."
+                        }
+                    ]
+                },
+                {
+                    "Scene": "Grugger's spacecraft",
+                    "Dialogue": [
+                        {
+                            "Stage Direction": "Romana and Co find the only closed door."
+                        },
+                        {
+                            "Character": "ROMANA",
+                            "Line": "He must be in there. K9, can you open it? K9: Affirmative, mistress."
+                        },
+                        {
+                            "Stage Direction": "K9 begins to laser an opening in the door."
+                        }
+                    ]
+                },
+                {
+                    "Scene": "Security hold",
+                    "Dialogue": [
+                        {
+                            "Stage Direction": "Meglos is pacing."
+                        },
+                        {
+                            "Character": "MEGLOS",
+                            "Line": "Three metres by five metres, and I could have had the galaxy. The universe."
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "Oh, yes. I've often puzzled about that."
+                        },
+                        {
+                            "Character": "MEGLOS",
+                            "Line": "What!"
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "Well, why a good looking chap like you should want to control the universe."
+                        },
+                        {
+                            "Character": "MEGLOS",
+                            "Line": "Why?"
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "Yes. I mean, it baffles me, this burning ambition to. Burning?"
+                        },
+                        {
+                            "Character": "MEGLOS",
+                            "Line": "It's beyond your comprehension."
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "Oh, absolutely. Burning?"
+                        },
+                        {
+                            "Stage Direction": "Most of the door falls away."
+                        },
+                        {
+                            "Character": "ROMANA",
+                            "Line": "Doctor? Oh, good heavens."
+                        },
+                        {
+                            "Character": "MEGLOS",
+                            "Line": "Out of my way."
+                        },
+                        {
+                            "Stage Direction": "Deedrix and Caris grab Meglos."
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "No, Meglos. Hold him!"
+                        },
+                        {
+                            "Character": "MEGLOS",
+                            "Line": "You can't take me."
+                        },
+                        {
+                            "Character": "EARTHLING",
+                            "Line": "Got you this time, Meglos."
+                        },
+                        {
+                            "Stage Direction": "The cactus skin reappears."
+                        },
+                        {
+                            "Character": "MEGLOS",
+                            "Line": "On the contrary, Earthling, it's merely you they've got."
+                        },
+                        {
+                            "Stage Direction": "A vegetable thing slides out of the figure and slithers out of the hold."
+                        },
+                        {
+                            "Character": "EARTHLING",
+                            "Line": "What's happened? What's going on?"
+                        },
+                        {
+                            "Character": "ROMANA",
+                            "Line": "Was that Meglos?"
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "Yes."
+                        },
+                        {
+                            "Character": "ROMANA",
+                            "Line": "He must have modulated himself on a particular wavelength of light."
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "Yes. He's what you'd call a colourful personality."
+                        },
+                        {
+                            "Character": "ROMANA",
+                            "Line": "But that would make him virtually indestructible."
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "Yes, but we're not. Quick, back to the Tardis. Or do you want to be atomised?"
+                        },
+                        {
+                            "Character": "EARTHLING",
+                            "Line": "Atomised?"
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "Yes."
+                        },
+                        {
+                            "Character": "EARTHLING",
+                            "Line": "No."
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "Good."
+                        }
+                    ]
+                },
+                {
+                    "Scene": "Meglos' laboratory",
+                    "Dialogue": [
+                        {
+                            "Character": "GRUGGER",
+                            "Line": "Thirty seconds to beams converging."
+                        },
+                        {
+                            "Character": "BROTADAC",
+                            "Line": "Twenty nine. Twenty eight. Twenty seven. Twenty six."
+                        }
+                    ]
+                },
+                {
+                    "Scene": "Outside the Tardis",
+                    "Dialogue": [
+                        {
+                            "Stage Direction": "The Doctor stands in the Tardis doorway."
+                        },
+                        {
+                            "Character": "BROTADAC [OC]",
+                            "Line": "Twenty five."
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "You're not going to let us down this time, are you, old girl."
+                        },
+                        {
+                            "Character": "BROTADAC [OC]",
+                            "Line": "Twenty four. Twenty three. Twenty two. Twenty one. Twenty."
+                        },
+                        {
+                            "Stage Direction": "The Tardis tries to dematerialise."
+                        }
+                    ]
+                },
+                {
+                    "Scene": "Meglos' laboratory",
+                    "Dialogue": [
+                        {
+                            "Character": "BROTADAC",
+                            "Line": "Nineteen, eighteen, seventeen, sixteen."
+                        },
+                        {
+                            "Stage Direction": "Meglos slithers across the floor to the alcove containing the shrivelled cactus skin."
+                        },
+                        {
+                            "Character": "BROTADAC",
+                            "Line": "Fifteen, fourteen"
+                        }
+                    ]
+                },
+                {
+                    "Scene": "Zolfa-Thura",
+                    "Dialogue": [
+                        {
+                            "Stage Direction": "The Tardis is still trying to get up power to dematerialise."
+                        },
+                        {
+                            "Character": "BROTADAC [OC]",
+                            "Line": "Thirteen, twelve, eleven, ten, nine."
+                        },
+                        {
+                            "Character": "DOCTOR [OC]",
+                            "Line": "It's time this thing had a thorough overhaul."
+                        },
+                        {
+                            "Character": "BROTADAC [OC]",
+                            "Line": "Seven, six"
+                        }
+                    ]
+                },
+                {
+                    "Scene": "Meglos' laboratory",
+                    "Dialogue": [
+                        {
+                            "Stage Direction": "The cactus is full sized again."
+                        },
+                        {
+                            "Character": "BROTADAC",
+                            "Line": "Five."
+                        },
+                        {
+                            "Character": "GRUGGER",
+                            "Line": "We're moving."
+                        },
+                        {
+                            "Character": "BROTADAC",
+                            "Line": "Four point five."
+                        },
+                        {
+                            "Character": "GRUGGER",
+                            "Line": "The laboratory's sinking."
+                        },
+                        {
+                            "Character": "BROTADAC",
+                            "Line": "Sinking four."
+                        }
+                    ]
+                },
+                {
+                    "Scene": "Zolfa-Thura",
+                    "Dialogue": [
+                        {
+                            "Character": "BROTADAC [OC]",
+                            "Line": "Five, four"
+                        },
+                        {
+                            "Character": "MEGLOS [OC]",
+                            "Line": "Stop the countdown."
+                        },
+                        {
+                            "Stage Direction": "The Tardis dematerialises."
+                        },
+                        {
+                            "Character": "BROTADAC [OC]",
+                            "Line": "But the clock says"
+                        },
+                        {
+                            "Character": "MEGLOS [OC]",
+                            "Line": "Stop the clock!"
+                        },
+                        {
+                            "Character": "GRUGGER [OC]",
+                            "Line": "It must be this button."
+                        },
+                        {
+                            "Character": "MEGLOS [OC]",
+                            "Line": "Stop the countdown! Stop the clock!"
+                        },
+                        {
+                            "Character": "GRUGGER [OC]",
+                            "Line": "It must be this button."
+                        },
+                        {
+                            "Character": "MEGLOS [OC]",
+                            "Line": "Fool! Stop!"
+                        },
+                        {
+                            "Stage Direction": "Big flash!"
+                        }
+                    ]
+                },
+                {
+                    "Scene": "Jungle",
+                    "Dialogue": [
+                        {
+                            "Stage Direction": "The Doctor has got another coat and scarf."
+                        },
+                        {
+                            "Character": "ZASTOR",
+                            "Line": "Well, we've made a beginning, Doctor."
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "Yes, I'd like to stay and help you, but horticulture's not my strong point."
+                        },
+                        {
+                            "Character": "ROMANA [OC]",
+                            "Line": "Doctor?"
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "Yes?"
+                        },
+                        {
+                            "Stage Direction": "Romana comes out of the Tardis."
+                        },
+                        {
+                            "Character": "ROMANA",
+                            "Line": "Gallifrey."
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "What?"
+                        },
+                        {
+                            "Character": "ROMANA",
+                            "Line": "They want us back immediately."
+                        },
+                        {
+                            "Stage Direction": "She goes back into the Tardis."
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "Gallifrey? Do they, indeed. Well, we'll see about that when we've dropped our friend off home. Unless, of course, you want to stay here and do some gardening?"
+                        },
+                        {
+                            "Character": "EARTHLING",
+                            "Line": "Maybe I will. I'll be in trouble back home."
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "Oh?"
+                        },
+                        {
+                            "Character": "EARTHLING",
+                            "Line": "I told the wife I'd be in from work in twenty minutes."
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "Well, don't worry about that. We can get you back before you leave."
+                        },
+                        {
+                            "Character": "EARTHLING",
+                            "Line": "Oh, good."
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

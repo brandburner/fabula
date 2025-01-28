@@ -1,0 +1,102 @@
+{
+    "title": "Dragonfire",
+    "air_date": "23 November 1987",
+    "num_episodes": 3,
+    "episode_titles": [
+        "Part One",
+        "Part Two",
+        "Part Three"
+    ],
+    "episode_duration": 25,
+    "writers": [
+        "Ian Briggs"
+    ],
+    "directors": [
+        "Chris Clough"
+    ],
+    "media_format": "Color",
+    "dialogue_triumphs": [
+        "'Excuse me, what's your attitude towards the nature of existence? For example, do you hold any theological opinions?' 'I think you'll find that most educated people regard mythical convictions as fundamentally animistic. Personally, I find most experiences border on the existential.' 'How would you reconcile that with the empirio-critical belief that experience is at the root of all phenomena?' 'I think you'll find that a concept can be philosophically valid even if theologically meaningless.'",
+        "'That's right, yes, you're going. You've [been] gone for ages. Already gone, you're still here. Just arrived. Haven't even met you yet. It all depends on who you are and how you look at it. Strange business, time.'"
+    ],
+    "dialogue_disasters": null,
+    "goofs": [
+        "At the end of episode one, the Doctor looks down an almost bottomless cliff of ice. By the start of the next episode a little ledge has appeared, onto which Glitz is able to pull the Doctor.",
+        "In episode two, when Ace throws Nitro 9 at the 'zombies', the 'rock face' behind her is a billowing white curtain.",
+        "At the end, Stella's mother doesn't behave as if there's been a massacre (which there has).",
+        "The Dragonfire is hidden on the part of the planet that Kane can get to.",
+        "Kane kills his mercenaries after going to the trouble of collecting them.",
+        "Glitz's spacecraft has seat belts and furry dice, which seems unlikely."
+    ],
+    "continuity_notes": [
+        {
+            "name": "Ace",
+            "type": "Character",
+            "description": "A 16-year-old girl from Perivale whose real name is Dorothy. She's aggressive when asked about her parents and dreams of her 'real' parents from beyond the stars.",
+            "origin": "Perivale, Earth",
+            "current_status": "New companion introduced in this story, swept up by a time storm and brought to Iceworld."
+        },
+        {
+            "name": "Mel",
+            "type": "Character",
+            "description": "The Doctor's current companion, described as 'a character composed of one hundred per cent cardboard'.",
+            "origin": null,
+            "current_status": "Leaving the Doctor to travel with Glitz."
+        },
+        {
+            "name": "Glitz",
+            "type": "Character",
+            "description": "A roguish character who owns a spacecraft.",
+            "origin": null,
+            "current_status": "Present on Iceworld, about to leave with Mel."
+        },
+        {
+            "name": "Kane",
+            "type": "Character",
+            "description": "The main antagonist of the story, named after Orson Welles' Citizen Kane.",
+            "origin": null,
+            "current_status": "Offering Ace a position as a mercenary."
+        }
+    ],
+    "technobabble": [
+        "It takes more than 1500 years for a star to go nova and turn into a neutron star."
+    ],
+    "roots": [
+        "Citizen Kane",
+        "Nosferatu",
+        "Andr\u00e9 Bazin",
+        "Siegfried Kracauer",
+        "Bela Bel\u00e1sz",
+        "Vsevolod Pudovkin",
+        "Lindsay Anderson",
+        "Marshall McLuhan",
+        "Alien and its sequel",
+        "The Wizard of Oz",
+        "Star Wars (cantina)",
+        "Superman - The Movie",
+        "The Doctor's Dilemma by Bernard Shaw",
+        "Frankenstein",
+        "Dracula",
+        "The Hobbit",
+        "The Abominable Dr Phibes",
+        "The Maltese Falcon"
+    ],
+    "links": [
+        "Timelash",
+        "The Curse of Fenric"
+    ],
+    "locations": [
+        {
+            "name": "Iceworld",
+            "type": "Location",
+            "description": "The primary setting of the story, likely set far in the future.",
+            "origin": null,
+            "current_status": "Active location for the story's events."
+        }
+    ],
+    "future_history": null,
+    "untold_adventures": null,
+    "qv": null,
+    "additional_notes": "The episode features numerous references to film history and media theory through character names.",
+    "bottom_line": "An interesting attempt to mix monsters with semiotics and philosophy. It doesn't quite come off, but it's a very useful launch vehicle for Ace (despite some overdone dialogue). Mel gets an excellent leaving sequence."
+}

@@ -1,0 +1,177 @@
+{
+  "metadata": {
+    "title": "Terminus",
+    "series": "Doctor Who",
+    "season": "20",
+    "release_date": "15 - 23 February 1983",
+    "writer": "Steve Gallagher",
+    "director": "Mary Ridge",
+    "producer": "John Nathan-Turner",
+    "main_actors": [
+      "Peter Davison",
+      "Janet Fielding",
+      "Sarah Sutton",
+      "Mark Strickson",
+      "Valentine Dyall",
+      "Liza Goddard",
+      "Dominic Guard",
+      "Rachel Weaver",
+      "Martin Potter",
+      "Andrew Burt",
+      "Tim Munro",
+      "Peter Benson",
+      "Martin Muncaster",
+      "R.J. Bell"
+    ],
+    "time_reference": "circa 3480"
+  },
+  "cast_crew": [
+    {
+      "cast": {
+        "name": "Peter Davison",
+        "role": "The Doctor"
+      },
+      "crew": {
+        "name": "Mary Ridge",
+        "role": "Director"
+      }
+    },
+    {
+      "cast": {
+        "name": "Janet Fielding",
+        "role": "Tegan"
+      },
+      "crew": {
+        "name": "Steve Gallagher",
+        "role": "Writer"
+      }
+    },
+    {
+      "cast": {
+        "name": "Sarah Sutton",
+        "role": "Nyssa"
+      },
+      "crew": {
+        "name": "John Nathan-Turner",
+        "role": "Producer"
+      }
+    }
+  ],
+  "home_media": [
+    {
+      "releases": {
+        "media_type": "DVD",
+        "date": "10 August 2009",
+        "details": "Part of The Black Guardian Trilogy Boxset.",
+        "special_features": [
+          "Commentary by Peter Davison, Mark Strickson, Sarah Sutton, and Writer Stephen Gallagher",
+          "Breaking Point - Cast and crew look back at the making of this story",
+          "Origins of the Universe - Examination of the science behind the Big Bang",
+          "Original Storyboards - Production storyboards for the spaceship sequences",
+          "Unused Model Shots - A selection of unused takes from the model effects shoot",
+          "New CGI Effects - Option to watch with new CGI sequences",
+          "Continuity - Original BBC-1 continuity announcements",
+          "Radio Times listings (DVD-ROM - PC/Mac)",
+          "Isolated Score",
+          "Production Information",
+          "Subtitles",
+          "Photo Gallery",
+          "Coming Soon Trailer - The Twin Dilemma",
+          "Easter Eggs: Hidden Doctor Who logo features"
+        ]
+      }
+    },
+    {
+      "releases": {
+        "media_type": "VHS",
+        "date": "1993",
+        "details": "Released in episodic format in UK and Australian markets.",
+        "special_features": []
+      }
+    },
+    {
+      "releases": {
+        "media_type": "VHS",
+        "date": "1994",
+        "details": "Released in episodic format in US markets.",
+        "special_features": []
+      }
+    },
+    {}
+  ],
+  "story_notes": [
+    {
+      "notes": [
+        "This story is part of the Black Guardian Trilogy.",
+        "It features themes of disease and offers one of three descriptions of how the universe was created.",
+        "The story is well-remembered for scenes involving Nyssa gradually removing articles of clothing.",
+        "Despite its grim tone, it is notable for the lack of character deaths throughout the serial."
+      ]
+    }
+  ],
+  "worldbuilding": {
+    "in_universe_mythology": [
+      "The Vanir, named after Norse fertility gods, are slaves of the company controlling Terminus.",
+      "Lazar's disease, referenced in the context of curing through radiation, fits into the narrative of illness and recovery."
+    ],
+    "real_world_cultural_references": [
+      "The term Hydromel derives from ancient Greek."
+    ],
+    "individuals": [
+      "Nyssa",
+      "Adric (mentioned)",
+      "The Black Guardian",
+      "The Garm"
+    ],
+    "items": [
+      "Hydromel",
+      "Radiation cure for Lazar's disease",
+      "TARDIS"
+    ],
+    "locations": [
+      "Terminus - the main setting, indicated as the center of the known universe",
+      "Various sectors of the space liner and the bridge"
+    ]
+  },
+  "ratings": {
+    "ratings_millions": [
+      {
+        "part": "Part one",
+        "viewers": 6.8
+      },
+      {
+        "part": "Part two",
+        "viewers": 7.5
+      },
+      {
+        "part": "Part three",
+        "viewers": 6.5
+      },
+      {
+        "part": "Part four",
+        "viewers": 7.4
+      }
+    ]
+  },
+  "continuity": {
+    "continuity_notes": [
+      "This is the second story in the Black Guardian Trilogy.",
+      "Nyssa meets the Doctor again in the future, and later adventures involve rejoining the TARDIS team.",
+      "Several themes regarding the TARDIS and its heart are echoed in future episodes."
+    ]
+  },
+  "plot": [
+    {
+      "plot_summary": "Part One: Turlough, under the influence of the Black Guardian, sabotages the TARDIS, causing Nyssa to disappear through an unstable interface. The crew ends up on the space station Terminus, which is revealed to be central to the universe. They must navigate dangers as they try to locate Nyssa."
+    },
+    {
+      "plot_summary": "Part Two: The Doctor and others confront the implications of Terminus being a plague ship. Nyssa is taken by the inhabitants, and the crew must dodge the sterility procedures imposed on them."
+    },
+    {
+      "plot_summary": "Part Three: The plot thickens as Eirak leads a group that discovers new information about the impending explosion and Nyssa faces dire circumstances as she is imprisoned."
+    },
+    {
+      "plot_summary": "Part Four: As the danger escalates, alliances form and characters confront their fates. Turlough finally manages to reconnect the TARDIS, leading to significant character transformations and Nyssa's decision to remain at Terminus."
+    }
+  ]
+}

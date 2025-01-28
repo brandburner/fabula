@@ -1,0 +1,107 @@
+{
+    "title": "The Sea Devils",
+    "air_date": "26 February 1972",
+    "num_episodes": 6,
+    "episode_titles": [
+        "Episode One",
+        "Episode Two",
+        "Episode Three",
+        "Episode Four",
+        "Episode Five",
+        "Episode Six"
+    ],
+    "episode_duration": 25,
+    "writers": [
+        "Malcolm Hulke"
+    ],
+    "directors": [
+        "Michael Briant"
+    ],
+    "media_format": "Color",
+    "dialogue_triumphs": [
+        "A plug for colour television ('Do you think I could have another television set?' asks the Master. 'For the bedroom\u2026 Colour, of course') leads to a lovely sequence with the Master watching the Clangers episode 'The Rock Collector', whistling along with the creatures. 'It seems to be a rather interesting extraterrestrial life form,' he observes."
+    ],
+    "dialogue_disasters": null,
+    "goofs": [
+        "The helicopter sent to rescue the Doctor and Jo changes in mid-flight (it begins as a grey Sea King marked SO; in the second shot it has an orange nose and tail stripe and is numbered 56).",
+        "Jo leaves her handbag in the prison when rescuing the Doctor, but later regains it.",
+        "The rope attached to the life belt point is slack when the Master arrives, despite the fact that the Doctor is descending the cliff on it.",
+        "A rack of swords is placed just outside the Master's cell.",
+        "The Doctor's diving bell is pulled up so rapidly that he probably would have got the bends if he had been in it.",
+        "How did the air-sea rescue helicopter get to the sea fort before the Doctor asks for it?",
+        "Why is the submarine hi-jacked? Why don't the Sea Devils attack the escaping submarine?",
+        "In episode six, the Doctor's tinkering with the gadget disables the Sea Devils, and the Master just stands there and watches."
+    ],
+    "continuity_notes": [
+        {
+            "name": "The Doctor",
+            "type": "Character",
+            "description": "Time Lord protagonist, skilled diver and golfer",
+            "origin": "Gallifrey",
+            "current_status": "Investigating Sea Devils"
+        },
+        {
+            "name": "The Master",
+            "type": "Character",
+            "description": "Time Lord antagonist, former friend of the Doctor",
+            "origin": "Gallifrey",
+            "current_status": "Imprisoned but plotting"
+        },
+        {
+            "name": "Jo Grant",
+            "type": "Character",
+            "description": "The Doctor's companion, knows how to operate a hovercraft",
+            "origin": "Earth",
+            "current_status": "Assisting the Doctor"
+        },
+        {
+            "name": "Sea Devils",
+            "type": "Character",
+            "description": "Marine relatives of the Silurians, with hand-held heat weapons",
+            "origin": "Earth",
+            "current_status": "Awakening from hibernation"
+        },
+        {
+            "name": "Sonic Screwdriver",
+            "type": "Object",
+            "description": "The Doctor's multi-purpose tool, can detect and explode mines",
+            "origin": null,
+            "current_status": "In the Doctor's possession"
+        }
+    ],
+    "technobabble": [
+        "The Doctor reverses the polarity of the neutron flow (the only occasion he does during the Pertwee era)."
+    ],
+    "roots": [
+        "Stingray",
+        "The Kraken Wakes"
+    ],
+    "links": [
+        "Doctor Who and the Silurians",
+        "Terror of the Autons",
+        "Colony in Space"
+    ],
+    "locations": [
+        {
+            "name": "South-coast naval base (HMS Foxglove)",
+            "type": "Location",
+            "description": "Naval base where part of the action takes place",
+            "origin": "Earth",
+            "current_status": "Active military installation"
+        },
+        {
+            "name": "South-coast prison",
+            "type": "Location",
+            "description": "Prison where the Master is held",
+            "origin": "Earth",
+            "current_status": "Active prison"
+        }
+    ],
+    "future_history": null,
+    "untold_adventures": [
+        "The Doctor is a friend of Nelson's."
+    ],
+    "qv": null,
+    "additional_notes": "Walker quotes the National Anthem. Fashion Victims: Jo (and stuntman Terry Walsh) in a white flared trouser suit, which goes well with the red crash helmet when following the Doctor on a motorbike. Double Entendres: Trenchard to Hart: 'Time for a quick one?' Trenchard to the Master: 'I can't keep it up, you know.'",
+    "bottom_line": "A good Malcolm Hulke script, full of characters (there are well over twenty speaking parts). The pace is pedestrian, although this gives a little more room for suspense. Like 'Doctor Who and the Silurians', the music veers between being eerily experimental and tunelessly intrusive."
+}

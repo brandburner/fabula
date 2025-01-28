@@ -1,0 +1,164 @@
+{
+  "metadata": {
+    "title": "The Tomb of the Cybermen",
+    "series": "Doctor Who",
+    "season": "5",
+    "episode_number": 1,
+    "release_date": "2 - 23 September 1967",
+    "writer": "Kit Pedler, Gerry Davis",
+    "director": "Morris Barry",
+    "producer": "Peter Bryant",
+    "main_actors": [
+      "Patrick Troughton",
+      "Frazer Hines",
+      "Deborah Watling"
+    ],
+    "time_reference": "26th century"
+  },
+  "cast_crew": [
+    {
+      "cast": {
+        "name": "Patrick Troughton",
+        "role": "The Doctor"
+      },
+      "crew": {
+        "name": "Morris Barry",
+        "role": "Director"
+      }
+    },
+    {
+      "cast": {
+        "name": "Frazer Hines",
+        "role": "Jamie McCrimmon"
+      },
+      "crew": {
+        "name": "Peter Bryant",
+        "role": "Producer"
+      }
+    },
+    {
+      "cast": {
+        "name": "Deborah Watling",
+        "role": "Victoria Waterfield"
+      },
+      "crew": {
+        "name": "Victor Pemberton",
+        "role": "Script Editor"
+      }
+    }
+  ],
+  "home_media": [
+    {
+      "releases": {
+        "media_type": "DVD",
+        "date": "14 January 2002",
+        "special_features": [
+          "Introduction by Morris Barry",
+          "Late Night Line-Up: Jack Kine discusses the BBC Visual Effects department's work on Doctor Who",
+          "Tombwatch: Highlights of the BAFTA screening of the story in April 1992",
+          "The Final End: 8mm footage of the end of The Evil of the Daleks",
+          "Titles Sequence Test Footage",
+          "Restoration: A short feature on the restoration of the DVD"
+        ]
+      }
+    },
+    {
+      "releases": {
+        "media_type": "BLU_RAY",
+        "date": "2012",
+        "details": "Special Edition",
+        "special_features": [
+          "Commentary by Deborah Watling and Frazer Hines (recorded in 2001)",
+          "Commentary by Deborah Watling, Frazer Hines, Bernard Holley, Shirley Cooklin, Reg Whitehead, and Victor Pemberton, moderated by Toby Hadoke (recorded in 2010)",
+          "Morris Barry Introduction - The director's introduction from 1993",
+          "Late Night Line-Up: Behind the scenes at the BBC Visual Effects department in 1967",
+          "The Final End: 8mm film from The Evil of the Daleks",
+          "The Lost Giants: Cast and crew look back on the making of this story",
+          "The Curse of the Cybermen's Tomb: Sir Christopher Frayling and Dr Debbie Challis examine the story's ancient Egyptian origins",
+          "Cybermen - Extended Edition: A history of the Cybermen by Matthew Sweet",
+          "The Magic of VidFIRE: The technology behind this unique process",
+          "Sky Ray Advert: 1960's ice lolly promo",
+          "Radio Times Listings (DVD-ROM)",
+          "Wall's Sky Ray Promotional Material (DVD-ROM)"
+        ]
+      }
+    }
+  ],
+  "story_notes": [
+    {
+      "notes": [
+        "The beginning of this serial follows directly from the end of the previous story, The Evil of the Daleks.",
+        "This story had the working titles of The Ice Tombs of Telos and The Cybermen Planet.",
+        "This is the only Cybermen story of the 1960s to feature the word \"Cybermen\" in the title.",
+        "This serial was believed lost in 1978 until 16mm black & white film telerecordings of all four episodes were returned to the BBC by the Hong Kong television company ATV in late 1991.",
+        "When the VHS was released in 1992, it outsold the home video release of Aliens.",
+        "Eleventh Doctor actor Matt Smith cited The Tomb of the Cybermen as one of his favourite Doctor Who stories."
+      ]
+    }
+  ],
+  "worldbuilding": {
+    "in_universe_mythology": [
+      "The Cybermen",
+      "The Cyber-Controller"
+    ],
+    "real_world_cultural_references": [
+      "Ancient Egyptian tombs"
+    ],
+    "individuals": [
+      "Professor Parry",
+      "John Viner",
+      "Eric Klieg",
+      "Miss Kaftan",
+      "Toberman"
+    ],
+    "items": [
+      "Cybermats",
+      "Cyber-gun"
+    ],
+    "locations": [
+      "Telos",
+      "Cyber-tomb"
+    ]
+  },
+  "ratings": {
+    "ratings_millions": [
+      {
+        "part": "1",
+        "viewers": 6.0
+      },
+      {
+        "part": "2",
+        "viewers": 6.4
+      },
+      {
+        "part": "3",
+        "viewers": 7.2
+      },
+      {
+        "part": "4",
+        "viewers": 7.4
+      }
+    ]
+  },
+  "continuity": {
+    "continuity_notes": [
+      "The Doctor and the Cybermen had encountered each other before, as mentioned in the story.",
+      "Telos was later revealed to have been destroyed, but the Master Hibernation Vault survived.",
+      "The Doctor later encountered Cybermats again in other stories."
+    ]
+  },
+  "plot": [
+    {
+      "plot_summary": "The TARDIS arrives on the planet Telos, where an archaeological expedition is trying to uncover the lost tombs of the Cybermen. The Doctor, Jamie, and Victoria join the expedition, but one of the members, Klieg, reveals himself and his business partner, Kaftan, to be planning to revive the Cybermen. The tomb is actually a trap designed to lure humans for conversion into Cybermen. The Doctor destroys the Controller and defeats the revived Cybermen, resealing the tombs."
+    },
+    {
+      "plot_summary": "In episode 2, the expedition members become trapped in the tomb. Klieg cracks the code to open the hatch, reviving the Cybermen. The expedition is rounded up, with the intention of being converted. Hopper and Victoria manage to escape and open the hatch, allowing the others to flee, but Toberman and Klieg are left behind."
+    },
+    {
+      "plot_summary": "In episode 3, Toberman is brought to the Cyber-Controller to be converted, while Klieg steals a cyber-gun. The expedition tries to fight off the Cybermats and Klieg, who intends to negotiate with the Cybermen. The Cyber-Controller emerges and agrees to Klieg's demands."
+    },
+    {
+      "plot_summary": "In the final episode, the Cyber-Controller revives itself but is trapped in the sarcophagus by the Doctor. Klieg tries to control the Cybermen with the cyber-gun, but is killed by a revived Cyberman. Toberman sacrifices himself to shut the tomb, electrocuting both himself and the Cyber-Controller."
+    }
+  ]
+}

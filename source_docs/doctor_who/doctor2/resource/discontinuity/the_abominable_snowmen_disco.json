@@ -1,0 +1,97 @@
+{
+    "title": "The Abominable Snowmen",
+    "air_date": "30 September 1967",
+    "num_episodes": 6,
+    "episode_titles": [
+        "Episode 1",
+        "Episode 2",
+        "Episode 3",
+        "Episode 4",
+        "Episode 5",
+        "Episode 6"
+    ],
+    "episode_duration": 25,
+    "writers": [
+        "Mervyn Haisman",
+        "Henry Lincoln"
+    ],
+    "directors": [
+        "Gerald Blake"
+    ],
+    "media_format": "B_W",
+    "dialogue_triumphs": [
+        "Victoria, I think this is one of those instances where discretion is the better part of valour: Jamie has an idea.",
+        "'Have you thought up some clever plan, Doctor?' 'Yes, Jamie, I believe I have.' 'What are you going to do?' 'Bung a rock at it.'"
+    ],
+    "dialogue_disasters": [
+        "It's quiet\u2026 Too quiet\u2026"
+    ],
+    "goofs": [
+        "Sapan, one of the monks, sounds Welsh.",
+        "In the first episode snow is seen on the TARDIS scanner: when the travellers emerge not a flake is visible.",
+        "Thomni on one occasion says that the holy ghanta has been missing for about 200 years when the figure should be about 300.",
+        "The TARDIS landing sound is slower than usual."
+    ],
+    "continuity_notes": [
+        {
+            "name": "The Great Intelligence",
+            "type": "Character",
+            "description": "A powerful alien force that strives for physical existence, first possessing Padmasambhava, and then seeking to dominate the Earth via the substance extruded from the pyramid of spheres in the cave.",
+            "origin": null,
+            "current_status": "Attempting to gain physical form and dominate Earth"
+        },
+        {
+            "name": "Yeti",
+            "type": "Character",
+            "description": "Simple but strong robots, created by Padmasambhava over two centuries, and controlled by the Intelligence. Real Yeti are slimmer and nervous of humans.",
+            "origin": "Created by Padmasambhava",
+            "current_status": "Controlled by the Great Intelligence"
+        },
+        {
+            "name": "Padmasambhava",
+            "type": "Character",
+            "description": "The Doctor's old friend, possessed by the Great Intelligence",
+            "origin": null,
+            "current_status": "Possessed by the Great Intelligence"
+        },
+        {
+            "name": "Holy Ghanta",
+            "type": "Object",
+            "description": "A sacred object from the Det Sen monastery, taken into safekeeping by the Doctor in 1630",
+            "origin": "Det Sen monastery",
+            "current_status": "Missing for about 300 years"
+        }
+    ],
+    "technobabble": null,
+    "roots": [
+        "Lost Horizon",
+        "The Trollenberg Terror",
+        "Nigel Kneale's The Creature (filmed as The Abominable Snowman)",
+        "In the Footsteps of the Abominable Snowman by Josef Nesvadba",
+        "The Tibetan Book of the Dead"
+    ],
+    "links": [
+        "Jamie thinks they've landed further down the mountain on Telos."
+    ],
+    "locations": [
+        {
+            "name": "Det Sen monastery",
+            "type": "Location",
+            "description": "A Tibetan Buddhist monastery where the story takes place",
+            "origin": "Tibet",
+            "current_status": "Under threat from the Great Intelligence and Yeti"
+        }
+    ],
+    "future_history": null,
+    "untold_adventures": [
+        "The Doctor has been to Det Sen before, including a visit in 1630 when he took the holy ghanta into safekeeping.",
+        "The Doctor has had multiple visits to Det Sen, as he says 'Every time I visit Det Sen the monastery seems to be in some kind of trouble'",
+        "At least one visit to Det Sen must have taken place between 'The Power of the Daleks' and 'The Highlanders', indicating an extended series of adventures for Ben and Polly."
+    ],
+    "qv": [
+        "See 'Full Circle' for more on the TARDIS scanner inconsistency.",
+        "'The Web of Fear' dates this story to 1935."
+    ],
+    "additional_notes": "The Doctor plays 'Twinkle Twinkle Little Star' on the recorder. Padmasambhava was the author of a Buddhist text about death being preferable to suffering.",
+    "bottom_line": "A reasonable adventure with a hefty splash of 60s Buddhism, 'The Abominable Snowmen' is, beneath its Yeti trappings, an attempt to create an unusual monster. It's a shame the Yeti are so cute."
+}

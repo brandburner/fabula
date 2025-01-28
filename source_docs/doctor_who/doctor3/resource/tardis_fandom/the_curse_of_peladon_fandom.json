@@ -1,0 +1,185 @@
+{
+  "metadata": {
+    "title": "The Curse of Peladon",
+    "series": "Doctor Who",
+    "season": "9",
+    "release_date": "29 January 1972",
+    "release_end_date": "19 February 1972",
+    "writer": "Brian Hayles",
+    "director": "Lennie Mayne",
+    "producer": "Barry Letts",
+    "main_actors": [
+      "Jon Pertwee",
+      "Katy Manning",
+      "David Troughton",
+      "Geoffrey Toone",
+      "Henry Gilbert",
+      "Alan Bennion",
+      "Sonny Caldinez",
+      "Stuart Fell",
+      "Murphy Grumbar"
+    ],
+    "time_reference": "Year 3885"
+  },
+  "cast_crew": [
+    {
+      "cast": {
+        "name": "Jon Pertwee",
+        "role": "Doctor"
+      },
+      "crew": {
+        "name": "Lennie Mayne",
+        "role": "Director"
+      }
+    },
+    {
+      "cast": {
+        "name": "Katy Manning",
+        "role": "Jo Grant"
+      },
+      "crew": {
+        "name": "Barry Letts",
+        "role": "Producer"
+      }
+    },
+    {
+      "cast": {
+        "name": "David Troughton",
+        "role": "Peladon"
+      },
+      "crew": {
+        "name": "Brian Hayles",
+        "role": "Writer"
+      }
+    },
+    {
+      "cast": {
+        "name": "Geoffrey Toone",
+        "role": "Hepesh"
+      },
+      "crew": {
+        "name": "Terrance Dicks",
+        "role": "Script Editor"
+      }
+    },
+    {
+      "cast": {
+        "name": "Henry Gilbert",
+        "role": "Torbis"
+      },
+      "crew": {
+        "name": "Dudley Simpson",
+        "role": "Incidental Music"
+      }
+    },
+    {
+      "cast": {
+        "name": "Alan Bennion",
+        "role": "Izlyr"
+      },
+      "crew": {
+        "name": "Ron Grainer",
+        "role": "Title Music"
+      }
+    }
+  ],
+  "home_media": [
+    {
+      "releases": {
+        "media_type": "DVD",
+        "date": "4 January 2010",
+        "details": "Part of Peladon Tales Boxset",
+        "special_features": [
+          "Commentary by Katy Manning, Barry Letts, Terrance Dicks, and Chris D'Oyly-John",
+          "The Peladon Saga - Part One",
+          "Warriors of Mars",
+          "Jon and Katy",
+          "Storyboard Comparison",
+          "Radio Times Billings",
+          "Production Information",
+          "Subtitles",
+          "Photo Gallery"
+        ]
+      }
+    },
+    {
+      "releases": {
+        "media_type": "VHS",
+        "date": "June 1993",
+        "details": "Released as Doctor Who: The Curse of Peladon",
+        "special_features": []
+      }
+    },
+    {}
+  ],
+  "story_notes": [
+    {
+      "notes": [
+        "The story was broadcast as 4 x 25-minute episodes.",
+        "The delegates refer to the 'curse of Aggedor'.",
+        "The series is an allegory of the UK's accession to the Common Market.",
+        "The Curse of Peladon is the second serial of Season 9."
+      ]
+    }
+  ],
+  "worldbuilding": {
+    "in_universe_mythology": [
+      "The curse of Aggedor",
+      "King Peladon is half Peladonian and half human."
+    ],
+    "real_world_cultural_references": [
+      "Influenced by The Hound of the Baskervilles."
+    ],
+    "individuals": [
+      "King Peladon",
+      "Hepesh",
+      "Torbis"
+    ],
+    "items": [
+      "TARDIS",
+      "Aggedor"
+    ],
+    "locations": [
+      "Peladon"
+    ]
+  },
+  "ratings": {
+    "ratings_millions": [
+      {
+        "part": "Episode 1",
+        "viewers": 10.3
+      },
+      {
+        "part": "Episode 2",
+        "viewers": 11.0
+      },
+      {
+        "part": "Episode 3",
+        "viewers": 7.8
+      },
+      {
+        "part": "Episode 4",
+        "viewers": 8.4
+      }
+    ]
+  },
+  "continuity": {
+    "continuity_notes": [
+      "The Ice Warriors had appeared previously in The Ice Warriors and The Seeds of Death."
+    ]
+  },
+  "plot": [
+    {
+      "plot_summary": "Episode 1: The Doctor and Jo arrive on Peladon, where the King prepares for his coronation and the threat of the curse of Aggedor looms."
+    },
+    {
+      "plot_summary": "Episode 2: Tensions rise among the delegates as they discuss the potential membership of Peladon in the Galactic Federation."
+    },
+    {
+      "plot_summary": "Episode 3: The Doctor faces trial by combat while Hepesh conspires against him and the King to maintain power."
+    },
+    {
+      "plot_summary": "Episode 4: The Doctor and Jo uncover the truth behind the curse and help restore peace as Hepesh's plot is revealed."
+    }
+  ]
+}

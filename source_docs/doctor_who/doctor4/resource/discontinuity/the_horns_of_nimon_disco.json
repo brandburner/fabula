@@ -1,0 +1,117 @@
+{
+    "title": "The Horns of Nimon",
+    "air_date": "22 December 1979",
+    "num_episodes": 4,
+    "episode_titles": [
+        "Part One",
+        "Part Two",
+        "Part Three",
+        "Part Four"
+    ],
+    "episode_duration": 25,
+    "writers": [
+        "Anthony Read"
+    ],
+    "directors": [
+        "Kenny McBain"
+    ],
+    "media_format": "Color",
+    "dialogue_triumphs": [
+        "'He lives in the Power Complex.' 'That fits.'",
+        "'Later, you will be questioned, tortured and killed.' 'Well, I hope you get it in the right order.'"
+    ],
+    "dialogue_disasters": null,
+    "goofs": [
+        "The TARDIS console makes various silly 'boing!' noises.",
+        "The co-pilot's trousers rip at the end of episode three when the Nimon kills him.",
+        "In episode four Soldeed's body disappears from where it fell."
+    ],
+    "continuity_notes": [
+        {
+            "name": "TARDIS",
+            "type": "Object",
+            "description": "The Doctor's time machine and spacecraft",
+            "origin": "Gallifrey",
+            "current_status": "In a bad state of repair, unable to land inside the Power Complex's defence shields"
+        },
+        {
+            "name": "TARDIS Defence Shield",
+            "type": "Object",
+            "description": "A protective field that can extend outside the TARDIS",
+            "origin": "TARDIS",
+            "current_status": "Operational, capable of maintaining an atmosphere outside the ship"
+        },
+        {
+            "name": "Romana",
+            "type": "Character",
+            "description": "The Doctor's Time Lord companion",
+            "origin": "Gallifrey",
+            "current_status": "Has made her own sonic screwdriver and can use a gun"
+        },
+        {
+            "name": "K-9",
+            "type": "Character",
+            "description": "The Doctor's robotic dog companion",
+            "origin": "Unknown",
+            "current_status": "Operational, with various capabilities including radiation measurement, medical assessments, and tracking"
+        },
+        {
+            "name": "Skonnos",
+            "type": "Location",
+            "description": "Former center of an empire of over a hundred star systems",
+            "origin": null,
+            "current_status": "Fallen into civil war, now under the influence of the Nimon"
+        },
+        {
+            "name": "Nimon",
+            "type": "Character",
+            "description": "An alien race that travels between worlds, draining them of energy",
+            "origin": "Unknown",
+            "current_status": "Currently on Skonnos, operating from the Power Complex"
+        }
+    ],
+    "technobabble": [
+        "Artificially created black holes for interstellar travel",
+        "Power Complex with shifting walls and projecting defence shield"
+    ],
+    "roots": [
+        "Theseus and the Minotaur",
+        "Moses and the plagues of Egypt",
+        "The Iron Sun"
+    ],
+    "links": [
+        "City of Death",
+        "The Creature from the Pit"
+    ],
+    "locations": [
+        {
+            "name": "Skonnos",
+            "type": "Location",
+            "description": "Planet, former center of a vast empire",
+            "origin": null,
+            "current_status": "Under the influence of the Nimon"
+        },
+        {
+            "name": "Crinoth",
+            "type": "Location",
+            "description": "Planet devastated by the Nimon",
+            "origin": null,
+            "current_status": "Devastated"
+        },
+        {
+            "name": "Aneth",
+            "type": "Location",
+            "description": "Planet within the former Skonnos Empire",
+            "origin": null,
+            "current_status": "Threatened by the Nimon"
+        }
+    ],
+    "future_history": "The inhabitants of Skonnos, Crinoth, and Aneth seem to be descended from Earth colonists.",
+    "untold_adventures": [
+        "The Doctor has been to 'charming' Aneth, 'but not yet'.",
+        "The Doctor was involved in the original Minotaur story, forgetting to remind Theseus to paint his ship white."
+    ],
+    "qv": null,
+    "additional_notes": "Fashion Victims: The Nimons' platforms. The Anethans' karate pyjamas. Sorak has flares on his flares.",
+    "bottom_line": "With its cheap design work, and a wonderfully watchable OTT performance from Graham Crowden, 'The Horns of Nimon' is by turns brilliant and dull. Unfortunately the plot is quite serious. It's a great Romana story, though: she gets all the Doctor bits to do, and Lalla Ward decides, astonishingly, to play it deadly straight. Rather wonderful with some friends and a bottle of wine."
+}

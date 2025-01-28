@@ -1,0 +1,196 @@
+{
+  "metadata": {
+    "title": "Invasion of the Dinosaurs",
+    "series": "Doctor Who",
+    "season": "11",
+    "release_date": "12 January 1974",
+    "release_end_date": "16 February 1974",
+    "writer": "Malcolm Hulke",
+    "director": "Paddy Russell",
+    "producer": "Barry Letts",
+    "main_actors": [
+      "Jon Pertwee",
+      "Elisabeth Sladen",
+      "Nicholas Courtney",
+      "John Bennett",
+      "Richard Franklin",
+      "John Levene",
+      "Ben Aris",
+      "Dave Carter",
+      "Martin Taylor",
+      "Noel Johnson",
+      "Peter Miles",
+      "Martin Jarvis",
+      "James Marcus",
+      "Carmen Silvera",
+      "Terence Wilton"
+    ],
+    "time_reference": "20th century, 1970s London"
+  },
+  "cast_crew": [
+    {
+      "cast": {
+        "name": "Jon Pertwee",
+        "role": "The Doctor"
+      },
+      "crew": {
+        "name": "Paddy Russell",
+        "role": "Director"
+      }
+    },
+    {
+      "cast": {
+        "name": "Elisabeth Sladen",
+        "role": "Sarah Jane Smith"
+      },
+      "crew": {
+        "name": "Malcolm Hulke",
+        "role": "Writer"
+      }
+    },
+    {
+      "cast": {
+        "name": "Nicholas Courtney",
+        "role": "Brigadier Lethbridge-Stewart"
+      },
+      "crew": {
+        "name": "Barry Letts",
+        "role": "Producer"
+      }
+    },
+    {
+      "cast": {
+        "name": "John Bennett",
+        "role": "General Finch"
+      },
+      "crew": {
+        "name": "Terrance Dicks",
+        "role": "Script Editor"
+      }
+    }
+  ],
+  "home_media": [
+    {
+      "releases": {
+        "media_type": "DVD",
+        "date": "9 January 2012",
+        "details": "Part of the U.N.I.T Files Box Set with The Android Invasion",
+        "special_features": [
+          "Colour-recovered version of Part One",
+          "Commentary",
+          "Additional Commentary",
+          "People, Power and Puppetry",
+          "Doctor Who Stories: Elisabeth Sladen Part 1",
+          "Deleted scenes",
+          "Now and Then",
+          "Radio Times listings"
+        ]
+      }
+    },
+    {
+      "releases": {
+        "media_type": "VHS",
+        "date": "2003",
+        "details": "Final complete story released by BBC Worldwide on VHS",
+        "special_features": []
+      }
+    },
+    {
+      "releases": {
+        "media_type": "BLU_RAY",
+        "date": "Pending Announcement",
+        "details": "Upcoming Blu-Ray release of Season 11 will include the story.",
+        "special_features": []
+      }
+    }
+  ],
+  "story_notes": [
+    {
+      "notes": [
+        "Malcolm Hulke's final story as a writer for Doctor Who.",
+        "Introduced the Third Doctor's vehicle, the Whomobile.",
+        "Part one titled Invasion; parts two to six titled Invasion of the Dinosaurs.",
+        "The story reflects real-world political themes and environmental concerns."
+      ]
+    }
+  ],
+  "worldbuilding": {
+    "in_universe_mythology": [
+      "Operation Golden Age",
+      "Blinovitch Limitation Effect"
+    ],
+    "real_world_cultural_references": [
+      "Casablanca reference regarding friendships and political themes."
+    ],
+    "individuals": [
+      "Charles Grover",
+      "General Finch"
+    ],
+    "items": [
+      "Whomobile",
+      "Doctor's sonic screwdriver"
+    ],
+    "locations": [
+      "London",
+      "UNIT HQ",
+      "An underground base"
+    ]
+  },
+  "ratings": {
+    "ratings_millions": [
+      {
+        "part": "Part One",
+        "viewers": 11.0
+      },
+      {
+        "part": "Part Two",
+        "viewers": 10.1
+      },
+      {
+        "part": "Part Three",
+        "viewers": 11.0
+      },
+      {
+        "part": "Part Four",
+        "viewers": 9.0
+      },
+      {
+        "part": "Part Five",
+        "viewers": 9.0
+      },
+      {
+        "part": "Part Six",
+        "viewers": 7.5
+      }
+    ]
+  },
+  "continuity": {
+    "continuity_notes": [
+      "Yates' character arc originates from previous appearances in The Green Death.",
+      "Events of The Time Warrior lead directly into this story."
+    ]
+  },
+  "plot": [
+    {
+      "plot_summary": "The Third Doctor and Sarah arrive in a deserted London plagued by looters and dinosaur attacks. As chaos unfolds, they uncover a sinister plot involving time travel, an underground conspiracy, and the true nature of the dinosaurs' appearance as part of a plan to revert humanity to a primitive state. Ultimately, they confront those who orchestrated the crisis, leading to a resolution that emphasizes the consequences of radical environmentalism."
+    },
+    {
+      "plot_summary": "Part One: The Doctor and Sarah arrive in evacuated London where they encounter looters and are initially imprisoned. They begin to uncover the chaos caused by the appearance of dinosaurs."
+    },
+    {
+      "plot_summary": "Part Two: As the Doctor attempts to understand the situation, soldiers fight a tyrannosaurus. Various plots unfold involving sabotage from within UNIT."
+    },
+    {
+      "plot_summary": "Part Three: The Doctor captures a tyrannosaurus, only to confront conspiracies with treachery from someone within UNIT."
+    },
+    {
+      "plot_summary": "Part Four: Sarah is kidnapped by those involved in the conspiracy who plan to flee Earth aboard a spaceship."
+    },
+    {
+      "plot_summary": "Part Five: The Doctor uncovers the full extent of the conspiracy, leading to a showdown that reveals the intentions behind Operation Golden Age."
+    },
+    {
+      "plot_summary": "Part Six: A climax where the Doctor and his allies face off against the conspirators, ultimately resolving the crisis but questioning the motivation behind their actions."
+    }
+  ]
+}

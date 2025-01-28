@@ -1,0 +1,120 @@
+{
+    "title": "The Mark of the Rani",
+    "air_date": "2 February 1985",
+    "num_episodes": 2,
+    "episode_titles": [
+        "Part One",
+        "Part Two"
+    ],
+    "episode_duration": 25,
+    "writers": [
+        "Pip Baker",
+        "Jane Baker"
+    ],
+    "directors": [
+        "Sarah Hellings"
+    ],
+    "media_format": "Color",
+    "dialogue_triumphs": [
+        "What Peri and the Doctor do in the TARDIS: 'Argue, mainly.'",
+        "The Rani on the Master: 'He'd get dizzy if he tried to walk in a straight line.'"
+    ],
+    "dialogue_disasters": [
+        "'Fortuitous would be a more apposite epithet!' (Or, as we humans say, 'Lucky would be a better word.')",
+        "'Finito TARDIS, how's that for style?' (Florid, we think.)",
+        "'You suspect another motive?' is a Peri line!",
+        "'The tree won't hurt you!'"
+    ],
+    "goofs": [
+        "Nicola Bryant says Killingsworth instead of Killingworth.",
+        "The tree! The two trees that hold the Doctor up on the pole!",
+        "The Doctor's gurning above the pit while Peri throws small lumps of coal at the Luddites!",
+        "Why don't they run out of the volcano (a Turner painting?!) trap room?",
+        "No Luddites ever attacked pit machinery, which didn't threaten their livelihoods.",
+        "Lord Ravensworth's amateur botany is the source of the drugs required \u2013 is there no local medic?",
+        "Three Time Lords turn up in the same place for entirely different reasons.",
+        "Kew Gardens was not open in the 1820s.",
+        "Edison was not born until 1847 (well after the Luddite riots)."
+    ],
+    "continuity_notes": [
+        {
+            "name": "Peri",
+            "type": "Character",
+            "description": "The Doctor's companion, shows some botanical knowledge.",
+            "origin": null,
+            "current_status": "Traveling with the Doctor"
+        },
+        {
+            "name": "The Doctor",
+            "type": "Character",
+            "description": "Time Lord protagonist, expressly forbidden to change the course of history.",
+            "origin": "Gallifrey",
+            "current_status": "Traveling with Peri"
+        },
+        {
+            "name": "The Master",
+            "type": "Character",
+            "description": "Time Lord antagonist, rival of the Doctor.",
+            "origin": "Gallifrey",
+            "current_status": "Exiled from Gallifrey, using improved tissue compression eliminator"
+        },
+        {
+            "name": "The Rani",
+            "type": "Character",
+            "description": "Time Lord scientist, ruler of Miasimia Goria.",
+            "origin": "Gallifrey",
+            "current_status": "Exiled from Gallifrey, extracting brain fluid from various time periods"
+        },
+        {
+            "name": "Tissue Compression Eliminator",
+            "type": "Object",
+            "description": "The Master's weapon, now makes people vanish totally.",
+            "origin": null,
+            "current_status": "Improved version in use by the Master"
+        },
+        {
+            "name": "Stattenheim Remote Control",
+            "type": "Object",
+            "description": "A great achievement of the Rani's.",
+            "origin": null,
+            "current_status": "In use by the Rani"
+        }
+    ],
+    "technobabble": [
+        "The Stattenheim remote control is a great achievement of the Rani's, oddly."
+    ],
+    "roots": [
+        "When the Boat Comes In (trouble at t'pit)",
+        "Snow White and the Seven Dwarfs",
+        "Misquote of Hamlet's 'more things in heaven and Earth' speech",
+        "Quote from Thomas Campbell ('silence deep as death')"
+    ],
+    "links": [
+        "The Doctor repeats that he met Shakespeare (see 'Planet of Evil', 'City of Death')."
+    ],
+    "locations": [
+        {
+            "name": "Killingworth",
+            "type": "Location",
+            "description": "Near Newcastle upon Tyne, setting of the story.",
+            "origin": "Earth",
+            "current_status": "In the 1820s, about 30 years too late for Luddites"
+        },
+        {
+            "name": "Miasimia Goria",
+            "type": "Location",
+            "description": "Planet ruled by the Rani.",
+            "origin": null,
+            "current_status": "Under the Rani's control"
+        }
+    ],
+    "future_history": null,
+    "untold_adventures": [
+        "The Rani's extraction of brain fluid from people from the Trojan War, the Dark Ages and the American War of Independence."
+    ],
+    "qv": [
+        "The TARDIS Lock, 'The Sensorites'"
+    ],
+    "additional_notes": "Peri's horrid yellow party frock is mentioned as a 'Fashion Victim'. There are several double entendres noted in the episode.",
+    "bottom_line": "A script with a simple plot, a Doctorish Doctor, and whimsy rather than sadism, quite a novelty in this season. The dialogue's overblown, but the concept of the Rani mocking the ridiculous Master/Doctor rivalry is wonderful. The Doctor's inspection of the inside of the Rani's TARDIS is one of the few great scenes of this era. Both the direction and the music are superb, though the interiors look oddly artificial. Altogether rather more impressive than its reputation."
+}

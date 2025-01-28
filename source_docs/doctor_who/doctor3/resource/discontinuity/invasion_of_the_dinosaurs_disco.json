@@ -1,0 +1,99 @@
+{
+    "title": "Invasion of the Dinosaurs",
+    "air_date": "12 January 1974",
+    "num_episodes": 6,
+    "episode_titles": [
+        "Invasion",
+        "Part Two",
+        "Part Three",
+        "Part Four",
+        "Part Five",
+        "Part Six"
+    ],
+    "episode_duration": 25,
+    "writers": [
+        "Malcolm Hulke"
+    ],
+    "directors": [
+        "Paddy Russell"
+    ],
+    "media_format": "Color",
+    "dialogue_triumphs": [],
+    "dialogue_disasters": [
+        "The Doctor's hilarious cockney: 'You're the nark, aren't you? It was you wot grassed on us.'"
+    ],
+    "goofs": [
+        "The Tyrannosaurus rex has too many fingers on each hand.",
+        "Most of the dinosaurs seem to float when CSOed onto film sequences.",
+        "In episode two, Yates's disabling disc appears on the Doctor's gun lying in the jeep before he has placed it there.",
+        "Martin Jarvis appears to bang his head getting into the lift at the tube station.",
+        "In episode four there's a very wobbly zoom towards the security camera.",
+        "The metal shutters coming down in the underground base make the walls wobble.",
+        "The scenes with Sarah on the 'ship' are intercut with Earth scenes, thus giving the game away that she hasn't been there for several weeks."
+    ],
+    "continuity_notes": [
+        {
+            "name": "The Doctor",
+            "type": "Character",
+            "description": "A Time Lord who is largely immune to the effects of Whitaker's machine.",
+            "origin": "Gallifrey",
+            "current_status": "Investigating the dinosaur appearances in London"
+        },
+        {
+            "name": "Blinovitch Limitation Effect",
+            "type": "Concept",
+            "description": "A principle that tends to hold back research into time travel.",
+            "origin": null,
+            "current_status": "Mentioned by the Doctor as a limitation in time travel research"
+        },
+        {
+            "name": "Florana",
+            "type": "Location",
+            "description": "Described by the Doctor as 'probably one of the most beautiful planets in the universe'",
+            "origin": null,
+            "current_status": "Offered as a potential future destination for Sarah"
+        }
+    ],
+    "technobabble": null,
+    "roots": [
+        "The Beast from 20,000 Fathoms",
+        "The Day of the Triffids",
+        "The Avengers ('The Morning After')"
+    ],
+    "links": [
+        "Yates has just got back from leave after the events of 'The Green Death'.",
+        "From the Doctor and Sarah's point of view, this story continues directly from 'The Time Warrior'."
+    ],
+    "locations": [
+        {
+            "name": "London",
+            "type": "Location",
+            "description": "The main setting of the story, evacuated due to dinosaur appearances",
+            "origin": "Earth",
+            "current_status": "Evacuated, with 8 million people relocated"
+        },
+        {
+            "name": "Harrogate",
+            "type": "Location",
+            "description": "The temporary location of the relocated government",
+            "origin": "Earth",
+            "current_status": "Serving as the temporary seat of government"
+        },
+        {
+            "name": "Underground shelter near Whitehall",
+            "type": "Location",
+            "description": "A shelter built during the Cold War, now being used in the crisis",
+            "origin": "Earth",
+            "current_status": "In use during the dinosaur crisis"
+        }
+    ],
+    "future_history": "At some point in the future a Chinese scientist, Chung Sen, experiments with time travel.",
+    "untold_adventures": [
+        "The Doctor says that the Vandals were 'quite decent chaps'."
+    ],
+    "qv": [
+        "UNIT Call-Signs, 'The Invasion'"
+    ],
+    "additional_notes": "The Doctor takes at least four sugars in his coffee. The Doctor has designed and built a futuristic car (numberplate WVO 2M). Mark jumped 2.362 metres at the last Olympics (Munich, 1972), which would have beaten Dwight Stone's existing world record.",
+    "bottom_line": "'There never was a \"Golden Age"
+}

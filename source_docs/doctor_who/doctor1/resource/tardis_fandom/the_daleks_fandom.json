@@ -1,0 +1,169 @@
+{
+  "metadata": {
+    "title": "The Daleks",
+    "series": "Doctor Who",
+    "season": "1",
+    "episode_number": 2,
+    "release_date": "21 December 1963 - 1 February 1964",
+    "writer": "Terry Nation",
+    "director": "Christopher Barry, Richard Martin",
+    "producer": "Verity Lambert",
+    "main_actors": [
+      "William Hartnell",
+      "William Russell",
+      "Jacqueline Hill",
+      "Carole Ann Ford"
+    ],
+    "time_reference": "Future"
+  },
+  "cast_crew": [
+    {
+      "cast": {
+        "name": "William Hartnell",
+        "role": "Dr. Who"
+      },
+      "crew": {
+        "name": "Terry Nation",
+        "role": "Writer"
+      }
+    },
+    {
+      "cast": {
+        "name": "William Russell",
+        "role": "Ian Chesterton"
+      },
+      "crew": {
+        "name": "Christopher Barry",
+        "role": "Director"
+      }
+    },
+    {
+      "cast": {
+        "name": "Jacqueline Hill",
+        "role": "Barbara Wright"
+      },
+      "crew": {
+        "name": "Richard Martin",
+        "role": "Director"
+      }
+    },
+    {
+      "cast": {
+        "name": "Carole Ann Ford",
+        "role": "Susan Foreman"
+      },
+      "crew": {
+        "name": "Verity Lambert",
+        "role": "Producer"
+      }
+    }
+  ],
+  "home_media": [
+    {
+      "releases": {
+        "media_type": "VHS",
+        "date": "June 1989",
+        "special_features": []
+      }
+    },
+    {
+      "releases": {
+        "media_type": "VHS",
+        "date": "February 2001",
+        "details": "Remastered",
+        "special_features": []
+      }
+    },
+    {
+      "releases": {
+        "media_type": "DVD",
+        "date": "30 January 2006",
+        "special_features": [
+          "Commentaries",
+          "Creation of the Daleks documentary",
+          "Photo Gallery",
+          "Production Subtitles"
+        ]
+      }
+    }
+  ],
+  "story_notes": [
+    {
+      "notes": [
+        "Working titles included 'The Survivors' and 'Beyond the Sun'",
+        "The story was originally titled 'The Mutants'",
+        "Dalek creator Terry Nation's agent cunningly negotiated Nation's co-ownership of the Daleks"
+      ]
+    }
+  ],
+  "worldbuilding": {
+    "in_universe_mythology": [
+      "Daleks mutated from a race called the Dals following a neutronic war with the Thals"
+    ],
+    "real_world_cultural_references": [
+      "Dalek design inspired by a man sitting in a chair"
+    ],
+    "individuals": [
+      "Susan Foreman",
+      "Alydon",
+      "Temmosus",
+      "Davros"
+    ],
+    "items": [
+      "TARDIS",
+      "Dalek travel machines",
+      "Dalek static electricity control systems",
+      "Thal anti-radiation drugs"
+    ],
+    "locations": [
+      "Skaro",
+      "Dalek City",
+      "Lake of Mutations (Drammankin Lake)"
+    ]
+  },
+  "ratings": {
+    "ratings_millions": [
+      {
+        "part": "The Dead Planet",
+        "viewers": 6.9
+      },
+      {
+        "part": "The Survivors",
+        "viewers": 6.4
+      },
+      {
+        "part": "The Escape",
+        "viewers": 8.9
+      },
+      {
+        "part": "The Ambush",
+        "viewers": 9.9
+      },
+      {
+        "part": "The Expedition",
+        "viewers": 9.9
+      },
+      {
+        "part": "The Ordeal",
+        "viewers": 10.4
+      },
+      {
+        "part": "The Rescue",
+        "viewers": 10.4
+      }
+    ]
+  },
+  "continuity": {
+    "continuity_notes": [
+      "Susan kept the cloak Alydon gave her in her TARDIS room",
+      "The Thal-Dalek battle was reported on Earth television 18 months prior to 31 July 2065",
+      "The Doctor next encounters the Thals in his third incarnation during 'Planet of the Daleks'",
+      "The Doctor next returns to Skaro in his second incarnation during 'The Evil of the Daleks'"
+    ]
+  },
+  "plot": [
+    {
+      "plot_summary": "The TARDIS arrives on the planet Skaro, where the First Doctor and his companions discover the Dalek City and the two indigenous races: the Daleks, armored mutant creatures, and the Thal humanoids. The Daleks are survivors of a devastating war with the Thals, who have since become pacifists. The Doctor and his friends become caught up in the struggle between the two races, and ultimately lead the Thals in an attack on the Dalek City, destroying the Daleks by cutting off their power supply."
+    }
+  ]
+}

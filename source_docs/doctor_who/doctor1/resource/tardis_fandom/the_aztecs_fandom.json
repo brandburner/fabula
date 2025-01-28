@@ -1,0 +1,167 @@
+{
+  "metadata": {
+    "title": "The Aztecs",
+    "series": "Doctor Who",
+    "season": "1",
+    "episode_number": 6,
+    "release_date": "23 May - 13 June 1964",
+    "writer": "John Lucarotti",
+    "director": "John Crockett",
+    "producer": "Verity Lambert",
+    "main_actors": [
+      "William Hartnell",
+      "William Russell",
+      "Jacqueline Hill",
+      "Carole Ann Ford"
+    ],
+    "time_reference": "15th century"
+  },
+  "cast_crew": [
+    {
+      "cast": {
+        "name": "William Hartnell",
+        "role": "Dr. Who"
+      },
+      "crew": {
+        "name": "John Lucarotti",
+        "role": "Writer"
+      }
+    },
+    {
+      "cast": {
+        "name": "William Russell",
+        "role": "Ian Chesterton"
+      },
+      "crew": {
+        "name": "John Crockett",
+        "role": "Director"
+      }
+    },
+    {
+      "cast": {
+        "name": "Jacqueline Hill",
+        "role": "Barbara Wright"
+      },
+      "crew": {
+        "name": "Verity Lambert",
+        "role": "Producer"
+      }
+    },
+    {
+      "cast": {
+        "name": "Carole Ann Ford",
+        "role": "Susan Foreman"
+      },
+      "crew": {
+        "name": "Richard Rodney Bennett",
+        "role": "Incidental Music"
+      }
+    }
+  ],
+  "home_media": [
+    {
+      "releases": {
+        "media_type": "DVD",
+        "date": "21 October 2002",
+        "special_features": [
+          "Commentary by producer Verity Lambert and actors William Russell and Carole Ann Ford",
+          "Remembering The Aztecs - Interviews with John Ringham, Walter Randall, and Ian Cullen",
+          "Designing The Aztecs - An interview with set designer Barry Newbery",
+          "Restoring The Aztecs - A look at the digital remastering process for the DVD",
+          "Blue Peter - The Story of Cortez and Montezuma",
+          "Making Cocoa - An animated guide to making cocoa the Aztec way",
+          "Arabic soundtrack - The final episode includes an option to view it in Arabic"
+        ]
+      }
+    },
+    {
+      "releases": {
+        "media_type": "DVD",
+        "date": "11 March 2013 (Region 2), 12 March 2013 (Region 1)",
+        "special_features": [
+          "Commentary with William Russell (Ian Chesterton) and Carole Ann Ford (Susan Foreman), and producer Verity Lambert",
+          "Remembering The Aztecs - Actors John Ringham, Ian Cullen and Walter Randall recall the production of this story",
+          "Designing The Aztecs - Designer Barry Newbery talks about his work on this serial, illustrated with many never-before-seen production drawings and photographs from his personal collection",
+          "Cortez and Montezuma - An extract from a 1970 Blue Peter episode, introduced by Valerie Singleton on location in Mexico, giving historical background to the Aztec belief in human sacrifice",
+          "Restoring The Aztecs - A short featurette demonstrating the restoration and videoisation effects used for the release",
+          "Making Cocoa - An animated guide to making cocoa the Aztec way, voiced by John Ringham as Tlotoxl and Walter Randall as Tonila, with both characters animated and presented in South Park style!",
+          "TARDIS-Cam no. 3",
+          "Optional Arabic Soundtrack - For episode 4 only",
+          "Galaxy 4 - A reconstruction of the missing story Galaxy 4, using off-screen stills, audio recordings and animation plus the recently recovered episode three",
+          "Chronicle - \"The Realms of Gold\" - Episode of the BBC documentary series Doctor Forever!",
+          "Celestial Toyroom - A history of Doctor Who toys and related products",
+          "It's a Square World - The Doctor's New Invention parody sketch from the BBC sketch series A Whole Scene Going"
+        ]
+      }
+    }
+  ],
+  "story_notes": [
+    {
+      "notes": [
+        "Tlotoxl is one of the few Doctor Who villains who never receives any sort of comeuppance. This serves to highlight the themes of the story, that history must not be tampered with, and that it will take its course with or without us.",
+        "There are conflicting accounts within the Doctor Who universe on the exact date this story takes place. Of course, it's clear that it takes place sometime after 1430, the year Tetaxa is said to have died. The Trial of Doctor Who placed the story in 1430 exactly. The novelisation placed the story in 1507. In PROSE: The Left-Handed Hummingbird, Bernice dates it to the drought of 1454. The Terrestrial Index suggests 1480.",
+        "There was also a real life eclipse on 8 August 1496, much like the one depicted in \"The Day of Darkness\"."
+      ]
+    }
+  ],
+  "worldbuilding": {
+    "in_universe_mythology": [
+      "Yetaxa",
+      "Aztec gods"
+    ],
+    "real_world_cultural_references": [
+      "Alexander the Great",
+      "Cortez and Montezuma",
+      "Aztec civilization"
+    ],
+    "individuals": [
+      "Autloc",
+      "Tlotoxl",
+      "Ixta",
+      "Cameca",
+      "Tonila",
+      "Perfect Victim"
+    ],
+    "items": [
+      "Aztec bracelet",
+      "Brooch that belonged to Ixta's father"
+    ],
+    "locations": [
+      "Tenochtitlan",
+      "Tomb of Yetaxa",
+      "Garden of Peace"
+    ]
+  },
+  "ratings": {
+    "ratings_millions": [
+      {
+        "part": "The Temple of Evil",
+        "viewers": 7.4
+      },
+      {
+        "part": "The Warriors of Death",
+        "viewers": 7.4
+      },
+      {
+        "part": "The Bride of Sacrifice",
+        "viewers": 7.9
+      },
+      {
+        "part": "The Day of Darkness",
+        "viewers": 7.4
+      }
+    ]
+  },
+  "continuity": {
+    "continuity_notes": [
+      "The Doctor protests to Barbara that \"you can't rewrite history! Not one line!\" The Doctor makes numerous later references to the nature of time and certain fixed points in time.",
+      "River Song gives an almost word for word line to the Tenth Doctor when the Doctor states that time can be rewritten.",
+      "The Time Lords, including the Doctor, continue to give a clear indication of their position that they and they alone understand how to properly \"rewrite history\"."
+    ]
+  },
+  "plot": [
+    {
+      "plot_summary": "The TARDIS crew arrive in Mexico in the 15th century and encounter the doomed Aztec people. Barbara is mistaken for a reincarnated Aztec high priest, Yetaxa, and demands the Aztecs give the Doctor and Ian free run of the civilisation. Tlotoxl, the High Priest of Sacrifice, is determined to expose Barbara as a fraud. He conspires to get rid of the travellers, including arranging a fight to the death between Ian and Ixta. Barbara refuses to allow human sacrifices to take place, putting her at odds with Tlotoxl. As the Doctor tries to find a way to return to the TARDIS, Barbara becomes increasingly distraught at her inability to change the Aztecs' fate. In the end, the TARDIS crew are forced to flee as the Aztec civilisation rushes towards its inevitable downfall."
+    }
+  ]
+}

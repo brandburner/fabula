@@ -1,0 +1,79 @@
+{
+    "title": "The Smugglers",
+    "air_date": "10 September 1966",
+    "num_episodes": 4,
+    "episode_titles": [
+        "Episode 1",
+        "Episode 2",
+        "Episode 3",
+        "Episode 4"
+    ],
+    "episode_duration": 25,
+    "writers": [
+        "Brian Hayles"
+    ],
+    "directors": [
+        "Julia Smith"
+    ],
+    "media_format": "B_W",
+    "dialogue_triumphs": [],
+    "dialogue_disasters": [
+        "By the black albatross, I'll keelhaul ye from here to Port Royal!",
+        "Polly, put the kettle on."
+    ],
+    "goofs": [
+        "William Hartnell in episode one: 'You see that scanner? That's what I call a scanner, up there!'",
+        "In episode two his reply to an invitation to 'talk like gentlemen' is 'Thank you, no.'",
+        "The rhyme quoted in episode three is different from the one he heard in episode one."
+    ],
+    "continuity_notes": [
+        {
+            "name": "The Doctor",
+            "type": "Character",
+            "description": "Time Lord protagonist of the series",
+            "origin": null,
+            "current_status": "Has heard of the pirate Avery, knows a little Tarot, and feels a moral obligation to stay due to potential consequences of his actions"
+        },
+        {
+            "name": "Ben",
+            "type": "Character",
+            "description": "Companion of the Doctor",
+            "origin": null,
+            "current_status": "Drinks beer during the adventure"
+        },
+        {
+            "name": "TARDIS",
+            "type": "Object",
+            "description": "The Doctor's time and space travel machine",
+            "origin": null,
+            "current_status": "Internal temperature drops suddenly on landing at the South Pole, possibly due to a circuit failure or as a warning"
+        }
+    ],
+    "technobabble": null,
+    "roots": [
+        "Jamaica Inn",
+        "Treasure Island",
+        "Dr Syn and Captain Clegg",
+        "Moonfleet"
+    ],
+    "links": [
+        "Marco Polo"
+    ],
+    "locations": [
+        {
+            "name": "Cornish village",
+            "type": "Location",
+            "description": "Setting of the episode in 17th century Cornwall",
+            "origin": "Earth",
+            "current_status": "Time period between 1603 and 1642, or 1660 and 1688, or 1694 onwards, with costumes suggesting the 1680s or 90s"
+        }
+    ],
+    "future_history": null,
+    "untold_adventures": null,
+    "qv": [
+        "The Doctor's Doctorate",
+        "The Moonbase"
+    ],
+    "additional_notes": "The episode features 'tons of arrrhs' and mentions the pirate Morgan, who lived between 1635-1688.",
+    "bottom_line": "A sweet little script. Hartnell is quite good, and by no means on his last legs. Pike is a great villain, and there's some fine period detail."
+}

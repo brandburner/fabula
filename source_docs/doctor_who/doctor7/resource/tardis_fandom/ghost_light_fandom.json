@@ -1,0 +1,147 @@
+{
+  "metadata": {
+    "title": "Ghost Light",
+    "series": "Doctor Who",
+    "season": "26",
+    "episode_number": 2,
+    "release_date": "4 - 18 October 1989",
+    "writer": "Marc Platt",
+    "director": "Alan Wareing",
+    "producer": "John Nathan-Turner",
+    "main_actors": [
+      "Sylvester McCoy",
+      "Sophie Aldred"
+    ],
+    "time_reference": "1883"
+  },
+  "cast_crew": [
+    {
+      "cast": {
+        "name": "Sylvester McCoy",
+        "role": "The Doctor"
+      },
+      "crew": {
+        "name": "Marc Platt",
+        "role": "Writer"
+      }
+    },
+    {
+      "cast": {
+        "name": "Sophie Aldred",
+        "role": "Ace"
+      },
+      "crew": {
+        "name": "Alan Wareing",
+        "role": "Director"
+      }
+    },
+    {
+      "cast": {
+        "name": "Ian Hogg",
+        "role": "Josiah Samuel Smith"
+      },
+      "crew": {
+        "name": "John Nathan-Turner",
+        "role": "Producer"
+      }
+    }
+  ],
+  "home_media": [
+    {
+      "releases": {
+        "media_type": "DVD",
+        "date": "20 September 2004",
+        "special_features": [
+          "Commentary by Sophie Aldred, Andrew Cartmel, Marc Platt, and Mark Ayres",
+          "Light in Dark Places documentary",
+          "Deleted and Extended Scenes",
+          "Shooting Ghosts",
+          "Writer's Question Time",
+          "Music-only Option",
+          "Production Subtitles",
+          "Easter Eggs"
+        ]
+      }
+    },
+    {},
+    {
+      "releases": {
+        "media_type": "VHS",
+        "date": "May 1994",
+        "special_features": []
+      }
+    }
+  ],
+  "story_notes": [
+    {
+      "notes": [
+        "This story evolved out of an earlier, rejected script entitled Lungbarrow.",
+        "Marc Platt was one of only two writers in the entire history of the series to have a script accepted with no professional writing experience.",
+        "Some fans and critics considered the story to be incredibly confusing, finding important plot elements were only alluded to or suggested via metaphor.",
+        "Ghost Light was the last serial of the original series to be produced.",
+        "A sound effect was inadvertently omitted from the scene of Control entering the lift and the Doctor, Ace and Inspector Mackenzie in the hallway in part two.",
+        "Several more scenes were cut or trimmed in post-production due to the story running over-length.",
+        "Sylvester McCoy named this as his favourite serial, while Andrew Cartmel called it \"the jewel in the crown\"."
+      ]
+    }
+  ],
+  "worldbuilding": {
+    "in_universe_mythology": [
+      "The Doctor calls Ace \"Eliza\" - a reference to the fictional character Eliza Doolittle from Pygmalion.",
+      "The Doctor's rhetorical question \"Who was it said Earthmen never invite their ancestors round to dinner?\" is a reference to The Hitchhiker's Guide to the Galaxy."
+    ],
+    "real_world_cultural_references": [
+      "Redvers tells the Doctor that he is hunting the crowned Saxe-Coburg - the Queen of England.",
+      "The Doctor quotes the phrase \"up the wooden hill to Bedfordshire\" when he is encouraged to go to bed.",
+      "The Doctor hums the tune of \"Rule, Britannia!\" while dining with Josiah.",
+      "Gwendoline plays on a piano and sings 'That's the Way to the Zoo'."
+    ],
+    "individuals": [
+      "Josiah Samuel Smith",
+      "Gwendoline",
+      "Reverend Ernest Matthews",
+      "Redvers Fenn-Cooper",
+      "Nimrod",
+      "Inspector Mackenzie",
+      "Light",
+      "Control"
+    ],
+    "items": [
+      "The metal snuff box with the initials RFC",
+      "The elephant rifle"
+    ],
+    "locations": [
+      "Gabriel Chase",
+      "The stone cellar chamber",
+      "The upper observatory"
+    ]
+  },
+  "ratings": {
+    "ratings_millions": [
+      {
+        "part": "1",
+        "viewers": 4.2
+      },
+      {
+        "part": "2",
+        "viewers": 4.0
+      },
+      {
+        "part": "3",
+        "viewers": 4.0
+      }
+    ]
+  },
+  "continuity": {
+    "continuity_notes": [
+      "Ace's friend Manisha Purkayastha was killed when her flat was attacked by a firebomb.",
+      "The Torchwood Institute would later investigate the Doctor's involvement in the Gabriel Chase incident.",
+      "The Timewyrm would later reprimand the Doctor for his actions in Gabriel Chase."
+    ]
+  },
+  "plot": [
+    {
+      "plot_summary": "The Seventh Doctor brings Ace to Gabriel Chase, an old house that she once burnt down in her hometown of Perivale. Trying to get Ace to accept her guilt is not the real reason the Doctor came here; a mysterious and mentally unstable being slumbers beneath them. The Doctor and Ace encounter a number of strange characters in the house, including the evolution-obsessed Josiah Samuel Smith, the explorer Redvers Fenn-Cooper, and the Neanderthal butler Nimrod. They soon discover that the house contains an alien spacecraft with two beings - the sleeping master, Light, and the imprisoned Control. Light is displeased by the changes that have occurred on Earth during his slumber and decides to destroy all organic life, while Smith tries to use the situation to his own advantage. The Doctor tries to convince Light of the futility of opposing evolution, causing Light to overload and dissipate. With Smith imprisoned on the ship, Control, Fenn-Cooper and Nimrod set off to explore the universe."
+    }
+  ]
+}

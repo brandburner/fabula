@@ -1,0 +1,189 @@
+{
+  "metadata": {
+    "title": "The Claws of Axos",
+    "series": "Doctor Who",
+    "season": "8",
+    "release_date": "13 March 1971",
+    "release_end_date": "3 April 1971",
+    "writer": "Bob Baker, Dave Martin",
+    "director": "Michael Ferguson",
+    "producer": "Barry Letts",
+    "main_actors": [
+      "Jon Pertwee",
+      "Katy Manning",
+      "Nicholas Courtney",
+      "John Levene",
+      "Richard Franklin",
+      "Roger Delgado",
+      "Paul Grist",
+      "Peter Bathurst",
+      "Fernanda Marlowe",
+      "Donald Hewlett",
+      "David Savile"
+    ],
+    "time_reference": "20th century"
+  },
+  "cast_crew": [
+    {
+      "cast": {
+        "name": "Jon Pertwee",
+        "role": "Dr. Who"
+      },
+      "crew": {
+        "name": "Michael Ferguson",
+        "role": "Director"
+      }
+    },
+    {
+      "cast": {
+        "name": "Katy Manning",
+        "role": "Jo Grant"
+      },
+      "crew": {
+        "name": "Barry Letts",
+        "role": "Producer"
+      }
+    },
+    {
+      "cast": {
+        "name": "Nicholas Courtney",
+        "role": "Brigadier Lethbridge-Stewart"
+      },
+      "crew": {
+        "name": "Bob Baker",
+        "role": "Writer"
+      }
+    },
+    {
+      "cast": {
+        "name": "John Levene",
+        "role": "Sergeant Benton"
+      },
+      "crew": {
+        "name": "Dave Martin",
+        "role": "Writer"
+      }
+    },
+    {
+      "cast": {
+        "name": "Richard Franklin",
+        "role": "Captain Mike Yates"
+      },
+      "crew": {
+        "name": "Dudley Simpson",
+        "role": "Music"
+      }
+    },
+    {
+      "cast": {
+        "name": "Roger Delgado",
+        "role": "The Master"
+      },
+      "crew": {
+        "name": "Terrance Dicks",
+        "role": "Script Editor"
+      }
+    }
+  ],
+  "home_media": [
+    {
+      "releases": {
+        "media_type": "DVD",
+        "date": "25 April 2005",
+        "details": "Region 2 release",
+        "special_features": [
+          "Commentary by Barry Letts, Katy Manning and Richard Franklin",
+          "Deleted and Extended Scenes",
+          "Now and Then documentary",
+          "Reverse Standards Conversion documentary",
+          "Directing Who documentary",
+          "Photo Gallery"
+        ]
+      }
+    },
+    {
+      "releases": {
+        "media_type": "DVD",
+        "date": "22 October 2012",
+        "details": "Special Edition",
+        "special_features": [
+          "Commentary with actors and producer",
+          "Axon Stations documentary",
+          "Now & Then documentary",
+          "Studio Recording",
+          "Living with Levene documentary",
+          "Photo Gallery"
+        ]
+      }
+    }
+  ],
+  "story_notes": [
+    {
+      "notes": [
+        "Working titles included The Gift and The Vampire from Space.",
+        "The story includes the first appearance of Axos in the Doctor Who series.",
+        "Notable filming locations included Dungeness Beach and the Nuton Power Complex.",
+        "The story's plot significantly involves themes of alien technology and cooperation with the Master."
+      ]
+    }
+  ],
+  "worldbuilding": {
+    "in_universe_mythology": [
+      "Axon race and their technology, including Axonite"
+    ],
+    "real_world_cultural_references": [],
+    "individuals": [
+      "The Master"
+    ],
+    "items": [
+      "Axonite",
+      "TARDIS",
+      "Light Accelerator"
+    ],
+    "locations": [
+      "Earth",
+      "Nuton Power Complex",
+      "Axos"
+    ]
+  },
+  "ratings": {
+    "ratings_millions": [
+      {
+        "part": "Episode One",
+        "viewers": 7.3
+      },
+      {
+        "part": "Episode Two",
+        "viewers": 8.0
+      },
+      {
+        "part": "Episode Three",
+        "viewers": 6.4
+      },
+      {
+        "part": "Episode Four",
+        "viewers": 7.8
+      }
+    ]
+  },
+  "continuity": {
+    "continuity_notes": [
+      "This story is the third serial featuring the Master in the 'Master arc.'",
+      "The Master later references this encounter with Axos in future episodes."
+    ]
+  },
+  "plot": [
+    {
+      "plot_summary": "A group of gold-skinned aliens known as the Axons land on Earth, offering advanced technology in exchange for assistance. The Third Doctor confronts these aliens' true intentions and faces his nemesis, the Master."
+    },
+    {
+      "plot_summary": "The Doctor investigates the Axon ship while Jo is captured and experiences visions of the creatures aboard. Meanwhile, UNIT faces internal conflicts about handling the alien technology."
+    },
+    {
+      "plot_summary": "With Jo's life at stake, the Doctor strategizes against the Axon plan to use Earth\u2019s energy while the Master seeks to manipulate both the Axons and UNIT for his gain."
+    },
+    {
+      "plot_summary": "The climax sees the Doctor leveraging the TARDIS to trap the Axons in a time loop, ultimately leading to a dramatic conclusion that sees the planet saved but leaves the Master\u2019s fate uncertain."
+    }
+  ]
+}

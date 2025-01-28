@@ -1,0 +1,112 @@
+{
+    "title": "Silver Nemesis",
+    "air_date": "23 November 1988",
+    "num_episodes": 3,
+    "episode_titles": [
+        "Part One",
+        "Part Two",
+        "Part Three"
+    ],
+    "episode_duration": 25,
+    "writers": [
+        "Kevin Clarke"
+    ],
+    "directors": [
+        "Chris Clough"
+    ],
+    "media_format": "Color",
+    "dialogue_triumphs": [
+        "I don't know if you're familiar with Wagner's Ring des Nibelung. Now we \u2013 we are the Supermen. But you \u2013 you are the Giants.",
+        "The bear will not pursue us: such things happen only in the theatre."
+    ],
+    "dialogue_disasters": null,
+    "goofs": [
+        "Although it is November, the Courtney Pine Quartet are playing outside in the sunshine, and Ace is in a T-shirt.",
+        "Ace is reading the previous Saturday's football scores on a Wednesday.",
+        "When the policemen are gassed by Nemesis, the chap who was sitting in the car ends up with his legs under the vehicle.",
+        "The cameraman stumbles or knocks into something when following Ace across the gantry in the third episode.",
+        "Lady Peinforte's arrowheads just happen to be made of gold.",
+        "It's never explained why the two controlled humans shoot at the Doctor and Ace in the first episode.",
+        "The Doctor and Ace appear to be allowed to walk away from the Queen's private residence as their escape from the security guards was edited from the transmitted story.",
+        "In episode two a helicopter was used to simulate the Cybership landing, the craft being superimposed over it. However, the blades are sometimes visible.",
+        "David Banks's eyes are visible as the Cyberleader pulls the coin out in episode three.",
+        "Why don't Ace's coins bounce off rather than pierce the Cybermen?",
+        "Doesn't Peinforte and Richard's arrival draw some sort of response from the people in the caf\u00e9?"
+    ],
+    "continuity_notes": [
+        {
+            "name": "Ace",
+            "type": "Character",
+            "description": "The Doctor's companion, follows Charlton Athletic and reads the Daily Mirror.",
+            "origin": null,
+            "current_status": "Traveling with the Seventh Doctor"
+        },
+        {
+            "name": "Validium",
+            "type": "Object",
+            "description": "Living metal that fell to Earth in 1638, formed into the Nemesis statue.",
+            "origin": "Time Lord technology",
+            "current_status": "Orbiting Earth, causing chaos every 25 years"
+        },
+        {
+            "name": "Lady Peinforte",
+            "type": "Character",
+            "description": "Antagonist from 1638 who fashioned the Nemesis statue and knows a secret about the Doctor.",
+            "origin": "17th century Earth",
+            "current_status": "Time traveled to 1988"
+        },
+        {
+            "name": "Nemesis",
+            "type": "Object",
+            "description": "Statue made of validium, orbits Earth every 25 years causing chaos.",
+            "origin": "Created by Lady Peinforte in 1638",
+            "current_status": "Orbiting Earth, approaching in 1988"
+        },
+        {
+            "name": "Cybermen",
+            "type": "Character",
+            "description": "Cyborg antagonists seeking the Nemesis statue.",
+            "origin": "Mondas",
+            "current_status": "Pursuing the Nemesis statue"
+        }
+    ],
+    "technobabble": null,
+    "roots": [
+        "Wagner's Ring des Nibelung",
+        "The Boys from Brazil",
+        "Kessler",
+        "Shakespeare's The Winter's Tale",
+        "Raiders of the Lost Ark",
+        "James Herbert's The Spear",
+        "Jubilee",
+        "The Changeling"
+    ],
+    "links": [
+        "The Happiness Patrol",
+        "Remembrance of the Daleks",
+        "The Deadly Assassin",
+        "The Curse of Fenric",
+        "The Tenth Planet"
+    ],
+    "locations": [
+        {
+            "name": "Windsor",
+            "type": "Location",
+            "description": "The primary setting for the story's events in both time periods.",
+            "origin": "England",
+            "current_status": "Location of events on 23 November 1638 and Wednesday 23 November 1988"
+        }
+    ],
+    "future_history": null,
+    "untold_adventures": [
+        "An adventure in 1638 involving validium, the second Doctor, and Lady Peinforte.",
+        "The Doctor's visit to Windsor when the castle was being built.",
+        "A possible Victorian-era adventure involving Ace, hinted at by a portrait in the extended video version."
+    ],
+    "qv": [
+        "Cyber History, 'The Tenth Planet'",
+        "The Origins of the Time Lords, 'The Deadly Assassin'"
+    ],
+    "additional_notes": "The story involves Nazis and is set on the 25th anniversary of Doctor Who's first broadcast.",
+    "bottom_line": "A bit of a mess, really. Some passable scenes, but the story lacks pace and character involvement. Its plot is virtually identical to 'Remembrance of the Daleks' only two stories previously. The story suffers from plot holes, pointless sequences, and fails to deliver a proper celebration for the show's anniversary."
+}

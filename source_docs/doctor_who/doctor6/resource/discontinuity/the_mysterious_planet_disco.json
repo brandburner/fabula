@@ -1,0 +1,123 @@
+{
+    "title": "The Mysterious Planet",
+    "air_date": "6 September 1986",
+    "num_episodes": 4,
+    "episode_titles": [
+        "Part One",
+        "Part Two",
+        "Part Three",
+        "Part Four"
+    ],
+    "episode_duration": 25,
+    "writers": [
+        "Robert Holmes"
+    ],
+    "directors": [
+        "Nicholas Mallett"
+    ],
+    "media_format": "Color",
+    "dialogue_triumphs": [
+        "The Doctor reassures Peri: 'Planets come and go, stars perish, matter disperses, coalesces, forms into other patterns, other worlds. Nothing can be eternal.'"
+    ],
+    "dialogue_disasters": [
+        "The Valeyard: 'I intend to adumbrate two typical instances from separate epistopic interfaces of the spectrum.'"
+    ],
+    "goofs": [],
+    "continuity_notes": [
+        {
+            "name": "Cloister Bell",
+            "type": "Object",
+            "description": "A warning device in the TARDIS that rings when extreme danger is near.",
+            "origin": "TARDIS",
+            "current_status": "Rings as the TARDIS is drawn to the space station"
+        },
+        {
+            "name": "Time Lord Space Station",
+            "type": "Location",
+            "description": "A space station used by Time Lords, possibly above Gallifrey or a TARDIS in flight.",
+            "origin": "Gallifrey",
+            "current_status": "Venue for the Doctor's trial"
+        },
+        {
+            "name": "The Matrix",
+            "type": "Object",
+            "description": "Repository of all Time Lord knowledge, capable of accessing experiences from all Time Lords.",
+            "origin": "Gallifrey",
+            "current_status": "Used to present evidence in the trial"
+        },
+        {
+            "name": "The Doctor",
+            "type": "Character",
+            "description": "Time Lord on trial, formerly President of Gallifrey",
+            "origin": "Gallifrey",
+            "current_status": "Charged with conduct unbecoming a Time Lord and transgressing the First Law of Time"
+        },
+        {
+            "name": "Peri",
+            "type": "Character",
+            "description": "The Doctor's companion",
+            "origin": "Earth",
+            "current_status": "Separated from the Doctor"
+        },
+        {
+            "name": "The Valeyard",
+            "type": "Character",
+            "description": "Prosecutor in the Doctor's trial",
+            "origin": "Gallifrey",
+            "current_status": "Presenting evidence against the Doctor"
+        },
+        {
+            "name": "The Inquisitor",
+            "type": "Character",
+            "description": "Judge in the Doctor's trial",
+            "origin": "Gallifrey",
+            "current_status": "Presiding over the trial"
+        }
+    ],
+    "technobabble": [
+        "Black light explosion could affect the whole universe",
+        "The aerial converts ultra-violet into black light"
+    ],
+    "roots": [
+        "A Christmas Carol",
+        "Genesis 19",
+        "The Water Babies",
+        "Post-holocaust movies",
+        "Arthurian myths",
+        "The Mad Max films",
+        "Planet of the Apes",
+        "Beneath the Planet of the Apes",
+        "Robin of Sherwood",
+        "Zardoz"
+    ],
+    "links": [
+        "The Doctor mentions Sarah Jane while semi-conscious"
+    ],
+    "locations": [
+        {
+            "name": "Ravolox",
+            "type": "Location",
+            "description": "Actually Earth, moved and devastated by a fireball",
+            "origin": "Solar System",
+            "current_status": "Post-apocalyptic world, two million years after the 20th century"
+        },
+        {
+            "name": "London",
+            "type": "Location",
+            "description": "Former Earth city, now part of Ravolox",
+            "origin": "Earth",
+            "current_status": "Near Marble Arch tube station, inhabited by the Tribe of the Free"
+        }
+    ],
+    "future_history": "Earth and its solar system moved 'a couple of light years' at least two million years after the 20th century. Ravolox/Earth was 'destroyed' by a solar fireball 500 years before this story.",
+    "untold_adventures": [
+        "The Doctor's previous enquiries and tribunals"
+    ],
+    "qv": [
+        "Season 6(b), 'The War Games'",
+        "The Location of Gallifrey, 'Terror of the Autons'",
+        "The Doctor's Age, 'Pyramids of Mars'"
+    ],
+    "additional_notes": "The story features several unique elements such as the Sleepers from Andromeda, the underground dwellers calling their world UK Habitat, and Glitz's background from Salostophus in the Andromeda galaxy.",
+    "bottom_line": "A good, traditional story, with great design and direction. At this stage the trial scenes aren't intrusive, and it really feels like Doctor Who, on the way to an epic."
+}

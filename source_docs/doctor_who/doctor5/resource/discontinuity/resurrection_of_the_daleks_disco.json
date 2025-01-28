@@ -1,0 +1,86 @@
+{
+    "title": "Resurrection of the Daleks",
+    "air_date": "8 February 1984",
+    "num_episodes": 2,
+    "episode_titles": [
+        "Part One",
+        "Part Two"
+    ],
+    "episode_duration": 45,
+    "writers": [
+        "Eric Saward"
+    ],
+    "directors": [
+        "Matthew Robinson"
+    ],
+    "media_format": "Color",
+    "dialogue_triumphs": [
+        "Turlough, on learning that they're going back to the TARDIS: 'Best news all day.'"
+    ],
+    "dialogue_disasters": [
+        "Your bile would be better directed against the enemy, Doctor!",
+        "Pages of clunking macho nonsense"
+    ],
+    "goofs": [
+        "Archer's OTT disco death is one of several over-acted moments.",
+        "Davros is surprised at the impasse of the Dalek/Movellan war, although he saw it at first hand in 'Destiny of the Daleks'.",
+        "The studio technician operating Davros's lab's sliding door can be seen silhouetted behind the semi-transparent wall. When the door shuts, he straightens up and goes.",
+        "The Dalek in the warehouse is pushed out of an upstairs window, so why does the wreckage turn up again upstairs?"
+    ],
+    "continuity_notes": [
+        {
+            "name": "The Doctor",
+            "type": "Character",
+            "description": "The protagonist of the series",
+            "origin": null,
+            "current_status": "Handles a gun, killing a Dalek mutant. Has fillings in his teeth."
+        },
+        {
+            "name": "Supreme Dalek",
+            "type": "Character",
+            "description": "A black Dalek in charge of one Dalek faction",
+            "origin": "Skaro",
+            "current_status": "Leading a Dalek faction"
+        },
+        {
+            "name": "Daleks",
+            "type": "Organization",
+            "description": "The Doctor's oldest enemies",
+            "origin": "Skaro",
+            "current_status": "Can duplicate people without close inspection, the duplicates being conditioned to obey them"
+        }
+    ],
+    "technobabble": null,
+    "roots": [
+        "War movies",
+        "Alien",
+        "Star Wars"
+    ],
+    "links": [
+        "The flashback sequence in episode two features all the Doctor's companions except Leela."
+    ],
+    "locations": [
+        {
+            "name": "1984 docklands, London",
+            "type": "Location",
+            "description": "A setting in the story",
+            "origin": "Earth",
+            "current_status": "Location of events in the story"
+        },
+        {
+            "name": "Space station",
+            "type": "Location",
+            "description": "A setting in the story, 90 years after 'Destiny of the Daleks'",
+            "origin": null,
+            "current_status": "Location of events in the story"
+        }
+    ],
+    "future_history": "Earth in the future has a Constitution, the 25th (or 26th) amendment concerning individual choice.",
+    "untold_adventures": null,
+    "qv": [
+        "The Second Dalek History",
+        "Genesis of the Daleks"
+    ],
+    "additional_notes": "The story also exists as a four-part version. There are inconsistencies in the plot, such as the purpose of duplicates and Stien's behavior. The Daleks seem to have multiple conflicting objectives.",
+    "bottom_line": "A glossy mess, with lots of crowd-pleasing gestures randomly thrown in. Many of the aesthetic elements are very good (the Daleks themselves, and some real horror in the scene where a character's face dissolves), but the story is confused, oddly complicating its job of picking up Dalek continuity by bringing in several other just as complex plots for no good reason. The Doctor is far less moral than usual, the story being much more concerned with the mercenary, Lytton. There are great performances from the regulars, Strickson in particular shining. And Tegan gets a good leaving scene."
+}

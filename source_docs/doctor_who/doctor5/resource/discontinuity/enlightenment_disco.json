@@ -1,0 +1,101 @@
+{
+    "title": "Enlightenment",
+    "air_date": "1 March 1983",
+    "num_episodes": 4,
+    "episode_titles": [
+        "Part One",
+        "Part Two",
+        "Part Three",
+        "Part Four"
+    ],
+    "episode_duration": 25,
+    "writers": [
+        "Barbara Clegg"
+    ],
+    "directors": [
+        "Fiona Cumming"
+    ],
+    "media_format": "Color",
+    "dialogue_triumphs": [
+        "Striker, on being told that the Doctor is a Time Lord: 'Are there lords in such a small domain?'"
+    ],
+    "dialogue_disasters": [
+        "Resistance is futile!",
+        "Why could a pig never become a sailor? He can't look aloft!"
+    ],
+    "goofs": [
+        "In episode one when the ship experiences turbulence, the liquid in the glasses doesn't move.",
+        "When the air is released from the airlock, the stars outside spin.",
+        "There's a vast, Pythonesque flashing sign that says: 'Vacuum Shield Off'.",
+        "Tegan, frozen in time, is a bit wobbly (and had her eyes open when frozen: when we see her again, they're closed).",
+        "The Doctor, carrying the remains of the jewel, falls over on deck and crawls to the side, as if against a mighty force.",
+        "In some scenes in episode three Turlough is wearing a wedding ring, which is absent for most of the story.",
+        "As the First Mate, Marriner should have three stripes, not two."
+    ],
+    "continuity_notes": [
+        {
+            "name": "Time Lords",
+            "type": "Organization",
+            "description": "A race of powerful beings that the Doctor belongs to, not quite Ephemerals or Eternals.",
+            "origin": "Gallifrey",
+            "current_status": "Ambiguous status among Eternals"
+        },
+        {
+            "name": "Eternals",
+            "type": "Character",
+            "description": "Powerful beings that can look and behave like whatever their human subjects want them to.",
+            "origin": "Other-dimensional home",
+            "current_status": "Seeking Enlightenment"
+        },
+        {
+            "name": "Tegan",
+            "type": "Character",
+            "description": "The Doctor's companion, from Brisbane, Australia.",
+            "origin": "Earth",
+            "current_status": "Traveling with the Doctor"
+        },
+        {
+            "name": "The Doctor",
+            "type": "Character",
+            "description": "The main protagonist, a Time Lord.",
+            "origin": "Gallifrey",
+            "current_status": "Replacing his celery, holding but not drinking champagne"
+        },
+        {
+            "name": "Enlightenment",
+            "type": "Concept",
+            "description": "The knowledge of everything in the Universe, and thus ultimate power.",
+            "origin": null,
+            "current_status": "Promised to the Eternals by the Guardians"
+        }
+    ],
+    "technobabble": null,
+    "roots": [
+        "The Flying Dutchman",
+        "Arthur C. Clarke's 'The Wind from the Sun'",
+        "The Japanese film Message from Space (sailing ships in space)"
+    ],
+    "links": [
+        "Venus, 'The Time Monster'",
+        "The Guardians and the Key to Time, 'The Ribos Operation'",
+        "The TARDIS Scanner, 'Full Circle'"
+    ],
+    "locations": [
+        {
+            "name": "Eternal ships",
+            "type": "Location",
+            "description": "Sailing ships in space, orbiting Venus in the solar system",
+            "origin": "Created by Eternals",
+            "current_status": "Active in the story"
+        }
+    ],
+    "future_history": null,
+    "untold_adventures": null,
+    "qv": [
+        "Venus, 'The Time Monster'",
+        "The Guardians and the Key to Time, 'The Ribos Operation'",
+        "The TARDIS Scanner, 'Full Circle'"
+    ],
+    "additional_notes": "The Doctor's hair is as long as it gets, positively flowing. Tegan's hair might be a wig. Mark Strickson (Turlough) starts the story at intensity 10 and works his way up to at least 15, with 'I'm not a spyyyyy!' being his most wonderfully over-the-top line.",
+    "bottom_line": "A lyrical fantasy, with some original directorial approaches to space scenes, and a snappy, hugely-entertaining writing style. Janet Fielding is rather muted, but Mark Strickson delivers an intense performance. The overall impression is a lot of panting people, tearing up and down in a most entertaining way. Great music, too. All in all a glittering jewel, rather neglected."
+}

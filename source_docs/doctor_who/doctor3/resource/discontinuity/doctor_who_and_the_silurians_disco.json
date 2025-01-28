@@ -1,0 +1,85 @@
+{
+    "title": "Doctor Who and the Silurians",
+    "air_date": "31 January 1970",
+    "num_episodes": 7,
+    "episode_titles": [
+        "Episode 1",
+        "Episode 2",
+        "Episode 3",
+        "Episode 4",
+        "Episode 5",
+        "Episode 6",
+        "Episode 7"
+    ],
+    "episode_duration": 25,
+    "writers": [
+        "Malcolm Hulke"
+    ],
+    "directors": [
+        "Timothy Combe"
+    ],
+    "media_format": "Color",
+    "dialogue_triumphs": [
+        "The Doctor sings the first few lines of Lewis Carroll's 'Jaberwocky' (Through the Looking Glass)"
+    ],
+    "dialogue_disasters": [
+        "She was found in the barn, paralysed with fear. She may have seen something."
+    ],
+    "goofs": [
+        "In the first episode Caroline John says: 'It would make a nite nice trip for us.'",
+        "In the first episode Liz's skirt snags on her belt.",
+        "We briefly see a 'Silurian' zip in episode seven.",
+        "The protective properties of the ozone layer are wrongly attributed to the Van Allen belt."
+    ],
+    "continuity_notes": [
+        {
+            "name": "Silurians/Eocenes",
+            "type": "Character",
+            "description": "An ancient reptilian species that ruled Earth before humans. They went into hibernation due to a potential catastrophe involving a small planet that became Earth's moon.",
+            "origin": "Earth",
+            "current_status": "Awakened from hibernation, in conflict with humans"
+        },
+        {
+            "name": "Bessie",
+            "type": "Object",
+            "description": "The Third Doctor's yellow vintage car",
+            "origin": "Earth",
+            "current_status": "First appearance, numberplate WHO 1"
+        }
+    ],
+    "technobabble": [
+        "The cyclotron stuff is passable, although marks are deducted for fusing the control of the neutron flow.",
+        "Liz, on a possible antidote: 'Have you considered the addition of A37 in the presence of Z19?'"
+    ],
+    "roots": [
+        "Nigel Kneale's works (The Quatermass Experiment, Quatermass II, Quatermass and the Pit)",
+        "H. P. Lovecraft",
+        "Daphne du Maurier's 'The Breakthrough'",
+        "Children of the Damned",
+        "Dr No",
+        "The Avengers episode 'The White Dwarf'",
+        "Lewis Carroll's 'Jaberwocky' (Through the Looking Glass)",
+        "Sherlock Holmes and Dr Watson"
+    ],
+    "links": [
+        "The Sea Devils"
+    ],
+    "locations": [
+        {
+            "name": "Wenley Moor Atomic Research Station",
+            "type": "Location",
+            "description": "An underground atomic research establishment with a cyclotron for converting nuclear energy into electrical current",
+            "origin": "Earth",
+            "current_status": "Active research facility, inadvertently awakened nearby Silurians"
+        }
+    ],
+    "future_history": null,
+    "untold_adventures": null,
+    "qv": [
+        "Dating the UNIT Stories, 'The Invasion'",
+        "UNIT Call-Signs, 'The Invasion'",
+        "The Doctor's Age, 'Pyramids of Mars'"
+    ],
+    "additional_notes": "Fashion Victims: Liz in an outrageous mini. In episode seven, the Doctor sports a white T-shirt.",
+    "bottom_line": "This is an engaging story, making good use of its extra episodes and resources (including scenes of people succumbing to the bacteria around Waterloo station). The music, however, sounds like a computerised kazoo."
+}

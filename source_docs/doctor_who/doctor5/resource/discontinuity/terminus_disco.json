@@ -1,0 +1,117 @@
+{
+    "title": "Terminus",
+    "air_date": "15 February 1983",
+    "num_episodes": 4,
+    "episode_titles": [
+        "Part One",
+        "Part Two",
+        "Part Three",
+        "Part Four"
+    ],
+    "episode_duration": 25,
+    "writers": [
+        "Steve Gallagher"
+    ],
+    "directors": [
+        "Mary Ridge"
+    ],
+    "media_format": "Color",
+    "dialogue_triumphs": [
+        "Bor discovers he isn't dead. 'It's a relief. I am hoping for something rather better on the other side.'"
+    ],
+    "dialogue_disasters": [
+        "The Black Guardian tells Turlough how to disable the TARDIS: 'Operate the blue switches!'",
+        "Kari: 'Freeeeeeze!'"
+    ],
+    "goofs": [],
+    "continuity_notes": [
+        {
+            "name": "Terminus",
+            "type": "Location",
+            "description": "A spacecraft at the centre of the known universe, once capable of time travel.",
+            "origin": null,
+            "current_status": "Serving as a leper colony and medical facility for Lazar's disease."
+        },
+        {
+            "name": "Event One",
+            "type": "Concept",
+            "description": "A cosmic event caused by the explosion of a jettisoned fuel pod from Terminus in a void, leading to a chain reaction.",
+            "origin": "Terminus",
+            "current_status": null
+        },
+        {
+            "name": "TARDIS Space-Time Element",
+            "type": "Object",
+            "description": "A crucial component of the TARDIS located beneath the console, referred to as 'the heart of the TARDIS'.",
+            "origin": "TARDIS",
+            "current_status": "When removed in flight, it causes dimensional instability and potential TARDIS break-up."
+        },
+        {
+            "name": "Lazar's Disease",
+            "type": "Concept",
+            "description": "A disease curable by a massive dose of radiation, though this method is crude and potentially dangerous.",
+            "origin": null,
+            "current_status": "Being treated on Terminus"
+        },
+        {
+            "name": "Nyssa",
+            "type": "Character",
+            "description": "A companion of the Doctor from Traken with scientific knowledge.",
+            "origin": "Traken",
+            "current_status": "Decides to stay on Terminus to help synthesize hydromel and aid the sick."
+        },
+        {
+            "name": "Hydromel",
+            "type": "Object",
+            "description": "A drug supplied by Terminus Incorporated to treat Lazar's disease.",
+            "origin": "Terminus Incorporated",
+            "current_status": "Being synthesized by Nyssa"
+        },
+        {
+            "name": "Vanir",
+            "type": "Character",
+            "description": "Inhabitants or workers on Terminus.",
+            "origin": null,
+            "current_status": "Operating Terminus"
+        }
+    ],
+    "technobabble": [
+        "The TARDIS failsafe seeks out and locks onto the nearest spacecraft when impending break-up occurs."
+    ],
+    "roots": [
+        "Polanski's Repulsion (Tegan attacked by arms)",
+        "Papillon (a leper colony as sanctuary for convicts)",
+        "Things to Come (pirate costume design)",
+        "Gallagher's An Alternative to Suicide (exploitative company)",
+        "Norse mythology (Valgard, Eirak, Sigurd, Bor, the Garm)"
+    ],
+    "links": [
+        "Turlough is given Adric's room in the TARDIS",
+        "Visual references to 'Kinda' (the double helix)",
+        "Visual references to 'The Visitation' (the android's mask)",
+        "Visual references to 'Logopolis' (the star chart)"
+    ],
+    "locations": [
+        {
+            "name": "Ship travelling to Terminus",
+            "type": "Location",
+            "description": "A spacecraft transporting people to Terminus.",
+            "origin": null,
+            "current_status": "In transit to Terminus"
+        },
+        {
+            "name": "Terminus",
+            "type": "Location",
+            "description": "A medical facility at the centre of the known universe, treating Lazar's disease.",
+            "origin": null,
+            "current_status": "Operational as a treatment center"
+        }
+    ],
+    "future_history": null,
+    "untold_adventures": null,
+    "qv": [
+        "The TARDIS Scanner, 'Full Circle'"
+    ],
+    "additional_notes": "Once remembered for Nyssa dropping her skirt and the rumoured appearance of the Ice Warriors that didn't happen.",
+    "bottom_line": "'There is no return. This is Terminus.' Once remembered for all the wrong reasons, 'Terminus' has matured and now stands revealed as an excellent example of pure, technobabble-free SF within the series' format. Nyssa's farewell with the Doctor ('You're a very brave person') is one of the series' most emotional moments."
+}

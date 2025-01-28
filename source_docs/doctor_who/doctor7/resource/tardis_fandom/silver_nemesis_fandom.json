@@ -1,0 +1,175 @@
+{
+  "metadata": {
+    "title": "Silver Nemesis",
+    "series": "Doctor Who",
+    "season": "25",
+    "release_date": "23 November 1988",
+    "release_end_date": "7 December 1988",
+    "writer": "Kevin Clarke",
+    "director": "Chris Clough",
+    "producer": "John Nathan-Turner",
+    "main_actors": [
+      "Sylvester McCoy",
+      "Sophie Aldred",
+      "Anton Diffring",
+      "Metin Yenal",
+      "Fiona Walker",
+      "Gerard Murphy",
+      "Leslie French",
+      "Martyn Read",
+      "Dolores Gray",
+      "David Banks"
+    ],
+    "time_reference": "1988"
+  },
+  "cast_crew": [
+    {
+      "cast": {
+        "name": "Sylvester McCoy",
+        "role": "The Doctor"
+      },
+      "crew": {
+        "name": "Kevin Clarke",
+        "role": "Writer"
+      }
+    },
+    {
+      "cast": {
+        "name": "Sophie Aldred",
+        "role": "Ace"
+      },
+      "crew": {
+        "name": "Chris Clough",
+        "role": "Director"
+      }
+    },
+    {
+      "cast": {
+        "name": "Anton Diffring",
+        "role": "De Flores"
+      },
+      "crew": {
+        "name": "John Nathan-Turner",
+        "role": "Producer"
+      }
+    },
+    {
+      "cast": {
+        "name": "Fiona Walker",
+        "role": "Lady Peinforte"
+      },
+      "crew": {
+        "name": "Andrew Cartmel",
+        "role": "Script Editor"
+      }
+    },
+    {
+      "cast": {
+        "name": "Gerard Murphy",
+        "role": "Richard Maynarde"
+      },
+      "crew": {
+        "name": "Keff McCulloch",
+        "role": "Incidental Music"
+      }
+    }
+  ],
+  "home_media": [
+    {
+      "releases": {
+        "media_type": "VHS",
+        "date": "1993",
+        "details": "Extended edition includes scenes not aired in the original broadcast and 'The Making of Doctor Who: Silver Nemesis' documentary.",
+        "special_features": []
+      }
+    },
+    {
+      "releases": {
+        "media_type": "DVD",
+        "date": "9 August 2010",
+        "details": "Restored version with commentary, deleted scenes, and a featurette overview.",
+        "special_features": [
+          "Commentary by Sylvester McCoy, Sophie Aldred, and Andrew Cartmel",
+          "Industrial Action featurette",
+          "Deleted and extended scenes",
+          "Isolated score",
+          "Production information"
+        ]
+      }
+    },
+    {
+      "releases": {
+        "media_type": "BLU_RAY",
+        "date": "21 October 2024",
+        "details": "Special Edition with CGI updates.",
+        "special_features": []
+      }
+    }
+  ],
+  "story_notes": [
+    {
+      "notes": [
+        "25th anniversary special.",
+        "The story debuted on the exact 25th anniversary of the first episode of Doctor Who.",
+        "This was the last appearance of the Cybermen in the original run of the series."
+      ]
+    }
+  ],
+  "worldbuilding": {
+    "in_universe_mythology": [
+      "Validium, a living metal created on Gallifrey.",
+      "Lady Peinforte's dark magic to travel through time."
+    ],
+    "real_world_cultural_references": [
+      "The reference to the neo-Nazi plot in the character of De Flores.",
+      "Costume and character inspirations from 17th-century aesthetics."
+    ],
+    "individuals": [
+      "Queen Elizabeth II",
+      "Louis Armstrong"
+    ],
+    "items": [
+      "Nemesis comet",
+      "Validium statue",
+      "Gold-tipped arrows"
+    ],
+    "locations": [
+      "Windsor, England",
+      "South America",
+      "Windsor Castle"
+    ]
+  },
+  "ratings": {
+    "ratings_millions": [
+      {
+        "part": "Part one",
+        "viewers": 6.1
+      },
+      {
+        "part": "Part two",
+        "viewers": 5.2
+      },
+      {
+        "part": "Part three",
+        "viewers": 5.2
+      }
+    ]
+  },
+  "continuity": {
+    "continuity_notes": [
+      "References to previous adventures with the Daleks.",
+      "Connection to the major themes of time travel and its consequences."
+    ]
+  },
+  "plot": [
+    {
+      "plot_summary": "The arrival of a mysterious comet heralds impending danger from enemies both old and new. As Ace helps the Doctor defend Earth, she is confronted with a dangerous question... 'Who is the Doctor?'"
+    },
+    {
+      "plot_summary": "The Cybermen arrive, recognizing the Doctor, as the Nazis and Peinforte intensify their efforts to control the Nemesis statue. The Doctor reveals significant links between the events and their historical contexts."
+    },
+    {
+      "plot_summary": "In a final showdown, the Doctor and Ace face Peinforte and the Cybermen, leading to a climax involving the fate of the validium and the implications of power and control as the Nemesis is unleashed."
+    }
+  ]
+}

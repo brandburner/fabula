@@ -1,0 +1,114 @@
+{
+    "title": "The Invasion",
+    "air_date": "2 November 1968",
+    "num_episodes": 8,
+    "episode_titles": [
+        "Episode 1",
+        "Episode 2",
+        "Episode 3",
+        "Episode 4",
+        "Episode 5",
+        "Episode 6",
+        "Episode 7",
+        "Episode 8"
+    ],
+    "episode_duration": 25,
+    "writers": [
+        "Derrick Sherwin"
+    ],
+    "directors": [
+        "Douglas Camfield"
+    ],
+    "media_format": "B_W",
+    "dialogue_triumphs": [],
+    "dialogue_disasters": [
+        "Lethbridge-Stewart: 'I think those crazy kids have gone off to the sewers to get photographs of the Cybermen.'"
+    ],
+    "goofs": [
+        "In episode five, the panel concealing the Cyber director struggles to close.",
+        "The Cyberman falling from the roof of an IE building in episode eight is clearly an empty costume.",
+        "Zoe's and Isobel's knickers are frequently revealed.",
+        "In episode six, Gregory's sudden low-budget announcement of the off-screen recapture of Professor Watkins by UNIT is followed by his low-budget on-screen death as an extra who looks nothing like him is shot by a Cyberman in the sewer."
+    ],
+    "continuity_notes": [
+        {
+            "name": "TARDIS",
+            "type": "Object",
+            "description": "The Doctor's time machine",
+            "origin": null,
+            "current_status": "Rendered invisible due to a faulty visual stabiliser circuit"
+        },
+        {
+            "name": "Cybermen",
+            "type": "Character",
+            "description": "Cybernetic beings from Mondas",
+            "origin": "Mondas",
+            "current_status": "Attempting to invade Earth"
+        },
+        {
+            "name": "United Nations Intelligence Taskforce (UNIT)",
+            "type": "Organization",
+            "description": "Military organization dealing with alien threats",
+            "origin": "Geneva",
+            "current_status": "Newly formed, with headquarters in a Hercules transport plane"
+        },
+        {
+            "name": "Brigadier Lethbridge-Stewart",
+            "type": "Character",
+            "description": "Leader of UNIT's British forces",
+            "origin": "Earth",
+            "current_status": "Recently promoted to Brigadier"
+        },
+        {
+            "name": "International Electromatics",
+            "type": "Organization",
+            "description": "Earth's largest electronics manufacturer",
+            "origin": "Earth",
+            "current_status": "Front for Cybermen invasion"
+        }
+    ],
+    "technobabble": [
+        "Gregory states narrow bandwidth transducers should make 'transmission more directional'.",
+        "Zoe disables the IE computer, giving it an insoluble Algol equation: 'Real X sum positive, delete square\u2026 print out Y to the minus X variable one.'"
+    ],
+    "roots": [
+        "The Third Man",
+        "The Ipcress File",
+        "The Power Game",
+        "Quatermass II",
+        "James Bond",
+        "Richard III",
+        "Earth vs. The Flying Saucers"
+    ],
+    "links": [
+        "The Web of Fear",
+        "Spearhead from Space",
+        "The Wheel in Space"
+    ],
+    "locations": [
+        {
+            "name": "London",
+            "type": "Location",
+            "description": "Capital city of England",
+            "origin": "Earth",
+            "current_status": "Setting for the story in Spring 1969"
+        },
+        {
+            "name": "Dark side of the moon",
+            "type": "Location",
+            "description": "Hidden location of Cybermen's spaceship",
+            "origin": "Earth's moon",
+            "current_status": "Concealing Cybermen's presence"
+        }
+    ],
+    "future_history": null,
+    "untold_adventures": [
+        "The Doctor and Jamie's encounter with Cybermen on 'Planet 14'"
+    ],
+    "qv": [
+        "Cyber History",
+        "The Tenth Planet"
+    ],
+    "additional_notes": "This story was intended to be set in the near future, but there's little to suggest it doesn't take place in the late 1960s. It serves as a pilot for the early 70s Doctor Who format.",
+    "bottom_line": "A comparatively large budget leads to an all-action romp, showing the advantages of recognisable Earth settings. The sign of things to come."
+}

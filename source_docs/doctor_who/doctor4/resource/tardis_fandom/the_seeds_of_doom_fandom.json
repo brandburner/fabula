@@ -1,0 +1,190 @@
+{
+  "metadata": {
+    "title": "The Seeds of Doom",
+    "series": "Doctor Who",
+    "season": "13",
+    "episode_number": 6,
+    "release_date": "1976-01-31",
+    "release_end_date": "1976-03-06",
+    "writer": "Robert Banks Stewart",
+    "director": "Douglas Camfield",
+    "producer": "Philip Hinchcliffe",
+    "main_actors": [
+      "Tom Baker",
+      "Elisabeth Sladen",
+      "Tony Beckley",
+      "John Challis",
+      "Mark Jones"
+    ],
+    "time_reference": "20th century"
+  },
+  "cast_crew": [
+    {
+      "cast": {
+        "name": "Tom Baker",
+        "role": "Fourth Doctor"
+      },
+      "crew": {
+        "name": "Douglas Camfield",
+        "role": "Director"
+      }
+    },
+    {
+      "cast": {
+        "name": "Elisabeth Sladen",
+        "role": "Sarah Jane Smith"
+      },
+      "crew": {
+        "name": "Philip Hinchcliffe",
+        "role": "Producer"
+      }
+    },
+    {
+      "cast": {
+        "name": "Tony Beckley",
+        "role": "Harrison Chase"
+      },
+      "crew": {
+        "name": "Robert Banks Stewart",
+        "role": "Writer"
+      }
+    },
+    {
+      "cast": {
+        "name": "John Challis",
+        "role": "Scorby"
+      },
+      "crew": {
+        "name": "Geoffrey Burgon",
+        "role": "Incidental Music"
+      }
+    },
+    {
+      "cast": {
+        "name": "Mark Jones",
+        "role": "Arnold Keeler"
+      },
+      "crew": {
+        "name": "George Gallaccio",
+        "role": "Production Unit Manager"
+      }
+    }
+  ],
+  "home_media": [
+    {
+      "releases": {
+        "media_type": "VHS",
+        "date": "1994",
+        "details": "Released in the UK",
+        "special_features": []
+      }
+    },
+    {
+      "releases": {
+        "media_type": "DVD",
+        "date": "2010-10-25",
+        "special_features": [
+          "Commentary by Tom Baker, John Challis, Kenneth Gilbert, Michael McStay, Philip Hinchcliffe, Robert Banks Stewart, Roger Murray-Leach and Joggs Camfield",
+          "Podshock - Examining the making of The Seeds of Doom",
+          "Playing in the Green Cathedral - The music of Geoffrey Burgon",
+          "Stripped for Action - A look at the comic strip adventures of the Fourth Doctor",
+          "Now & Then - Locations used in The Seeds of Doom, 24 years on",
+          "So What Do You Do Exactly? - The roles of the Production Assistant and Production Unit Manager, with Graeme Harper",
+          "Isolated Score",
+          "Trails and Continuity",
+          "Radio Times Billings & Douglas Camfield's Paper Edit (PDF DVD-ROM - PC/MAC)",
+          "Production Information Subtitles",
+          "Photo Gallery",
+          "Coming Soon Trailer - Meglos",
+          "Easter Eggs"
+        ]
+      }
+    }
+  ],
+  "story_notes": [
+    {
+      "notes": [
+        "An early version of The Hand of Fear was originally scheduled to be produced as the final serial of season 13 but was replaced by The Seeds of Doom.",
+        "This story marked the director Douglas Camfield's last involvement with Doctor Who.",
+        "The Krynoid costume was repurposed from an Axon costume from The Claws of Axos and sprayed green.",
+        "This serial was the last to use the Brachacki police box prop before it wore out.",
+        "The production used outside broadcasting for exteriors, previously used in Robot and The Sontaran Experiment.",
+        "Kenneth Gilbert almost did not appear due to contracting chickenpox, but the shooting schedule was adjusted to accommodate his recovery.",
+        "The Doctor previously visited Antarctica in The Tenth Planet."
+      ]
+    }
+  ],
+  "worldbuilding": {
+    "in_universe_mythology": [
+      "Intergalactic Floral Society"
+    ],
+    "real_world_cultural_references": [
+      "Gone With the Wind",
+      "Voltaire's line about money",
+      "Franklin Pierce Adams",
+      "The Thing from Another World",
+      "Man-Eater of Surrey Green",
+      "The Quatermass Experiment",
+      "The Day of the Triffids"
+    ],
+    "individuals": [
+      "Harrison Chase",
+      "Arnold Keeler",
+      "Richard Dunbar",
+      "Sir Colin Thackeray",
+      "Amelia Ducat"
+    ],
+    "items": [
+      "Krynoid pod",
+      "amputation tools",
+      "blood test equipment"
+    ],
+    "locations": [
+      "Antarctica",
+      "England",
+      "Harrison Chase's estate",
+      "World Ecology Bureau",
+      "Botanic Institute"
+    ]
+  },
+  "ratings": {
+    "ratings_millions": [
+      {
+        "part": "Part one",
+        "viewers": 11.6
+      },
+      {
+        "part": "Part two",
+        "viewers": 11.4
+      },
+      {
+        "part": "Part three",
+        "viewers": 10.3
+      },
+      {
+        "part": "Part four",
+        "viewers": 11.1
+      },
+      {
+        "part": "Part five",
+        "viewers": 9.9
+      },
+      {
+        "part": "Part six",
+        "viewers": 11.5
+      }
+    ]
+  },
+  "continuity": {
+    "continuity_notes": [
+      "The Doctor and UNIT do not meet again until Battlefield.",
+      "The Krynoids appear in other Doctor Who media such as Stop the Pigeon, Hothouse, The Root of All Evil, and The Green Man.",
+      "Sarah Jane Smith returns to Antarctica in Snow Blind and The Gift."
+    ]
+  },
+  "plot": [
+    {
+      "plot_summary": "In Antarctica, scientists discover a mysterious pod. The Doctor and Sarah Jane join the investigation, realizing it's extraterrestrial and dangerous. Harrison Chase, an obsessed millionaire, desires the pod. A team is sent by Chase to steal the pod, leading to a confrontation with a transformed Krynoid creature. As the Krynoid threatens to destroy life, the Doctor and Sarah battle to stop it, involving UNIT and using explosive devices to defeat the threat, ultimately destroying the Krynoid."
+    }
+  ]
+}

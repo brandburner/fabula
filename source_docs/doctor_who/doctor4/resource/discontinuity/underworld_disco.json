@@ -1,0 +1,110 @@
+{
+    "title": "Underworld",
+    "air_date": "7 January 1978",
+    "num_episodes": 4,
+    "episode_titles": [
+        "Part One",
+        "Part Two",
+        "Part Three",
+        "Part Four"
+    ],
+    "episode_duration": 25,
+    "writers": [
+        "Bob Baker",
+        "Dave Martin"
+    ],
+    "directors": [
+        "Norman Stewart"
+    ],
+    "media_format": "Color",
+    "dialogue_triumphs": [
+        "Don't ever play with strange weapons, Leela.",
+        "Do not worry, he has saved many fathers."
+    ],
+    "dialogue_disasters": null,
+    "goofs": [
+        "The artefacts have 'Made in Minyos' stamped on them.",
+        "At the end, the Doctor leaves the Minyans with dozens of people to take care of over a 400-year journey in a tiny ship, ignoring the possibility of taking them home in the TARDIS."
+    ],
+    "continuity_notes": [
+        {
+            "name": "TARDIS",
+            "type": "Object",
+            "description": "The Doctor's time and space machine",
+            "origin": null,
+            "current_status": "The landing sound is actually that of its relative dimensional stabiliser. It sometimes flies through real space."
+        },
+        {
+            "name": "Leela",
+            "type": "Character",
+            "description": "The Doctor's companion",
+            "origin": null,
+            "current_status": "Can operate certain TARDIS controls"
+        },
+        {
+            "name": "K-9",
+            "type": "Character",
+            "description": "The Doctor's robotic dog companion",
+            "origin": null,
+            "current_status": "Can interface with other computers through bulldog clips on his 'ears'"
+        },
+        {
+            "name": "Minyans",
+            "type": "Organization",
+            "description": "Ancient race that accepted Time Lord technology",
+            "origin": "Minyos",
+            "current_status": "Destroyed their world 100,000 years ago, now searching for a new home"
+        },
+        {
+            "name": "Time Lords",
+            "type": "Organization",
+            "description": "The Doctor's race",
+            "origin": "Gallifrey",
+            "current_status": "Previously interfered with Minyan civilization"
+        }
+    ],
+    "technobabble": [
+        "There are bizarre ideas about gravity and planetary formation.",
+        "Charmingly, there's zero gravity at the planet's centre."
+    ],
+    "roots": [
+        "The Flying Dutchman",
+        "Orpheus",
+        "Persephone",
+        "The Odyssey",
+        "Jason and the Argonauts",
+        "the Sword of Damocles",
+        "Planet of the Apes",
+        "Star Trek's 'For the World is Hollow and I Have Touched the Sky'",
+        "Star Trek's 'Return of the Archons'",
+        "Star Trek's 'The Cloud Minders'"
+    ],
+    "links": null,
+    "locations": [
+        {
+            "name": "Edge of the Universe",
+            "type": "Location",
+            "description": "Actually the edge of a galaxy where planets are being formed in a spiral nebula",
+            "origin": null,
+            "current_status": "Site of planetary formation"
+        },
+        {
+            "name": "Minyos 2",
+            "type": "Location",
+            "description": "Destination planet for the Minyans",
+            "origin": null,
+            "current_status": "211 light years away from current location"
+        }
+    ],
+    "future_history": null,
+    "untold_adventures": [
+        "The Doctor has been to Aberdeen",
+        "The Doctor has been to Blackpool"
+    ],
+    "qv": [
+        "The Origins of the Time Lords",
+        "'The Deadly Assassin'"
+    ],
+    "additional_notes": "Fashion Victims: The Minyans' space helmets and the silly robot heads. Double Entendres: 'Whatever blows can be sucked.'",
+    "bottom_line": "Good model-work, big SF ideas, but very claustrophobic. The direction is a bit lazy, and the design could be better (the real Graham Williams failing, with notable exceptions). The plot settles down to be dullish, but much more worthy than its reputation would suggest. The CSO's not that bad, either."
+}

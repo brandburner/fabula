@@ -1,0 +1,186 @@
+{
+  "metadata": {
+    "title": "Terror of the Zygons",
+    "series": "Doctor Who",
+    "season": "13",
+    "episode_number": 1,
+    "release_date": "1975-08-30",
+    "release_end_date": "1975-09-20",
+    "writer": "Robert Banks Stewart",
+    "director": "Douglas Camfield",
+    "producer": "Philip Hinchcliffe",
+    "main_actors": [
+      "Tom Baker",
+      "Elisabeth Sladen",
+      "Ian Marter",
+      "Nicholas Courtney",
+      "John Levene"
+    ],
+    "time_reference": "20th century"
+  },
+  "cast_crew": [
+    {
+      "cast": {
+        "name": "Tom Baker",
+        "role": "The Doctor"
+      },
+      "crew": {
+        "name": "Douglas Camfield",
+        "role": "Director"
+      }
+    },
+    {
+      "cast": {
+        "name": "Elisabeth Sladen",
+        "role": "Sarah Jane Smith"
+      },
+      "crew": {
+        "name": "Philip Hinchcliffe",
+        "role": "Producer"
+      }
+    },
+    {
+      "cast": {
+        "name": "Ian Marter",
+        "role": "Harry Sullivan"
+      },
+      "crew": {
+        "name": "Robert Holmes",
+        "role": "Script Editor"
+      }
+    },
+    {
+      "cast": {
+        "name": "Nicholas Courtney",
+        "role": "Brigadier Lethbridge-Stewart"
+      },
+      "crew": {
+        "name": "Nigel Curzon",
+        "role": "Designer"
+      }
+    },
+    {
+      "cast": {
+        "name": "John Levene",
+        "role": "RSM Benton"
+      },
+      "crew": {
+        "name": "Geoffrey Burgon",
+        "role": "Incidental Music"
+      }
+    },
+    {
+      "cast": {
+        "name": "John Woodnutt",
+        "role": "Duke of Forgill / Broton"
+      },
+      "crew": {
+        "name": "James Acheson",
+        "role": "Costumes"
+      }
+    }
+  ],
+  "home_media": [
+    {
+      "releases": {
+        "media_type": "DVD",
+        "date": "2013-09-30",
+        "details": "Final complete classic-era story to receive DVD release",
+        "special_features": [
+          "Director's Cut",
+          "Commentary",
+          "Scotch Mist in Sussex",
+          "Remembering Douglas Camfield",
+          "The UNIT Family - Part Three",
+          "Doctor Who Stories - Tom Baker",
+          "Doctor Who Stories - Elisabeth Sladen",
+          "South Today interview",
+          "The Fuel Fishers documentary",
+          "Isolated Music option",
+          "Photo Gallery",
+          "Production Information Subtitles",
+          "Optional Dolby Digital 5.1 Soundtrack"
+        ]
+      }
+    },
+    {
+      "releases": {
+        "media_type": "VHS",
+        "date": "1987-04",
+        "special_features": []
+      }
+    },
+    {}
+  ],
+  "story_notes": [
+    {
+      "notes": [
+        "This was the first UNIT story since 'Robot' and the last appearance of the Brigadier until 1983.",
+        "Originally a six-parter entitled 'The Secret of Loch Ness'.",
+        "Last regular appearance of Ian Marter as Harry Sullivan.",
+        "Script editor Robert Holmes condensed the episodes without significant plot losses.",
+        "A scene was deleted featuring the TARDIS turning invisible due to a faulty fusion plate."
+      ]
+    }
+  ],
+  "worldbuilding": {
+    "in_universe_mythology": [
+      "The Zygons rely on the lactic fluid of the Skarasen.",
+      "The Zygon ship operates on dynacron thrust via organic crystalography."
+    ],
+    "real_world_cultural_references": [
+      "The Duke plays 'Flowers of the Forest' on the bagpipes, a traditional lament for the dead."
+    ],
+    "individuals": [
+      "The Doctor",
+      "Sarah Jane Smith",
+      "Harry Sullivan",
+      "Brigadier Lethbridge-Stewart",
+      "RSM Benton",
+      "Duke of Forgill / Broton"
+    ],
+    "items": [
+      "Skarasen",
+      "Trilanic activator"
+    ],
+    "locations": [
+      "Tulloch Moor",
+      "Westminster",
+      "Loch Ness",
+      "Forgill Castle"
+    ]
+  },
+  "ratings": {
+    "ratings_millions": [
+      {
+        "part": "Part one",
+        "viewers": 8.4
+      },
+      {
+        "part": "Part two",
+        "viewers": 6.1
+      },
+      {
+        "part": "Part three",
+        "viewers": 8.2
+      },
+      {
+        "part": "Part four",
+        "viewers": 7.2
+      }
+    ]
+  },
+  "continuity": {
+    "continuity_notes": [
+      "Ties into 'Revenge of the Cybermen' and Disney Time.",
+      "Sixth Doctor suggests an additional possible explanation of the Loch Ness Monster in 'Timelash'.",
+      "The Zygons return in 'The Day of the Doctor'.",
+      "Harry Sullivan leaves the TARDIS in this episode."
+    ]
+  },
+  "plot": [
+    {
+      "plot_summary": "The Doctor, Sarah, and Harry arrive in Scotland following an urgent summons from the Brigadier to investigate destroyed oil rigs with evidence of a large creature. They unravel a mystery involving the Zygons who control the legendary Loch Ness Monster. Realising the Zygons' intention to conquer Earth, the Doctor and his companions devise a plan to defeat them. The Zygons have a ship and the power to change shape, making it difficult to identify who is friend or foe. After several confrontations and the discovery of Zygon technology, the Doctor destroys the Zygon ship and deactivates their control over the Skarasen, who returns to Loch Ness."
+    }
+  ]
+}

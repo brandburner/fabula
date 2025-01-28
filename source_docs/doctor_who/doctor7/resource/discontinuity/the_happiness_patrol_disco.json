@@ -1,0 +1,95 @@
+{
+    "title": "The Happiness Patrol",
+    "air_date": "2 November 1988",
+    "num_episodes": 3,
+    "episode_titles": [
+        "Part One",
+        "Part Two",
+        "Part Three"
+    ],
+    "episode_duration": 25,
+    "writers": [
+        "Graeme Curry"
+    ],
+    "directors": [
+        "Chris Clough"
+    ],
+    "media_format": "Color",
+    "dialogue_triumphs": [
+        "This isn't a prison, but cross that line and you're a dead man.",
+        "I want to make them very, very unhappy.",
+        "I can hear the sound of empires toppling.",
+        "Wallowing in their own Weltschmertz.",
+        "Kandyman to Gilbert: 'What time do you call this?'",
+        "Throw away your gun."
+    ],
+    "dialogue_disasters": [
+        "On a trailer for episode two, the continuity announcer said: 'Doctor Who's sticky situation with the Kandyman continues.' Bless her."
+    ],
+    "goofs": [
+        "The Patrol shoot Silas P despite knowing who he is.",
+        "The Kandyman's microphone picks up quite a bit of the Doctor's dialogue in episode two.",
+        "The aliens' costumes display maps of Paris.",
+        "The man at the box office is so unhappy he's lucky not to be arrested.",
+        "In episode one, as the Doctor is repairing the buggy, one of the patrol runs on too soon, realises, and runs back."
+    ],
+    "continuity_notes": [
+        {
+            "name": "The Doctor",
+            "type": "Character",
+            "description": "Time Lord protagonist, can sing and perform 'As Time Goes By'.",
+            "origin": "Gallifrey",
+            "current_status": "Bringing down a government in one night"
+        },
+        {
+            "name": "Ace",
+            "type": "Character",
+            "description": "The Doctor's companion, loves dinosaurs, hates lift music.",
+            "origin": null,
+            "current_status": "Cannot play an instrument, dance or sing"
+        },
+        {
+            "name": "Theta Sigma",
+            "type": "Concept",
+            "description": "The Doctor's nickname at college",
+            "origin": "Gallifrey",
+            "current_status": null
+        }
+    ],
+    "technobabble": null,
+    "roots": [
+        "Charlie and the Chocolate Factory",
+        "Gloria Gaynor ('I am what I am')",
+        "The Prisoner",
+        "Jean Surry's 'Teen Angel'",
+        "Return of the Jedi",
+        "The Trial",
+        "1984",
+        "Fahrenheit 451",
+        "Hansel and Gretel",
+        "The Wizard of Oz",
+        "The Company of Wolves",
+        "La Cage aux Folles"
+    ],
+    "links": [
+        "Invasion of the Dinosaurs",
+        "The Armageddon Factor",
+        "Terror of the Autons"
+    ],
+    "locations": [
+        {
+            "name": "Terra Alpha",
+            "type": "Location",
+            "description": "Earth colony with at least three million people, native inhabitants driven underground",
+            "origin": "Earth",
+            "current_status": "Under oppressive rule during a single night"
+        }
+    ],
+    "future_history": "Terra Alpha is an Earth colony some centuries in the future. Earth is known but isn't the center of power, which has shifted to the galactic centre, home of the Galactic Census Bureau.",
+    "untold_adventures": [
+        "The Doctor met a Stigorax (like Fifi) in Birmingham in the 25th century."
+    ],
+    "qv": null,
+    "additional_notes": "The story deals with themes of Thatcherism and gay pride. The Kandyman is seen as a representation of capitalism.",
+    "bottom_line": "Deep, joyful in its anarchistic kicking of right wing fantasies, and criticised for its jolly design. Easily the most anarchistic Who story. It goes beyond camp into protest. It's not sad, it's angry. And we love it to pieces."
+}

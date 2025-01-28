@@ -1,0 +1,108 @@
+{
+    "title": "Castrovalva",
+    "air_date": "4 January 1982",
+    "num_episodes": 4,
+    "episode_titles": [
+        "Part One",
+        "Part Two",
+        "Part Three",
+        "Part Four"
+    ],
+    "episode_duration": 25,
+    "writers": [
+        "Christopher H. Bidmead"
+    ],
+    "directors": [
+        "Fiona Cumming"
+    ],
+    "media_format": "Color",
+    "dialogue_triumphs": [
+        "The Doctor finds a medicine bottle labelled 'the solution'. 'Oh my little friend, if only you were!'",
+        "The Doctor asks a group of women the quickest way out of town. They all point in different directions. 'That's democracy for you.'",
+        "The Doctor asks Shardovan if he sees the 'spatial anomaly' of Castrovalva. 'With my eyes, no, but in my philosophy\u2026'",
+        "'You made us, man of evil, but we are free!'"
+    ],
+    "dialogue_disasters": [
+        "Nyssa: 'I know so little about telebiogenesis.'"
+    ],
+    "goofs": [
+        "The Doctor's boots become shoes during regeneration.",
+        "The TARDIS is parked in a different field from that seen in 'Logopolis'.",
+        "Nyssa and Tegan's handbags appear on the console, not having been there in 'Logopolis'.",
+        "When the Doctor levitates in the zero room his coat tails levitate too, and his collar question marks are reversed.",
+        "The camera wobbles when Mergrave and Ruther go to see what caused the noise.",
+        "In the very last scene a fence is visible on the deserted planet."
+    ],
+    "continuity_notes": [
+        {
+            "name": "The Doctor",
+            "type": "Character",
+            "description": "The newly regenerated Fifth Doctor, struggling with post-regeneration difficulties.",
+            "origin": "Gallifrey",
+            "current_status": "Recovering from regeneration, wearing glasses to read, and pinning celery to his lapel."
+        },
+        {
+            "name": "Zero Room",
+            "type": "Location",
+            "description": "An isolated place in the TARDIS used by Time Lords after difficult regenerations.",
+            "origin": "TARDIS",
+            "current_status": "Partially jettisoned to escape Event One, with doors used to create a zero cabinet."
+        },
+        {
+            "name": "Cloister Bell",
+            "type": "Object",
+            "description": "A warning device in the TARDIS that sounds during extreme danger.",
+            "origin": "TARDIS",
+            "current_status": "Heard as the TARDIS heads towards the beginning of the universe."
+        },
+        {
+            "name": "The Master",
+            "type": "Character",
+            "description": "The Doctor's nemesis, responsible for creating the illusion of Castrovalva.",
+            "origin": "Gallifrey",
+            "current_status": "Manipulating events and creating elaborate traps for the Doctor."
+        }
+    ],
+    "technobabble": [
+        "Mean-free path tracker",
+        "Referential differencer",
+        "Three-micron beam wedge",
+        "Science of telebiogenesis",
+        "Recursive occlusion",
+        "Ambient complexity"
+    ],
+    "roots": [
+        "The work of Dutch artist M. C. Escher (set design, concepts of recursion and the title)",
+        "Jorge Luis Borges, especially 'Tlon, Uqbar, Orbis Tertius'",
+        "Tennyson's 'The Lady of Shalott'"
+    ],
+    "links": [
+        "References to 'Full Circle', 'Warriors' Gate', 'Logopolis', and 'The Keeper of Traken'",
+        "Mentions of previous Doctors' mannerisms and companions"
+    ],
+    "locations": [
+        {
+            "name": "The Pharos Project",
+            "type": "Location",
+            "description": "A radio telescope facility in Sussex, England.",
+            "origin": "Earth",
+            "current_status": "Site of recent events from 'Logopolis'"
+        },
+        {
+            "name": "Castrovalva",
+            "type": "Location",
+            "description": "A fictional planet in the Andromeda galaxy, part of the Phylox series.",
+            "origin": "The Master's creation",
+            "current_status": "Revealed to be an elaborate trap created by the Master"
+        }
+    ],
+    "future_history": null,
+    "untold_adventures": [
+        "Possible adventure with the Third Doctor, Ice Warriors, and the Brigadier"
+    ],
+    "qv": [
+        "See 'Four to Doomsday' for more on the TARDIS room full of cricketing memorabilia"
+    ],
+    "additional_notes": "The episode features a 'Fashion Victims' note about the Castrovalvan silly hats competition and Adric's clothing in the web.",
+    "bottom_line": "There are many moments of magic in 'Castrovalva' (a child teaching the Doctor that three follows two, Shardovan sacrificing himself). It's everything you could possibly want from a post-regeneration story, re-establishing the series with a splash of 'hard' science fiction and much poetry."
+}

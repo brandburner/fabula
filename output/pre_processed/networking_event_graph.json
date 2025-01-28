@@ -1,0 +1,1428 @@
+{
+    "story_title": "Peep Show",
+    "episodes": [
+        {
+            "episode_number": 1,
+            "title": "Episode One - The Networking Event",
+            "scenes": [
+                {
+                    "scene_uuid": "scene-001",
+                    "original_scene_data": {
+                        "Scene": "Mark's Bedroom - Apollo House, Croydon - Early Morning",
+                        "Dialogue": [
+                            {
+                                "Stage Direction": "6:47 AM. Mark sits at his IKEA Markus desk chair in M&S boxers and a TM Lewin shirt, anxiously toggling between LinkedIn and his 'Career Crisis Management' spreadsheet on his HP laptop. His MetricShift Digital 'Employee of the Month (August 2023)' certificate hangs askew next to his Dartmouth Business Studies diploma."
+                            },
+                            {
+                                "Character": "MARK (V/O)",
+                                "Line": "God, Steve from accounts has done another 'humbled to announce' post. He's got a Microsoft Excel certification. The man who logged into his own LinkedIn through the company Twitter last month is now officially more qualified than me. The digital revolution is eating its children."
+                            },
+                            {
+                                "Character": "JEREMY (O.S.)",
+                                "Line": "Mark! Mark! The corporate world won't know what hit it! I've mastered the LinkedIn algorithm!"
+                            },
+                            {
+                                "Character": "MARK (V/O)",
+                                "Line": "Oh Jesus, he's wearing my interview suit. The suit I wore to three job interviews and one disciplinary hearing. It's like watching a monkey wear the crown jewels."
+                            },
+                            {
+                                "Stage Direction": "Jeremy bursts in wearing Mark's old M&S suit, accessorized with festival wristbands and a 'Web3 Visionary' pin badge."
+                            },
+                            {
+                                "Character": "JEREMY",
+                                "Line": "How do I look? Professional enough for the MetricShift Innovation Sundowner? I've been practicing my pitch all morning."
+                            },
+                            {
+                                "Character": "MARK",
+                                "Line": "That's my interview suit from the Johnson account pitch. It was in the box marked 'Career Emergency Kit - Do Not Touch Under Any Circumstances.'"
+                            },
+                            {
+                                "Character": "JEREMY",
+                                "Line": "Yeah, well, desperate times, desperate measures. Super Hans says my sonic optimization concept could be the next mindfulness."
+                            }
+                        ]
+                    },
+                    "extracted_data": {
+                        "metadata": {
+                            "uuid": "scene-001",
+                            "title": "Anxiety in Apollo House: The Career Crisis Commences",
+                            "description": "In the early morning at Mark's bedroom in Apollo House, Croydon, Mark Corrigan sits at his IKEA Markus desk chair, toggling between LinkedIn and a 'Career Crisis Management' spreadsheet on his HP laptop, dressed in M&S boxers and a TM Lewin shirt. The scene captures Mark\u2019s growing anxiety over career advancements as he notices Steve from accounts has obtained a new Microsoft Excel certification. Jeremy Usbourne bursts in wearing Mark's interview suit, adorned with festival wristbands and a 'Web3 Visionary' pin badge, declaring he's ready for the MetricShift Innovation Sundowner. He excitedly claims to have mastered the LinkedIn algorithm, while Mark reflects with skepticism and dread about Jeremy\u2019s bold venture into the corporate world, using his 'Career Emergency Kit'.",
+                            "scene_number": 1,
+                            "location": "location-apollo_house",
+                            "next_scene": "scene-002"
+                        },
+                        "events": [
+                            {
+                                "title": "Mark Contemplates the Corporate Rat Race",
+                                "uuid": "event-1-1",
+                                "description": "Mark sits at his desk early in the morning, toggling between LinkedIn and his career crisis spreadsheet on his laptop. He reflects on the absurdity of the digital revolution and the qualifications race as he notices a former colleague's new certification post.",
+                                "sequence_within_scene": 1,
+                                "key_dialogue": [
+                                    "God, Steve from accounts has done another 'humbled to announce' post. He's got a Microsoft Excel certification. The man who logged into his own LinkedIn through the company Twitter last month is now officially more qualified than me. The digital revolution is eating its children."
+                                ],
+                                "agent_participations": [
+                                    "agent-mark_corrigan"
+                                ],
+                                "object_involvements": [
+                                    "object-hp_laptop",
+                                    "object-career_crisis_management_spreadsheet",
+                                    "object-metricshift_employee_of_the_month_certificate",
+                                    "object-dartmouth_business_studies_diploma",
+                                    "object-ikea_markus_desk_chair",
+                                    "object-ms_boxers",
+                                    "object-tm_lewin_shirt"
+                                ],
+                                "next_event": "event-1-2"
+                            },
+                            {
+                                "title": "Jeremy Announces His Mastery of LinkedIn",
+                                "uuid": "event-1-2",
+                                "description": "Jeremy interrupts Mark's introspection by excitedly declaring that he has mastered the LinkedIn algorithm. He bursts into the room wearing Mark's suit, ready to pitch at the MetricShift Innovation Sundowner.",
+                                "sequence_within_scene": 2,
+                                "key_dialogue": [
+                                    "Mark! Mark! The corporate world won't know what hit it! I've mastered the LinkedIn algorithm!",
+                                    "How do I look? Professional enough for the MetricShift Innovation Sundowner? I've been practicing my pitch all morning.",
+                                    "That's my interview suit from the Johnson account pitch. It was in the box marked 'Career Emergency Kit - Do Not Touch Under Any Circumstances.'",
+                                    "Yeah, well, desperate times, desperate measures. Super Hans says my sonic optimization concept could be the next mindfulness."
+                                ],
+                                "agent_participations": [
+                                    "agent-mark_corrigan",
+                                    "agent-jeremy_usbourne"
+                                ],
+                                "object_involvements": [
+                                    "object-ms_suit",
+                                    "object-web3_visionary_pin_badge"
+                                ],
+                                "next_event": null
+                            }
+                        ],
+                        "agent_participations": [
+                            {
+                                "uuid": "participation-agent-mark_corrigan-event-1-1",
+                                "agent": "agent-mark_corrigan",
+                                "event": "event-1-1",
+                                "current_status": "Reflecting on career prospects at his desk in his bedroom",
+                                "emotional_state": "Anxious and frustrated about career stagnation",
+                                "active_plans": [
+                                    "Evaluate career progression strategies",
+                                    "Consider obtaining new certifications"
+                                ],
+                                "beliefs": [
+                                    "The digital revolution requires constant upskilling",
+                                    "Job titles and certifications have become superficial markers of value"
+                                ],
+                                "goals": [
+                                    "Secure professional stability",
+                                    "Ensure relevance in the rapidly evolving business landscape"
+                                ]
+                            },
+                            {
+                                "uuid": "participation-agent-mark_corrigan-event-1-2",
+                                "agent": "agent-mark_corrigan",
+                                "event": "event-1-2",
+                                "current_status": "Surprised by Jeremy's sudden entrance and announcement",
+                                "emotional_state": "Annoyed and incredulous at Jeremy's boldness",
+                                "active_plans": [
+                                    "Try to manage Jeremy's impulsive actions",
+                                    "Prevent misuse of personal belongings"
+                                ],
+                                "beliefs": [
+                                    "Jeremy's approach to professionalism is absurd",
+                                    "Taking one's career seriously is crucial for success"
+                                ],
+                                "goals": [
+                                    "Avoid personal embarrassment at public events",
+                                    "Maintain some semblance of control over household dynamics"
+                                ]
+                            },
+                            {
+                                "uuid": "participation-agent-jeremy_usbourne-event-1-2",
+                                "agent": "agent-jeremy_usbourne",
+                                "event": "event-1-2",
+                                "current_status": "Announcing his perceived mastery of LinkedIn while wearing Mark's suit",
+                                "emotional_state": "Confident and enthusiastic about his unconventional initiatives",
+                                "active_plans": [
+                                    "Pitch 'sonic optimization' at the MetricShift event",
+                                    "Utilize corporate jargon to impress"
+                                ],
+                                "beliefs": [
+                                    "Mastering the LinkedIn algorithm is key to corporate success",
+                                    "Creative reinterpretations of business concepts can lead to unexpected success"
+                                ],
+                                "goals": [
+                                    "Create a niche for himself within the corporate sphere",
+                                    "Gain business opportunities through innovative pitches"
+                                ]
+                            }
+                        ],
+                        "object_involvements": [
+                            {
+                                "uuid": "involvement-object-hp_laptop-event-1-1",
+                                "object": "object-hp_laptop",
+                                "event": "event-1-1",
+                                "description_of_involvement": "Mark uses his HP laptop to toggle between LinkedIn and his 'Career Crisis Management' spreadsheet, reflecting on his precarious career status and the absurdity of certification races in the digital revolution.",
+                                "object_status_before_event": "Functioning laptop on Mark's desk, used regularly for work and career management tasks.",
+                                "object_status_after_event": "Remains on Mark's desk, still in use as Mark continued his online introspection."
+                            },
+                            {
+                                "uuid": "involvement-object-career_crisis_management_spreadsheet-event-1-1",
+                                "object": "object-career_crisis_management_spreadsheet",
+                                "event": "event-1-1",
+                                "description_of_involvement": "This spreadsheet is one of the digital tools Mark frequents during his career contemplation, symbolizing his anxieties and systematic approach to managing his professional life.",
+                                "object_status_before_event": "A carefully managed digital excel file, updated with Mark's career progress and projections.",
+                                "object_status_after_event": "Continues to be actively updated and scrutinized by Mark as he works through his career dilemmas."
+                            },
+                            {
+                                "uuid": "involvement-object-metricshift_employee_of_the_month_certificate-event-1-1",
+                                "object": "object-metricshift_employee_of_the_month_certificate",
+                                "event": "event-1-1",
+                                "description_of_involvement": "The certificate hangs as a reminder of Mark's struggles between career milestones and the volatility of his position, adding to his reflections on job security.",
+                                "object_status_before_event": "Displayed on the wall, symbolizing a bench-marker achievement in Mark's career.",
+                                "object_status_after_event": "Remains on the wall as Mark continues to ponder his career uncertainties."
+                            },
+                            {
+                                "uuid": "involvement-object-dartmouth_business_studies_diploma-event-1-1",
+                                "object": "object-dartmouth_business_studies_diploma",
+                                "event": "event-1-1",
+                                "description_of_involvement": "Mark's diploma acts as a backdrop to his considerations, symbolizing his educational qualifications amidst a sea of new digital certifications.",
+                                "object_status_before_event": "Hangs on the wall with an established sense of accomplishment.",
+                                "object_status_after_event": "Remains unchanged, a constant reminder of Mark's foundational qualifications versus industry demands for digital savvy."
+                            },
+                            {
+                                "uuid": "involvement-object-ikea_markus_desk_chair-event-1-1",
+                                "object": "object-ikea_markus_desk_chair",
+                                "event": "event-1-1",
+                                "description_of_involvement": "The chair supports Mark physically and metaphorically as he navigates his early-morning routine, providing a stable seat during introspective work tasks.",
+                                "object_status_before_event": "Stationed at Mark's desk, serving as his primary seating for work from home.",
+                                "object_status_after_event": "Continues to be used by Mark, ensuring his comfort as he meanders through work anxieties."
+                            },
+                            {
+                                "uuid": "involvement-object-ms_boxers-event-1-1",
+                                "object": "object-ms_boxers",
+                                "event": "event-1-1",
+                                "description_of_involvement": "Mark is wearing these boxers as part of his casual home attire while he deals with the early morning work tasks and reflections.",
+                                "object_status_before_event": "Comfortably worn by Mark, part of his informal home attire.",
+                                "object_status_after_event": "Remains intact as part of Mark's casual morning wear."
+                            },
+                            {
+                                "uuid": "involvement-object-tm_lewin_shirt-event-1-1",
+                                "object": "object-tm_lewin_shirt",
+                                "event": "event-1-1",
+                                "description_of_involvement": "The shirt is part of Mark\u2019s semi-professional home outfit, illustrating the new norm mixing work and home attire.",
+                                "object_status_before_event": "Worn by Mark as part of his home attire deemed suitable for virtual meetings.",
+                                "object_status_after_event": "Continues to be worn by Mark, unaffected by his career contemplations."
+                            },
+                            {
+                                "uuid": "involvement-object-ms_suit-event-1-2",
+                                "object": "object-ms_suit",
+                                "event": "event-1-2",
+                                "description_of_involvement": "Jeremy wears Mark's interview suit, against Mark's specific instructions, in an effort to appear professional for the networking event and support his sudden ambition towards joining the corporate world.",
+                                "object_status_before_event": "Stored in Mark's 'Career Emergency Kit' box, meant for significant career events.",
+                                "object_status_after_event": "Now worn by Jeremy, altered to fit his need for a professional appearance at the MetricShift event."
+                            },
+                            {
+                                "uuid": "involvement-object-web3_visionary_pin_badge-event-1-2",
+                                "object": "object-web3_visionary_pin_badge",
+                                "event": "event-1-2",
+                                "description_of_involvement": "The pin badge is used by Jeremy as an unconventional accessory, adding a quirky element to the suit as he prepares to make his corporate pitch.",
+                                "object_status_before_event": "An accessory item owned by Jeremy, likely acquired during one of his phases of eccentric style pursuits.",
+                                "object_status_after_event": "Used by Jeremy to accessorize Mark's suit, adding an ironic sense of self-styled visionary flair."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "scene_uuid": "scene-002",
+                    "original_scene_data": {
+                        "Scene": "Living Room - Apollo House - Morning",
+                        "Dialogue": [
+                            {
+                                "Stage Direction": "Jeremy practices his pitch in front of a cracked mirror while surrounded by empty Red Bull cans and printouts of Gary Vaynerchuk quotes. Mark anxiously reorganizes his 'Networking Emergency Protocols' index cards."
+                            },
+                            {
+                                "Character": "JEREMY",
+                                "Line": "I'm a disruptor in the sonic arts space, leveraging unique audio paradigms to create transformative experiences. Former projects include the critically acclaimed 'Sounds of the Serviced Office' EP."
+                            },
+                            {
+                                "Character": "MARK (V/O)",
+                                "Line": "He recorded the office printer at his uncle's accounting firm while high on ketamine. And now he's going to present it to Charlotte Walsh-Henderson as a productivity solution. This must be how Brutus felt watching Caesar walk into the Senate."
+                            },
+                            {
+                                "Character": "MARK",
+                                "Line": "Jeremy, please don't say paradigm. Nobody's said paradigm since Northern Rock collapsed."
+                            },
+                            {
+                                "Character": "JEREMY",
+                                "Line": "Mark, I've done my research. I've watched three TED talks and followed Gary Vee on Instagram. I'm basically a CEO already."
+                            }
+                        ]
+                    },
+                    "extracted_data": {
+                        "metadata": {
+                            "uuid": "scene-002",
+                            "title": "Jeremy's Pitch Rehearsal",
+                            "description": "In the living room of Apollo House, the morning sun highlights the cluttered surroundings filled with empty Red Bull cans and motivational printouts. Jeremy stands in front of a cracked mirror, practicing his pitch about being a 'disruptor in the sonic arts space.' His monologue is filled with buzzwords and confidence built on following Gary Vaynerchuk's teachings. Mark, meanwhile, anxiously organizes his 'Networking Emergency Protocols' index cards in preparation for the impending networking event, internally critiquing Jeremy's credibility and word choices.",
+                            "scene_number": 2,
+                            "location": "location-apollo_house-living_room",
+                            "next_scene": "scene-003"
+                        },
+                        "events": [
+                            {
+                                "title": "Jeremy Practices His Pitch",
+                                "uuid": "event-2-1",
+                                "description": "Jeremy Usbourne practices his pitch for the networking event in the living room. He claims to be a 'disruptor in the sonic arts space' while rehearsing in front of a cracked mirror. The room is cluttered with empty Red Bull cans and printouts of quotes from Gary Vaynerchuk.",
+                                "sequence_within_scene": 1,
+                                "key_dialogue": [
+                                    "JEREMY: I'm a disruptor in the sonic arts space, leveraging unique audio paradigms to create transformative experiences. Former projects include the critically acclaimed 'Sounds of the Serviced Office' EP."
+                                ],
+                                "agent_participations": [
+                                    "agent-jeremy_usbourne"
+                                ],
+                                "object_involvements": [
+                                    "object-cracked_mirror",
+                                    "object-empty_red_bull_cans",
+                                    "object-gary_vaynerchuk_quotes_printouts"
+                                ],
+                                "next_event": "event-2-2"
+                            },
+                            {
+                                "title": "Mark Reacts to Jeremy's Practice",
+                                "uuid": "event-2-2",
+                                "description": "Mark Corrigan watches Jeremy practice and internally comments on the absurdity of Jeremy's pitch. Mark reminds Jeremy not to use outdated buzzwords like 'paradigm,' recalling Jeremy's plan to present it as a productivity solution.",
+                                "sequence_within_scene": 2,
+                                "key_dialogue": [
+                                    "MARK (V/O): He recorded the office printer at his uncle's accounting firm while high on ketamine. And now he's going to present it to Charlotte Walsh-Henderson as a productivity solution. This must be how Brutus felt watching Caesar walk into the Senate.",
+                                    "MARK: Jeremy, please don't say paradigm. Nobody's said paradigm since Northern Rock collapsed."
+                                ],
+                                "agent_participations": [
+                                    "agent-mark_corrigan",
+                                    "agent-jeremy_usbourne"
+                                ],
+                                "object_involvements": [
+                                    "object-networking_emergency_protocols_index_cards"
+                                ],
+                                "next_event": "event-2-3"
+                            },
+                            {
+                                "title": "Jeremy Justifies His Confidence",
+                                "uuid": "event-2-3",
+                                "description": "Jeremy confidently retorts to Mark's skepticism by claiming he has done his research. He references watching TED talks and following Gary Vaynerchuk on Instagram as his qualifications.",
+                                "sequence_within_scene": 3,
+                                "key_dialogue": [
+                                    "JEREMY: Mark, I've done my research. I've watched three TED talks and followed Gary Vee on Instagram. I'm basically a CEO already."
+                                ],
+                                "agent_participations": [
+                                    "agent-jeremy_usbourne",
+                                    "agent-mark_corrigan"
+                                ],
+                                "object_involvements": [
+                                    "object-cracked_mirror",
+                                    "object-gary_vaynerchuk_quotes_printouts"
+                                ],
+                                "next_event": null
+                            }
+                        ],
+                        "agent_participations": [
+                            {
+                                "uuid": "participation-agent-jeremy_usbourne-event-2-1",
+                                "agent": "agent-jeremy_usbourne",
+                                "event": "event-2-1",
+                                "current_status": "Practicing his pitch in the living room",
+                                "emotional_state": "Confident and optimistic",
+                                "active_plans": [
+                                    "Prepare an impressive pitch for the networking event"
+                                ],
+                                "beliefs": [
+                                    "Believes in his ability to disrupt the 'sonic arts' industry",
+                                    "Convinced that his self-researched qualifications are sufficient"
+                                ],
+                                "goals": [
+                                    "To successfully pitch his ideas at the networking event",
+                                    "To gain recognition as a 'disruptor' in the sonic arts space"
+                                ]
+                            },
+                            {
+                                "uuid": "participation-agent-mark_corrigan-event-2-2",
+                                "agent": "agent-mark_corrigan",
+                                "event": "event-2-2",
+                                "current_status": "Observing Jeremy's practice and commenting internally",
+                                "emotional_state": "Skeptical and anxious",
+                                "active_plans": [
+                                    "Try to prevent Jeremy from embarrassing himself with outdated references"
+                                ],
+                                "beliefs": [
+                                    "Doubtful of Jeremy's ability to succeed",
+                                    "Believes that Jeremy's pitch is absurdly ambitious"
+                                ],
+                                "goals": [
+                                    "To stop Jeremy from using outdated buzzwords",
+                                    "To reduce his own anxiety about the potential fallout from Jeremy's actions"
+                                ]
+                            },
+                            {
+                                "uuid": "participation-agent-jeremy_usbourne-event-2-2",
+                                "agent": "agent-jeremy_usbourne",
+                                "event": "event-2-2",
+                                "current_status": "Interacting with Mark, defending his pitch approach",
+                                "emotional_state": "Dismissive of Mark's concerns",
+                                "active_plans": [
+                                    "Convince Mark that his buzzword-driven approach is valid"
+                                ],
+                                "beliefs": [
+                                    "Believes that modern buzzwords can bolster the impact of his pitch"
+                                ],
+                                "goals": [
+                                    "To reinforce his confidence in his pitch strategy",
+                                    "To maintain his enthusiasm for the upcoming event"
+                                ]
+                            },
+                            {
+                                "uuid": "participation-agent-jeremy_usbourne-event-2-3",
+                                "agent": "agent-jeremy_usbourne",
+                                "event": "event-2-3",
+                                "current_status": "Justifying his confidence to Mark",
+                                "emotional_state": "Self-assured and determined",
+                                "active_plans": [
+                                    "Use his limited knowledge from TED talks and social media to bolster his credibility"
+                                ],
+                                "beliefs": [
+                                    "Considers following Gary Vaynerchuk and watching TED talks as sufficient preparation"
+                                ],
+                                "goals": [
+                                    "To convince Mark of the seriousness of his intentions",
+                                    "To internalize a CEO-like mindset"
+                                ]
+                            },
+                            {
+                                "uuid": "participation-agent-mark_corrigan-event-2-3",
+                                "agent": "agent-mark_corrigan",
+                                "event": "event-2-3",
+                                "current_status": "Listening to Jeremy justify his approach",
+                                "emotional_state": "Frustrated and doubtful",
+                                "active_plans": [
+                                    "Evaluate the potential impact of Jeremy's actions"
+                                ],
+                                "beliefs": [
+                                    "Believes Jeremy's approach is illogical",
+                                    "Considers Jeremy's confidence as overestimated"
+                                ],
+                                "goals": [
+                                    "To protect his career from Jeremy's potentially embarrassing actions",
+                                    "To maintain an objective understanding of the situation"
+                                ]
+                            }
+                        ],
+                        "object_involvements": [
+                            {
+                                "uuid": "involvement-object-cracked_mirror-event-2-1",
+                                "object": "object-cracked_mirror",
+                                "event": "event-2-1",
+                                "description_of_involvement": "Jeremy practices his pitch while facing the cracked mirror, which serves as a symbol of his fractured self-image and the chaotic nature of his rehearsed 'disruptor in the sonic arts space' persona.",
+                                "object_status_before_event": "The mirror is presumably cracked and being used by Jeremy to view himself.",
+                                "object_status_after_event": "The mirror remains cracked and continues to reflect Jeremy's practiced expressions and demeanor."
+                            },
+                            {
+                                "uuid": "involvement-object-empty_red_bull_cans-event-2-1",
+                                "object": "object-empty_red_bull_cans",
+                                "event": "event-2-1",
+                                "description_of_involvement": "The empty Red Bull cans indicate the chaotic and caffeine-fueled environment in which Jeremy practices, hinting at his frenetic preparation style and need for energy boosts.",
+                                "object_status_before_event": "Empty and scattered around, having been consumed previously.",
+                                "object_status_after_event": "Still empty and present, contributing to the cluttered ambience of Jeremy's practice space."
+                            },
+                            {
+                                "uuid": "involvement-object-gary_vaynerchuk_quotes_printouts-event-2-1",
+                                "object": "object-gary_vaynerchuk_quotes_printouts",
+                                "event": "event-2-1",
+                                "description_of_involvement": "Jeremy surrounds himself with printouts of quotes by Gary Vaynerchuk, reflecting his attempt to mimic successful business influencers as part of his pitch preparation.",
+                                "object_status_before_event": "Available as motivational material, encouraging Jeremy's confidence in his pitch.",
+                                "object_status_after_event": "Remain untouched but integral as inspirational content in Jeremy's workspace."
+                            },
+                            {
+                                "uuid": "involvement-object-networking_emergency_protocols_index_cards-event-2-2",
+                                "object": "object-networking_emergency_protocols_index_cards",
+                                "event": "event-2-2",
+                                "description_of_involvement": "Mark reorganizes his 'Networking Emergency Protocols' index cards anxiously, highlighting his methodical and cautious approach compared to Jeremy's chaotic style.",
+                                "object_status_before_event": "Organized in a specific order to prepare for networking scenarios.",
+                                "object_status_after_event": "Reorganized, potentially reflecting Mark's mounting anxiety and preparation concerns."
+                            },
+                            {
+                                "uuid": "involvement-object-cracked_mirror-event-2-3",
+                                "object": "object-cracked_mirror",
+                                "event": "event-2-3",
+                                "description_of_involvement": "The cracked mirror remains as Jeremy confidently retorts to Mark's skepticism, emphasizing the contrast between Jeremy's self-assured facade and the flawed reality it reflects.",
+                                "object_status_before_event": "Used by Jeremy earlier for practice.",
+                                "object_status_after_event": "Still present, symbolizing the cracked self-image he continues to project."
+                            },
+                            {
+                                "uuid": "involvement-object-gary_vaynerchuk_quotes_printouts-event-2-3",
+                                "object": "object-gary_vaynerchuk_quotes_printouts",
+                                "event": "event-2-3",
+                                "description_of_involvement": "The printouts of Gary Vaynerchuk quotes are again referenced as Jeremy asserts his 'research' credibility, underscoring his reliance on trendy business mantras.",
+                                "object_status_before_event": "Referenced by Jeremy as part of his self-claimed qualifications.",
+                                "object_status_after_event": "Untouched but continue to serve as a source of confidence for Jeremy in his claims."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "scene_uuid": "scene-003",
+                    "original_scene_data": {
+                        "Scene": "MetricShift Digital Solutions HQ - Canary Wharf Innovation Suite, 14th Floor - Evening",
+                        "Dialogue": [
+                            {
+                                "Stage Direction": "The 'Ideation Zone' has been transformed for the monthly Innovation Sundowner. Fairy lights outline whiteboards covered in buzzwords. Charlotte Walsh-Henderson, Head of Digital Transformation and veteran of three Silicon Valley burnouts, oversees the arranging of kombucha stations. Mark lurks by the fruit-infused water, straightening his LinkedIn Premium name badge."
+                            },
+                            {
+                                "Character": "MARK (V/O)",
+                                "Line": "Oh god, he's approaching Charlotte. Don't mention the band, don't mention the ketamine sound installation at the Croydon Buddhist Centre..."
+                            },
+                            {
+                                "Character": "CHARLOTTE",
+                                "Line": "So, Jeremy, Mark tells me you're in the sonic optimization space? We've been looking for innovative solutions since the Great Algorithm Crisis of '23."
+                            },
+                            {
+                                "Character": "JEREMY",
+                                "Line": "Absolutely. We're harnessing alpha waves and beta frequencies to revolutionize workplace productivity. It's like mindfulness meets blockchain meets that feeling when you've just had exactly the right amount of drugs... I mean, coffee."
+                            },
+                            {
+                                "Character": "MARK (V/O)",
+                                "Line": "The grown-ups are giving Jeremy real responsibilities. This must be what it felt like when Caligula made his horse a senator."
+                            }
+                        ]
+                    },
+                    "extracted_data": {
+                        "metadata": {
+                            "uuid": "scene-003",
+                            "title": "The Innovation Sundowner: Jeremy's Sonic Audacity",
+                            "description": "In the Canary Wharf Innovation Suite on the 14th floor, the 'Ideation Zone' has been decorated for MetricShift's monthly Innovation Sundowner. The atmosphere is corporate yet festive, with fairy lights adorning whiteboards filled with buzzwords. Charlotte Walsh-Henderson, the new Head of Digital Transformation, manages the setup of kombucha stations and motivates the attendees. Mark Corrigan, anxious about his position, stands beside the fruit-infused water station, repeatedly adjusting his LinkedIn Premium name badge. Meanwhile, Jeremy Usbourne audaciously engages with Charlotte, pitching his fabricated concept of 'sonic optimization' as a revolutionary workplace productivity solution. Despite its dubious claims, Jeremy's confidence seems to resonate with Charlotte, highlighting the absurd intersection of modern corporate culture and unfounded entrepreneurial flair.",
+                            "scene_number": 3,
+                            "location": null,
+                            "next_scene": "scene-004"
+                        },
+                        "events": [
+                            {
+                                "title": "Jeremy Engages with Charlotte on 'Sonic Optimization'",
+                                "uuid": "event-3-1",
+                                "description": "Jeremy engages in a conversation with Charlotte Walsh-Henderson, presenting his pitch about sonic optimization in the workplace. Charlotte expresses interest in Jeremy's innovations, possibly opening the door for future opportunities.",
+                                "sequence_within_scene": 1,
+                                "key_dialogue": [
+                                    "CHARLOTTE: So, Jeremy, Mark tells me you're in the sonic optimization space? We've been looking for innovative solutions since the Great Algorithm Crisis of '23.",
+                                    "JEREMY: Absolutely. We're harnessing alpha waves and beta frequencies to revolutionize workplace productivity. It's like mindfulness meets blockchain meets that feeling when you've just had exactly the right amount of drugs... I mean, coffee."
+                                ],
+                                "agent_participations": [
+                                    "agent-mark_corrigan",
+                                    "agent-jeremy_usbourne",
+                                    "agent-charlotte_walshhenderson"
+                                ],
+                                "object_involvements": [
+                                    "object-kombucha_stations",
+                                    "object-fruit-infused_water_station",
+                                    "object-fairy_lights",
+                                    "object-whiteboards",
+                                    "object-linkedin_premium_name_badge"
+                                ],
+                                "next_event": null
+                            }
+                        ],
+                        "agent_participations": [
+                            {
+                                "uuid": "participation-agent-mark_corrigan-event-3-1",
+                                "agent": "agent-mark_corrigan",
+                                "event": "event-3-1",
+                                "current_status": "Mark is observing the interaction between Jeremy and Charlotte from a distance, positioned by the fruit-infused water station.",
+                                "emotional_state": "Mark is anxious and apprehensive as he watches Jeremy engage with Charlotte.",
+                                "active_plans": [
+                                    "Remain in the background to witness Jeremy's approach.",
+                                    "Refrain from interrupting the conversation despite his reservations."
+                                ],
+                                "beliefs": [
+                                    "He believes Jeremy's pitch is nonsensical and lacks substance.",
+                                    "Mark holds the conviction that Jeremy should not gain serious professional responsibilities."
+                                ],
+                                "goals": [
+                                    "Short-term: Ensure Jeremy doesn't embarrass himself or Mark by association.",
+                                    "Long-term: Maintain his own professional standing and avoid being overshadowed by Jeremy's antics."
+                                ]
+                            },
+                            {
+                                "uuid": "participation-agent-jeremy_usbourne-event-3-1",
+                                "agent": "agent-jeremy_usbourne",
+                                "event": "event-3-1",
+                                "current_status": "Jeremy is actively engaging with Charlotte, pitching his concept of 'sonic optimization' for workplace productivity.",
+                                "emotional_state": "Jeremy is confident and enthusiastic, exhibiting self-assuredness in his pitch.",
+                                "active_plans": [
+                                    "Convince Charlotte of the potential impact of his 'sonic optimization' concept.",
+                                    "Present himself as a credible innovator in the field of workplace productivity."
+                                ],
+                                "beliefs": [
+                                    "He believes his charisma and ability to capture attention are key to making an impression.",
+                                    "Jeremy assumes that sounding innovative and using buzzwords will likely land him opportunities."
+                                ],
+                                "goals": [
+                                    "Short-term: Secure interest from Charlotte and potentially other key figures in the company.",
+                                    "Long-term: Leverage this interest to gain further opportunities and potentially establish his own consultancy."
+                                ]
+                            },
+                            {
+                                "uuid": "participation-agent-charlotte_walshhenderson-event-3-1",
+                                "agent": "agent-charlotte_walshhenderson",
+                                "event": "event-3-1",
+                                "current_status": "Charlotte is listening intently to Jeremy, showing interest in his pitch about utilizing sound frequencies to optimize productivity.",
+                                "emotional_state": "Charlotte is intrigued and somewhat curious about the innovative approach Jeremy presents.",
+                                "active_plans": [
+                                    "Explore potential innovative solutions to incorporate into the company's strategy.",
+                                    "Engage with attendees to find possible innovative applications in workplace productivity."
+                                ],
+                                "beliefs": [
+                                    "She believes in fostering a culture of innovation and creative solutions post-Great Algorithm Crisis of '23.",
+                                    "Charlotte assumes that fresh, unconventional ideas can drive meaningful change and progress."
+                                ],
+                                "goals": [
+                                    "Short-term: Assess the feasibility and potential impact of Jeremy's ideas for future company projects.",
+                                    "Long-term: Implement innovative strategies that enhance the company's competitive edge and productivity outputs."
+                                ]
+                            }
+                        ],
+                        "object_involvements": [
+                            {
+                                "uuid": "involvement-object-kombucha_stations-event-3-1",
+                                "object": "object-kombucha_stations",
+                                "event": "event-3-1",
+                                "description_of_involvement": "The kombucha stations are set up as part of the transformed space in the 'Ideation Zone' for the monthly Innovation Sundowner, symbolizing the modern corporate culture's embrace of wellness-oriented trends.",
+                                "object_status_before_event": "Kombucha stations prepared for showcasing at the event.",
+                                "object_status_after_event": "Kombucha stations present during Jeremy's interaction with Charlotte, reinforcing the event's thematic setup."
+                            },
+                            {
+                                "uuid": "involvement-object-fruit-infused_water_station-event-3-1",
+                                "object": "object-fruit-infused_water_station",
+                                "event": "event-3-1",
+                                "description_of_involvement": "The fruit-infused water station represents the wellness initiatives at MetricShift, illustrating the company's attempt to maintain a healthy work environment. Mark positions himself near this station, a space where he blends into the corporate wellness efforts.",
+                                "object_status_before_event": "Fruit-infused water station part of the corporate wellness decor.",
+                                "object_status_after_event": "Vertical fixture in the Ideation Zone as Mark lingers nearby during Jeremy's pitch."
+                            },
+                            {
+                                "uuid": "involvement-object-fairy_lights-event-3-1",
+                                "object": "object-fairy_lights",
+                                "event": "event-3-1",
+                                "description_of_involvement": "Fairy lights are used to decorate the Ideation Zone, creating an ambient atmosphere suited for the Innovation Sundowner. Their presence adds to the trendy, relaxed environment as Jeremy pitches his sonic optimization idea.",
+                                "object_status_before_event": "Arranged as part of the event's ambient decoration.",
+                                "object_status_after_event": "Functioning as decorative lighting to enhance the setting of the networking event."
+                            },
+                            {
+                                "uuid": "involvement-object-whiteboards-event-3-1",
+                                "object": "object-whiteboards",
+                                "event": "event-3-1",
+                                "description_of_involvement": "Whiteboards serve as surfaces displaying corporate buzzwords, which symbolize innovative thinking and brainstorming within MetricShift. They parallel Jeremy's attempt to engage Charlotte with industry-relevant jargon during his presentation.",
+                                "object_status_before_event": "Whiteboards set up with buzzword-inspired content.",
+                                "object_status_after_event": "Act as a backdrop that reflects the thematic ideas being discussed."
+                            },
+                            {
+                                "uuid": "involvement-object-linkedin_premium_name_badge-event-3-1",
+                                "object": "object-linkedin_premium_name_badge",
+                                "event": "event-3-1",
+                                "description_of_involvement": "Mark's LinkedIn Premium name badge signifies his attempt to assert a professional identity at the Innovation Sundowner. While Mark considers its meaning, Jeremy engages in a pitch highlighting the disruptive themes the event represents.",
+                                "object_status_before_event": "Name badge worn by Mark for professional credibility.",
+                                "object_status_after_event": "Continues to serve as Mark's professional identifier during and after Jeremy's engagement with Charlotte."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "scene_uuid": "scene-004",
+                    "original_scene_data": {
+                        "Scene": "MetricShift Executive Boardroom - 'The Disruption Chamber' - One Week Later - Morning",
+                        "Dialogue": [
+                            {
+                                "Stage Direction": "Jeremy sets up his DJ equipment (borrowed from Super Hans' silent disco business) while Alan Johnson, CEO of Johnson Dynamic Solutions and potential MetricShift merger partner, watches with interest. Mark tries to blend into the Herman Miller wallpaper."
+                            },
+                            {
+                                "Character": "JEREMY",
+                                "Line": "What you're about to experience is a scientifically-engineered productivity soundscape, developed through extensive research at the Croydon Buddhist Centre."
+                            },
+                            {
+                                "Character": "MARK (V/O)",
+                                "Line": "He's going to play his 'Chemical Brothers meets whale sounds' playlist to the entire senior management team. I wonder if Pret is still hiring? I could work my way up to sandwich artisan, live a simple life of honest toil..."
+                            },
+                            {
+                                "Stage Direction": "Jeremy starts the music - a chaotic blend of electronic beats, office printer sounds, and what might be Buddhist chants or a malfunctioning air conditioning unit."
+                            },
+                            {
+                                "Character": "JOHNSON",
+                                "Line": "This is exactly what we need. Raw, disruptive, authentically digital. Charlotte, sign him up for the full rollout."
+                            },
+                            {
+                                "Character": "MARK (V/O)",
+                                "Line": "Jeremy's going to get a corporate job before me. I'm going to end up working in his sonic optimization department. Maybe the French Foreign Legion is still recruiting?"
+                            }
+                        ]
+                    },
+                    "extracted_data": {
+                        "metadata": {
+                            "uuid": "scene-004",
+                            "title": "The Big Pitch",
+                            "description": "The scene is set in the Executive Boardroom of MetricShift, colloquially known as 'The Disruption Chamber,' on a morning one week after the earlier networking event. Jeremy Usbourne, with his usual mix of improvisation and misplaced confidence, sets up DJ equipment borrowed from Super Hans. This setup, a relic from a failed silent disco venture, is aimed at creating what Jeremy pitches as a 'scientifically-engineered productivity soundscape.' Alan Johnson, the potential merger partner and CEO of Johnson Dynamic Solutions, and Charlotte Walsh-Henderson, Mark\u2019s new boss, are present. As Jeremy launches into his chaotic blend of sounds, Johnson commends the disruptive and raw nature of the presentation, leading to Jeremy being signed up for a full rollout despite the unconventional nature of the pitch. Mark, observing this unfold, internally contemplates an escape from his current trajectory into a simpler life at Pret A Manger.",
+                            "scene_number": 4,
+                            "location": "location-metricshift_executive_boardroom-the_disruption_chamber",
+                            "next_scene": "scene-005"
+                        },
+                        "events": [
+                            {
+                                "title": "Jeremy Sets Up DJ Equipment for Executive Boardroom Presentation",
+                                "uuid": "event-4-1",
+                                "description": "Jeremy Usbourne sets up his DJ equipment, borrowed from Super Hans' silent disco venture, in MetricShift's executive boardroom 'The Disruption Chamber' for a presentation to the senior management team.",
+                                "sequence_within_scene": 1,
+                                "key_dialogue": [
+                                    "JEREMY: What you're about to experience is a scientifically-engineered productivity soundscape, developed through extensive research at the Croydon Buddhist Centre."
+                                ],
+                                "agent_participations": [
+                                    "agent-jeremy_usbourne",
+                                    "agent-alan_johnson",
+                                    "agent-mark_corrigan"
+                                ],
+                                "object_involvements": [
+                                    "object-dj_equipment",
+                                    "object-herman_miller_wallpaper"
+                                ],
+                                "next_event": "event-4-2"
+                            },
+                            {
+                                "title": "Jeremy's Sonic Presentation Impresses Alan Johnson",
+                                "uuid": "event-4-2",
+                                "description": "Jeremy begins his presentation by playing a chaotic blend of electronic beats and other sounds, positioning it as a productivity soundscape. Alan Johnson is impressed and sees potential in Jeremy's concept for a corporate rollout.",
+                                "sequence_within_scene": 2,
+                                "key_dialogue": [
+                                    "MARK (V/O): He's going to play his 'Chemical Brothers meets whale sounds' playlist to the entire senior management team. I wonder if Pret is still hiring? I could work my way up to sandwich artisan, live a simple life of honest toil...",
+                                    "JOHNSON: This is exactly what we need. Raw, disruptive, authentically digital. Charlotte, sign him up for the full rollout."
+                                ],
+                                "agent_participations": [
+                                    "agent-jeremy_usbourne",
+                                    "agent-alan_johnson",
+                                    "agent-charlotte_walshhenderson"
+                                ],
+                                "object_involvements": [
+                                    "object-dj_equipment"
+                                ],
+                                "next_event": "event-4-3"
+                            },
+                            {
+                                "title": "Mark's Inner Conflict and Resignation",
+                                "uuid": "event-4-3",
+                                "description": "Mark reflects internally on Jeremy's unexpected corporate success and contemplates his own professional situation, questioning his future within the company.",
+                                "sequence_within_scene": 3,
+                                "key_dialogue": [
+                                    "MARK (V/O): Jeremy's going to get a corporate job before me. I'm going to end up working in his sonic optimization department. Maybe the French Foreign Legion is still recruiting?"
+                                ],
+                                "agent_participations": [
+                                    "agent-mark_corrigan"
+                                ],
+                                "object_involvements": [
+                                    "object-herman_miller_wallpaper"
+                                ],
+                                "next_event": null
+                            }
+                        ],
+                        "agent_participations": [
+                            {
+                                "uuid": "participation-agent-jeremy_usbourne-event-4-1",
+                                "agent": "agent-jeremy_usbourne",
+                                "event": "event-4-1",
+                                "current_status": "Setting up DJ equipment for a presentation",
+                                "emotional_state": "Confident and enthusiastic",
+                                "active_plans": [
+                                    "Create an intriguing soundscape for senior management",
+                                    "Impress influential figures with improvised ideas"
+                                ],
+                                "beliefs": [
+                                    "Confidence and showmanship can open corporate opportunities"
+                                ],
+                                "goals": [
+                                    "Secure interest from executive management",
+                                    "Gain a contract or recognition for his soundscapes"
+                                ]
+                            },
+                            {
+                                "uuid": "participation-agent-mark_corrigan-event-4-1",
+                                "agent": "agent-mark_corrigan",
+                                "event": "event-4-1",
+                                "current_status": "Observing from the sidelines, blending into the background",
+                                "emotional_state": "Anxious and resigned",
+                                "active_plans": [
+                                    "Blend into the surroundings to avoid notice"
+                                ],
+                                "beliefs": [
+                                    "Corporate success is precarious and baffling (e.g., Jeremy's moment)"
+                                ],
+                                "goals": [
+                                    "Avoid drawing attention during the event",
+                                    "Consider alternative career paths if needed"
+                                ]
+                            },
+                            {
+                                "uuid": "participation-agent-alan_johnson-event-4-1",
+                                "agent": "agent-alan_johnson",
+                                "event": "event-4-1",
+                                "current_status": "Observing Jeremy's setup with interest",
+                                "emotional_state": "Curious and intrigued",
+                                "active_plans": [
+                                    "Evaluate potential innovative solutions",
+                                    "Explore collaboration with Jeremy"
+                                ],
+                                "beliefs": [
+                                    "Disruptive thinking can prove valuable in business"
+                                ],
+                                "goals": [
+                                    "Identify potential value in Jeremy's soundscape concept",
+                                    "Facilitate impactful business partnerships and mergers"
+                                ]
+                            },
+                            {
+                                "uuid": "participation-agent-jeremy_usbourne-event-4-2",
+                                "agent": "agent-jeremy_usbourne",
+                                "event": "event-4-2",
+                                "current_status": "Presenting his soundscape to the senior management team",
+                                "emotional_state": "Confident and improvisational",
+                                "active_plans": [
+                                    "Portray soundscape concept as a groundbreaking corporate solution",
+                                    "Secure a formal agreement to expand his sonic project"
+                                ],
+                                "beliefs": [
+                                    "His creative ideas can be transformed into profitable ventures"
+                                ],
+                                "goals": [
+                                    "Convince senior management of his concept's value",
+                                    "Expand into corporate sectors with his soundscapes"
+                                ]
+                            },
+                            {
+                                "uuid": "participation-agent-alan_johnson-event-4-2",
+                                "agent": "agent-alan_johnson",
+                                "event": "event-4-2",
+                                "current_status": "Listening to Jeremy's presentation and responding",
+                                "emotional_state": "Excited and approving",
+                                "active_plans": [
+                                    "Endorse Jeremy's concept for further development"
+                                ],
+                                "beliefs": [
+                                    "Jeremy's soundscape aligns with disruptive innovation needs"
+                                ],
+                                "goals": [
+                                    "Leverage Jeremy's work for corporate advancement",
+                                    "Implement soundscapes across organizational platforms"
+                                ]
+                            },
+                            {
+                                "uuid": "participation-agent-charlotte_walshhenderson-event-4-2",
+                                "agent": "agent-charlotte_walshhenderson",
+                                "event": "event-4-2",
+                                "current_status": "Engaged with and supportive of Jeremy's presentation",
+                                "emotional_state": "Enthusiastic and supportive",
+                                "active_plans": [
+                                    "Facilitate the integration of Jeremy's soundscape in the company"
+                                ],
+                                "beliefs": [
+                                    "Innovative approaches are crucial for organizational growth"
+                                ],
+                                "goals": [
+                                    "Support Jeremy's initiative within the company's strategy",
+                                    "Achieve successful rollout of new ideas"
+                                ]
+                            },
+                            {
+                                "uuid": "participation-agent-mark_corrigan-event-4-2",
+                                "agent": "agent-mark_corrigan",
+                                "event": "event-4-2",
+                                "current_status": "Reflecting upon Jeremy's presentation",
+                                "emotional_state": "Despondent and self-reflective",
+                                "active_plans": [
+                                    "Consider personal career alternatives"
+                                ],
+                                "beliefs": [
+                                    "Others' success does not guarantee personal progression"
+                                ],
+                                "goals": [
+                                    "Evaluate personal status within the corporate structure",
+                                    "Seek alternative career paths if corporate innovation outpaces him"
+                                ]
+                            },
+                            {
+                                "uuid": "participation-agent-mark_corrigan-event-4-3",
+                                "agent": "agent-mark_corrigan",
+                                "event": "event-4-3",
+                                "current_status": "Contemplating career and future prospects",
+                                "emotional_state": "Resigned and pondering",
+                                "active_plans": [
+                                    "Reassess his career trajectory and consider alternatives"
+                                ],
+                                "beliefs": [
+                                    "Corporate life often defies personal expectations of merit"
+                                ],
+                                "goals": [
+                                    "Seek job security in uncertain environments",
+                                    "Build a future that aligns with his capabilities"
+                                ]
+                            }
+                        ],
+                        "object_involvements": [
+                            {
+                                "uuid": "involvement-object-dj_equipment-event-4-1",
+                                "object": "object-dj_equipment",
+                                "event": "event-4-1",
+                                "description_of_involvement": "Jeremy sets up the DJ equipment in the executive boardroom to prepare for a presentation to the senior management team. The equipment is central to his pitch and presentation of a 'productivity soundscape'.",
+                                "object_status_before_event": "Borrowed from Super Hans' failed silent disco venture.",
+                                "object_status_after_event": "Set up in MetricShift's executive boardroom and used for the duration of the presentation."
+                            },
+                            {
+                                "uuid": "involvement-object-herman_miller_wallpaper-event-4-1",
+                                "object": "object-herman_miller_wallpaper",
+                                "event": "event-4-1",
+                                "description_of_involvement": "During Jeremy's presentation setup, Mark uses the Herman Miller wallpaper as a backdrop to blend into, trying to remain unobtrusive and unnoticed by the management.",
+                                "object_status_before_event": "Installed as part of MetricShift's design for the executive boardroom.",
+                                "object_status_after_event": "Continues to be a part of the boardroom's design while serving as a psychological refuge for Mark."
+                            },
+                            {
+                                "uuid": "involvement-object-dj_equipment-event-4-2",
+                                "object": "object-dj_equipment",
+                                "event": "event-4-2",
+                                "description_of_involvement": "Jeremy uses the DJ equipment to deliver his sonic presentation, which impresses Alan Johnson. The equipment plays a chaotic mix designed to appear as a 'productivity soundscape'.",
+                                "object_status_before_event": "Set up and ready in the executive boardroom.",
+                                "object_status_after_event": "Used actively during the presentation, gaining attention and approval from Alan Johnson."
+                            },
+                            {
+                                "uuid": "involvement-object-herman_miller_wallpaper-event-4-3",
+                                "object": "object-herman_miller_wallpaper",
+                                "event": "event-4-3",
+                                "description_of_involvement": "Mark continues his inner conflict and resigns himself to blending into the Herman Miller wallpaper, symbolizing his desire to remain unnoticed as he grapples with the idea of Jeremy's unexpected corporate success.",
+                                "object_status_before_event": "Part of the boardroom decor, offering Mark a place to mentally retreat.",
+                                "object_status_after_event": "Remains unchanged as a psychological escape for Mark amid unfolding professional challenges."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "scene_uuid": "scene-005",
+                    "original_scene_data": {
+                        "Scene": "The Fox & Goose Pub - Croydon High Street - Evening",
+                        "Dialogue": [
+                            {
+                                "Stage Direction": "Mark and Jeremy sit at a corner table. Mark nurses a warm white wine while Jeremy celebrates with Super Hans, who's inexplicably wearing a MetricShift lanyard."
+                            },
+                            {
+                                "Character": "SUPER HANS",
+                                "Line": "This is gonna be massive, Jez. Could be bigger than my crypto-mindfulness app. Before it got hacked by the Russians."
+                            },
+                            {
+                                "Character": "JEREMY",
+                                "Line": "I'm thinking global, Hans. Every office in the world, listening to my scientifically optimized sound solutions. It's basically legal drugs."
+                            },
+                            {
+                                "Character": "MARK (V/O)",
+                                "Line": "Jeremy's become everything I ever wanted to be, by completely misunderstanding everything about the corporate world. Maybe that's the secret? Like how a cat can survive a fall from a higher building than a human because it doesn't understand physics."
+                            },
+                            {
+                                "Stage Direction": "Mark's phone buzzes - a LinkedIn notification shows Steve from accounts has endorsed Jeremy for 'Digital Transformation' and 'Change Management.'"
+                            },
+                            {
+                                "Character": "MARK",
+                                "Line": "I need another drink."
+                            }
+                        ]
+                    },
+                    "extracted_data": {
+                        "metadata": {
+                            "uuid": "scene-005",
+                            "title": "Corporate Dreams Over Drinks",
+                            "description": "The scene unfolds at The Fox & Goose Pub on Croydon High Street during the evening. Mark Corrigan and Jeremy Usbourne sit together at a corner table. The atmosphere is casual, with Mark quietly nursing a warm white wine while Jeremy energetically engages with Super Hans. In a celebratory mood, Jeremy dreams of global success with his new sonic optimization venture, comparing it to legal drugs for offices, while Super Hans boasts about his own tech venture aspirations. Meanwhile, Mark receives a notification that Steve from accounts has endorsed Jeremy on LinkedIn for 'Digital Transformation' and 'Change Management,' leading to his bemusements about Jeremy's rising corporate fortunes. The emotional tone is a mix of triumph for Jeremy and disillusionment for Mark, who contemplates the irony of Jeremy's misunderstood success.",
+                            "scene_number": 5,
+                            "location": "location-the_fox_and_goose_pub",
+                            "next_scene": null
+                        },
+                        "events": [
+                            {
+                                "title": "Mark Broods over Jeremy's Success While at The Pub",
+                                "uuid": "event-5-1",
+                                "description": "Mark and Jeremy are sitting at a corner table in The Fox & Goose Pub. Mark is drinking warm white wine, observing Jeremy who is celebrating with Super Hans. The scene highlights Mark's internal conflict about Jeremy's unexpected corporate success. Super Hans, wearing a MetricShift lanyard, discusses the potential of Jeremy's sound solutions. Mark, while reflecting internally, receives a LinkedIn notification showing Jeremy's recent endorsements.",
+                                "sequence_within_scene": 1,
+                                "key_dialogue": [
+                                    "SUPER HANS: This is gonna be massive, Jez. Could be bigger than my crypto-mindfulness app. Before it got hacked by the Russians.",
+                                    "JEREMY: I'm thinking global, Hans. Every office in the world, listening to my scientifically optimized sound solutions. It's basically legal drugs.",
+                                    "MARK (V/O): Jeremy's become everything I ever wanted to be, by completely misunderstanding everything about the corporate world. Maybe that's the secret? Like how a cat can survive a fall from a higher building than a human because it doesn't understand physics."
+                                ],
+                                "agent_participations": [
+                                    "agent-mark_corrigan",
+                                    "agent-jeremy_usbourne",
+                                    "agent-super_hans"
+                                ],
+                                "object_involvements": [
+                                    "object-metricshift_lanyard",
+                                    "object-phone"
+                                ],
+                                "next_event": null
+                            }
+                        ],
+                        "agent_participations": [
+                            {
+                                "uuid": "participation-agent-mark_corrigan-event-5-1",
+                                "agent": "agent-mark_corrigan",
+                                "event": "event-5-1",
+                                "current_status": "Mark is sitting at a corner table in The Fox & Goose Pub, drinking warm white wine.",
+                                "emotional_state": "Conflicted and contemplative about Jeremy's unexpected success.",
+                                "active_plans": [
+                                    "Mark plans to internally reconcile his feelings about Jeremy's success."
+                                ],
+                                "beliefs": [
+                                    "Mark believes Jeremy's success is due to a misunderstanding of corporate norms.",
+                                    "He feels that the appearance of competence is more valued than actual competence in modern corporate culture."
+                                ],
+                                "goals": [
+                                    "Short-term: To cope with his internal conflict and resentment.",
+                                    "Long-term: To find a path to similar success or redefine what success means to him."
+                                ]
+                            },
+                            {
+                                "uuid": "participation-agent-jeremy_usbourne-event-5-1",
+                                "agent": "agent-jeremy_usbourne",
+                                "event": "event-5-1",
+                                "current_status": "Jeremy is celebrating with Super Hans, discussing the global potential of his sound solutions.",
+                                "emotional_state": "Confident and ambitious about his new venture.",
+                                "active_plans": [
+                                    "Jeremy plans to expand his sound solutions globally."
+                                ],
+                                "beliefs": [
+                                    "Jeremy believes his sound solutions are revolutionary and equates them to 'legal drugs.'"
+                                ],
+                                "goals": [
+                                    "Short-term: To gain recognition and momentum for his sound solutions.",
+                                    "Long-term: To have his solutions adopted in every office worldwide."
+                                ]
+                            },
+                            {
+                                "uuid": "participation-agent-super_hans-event-5-1",
+                                "agent": "agent-super_hans",
+                                "event": "event-5-1",
+                                "current_status": "Super Hans is sitting at the table with Jeremy, discussing Jeremy's sound solutions.",
+                                "emotional_state": "Optimistic and supportive of Jeremy's business potential.",
+                                "active_plans": [
+                                    "Super Hans plans to support Jeremy's business venture."
+                                ],
+                                "beliefs": [
+                                    "Super Hans believes in the massive potential of unconventional solutions in the market."
+                                ],
+                                "goals": [
+                                    "Short-term: To help increase the visibility of Jeremy's ideas.",
+                                    "Long-term: To capitalize on the success of Jeremy\u2019s innovation."
+                                ]
+                            }
+                        ],
+                        "object_involvements": [
+                            {
+                                "uuid": "involvement-object-metricshift_lanyard-event-5-1",
+                                "object": "object-metricshift_lanyard",
+                                "event": "event-5-1",
+                                "description_of_involvement": "The MetricShift lanyard is worn by Super Hans, symbolizing his involvement or connection with MetricShift, possibly through Jeremy's venture. It visually represents this unlikely intersection of Jeremy's unconventional approaches with established corporate world entities.",
+                                "object_status_before_event": "A typical corporate lanyard inscribed with MetricShift branding.",
+                                "object_status_after_event": "Worn on Super Hans, making it incongruously present in a casual pub setting."
+                            },
+                            {
+                                "uuid": "involvement-object-phone-event-5-1",
+                                "object": "object-phone",
+                                "event": "event-5-1",
+                                "description_of_involvement": "Mark's phone, serving as a conduit for his social anxieties, delivers a LinkedIn notification showing Jeremy's increasing corporate validation and success through online endorsements. It plays a role in exacerbating Mark's internal conflict and envy.",
+                                "object_status_before_event": "A functional device presumably resting on the table or in Mark's pocket.",
+                                "object_status_after_event": "Becomes a source of unpleasant surprise and emotional turmoil for Mark upon receiving the notification."
+                            }
+                        ]
+                    }
+                }
+            ]
+        }
+    ],
+    "entity_registry": {
+        "agents": {
+            "agent-mark_corrigan": {
+                "uuid": "agent-mark_corrigan",
+                "agent_id": "mark_corrigan",
+                "name": "Mark Corrigan",
+                "title": "Regional Sales Manager",
+                "description": "Mark Corrigan is the Regional Sales Manager at MetricShift Digital Solutions. He is characterized by his perpetual anxiety and ambition, feeling increasingly precarious in his role due to ongoing corporate restructures. Mark is methodical and often finds himself trapped in existential dilemmas about his career.",
+                "traits": [
+                    "Anxious",
+                    "Methodical",
+                    "Ambitious"
+                ],
+                "affiliated_org": "MetricShift Digital Solutions",
+                "sphere_of_influence": "Sales Management"
+            },
+            "agent-jeremy_usbourne": {
+                "uuid": "agent-jeremy_usbourne",
+                "agent_id": "jeremy_usbourne",
+                "name": "Jeremy Usbourne",
+                "title": null,
+                "description": "Jeremy Usbourne, often known as Jez, is a musician and creative who is often 'between projects'. Known for his unconventional and often reckless behavior, Jeremy lives with Mark Corrigan and is attempting to break into the corporate world using questionable business pitches.",
+                "traits": [
+                    "Creative",
+                    "Reckless",
+                    "Unconventional"
+                ],
+                "affiliated_org": null,
+                "sphere_of_influence": null
+            },
+            "agent-charlotte_walshhenderson": {
+                "uuid": "agent-charlotte_walshhenderson",
+                "agent_id": "charlotte_walshhenderson",
+                "name": "Charlotte Walsh-Henderson",
+                "title": null,
+                "description": "Charlotte Walsh-Henderson is Mark Corrigan's new boss at MetricShift Digital Solutions. Originating from the Seattle office, she is known for her interest in modern corporate culture. Charlotte is captivated by innovative pitches and implements trendy corporate initiatives.",
+                "traits": [
+                    "Innovative",
+                    "Corporate Savvy",
+                    "Trendy"
+                ],
+                "affiliated_org": "MetricShift Digital Solutions",
+                "sphere_of_influence": "Corporate Leadership"
+            },
+            "agent-alan_johnson": {
+                "uuid": "agent-alan_johnson",
+                "agent_id": "alan_johnson",
+                "name": "Alan Johnson",
+                "title": "CEO",
+                "description": "Alan Johnson is the CEO of Johnson Dynamic Solutions, known in industry circles as 'The Disruptor Whisperer'. He has a track record of turning around startups and is interested in disruptive, innovative ideas.",
+                "traits": [
+                    "Disruptive",
+                    "Visionary",
+                    "Strategic"
+                ],
+                "affiliated_org": "Johnson Dynamic Solutions",
+                "sphere_of_influence": "Business Strategy"
+            },
+            "agent-super_hans": {
+                "uuid": "agent-super_hans",
+                "agent_id": "super_hans",
+                "name": "Super Hans",
+                "title": null,
+                "description": "Super Hans is a former bandmate of Jeremy Usbourne, known for his eccentricity and interest in unconventional business ventures. He has previously been involved in ventures like a 'crypto-mindfulness app.'",
+                "traits": [
+                    "Creative",
+                    "Eccentric",
+                    "Unorthodox"
+                ],
+                "affiliated_org": null,
+                "sphere_of_influence": null
+            }
+        },
+        "objects": {
+            "object-hp_laptop": {
+                "uuid": "object-hp_laptop",
+                "name": "HP Laptop",
+                "description": "A personal laptop owned by Mark, used for work-related tasks and accessing LinkedIn.",
+                "purpose": "Used by Mark to toggle between LinkedIn and his 'Career Crisis Management' spreadsheet.",
+                "significance": "Represents Mark's professional life and his struggles with keeping up with the digital world.",
+                "original_owner": "agent-mark_corrigan",
+                "event_involvements": 1
+            },
+            "object-ikea_markus_desk_chair": {
+                "uuid": "object-ikea_markus_desk_chair",
+                "name": "IKEA Markus Desk Chair",
+                "description": "An office desk chair, part of IKEA's product line, used by Mark in his home office setup.",
+                "purpose": "Provides seating for Mark as he works at his desk.",
+                "significance": "Contributes to Mark's home office environment, representing his personal and professional space.",
+                "original_owner": "agent-mark_corrigan",
+                "event_involvements": 1
+            },
+            "object-ms_boxers": {
+                "uuid": "object-ms_boxers",
+                "name": "M&S Boxers",
+                "description": "Underwear from Marks & Spencer, part of Mark's current attire as he works from home.",
+                "purpose": "Clothing worn by Mark while working from home.",
+                "significance": "Highlights Mark's state of informality and comfort at home, juxtaposed with the pressures of his professional life.",
+                "original_owner": "agent-mark_corrigan",
+                "event_involvements": 1
+            },
+            "object-tm_lewin_shirt": {
+                "uuid": "object-tm_lewin_shirt",
+                "name": "TM Lewin Shirt",
+                "description": "A shirt from TM Lewin, worn by Mark as part of his current casual-professional attire.",
+                "purpose": "Part of Mark's clothing that bridges casual and professional style.",
+                "significance": "Symbolizes Mark's attempt to maintain professional poise while feeling informal and stressed.",
+                "original_owner": "agent-mark_corrigan",
+                "event_involvements": 1
+            },
+            "object-career_crisis_management_spreadsheet": {
+                "uuid": "object-career_crisis_management_spreadsheet",
+                "name": "Career Crisis Management Spreadsheet",
+                "description": "A digital spreadsheet created by Mark to manage his career anxieties and professional plans.",
+                "purpose": "Helps Mark organize his career strategies and track his professional goals.",
+                "significance": "Represents Mark\u2019s detailed and anxious approach to handling his career uncertainties.",
+                "original_owner": "agent-mark_corrigan",
+                "event_involvements": 1
+            },
+            "object-metricshift_employee_of_the_month_certificate": {
+                "uuid": "object-metricshift_employee_of_the_month_certificate",
+                "name": "MetricShift Employee of the Month Certificate",
+                "description": "A framed certificate awarded to Mark for being Employee of the Month in August 2023 at MetricShift Digital.",
+                "purpose": "Recognition of Mark's achievements and contributions to the company.",
+                "significance": "Symbolizes Mark's achievements and the pressures associated with them, highlighting his anxiety about job security.",
+                "original_owner": "agent-mark_corrigan",
+                "event_involvements": 1
+            },
+            "object-dartmouth_business_studies_diploma": {
+                "uuid": "object-dartmouth_business_studies_diploma",
+                "name": "Dartmouth Business Studies Diploma",
+                "description": "An educational diploma from Dartmouth, certifying Mark's completion of business studies.",
+                "purpose": "Represents Mark's formal education and his credentials in the business field.",
+                "significance": "Adds to the backdrop of Mark's professional identity and the expectations he feels.",
+                "original_owner": "agent-mark_corrigan",
+                "event_involvements": 1
+            },
+            "object-ms_suit": {
+                "uuid": "object-ms_suit",
+                "name": "M&S Suit",
+                "description": "A suit from Marks & Spencer, used by Mark for important professional events, now worn by Jeremy.",
+                "purpose": "Originally used by Mark for interviews and formal events, currently worn by Jeremy for the MetricShift Innovation Sundowner.",
+                "significance": "Symbolizes the appropriation of Mark\u2019s professional aspirations by Jeremy, highlighting Jeremy's carefree, opportunistic nature.",
+                "original_owner": "agent-mark_corrigan",
+                "event_involvements": 1
+            },
+            "object-web3_visionary_pin_badge": {
+                "uuid": "object-web3_visionary_pin_badge",
+                "name": "Web3 Visionary Pin Badge",
+                "description": "A pin badge worn by Jeremy, indicating his self-claimed status as a visionary in the Web3 space.",
+                "purpose": "Serves as an accessory to Jeremy's attire, adding flair and a sense of modernity and tech-savviness.",
+                "significance": "Represents Jeremy's attempts to project a modern, innovative image in corporate settings, regardless of the actual expertise.",
+                "original_owner": "agent-jeremy_usbourne",
+                "event_involvements": 1
+            },
+            "object-cracked_mirror": {
+                "uuid": "object-cracked_mirror",
+                "name": "Cracked Mirror",
+                "description": "A mirror in the living room with visible cracks, used by Jeremy to practice his pitch.",
+                "purpose": "To offer a reflection for Jeremy as he practices his elevator pitch.",
+                "significance": "Symbolizes both the fractured reality Jeremy operates in and his distorted self-perception as he prepares for the pitch.",
+                "original_owner": "agent-jeremy_usbourne",
+                "event_involvements": 2
+            },
+            "object-empty_red_bull_cans": {
+                "uuid": "object-empty_red_bull_cans",
+                "name": "Empty Red Bull Cans",
+                "description": "Numerous empty cans of Red Bull energy drink scattered around, indicative of Jeremy's lifestyle.",
+                "purpose": "Evidence of Jeremy's consumption of energy drinks, possibly to maintain energy while preparing for his pitch.",
+                "significance": "Illustrates Jeremy's lifestyle and potentially hints at his anxiety and need for artificial energy boosts.",
+                "original_owner": "agent-jeremy_usbourne",
+                "event_involvements": 1
+            },
+            "object-gary_vaynerchuk_quotes_printouts": {
+                "uuid": "object-gary_vaynerchuk_quotes_printouts",
+                "name": "Gary Vaynerchuk Quotes Printouts",
+                "description": "Printouts featuring motivational quotes from Gary Vaynerchuk, a social media influencer and motivational speaker.",
+                "purpose": "Used by Jeremy as inspiration and guidance for developing his entrepreneurial persona.",
+                "significance": "Represents Jeremy's superficial understanding of business concepts and his reliance on popular motivational sources.",
+                "original_owner": "agent-jeremy_usbourne",
+                "event_involvements": 2
+            },
+            "object-networking_emergency_protocols_index_cards": {
+                "uuid": "object-networking_emergency_protocols_index_cards",
+                "name": "Networking Emergency Protocols Index Cards",
+                "description": "Index cards containing Mark's organized protocols for networking situations, indicating his meticulous preparation.",
+                "purpose": "Mark uses these to prepare and organize his approach for networking opportunities to mitigate anxiety.",
+                "significance": "Highlights Mark's methodical and cautious nature, contrasting with Jeremy's chaotic approach.",
+                "original_owner": "agent-mark_corrigan",
+                "event_involvements": 1
+            },
+            "object-linkedin_premium_name_badge": {
+                "uuid": "object-linkedin_premium_name_badge",
+                "name": "LinkedIn Premium Name Badge",
+                "description": "A badge worn by Mark, indicating his use of LinkedIn's premium services.",
+                "purpose": "To identify Mark during the networking event as a participant with a LinkedIn Premium account.",
+                "significance": "Represents Mark's connection and aspirations within the corporate world, despite his underlying insecurities.",
+                "original_owner": "agent-mark_corrigan",
+                "event_involvements": 1
+            },
+            "object-kombucha_stations": {
+                "uuid": "object-kombucha_stations",
+                "name": "Kombucha Stations",
+                "description": "Designated areas serving kombucha, used as part of the office's wellness initiative.",
+                "purpose": "To provide health-conscious refreshments to attendees of the Innovation Sundowner.",
+                "significance": "Represents the trendy and wellness-oriented corporate atmosphere that the company is trying to promote.",
+                "original_owner": null,
+                "event_involvements": 1
+            },
+            "object-fruit-infused_water_station": {
+                "uuid": "object-fruit-infused_water_station",
+                "name": "Fruit-Infused Water Station",
+                "description": "A station dispensing fruit-infused water, aligning with MetricShift's wellness initiatives.",
+                "purpose": "To offer a healthy beverage option and enhance the networking experience for the event attendees.",
+                "significance": "Represents corporate wellness culture and the company's efforts to provide healthier lifestyle options.",
+                "original_owner": null,
+                "event_involvements": 1
+            },
+            "object-fairy_lights": {
+                "uuid": "object-fairy_lights",
+                "name": "Fairy Lights",
+                "description": "Decorative lights outlining whiteboards, creating an ambient atmosphere.",
+                "purpose": "To enhance the atmosphere of the 'Ideation Zone' during the Innovation Sundowner event.",
+                "significance": "Contributes to the ambiance of modernity and creativity expected in an innovation-focused environment.",
+                "original_owner": null,
+                "event_involvements": 1
+            },
+            "object-whiteboards": {
+                "uuid": "object-whiteboards",
+                "name": "Whiteboards",
+                "description": "Boards stationed in the event space, covered with corporate buzzwords.",
+                "purpose": "To facilitate brainstorming and display key themes and concepts relevant to the event.",
+                "significance": "Reflects the idea-centric and jargon-rich environment of modern corporate culture.",
+                "original_owner": null,
+                "event_involvements": 1
+            },
+            "object-dj_equipment": {
+                "uuid": "object-dj_equipment",
+                "name": "DJ Equipment",
+                "description": "A set of DJ equipment borrowed by Jeremy from Super Hans' failed silent disco venture, used for playing electronic music mixes.",
+                "purpose": "To play Jeremy's 'scientifically-engineered productivity soundscape' during his presentation.",
+                "significance": "Jeremy uses it to pitch his 'sonic optimization platform', which captures the interest of Alan Johnson, leading to a potential corporate opportunity.",
+                "original_owner": "agent-jeremy_usbourne",
+                "event_involvements": 2
+            },
+            "object-herman_miller_wallpaper": {
+                "uuid": "object-herman_miller_wallpaper",
+                "name": "Herman Miller Wallpaper",
+                "description": "A wallpaper with a Herman Miller design pattern that Mark tries to blend into as a means of avoiding attention.",
+                "purpose": "To provide decorative aesthetics in the executive boardroom and for Mark to metaphorically blend into when feeling stressed or anxious.",
+                "significance": "Symbolizes Mark's feelings of insignificance and desire to avoid attention during a high-stakes meeting.",
+                "original_owner": null,
+                "event_involvements": 2
+            },
+            "object-metricshift_lanyard": {
+                "uuid": "object-metricshift_lanyard",
+                "name": "MetricShift Lanyard",
+                "description": "A lanyard branded with the MetricShift logo, typically worn by employees as part of their identification and badge-holding gear.",
+                "purpose": "Typically worn by employees for identification and access within the company premises.",
+                "significance": "Highlights Super Hans' unexpected involvement or association with MetricShift, adding to the absurdity of the situation given his outsider status.",
+                "original_owner": null,
+                "event_involvements": 1
+            },
+            "object-linkedin_notification": {
+                "uuid": "object-linkedin_notification",
+                "name": "LinkedIn Notification",
+                "description": "A notification on Mark's phone showing an endorsement for Jeremy on LinkedIn.",
+                "purpose": "To alert Mark about Jeremy's unexpected corporate endorsements, signifying his bizarre success.",
+                "significance": "Reflects the modern emphasis on appearance over substance in professional endorsements and achievements.",
+                "original_owner": null,
+                "event_involvements": 0
+            },
+            "object-phone": {
+                "uuid": "object-phone",
+                "name": "Mark's Phone",
+                "description": "Mark's mobile phone, a device capable of calling, messaging, and receiving notifications from apps like LinkedIn.",
+                "purpose": "Used for communication and receiving updates on professional networks.",
+                "significance": "Serves as a narrative device to showcase Mark's engagement with the corporate world, despite his skeptical view of it.",
+                "original_owner": "agent-mark_corrigan",
+                "event_involvements": 1
+            }
+        },
+        "locations": {
+            "location-apollo_house-marks_bedroom": {
+                "uuid": "location-apollo_house-marks_bedroom",
+                "name": "Mark's Bedroom - Apollo House",
+                "description": "A room in Apollo House where Mark Corrigan starts his morning, sitting anxiously at his desk in his bedroom. The room contains his workstation, complete with an IKEA Markus desk chair and HP laptop. Personal achievements like the MetricShift Digital 'Employee of the Month' certificate and his Dartmouth Business Studies diploma are displayed, albeit in a slightly disorderly manner.",
+                "type": "Bedroom"
+            },
+            "location-apollo_house": {
+                "uuid": "location-apollo_house",
+                "name": "Apollo House",
+                "description": "Apollo House is the residential building where Mark Corrigan lives. It is located in Croydon and contains Mark's personal space, featured primarily in this scene as his bedroom.",
+                "type": "Building"
+            },
+            "location-apollo_house-living_room": {
+                "uuid": "location-apollo_house-living_room",
+                "name": "Living Room - Apollo House",
+                "description": "The living room of Apollo House where Jeremy practices his pitch in front of a cracked mirror, surrounded by empty Red Bull cans and printouts of Gary Vaynerchuk quotes. It's presumably a typical shared flat environment indicative of Jeremy and Mark's lifestyle.",
+                "type": "Apartment"
+            },
+            "location-canary_wharf-innovation_suite-14th_floor": {
+                "uuid": "location-canary_wharf-innovation_suite-14th_floor",
+                "name": "Canary Wharf Innovation Suite, 14th Floor",
+                "description": "Located within MetricShift Digital Solutions HQ, the suite is used for corporate events like the monthly Innovation Sundowner. Decorated with fairy lights and filled with buzzword-covered whiteboards and kombucha stations, it is overseen by Charlotte Walsh-Henderson.",
+                "type": "Office"
+            },
+            "location-metricshift_executive_boardroom-the_disruption_chamber": {
+                "uuid": "location-metricshift_executive_boardroom-the_disruption_chamber",
+                "name": "MetricShift Executive Boardroom - 'The Disruption Chamber'",
+                "description": "The executive boardroom of MetricShift, recently rebranded as 'The Disruption Chamber'. It is likely a modern, high-end office space used for important meetings and presentations, now witnessing Jeremy's unconventional demonstration.",
+                "type": "Office"
+            },
+            "location-fox_and_goose_pub": {
+                "uuid": "location-fox_and_goose_pub",
+                "name": "The Fox & Goose Pub",
+                "description": "A pub located on Croydon High Street where Mark and Jeremy are sitting at a corner table. It serves as a casual setting for their meeting and celebration with Super Hans.",
+                "type": "Pub"
+            },
+            "location-croydon_high_street": {
+                "uuid": "location-croydon_high_street",
+                "name": "Croydon High Street",
+                "description": "The location where The Fox & Goose Pub is situated, indicating the pub's local environment in Croydon.",
+                "type": "Street"
+            },
+            "location-canary_wharf-innovation_suite-ideation_zone": {
+                "uuid": "location-canary_wharf-innovation_suite-ideation_zone",
+                "name": "Canary Wharf Innovation Suite - Ideation Zone",
+                "description": "The 'Ideation Zone' on the 14th floor of MetricShift Digital Solutions HQ, transformed for the monthly Innovation Sundowner with fairy lights outlining whiteboards covered in buzzwords.",
+                "type": "Event Space"
+            }
+        },
+        "organizations": {
+            "org-metricshift_digital_solutions": {
+                "uuid": "org-metricshift_digital_solutions",
+                "name": "MetricShift Digital Solutions",
+                "description": "MetricShift Digital Solutions is a rebranded company involved in digital transformation and technological integration services. Previously known as DataDyne Analytics, it is a workplace characterized by rapid organizational changes and modern corporate culture initiatives.",
+                "sphere_of_influence": "Digital Transformation and Corporate Solutions",
+                "members": [
+                    "agent-mark_corrigan",
+                    "agent-charlotte_walshhenderson"
+                ]
+            },
+            "org-momentary_enlightenment": {
+                "uuid": "org-momentary_enlightenment",
+                "name": "Momentary Enlightenment",
+                "description": "A musical band with Jeremy Usbourne as the frontman, known for their singular performance at the Croydon Buddhist Center.",
+                "sphere_of_influence": "Music",
+                "members": []
+            },
+            "org-the_hoxton_shamans": {
+                "uuid": "org-the_hoxton_shamans",
+                "name": "The Hoxton Shamans",
+                "description": "An underground DJ collective that Jeremy Usbourne collaborated with during his musical career.",
+                "sphere_of_influence": "Music and Entertainment",
+                "members": []
+            },
+            "org-silent_disco_solutions_ltd": {
+                "uuid": "org-silent_disco_solutions_ltd",
+                "name": "Silent Disco Solutions Ltd.",
+                "description": "A failed venture by Super Hans related to silent disco events.",
+                "sphere_of_influence": "Music Events",
+                "members": []
+            },
+            "org-johnson_dynamic_solutions": {
+                "uuid": "org-johnson_dynamic_solutions",
+                "name": "Johnson Dynamic Solutions",
+                "description": "Johnson Dynamic Solutions is run by Alan Johnson, the CEO, who is renowned for being 'The Disruptor Whisperer'. The organization is known for turning around startups and is involved in innovative and disruptive ventures.",
+                "sphere_of_influence": "Business Strategy and Startup Innovation",
+                "members": [
+                    "agent-alan_johnson"
+                ]
+            },
+            "org-the_visionary_vista": {
+                "uuid": "org-the_visionary_vista",
+                "name": "The Visionary Vista",
+                "description": "Recently named glass-walled conference room in MetricShift as part of the 'Spatial Empowerment Initiative'.",
+                "sphere_of_influence": "Corporate Space",
+                "members": []
+            },
+            "org-quantum_horizons": {
+                "uuid": "org-quantum_horizons",
+                "name": "Quantum Horizons",
+                "description": "A venture capital firm involved in funding disruptive startups.",
+                "sphere_of_influence": "Finance, Startups",
+                "members": []
+            }
+        }
+    }
+}

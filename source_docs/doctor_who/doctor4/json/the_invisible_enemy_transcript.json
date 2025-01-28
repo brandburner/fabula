@@ -1,0 +1,3677 @@
+{
+    "Story": "The Invisible Enemy",
+    "Airdate": "1977-10-01",
+    "Episodes": [
+        {
+            "Episode": "Part One",
+            "Scenes": [
+                {
+                    "Scene": "Bridge",
+                    "Dialogue": [
+                        {
+                            "Stage Direction": "A spaceship carefully navigates an extremely dense asteroid field, and comes safely through to the other side. On the bridge, two crewmen in spacesuits, but without helmets, are dozing whilst the third is at the controls on an upper level by the forward windows."
+                        },
+                        {
+                            "Character": "MEEKER",
+                            "Line": "Going to manual."
+                        },
+                        {
+                            "Character": "SILVEY",
+                            "Line": "What for?"
+                        },
+                        {
+                            "Character": "MEEKER",
+                            "Line": "Why not? If we're going to be slammed around, I'd sooner do it myself."
+                        },
+                        {
+                            "Character": "SILVEY",
+                            "Line": "It's still telling you what to do."
+                        },
+                        {
+                            "Character": "MEEKER",
+                            "Line": "Yes, but at least I'm doing it."
+                        },
+                        {
+                            "Stage Direction": "The ship jerks sideways."
+                        },
+                        {
+                            "Character": "SILVEY",
+                            "Line": "Come on, Meeker."
+                        },
+                        {
+                            "Stage Direction": "An alarm sounds."
+                        },
+                        {
+                            "Character": "SAFRAN",
+                            "Line": "You're off course."
+                        },
+                        {
+                            "Character": "MEEKER",
+                            "Line": "Yes, sorry, skipper."
+                        },
+                        {
+                            "Character": "SAFRAN",
+                            "Line": "Put it back on automatic, please."
+                        },
+                        {
+                            "Stage Direction": "Meeker turns off the alarm and presses a lot of buttons."
+                        },
+                        {
+                            "Character": "MEEKER",
+                            "Line": "Eh? I can't!"
+                        },
+                        {
+                            "Stage Direction": "Safran goes to a computer panel."
+                        },
+                        {
+                            "Character": "SAFRAN",
+                            "Line": "Titan shuttle captain. New course for Titan, please."
+                        },
+                        {
+                            "Stage Direction": "He goes up to Meeker."
+                        },
+                        {
+                            "Character": "SAFRAN",
+                            "Line": "All right, Meeker, that is enough."
+                        },
+                        {
+                            "Character": "MEEKER",
+                            "Line": "What?"
+                        },
+                        {
+                            "Character": "SAFRAN",
+                            "Line": "Off watch. Please."
+                        },
+                        {
+                            "Stage Direction": "Meeker gives up his seat to Safran and goes down to sit with Silvey."
+                        },
+                        {
+                            "Character": "MEEKER",
+                            "Line": "Look, I qualified for exploration eight years ago, and what am I? Glorified garage attendant on some planetary filling station."
+                        },
+                        {
+                            "Character": "SILVEY",
+                            "Line": "Your turn'll come. You'll be glad enough of refuel bases then."
+                        },
+                        {
+                            "Character": "MEEKER",
+                            "Line": "All I'm saying is that I want a real"
+                        },
+                        {
+                            "Character": "SAFRAN",
+                            "Line": "Not now, Meeker."
+                        },
+                        {
+                            "Character": "COMPUTER",
+                            "Line": "Unidentified organism. Changing course to avoid."
+                        },
+                        {
+                            "Stage Direction": "The spaceship is surrounded by a gaseous neuron-shaped Thing which fires electricity at it."
+                        },
+                        {
+                            "Character": "SAFRAN",
+                            "Line": "What was all that about? There's nothing there. Titan shuttle captain. Report please."
+                        },
+                        {
+                            "Character": "NUCLEUS [OC]",
+                            "Line": "Contact has been made."
+                        },
+                        {
+                            "Character": "SAFRAN",
+                            "Line": "Contact?"
+                        }
+                    ]
+                },
+                {
+                    "Scene": "Tardis",
+                    "Dialogue": [
+                        {
+                            "Stage Direction": "Rejoice, everyone! Leela is back in her leather loincloth, and currently carrying the coat stand back into a proper shiny, metallic console room. No more wooden claustrophobia."
+                        },
+                        {
+                            "Character": "LEELA",
+                            "Line": "We've never been in here before."
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "You've never been in here before."
+                        },
+                        {
+                            "Character": "LEELA",
+                            "Line": "What is it?"
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "Number two control room has been closed for redecoration. I don't like the colour."
+                        },
+                        {
+                            "Character": "LEELA",
+                            "Line": "White isn't a colour."
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "That's the trouble with computers. Always think in black and white. No aquamarines, no blues, no imagination."
+                        },
+                        {
+                            "Stage Direction": "The time rotor stops."
+                        },
+                        {
+                            "Character": "LEELA",
+                            "Line": "Have we stopped?"
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "No, we haven't stopped."
+                        },
+                        {
+                            "Stage Direction": "The viewscreen opens."
+                        },
+                        {
+                            "Character": "LEELA",
+                            "Line": "Have we materialised?"
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "Yes."
+                        },
+                        {
+                            "Character": "LEELA",
+                            "Line": "Where?"
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "Solar system, between Jupiter and Saturn. About five thousand AD. Five thousand AD? We're still in the time of your ancestors."
+                        },
+                        {
+                            "Character": "LEELA",
+                            "Line": "Ancestors?"
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "Yes. That was the year of the great breakout."
+                        },
+                        {
+                            "Character": "LEELA",
+                            "Line": "The great what?"
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "Mmm. When your forefathers went leapfrogging across the solar system on their way to the stars. Asteroid belt's probably teeming with them now. New frontiersmen, pioneers waiting to spread across the galaxy like a tidal wave. Or a disease."
+                        },
+                        {
+                            "Character": "LEELA",
+                            "Line": "Why disease? I thought you liked humanity?"
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "Oh, I do, I do. Some of my best friends are humans. When they get together in great numbers, other lifeforms sometimes suffer."
+                        }
+                    ]
+                },
+                {
+                    "Scene": "Bridge",
+                    "Dialogue": [
+                        {
+                            "Stage Direction": "The spacecraft lands at a spaceport and is taken underground on a massive lift. It's cargo doors are open to reveal two large circular containers. As the ship is transported along a tunnel, the crew put on their helmets and prepare to disembark."
+                        },
+                        {
+                            "Character": "COMPUTER",
+                            "Line": "Docking. Docking. Contact. All locked."
+                        },
+                        {
+                            "Stage Direction": "The three men take hand weapons from a rack and enter the airlock."
+                        }
+                    ]
+                },
+                {
+                    "Scene": "Titan base",
+                    "Dialogue": [
+                        {
+                            "Stage Direction": "They leave the airlock and walk through the rock-cut corridors, still with helmets on and visors down."
+                        },
+                        {
+                            "Character": "MAN [OC]",
+                            "Line": "Hey, are we glad to see you. Welcome to Titan. You're welcome to it. We're in the mess. Come on down."
+                        }
+                    ]
+                },
+                {
+                    "Scene": "Mess",
+                    "Dialogue": [
+                        {
+                            "Stage Direction": "Three men are sharing food and a couple of bottles of drink."
+                        },
+                        {
+                            "Character": "MAN",
+                            "Line": "Come on in. Join the party. Our last supper on Titan. Well, come on. Get your gear off and relax. You're going to be here for"
+                        },
+                        {
+                            "Stage Direction": "The three spacemen draw their weapons."
+                        },
+                        {
+                            "Character": "MAN",
+                            "Line": "Hey, what kind of a joke is"
+                        },
+                        {
+                            "Stage Direction": "The spacemen shoot them. Safran walks over to check the bodies. He raises his visor to reveal a strange scaly substance growing over the skin around his eyes."
+                        },
+                        {
+                            "Character": "SAFRAN",
+                            "Line": "There is one other. The station supervisor. We must find him, destroy him."
+                        },
+                        {
+                            "Stage Direction": "Silvey and Meeker raise their visors. They have the same affliction."
+                        },
+                        {
+                            "Character": "SAFRAN",
+                            "Line": "Then we can make this the ideal place in which to breed and multiply."
+                        }
+                    ]
+                },
+                {
+                    "Scene": "Base control",
+                    "Dialogue": [
+                        {
+                            "Character": "LOWE",
+                            "Line": "Shuttle relief crew. Shuttle relief crew. Come in, please. Shuttle relief crew, this is Supervisor Lowe. Please report. Relief crew, this is the supervisor. Where are you?"
+                        },
+                        {
+                            "Stage Direction": "He puts down his mug and switches on a small monitor. It shows the dead men in the mess."
+                        },
+                        {
+                            "Character": "LOWE",
+                            "Line": "My God, what's happened? Hello? Hello?"
+                        },
+                        {
+                            "Stage Direction": "He activates a second monitor, which shows Safran."
+                        },
+                        {
+                            "Character": "LOWE",
+                            "Line": "What is it? What's gone wrong?"
+                        },
+                        {
+                            "Character": "SAFRAN",
+                            "Line": "Wrong? There is nothing wrong. This is most suitable for our purpose. What, what purpose? Safran. Safran, is that you? What has happened?"
+                        },
+                        {
+                            "Character": "SAFRAN",
+                            "Line": "Who is this Safran?"
+                        },
+                        {
+                            "Stage Direction": "Lowe hits an emergency broadcast button."
+                        },
+                        {
+                            "Character": "LOWE",
+                            "Line": "Mayday! Mayday! Mayday! This is Titan Base. Mayday! Mayday! Mayday!"
+                        },
+                        {
+                            "Stage Direction": "He sounds the general alarm, locks the door and grabs a helmet from a shelf before heading for the emergency exit - labelled Imurjinsee Egsit. Silvey and Meeker arrive outside and start cutting into the room but they are too late. Safran enters after them."
+                        },
+                        {
+                            "Character": "MEEKER",
+                            "Line": "The supervisor has escaped."
+                        },
+                        {
+                            "Character": "SAFRAN",
+                            "Line": "Leave him. Let him suffocate."
+                        },
+                        {
+                            "Stage Direction": "Safran turns off the distress alarm."
+                        }
+                    ]
+                },
+                {
+                    "Scene": "Tardis",
+                    "Dialogue": [
+                        {
+                            "Stage Direction": "Leela is learning to write her name on a blackboard. She is left-handed."
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "As soon as I've reset these coordinates, we'll go somewhere really interesting."
+                        },
+                        {
+                            "Character": "LOWE [OC]",
+                            "Line": "Mayday! Mayday! Mayday! This is Titan Base. Mayday! Mayday! Mayday!"
+                        },
+                        {
+                            "Character": "LEELA",
+                            "Line": "What was that?"
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "Distress call. From Titan. That message took half an hour to get here."
+                        },
+                        {
+                            "Character": "LEELA",
+                            "Line": "Is Titan really interesting?"
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "What does that matter? What's important is that someone needs help. Quadrant six two. WHI1212. 9990EX41."
+                        },
+                        {
+                            "Stage Direction": "Leela is holding on tightly to the end of his scarf."
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "What's the matter?"
+                        },
+                        {
+                            "Character": "LEELA",
+                            "Line": "I'm troubled."
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "About what?"
+                        },
+                        {
+                            "Character": "LEELA",
+                            "Line": "I can feel something."
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "Hey."
+                        },
+                        {
+                            "Character": "SAFRAN [OC]",
+                            "Line": "Titan. This is Titan Base. All vessels, repeat, all vessels disregard mayday. I say again, disregard mayday. All under control."
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "There we are."
+                        },
+                        {
+                            "Character": "SAFRAN [OC]",
+                            "Line": "Our apologies. Our apologies."
+                        },
+                        {
+                            "Character": "LEELA",
+                            "Line": "That's it!"
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "That's what?"
+                        },
+                        {
+                            "Character": "LEELA",
+                            "Line": "That's something evil."
+                        },
+                        {
+                            "Character": "SAFRAN [OC]",
+                            "Line": "Titan Base out."
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "What?"
+                        },
+                        {
+                            "Character": "LEELA",
+                            "Line": "It was not a human speaking."
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "It wasn't?"
+                        },
+                        {
+                            "Stage Direction": "The Tardis is passing through the same electro-phenomenon as the shuttle did earlier. A small component on the console explodes and the Doctor is briefly surrounded by a purple glow."
+                        },
+                        {
+                            "Character": "LEELA",
+                            "Line": "What was that?"
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "Static. Nothing important."
+                        },
+                        {
+                            "Character": "LEELA",
+                            "Line": "There was a sort of glow all around you."
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "There was? Oh. Well, a kind of Saint Elmo's fire. It happens at sea."
+                        },
+                        {
+                            "Character": "LEELA",
+                            "Line": "Saint Elmo's?"
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "Yes, it causes a sort of halo effect round the masts of ships."
+                        },
+                        {
+                            "Character": "LEELA",
+                            "Line": "Halo?"
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "Why do you keep repeating everything I say? You're not a parrot, are you?"
+                        },
+                        {
+                            "Character": "LEELA",
+                            "Line": "Parrot?"
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "Yes. A parrot's a bird that repeats things. Move over."
+                        },
+                        {
+                            "Character": "LEELA",
+                            "Line": "(deep) Move over."
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "That's it."
+                        },
+                        {
+                            "Stage Direction": "Bang! from inside the console."
+                        },
+                        {
+                            "Character": "LEELA",
+                            "Line": "I thought you said there was nothing wrong."
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "Well, there isn't anything wrong. Well, there isn't anything important wrong, but I've got to check it, haven't I?"
+                        },
+                        {
+                            "Character": "LEELA",
+                            "Line": "I can still feel it."
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "Come on, old thing. Come on."
+                        },
+                        {
+                            "Stage Direction": "Tendrils of energy leave the console and enter the Doctor's eyes. He sways."
+                        },
+                        {
+                            "Character": "NUCLEUS [OC]",
+                            "Line": "Contact has been made."
+                        },
+                        {
+                            "Stage Direction": "The Doctor collapses."
+                        }
+                    ]
+                },
+                {
+                    "Scene": "Base control",
+                    "Dialogue": [
+                        {
+                            "Stage Direction": "Safran points to a map of the base."
+                        },
+                        {
+                            "Character": "SAFRAN",
+                            "Line": "Incubation will start here."
+                        },
+                        {
+                            "Character": "NUCLEUS [OC]",
+                            "Line": "Contact has been made. The nucleus has found a host. Prepare for his coming."
+                        },
+                        {
+                            "Stage Direction": "The Tardis materialises by the airlock, inside the base. A suited figure watches though a window."
+                        }
+                    ]
+                },
+                {
+                    "Scene": "Tardis",
+                    "Dialogue": [
+                        {
+                            "Stage Direction": "Leela is also zapped by the nucleus."
+                        },
+                        {
+                            "Character": "LEELA",
+                            "Line": "Doctor, wake up. We've landed. We've materialised."
+                        }
+                    ]
+                },
+                {
+                    "Scene": "Titan base",
+                    "Dialogue": [
+                        {
+                            "Stage Direction": "The three spacemen approach the Tardis."
+                        },
+                        {
+                            "Character": "SAFRAN",
+                            "Line": "There is one other with the host. She has been rejected. We must destroy her and dispose of her body with the rest. Take up your positions."
+                        }
+                    ]
+                },
+                {
+                    "Scene": "Tardis",
+                    "Dialogue": [
+                        {
+                            "Stage Direction": "The Doctor wakes."
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "Hello, Lalee."
+                        },
+                        {
+                            "Character": "LEELA",
+                            "Line": "Are you all right?"
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "Rightly perfect, thank you yet, Lalee."
+                        },
+                        {
+                            "Character": "LEELA",
+                            "Line": "What did you say?"
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "I said, I'm perfectly all right, thank you, Lalee."
+                        },
+                        {
+                            "Character": "LEELA",
+                            "Line": "My name is Leela."
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "Hmm? I know your name. Leela."
+                        },
+                        {
+                            "Character": "LEELA",
+                            "Line": "What happened?"
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "Must have had a bot of a shik."
+                        },
+                        {
+                            "Character": "LEELA",
+                            "Line": "What?"
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "A bot of a shik."
+                        },
+                        {
+                            "Character": "LEELA",
+                            "Line": "Doctor, what is it? What's the matter?"
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "There's a voice or something in my head."
+                        },
+                        {
+                            "Character": "LEELA",
+                            "Line": "The evil thing."
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "Nonsense. Just a nasty turn. Come on, we're on Titan. Let's take a look."
+                        },
+                        {
+                            "Stage Direction": "The Doctor opens the doors, then walks straight into one."
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "That was odd."
+                        },
+                        {
+                            "Character": "LEELA",
+                            "Line": "Doctor, don't go out."
+                        },
+                        {
+                            "Stage Direction": "Leela closes the doors."
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "What?"
+                        },
+                        {
+                            "Character": "LEELA",
+                            "Line": "It's out there. Evil!"
+                        },
+                        {
+                            "Stage Direction": "Meanwhile, Lowe goes back into the Base and grabs a weapon."
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "We must go. We've had a mayday."
+                        },
+                        {
+                            "Character": "LEELA",
+                            "Line": "No. I can feel it is wrong."
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "What, intuition?"
+                        },
+                        {
+                            "Character": "LEELA",
+                            "Line": "I don't care what you call it, Doctor. I knew. I knew before that. Before you were affected."
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "What are you talking about, affected?"
+                        },
+                        {
+                            "Character": "LEELA",
+                            "Line": "Well, before you were knocked out."
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "Leela, listen to me. I'm perfectly all right. Move over."
+                        }
+                    ]
+                },
+                {
+                    "Scene": "Titan base",
+                    "Dialogue": [
+                        {
+                            "Character": "LOWE",
+                            "Line": "Drop your weapons. I'm arresting you. All of you!"
+                        },
+                        {
+                            "Stage Direction": "The three spacemen spin round. Lowe kills Silvey then runs. He hides behind a door labelled Kryogenics Sexshun. Safran and Meeker follow him."
+                        },
+                        {
+                            "Character": "SAFRAN",
+                            "Line": "Close the door. Turn off the oxygen supply."
+                        },
+                        {
+                            "Stage Direction": "The Doctor briefly looks out of the Tardis, goes back inside then comes out again a few moments later. Leela follows slowly, knife ready."
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "Nobody around. Not a soul."
+                        },
+                        {
+                            "Stage Direction": "The Doctor sounds a duck call."
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "Anyone home?"
+                        },
+                        {
+                            "Character": "LEELA",
+                            "Line": "Doctor, look."
+                        },
+                        {
+                            "Stage Direction": "They go to Silvey's body."
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "Disregard mayday. He said disregard mayday. Why?"
+                        },
+                        {
+                            "Character": "LEELA",
+                            "Line": "It is still warm."
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "Don't be gruesome."
+                        },
+                        {
+                            "Character": "LEELA",
+                            "Line": "I am a hunter."
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "You're a savage."
+                        },
+                        {
+                            "Character": "LEELA",
+                            "Line": "Perhaps. I'm not ashamed of what I am and I tell you, Doctor, I can smell danger."
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "What did you say?"
+                        },
+                        {
+                            "Character": "LEELA",
+                            "Line": "I said, I can smell danger."
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "Evil again?"
+                        },
+                        {
+                            "Character": "LEELA",
+                            "Line": "Everywhere. In this place."
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "We'd better find it before it finds us."
+                        },
+                        {
+                            "Character": "LEELA",
+                            "Line": "Right."
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "Stay here."
+                        },
+                        {
+                            "Character": "LEELA",
+                            "Line": "I'm no coward."
+                        },
+                        {
+                            "Stage Direction": "The Doctor moves off. Leela runs in another direction. The Doctor returns, walking backwards."
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "Now listen, whatever happens."
+                        },
+                        {
+                            "Stage Direction": "He realises she has already gone, and leaves."
+                        }
+                    ]
+                },
+                {
+                    "Scene": "Base control",
+                    "Dialogue": [
+                        {
+                            "Character": "SAFRAN",
+                            "Line": "Set temperature and humidity rate for optimum breeding conditions."
+                        },
+                        {
+                            "Character": "MEEKER",
+                            "Line": "Set temperature and humidity rate for optimum breeding conditions."
+                        },
+                        {
+                            "Stage Direction": "The Doctor enters."
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "Excuse me, you don't know me. Let me introduce myself."
+                        },
+                        {
+                            "Character": "SAFRAN",
+                            "Line": "There is no need. We are preparing the hives now."
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "People call me the D. Hives?"
+                        },
+                        {
+                            "Character": "SAFRAN",
+                            "Line": "For the nucleus which you carry within you."
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "Are you all right? I answered your mayday."
+                        },
+                        {
+                            "Stage Direction": "Safran and Meeker turn, and the Doctor sees the silver growths on their faces. He backs away a little."
+                        },
+                        {
+                            "Character": "SAFRAN",
+                            "Line": "You answered the call?"
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "That's right, that's right. Has someone been hurt?"
+                        },
+                        {
+                            "Character": "SAFRAN",
+                            "Line": "It is of no consequence. The physical envelope is of no importance."
+                        },
+                        {
+                            "Character": "MEEKER",
+                            "Line": "Of no importance."
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "What do you mean, of no importance? I just found a dead body out there."
+                        },
+                        {
+                            "Stage Direction": "Energy passes between Meeker and the Doctor."
+                        },
+                        {
+                            "Character": "MEEKER",
+                            "Line": "Now that you have arrived."
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "I have arrived."
+                        },
+                        {
+                            "Character": "SAFRAN",
+                            "Line": "All that matters is that the reject should be destroyed."
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "Reject should be destroyed."
+                        },
+                        {
+                            "Character": "SAFRAN",
+                            "Line": "And breeding begin."
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "And breeding from my nucleus begin."
+                        },
+                        {
+                            "Stage Direction": "Leela finds the Kryogenics door and opens it. Lowe topples out, covered in ice. She drags him away. Meanwhile, Safran gives the Doctor his weapon."
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "Leela the reject will not suspect me."
+                        },
+                        {
+                            "Character": "SAFRAN",
+                            "Line": "One of us will follow."
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "That is not necessary."
+                        },
+                        {
+                            "Character": "SAFRAN",
+                            "Line": "The nucleus within you must not be harmed."
+                        },
+                        {
+                            "Character": "MEEKER",
+                            "Line": "Must not be harmed."
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "Very well."
+                        },
+                        {
+                            "Stage Direction": "The Doctor and Meeker leave."
+                        }
+                    ]
+                },
+                {
+                    "Scene": "Mess",
+                    "Dialogue": [
+                        {
+                            "Stage Direction": "Leela gives the recovering Lowe a hot drink."
+                        },
+                        {
+                            "Character": "LOWE",
+                            "Line": "Who are you?"
+                        },
+                        {
+                            "Character": "LEELA",
+                            "Line": "We answered your mayday."
+                        },
+                        {
+                            "Character": "LOWE",
+                            "Line": "They tried to kill me. The relief crew. They're insane. They've already killed these poor devils."
+                        },
+                        {
+                            "Character": "LEELA",
+                            "Line": "But why? Are they your enemies?"
+                        },
+                        {
+                            "Character": "LOWE",
+                            "Line": "No. I know them. At least, I thought I did. But they've changed."
+                        },
+                        {
+                            "Character": "LEELA",
+                            "Line": "How changed?"
+                        },
+                        {
+                            "Character": "LOWE",
+                            "Line": "Their eyes, their manner, their whole behaviour is different. One of them said something."
+                        },
+                        {
+                            "Character": "LEELA",
+                            "Line": "What?"
+                        },
+                        {
+                            "Character": "LOWE",
+                            "Line": "Their purpose. This place will be suitable for our purpose. For our purpose, whatever that is."
+                        },
+                        {
+                            "Character": "LEELA",
+                            "Line": "The Doctor will know. He'll be here soon."
+                        }
+                    ]
+                },
+                {
+                    "Scene": "Titan base",
+                    "Dialogue": [
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "Leela? Leela, where are you?"
+                        }
+                    ]
+                },
+                {
+                    "Scene": "Mess",
+                    "Dialogue": [
+                        {
+                            "Character": "LEELA",
+                            "Line": "That's him. That's the Doctor."
+                        },
+                        {
+                            "Character": "LOWE",
+                            "Line": "No, wait. It could be a trap, if they've caught him."
+                        },
+                        {
+                            "Character": "LEELA",
+                            "Line": "What are we going to do?"
+                        },
+                        {
+                            "Character": "LOWE",
+                            "Line": "Hide."
+                        },
+                        {
+                            "Stage Direction": "Leela stands beside the door and Lowe picks up his weapon."
+                        },
+                        {
+                            "Character": "DOCTOR [OC]",
+                            "Line": "Don't worry, Leela, it's only me. Listen to me, Leela. There's nothing wrong with this place. It's most suitable. It's a good place. A good place."
+                        }
+                    ]
+                },
+                {
+                    "Scene": "Titan base",
+                    "Dialogue": [
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "Come on, Leela. I'm waiting. Please leave me. Please. I can't do it. I can't do it."
+                        },
+                        {
+                            "Character": "MEEKER",
+                            "Line": "Think of the purpose. She is a reject. She must die."
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "I can't."
+                        },
+                        {
+                            "Character": "MEEKER",
+                            "Line": "Think of the purpose!"
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "I can't."
+                        },
+                        {
+                            "Character": "MEEKER",
+                            "Line": "The purpose is all important!"
+                        },
+                        {
+                            "Stage Direction": "Lowe knocks over a plant."
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "The reject is here."
+                        },
+                        {
+                            "Stage Direction": "They walk to the Mess door."
+                        },
+                        {
+                            "Character": "MEEKER",
+                            "Line": "Stay. The nucleus does not wish to be harmed. I shall destroy her."
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "Yes. Kill her. Kill her."
+                        }
+                    ]
+                },
+                {
+                    "Scene": "Mess",
+                    "Dialogue": [
+                        {
+                            "Stage Direction": "Meeker enters and shoots the gun out of Lowe's hand. Leela throws her knife into his back. Meeker falls over a chair. Leela grabs her knife back and runs out, also carrying a gun."
+                        },
+                        {
+                            "Character": "LOWE",
+                            "Line": "Meeker, this purpose, what is it?"
+                        },
+                        {
+                            "Stage Direction": "Energy transfers from Meeker to Lowe, then he dies. Lowe runs after Leela."
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "Episode": "Part Two",
+            "Scenes": [
+                {
+                    "Scene": "Titan base",
+                    "Dialogue": [
+                        {
+                            "Character": "NUCLEUS [OC]",
+                            "Line": "Destroy. The reject must be destroyed. Kill. Kill."
+                        },
+                        {
+                            "Character": "DOCTOR [OC]",
+                            "Line": "I can't. I won't."
+                        },
+                        {
+                            "Character": "NUCLEUS [OC]",
+                            "Line": "You must."
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "Leela."
+                        },
+                        {
+                            "Character": "LEELA",
+                            "Line": "Doctor!"
+                        },
+                        {
+                            "Stage Direction": "She turns and sees the gun."
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "Leela, I can't stop it."
+                        },
+                        {
+                            "Stage Direction": "Leela ducks as he fires."
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "Got to fight it. Got to fight it."
+                        },
+                        {
+                            "Stage Direction": "The Doctor curls up into a ball."
+                        },
+                        {
+                            "Character": "LEELA",
+                            "Line": "Doctor, what's wrong?"
+                        },
+                        {
+                            "Stage Direction": "He lets go of the gun, and the long silver hairs on his hand disappear."
+                        },
+                        {
+                            "Character": "LEELA",
+                            "Line": "Doctor, what was all that?"
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "I'm fighting for my mind. Whatever it was that attacked Safran and the others is also affecting me."
+                        },
+                        {
+                            "Character": "LEELA",
+                            "Line": "Why not me?"
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "Perhaps because. Oh! I can feel it gathering strength to attack again."
+                        },
+                        {
+                            "Character": "LEELA",
+                            "Line": "The evil one?"
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "Some kind of organism that attacks the mind, the intelligence. It's trying to take me over, Leela. It's trying to change me."
+                        },
+                        {
+                            "Character": "LEELA",
+                            "Line": "No, Doctor, please."
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "I need help. I must withdraw into myself, save strength."
+                        },
+                        {
+                            "Stage Direction": "The Doctor becomes very still."
+                        },
+                        {
+                            "Character": "LEELA",
+                            "Line": "Why not me?"
+                        }
+                    ]
+                },
+                {
+                    "Scene": "Titan base airlock",
+                    "Dialogue": [
+                        {
+                            "Stage Direction": "Safran has just pressed the button when Lowe comes round the corner. Safran draws his gun."
+                        },
+                        {
+                            "Character": "LOWE",
+                            "Line": "No, wait. Contact has been made."
+                        },
+                        {
+                            "Stage Direction": "Lowe has the silver scales around his eyes."
+                        },
+                        {
+                            "Character": "LOWE",
+                            "Line": "We are one, Safran."
+                        },
+                        {
+                            "Character": "SAFRAN",
+                            "Line": "Then why pursue me?"
+                        },
+                        {
+                            "Character": "LOWE",
+                            "Line": "For the purpose. The Doctor has not yet succumbed to the power of the Nucleus. You will prepare the tanks for incubation. They do not suspect me yet. I will stay with them to guard the Nucleus and to destroy the reject."
+                        },
+                        {
+                            "Stage Direction": "Leela is running along the corridor. Lowe snatches a pair of goggles from Safran and puts them on."
+                        },
+                        {
+                            "Character": "LOWE",
+                            "Line": "Give me those. Get down!"
+                        },
+                        {
+                            "Character": "LEELA",
+                            "Line": "Did you get him?"
+                        },
+                        {
+                            "Character": "LOWE",
+                            "Line": "Yes, but he almost got me. My eyes caught a flash from his blaster."
+                        },
+                        {
+                            "Character": "LEELA",
+                            "Line": "Come with me. The Doctor's ill, very ill. He told me to get help."
+                        },
+                        {
+                            "Character": "LOWE",
+                            "Line": "But there are no facilities here."
+                        },
+                        {
+                            "Character": "LEELA",
+                            "Line": "Well, where, then?"
+                        },
+                        {
+                            "Stage Direction": "Lowe and Leela leave, and Safran gets up again."
+                        }
+                    ]
+                },
+                {
+                    "Scene": "Titan base",
+                    "Dialogue": [
+                        {
+                            "Stage Direction": "The Doctor is still sitting very still. The Nucleus speaks inside Lowe's head."
+                        },
+                        {
+                            "Character": "NUCLEUS [OC]",
+                            "Line": "You must protect the host."
+                        },
+                        {
+                            "Character": "LOWE",
+                            "Line": "The nearest place is the Centre for Alien Biomorphology. But that's in the asteroid belt."
+                        },
+                        {
+                            "Character": "LEELA",
+                            "Line": "We'll take the Tardis. Doctor, we're taking you somewhere to get help, but we need the Tardis. Now, where are we going?"
+                        },
+                        {
+                            "Character": "LOWE",
+                            "Line": "The Bi-Al Foundation, asteroid K four zero six seven."
+                        },
+                        {
+                            "Character": "LEELA",
+                            "Line": "What are the coordinates? Doctor, what are the coordinates?"
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "Vector one nine, quadrant three. Seven four three."
+                        },
+                        {
+                            "Character": "LEELA",
+                            "Line": "Seven four three."
+                        },
+                        {
+                            "Stage Direction": "They help him up."
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "Eight zero zero."
+                        }
+                    ]
+                },
+                {
+                    "Scene": "Bi-Al Foundation",
+                    "Dialogue": [
+                        {
+                            "Stage Direction": "The asteroid has been completely hollowed out, and has lots of groups of windows in its surface. There is also a Red Cross logo, a tall antenna and a space ambulance on a landing pad. Inside, a patient swathed in gold foil has been strapped to a gurney and is being wheeled away down a corridor on level 2X. It is the Doctor. He is put inside a frosted compartment in the wall, the attendant presses a button and leaves. At the reception desk, Leela is checking him in. The Tardis is neatly parked nearby, next to a potted palm."
+                        },
+                        {
+                            "Character": "WOMAN",
+                            "Line": "Patient's name?"
+                        },
+                        {
+                            "Character": "LEELA",
+                            "Line": "Er, just the Doctor."
+                        },
+                        {
+                            "Character": "WOMAN",
+                            "Line": "Place of origin?"
+                        },
+                        {
+                            "Character": "LEELA",
+                            "Line": "Gallifrey."
+                        },
+                        {
+                            "Character": "WOMAN",
+                            "Line": "Ireland?"
+                        },
+                        {
+                            "Character": "LEELA",
+                            "Line": "Oh, I expect so."
+                        },
+                        {
+                            "Character": "WOMAN",
+                            "Line": "Thank you, that's all we need for now."
+                        },
+                        {
+                            "Character": "LEELA",
+                            "Line": "But where is he?"
+                        },
+                        {
+                            "Character": "WOMAN",
+                            "Line": "Level X4, Isolation, being datalysed."
+                        },
+                        {
+                            "Character": "LEELA",
+                            "Line": "Being what?"
+                        },
+                        {
+                            "Character": "WOMAN",
+                            "Line": "Datalysed. Treatment is already underway. Are you next of kin?"
+                        },
+                        {
+                            "Character": "LEELA",
+                            "Line": "Oh, no. Er, yes. I don't know. I expect so."
+                        },
+                        {
+                            "Stage Direction": "Lowe enters, wearing the goggles of course."
+                        },
+                        {
+                            "Character": "LOWE",
+                            "Line": "Where's the Doctor?"
+                        },
+                        {
+                            "Character": "LEELA",
+                            "Line": "They've taken him away to level X4."
+                        },
+                        {
+                            "Character": "LOWE",
+                            "Line": "X4?"
+                        },
+                        {
+                            "Character": "WOMAN",
+                            "Line": "Isolation. What's your trouble?"
+                        },
+                        {
+                            "Character": "LOWE",
+                            "Line": "Blaster flash. Accident."
+                        },
+                        {
+                            "Character": "WOMAN",
+                            "Line": "Eye section straight through. They'll deal with you there."
+                        },
+                        {
+                            "Character": "LOWE",
+                            "Line": "(to Leela) I'll find you later."
+                        },
+                        {
+                            "Stage Direction": "Lowe leaves."
+                        },
+                        {
+                            "Character": "LEELA",
+                            "Line": "Can I be with the Doctor?"
+                        },
+                        {
+                            "Character": "WOMAN",
+                            "Line": "Not until Professor Marius has had a chance to examine him."
+                        },
+                        {
+                            "Character": "LEELA",
+                            "Line": "Marius?"
+                        },
+                        {
+                            "Character": "WOMAN",
+                            "Line": "He's our specialist in extraterrestrial pathological endomorphisms."
+                        },
+                        {
+                            "Character": "LEELA",
+                            "Line": "Oh."
+                        },
+                        {
+                            "Character": "WOMAN",
+                            "Line": "Wait over there, please."
+                        }
+                    ]
+                },
+                {
+                    "Scene": "Isolation ward",
+                    "Dialogue": [
+                        {
+                            "Stage Direction": "A wild-haired man takes a paper readout from a mobile computer built in the shape of a dog, and turns to his assistant. He speaks with a teutonic accent."
+                        },
+                        {
+                            "Character": "MARIUS",
+                            "Line": "Blithering idiots, the pair of you. This man is in a self-induced coma. There's absolutely nothing wrong with the fellow. Oh, look at him."
+                        },
+                        {
+                            "Stage Direction": "The Doctor is lying on the examination table."
+                        },
+                        {
+                            "Character": "MARIUS",
+                            "Line": "He's probably one of those good-for-nothing spaceniks. Now, why have I been sent for? Tell me that. Why? Complete and utter waste of time."
+                        },
+                        {
+                            "Stage Direction": "The dog-computer is producing another printout from its 'muzzle'."
+                        },
+                        {
+                            "Character": "PARSONS",
+                            "Line": "Excuse me, sir."
+                        },
+                        {
+                            "Character": "MARIUS",
+                            "Line": "What, what, what, what, what?"
+                        },
+                        {
+                            "Character": "PARSONS",
+                            "Line": "K9 indicates that the, the patient is not a member of the human race!"
+                        },
+                        {
+                            "Character": "MARIUS",
+                            "Line": "Nonsense."
+                        },
+                        {
+                            "Character": "PARSONS",
+                            "Line": "Well, see for yourself. Look, two hearts. Symbiotic, self-renewing cell structure."
+                        },
+                        {
+                            "Character": "MARIUS",
+                            "Line": "Is this right, K9? K9: (for it is he) Affirmative, master."
+                        },
+                        {
+                            "Character": "MARIUS",
+                            "Line": "Is he now. Point of origin? K9: Beyond the solar system."
+                        },
+                        {
+                            "Character": "MARIUS",
+                            "Line": "Thank you, K9. K9: Master."
+                        },
+                        {
+                            "Character": "MARIUS",
+                            "Line": "Nurse, let's get an encephalograph out on him, hmm?"
+                        },
+                        {
+                            "Stage Direction": "The Doctor is slid underneath a scanning device. K9 beeps."
+                        },
+                        {
+                            "Character": "MARIUS",
+                            "Line": "Well, well, what is it? K9: Unidentified viral type infection with noetic characteristics, at present seated in the mind-brain interface and therefore having no ascertainable mass or structure, master."
+                        },
+                        {
+                            "Character": "MARIUS",
+                            "Line": "Interesting. Most interesting. It isn't every night that we come up with a brand new infection, is it, Parsons?"
+                        },
+                        {
+                            "Character": "PARSONS",
+                            "Line": "No, sir."
+                        },
+                        {
+                            "Stage Direction": "The Doctor sits up."
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "Hello."
+                        },
+                        {
+                            "Character": "MARIUS",
+                            "Line": "Good evening."
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "Find anything?"
+                        },
+                        {
+                            "Character": "MARIUS",
+                            "Line": "Not yet, my boy, but we will, we will."
+                        },
+                        {
+                            "Stage Direction": "Marius lies the Doctor back down again. An image of the Doctor's head comes up on the scanner."
+                        },
+                        {
+                            "Character": "MARIUS",
+                            "Line": "Ah, Doctor, I see."
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "Yes. What have you found?"
+                        },
+                        {
+                            "Character": "MARIUS",
+                            "Line": "Cataleptic trance?"
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "Yes."
+                        },
+                        {
+                            "Character": "MARIUS",
+                            "Line": "Self-induced."
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "Yes."
+                        },
+                        {
+                            "Character": "MARIUS",
+                            "Line": "Ha. Why?"
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "Self-preservation. Whatever it is I'm suffering from seems to thrive on intellectual activity."
+                        },
+                        {
+                            "Character": "MARIUS",
+                            "Line": "Oh, I see. You mean that the harder you think, the more of a grip it seems to take?"
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "Yes. Non-thinking is the only way to shake it off, but I can't stay mindless for eternity, can I."
+                        },
+                        {
+                            "Character": "MARIUS",
+                            "Line": "Oh, no, I take your point, I take your point. Now my computer here, he's"
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "Ah. Hello. K9: Hello."
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "How are you?"
+                        },
+                        {
+                            "Character": "MARIUS",
+                            "Line": "Well, he seems to think that it's noetic in character, that means it's only detectable during consciousness."
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "I know what noetic means."
+                        },
+                        {
+                            "Character": "MARIUS",
+                            "Line": "I'm sorry."
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "Mind-brain interface."
+                        },
+                        {
+                            "Character": "MARIUS",
+                            "Line": "Well, if it exists."
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "But of course. How stupid. That's why it attacked the Tardis computer first. It was showing the greatest amount of mental activity. I was just idling, so to speak."
+                        },
+                        {
+                            "Character": "MARIUS",
+                            "Line": "When was this?"
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "When we were first attacked. We were on our way to Titan. I assumed it was just a static build-up. Then when I checked the computer, it jumped into my mind, and that explains why Leela was"
+                        },
+                        {
+                            "Character": "MARIUS",
+                            "Line": "Hmm?"
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "Why Leela was unaffected. Have you met Leela?"
+                        },
+                        {
+                            "Character": "MARIUS",
+                            "Line": "No."
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "She's all instinct and intuition."
+                        },
+                        {
+                            "Character": "MARIUS",
+                            "Line": "Oh."
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "That's why the virus rejected her. Of course. I begin to see it all now."
+                        },
+                        {
+                            "Character": "MARIUS",
+                            "Line": "Well, it's possible, it's possible. Was anyone else exposed to it?"
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "Yes. The entire crew on Titan. Well, one exception. The supervisor, man called Lowe. K9: Supervisor Lowe has been seen in the eye section."
+                        },
+                        {
+                            "Character": "MARIUS",
+                            "Line": "Are you sure? K9: Affirmative."
+                        },
+                        {
+                            "Stage Direction": "The Doctor goes back into his coma."
+                        },
+                        {
+                            "Character": "MARIUS",
+                            "Line": "Are you sure that he was the, oh. Oh dear, he's gone again. I want him kept under constant observation. See to it, K9. Full monitoring. K9: Affirmative, master."
+                        },
+                        {
+                            "Character": "MARIUS",
+                            "Line": "Now let's see if we can find this chap Lowe, just in case he's a carrier. Come along, Parsons."
+                        },
+                        {
+                            "Character": "PARSONS",
+                            "Line": "Coming, sir."
+                        }
+                    ]
+                },
+                {
+                    "Scene": "Eye section",
+                    "Dialogue": [
+                        {
+                            "Stage Direction": "Lowe is reclining on a couch, wearing the goggles, when the Ophthalmologist enters."
+                        },
+                        {
+                            "Character": "OPHTHAL",
+                            "Line": "How did this happen?"
+                        },
+                        {
+                            "Character": "LOWE",
+                            "Line": "Accident, on Titan."
+                        },
+                        {
+                            "Character": "OPHTHAL",
+                            "Line": "Accident? What sort of accident? Well, let's have a look at you."
+                        },
+                        {
+                            "Character": "LOWE",
+                            "Line": "Certainly."
+                        },
+                        {
+                            "Stage Direction": "Lowe removes the goggles, turns his head, and the energy jumps to the ophthalmologist."
+                        },
+                        {
+                            "Character": "OPHTHAL",
+                            "Line": "Contact has been made."
+                        }
+                    ]
+                },
+                {
+                    "Scene": "Isolation ward",
+                    "Dialogue": [
+                        {
+                            "Stage Direction": "On level 4X, Leela reads the sign, then makes her way carefully along the corridor with a gun ready. She pauses outside a door labelled Isolayshun Ward. Inside are the Doctor and K9. Leela bursts in."
+                        },
+                        {
+                            "Character": "LEELA",
+                            "Line": "Doctor! K9: Negative, negative, negative. No entry. No entry."
+                        },
+                        {
+                            "Character": "LEELA",
+                            "Line": "Look, whatever you are, I K9: I am K9 and I am warning you."
+                        },
+                        {
+                            "Character": "LEELA",
+                            "Line": "Look, I came to see the Doctor. I arrived with him."
+                        },
+                        {
+                            "Stage Direction": "She points her gun at K9."
+                        },
+                        {
+                            "Character": "K9",
+                            "Line": "I too have offensive capability. You have been warned. Retreat. Retreat. Patient in total isolation. Contagion risk. Retreat. Retreat."
+                        },
+                        {
+                            "Stage Direction": "Marius enters and pushes Leela's gun down."
+                        },
+                        {
+                            "Character": "MARIUS",
+                            "Line": "Who are you?"
+                        },
+                        {
+                            "Character": "LEELA",
+                            "Line": "I am Leela."
+                        },
+                        {
+                            "Character": "MARIUS",
+                            "Line": "Ah, yes, of course. The Doctor's aide."
+                        },
+                        {
+                            "Character": "LEELA",
+                            "Line": "I think so."
+                        },
+                        {
+                            "Character": "MARIUS",
+                            "Line": "K9, memorise. Friend. K9: Memorised. Friend."
+                        },
+                        {
+                            "Character": "LEELA",
+                            "Line": "Is that tin thing something to do with you?"
+                        },
+                        {
+                            "Character": "MARIUS",
+                            "Line": "That tin thing is my best friend and constant companion. He's a computer. You see, on Earth, I always used to have a dog. But up here, the weight penalty, well, it's just not possible. So I had K9 made up. He's very useful. He's my own personal data bank. He knows everything that I do, don't you, K9? K9: Affirmative, and more, master."
+                        },
+                        {
+                            "Character": "MARIUS",
+                            "Line": "I'm afraid there's not much I can tell you about the Doctor, yet. You know, I should like to have you scanned and datalysed, just to see why you're immune. You see, if we can isolate that factor, we can inoculate against it. You get it?"
+                        },
+                        {
+                            "Character": "LEELA",
+                            "Line": "Sorry?"
+                        },
+                        {
+                            "Character": "MARIUS",
+                            "Line": "Yes, perhaps it is a matter of intelligence."
+                        },
+                        {
+                            "Stage Direction": "Parsons enters."
+                        },
+                        {
+                            "Character": "MARIUS",
+                            "Line": "Right. Well, what about this Lowe chap?"
+                        },
+                        {
+                            "Character": "PARSONS",
+                            "Line": "He was in the eye section, sir, but now he's disappeared. And the consultant."
+                        }
+                    ]
+                },
+                {
+                    "Scene": "Corridor",
+                    "Dialogue": [
+                        {
+                            "Stage Direction": "The Ophthalmologist is wheeling Lowe along on a gurney. He has grown the silver scales now. Two men enter the corridor and walk ahead of them."
+                        },
+                        {
+                            "Character": "LOWE",
+                            "Line": "Who are they?"
+                        },
+                        {
+                            "Character": "OPHTHAL",
+                            "Line": "Doctors. Cruikshank and Hedges."
+                        },
+                        {
+                            "Character": "LOWE",
+                            "Line": "Get them here."
+                        },
+                        {
+                            "Character": "OPHTHAL",
+                            "Line": "Cruikshank? Hedges? Interesting case here. Come and have a look."
+                        },
+                        {
+                            "Stage Direction": "The Ophthalmologist keeps his back towards the doctors as they approach. Lowe shields his eyes."
+                        },
+                        {
+                            "Character": "HEDGES",
+                            "Line": "What is it?"
+                        },
+                        {
+                            "Character": "LOWE",
+                            "Line": "Now!"
+                        },
+                        {
+                            "Stage Direction": "The Ophthalmologist and Lowe zap the doctors."
+                        },
+                        {
+                            "Character": "HEDGES",
+                            "Line": "(or Cruikshank) Contact has been made."
+                        },
+                        {
+                            "Character": "CRUIKSHANK",
+                            "Line": "(or Hedges) Contact has been made."
+                        },
+                        {
+                            "Character": "LOWE",
+                            "Line": "A place has been found, most suitable for our purpose. Titan is being prepared as a hive. Meanwhile, our duty here is twofold. To guard the Nucleus, which is in the mind of one called Doctor, and to make contact with the best minds. When we leave for incubation on Titan, all rejects will be destroyed."
+                        },
+                        {
+                            "Character": "OPHTHAL",
+                            "Line": "Do you understand?"
+                        },
+                        {
+                            "Character": "HEDGES",
+                            "Line": "(or Cruikshank) We understand."
+                        },
+                        {
+                            "Character": "CRUIKSHANK",
+                            "Line": "(or Hedges) Contact must be made."
+                        },
+                        {
+                            "Character": "LOWE",
+                            "Line": "For the purpose."
+                        },
+                        {
+                            "Stage Direction": "They all walk off."
+                        }
+                    ]
+                },
+                {
+                    "Scene": "Isolation ward",
+                    "Dialogue": [
+                        {
+                            "Stage Direction": "Leela is going under the scanner."
+                        },
+                        {
+                            "Character": "MARIUS",
+                            "Line": "Virus contamination would seem to be instant and total. If there's anything unique in her metabolism, the scan will detect it. K9: Negative on immunity, master."
+                        },
+                        {
+                            "Character": "MARIUS",
+                            "Line": "There must be something!"
+                        },
+                        {
+                            "Character": "PARSONS",
+                            "Line": "What if there isn't?"
+                        },
+                        {
+                            "Character": "MARIUS",
+                            "Line": "But he's our only guinea pig. He's the only one with any resistance to it. I can't allow him to be taken over like those poor devils on Titan. No, if there's no immunity factor in Leela, I will just have to operate."
+                        },
+                        {
+                            "Stage Direction": "A short time later, the Doctor is back under the scanner."
+                        },
+                        {
+                            "Character": "MARIUS",
+                            "Line": "No anaesthetics, but keep them handy. K9, monitor the brain. If he shows signs of emerging from the coma, warn me immediately. Otherwise the shock might kill him. K9: Affirmative, master."
+                        }
+                    ]
+                },
+                {
+                    "Scene": "Corridor",
+                    "Dialogue": [
+                        {
+                            "Character": "NUCLEUS [OC]",
+                            "Line": "Lowe. Lowe, I am endangered. The host is threatened."
+                        },
+                        {
+                            "Character": "LOWE",
+                            "Line": "We must act before it is destroyed."
+                        }
+                    ]
+                },
+                {
+                    "Scene": "Isolation ward",
+                    "Dialogue": [
+                        {
+                            "Stage Direction": "Meanwhile, another space shuttle is being attacked by the Thing."
+                        },
+                        {
+                            "Character": "WOMAN [on screen]",
+                            "Line": "Emergency, all stations. All stations, emergency. Shuttle approach on collision course, out of control. All medical personnel stand by. Emergency, emergency."
+                        },
+                        {
+                            "Character": "MARIUS",
+                            "Line": "Now? Why now?"
+                        },
+                        {
+                            "Character": "PARSONS",
+                            "Line": "We'll have to go, sir."
+                        },
+                        {
+                            "Character": "MARIUS",
+                            "Line": "Yes, yes, I know we have to go. K9, stay in charge. You stay with him. No one is to come into contact. Have you got that? No one."
+                        },
+                        {
+                            "Character": "LEELA",
+                            "Line": "All right. K9: Affirmative."
+                        },
+                        {
+                            "Character": "MARIUS",
+                            "Line": "Come along, Parsons!"
+                        },
+                        {
+                            "Character": "PARSONS",
+                            "Line": "Coming, sir."
+                        },
+                        {
+                            "Stage Direction": "The zapped shuttle crashes into the asteroid. The impact makes the Doctor roll off the examination couch. That gets him out of his coma. He climbs back on and curls up. The alarm blares."
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "What was that?"
+                        },
+                        {
+                            "Character": "LEELA",
+                            "Line": "There's been a crash. A shuttle. They've gone to help. K9: On level below. This level now completely cut off."
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "What!"
+                        },
+                        {
+                            "Stage Direction": "On the crash level, X3, Marius, Parsons and his nurse are helping clear debris."
+                        }
+                    ]
+                },
+                {
+                    "Scene": "Level 2X",
+                    "Dialogue": [
+                        {
+                            "Character": "OPHTHAL",
+                            "Line": "That way is blocked."
+                        },
+                        {
+                            "Character": "LOWE",
+                            "Line": "We have to get to level X4. There must be other ways."
+                        },
+                        {
+                            "Character": "HEDGES",
+                            "Line": "The service shaft here."
+                        },
+                        {
+                            "Character": "CRUIKSHANK",
+                            "Line": "It will take longer."
+                        },
+                        {
+                            "Character": "LOWE",
+                            "Line": "Then hurry."
+                        },
+                        {
+                            "Stage Direction": "They all climb into the frosted wall compartment."
+                        }
+                    ]
+                },
+                {
+                    "Scene": "Isolation ward",
+                    "Dialogue": [
+                        {
+                            "Character": "WOMAN [on screen]",
+                            "Line": "All available personnel to X3, to X3 accident zone."
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "I don't think that was an accident."
+                        },
+                        {
+                            "Character": "LEELA",
+                            "Line": "Why?"
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "It must be something to do with whatever's in my head. (to K9) Can I have a word with you? (to Leela) Where are you going?"
+                        },
+                        {
+                            "Character": "LEELA",
+                            "Line": "I think I'm needed elsewhere."
+                        },
+                        {
+                            "Stage Direction": "Leela leaves, gun ready."
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "K9. Cloning techniques. Give me a rundown, state of the art so far. K9: Cloning. Cloning is replication, making a copy of an individual from a single cell of that individual. Clones. Clones retain characteristics of original organism."
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "Go on, go on. K9: Successful experiments first carried out in the year thirty nine twenty two."
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "Thirty nine twenty two. Oh good."
+                        }
+                    ]
+                },
+                {
+                    "Scene": "Level X3",
+                    "Dialogue": [
+                        {
+                            "Stage Direction": "The body has silver scales around the eyes."
+                        },
+                        {
+                            "Character": "MARIUS",
+                            "Line": "If these two unfortunates have contracted the virus, we must assume that they all have. But if we attempt treatment, the disease will spread like wildfire and wipe out the entire Foundation. Everybody back. Clear the area. Get everybody out of here. I want the whole section cryogenically cocooned until we find out more about the nature of this virus. Get out the helium pumps."
+                        },
+                        {
+                            "Character": "MAN",
+                            "Line": "Yes, sir."
+                        },
+                        {
+                            "Character": "MARIUS",
+                            "Line": "Parsons, come with me."
+                        }
+                    ]
+                },
+                {
+                    "Scene": "Level X4",
+                    "Dialogue": [
+                        {
+                            "Stage Direction": "Leela fires at the bad guys as they climb out of the service shaft."
+                        },
+                        {
+                            "Character": "LOWE",
+                            "Line": "Destroy her! That's the reject!"
+                        },
+                        {
+                            "Character": "LEELA",
+                            "Line": "Reject yourself."
+                        }
+                    ]
+                },
+                {
+                    "Scene": "Isolation ward",
+                    "Dialogue": [
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "Hurry, K9, hurry. K9: At present, cloning procedure is possible, but unreliable."
+                        }
+                    ]
+                },
+                {
+                    "Scene": "Level X4",
+                    "Dialogue": [
+                        {
+                            "Stage Direction": "Marius joins Leela, hiding behind a column."
+                        },
+                        {
+                            "Character": "LEELA",
+                            "Line": "It's Lowe. He's got the disease. Get inside quick. I'll cover you."
+                        },
+                        {
+                            "Stage Direction": "Leela advances one column as Marius, Parsons and the nurse make a dash for it."
+                        }
+                    ]
+                },
+                {
+                    "Scene": "Isolation ward",
+                    "Dialogue": [
+                        {
+                            "Character": "K9",
+                            "Line": "Replicants do not maintain their existence for long because of possible unsolved psychic stress problems."
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "How long? How long? K9: Longest recorded clone life, ten mi"
+                        },
+                        {
+                            "Character": "MARIUS",
+                            "Line": "Ten minutes, fifty five seconds."
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "Professor Marius, could you clone me?"
+                        },
+                        {
+                            "Character": "MARIUS",
+                            "Line": "Certainly. The Kilbracken technique is very simple. But it's a circus trick. It's of no medical value."
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "Could you clone me now?"
+                        },
+                        {
+                            "Character": "MARIUS",
+                            "Line": "Now?"
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "Yes. Because if you don't clone me now and the virus gets to me, it'll take the whole centre with it."
+                        },
+                        {
+                            "Stage Direction": "Outside, Leela throws her knife behind her. Lowe sends Cruikshank and Hedges the wrong way and she rolls head over heels into the isolation ward."
+                        },
+                        {
+                            "Character": "LEELA",
+                            "Line": "Can't hold them off any more. Out of ammunition."
+                        },
+                        {
+                            "Character": "MARIUS",
+                            "Line": "K9? K9: Master."
+                        },
+                        {
+                            "Character": "MARIUS",
+                            "Line": "Ka lay lee! K9: Affirmative."
+                        },
+                        {
+                            "Stage Direction": "K9 leaves, nozzle sticking out of his muzzle."
+                        },
+                        {
+                            "Character": "LEELA",
+                            "Line": "What does that mean?"
+                        },
+                        {
+                            "Stage Direction": "Sounds of gunfire outside."
+                        },
+                        {
+                            "Character": "MARIUS",
+                            "Line": "He knows."
+                        }
+                    ]
+                },
+                {
+                    "Scene": "Level X4",
+                    "Dialogue": [
+                        {
+                            "Character": "LOWE",
+                            "Line": "We'll never get through this way. Is there a visiphone?"
+                        },
+                        {
+                            "Character": "OPHTHAL",
+                            "Line": "In my office."
+                        }
+                    ]
+                },
+                {
+                    "Scene": "Isolation ward",
+                    "Dialogue": [
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "Hurry, Marius. Hurry."
+                        },
+                        {
+                            "Character": "MARIUS",
+                            "Line": "Now, you must realise, Doctor, this is not in any real sense a clone, but a short-lived carbon-based imprint. A sort of three dimensional photograph."
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "Leela. I shall need Leela."
+                        },
+                        {
+                            "Character": "MARIUS",
+                            "Line": "Leela? Why? Why Leela?"
+                        },
+                        {
+                            "Character": "LEELA",
+                            "Line": "What does he mean, he needs me?"
+                        },
+                        {
+                            "Character": "MARIUS",
+                            "Line": "Ah, it must be because you are immune. I think he wants you cloned as well."
+                        },
+                        {
+                            "Character": "LEELA",
+                            "Line": "But what will happen to me? The real me?"
+                        },
+                        {
+                            "Character": "MARIUS",
+                            "Line": "Nothing. Nothing at all."
+                        },
+                        {
+                            "Character": "LEELA",
+                            "Line": "But you said it was just short-lived."
+                        },
+                        {
+                            "Character": "MARIUS",
+                            "Line": "Oh, yes. A permanent clonal copy is theoretically possible, but it would take years to achieve because of the experiental gap. Now, you see, in this way, we manage to transfer both heredity and experience, but the transfer is unstable."
+                        },
+                        {
+                            "Character": "LEELA",
+                            "Line": "What?"
+                        },
+                        {
+                            "Character": "MARIUS",
+                            "Line": "Well, it means that your photocopy twin will deteriorate and expire after a maximum life of ten or eleven minutes."
+                        },
+                        {
+                            "Character": "LEELA",
+                            "Line": "Oh, well, in that case, if you do not mind, I will not stay to see."
+                        },
+                        {
+                            "Character": "MARIUS",
+                            "Line": "Just as you wish."
+                        },
+                        {
+                            "Character": "LEELA",
+                            "Line": "Oh, Professor?"
+                        },
+                        {
+                            "Character": "MARIUS",
+                            "Line": "Yes? Now what?"
+                        },
+                        {
+                            "Character": "LEELA",
+                            "Line": "If you need me, I shall be with K9."
+                        },
+                        {
+                            "Character": "MARIUS",
+                            "Line": "Yes, yes, yes, yes."
+                        },
+                        {
+                            "Stage Direction": "Leela leaves. The Doctor's skin is covered in silver hairs. Marius places Petri dishes containing the sample cells into a cubicle. There are a series of flashes, and figures of the normal Doctor and Leela appear. They walk out."
+                        },
+                        {
+                            "Character": "MARIUS",
+                            "Line": "Doctor, where are you going? Where are you going? DOCTOR 2: Just you trust me, Professor. Just trust me."
+                        }
+                    ]
+                },
+                {
+                    "Scene": "Level X4",
+                    "Dialogue": [
+                        {
+                            "Stage Direction": "We see his legs walk past Leela, who is sitting on the floor next to K9."
+                        },
+                        {
+                            "Character": "LEELA",
+                            "Line": "Doctor? Which one was that? K9: That was the Doctor two."
+                        },
+                        {
+                            "Character": "LEELA",
+                            "Line": "Can you explain? K9: Affirmative. The Kilbracken cloning technique replicates from the single cell as a short-lived carbon copy. Efficacy of individuation not completely guaranteed."
+                        },
+                        {
+                            "Character": "LEELA",
+                            "Line": "Can you explain simply? K9: Negative."
+                        }
+                    ]
+                },
+                {
+                    "Scene": "Eye section",
+                    "Dialogue": [
+                        {
+                            "Character": "OPHTHAL",
+                            "Line": "Medic."
+                        },
+                        {
+                            "Stage Direction": "The man turns and Lowe zaps him."
+                        }
+                    ]
+                },
+                {
+                    "Scene": "Isolation ward",
+                    "Dialogue": [
+                        {
+                            "Character": "NUCLEUS [OC]",
+                            "Line": "Release this body. You cannot prevail. I am the One. It is my purpose. It is my destiny. Let me go, you fools."
+                        },
+                        {
+                            "Stage Direction": "The Doctor is strapped down on the couch, with Marius and Parsons hanging onto his arms."
+                        },
+                        {
+                            "Character": "NURSE",
+                            "Line": "Shall we sedate him?"
+                        },
+                        {
+                            "Character": "MARIUS",
+                            "Line": "Not yet, not yet."
+                        },
+                        {
+                            "Character": "PARSONS",
+                            "Line": "But the danger of contagion, sir."
+                        },
+                        {
+                            "Stage Direction": "Leela 2 is still in the cubicle."
+                        },
+                        {
+                            "Character": "MARIUS",
+                            "Line": "No, Parsons, we would all have caught it by now."
+                        },
+                        {
+                            "Character": "PARSONS",
+                            "Line": "But if the Doctor's right, sir, and the virus has intelligence, there must be some reason for choosing him."
+                        },
+                        {
+                            "Character": "MARIUS",
+                            "Line": "Yes, yes. I think we could be dealing with some kind of leader."
+                        },
+                        {
+                            "Character": "NUCLEUS [OC]",
+                            "Line": "My purpose. You must not delay my purpose. The place of the hive is ready. Release me!"
+                        },
+                        {
+                            "Stage Direction": "Doctor 2 comes out of the Tardis, carrying a piece of equipment."
+                        },
+                        {
+                            "Character": "LOWE [on screen]",
+                            "Line": "Professor Marius, listen to me. You must release the Doctor."
+                        },
+                        {
+                            "Character": "MARIUS",
+                            "Line": "Never! LOWE [on screen]: I warn you. We are in control of the entire centre. If you do not do as I say, I shall destroy your Foundation!"
+                        }
+                    ]
+                },
+                {
+                    "Scene": "Level X4",
+                    "Dialogue": [
+                        {
+                            "Stage Direction": "The legs walk past again."
+                        },
+                        {
+                            "Character": "LEELA",
+                            "Line": "That was Doctor two. K9: Affirmative."
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "Episode": "Part Three",
+            "Scenes": [
+                {
+                    "Scene": "The Doctor's brain",
+                    "Dialogue": [
+                        {
+                            "Stage Direction": "The mini-clones make their way onto 'dry land'."
+                        },
+                        {
+                            "Character": "DOCTOR 2",
+                            "Line": "Well, what do you think? LEELA 2: I don't know what to think. I've never been inside anybody's head before. DOCTOR 2: No. LEELA 2: It's very interesting. DOCTOR 2: Thank you. LEELA 2: Hey, why aren't we wet? DOCTOR 2: Because we're too small to break the surface tension."
+                        },
+                        {
+                            "Stage Direction": "A flash of light goes past with a beep."
+                        },
+                        {
+                            "Character": "LEELA 2",
+                            "Line": "What was that? DOCTOR 2: Oh, just a passing thought. Electrochemical reaction in the synapses. Leg wants to move."
+                        }
+                    ]
+                },
+                {
+                    "Scene": "Isolation ward",
+                    "Dialogue": [
+                        {
+                            "Stage Direction": "The Doctor's right leg jerks up, breaking the restraint."
+                        },
+                        {
+                            "Character": "MARIUS",
+                            "Line": "I don't think he can hold out much longer. The virus is strengthening its grip. LOWE [on screen]: Marius! You have not replied to my ultimatum. I shall destroy this centre."
+                        },
+                        {
+                            "Character": "MARIUS",
+                            "Line": "No, wait! I agree to your terms. I have no further use for the Doctor. He's yours whenever you want him. LOWE [on screen]: A wise decision. Tell me, Professor, is the woman Leela with you?"
+                        },
+                        {
+                            "Character": "MARIUS",
+                            "Line": "No. As you can see, there's simply myself and my two assistants. She is somewhere in the Foundation, but I have no idea where. LOWE [on screen]: No matter. She will be destroyed. Stay where you are. We are on our way."
+                        },
+                        {
+                            "Stage Direction": "Marius goes to the door and calls out into the corridor."
+                        },
+                        {
+                            "Character": "MARIUS",
+                            "Line": "Leela! They're coming now. We must hold them up for ten minutes. Can you do that?"
+                        },
+                        {
+                            "Character": "LEELA",
+                            "Line": "Can I borrow K9?"
+                        },
+                        {
+                            "Character": "MARIUS",
+                            "Line": "Yes, certainly, certainly. K9, cooperate with Leela. K9: Master."
+                        },
+                        {
+                            "Character": "LEELA",
+                            "Line": "What we need is that corridor. K9: Corridor X3."
+                        },
+                        {
+                            "Character": "LEELA",
+                            "Line": "Yes. If we can just make some sort of barrier. K9: Recheck. First we must eliminate the service shaft."
+                        },
+                        {
+                            "Character": "LEELA",
+                            "Line": "Of course! They can attack us from behind."
+                        },
+                        {
+                            "Character": "MARIUS",
+                            "Line": "You haven't got much time."
+                        },
+                        {
+                            "Character": "LEELA",
+                            "Line": "Right. K9, you destroy the shaft and meet me in the corridor. K9: Affirmative."
+                        },
+                        {
+                            "Stage Direction": "Leela and K9 leave."
+                        },
+                        {
+                            "Character": "PARSONS",
+                            "Line": "Suppose they fail?"
+                        },
+                        {
+                            "Stage Direction": "Marius takes two guns from the wall by the door."
+                        },
+                        {
+                            "Character": "MARIUS",
+                            "Line": "Have you ever used one of these?"
+                        },
+                        {
+                            "Character": "PARSONS",
+                            "Line": "Thank you, sir."
+                        },
+                        {
+                            "Character": "MARIUS",
+                            "Line": "Parsons, if by any chance I am taken over by the virus, I hope you won't hesitate to use that on me, because I certainly will on you. We must give the Doctor his ten minutes."
+                        },
+                        {
+                            "Character": "PARSONS",
+                            "Line": "I understand, sir."
+                        }
+                    ]
+                },
+                {
+                    "Scene": "The Doctor's brain",
+                    "Dialogue": [
+                        {
+                            "Stage Direction": "There is a wailing sound."
+                        },
+                        {
+                            "Character": "LEELA 2",
+                            "Line": "Doctor? DOCTOR 2: Yes? LEELA 2: I do not think you have any idea where we are going. DOCTOR 2: What do you mean, I've got no idea where we're going? We're travelling along my neural pathways looking for a sort of bridge, a crossover point between the left lobe and the right lobe. LEELA 2: Is that where the virus will be? DOCTOR 2: Since it seems to control both the conscious and unconscious it's a good enough place to start. LEELA 2: Suppose we meet it? DOCTOR 2: What? No, no, no. It came in through the optic nerve. We are somewhere between the spinal cord and the cerebellum. But keep your eyes open for tissue deterioration. LEELA 2: Like this?"
+                        },
+                        {
+                            "Stage Direction": "An Ow sound off-screen."
+                        },
+                        {
+                            "Character": "DOCTOR 2",
+                            "Line": "That's me you're kicking. LEELA 2: Oh. Sorry."
+                        },
+                        {
+                            "Stage Direction": "As they head off, a round white cell drops down behind them."
+                        }
+                    ]
+                },
+                {
+                    "Scene": "Level X4",
+                    "Dialogue": [
+                        {
+                            "Character": "K9",
+                            "Line": "Mission accomplished. Service shaft destroyed, mistress."
+                        },
+                        {
+                            "Character": "LEELA",
+                            "Line": "Thank you, K9. Now, what we need here is some sort of barrier."
+                        },
+                        {
+                            "Stage Direction": "K9 fires his muzzle mounted photon gun at an obviously already damaged wall corner. The construction material breaks along the crack and falls across the corridor."
+                        },
+                        {
+                            "Character": "K9",
+                            "Line": "Acceptable?"
+                        },
+                        {
+                            "Character": "LEELA",
+                            "Line": "Perfect. Thank you, K9. K9: There is no need for gratitude. I am an automaton."
+                        },
+                        {
+                            "Character": "LEELA",
+                            "Line": "Really? K9: I am without emotional circuits. Only memory and awareness. Attention. Four hostiles approaching."
+                        },
+                        {
+                            "Character": "LOWE",
+                            "Line": "It's the reject."
+                        },
+                        {
+                            "Stage Direction": "The four possessed men take cover."
+                        },
+                        {
+                            "Character": "LOWE",
+                            "Line": "Leela. Leela. Bring me the Doctor."
+                        },
+                        {
+                            "Character": "LEELA",
+                            "Line": "Come and get him."
+                        },
+                        {
+                            "Stage Direction": "She fires and moves back to another corner, leaving K9 by the barrier."
+                        }
+                    ]
+                },
+                {
+                    "Scene": "Isolation ward",
+                    "Dialogue": [
+                        {
+                            "Stage Direction": "Marius has set a countdown running on the screen. It drops to 7:57."
+                        },
+                        {
+                            "Character": "MARIUS",
+                            "Line": "Eight minutes to go. Anything?"
+                        },
+                        {
+                            "Character": "PARSONS",
+                            "Line": "It's all there, sir. Leela's tissue profile, adaption, disease resistance."
+                        },
+                        {
+                            "Character": "NURSE",
+                            "Line": "Bit of a mongrel, isn't she?"
+                        },
+                        {
+                            "Character": "MARIUS",
+                            "Line": "I imagine that's why her race survived. There's no sign of any physical immunity."
+                        },
+                        {
+                            "Character": "NURSE",
+                            "Line": "There's a wide variation in blood characteristics, sir. It'll take hours to check them all."
+                        },
+                        {
+                            "Character": "MARIUS",
+                            "Line": "On the other hand, it could be a psychological factor."
+                        },
+                        {
+                            "Character": "PARSONS",
+                            "Line": "You mean not physical at all?"
+                        },
+                        {
+                            "Character": "MARIUS",
+                            "Line": "Yes, something in her mind, her way of looking at things."
+                        },
+                        {
+                            "Character": "PARSONS",
+                            "Line": "Aggression."
+                        },
+                        {
+                            "Character": "NURSE",
+                            "Line": "Determination. Stamina."
+                        },
+                        {
+                            "Character": "MARIUS",
+                            "Line": "The predator's instinct."
+                        }
+                    ]
+                },
+                {
+                    "Scene": "The Doctor's brain",
+                    "Dialogue": [
+                        {
+                            "Stage Direction": "The pulse is booming away steadily as their route becomes congested with dangly bits."
+                        },
+                        {
+                            "Character": "DOCTOR 2",
+                            "Line": "Doesn't look like the most advanced computer system ever, does it. LEELA 2: Urgh. What's that? DOCTOR 2: That is why my brain is so much superior to yours. LEELA 2: Doctor. DOCTOR 2: What is it? LEELA 2: I can sense danger. DOCTOR 2: Rubbish. If there was any danger about, I'd be the first to scent it. I know this brain like the back of my hand. Danger. What do you know about brains, anyway? LEELA 2: All right, all right, don't get excited. DOCTOR 2: I'll get excited if I want to. It's my brain. Danger. I'll tell you something about brains. Do you want to know something? LEELA 2: Not much. DOCTOR 2: I'll tell you anyway. Somebody once tried to build a machine as efficient as the brain. Only trouble was, it would have had to have been bigger than London. Do you remember London? And powered by the entire European grid. And that was just a human brain. Mine's much more complex. Left and right sides working in unison via the specialised neural ganglia, thus combining data storage and retrieval with logical interest and the intuitive leap. And here. Are you listening to me? LEELA 2: Yes, Doctor. DOCTOR 2: That is a reflex link, whereby I can tune myself into the Time Lord intelligentsia. A thousand super-brains in one. LEELA 2: Why don't you do it now? DOCTOR 2: What? Oh, well, I lost that particular faculty when they kicked me out. Oh look. LEELA 2: Kicked you out? DOCTOR 2: Oh look. Connection seven. Hello. LEELA 2: Hello. DOCTOR 2: Don't be funny. LEELA 2: Doctor, you're wasting time. Keep moving. DOCTOR 2: No, no, no. Come on over here. This is recent damage. LEELA 2: The virus? DOCTOR 2: What else. We must be getting close to it now. LEELA 2: What's that? DOCTOR 2: What?"
+                        },
+                        {
+                            "Stage Direction": "Leela is attacked by a posse of large white balls."
+                        },
+                        {
+                            "Character": "LEELA 2",
+                            "Line": "Doctor! Doctor, help me! DOCTOR 2: I can't! It's my body defence mechanism. They're my own phagocytes. Use your knife! LEELA 2: Oh, Doctor!"
+                        },
+                        {
+                            "Stage Direction": "The Doctor grabs a pair of ganglia and holds them together to create some electricity. The white cells leave quickly."
+                        },
+                        {
+                            "Character": "DOCTOR 2",
+                            "Line": "Oh. LEELA 2: What did you do? DOCTOR 2: I think I told them my liver was disintegrating. I think. LEELA 2: That's very clever. DOCTOR 2: That's very clever."
+                        },
+                        {
+                            "Stage Direction": "He puts another two together."
+                        }
+                    ]
+                },
+                {
+                    "Scene": "Isolation ward",
+                    "Dialogue": [
+                        {
+                            "Stage Direction": "The Doctor jerks."
+                        },
+                        {
+                            "Character": "PARSONS",
+                            "Line": "What was that?"
+                        },
+                        {
+                            "Character": "MARIUS",
+                            "Line": "Well, it proves they're in there at some sensitive area."
+                        },
+                        {
+                            "Stage Direction": "Gunfire outside."
+                        },
+                        {
+                            "Character": "PARSONS",
+                            "Line": "They're coming closer, sir."
+                        },
+                        {
+                            "Stage Direction": "The countdown is at 7:39 and falling."
+                        },
+                        {
+                            "Character": "MARIUS",
+                            "Line": "Seven and a half minutes. Not much chance."
+                        }
+                    ]
+                },
+                {
+                    "Scene": "Level X4",
+                    "Dialogue": [
+                        {
+                            "Stage Direction": "Lowe sends Cruikshank or Hedges over the barricade, and K9 shoots him. The virus leaves the dying man and infiltrates the robot."
+                        },
+                        {
+                            "Character": "K9",
+                            "Line": "Contact has been made. Master."
+                        }
+                    ]
+                },
+                {
+                    "Scene": "The Doctor's brain",
+                    "Dialogue": [
+                        {
+                            "Character": "DOCTOR 2",
+                            "Line": "After you. LEELA 2: Are you afraid? DOCTOR 2: Not necessarily, no. From now on, we're on the trail of the virus, and that's the path it took. LEELA 2: Where to? DOCTOR 2: Well, if I knew that, I wouldn't have brought you along. From now on, this is where your tracking skills come in."
+                        },
+                        {
+                            "Stage Direction": "Leela draws her knife and steps through the icky membrane."
+                        }
+                    ]
+                },
+                {
+                    "Scene": "Level X4",
+                    "Dialogue": [
+                        {
+                            "Character": "LOWE",
+                            "Line": "Kill her. Kill the reject. K9: Affirmative. Kill the reject."
+                        },
+                        {
+                            "Stage Direction": "K9 trundles down the corridor to Leela. She falls to the floor as it fires. K9 rolls into the wall."
+                        },
+                        {
+                            "Character": "K9",
+                            "Line": "Reject liquidated. K9 into self-regeneration. Non-functional."
+                        },
+                        {
+                            "Character": "LOWE",
+                            "Line": "Good. Now for the Doctor."
+                        }
+                    ]
+                },
+                {
+                    "Scene": "The Doctor's brain",
+                    "Dialogue": [
+                        {
+                            "Character": "LEELA 2",
+                            "Line": "Ow! DOCTOR 2: What is it? LEELA 2: Something banged my head. A real bump, but DOCTOR 2: What? LEELA 2: There's nothing there. DOCTOR 2: That was your outside head. LEELA 2: Oh, that's all right, then. DOCTOR 2: No, it isn't all right. You and I have only got a limited life in here. Your outside self and your inside self are made of the same tissue. Your outside self is hurt, then you feel a shock. Your outside self is killed, yes. LEELA 2: We'd better make the most of the next six minutes then. DOCTOR 2: Yes. LEELA 2: Where are we? DOCTOR 2: This is the gap between one side of our mind and the other. LEELA 2: But it's dark on the other side. DOCTOR 2: Well of course it's dark. It's the gap between logic and imagination. You can't see one side from the other side. LEELA 2: But it is there? DOCTOR 2: What? LEELA 2: There is something on the other side? DOCTOR 2: This is the mind-brain interface, Leela. At least I think it is. That's the mind and that's the brain. Two things entirely different but part of the same thing. LEELA 2: Oh, like the land and the sea? DOCTOR 2: That's right, that's right. LEELA 2: It's very deep. DOCTOR 2: Yes. Sometimes I don't quite understand it myself."
+                        },
+                        {
+                            "Stage Direction": "Leela holds onto the end of his scarf as he walks across the 'bridge' into darkness."
+                        }
+                    ]
+                },
+                {
+                    "Scene": "Isolation ward",
+                    "Dialogue": [
+                        {
+                            "Stage Direction": "Countdown at 4:58 and falling. Well, tiny things do live at a faster rate than big things."
+                        },
+                        {
+                            "Character": "MARIUS",
+                            "Line": "Five minutes to go."
+                        },
+                        {
+                            "Stage Direction": "He gestures the nurse into the cubicle. The main door opens and Lowe shoots Parsons."
+                        },
+                        {
+                            "Character": "LOWE",
+                            "Line": "Don't move, Professor. Release the Doctor."
+                        },
+                        {
+                            "Character": "MARIUS",
+                            "Line": "No, I can't."
+                        },
+                        {
+                            "Stage Direction": "Lowe sends the virus across to Marius."
+                        },
+                        {
+                            "Character": "MARIUS",
+                            "Line": "Contact has been made."
+                        },
+                        {
+                            "Character": "LOWE",
+                            "Line": "Release him. We must make contact with the Nucleus."
+                        },
+                        {
+                            "Character": "MARIUS",
+                            "Line": "No, no, wait. The Nucleus is in danger."
+                        },
+                        {
+                            "Character": "LOWE",
+                            "Line": "What?"
+                        },
+                        {
+                            "Character": "MARIUS",
+                            "Line": "Micro-cloned copies have been injected into his brain and are even now trying to hunt down and destroy the Nucleus."
+                        },
+                        {
+                            "Stage Direction": "The nurse sneaks out of the cubicle and out of the room."
+                        },
+                        {
+                            "Character": "MARIUS",
+                            "Line": "If they succeed"
+                        },
+                        {
+                            "Character": "LOWE",
+                            "Line": "They must not succeed."
+                        },
+                        {
+                            "Character": "MARIUS",
+                            "Line": "We can't stop them. There is no time."
+                        },
+                        {
+                            "Character": "LOWE",
+                            "Line": "I say we must!"
+                        }
+                    ]
+                },
+                {
+                    "Scene": "Level X4",
+                    "Dialogue": [
+                        {
+                            "Character": "K9",
+                            "Line": "Mistress?"
+                        },
+                        {
+                            "Stage Direction": "K9 gently prods Leela."
+                        },
+                        {
+                            "Character": "LEELA",
+                            "Line": "Why did you attack me? K9: I had to. I was temporarily overpowered and my motivational circuits were in confusion. I have now regenerated and await your further orders."
+                        },
+                        {
+                            "Character": "LEELA",
+                            "Line": "Where are the others? Have they got the Doctor? K9: Affirmative."
+                        },
+                        {
+                            "Stage Direction": "The nurse looks back into the ward to see Lowe in the cubicle. She runs to Leela and K9."
+                        },
+                        {
+                            "Character": "NURSE",
+                            "Line": "They've got Professor Marius. He's been taken over by the virus. And they've killed Doctor Parsons."
+                        },
+                        {
+                            "Character": "LEELA",
+                            "Line": "What are they doing now?"
+                        },
+                        {
+                            "Character": "NURSE",
+                            "Line": "Well, they're cloning Lowe and they're going to inject him into the Doctor's brain."
+                        },
+                        {
+                            "Character": "LEELA",
+                            "Line": "Then we'd better stop them. K9: Negative. We must wait. Maintain surveillance."
+                        },
+                        {
+                            "Character": "LEELA",
+                            "Line": "Why? K9: We cannot interfere while there is still a possibility that the Doctor will succeed in destroying the Nucleus."
+                        }
+                    ]
+                },
+                {
+                    "Scene": "The Doctor's brain",
+                    "Dialogue": [
+                        {
+                            "Stage Direction": "The two clones are safely across into the Doctor's imagination side of his brain. There is a strong updraft blowing here."
+                        },
+                        {
+                            "Character": "DOCTOR 2",
+                            "Line": "Bracing, isn't it? LEELA 2: Very. DOCTOR 2: The interface. The mind unsullied by a single thought. LEELA 2: Where are we going, Doctor? DOCTOR 2: Into the land of dreams and fantasy, Leela."
+                        }
+                    ]
+                },
+                {
+                    "Scene": "Isolation ward",
+                    "Dialogue": [
+                        {
+                            "Stage Direction": "Marius has acquired the silvery scales and is holding a hypodermic syringe."
+                        },
+                        {
+                            "Character": "NUCLEUS [OC]",
+                            "Line": "Hurry. Hurry."
+                        },
+                        {
+                            "Stage Direction": "He injects Lowe into the Doctor's head at the same point as the original pair."
+                        }
+                    ]
+                },
+                {
+                    "Scene": "The Doctor's brain",
+                    "Dialogue": [
+                        {
+                            "Stage Direction": "Mini-Lowe gets to connection seven and through the gunky bit."
+                        },
+                        {
+                            "Character": "NUCLEUS [OC]",
+                            "Line": "Hurry! Hurry! They are closing in. Hurry, hurry, hurry!"
+                        },
+                        {
+                            "Stage Direction": "Over in the other half of the brain."
+                        },
+                        {
+                            "Character": "LEELA 2",
+                            "Line": "Is this your land of dreams and fantasies? DOCTOR 2: Well, on the way to it. LEELA 2: The evil thing. Very close. And another. Doctor, we're going to be trapped."
+                        },
+                        {
+                            "Stage Direction": "The Doctor goes a little further on, and finds a three foot high pile of yuk with a single clawed tentacle flailing around."
+                        },
+                        {
+                            "Character": "DOCTOR 2",
+                            "Line": "Who are you?"
+                        },
+                        {
+                            "Character": "NUCLEUS",
+                            "Line": "I am the Nucleus. DOCTOR 2: You're trespassing, you know. Treading on my unconscious, affecting my metabolism. Nucleus of what?"
+                        },
+                        {
+                            "Character": "NUCLEUS",
+                            "Line": "The Nucleus of the Swarm. DOCTOR 2: Oh. Oh, I see. Why did you choose my brain?"
+                        },
+                        {
+                            "Character": "NUCLEUS",
+                            "Line": "Because of your intelligence. DOCTOR 2: Oh, well, I can understand that, but do you realise you have no right"
+                        },
+                        {
+                            "Character": "NUCLEUS",
+                            "Line": "I have every right! It is the right of every creature across the universe to survive, multiply and perpetuate its species. How else does the predator exist? We are all predators, Doctor. We kill, we devour, to live. Survival is all, you agree? DOCTOR 2: Oh yes, I do, I do. And on your argument, I have a perfect right to dispose of you."
+                        },
+                        {
+                            "Character": "NUCLEUS",
+                            "Line": "Of course. The law is survival of the fittest. DOCTOR 2: Touch\u00e9."
+                        },
+                        {
+                            "Character": "NUCLEUS",
+                            "Line": "Your time is running short. How do you intend to dispose of me? You have no weapons, and in minutes you will cease to exist. I am the virus of the Nucleus of the Swarm. For millennia we have hung dormant in space waiting for the right carriers to come along. DOCTOR 2: Carriers? What do you mean, carriers? I'm not a porter."
+                        },
+                        {
+                            "Character": "NUCLEUS",
+                            "Line": "Consider the human species. They send hordes of settlers across space to breed, multiply, conquer and dominate. We have as much right to conquer you as you have to strike out across the stars. DOCTOR 2: But you intend to dominate both worlds, the micro and the macrocosm."
+                        },
+                        {
+                            "Character": "NUCLEUS",
+                            "Line": "We have waited, waited in the cold wastes of space. Waited for mankind to come. And now we have not only space but time itself within our grasp. DOCTOR 2: Time?"
+                        },
+                        {
+                            "Character": "NUCLEUS",
+                            "Line": "Through you, Time Lord."
+                        },
+                        {
+                            "Stage Direction": "Meanwhile, mini-Leela has found mini-Lowe and snuck up behind him. They grapple briefly. He shoots her then she stabs him. Phagocytes arrive and attack mini-Lowe as the injured Leela makes her escape."
+                        },
+                        {
+                            "Character": "NUCLEUS",
+                            "Line": "So, Doctor, how can you puny creatures compare yourselves to us, the Swarm, the new masters of time, space and the cosmos. DOCTOR 2: New masters? Not if I can help it."
+                        },
+                        {
+                            "Character": "NUCLEUS",
+                            "Line": "But you cannot. Your time is up. You have fallen for my stratagem. Already you cease to exist."
+                        },
+                        {
+                            "Stage Direction": "Leela arrives."
+                        },
+                        {
+                            "Character": "DOCTOR 2",
+                            "Line": "Get out of my brain."
+                        }
+                    ]
+                },
+                {
+                    "Scene": "Isolation ward",
+                    "Dialogue": [
+                        {
+                            "Stage Direction": "Marius collects something from the Doctor's left tear duct onto a microscope slide."
+                        },
+                        {
+                            "Character": "LOWE",
+                            "Line": "Destroy them! Destroy them now!"
+                        },
+                        {
+                            "Character": "MARIUS",
+                            "Line": "No, no, we must find out what happened. We must restore them to their full size and interrogate them."
+                        },
+                        {
+                            "Stage Direction": "Marius puts the slide in the cubicle and activates the RDS. Whatever is growing in there, it isn't the Doctor and Leela."
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "Episode": "Part Four",
+            "Scenes": [
+                {
+                    "Scene": "Isolation ward",
+                    "Dialogue": [
+                        {
+                            "Stage Direction": "The scales disappear from the Doctor's skin. The thing in the cloning cubicle is fully grown, with several pairs of claws and lots of bristles, but no feet. It's a prawn, sort of."
+                        },
+                        {
+                            "Character": "NUCLEUS",
+                            "Line": "Help me out."
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "Professor Marius. Oh no, not you too."
+                        },
+                        {
+                            "Character": "MARIUS",
+                            "Line": "Yes, Doctor. Contact has been made. Now I serve the purpose."
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "What? That pathetic crustacean, your leader?"
+                        },
+                        {
+                            "Character": "MARIUS",
+                            "Line": "You are speaking of the Nucleus, the Nucleus of the Swarm."
+                        },
+                        {
+                            "Character": "NUCLEUS",
+                            "Line": "Take me to him."
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "Finding the macro world difficult?"
+                        },
+                        {
+                            "Character": "NUCLEUS",
+                            "Line": "It suits me well."
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "I thought I'd got rid of you."
+                        },
+                        {
+                            "Character": "NUCLEUS",
+                            "Line": "You were mistaken. I made use of your escape route through the eye."
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "Yes, you'd have known about that, wouldn't you."
+                        },
+                        {
+                            "Character": "NUCLEUS",
+                            "Line": "Another mistake, and a costly one, Time Lord, because now, thanks to your dimensional stabiliser, I am no longer forced to exist in the micro world to breed and multiply. My Swarm, when it is hatched on Titan, will no longer be invisible microbes prey to all, but mighty and invulnerable creatures, invincible. The age of man is over, Doctor. The age of the virus has begun."
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "I've heard it all before. You megalomaniacs are all the same."
+                        },
+                        {
+                            "Character": "NUCLEUS",
+                            "Line": "Bring him with us to Titan, to be consumed by the Swarm."
+                        }
+                    ]
+                },
+                {
+                    "Scene": "Bi-Al Foundation",
+                    "Dialogue": [
+                        {
+                            "Stage Direction": "Elsewhere, Leela has got dressed up in a green nurses uniform, and applied silver makeup around her eyes."
+                        },
+                        {
+                            "Character": "LEELA",
+                            "Line": "How do I look? K9: Friend, mistress."
+                        },
+                        {
+                            "Character": "LEELA",
+                            "Line": "If I can just get close enough to that Nucleus, we'll see how friendly I am. K9: Hostiles approaching with the Doctor."
+                        },
+                        {
+                            "Character": "LEELA",
+                            "Line": "Come on."
+                        },
+                        {
+                            "Stage Direction": "In a corridor."
+                        },
+                        {
+                            "Character": "NUCLEUS",
+                            "Line": "Hurry, hurry. It is time for the spawning. I must get to the place prepared on Titan."
+                        },
+                        {
+                            "Character": "MARIUS",
+                            "Line": "Nurse, take over here. I must assist the Nucleus."
+                        },
+                        {
+                            "Character": "NUCLEUS",
+                            "Line": "Hurry!"
+                        },
+                        {
+                            "Character": "MARIUS",
+                            "Line": "Come with me."
+                        },
+                        {
+                            "Character": "NUCLEUS",
+                            "Line": "Breeding time approaches."
+                        },
+                        {
+                            "Stage Direction": "Marius and Lowe leave the Doctor's gurney in the hands of the nurse, Leela, and go on ahead. Leela cuts the Doctor's restraints with her knife. The party are assembled at Shuttle airlock entrance when Leela wheels him past."
+                        },
+                        {
+                            "Character": "MARIUS",
+                            "Line": "Nurse, not that way."
+                        },
+                        {
+                            "Stage Direction": "The Doctor rolls off the gurney."
+                        },
+                        {
+                            "Character": "MARIUS",
+                            "Line": "Stop them!"
+                        },
+                        {
+                            "Stage Direction": "The Doctor pushes the gurney at Lowe as Leela takes cover and starts shooting, then they run."
+                        },
+                        {
+                            "Character": "LOWE",
+                            "Line": "They're getting away!"
+                        },
+                        {
+                            "Character": "NUCLEUS",
+                            "Line": "No, they are simply trapped."
+                        },
+                        {
+                            "Stage Direction": "K9 enters."
+                        },
+                        {
+                            "Character": "NUCLEUS",
+                            "Line": "Marius, stay here to make sure the Doctor doesn't escape, and make contact with all other staff in the Foundation. Bring the Doctor to us later. Hurry!"
+                        }
+                    ]
+                },
+                {
+                    "Scene": "Tardis",
+                    "Dialogue": [
+                        {
+                            "Stage Direction": "The Doctor and Leela watch on the scanner. K9 has joined them."
+                        },
+                        {
+                            "Character": "LEELA",
+                            "Line": "Now what?"
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "Now nothing."
+                        },
+                        {
+                            "Character": "LEELA",
+                            "Line": "Doctor, if we get to Titan first, we can still beat that thing."
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "No, we can't. The dimensional stabiliser's still in the isolation ward. Without it, the Tardis won't move an inch."
+                        },
+                        {
+                            "Character": "LEELA",
+                            "Line": "You mean there's nothing we can do?"
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "I didn't say that. K9. Now listen to me, K9. Do you think you could poleaxe, do you think you could poleaxe Marius? K9: Poleaxe?"
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "Yes, knock him out. K9: Affirmative. My photon beam weaponry has four levels of intensity, Doctor. Kill, paralyse"
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "No, no, no, not kill. Not kill. Just knock out. K9: Affirmative."
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "Good dog."
+                        },
+                        {
+                            "Stage Direction": "The Doctor opens the doors and K9 leaves."
+                        }
+                    ]
+                },
+                {
+                    "Scene": "Bi-Al Foundation",
+                    "Dialogue": [
+                        {
+                            "Stage Direction": "Marius activates the tannoy, as seen on the scanner in the previous scene."
+                        },
+                        {
+                            "Character": "MARIUS",
+                            "Line": "All senior staff, report to Reception. This is Professor Marius speaking. All senior staff report to Reception. Ah, K9. K9, I no longer require you to obey"
+                        },
+                        {
+                            "Stage Direction": "K9 shoots him. Marius falls at the base of the Tardis."
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "You're a good dog, K9. Good dog."
+                        },
+                        {
+                            "Stage Direction": "The little ambulance spaceship leaves the asteroid."
+                        }
+                    ]
+                },
+                {
+                    "Scene": "Isolation ward",
+                    "Dialogue": [
+                        {
+                            "Stage Direction": "Marius is on the examination table. Leela is back in her leathers."
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "Come on, Leela, quickly. We haven't got a moment to spare. Not frightened of blood, are you? You, the mighty huntress."
+                        },
+                        {
+                            "Character": "LEELA",
+                            "Line": "Just hurry up."
+                        },
+                        {
+                            "Stage Direction": "The Doctor pricks her finger and puts the sample into the scanner."
+                        },
+                        {
+                            "Character": "LEELA",
+                            "Line": "Haven't we been through all this before?"
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "I had a virus then. I'm immune now. Something must have happened while you and I were inside my head. I want to find out what. Ah, that's interesting. You see that?"
+                        },
+                        {
+                            "Stage Direction": "An image of the blood sample is on the screen."
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "That little fish hook is the only thing that you and I have in common. It wasn't there before, so it must be the antibody, the immunity factor."
+                        },
+                        {
+                            "Character": "LEELA",
+                            "Line": "How did what I have get into your bloodstream?"
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "Quite simple. Your clone was absorbed into my bloodstream and passed on the immunity to me. All we've got to do is isolate it, analyse it, duplicate it and inject it into Marius here, and he in turn will be able to cure all the others."
+                        },
+                        {
+                            "Character": "LEELA",
+                            "Line": "What about the Nucleus? What about Titan?"
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "Come on, one thing at a time. One thing at a time."
+                        }
+                    ]
+                },
+                {
+                    "Scene": "Shuttle",
+                    "Dialogue": [
+                        {
+                            "Character": "NUCLEUS",
+                            "Line": "Faster, faster."
+                        },
+                        {
+                            "Character": "LOWE",
+                            "Line": "We can't. We'll burn out the motors."
+                        },
+                        {
+                            "Character": "NUCLEUS",
+                            "Line": "Let them burn out. Once we reach Titan and the breeding tanks, our job is finished."
+                        },
+                        {
+                            "Character": "LOWE",
+                            "Line": "What about the Doctor?"
+                        },
+                        {
+                            "Character": "NUCLEUS",
+                            "Line": "He will follow. Marius will make sure of that, whatever happens. Faster. Use all the fuel. Faster!"
+                        }
+                    ]
+                },
+                {
+                    "Scene": "Isolation ward",
+                    "Dialogue": [
+                        {
+                            "Character": "LEELA",
+                            "Line": "Doctor, look! It's working."
+                        },
+                        {
+                            "Stage Direction": "Marius' scales vanish."
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "Sometimes my brilliance astonishes even me. Come on, Marius. Wake up, wake up. Come on."
+                        },
+                        {
+                            "Character": "MARIUS",
+                            "Line": "Where's Parsons? What happened?"
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "He's dead, I'm afraid. Do you remember anything?"
+                        },
+                        {
+                            "Character": "MARIUS",
+                            "Line": "I remember Lowe coming in, and then Parsons, and then a flash and then nothing. Did the experiment work?"
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "Yes and no. Unfortunately the Nucleus got away by means of the dimensional stabiliser. It's on its way to Titan to breed."
+                        },
+                        {
+                            "Character": "MARIUS",
+                            "Line": "Was I taken over?"
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "Yes, it got to you."
+                        },
+                        {
+                            "Character": "MARIUS",
+                            "Line": "But we found the immunity factor, so we're safe here for a while. What was it?"
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "It was something in Leela. Something we all missed. This is it. You'll have to cultivate a great deal more."
+                        },
+                        {
+                            "Character": "MARIUS",
+                            "Line": "Yes."
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "If those antibodies can confer immunity, they can be used to attack the Nucleus."
+                        },
+                        {
+                            "Character": "MARIUS",
+                            "Line": "Attack the Nucleus? Oh, that's dangerous."
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "Of course it's dangerous. If we allow the Nucleus to breed and swarm, it'll go through the entire Solar System like a plague of giant locusts."
+                        },
+                        {
+                            "Character": "MARIUS",
+                            "Line": "But will you get to Titan on time?"
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "Yes, by means of the dimensional stabiliser."
+                        }
+                    ]
+                },
+                {
+                    "Scene": "Base control",
+                    "Dialogue": [
+                        {
+                            "Character": "SAFRAN",
+                            "Line": "Safran on Titan. Safran on Titan. The hive is prepared. The breeding tanks are ready. Temperature and humidity are set. I await your arrival from the generation of the Swarm."
+                        }
+                    ]
+                },
+                {
+                    "Scene": "Shuttle",
+                    "Dialogue": [
+                        {
+                            "Character": "LOWE",
+                            "Line": "Maximum speed. We have reached maximum speed."
+                        },
+                        {
+                            "Character": "NUCLEUS",
+                            "Line": "Faster! We must go faster! Now the time for spawning is very close."
+                        }
+                    ]
+                },
+                {
+                    "Scene": "Isolation ward",
+                    "Dialogue": [
+                        {
+                            "Stage Direction": "Marius has enlisted help to cultivate the antibodies."
+                        },
+                        {
+                            "Character": "LEELA",
+                            "Line": "How much longer?"
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "We can't rush these things. They're breeding as fast as they can. K9 will tell us when they've got the most powerful strain."
+                        },
+                        {
+                            "Character": "LEELA",
+                            "Line": "Doctor, why don't we just blow up Titan? Nucleus, breeding tanks, everything."
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "That's your answer to everything, isn't it, knock it on the head."
+                        },
+                        {
+                            "Character": "LEELA",
+                            "Line": "Effective, isn't it? Smash it once and for all. Well?"
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "With what? This is a hospital, not an arsenal."
+                        },
+                        {
+                            "Character": "LEELA",
+                            "Line": "All right, what are you going to do? K9: Confirm. Confirm strain C five three one has lethal capacity."
+                        },
+                        {
+                            "Character": "MARIUS",
+                            "Line": "Doctor, we've done it! Congratulations. There isn't a moment to be lost. Cultivate C five three one."
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "Thank you, K9."
+                        },
+                        {
+                            "Character": "LEELA",
+                            "Line": "And?"
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "Now, just get it into the tanks and wait for it to attack the Nucleus in the same way it attacked us. Microscopically. It's neat, don't you think?"
+                        },
+                        {
+                            "Character": "LEELA",
+                            "Line": "Is that all? If we can get to Titan on time, if we can get past Lowe and the others, if it works when we get it in there. If. I thought you didn't like killing?"
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "I don't."
+                        },
+                        {
+                            "Character": "LEELA",
+                            "Line": "Then why are you doing all this?"
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "The virus has a perfect right to exist as a virus, not as a giant storm threatening the entire Solar System. Everything has its place. Otherwise the delicate balance of the whole cosmos is destroyed."
+                        },
+                        {
+                            "Character": "LEELA",
+                            "Line": "I still say we should blow it up."
+                        },
+                        {
+                            "Character": "MARIUS",
+                            "Line": "Doctor. The batch is complete."
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "Good. Now for the Tardis."
+                        }
+                    ]
+                },
+                {
+                    "Scene": "Titan base",
+                    "Dialogue": [
+                        {
+                            "Character": "NUCLEUS",
+                            "Line": "Remember, I must be protected in the hive. The future of the Swarm depends on you now."
+                        }
+                    ]
+                },
+                {
+                    "Scene": "Bi-Al Foundation",
+                    "Dialogue": [
+                        {
+                            "Character": "MARIUS",
+                            "Line": "Good luck, Doctor."
+                        },
+                        {
+                            "Stage Direction": "Leela enters the Tardis."
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "Thank you, Professor. Oh, Professor."
+                        },
+                        {
+                            "Character": "MARIUS",
+                            "Line": "Yes?"
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "I don't suppose we could borrow K9, could we?"
+                        },
+                        {
+                            "Character": "MARIUS",
+                            "Line": "Borrow K9?"
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "Shush."
+                        },
+                        {
+                            "Character": "MARIUS",
+                            "Line": "What for?"
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "Well, I'm not at liberty to say, but he could be very useful."
+                        },
+                        {
+                            "Character": "MARIUS",
+                            "Line": "Of course. I understand. K9, obey the Doctor. K9: Affirmative."
+                        },
+                        {
+                            "Stage Direction": "The Doctor and K9 enter the Tardis, and it dematerialises."
+                        }
+                    ]
+                },
+                {
+                    "Scene": "Base control",
+                    "Dialogue": [
+                        {
+                            "Stage Direction": "Lowe posts guards in the corridor outside the hive. Safran watches the spawning on a monitor, but leaves as the Tardis materialises."
+                        },
+                        {
+                            "Character": "LEELA",
+                            "Line": "Doctor, what is it?"
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "They're starting to hatch. Let's go."
+                        },
+                        {
+                            "Stage Direction": "He opens the door and slams it shut again."
+                        },
+                        {
+                            "Character": "LEELA",
+                            "Line": "Now what's the matter?"
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "There's a man at the door."
+                        },
+                        {
+                            "Stage Direction": "Leela squats down, gun ready. There is knock on the door."
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "Come in."
+                        },
+                        {
+                            "Stage Direction": "The door opens, and Leela starts shooting. Her weapon has little effect, and the man only collapses when K9 shoots his leg."
+                        },
+                        {
+                            "Character": "LEELA",
+                            "Line": "Thank you, K9. Well, Doctor, what's wrong? Why didn't my blaster work?"
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "They're developing a resistance to radiation. Their internal cell structure K9: Problem. I have a problem. Offensive capability seriously diminished. Reserves very low."
+                        },
+                        {
+                            "Character": "LEELA",
+                            "Line": "K9's breaking up, my blaster's finished. What are we going to do?"
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "Shall we try using our intelligence?"
+                        },
+                        {
+                            "Character": "LEELA",
+                            "Line": "Well, if you think that's a good idea."
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "Come on."
+                        }
+                    ]
+                },
+                {
+                    "Scene": "Base corridor",
+                    "Dialogue": [
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "(sotto) K9, do you see that guard? K9: (sotto) Affirmative."
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "(sotto) I want you to decoy him."
+                        },
+                        {
+                            "Stage Direction": "The man follows K9 down the corridor, firing at him as he goes. Safran and Lowe are talking outside the hive when K9 rejoins the Doctor and Leela."
+                        },
+                        {
+                            "Character": "K9",
+                            "Line": "Mission accomplished."
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "Good dog. Your turn now, Leela. See you back at the Tardis."
+                        },
+                        {
+                            "Character": "LEELA",
+                            "Line": "Or not. Good luck, Doctor. You know we should have done what I said."
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "What was that?"
+                        },
+                        {
+                            "Character": "LEELA",
+                            "Line": "Blow them up. Goodbye, Doctor."
+                        },
+                        {
+                            "Stage Direction": "Lowe and Safran take cover as K9 approaches. Lowe keeps firing at K9 then kicks him into the rock wall. The Doctor walks up to the now unguarded hive, but there is blaster fire and he drops the box of antidote."
+                        },
+                        {
+                            "Character": "LOWE",
+                            "Line": "Your futile attempt has failed, as we knew it would. Now you will join the Nucleus."
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "Well, I'd rather not, actually."
+                        },
+                        {
+                            "Character": "LOWE",
+                            "Line": "You have no choice."
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "Oh look, look, they appear to be hatching. Are congratulations in order?"
+                        },
+                        {
+                            "Stage Direction": "Lowe opens the door to the hive."
+                        },
+                        {
+                            "Character": "LOWE",
+                            "Line": "You will join the Swarm to be consumed, to become part of our purpose!"
+                        },
+                        {
+                            "Stage Direction": "K9 shoots Lowe in the back, the Doctor grabs him and pushes him into the hive."
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "Well done, K9, well done. Come on. Let's get out of here while there's still time. K9: I cannot. All reserves finished."
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "What? Come on."
+                        },
+                        {
+                            "Stage Direction": "K9's lights go out. The Doctor attaches a lead to him and drags him away."
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "Come on."
+                        },
+                        {
+                            "Character": "NUCLEUS",
+                            "Line": "Come back, Doctor. We need you."
+                        },
+                        {
+                            "Stage Direction": "Leela takes up position by a large Oxygen tank. Safran comes along and she jumps down onto him, stabbing him in the neck. The Doctor and K9 arrive."
+                        },
+                        {
+                            "Character": "LEELA",
+                            "Line": "Did you kill it?"
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "No, I lost the antibodies."
+                        },
+                        {
+                            "Character": "LEELA",
+                            "Line": "What? Never mind, Doctor, I've found the answer."
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "You have?"
+                        },
+                        {
+                            "Character": "LEELA",
+                            "Line": "Knife them in the neck."
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "Can you do that to a thousand? A thousand thousand?"
+                        },
+                        {
+                            "Character": "LEELA",
+                            "Line": "What are we going to do?"
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "That's a good idea. Take K9 back to the Tardis. He's out of juice."
+                        },
+                        {
+                            "Stage Direction": "The Doctor opens the valve to the oxygen tank, goes back to the hive and wires the door shut then goes to valve on its side."
+                        },
+                        {
+                            "Character": "NUCLEUS [OC]",
+                            "Line": "Who's there?"
+                        },
+                        {
+                            "Stage Direction": "The Doctor pulls a tube from the sided of the hive."
+                        },
+                        {
+                            "Character": "NUCLEUS [OC]",
+                            "Line": "Is that you, Time Lord?"
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "Well, as far as I know, there's no one else except you and me here, so it must be me."
+                        },
+                        {
+                            "Stage Direction": "Amidst the steam, the Doctor does something clever to the door of the hive, attaching a blaster to the handle."
+                        },
+                        {
+                            "Character": "NUCLEUS [OC]",
+                            "Line": "You're finished, Doctor."
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "Not quite."
+                        },
+                        {
+                            "Character": "NUCLEUS [OC]",
+                            "Line": "There's no escape for you now. You are destined to become part of the purpose."
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "Well, that depends on how long it's going to take you to get out of there."
+                        },
+                        {
+                            "Character": "NUCLEUS [OC]",
+                            "Line": "Fool. Do you think a metal barrier can contain the Swarm?"
+                        }
+                    ]
+                },
+                {
+                    "Scene": "Base control",
+                    "Dialogue": [
+                        {
+                            "Stage Direction": "The Doctor runs past Leela and K9, who are crouched by the desk, into the Tardis. It dematerialises."
+                        },
+                        {
+                            "Character": "LEELA",
+                            "Line": "Doctor!"
+                        },
+                        {
+                            "Stage Direction": "The Tardis materialises."
+                        }
+                    ]
+                },
+                {
+                    "Scene": "Tardis",
+                    "Dialogue": [
+                        {
+                            "Stage Direction": "Leela pulls K9 inside."
+                        },
+                        {
+                            "Character": "LEELA",
+                            "Line": "Why did you not wait?"
+                        },
+                        {
+                            "Stage Direction": "The Tardis dematerialises again. The Nucleus finally forces the hive door open and the whole place goes up in flames. The Doctor laughs as they watch the firework display on the scanner."
+                        },
+                        {
+                            "Character": "LEELA",
+                            "Line": "Is it gone?"
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "Yes."
+                        },
+                        {
+                            "Character": "LEELA",
+                            "Line": "All of it?"
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "Yes. Methane atmosphere. Mix well with oxygen and run. That was a good idea of mine, K9, to blow it up. K9: Affirmative."
+                        },
+                        {
+                            "Character": "LEELA",
+                            "Line": "What do you mean, it was a good idea of yours. It was my idea."
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "What was?"
+                        },
+                        {
+                            "Character": "LEELA",
+                            "Line": "To blow it up."
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "Well then, you should be feeling very happy."
+                        },
+                        {
+                            "Character": "LEELA",
+                            "Line": "Yes, I am. Shall we return K9 to the Professor?"
+                        }
+                    ]
+                },
+                {
+                    "Scene": "Bi-Al Foundation",
+                    "Dialogue": [
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "Goodbye."
+                        },
+                        {
+                            "Character": "MARIUS",
+                            "Line": "Goodbye, Doctor, and thank you for everything you've done for us."
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "It's been a pleasure, Professor. It's been a pleasure. Do you know that without K9 I think we'd have been part of the Swarm by now."
+                        },
+                        {
+                            "Character": "LEELA",
+                            "Line": "We'd never have managed with out him. Her. It. Sorry, K9. K9: Apologies are not necessary, but thank you, mistress."
+                        },
+                        {
+                            "Character": "MARIUS",
+                            "Line": "I think K9 has taken to you. Oh. Actually, I have to return to Earth shortly and you could do me a great favour if"
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "What?"
+                        },
+                        {
+                            "Character": "LEELA",
+                            "Line": "Take K9 with us?"
+                        },
+                        {
+                            "Character": "MARIUS",
+                            "Line": "Yes."
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "No."
+                        },
+                        {
+                            "Character": "LEELA",
+                            "Line": "Yes! Oh, please, Doctor, please, please, let's take him."
+                        },
+                        {
+                            "Stage Direction": "K9 goes into the Tardis."
+                        },
+                        {
+                            "Character": "MARIUS",
+                            "Line": "K9 seems to have made up his own mind."
+                        },
+                        {
+                            "Stage Direction": "The Doctor and Leela go into the Tardis. Marius sniffs and wipes his nose."
+                        },
+                        {
+                            "Character": "MARIUS",
+                            "Line": "I only hope he's Tardis trained."
+                        },
+                        {
+                            "Stage Direction": "The Tardis dematerialises."
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

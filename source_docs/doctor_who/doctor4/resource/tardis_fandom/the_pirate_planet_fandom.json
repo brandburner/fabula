@@ -1,0 +1,159 @@
+{
+  "metadata": {
+    "title": "The Pirate Planet",
+    "series": "Doctor Who",
+    "season": "16",
+    "episode_number": 2,
+    "release_date": "30 September 1978",
+    "release_end_date": "21 October 1978",
+    "writer": "Douglas Adams",
+    "director": "Pennant Roberts",
+    "producer": "Graham Williams",
+    "main_actors": [
+      "Tom Baker",
+      "Mary Tamm",
+      "John Leeson",
+      "Bruce Purchase",
+      "Andrew Robertson"
+    ],
+    "time_reference": "1978"
+  },
+  "cast_crew": [
+    {
+      "cast": {
+        "name": "Tom Baker",
+        "role": "The Doctor"
+      },
+      "crew": {
+        "name": "Douglas Adams",
+        "role": "Writer"
+      }
+    },
+    {
+      "cast": {
+        "name": "Mary Tamm",
+        "role": "Romana"
+      },
+      "crew": {
+        "name": "Pennant Roberts",
+        "role": "Director"
+      }
+    },
+    {
+      "cast": {
+        "name": "John Leeson",
+        "role": "Voice of K9"
+      },
+      "crew": {
+        "name": "Graham Williams",
+        "role": "Producer"
+      }
+    },
+    {
+      "cast": {
+        "name": "Bruce Purchase",
+        "role": "The Captain"
+      },
+      "crew": {
+        "name": "John Nathan-Turner",
+        "role": "Production Unit Manager"
+      }
+    },
+    {
+      "cast": {
+        "name": "Andrew Robertson",
+        "role": "Mr. Fibuli"
+      },
+      "crew": {
+        "name": "Anthony Read",
+        "role": "Script Editor"
+      }
+    }
+  ],
+  "home_media": [
+    {
+      "releases": {
+        "media_type": "DVD",
+        "date": "24 September 2007",
+        "special_features": [
+          "Commentary by Tom Baker, Mary Tamm, and Anthony Read",
+          "Parrot Fashion documentary",
+          "Film Inserts, Deleted Scenes & Outtakes",
+          "Weird Science spoof",
+          "Continuities - Off-air continuity links",
+          "Production Subtitles"
+        ]
+      }
+    }
+  ],
+  "story_notes": [
+    {
+      "notes": [
+        "Douglas Adams' first contribution to Doctor Who.",
+        "Part of the Key to Time arc.",
+        "Adams was concurrently working on The Hitchhiker's Guide to the Galaxy radio series at the time.",
+        "Had working titles: 'The Pirates' and 'The Perfect Planet'."
+      ]
+    }
+  ],
+  "worldbuilding": {
+    "in_universe_mythology": [
+      "Queen Xanxia and the Time Dams",
+      "The Key to Time"
+    ],
+    "real_world_cultural_references": [
+      "Parody of Captain Hook from Peter Pan",
+      "Reference to Isaac Newton and theory of gravity",
+      "Hint of Hitchhiker's Guide to the Galaxy"
+    ],
+    "individuals": [
+      "Queen Xanxia",
+      "The Captain",
+      "Mr. Fibuli",
+      "Pralix"
+    ],
+    "items": [
+      "Key to Time Segment",
+      "Calufrax crystals",
+      "Polyphase Avatron",
+      "Diamonds and rubies of Zanak"
+    ],
+    "locations": [
+      "Zanak",
+      "Calufrax",
+      "The Captain's Bridge",
+      "Mentiad Fields"
+    ]
+  },
+  "ratings": {
+    "ratings_millions": [
+      {
+        "part": "Part one",
+        "viewers": 9.1
+      },
+      {
+        "part": "Part two",
+        "viewers": 7.4
+      },
+      {
+        "part": "Part three",
+        "viewers": 8.2
+      },
+      {
+        "part": "Part four",
+        "viewers": 8.4
+      }
+    ]
+  },
+  "continuity": {
+    "continuity_notes": [
+      "The Doctor refers to previous companion Leela.",
+      "The Seventh Doctor recalls being on Zanak in 1978 in a later story."
+    ]
+  },
+  "plot": [
+    {
+      "plot_summary": "The Doctor and Romana, seeking the second segment of the Key to Time, arrive on the hollowed-out planet Zanak rather than Calufrax. They discover that Zanak, controlled by the half-robot Captain, jumps through space to encapsulate other planets and absorb their resources. The mentally affected native Pralix is taken by the telepathic Mentiads. As the Doctor navigates the Captain's operations, he learns of Queen Xanxia's manipulation from stasis. The Doctor, with Romana, disables the Captain's control, aids the Mentiads, and uses Calufrax's core\u2014a segment of the Key to Time\u2014to finally stop the planet-encasing operations and end Xanxia's reign."
+    }
+  ]
+}

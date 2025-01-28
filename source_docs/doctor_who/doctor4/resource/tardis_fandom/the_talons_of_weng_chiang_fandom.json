@@ -1,0 +1,199 @@
+{
+  "metadata": {
+    "title": "The Talons of Weng-Chiang",
+    "series": "Doctor Who",
+    "season": "14",
+    "episode_number": 6,
+    "release_date": "1977-02-26",
+    "release_end_date": "1977-04-02",
+    "writer": "Robert Holmes",
+    "director": "David Maloney",
+    "producer": "Philip Hinchcliffe",
+    "main_actors": [
+      "Tom Baker",
+      "Louise Jameson",
+      "Michael Spice",
+      "John Bennett",
+      "Deep Roy",
+      "Christopher Benjamin",
+      "Trevor Baxter"
+    ],
+    "time_reference": "London, 1800s"
+  },
+  "cast_crew": [
+    {
+      "cast": {
+        "name": "Tom Baker",
+        "role": "Doctor Who"
+      },
+      "crew": {
+        "name": "David Maloney",
+        "role": "Director"
+      }
+    },
+    {
+      "cast": {
+        "name": "Louise Jameson",
+        "role": "Leela"
+      },
+      "crew": {
+        "name": "Philip Hinchcliffe",
+        "role": "Producer"
+      }
+    },
+    {
+      "cast": {
+        "name": "Michael Spice",
+        "role": "Weng-Chiang"
+      },
+      "crew": {
+        "name": "Robert Holmes",
+        "role": "Writer"
+      }
+    },
+    {
+      "cast": {
+        "name": "John Bennett",
+        "role": "Li H'sen Chang"
+      },
+      "crew": {
+        "name": "Dudley Simpson",
+        "role": "Music"
+      }
+    },
+    {
+      "cast": {
+        "name": "Deep Roy",
+        "role": "Mr Sin"
+      },
+      "crew": {
+        "name": "Ros Anderson",
+        "role": "Production Assistant"
+      }
+    },
+    {
+      "cast": {
+        "name": "Christopher Benjamin",
+        "role": "Jago"
+      },
+      "crew": {
+        "name": "Chris D'Oyly-John",
+        "role": "Production Unit Manager"
+      }
+    },
+    {
+      "cast": {
+        "name": "Trevor Baxter",
+        "role": "Professor Litefoot"
+      },
+      "crew": {
+        "name": "John Mason",
+        "role": "O.B. Lighting"
+      }
+    }
+  ],
+  "home_media": [
+    {
+      "releases": {
+        "media_type": "DVD",
+        "date": "2003-04-28",
+        "details": "Region 2",
+        "special_features": [
+          "Whose Doctor Who - Documentary",
+          "Behind the scenes footage",
+          "Philip Hinchcliffe Interview",
+          "Commentary with Cast and Crew"
+        ]
+      }
+    },
+    {
+      "releases": {
+        "media_type": "BLU_RAY",
+        "date": "2020-05-06",
+        "details": "Season 14 Collection",
+        "special_features": [
+          "Updated Special Effects",
+          "Whose Doctor Who Revisited",
+          "Deep Roy Interview"
+        ]
+      }
+    }
+  ],
+  "story_notes": [
+    {
+      "notes": [
+        "One of the most beloved yet controversial serials due to portrayal of Chinese characters.",
+        "Introduced fan-favourite characters Jago and Litefoot, who later got their own audio series.",
+        "Final Doctor Who story produced by Philip Hinchcliffe."
+      ]
+    }
+  ],
+  "worldbuilding": {
+    "in_universe_mythology": [
+      "Weng-Chiang",
+      "Tong of the Black Scorpion",
+      "Time Cabinet",
+      "Zygma Energy"
+    ],
+    "real_world_cultural_references": [
+      "Sherlock Holmes",
+      "Fu Manchu",
+      "The Phantom of the Opera",
+      "The Moonstone by Wilkie Collins"
+    ],
+    "individuals": [
+      "Freddy",
+      "Casey",
+      "Professor Litefoot"
+    ],
+    "items": [
+      "Parallax Synchrone",
+      "Peking Homunculus"
+    ],
+    "locations": [
+      "Palace Theatre",
+      "River Fleet",
+      "Sewers of London"
+    ]
+  },
+  "ratings": {
+    "ratings_millions": [
+      {
+        "part": "Part One",
+        "viewers": 11.3
+      },
+      {
+        "part": "Part Two",
+        "viewers": 9.8
+      },
+      {
+        "part": "Part Three",
+        "viewers": 10.2
+      },
+      {
+        "part": "Part Four",
+        "viewers": 11.4
+      },
+      {
+        "part": "Part Five",
+        "viewers": 10.1
+      },
+      {
+        "part": "Part Six",
+        "viewers": 9.3
+      }
+    ]
+  },
+  "continuity": {
+    "continuity_notes": [
+      "The events of the story follow the Doctor Who episode \"The Robots of Death.\"",
+      "The Doctor mentions his previous encounters in China, possibly linking to 'Marco Polo'.",
+      "The story has prequels and sequels in audio dramas featuring Magnus Greel."
+    ]
+  },
+  "plot": [
+    {
+      "plot_summary": "In Victorian London, the Fourth Doctor and Leela become embroiled in a sinister plot involving Magnus Greel, a war criminal from the 51st century masquerading as the god Weng-Chiang. As women vanish from the streets, the Doctor befriends Jago, a theatre manager, and Litefoot, a pathologist. They uncover Greel's plot to harvest life energy to sustain his decaying body, leading them to a final showdown in the hidden lair beneath the theatre."
+    }
+  ]
+}

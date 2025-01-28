@@ -1,0 +1,101 @@
+{
+    "title": "The Evil of the Daleks",
+    "air_date": "20 May 1967",
+    "num_episodes": 7,
+    "episode_titles": [
+        "Episode 1",
+        "Episode 2",
+        "Episode 3",
+        "Episode 4",
+        "Episode 5",
+        "Episode 6",
+        "Episode 7"
+    ],
+    "episode_duration": 25,
+    "writers": [
+        "David Whitaker"
+    ],
+    "directors": [
+        "Derek Martinus",
+        "Timothy Combe"
+    ],
+    "media_format": "B_W",
+    "dialogue_triumphs": [
+        "The Doctor in reflective mood: 'I am not a student of human nature. I am a professor of a much wider academy of which human nature is merely a part.'"
+    ],
+    "dialogue_disasters": [
+        "Dalek dialogue such as 'You will not feed the flying pests outside' and 'Dizzy Doctor'.",
+        "Maxtible's terrible grammar: 'Everything you see here was created by us two.'"
+    ],
+    "goofs": [
+        "In episode two, part of a camera appears as the Dalek questions Victoria.",
+        "The massed Daleks of the final battle are obviously toys.",
+        "Marius Goring calls Waterfield 'Whitefield' and 'Skaro Skarov'."
+    ],
+    "continuity_notes": [
+        {
+            "name": "Dalek Emperor",
+            "type": "Character",
+            "description": "Leader of the Daleks, controlling the other Daleks in this story.",
+            "origin": "Skaro",
+            "current_status": "In control of Dalek forces"
+        },
+        {
+            "name": "Dalek Group Mind",
+            "type": "Concept",
+            "description": "The collective consciousness of the Daleks, unable to cope with questions to orders.",
+            "origin": "Skaro",
+            "current_status": "Active, but with limitations"
+        },
+        {
+            "name": "The Doctor",
+            "type": "Character",
+            "description": "Time Lord protagonist, described as 'more than human' by the Daleks due to time travel.",
+            "origin": "Gallifrey",
+            "current_status": "Actively opposing the Daleks"
+        },
+        {
+            "name": "TARDIS",
+            "type": "Object",
+            "description": "The Doctor's time and space travel machine, believed by the Doctor to be potentially destructible by Daleks.",
+            "origin": "Gallifrey",
+            "current_status": "Operational, but potentially vulnerable"
+        }
+    ],
+    "technobabble": null,
+    "roots": [
+        "Hammer films",
+        "Sherlock Holmes (especially 'The Norwood Builder')",
+        "Poe ('The Facts in the Case of M. Valdemar')",
+        "Alice Through the Looking Glass",
+        "The Beatles' Paperback Writer and other records from July 1966",
+        "Dr Faustus"
+    ],
+    "links": null,
+    "locations": [
+        {
+            "name": "London",
+            "type": "Location",
+            "description": "Capital city of England, setting for parts of the story",
+            "origin": "Earth",
+            "current_status": "Time periods: 20 July 1966 and 2 June 1866 onwards"
+        },
+        {
+            "name": "Skaro",
+            "type": "Location",
+            "description": "Home planet of the Daleks",
+            "origin": null,
+            "current_status": "Active Dalek base"
+        }
+    ],
+    "future_history": null,
+    "untold_adventures": [
+        "The Doctor states that he watched the Charge of the Light Brigade ('magnificent folly')."
+    ],
+    "qv": [
+        "The First History of the Daleks",
+        "'The Daleks'"
+    ],
+    "additional_notes": "The story was designed to kill off the Daleks with a big bang. The Doctor pushes a Dalek over a cliff in episode seven. The Daleks measure weight in ounces and believe time travel has made the Doctor 'more than human', suggesting they don't know about Time Lords at this point.",
+    "bottom_line": "A grandiose production which papers over its scientifically implausible aspects with a confident swagger."
+}

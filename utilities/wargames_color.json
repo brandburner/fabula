@@ -1,0 +1,5306 @@
+{
+  "Story": "The War Games (abridged version in colour)",
+  "Airdate": "1969-04-19",
+  "Episodes": [
+    {
+      "Episode": "Episode One",
+      "Scenes": [
+        {
+          "Scene": "No Man's Land",
+          "Dialogue": [
+            {
+              "Stage Direction": "A scene of mud and desolation. The Tardis materialises in a puddle, and Jamie steps out into it. Zoe is sensibly wearing a trench coat, jodhpurs and knee-high boots."
+            },
+            {
+              "Character": "JAMIE",
+              "Line": "Oh! What a place."
+            },
+            {
+              "Character": "ZOE",
+              "Line": "Where are we? Earth?"
+            },
+            {
+              "Stage Direction": "They pick their way over and up a slope. The Doctor whistles 'A-hunting we will go' happily to himself."
+            },
+            {
+              "Character": "DOCTOR",
+              "Line": "Well, it looks like it, Zoe. Come on."
+            },
+            {
+              "Character": "ZOE",
+              "Line": "What's this stuff?"
+            },
+            {
+              "Stage Direction": "Jamie pricks his finger."
+            },
+            {
+              "Character": "JAMIE",
+              "Line": "Aye, wee spikes. Oh!"
+            },
+            {
+              "Character": "DOCTOR",
+              "Line": "Barbed wire, Jamie. It's filthy stuff. I thought so."
+            },
+            {
+              "Stage Direction": "The Doctor pulls a tin helmet from underneath some wood."
+            },
+            {
+              "Character": "JAMIE",
+              "Line": "Eh?"
+            },
+            {
+              "Character": "JAMIE",
+              "Line": "Where are we?"
+            },
+            {
+              "Stage Direction": "Whee, boom!"
+            },
+            {
+              "Character": "DOCTOR",
+              "Line": "We're back in history, Jamie. One of the most terrible times on the planet Earth."
+            },
+            {
+              "Stage Direction": "They dive into a nearby bomb crater in the ground. Another shell explodes nearby as Jamie stands to watch."
+            },
+            {
+              "Character": "DOCTOR",
+              "Line": "Quick! Down there!"
+            },
+            {
+              "Stage Direction": "More explosions and machine gun fire. They get splattered with soil. An army ambulance comes trundling up through the explosions, then suddenly all goes quiet. A woman in a great coat is standing by the crater."
+            },
+            {
+              "Character": "DOCTOR",
+              "Line": "Jamie! Zoe! Oh, my word!"
+            },
+            {
+              "Character": "BUCKINGHAM",
+              "Line": "I say, are you all right?"
+            },
+            {
+              "Character": "DOCTOR",
+              "Line": "Well, yes, I think so."
+            },
+            {
+              "Character": "BUCKINGHAM",
+              "Line": "I shouldn't stay around here if I were you. That was just the softening-up barrage."
+            },
+            {
+              "Character": "DOCTOR",
+              "Line": "Oh, really? Oh my. Oh."
+            },
+            {
+              "Character": "BUCKINGHAM",
+              "Line": "What on Earth are you doing here, anyway? This is no place for civilians."
+            },
+            {
+              "Character": "DOCTOR",
+              "Line": "Well, where are we?"
+            },
+            {
+              "Stage Direction": "Two soldiers in gas masks are standing next to them."
+            },
+            {
+              "Character": "BUCKINGHAM",
+              "Line": "Between the lines, I think. Not quite sure myself. I'm heading for Ypres, but I seem to have got..."
+            },
+            {
+              "Stage Direction": "The four are taken at gunpoint to the ambulance and driven off. Buckingham is behind the wheel. Further on, two men come running over a rise. Buckingham stops the ambulance. The officer puts his revolver to the German's head."
+            },
+            {
+              "Character": "GERMAN",
+              "Line": "Hände hoch! Macht schnell!"
+            },
+            {
+              "Character": "CARSTAIRS",
+              "Line": "Out you come."
+            },
+            {
+              "Character": "BUCKINGHAM",
+              "Line": "There's another in the back."
+            },
+            {
+              "Stage Direction": "Carstairs leaves his soldier covering the man up front and goes to the back of the ambulance. Jamie and the Doctor have already overpowered the other German."
+            },
+            {
+              "Character": "CARSTAIRS",
+              "Line": "Take care of him."
+            },
+            {
+              "Character": "CARSTAIRS",
+              "Line": "Well done."
+            }
+          ]
+        },
+        {
+          "Scene": "Trench",
+          "Dialogue": [
+            {
+              "Stage Direction": "Zoe makes her way behind the troops firing over the top of the trench as Carstairs helps Buckingham, the Doctor and Jamie down."
+            },
+            {
+              "Character": "SERGEANT",
+              "Line": "Hold your fire! Hold it. Come on, get down. Get down."
+            },
+            {
+              "Character": "CARSTAIRS",
+              "Line": "Couple of prisoners, Sergeant. My men are bringing them in."
+            },
+            {
+              "Character": "SERGEANT",
+              "Line": "Very good, sir."
+            },
+            {
+              "Character": "JAMIE",
+              "Line": "How are we going to get back to the Tardis?"
+            },
+            {
+              "Character": "DOCTOR",
+              "Line": "Just be quiet, Jamie, and let me do the talking."
+            }
+          ]
+        },
+        {
+          "Scene": "Field office",
+          "Dialogue": [
+            {
+              "Character": "CARSTAIRS",
+              "Line": "Lieutenant Carstairs, sir."
+            },
+            {
+              "Character": "BARRINGTON",
+              "Line": "What are you doing here? You don't belong with this battalion, do you?"
+            },
+            {
+              "Character": "CARSTAIRS",
+              "Line": "No. Patrolling in no man's land, sir. I got cut off from my own lot."
+            },
+            {
+              "Character": "BARRINGTON",
+              "Line": "What were you doing traipsing about in ambulances?"
+            },
+            {
+              "Character": "CARSTAIRS",
+              "Line": "Recaptured it from the Hun, sir. Lucky we arrived, really. There was a WVR driving it, and three civilians inside."
+            },
+            {
+              "Character": "BARRINGTON",
+              "Line": "Civilians? In no man's land?"
+            }
+          ]
+        },
+        {
+          "Scene": "Trench",
+          "Dialogue": [
+            {
+              "Character": "JAMIE",
+              "Line": "Where are we?"
+            },
+            {
+              "Character": "ZOE",
+              "Line": "Early 20th century isn't it, Doctor?"
+            },
+            {
+              "Character": "DOCTOR",
+              "Line": "Yes. I'm afraid that we've landed up in the middle of one of the worst wars in human history."
+            },
+            {
+              "Character": "JAMIE",
+              "Line": "What are they dug into the ground like this for?"
+            },
+            {
+              "Character": "DOCTOR",
+              "Line": "Well, it's trench warfare, you see, Jamie. These trenches stretch right the way across the continent of Europe."
+            },
+            {
+              "Character": "JAMIE",
+              "Line": "Well, what are they fighting for?"
+            },
+            {
+              "Character": "DOCTOR",
+              "Line": "Well, I well I believe that they call it The War To End Wars."
+            },
+            {
+              "Character": "ZOE",
+              "Line": "Do you think they'll let us go?"
+            },
+            {
+              "Stage Direction": "But as soon as he puts his head up over the top of the trench, machine gun fire."
+            },
+            {
+              "Character": "DOCTOR",
+              "Line": "Well, they've got no reason to keep us. Here, things have calmed down a bit. Let's try and get away."
+            },
+            {
+              "Character": "DOCTOR",
+              "Line": "Oh!"
+            },
+            {
+              "Character": "SERGEANT",
+              "Line": "What do you think you're doing?"
+            },
+            {
+              "Character": "DOCTOR",
+              "Line": "Our transportation is over there, you see. We're trying to get to it."
+            },
+            {
+              "Character": "SERGEANT",
+              "Line": "Over there? There's nothing over there but Huns. Anyway, the Major wants to see you."
+            },
+            {
+              "Character": "DOCTOR",
+              "Line": "Oh, we don't want to bother him. I'm sure he's very busy."
+            },
+            {
+              "Character": "SERGEANT",
+              "Line": "Come on! You too, ma'am."
+            }
+          ]
+        },
+        {
+          "Scene": "Field office",
+          "Dialogue": [
+            {
+              "Character": "BARRINGTON",
+              "Line": "(on telephone) Right, sir. We'll go over the top at 0400 hours. Sir. As you say, sir. Well, that was General Smythe. Big push tomorrow. How long have you been out here?"
+            },
+            {
+              "Character": "CARSTAIRS",
+              "Line": "Well, sir, it's odd, but I can't quite remember."
+            },
+            {
+              "Character": "BARRINGTON",
+              "Line": "I know. It seems like forever, doesn't it?"
+            },
+            {
+              "Character": "SERGEANT",
+              "Line": "Civilian party, sir."
+            },
+            {
+              "Character": "BARRINGTON",
+              "Line": "I understand you picked these people up in no man's land?"
+            },
+            {
+              "Character": "BUCKINGHAM",
+              "Line": "Yes. Found them hiding in a bomb crater."
+            },
+            {
+              "Character": "BARRINGTON",
+              "Line": "I see. May I ask you what you were doing there?"
+            },
+            {
+              "Character": "DOCTOR",
+              "Line": "Trying not to get killed."
+            },
+            {
+              "Character": "BARRINGTON",
+              "Line": "I see. You're a Highlander, aren't you? Why aren't you with your regiment?"
+            },
+            {
+              "Character": "JAMIE",
+              "Line": "Regiment? I'm not in the Army."
+            },
+            {
+              "Character": "BARRINGTON",
+              "Line": "Are you a deserter?"
+            },
+            {
+              "Character": "JAMIE",
+              "Line": "No, of course not! I"
+            },
+            {
+              "Character": "BARRINGTON",
+              "Line": "All right, all right. And you, what are you doing in the front line? No place for young ladies."
+            },
+            {
+              "Character": "ZOE",
+              "Line": "What about her?"
+            },
+            {
+              "Character": "BARRINGTON",
+              "Line": "This lady's here on duty."
+            },
+            {
+              "Character": "DOCTOR",
+              "Line": "Er, look, Major, we don't want to trouble you. If you'd just let us go on our way..."
+            },
+            {
+              "Character": "BARRINGTON",
+              "Line": "And which way is that?"
+            },
+            {
+              "Character": "SERGEANT",
+              "Line": "He tried to make off towards the German line, sir."
+            },
+            {
+              "Stage Direction": "Whee, Boom! Bits of ceiling come down."
+            },
+            {
+              "Character": "BARRINGTON",
+              "Line": "Did he, by Jove."
+            },
+            {
+              "Character": "BARRINGTON",
+              "Line": "I think General Smythe would like to know about you. (into telephone) Get me General Smythe at base."
+            }
+          ]
+        },
+        {
+          "Scene": "British command post",
+          "Dialogue": [
+            {
+              "Stage Direction": "The General sits at a simple folding table in a once great stately home, talking into a field telephone."
+            },
+            {
+              "Stage Direction": "The General's adjutant enters."
+            },
+            {
+              "Character": "SMYTHE",
+              "Line": "Civilians? In no man's land? Yes. Well, send them back here at once. I'll question them myself."
+            },
+            {
+              "Character": "SMYTHE",
+              "Line": "Three civilians found in no man's land."
+            },
+            {
+              "Character": "RANSOM",
+              "Line": "Good lord. Whereabouts, sir?"
+            },
+            {
+              "Character": "SMYTHE",
+              "Line": "Barrington's sector. He's sending them straight back here. I'm going to turn in for half an hour. Let me know when these civilians arrive."
+            },
+            {
+              "Character": "RANSOM",
+              "Line": "Yes, sir."
+            }
+          ]
+        },
+        {
+          "Scene": "Smythe's room",
+          "Dialogue": [
+            {
+              "Stage Direction": "A wood-panelled room with a large trunk on its end in the corner. Smythe reaches for a portrait on the wall, and it swings open on hinges to reveal a circular monitor and a dial. Smythe turns it on."
+            },
+            {
+              "Character": "SMYTHE",
+              "Line": "Smythe, 1917 zone, British sector. Reinforcements urgently required. At least 5000 specimens."
+            }
+          ]
+        },
+        {
+          "Scene": "British command post",
+          "Dialogue": [
+            {
+              "Character": "BURNS",
+              "Line": "Left, right, left, right. Prisoners and escort, mark time. Halt. Left turn."
+            },
+            {
+              "Character": "DOCTOR",
+              "Line": "Major Barrington, how nice to see you."
+            },
+            {
+              "Character": "BURNS",
+              "Line": "Accused! Back in line."
+            },
+            {
+              "Character": "SMYTHE",
+              "Line": "If you're ready, gentlemen?"
+            },
+            {
+              "Character": "JAMIE",
+              "Line": "Now, look, what's going on here?"
+            },
+            {
+              "Character": "SMYTHE",
+              "Line": "The Court Martial is now in session."
+            },
+            {
+              "Character": "DOCTOR",
+              "Line": "Court Martial? But we're civilians."
+            },
+            {
+              "Character": "SMYTHE",
+              "Line": "The statements of Lieutenant Carstairs and Lady Jennifer have been taken into evidence."
+            },
+            {
+              "Character": "DOCTOR",
+              "Line": "But if you'll allow me to explain..."
+            },
+            {
+              "Character": "SMYTHE",
+              "Line": "The prisoners waylaid an ambulance in no man's land."
+            },
+            {
+              "Character": "DOCTOR",
+              "Line": "Waylaid? The ambulance found us."
+            },
+            {
+              "Character": "SMYTHE",
+              "Line": "Recaptured by Lieutenant Carstairs, the prisoners insinuated themselves into a forward command post, where at the earliest opportunity one of them made a break for the enemy lines with whatever information he had gathered."
+            },
+            {
+              "Character": "ZOE",
+              "Line": "But none of that's true. You've twisted the whole thing."
+            },
+            {
+              "Character": "DOCTOR",
+              "Line": "This is a travesty of justice. What are we charged with?"
+            },
+            {
+              "Character": "SMYTHE",
+              "Line": "In the case of this man, desertion from a Highland regiment."
+            },
+            {
+              "Character": "JAMIE",
+              "Line": "But, but..."
+            },
+            {
+              "Character": "SMYTHE",
+              "Line": "In the case of yourself and the girl, the charge is one of espionage. The penalty for all these charges is death."
+            },
+            {
+              "Character": "DOCTOR",
+              "Line": "But this is monstrous!"
+            },
+            {
+              "Character": "SMYTHE",
+              "Line": "The Court has carefully considered all of the evidence and finds you all guilty as charged. Desertion in a time of war is a most heinous military crime."
+            },
+            {
+              "Character": "JAMIE",
+              "Line": "Look, I've deserted from nowhere! I was never in your rotten army."
+            },
+            {
+              "Character": "SMYTHE",
+              "Line": "You will be confined to a military barracks awaiting a regimental Court Martial."
+            },
+            {
+              "Character": "JAMIE",
+              "Line": "Now look, I'm not being confined anywhere."
+            },
+            {
+              "Character": "SMYTHE",
+              "Line": "You, young lady, have betrayed your King and country. You are sentenced to ten years penal servitude to be spent in a civilian prison."
+            },
+            {
+              "Character": "ZOE",
+              "Line": "Oh, but I haven't done anything!"
+            },
+            {
+              "Character": "SMYTHE",
+              "Line": "The court finds you guilty of espionage."
+            },
+            {
+              "Character": "DOCTOR",
+              "Line": "But this is ridiculous! You know all the evidence has been twisted..."
+            },
+            {
+              "Character": "SMYTHE",
+              "Line": "For a crime of this magnitude, there is only one penalty."
+            },
+            {
+              "Character": "DOCTOR",
+              "Line": "..against us. Just tell them!"
+            },
+            {
+              "Character": "SMYTHE",
+              "Line": "If you've nothing further to say, sentence will be passed."
+            },
+            {
+              "Character": "DOCTOR",
+              "Line": "I demand the right to appeal to a higher authority."
+            },
+            {
+              "Character": "SMYTHE",
+              "Line": "There is no right of appeal. You will be executed at dawn tomorrow. Take him away, Sergeant Major!"
+            },
+            {
+              "Character": "BURNS",
+              "Line": "Prisoners and escort, left turn!"
+            },
+            {
+              "Character": "JAMIE",
+              "Line": "Now just a moment, you can't do this to us! Let go!"
+            },
+            {
+              "Character": "BURNS",
+              "Line": "Hand him over to the MPs. They'll take him to the military prison."
+            },
+            {
+              "Character": "RANSOM",
+              "Line": "Take him away."
+            },
+            {
+              "Character": "BURNS",
+              "Line": "Sir!"
+            },
+            {
+              "Character": "ZOE",
+              "Line": "I don't want to leave you, Doctor."
+            },
+            {
+              "Stage Direction": "The Doctor kisses Zoe on the forehead and leaves with the Sergeant Major."
+            },
+            {
+              "Character": "DOCTOR",
+              "Line": "Now you stay here, Zoe. Goodbye, my dear."
+            },
+            {
+              "Stage Direction": "That night, Lady Jennifer has fallen asleep, and there is no one in Smythe's room. Zoe finds the hidden anacronistic device, then a set of keys under Smythe's pillow and runs off."
+            },
+            {
+              "Character": "ZOE",
+              "Line": "But you can't let them execute the Doctor. He hasn't done anything."
+            }
+          ]
+        },
+        {
+          "Scene": "Wine cellar",
+          "Dialogue": [
+            {
+              "Stage Direction": "The Doctor hides behind the door when he hears it being unlocked."
+            },
+            {
+              "Character": "DOCTOR",
+              "Line": "Zoe!"
+            },
+            {
+              "Character": "ZOE",
+              "Line": "Oh, Doctor!"
+            },
+            {
+              "Character": "DOCTOR",
+              "Line": "How on Earth...?"
+            },
+            {
+              "Character": "ZOE",
+              "Line": "Well, I couldn't leave you to be shot, could I? It's dawn."
+            },
+            {
+              "Character": "DOCTOR",
+              "Line": "Oh, what a nice and clever girl you are. Now, we must find Jamie. They said something about a military prison."
+            },
+            {
+              "Character": "ZOE",
+              "Line": "Yes."
+            },
+            {
+              "Character": "DOCTOR",
+              "Line": "Come on."
+            },
+            {
+              "Character": "RANSOM",
+              "Line": "Quite right, Doctor. It is time to go."
+            }
+          ]
+        },
+        {
+          "Scene": "Farm yard",
+          "Dialogue": [
+            {
+              "Stage Direction": "The firing squad is all ready and waiting. A soldier holds Zoe by the arm as the Doctor is lead to a stake in front of wall and fastened to it."
+            },
+            {
+              "Stage Direction": "Gunshots. The Doctor tenses up for the pain but it is a soldier who has been injured. There is a sniper in one of the barns nearby."
+            },
+            {
+              "Character": "RANSOM",
+              "Line": "Squad, attention! Present! Aim!"
+            },
+            {
+              "Stage Direction": "The firing squad scatter to try and get the sniper. The soldier guarding Zoe is hit and she runs to free the Doctor."
+            },
+            {
+              "Character": "RANSOM",
+              "Line": "Divert!"
+            },
+            {
+              "Character": "DOCTOR",
+              "Line": "Well done, Zoe. Can you undo it?"
+            },
+            {
+              "Stage Direction": "Zoe unties him."
+            },
+            {
+              "Character": "ZOE",
+              "Line": "Oh, Doctor."
+            },
+            {
+              "Character": "ZOE",
+              "Line": "Come on!"
+            }
+          ]
+        },
+        {
+          "Scene": "Smythe's room",
+          "Dialogue": [
+            {
+              "Stage Direction": "There is a Tardis-like sound as a large metal object appears in the corner of the room and an entrance slides forward from the centre. Ransom enters."
+            },
+            {
+              "Character": "RANSOM",
+              "Line": "General Smythe, the prisoners have..."
+            },
+            {
+              "Character": "SMYTHE",
+              "Line": "Ransom, get out!"
+            },
+            {
+              "Stage Direction": "Smythe puts on his spectacles."
+            },
+            {
+              "Character": "RANSOM",
+              "Line": "Sir, what...?"
+            },
+            {
+              "Character": "SMYTHE",
+              "Line": "There is nothing there."
+            },
+            {
+              "Character": "RANSOM",
+              "Line": "No, sir, there's nothing there."
+            },
+            {
+              "Character": "SMYTHE",
+              "Line": "You have not seen me. I have been called away to an important meeting."
+            },
+            {
+              "Stage Direction": "Smythe goes into the SIDRAT, for that is what it is, the door closes and it dematerialises."
+            },
+            {
+              "Character": "RANSOM",
+              "Line": "Important meeting. Yes."
+            },
+            {
+              "Character": "RANSOM",
+              "Line": "General Smythe? Oh, of course, he's gone to that meeting."
+            }
+          ]
+        },
+        {
+          "Scene": "Forest edge",
+          "Dialogue": [
+            {
+              "Stage Direction": "The Doctor uses his telescope to spy out a set of heavily guarded farm buildings complete with machine gun emplacements."
+            },
+            {
+              "Character": "DOCTOR",
+              "Line": "Oh yes. That's it. That's the military prison, all right. That's where Jamie'll be. Take a look. The trouble is those sentries."
+            },
+            {
+              "Character": "ZOE",
+              "Line": "What are we going to do?"
+            },
+            {
+              "Stage Direction": "They run down a slope to a road where a staff car is driving along. The Doctor flags it down."
+            },
+            {
+              "Character": "DOCTOR",
+              "Line": "Don't know. I shall have to think of something. Come on."
+            },
+            {
+              "Character": "DOCTOR",
+              "Line": "Stop! And about time too! Where have you been?"
+            },
+            {
+              "Character": "DRIVER",
+              "Line": "Eh?"
+            },
+            {
+              "Character": "DOCTOR",
+              "Line": "You were sent to meet us!"
+            },
+            {
+              "Character": "DRIVER",
+              "Line": "Meet who?"
+            },
+            {
+              "Character": "DOCTOR",
+              "Line": "Now don't argue! Take us to the prison! In you get, Miss Heriot. Well, drive on!"
+            }
+          ]
+        },
+        {
+          "Scene": "British command post",
+          "Dialogue": [
+            {
+              "Character": "RANSOM",
+              "Line": "Not a trace of them. General Smythe will be furious. We must get those people back."
+            },
+            {
+              "Character": "CARSTAIRS",
+              "Line": "Yes, of course, sir."
+            }
+          ]
+        },
+        {
+          "Scene": "Commandant's office",
+          "Dialogue": [
+            {
+              "Stage Direction": "Farmhouse kitchen, actually. Another officer on another field telephone."
+            },
+            {
+              "Character": "GORTON",
+              "Line": "Who?"
+            },
+            {
+              "Character": "GORTON",
+              "Line": "Civilians? Well, tell them to wait. I'm having my tea."
+            },
+            {
+              "Stage Direction": "But barely has he taken a sip when -"
+            },
+            {
+              "Character": "DOCTOR",
+              "Line": "How dare you treat me like this, sir!"
+            },
+            {
+              "Character": "GORTON",
+              "Line": "What? Who the blazes are you?"
+            },
+            {
+              "Stage Direction": "That would be Lord Derby."
+            },
+            {
+              "Character": "DOCTOR",
+              "Line": "Don't you address me like that, sir! This is disgraceful! I shall make a complaint directly to the Minister himself!"
+            },
+            {
+              "Character": "GORTON",
+              "Line": "Oh, I don't understand. Who are you?"
+            },
+            {
+              "Character": "DOCTOR",
+              "Line": "I'm the examiner from the War Office! I'm here to inspect the military prison. This young lady is my secretary."
+            },
+            {
+              "Character": "GORTON",
+              "Line": "Well, there must be some mistake. I mean, can I see your identification papers?"
+            },
+            {
+              "Character": "DOCTOR",
+              "Line": "How dare you! You send no car to meet us on our arrival, and now you add insult to injury by doubting my credentials! Do you know who I am, sir?"
+            },
+            {
+              "Character": "GORTON",
+              "Line": "Would you care for some tea?"
+            },
+            {
+              "Character": "DOCTOR",
+              "Line": "We are here to inspect the security arrangements of the prison. Now, I suggest we stop wasting time and get on with it!"
+            }
+          ]
+        },
+        {
+          "Scene": "Tack room",
+          "Dialogue": [
+            {
+              "Stage Direction": "Still not a proper cell, but with barbed wire wrapped around the bars in the door grille."
+            },
+            {
+              "Stage Direction": "Two guards throw another man in with Jamie. Dishevelled but still wearing his powdered wig..."
+            },
+            {
+              "Character": "JAMIE",
+              "Line": "Hey, do I not get any breakfast?"
+            },
+            {
+              "Character": "JAMIE",
+              "Line": "Redcoat? What are you doing here?"
+            },
+            {
+              "Character": "REDCOAT",
+              "Line": "Highlander! Keep away from me, you!"
+            },
+            {
+              "Character": "JAMIE",
+              "Line": "Hey, easy now. I'm a prisoner too, you know. How'd you get here? Well, come on, how did you get here?"
+            },
+            {
+              "Character": "REDCOAT",
+              "Line": "I don't know. I can't remember."
+            },
+            {
+              "Character": "JAMIE",
+              "Line": "What year do you think it is?"
+            },
+            {
+              "Character": "REDCOAT",
+              "Line": "Year? Why, it's 1745."
+            }
+          ]
+        },
+        {
+          "Scene": "British command post",
+          "Dialogue": [
+            {
+              "Character": "BUCKINGHAM",
+              "Line": "Any luck?"
+            },
+            {
+              "Character": "CARSTAIRS",
+              "Line": "Not a sign."
+            },
+            {
+              "Character": "BUCKINGHAM",
+              "Line": "That was one of the patrol posts. Nothing to report."
+            },
+            {
+              "Character": "CARSTAIRS",
+              "Line": "Poor old Ransom. He's in for a sticky time when the General gets back."
+            },
+            {
+              "Character": "BUCKINGHAM",
+              "Line": "Didn't you think that there was something rather strange about that Court Martial?"
+            },
+            {
+              "Character": "CARSTAIRS",
+              "Line": "Oh well, military justice, you know. It's not like the Old Bailey."
+            },
+            {
+              "Character": "BUCKINGHAM",
+              "Line": "No, but... you remember we were talking about not remembering things?"
+            },
+            {
+              "Character": "CARSTAIRS",
+              "Line": "Yes?"
+            },
+            {
+              "Character": "BUCKINGHAM",
+              "Line": "Well, things are starting to come back to me."
+            },
+            {
+              "Character": "CARSTAIRS",
+              "Line": "What sort of things?"
+            }
+          ]
+        },
+        {
+          "Scene": "Tack room",
+          "Dialogue": [
+            {
+              "Character": "JAMIE",
+              "Line": "Look, you must try and remember."
+            },
+            {
+              "Character": "REDCOAT",
+              "Line": "I told you. I was fighting up in the Highlands, I got lost and I don't... There was this mist."
+            }
+          ]
+        },
+        {
+          "Scene": "British command post",
+          "Dialogue": [
+            {
+              "Character": "BUCKINGHAM",
+              "Line": "I was on my way to the hospital, well behind the lines. I was driving through a forest and all of a sudden there was a strange sort of mist."
+            }
+          ]
+        },
+        {
+          "Scene": "Tack room",
+          "Dialogue": [
+            {
+              "Character": "REDCOAT",
+              "Line": "It came down all round me. The next thing I knew, everything was different."
+            },
+            {
+              "Character": "JAMIE",
+              "Line": "Well, how do you mean, different?"
+            },
+            {
+              "Character": "REDCOAT",
+              "Line": "Well, there were these great big guns, bigger than I'd ever seen before. And carts moving along without horses."
+            },
+            {
+              "Character": "JAMIE",
+              "Line": "Aye, I've seen those too. Now, go on, go on."
+            },
+            {
+              "Character": "REDCOAT",
+              "Line": "Well, then these fellows in the funny uniforms, they came along, and they caught me and brought me here. Where are we?"
+            }
+          ]
+        },
+        {
+          "Scene": "British command post",
+          "Dialogue": [
+            {
+              "Character": "BUCKINGHAM",
+              "Line": "And then I was in a field dressing station looking after some wounded soldiers."
+            },
+            {
+              "Character": "CARSTAIRS",
+              "Line": "Hmm. Loss of memory."
+            },
+            {
+              "Character": "BUCKINGHAM",
+              "Line": "No, but isn't it strange that you should to be suffering from it too?"
+            }
+          ]
+        },
+        {
+          "Scene": "Tack room",
+          "Dialogue": [
+            {
+              "Character": "JAMIE",
+              "Line": "I've got to get to the Doctor. Look, and you're going to help me."
+            },
+            {
+              "Character": "REDCOAT",
+              "Line": "Oh, no. I don't trust you. You're one of them rebels."
+            },
+            {
+              "Stage Direction": "Jamie advances on the Redcoat with a wheel spoke in his hand."
+            },
+            {
+              "Character": "JAMIE",
+              "Line": "Now look, just you listen to me a moment."
+            }
+          ]
+        },
+        {
+          "Scene": "British command post",
+          "Dialogue": [
+            {
+              "Character": "CARSTAIRS",
+              "Line": "Mist!"
+            },
+            {
+              "Character": "BUCKINGHAM",
+              "Line": "What about it?"
+            },
+            {
+              "Character": "CARSTAIRS",
+              "Line": "I wonder, could it be some kind of new gas? If perhaps the Germans have invented a new type of poison gas, one that affects our minds. Minds..."
+            }
+          ]
+        },
+        {
+          "Scene": "Commandant's office",
+          "Dialogue": [
+            {
+              "Stage Direction": "Jamie is pushed into the kitchen."
+            },
+            {
+              "Character": "JAMIE",
+              "Line": "Doctor!"
+            },
+            {
+              "Character": "DOCTOR",
+              "Line": "We'll see you get a doctor if you need one, my man. Right, let him go."
+            },
+            {
+              "Character": "JAMIE",
+              "Line": "Hey, what are you...?"
+            },
+            {
+              "Character": "DOCTOR",
+              "Line": "Speak when you're spoken to! What are you doing?"
+            },
+            {
+              "Character": "GORTON",
+              "Line": "I'm going to telephone General Smythe. I've had about all I can take from you, sir."
+            },
+            {
+              "Character": "DOCTOR",
+              "Line": "You'll regret this. The Minister..."
+            },
+            {
+              "Character": "GORTON",
+              "Line": "I don't care two hoots about the Minister. Besides, I'm not even sure you're from the War Office. Yes, where are your identity papers?"
+            },
+            {
+              "Character": "DOCTOR",
+              "Line": "My identity papers?"
+            },
+            {
+              "Stage Direction": "Zoe smashes a vase of flowers down onto Gorton's head."
+            },
+            {
+              "Character": "GORTON",
+              "Line": "I thought so. I thought there was a fishy story all along. Hello, is that..."
+            },
+            {
+              "Character": "ZOE",
+              "Line": "I'm sorry, Doctor, but it seemed the only way."
+            },
+            {
+              "Character": "DOCTOR",
+              "Line": "Oh, well done, Zoe. Yes, I think he'll survive. Right, come on. Let's see if we can bluff our way out of here."
+            },
+            {
+              "Stage Direction": "Ransom enters with two MPs."
+            },
+            {
+              "Character": "JAMIE",
+              "Line": "Yeah, but why were you kidding..."
+            },
+            {
+              "Character": "RANSOM",
+              "Line": "Going somewhere? Perhaps I can give you a lift?"
+            }
+          ]
+        },
+        {
+          "Scene": "British command post",
+          "Dialogue": [
+            {
+              "Character": "BUCKINGHAM",
+              "Line": "General Smythe had made up his mind those people were guilty. He wanted that man to be shot!"
+            },
+            {
+              "Character": "CARSTAIRS",
+              "Line": "Perhaps he knew they were guilty?"
+            },
+            {
+              "Character": "BUCKINGHAM",
+              "Line": "Oh, you don't really believe that?"
+            },
+            {
+              "Stage Direction": "Ransom enters."
+            },
+            {
+              "Character": "CARSTAIRS",
+              "Line": "No, I don't, but..."
+            },
+            {
+              "Character": "RANSOM",
+              "Line": "Well, we've got them. You'll never believe where we found them."
+            },
+            {
+              "Character": "CARSTAIRS",
+              "Line": "Where were they?"
+            },
+            {
+              "Character": "RANSOM",
+              "Line": "Well, I was on my way back here. I'd given up the search. It suddenly occurred to me I ought to go and tell Gorton about it."
+            },
+            {
+              "Character": "BUCKINGHAM",
+              "Line": "Well, who's Gorton?"
+            },
+            {
+              "Character": "RANSOM",
+              "Line": "He's the Commandant at the prison. Popped into his office and there they were."
+            },
+            {
+              "Character": "CARSTAIRS",
+              "Line": "What were they doing there?"
+            },
+            {
+              "Character": "RANSOM",
+              "Line": "Do you know, that chap, he'd convinced old Gorton that he was a minister from Whitehall. And he'd nearly bluffed him into letting that Scots lad go. I don't know. I must say I admire his gall. It seems a pity, really, to have to shoot him."
+            }
+          ]
+        },
+        {
+          "Scene": "Wine cellar",
+          "Dialogue": [
+            {
+              "Character": "DOCTOR",
+              "Line": "A redcoat, Jamie?"
+            },
+            {
+              "Character": "JAMIE",
+              "Line": "Aye, and he thinks he's in 1745."
+            },
+            {
+              "Character": "DOCTOR",
+              "Line": "But that's a complete anachronism."
+            },
+            {
+              "Character": "JAMIE",
+              "Line": "Aye. It's a what?"
+            },
+            {
+              "Character": "DOCTOR",
+              "Line": "It's something out of its own time."
+            },
+            {
+              "Character": "ZOE",
+              "Line": "Yes, like the telecommunications unit in the General's room that I told you about."
+            }
+          ]
+        },
+        {
+          "Scene": "War room",
+          "Dialogue": []
+        },
+        {
+          "Scene": "Wine cellar",
+          "Dialogue": [
+            {
+              "Stage Direction": "Door is unlocked."
+            },
+            {
+              "Stage Direction": "Carstairs enters, pistol drawn."
+            },
+            {
+              "Character": "ZOE",
+              "Line": "Shh."
+            },
+            {
+              "Character": "CARSTAIRS",
+              "Line": "Close the door."
+            }
+          ]
+        },
+        {
+          "Scene": "British Command post",
+          "Dialogue": [
+            {
+              "Stage Direction": "Carstairs brings the Doctor, Jamie and Zoe in."
+            },
+            {
+              "Character": "BUCKINGHAM",
+              "Line": "What on Earth are you doing?"
+            },
+            {
+              "Character": "DOCTOR",
+              "Line": "There's no time to explain now. Now, where is the General's room?"
+            },
+            {
+              "Character": "ZOE",
+              "Line": "Over there."
+            }
+          ]
+        },
+        {
+          "Scene": "Smythe's room",
+          "Dialogue": [
+            {
+              "Stage Direction": "Revolver still drawn, Carstairs leads the group in."
+            },
+            {
+              "Stage Direction": "Zoe opens the portrait door to reveal the monitor."
+            },
+            {
+              "Character": "JAMIE",
+              "Line": "What are we supposed to be looking for?"
+            },
+            {
+              "Character": "ZOE",
+              "Line": "There it is."
+            },
+            {
+              "Character": "CARSTAIRS",
+              "Line": "There's nothing there, only wall."
+            },
+            {
+              "Character": "DOCTOR",
+              "Line": "What? You mean you can't see that screen?"
+            },
+            {
+              "Character": "BUCKINGHAM",
+              "Line": "What are we supposed to be looking at?"
+            },
+            {
+              "Stage Direction": "Carstairs and Buckingham stare at the wood panelling until the dial and monitor appear."
+            },
+            {
+              "Character": "DOCTOR",
+              "Line": "Look at the wall! Concentrate!"
+            },
+            {
+              "Character": "BUCKINGHAM",
+              "Line": "It is there. I can see it!"
+            },
+            {
+              "Character": "DOCTOR",
+              "Line": "Can you see it yet?"
+            },
+            {
+              "Character": "CARSTAIRS",
+              "Line": "Yes. But what's it for?"
+            },
+            {
+              "Character": "ZOE",
+              "Line": "Well, it's like a telephone, only you can see people as well as hear them."
+            },
+            {
+              "Character": "BUCKINGHAM",
+              "Line": "What's on the other end?"
+            }
+          ]
+        },
+        {
+          "Scene": "War room",
+          "Dialogue": [
+            {
+              "Stage Direction": "The Doctor turns it off, leaving Smythe and a man in a dark visor staring at a glass map."
+            }
+          ]
+        },
+        {
+          "Scene": "Smythe's room",
+          "Dialogue": [
+            {
+              "Character": "ZOE",
+              "Line": "But we didn't see anything on the screen."
+            },
+            {
+              "Character": "DOCTOR",
+              "Line": "No, but somebody may have seen us. We've got to get away from here, all of us."
+            },
+            {
+              "Character": "CARSTAIRS",
+              "Line": "Get away? Where do you hope to get to?"
+            },
+            {
+              "Character": "DOCTOR",
+              "Line": "Well, anywhere so long as it's away from here."
+            },
+            {
+              "Character": "CARSTAIRS",
+              "Line": "I just can't let you go, just like that."
+            },
+            {
+              "Character": "DOCTOR",
+              "Line": "Yes, you can. And you've got to come too. Your lives will be in danger now, both of you."
+            },
+            {
+              "Character": "BUCKINGHAM",
+              "Line": "I think he's right."
+            },
+            {
+              "Character": "DOCTOR",
+              "Line": "Now look, my friends and I are leaving here. Are you going to shoot us down?"
+            },
+            {
+              "Character": "CARSTAIRS",
+              "Line": "All right. I believe you."
+            }
+          ]
+        },
+        {
+          "Scene": "British command post",
+          "Dialogue": [
+            {
+              "Character": "BUCKINGHAM",
+              "Line": "I'll get the ambulance."
+            },
+            {
+              "Character": "CARSTAIRS",
+              "Line": "Yes. I'll meet you by the front entrance."
+            },
+            {
+              "Character": "DOCTOR",
+              "Line": "What do you want us to do?"
+            },
+            {
+              "Character": "CARSTAIRS",
+              "Line": "Just clamber into the ambulance and keep quiet. I'm going to have to bluff our way past the sentries."
+            }
+          ]
+        },
+        {
+          "Scene": "Farm gate",
+          "Dialogue": [
+            {
+              "Stage Direction": "The ambulance stops."
+            },
+            {
+              "Character": "DOCTOR",
+              "Line": "Right, Zoe, up you go."
+            },
+            {
+              "Character": "JAMIE",
+              "Line": "Okay, right."
+            }
+          ]
+        },
+        {
+          "Scene": "Ambulance",
+          "Dialogue": [
+            {
+              "Stage Direction": "Shell explosions make the ambulance stop. Carstairs joins the Doctor, Jamie and Zoe in the back."
+            },
+            {
+              "Character": "DOCTOR",
+              "Line": "There we are."
+            },
+            {
+              "Character": "CARSTAIRS",
+              "Line": "Maps! Artillery barrage, and we're still seven miles from the German line."
+            },
+            {
+              "Character": "DOCTOR",
+              "Line": "Well, perhaps it's not German artillery."
+            },
+            {
+              "Character": "CARSTAIRS",
+              "Line": "Well, our chaps wouldn't fire at us."
+            },
+            {
+              "Character": "DOCTOR",
+              "Line": "No, but General Smythe might!"
+            },
+            {
+              "Character": "CARSTAIRS",
+              "Line": "Let's get out of here. Bring the rest of the maps."
+            },
+            {
+              "Character": "DOCTOR",
+              "Line": "Right-o. Stay here, keep under cover."
+            }
+          ]
+        },
+        {
+          "Scene": "Road",
+          "Dialogue": [
+            {
+              "Stage Direction": "The Doctor sits with Buckingham and Carstairs up front."
+            },
+            {
+              "Stage Direction": "The ambulance drives forward and fades to nothing."
+            },
+            {
+              "Character": "CARSTAIRS",
+              "Line": "Right!"
+            }
+          ]
+        },
+        {
+          "Scene": "Mist",
+          "Dialogue": [
+            {
+              "Character": "BUCKINGHAM",
+              "Line": "Oh!"
+            },
+            {
+              "Character": "DOCTOR",
+              "Line": "What is it?"
+            },
+            {
+              "Character": "CARSTAIRS",
+              "Line": "Fog. Can't see."
+            },
+            {
+              "Character": "BUCKINGHAM",
+              "Line": "The mist, the gas!"
+            },
+            {
+              "Character": "DOCTOR",
+              "Line": "Gas?"
+            },
+            {
+              "Character": "BUCKINGHAM",
+              "Line": "I can't go on, there's something stopping me."
+            },
+            {
+              "Character": "DOCTOR",
+              "Line": "But it's not gas. Go on."
+            },
+            {
+              "Character": "BUCKINGHAM",
+              "Line": "I can't!"
+            },
+            {
+              "Stage Direction": "The Doctor gets behind the steering wheel and releases the handbrake."
+            },
+            {
+              "Character": "DOCTOR",
+              "Line": "Well, move over. Let me, come on."
+            }
+          ]
+        },
+        {
+          "Scene": "Road",
+          "Dialogue": [
+            {
+              "Stage Direction": "The ambulance appears on a peaceful road winding besides a river - actually Seven Sisters Country Park, Sussex. They get out and look around."
+            },
+            {
+              "Character": "JAMIE",
+              "Line": "That's more like it."
+            },
+            {
+              "Character": "ZOE",
+              "Line": "That mist, Doctor, what was it?"
+            },
+            {
+              "Character": "DOCTOR",
+              "Line": "I don't know, Zoe. Some sort of forcefield."
+            },
+            {
+              "Character": "ZOE",
+              "Line": "Where are we? There's no sign of the war here."
+            },
+            {
+              "Character": "JAMIE",
+              "Line": "Yes, and the guns have stopped, too."
+            },
+            {
+              "Character": "DOCTOR",
+              "Line": "Yes. It's odd, Jamie."
+            },
+            {
+              "Character": "CARSTAIRS",
+              "Line": "Feeling better?"
+            },
+            {
+              "Character": "BUCKINGHAM",
+              "Line": "Yes. Thank you."
+            }
+          ]
+        },
+        {
+          "Scene": "Hilltop",
+          "Dialogue": [
+            {
+              "Stage Direction": "Above the road and river. There's a vague sound of men shouting in the distance."
+            },
+            {
+              "Character": "JAMIE",
+              "Line": "Ah, that's better!"
+            },
+            {
+              "Character": "ZOE",
+              "Line": "What's that?"
+            },
+            {
+              "Character": "JAMIE",
+              "Line": "Who are they? >br> (A phalanx of warriors are heading towards them lead by a two horse chariot.)"
+            },
+            {
+              "Character": "ZOE",
+              "Line": "It's Romans! Oh, come on!"
+            },
+            {
+              "Character": "DOCTOR",
+              "Line": "Jamie, Zoe, run! Oh, my word!"
+            }
+          ]
+        },
+        {
+          "Scene": "Road",
+          "Dialogue": [
+            {
+              "Stage Direction": "As the Romans plant their SPQR at the top of the rise."
+            },
+            {
+              "Character": "DOCTOR",
+              "Line": "Start the engine!"
+            },
+            {
+              "Character": "ZOE",
+              "Line": "Quick!"
+            },
+            {
+              "Character": "JAMIE",
+              "Line": "Look!"
+            },
+            {
+              "Stage Direction": "Carstairs starts cranking as the Romans bear down on them."
+            },
+            {
+              "Character": "CARSTAIRS",
+              "Line": "Switch on."
+            },
+            {
+              "Character": "ZOE",
+              "Line": "We're being attacked by Romans?"
+            },
+            {
+              "Character": "JAMIE",
+              "Line": "Come on! They're after us! (The ambulance engine catches and Carstairs gets in as Buckingham slowly backs the ambulance up the road and it fades away. When the Romans get there they just stop in mid yell.)"
+            }
+          ]
+        },
+        {
+          "Scene": "Ambulance",
+          "Dialogue": [
+            {
+              "Character": "ZOE",
+              "Line": "That was a close shave. Where are we, Doctor?"
+            },
+            {
+              "Stage Direction": "Carstairs and Buckingham join them in the back."
+            },
+            {
+              "Character": "JAMIE",
+              "Line": "Oh no, we're not back here again."
+            },
+            {
+              "Character": "DOCTOR",
+              "Line": "Ah, Lieutenant Carstairs, is this the only map you're supplied with?"
+            },
+            {
+              "Character": "CARSTAIRS",
+              "Line": "Yes, that's the one."
+            },
+            {
+              "Character": "DOCTOR",
+              "Line": "It's a bit inadequate, isn't it?"
+            },
+            {
+              "Character": "BUCKINGHAM",
+              "Line": "Doctor, who were those people who attacked us just now?"
+            },
+            {
+              "Character": "DOCTOR",
+              "Line": "Oh, they were Romans."
+            },
+            {
+              "Character": "CARSTAIRS",
+              "Line": "Oh, but that's impossible!"
+            },
+            {
+              "Character": "DOCTOR",
+              "Line": "Oh, lots of impossible things happen when you pass through time."
+            },
+            {
+              "Character": "BUCKINGHAM",
+              "Line": "Time? But no one can alter time."
+            },
+            {
+              "Character": "DOCTOR",
+              "Line": "Look, it is 1917 where we are now on this map. Where we were attacked by the Romans it is 2000 years ago."
+            },
+            {
+              "Character": "CARSTAIRS",
+              "Line": "But surely, Doctor..."
+            },
+            {
+              "Character": "DOCTOR",
+              "Line": "Shortly before we met the Romans we passed through a mist, didn't we? A gas, you called it. Now, supposing this mist is a barrier between different time zones?"
+            },
+            {
+              "Character": "ZOE",
+              "Line": "I see. So we went off the edge of this map and into a different time zone."
+            },
+            {
+              "Character": "DOCTOR",
+              "Line": "Yes. What we need is a map which covers all the time zones. I'm afraid we shall have to get back to General Smythe's headquarters, to the chateau."
+            },
+            {
+              "Character": "JAMIE",
+              "Line": "Well how are we going to get back there?"
+            },
+            {
+              "Character": "DOCTOR",
+              "Line": "Well, that's easy. You will take us."
+            }
+          ]
+        },
+        {
+          "Scene": "British command post",
+          "Dialogue": [
+            {
+              "Stage Direction": "Jamie and the Doctor enter, followed by Carstairs."
+            },
+            {
+              "Character": "RANSOM",
+              "Line": "No trace of them? Well, keep searching!"
+            },
+            {
+              "Character": "CARSTAIRS",
+              "Line": "Lieutenant Carstairs reporting, sir. I brought back the prisoners."
+            },
+            {
+              "Stage Direction": "Carstairs points his revolver directly at Ransom."
+            },
+            {
+              "Character": "RANSOM",
+              "Line": "Carstairs, you're in very serious trouble. You're..."
+            },
+            {
+              "Character": "RANSOM",
+              "Line": "Have you gone mad?"
+            },
+            {
+              "Character": "CARSTAIRS",
+              "Line": "I'm sorry about this, sir."
+            },
+            {
+              "Character": "RANSOM",
+              "Line": "You'll be shot for this, Carstairs."
+            },
+            {
+              "Stage Direction": "Jamie takes Ransom's gun."
+            },
+            {
+              "Character": "CARSTAIRS",
+              "Line": "Yes, sir."
+            },
+            {
+              "Character": "CARSTAIRS",
+              "Line": "Don't do anything foolish, sir."
+            },
+            {
+              "Character": "DOCTOR",
+              "Line": "What? Oh, yes. I'm afraid that there's nothing here, only local maps."
+            },
+            {
+              "Character": "RANSOM",
+              "Line": "This is mutiny. I hope you..."
+            }
+          ]
+        },
+        {
+          "Scene": "Smythe's room",
+          "Dialogue": [
+            {
+              "Stage Direction": "The Doctor has found a map marked off in triangles. Zoe enters."
+            },
+            {
+              "Character": "DOCTOR",
+              "Line": "Look, Zoe. 1917 zone, Roman zone, American Civil War zone. This whole place is divided into time zones."
+            },
+            {
+              "Character": "ZOE",
+              "Line": "But there's a blank space in the middle. There's nothing marked at all."
+            },
+            {
+              "Stage Direction": "And not the Crimean, 30 Years, Russo-Japanese, Greek, Boer, Peninsular, English Civil or Mexican Civil war zones."
+            },
+            {
+              "Character": "DOCTOR",
+              "Line": "Yes. Yes, and I think that that's where we've got to get to."
+            }
+          ]
+        },
+        {
+          "Scene": "War room",
+          "Dialogue": [
+            {
+              "Stage Direction": "Large and alien, staffed by people wearing visors and overalls. An alarm sounds. Smythe is also there. Four guards in wet suits with laser rifles or similar enter, followed by a man with a square medallion around his neck. Smythe gestures the other staff to leave."
+            },
+            {
+              "Character": "SMYTHE",
+              "Line": "Did you have a comfortable trip, sir?"
+            },
+            {
+              "Character": "WAR CHIEF",
+              "Line": "Excellent. The War Lord is pleased with our work. But the rate of progress must be accelerated."
+            },
+            {
+              "Character": "SMYTHE",
+              "Line": "A report from my zone, sir."
+            },
+            {
+              "Character": "SMYTHE",
+              "Line": "How did that happen?"
+            },
+            {
+              "Character": "WAR CHIEF",
+              "Line": "I want these people captured alive."
+            },
+            {
+              "Character": "SMYTHE",
+              "Line": "General alert to all time zones. Five escaped prisoners travelling in a 1917 British Army ambulance clearly marked with a red cross."
+            }
+          ]
+        },
+        {
+          "Scene": "Ambulance",
+          "Dialogue": [
+            {
+              "Character": "ZOE",
+              "Line": "Where do you think we are, Doctor?"
+            },
+            {
+              "Character": "DOCTOR",
+              "Line": "I think we're about there."
+            },
+            {
+              "Character": "ZOE",
+              "Line": "The American Civil War zone. (A soldier in a blue uniform shoots at them.)"
+            },
+            {
+              "Stage Direction": "Carstairs gets out and lies on the ground to return fire. The Doctor pokes his head out."
+            },
+            {
+              "Character": "CARSTAIRS",
+              "Line": "Get down!"
+            },
+            {
+              "Character": "ZOE",
+              "Line": "Oh Doctor, be careful!"
+            },
+            {
+              "Character": "DOCTOR",
+              "Line": "Zoe, we were right. That was an American Civil War soldier."
+            },
+            {
+              "Character": "JAMIE",
+              "Line": "You mean we're mixed up in another war now?"
+            },
+            {
+              "Character": "DOCTOR",
+              "Line": "Yes. But it means we're on the right road, and we're still making for that blank space in the middle of the map."
+            }
+          ]
+        },
+        {
+          "Scene": "Road",
+          "Dialogue": [
+            {
+              "Stage Direction": "Further on, a tree falls in front of the ambulance."
+            },
+            {
+              "Stage Direction": "Jamie, the Doctor and Zoe get out of the ambulance. They are about to move the tree when shots are fired by both opposing sides. Carstairs shoots one of each. The survivors run away."
+            },
+            {
+              "Character": "CARSTAIRS",
+              "Line": "Jamie!"
+            },
+            {
+              "Character": "CARSTAIRS",
+              "Line": "Get that tree moved!"
+            },
+            {
+              "Stage Direction": "Carstairs deals with the other two Union and Confederate soldiers. Jamie takes on another Confederate. Then Carstairs has to change pistols as Confederate cavalry arrive."
+            },
+            {
+              "Character": "DOCTOR",
+              "Line": "What?"
+            },
+            {
+              "Stage Direction": "Further on, Buckingham pulls the ambulance over in some bushes and the cavalry ride past. She opens the engine cover."
+            },
+            {
+              "Character": "CARSTAIRS",
+              "Line": "Lady Jennifer, drive on!"
+            },
+            {
+              "Character": "DOCTOR",
+              "Line": "What's wrong?"
+            },
+            {
+              "Character": "BUCKINGHAM",
+              "Line": "Afraid we've run out of petrol."
+            },
+            {
+              "Character": "DOCTOR",
+              "Line": "Oh no.,"
+            },
+            {
+              "Character": "BUCKINGHAM",
+              "Line": "Where's Lieutenant Carstairs?"
+            },
+            {
+              "Character": "JAMIE",
+              "Line": "He held them off while we got away."
+            },
+            {
+              "Character": "BUCKINGHAM",
+              "Line": "Oh, dear."
+            },
+            {
+              "Character": "ZOE",
+              "Line": "Oh, well now what do we do?"
+            },
+            {
+              "Character": "DOCTOR",
+              "Line": "There's only one thing for it. We shall have to go on by foot. Come along."
+            }
+          ]
+        },
+        {
+          "Scene": "War room",
+          "Dialogue": [
+            {
+              "Character": "SMYTHE",
+              "Line": "If my troops make a push here, what resistance can you put up?"
+            },
+            {
+              "Character": "VON WEICH",
+              "Line": "Along here we shall have pillboxes, machine gun nests, landmines. You'll have no chance, but it will be an excellent test of the morale of your humans. Your entire force will be wiped out."
+            }
+          ]
+        },
+        {
+          "Scene": "Barn",
+          "Dialogue": [
+            {
+              "Stage Direction": "Crickets are singing. It must be evening."
+            },
+            {
+              "Character": "JAMIE",
+              "Line": "It's all right. This'll do for the night, eh?"
+            },
+            {
+              "Character": "DOCTOR",
+              "Line": "Oh yes, Jamie, this looks all right."
+            },
+            {
+              "Character": "ZOE",
+              "Line": "I wish we knew where Lieutenant Carstairs was."
+            },
+            {
+              "Character": "JAMIE",
+              "Line": "We shouldn't have left him, you know."
+            },
+            {
+              "Character": "DOCTOR",
+              "Line": "It was the way he wanted it."
+            },
+            {
+              "Character": "ZOE",
+              "Line": "Well, now what do we do? We've lost Lieutenant Carstairs, the ambulance has broken down and we're miles from the Tardis."
+            },
+            {
+              "Character": "DOCTOR",
+              "Line": "We carry on, of course. We've got no alternative."
+            },
+            {
+              "Character": "JAMIE",
+              "Line": "Are we still heading for that blank space in that map of yours?"
+            },
+            {
+              "Stage Direction": "A materialisation sound fills the barn."
+            },
+            {
+              "Character": "DOCTOR",
+              "Line": "Yes. That is where we'll find the answer. Now we'd better get some rest. We'll have to start early in the morning."
+            },
+            {
+              "Stage Direction": "A SIDRAT appears and opens, disgorging ten Union soldiers."
+            },
+            {
+              "Character": "DOCTOR",
+              "Line": "Quick, hide!"
+            },
+            {
+              "Character": "ZOE",
+              "Line": "There's so many of them! That thing must be bigger inside than outside, just like the Tardis."
+            },
+            {
+              "Character": "DOCTOR",
+              "Line": "I must have a look inside."
+            },
+            {
+              "Character": "JAMIE",
+              "Line": "Be careful now, Doctor!"
+            },
+            {
+              "Character": "BUCKINGHAM",
+              "Line": "What on Earth is it?"
+            },
+            {
+              "Character": "ZOE",
+              "Line": "It's some kind of space-time machine, I think."
+            },
+            {
+              "Stage Direction": "There is gunfire outside. The Doctor goes inside the SIDRAT."
+            },
+            {
+              "Character": "BUCKINGHAM",
+              "Line": "But it just appeared from nowhere."
+            },
+            {
+              "Stage Direction": "Zoe goes into the SIDRAT."
+            },
+            {
+              "Character": "ZOE",
+              "Line": "Doctor! Doctor! Oh Doctor, come back!"
+            },
+            {
+              "Stage Direction": "The SIDRAT door closes as Jamie runs to Buckingham at the barn door."
+            },
+            {
+              "Character": "JAMIE",
+              "Line": "Oh now, Zoe, don't! Lady Jennifer!"
+            },
+            {
+              "Stage Direction": "The SIDRAT dematerialises."
+            },
+            {
+              "Character": "JAMIE",
+              "Line": "Keep away from the door!"
+            },
+            {
+              "Character": "JAMIE",
+              "Line": "Doctor! No, Zoe, no! Oh no."
+            }
+          ]
+        },
+        {
+          "Scene": "SIDRAT",
+          "Dialogue": [
+            {
+              "Stage Direction": "Very large inside, with transparent room dividers."
+            },
+            {
+              "Character": "ZOE",
+              "Line": "Doctor, look, it is like the Tardis. Bigger inside than out."
+            },
+            {
+              "Character": "DOCTOR",
+              "Line": "Yes, Zoe, you're right."
+            },
+            {
+              "Character": "ZOE",
+              "Line": "But who else would have space-time machines like the Tardis?"
+            },
+            {
+              "Character": "DOCTOR",
+              "Line": "Well, there is an answer to that, but I hope, I just hope..."
+            },
+            {
+              "Stage Direction": "Zoe takes a pair of plastic visors with + eye holes from a shelf."
+            },
+            {
+              "Character": "ZOE",
+              "Line": "What?"
+            },
+            {
+              "Character": "ZOE",
+              "Line": "Doctor, what are these?"
+            },
+            {
+              "Stage Direction": "The Doctor has found a battalion of German WW1 soldiers."
+            },
+            {
+              "Character": "DOCTOR",
+              "Line": "Zoe, come and see."
+            },
+            {
+              "Character": "ZOE",
+              "Line": "Why are they just standing there like that?"
+            },
+            {
+              "Stage Direction": "There are Romans in another section."
+            },
+            {
+              "Character": "DOCTOR",
+              "Line": "They seem to be in some sort of hypnotic trance."
+            },
+            {
+              "Character": "ZOE",
+              "Line": "Romans, like the ones that attacked us. But these soldiers, what are they here for?"
+            },
+            {
+              "Character": "DOCTOR",
+              "Line": "They're going to fight, Zoe. That's what soldiers are for."
+            },
+            {
+              "Stage Direction": "The SIDRAT rematerialises."
+            },
+            {
+              "Character": "ZOE",
+              "Line": "But they're all from different times."
+            },
+            {
+              "Stage Direction": "The Romans march out."
+            },
+            {
+              "Character": "ZOE",
+              "Line": "We're landing!"
+            },
+            {
+              "Character": "ZOE",
+              "Line": "We could get away."
+            },
+            {
+              "Character": "DOCTOR",
+              "Line": "No, we'd only land up right in the middle of another war."
+            },
+            {
+              "Stage Direction": "The SIDRAT door closes and it dematerialises."
+            },
+            {
+              "Character": "ZOE",
+              "Line": "Well, then, what are we going to do?"
+            },
+            {
+              "Character": "DOCTOR",
+              "Line": "It's taking off again. That settles it."
+            }
+          ]
+        },
+        {
+          "Scene": "War room",
+          "Dialogue": []
+        },
+        {
+          "Scene": "Barn",
+          "Dialogue": [
+            {
+              "Stage Direction": "Jamie and Lady Jennifer are tied up, and their guards are playing cards. A cock crows."
+            },
+            {
+              "Character": "JAMIE",
+              "Line": "How long are we going to be kept here? Hey, you with the blond hair. I'm talking to you!"
+            }
+          ]
+        },
+        {
+          "Scene": "War room",
+          "Dialogue": []
+        },
+        {
+          "Scene": "SIDRAT",
+          "Dialogue": [
+            {
+              "Character": "ZOE",
+              "Line": "We're landing again."
+            },
+            {
+              "Character": "DOCTOR",
+              "Line": "Yes, all the soldiers have been delivered, so this must be its base."
+            },
+            {
+              "Character": "ZOE",
+              "Line": "Oh Doctor, how do we get back to Jennifer and Jamie? It's working on remote control."
+            }
+          ]
+        },
+        {
+          "Scene": "War room",
+          "Dialogue": [
+            {
+              "Character": "WAR CHIEF",
+              "Line": "When you have captured the other two, send them all here."
+            },
+            {
+              "Stage Direction": "Transmission ends."
+            },
+            {
+              "Character": "WAR CHIEF",
+              "Line": "They will make excellent specimens for your reprocessing experiment."
+            }
+          ]
+        },
+        {
+          "Scene": "Barn",
+          "Dialogue": [
+            {
+              "Character": "LEROY",
+              "Line": "You're staying here until the Captain finds those friends of yours. And then we're going to shoot all four of you together."
+            }
+          ]
+        },
+        {
+          "Scene": "SIDRAT landing bay",
+          "Dialogue": [
+            {
+              "Stage Direction": "A man is placing various shapes on a large board in front of him. The SIDRAT materialises in a cubicle behind him, opens its door, and the Doctor and Zoe sneak out."
+            },
+            {
+              "Character": "DOCTOR",
+              "Line": "He must be the person who's controlling this thing."
+            },
+            {
+              "Stage Direction": "An 1800s soldier marches past wearing a visor with three vertical slits for eyeholes."
+            },
+            {
+              "Character": "ZOE",
+              "Line": "Shush."
+            },
+            {
+              "Character": "ZOE",
+              "Line": "These glasses. They're both wearing them."
+            },
+            {
+              "Stage Direction": "They put on the + visors."
+            },
+            {
+              "Character": "DOCTOR",
+              "Line": "Yes, you're right. We'd better put them on."
+            },
+            {
+              "Character": "DOCTOR",
+              "Line": "Well, come on, let's explore."
+            }
+          ]
+        },
+        {
+          "Scene": "Barn",
+          "Dialogue": [
+            {
+              "Stage Direction": "Someone puts a hand over her mouth. It is a Black soldier."
+            },
+            {
+              "Character": "BUCKINGHAM",
+              "Line": "It's no good, Jamie, you can't possibly get it undone. It..."
+            },
+            {
+              "Stage Direction": "Harper unties them."
+            },
+            {
+              "Character": "HARPER",
+              "Line": "Not a sound, Mister. Not one sound."
+            }
+          ]
+        },
+        {
+          "Scene": "Central area",
+          "Dialogue": [
+            {
+              "Stage Direction": "The Doctor and Zoe are exploring. The doorways are keyhole shaped."
+            },
+            {
+              "Character": "ZOE",
+              "Line": "We've passed a reception area, living quarters, lecture rooms. It's just like a university."
+            },
+            {
+              "Character": "DOCTOR",
+              "Line": "Yes, a sort of training school, but for what?"
+            },
+            {
+              "Stage Direction": "Three soldiers from different eras walk past."
+            },
+            {
+              "Character": "ZOE",
+              "Line": "Shush."
+            },
+            {
+              "Character": "GUARD",
+              "Line": "You two, in!"
+            },
+            {
+              "Character": "DOCTOR",
+              "Line": "Well we were just..."
+            },
+            {
+              "Character": "GUARD",
+              "Line": "In here! You're late."
+            },
+            {
+              "Character": "DOCTOR",
+              "Line": "Oh. Well, if you insist."
+            }
+          ]
+        },
+        {
+          "Scene": "Barn",
+          "Dialogue": [
+            {
+              "Stage Direction": "Buckingham, Jamie and Harper sneak past LeRoy and his companion. Leroy wins the hand of cards."
+            },
+            {
+              "Character": "HARPER",
+              "Line": "There's a hole in the planks over there. Get a move on."
+            },
+            {
+              "Stage Direction": "Leroy spots the escapees."
+            },
+            {
+              "Character": "LEROY",
+              "Line": "Hey, how about that? I'll get some water."
+            },
+            {
+              "Character": "LEROY",
+              "Line": "Hey, look!"
+            },
+            {
+              "Character": "HARPER",
+              "Line": "Run for it!"
+            },
+            {
+              "Character": "JAMIE",
+              "Line": "Where to?"
+            },
+            {
+              "Character": "HARPER",
+              "Line": "Trail due north. Old camp."
+            }
+          ]
+        },
+        {
+          "Scene": "Lecture hall",
+          "Dialogue": [
+            {
+              "Character": "SCIENTIST",
+              "Line": "You may not be aware that the problem is to retain the specimen's personality as a fighting man, while at the same time putting him under our control."
+            }
+          ]
+        },
+        {
+          "Scene": "Barn",
+          "Dialogue": [
+            {
+              "Character": "VON WEICH",
+              "Line": "What happened?"
+            },
+            {
+              "Character": "LEROY",
+              "Line": "They got away. He turned them loose. They can't have got far."
+            },
+            {
+              "Character": "VON WEICH",
+              "Line": "Get a cavalry patrol, get after them. Hunt them down. So you turned them loose?"
+            }
+          ]
+        },
+        {
+          "Scene": "Countryside",
+          "Dialogue": [
+            {
+              "Character": "JAMIE",
+              "Line": "Lady Jennifer!"
+            }
+          ]
+        },
+        {
+          "Scene": "Lecture hall",
+          "Dialogue": [
+            {
+              "Character": "SCIENTIST",
+              "Line": "As you know, we remove the human specimens from their own world and time, and place them in a context which seems to them to be the same. It is vital that they continue to believe that they are living their own lives on the planet Earth and fighting the wars from which they were taken."
+            },
+            {
+              "Character": "DOCTOR",
+              "Line": "Quite right, Zoe. Quite right."
+            },
+            {
+              "Character": "SCIENTIST",
+              "Line": "With the majority of human specimens, the process used is both lasting and effective. However, in the case of certain humans of particularly strong character and individuality, the effects of the process have not been permanent."
+            }
+          ]
+        },
+        {
+          "Scene": "Barn",
+          "Dialogue": [
+            {
+              "Character": "VON WEICH",
+              "Line": "Where're they making for, boy?"
+            },
+            {
+              "Stage Direction": "Von Weich fixes his monocle in place."
+            },
+            {
+              "Character": "HARPER",
+              "Line": "Look, I ain't going to tell you nothing."
+            },
+            {
+              "Character": "VON WEICH",
+              "Line": "You're going to tell me where they're making for."
+            },
+            {
+              "Character": "HARPER",
+              "Line": "Sorry, Captain, but that stuff doesn't work on me."
+            }
+          ]
+        },
+        {
+          "Scene": "Lecture hall",
+          "Dialogue": [
+            {
+              "Character": "SCIENTIST",
+              "Line": "Gradually the processing tended to fade and the specimens developed the ability to pass through the Time Zone Barriers. Some formed themselves into resistance groups."
+            }
+          ]
+        },
+        {
+          "Scene": "Barn",
+          "Dialogue": [
+            {
+              "Character": "VON WEICH",
+              "Line": "You're from the Resistance."
+            },
+            {
+              "Character": "HARPER",
+              "Line": "That's right, and I'm not one of you. Listen, you-all. You're not fighting the war between the States, you know. He's just using you!"
+            },
+            {
+              "Character": "VON WEICH",
+              "Line": "It's no use. You'll never get them to understand. They're under my control."
+            }
+          ]
+        },
+        {
+          "Scene": "Lecture hall",
+          "Dialogue": [
+            {
+              "Stage Direction": "Guards bring out a gurney on which Carstairs is strapped."
+            },
+            {
+              "Character": "SCIENTIST",
+              "Line": "It is to overcome this problem that I have further refined our processing technique. To demonstrate the process I chosen a particularly difficult specimen. A man who finally shook off the effects of the process completely, and allied himself to resistance elements in order to fight us."
+            },
+            {
+              "Character": "SCIENTIST",
+              "Line": "Lieutenant Carstairs is a 1917 British army officer, who for some time after his initial processing, believed himself to be fighting for his country. However as I shall now demonstrate, the process has completely lapsed and he is now fully conscious of his surroundings. Where are you?"
+            },
+            {
+              "Character": "CARSTAIRS",
+              "Line": "I don't know."
+            },
+            {
+              "Character": "SCIENTIST",
+              "Line": "Describe what you can see."
+            },
+            {
+              "Stage Direction": "The Doctor gestures Carstairs to keep quiet."
+            },
+            {
+              "Character": "CARSTAIRS",
+              "Line": "A room. Filled with a lot of scientific mumbo jumbo. Funny people, strange clothes... and those sort of glasses that you're wearing."
+            },
+            {
+              "Stage Direction": "The Scientist clamps Carstairs' head in a metal vice-like device and turns it on."
+            },
+            {
+              "Character": "SCIENTIST",
+              "Line": "As you see, he is fully aware of his surroundings and very hostile. After my new technique has been applied, he will not only be completely docile, but will be fully convinced that whatever I tell him will be the truth."
+            },
+            {
+              "Character": "ZOE",
+              "Line": "Oh, can't we help him?"
+            },
+            {
+              "Character": "DOCTOR",
+              "Line": "No, no, no, not yet. Later."
+            },
+            {
+              "Stage Direction": "The machine finishes its cycle."
+            },
+            {
+              "Character": "SCIENTIST",
+              "Line": "This machine is, of course, only a prototype. In due course, other machines will be built to this pattern, capable of processing large groups of specimens simultaneously."
+            },
+            {
+              "Stage Direction": "The guards unstrap Carstairs, who stands up."
+            },
+            {
+              "Character": "SCIENTIST",
+              "Line": "Release him."
+            },
+            {
+              "Character": "SCIENTIST",
+              "Line": "What is your name?"
+            },
+            {
+              "Character": "CARSTAIRS",
+              "Line": "Carstairs."
+            },
+            {
+              "Character": "SCIENTIST",
+              "Line": "I am your superior officer, you know."
+            },
+            {
+              "Character": "CARSTAIRS",
+              "Line": "Sorry, sir."
+            },
+            {
+              "Character": "SCIENTIST",
+              "Line": "Where are you, Carstairs?"
+            },
+            {
+              "Character": "CARSTAIRS",
+              "Line": "Well, sir, I'm..."
+            },
+            {
+              "Character": "SCIENTIST",
+              "Line": "You are in my office at headquarters."
+            },
+            {
+              "Character": "CARSTAIRS",
+              "Line": "Yes, sir. I'm in the General's office."
+            },
+            {
+              "Character": "SCIENTIST",
+              "Line": "Now, who are these people?"
+            },
+            {
+              "Character": "CARSTAIRS",
+              "Line": "They're my brother officers, sir. Except those two people. Those are German spies!"
+            }
+          ]
+        },
+        {
+          "Scene": "Central Control",
+          "Dialogue": [
+            {
+              "Character": "TECHNICIAN",
+              "Line": "This is Central Control, what is your emergency?"
+            },
+            {
+              "Character": "TECHNICIAN",
+              "Line": "Bring him in at once."
+            }
+          ]
+        },
+        {
+          "Scene": "Lecture hall",
+          "Dialogue": [
+            {
+              "Stage Direction": "Carstairs has been strapped down again."
+            },
+            {
+              "Stage Direction": "Carstairs is wheeled away."
+            },
+            {
+              "Character": "CARSTAIRS",
+              "Line": "But they're German spies! I was at the court martial! You've got to believe me!"
+            },
+            {
+              "Character": "SCIENTIST",
+              "Line": "I'll examine him later."
+            },
+            {
+              "Character": "DOCTOR",
+              "Line": "I don't think much of that as a demonstration."
+            },
+            {
+              "Character": "SCIENTIST",
+              "Line": "Will you kindly return to your place?"
+            },
+            {
+              "Character": "DOCTOR",
+              "Line": "The man was obviously unhinged as a result of your experiment."
+            },
+            {
+              "Character": "SCIENTIST",
+              "Line": "The experiment was successful."
+            },
+            {
+              "Character": "DOCTOR",
+              "Line": "Then why did he call me a German spy? It's obviously ridiculous, isn't it."
+            },
+            {
+              "Character": "SCIENTIST",
+              "Line": "The aberration is only temporary. He was probably involved with tracking down some German spies before he came here. It has obviously become a fixation."
+            },
+            {
+              "Stage Direction": "The Doctor opens up the brain-washing apparatus."
+            },
+            {
+              "Character": "DOCTOR",
+              "Line": "Then he's obviously no use for our purposes, is he?"
+            },
+            {
+              "Character": "DOCTOR",
+              "Line": "Oh yes, just as I thought. This is your trouble, you know."
+            },
+            {
+              "Character": "SCIENTIST",
+              "Line": "Will you leave this apparatus alone?"
+            },
+            {
+              "Character": "DOCTOR",
+              "Line": "Yes, this circuit is overloading the neural paths."
+            },
+            {
+              "Character": "SCIENTIST",
+              "Line": "You are here in the capacity of a student."
+            },
+            {
+              "Character": "DOCTOR",
+              "Line": "You didn't de-process that man first, did you?"
+            },
+            {
+              "Character": "SCIENTIST",
+              "Line": "There was no need. His processing had completely lapsed. You saw that for yourself."
+            },
+            {
+              "Character": "DOCTOR",
+              "Line": "I saw a man whose processing had partly lapsed. You should have completely de-processed him first, but I don't suppose you can do that on a machine like this."
+            },
+            {
+              "Character": "SCIENTIST",
+              "Line": "Of course we can. It is simply a case of reprogramming these circuits here."
+            },
+            {
+              "Character": "DOCTOR",
+              "Line": "What there?"
+            },
+            {
+              "Character": "SCIENTIST",
+              "Line": "And here."
+            },
+            {
+              "Character": "DOCTOR",
+              "Line": "Yes?"
+            },
+            {
+              "Character": "SCIENTIST",
+              "Line": "And here."
+            },
+            {
+              "Character": "DOCTOR",
+              "Line": "Oh yes, I see. Yes, that's fascinating."
+            },
+            {
+              "Character": "SCIENTIST",
+              "Line": "And since we have now exceeded the time allotted for this demonstration, I suggest you all continue to your next assignment."
+            },
+            {
+              "Stage Direction": "An alarm sounds and the Doctor removes his visor. Guards rush in, then the War Chief enters."
+            },
+            {
+              "Character": "DOCTOR",
+              "Line": "Thank you. Come along, Zoe."
+            },
+            {
+              "Character": "WAR CHIEF",
+              "Line": "Was the experiment successful?"
+            },
+            {
+              "Character": "SCIENTIST",
+              "Line": "Partly, partly. But the specimen showed signs of mental unbalance after the process."
+            },
+            {
+              "Character": "WAR CHIEF",
+              "Line": "Then the modifications were not successful?"
+            },
+            {
+              "Character": "SCIENTIST",
+              "Line": "But I think we've found the cause. One of the students has been extremely helpful to me. That one over there."
+            },
+            {
+              "Character": "DOCTOR",
+              "Line": "Run, Zoe, run!"
+            },
+            {
+              "Character": "WAR CHIEF",
+              "Line": "Stop them! Stop them!"
+            }
+          ]
+        },
+        {
+          "Scene": "Processing room",
+          "Dialogue": [
+            {
+              "Stage Direction": "On the run, the Doctor backs into where the Scientist has got Carstairs on an examination table."
+            },
+            {
+              "Character": "SCIENTIST",
+              "Line": "What are you doing in here?"
+            },
+            {
+              "Character": "DOCTOR",
+              "Line": "Yes, I was so interested in your demonstration I felt I had to come along and see how you were getting along."
+            },
+            {
+              "Character": "SCIENTIST",
+              "Line": "But there's a security alarm out for you."
+            },
+            {
+              "Character": "DOCTOR",
+              "Line": "Oh no, no, no. Not me, the girl."
+            },
+            {
+              "Character": "SCIENTIST",
+              "Line": "Then why did you run?"
+            },
+            {
+              "Character": "DOCTOR",
+              "Line": "Well, I was trying to catch her, of course. Has she been caught?"
+            },
+            {
+              "Character": "SCIENTIST",
+              "Line": "Yes. I sent her to the security section for questioning."
+            },
+            {
+              "Character": "DOCTOR",
+              "Line": "Oh good."
+            }
+          ]
+        },
+        {
+          "Scene": "Security section",
+          "Dialogue": [
+            {
+              "Stage Direction": "No keyhole doors and plastic hangings, but a swirly design on the walls that makes your eyes ache. A guard drags Zoe in and makes her sit down."
+            },
+            {
+              "Character": "ZOE",
+              "Line": "What's going to happen? What are you going to do to me? Well, you might answer me!"
+            },
+            {
+              "Character": "SECURITY CHIEF",
+              "Line": "You are the one who will answer the questions."
+            }
+          ]
+        },
+        {
+          "Scene": "Processing room",
+          "Dialogue": [
+            {
+              "Character": "DOCTOR",
+              "Line": "How are you getting on with him?"
+            },
+            {
+              "Character": "SCIENTIST",
+              "Line": "I'm about to deprocess him."
+            },
+            {
+              "Character": "DOCTOR",
+              "Line": "Oh I see. Yes, this is intriguing."
+            },
+            {
+              "Character": "SCIENTIST",
+              "Line": "Just as you suggested at my lecture."
+            },
+            {
+              "Character": "DOCTOR",
+              "Line": "Is the de-processing complete?"
+            },
+            {
+              "Character": "SCIENTIST",
+              "Line": "Yes."
+            },
+            {
+              "Character": "CARSTAIRS",
+              "Line": "Oh where am I? Oh, Doctor."
+            },
+            {
+              "Character": "SCIENTIST",
+              "Line": "You! He recognises you! You're one of..."
+            },
+            {
+              "Stage Direction": "Carstairs grabs the Scientist."
+            },
+            {
+              "Character": "DOCTOR",
+              "Line": "No, no, please! Get him off. No!"
+            },
+            {
+              "Stage Direction": "Carstairs pushes the Scientist onto the table and the Doctor clamps the brainwash machine around his head then turns it on."
+            },
+            {
+              "Character": "DOCTOR",
+              "Line": "No, don't hurt him. Put him on there. In the machine, quick!"
+            },
+            {
+              "Stage Direction": "The Doctor turns the machine down a bit."
+            },
+            {
+              "Character": "DOCTOR",
+              "Line": "Hoist with his own petard. I'll explain as we go along. We must find Zoe. Oh, er..."
+            },
+            {
+              "Character": "DOCTOR",
+              "Line": "Better leave him on simmer."
+            }
+          ]
+        },
+        {
+          "Scene": "Control area",
+          "Dialogue": [
+            {
+              "Stage Direction": "The Security Chief walks past."
+            },
+            {
+              "Character": "DOCTOR",
+              "Line": "It must be the security room."
+            }
+          ]
+        },
+        {
+          "Scene": "Security section",
+          "Dialogue": [
+            {
+              "Stage Direction": "The Doctor walks round the guard so that Carstairs can come up behind him and knock him out."
+            },
+            {
+              "Character": "DOCTOR",
+              "Line": "Zoe, what have they done to you? Don't you point that thing at me! You ought to be ashamed of yourself, treating a poor young girl like..."
+            },
+            {
+              "Character": "DOCTOR",
+              "Line": "Oh, well done."
+            },
+            {
+              "Character": "ZOE",
+              "Line": "Oh my head!"
+            },
+            {
+              "Character": "DOCTOR",
+              "Line": "We must find Jamie."
+            }
+          ]
+        },
+        {
+          "Scene": "Processing room",
+          "Dialogue": [
+            {
+              "Stage Direction": "Eavesdropping."
+            },
+            {
+              "Character": "SCIENTIST",
+              "Line": "He appears not to have been processed before."
+            },
+            {
+              "Character": "ZOE",
+              "Line": "It's Jamie. He's alive."
+            },
+            {
+              "Character": "DOCTOR",
+              "Line": "I hoped he might be."
+            },
+            {
+              "Character": "GUARD",
+              "Line": "Sir, he was brought in an hour ago with the other resistance leaders."
+            },
+            {
+              "Character": "SCIENTIST",
+              "Line": "Take this prisoner to the Security Chief for questioning."
+            },
+            {
+              "Character": "ZOE",
+              "Line": "Doctor, why are they taking him away?"
+            },
+            {
+              "Character": "DOCTOR",
+              "Line": "I think they've possibly discovered that he was never processed."
+            }
+          ]
+        },
+        {
+          "Scene": "Security section",
+          "Dialogue": [
+            {
+              "Stage Direction": "The Chief discovers the unconscious guard."
+            },
+            {
+              "Character": "SECURITY CHIEF",
+              "Line": "Where is the girl? You fool! Where is she?"
+            }
+          ]
+        },
+        {
+          "Scene": "Processing room",
+          "Dialogue": [
+            {
+              "Character": "DOCTOR",
+              "Line": "We've got to get in there. Lieutenant."
+            },
+            {
+              "Stage Direction": "While the Scientist adjusts his brain-washing machine, Carstairs goes through the hole in the wall and grabs the scientist's assistant. He bundles him unceremoniously back into the clothing store."
+            },
+            {
+              "Character": "SCIENTIST",
+              "Line": "Prepare the reprocessing machine. We shall begin with this one."
+            },
+            {
+              "Character": "DOCTOR",
+              "Line": "I think you'll find that bit goes there."
+            },
+            {
+              "Stage Direction": "The Doctor uses smelling salts to revive a WW1 soldier."
+            },
+            {
+              "Character": "SCIENTIST",
+              "Line": "Ah, thank you!"
+            },
+            {
+              "Character": "RUSSELL",
+              "Line": "What happened? Where am I?"
+            },
+            {
+              "Character": "DOCTOR",
+              "Line": "It's all right. You're quite safe."
+            },
+            {
+              "Character": "RUSSELL",
+              "Line": "Who are you?"
+            },
+            {
+              "Character": "DOCTOR",
+              "Line": "We're your friends."
+            },
+            {
+              "Character": "CARSTAIRS",
+              "Line": "You'll have to hurry it up, Doctor."
+            },
+            {
+              "Stage Direction": "A guard comes past the open door to the central area and Carstairs shoots him."
+            },
+            {
+              "Character": "RUSSELL",
+              "Line": "Doctor? What is this place?"
+            },
+            {
+              "Character": "CARSTAIRS",
+              "Line": "Come on, Doctor, we must get out of here!"
+            },
+            {
+              "Stage Direction": "The alarm sounds. Carstairs shoots at another guard outside."
+            },
+            {
+              "Character": "DOCTOR",
+              "Line": "Quickly, through the gap in the wall there. Zoe, help him."
+            },
+            {
+              "Character": "CARSTAIRS",
+              "Line": "Come on, Doctor!"
+            },
+            {
+              "Character": "DOCTOR",
+              "Line": "Just a minute!"
+            },
+            {
+              "Character": "CARSTAIRS",
+              "Line": "No, now. or we'll all be caught! (The Doctor abandons the machine.)"
+            }
+          ]
+        },
+        {
+          "Scene": "Clothing store",
+          "Dialogue": [
+            {
+              "Character": "RUSSELL",
+              "Line": "So what do we do now?"
+            },
+            {
+              "Character": "DOCTOR",
+              "Line": "I must get you all back to the landing bay."
+            },
+            {
+              "Character": "CARSTAIRS",
+              "Line": "Those guards'll be all over the place."
+            },
+            {
+              "Character": "DOCTOR",
+              "Line": "Yes, what we need is some kind of disguise."
+            }
+          ]
+        },
+        {
+          "Scene": "Security section",
+          "Dialogue": [
+            {
+              "Stage Direction": "Jamie wakes to see a figure in a greatcoat and gas mask."
+            },
+            {
+              "Character": "JAMIE",
+              "Line": "Ah!"
+            },
+            {
+              "Character": "DOCTOR",
+              "Line": "It's all right, Jamie, it's me."
+            },
+            {
+              "Character": "JAMIE",
+              "Line": "Oh."
+            },
+            {
+              "Character": "DOCTOR",
+              "Line": "Put on this great coat."
+            },
+            {
+              "Character": "JAMIE",
+              "Line": "Where's Zoe? What's happened?"
+            },
+            {
+              "Character": "DOCTOR",
+              "Line": "She's waiting outside."
+            }
+          ]
+        },
+        {
+          "Scene": "Central area",
+          "Dialogue": [
+            {
+              "Character": "DOCTOR",
+              "Line": "Are we ready? Right. Quick, march!"
+            }
+          ]
+        },
+        {
+          "Scene": "SIDRAT landing bay",
+          "Dialogue": [
+            {
+              "Stage Direction": "Two men grab the technician and drag him away."
+            },
+            {
+              "Character": "ZOE",
+              "Line": "Are you sure you can work these controls, Doctor?"
+            },
+            {
+              "Stage Direction": "A SIDRAT opens."
+            },
+            {
+              "Character": "DOCTOR",
+              "Line": "Yes, I think so, Zoe. Now let me see. I'll preset it for the 1917 zone, and off we go."
+            },
+            {
+              "Character": "DOCTOR",
+              "Line": "Come along. Don't be afraid, you've gone before."
+            },
+            {
+              "Character": "CARSTAIRS",
+              "Line": "After you, Doctor."
+            },
+            {
+              "Character": "DOCTOR",
+              "Line": "No, no, I shall follow in a few moments."
+            },
+            {
+              "Character": "ZOE",
+              "Line": "You mean you're staying here?"
+            },
+            {
+              "Character": "DOCTOR",
+              "Line": "No, but I must get the processing machine."
+            },
+            {
+              "Character": "JAMIE",
+              "Line": "Ah, if you're staying, I'd better stay too."
+            },
+            {
+              "Character": "CARSTAIRS",
+              "Line": "You can count on me then, Doctor."
+            },
+            {
+              "Stage Direction": "Zoe, Russell and the soldiers go into the SIDRAT and the Doctor dematerialises it remotely."
+            },
+            {
+              "Character": "DOCTOR",
+              "Line": "Oh, very well. Go on, Zoe, off you go. We'll follow in a few minutes. Good luck."
+            }
+          ]
+        },
+        {
+          "Scene": "Processing room",
+          "Dialogue": [
+            {
+              "Stage Direction": "Jamie holds out a knapsack."
+            },
+            {
+              "Character": "JAMIE",
+              "Line": "Is this all right, Doctor?"
+            },
+            {
+              "Stage Direction": "The Doctor puts the machine into it."
+            },
+            {
+              "Character": "DOCTOR",
+              "Line": "Yes, Jamie, that's splendid."
+            }
+          ]
+        },
+        {
+          "Scene": "War room",
+          "Dialogue": [
+            {
+              "Character": "TECHNICIAN",
+              "Line": "Sir, we have located the fugitive resistance members."
+            },
+            {
+              "Character": "WAR CHIEF",
+              "Line": "Good."
+            },
+            {
+              "Character": "TECHNICIAN",
+              "Line": "Four of them escaped in a SIDRAT, and three others are headed for the landing bay."
+            }
+          ]
+        },
+        {
+          "Scene": "SIDRAT",
+          "Dialogue": [
+            {
+              "Stage Direction": "Gas filled valves are thrown. The Doctor adjusts some controls and they run into a SIDRAT which dematerialises."
+            },
+            {
+              "Character": "JAMIE",
+              "Line": "Did we get away all right?"
+            },
+            {
+              "Stage Direction": "The dematerialisation stops."
+            },
+            {
+              "Character": "DOCTOR",
+              "Line": "Yes, I hope so, Jamie. There you go."
+            },
+            {
+              "Character": "DOCTOR",
+              "Line": "They must have stopped it from the outside. SECURITY CHIEF \\[OC\\]: You are trapped."
+            }
+          ]
+        },
+        {
+          "Scene": "SIDRAT landing bay",
+          "Dialogue": [
+            {
+              "Character": "SECURITY CHIEF",
+              "Line": "Surrender and we will spare your lives."
+            }
+          ]
+        },
+        {
+          "Scene": "SIDRAT",
+          "Dialogue": [
+            {
+              "Character": "CARSTAIRS",
+              "Line": "What are we going to do, Doctor?"
+            },
+            {
+              "Character": "DOCTOR",
+              "Line": "Don't worry. These things are impregnable against outside attack."
+            },
+            {
+              "Character": "JAMIE",
+              "Line": "You mean like the Tardis?"
+            }
+          ]
+        },
+        {
+          "Scene": "SIDRAT landing bay",
+          "Dialogue": [
+            {
+              "Character": "WAR CHIEF",
+              "Line": "How do you propose to get them out?"
+            },
+            {
+              "Character": "SECURITY CHIEF",
+              "Line": "We will wait. They will come out."
+            },
+            {
+              "Character": "WAR CHIEF",
+              "Line": "No, we won't wait. We'll force them out."
+            },
+            {
+              "Character": "SECURITY CHIEF",
+              "Line": "What do you intend to do?"
+            },
+            {
+              "Character": "WAR CHIEF",
+              "Line": "Activate the dimensional control."
+            }
+          ]
+        },
+        {
+          "Scene": "SIDRAT",
+          "Dialogue": [
+            {
+              "Stage Direction": "The Doctor is also working a control."
+            },
+            {
+              "Character": "JAMIE",
+              "Line": "Doing all right, Doctor?"
+            },
+            {
+              "Character": "DOCTOR",
+              "Line": "Very nicely, Jamie. Now, don't worry. Nothing can happen to us in here."
+            },
+            {
+              "Character": "CARSTAIRS",
+              "Line": "Am I seeing things? Walls. Look!"
+            },
+            {
+              "Character": "JAMIE",
+              "Line": "And the ceiling, too!"
+            },
+            {
+              "Stage Direction": "The ceiling drops, forcing the Doctor, Carstairs and Jamie to their knees."
+            },
+            {
+              "Character": "DOCTOR",
+              "Line": "Oh, no! Oh, what have they done?"
+            }
+          ]
+        },
+        {
+          "Scene": "SIDRAT landing bay",
+          "Dialogue": [
+            {
+              "Character": "WAR CHIEF",
+              "Line": "You must surrender, Doctor. Or you will all be crushed to death."
+            }
+          ]
+        },
+        {
+          "Scene": "SIDRAT",
+          "Dialogue": [
+            {
+              "Character": "CARSTAIRS",
+              "Line": "What are we going to do, Doctor?"
+            },
+            {
+              "Character": "DOCTOR",
+              "Line": "We've got no choice! We have to do what they say!"
+            }
+          ]
+        },
+        {
+          "Scene": "SIDRAT landing bay",
+          "Dialogue": [
+            {
+              "Stage Direction": "The SIDRAT opens and the Doctor crawls out waving a white handkerchief."
+            },
+            {
+              "Character": "SECURITY CHIEF",
+              "Line": "Wait."
+            },
+            {
+              "Character": "WAR CHIEF",
+              "Line": "Bring out the others."
+            },
+            {
+              "Character": "DOCTOR",
+              "Line": "What are you going to do with us?"
+            },
+            {
+              "Character": "WAR CHIEF",
+              "Line": "Bring out the others. Or would you sooner they were crushed to death?"
+            },
+            {
+              "Stage Direction": "The Doctor throws down his last gas-filled valve. While everyone else is choking on the gas, the Doctor has his handkerchief over his mouth, dashes to the control panel, sets the dimension controls back to normal and removes other control symbols before running back into the SIDRAT and closing its door."
+            },
+            {
+              "Character": "DOCTOR",
+              "Line": "Oh, I think that's a perfectly horrid idea."
+            }
+          ]
+        },
+        {
+          "Scene": "SIDRAT",
+          "Dialogue": [
+            {
+              "Character": "JAMIE",
+              "Line": "Oh, well done."
+            }
+          ]
+        },
+        {
+          "Scene": "SIDRAT landing bay",
+          "Dialogue": [
+            {
+              "Stage Direction": "The SIDRAT dematerialises."
+            },
+            {
+              "Character": "SECURITY CHIEF",
+              "Line": "Can't you stop them?"
+            },
+            {
+              "Character": "WAR CHIEF",
+              "Line": "He's locked off the controls and taken the master circuit rods. What an ingenious fellow he is."
+            },
+            {
+              "Character": "SECURITY CHIEF",
+              "Line": "His ingenuity could ruin everything. Alert all Time Zones!"
+            }
+          ]
+        },
+        {
+          "Scene": "SIDRAT",
+          "Dialogue": [
+            {
+              "Character": "JAMIE",
+              "Line": "Are we not going back to Zoe and the Tardis?"
+            },
+            {
+              "Character": "DOCTOR",
+              "Line": "Not just now. That's where they'll be looking for us."
+            },
+            {
+              "Character": "CARSTAIRS",
+              "Line": "What are we going to do, then, Doctor?"
+            },
+            {
+              "Stage Direction": "A final symbol goes on the panel."
+            },
+            {
+              "Character": "DOCTOR",
+              "Line": "We're going to one of the nearby Zones and cross the Time Zone Barrier on foot. Oh! Ah, yes. Here we are."
+            }
+          ]
+        },
+        {
+          "Scene": "War room",
+          "Dialogue": [
+            {
+              "Character": "SECURITY CHIEF",
+              "Line": "Haven't you traced them yet?"
+            },
+            {
+              "Character": "WAR CHIEF",
+              "Line": "It's impossible to pick them up when the SIDRAT is still moving."
+            },
+            {
+              "Character": "SECURITY CHIEF",
+              "Line": "The War Lord is arriving from the home planet."
+            },
+            {
+              "Character": "WAR CHIEF",
+              "Line": "He's chosen rather an inconvenient time."
+            },
+            {
+              "Character": "SECURITY CHIEF",
+              "Line": "I shall go and receive him."
+            },
+            {
+              "Character": "WAR CHIEF",
+              "Line": "No, I'll receive him. You stay here and supervise the capture of that resistance group."
+            }
+          ]
+        },
+        {
+          "Scene": "SIDRAT",
+          "Dialogue": [
+            {
+              "Stage Direction": "The SIDRAT rematerialises."
+            },
+            {
+              "Character": "DOCTOR",
+              "Line": "Come on, here we go. Help me on with the processing machine. Now remember, as soon as we land we must make ourselves scarce."
+            },
+            {
+              "Character": "JAMIE",
+              "Line": "Eh?"
+            },
+            {
+              "Character": "DOCTOR",
+              "Line": "Well they're bound to be on the alert for us."
+            }
+          ]
+        },
+        {
+          "Scene": "War room",
+          "Dialogue": [
+            {
+              "Stage Direction": "A technician leaves. A man in black with the War Chief and an armed guard has arrived."
+            },
+            {
+              "Character": "SECURITY CHIEF",
+              "Line": "These resistance people must be captured or destroyed!"
+            },
+            {
+              "Character": "WAR LORD",
+              "Line": "So my information is correct. I've heard disquieting rumours of serious trouble here. Are they true?"
+            },
+            {
+              "Character": "SECURITY CHIEF",
+              "Line": "There have been temporary difficulties."
+            },
+            {
+              "Character": "WAR LORD",
+              "Line": "But they have been overcome?"
+            },
+            {
+              "Character": "SECURITY CHIEF",
+              "Line": "Almost."
+            },
+            {
+              "Character": "WAR LORD",
+              "Line": "War Chief. The defective processing machinery, has it been rectified?"
+            },
+            {
+              "Character": "WAR CHIEF",
+              "Line": "Your scientists did get an effective machine, but unfortunately it was removed by an intruding party of resistance men."
+            },
+            {
+              "Character": "WAR LORD",
+              "Line": "They just walked in?! How?! SECURITY CHIEF: I have the situation under control, War Lord. It is only a matter of time before they are recaptured."
+            },
+            {
+              "Character": "WAR CHIEF",
+              "Line": "Have you looked for this space-time machine of theirs?"
+            },
+            {
+              "Character": "SECURITY CHIEF",
+              "Line": "What use is that to us?"
+            },
+            {
+              "Character": "WAR CHIEF",
+              "Line": "They will no doubt try to return to it. That's where we should be looking for them. It's a simple enough conclusion. You might even have reached it yourself."
+            },
+            {
+              "Character": "SECURITY CHIEF",
+              "Line": "I have reached a number of conclusions about you and about this man, the Doctor."
+            },
+            {
+              "Character": "WAR CHIEF",
+              "Line": "Indeed? Then perhaps you'd like to share them with us."
+            },
+            {
+              "Character": "SECURITY CHIEF",
+              "Line": "The secret of space-time travel is known only to you and to your people."
+            },
+            {
+              "Character": "WAR CHIEF",
+              "Line": "And I brought that secret here."
+            },
+            {
+              "Character": "SECURITY CHIEF",
+              "Line": "You have shown us how to operate these machines, but not how to construct them. These people were summoned by one who is in league with his own kind, plotting to betray us!"
+            },
+            {
+              "Character": "WAR CHIEF",
+              "Line": "You cannot produce one single atom of proof!"
+            },
+            {
+              "Character": "WAR LORD",
+              "Line": "That's enough! That's enough from both of you. Your inability to work together is endangering our whole plan."
+            }
+          ]
+        },
+        {
+          "Scene": "No Man's Land",
+          "Dialogue": [
+            {
+              "Stage Direction": "The Doctor, Jamie and Carstairs run down the muddy bank near the machine gun. The Doctor falls. Carstairs helps him up. The machine gun fires."
+            },
+            {
+              "Stage Direction": "To the rear of the machine gunners are Zoe and two resistance fighters. They knock out the gunners with their musket butts. The Doctor, Jamie and Carstairs have been surrounded by British troops."
+            },
+            {
+              "Character": "CARSTAIRS",
+              "Line": "Take cover!"
+            },
+            {
+              "Character": "ZOE",
+              "Line": "No, don't shoot. You'll hit my friends."
+            }
+          ]
+        },
+        {
+          "Scene": "British command post",
+          "Dialogue": [
+            {
+              "Character": "SMYTHE",
+              "Line": "You've caused me a great deal of trouble."
+            },
+            {
+              "Character": "DOCTOR",
+              "Line": "Good, I'm very glad to hear it. I suppose you're going to subject us to another one of your farcical courts-martial?"
+            },
+            {
+              "Character": "SMYTHE",
+              "Line": "In your case, that won't be necessary. You have already been condemned to death."
+            },
+            {
+              "Character": "DOCTOR",
+              "Line": "And what about my friends?"
+            },
+            {
+              "Character": "SMYTHE",
+              "Line": "They will be given the chance to redeem themselves, in the most dangerous sector of the front line. They will have the opportunity of making the supreme sacrifice for their King and country."
+            },
+            {
+              "Character": "CARSTAIRS",
+              "Line": "You can drop all that nonsense. We know what's going on."
+            },
+            {
+              "Character": "SMYTHE",
+              "Line": "Do you, Carstairs?"
+            },
+            {
+              "Stage Direction": "Smythe draws his revolver and goes to the door. He fires as the long barrel of a musket appears. With another expletive he goes into his room. Jamie and Carstairs disarm their captors as more resistance fighters enter."
+            },
+            {
+              "Character": "CARSTAIRS",
+              "Line": "Yes. This isn't the war. We're not on our own planet. Do you realise that, Sergeant Major? This General of yours isn't even a human being."
+            },
+            {
+              "Character": "JAMIE",
+              "Line": "Russell! The Doctor, what happened to him?"
+            },
+            {
+              "Character": "RUSSELL",
+              "Line": "I don't know. We just attacked the front of the building."
+            }
+          ]
+        },
+        {
+          "Scene": "Smythe's room",
+          "Dialogue": [
+            {
+              "Stage Direction": "Smythe activates the communications device."
+            },
+            {
+              "Character": "SMYTHE",
+              "Line": "Smythe, 1917 Zone."
+            }
+          ]
+        },
+        {
+          "Scene": "British command post",
+          "Dialogue": [
+            {
+              "Character": "DOCTOR",
+              "Line": "Where's General Smythe?"
+            },
+            {
+              "Character": "CARSTAIRS",
+              "Line": "He's in there."
+            },
+            {
+              "Character": "DOCTOR",
+              "Line": "What? He'll be calling for help! You've got to stop him!"
+            },
+            {
+              "Character": "RUSSELL",
+              "Line": "Quick, lads! Over here!"
+            }
+          ]
+        },
+        {
+          "Scene": "Smythe's room",
+          "Dialogue": [
+            {
+              "Character": "SMYTHE",
+              "Line": "I haven't had a chance."
+            },
+            {
+              "Character": "SMYTHE",
+              "Line": "You must send help now!"
+            }
+          ]
+        },
+        {
+          "Scene": "British command post",
+          "Dialogue": [
+            {
+              "Stage Direction": "The fighters have failed to break down the door to Smythe's room."
+            },
+            {
+              "Character": "RUSSELL",
+              "Line": "Stand back."
+            }
+          ]
+        },
+        {
+          "Scene": "Smythe's room",
+          "Dialogue": [
+            {
+              "Stage Direction": "Smythe removes the cover from the fireplace to reveal a computer. He is just about to pull out some units when Russell bursts in. They exchange shots and Smythe dies."
+            },
+            {
+              "Character": "RUSSELL",
+              "Line": "In here. Look."
+            }
+          ]
+        },
+        {
+          "Scene": "War room",
+          "Dialogue": [
+            {
+              "Stage Direction": "Zoe turns off the monitor."
+            },
+            {
+              "Character": "SECURITY CHIEF",
+              "Line": "They have taken over the chateau."
+            },
+            {
+              "Character": "WAR CHIEF",
+              "Line": "And the Doctor is still alive. Smythe was a fool. He deserved to die."
+            },
+            {
+              "Character": "WAR LORD",
+              "Line": "The Doctor has the processing machine. Does he have the knowledge and the ability to use it?"
+            },
+            {
+              "Character": "WAR CHIEF",
+              "Line": "Yes."
+            },
+            {
+              "Character": "WAR LORD",
+              "Line": "Fortunately, they're in a very vulnerable position now."
+            },
+            {
+              "Character": "WAR CHIEF",
+              "Line": "It would be simple enough to wipe them out with an artillery barrage."
+            },
+            {
+              "Character": "WAR LORD",
+              "Line": "No. Use the conventional forces. Could be quite amusing."
+            },
+            {
+              "Character": "SECURITY CHIEF",
+              "Line": "And the Doctor? Will he die with the rest?"
+            }
+          ]
+        },
+        {
+          "Scene": "British command post",
+          "Dialogue": [
+            {
+              "Stage Direction": "Materialisation sounds in Smythe's room."
+            },
+            {
+              "Stage Direction": "Guards come out of the SIDRAT and use their energy weapons."
+            },
+            {
+              "Character": "RUSSELL",
+              "Line": "One of those those machines. Quick lads, in here!"
+            }
+          ]
+        },
+        {
+          "Scene": "War Room",
+          "Dialogue": [
+            {
+              "Character": "WAR CHIEF",
+              "Line": "This Doctor will die."
+            }
+          ]
+        },
+        {
+          "Scene": "British command post",
+          "Dialogue": [
+            {
+              "Stage Direction": "The Doctor is grabbed, along with the processing machine."
+            },
+            {
+              "Character": "SECURITY CHIEF",
+              "Line": "Stop! Take him!"
+            },
+            {
+              "Stage Direction": "The Doctor is bundled into the SIDRAT and it dematerialises."
+            },
+            {
+              "Character": "JAMIE",
+              "Line": "Don't shoot, you might hit the Doctor."
+            }
+          ]
+        },
+        {
+          "Scene": "War room",
+          "Dialogue": [
+            {
+              "Character": "WAR LORD",
+              "Line": "Give it to the Scientist. He will return to the home planet and have it mass produced."
+            },
+            {
+              "Character": "SECURITY CHIEF",
+              "Line": "Very well."
+            },
+            {
+              "Character": "WAR CHIEF",
+              "Line": "The interrogation of that resistance leader might prove difficult."
+            },
+            {
+              "Character": "WAR LORD",
+              "Line": "Why?"
+            },
+            {
+              "Character": "WAR CHIEF",
+              "Line": "He is obviously a man of substantial intellect. He will need special treatment."
+            },
+            {
+              "Character": "WAR LORD",
+              "Line": "Then you must see he gets it, mustn't you?"
+            }
+          ]
+        },
+        {
+          "Scene": "Security section",
+          "Dialogue": [
+            {
+              "Stage Direction": "The Security Chief is using his mind-reading machine on the Doctor."
+            },
+            {
+              "Stage Direction": "The Doctor remains still, eyes closed."
+            },
+            {
+              "Character": "SECURITY CHIEF",
+              "Line": "Admit that the War Chief sent you here. You must answer. Your arrival here is part of a plot to betray us to the Time Lords. Answer! You will answer me now, or I will destroy your mind totally. Admit that the War Chief sent for you."
+            },
+            {
+              "Stage Direction": "The machine is turned off and the Doctor relaxes."
+            },
+            {
+              "Character": "WAR CHIEF",
+              "Line": "Are you trying to kill him?"
+            },
+            {
+              "Character": "SECURITY CHIEF",
+              "Line": "I am trying to get the truth out of him."
+            },
+            {
+              "Character": "WAR CHIEF",
+              "Line": "You'll never make him talk that way."
+            },
+            {
+              "Character": "SECURITY CHIEF",
+              "Line": "You are very sure?"
+            },
+            {
+              "Character": "WAR CHIEF",
+              "Line": "He is one of my own race. Your truth machine cannot work on us if we choose to resist."
+            },
+            {
+              "Character": "SECURITY CHIEF",
+              "Line": "You admit it, then. You do know him."
+            },
+            {
+              "Character": "WAR CHIEF",
+              "Line": "Of course I do. And only I can deal with him. Release him."
+            },
+            {
+              "Character": "SECURITY CHIEF",
+              "Line": "He is my prisoner."
+            },
+            {
+              "Stage Direction": "The Security Chief puts down the mind-reading machine and releases the Doctor."
+            },
+            {
+              "Character": "WAR CHIEF",
+              "Line": "But I am your superior."
+            },
+            {
+              "Character": "WAR CHIEF",
+              "Line": "You and I are going to talk alone."
+            },
+            {
+              "Character": "DOCTOR",
+              "Line": "I have nothing to say to you."
+            },
+            {
+              "Stage Direction": "The Doctor is taken out."
+            },
+            {
+              "Character": "WAR CHIEF",
+              "Line": "We shall see. Guards, take this prisoner to the War Room."
+            },
+            {
+              "Character": "SECURITY CHIEF",
+              "Line": "You have no right to interrupt my interrogation."
+            },
+            {
+              "Character": "WAR CHIEF",
+              "Line": "Your interrogation has been completely unsuccessful. I have methods of my own."
+            }
+          ]
+        },
+        {
+          "Scene": "War room",
+          "Dialogue": [
+            {
+              "Stage Direction": "All the technicians leave."
+            },
+            {
+              "Character": "WAR CHIEF",
+              "Line": "See I am not interrupted. You also, outside."
+            },
+            {
+              "Character": "WAR CHIEF",
+              "Line": "You may have changed your appearance, but I know who you are."
+            },
+            {
+              "Character": "DOCTOR",
+              "Line": "Oh, do you?"
+            },
+            {
+              "Character": "WAR CHIEF",
+              "Line": "Your machine is a Tardis. You're too familiar with its controls to be a stranger."
+            },
+            {
+              "Character": "DOCTOR",
+              "Line": "I had every right to leave."
+            },
+            {
+              "Character": "WAR CHIEF",
+              "Line": "Stealing a Tardis? Oh, I'm not criticising you. We are two of a kind."
+            },
+            {
+              "Character": "DOCTOR",
+              "Line": "We most certainly are not."
+            },
+            {
+              "Character": "WAR CHIEF",
+              "Line": "We were both Time Lords and we both decided to leave our race."
+            },
+            {
+              "Character": "DOCTOR",
+              "Line": "I had reasons of my own."
+            },
+            {
+              "Character": "WAR CHIEF",
+              "Line": "Just as I had."
+            },
+            {
+              "Character": "DOCTOR",
+              "Line": "Your reasons are only too obvious. Power!"
+            },
+            {
+              "Character": "WAR CHIEF",
+              "Line": "How much have you learnt of our plans?"
+            },
+            {
+              "Character": "DOCTOR",
+              "Line": "I know that you've been kidnapping soldiers from the Earth from various times in its history and bringing them here to kill one another."
+            },
+            {
+              "Character": "WAR CHIEF",
+              "Line": "But do you realise our ultimate objectives?"
+            },
+            {
+              "Character": "DOCTOR",
+              "Line": "No objective can justify such slaughter!"
+            },
+            {
+              "Character": "WAR CHIEF",
+              "Line": "The war games on this planet are simply the means to an end. The aliens intend to conquer the entire galaxy. A thousand inhabited worlds."
+            },
+            {
+              "Character": "DOCTOR",
+              "Line": "But why choose the people of the Earth?"
+            },
+            {
+              "Character": "WAR CHIEF",
+              "Line": "They are the most suitable recruits for our armies. Man is the most vicious species of all."
+            },
+            {
+              "Character": "DOCTOR",
+              "Line": "Well, that simply isn't true."
+            },
+            {
+              "Character": "WAR CHIEF",
+              "Line": "Consider their history. For a half a million years they have been systematically killing each other. Now we can turn this savagery to some purpose. We can bring peace to the galaxy, and you can help. You see, I'm not the cold-hearted villain you suppose me to be. My motives are purely peaceful. We have soldiers from the First World War, the war between Russia and Japan of 1905. Thirty Years' War."
+            },
+            {
+              "Character": "DOCTOR",
+              "Line": "But why make them kill each other?"
+            },
+            {
+              "Character": "WAR CHIEF",
+              "Line": "How else can we find the most disciplined and courageous fighters?"
+            },
+            {
+              "Character": "DOCTOR",
+              "Line": "You have given these aliens our science and our knowledge to carry out this disgusting plan."
+            },
+            {
+              "Character": "WAR CHIEF",
+              "Line": "We are going to bring a new order to the galaxy. One United Galactic Empire."
+            },
+            {
+              "Character": "DOCTOR",
+              "Line": "An empire of slaves, with you as one of its rulers."
+            },
+            {
+              "Character": "WAR CHIEF",
+              "Line": "Doctor, this is also a matter of your own survival. I intend to take over as Supreme Galactic Ruler. You can help me to rule, if you will cooperate."
+            }
+          ]
+        },
+        {
+          "Scene": "SIDRAT landing bay",
+          "Dialogue": [
+            {
+              "Stage Direction": "The Doctor materialises a SIDRAT."
+            },
+            {
+              "Character": "DOCTOR",
+              "Line": "Ah ha, Carstairs."
+            },
+            {
+              "Character": "CARSTAIRS",
+              "Line": "Doctor."
+            },
+            {
+              "Character": "DOCTOR",
+              "Line": "Zoe."
+            },
+            {
+              "Character": "ZOE",
+              "Line": "Oh, Doctor!"
+            },
+            {
+              "Character": "DOCTOR",
+              "Line": "Jamie."
+            },
+            {
+              "Character": "JAMIE",
+              "Line": "Are you all right?"
+            },
+            {
+              "Stage Direction": "Guards enter."
+            },
+            {
+              "Character": "DOCTOR",
+              "Line": "Yes, yes. Everything's under control now. Now, listen, everyone, just follow me. We're going to take over the War Room."
+            },
+            {
+              "Character": "DOCTOR",
+              "Line": "Stand still! Don't move! You are completely surrounded!"
+            },
+            {
+              "Character": "ZOE",
+              "Line": "Doctor!"
+            },
+            {
+              "Character": "WAR CHIEF",
+              "Line": "Thank you, Doctor. A nice, neat little package for us to dispose of."
+            },
+            {
+              "Character": "RUSSELL",
+              "Line": "I'm an idiot to have trusted you. I'll kill you for this."
+            },
+            {
+              "Character": "WAR CHIEF",
+              "Line": "Idle threats, Doctor, have no fear. Guards, disarm them and take them away."
+            },
+            {
+              "Character": "SECURITY CHIEF",
+              "Line": "Take him, too."
+            },
+            {
+              "Character": "WAR CHIEF",
+              "Line": "No. He is working for us."
+            },
+            {
+              "Character": "SECURITY CHIEF",
+              "Line": "What further use is he?"
+            },
+            {
+              "Character": "WAR CHIEF",
+              "Line": "He has proved his loyalty by helping us. And he has great knowledge of time-travel mechanics."
+            }
+          ]
+        },
+        {
+          "Scene": "War room",
+          "Dialogue": [
+            {
+              "Character": "WAR LORD",
+              "Line": "He seems to have done very well. We have the leaders of the resistance, and the immediate threat to the war games is over. But your sudden decision to join us worries me."
+            },
+            {
+              "Character": "DOCTOR",
+              "Line": "Well, I like to be on the winning side."
+            },
+            {
+              "Character": "WAR LORD",
+              "Line": "Previously you thought the resistance to be the winning side. What made you change your mind?"
+            },
+            {
+              "Character": "DOCTOR",
+              "Line": "Well, I hadn't realised how small and weak their groups were compared with your might and power."
+            },
+            {
+              "Character": "WAR LORD",
+              "Line": "You have a silver tongue, just like your friend the War Chief. What contribution can you make to our plan?"
+            },
+            {
+              "Character": "DOCTOR",
+              "Line": "Well, your processing machines. I can make them work more effectively."
+            },
+            {
+              "Character": "WAR LORD",
+              "Line": "Very well. You shall have the opportunity to prove your ability. You will adjust the machines and reprocess your resistance friends."
+            },
+            {
+              "Character": "DOCTOR",
+              "Line": "They are no longer my friends. They are our enemies."
+            },
+            {
+              "Character": "WAR LORD",
+              "Line": "Of course they are. Take him to the processing room. See he has every facility."
+            }
+          ]
+        },
+        {
+          "Scene": "Processing room",
+          "Dialogue": [
+            {
+              "Stage Direction": "Jamie is in the brainwashing machine."
+            },
+            {
+              "Character": "WAR CHIEF",
+              "Line": "Are you sure this new process will be completely effective?"
+            },
+            {
+              "Character": "DOCTOR",
+              "Line": "Oh yes, quite sure. I think that will do. There we are. Now then, when this young man comes to, he will believe himself to be fighting the English Redcoats in 1745. Now get up!"
+            },
+            {
+              "Character": "JAMIE",
+              "Line": "Eh? Oh."
+            },
+            {
+              "Character": "DOCTOR",
+              "Line": "What is your name?"
+            },
+            {
+              "Character": "JAMIE",
+              "Line": "Eh?"
+            },
+            {
+              "Character": "DOCTOR",
+              "Line": "Your name."
+            },
+            {
+              "Character": "JAMIE",
+              "Line": "Ah, James Robert McCrimmon."
+            },
+            {
+              "Character": "DOCTOR",
+              "Line": "Do you know where you are?"
+            },
+            {
+              "Character": "JAMIE",
+              "Line": "Er well, I..."
+            },
+            {
+              "Character": "DOCTOR",
+              "Line": "You are in my castle. I am the McCrimmon of McCrimmon, your hereditary Chieftain."
+            },
+            {
+              "Character": "JAMIE",
+              "Line": "Yes, of course. You're the Chieftain. Who's that?"
+            },
+            {
+              "Character": "DOCTOR",
+              "Line": "Well, that is a friendly chieftain. You will obey his orders as you will mine."
+            },
+            {
+              "Character": "JAMIE",
+              "Line": "Oh aye, I'll obey you."
+            },
+            {
+              "Character": "DOCTOR",
+              "Line": "There you are, you see? Complete loyalty and devotion. I can do the same with all the other resistance people that you capture."
+            },
+            {
+              "Stage Direction": "The War Chief leaves."
+            },
+            {
+              "Character": "WAR CHIEF",
+              "Line": "Excellent. Continue with the others. If you can successfully process characters like these, you will have made an immense contribution."
+            },
+            {
+              "Character": "DOCTOR",
+              "Line": "Thank you. Bring the girl!"
+            },
+            {
+              "Stage Direction": "The guards bring Zoe, and Jamie helps sit her down."
+            },
+            {
+              "Character": "ZOE",
+              "Line": "Oh, leave me alone. Don't!"
+            },
+            {
+              "Character": "JAMIE",
+              "Line": "Look, do as you're told."
+            },
+            {
+              "Character": "DOCTOR",
+              "Line": "You will obey us. It is for your own good. (wink)"
+            }
+          ]
+        },
+        {
+          "Scene": "War room",
+          "Dialogue": [
+            {
+              "Character": "SECURITY CHIEF",
+              "Line": "Play back the recordings."
+            },
+            {
+              "Character": "SECURITY CHIEF",
+              "Line": "Wind further on."
+            },
+            {
+              "Character": "SECURITY CHIEF",
+              "Line": "Now! Try there."
+            }
+          ]
+        },
+        {
+          "Scene": "Processing room",
+          "Dialogue": [
+            {
+              "Stage Direction": "Antonio Villar has been processed."
+            },
+            {
+              "Character": "DOCTOR",
+              "Line": "There we are. Now then, sit up, sit up! Now then, you are in la Castille de la Cruz de San Antonio de la Frada Forma, in Mexico."
+            },
+            {
+              "Stage Direction": "Villar starts throttling the Doctor."
+            },
+            {
+              "Character": "VILLAR",
+              "Line": "Eh? Are you crazy? You machine is no good! Villar is too strong for you!"
+            },
+            {
+              "Stage Direction": "Carstairs and the others tackle the guards who come to his aid, then Jamie gets Villar off the Doctor."
+            },
+            {
+              "Character": "DOCTOR",
+              "Line": "Stop! Get him off me!"
+            },
+            {
+              "Character": "JAMIE",
+              "Line": "Can you not pretend like the rest of us, you great loon?"
+            },
+            {
+              "Character": "VILLAR",
+              "Line": "It's all a trick?"
+            },
+            {
+              "Character": "JAMIE",
+              "Line": "Aye."
+            },
+            {
+              "Character": "VILLAR",
+              "Line": "You fixed the machine so she don't work?"
+            },
+            {
+              "Character": "DOCTOR",
+              "Line": "Yes. I fixed her, and you nearly fixed me."
+            },
+            {
+              "Character": "VILLAR",
+              "Line": "And you only pretend to be loco?"
+            },
+            {
+              "Character": "JAMIE",
+              "Line": "Exactly!"
+            },
+            {
+              "Character": "RUSSELL",
+              "Line": "But Doctor, why did you get us here at all?"
+            },
+            {
+              "Character": "DOCTOR",
+              "Line": "You were better alive here than dead out there."
+            },
+            {
+              "Character": "CARSTAIRS",
+              "Line": "Zoe, watch the door, will you?"
+            },
+            {
+              "Character": "ZOE",
+              "Line": "Right."
+            },
+            {
+              "Character": "CARSTAIRS",
+              "Line": "Doctor, now we're here, surely we can take over?"
+            },
+            {
+              "Character": "RUSSELL",
+              "Line": "It depends upon how many of those guards they've got."
+            }
+          ]
+        },
+        {
+          "Scene": "War room",
+          "Dialogue": [
+            {
+              "Stage Direction": "The War Chief enters."
+            },
+            {
+              "Character": "SECURITY CHIEF",
+              "Line": "You are no longer in command."
+            },
+            {
+              "Stage Direction": "Guards grab the War Chief."
+            },
+            {
+              "Character": "SECURITY CHIEF",
+              "Line": "I had all discussion that took place between you and the Doctor recorded."
+            },
+            {
+              "Character": "SECURITY CHIEF",
+              "Line": "Take him to the security bay. Collect his accomplice, the Doctor, on the way. If they offer any resistance, shoot them both."
+            }
+          ]
+        },
+        {
+          "Scene": "Processing room",
+          "Dialogue": [
+            {
+              "Stage Direction": "The War Chief is marched in under guard. The fighters take out the guards."
+            },
+            {
+              "Character": "ZOE",
+              "Line": "Doctor, somebody's coming. Three of them are heading this way."
+            },
+            {
+              "Character": "DOCTOR",
+              "Line": "Don't harm him. We may need him."
+            },
+            {
+              "Character": "WAR CHIEF",
+              "Line": "It seems my trust in you was a little misplaced."
+            },
+            {
+              "Character": "DOCTOR",
+              "Line": "Did you really think I'd take part in your disgusting scheme?"
+            },
+            {
+              "Character": "WAR CHIEF",
+              "Line": "Why not? You must have been a little tempted by the thought of being the ruler of an entire galaxy."
+            },
+            {
+              "Character": "VILLAR",
+              "Line": "All this talk! When we fight?"
+            },
+            {
+              "Character": "DOCTOR",
+              "Line": "The War Chief is going to cooperate. He's going to help us gain control of the War Room."
+            }
+          ]
+        },
+        {
+          "Scene": "War room",
+          "Dialogue": [
+            {
+              "Stage Direction": "The resistance rushes in."
+            },
+            {
+              "Character": "SECURITY CHIEF",
+              "Line": "This is the Security Chief. All security guards will now proceed to the nearest control point. There are..."
+            },
+            {
+              "Stage Direction": "Two more guards enter, and Villar shoots them. The technician hits the alarm then gets shot. The Security Chief tries to sneak to a weapons rack, and the War Chief takes him down with one of the sonic weapons. Jamie and Carstairs point their guns at him."
+            },
+            {
+              "Character": "SECURITY CHIEF",
+              "Line": "Guards! Sound the alarm!"
+            },
+            {
+              "Stage Direction": "The War Chief hands over the weapon."
+            },
+            {
+              "Character": "WAR CHIEF",
+              "Line": "It's all right. It was a personal debt I had to settle."
+            },
+            {
+              "Stage Direction": "Russell finally finds the right button."
+            },
+            {
+              "Character": "DOCTOR",
+              "Line": "Will somebody please turn off that hideous noise? I cannot think!"
+            },
+            {
+              "Character": "ZOE",
+              "Line": "There's one thing I don't understand, Doctor. How are you going to get all these people back to their own time?"
+            },
+            {
+              "Character": "DOCTOR",
+              "Line": "Yes, I've been thinking about that."
+            },
+            {
+              "Character": "WAR CHIEF",
+              "Line": "You realise that we have very little time now the alarm has been sounded?"
+            },
+            {
+              "Character": "DOCTOR",
+              "Line": "Yes. Call off the fighting at once!"
+            },
+            {
+              "Character": "WAR CHIEF",
+              "Line": "We could just go to the landing bay, order a machine and leave."
+            },
+            {
+              "Character": "DOCTOR",
+              "Line": "You could, we can't. The fighting has to be stopped and everyone sent back to their own times."
+            },
+            {
+              "Character": "WAR CHIEF",
+              "Line": "Sent back? How?"
+            },
+            {
+              "Character": "DOCTOR",
+              "Line": "By your Tardis travel machines, of course."
+            },
+            {
+              "Character": "WAR CHIEF",
+              "Line": "I'm afraid that will not be possible. There are only two machines left with enough life in them."
+            },
+            {
+              "Character": "DOCTOR",
+              "Line": "What?"
+            },
+            {
+              "Character": "RUSSELL",
+              "Line": "Doctor, does that mean that you can't do as you promised and get us all home?"
+            },
+            {
+              "Character": "WAR CHIEF",
+              "Line": "You can't, unless... Doctor, you mustn't call them in or it will be the end of us. They'll show no mercy."
+            },
+            {
+              "Character": "DOCTOR",
+              "Line": "You stop the fighting!"
+            },
+            {
+              "Character": "RUSSELL",
+              "Line": "Do as you're told!"
+            },
+            {
+              "Character": "WAR CHIEF",
+              "Line": "This is the War Chief to all War Zones. This is a command direct from the War Lord. All fighting will cease."
+            },
+            {
+              "Character": "ZOE",
+              "Line": "What did he mean, Doctor? Who mustn't you call?"
+            },
+            {
+              "Character": "DOCTOR",
+              "Line": "The only people who can put an end to this whole ghastly business and send everyone back to their own times. The Time Lords."
+            },
+            {
+              "Character": "JAMIE",
+              "Line": "Who are they?"
+            },
+            {
+              "Character": "DOCTOR",
+              "Line": "They're my own people, Jamie."
+            },
+            {
+              "Character": "JAMIE",
+              "Line": "Oh, well, that's all right, then."
+            },
+            {
+              "Character": "ZOE",
+              "Line": "But it isn't all right, is it, Doctor?"
+            },
+            {
+              "Stage Direction": "The Doctor sits on the floor and puts six plastic squares in a circle in front of him. Then he closes his eyes and concentrates."
+            },
+            {
+              "Character": "DOCTOR",
+              "Line": "No, it's not, Zoe. But I'm afraid that there's no alternative."
+            },
+            {
+              "Character": "JAMIE",
+              "Line": "What's he doing?"
+            },
+            {
+              "Stage Direction": "The squares form themselves into a cube."
+            },
+            {
+              "Character": "WAR CHIEF",
+              "Line": "Don't do it, Doctor. You can't! You know what will happen!"
+            },
+            {
+              "Character": "ZOE",
+              "Line": "Doctor, are you all right?"
+            },
+            {
+              "Character": "DOCTOR",
+              "Line": "Yes, Zoe, I'm all right."
+            },
+            {
+              "Character": "JAMIE",
+              "Line": "Doctor, what's that?"
+            },
+            {
+              "Character": "DOCTOR",
+              "Line": "It's a box, Jamie."
+            },
+            {
+              "Character": "JAMIE",
+              "Line": "I know. I can see that."
+            },
+            {
+              "Character": "DOCTOR",
+              "Line": "It's a very special sort of box. It now contains all the information about what's been going on here, and an appeal for help."
+            },
+            {
+              "Character": "JAMIE",
+              "Line": "Help? Who from?"
+            },
+            {
+              "Character": "ZOE",
+              "Line": "The Time Lords?"
+            },
+            {
+              "Character": "DOCTOR",
+              "Line": "Yes, Zoe."
+            },
+            {
+              "Character": "JAMIE",
+              "Line": "Well, why haven't you asked them for help before?"
+            },
+            {
+              "Stage Direction": "The Doctor puts the cube in his pocket."
+            },
+            {
+              "Character": "DOCTOR",
+              "Line": "I've never really needed it before, Jamie, but this business of sending everyone back to their own times is, well, it's too difficult for me."
+            },
+            {
+              "Character": "DOCTOR",
+              "Line": "Now, come along. The War Chief!"
+            },
+            {
+              "Character": "CARSTAIRS",
+              "Line": "What?"
+            },
+            {
+              "Character": "DOCTOR",
+              "Line": "He's gone! He must be trying to get away before the Time Lords get here."
+            },
+            {
+              "Character": "RUSSELL",
+              "Line": "What are we going to do, Doctor?"
+            },
+            {
+              "Character": "DOCTOR",
+              "Line": "We must go to the landing bay and stop him!"
+            }
+          ]
+        },
+        {
+          "Scene": "SIDRAT landing bay",
+          "Dialogue": [
+            {
+              "Stage Direction": "The War Chief runs in and summons a SIDRAT. But before he can get inside he is stopped by guards."
+            },
+            {
+              "Character": "WAR CHIEF",
+              "Line": "I thought..."
+            },
+            {
+              "Character": "WAR LORD",
+              "Line": "Yes?"
+            },
+            {
+              "Character": "WAR CHIEF",
+              "Line": "You've arrived just in time. There's been a revolt. The prisoners have escaped. How many guards do you have?"
+            },
+            {
+              "Character": "WAR LORD",
+              "Line": "Only the ones you see here."
+            },
+            {
+              "Character": "WAR CHIEF",
+              "Line": "Then we must return to the home planet to bring reinforcements."
+            },
+            {
+              "Character": "WAR LORD",
+              "Line": "Where is the Security Chief?"
+            },
+            {
+              "Character": "WAR CHIEF",
+              "Line": "The prisoners have taken over the War Room. They've killed him."
+            },
+            {
+              "Character": "WAR LORD",
+              "Line": "No, no, you killed him, but a little too late. I heard the recording."
+            },
+            {
+              "Stage Direction": "The War Chief runs for the exit but guards block him."
+            },
+            {
+              "Character": "WAR CHIEF",
+              "Line": "He wanted to stop the War Games. He was a incompetent fool, jealous of my position. Surely you realise that? He forged that recording you heard."
+            },
+            {
+              "Character": "WAR CHIEF",
+              "Line": "He wanted to stop the war games!"
+            },
+            {
+              "Character": "WAR LORD",
+              "Line": "Kill him!"
+            }
+          ]
+        },
+        {
+          "Scene": "Central area",
+          "Dialogue": [
+            {
+              "Stage Direction": "The War Chief's screams can be heard."
+            },
+            {
+              "Character": "CARSTAIRS",
+              "Line": "Doctor! Doctor, that came from the landing bay!"
+            },
+            {
+              "Character": "DOCTOR",
+              "Line": "Yes, but they won't be expecting us. Come on."
+            }
+          ]
+        },
+        {
+          "Scene": "SIDRAT landing bay",
+          "Dialogue": [
+            {
+              "Stage Direction": "The guards take the War Chief's body to one side while the War Lord adjusts the SIDRAT control panel."
+            },
+            {
+              "Character": "WAR LORD",
+              "Line": "Remove the traitor's carcass. We will return to the home planet and bring back an army to quell this revolt once and for all."
+            },
+            {
+              "Stage Direction": "Villar starts shooting, and the other fighters join in from the other side of the bay. Jamie goes hand to hand with a remaining guard. Carstairs deals with the other surviving guard as Russell helps Jamie. Villar goes to the War Lord."
+            },
+            {
+              "Character": "VILLAR",
+              "Line": "Viva el Villar!"
+            },
+            {
+              "Character": "VILLAR",
+              "Line": "I kill him too!"
+            },
+            {
+              "Character": "DOCTOR",
+              "Line": "No, no, that won't be necessary. We'll leave him for the Time Lords to dispose of."
+            },
+            {
+              "Character": "RUSSELL",
+              "Line": "When will they be here, Doctor?"
+            },
+            {
+              "Character": "DOCTOR",
+              "Line": "I'm going to send for them now. And I want you all to stay here and wait until they come."
+            },
+            {
+              "Character": "RUSSELL",
+              "Line": "But what are you going to do?"
+            },
+            {
+              "Character": "DOCTOR",
+              "Line": "I cannot stay here. Jamie, Zoe, this is where we say goodbye."
+            },
+            {
+              "Character": "JAMIE",
+              "Line": "What are you talking about?"
+            },
+            {
+              "Character": "DOCTOR",
+              "Line": "Well, the Time Lords will return you home."
+            },
+            {
+              "Character": "ZOE",
+              "Line": "Well, why can't we stay with you?"
+            },
+            {
+              "Character": "DOCTOR",
+              "Line": "Because when I send this box to them, they'll know where I am."
+            },
+            {
+              "Character": "JAMIE",
+              "Line": "But I thought they were your people, your friends?"
+            },
+            {
+              "Character": "DOCTOR",
+              "Line": "Yes, Jamie, they are my people, but... Oh, it'd take too long to explain. I have to go!"
+            },
+            {
+              "Character": "JAMIE",
+              "Line": "Now look, if you're going to be in trouble, you'll need me to look after you."
+            },
+            {
+              "Character": "ZOE",
+              "Line": "Me, too."
+            },
+            {
+              "Character": "JAMIE",
+              "Line": "Aye."
+            },
+            {
+              "Character": "DOCTOR",
+              "Line": "But you don't understand! Oh, very well, but don't say I didn't warn you. Right then, we must return to the 1917 Zone and find the Tardis, and make good our escape."
+            },
+            {
+              "Character": "CARSTAIRS",
+              "Line": "Doctor, can I come back there with you? I'd rather like to try and find Lady Jennifer."
+            },
+            {
+              "Stage Direction": "The Doctor gets a SIDRAT ready, then sits on the floor and concentrates. The box vanishes."
+            },
+            {
+              "Character": "DOCTOR",
+              "Line": "Yes, very well."
+            },
+            {
+              "Character": "DOCTOR",
+              "Line": "Well, goodbye, gentlemen. I'm sorry, but we must rush."
+            },
+            {
+              "Character": "VILLAR",
+              "Line": "You leave us?"
+            },
+            {
+              "Character": "RUSSELL",
+              "Line": "Yes, what about us?"
+            },
+            {
+              "Character": "DOCTOR",
+              "Line": "The Time Lords will return you home. Now come along."
+            },
+            {
+              "Character": "VILLAR",
+              "Line": "You move and I kill you!"
+            },
+            {
+              "Character": "DOCTOR",
+              "Line": "Then you will just have to kill me, Mister Villar."
+            },
+            {
+              "Stage Direction": "The Doctor goes into the SIDRAT after Jamie and Zoe. Carstairs and Russell grab Villar to stop him shooting the Doctor, then Carstairs enters the SIDRAT."
+            },
+            {
+              "Character": "VILLAR",
+              "Line": "Well Mister Doctor, that is just what I will do!"
+            },
+            {
+              "Character": "VILLAR",
+              "Line": "Let me go, I kill him!"
+            },
+            {
+              "Character": "RUSSELL",
+              "Line": "You can't shoot him in the back, he's done too much for us."
+            },
+            {
+              "Character": "VILLAR",
+              "Line": "Ah, the back, the front, what's the difference?"
+            },
+            {
+              "Stage Direction": "The SIDRAT dematerialises."
+            },
+            {
+              "Character": "RUSSELL",
+              "Line": "It's too late now, anyway."
+            },
+            {
+              "Stage Direction": "A strange sound fills the room."
+            },
+            {
+              "Character": "WAR LORD",
+              "Line": "Don't worry. When the Time Lords get him, he'll wish you had killed him."
+            },
+            {
+              "Character": "WAR LORD",
+              "Line": "They're coming."
+            }
+          ]
+        },
+        {
+          "Scene": "No Man's Land",
+          "Dialogue": [
+            {
+              "Character": "CARSTAIRS",
+              "Line": "Fighting's stopped."
+            },
+            {
+              "Character": "DOCTOR",
+              "Line": "Yes. Well, goodbye, Lieutenant."
+            },
+            {
+              "Character": "JAMIE",
+              "Line": "Eh?"
+            },
+            {
+              "Character": "DOCTOR",
+              "Line": "There's the Tardis. We've got to get on."
+            },
+            {
+              "Character": "CARSTAIRS",
+              "Line": "Goodbye, Doctor."
+            },
+            {
+              "Character": "ZOE",
+              "Line": "Oh, Doctor, wait! Goodbye!"
+            },
+            {
+              "Character": "JAMIE",
+              "Line": "Bye, Lieutenant."
+            },
+            {
+              "Stage Direction": "The Doctor, Zoe and Jamie rush away, and Carstairs waves then vanishes."
+            },
+            {
+              "Character": "CARSTAIRS",
+              "Line": "Bye."
+            },
+            {
+              "Character": "JAMIE",
+              "Line": "Hey, he's..."
+            },
+            {
+              "Stage Direction": "The strange sound is here too. Their movements get slower and slower as they run towards the Tardis."
+            },
+            {
+              "Character": "DOCTOR",
+              "Line": "Come on!"
+            },
+            {
+              "Character": "DOCTOR",
+              "Line": "Come on!"
+            },
+            {
+              "Character": "ZOE",
+              "Line": "What is it?"
+            },
+            {
+              "Stage Direction": "They are on hands and knees by the time they get to the Tardis."
+            },
+            {
+              "Character": "DOCTOR",
+              "Line": "Time Lords! Try harder! We must get away!"
+            },
+            {
+              "Character": "ZOE",
+              "Line": "What's happening, Doctor? I can hardly move."
+            },
+            {
+              "Stage Direction": "Jamie holds the Doctor's arm up to turn the key and open the Tardis door."
+            },
+            {
+              "Character": "DOCTOR",
+              "Line": "It's a forcefield. Concentrate. We may be able to break through it."
+            }
+          ]
+        },
+        {
+          "Scene": "Tardis",
+          "Dialogue": [
+            {
+              "Stage Direction": "They crawl inside."
+            },
+            {
+              "Stage Direction": "The Doctor reaches the door controls."
+            },
+            {
+              "Character": "JAMIE",
+              "Line": "Will we get away all right, Doctor?"
+            },
+            {
+              "Stage Direction": "The Tardis dematerialises and they can move at normal speed again."
+            },
+            {
+              "Character": "DOCTOR",
+              "Line": "If I can boost the power enough, the Tardis may be able to break through the forcefield."
+            },
+            {
+              "Character": "JAMIE",
+              "Line": "Well, what was happening? Why was it so difficult to move?"
+            },
+            {
+              "Character": "DOCTOR",
+              "Line": "It was the Time Lords."
+            },
+            {
+              "Character": "ZOE",
+              "Line": "But they're your own people, aren't they, Doctor?"
+            },
+            {
+              "Character": "DOCTOR",
+              "Line": "Yes, that's right."
+            },
+            {
+              "Character": "JAMIE",
+              "Line": "Why did you run away from them in the first place?"
+            },
+            {
+              "Character": "DOCTOR",
+              "Line": "What? Well, I was bored."
+            },
+            {
+              "Character": "ZOE",
+              "Line": "What do you mean, you were bored?"
+            },
+            {
+              "Character": "DOCTOR",
+              "Line": "Well, the Time Lords are an immensely civilised race. We can control our own environment, we can live forever, barring accidents, and we have the secret of space-time travel."
+            },
+            {
+              "Character": "JAMIE",
+              "Line": "Well what's so wrong in all that?"
+            },
+            {
+              "Character": "DOCTOR",
+              "Line": "Well we hardly ever use our great powers. We consent simply to observe and to gather knowledge."
+            },
+            {
+              "Character": "ZOE",
+              "Line": "And that wasn't enough for you?"
+            },
+            {
+              "Character": "DOCTOR",
+              "Line": "No, of course not. With a whole galaxy to explore? Millions of planets, aeons of time, countless civilisations to meet?"
+            },
+            {
+              "Character": "JAMIE",
+              "Line": "Well, why do they object to you doing all that?"
+            },
+            {
+              "Character": "DOCTOR",
+              "Line": "Well, it is a fact, Jamie, that I do tend to get involved with things."
+            },
+            {
+              "Character": "JAMIE",
+              "Line": "Aye, you can say that again. Whenever there's any trouble, he's in it right up to his neck."
+            },
+            {
+              "Character": "ZOE",
+              "Line": "But you've helped people, Doctor."
+            },
+            {
+              "Character": "DOCTOR",
+              "Line": "Yes. Yes, but that's no excuse in their eyes."
+            },
+            {
+              "Character": "JAMIE",
+              "Line": "Well, then what are you going to do?"
+            },
+            {
+              "Character": "DOCTOR",
+              "Line": "We're going to run away. I've set the controls to take us to a planet on the outermost fringes of the galaxy."
+            },
+            {
+              "Stage Direction": "The Tardis dematerialises."
+            },
+            {
+              "Character": "JAMIE",
+              "Line": "Oh, in that case, we'll probably land up right in their laps."
+            },
+            {
+              "Stage Direction": "A gentle, reasonable voice fills the Tardis."
+            },
+            {
+              "Character": "DOCTOR",
+              "Line": "We'll just stop here for a while. There's a chance we may have given them the slip."
+            },
+            {
+              "Character": "DOCTOR",
+              "Line": "Why can't you leave me alone? I haven't done any harm."
+            },
+            {
+              "Character": "DOCTOR",
+              "Line": "Oh, very well, if I must."
+            },
+            {
+              "Stage Direction": "Running round the console flicking all the switches."
+            },
+            {
+              "Character": "ZOE",
+              "Line": "What on Earth are you doing?"
+            },
+            {
+              "Character": "DOCTOR",
+              "Line": "I'm trying to make a quick transference jump. We've got to get away from here to somewhere safe. Ah..."
+            },
+            {
+              "Character": "ZOE",
+              "Line": "Oh! It's shaking itself to pieces!"
+            },
+            {
+              "Character": "JAMIE",
+              "Line": "We could all be killed."
+            },
+            {
+              "Character": "ZOE",
+              "Line": "Doctor, can't you induce a power drive?"
+            },
+            {
+              "Stage Direction": "Everything settles down again."
+            },
+            {
+              "Character": "DOCTOR",
+              "Line": "I'll try! Oh, the controls... Well, they're moving by themselves! Oh!"
+            },
+            {
+              "Character": "JAMIE",
+              "Line": "Now where are we?"
+            },
+            {
+              "Character": "DOCTOR",
+              "Line": "It's my own planet. They have brought us here."
+            },
+            {
+              "Character": "JAMIE",
+              "Line": "Can't we get away again?"
+            },
+            {
+              "Character": "DOCTOR",
+              "Line": "No, not this time. Come along."
+            }
+          ]
+        },
+        {
+          "Scene": "SIDRAT bay",
+          "Dialogue": [
+            {
+              "Stage Direction": "A man in a long robe is waiting for them."
+            },
+            {
+              "Character": "TIME LORD 2",
+              "Line": "Come with me."
+            },
+            {
+              "Character": "JAMIE",
+              "Line": "Now, just a moment. What's going on around here?"
+            },
+            {
+              "Character": "DOCTOR",
+              "Line": "Jamie, do as he says."
+            }
+          ]
+        },
+        {
+          "Scene": "Trial chamber",
+          "Dialogue": [
+            {
+              "Stage Direction": "They are led in. The War Lord is already there. The Time Lord joins two others."
+            },
+            {
+              "Character": "TIME LORD 2",
+              "Line": "The witnesses have arrived."
+            },
+            {
+              "Character": "TIME LORD",
+              "Line": "Let them stand aside until they are needed. Continue with the trial."
+            },
+            {
+              "Stage Direction": "Over the above statement, the Doctor is explaining."
+            },
+            {
+              "Character": "TIME LORD 3",
+              "Line": "In every one of these Time Zones, thousands of human beings fought and died in the belief that they were on their own planet. The survivors have now all been returned to their own times on the planet Earth, but the death roll is beyond counting. These lives were squandered in the course of a vicious and diabolical scheme to gain control of the entire galaxy. A scheme originated and devised by a race of which the accused is the leader. It was a was a highly organised scheme with an utterly callous disregard for the lives of the humans involved and for the liberties of all the other species in the galaxy which the accused would have dominated with his tyranny. Brutal methods of mental processing were used which entirely contravened all the galactic laws. I will now call upon a member of our own race to sort this evil matter out. There will commence a reading of the witness' report. The witness is called. Will you step forward, please?"
+            },
+            {
+              "Character": "DOCTOR",
+              "Line": "The Time Lords holding a trial is a very rare event."
+            },
+            {
+              "Character": "ZOE",
+              "Line": "Why?"
+            },
+            {
+              "Character": "DOCTOR",
+              "Line": "Well, normally they don't interfere with the affairs of other planets, but they had to when I called for help."
+            },
+            {
+              "Character": "JAMIE",
+              "Line": "Well, look, can't we get away?"
+            },
+            {
+              "Character": "DOCTOR",
+              "Line": "Well, you and Zoe may, but I don't think I will."
+            },
+            {
+              "Character": "TIME LORD 3",
+              "Line": "Will you step forward, please?"
+            },
+            {
+              "Character": "DOCTOR",
+              "Line": "Oh. Oh, I beg your pardon."
+            },
+            {
+              "Character": "TIME LORD 3",
+              "Line": "We have received your statement. Do you swear to the truth of your report?"
+            },
+            {
+              "Character": "DOCTOR",
+              "Line": "Everything in that report is the result of my direct personal observation."
+            },
+            {
+              "Stage Direction": "The Time Lord widens his eyes and suddenly the War Lord falls to his knees screaming and clutching his head."
+            },
+            {
+              "Character": "TIME LORD 3",
+              "Line": "Does the accused have anything to say? Do not make us force you to speak. We would not cause you unnecessary pain. Very well."
+            },
+            {
+              "Character": "WAR LORD",
+              "Line": "Argh! Argh! Stop it! Stop the light!"
+            },
+            {
+              "Character": "TIME LORD 3",
+              "Line": "You must speak. Do you admit the charges with which you have been accused?"
+            },
+            {
+              "Character": "WAR LORD",
+              "Line": "I do not even admit the authority of this court."
+            },
+            {
+              "Character": "TIME LORD",
+              "Line": "Have you anything to say in your defence?"
+            },
+            {
+              "Character": "WAR LORD",
+              "Line": "The humans who died in our war games would have killed each other anyway. And members of your own race agreed with me. My War Chief was himself a Time Lord, and the knowledge he brought me made the whole scheme possible. And another of your Time Lords gave me his support."
+            },
+            {
+              "Character": "DOCTOR",
+              "Line": "I never supported your scheme for one moment!"
+            },
+            {
+              "Character": "WAR LORD",
+              "Line": "You collaborated with my War Chief. If I am guilty, then you are guilty, too. TIME LORD 3: Your attempt to incriminate others is an obvious fraud."
+            },
+            {
+              "Character": "DOCTOR",
+              "Line": "Oh, good. I'm glad to see your sense of justice still prevails. (sotto) Even though they've lost their sense of humour."
+            },
+            {
+              "Character": "TIME LORD 3",
+              "Line": "We find you guilty of all the charges against you. A forcefield has been placed around you and around your planet, so that your warlike people will remain prisoners forever. You have been found guilty of all charges, and you and your murderous associates will be dematerialised. It will be as though you had never existed."
+            },
+            {
+              "Character": "WAR LORD",
+              "Line": "No... No... No. No. No!"
+            },
+            {
+              "Stage Direction": "A forcefield stops them."
+            },
+            {
+              "Character": "JAMIE",
+              "Line": "Well, that's put an end to them. Well, we'll be on our way. Come on, Doctor. Cheerio. Oh!"
+            },
+            {
+              "Character": "JAMIE",
+              "Line": "Switch this thing off."
+            },
+            {
+              "Character": "DOCTOR",
+              "Line": "Jamie, they are not going to let us go."
+            },
+            {
+              "Character": "JAMIE",
+              "Line": "What? After all you've done for them?"
+            },
+            {
+              "Character": "ZOE",
+              "Line": "What are you going to do to him?"
+            },
+            {
+              "Character": "TIME LORD 3",
+              "Line": "He must stand his trial."
+            }
+          ]
+        },
+        {
+          "Scene": "SIDRAT bay",
+          "Dialogue": [
+            {
+              "Character": "TIME LORD 3",
+              "Line": "It's time to say goodbye to your friends."
+            },
+            {
+              "Character": "ZOE",
+              "Line": "There must be something we can do."
+            },
+            {
+              "Character": "DOCTOR",
+              "Line": "No, Zoe. Not this time. Well... goodbye, Jamie."
+            },
+            {
+              "Character": "JAMIE",
+              "Line": "But, Doctor, surely we can..."
+            },
+            {
+              "Character": "DOCTOR",
+              "Line": "Goodbye, Jamie."
+            },
+            {
+              "Character": "JAMIE",
+              "Line": "I won't forget you, you know?"
+            },
+            {
+              "Character": "DOCTOR",
+              "Line": "I won't forget you. Don't go blundering into too much trouble, will you?"
+            },
+            {
+              "Character": "JAMIE",
+              "Line": "Oh, you're a fine one to talk."
+            },
+            {
+              "Character": "DOCTOR",
+              "Line": "Goodbye, Zoe."
+            },
+            {
+              "Character": "ZOE",
+              "Line": "Goodbye, Doctor. Will we ever meet again?"
+            },
+            {
+              "Stage Direction": "Jamie and Zoe are led to a SIDRAT. They wave and go inside. It dematerialises."
+            },
+            {
+              "Character": "DOCTOR",
+              "Line": "Again? Now Zoe, you and I know time is relative, isn't it?"
+            },
+            {
+              "Character": "DOCTOR",
+              "Line": "They'll forget me, won't they?"
+            },
+            {
+              "Stage Direction": "The Doctor watches on the trial chamber viewscreen as a confused Zoe walks down a corridor in..."
+            },
+            {
+              "Character": "TIME LORD 3",
+              "Line": "Not entirely. They will be returned to a time just before they went away with you. They will remember their first adventure with you, but nothing more."
+            }
+          ]
+        },
+        {
+          "Scene": "The Wheel in Space",
+          "Dialogue": [
+            {
+              "Character": "TANYA",
+              "Line": "Oh, Zoe. Zoe, are you all right?"
+            },
+            {
+              "Character": "ZOE",
+              "Line": "Oh, yes."
+            },
+            {
+              "Character": "TANYA",
+              "Line": "Are the Doctor and Jamie gone?"
+            },
+            {
+              "Character": "ZOE",
+              "Line": "Yes, I've just seen them off."
+            },
+            {
+              "Character": "TANYA",
+              "Line": "Well, we'd better get back to work, you know. There's a lot to be done if we're going to get the Wheel back to normal. Are you sure you're all right?"
+            },
+            {
+              "Character": "ZOE",
+              "Line": "Oh, yes. I thought I'd forgotten something important, but it's nothing."
+            },
+            {
+              "Character": "TANYA",
+              "Line": "Right, come along then."
+            },
+            {
+              "Character": "ZOE",
+              "Line": "All right, I'm coming."
+            }
+          ]
+        },
+        {
+          "Scene": "Trial chamber",
+          "Dialogue": [
+            {
+              "Character": "DOCTOR",
+              "Line": "She'll be all right, won't she?"
+            },
+            {
+              "Character": "TIME LORD",
+              "Line": "Of course."
+            },
+            {
+              "Character": "DOCTOR",
+              "Line": "What about Jamie?"
+            },
+            {
+              "Character": "TIME LORD",
+              "Line": "Look."
+            }
+          ]
+        },
+        {
+          "Scene": "Culloden Moor",
+          "Dialogue": [
+            {
+              "Stage Direction": "Pipes are skirling as a Redcoat aims his musket at Jamie's back. He turns and drops just as the soldier fires."
+            },
+            {
+              "Stage Direction": "Jamie charges the Redcoat, swinging his sword while the man tries to reload. The soldier wisely gives up and flees."
+            },
+            {
+              "Character": "JAMIE",
+              "Line": "Try to murder a McCrimmon, would you? Well, I'll show you! Creag an Tuire!"
+            }
+          ]
+        },
+        {
+          "Scene": "Trial chamber",
+          "Dialogue": [
+            {
+              "Character": "TIME LORD",
+              "Line": "They will both continue their lives as if nothing had happened."
+            },
+            {
+              "Character": "DOCTOR",
+              "Line": "What about me?"
+            },
+            {
+              "Character": "TIME LORD",
+              "Line": "You have heard the charge against you, that you have repeatedly broken our most important law of non-interference in the affairs of other planets. What have you to say? Do you admit these actions?"
+            },
+            {
+              "Character": "DOCTOR",
+              "Line": "I not only admit them, I am proud of them. While you have been content merely to observe the evil in the galaxy, I have been fighting against it."
+            },
+            {
+              "Character": "TIME LORD 2",
+              "Line": "It is not we who are on trial here, Doctor. It is you."
+            },
+            {
+              "Character": "DOCTOR",
+              "Line": "No, no, of course you're above criticism, aren't you?"
+            },
+            {
+              "Character": "TIME LORD",
+              "Line": "Do you admit that these actions were justified?"
+            },
+            {
+              "Character": "DOCTOR",
+              "Line": "Yes, of course I do! Give me a thought channel and I'll show you some of the evils I've been fighting against. The Quarks. Deadly robot servants of the cruel Dominators. They tried to enslave a peace-loving race. Then there were the Yeti. More robot killers. Instruments of an alien intelligence trying to take over the planet Earth. TIME LORD 3: All this is entirely irrelevant."
+            },
+            {
+              "Character": "DOCTOR",
+              "Line": "You asked me to justify my actions. I am doing so. Let me show you the Ice Warriors. Cruel Martian invaders. They tried to conquer the Earth, too. So did the Cybermen. Half-creature, half-machine. But worst of all were the Daleks, a pitiless race of conquerors exterminating all who came up against them."
+            },
+            {
+              "Character": "DOCTOR",
+              "Line": "All these evils I have fought while you have done nothing but observe. True, I am guilty of interference. Just as you are guilty of failing to use your great powers to help those in need!"
+            },
+            {
+              "Character": "TIME LORD",
+              "Line": "Is that all you have to say?"
+            },
+            {
+              "Character": "DOCTOR",
+              "Line": "Well, isn't it enough?"
+            },
+            {
+              "Character": "TIME LORD",
+              "Line": "We accept your plea that there is evil in the universe that must be fought, and that you still have a part to play in that battle."
+            },
+            {
+              "Character": "DOCTOR",
+              "Line": "What, you mean that you're going to let me go free?"
+            },
+            {
+              "Character": "TIME LORD",
+              "Line": "Not entirely. We have noted your particular interest in the planet Earth. The frequency of your visits must have given you special knowledge of that world and its problems."
+            },
+            {
+              "Character": "DOCTOR",
+              "Line": "Yeah, yes, I suppose that's true. And Earth seems more vulnerable than others, yes."
+            },
+            {
+              "Character": "TIME LORD",
+              "Line": "For that reason, you will be sent back to that planet."
+            },
+            {
+              "Character": "DOCTOR",
+              "Line": "Oh, good."
+            },
+            {
+              "Character": "TIME LORD",
+              "Line": "In exile."
+            },
+            {
+              "Character": "DOCTOR",
+              "Line": "In exile?"
+            },
+            {
+              "Character": "TIME LORD",
+              "Line": "You will be sent to Earth in the 20th century, and will remain there for as long as we deem proper. And for that period, the secret of the Tardis will be taken from you."
+            },
+            {
+              "Character": "DOCTOR",
+              "Line": "But you... you can't condemn me to exile on one primitive planet in one century in time! Besides, I'm known on the Earth. It might be very awkward for me."
+            },
+            {
+              "Character": "TIME LORD",
+              "Line": "Your appearance has changed before. It will change again. That is part of the sentence."
+            },
+            {
+              "Character": "DOCTOR",
+              "Line": "You can't just change what I look like without consulting me!"
+            },
+            {
+              "Character": "TIME LORD",
+              "Line": "You will have an opportunity to choose your appearance."
+            },
+            {
+              "Character": "DOCTOR",
+              "Line": "Oh! Oh, well, that's not so bad. But I warn you, I'm very particular."
+            },
+            {
+              "Stage Direction": "Peter Capaldi."
+            },
+            {
+              "Character": "TIME LORD",
+              "Line": "Here is your first choice."
+            },
+            {
+              "Stage Direction": "David Tennant."
+            },
+            {
+              "Character": "DOCTOR",
+              "Line": "Oh, he's too old."
+            },
+            {
+              "Stage Direction": "Jodie Whittaker."
+            },
+            {
+              "Character": "DOCTOR",
+              "Line": "Well, he's too thin."
+            },
+            {
+              "Stage Direction": "Matt Smith."
+            },
+            {
+              "Character": "DOCTOR",
+              "Line": "Yes, that one's too young."
+            },
+            {
+              "Character": "DOCTOR",
+              "Line": "Oh, no, that won't do at all. That's ridiculous."
+            },
+            {
+              "Character": "TIME LORD",
+              "Line": "You're wasting time, Doctor."
+            },
+            {
+              "Character": "DOCTOR",
+              "Line": "It's not my fault, is it? Is this the best you can do? I've never seen such an incredible bunch."
+            },
+            {
+              "Character": "TIME LORD",
+              "Line": "Since you refuse to take the decision, the decision will be taken for you."
+            },
+            {
+              "Character": "DOCTOR",
+              "Line": "No, no, no, I never said that. But I maintain I have the right to decide what I look like. It could be very important on the Earth. I... People on Earth attach a very great deal of importance... Ah! What's happening? (The Doctor's face is beginning to twist and change.)"
+            },
+            {
+              "Stage Direction": "We are treated to multiple images of Patrick gurning as they circle around."
+            },
+            {
+              "Character": "DOCTOR",
+              "Line": "Ah, what's happening?"
+            },
+            {
+              "Character": "DOCTOR",
+              "Line": "What's hap... what's happened?"
+            },
+            {
+              "Character": "TIME LORD",
+              "Line": "The time has come for you to change your appearance, Doctor, and begin your exile."
+            },
+            {
+              "Stage Direction": "The Doctor's face disappears."
+            },
+            {
+              "Character": "DOCTOR",
+              "Line": "Is this some sort of joke? No, I refuse to be treated in... What are you doing?"
+            },
+            {
+              "Stage Direction": "He goes into the Tardis in flight, and we get a montage."
+            },
+            {
+              "Character": "DOCTOR",
+              "Line": "No! Stop, you're making me giddy! No, you can't do this to me! No, no, no, no, no, no, no, no, no, no, no, no, no!"
+            },
+            {
+              "Character": "JAMIE",
+              "Line": "Doctor? Doctor! Doctor."
+            },
+            {
+              "Stage Direction": "Special effects kindly give Patrick a modern golden regeneration, sitting in a chair in the Tardis as it hurtles towards Earth, along with three spheres."
+            }
+          ]
+        },
+        {
+          "Scene": "Tardis",
+          "Dialogue": [
+            {
+              "Stage Direction": "An alarm sounds after the Tardis has landed in Oxley Wood, supposedly near Ashbridge."
+            },
+            {
+              "Stage Direction": "Local dateline flickers between 1970 and 1980. UNIT dating..."
+            },
+            {
+              "Character": "DOCTOR 3",
+              "Line": "Where am I?"
+            },
+            {
+              "Stage Direction": "The Tardis door opens and a grey-haired figure falls face down into the heather."
+            },
+            {
+              "Character": "DOCTOR 3",
+              "Line": "What?"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

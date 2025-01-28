@@ -1,0 +1,126 @@
+{
+  "metadata": {
+    "title": "Timelash",
+    "series": "Doctor Who",
+    "season": "22",
+    "episode_number": 5,
+    "release_date": "9 - 16 March 1985",
+    "writer": "Glen McCoy",
+    "director": "Pennant Roberts",
+    "producer": "John Nathan-Turner",
+    "main_actors": [
+      "Colin Baker",
+      "Nicola Bryant"
+    ],
+    "time_reference": "On the planet Karfel and in 1885 Scotland"
+  },
+  "cast_crew": [
+    {
+      "cast": {
+        "name": "Colin Baker",
+        "role": "The Doctor"
+      },
+      "crew": {
+        "name": "Pennant Roberts",
+        "role": "Director"
+      }
+    },
+    {
+      "cast": {
+        "name": "Nicola Bryant",
+        "role": "Peri"
+      },
+      "crew": {
+        "name": "John Nathan-Turner",
+        "role": "Producer"
+      }
+    },
+    {
+      "cast": {
+        "name": "Robert Ashby",
+        "role": "The Borad / Megelen"
+      },
+      "crew": {
+        "name": "Glen McCoy",
+        "role": "Writer"
+      }
+    }
+  ],
+  "home_media": [
+    {
+      "releases": {
+        "media_type": "DVD",
+        "date": "9 July 2007",
+        "details": "Super Value Edition",
+        "special_features": [
+          "Commentary by Colin Baker, Nicola Bryant and Paul Darrow",
+          "The Good, the Bad and the Ugly documentary",
+          "Radio Times Listings",
+          "Subtitle Production Notes",
+          "Photo Gallery with 8 minutes of Elizabeth Parker's music in 24bit 48hz stereo",
+          "Coming Soon Trailer - Time-Flight & Arc of Infinity",
+          "Continuity announcements Easter Egg"
+        ]
+      }
+    }
+  ],
+  "story_notes": [
+    {
+      "notes": [
+        "The music for this story was provided by Elizabeth Parker, who had formerly contributed special sound for Blake's 7.",
+        "In viewer polls, this story is often very poorly regarded: the serial was voted into the 199th position by readers of Doctor Who Magazine in its 2009 poll, the Mighty 200.",
+        "When playing the role of Tekker, Paul Darrow purposely exaggerated his performance as a way of retaliating against Colin Baker's similar portrayal of Bayban the Butcher in the Blake's 7 episode City at the Edge of the World, in which Darrow starred as Kerr Avon.",
+        "Nicola Bryant hated the story because Peri spent a lot of time being tied up and it seemed like a step backwards. She also named the first TARDIS scene as her worst acting performance.",
+        "John Nathan-Turner wanted Paul Darrow to play Tekker as Avon from Blake's 7. Darrow refused and instead played him as Richard III."
+      ]
+    }
+  ],
+  "worldbuilding": {
+    "in_universe_mythology": [
+      "The Kontron tunnel from Karfel leads to Earth (and the Highlands of Scotland, near Inverness) in the 12th century",
+      "Bendalypse warheads are gas weapons that will kill anything with a central nervous system but not the reptilian Morlox",
+      "Mustakozene-80 is a chemical producing mutation on contact with human skin"
+    ],
+    "real_world_cultural_references": [
+      "The Time Machine by H.G. Wells",
+      "The Island of Doctor Moreau",
+      "The Invisible Man"
+    ],
+    "individuals": [
+      "Herbert George Wells",
+      "The Third Doctor and Jo Grant"
+    ],
+    "items": [
+      "Kontron crystals",
+      "Amulet conferring power to pervert energy supply"
+    ],
+    "locations": [
+      "Karfel",
+      "Scotland (1885)"
+    ]
+  },
+  "ratings": {
+    "ratings_millions": [
+      {
+        "part": "Part one",
+        "viewers": 6.7
+      },
+      {
+        "part": "Part two",
+        "viewers": 7.4
+      }
+    ]
+  },
+  "continuity": {
+    "continuity_notes": [
+      "The Third Doctor and Jo Grant have visited Karfel before this story.",
+      "The Doctor's TARDIS has colour-coded seat belts.",
+      "The Borad is implied to be the Loch Ness monster, conflicting with the Skarasen in TV: Terror of the Zygons; the contradiction is explained when the Borad is killed by agents of the Celestis in The Taking of Planet 5, and the Twelfth Doctor later acknowledges that he is aware of the different monsters he is responsible for in Loch Ness."
+    ]
+  },
+  "plot": [
+    {
+      "plot_summary": "The Doctor and Peri are drawn to the planet Karfel through a Kontron tunnel, a time corridor in space. On Karfel, they become entangled with the despotic rule of the Borad, a mutant hybrid of human and Morlox. The Borad plans to provoke a war with the Bandrils to wipe out the Karfelons, leaving him and the Morlox as the sole survivors so he can repopulate the world in his own image. The Doctor must stop the Borad's plans and escape Karfel, while also dealing with the Borad's attempts to mutate Peri into a mate for himself."
+    }
+  ]
+}

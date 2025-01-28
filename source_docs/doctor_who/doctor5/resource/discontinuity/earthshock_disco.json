@@ -1,0 +1,120 @@
+{
+    "title": "Earthshock",
+    "air_date": "8 March 1982",
+    "num_episodes": 4,
+    "episode_titles": [
+        "Part One",
+        "Part Two",
+        "Part Three",
+        "Part Four"
+    ],
+    "episode_duration": 25,
+    "writers": [
+        "Eric Saward"
+    ],
+    "directors": [
+        "Peter Grimwade"
+    ],
+    "media_format": "Color",
+    "dialogue_triumphs": [
+        "Tegan: 'I'm just a mouth on legs.'"
+    ],
+    "dialogue_disasters": [
+        "Scott: 'No\u2026 It could be\u2026 rough.'",
+        "And: 'The hold is crawling with robots.'",
+        "The Cyberleader: 'So, we meet again, Doctor.'"
+    ],
+    "goofs": [
+        "In episode one, a trooper turns around and clearly must see the shadow of one of the androids, but he moves on anyway.",
+        "In episode two, the Cyberleader misses a button on his console, but we still hear a beep.",
+        "The dead crewmembers at the end of episode two can be seen breathing.",
+        "When Ringway is running down a corridor, supposedly in a tearing hurry, he visibly pulls up just before going out of shot.",
+        "Just before Tegan and the soldiers find the bodies in episode three a white baton appears behind them.",
+        "When they climb the stairs a woman can be seen reading the script in the top right corner.",
+        "A few minutes later the two Cyberguards are chatting away with some great gossipy hand gestures.",
+        "In episode four, as they approach the TARDIS, the female of the remaining troopers is grabbed and doesn't make it inside. Except when they do get inside, it's a man that's missing. The woman vanishes again, once more replaced by the man, in the next exterior scene.",
+        "Adric handles his keyboard gingerly, as if he knows it's about to explode, and the continents of 65 million years ago look strangely familiar."
+    ],
+    "continuity_notes": [
+        {
+            "name": "Cybermen",
+            "type": "Character",
+            "description": "Cybernetic beings aware of TARDISes, regeneration, and Time Lords. They carry hand-held weapons, use thermal lances, don't need air, and are invulnerable to blasters unless concentrated.",
+            "origin": null,
+            "current_status": "Attempting to attack Earth and disrupt a peace conference."
+        },
+        {
+            "name": "The Doctor",
+            "type": "Character",
+            "description": "Time Lord protagonist, ectopic (has organs in wrong places), curious about dinosaur extinction.",
+            "origin": "Gallifrey",
+            "current_status": "Attempting to thwart the Cybermen's plans."
+        },
+        {
+            "name": "Adric",
+            "type": "Character",
+            "description": "Companion from E-Space, mathematically gifted.",
+            "origin": "Alzarius",
+            "current_status": "Considering returning to Terradon in E-Space."
+        },
+        {
+            "name": "Nyssa",
+            "type": "Character",
+            "description": "Companion who can operate some TARDIS systems but not fully pilot it.",
+            "origin": "Traken",
+            "current_status": "Assisting the Doctor."
+        },
+        {
+            "name": "Tegan",
+            "type": "Character",
+            "description": "Companion from Earth, capable of using guns.",
+            "origin": "Earth",
+            "current_status": "Assisting the Doctor."
+        },
+        {
+            "name": "TARDIS",
+            "type": "Object",
+            "description": "The Doctor's time and space machine, capable of jamming signals.",
+            "origin": "Gallifrey",
+            "current_status": "In use by the Doctor and companions."
+        }
+    ],
+    "technobabble": [
+        "How can an alien computer make your freighter go back in time?"
+    ],
+    "roots": [
+        "Alien",
+        "Buck Rogers movie (impenetrable defence shield)",
+        "Coronation Street (silent credits)"
+    ],
+    "links": [
+        "The Tenth Planet",
+        "The Wheel in Space",
+        "The Tomb of the Cybermen",
+        "Revenge of the Cybermen"
+    ],
+    "locations": [
+        {
+            "name": "Earth",
+            "type": "Location",
+            "description": "The planet targeted by the Cybermen",
+            "origin": null,
+            "current_status": "Under threat from Cybermen attack in 2526"
+        },
+        {
+            "name": "Freighter",
+            "type": "Location",
+            "description": "Spaceship en route to Earth",
+            "origin": null,
+            "current_status": "Infiltrated by Cybermen in 2526"
+        }
+    ],
+    "future_history": "An interplanetary peace conference is taking place in 2526, possibly involving the Draconians, with the aim of allying against the Cybermen. The Cybermen, aware of events in 2875, talk of uniting with another force in the ensuing Cyber wars.",
+    "untold_adventures": null,
+    "qv": [
+        "Cyber History, 'The Tenth Planet'",
+        "Temporal Grace, 'The Hand of Fear'"
+    ],
+    "additional_notes": "The episode features Beryl Reid in leather, considered a 'fashion victim'. The episode ends with silent credits, a reference to Coronation Street.",
+    "bottom_line": "Exciting and engaging early on, but a writer is not supposed to get so caught up in the excitement that things happen for no better reason than plot expediency. What we have is great\u2026 for a first draft."
+}

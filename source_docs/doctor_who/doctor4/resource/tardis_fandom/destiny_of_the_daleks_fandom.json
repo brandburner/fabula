@@ -1,0 +1,146 @@
+{
+  "metadata": {
+    "title": "Destiny of the Daleks",
+    "series": "Doctor Who",
+    "season": "17",
+    "release_date": "1979-09-01",
+    "release_end_date": "1979-09-22",
+    "writer": "Terry Nation",
+    "director": "Ken Grieve",
+    "producer": "Graham Williams",
+    "main_actors": [
+      "Tom Baker",
+      "Lalla Ward",
+      "David Gooderson",
+      "Tim Barlow",
+      "Peter Straker"
+    ],
+    "time_reference": "c. 3000, 4500, or 4949 AD"
+  },
+  "cast_crew": [
+    {
+      "cast": {
+        "name": "Tom Baker",
+        "role": "actor"
+      },
+      "crew": {
+        "name": "Graham Williams",
+        "role": "producer"
+      }
+    },
+    {
+      "cast": {
+        "name": "Lalla Ward",
+        "role": "actor"
+      },
+      "crew": {
+        "name": "Ken Grieve",
+        "role": "director"
+      }
+    },
+    {
+      "cast": {
+        "name": "Tim Barlow",
+        "role": "actor"
+      },
+      "crew": {
+        "name": "Terry Nation",
+        "role": "writer"
+      }
+    }
+  ],
+  "home_media": [
+    {
+      "releases": {
+        "media_type": "DVD",
+        "date": "2007-11-26",
+        "special_features": [
+          "Commentary by Lalla Ward, David Gooderson, and director Ken Grieve",
+          "Terror Nation - A documentary about writer Terry Nation",
+          "Directing Who - Ken Grieve recalls his time on this story",
+          "CGI Effects",
+          "Trailers and Continuity",
+          "Prime Computer Adverts",
+          "Production Subtitles",
+          "Photo Gallery",
+          "Radio Times Billings",
+          "Easter Egg: VT countdown for all four episodes"
+        ]
+      }
+    },
+    {}
+  ],
+  "story_notes": [
+    {
+      "notes": [
+        "First serial of season 17 of Doctor Who.",
+        "Featured the twelfth appearance of the Daleks and the second of Davros, portrayed by David Gooderson for the only time.",
+        "Final televised story written by Terry Nation.",
+        "First story produced under script editor Douglas Adams.",
+        "Episode one featured K9 being voiced by Dalek voice actor Roy Skelton due to K9's laryngitis."
+      ]
+    }
+  ],
+  "worldbuilding": {
+    "in_universe_mythology": [
+      "Skaro, the home planet of the Daleks",
+      "Movellan War against Daleks",
+      "Dalek creator Davros"
+    ],
+    "real_world_cultural_references": [
+      "Napoleon",
+      "Mexican standoff",
+      "Rock paper scissors",
+      "Douglas Adams' The Hitchhiker's Guide to the Galaxy"
+    ],
+    "individuals": [
+      "Davros",
+      "The Fourth Doctor",
+      "Romana",
+      "Davros"
+    ],
+    "items": [
+      "TARDIS",
+      "K9",
+      "High impact phason drill",
+      "Cryogenic freezer"
+    ],
+    "locations": [
+      "Skaro",
+      "Old Kaled City",
+      "Movellan ship"
+    ]
+  },
+  "ratings": {
+    "ratings_millions": [
+      {
+        "part": "Episode one",
+        "viewers": 13.0
+      },
+      {
+        "part": "Episode two",
+        "viewers": 12.7
+      },
+      {
+        "part": "Episode three",
+        "viewers": 13.8
+      },
+      {
+        "part": "Episode four",
+        "viewers": 14.4
+      }
+    ]
+  },
+  "continuity": {
+    "continuity_notes": [
+      "The Doctor revisits Skaro.",
+      "Davros was thought exterminated in Genesis of the Daleks.",
+      "The Doctor recognizes Romana's resemblance to Princess Astra."
+    ]
+  },
+  "plot": [
+    {
+      "plot_summary": "The Doctor and a newly regenerated Romana arrive on Skaro to find the Daleks mining the planet in search of their creator, Davros. They're at stalemate in an interplanetary war with the Movellans. Davros is revived and aims to give the Daleks a strategic edge. The Movellans want the Doctor to do the same for them. Using clever tactics, the Doctor incapacitates both enemies, freezing Davros to be later tried for his crimes, while Romana and the Doctor escape."
+    }
+  ]
+}

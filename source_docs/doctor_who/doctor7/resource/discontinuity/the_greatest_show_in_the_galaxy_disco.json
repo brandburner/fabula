@@ -1,0 +1,84 @@
+{
+    "title": "The Greatest Show in the Galaxy",
+    "air_date": "14 December 1988",
+    "num_episodes": 4,
+    "episode_titles": [
+        "Part One",
+        "Part Two",
+        "Part Three",
+        "Part Four"
+    ],
+    "episode_duration": 25,
+    "writers": [
+        "Stephen Wyatt"
+    ],
+    "directors": [
+        "Alan Wareing"
+    ],
+    "media_format": "Color",
+    "dialogue_triumphs": [
+        "Nord: 'Get lost\u2026 or I'll do something 'orrible to your ears.'",
+        "Ace: 'You're just an ageing hippy, Professor.'",
+        "Bellboy, about to be killed by his creations: 'You were a wonderful clown once. Funny, inventive\u2026 I'm not helping you any more.'"
+    ],
+    "dialogue_disasters": null,
+    "goofs": [
+        "Ace pins Flowerchild's earring to her jacket, although she was wearing it in 'Silver Nemesis'."
+    ],
+    "continuity_notes": [
+        {
+            "name": "Ace",
+            "type": "Character",
+            "description": "The Doctor's companion, who went to a circus as a child and found it boring except for the clowns.",
+            "origin": null,
+            "current_status": "Traveling with the Doctor"
+        },
+        {
+            "name": "Gods of Ragnarok",
+            "type": "Character",
+            "description": "Powerful entities known to the Doctor, whom he claims to have fought 'all through time'.",
+            "origin": null,
+            "current_status": "In conflict with the Doctor"
+        },
+        {
+            "name": "Captain Cook",
+            "type": "Character",
+            "description": "A galactic explorer who has visited numerous planets and has extensive knowledge of various alien worlds.",
+            "origin": null,
+            "current_status": "Present in the Psychic Circus"
+        }
+    ],
+    "technobabble": null,
+    "roots": [
+        "Werewolf films (Mags)",
+        "The Greatest Show on Earth",
+        "The Circus of Dr Lao by Charles Finney",
+        "Bradbury's Something Wicked This Way Comes",
+        "Terry Pratchett (Nord)",
+        "Raiders of the Lost Ark"
+    ],
+    "links": [
+        "Ace tries on the fourth Doctor's scarf and Mel's costume from 'Paradise Towers'."
+    ],
+    "locations": [
+        {
+            "name": "The Psychic Circus",
+            "type": "Location",
+            "description": "A mysterious circus on the planet Segonax, central to the story's events.",
+            "origin": "Segonax",
+            "current_status": "Active during the episode"
+        },
+        {
+            "name": "Segonax",
+            "type": "Location",
+            "description": "The planet where the Psychic Circus is located.",
+            "origin": null,
+            "current_status": "Setting for the episode"
+        }
+    ],
+    "future_history": null,
+    "untold_adventures": null,
+    "qv": null,
+    "additional_notes": "The Doctor quotes Neil Armstrong ('One small step for man') and Al Jolson, via Bachman Turner Overdrive ('You ain't seen nothin' yet'). The story could be interpreted as a metaphor about the production of Doctor Who, with various characters representing different aspects of the show's production and fandom.",
+    "bottom_line": "A return of chaos, magic and surrealism to Doctor Who, the story summed up by the scene in which the Doctor walks out of a confrontation amid carnage. Whizz Kid is a (not very subtle) parody of anally retentive, obsessive fans. The ideas in this, one of the most iconic stories, are very imaginative and the direction is psychedelic."
+}

@@ -1,0 +1,104 @@
+{
+    "title": "The Curse of Fenric",
+    "air_date": "25 October 1989",
+    "num_episodes": 4,
+    "episode_titles": [
+        "Part One",
+        "Part Two",
+        "Part Three",
+        "Part Four"
+    ],
+    "episode_duration": 25,
+    "writers": [
+        "Ian Briggs"
+    ],
+    "directors": [
+        "Nicholas Mallett"
+    ],
+    "media_format": "Color",
+    "dialogue_triumphs": [
+        "Ace in smug mode: 'And the half-time score: Perivale, six hundred million; Rest of the Universe, nil!'",
+        "Ace and a squaddie in a surreal conversation: 'Have to move faster than that if you want to keep up with me. Faster than light.' 'Faster than a second hand on a watch?' 'We're hardly moving yet\u2026 Sometimes I travel so fast I don't exist.'"
+    ],
+    "dialogue_disasters": null,
+    "goofs": [
+        "Audrey has a Super Ted.",
+        "Nobody in 1943 would know of Jane Russell, and there wouldn't be any road signs.",
+        "Wainwright's quotation from the Bible is unusual, being an 'edited' section from the Authorized Version with the more modern translation 'love' in place of the AV's 'charity'.",
+        "The Doctor cleans his muddy hand very quickly in episode four.",
+        "The Russians speak nothing but English after the first sequence, even to the point of death.",
+        "The Russians expect to get away with the huge Ultima machine in their little dinghy.",
+        "The English captain is surprisingly ready to join forces with the Russians he was trying to execute only hours before."
+    ],
+    "continuity_notes": [
+        {
+            "name": "Fenric",
+            "type": "Character",
+            "description": "An ancient evil created at the dawn of time, named by Vikings. Defeated by the Doctor in third-century Constantinople and imprisoned in a flask for seventeen centuries.",
+            "origin": "Dawn of time",
+            "current_status": "Attempting to return and rule"
+        },
+        {
+            "name": "Haemovores",
+            "type": "Character",
+            "description": "Future evolution of mankind, can only be destroyed by faith and cannot be harmed by objects alone.",
+            "origin": "Earth's far future",
+            "current_status": "Servants of Fenric"
+        },
+        {
+            "name": "Ace",
+            "type": "Character",
+            "description": "The Doctor's companion, descendant of Fenric's 'wolves'.",
+            "origin": "Perivale",
+            "current_status": "Traveling with the Doctor, coming to terms with her past"
+        },
+        {
+            "name": "The Doctor",
+            "type": "Character",
+            "description": "Time Lord protagonist, ambidextrous and capable of forging official documents.",
+            "origin": "Gallifrey",
+            "current_status": "Battling Fenric and manipulating events"
+        }
+    ],
+    "technobabble": null,
+    "roots": [
+        "Nietzsche",
+        "Viking mythology",
+        "1 Corinthians 13",
+        "Vampire and zombie films",
+        "40s film femmes fatales",
+        "The Fog",
+        "Alan Turing",
+        "Chekhov",
+        "The Keep",
+        "Thriller",
+        "The Singing Detective",
+        "Noggin the Nog"
+    ],
+    "links": [
+        "Silver Nemesis",
+        "Dragonfire",
+        "Ghost Light",
+        "State of Decay"
+    ],
+    "locations": [
+        {
+            "name": "Navy base near Whitby, Yorkshire",
+            "type": "Location",
+            "description": "Setting of the story, towards the end of the Second World War",
+            "origin": "Earth",
+            "current_status": "Active military base"
+        }
+    ],
+    "future_history": "The Doctor describes a potential future where Earth is 'rotting in chemical slime' after 'half a million years of industrial progress', leading to the evolution of haemovores.",
+    "untold_adventures": [
+        "The Doctor's encounter with Fenric in third-century Constantinople",
+        "The Doctor's meeting with the Ancient One in the far future"
+    ],
+    "qv": [
+        "The Doctor's Family",
+        "An Unearthly Child"
+    ],
+    "additional_notes": "The Soviets carry Simonov SKS rifles, which were developed during 1942.",
+    "bottom_line": "'The Curse of Fenric' includes many magical scenes: Sorin's faith in the Revolution, Ace's ignorance of 1940s morality when asking Kathleen if she is married, her argument with the Doctor over his manipulation of others, the moment of maturity when she declares: 'I'm not a little girl any more.' This is something special."
+}

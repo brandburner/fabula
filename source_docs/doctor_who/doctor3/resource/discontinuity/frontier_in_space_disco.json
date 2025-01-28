@@ -1,0 +1,155 @@
+{
+    "title": "Frontier in Space",
+    "air_date": "24 February 1973",
+    "num_episodes": 6,
+    "episode_titles": [
+        "Episode 1",
+        "Episode 2",
+        "Episode 3",
+        "Episode 4",
+        "Episode 5",
+        "Episode 6"
+    ],
+    "episode_duration": 25,
+    "writers": [
+        "Malcolm Hulke"
+    ],
+    "directors": [
+        "Paul Bernard",
+        "David Maloney (uncredited)"
+    ],
+    "media_format": "Color",
+    "dialogue_triumphs": [
+        "The Master: 'In reminiscent mood, are you, Doctor? Poor Miss Grant, you have my deepest sympathies.'",
+        "The Master calls the Daleks 'stupid tin boxes'."
+    ],
+    "dialogue_disasters": null,
+    "goofs": [
+        "Harold Goldblatt keeps interrupting everyone.",
+        "Katy Manning's babbling in episode four seems improvised.",
+        "Jo splits her trousers while running to escape the Ogrons in episode three.",
+        "Jo's tights change colour from scene to scene (and occasionally she isn't wearing any at all).",
+        "Big strings hold the Doctor up for his spacewalk in episode six.",
+        "The Ogron monster is a big orange carrier-bag.",
+        "As the space-walking Doctor opens the airlock in episode four there is a technician visible inside it."
+    ],
+    "continuity_notes": [
+        {
+            "name": "TARDIS",
+            "type": "Object",
+            "description": "The Doctor's time and space machine",
+            "origin": "Gallifrey",
+            "current_status": "Travels in hyperspace, helps the Doctor reach destinations when he knows exact coordinates"
+        },
+        {
+            "name": "Sonic Screwdriver",
+            "type": "Object",
+            "description": "The Doctor's multi-purpose tool",
+            "origin": null,
+            "current_status": "Cannot undo bolts unless polarity is reversed, left on the moon"
+        },
+        {
+            "name": "The Doctor",
+            "type": "Character",
+            "description": "Time Lord protagonist",
+            "origin": "Gallifrey",
+            "current_status": "Immune to mind probes, carries a string file in his boot and a radio direction finder"
+        },
+        {
+            "name": "Jo Grant",
+            "type": "Character",
+            "description": "The Doctor's companion",
+            "origin": "Earth",
+            "current_status": "Does HQ filing, conditioned against hypnosis, fears Drashigs, Mutants, and Sea Devils"
+        },
+        {
+            "name": "Ogrons",
+            "type": "Character",
+            "description": "Stupid mercenaries",
+            "origin": "Barren, uninteresting planet",
+            "current_status": "Worship 'The Monster', fear Daleks, carry neuronic stun guns"
+        },
+        {
+            "name": "The Master",
+            "type": "Character",
+            "description": "Time Lord antagonist",
+            "origin": "Gallifrey",
+            "current_status": "Knowledgeable about Earth poetry and song"
+        },
+        {
+            "name": "Daleks",
+            "type": "Character",
+            "description": "Xenophobic cyborg race",
+            "origin": "Skaro",
+            "current_status": "Led by a gold Dalek, recognize the Doctor, have an army ready at a base"
+        },
+        {
+            "name": "Draconians",
+            "type": "Character",
+            "description": "Reptilian humanoid species",
+            "origin": "Draconia",
+            "current_status": "Have galaxy class battle cruisers, claim not to lie, follow strict social hierarchy"
+        }
+    ],
+    "technobabble": [
+        "The TARDIS telepathic circuits can be used by the Doctor to contact his people.",
+        "The sonic screwdriver can become an electromagnet when the polarity of the power source is reversed."
+    ],
+    "roots": [
+        "The War of the Worlds",
+        "Tennyson's poetry",
+        "1984 (moon prison hierarchy)",
+        "Star Trek ('Balance of Terror' and 'Errand of Mercy')",
+        "Drake 'Privateer' stories"
+    ],
+    "links": [
+        "'The Stones of Blood'",
+        "'The Daleks'",
+        "'The War Machines'",
+        "'Day of the Daleks'",
+        "'Planet of the Daleks'",
+        "'The Mutants'"
+    ],
+    "locations": [
+        {
+            "name": "Earth",
+            "type": "Location",
+            "description": "Home planet of humans",
+            "origin": null,
+            "current_status": "Part of an expanding empire in the 26th century"
+        },
+        {
+            "name": "Moon",
+            "type": "Location",
+            "description": "Earth's natural satellite",
+            "origin": null,
+            "current_status": "Houses a Lunar Penal Colony"
+        },
+        {
+            "name": "Draconia",
+            "type": "Location",
+            "description": "Home planet of the Draconians",
+            "origin": null,
+            "current_status": "Part of an expanding empire in the 26th century"
+        },
+        {
+            "name": "Ogron planet",
+            "type": "Location",
+            "description": "Home of the Ogrons",
+            "origin": null,
+            "current_status": "Located on the remote fringes of the Milky Way galaxy"
+        }
+    ],
+    "future_history": "Set in 2540, at the start of Earth's empire. The Draconia/Earth war took place 20 years previously. Earth is ruled by a President with a complex political system. Interstellar travel is routine, and both Earth and Draconian Empires are expanding through the Milky Way galaxy. Some colonies have achieved dominion status.",
+    "untold_adventures": [
+        "The Doctor was once captured by the Medusoids, hairy one-legged jellyfish",
+        "The Doctor aided the 15th Draconian Emperor 500 years ago in dealing with a plague from space"
+    ],
+    "qv": [
+        "The First Dalek History, 'The Daleks'",
+        "Season 6(b), 'The War Games'",
+        "Venus, 'The Time Monster'"
+    ],
+    "additional_notes": "The episode features notable costume design, including the President's chunky shoes and the Earth military uniform with an interrogator in a silver evening gown and long dress gloves.",
+    "bottom_line": "Worthy, very well directed and designed to the hilt with a solid costuming policy for both empires. However, it's obviously padded in parts."
+}

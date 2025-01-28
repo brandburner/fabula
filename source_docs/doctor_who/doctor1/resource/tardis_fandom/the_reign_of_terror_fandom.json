@@ -1,0 +1,150 @@
+{
+  "metadata": {
+    "title": "The Reign of Terror",
+    "series": "Doctor Who",
+    "season": "1",
+    "episode_number": 8,
+    "release_date": "8 August - 12 September 1964",
+    "writer": "Dennis Spooner",
+    "director": "Henric Hirsch",
+    "producer": "Verity Lambert",
+    "main_actors": [
+      "William Hartnell",
+      "William Russell",
+      "Jacqueline Hill",
+      "Carole Ann Ford"
+    ],
+    "time_reference": "July 1794"
+  },
+  "cast_crew": [
+    {
+      "cast": {
+        "name": "William Hartnell",
+        "role": "Dr. Who"
+      },
+      "crew": {
+        "name": "Dennis Spooner",
+        "role": "Writer"
+      }
+    },
+    {
+      "cast": {
+        "name": "William Russell",
+        "role": "Ian Chesterton"
+      },
+      "crew": {
+        "name": "Henric Hirsch",
+        "role": "Director"
+      }
+    },
+    {
+      "cast": {
+        "name": "Jacqueline Hill",
+        "role": "Barbara Wright"
+      },
+      "crew": {
+        "name": "Verity Lambert",
+        "role": "Producer"
+      }
+    }
+  ],
+  "home_media": [
+    {
+      "releases": {
+        "media_type": "DVD",
+        "date": "28 January 2013",
+        "special_features": [
+          "Commentary",
+          "Making of documentary",
+          "Set tour",
+          "Photo gallery",
+          "Radio Times listings"
+        ]
+      }
+    },
+    {
+      "releases": {
+        "media_type": "VHS",
+        "date": "November 2003 (UK), October 2003 (US)",
+        "special_features": [
+          "Narration by Carole Ann Ford",
+          "Clips and stills from missing episodes",
+          "Additional Doctor Who episodes"
+        ]
+      }
+    }
+  ],
+  "story_notes": [
+    {
+      "notes": [
+        "This was the first Doctor Who story to feature location filming.",
+        "Episodes 4 and 5 are missing from the BBC Archives, but have been reconstructed in animated format.",
+        "The working title of this story was 'The French Revolution'.",
+        "The first use of an establishing on-screen caption in Doctor Who is featured in 'Guests of Madame Guillotine'."
+      ]
+    }
+  ],
+  "worldbuilding": {
+    "in_universe_mythology": [
+      "The French Revolution"
+    ],
+    "real_world_cultural_references": [
+      "A Tale of Two Cities",
+      "The Scarlet Pimpernel"
+    ],
+    "individuals": [
+      "Maximilien Robespierre",
+      "Napol\u00e9on Bonaparte"
+    ],
+    "items": [
+      "Fake papers bearing Robespierre's signature"
+    ],
+    "locations": [
+      "Paris",
+      "Conciergerie Prison"
+    ]
+  },
+  "ratings": {
+    "ratings_millions": [
+      {
+        "part": "A Land of Fear",
+        "viewers": 6.9
+      },
+      {
+        "part": "Guests of Madame Guillotine",
+        "viewers": 6.9
+      },
+      {
+        "part": "A Change of Identity",
+        "viewers": 6.9
+      },
+      {
+        "part": "The Tyrant of France",
+        "viewers": 6.4
+      },
+      {
+        "part": "A Bargain of Necessity",
+        "viewers": 6.9
+      },
+      {
+        "part": "Prisoners of Conciergerie",
+        "viewers": 6.4
+      }
+    ]
+  },
+  "continuity": {
+    "continuity_notes": [
+      "Susan previously showed an interest in the French Revolution while at Coal Hill School in 1963.",
+      "The Doctor later visited Paris in August 1572 in the company of Steven Taylor.",
+      "The Doctor's fondness for all things French was later remembered by Russell T Davies and Steven Moffat in their writing of the Tenth Doctor."
+    ]
+  },
+  "plot": [
+    {
+      "plot_summary": "The TARDIS materialises near Paris in 1794 during the Reign of Terror following the French Revolution. The travellers become involved with an escape chain rescuing prisoners from the guillotine and get caught up in the machinations of an English undercover spy, James Stirling \u2014 alias Lemaitre, governor of the Conciergerie prison."
+    },
+    {
+      "plot_summary": "The Doctor is separated from Ian, Barbara and Susan, who are arrested and sentenced to death as traitors to the Revolution. The Doctor sets out to rescue them, while they try to escape the prison on their own. Eventually the Doctor is able to free them, and they all escape Paris as the Reign of Terror comes to an end with the downfall of Robespierre."
+    }
+  ]
+}

@@ -1,0 +1,168 @@
+{
+  "metadata": {
+    "title": "State of Decay",
+    "series": "Doctor Who",
+    "season": "18",
+    "episode_number": 4,
+    "release_date": "1980-11-22",
+    "release_end_date": "1980-12-13",
+    "writer": "Terrance Dicks",
+    "director": "Peter Moffatt",
+    "producer": "John Nathan-Turner",
+    "main_actors": [
+      "Tom Baker",
+      "Lalla Ward",
+      "John Leeson",
+      "Matthew Waterhouse",
+      "Emrys James",
+      "Rachel Davies",
+      "William Lindsay"
+    ],
+    "time_reference": "32nd century"
+  },
+  "cast_crew": [
+    {
+      "cast": {
+        "name": "Tom Baker",
+        "role": "Fourth Doctor"
+      },
+      "crew": {
+        "name": "Peter Moffatt",
+        "role": "Director"
+      }
+    },
+    {
+      "cast": {
+        "name": "Lalla Ward",
+        "role": "Romana II"
+      },
+      "crew": {
+        "name": "Terrance Dicks",
+        "role": "Writer"
+      }
+    },
+    {
+      "cast": {
+        "name": "John Leeson",
+        "role": "Voice of K9"
+      },
+      "crew": {
+        "name": "John Nathan-Turner",
+        "role": "Producer"
+      }
+    },
+    {
+      "cast": {
+        "name": "Matthew Waterhouse",
+        "role": "Adric"
+      },
+      "crew": {
+        "name": "Barry Letts",
+        "role": "Executive Producer"
+      }
+    },
+    {
+      "cast": {
+        "name": "Emrys James",
+        "role": "Aukon"
+      },
+      "crew": {
+        "name": "Christopher H. Bidmead",
+        "role": "Script Editor"
+      }
+    },
+    {
+      "cast": {
+        "name": "Rachel Davies",
+        "role": "Camilla"
+      },
+      "crew": {
+        "name": "Christine Ruscoe",
+        "role": "Designer"
+      }
+    },
+    {
+      "cast": {
+        "name": "William Lindsay",
+        "role": "Zargo"
+      },
+      "crew": {
+        "name": "Paddy Kingsland",
+        "role": "Incidental Music"
+      }
+    }
+  ],
+  "home_media": [
+    {},
+    {}
+  ],
+  "story_notes": [
+    {
+      "notes": [
+        "The story is part of the E-Space trilogy.",
+        "An early script was altered and then reverted back to its gothic atmosphere.",
+        "Tom Baker had to perm his hair due to health issues.",
+        "There were three versions of the story available commercially: TV version, audio adaptation, and novelisation."
+      ]
+    }
+  ],
+  "worldbuilding": {
+    "in_universe_mythology": [
+      "The King Vampire, an ancient enemy of the Time Lords.",
+      "Rassilon created bowships to destroy vampires."
+    ],
+    "real_world_cultural_references": [
+      "The Rococo style",
+      "Brothers Grimm's law of consonantal shift",
+      "Henry V quote"
+    ],
+    "individuals": [
+      "Fourth Doctor",
+      "Romana II",
+      "Adric",
+      "The Great Vampire",
+      "Aukon"
+    ],
+    "items": [
+      "The Hydrax spacecraft",
+      "The Record of Rassilon"
+    ],
+    "locations": [
+      "Vampire planet",
+      "The castle (Hydrax spacecraft)",
+      "The rebels' cave"
+    ]
+  },
+  "ratings": {
+    "ratings_millions": [
+      {
+        "part": "Part one",
+        "viewers": 5.8
+      },
+      {
+        "part": "Part two",
+        "viewers": 5.3
+      },
+      {
+        "part": "Part three",
+        "viewers": 4.4
+      },
+      {
+        "part": "Part four",
+        "viewers": 5.4
+      }
+    ]
+  },
+  "continuity": {
+    "continuity_notes": [
+      "The hermit from Gallifrey was mentioned before.",
+      "An event shortly happens after this story as noted in 'The Eight Doctors'.",
+      "Connected themes continue in 'Blood Harvest' and 'Goth Opera'."
+    ]
+  },
+  "plot": [
+    {
+      "plot_summary": "The Doctor and Romana land the TARDIS on a planet where the village folk fear the 'Three Who Rule'. Uncovering that these rulers are ancient astronauts turned vampires, the Doctor allies with locals to prevent the awakening of the King Vampire - an ancient Gallifreyan adversary. The climax sees the Doctor using a spacecraft from a castle to defeat the vampire threat, returning balance to the villagers' lives."
+    }
+  ]
+}

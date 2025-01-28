@@ -1,0 +1,176 @@
+{
+  "metadata": {
+    "title": "Colony in Space",
+    "series": "Doctor Who",
+    "season": "8",
+    "release_date": "10 April 1971",
+    "release_end_date": "15 May 1971",
+    "writer": "Malcolm Hulke",
+    "director": "Michael Briant",
+    "producer": "Barry Letts",
+    "main_actors": [
+      "Jon Pertwee",
+      "Nicholas Courtney",
+      "Katy Manning",
+      "John Ringham",
+      "David Webb",
+      "Sheila Grant",
+      "Roy Skelton",
+      "Helen Worth",
+      "John Line",
+      "Morris Perry",
+      "Roger Delgado"
+    ],
+    "time_reference": "March 2472"
+  },
+  "cast_crew": [
+    {
+      "cast": {
+        "name": "Jon Pertwee",
+        "role": "Doctor"
+      },
+      "crew": {
+        "name": "Michael Briant",
+        "role": "Director"
+      }
+    },
+    {
+      "cast": {
+        "name": "Nicholas Courtney",
+        "role": "Brigadier Lethbridge Stewart"
+      },
+      "crew": {
+        "name": "Malcolm Hulke",
+        "role": "Writer"
+      }
+    },
+    {
+      "cast": {
+        "name": "Katy Manning",
+        "role": "Jo Grant"
+      },
+      "crew": {
+        "name": "Barry Letts",
+        "role": "Producer"
+      }
+    }
+  ],
+  "home_media": [
+    {
+      "releases": {
+        "media_type": "DVD",
+        "date": "24 October 2011",
+        "special_features": [
+          "Commentary",
+          "IMC Needs You!",
+          "From the Cutting Room Floor",
+          "Radio Times Listings (DVD-ROM)",
+          "Programme Subtitles",
+          "Production Information Subtitles",
+          "Photo Gallery",
+          "Coming Soon Trailer - The U.N.I.T Files"
+        ]
+      }
+    },
+    {
+      "releases": {
+        "media_type": "VHS",
+        "date": "November 2001",
+        "details": "Released as Doctor Who: Colony in Space (UK)",
+        "special_features": []
+      }
+    },
+    {
+      "releases": {
+        "media_type": "VHS",
+        "date": "January 2003",
+        "details": "Released as the only separate release in the US",
+        "special_features": []
+      }
+    }
+  ],
+  "story_notes": [
+    {
+      "notes": [
+        "The story serves as a commentary on the struggle between settlers and indigenous populations.",
+        "It marks the first color off-earth story recorded for Doctor Who.",
+        "This is the first appearance of Jo Grant in an off-Earth setting."
+      ]
+    }
+  ],
+  "worldbuilding": {
+    "in_universe_mythology": [
+      "The Master seeks to exploit the Doomsday Weapon for power."
+    ],
+    "real_world_cultural_references": [
+      "The struggle for land and resources recalls historical conflicts between European settlers and Native Americans."
+    ],
+    "individuals": [
+      "Ashe",
+      "Norton",
+      "Captain Dent"
+    ],
+    "items": [
+      "Sonic Screwdriver",
+      "Doomsday Weapon"
+    ],
+    "locations": [
+      "Uxarieus",
+      "IMC Ship",
+      "Primitive City"
+    ]
+  },
+  "ratings": {
+    "ratings_millions": [
+      {
+        "part": "Episode 1",
+        "viewers": 7.6
+      },
+      {
+        "part": "Episode 2",
+        "viewers": 8.5
+      },
+      {
+        "part": "Episode 3",
+        "viewers": 9.5
+      },
+      {
+        "part": "Episode 4",
+        "viewers": 8.1
+      },
+      {
+        "part": "Episode 5",
+        "viewers": 8.8
+      },
+      {
+        "part": "Episode 6",
+        "viewers": 8.7
+      }
+    ]
+  },
+  "continuity": {
+    "continuity_notes": [
+      "This is the first time the TARDIS has traveled to another planet since the Doctor's exile began."
+    ]
+  },
+  "plot": [
+    {
+      "plot_summary": "The Time Lords send the Doctor to Uxarieus to confront the Master, who has stolen a file on a powerful weapon. The Doctor and his companion Jo find themselves in a conflict between colonists and an Interplanetary Mining Corporation."
+    },
+    {
+      "plot_summary": "The Doctor shows Jo the TARDIS for the first time, and they arrive on Uxarieus, where an agrarian clash against mining interests unfolds."
+    },
+    {
+      "plot_summary": "The tensions escalate further as they discover the real nature of the threats facing the colonists while they seek to save the crops and reclaim the land."
+    },
+    {
+      "plot_summary": "As the Doctor learns of the true motives of the IMC and the Master, Jo becomes embroiled in a dangerous plan to expose their operations."
+    },
+    {
+      "plot_summary": "The IMC engages in underhanded tactics, leading to a violent confrontation that threatens the colonists' survival and escalates with each passing episode."
+    },
+    {
+      "plot_summary": "Ultimately, the Doctor confronts the Master, the colonists rise against the IMC, and they must all face the consequences of their actions as Uxarieus teeters on the brink of all-out turmoil."
+    }
+  ]
+}

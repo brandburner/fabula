@@ -1,0 +1,157 @@
+{
+  "metadata": {
+    "title": "Attack of the Cybermen",
+    "series": "Doctor Who",
+    "season": "22",
+    "episode_number": 1,
+    "release_date": "5 January 1985",
+    "release_end_date": "12 January 1985",
+    "writer": "Paula Moore",
+    "director": "Matthew Robinson",
+    "producer": "John Nathan-Turner",
+    "main_actors": [
+      "Colin Baker",
+      "Nicola Bryant"
+    ],
+    "time_reference": "1985"
+  },
+  "cast_crew": [
+    {
+      "cast": {
+        "name": "Colin Baker",
+        "role": "The Doctor"
+      },
+      "crew": {
+        "name": "Matthew Robinson",
+        "role": "Director"
+      }
+    },
+    {
+      "cast": {
+        "name": "Nicola Bryant",
+        "role": "Peri"
+      },
+      "crew": {
+        "name": "John Nathan-Turner",
+        "role": "Producer"
+      }
+    },
+    {
+      "cast": {
+        "name": "Maurice Colbourne",
+        "role": "Lytton"
+      },
+      "crew": {
+        "name": "Paula Moore",
+        "role": "Writer"
+      }
+    }
+  ],
+  "home_media": [
+    {
+      "releases": {
+        "media_type": "VHS",
+        "date": "2000",
+        "details": "Released in a tin boxed set with The Tenth Planet",
+        "special_features": []
+      }
+    },
+    {
+      "releases": {
+        "media_type": "DVD",
+        "date": "March 2009",
+        "special_features": [
+          "Commentary by Colin Baker, Nicola Bryant, Terry Molloy and Sarah Berger",
+          "The Cold War - Cast and crew look back on the making of the story",
+          "The Cyber Story - A brief history of the Cybermen in the classic series",
+          "Human Cyborg - An interview with Professor Kevin Warwick",
+          "The Cyber-Generations - A gallery of Cybermen throughout the history of the series",
+          "PDF Materials - Radio Times listings and a 1969 article from The Listener",
+          "Isolated score",
+          "Trails and Continuity",
+          "Photo Gallery",
+          "Production Information",
+          "Subtitles",
+          "Coming Soon Trailer - Image of the Fendahl",
+          "Easter Egg: The Cybernetic Autonomous Dalek"
+        ]
+      }
+    },
+    {
+      "releases": {
+        "media_type": "BLU_RAY",
+        "date": "20 June 2022",
+        "details": "Part of The Collection: Season 22 box set",
+        "special_features": []
+      }
+    }
+  ],
+  "story_notes": [
+    {
+      "notes": [
+        "This is the only Cybermen story of the 1980s to feature the word 'Cybermen' in the title.",
+        "Attack of the Cybermen was first broadcast in two weekly parts in 45-minute episodes.",
+        "The chameleon circuit of the TARDIS is temporarily repaired, allowing it to change shape, before breaking down again.",
+        "The story reused incidental music from Earthshock to establish the presence of the Cybermen.",
+        "This is the most recent story to be written under a pseudonym.",
+        "The story was chosen by fans to represent the Colin Baker era for the Doctor Who @40 rebroadcast."
+      ]
+    }
+  ],
+  "worldbuilding": {
+    "in_universe_mythology": [
+      "The Cybermen's homeworld is Mondas",
+      "The Cybermen temporarily colonized Telos"
+    ],
+    "real_world_cultural_references": [
+      "The Doctor plays the opening of J.S. Bach's 'Toccata and Fugue in D minor' on the TARDIS 'organ'",
+      "Peri references the Lone Ranger"
+    ],
+    "individuals": [
+      "Lytton",
+      "Gustave Lytton",
+      "Flast",
+      "Rost",
+      "Stratton",
+      "Bates"
+    ],
+    "items": [
+      "Vastial",
+      "Sonic lance"
+    ],
+    "locations": [
+      "London",
+      "Totter's Lane",
+      "Telos",
+      "Cyber-control"
+    ]
+  },
+  "ratings": {
+    "ratings_millions": [
+      {
+        "part": "Part one",
+        "viewers": 8.9
+      },
+      {
+        "part": "Part two",
+        "viewers": 7.2
+      }
+    ]
+  },
+  "continuity": {
+    "continuity_notes": [
+      "The Doctor decides to find a pleasant destination as a break from 'the bleakness of Jaconda'.",
+      "The Doctor, still confused by his regeneration, has called Peri the names of his past companions.",
+      "The Doctor recalls meeting Lytton while he was working for the Daleks.",
+      "The Doctor temporarily repairs the TARDIS's chameleon circuit."
+    ]
+  },
+  "plot": [
+    {
+      "plot_summary": "Two workmen in a London sewer find a new brick wall where none should be, and one of them vanishes. The Sixth Doctor and Peri track a distress signal to the sewer, where they encounter the mercenary Lytton and his gang, who are working with the Cybermen. The Cybermen plan to prevent the destruction of their home planet Mondas by diverting Halley's Comet into Earth in 1986. The Doctor and his companions become caught up in the Cybermen's scheme and travel to Telos, the Cybermen's temporary homeworld, to try and stop them."
+    },
+    {
+      "plot_summary": "On Telos, the Doctor meets the native Cryons, who are fighting a guerrilla war against the Cybermen. Lytton is revealed to be working against the Cybermen, trying to steal their timeship to prevent their plan. In the end, the Doctor is able to defeat the Cyber-Controller and destroy Cyber-control, but not before Lytton is killed. The Doctor reflects on his misjudgment of Lytton's true motives."
+    }
+  ]
+}

@@ -1,0 +1,117 @@
+{
+    "title": "Planet of Fire",
+    "air_date": "23 February 1984",
+    "num_episodes": 4,
+    "episode_titles": [
+        "Part One",
+        "Part Two",
+        "Part Three",
+        "Part Four"
+    ],
+    "episode_duration": 25,
+    "writers": [
+        "Peter Grimwade"
+    ],
+    "directors": [
+        "Fiona Cumming"
+    ],
+    "media_format": "Color",
+    "dialogue_triumphs": [
+        "I don't know how long it'll be before the next emission."
+    ],
+    "dialogue_disasters": null,
+    "goofs": [
+        "Peri is dry by the time Turlough brings her into the TARDIS.",
+        "The Doctor asks Amyand and Sorasta about Logar, despite having never heard the name before.",
+        "Peri can override the Master's control of Kamelion, but the Doctor can't.",
+        "If the Master's gun is a tissue compression eliminator, why does it compress Kamelion and the radiation suits?",
+        "Peri seems to be able to out-run its blast in episode three."
+    ],
+    "continuity_notes": [
+        {
+            "name": "The Doctor",
+            "type": "Character",
+            "description": "The main protagonist, a Time Lord who travels through time and space.",
+            "origin": "Gallifrey",
+            "current_status": "Investigating events on Sarn and confronting the Master"
+        },
+        {
+            "name": "Peri Brown",
+            "type": "Character",
+            "description": "A young American student, new companion to the Doctor",
+            "origin": "Earth",
+            "current_status": "On holiday in Lanzarote, joins the Doctor's adventures"
+        },
+        {
+            "name": "Turlough",
+            "type": "Character",
+            "description": "The Doctor's companion, revealed to be from planet Trion",
+            "origin": "Trion",
+            "current_status": "Discovers his origins and family history on Sarn"
+        },
+        {
+            "name": "The Master",
+            "type": "Character",
+            "description": "The Doctor's nemesis, a renegade Time Lord",
+            "origin": "Gallifrey",
+            "current_status": "In a weakened state, seeking regeneration through numismaton gas"
+        },
+        {
+            "name": "Kamelion",
+            "type": "Character",
+            "description": "A shape-shifting android companion of the Doctor",
+            "origin": "Unknown",
+            "current_status": "Under partial control of the Master"
+        },
+        {
+            "name": "Numismaton Gas",
+            "type": "Object",
+            "description": "A rare catalytic reagent with great healing properties",
+            "origin": "Sarn",
+            "current_status": "Sought after by the Master for regeneration"
+        }
+    ],
+    "technobabble": [
+        "Numismaton gas, 'an immensely rare catalytic reagent' with great healing properties",
+        "Temporal stabiliser",
+        "Comparator (full of silicon chips and resistors)"
+    ],
+    "roots": [
+        "References to Judaism (the penalties that await trespassers on the holy Mountain of Fire)",
+        "Christianity (the messianic 'Outsider', Timanov's reference to oblation, and the Doctor postulating on the Master's desire to be 'born again')",
+        "Von Daniken",
+        "She",
+        "Dune"
+    ],
+    "links": [
+        "The story directly follows 'Resurrection of the Daleks'",
+        "Kamelion is seen for the first time since 'The King's Demons'",
+        "The Doctor briefly dons his half-moon spectacles (see 'Frontios')",
+        "Numismaton gas properties (see 'The Brain of Morbius')",
+        "The Master removing the temporal stabiliser (see 'Time Flight': 'Another old trick of the Master's')"
+    ],
+    "locations": [
+        {
+            "name": "Lanzarote",
+            "type": "Location",
+            "description": "A volcanic island where the story begins",
+            "origin": "Earth",
+            "current_status": "Holiday destination where Peri meets the Doctor"
+        },
+        {
+            "name": "Sarn",
+            "type": "Location",
+            "description": "A volcanic planet with Trion exiles and indigenous population",
+            "origin": "Unknown",
+            "current_status": "On the brink of destruction due to volcanic activity"
+        }
+    ],
+    "future_history": null,
+    "untold_adventures": null,
+    "qv": [
+        "Shrinking",
+        "The Invisible Enemy"
+    ],
+    "additional_notes": "The presence of the Trion distress signal device in a sunken wreck similar to the English Mary Rose is not explained, nor is the Master's familiarity with it.",
+    "bottom_line": "Peri comes across very well in her first story with good lines, but the story as a whole is less than the sum of its parts. Not a great deal happens, but it is competently written, and the location filming is excellent."
+}

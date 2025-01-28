@@ -1,0 +1,169 @@
+{
+  "metadata": {
+    "title": "The Invasion of Time",
+    "series": "Doctor Who",
+    "season": "15",
+    "episode_number": 6,
+    "release_date": "1978-02-04",
+    "release_end_date": "1978-03-11",
+    "writer": "David Agnew",
+    "director": "Gerald Blake",
+    "producer": "Graham Williams",
+    "main_actors": [
+      "Tom Baker",
+      "Louise Jameson",
+      "Christopher Tranchell",
+      "Milton Johns",
+      "John Arnatt"
+    ],
+    "time_reference": "Rassilon Era"
+  },
+  "cast_crew": [
+    {
+      "cast": {
+        "name": "Tom Baker",
+        "role": "Actor"
+      },
+      "crew": {
+        "name": "Gerald Blake",
+        "role": "Director"
+      }
+    },
+    {
+      "cast": {
+        "name": "Louise Jameson",
+        "role": "Actress"
+      },
+      "crew": {
+        "name": "David Agnew",
+        "role": "Writer"
+      }
+    },
+    {
+      "cast": {
+        "name": "Christopher Tranchell",
+        "role": "Actor"
+      },
+      "crew": {
+        "name": "Graham Williams",
+        "role": "Producer"
+      }
+    },
+    {
+      "cast": {
+        "name": "Milton Johns",
+        "role": "Actor"
+      },
+      "crew": {
+        "name": "Dudley Simpson",
+        "role": "Incidental Music"
+      }
+    },
+    {
+      "cast": {
+        "name": "John Arnatt",
+        "role": "Actor"
+      },
+      "crew": {
+        "name": "Anthony Read",
+        "role": "Script Editor"
+      }
+    }
+  ],
+  "home_media": [
+    {
+      "releases": {
+        "media_type": "DVD",
+        "date": "2008-05-05",
+        "special_features": [
+          "Commentary by cast and crew",
+          "Out of Time feature",
+          "The Rise and Fall of Gallifrey",
+          "Deleted Scenes",
+          "Optional CGI effects"
+        ]
+      }
+    },
+    {
+      "releases": {
+        "media_type": "VHS",
+        "date": "2000-03",
+        "special_features": []
+      }
+    }
+  ],
+  "story_notes": [
+    {
+      "notes": [
+        "Script was a last-minute replacement written by Read and Williams.",
+        "Leela's departure was abruptly written due to Jameson's decision to leave.",
+        "Story established Sontarans as a credible threat to the Time Lords.",
+        "Extensive use of TARDIS interior and Gallifrey mythology."
+      ]
+    }
+  ],
+  "worldbuilding": {
+    "in_universe_mythology": [
+      "Gallifreyan artefacts like the Sash of Rassilon",
+      "Time Lord's Matrix"
+    ],
+    "real_world_cultural_references": [
+      "Daily Mirror from 1912",
+      "The sinking of the Titanic",
+      "The Doctor whistles the Colonel Bogey March."
+    ],
+    "individuals": [
+      "Borusa",
+      "Andred"
+    ],
+    "items": [
+      "De-mat Gun",
+      "K9"
+    ],
+    "locations": [
+      "Gallifrey",
+      "The Capitol",
+      "The Panopticon"
+    ]
+  },
+  "ratings": {
+    "ratings_millions": [
+      {
+        "part": "Part one",
+        "viewers": 11.2
+      },
+      {
+        "part": "Part two",
+        "viewers": 11.4
+      },
+      {
+        "part": "Part three",
+        "viewers": 9.5
+      },
+      {
+        "part": "Part four",
+        "viewers": 10.9
+      },
+      {
+        "part": "Part five",
+        "viewers": 10.3
+      },
+      {
+        "part": "Part six",
+        "viewers": 9.8
+      }
+    ]
+  },
+  "continuity": {
+    "continuity_notes": [
+      "Andred uses the term 'Relative Time'.",
+      "Doctor assumes Presidency as a consequence of previous candidacy.",
+      "Leela stays on Gallifrey which forms the basis for future Big Finish stories."
+    ]
+  },
+  "plot": [
+    {
+      "plot_summary": "The Doctor returns to Gallifrey and claims the Presidency to lead a group of aliens called Vardans to a trap and eliminate them. After this, Sontarans invade Gallifrey. The Doctor manages to trap the Vardans and defends against the Sontarans using the De-mat Gun but loses his memory of the events. Leela decides to stay on Gallifrey."
+    }
+  ]
+}

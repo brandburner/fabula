@@ -1,0 +1,172 @@
+{
+  "metadata": {
+    "title": "The Face of Evil",
+    "series": "Doctor Who",
+    "season": "14",
+    "release_date": "1 January 1977",
+    "release_end_date": "22 January 1977",
+    "writer": "Chris Boucher",
+    "director": "Pennant Roberts",
+    "producer": "Philip Hinchcliffe",
+    "main_actors": [
+      "Tom Baker",
+      "Louise Jameson",
+      "David Garfield",
+      "Victor Lucas",
+      "Brendan Price",
+      "Leslie Schofield",
+      "Colin Thomas",
+      "Lloyd McGuire",
+      "Tom Kelly",
+      "Brett Forrest",
+      "Rob Edwards",
+      "Pamela Salem",
+      "Anthony Frieze",
+      "Roy Herrick",
+      "Leon Eagles",
+      "Mike Elles",
+      "Peter Baldock"
+    ],
+    "time_reference": "far future"
+  },
+  "cast_crew": [
+    {
+      "cast": {
+        "name": "Tom Baker",
+        "role": "actor"
+      },
+      "crew": {
+        "name": "Chris Boucher",
+        "role": "writer"
+      }
+    },
+    {
+      "cast": {
+        "name": "Louise Jameson",
+        "role": "actor"
+      },
+      "crew": {
+        "name": "Pennant Roberts",
+        "role": "director"
+      }
+    },
+    {
+      "cast": {
+        "name": "David Garfield",
+        "role": "actor"
+      },
+      "crew": {
+        "name": "Philip Hinchcliffe",
+        "role": "producer"
+      }
+    }
+  ],
+  "home_media": [
+    {
+      "releases": {
+        "media_type": "VHS",
+        "date": "May 1999",
+        "details": "UK release",
+        "special_features": []
+      }
+    },
+    {
+      "releases": {
+        "media_type": "VHS",
+        "date": "March 2000",
+        "details": "US release",
+        "special_features": []
+      }
+    },
+    {
+      "releases": {
+        "media_type": "DVD",
+        "date": "5 March 2012",
+        "details": "Region 2 release",
+        "special_features": [
+          "Commentary with actors and crew",
+          "Into the Wild \u2014 Cast and crew talk about the making",
+          "From the Cutting Room Floor \u2014 behind-the-scenes glimpse",
+          "Tomorrow's Times - The Fourth Doctor",
+          "Doctor Who Stories: Louise Jameson",
+          "Swap Shop \u2014 Noel Edmonds interviews Louise Jameson",
+          "Denys Fisher Toys Advert 1976",
+          "Typhoo Tea Doctor Who Promotion",
+          "Radio Times Listings",
+          "Production Information Subtitles",
+          "Photo Gallery",
+          "Coming Soon Trailer - The D\u00e6mons"
+        ]
+      }
+    }
+  ],
+  "story_notes": [
+    {
+      "notes": [
+        "Originally billed as the start of a new series due to a six-week gap since the last episode.",
+        "Working titles included 'The Tower of Imelo' and 'The Day God Went Mad'.",
+        "Pamela Salem and Rob Edwards provided voices for Xoanon."
+      ]
+    }
+  ],
+  "worldbuilding": {
+    "in_universe_mythology": [
+      "Sevateem religion and folklore",
+      "Tesh's technology and telepathic abilities",
+      "Xoanon's identity crisis"
+    ],
+    "real_world_cultural_references": [
+      "Brave New World",
+      "Harry Harrison's Captive Universe"
+    ],
+    "individuals": [
+      "Leela",
+      "Xoanon",
+      "Andor",
+      "Calib",
+      "Tomas"
+    ],
+    "items": [
+      "Janis thorns",
+      "Horda"
+    ],
+    "locations": [
+      "Mordee",
+      "Inside the spaceship",
+      "The jungle planet",
+      "The village of Sevateem",
+      "Realm of the Tesh"
+    ]
+  },
+  "ratings": {
+    "ratings_millions": [
+      {
+        "part": "1",
+        "viewers": 10.7
+      },
+      {
+        "part": "2",
+        "viewers": 11.1
+      },
+      {
+        "part": "3",
+        "viewers": 11.3
+      },
+      {
+        "part": "4",
+        "viewers": 11.7
+      }
+    ]
+  },
+  "continuity": {
+    "continuity_notes": [
+      "The Eleventh Doctor helps a ship be born in 'The Way Through the Woods'.",
+      "Leela experiences intense edited flashbacks to her father's death in 'The Evil One'."
+    ]
+  },
+  "plot": [
+    {
+      "plot_summary": "The Doctor arrives on a planet where two tribes, the savage Sevateem and the technically brilliant Tesh, are at war. He meets Leela, an exile from the Sevateem, and discovers that their god of evil is apparently himself. As they investigate, they uncover the truth about Xoanon, a computer with a split personality caused by the Doctor's earlier interference. With Xoanon's identity crisis resolved, the Doctor departs, and Leela joins him on his travels."
+    }
+  ]
+}

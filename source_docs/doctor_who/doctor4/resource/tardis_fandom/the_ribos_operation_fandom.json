@@ -1,0 +1,192 @@
+{
+  "metadata": {
+    "title": "The Ribos Operation",
+    "series": "Doctor Who",
+    "season": "16",
+    "episode_number": 1,
+    "release_date": "1978-09-02",
+    "release_end_date": "1978-09-23",
+    "writer": "Robert Holmes",
+    "director": "George Spenton-Foster",
+    "producer": "Graham Williams",
+    "main_actors": [
+      "Tom Baker",
+      "Mary Tamm",
+      "John Leeson",
+      "Cyril Luckham",
+      "Iain Cuthbertson",
+      "Nigel Plaskitt",
+      "Paul Seed"
+    ],
+    "time_reference": "Far future"
+  },
+  "cast_crew": [
+    {
+      "cast": {
+        "name": "Tom Baker",
+        "role": "Actor"
+      },
+      "crew": {
+        "name": "Robert Holmes",
+        "role": "Writer"
+      }
+    },
+    {
+      "cast": {
+        "name": "Mary Tamm",
+        "role": "Actor"
+      },
+      "crew": {
+        "name": "George Spenton-Foster",
+        "role": "Director"
+      }
+    },
+    {
+      "cast": {
+        "name": "John Leeson",
+        "role": "Actor (Voice of K9)"
+      },
+      "crew": {
+        "name": "Graham Williams",
+        "role": "Producer"
+      }
+    },
+    {
+      "cast": {
+        "name": "Cyril Luckham",
+        "role": "Actor"
+      },
+      "crew": {
+        "name": "Dave Havard",
+        "role": "Visual Effects"
+      }
+    },
+    {
+      "cast": {
+        "name": "Iain Cuthbertson",
+        "role": "Actor"
+      },
+      "crew": {
+        "name": "June Hudson",
+        "role": "Costumes"
+      }
+    },
+    {
+      "cast": {
+        "name": "Nigel Plaskitt",
+        "role": "Actor"
+      },
+      "crew": {
+        "name": "Dudley Simpson",
+        "role": "Incidental Music"
+      }
+    },
+    {
+      "cast": {
+        "name": "Paul Seed",
+        "role": "Actor"
+      },
+      "crew": {
+        "name": "Christine Walmesley-Cotham",
+        "role": "Make-Up"
+      }
+    }
+  ],
+  "home_media": [
+    {
+      "releases": {
+        "media_type": "DVD",
+        "date": "2007-09-24",
+        "details": "Released as part of The Key to Time boxed set",
+        "special_features": [
+          "Commentary by Tom Baker and Mary Tamm",
+          "A Matter of Time - Documentary",
+          "The Ribos File - Cast and crew interviews",
+          "Season 16 Trailer",
+          "Continuities",
+          "Radio Times Billings",
+          "Coming Soon Trailer",
+          "Photo Gallery",
+          "Production Subtitles",
+          "Easter Egg"
+        ]
+      }
+    },
+    {
+      "releases": {
+        "media_type": "VHS",
+        "date": "1995-04",
+        "details": "Released in PAL and NTSC formats with UK cover art by Colin Howard",
+        "special_features": []
+      }
+    }
+  ],
+  "story_notes": [
+    {
+      "notes": [
+        "This story marks the beginning of the quest for the Key to Time.",
+        "All stories in season 16 were linked to this theme.",
+        "Working titles for this story include Operation, The Galactic Conman and The Ribos File.",
+        "Tom Baker's lip was cut during filming, which resulted in a visible scar.",
+        "The sets were reused from the BBC's adaptation of Anna Karenina."
+      ]
+    }
+  ],
+  "worldbuilding": {
+    "in_universe_mythology": [
+      "Ribos is believed to be a battlefield between Ice Gods and Sun Gods according to its inhabitants."
+    ],
+    "real_world_cultural_references": [
+      "The Doctor claims to have been trained in sleight of hand by John Nevil Maskelyne, a 19th-century stage magician.",
+      "Ribos was patterned after medieval Russia, and its name is an anagram of the Russian name 'Boris'."
+    ],
+    "individuals": [
+      "The Doctor",
+      "Romana",
+      "K9",
+      "The White Guardian",
+      "Garron",
+      "Graff Vynda-K",
+      "Binro"
+    ],
+    "items": [
+      "Jethrik",
+      "Key to Time locator"
+    ],
+    "locations": [
+      "Ribos"
+    ]
+  },
+  "ratings": {
+    "ratings_millions": [
+      {
+        "part": "Part one",
+        "viewers": 8.3
+      },
+      {
+        "part": "Part two",
+        "viewers": 8.1
+      },
+      {
+        "part": "Part three",
+        "viewers": 7.9
+      },
+      {
+        "part": "Part four",
+        "viewers": 8.2
+      }
+    ]
+  },
+  "continuity": {
+    "continuity_notes": [
+      "This story is the beginning of a season-long arc for the Key to Time.",
+      "The White Guardian warns about the Black Guardian, a character that is encountered later in the series.",
+      "The Doctor's memory of recent events was wiped towards the end of The Invasion of Time, yet he remembers the Sontaran invasion of Gallifrey."
+    ]
+  },
+  "plot": [
+    {
+      "plot_summary": "The Doctor is summoned by the White Guardian to find the six segments of the Key to Time. The first segment is on the planet Ribos. The Doctor, Romana, and K9 become entangled in a con by Garron and Unstoffe and pursued by the unstable Graff Vynda-K. The Doctor uses his wit to find the first segment amidst a political power struggle, eventually outsmarting the Graff. As they leave Ribos, the Doctor notes that they have five more segments to find."
+    }
+  ]
+}

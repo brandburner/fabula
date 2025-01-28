@@ -1,0 +1,128 @@
+{
+    "title": "Terror of the Vervoids",
+    "air_date": "1 November 1986",
+    "num_episodes": 4,
+    "episode_titles": [
+        "Part One",
+        "Part Two",
+        "Part Three",
+        "Part Four"
+    ],
+    "episode_duration": 25,
+    "writers": [
+        "Pip Baker",
+        "Jane Baker"
+    ],
+    "directors": [
+        "Chris Clough"
+    ],
+    "media_format": "Color",
+    "dialogue_triumphs": [],
+    "dialogue_disasters": [
+        "Whoever's been dumped in there has been pulverised into fragments and sent floating into space, and in my book, that's murder.",
+        "On the previous occasion that the Doctor's path crossed mine, I found myself involved in a web of mayhem and intrigue."
+    ],
+    "goofs": [
+        "Lasky has been into room 6 and, not found her luggage there, because her key is actually for room 9. So how did she get in?",
+        "The Vervoids wear tracksuits and trainers (wilting and climbing through the tunnel in the final episode).",
+        "Some of them have West Country accents.",
+        "If the Vervoids are genetically engineered, why create them with lethal stings?",
+        "Why don't the Mogarians notice a major change in character in one of their number?",
+        "Why does the Captain state that the ship is hi-jack-proof, even though it has been hi-jacked by Bruchner?!"
+    ],
+    "continuity_notes": [
+        {
+            "name": "The Matrix",
+            "type": "Object",
+            "description": "A repository of Time Lord knowledge containing future information",
+            "origin": "Gallifrey",
+            "current_status": "Being used to extract evidence for the Doctor's trial"
+        },
+        {
+            "name": "Article Seven of Gallifreyan law",
+            "type": "Concept",
+            "description": "A law dealing with genocide",
+            "origin": "Gallifrey",
+            "current_status": "Relevant to the trial proceedings"
+        },
+        {
+            "name": "Mel",
+            "type": "Character",
+            "description": "The Doctor's companion with almost total recall",
+            "origin": "Pease Pottage, Earth",
+            "current_status": "Traveling with the Doctor"
+        },
+        {
+            "name": "The Doctor's coat",
+            "type": "Object",
+            "description": "Contains conjuror's flowers",
+            "origin": null,
+            "current_status": "In the Doctor's possession"
+        },
+        {
+            "name": "Electronic lock-pick",
+            "type": "Object",
+            "description": "A tool carried by the Doctor",
+            "origin": null,
+            "current_status": "In the Doctor's possession"
+        },
+        {
+            "name": "TARDIS",
+            "type": "Object",
+            "description": "The Doctor's time machine, capable of receiving textual Mayday messages",
+            "origin": "Gallifrey",
+            "current_status": "Functional and responding to distress calls"
+        }
+    ],
+    "technobabble": [
+        "Vionesium, similar to magnesium, which emits light and carbon dioxide when exposed to air and thus ignited"
+    ],
+    "roots": [
+        "Romeo and Juliet ('Parting is such sweet sorrow')",
+        "Walter de la Mare's 'The Traveller'",
+        "Ten Little Indians",
+        "The Day of the Triffids",
+        "'On with the Motley'",
+        "The Just-So Stories of Kipling",
+        "Alien",
+        "Golden Rendezvous",
+        "The Mutations",
+        "Triangle",
+        "The Eagle comic",
+        "Little Shoppe of Horrors",
+        "Murder on the Orient Express"
+    ],
+    "links": [],
+    "locations": [
+        {
+            "name": "Mogar",
+            "type": "Location",
+            "description": "A planet in the Perseus Arm of the Milky Way, rich in rare metals and home to the Mogarians",
+            "origin": null,
+            "current_status": "Being exploitatively mined by humans"
+        },
+        {
+            "name": "Black Hole of Tartarus",
+            "type": "Location",
+            "description": "A celestial object between Mogar and Earth",
+            "origin": null,
+            "current_status": null
+        },
+        {
+            "name": "Hyperion 3",
+            "type": "Location",
+            "description": "An intergalactic liner on scheduled Mogar \u2013 Earth flight 113",
+            "origin": null,
+            "current_status": "In transit on 16 April 2986"
+        }
+    ],
+    "future_history": "Stella Stora suffered from grain shortages around 2983. Demeter plants grow in deserts and have high yields. There is a famine that the seeds will end.",
+    "untold_adventures": [
+        "The Doctor met Commodore (then Captain) 'Tonker' Travers, and the Captain nearly lost his ship, caught up in 'a web of mayhem and intrigue' with fatalities.",
+        "The Doctor knew Hallet, and admired him.",
+        "The Doctor has been to Mogar."
+    ],
+    "qv": null,
+    "additional_notes": "Fashion Victims: The Doctor's waistcoat.",
+    "bottom_line": "A well-constructed, archetypal Doctor Who story, let down by ridiculous dialogue and the now intrusive trial scenes."
+}

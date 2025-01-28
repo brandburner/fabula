@@ -1,0 +1,104 @@
+{
+    "title": "The Two Doctors",
+    "air_date": "16 February 1985",
+    "num_episodes": 3,
+    "episode_titles": [
+        "Episode 1",
+        "Episode 2",
+        "Episode 3"
+    ],
+    "episode_duration": 25,
+    "writers": [
+        "Robert Holmes"
+    ],
+    "directors": [
+        "Peter Moffatt"
+    ],
+    "media_format": "Color",
+    "dialogue_triumphs": [
+        "'Eternal blackness. No more sunsets. No more gumblejacks. Never more a butterfly.'"
+    ],
+    "dialogue_disasters": null,
+    "goofs": [
+        "The Androgums speak English (as Dona Arana recognizes).",
+        "Despite being a recluse, she is able to supply Shockeye with a current list of Seville restaurants."
+    ],
+    "continuity_notes": [
+        {
+            "name": "The Doctor",
+            "type": "Character",
+            "description": "Time Lord protagonist, currently in his sixth incarnation",
+            "origin": "Gallifrey",
+            "current_status": "Becomes a vegetarian after this adventure"
+        },
+        {
+            "name": "Sontarans",
+            "type": "Character",
+            "description": "Militaristic clone race, taller than humans in this story",
+            "origin": "Sontar",
+            "current_status": "Group Marshal Stike leads the 9th Sontaran Battle Group"
+        },
+        {
+            "name": "TARDIS",
+            "type": "Object",
+            "description": "Time and space travel machine used by the Doctor",
+            "origin": "Gallifrey",
+            "current_status": "Requires symbiotic control from a Time Lord"
+        },
+        {
+            "name": "Kartz-Reimer Module",
+            "type": "Object",
+            "description": "Experimental time travel device",
+            "origin": null,
+            "current_status": "Turned into a functioning time machine by the Doctor"
+        }
+    ],
+    "technobabble": [
+        "Ripples in time can be measured on the Bocca Scale",
+        "The Doctor talks of the holistic fabric of time",
+        "Time Lords have symbiotic nuclei affording protection from molecular break-up"
+    ],
+    "roots": [
+        "The Barber of Seville",
+        "Hamlet",
+        "Do Androids Dream of Electric Sheep?",
+        "Oliver Wendell Holmes",
+        "The Texas Chainsaw Massacre",
+        "V",
+        "Time Bandits",
+        "The Island of Dr Moreau",
+        "Waiting for Godot"
+    ],
+    "links": [
+        "Peri offers the Doctor celery when he seemingly faints",
+        "The Doctor talks of jelly babies and his recorder"
+    ],
+    "locations": [
+        {
+            "name": "Space station Chimera",
+            "type": "Location",
+            "description": "Space station created by various Third Zone governments",
+            "origin": "Third Zone",
+            "current_status": "Location of the story's opening events"
+        },
+        {
+            "name": "Seville",
+            "type": "Location",
+            "description": "City in Spain",
+            "origin": "Earth",
+            "current_status": "Primary Earth location for the story"
+        }
+    ],
+    "future_history": null,
+    "untold_adventures": [
+        "The Doctor has been to Seville before",
+        "The Doctor attended the inauguration of space station Chimera"
+    ],
+    "qv": [
+        "Season 6(b), 'The War Games'",
+        "Sontarans and Rutans, 'The Time Warrior'",
+        "Language, 'The Masque of Mandragora'"
+    ],
+    "additional_notes": "This is the only Doctor Who story to mention Shepton Mallet.",
+    "bottom_line": "An anti-meat message via the Doctor Who equivalent of a Peter Greenaway film. The tone is wrong, most notably in the meaningless murder of Oscar. The location filming is excellent, and below the tasteless surface it's actually a passable runaround. But Troughton deserved a better closing bow, which just goes to show that even Robert Holmes slipped up every now and again."
+}

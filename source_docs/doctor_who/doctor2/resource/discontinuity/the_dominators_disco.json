@@ -1,0 +1,81 @@
+{
+    "title": "The Dominators",
+    "air_date": "10 August 1968",
+    "num_episodes": 5,
+    "episode_titles": [
+        "Episode 1",
+        "Episode 2",
+        "Episode 3",
+        "Episode 4",
+        "Episode 5"
+    ],
+    "episode_duration": 25,
+    "writers": [
+        "Norman Ashby (a pseudonym for Mervyn Haisman, Henry Lincoln)"
+    ],
+    "directors": [
+        "Morris Barry"
+    ],
+    "media_format": "B_W",
+    "dialogue_triumphs": [
+        "The Doctor explains his plan to a baffled Jamie: 'An unintelligent enemy is far less dangerous than an intelligent one, Jamie. Just act stupid. Do you think you can manage that?'"
+    ],
+    "dialogue_disasters": null,
+    "goofs": [
+        "Episode three has no 'episode three' caption.",
+        "The rubble over a hatch in episode four vanishes.",
+        "Toba [exaggerating?] says that the Dominators are the 'masters of the Ten Galaxies'; Rago says that they control an entire galaxy.",
+        "The zip at the back of Zoe's skirt causes her problems on numerous occasions, being open in episodes two, three and five.",
+        "There's a whacking great close-up of Troughton's location double in episode five."
+    ],
+    "continuity_notes": [
+        {
+            "name": "Dulcians",
+            "type": "Character",
+            "description": "The inhabitants of Dulkis, with a dual cardiovascular system similar to Time Lords. They are unaware of extraterrestrial life.",
+            "origin": "Dulkis",
+            "current_status": "Peaceful civilization threatened by the Dominators"
+        },
+        {
+            "name": "Dominators",
+            "type": "Character",
+            "description": "Alien invaders searching for slave labor, capable of interstellar travel.",
+            "origin": null,
+            "current_status": "Attempting to conquer Dulkis"
+        },
+        {
+            "name": "Sonic Screwdriver",
+            "type": "Object",
+            "description": "The Doctor's multi-purpose tool, used as a cutting device in this story.",
+            "origin": null,
+            "current_status": "In the Doctor's possession"
+        }
+    ],
+    "technobabble": [
+        "The Dominators' ship stores radioactive particles and converts them into fuel."
+    ],
+    "roots": [
+        "Aesop's fables (the boy who cried wolf)",
+        "Lewis Carroll"
+    ],
+    "links": [
+        "The Doctor states that he is a little tired 'projecting all those mental images', referencing 'The Evil of the Daleks' repeat that bridged the gap between the seasons.",
+        "Zoe mentions both the Daleks and the Cybermen ('The Wheel in Space'), hoping that neither will be present on Dulkis."
+    ],
+    "locations": [
+        {
+            "name": "Dulkis",
+            "type": "Location",
+            "description": "Planet with a peaceful civilization, featuring an island used for atomic research and testing.",
+            "origin": null,
+            "current_status": "Under threat from the Dominators"
+        }
+    ],
+    "future_history": null,
+    "untold_adventures": [
+        "The Doctor has been to Dulkis before. He remembers the Dulcians as a very advanced, gentle people, and was reluctant to leave."
+    ],
+    "qv": null,
+    "additional_notes": "The episode deals with 60s concerns like unilateralism, the hippy movement, and the decadence of the bourgeoisie, handled with reactionary disdain via the unavoidable Doctor Who motif of alien invasion.",
+    "bottom_line": "A study in sadism, 'The Dominators' is also very dull."
+}

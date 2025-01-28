@@ -1,0 +1,103 @@
+{
+    "title": "Robot",
+    "air_date": "28 December 1974",
+    "num_episodes": 4,
+    "episode_titles": [
+        "Part One",
+        "Part Two",
+        "Part Three",
+        "Part Four"
+    ],
+    "episode_duration": 25,
+    "writers": [
+        "Terrance Dicks"
+    ],
+    "directors": [
+        "Christopher Barry"
+    ],
+    "media_format": "Color",
+    "dialogue_triumphs": [
+        "The Brigadier on neutral monitoring of superpower missile bases: 'Naturally enough, the only country that could be trusted with such a role was Great Britain.' 'Naturally,' says the Doctor. 'I mean, the rest were all foreigners.'"
+    ],
+    "dialogue_disasters": null,
+    "goofs": [
+        "K1 with doll Sarah and Action Man tank. His legs keep vanishing as well.",
+        "The SRS goes to great lengths to get the disintegrator gun, and then all they use it for is to blow open a safe door.",
+        "Miss Winters' feminist views don't accord with SRS views on women.",
+        "Kettlewell changes from a good boffin to the villain of the piece in a most unconvincing way.",
+        "Jellicoe can't decide if he's a squeamish villain or a Nazi maniac.",
+        "The robot's motives change from scene to scene and show contradictory programming.",
+        "The Doctor chops a brick in half, but it's clearly a block of balsa wood."
+    ],
+    "continuity_notes": [
+        {
+            "name": "The Fourth Doctor",
+            "type": "Character",
+            "description": "The newly regenerated Fourth Doctor, known for his eccentric behavior and iconic scarf.",
+            "origin": null,
+            "current_status": "Post-regenerative confusion, settling into his new incarnation."
+        },
+        {
+            "name": "TARDIS Key",
+            "type": "Object",
+            "description": "The key to the Doctor's time machine.",
+            "origin": null,
+            "current_status": "Kept in the Doctor's boots."
+        },
+        {
+            "name": "Sonic Screwdriver",
+            "type": "Object",
+            "description": "The Doctor's multi-purpose tool.",
+            "origin": null,
+            "current_status": "Can explode land mines and convert into a sonic lance to cut through locks."
+        },
+        {
+            "name": "Sergeant Benton",
+            "type": "Character",
+            "description": "UNIT soldier and ally of the Doctor.",
+            "origin": "Earth",
+            "current_status": "Promoted to Warrant Officer."
+        }
+    ],
+    "technobabble": null,
+    "roots": [
+        "King Kong",
+        "King Kong Meets Godzilla",
+        "Gog",
+        "Alice in Wonderland",
+        "Asimov's I, Robot",
+        "The Day the Earth Stood Still",
+        "Forbidden Planet",
+        "The Mutations",
+        "Toulouse-Lautrec (Tom Baker's costume design)",
+        "The Avengers' 'The Mauritius Penny'",
+        "Harryhausen's Jason and the Argonauts"
+    ],
+    "links": [
+        "The Time Warrior",
+        "Invasion of the Dinosaurs",
+        "Spearhead from Space",
+        "Planet of the Daleks",
+        "The Time Monster",
+        "The Curse of Peladon",
+        "The Monster of Peladon",
+        "The Sea Devils"
+    ],
+    "locations": [
+        {
+            "name": "London",
+            "type": "Location",
+            "description": "The capital city of the United Kingdom, where the story takes place.",
+            "origin": "Earth",
+            "current_status": "Setting for the episode's events in April 1973."
+        }
+    ],
+    "future_history": null,
+    "untold_adventures": [
+        "The Doctor's receipt of the 'freedom of the city of Skaro' from the Thals",
+        "The Doctor's experiences with the Alpha Centauri table tennis club"
+    ],
+    "qv": null,
+    "additional_notes": "The Doctor's pockets contain jelly babies, a scroll said to be the 'freedom of the city of Skaro', a pilot's licence on the Mars-Venus rocket run, a galactic passport, and honorary membership of the Alpha Centauri table tennis club.",
+    "bottom_line": "A steady, rather than spectacular, start for the new Doctor. A fun runaround, with lots of good bits, rather spoiled by silly scenes with the robot."
+}

@@ -1,0 +1,157 @@
+{
+  "metadata": {
+    "title": "Pilot",
+    "series": "The West Wing",
+    "season": "1",
+    "episode_number": 1,
+    "release_date": "22 September 1999",
+    "writer": "Aaron Sorkin",
+    "director": "Thomas Schlamme",
+    "producer": "Aaron Sorkin",
+    "main_actors": [
+      "Martin Sheen",
+      "Rob Lowe",
+      "John Spencer",
+      "Richard Schiff",
+      "Allison Janney",
+      "Bradley Whitford"
+    ],
+    "time_reference": "Modern-day (1999)"
+  },
+  "cast_crew": [
+    {
+      "cast": {
+        "name": "Martin Sheen",
+        "role": "President Josiah Bartlet"
+      },
+      "crew": {
+        "name": "Aaron Sorkin",
+        "role": "Writer"
+      }
+    },
+    {
+      "cast": {
+        "name": "Rob Lowe",
+        "role": "Sam Seaborn"
+      },
+      "crew": {
+        "name": "Thomas Schlamme",
+        "role": "Director"
+      }
+    },
+    {
+      "cast": {
+        "name": "John Spencer",
+        "role": "Leo McGarry"
+      },
+      "crew": {
+        "name": "W.G. Snuffy Walden",
+        "role": "Music"
+      }
+    },
+    {
+      "cast": {
+        "name": "Richard Schiff",
+        "role": "Toby Ziegler"
+      },
+      "crew": {
+        "name": "Christopher Nelson",
+        "role": "Editor"
+      }
+    },
+    {
+      "cast": {
+        "name": "Allison Janney",
+        "role": "C.J. Cregg"
+      },
+      "crew": {
+        "name": "Jon Hutman",
+        "role": "Production Designer"
+      }
+    },
+    {
+      "cast": {
+        "name": "Bradley Whitford",
+        "role": "Josh Lyman"
+      },
+      "crew": {
+        "name": "Michael Hissrich",
+        "role": "Co-producer"
+      }
+    }
+  ],
+  "home_media": [
+    {
+      "releases": {
+        "media_type": "DVD",
+        "date": "2000",
+        "details": "The entire season was released on DVD.",
+        "special_features": [
+          "Behind the Scenes",
+          "Deleted Scenes",
+          "Cast Commentary"
+        ]
+      }
+    },
+    {
+      "releases": {
+        "media_type": "BLU_RAY",
+        "date": "2015",
+        "details": "The complete series released on Blu-ray.",
+        "special_features": [
+          "Interviews with the cast",
+          "Making-of documentaries"
+        ]
+      }
+    }
+  ],
+  "story_notes": [
+    {
+      "notes": [
+        "This is the series premiere of 'The West Wing'.",
+        "The first words of the series are 'Two Absolut martinis, another Dewers rocks.'"
+      ]
+    }
+  ],
+  "worldbuilding": {
+    "in_universe_mythology": [],
+    "real_world_cultural_references": [
+      "Muammar Gaddafi",
+      "Annie Leibovitz"
+    ],
+    "individuals": [
+      "President Josiah Bartlet",
+      "Leo McGarry",
+      "C.J. Cregg"
+    ],
+    "items": [
+      "Presidential bicycle",
+      "Pagers"
+    ],
+    "locations": [
+      "White House",
+      "Oval Office",
+      "Situation Room",
+      "Four Seasons Hotel"
+    ]
+  },
+  "ratings": {
+    "ratings_millions": [
+      {
+        "part": "Pilot",
+        "viewers": 18.2
+      }
+    ]
+  },
+  "continuity": {
+    "continuity_notes": [
+      "Introduces key characters and establishes the main setting in the White House.",
+      "Sets up character relationships that will develop throughout the series."
+    ]
+  },
+  "plot": [
+    {
+      "plot_summary": "The episode introduces Senior Staffers at the West Wing of the White House as they deal with the fallout from President Bartlet's minor bike accident and the ramifications of Josh Lyman's gaffe during a public appearance. Tensions rise as they address various political crises and personal challenges, setting the stage for the complexities of running the country."
+    }
+  ]
+}

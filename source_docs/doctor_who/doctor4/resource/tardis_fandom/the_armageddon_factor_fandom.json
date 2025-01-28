@@ -1,0 +1,165 @@
+{
+  "metadata": {
+    "title": "The Armageddon Factor",
+    "series": "Doctor Who",
+    "season": "16",
+    "episode_number": 6,
+    "release_date": "1979-01-20",
+    "release_end_date": "1979-02-24",
+    "writer": "Bob Baker, Dave Martin",
+    "director": "Michael Hayes",
+    "producer": "Graham Williams",
+    "main_actors": [
+      "Tom Baker",
+      "Mary Tamm",
+      "John Leeson",
+      "John Woodvine",
+      "Lalla Ward"
+    ],
+    "time_reference": "During the Key to Time mission"
+  },
+  "cast_crew": [
+    {
+      "cast": {
+        "name": "Tom Baker",
+        "role": "Doctor Who"
+      },
+      "crew": {
+        "name": "Graham Williams",
+        "role": "Producer"
+      }
+    },
+    {
+      "cast": {
+        "name": "Mary Tamm",
+        "role": "Romana"
+      },
+      "crew": {
+        "name": "Michael Hayes",
+        "role": "Director"
+      }
+    },
+    {
+      "cast": {
+        "name": "John Leeson",
+        "role": "Voice of K9"
+      },
+      "crew": {
+        "name": "Anthony Read",
+        "role": "Script Editor"
+      }
+    },
+    {
+      "cast": {
+        "name": "John Woodvine",
+        "role": "Marshal"
+      },
+      "crew": {
+        "name": "Ann Briggs",
+        "role": "Make-Up"
+      }
+    },
+    {
+      "cast": {
+        "name": "Lalla Ward",
+        "role": "Princess Astra"
+      },
+      "crew": {
+        "name": "Richard McManan-Smith",
+        "role": "Designer"
+      }
+    }
+  ],
+  "home_media": [
+    {
+      "releases": {
+        "media_type": "DVD",
+        "date": "2007-09-24",
+        "special_features": [
+          "Commentary by Mary Tamm, John Woodvine and Michael Hayes",
+          "Defining Shadows featurette",
+          "Directing Who retrospective",
+          "Pebble Mill at One interview",
+          "Merry Christmas, Doctor Who skit"
+        ]
+      }
+    }
+  ],
+  "story_notes": [
+    {
+      "notes": [
+        "The final segment of the Key to Time is central to the story.",
+        "Mary Tamm decided to leave the series during this story's production.",
+        "Douglas Adams was involved in writing the final scene.",
+        "This was the 500th episode of Doctor Who.",
+        "It marked the final appearance of Romana I as played by Mary Tamm."
+      ]
+    }
+  ],
+  "worldbuilding": {
+    "in_universe_mythology": [
+      "The Key to Time",
+      "The Black Guardian",
+      "The White Guardian"
+    ],
+    "real_world_cultural_references": [
+      "Christopher Columbus",
+      "Troy",
+      "Fire walkers of Bali"
+    ],
+    "individuals": [
+      "The Shadow",
+      "Princess Astra",
+      "Drax"
+    ],
+    "items": [
+      "The Key to Time",
+      "TARDIS"
+    ],
+    "locations": [
+      "Atrios",
+      "Zeos",
+      "Planet of Evil"
+    ]
+  },
+  "ratings": {
+    "ratings_millions": [
+      {
+        "part": "Part one",
+        "viewers": 7.5
+      },
+      {
+        "part": "Part two",
+        "viewers": 8.8
+      },
+      {
+        "part": "Part three",
+        "viewers": 7.8
+      },
+      {
+        "part": "Part four",
+        "viewers": 8.6
+      },
+      {
+        "part": "Part five",
+        "viewers": 8.6
+      },
+      {
+        "part": "Part six",
+        "viewers": 9.6
+      }
+    ]
+  },
+  "continuity": {
+    "continuity_notes": [
+      "Continues the Key to Time arc.",
+      "Introduces the Black Guardian.",
+      "Lalla Ward would later play Romana after Tamm's departure."
+    ]
+  },
+  "plot": [
+    {
+      "plot_summary": "The Armageddon Factor is the concluding serial of the Key to Time season. The Doctor and Romana I arrive on the twin planets Atrios and Zeos, embroiled in a devastating war orchestrated by the ominous Shadow, serving the Black Guardian. As the Doctor uncovers the final segment of the Key embedded in the Princess Astra, he faces seduction by absolute power but opts to scatter the segments, thwarting the Black Guardian's ambitions. Protecting the galaxy and Astra's world, the Doctor installs a randomizer in the TARDIS, ensuring unpredictable travels ahead."
+    }
+  ]
+}

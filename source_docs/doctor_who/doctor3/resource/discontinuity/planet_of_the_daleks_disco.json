@@ -1,0 +1,119 @@
+{
+    "title": "Planet of the Daleks",
+    "air_date": "7 April 1973",
+    "num_episodes": 6,
+    "episode_titles": [
+        "Episode One",
+        "Episode Two",
+        "Episode Three",
+        "Episode Four",
+        "Episode Five",
+        "Episode Six"
+    ],
+    "episode_duration": 25,
+    "writers": [
+        "Terry Nation"
+    ],
+    "directors": [
+        "David Maloney"
+    ],
+    "media_format": "Color",
+    "dialogue_triumphs": [
+        "You know, for a man who abhors violence, I took great satisfaction in doing that."
+    ],
+    "dialogue_disasters": null,
+    "goofs": [
+        "Prentis Hancock doesn't finish his dialogue when answering the Doctor's question about the Spiridons' invisibility in episode two.",
+        "Trapped in the TARDIS with a dwindling air supply, the Doctor takes time to change clothes and find a new sonic screwdriver.",
+        "Jo anticipates the falling rock when discovering the Thal bombs.",
+        "When the Thals take cover on the plain of stones in episode four a huge, dark shape (probably a technician) appears behind the painted sky.",
+        "The second Dalek, pursuing Jo and Latep in episode five, knocks into a polystyrene 'rock' and moves it out of position.",
+        "The strings that operate the doors of the Dalek ship are visible, and the Dalek Supreme's lights are especially out-of-synch with his dialogue.",
+        "The Daleks seal themselves in to prevent the virus escaping. So what happens when the base blows up?",
+        "The Doctor seems to have forgotten that he followed the Daleks to Spiridon, and is surprised at the end of episode one."
+    ],
+    "continuity_notes": [
+        {
+            "name": "TARDIS",
+            "type": "Object",
+            "description": "The Doctor's time machine and spacecraft",
+            "origin": "Gallifrey",
+            "current_status": "Functioning, but with issues in its oxygen supply system"
+        },
+        {
+            "name": "Daleks",
+            "type": "Character",
+            "description": "Xenophobic cyborg race, sworn enemies of the Doctor",
+            "origin": "Skaro",
+            "current_status": "Attempting to create an invisible army on Spiridon"
+        },
+        {
+            "name": "Thals",
+            "type": "Character",
+            "description": "Humanoid race from Skaro, ancient enemies of the Daleks",
+            "origin": "Skaro",
+            "current_status": "Peaceful race, unaware of Earth's existence"
+        },
+        {
+            "name": "Spiridons",
+            "type": "Character",
+            "description": "Humanoid creatures with the ability to render themselves invisible",
+            "origin": "Spiridon",
+            "current_status": "Subjugated by the Daleks"
+        },
+        {
+            "name": "The Doctor",
+            "type": "Character",
+            "description": "Time Lord protagonist",
+            "origin": "Gallifrey",
+            "current_status": "Injured, falls into a coma with lowered body temperature"
+        },
+        {
+            "name": "Jo Grant",
+            "type": "Character",
+            "description": "The Doctor's companion",
+            "origin": "Earth",
+            "current_status": "Assisting the Doctor and the Thals"
+        }
+    ],
+    "technobabble": [
+        "The Daleks use an anti-reflecting light wave to combat light wave emissions.",
+        "The Doctor turns the TARDIS log into a Dalek-killing device by dismantling the circuitry, reversing the polarity, and turning it into a low power receiver/transmitter with 'a positive feedback'."
+    ],
+    "roots": [],
+    "links": [
+        "The Three Doctors",
+        "The Daleks",
+        "Frontier in Space",
+        "The Daemons",
+        "Colony in Space",
+        "The Curse of Peladon",
+        "The Mutants"
+    ],
+    "locations": [
+        {
+            "name": "Spiridon",
+            "type": "Location",
+            "description": "Planet in the Ninth System with a core composed of ice",
+            "origin": null,
+            "current_status": "Under Dalek occupation, site of a planned invasion force"
+        },
+        {
+            "name": "Skaro",
+            "type": "Location",
+            "description": "Home planet of the Daleks and Thals",
+            "origin": null,
+            "current_status": "Inhabited only by Thals at this point in time"
+        }
+    ],
+    "future_history": "The episode is set in the 26th century, immediately after the events of 'Frontier in Space'.",
+    "untold_adventures": [
+        "The Doctor's first visit to Skaro during the 'Dalek War'"
+    ],
+    "qv": [
+        "The First History of the Daleks, 'The Daleks'",
+        "The TARDIS Scanner, 'Full Circle'"
+    ],
+    "additional_notes": "Louis Marx Daleks are used to simulate an army, not for the first time in the programme's history. The Thals' spacesuits have flares, reflecting the fashion of the time.",
+    "bottom_line": "The early funereal atmosphere gives way to a typical coincidence-based Dalek story of hammy deaths and ridiculous escapes. A reworking of the themes and set-pieces of 'The Daleks', with pacifism and an anti-nuclear stance becoming weak monologues on bravery and caution."
+}

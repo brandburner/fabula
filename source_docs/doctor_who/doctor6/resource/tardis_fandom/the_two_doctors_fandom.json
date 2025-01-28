@@ -1,0 +1,177 @@
+{
+  "metadata": {
+    "title": "The Two Doctors",
+    "series": "Doctor Who",
+    "season": "22",
+    "release_date": "16 February 1985",
+    "release_end_date": "2 March 1985",
+    "writer": "Robert Holmes",
+    "director": "Peter Moffatt",
+    "producer": "John Nathan-Turner",
+    "main_actors": [
+      "Colin Baker",
+      "Patrick Troughton",
+      "Nicola Bryant",
+      "Frazer Hines",
+      "John Stratton",
+      "Jacqueline Pearce",
+      "Laurence Payne",
+      "Aimee Delamain",
+      "James Saxon",
+      "Carmen Gomez",
+      "Tim Raynham",
+      "Clinton Greyn"
+    ],
+    "time_reference": "circa 1985"
+  },
+  "cast_crew": [
+    {
+      "cast": {
+        "name": "Colin Baker",
+        "role": "The Sixth Doctor"
+      },
+      "crew": {
+        "name": "Robert Holmes",
+        "role": "Writer"
+      }
+    },
+    {
+      "cast": {
+        "name": "Patrick Troughton",
+        "role": "The Second Doctor"
+      },
+      "crew": {
+        "name": "Peter Moffatt",
+        "role": "Director"
+      }
+    },
+    {
+      "cast": {
+        "name": "Nicola Bryant",
+        "role": "Peri"
+      },
+      "crew": {
+        "name": "John Nathan-Turner",
+        "role": "Producer"
+      }
+    },
+    {
+      "cast": {
+        "name": "Frazer Hines",
+        "role": "Jamie"
+      },
+      "crew": {
+        "name": "Eric Saward",
+        "role": "Script Editor"
+      }
+    },
+    {
+      "cast": {
+        "name": "John Stratton",
+        "role": "Shockeye"
+      },
+      "crew": {
+        "name": "Jan Wright",
+        "role": "Costume Designer"
+      }
+    },
+    {
+      "cast": {
+        "name": "Jacqueline Pearce",
+        "role": "Chessene"
+      },
+      "crew": {
+        "name": "Catherine Davies",
+        "role": "Make-up Designer"
+      }
+    }
+  ],
+  "home_media": [
+    {
+      "releases": {
+        "media_type": "DVD",
+        "date": "8 September 2003",
+        "details": "Released as Doctor Who: The Two Doctors in a two-disc set.",
+        "special_features": [
+          "Commentary by Colin Baker, Nicola Bryant, Frazer Hines, Jacqueline Pearce, and Peter Moffatt",
+          "A Fix with Sontarans",
+          "Behind the Sofa: Robert Holmes and Doctor Who",
+          "Beneath the Lights",
+          "Beneath the Sun",
+          "Adventures in Time and Spain",
+          "Music-only Option",
+          "Production Subtitles",
+          "Photo Gallery",
+          "Easter Egg: Clean 1984 title sequence & closing credits"
+        ]
+      }
+    },
+    {}
+  ],
+  "story_notes": [
+    {
+      "notes": [
+        "The story is an allegory of meat-eating, hunting, and butchering.",
+        "Had multiple production issues during filming in Seville.",
+        "Final appearance of Patrick Troughton as the Second Doctor."
+      ]
+    }
+  ],
+  "worldbuilding": {
+    "in_universe_mythology": [
+      "Sontarans have green blood and are vulnerable to coronic acid.",
+      "Androgums are a primitive race that consumes humanoids."
+    ],
+    "real_world_cultural_references": [
+      "References to Shakespeare's Hamlet.",
+      "Hums part of 'Largo al factotum' from The Barber of Seville."
+    ],
+    "individuals": [
+      "Oscar Botcherby",
+      "Anita",
+      "Shockeye",
+      "Chessene"
+    ],
+    "items": [
+      "Kartz-Reimer module",
+      "Time machine technology"
+    ],
+    "locations": [
+      "Space Station Camera",
+      "Spanish hacienda near Seville"
+    ]
+  },
+  "ratings": {
+    "ratings_millions": [
+      {
+        "part": "Part One",
+        "viewers": 6.6
+      },
+      {
+        "part": "Part Two",
+        "viewers": 6.0
+      },
+      {
+        "part": "Part Three",
+        "viewers": 6.9
+      }
+    ]
+  },
+  "continuity": {
+    "continuity_notes": [
+      "This story takes place between The War Games and Spearhead from Space for the Second Doctor.",
+      "Continues the Sixth Doctor\u2019s characterization as a vegetarian influenced by earlier adventures."
+    ]
+  },
+  "plot": [
+    {
+      "plot_summary": "The Second Doctor and Jamie arrive on Space Station Camera to investigate time distortion experiments. Meanwhile, the Sixth Doctor and Peri are drawn into the conflict involving Chessene and the Sontarans, leading to a battle of wits and survival across time."
+    },
+    {
+      "plot_summary": "Peri engages with the villains while the Sixth Doctor tries to rescue his past self. The interference of Chessene and Shockeye threatens to disrupt the fabric of time with the plans of the Sontarans looming."
+    },
+    {
+      "plot_summary": "In a climactic showdown, the Doctors must prevent the Sontarans from succeeding in their plan, leading to transformations and final confrontations that test their resolve, leading to the return of the Second Doctor to his timeline."
+    }
+  ]
+}

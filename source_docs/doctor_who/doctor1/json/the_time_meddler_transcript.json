@@ -1,0 +1,3632 @@
+{
+    "Story": "The Time Meddler",
+    "Airdate": "1965-07-03",
+    "Episodes": [
+        {
+            "Episode": "Episode One - The Watcher",
+            "Scenes": [
+                {
+                    "Scene": "Tardis",
+                    "Dialogue": [
+                        {
+                            "Stage Direction": "The hum of the Tardis is broken only by the ticking of a very ornate clock."
+                        },
+                        {
+                            "Character": "VICKI",
+                            "Line": "I shall miss them, Doctor."
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "Who?"
+                        },
+                        {
+                            "Character": "VICKI",
+                            "Line": "Ian and Barbara."
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "Yes, I shall miss them too. First Susan and now them. Come over here, my dear, I'd like to talk to you."
+                        },
+                        {
+                            "Character": "VICKI",
+                            "Line": "What about the control panel?"
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "Oh, that's all right, my dear. It's already set. Their decision certainly surprised me, although it shouldn't, I know. But it was quite obvious they intended to take the first opportunity of going back home."
+                        },
+                        {
+                            "Character": "VICKI",
+                            "Line": "Well, they weren't getting any younger, were they?"
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "It's lucky for you child, they're not here to hear you say that. Good gracious me. You think they're old? What do you think of me?"
+                        },
+                        {
+                            "Character": "VICKI",
+                            "Line": "You're different, Doctor. Anyway, we may land in their time one day and be able to talk over old times."
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "Well, perhaps Vicki, perhaps."
+                        },
+                        {
+                            "Character": "VICKI",
+                            "Line": "Anyway, it's done now. I wonder where the Tardis'll take us next?"
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "Yes, it's done now, although I must admit I'm left with a small worry."
+                        },
+                        {
+                            "Character": "VICKI",
+                            "Line": "You know, I wouldn't mind New York. I didn't get to see a lot of it, what with the Daleks and everything. But what I saw from the top of the Empire State Building, I wouldn't mind going back there."
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "My dear Vicki, I'm trying to talk to you."
+                        },
+                        {
+                            "Character": "VICKI",
+                            "Line": "Oh, sorry."
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "I just wanted to ask you, are you sure you didn't want to go home too? I didn't give you very much time to consider now, did I? I should hate to think that you're just staying for the sake of an old man."
+                        },
+                        {
+                            "Character": "VICKI",
+                            "Line": "Oh, Doctor! I made my decision. I wanted to stay. Anyway, I wouldn't have anything to go back to."
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "Yes, your father"
+                        },
+                        {
+                            "Stage Direction": "Rattle."
+                        },
+                        {
+                            "Character": "VICKI",
+                            "Line": "Did you hear that?"
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "Yes, perhaps it's something fallen down, or maybe we've changed course."
+                        },
+                        {
+                            "Stage Direction": "Thump."
+                        },
+                        {
+                            "Character": "VICKI",
+                            "Line": "(sotto) There's someone in the living quarters. Doctor, be careful. It's obviously a Dalek."
+                        },
+                        {
+                            "Stage Direction": "The Doctor takes off his jacket to throw over the eye-piece. The doors open, and a ragged man carrying a stuffed toy staggers out and falls on the floor."
+                        },
+                        {
+                            "Character": "VICKI",
+                            "Line": "Steven!"
+                        }
+                    ]
+                },
+                {
+                    "Scene": "Clifftop",
+                    "Dialogue": [
+                        {
+                            "Stage Direction": "The Tardis materialise on a beach. A monk on the cliff top observes it."
+                        },
+                        {
+                            "Character": "MONK",
+                            "Line": "I wonder. Oh, I wonder."
+                        }
+                    ]
+                },
+                {
+                    "Scene": "Tardis",
+                    "Dialogue": [
+                        {
+                            "Character": "STEVEN",
+                            "Line": "Thanks. Sorry about that, Doc."
+                        },
+                        {
+                            "Character": "VICKI",
+                            "Line": "We thought you were dead."
+                        },
+                        {
+                            "Character": "STEVEN",
+                            "Line": "Well, I nearly was. I just managed to climb down that cable before it burned out. Then I came after you."
+                        },
+                        {
+                            "Character": "VICKI",
+                            "Line": "You should have shouted."
+                        },
+                        {
+                            "Character": "STEVEN",
+                            "Line": "Should have? I never stopped! Say, this is quite a ship you've got here, Doc. Never seen anything like it."
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "Now listen to me, young man. Sit down. Now, there are two things you can do. One, sit there until you get your breath back, and two, don't call me Doc! Now do I make myself clear?"
+                        },
+                        {
+                            "Character": "STEVEN",
+                            "Line": "Yes, yes, whatever you say, Doc-tor!"
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "Apart from that young man, I'm quite willing to accept you at your face value."
+                        },
+                        {
+                            "Character": "VICKI",
+                            "Line": "You were lucky to find the Tardis in all that jungle."
+                        },
+                        {
+                            "Character": "STEVEN",
+                            "Line": "Yeah, we were lucky. You know, I don't seem to remember much about it. There was a door. I went through it. I must have flaked out. I remember registering that, well, it didn't look like a ship. It was very small. I must have been delirious."
+                        },
+                        {
+                            "Character": "VICKI",
+                            "Line": "I don't suppose you were. It is very small outside. It's just in here it's big."
+                        },
+                        {
+                            "Character": "STEVEN",
+                            "Line": "Oh, come off it!"
+                        },
+                        {
+                            "Character": "VICKI",
+                            "Line": "You don't believe me, do you?"
+                        },
+                        {
+                            "Character": "STEVEN",
+                            "Line": "Oh, of course I do, Vicki. Every word."
+                        },
+                        {
+                            "Character": "VICKI",
+                            "Line": "This isn't an ordinary ship, you know. This is a time machine."
+                        },
+                        {
+                            "Character": "STEVEN",
+                            "Line": "Time? Look, this ship may have a way-out design, but time machines? That's ridiculous."
+                        },
+                        {
+                            "Character": "VICKI",
+                            "Line": "Doctor? He says the Tardis isn't a time machine."
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "Oh, does he now?"
+                        },
+                        {
+                            "Character": "VICKI",
+                            "Line": "Tell him."
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "I don't see why I should, my child. He'll learn soon enough."
+                        },
+                        {
+                            "Character": "STEVEN",
+                            "Line": "Look, Doctor, I've seen some spaceships in my time, admittedly nothing like this. Well, what does this do?"
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "That is the dematerialising control and that, over yonder, is the horizontal hold. Up there is the scanner, those are the doors, that is a chair with a panda on it. Sheer poetry, dear boy. Now please stop bothering me."
+                        },
+                        {
+                            "Character": "STEVEN",
+                            "Line": "Look, you gave this ship a name just now, what was it?"
+                        },
+                        {
+                            "Character": "VICKI",
+                            "Line": "Tardis, T A R D I S. It stands for Time And Relative Dimensions In Space."
+                        },
+                        {
+                            "Character": "STEVEN",
+                            "Line": "IDBI."
+                        },
+                        {
+                            "Character": "VICKI",
+                            "Line": "What? IDBI?"
+                        },
+                        {
+                            "Character": "STEVEN",
+                            "Line": "I D B I."
+                        },
+                        {
+                            "Character": "VICKI",
+                            "Line": "Yes?"
+                        },
+                        {
+                            "Character": "STEVEN",
+                            "Line": "It means I Don't Believe It."
+                        },
+                        {
+                            "Character": "VICKI",
+                            "Line": "You'll see, you'll see."
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "Vicki?"
+                        },
+                        {
+                            "Character": "VICKI",
+                            "Line": "Yes?"
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "I've checked up on all the readings. Now I think our guest will need a wash and brush up. So I think the best thing for you to do is go and find him some clothes and a cloak. Bring mine as well. We'll show him whether this is a time machine or not."
+                        },
+                        {
+                            "Character": "VICKI",
+                            "Line": "Where are we?"
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "Well, judging by the readings, my child, I think we've landed on the planet Earth."
+                        }
+                    ]
+                },
+                {
+                    "Scene": "Village",
+                    "Dialogue": [
+                        {
+                            "Stage Direction": "A woman puts a cauldron on a fire, It's Hur from the Stone Age, or rather, a descendant."
+                        },
+                        {
+                            "Character": "ELDRED",
+                            "Line": "Wulnoth with you?"
+                        },
+                        {
+                            "Character": "EDITH",
+                            "Line": "Inside."
+                        },
+                        {
+                            "Character": "ELDRED",
+                            "Line": "Something's landed on the beach. I saw it from the cliff."
+                        },
+                        {
+                            "Character": "WULNOTH",
+                            "Line": "What is it?"
+                        },
+                        {
+                            "Character": "ELDRED",
+                            "Line": "A large box washed ashore by the tide, probably from a ship. I didn't go down, I came for you."
+                        },
+                        {
+                            "Character": "WULNOTH",
+                            "Line": "What sort of box?"
+                        },
+                        {
+                            "Character": "ELDRED",
+                            "Line": "I don't know. It's just very big. I've never seen anything like it before."
+                        },
+                        {
+                            "Character": "WULNOTH",
+                            "Line": "The tide'll be turning. We must hurry. You lead the way."
+                        },
+                        {
+                            "Character": "EDITH",
+                            "Line": "It's a long way to the beach and back. What about your meal?"
+                        }
+                    ]
+                },
+                {
+                    "Scene": "Beach",
+                    "Dialogue": [
+                        {
+                            "Stage Direction": "The Doctor is examining a metal helm with horns on."
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "Where did you say you found this, Vicki?"
+                        },
+                        {
+                            "Character": "VICKI",
+                            "Line": "Just down there. I saw it as soon as I came out of the ship."
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "Yes, it's a bit rusted but, er, it's not as old as that. Tenth, eleventh century? England. Well, there you are, young man. What do you think of that now, eh? A Viking helmet."
+                        },
+                        {
+                            "Character": "STEVEN",
+                            "Line": "Oh, maybe."
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "What do you mean, maybe? What do you think it is, a space helmet for a cow?"
+                        },
+                        {
+                            "Character": "STEVEN",
+                            "Line": "Look, it could just as easily be part of a costume. You know, a toy left here by a child."
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "Oh, rubbish, rubbish."
+                        },
+                        {
+                            "Character": "STEVEN",
+                            "Line": "No more so than your theory. Though your ship is, to say the least, a little unusual."
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "Oh, I see, so you've changed your idea's now."
+                        },
+                        {
+                            "Character": "STEVEN",
+                            "Line": "If it is a time machine, I'm not saying it is, mind you, but if it is, shouldn't you know where we are? You know, your control panel?"
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "Yes, yes, yes, but unfortunately, we have a slight technical hitch at the moment. Excuse me."
+                        },
+                        {
+                            "Character": "VICKI",
+                            "Line": "As a matter of fact, we never know where we're going to land next."
+                        },
+                        {
+                            "Character": "STEVEN",
+                            "Line": "Oh, so assuming I believe what you tell me, you can't take me home."
+                        },
+                        {
+                            "Character": "VICKI",
+                            "Line": "Not by any direct route. Let's go exploring now?"
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "Yes, perhaps we should find a village whereby we can convince this young upstart of the true facts."
+                        },
+                        {
+                            "Character": "STEVEN",
+                            "Line": "Oh, great, Doctor. I'm all for that. But there is one thing that bothers me."
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "Oh, yes? What is it now?"
+                        },
+                        {
+                            "Character": "STEVEN",
+                            "Line": "Well, how come you chose such an unusual design for your ship? A Police telephone box? Is that right?"
+                        },
+                        {
+                            "Stage Direction": "The Monk is hiding behind a rock, listening to them."
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "The design is completely immaterial, young man. The Tardis is required to land and blend in with its surroundings."
+                        },
+                        {
+                            "Character": "STEVEN",
+                            "Line": "Blend in?"
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "Yes, quite so. For instance, If we were to land in the middle of the Indian mutiny, well, I'm sure the ship could possibly take on the appearance of a howdah."
+                        },
+                        {
+                            "Character": "STEVEN",
+                            "Line": "How-what?"
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "A Howdah! A carrier on the back of an elephant."
+                        },
+                        {
+                            "Character": "STEVEN",
+                            "Line": "Oh, I see. Oh, and, and if it landed on the pebbles?"
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "On the what?"
+                        },
+                        {
+                            "Character": "STEVEN",
+                            "Line": "If it landed on the beach against the cliffs, it'd take on the appearance of a large rock?"
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "Yes, yes, yes, yes, but you do keep on, don't you."
+                        },
+                        {
+                            "Character": "STEVEN",
+                            "Line": "Do you wonder why I don't believe you? You know, that large rock over there looks exactly like a Police telephone box."
+                        },
+                        {
+                            "Character": "VICKI",
+                            "Line": "That is merely another technical hitch and the Doctor will repair it one day. Anyway, if we're going to do any exploring we should do it now, 'cos it's going to get dark in a minute."
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "Now I suggest we take a walk along the beach and try and find a spot where the cliffs run down to sea level."
+                        },
+                        {
+                            "Character": "STEVEN",
+                            "Line": "Yeah, but that could be miles. It'd be much quicker to go up here."
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "Yes, so possibly it might, but I'm not a mountain goat and I prefer walking to it any day, and I hate climbing!"
+                        },
+                        {
+                            "Character": "VICKI",
+                            "Line": "We'll go with you, Doctor."
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "No, you won't, you'll stay with the ship and wait 'til I've got to the top then you can both climb up and join me."
+                        },
+                        {
+                            "Character": "VICKI",
+                            "Line": "But, Doctor, you might get"
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "I'm not going to argue, my child."
+                        },
+                        {
+                            "Character": "STEVEN",
+                            "Line": "Yes, but."
+                        },
+                        {
+                            "Stage Direction": "The Doctor leaves."
+                        },
+                        {
+                            "Character": "STEVEN",
+                            "Line": "Oh, heck."
+                        },
+                        {
+                            "Character": "VICKI",
+                            "Line": "You might try being a bit more tactful in future"
+                        },
+                        {
+                            "Character": "STEVEN",
+                            "Line": "Don't you start as well, come on, let's go up."
+                        },
+                        {
+                            "Character": "VICKI",
+                            "Line": "No, I think we should stay here and wait for him like the Doctor said."
+                        },
+                        {
+                            "Character": "STEVEN",
+                            "Line": "Why? We've got to go up there sooner or later. It might as well be sooner. We can walk along the top and meet. Hey, that bit there looks climbable. Come on."
+                        },
+                        {
+                            "Character": "VICKI",
+                            "Line": "I'm not"
+                        },
+                        {
+                            "Character": "VICKI + STEVEN",
+                            "Line": "very good on heights!"
+                        },
+                        {
+                            "Character": "STEVEN",
+                            "Line": "Oh, come on, you'll be all right."
+                        },
+                        {
+                            "Stage Direction": "Vicki and Steven leaves, and the Monk examines the Tardis, then smiles."
+                        }
+                    ]
+                },
+                {
+                    "Scene": "Hut",
+                    "Dialogue": [
+                        {
+                            "Stage Direction": "As evening falls, the Doctor enters the village and goes into Wolnoth's hut. He picks up a dead fox, then tests a longbow. A dog or wolf howls and he goes outside. Someone uses a forked stick to pin him to the wall."
+                        }
+                    ]
+                },
+                {
+                    "Scene": "Monastery",
+                    "Dialogue": [
+                        {
+                            "Stage Direction": "Owls are hooting as the Monk unlocks the main door and bars it behind him. After a few moments a light shines out of an upper window then we hear monks chanting, presumably Vespers."
+                        }
+                    ]
+                },
+                {
+                    "Scene": "Clifftop",
+                    "Dialogue": [
+                        {
+                            "Stage Direction": "The tide has come right in now."
+                        },
+                        {
+                            "Character": "ELDRED",
+                            "Line": "Yes, it was on the beach, below us here."
+                        },
+                        {
+                            "Character": "WULNOTH",
+                            "Line": "Are you certain?"
+                        },
+                        {
+                            "Character": "ELDRED",
+                            "Line": "Yes, positive. I remember the way the rocks look."
+                        },
+                        {
+                            "Character": "WULNOTH",
+                            "Line": "Pity, it might have been valuable."
+                        },
+                        {
+                            "Character": "ELDRED",
+                            "Line": "It would have been crushed against the rocks by now, whatever it was."
+                        }
+                    ]
+                },
+                {
+                    "Scene": "Village",
+                    "Dialogue": [
+                        {
+                            "Stage Direction": "A horn of drink is poured and taken outside. The monks can be heard here too."
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "Oh, what's this?"
+                        },
+                        {
+                            "Character": "EDITH",
+                            "Line": "Mead."
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "Mead? Oh, mead. Yes, of course, yes. Yes, how nice of you, yes. Delightful, thank you, thank you. Well, here's to your very good health."
+                        },
+                        {
+                            "Stage Direction": "The Doctor drinks."
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "Oh, delightful. Oh, yes, delightful. Tell me, is the monastery near here?"
+                        },
+                        {
+                            "Character": "EDITH",
+                            "Line": "No, it's not far from here. It's just at the top of the hill. And when the winds in the right direction, you can hear the monks much clearer, as though they're down in the village."
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "Oh, yes, yes, yes, yes, yes, quite understandable, you know. Sounds do play funny tricks at times."
+                        },
+                        {
+                            "Character": "EDITH",
+                            "Line": "I, er, I hope you will forgive a woman's harsh welcome. We do fear strangers but we're very happy to welcome a traveller. Not that we see many in this wild place. I'm sure that when my husband returns, he'll insist that you stay the night. And then you can rejoin your friends in the morning."
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "Well, that's very kind, very kind indeed. And I do hope they won't worry about me too much. You know, I hadn't intended to walk quite so far. You are near the coast?"
+                        },
+                        {
+                            "Character": "EDITH",
+                            "Line": "Yes. While there are fish in the sea, one need never starve."
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "Yes, yes."
+                        },
+                        {
+                            "Character": "EDITH",
+                            "Line": "Course, there are bad things, too."
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "Oh, of course, of course, my dear. The Vikings, for example?"
+                        },
+                        {
+                            "Character": "EDITH",
+                            "Line": "Not that we've seen much of them, this year. Except for that one raid that was beaten off just north of here."
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "Yes, I had heard about that battle, yes, yes. The King, er, greatly improved the position no end."
+                        },
+                        {
+                            "Character": "EDITH",
+                            "Line": "The King? Harold Godwinson? We received no help from him."
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "You know, it seems like yesterday that the good King Edward was laid to rest. When was it?"
+                        },
+                        {
+                            "Character": "EDITH",
+                            "Line": "It was the beginning of the year."
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "Oh, of course. Yes, yes, yes, the beginning of the year, yes, yes, yes. How silly. Yes, it's most refreshing."
+                        },
+                        {
+                            "Character": "EDITH",
+                            "Line": "Oh, I'll get you more."
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "Oh, thank you. Yes, thank you, my dear."
+                        },
+                        {
+                            "Stage Direction": "Edith goes into the hut."
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "Now, if Harold is king, and Edward was laid to rest at the beginning of the year, then it must be 1066! Yes. Judging by the appearance of these leaves, late summer. And a balmy night, a balmy night."
+                        },
+                        {
+                            "Stage Direction": "Edith returns."
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "Oh, thank you, my dear. Thank you, thank you. Er, you know, it's a bit stupid of me but, we are in Northumbria?"
+                        },
+                        {
+                            "Character": "EDITH",
+                            "Line": "Yes, of course, we are. Why do you ask?"
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "Oh, nothing, nothing, I just that I wasn't sure whether I'd crossed the border or not. Yes, it's a bit tedious of me, isn't it? But you must have patience with an old man."
+                        },
+                        {
+                            "Character": "EDITH",
+                            "Line": "Oh, please, sit down and rest before the fire. You must be tired after your journey. Forgive me, I have things to do before Wulnoth returns."
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "I will, I will, and thank you indeed. Thank you. Yes, it's a great pity that Barbara isn't here. Now, if my memory of English history serves me right, we're about to have a Viking invasion and very soon. Now, let me think. Harold came north to defeat Hardrada, the Norwegian King. Yes, now that was before he faced William the Conqueror at Hastings. It's all very interesting. Yes, that's very, very, very, very interesting. It's going to put that young man in his place."
+                        },
+                        {
+                            "Stage Direction": "The chanting slows down then suddenly gets back up to speed again."
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "Woman! Woman! Where are you?"
+                        },
+                        {
+                            "Character": "EDITH",
+                            "Line": "What? What is it?"
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "The monastery. Where is it, did you say?"
+                        },
+                        {
+                            "Character": "EDITH",
+                            "Line": "Well, at the top of the hill. Why? What's the matter?"
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "The monks, have they been here long?"
+                        },
+                        {
+                            "Character": "EDITH",
+                            "Line": "No, the monastery itself's been deserted for years and years and then, several weeks ago, a few monks must have moved back in."
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "And you haven't seen them? No one in the village has?"
+                        },
+                        {
+                            "Character": "EDITH",
+                            "Line": "One's been seen, but never spoken to. How does he know that?"
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "Oh, you've been very kind, and a great help, yes. I'm sorry, but I must take my leave of you."
+                        },
+                        {
+                            "Character": "EDITH",
+                            "Line": "Are you going to the monastery?"
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "I most certainly am."
+                        }
+                    ]
+                },
+                {
+                    "Scene": "Forest",
+                    "Dialogue": [
+                        {
+                            "Character": "STEVEN",
+                            "Line": "Look, are you coming?"
+                        },
+                        {
+                            "Character": "VICKI",
+                            "Line": "Can't we rest a minute?"
+                        },
+                        {
+                            "Character": "STEVEN",
+                            "Line": "We just did."
+                        },
+                        {
+                            "Character": "VICKI",
+                            "Line": "Well, I'm tired."
+                        },
+                        {
+                            "Character": "STEVEN",
+                            "Line": "Oh, well, we'll wait a little while. But we're lost. We can't stay here all night."
+                        },
+                        {
+                            "Stage Direction": "A twig snaps."
+                        },
+                        {
+                            "Character": "VICKI",
+                            "Line": "Shh!"
+                        },
+                        {
+                            "Character": "STEVEN",
+                            "Line": "What's the matter?"
+                        },
+                        {
+                            "Character": "VICKI",
+                            "Line": "I think somebody's coming."
+                        },
+                        {
+                            "Character": "STEVEN",
+                            "Line": "Why are we hiding? We can ask him the way."
+                        },
+                        {
+                            "Character": "VICKI",
+                            "Line": "No. Because I think we should follow him until we find out whether it's safe or not."
+                        },
+                        {
+                            "Character": "STEVEN",
+                            "Line": "Oh."
+                        },
+                        {
+                            "Character": "VICKI",
+                            "Line": "Supposing you do what I say for once?"
+                        },
+                        {
+                            "Stage Direction": "It's a villager with a rabbit for the pot. He stops and picks something up from the ground."
+                        },
+                        {
+                            "Character": "VICKI",
+                            "Line": "He's found something."
+                        },
+                        {
+                            "Character": "STEVEN",
+                            "Line": "What is it?"
+                        },
+                        {
+                            "Character": "VICKI",
+                            "Line": "I can't see."
+                        },
+                        {
+                            "Character": "STEVEN",
+                            "Line": "Did you drop something? Hey! You!"
+                        },
+                        {
+                            "Stage Direction": "The villager runs off."
+                        },
+                        {
+                            "Character": "STEVEN",
+                            "Line": "Hey! Come back!"
+                        },
+                        {
+                            "Character": "VICKI",
+                            "Line": "Steven!"
+                        },
+                        {
+                            "Stage Direction": "Steven catches the villager."
+                        },
+                        {
+                            "Character": "VICKI",
+                            "Line": "Steven, I... Leave him alone! Stop it! Stop it, Steven!"
+                        },
+                        {
+                            "Stage Direction": "Steven lets go and the villager runs off."
+                        },
+                        {
+                            "Character": "VICKI",
+                            "Line": "You all right?"
+                        },
+                        {
+                            "Character": "STEVEN",
+                            "Line": "Yes, I think so. I got it."
+                        },
+                        {
+                            "Character": "VICKI",
+                            "Line": "What was it?"
+                        },
+                        {
+                            "Stage Direction": "A wrist watch with an expanding bracelet, and the time is 11.50."
+                        },
+                        {
+                            "Character": "STEVEN",
+                            "Line": "You still say this is tenth century England?"
+                        }
+                    ]
+                },
+                {
+                    "Scene": "Monastery door",
+                    "Dialogue": [
+                        {
+                            "Stage Direction": "The Doctor arrives at the monastery and tries the door, but it is still bolted. He steps back, and the door is unbolted from the inside. It swings open."
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "Episode": "Episode Two - The Meddling Monk",
+            "Scenes": [
+                {
+                    "Scene": "Monastery Kitchen",
+                    "Dialogue": [
+                        {
+                            "Stage Direction": "Next morning, the Monk is making breakfast with an electronic toaster and a camping stove. He puts fried eggs and toast onto a plate on a tray along with a china tea cup and heads off through the monastery."
+                        }
+                    ]
+                },
+                {
+                    "Scene": "Cell",
+                    "Dialogue": [
+                        {
+                            "Character": "(The Monk quietly opens the door and slides the tray inside before locking up again then MONK",
+                            "Line": "Breakfast! Breakfast! Come along. Early to bed, early to rise! Come on. Do you want the eggs to get cold?"
+                        },
+                        {
+                            "Stage Direction": "The cup of tea is thrown in his face."
+                        },
+                        {
+                            "Character": "DOCTOR [OC]",
+                            "Line": "Go away! I'll come out when I'm ready."
+                        }
+                    ]
+                },
+                {
+                    "Scene": "Forest",
+                    "Dialogue": [
+                        {
+                            "Stage Direction": "The villagers spot the sleeping travellers."
+                        },
+                        {
+                            "Character": "VICKI",
+                            "Line": "Steven? Steven? Oh, Steven!"
+                        },
+                        {
+                            "Character": "STEVEN",
+                            "Line": "Morning. What are you looking so jittery about?"
+                        },
+                        {
+                            "Character": "VICKI",
+                            "Line": "I thought I heard somebody moving about in the bushes."
+                        },
+                        {
+                            "Character": "STEVEN",
+                            "Line": "That was me. I was looking for some food."
+                        },
+                        {
+                            "Character": "VICKI",
+                            "Line": "Did you find anything?"
+                        },
+                        {
+                            "Character": "STEVEN",
+                            "Line": "That's a matter of opinion. Want some breakfast?"
+                        },
+                        {
+                            "Character": "VICKI",
+                            "Line": "Yes, please."
+                        },
+                        {
+                            "Character": "STEVEN",
+                            "Line": "Well, you can either have some blackberries or some blackberries."
+                        },
+                        {
+                            "Character": "VICKI",
+                            "Line": "I don't think it matters, thanks. Oh, I\u2018m freezing."
+                        },
+                        {
+                            "Character": "STEVEN",
+                            "Line": "Mmm. We'd better get moving then."
+                        },
+                        {
+                            "Character": "VICKI",
+                            "Line": "What, back to the Tardis?"
+                        },
+                        {
+                            "Character": "STEVEN",
+                            "Line": "Yes. If the Doctor's not there, we'll have to think again."
+                        },
+                        {
+                            "Character": "VICKI",
+                            "Line": "I wonder what time it is."
+                        },
+                        {
+                            "Stage Direction": "Steven shows her the watch on his wrist."
+                        },
+                        {
+                            "Character": "STEVEN",
+                            "Line": "Twenty past five."
+                        },
+                        {
+                            "Character": "VICKI",
+                            "Line": "I wonder if the Doctor did drop that."
+                        },
+                        {
+                            "Character": "STEVEN",
+                            "Line": "You said before he didn't have a watch."
+                        },
+                        {
+                            "Character": "VICKI",
+                            "Line": "I said I didn't think he had."
+                        },
+                        {
+                            "Character": "STEVEN",
+                            "Line": "Oh, why don't you admit all this tenth century stuff's just"
+                        },
+                        {
+                            "Stage Direction": "A twig snaps and Steven goes to investigate."
+                        },
+                        {
+                            "Character": "VICKI",
+                            "Line": "There's somebody there. Steven? Steven?"
+                        },
+                        {
+                            "Stage Direction": "Eldred grabs Vicki and puts a knife to her throat while two others jump Steven."
+                        },
+                        {
+                            "Character": "ELDRED",
+                            "Line": "What shall we do with them?"
+                        },
+                        {
+                            "Character": "WULNOTH",
+                            "Line": "Take them to the village."
+                        }
+                    ]
+                },
+                {
+                    "Scene": "Outside the Monastery",
+                    "Dialogue": [
+                        {
+                            "Stage Direction": "The Monk comes out, and looks at his wrist. Is he missing a watch? He goes up to the ridge, but hurries down and sits reading a scroll when..."
+                        },
+                        {
+                            "Character": "EDITH",
+                            "Line": "Good morning, Father."
+                        },
+                        {
+                            "Character": "MONK",
+                            "Line": "Ah, good morning, my children. Good morning. Oh, so deep was I in my meditations, I failed to see you arrive. You must forgive me."
+                        },
+                        {
+                            "Character": "EDITH",
+                            "Line": "Oh, no, it is we who should ask forgiveness of you, disturbing you like this."
+                        },
+                        {
+                            "Character": "MONK",
+                            "Line": "No please, please. You're always welcome here."
+                        },
+                        {
+                            "Character": "EDITH",
+                            "Line": "We, er, we thought you might need some food."
+                        },
+                        {
+                            "Character": "MONK",
+                            "Line": "Ah, how very charitable of you, my dear."
+                        },
+                        {
+                            "Character": "EDITH",
+                            "Line": "Oh, I'm sorry Father, it's poor fare for the likes of you."
+                        },
+                        {
+                            "Character": "MONK",
+                            "Line": "Yes, but don't distress yourself, my child. We must all be prepared to make sacrifices when they're asked of us. Well, I, er, I would like to stop and talk and pass the time of day with you, but this morning, solitude and study are uppermost in my mind."
+                        },
+                        {
+                            "Character": "EDITH",
+                            "Line": "We understand, Father."
+                        },
+                        {
+                            "Character": "MONK",
+                            "Line": "Thank you again, my child. Good morning."
+                        },
+                        {
+                            "Character": "EDITH",
+                            "Line": "Morning, Father."
+                        },
+                        {
+                            "Stage Direction": "Once they have gone, he is able to get his binoculars out and scan the horizon."
+                        }
+                    ]
+                },
+                {
+                    "Scene": "Cell",
+                    "Dialogue": [
+                        {
+                            "Character": "DOCTOR [OC]",
+                            "Line": "Open this door! Open this door, will you! Open it!"
+                        }
+                    ]
+                },
+                {
+                    "Scene": "Clifftop",
+                    "Dialogue": [
+                        {
+                            "Stage Direction": "The Monk settles down, and would take a pinch of snuff except the wind blows it away. A Viking longship comes into view."
+                        },
+                        {
+                            "Character": "MONK",
+                            "Line": "At last! At last!"
+                        }
+                    ]
+                },
+                {
+                    "Scene": "Village",
+                    "Dialogue": [
+                        {
+                            "Character": "VICKI",
+                            "Line": "Are you all right?"
+                        },
+                        {
+                            "Character": "STEVEN",
+                            "Line": "I've felt better. I dare say I'll get over it. It's pretty authentic Saxon, isn't it?"
+                        },
+                        {
+                            "Character": "VICKI",
+                            "Line": "Don't tell me you've actually started to believe us?"
+                        },
+                        {
+                            "Character": "STEVEN",
+                            "Line": "I mean they'd hardly go to all this trouble for a fancy dress ball, now would they? We've got to get out of here."
+                        },
+                        {
+                            "Stage Direction": "But spears bar his way."
+                        },
+                        {
+                            "Character": "VICKI",
+                            "Line": "It looks as though they want us to stay."
+                        },
+                        {
+                            "Character": "STEVEN",
+                            "Line": "Yes, we must be more popular than we thought."
+                        },
+                        {
+                            "Character": "ELDRED",
+                            "Line": "Wulnoth, we can't just let them go!"
+                        },
+                        {
+                            "Character": "WULNOTH",
+                            "Line": "Their clothes are strange. If they're travellers"
+                        },
+                        {
+                            "Character": "ELDRED",
+                            "Line": "Travellers? With no provisions or belongings? And travelled from where?"
+                        },
+                        {
+                            "Character": "WULNOTH",
+                            "Line": "Well, we can ask them, Eldred."
+                        },
+                        {
+                            "Character": "ELDRED",
+                            "Line": "Why listen to their lies? They've been put ashore somewhere along to the coast to spy for the Vikings."
+                        },
+                        {
+                            "Character": "WULNOTH",
+                            "Line": "You've got no proof of that!"
+                        },
+                        {
+                            "Character": "ELDRED",
+                            "Line": "Nor do we have proof of what you say!"
+                        },
+                        {
+                            "Character": "WULNOTH",
+                            "Line": "Maybe not, but I'm the headman of the village."
+                        },
+                        {
+                            "Character": "ELDRED",
+                            "Line": "You maybe Headman now, but when the people hear how you treated their enemies, those two will be killed!"
+                        },
+                        {
+                            "Character": "WULNOTH",
+                            "Line": "Eldred!"
+                        },
+                        {
+                            "Character": "EDITH",
+                            "Line": "Eldred!"
+                        },
+                        {
+                            "Stage Direction": "There's a stand off, then Edith goes over to Vicki and Steven."
+                        },
+                        {
+                            "Character": "EDITH",
+                            "Line": "Are you looking for an old man with long white hair?"
+                        },
+                        {
+                            "Character": "STEVEN",
+                            "Line": "You've seen him?"
+                        },
+                        {
+                            "Character": "WULNOTH",
+                            "Line": "Of which old man do you speak, woman?"
+                        },
+                        {
+                            "Character": "EDITH",
+                            "Line": "He came here late last night. He wore clothes like these people."
+                        },
+                        {
+                            "Character": "STEVEN",
+                            "Line": "Do you know where he is now?"
+                        },
+                        {
+                            "Character": "WULNOTH",
+                            "Line": "Did you question him?"
+                        },
+                        {
+                            "Character": "EDITH",
+                            "Line": "A little. He said he was a traveller."
+                        },
+                        {
+                            "Character": "ELDRED",
+                            "Line": "Then he lied."
+                        },
+                        {
+                            "Character": "STEVEN",
+                            "Line": "Oh, for goodness sake."
+                        },
+                        {
+                            "Character": "ELDRED",
+                            "Line": "Wulnoth! I do not trust them!"
+                        },
+                        {
+                            "Character": "STEVEN",
+                            "Line": "Well, I'm not mad about you either!"
+                        },
+                        {
+                            "Character": "WULNOTH",
+                            "Line": "I think these people are what they say they are, Eldred. Innocent travellers."
+                        },
+                        {
+                            "Character": "ELDRED",
+                            "Line": "I do not trust them. Sooner or later you will regret that you didn't listen to me."
+                        },
+                        {
+                            "Character": "VICKI",
+                            "Line": "Are you going to stand here arguing all day? Either let us go, or do whatever you're going to do, but make up your minds."
+                        },
+                        {
+                            "Character": "WULNOTH",
+                            "Line": "You can go. Edith, take the girl inside and get some food for their journey."
+                        }
+                    ]
+                },
+                {
+                    "Scene": "Hut",
+                    "Dialogue": [
+                        {
+                            "Character": "VICKI",
+                            "Line": "And the Doctor, the old man, what happened to him?"
+                        },
+                        {
+                            "Character": "EDITH",
+                            "Line": "Oh, he was going to stay and then he suddenly decided to visit the monastery."
+                        },
+                        {
+                            "Character": "VICKI",
+                            "Line": "That's quite near here, isn't it? I heard the singing."
+                        },
+                        {
+                            "Character": "EDITH",
+                            "Line": "It's not far. It's just at the top of the hill behind the forest. I can take you."
+                        },
+                        {
+                            "Character": "VICKI",
+                            "Line": "Oh, it's all right, thanks."
+                        },
+                        {
+                            "Character": "EDITH",
+                            "Line": "Here."
+                        }
+                    ]
+                },
+                {
+                    "Scene": "Village",
+                    "Dialogue": [
+                        {
+                            "Character": "VICKI",
+                            "Line": "Steven."
+                        },
+                        {
+                            "Character": "STEVEN",
+                            "Line": "Thanks. Thank you."
+                        },
+                        {
+                            "Character": "VICKI",
+                            "Line": "Thank you."
+                        },
+                        {
+                            "Character": "EDITH",
+                            "Line": "God be with you."
+                        },
+                        {
+                            "Character": "WULNOTH",
+                            "Line": "God be with you."
+                        },
+                        {
+                            "Character": "STEVEN",
+                            "Line": "God be with you."
+                        },
+                        {
+                            "Character": "WULNOTH",
+                            "Line": "Time we were working in the fields."
+                        }
+                    ]
+                },
+                {
+                    "Scene": "Clifftop",
+                    "Dialogue": [
+                        {
+                            "Stage Direction": "The Vikings use grappling hooks to scale the cliffs."
+                        },
+                        {
+                            "Character": "ULF",
+                            "Line": "Any sign of life?"
+                        },
+                        {
+                            "Character": "VIKING",
+                            "Line": "No. Tell the others to wait below. Sven, you, with Ulf and Gunnar go south. Radnor will take a similar group to the north."
+                        },
+                        {
+                            "Character": "SVEN",
+                            "Line": "I understand."
+                        },
+                        {
+                            "Character": "VIKING",
+                            "Line": "And remember, Sven, when you rejoin the force, we will want to know the lie of the land. Where there is food and fresh water available, and the strength of the villages."
+                        },
+                        {
+                            "Character": "SVEN",
+                            "Line": "And if we're seen?"
+                        },
+                        {
+                            "Character": "VIKING",
+                            "Line": "Then you'll have no choice but to fight. But keep in your minds this is no ordinary raid. You are the eyes of the King."
+                        },
+                        {
+                            "Character": "ULF",
+                            "Line": "We'll need provisions ourselves."
+                        },
+                        {
+                            "Character": "SVEN",
+                            "Line": "The first village we find will provide those."
+                        },
+                        {
+                            "Character": "VIKING",
+                            "Line": "Yes, but be careful. If your presence here can be kept secret, Harold Hardrada will have surprise on his side. Now, go."
+                        },
+                        {
+                            "Character": "SVEN",
+                            "Line": "Gunnar."
+                        },
+                        {
+                            "Character": "VIKING",
+                            "Line": "Send Ragra and the others up. Then we can rejoin the fleet."
+                        }
+                    ]
+                },
+                {
+                    "Scene": "Outside the Monastery",
+                    "Dialogue": [
+                        {
+                            "Stage Direction": "Steven knocks on the door."
+                        },
+                        {
+                            "Character": "VICKI",
+                            "Line": "It's very beautiful here, isn't it?"
+                        },
+                        {
+                            "Character": "STEVEN",
+                            "Line": "They could use a gardener."
+                        },
+                        {
+                            "Character": "MONK",
+                            "Line": "Good day, my children, good day."
+                        },
+                        {
+                            "Character": "STEVEN",
+                            "Line": "Good day. We're looking for"
+                        },
+                        {
+                            "Character": "MONK",
+                            "Line": "Indeed, we're all searching for something. Some like myself seek it in the peace and solitude that repose behind these monastery"
+                        },
+                        {
+                            "Character": "STEVEN",
+                            "Line": "We are looking for a friend of ours."
+                        },
+                        {
+                            "Character": "MONK",
+                            "Line": "Oh, you think I can help?"
+                        },
+                        {
+                            "Character": "VICKI",
+                            "Line": "He left word in the village that he was coming up here."
+                        },
+                        {
+                            "Character": "MONK",
+                            "Line": "Would that we could all realise our ambitions. Be they a lifelong wish or a stated intention of journeying for self"
+                        },
+                        {
+                            "Character": "STEVEN",
+                            "Line": "Look, are you trying to tell us that he didn't come here?"
+                        },
+                        {
+                            "Character": "MONK",
+                            "Line": "My son, no stranger has knocked on this door for many a day, welcome though they be."
+                        },
+                        {
+                            "Character": "STEVEN",
+                            "Line": "Are you sure you haven't seen anyone around the place?"
+                        },
+                        {
+                            "Character": "MONK",
+                            "Line": "I'm afraid not."
+                        },
+                        {
+                            "Character": "VICKI",
+                            "Line": "What about the others?"
+                        },
+                        {
+                            "Character": "MONK",
+                            "Line": "Others?"
+                        },
+                        {
+                            "Character": "VICKI",
+                            "Line": "The other monks?"
+                        },
+                        {
+                            "Character": "MONK",
+                            "Line": "Ah, the other monks, yes. Well, I'm sure they would have mentioned it to me had they seen him. However, if you'll wait here, I shall go inside and inquire just to make sure."
+                        },
+                        {
+                            "Character": "VICKI",
+                            "Line": "Looks as though the Doctor didn't come up here."
+                        },
+                        {
+                            "Character": "STEVEN",
+                            "Line": "Didn't he? You know, I don't believe a word of it. It's just as if he expected us and if the Doctor didn't come here, well, where else could he go except back to the village?"
+                        },
+                        {
+                            "Character": "VICKI",
+                            "Line": "I don't know"
+                        },
+                        {
+                            "Character": "STEVEN",
+                            "Line": "Well, I'm not convinced. I'll tell you what, when he comes out again, I'm going to try something. So whatever happens, don't say a word. Nothing. Okay?"
+                        },
+                        {
+                            "Character": "VICKI",
+                            "Line": "Okay."
+                        },
+                        {
+                            "Stage Direction": "The Monk has been listening behind the door. He comes out again."
+                        },
+                        {
+                            "Character": "MONK",
+                            "Line": "I apologise for keeping you waiting."
+                        },
+                        {
+                            "Character": "STEVEN",
+                            "Line": "It's quite all right."
+                        },
+                        {
+                            "Character": "MONK",
+                            "Line": "I'm afraid the answer is not the one you'd wish to hear."
+                        },
+                        {
+                            "Character": "VICKI",
+                            "Line": "You haven't seen him?"
+                        },
+                        {
+                            "Character": "MONK",
+                            "Line": "I'm sorry"
+                        },
+                        {
+                            "Character": "STEVEN",
+                            "Line": "Oh, well, er, perhaps you'd keep a lookout for him?"
+                        },
+                        {
+                            "Character": "MONK",
+                            "Line": "Oh, I certainly will, yes."
+                        },
+                        {
+                            "Character": "STEVEN",
+                            "Line": "Are you sure you'll remember his description?"
+                        },
+                        {
+                            "Character": "MONK",
+                            "Line": "Description? I let me see. Long white hair, a black cloak and rather strange checked trousers."
+                        },
+                        {
+                            "Character": "STEVEN",
+                            "Line": "That's it, you've got it. Fine. Thanks."
+                        },
+                        {
+                            "Character": "MONK",
+                            "Line": "Not at all."
+                        },
+                        {
+                            "Character": "STEVEN",
+                            "Line": "Thanks very much indeed."
+                        },
+                        {
+                            "Character": "MONK",
+                            "Line": "You're very welcome, my son. I'm sorry I couldn't have done more. Good day."
+                        },
+                        {
+                            "Character": "STEVEN",
+                            "Line": "Good day."
+                        },
+                        {
+                            "Stage Direction": "The Monk goes back inside."
+                        },
+                        {
+                            "Character": "VICKI",
+                            "Line": "We didn't give him a description of the Doctor."
+                        },
+                        {
+                            "Character": "STEVEN",
+                            "Line": "I know we didn't. That means he must have seen him, doesn't it? He's keeping him prisoner in there. I'll stake my life on that, Vicki."
+                        },
+                        {
+                            "Character": "VICKI",
+                            "Line": "Well, he was pretty stupid to give himself away like that."
+                        },
+                        {
+                            "Character": "STEVEN",
+                            "Line": "It's easily done."
+                        },
+                        {
+                            "Character": "VICKI",
+                            "Line": "Too easy. I don't think we've been as clever as we think we have."
+                        },
+                        {
+                            "Character": "STEVEN",
+                            "Line": "Oh, now, what does that mean?"
+                        },
+                        {
+                            "Character": "VICKI",
+                            "Line": "Well look, say he's the one who's tricked us. Say he gave himself away deliberately like that, in order to make us think we'd fooled him."
+                        },
+                        {
+                            "Character": "STEVEN",
+                            "Line": "Vicki, there's only one way we can find out what's going on in there. That's to break in."
+                        },
+                        {
+                            "Character": "VICKI",
+                            "Line": "That's exactly what he wants us to do."
+                        },
+                        {
+                            "Character": "STEVEN",
+                            "Line": "Well, possibly, but we've no other choice. We'll wait till it's dark. Come on."
+                        }
+                    ]
+                },
+                {
+                    "Scene": "Village",
+                    "Dialogue": [
+                        {
+                            "Stage Direction": "In the evening gloom, Edith is wary. She takes a spear but caught by Gunnar."
+                        }
+                    ]
+                },
+                {
+                    "Scene": "Outside the Monastery",
+                    "Dialogue": [
+                        {
+                            "Character": "STEVEN",
+                            "Line": "I think the best idea is to go and try around the other side."
+                        }
+                    ]
+                },
+                {
+                    "Scene": "Village",
+                    "Dialogue": [
+                        {
+                            "Stage Direction": "The village has been pillaged, which implies that..."
+                        },
+                        {
+                            "Character": "WULNOTH",
+                            "Line": "Edith!"
+                        }
+                    ]
+                },
+                {
+                    "Scene": "Hut",
+                    "Dialogue": [
+                        {
+                            "Stage Direction": " ..has been raped."
+                        },
+                        {
+                            "Character": "WULNOTH",
+                            "Line": "Edith!"
+                        },
+                        {
+                            "Stage Direction": "Her eyes are staring at nothing."
+                        },
+                        {
+                            "Character": "WULNOTH",
+                            "Line": "Get what help you can from the village."
+                        },
+                        {
+                            "Character": "ELDRED",
+                            "Line": "It was those travellers. I know it. I said you would regret not listening to me, Wulnoth. But even I would not have felt them capable of this"
+                        },
+                        {
+                            "Character": "WULNOTH",
+                            "Line": "Get the men!"
+                        },
+                        {
+                            "Stage Direction": "As the Vikings make off, drinking the mead, Wulnoth and a woman tends Edith."
+                        },
+                        {
+                            "Character": "WULNOTH",
+                            "Line": "Who did it? Who was it?"
+                        },
+                        {
+                            "Character": "EDITH",
+                            "Line": "Vikings."
+                        },
+                        {
+                            "Character": "ELDRED",
+                            "Line": "We're ready."
+                        },
+                        {
+                            "Character": "WULNOTH",
+                            "Line": "Vikings."
+                        }
+                    ]
+                },
+                {
+                    "Scene": "Forest",
+                    "Dialogue": [
+                        {
+                            "Character": "ELDRED",
+                            "Line": "They're leaving a good trail."
+                        },
+                        {
+                            "Character": "WULNOTH",
+                            "Line": "Then we'll find them all the quicker. Come on."
+                        },
+                        {
+                            "Stage Direction": "Sven, Ulf and Gunnar don't care because they've finished the mead."
+                        },
+                        {
+                            "Character": "SVEN",
+                            "Line": "Ulf, you like the provisions we found?"
+                        },
+                        {
+                            "Stage Direction": "The Saxons attack. There are injuries on both sides. Wulnoth and Ulf are evenly matched."
+                        },
+                        {
+                            "Character": "WULNOTH",
+                            "Line": "Saxons! Here!"
+                        },
+                        {
+                            "Character": "SVEN",
+                            "Line": "Leave him, Ulf, Gunnar's dead. Come on!"
+                        },
+                        {
+                            "Stage Direction": "The Vikings run off."
+                        },
+                        {
+                            "Character": "WULNOTH",
+                            "Line": "How is it? It's bleeding badly."
+                        },
+                        {
+                            "Character": "ELDRED",
+                            "Line": "I think I can walk back to the village."
+                        },
+                        {
+                            "Character": "WULNOTH",
+                            "Line": "No, no, the monastery's much nearer. Come on. Put your arm round me. This way."
+                        }
+                    ]
+                },
+                {
+                    "Scene": "Monastery",
+                    "Dialogue": [
+                        {
+                            "Stage Direction": "The Monk walks past, and Vicki and Steven climb in."
+                        },
+                        {
+                            "Character": "VICKI + STEVEN",
+                            "Line": "Follow me."
+                        },
+                        {
+                            "Stage Direction": "They head in opposite directions, then Steven turns to follow Vicki."
+                        }
+                    ]
+                },
+                {
+                    "Scene": "Corridor",
+                    "Dialogue": [
+                        {
+                            "Stage Direction": "The Monk starts up the gramophone and checks the portcullis. He waits as Steven and Vicki explore then hear a hammering on the door, so he goes to see who it is."
+                        },
+                        {
+                            "Stage Direction": "Steven and Vicki find the gramophone but leave it playing, and then find the Doctor's cell."
+                        },
+                        {
+                            "Character": "STEVEN",
+                            "Line": "It's the Doctor. I think he's asleep."
+                        },
+                        {
+                            "Character": "VICKI",
+                            "Line": "Oh! Hurry!"
+                        },
+                        {
+                            "Stage Direction": "Steven uses a pen-knife to pick the lock."
+                        }
+                    ]
+                },
+                {
+                    "Scene": "Monastery door",
+                    "Dialogue": [
+                        {
+                            "Character": "MONK",
+                            "Line": "Yes, what is it?"
+                        },
+                        {
+                            "Character": "WULNOTH",
+                            "Line": "I have a wounded man here, Father. He needs help."
+                        },
+                        {
+                            "Character": "MONK",
+                            "Line": "By all means. Bring him in."
+                        },
+                        {
+                            "Stage Direction": "Wulnoth already has."
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "Episode": "Episode Three - A Battle of Wits",
+            "Scenes": [
+                {
+                    "Scene": "Chamber",
+                    "Dialogue": [
+                        {
+                            "Character": "MONK",
+                            "Line": "Make him comfortable here, my son. I'll return soon and tend his wounds."
+                        },
+                        {
+                            "Character": "WULNOTH",
+                            "Line": "Oh, thank you, Father."
+                        }
+                    ]
+                },
+                {
+                    "Scene": "Cell",
+                    "Dialogue": [
+                        {
+                            "Character": "VICKI",
+                            "Line": "Well, this is definitely his cloak."
+                        },
+                        {
+                            "Character": "STEVEN",
+                            "Line": "Yes, he was in here all right, Vicki. What's happened to him?"
+                        },
+                        {
+                            "Character": "VICKI",
+                            "Line": "The door was locked wasn't it?"
+                        },
+                        {
+                            "Character": "STEVEN",
+                            "Line": "Of course it was. You saw me open it myself. The Monk thought he was in here, too."
+                        },
+                        {
+                            "Character": "VICKI",
+                            "Line": "What, because the clothes on the bed hadn't been moved?"
+                        },
+                        {
+                            "Character": "STEVEN",
+                            "Line": "Well, it makes sense, doesn't it? How did he get out?"
+                        },
+                        {
+                            "Character": "VICKI",
+                            "Line": "There's only one possible answer."
+                        },
+                        {
+                            "Character": "STEVEN",
+                            "Line": "What?"
+                        },
+                        {
+                            "Character": "VICKI",
+                            "Line": "A secret passage."
+                        },
+                        {
+                            "Character": "STEVEN",
+                            "Line": "A secret pa? Oh no!"
+                        },
+                        {
+                            "Character": "VICKI",
+                            "Line": "Listen, they always have them in castles and monasteries and things in case of siege, or fire, or something. Well, don't just sit there. Help me look."
+                        },
+                        {
+                            "Stage Direction": "They try pressing on the walls."
+                        },
+                        {
+                            "Character": "VICKI",
+                            "Line": "Hey, Steven, come and look at this. Steven? A loose stone! What did I say?"
+                        },
+                        {
+                            "Stage Direction": "Steven hauls the stone door open."
+                        },
+                        {
+                            "Character": "STEVEN",
+                            "Line": "Who's a clever girl then?"
+                        },
+                        {
+                            "Stage Direction": "They leave, closing the door after them. The Monk comes along and finds the cell is unlocked and empty."
+                        }
+                    ]
+                },
+                {
+                    "Scene": "Corridor",
+                    "Dialogue": [
+                        {
+                            "Character": "WULNOTH [OC]",
+                            "Line": "Father? Father, where are you?"
+                        },
+                        {
+                            "Character": "MONK",
+                            "Line": "Coming, my son. Coming!"
+                        }
+                    ]
+                },
+                {
+                    "Scene": "Secret passage",
+                    "Dialogue": [
+                        {
+                            "Stage Direction": "They are surrounded by tree trunks and ivy."
+                        },
+                        {
+                            "Character": "VICKI",
+                            "Line": "How much longer does this thing go on?"
+                        },
+                        {
+                            "Character": "STEVEN",
+                            "Line": "It must go on for quite a way, Vicki, if only to get clear of the monastery up there."
+                        },
+                        {
+                            "Character": "VICKI",
+                            "Line": "It's damp."
+                        },
+                        {
+                            "Character": "STEVEN",
+                            "Line": "Yes, well, we'd better get out of here quickly. You know, we could find the Doctor at the end of this."
+                        },
+                        {
+                            "Character": "VICKI",
+                            "Line": "If I know the Doctor, it's not going to be as simple as that."
+                        }
+                    ]
+                },
+                {
+                    "Scene": "Hut",
+                    "Dialogue": [
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "Well, from what you've just said, you've saved me quite a journey."
+                        },
+                        {
+                            "Character": "EDITH",
+                            "Line": "To meet your friends, you mean?"
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "Yes, indeed so. I told them quite specifically to meet me outside the Tar, the pre-arranged place. I was going along to tell them that I'd come to no harm whilst I was making investigations, as we might say. But, well now, now you tell me they came here and they've gone on to the monastery."
+                        },
+                        {
+                            "Character": "EDITH",
+                            "Line": "I can't think how you missed them."
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "Oh, it's all perfectly simple. I left through the rear entrance. That reminds me. I really think I ought to be wending my way. It's a good thing I saw the smoke rising from your fire. I'm becoming quite a regular visitor, I think."
+                        },
+                        {
+                            "Character": "EDITH",
+                            "Line": "You've been my only visitor tonight. But you don't know. My husband and the men from the village have gone after the Vikings."
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "You've seen them, and their fleet?"
+                        },
+                        {
+                            "Character": "EDITH",
+                            "Line": "Oh, no, no, not a fleet, this was just a small band of men. They must have come from one ship."
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "Yes, I see. Yes, I see."
+                        }
+                    ]
+                },
+                {
+                    "Scene": "Village",
+                    "Dialogue": [
+                        {
+                            "Character": "EDITH",
+                            "Line": "You speak of a fleet as though you knew it existed?"
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "What? What was that? I've already told you, my dear, that I've learned of varied plans from all the places that I've visited before."
+                        },
+                        {
+                            "Character": "EDITH",
+                            "Line": "Plans of a Viking invasion?"
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "Yes, yes, I'm afraid so."
+                        },
+                        {
+                            "Character": "EDITH",
+                            "Line": "So that's why Harold Godwinson's struck on forming an army. Our men have travelled south already to join it. I thought it was William of Normandy's invasion across the channel, not a Viking invasion he feared."
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "The Monk in this situation just can't be a coincidence."
+                        },
+                        {
+                            "Character": "EDITH",
+                            "Line": "The Monk? Did you say the Monk?"
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "Yes, I must face him. I realise that I've got far short a time than I thought I had. I'm always leaving you in a hurry, I'm afraid, but the matter has some urgency."
+                        },
+                        {
+                            "Character": "EDITH",
+                            "Line": "Well, won't you stay and have some venison?"
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "Oh, no, thank you, thank you, indeed. It's very kind of you. I must go. Yes, goodbye. Oh, and, don't worry, don't worry. The Vikings will land south of here, in the Humber. And King Harold will defeat them. Yes, and then in a few weeks time, he loses the battle of Hastings to William the Conqueror. Well, at least that's what the history books said happened."
+                        }
+                    ]
+                },
+                {
+                    "Scene": "Forest",
+                    "Dialogue": [
+                        {
+                            "Character": "VICKI",
+                            "Line": "Doctor! Doctor!"
+                        },
+                        {
+                            "Character": "STEVEN",
+                            "Line": "No, you were right, Vicki. The Doctor wouldn't wait for us here."
+                        },
+                        {
+                            "Character": "VICKI",
+                            "Line": "He must have gone back to the Tardis."
+                        },
+                        {
+                            "Character": "STEVEN",
+                            "Line": "Yes, probably. You know, there's something very peculiar going on. Now I've got to accept something, so all right, I accept you've got a time machine."
+                        },
+                        {
+                            "Character": "VICKI",
+                            "Line": "Ha! Hooray!"
+                        },
+                        {
+                            "Character": "STEVEN",
+                            "Line": "But the watch, the gramophone, the Saxons. That doesn't add up. It must be something to do with that Monk. You know, I think we should go back to the monastery."
+                        },
+                        {
+                            "Character": "VICKI",
+                            "Line": "Oh, no. Because the Doctor will want to investigate just as much as you, probably more. Let's find him and all three do it together, hmm?"
+                        },
+                        {
+                            "Character": "STEVEN",
+                            "Line": "Okay. Go on, you lead the way."
+                        }
+                    ]
+                },
+                {
+                    "Scene": "Chamber",
+                    "Dialogue": [
+                        {
+                            "Stage Direction": "The Monk takes some tablets from a concealed first aid box."
+                        },
+                        {
+                            "Character": "MONK",
+                            "Line": "Eldred? You need to wallow these."
+                        },
+                        {
+                            "Character": "WULNOTH",
+                            "Line": "What are those, Father?"
+                        },
+                        {
+                            "Character": "MONK",
+                            "Line": "Oh, it's just some penicillin. It's a sort of herb."
+                        },
+                        {
+                            "Stage Direction": "Looking at Wulnoth's sword."
+                        },
+                        {
+                            "Character": "MONK",
+                            "Line": "Wulnoth, I wish you'd take that outside. This is a monastery. Can't you see I'm trying to tend a sick man?"
+                        },
+                        {
+                            "Character": "WULNOTH",
+                            "Line": "Oh, I'm sorry, Father."
+                        },
+                        {
+                            "Stage Direction": "Wulnoth leaves."
+                        },
+                        {
+                            "Character": "MONK",
+                            "Line": "Eldred? Eldred? Eldred? Eldred? Listen. The Vikings you met, now if they were a scouting party, how soon would it be before the other ships arrived?"
+                        },
+                        {
+                            "Character": "ELDRED",
+                            "Line": "If they, if they were part of the main fleet, two, three days, Father."
+                        },
+                        {
+                            "Character": "MONK",
+                            "Line": "Thank you, thank you, my son. Two or three days. I'm on schedule. I'm on schedule!"
+                        },
+                        {
+                            "Character": "WULNOTH",
+                            "Line": "He'll have to stay here for a while, Father. He's very weak."
+                        },
+                        {
+                            "Character": "MONK",
+                            "Line": "Yes, of course, he's weak. He's lost a lot of blood. I'd like to give him a blood transfusion, but"
+                        },
+                        {
+                            "Character": "WULNOTH",
+                            "Line": "Blood transfusion?"
+                        },
+                        {
+                            "Character": "MONK",
+                            "Line": "My son, all we can do now for Eldred is to wait and pray."
+                        },
+                        {
+                            "Character": "WULNOTH",
+                            "Line": "But Father"
+                        },
+                        {
+                            "Character": "MONK",
+                            "Line": "Now listen to what I have to say now, my son. This is what I want to say. Take your friend home and give thanks that within these sacred walls"
+                        },
+                        {
+                            "Character": "WULNOTH",
+                            "Line": "He'll have to stay for a day or two, Father. He's very weak."
+                        },
+                        {
+                            "Character": "MONK",
+                            "Line": "Stay here?"
+                        },
+                        {
+                            "Character": "WULNOTH",
+                            "Line": "Don't worry, Father. My wife Edith, will call regularly and attend to any additional work, and I will come to if, if work permits."
+                        },
+                        {
+                            "Character": "MONK",
+                            "Line": "Now, look here, my son, I"
+                        },
+                        {
+                            "Character": "WULNOTH",
+                            "Line": "Yes, Father?"
+                        },
+                        {
+                            "Character": "MONK",
+                            "Line": "Oh nothing. Nothing, nothing, nothing."
+                        },
+                        {
+                            "Character": "WULNOTH",
+                            "Line": "Oh, goodbye and thank you, Father."
+                        },
+                        {
+                            "Character": "MONK",
+                            "Line": "Goodbye, my son."
+                        }
+                    ]
+                },
+                {
+                    "Scene": "Forest",
+                    "Dialogue": [
+                        {
+                            "Character": "ULF",
+                            "Line": "As soon as its light, every Saxon for miles around will be looking for us."
+                        },
+                        {
+                            "Character": "SVEN",
+                            "Line": "We'll rest here a while, then travel south."
+                        },
+                        {
+                            "Character": "ULF",
+                            "Line": "Why go south?"
+                        },
+                        {
+                            "Character": "SVEN",
+                            "Line": "If we put enough distance between the Saxons and ourselves, we can still complete our task."
+                        },
+                        {
+                            "Character": "ULF",
+                            "Line": "Sven, we have failed! Leave it to Radnor. Let us think of our own safety."
+                        },
+                        {
+                            "Character": "SVEN",
+                            "Line": "We were landed here for a reason."
+                        },
+                        {
+                            "Character": "ULF",
+                            "Line": "What good can the two of us do now? If we meet up with the Saxons again, they will kill us easily."
+                        },
+                        {
+                            "Character": "SVEN",
+                            "Line": "And what would you have us do?"
+                        },
+                        {
+                            "Character": "ULF",
+                            "Line": "We could hide."
+                        },
+                        {
+                            "Character": "SVEN",
+                            "Line": "Coward!"
+                        },
+                        {
+                            "Character": "ULF",
+                            "Line": "Kill me! Go on, kill me! If you don't, the Saxons will. And you'll be dead too if you don't listen to what I say. Nothing has changed. Our army will still land."
+                        },
+                        {
+                            "Character": "SVEN",
+                            "Line": "Think what will happen when we come before the King!"
+                        },
+                        {
+                            "Character": "ULF",
+                            "Line": "We can meet up with him once he is inland. Say we were attacked and held. Don't pretend that it is only me. I'm saying what we both think. Our army will still land, even if we'd all been killed back in the forest."
+                        },
+                        {
+                            "Character": "SVEN",
+                            "Line": "I suppose you've already thought of a place to hide."
+                        },
+                        {
+                            "Character": "ULF",
+                            "Line": "Yes. The monastery."
+                        },
+                        {
+                            "Character": "SVEN",
+                            "Line": "And ask for what? Sanctuary?"
+                        },
+                        {
+                            "Character": "ULF",
+                            "Line": "They can't refuse us."
+                        },
+                        {
+                            "Character": "SVEN",
+                            "Line": "Even if they do, you'd rather do battle with a band of monks than with Saxons?"
+                        },
+                        {
+                            "Character": "ULF",
+                            "Line": "They'll hide us. Once inside, we can take hostages."
+                        },
+                        {
+                            "Character": "SVEN",
+                            "Line": "If you thought as much of our task as you did of our own safety."
+                        },
+                        {
+                            "Character": "ULF",
+                            "Line": "And yours, Sven. And yours."
+                        }
+                    ]
+                },
+                {
+                    "Scene": "Chapel",
+                    "Dialogue": [
+                        {
+                            "Stage Direction": "The Monk is ticking of items on his progress chart. Arrival in Northumbria, tick. Position atomic cannon, tick. Sight Vikings, tick. Still to come are Light Beacon Fires, Destroy Viking Fleet, Norman Landing, Battle of Hastings and Meet King Harold."
+                        },
+                        {
+                            "Character": "MONK",
+                            "Line": "Sight Vikings. We're up to date, we're up to date. Now then, light beacon fires. I can get the villagers to help me with that. Oh ho! Everything's going on marvellously! According to plan. Now, to convert this ridiculous thing into miles. Absurd measurement, miles, kilometres, I don't know where they are. There."
+                        },
+                        {
+                            "Stage Direction": "He marks a map and makes notes when there's a banging on the door."
+                        },
+                        {
+                            "Character": "MONK",
+                            "Line": "Oh. Oh, no more visitors. It's getting it's getting so that you can't call a monastery your own."
+                        },
+                        {
+                            "Stage Direction": "He bundles up his papers and puts them in the altar while the banging continues."
+                        },
+                        {
+                            "Character": "MONK",
+                            "Line": "All right! All right! I'm coming!"
+                        }
+                    ]
+                },
+                {
+                    "Scene": "Outside the Monastery",
+                    "Dialogue": [
+                        {
+                            "Stage Direction": "The Monk opens up and steps out, but there's no one there. But as soon as he goes back in and bars the door, someone knocks again. The Monk looks around, and the Doctor comes up behind him and jabs a branch into his back. They go inside the monastery."
+                        }
+                    ]
+                },
+                {
+                    "Scene": "Monastery entrance",
+                    "Dialogue": [
+                        {
+                            "Stage Direction": "The Monk tries to make a sudden move."
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "I have a Winchester '73 right in the middle of your spinal cord."
+                        },
+                        {
+                            "Stage Direction": "The Doctor shuts and bars the door."
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "Proceed."
+                        },
+                        {
+                            "Stage Direction": "They walk on a little way."
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "Wait."
+                        },
+                        {
+                            "Character": "MONK",
+                            "Line": "I thought I'd seen the last of you, Doctor."
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "Oh, did you now? Well, as it happens, I happen to be a very curious fellow. Yes, very curious. Now then, I have some questions for you and I want them answered. Continue."
+                        }
+                    ]
+                },
+                {
+                    "Scene": "Clifftop",
+                    "Dialogue": [
+                        {
+                            "Character": "VICKI",
+                            "Line": "It was somewhere about here."
+                        },
+                        {
+                            "Character": "STEVEN",
+                            "Line": "I can't tell for certain but I think this is an easy way down."
+                        },
+                        {
+                            "Character": "VICKI",
+                            "Line": "The tide. Steven, the tide's come in."
+                        },
+                        {
+                            "Character": "STEVEN",
+                            "Line": "Yes, well, it usually does."
+                        },
+                        {
+                            "Character": "VICKI",
+                            "Line": "Yes, but the Tardis was down there. Oh, no. The tide. Nobody thought of that."
+                        },
+                        {
+                            "Character": "STEVEN",
+                            "Line": "Well, it's a bit late to think of it now."
+                        },
+                        {
+                            "Character": "VICKI",
+                            "Line": "Yes, but what shall we do?"
+                        },
+                        {
+                            "Character": "STEVEN",
+                            "Line": "Look, if the Doctor came back here, he'd have moved it. He wouldn't have left it on the beach."
+                        },
+                        {
+                            "Character": "VICKI",
+                            "Line": "The only way the Doctor could move the Tardis would be to dematerialise."
+                        },
+                        {
+                            "Character": "STEVEN",
+                            "Line": "So?"
+                        },
+                        {
+                            "Character": "VICKI",
+                            "Line": "If the Doctor left here in the Tardis, he couldn't get back. Oh, it can't be that, it can't be!"
+                        },
+                        {
+                            "Character": "STEVEN",
+                            "Line": "Look, there's no point in us sitting here. I think we should go back to the monastery."
+                        },
+                        {
+                            "Character": "VICKI",
+                            "Line": "The monastery. What's the point of that now?"
+                        },
+                        {
+                            "Character": "STEVEN",
+                            "Line": "At least we'd be doing something practical. Whatever's happened down there, it has happened. There's no point in moping about it."
+                        },
+                        {
+                            "Character": "VICKI",
+                            "Line": "I'm not moping. You don't know what the Tardis meant."
+                        },
+                        {
+                            "Character": "STEVEN",
+                            "Line": "Come on."
+                        },
+                        {
+                            "Stage Direction": "Steven spots a device hidden in the shrubs."
+                        },
+                        {
+                            "Character": "STEVEN",
+                            "Line": "What's this? Vicki, come and take a look at this."
+                        },
+                        {
+                            "Character": "VICKI",
+                            "Line": "What?"
+                        },
+                        {
+                            "Character": "STEVEN",
+                            "Line": "Just come and look! What do you make of that?"
+                        },
+                        {
+                            "Character": "VICKI",
+                            "Line": "It's a gun of sorts."
+                        },
+                        {
+                            "Character": "STEVEN",
+                            "Line": "Trained out to sea, hidden by the bushes. Look, in Saxon times, they used swords and bows and arrows, not things like this, didn't they?"
+                        },
+                        {
+                            "Character": "VICKI",
+                            "Line": "Yes, you're right."
+                        },
+                        {
+                            "Character": "STEVEN",
+                            "Line": "The Monk, it must be. You still say there's no point in going back to the monastery? Come on."
+                        }
+                    ]
+                },
+                {
+                    "Scene": "Corridor",
+                    "Dialogue": [
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "All right, that will do. You know, I believe we've come through this corridor twice already. It's no use you playing for time, you know. I want some answers!"
+                        },
+                        {
+                            "Stage Direction": "The Monk tries to make a grab for the 'gun'."
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "Ah ha! Now, I wouldn't do that if I were you. This may not be a gun but I can still do you a considerable amount of harm."
+                        },
+                        {
+                            "Character": "MONK",
+                            "Line": "Oh, a man of violence. I'm surprised at you."
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "Never mind about all that. What is it you're doing here? What are you up to?"
+                        },
+                        {
+                            "Stage Direction": "Banging at the door."
+                        },
+                        {
+                            "Character": "MONK",
+                            "Line": "The door. I must go."
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "Just leave that, shall we?"
+                        },
+                        {
+                            "Character": "MONK",
+                            "Line": "But if I don't go, they'll get suspicious."
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "Then we'll both go. I'll open the door, then I can keep an eye on you."
+                        },
+                        {
+                            "Character": "MONK",
+                            "Line": "You open the door? No, Doctor, that's not a very good idea."
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "Oh, isn't it? Why not?"
+                        },
+                        {
+                            "Character": "MONK",
+                            "Line": "Because you're not wearing the right sort of clothes."
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "Oh, yes, I see, I see. First, you want to open the door, then you want the chance to reverse the position with the help of whoever it is outside? Secondly, you want to get me into a monk's habit so that whoever that is, would recognise me as an imposter."
+                        },
+                        {
+                            "Character": "MONK",
+                            "Line": "Dear me, dear me, what an untrusting nature you have, my son."
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "Yes, and you can drop the monk's act."
+                        },
+                        {
+                            "Character": "MONK",
+                            "Line": "I'm only trying to help. Whoever it is, it's probably as traveller knocking for shelter. Who else could it be? Doctor, I must remind you this is a monastery, a place of refuge, sanctuary."
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "Yes, very well, if you have another cloak with the same type of cowl? Proceed."
+                        },
+                        {
+                            "Character": "MONK",
+                            "Line": "Of course."
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "And remember, no more monkery!"
+                        }
+                    ]
+                },
+                {
+                    "Scene": "Monastery entrance",
+                    "Dialogue": [
+                        {
+                            "Stage Direction": "The Doctor is in a habit, with his stick in the Monk's back."
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "Wait there and be quiet."
+                        },
+                        {
+                            "Character": "MONK",
+                            "Line": "Doctor? It suits you."
+                        },
+                        {
+                            "Stage Direction": "The Doctor opens the door and Sven puts a sword to his throat."
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "What is the meaning of this, sir! What"
+                        },
+                        {
+                            "Character": "SVEN",
+                            "Line": "Silence, you old fool!"
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "What?"
+                        },
+                        {
+                            "Stage Direction": "Sven takes the stick off him, then he and Ulf enter the monastery."
+                        }
+                    ]
+                },
+                {
+                    "Scene": "Outside the cell",
+                    "Dialogue": [
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "This is no way to treat a man in my position."
+                        },
+                        {
+                            "Character": "SVEN",
+                            "Line": "Quiet, old man."
+                        },
+                        {
+                            "Character": "ULF",
+                            "Line": "This cell will do. Lock him in here."
+                        },
+                        {
+                            "Stage Direction": "The Doctor is pushed inside."
+                        },
+                        {
+                            "Character": "ULF",
+                            "Line": "There's no key. You guard him. I'll give our terms to the rest of the monks. Hide us or he dies."
+                        }
+                    ]
+                },
+                {
+                    "Scene": "Chapel",
+                    "Dialogue": [
+                        {
+                            "Stage Direction": "The Monk pops up from behind the altar and hits Ulf over the head, knocking him out. Then he ties him up."
+                        }
+                    ]
+                },
+                {
+                    "Scene": "Forest",
+                    "Dialogue": [
+                        {
+                            "Character": "VICKI",
+                            "Line": "It all looks so different in daylight."
+                        },
+                        {
+                            "Character": "STEVEN",
+                            "Line": "Ah ha! Here it is."
+                        },
+                        {
+                            "Stage Direction": "The entrance to the secret tunnel."
+                        },
+                        {
+                            "Character": "VICKI",
+                            "Line": "Oh, don't tell me we have to crawl down that thing again."
+                        },
+                        {
+                            "Character": "STEVEN",
+                            "Line": "Well, we can hardly go and knock on the front door now, can we?"
+                        },
+                        {
+                            "Character": "VICKI",
+                            "Line": "I suppose not."
+                        },
+                        {
+                            "Character": "STEVEN",
+                            "Line": "Come on."
+                        }
+                    ]
+                },
+                {
+                    "Scene": "Corridor",
+                    "Dialogue": [
+                        {
+                            "Stage Direction": "Cock crow wakes a sleeping Viking guard."
+                        },
+                        {
+                            "Character": "SVEN",
+                            "Line": "Ulf? Ulf?"
+                        },
+                        {
+                            "Stage Direction": "Sven looks into the cell, panics and rushes in."
+                        }
+                    ]
+                },
+                {
+                    "Scene": "Cell",
+                    "Dialogue": [
+                        {
+                            "Stage Direction": "The Doctor is hiding behind the door. He hits Sven over the head while he is looking into the secret passageway."
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "My dear man, you had me quite worried. I thought you were never coming in."
+                        }
+                    ]
+                },
+                {
+                    "Scene": "Village",
+                    "Dialogue": [
+                        {
+                            "Character": "MONK",
+                            "Line": "Wulnoth? Wulnoth, are you there?"
+                        },
+                        {
+                            "Character": "EDITH",
+                            "Line": "Oh, it's you, Father."
+                        },
+                        {
+                            "Character": "MONK",
+                            "Line": "I'm sorry to call so early, my child, but I must speak to your husband."
+                        },
+                        {
+                            "Character": "EDITH",
+                            "Line": "Yes."
+                        },
+                        {
+                            "Character": "WULNOTH",
+                            "Line": "Is anything wrong with Eldred?"
+                        },
+                        {
+                            "Character": "MONK",
+                            "Line": "No, no, no. Eldred is splendid. No, Wulnoth, I've come here to ask for your help and that of the men of the village."
+                        },
+                        {
+                            "Character": "WULNOTH",
+                            "Line": "Oh, we'll help if we can, Father."
+                        },
+                        {
+                            "Character": "MONK",
+                            "Line": "Oh, you can, Wulnoth, you most certainly can. I'd have come here a bit later but it seems I'm going to be rather busy up at the monastery."
+                        },
+                        {
+                            "Character": "WULNOTH",
+                            "Line": "What is it that you want us to do?"
+                        },
+                        {
+                            "Character": "MONK",
+                            "Line": "Prepare beacon fires on the cliff tops."
+                        },
+                        {
+                            "Character": "WULNOTH",
+                            "Line": "Beacon fires?"
+                        },
+                        {
+                            "Character": "MONK",
+                            "Line": "Oh, don't worry, don't worry, Wulnoth. I'm expecting some building materials for reconstructing the monastery. They're coming by sea and I promised I'd give the ship our exact location."
+                        },
+                        {
+                            "Character": "WULNOTH",
+                            "Line": "Well, when are you expecting the ship? It'll take a little while to prepare a beacon."
+                        },
+                        {
+                            "Character": "MONK",
+                            "Line": "In a day or two, maybe three. Now, Wulnoth, you will light the fires when I ask, won't you, and keep them burning?"
+                        },
+                        {
+                            "Character": "WULNOTH",
+                            "Line": "If you say so, Father."
+                        },
+                        {
+                            "Character": "MONK",
+                            "Line": "Splendid. Splendid. Now I must go back to the monastery. Eldred needs rather special care. Good day, my children."
+                        },
+                        {
+                            "Character": "EDITH",
+                            "Line": "Good day"
+                        },
+                        {
+                            "Character": "WULNOTH",
+                            "Line": "Good day, Father."
+                        },
+                        {
+                            "Stage Direction": "The Monk leaves."
+                        },
+                        {
+                            "Character": "WULNOTH",
+                            "Line": "What did the old man say of the Vikings?"
+                        },
+                        {
+                            "Character": "EDITH",
+                            "Line": "He spoke of a planned invasion of many hundred ships."
+                        },
+                        {
+                            "Character": "WULNOTH",
+                            "Line": "Beacon fires on the cliff tops."
+                        }
+                    ]
+                },
+                {
+                    "Scene": "Cell",
+                    "Dialogue": [
+                        {
+                            "Stage Direction": "Vicki and Steven have found the unconscious Sven."
+                        },
+                        {
+                            "Character": "VICKI",
+                            "Line": "A Viking?"
+                        },
+                        {
+                            "Character": "STEVEN",
+                            "Line": "Well, however he is, he's lost an argument with somebody. Anyway, we can't bother about him. Let's go and have a look around."
+                        },
+                        {
+                            "Character": "VICKI",
+                            "Line": "What are we looking for anyway?"
+                        },
+                        {
+                            "Character": "STEVEN",
+                            "Line": "Oh, we'll know when we find it, won't we?"
+                        }
+                    ]
+                },
+                {
+                    "Scene": "Corridor",
+                    "Dialogue": [
+                        {
+                            "Stage Direction": "The Monk returns and checks on the bound Ulf."
+                        },
+                        {
+                            "Character": "MONK",
+                            "Line": "Oh, ha, ha, ha! You still here, are you? Good, all I've got to do now is take care of you, your friend and the Doctor. Oh, by the way, you'll be please to know I've arranged the fires for your colleagues."
+                        },
+                        {
+                            "Stage Direction": "A sword is placed at his throat."
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "There you are, my dear fellow. I knew you'd come back. Now, which fires? What are they for?"
+                        }
+                    ]
+                },
+                {
+                    "Scene": "Chapel",
+                    "Dialogue": [
+                        {
+                            "Character": "STEVEN",
+                            "Line": "It's going to take us hours to search this place properly."
+                        },
+                        {
+                            "Character": "VICKI",
+                            "Line": "Hey, Steven, look at this. I think it's a cable."
+                        },
+                        {
+                            "Character": "STEVEN",
+                            "Line": "It is. Well, that's strange."
+                        },
+                        {
+                            "Character": "STEVEN",
+                            "Line": "What's it doing coming out of here?"
+                        },
+                        {
+                            "Stage Direction": "The altar."
+                        },
+                        {
+                            "Character": "VICKI",
+                            "Line": "A door!"
+                        },
+                        {
+                            "Character": "STEVEN",
+                            "Line": "Let me have a look. We can get inside."
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "Episode": "Episode Four - Checkmate",
+            "Scenes": [
+                {
+                    "Scene": "Corridor",
+                    "Dialogue": [
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "I repeat my question. Which fires and what are they for?"
+                        },
+                        {
+                            "Character": "MONK",
+                            "Line": "All right, then. They're a signal for King Hardrada and the Viking fleet."
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "I see."
+                        },
+                        {
+                            "Character": "MONK",
+                            "Line": "They'll think it's a landing place. They'll come in unsuspecting, and then"
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "Well? Out with it!"
+                        },
+                        {
+                            "Character": "MONK",
+                            "Line": "I'm going to destroy them!"
+                        }
+                    ]
+                },
+                {
+                    "Scene": "The Monk's Tardis",
+                    "Dialogue": [
+                        {
+                            "Character": "STEVEN",
+                            "Line": "Hey, Vicki. Come take a look at this. He's got a sort of fantastic private collection."
+                        },
+                        {
+                            "Stage Direction": "Furniture, statues, artwork, objet d'art."
+                        },
+                        {
+                            "Character": "VICKI",
+                            "Line": "He's got something from every period and every place."
+                        },
+                        {
+                            "Character": "STEVEN",
+                            "Line": "Hey, come and take a look at this."
+                        },
+                        {
+                            "Stage Direction": "A mortar bomb type weapon. Vicki has found a journal."
+                        },
+                        {
+                            "Character": "STEVEN",
+                            "Line": "It looks like some kind of neutron bomb, I think."
+                        },
+                        {
+                            "Character": "VICKI",
+                            "Line": "Pretty unpleasant looking things, whatever they are."
+                        },
+                        {
+                            "Character": "STEVEN",
+                            "Line": "Hey, you know these could be fired by that weapon we saw on the clifftop. I wonder what he wants to do? Sink a ship?"
+                        },
+                        {
+                            "Character": "VICKI",
+                            "Line": "He could sink a whole navy with that lot, I should think."
+                        },
+                        {
+                            "Character": "STEVEN",
+                            "Line": "Yes, but the point is, why would he want to?"
+                        },
+                        {
+                            "Character": "VICKI",
+                            "Line": "Why has he done a lot of things? Listen to this."
+                        },
+                        {
+                            "Character": "STEVEN",
+                            "Line": "Why? What have you got there?"
+                        },
+                        {
+                            "Character": "VICKI",
+                            "Line": "A logbook. A sort of diary. Listen. Met Leonardo Da Vinci."
+                        },
+                        {
+                            "Character": "STEVEN",
+                            "Line": "Who?"
+                        },
+                        {
+                            "Character": "VICKI",
+                            "Line": "Da Vinci. Listen! Met Leonardo Da Vinci and discussed with him the principles of powered flight."
+                        },
+                        {
+                            "Character": "STEVEN",
+                            "Line": "What? Da Vinci lived in the middle ages. I know he tried to build a flying machine, a sort of aeroplane."
+                        },
+                        {
+                            "Character": "VICKI",
+                            "Line": "I know and according to this it was the Monk who put him up to it. And listen to this: Put two hundred pounds in a London bank in 1968\\. Nipped forward two hundred years and collected a fortune in compound interest. ( _This is, of course, impossible_ )"
+                        }
+                    ]
+                },
+                {
+                    "Scene": "Corridor",
+                    "Dialogue": [
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "So that's it! You're a time meddler! No wonder you wanted to get rid of me. And what are you trying to get up to this time?"
+                        },
+                        {
+                            "Character": "MONK",
+                            "Line": "I'm sure you'll approve, Doctor."
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "Are you quite mad? You know as well as I do the golden rule about space and time travelling. Never, never interfere with the course of history."
+                        },
+                        {
+                            "Character": "MONK",
+                            "Line": "And who says so? Doctor, it's more fun my way. I can make things happen ahead of their time."
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "Is that so?"
+                        },
+                        {
+                            "Character": "MONK",
+                            "Line": "Yes, indeed. For instance, do you really believe the ancient Britons could have built Stonehenge without the aid of my anti-gravitational lift?"
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "And what mischief are you up to now?"
+                        },
+                        {
+                            "Character": "MONK",
+                            "Line": "Mischief? No, no. A master plan. A master plan to end all master plans."
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "Oh, is that so?"
+                        },
+                        {
+                            "Character": "MONK",
+                            "Line": "The whole course of history changed in one single swoop."
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "By wiping out the Viking fleet?"
+                        },
+                        {
+                            "Character": "MONK",
+                            "Line": "Exactly, Doctor, exactly. Of course, obviously, I don't have to remind you that the main reason William the Conqueror won the Battle of Hastings, was because King Harold had to march to Stamford Bridge and defeat the Vikings first."
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "So you plan to save him the journey?"
+                        },
+                        {
+                            "Character": "MONK",
+                            "Line": "That's right. Precisely. A fresh army, no desertions. Why King Harold will kick William back to Normandy before knows what happened. It's quite a plan, eh?"
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "Oh, yes, it's quite a plan. It's quite a plan, yes. I count myself a very fortunate person indeed, to be here, in time to prevent this disgusting exhibition!"
+                        },
+                        {
+                            "Character": "MONK",
+                            "Line": "You haven't prevented it yet, Doctor."
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "Haven't I? Where is this machine?"
+                        },
+                        {
+                            "Character": "MONK",
+                            "Line": "I don't allow anybody in there."
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "Where is it?"
+                        },
+                        {
+                            "Character": "MONK",
+                            "Line": "This way, Doctor."
+                        }
+                    ]
+                },
+                {
+                    "Scene": "Corridor",
+                    "Dialogue": [
+                        {
+                            "Character": "SVEN",
+                            "Line": "Ulf? Ulf, where are you? Ulf?"
+                        },
+                        {
+                            "Character": "ELDRED",
+                            "Line": "Vikings! (Sven finds Ulf and unties him.)"
+                        },
+                        {
+                            "Character": "ULF",
+                            "Line": "Where've you been?"
+                        },
+                        {
+                            "Character": "SVEN",
+                            "Line": "The Monk tricked me into a cell, then knocked me out."
+                        },
+                        {
+                            "Character": "ULF",
+                            "Line": "Can't you even guard one old man?"
+                        },
+                        {
+                            "Character": "SVEN",
+                            "Line": "You haven't done better yourself. Come on. We should get back to the forest."
+                        },
+                        {
+                            "Character": "ULF",
+                            "Line": "No, we'll stay here."
+                        },
+                        {
+                            "Character": "SVEN",
+                            "Line": "Here?"
+                        },
+                        {
+                            "Character": "ULF",
+                            "Line": "Safer than being outside. Unless you prefer to meet the Saxons again."
+                        },
+                        {
+                            "Character": "SVEN",
+                            "Line": "They wouldn't take us so easily this time. Nor would we be hampered by the mead."
+                        },
+                        {
+                            "Character": "ULF",
+                            "Line": "Maybe not. But I'll choose the monks and whatever treasure may be stored inside these walls."
+                        },
+                        {
+                            "Character": "SVEN",
+                            "Line": "Treasure."
+                        }
+                    ]
+                },
+                {
+                    "Scene": "Chapel",
+                    "Dialogue": [
+                        {
+                            "Character": "MONK",
+                            "Line": "Oh. Well, here we are. That's my time ship."
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "Oh, so that's it, eh? This horrible block of stone."
+                        },
+                        {
+                            "Character": "MONK",
+                            "Line": "This horrible block of stone, as you call it, is a perfect Saxon sarcophagus."
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "A Saxon what?"
+                        },
+                        {
+                            "Character": "MONK",
+                            "Line": "Sarcophagus."
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "Yes, quite so."
+                        },
+                        {
+                            "Character": "MONK",
+                            "Line": "And more in keeping with the period, I would say, than a modern police box? What's the matter, Doctor? Can't you repair your camouflage unit?"
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "Now, now, now, don't try and bamboozle me. It so happens that your machine fits into this monastery, but it's sheer luck."
+                        },
+                        {
+                            "Character": "MONK",
+                            "Line": "Luck? Luck? Oh, no, there's no luck about it. I couldn't have picked a better place for my headquarters than this. A deserted monastery right on the coast, gullible peasants who believe everything I say to them. No, Doctor. No, I planned to materialise my ship right on this very spot disguised as a sarcophagus, and here it is."
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "I see. And all this is part of your master plan?"
+                        },
+                        {
+                            "Character": "MONK",
+                            "Line": "Precisely! There's nothing hit or miss about my machine."
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "Oh, isn't there now? Well, let's have a look at this great wonder. Yes, well, tell me, how does one exactly get into this sarcophagus? Hammer and chisel?"
+                        },
+                        {
+                            "Character": "MONK",
+                            "Line": "This way, Doctor. Oh, er, mind your head."
+                        },
+                        {
+                            "Stage Direction": "Meanwhile, Eldred leaves the monastery to warn the villagers."
+                        }
+                    ]
+                },
+                {
+                    "Scene": "The Monk's Tardis",
+                    "Dialogue": [
+                        {
+                            "Stage Direction": "Steven is reading the tick list."
+                        },
+                        {
+                            "Character": "STEVEN",
+                            "Line": "Destroy Viking fleet, Norman landing, Battle of Hastings, Meet King Harold? Well, it seems to tell the whole story."
+                        },
+                        {
+                            "Character": "VICKI",
+                            "Line": "Why, Steven? Why is he planning to do it? What's his reason?"
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "That's a very good point, my child, indeed, a very good point. I must ask him that myself."
+                        },
+                        {
+                            "Character": "VICKI",
+                            "Line": "Doctor! You're safe!"
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "Safe?"
+                        },
+                        {
+                            "Character": "STEVEN",
+                            "Line": "Oh, are we glad to see you, Doctor."
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "Safe? Oh, my dear, of course I'm safe. Good gracious me. I see you found the machine. Keep your eye on that, young man. I thought I'd told you to wait outside the Tardis."
+                        },
+                        {
+                            "Character": "VICKI",
+                            "Line": "Oh, er, we"
+                        },
+                        {
+                            "Character": "STEVEN",
+                            "Line": "Yes, well, we, er"
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "You know, all this is very surprising. That's a Mark 4!"
+                        },
+                        {
+                            "Character": "MONK",
+                            "Line": "Yes, yes, indeed."
+                        },
+                        {
+                            "Character": "VICKI",
+                            "Line": "Is that later than yours, Doctor?"
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "Hmm?"
+                        },
+                        {
+                            "Character": "VICKI",
+                            "Line": "Oh! I forgot all about it."
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "Oh? Forgot? Forgot what, child?"
+                        },
+                        {
+                            "Character": "VICKI",
+                            "Line": "Doctor. Doctor."
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "Hmm?"
+                        },
+                        {
+                            "Character": "VICKI",
+                            "Line": "We haven't got a time machine any more."
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "Haven't we now? Oh, I say. Well, I wonder what that's supposed to mean?"
+                        },
+                        {
+                            "Character": "VICKI",
+                            "Line": "Well, you know, you know we left it on the beach."
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "Yes, I remember very well, yes. It so happens that I was there at the time. My dear, I may appear a little half witted at times, but I"
+                        },
+                        {
+                            "Character": "VICKI",
+                            "Line": "Doctor!"
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "Oh!"
+                        },
+                        {
+                            "Character": "VICKI",
+                            "Line": "The tide came in."
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "Oh, is that all, my child."
+                        },
+                        {
+                            "Character": "STEVEN",
+                            "Line": "Well, isn't that enough?"
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "The water cannot affect the Tardis. It won't wash away. It'll still be there when the tide goes down. Now stop fretting, my dear. Well, I must confess, er, I do congratulate you. It's a splendid machine. Although I do note there's been quite a few changes?"
+                        },
+                        {
+                            "Character": "MONK",
+                            "Line": "Oh, yes, indeed, Doctor. In fact this one is fitted with the automatic drift control."
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "Oh, I see, yes, of course. And, er, thereby you can suspend yourself in space with absolute safety."
+                        },
+                        {
+                            "Character": "MONK",
+                            "Line": "Precisely, Doctor. By the way, I tried to get into your police box but the door was locked. What type's yours, Doctor?"
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "Mind your own business."
+                        },
+                        {
+                            "Character": "STEVEN",
+                            "Line": "Look, I take it you both come from the same place, Doctor?"
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "Yes, I regret that we do, but I would say that I am fifty years earlier. Now when are you going to answer my questions?"
+                        },
+                        {
+                            "Character": "MONK",
+                            "Line": "Which questions?"
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "The reason for this deliberate destruction."
+                        },
+                        {
+                            "Character": "MONK",
+                            "Line": "I, I want to improve things."
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "Improve things? Improve things, yes, that's good. Very good. Improve what, for instance?"
+                        },
+                        {
+                            "Character": "MONK",
+                            "Line": "Well, for instance, Harold, King Harold, I know he'd be a good king. There wouldn't be all those wars in Europe, those claims over France went on for years and years. With peace the people'd be able to better themselves. With a few hints and tips from me they'd be able to have jet airliners by 1320! Shakespeare'd be able to put Hamlet on television."
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "He'd do what?"
+                        },
+                        {
+                            "Character": "MONK",
+                            "Line": "The play Hamlet on television."
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "Oh, yes, quite so, yes, of course, I do know the medium."
+                        },
+                        {
+                            "Character": "STEVEN",
+                            "Line": "Were you going to kill the Vikings?"
+                        },
+                        {
+                            "Character": "MONK",
+                            "Line": "Yes, yes, I was. You see, if I didn't, then King"
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "What are we going to do with this fellow? What can we do with this man? He's utterly irresponsible. He wants to destroy the whole pattern of world history."
+                        },
+                        {
+                            "Stage Direction": "The Monk runs out of his Tardis."
+                        },
+                        {
+                            "Character": "VICKI",
+                            "Line": "Steven! Doctor!"
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "Oh, quick, quick!"
+                        }
+                    ]
+                },
+                {
+                    "Scene": "Chapel",
+                    "Dialogue": [
+                        {
+                            "Stage Direction": "The Monk is grabbed by Ulf and Sven."
+                        },
+                        {
+                            "Character": "MONK",
+                            "Line": "Long live King Hardrada! Those are your enemies, there. Quick!"
+                        }
+                    ]
+                },
+                {
+                    "Scene": "Village",
+                    "Dialogue": [
+                        {
+                            "Character": "WULNOTH",
+                            "Line": "The old man who journeyed here spoke of a Viking invasion descending on us. And the Monk asked us to light beacon fires on the clifftops."
+                        },
+                        {
+                            "Character": "EDITH",
+                            "Line": "The old man spoke the truth. He had no reason to lie."
+                        },
+                        {
+                            "Character": "WULNOTH",
+                            "Line": "Fires on the clifftops would guide the ships in to land. Viking ships!"
+                        },
+                        {
+                            "Character": "EDITH",
+                            "Line": "We know and respect the monastery as a place of worship. But what of a Viking spy who passes himself off as a monk? Look! Eldred!"
+                        },
+                        {
+                            "Character": "ELDRED",
+                            "Line": "The monastery"
+                        },
+                        {
+                            "Character": "WULNOTH",
+                            "Line": "What of it? What have you seen?"
+                        },
+                        {
+                            "Character": "ELDRED",
+                            "Line": "Vikings. There are Vikings hiding there."
+                        },
+                        {
+                            "Character": "EDITH",
+                            "Line": "Is that enough? Do you need more proof?"
+                        },
+                        {
+                            "Character": "MEN",
+                            "Line": "No, no."
+                        },
+                        {
+                            "Character": "WULNOTH",
+                            "Line": "Arm yourselves! We know how to treat the raiders!"
+                        }
+                    ]
+                },
+                {
+                    "Scene": "Corridor",
+                    "Dialogue": [
+                        {
+                            "Stage Direction": "The Monk has Ulf and Sven carrying the ammunition box."
+                        },
+                        {
+                            "Character": "MONK",
+                            "Line": "Come along, come along, if we want to send signals to your ships, we mustn't delay like this, you know."
+                        },
+                        {
+                            "Character": "ULF",
+                            "Line": "What are these things?"
+                        },
+                        {
+                            "Character": "MONK",
+                            "Line": "They are, er, they're charms, my son, to guide your ships to sheltered waters. Come along. I know you don't understand, but believe me, your ships will know they're there!"
+                        }
+                    ]
+                },
+                {
+                    "Scene": "Chapel",
+                    "Dialogue": [
+                        {
+                            "Stage Direction": "Our heroes have been bound hand and foot."
+                        },
+                        {
+                            "Character": "STEVEN",
+                            "Line": "I can't find a sharp enough stone anywhere. Those Vikings sure know how to tie knots."
+                        },
+                        {
+                            "Character": "VICKI",
+                            "Line": "It looks as though that Monk's going to get away with it after all."
+                        },
+                        {
+                            "Character": "STEVEN",
+                            "Line": "Yes, but he can't, can he? I don't know much about history but I do know that William the Conqueror did win the Battle of Hastings."
+                        },
+                        {
+                            "Character": "VICKI",
+                            "Line": "Up till now he did. If the Monk changes it, I suppose our memories will change as well."
+                        },
+                        {
+                            "Character": "STEVEN",
+                            "Line": "What about the history books?"
+                        },
+                        {
+                            "Character": "VICKI",
+                            "Line": "That's all right. They're not written yet. They'll just write and print the new version."
+                        },
+                        {
+                            "Character": "STEVEN",
+                            "Line": "But that means that the exact minute, the exact second that he does it, every history book, every, well, the whole future of every year and time on Earth will change, just like that and nobody'll know that it has?"
+                        },
+                        {
+                            "Character": "VICKI",
+                            "Line": "I suppose that's what I'm trying to say."
+                        },
+                        {
+                            "Character": "STEVEN",
+                            "Line": "Well, there's more to this time travelling than meets the eye. What's the matter with the Doctor? He's not gone to sleep, has he?"
+                        },
+                        {
+                            "Character": "VICKI",
+                            "Line": "Doctor, are you awake?"
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "Wide awake, my dear. As a matter of fact, I was just turning over in my mind what we're going to do with this Monk fellow. He won't listen. He's determined to have his own way. He's got to be stopped. He must be stopped!"
+                        }
+                    ]
+                },
+                {
+                    "Scene": "Monastery Entrance",
+                    "Dialogue": [
+                        {
+                            "Character": "MONK",
+                            "Line": "Come along, come along, come on. Yes, yes, they are rather heavy, aren't they, but they're a sort of special charm, you understand?"
+                        },
+                        {
+                            "Character": "ULF",
+                            "Line": "And where are we taking them?"
+                        },
+                        {
+                            "Character": "MONK",
+                            "Line": "To the clifftop. Now come along. I won't be stopped. Hurry, I'll open the door for you. There. Come."
+                        }
+                    ]
+                },
+                {
+                    "Scene": "Outside the Monastery",
+                    "Dialogue": [
+                        {
+                            "Stage Direction": "Where they are confronted by the armed villagers and chased back inside. The Monk hides behind the doors then runs outside, and everyone follows him."
+                        }
+                    ]
+                },
+                {
+                    "Scene": "Chapel",
+                    "Dialogue": [
+                        {
+                            "Stage Direction": "Edith unties the Doctor."
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "Oh, yes, thank you. Thank you indeed. Oh, it's a good thing for us that you decided to make a search."
+                        },
+                        {
+                            "Character": "EDITH",
+                            "Line": "Oh, without your help, we'd never have known the Monk was a Viking spy, would we?"
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "Ah, yes, the Monk, now was he caught?"
+                        },
+                        {
+                            "Character": "EDITH",
+                            "Line": "Now Wulnoth and the others will not let him escape, nor the two Vikings that are with him."
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "Yes, yes, no doubt they'll catch up with him and the rest of them. But, that Monk you know, still worries me. I think he's got some tricks left up his sleeve."
+                        },
+                        {
+                            "Character": "EDITH",
+                            "Line": "Where are you going to now?"
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "Oh, we shall continue with our travels."
+                        },
+                        {
+                            "Character": "EDITH",
+                            "Line": "Oh, you must come back to the village with us before you go so we can bid you farewell."
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "Oh, yes, certainly, certainly, but we have one or two things to do here at the monastery first. But, we don't want to delay you. We'll follow on."
+                        },
+                        {
+                            "Stage Direction": "Edith leaves."
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "What a charming woman. Charming. Well now, you two, come along. We've got a lot to do."
+                        },
+                        {
+                            "Character": "STEVEN",
+                            "Line": "Well, such as what?"
+                        },
+                        {
+                            "Character": "VICKI",
+                            "Line": "Shall we go back to the Tardis?"
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "You know we can't do that, my child, not until we stop this time meddler. Have either of you got a pencil and paper on you?"
+                        },
+                        {
+                            "Character": "VICKI",
+                            "Line": "No."
+                        },
+                        {
+                            "Character": "STEVEN",
+                            "Line": "No, afraid not."
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "Well now, be a good fellow and go into the machine and try and find one."
+                        },
+                        {
+                            "Character": "STEVEN",
+                            "Line": "Yes, okay, Doc."
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "Hmm?"
+                        },
+                        {
+                            "Character": "STEVEN",
+                            "Line": "Tor."
+                        },
+                        {
+                            "Character": "VICKI",
+                            "Line": "Who are you going to write to?"
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "To the Monk, of course. Who else?"
+                        }
+                    ]
+                },
+                {
+                    "Scene": "Forest",
+                    "Dialogue": [
+                        {
+                            "Character": "MONK",
+                            "Line": "Here. this way. Behind that tree there, there's an old well. We can hide there, quick!"
+                        },
+                        {
+                            "Stage Direction": "He sends Ulf and Sven off one way, and goes the other."
+                        },
+                        {
+                            "Character": "SVEN",
+                            "Line": "There's no well there!"
+                        },
+                        {
+                            "Character": "ULF",
+                            "Line": "Where's he gone?"
+                        },
+                        {
+                            "Stage Direction": "And they're surrounded."
+                        }
+                    ]
+                },
+                {
+                    "Scene": "The Monk's Tardis",
+                    "Dialogue": [
+                        {
+                            "Stage Direction": "The Doctor finds a particular component in the underside of the console, and gets a shock from it."
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "Oh! Mr. Taylor! Where are you with that string, dear boy?"
+                        },
+                        {
+                            "Character": "STEVEN",
+                            "Line": "Here you are Doctor. I found some."
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "Good gracious me, come along."
+                        },
+                        {
+                            "Character": "VICKI",
+                            "Line": "What's that thing under there, Doctor?"
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "Now keep your nose out, my child, never mind. Did you hear what I said? Keep your nose away. Do you want to get a shock? This is a very dangerous business. Now keep still, all of you. Tie this in a knot."
+                        },
+                        {
+                            "Stage Direction": "He ties the string onto the component."
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "Now, the vibrations. Ticklish. Get back, get back! Now, you two, go outside. I'll follow in a minute."
+                        },
+                        {
+                            "Character": "VICKI",
+                            "Line": "But Doctor, what exactly are you doing?"
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "Don't, please, ask me questions. Go child! Outside!"
+                        },
+                        {
+                            "Character": "STEVEN",
+                            "Line": "Well, what are you trying to do?"
+                        },
+                        {
+                            "Stage Direction": "Steven gets a Look, and leaves, as the Doctor carefully plays out the string."
+                        }
+                    ]
+                },
+                {
+                    "Scene": "Chapel",
+                    "Dialogue": [
+                        {
+                            "Character": "VICKI",
+                            "Line": "Is he coming out yet?"
+                        },
+                        {
+                            "Character": "STEVEN",
+                            "Line": "Yes, yes, here he is."
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "Now, back. Elbow room, please. Now keep still. We're not out of the wood yet."
+                        },
+                        {
+                            "Stage Direction": "He carefully pulls on the string and out comes the chosen component."
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "Ah, there it is! I've done it, I've done it, I've done it."
+                        },
+                        {
+                            "Character": "STEVEN",
+                            "Line": "Well, nothing's happened, Doctor."
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "Hasn't it? Hasn't it, my dear boy?"
+                        },
+                        {
+                            "Character": "VICKI",
+                            "Line": "Come on, aren't you going to tell us?"
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "Yes, sometime, my dear, sometime. Here, put that in your pocket. Quite safe."
+                        },
+                        {
+                            "Stage Direction": "The Doctor puts a paper on top of the altar."
+                        },
+                        {
+                            "Character": "VICKI",
+                            "Line": "Oh, is that the letter you wrote."
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "Yes, and"
+                        },
+                        {
+                            "Character": "VICKI",
+                            "Line": "To the Monk."
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "Keep your hands off it, young lady. I don't want you nosing into peoples personal and private correspondence. Gracious me. Well, I think we've finished here. Now, lets go."
+                        },
+                        {
+                            "Character": "STEVEN",
+                            "Line": "Back to the Tardis?"
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "Yes, certainly, back to the Tardis. Yes, come along."
+                        }
+                    ]
+                },
+                {
+                    "Scene": "Clifftop",
+                    "Dialogue": [
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "There it is, my dear. There's the Tardis. Safe and sound. Didn't I tell you so?"
+                        },
+                        {
+                            "Character": "VICKI",
+                            "Line": "Oh, am I glad to see that old police box again."
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "Oh, glad indeed. Well, we must start climbing down the cliff and get aboard as soon as we can. There's going to be an invasion shortly."
+                        },
+                        {
+                            "Character": "STEVEN",
+                            "Line": "What? You mean any minute now the Viking fleet's going to sail past here?"
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "Yes, my boy, yes. And history will be DOCTOR + VICKI: Allowed to take its natural course."
+                        },
+                        {
+                            "Character": "STEVEN",
+                            "Line": "You know, I'm beginning to like the idea of being a crew member on a time machine."
+                        },
+                        {
+                            "Character": "VICKI",
+                            "Line": "A crew member? You'll be lucky. He's the crew. We're just the passengers."
+                        },
+                        {
+                            "Character": "DOCTOR",
+                            "Line": "Yes, and both very welcome ones, my dear. Come along, come along. Come on, come on."
+                        },
+                        {
+                            "Character": "STEVEN",
+                            "Line": "It's a heck of a way down. Wish we had a pair of wings."
+                        }
+                    ]
+                },
+                {
+                    "Scene": "Monastery Entrance",
+                    "Dialogue": [
+                        {
+                            "Stage Direction": "The Monk runs in, breathless, and bars the door."
+                        },
+                        {
+                            "Character": "MONK",
+                            "Line": "Oh. Oh, I'm getting too old for this sort of thing. It's ridiculous."
+                        }
+                    ]
+                },
+                {
+                    "Scene": "Chapel",
+                    "Dialogue": [
+                        {
+                            "Character": "MONK",
+                            "Line": "Yes, I was right. They're gone. Well, I suppose I'd better be on my way again too."
+                        },
+                        {
+                            "Stage Direction": "He sees the letter on the altar."
+                        },
+                        {
+                            "Character": "MONK",
+                            "Line": "The Doctor. (reads) My dear fellow, I'm sure will you excuse me but I didn't want to say goodbye, as you are obviously going to be very busy for some time. He's right there. Just in case you still idea's about your master plan, I've taken precautions to stop your time meddling. How could he stop a Mark 4? Possibly one day in the future, when you've learnt your lesson, I shall return and release you. Release me? Ha! Me? Oh, the old fool. I wonder what he meant by release me? Well, I'll be going."
+                        },
+                        {
+                            "Stage Direction": "But he can't get in. His Tardis is now the size of the altar. It's no longer bigger inside than outside."
+                        },
+                        {
+                            "Character": "MONK",
+                            "Line": "Ah! Ah! What's he done? He's taken my dimensional control! He's ruined my time machine! I'm, I'm marooned. Marooned! In 1066. Oh, Doctor. Doctor! Doctor!"
+                        },
+                        {
+                            "Stage Direction": "Down on the beach, the Tardis dematerialises."
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

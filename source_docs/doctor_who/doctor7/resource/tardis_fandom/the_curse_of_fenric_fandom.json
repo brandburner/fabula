@@ -1,0 +1,187 @@
+{
+  "metadata": {
+    "title": "The Curse of Fenric",
+    "series": "Doctor Who",
+    "season": "26",
+    "release_date": "25 October 1989",
+    "release_end_date": "15 November 1989",
+    "writer": "Ian Briggs",
+    "director": "Nicholas Mallett",
+    "producer": "John Nathan-Turner",
+    "main_actors": [
+      "Sylvester McCoy",
+      "Sophie Aldred",
+      "Dinsdale Landen",
+      "Alfred Lynch",
+      "Stevan Rimkus",
+      "Marcus Hutton",
+      "Christien Anholt",
+      "Tomek Bork",
+      "Peter Czajkowski",
+      "Marek Anton",
+      "Mark Conrad",
+      "Nicholas Parsons",
+      "Janet Henfrey",
+      "Joann Kenny",
+      "Joanne Bell",
+      "Anne Reid",
+      "Cory Pulman",
+      "Aaron Hanley",
+      "Raymond Trickett"
+    ],
+    "time_reference": "1943 during World War II"
+  },
+  "cast_crew": [
+    {
+      "cast": {
+        "name": "Sylvester McCoy",
+        "role": "The Doctor"
+      },
+      "crew": {
+        "name": "Nicholas Mallett",
+        "role": "Director"
+      }
+    },
+    {
+      "cast": {
+        "name": "Sophie Aldred",
+        "role": "Ace"
+      },
+      "crew": {
+        "name": "Ian Briggs",
+        "role": "Writer"
+      }
+    },
+    {
+      "cast": {
+        "name": "Dinsdale Landen",
+        "role": "Dr. Judson"
+      },
+      "crew": {
+        "name": "John Nathan-Turner",
+        "role": "Producer"
+      }
+    },
+    {
+      "cast": {
+        "name": "Alfred Lynch",
+        "role": "Commander Millington"
+      },
+      "crew": {
+        "name": "Andrew Cartmel",
+        "role": "Script Editor"
+      }
+    },
+    {
+      "cast": {
+        "name": "Stevan Rimkus",
+        "role": "Captain Bates"
+      },
+      "crew": {
+        "name": "Mark Ayres",
+        "role": "Incidental Music"
+      }
+    }
+  ],
+  "home_media": [
+    {
+      "releases": {
+        "media_type": "DVD",
+        "date": "6 October 2003",
+        "details": "Includes Director's Cut / Special Edition",
+        "special_features": [
+          "Commentary by Sylvester McCoy, Sophie Aldred, and Nicholas Parsons",
+          "Music-only Option",
+          "Production Subtitles",
+          "Photo Gallery",
+          "Nebula '90 - The cast and crew reunion",
+          "Take Two - Behind the scenes",
+          "Modelling the Dead - Haemovore mask making",
+          "Claws and Effects - Visual effects tests",
+          "Shattering the Chains - Interview with Ian Briggs"
+        ]
+      }
+    },
+    {},
+    {
+      "releases": {
+        "media_type": "VHS",
+        "date": "February 1991",
+        "details": "Episodic format with additional footage",
+        "special_features": []
+      }
+    }
+  ],
+  "story_notes": [
+    {
+      "notes": [
+        "Originally titled The Wolves of Fenric.",
+        "First televised story set during World War II.",
+        "The ancient evil Fenric ties back to Norse mythology."
+      ]
+    }
+  ],
+  "worldbuilding": {
+    "in_universe_mythology": [
+      "Fenric, an ancient evil from the dawn of time",
+      "Haemovores, future evolution of mankind"
+    ],
+    "real_world_cultural_references": [
+      "Norse mythology references such as Yggdrasil and Ragnarok"
+    ],
+    "individuals": [
+      "The Doctor",
+      "Fenric",
+      "Dr. Judson",
+      "Commander Millington"
+    ],
+    "items": [
+      "ULTIMA machine",
+      "Viking chess set"
+    ],
+    "locations": [
+      "Maiden's Point",
+      "St. Jude's Church",
+      "Secret naval base, Northumberland"
+    ]
+  },
+  "ratings": {
+    "ratings_millions": [
+      {
+        "part": "Part One",
+        "viewers": 4.3
+      },
+      {
+        "part": "Part Two",
+        "viewers": 4.0
+      },
+      {
+        "part": "Part Three",
+        "viewers": 4.0
+      },
+      {
+        "part": "Part Four",
+        "viewers": 4.2
+      }
+    ]
+  },
+  "continuity": {
+    "continuity_notes": [
+      "References previous events in Dragonfire and Silver Nemesis."
+    ]
+  },
+  "plot": [
+    {
+      "plot_summary": "Part One: The Doctor and Ace arrive at a WWII naval base where sinister forces are at play involving ancient runes and a machine designed to decode German messages. They encounter espionage and supernatural threats."
+    },
+    {
+      "plot_summary": "Part Two: The situation escalates as the Doctor learns the dark purpose of the ULTIMA machine. Haemovores attack, revealing the dangers of the ancient curse tied to the Viking ancestors of the characters."
+    },
+    {
+      "plot_summary": "Part Three: The Doctor discovers that the Haemovores are the result of mankind's future evolution. He races against time to thwart Millington's plans and save his allies from the vengeful Fenric."
+    },
+    {
+      "plot_summary": "Part Four: The Doctor confronts Fenric in a high-stakes chess game that determines the fate of all involved. Themes of faith, betrayal, and destiny intertwine as Ace confronts her own past."
+    }
+  ]
+}

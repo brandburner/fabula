@@ -1,0 +1,841 @@
+{
+    "Story": "Mission to the Unknown",
+    "Airdate": "1965-10-09",
+    "Episodes": [
+        {
+            "Episode": "Episode One - Mission to the Unknown",
+            "Scenes": [
+                {
+                    "Scene": "Jungle",
+                    "Dialogue": [
+                        {
+                            "Stage Direction": "The planet Kembel, its landmasses covered in vast inhospitable jungles holding many dangers. In a forest clearing, Jeff Garvey is lying on the ground, barely conscious. Garvey wakes with a start, sitting up and peering about him in confusion. Quite suddenly, Garvey presses his hands to his temples, his face twisted in agony. At last the pain passes. Garvey becomes calmer, dropping his hands as he begins to smile. Rising to his feet, Garvey pulls a gun from his belt."
+                        },
+                        {
+                            "Character": "GARVEY",
+                            "Line": "I, I remember now. I must, I must kill. Must kill. Must kill."
+                        }
+                    ]
+                },
+                {
+                    "Scene": "Outside the ship",
+                    "Dialogue": [
+                        {
+                            "Stage Direction": "A short distance away, Marc Cory and Gordon Lowery are attempting to repair their rocket ship. Grimly, Lowery peers out into the surrounding jungle."
+                        },
+                        {
+                            "Character": "LOWERY",
+                            "Line": "Why you ever wanted to land on a planet like this in the first place I'll never know. This is getting on my nerves."
+                        },
+                        {
+                            "Stage Direction": "A loud screech"
+                        },
+                        {
+                            "Character": "CORY",
+                            "Line": "I hate to think what kind of an animal makes a noise like that."
+                        },
+                        {
+                            "Character": "LOWERY",
+                            "Line": "Yeah, they're getting closer."
+                        },
+                        {
+                            "Character": "CORY",
+                            "Line": "Yes, all the more reason to stop talking and get on with the job."
+                        },
+                        {
+                            "Character": "LOWERY",
+                            "Line": "Just you listen to me, Cory. I know my orders were to let you have full reign, and you've certainly taken advantage of that, but as Captain of this expedition, my first responsibility is to get this ship off the ground. So just cut the chat. Some other time, hmm? Bring that wrench."
+                        },
+                        {
+                            "Character": "CORY",
+                            "Line": "How's it going?"
+                        },
+                        {
+                            "Character": "LOWERY",
+                            "Line": "Oh, it's slow. Flare-back melted the retaining bolts. Just solid lumps of tarnium. Ah, some of it's free."
+                        },
+                        {
+                            "Character": "CORY",
+                            "Line": "I want to have a look around."
+                        },
+                        {
+                            "Character": "LOWERY",
+                            "Line": "If we don't shoot off soon, we won't make it to the rendezvous with the freighter, you know? If we're not in the pick-up orbit, they won't wait."
+                        },
+                        {
+                            "Character": "CORY",
+                            "Line": "You'll make it, Lowery. Here you are."
+                        },
+                        {
+                            "Character": "LOWERY",
+                            "Line": "I'm doing the best I can. I didn't want to touch down on this lousy planet in the first place, remember?"
+                        },
+                        {
+                            "Character": "CORY",
+                            "Line": "Let's not start that again. Just get on with the job, would you? Where the devil's Garvey? He should be back by now."
+                        },
+                        {
+                            "Character": "LOWERY",
+                            "Line": "He'll be here. That screwdriver, will you?"
+                        },
+                        {
+                            "Stage Direction": "Cory hands Lowery the requested tool. Hidden in the dense foliage of the jungle, Garvey watches the two men continue working on the rocket's tail fin."
+                        },
+                        {
+                            "Character": "GARVEY",
+                            "Line": "Kill. Kill."
+                        },
+                        {
+                            "Stage Direction": "He edges forward"
+                        },
+                        {
+                            "Character": "LOWERY",
+                            "Line": "Ah, managed to get some of it free. Look at it, it's useless. Get me a spare, will you? No, in the ship."
+                        },
+                        {
+                            "Stage Direction": "As Cory heads back into the rocket, Lowery continues to work. Garvey edges closer, keeping the ship between him and the two other men so that he cannot be seen."
+                        },
+                        {
+                            "Character": "LOWERY",
+                            "Line": "Oh, it's no good, Cory. You needn't bother with a spare. I'm just not going to be able to fix it."
+                        },
+                        {
+                            "Stage Direction": "Bent over his work, Lowery is defenceless as Garvey raises his gun to fire. But it is Garvey who topples to the ground, caught in the blast of Marc Cory's ray gun."
+                        },
+                        {
+                            "Character": "LOWERY",
+                            "Line": "Jeff! Jeff!"
+                        },
+                        {
+                            "Stage Direction": "Lowery kneels beside Garvey, cradling his head. The fallen man writhes with pain and then lies still."
+                        },
+                        {
+                            "Character": "LOWERY",
+                            "Line": "You've killed him. You've killed Jeff!"
+                        },
+                        {
+                            "Character": "CORY",
+                            "Line": "It was him or you."
+                        },
+                        {
+                            "Character": "LOWERY",
+                            "Line": "You didn't give him a chance. You shot him down like an animal. You just shot him down!"
+                        },
+                        {
+                            "Stage Direction": "Lowery launches himself at Cory, trying to strangle him. Cory punches him in the stomach. Lowery reels back, shocked and gasping, as Cory kneels down besides Garvey's body. He makes a cursory examination of the head and neck, and then with a grunt of recognition, removes a long thorn embedded in the flesh just below the ear."
+                        },
+                        {
+                            "Character": "CORY",
+                            "Line": "A Varga thorn."
+                        },
+                        {
+                            "Character": "LOWERY",
+                            "Line": "What? Varga?"
+                        },
+                        {
+                            "Character": "CORY",
+                            "Line": "Careful, don't prick yourself with it or you'll end up the way Garvey is. I'd have to kill you."
+                        },
+                        {
+                            "Character": "LOWERY",
+                            "Line": "What do you mean?"
+                        },
+                        {
+                            "Character": "CORY",
+                            "Line": "Let's get back into the ship."
+                        },
+                        {
+                            "Character": "LOWERY",
+                            "Line": "What about his personal effects?"
+                        },
+                        {
+                            "Character": "CORY",
+                            "Line": "All right, but hurry up."
+                        },
+                        {
+                            "Stage Direction": "Lowery collects Garvey's belongings then he and Cory disappear into the rocket ship, the door sliding shut behind them. Garvey lies on the ground where he fell, apparently dead. After a moment or two, however, the fingers of one hand begin to twitch and clench, the movement becoming more pronounced and violent. As the hand twists and turns, long white hair can be seen to be covering its back, and amongst the hair a multitude of spiny Varga thorns are growing."
+                        }
+                    ]
+                },
+                {
+                    "Scene": "Inside the ship",
+                    "Dialogue": [
+                        {
+                            "Character": "CORY",
+                            "Line": "I didn't intend to tell you anything, but since we're stuck on this planet and Garvey's dead, there are some facts that you're entitled to know."
+                        },
+                        {
+                            "Character": "LOWERY",
+                            "Line": "Yeah. Jeff Garvey's dead. I mean, we flew together the last ten years, and now he's dead, and you killed him. You'd better explain that fact, and make it good."
+                        },
+                        {
+                            "Character": "CORY",
+                            "Line": "Sit down and take a look at this."
+                        },
+                        {
+                            "Stage Direction": "Cory hand Lowery his ID."
+                        },
+                        {
+                            "Character": "LOWERY",
+                            "Line": "I might have known. Space Security Service. Licensed to kill."
+                        },
+                        {
+                            "Character": "CORY",
+                            "Line": "That's right."
+                        },
+                        {
+                            "Character": "LOWERY",
+                            "Line": "Well, count me out."
+                        },
+                        {
+                            "Character": "CORY",
+                            "Line": "This other document gives me the authority to enlist the aid of any persons, civil or military. You were just enlisted. From now on, Lowery, you can take your orders from me."
+                        },
+                        {
+                            "Character": "LOWERY",
+                            "Line": "All right, all right. But I don't fully understand. Better fill in a few details."
+                        },
+                        {
+                            "Character": "CORY",
+                            "Line": "All right. I suppose you've heard of the Daleks?"
+                        },
+                        {
+                            "Character": "LOWERY",
+                            "Line": "The Daleks invaded Earth a thousand years ago."
+                        },
+                        {
+                            "Character": "CORY",
+                            "Line": "That's right. Well, they haven't been active in our galaxy for some time now, but that doesn't mean they've exactly been sitting around. In the last five hundred years, they've gained control of over seventy planets in Ninth Galactic System and forty more in the Constellation of Miros."
+                        },
+                        {
+                            "Character": "LOWERY",
+                            "Line": "Don't see why that should concern us. I mean, they're both millions of light years away from our galaxy."
+                        },
+                        {
+                            "Character": "CORY",
+                            "Line": "Hmm, that's what we all thought. But about a week ago we had a report from the captain of a space freighter. His navigator spotted a space ship of a type never before used in our system. He saw it only for a second but he gave us a good description."
+                        },
+                        {
+                            "Character": "LOWERY",
+                            "Line": "So?"
+                        },
+                        {
+                            "Character": "CORY",
+                            "Line": "What he described was a Dalek spaceship."
+                        },
+                        {
+                            "Stage Direction": "Outside the ship, Garvey's feet and legs are twitching with life, and from the waist up his body is covered in long white spines. All resemblance to the human that was once Garvey is disappearing. He's becoming a Varga. Inside, Cory tries to make contact with the rendezvous ship."
+                        },
+                        {
+                            "Character": "CORY",
+                            "Line": "Freighter XM2, freighter XM2. Come in, please. Come in, please!"
+                        },
+                        {
+                            "Character": "LOWERY",
+                            "Line": "Can you make it work?"
+                        },
+                        {
+                            "Character": "CORY",
+                            "Line": "It's got to work!"
+                        },
+                        {
+                            "Character": "LOWERY",
+                            "Line": "It may have been damaged in the crash."
+                        },
+                        {
+                            "Character": "CORY",
+                            "Line": "We must keep on trying."
+                        },
+                        {
+                            "Character": "LOWERY",
+                            "Line": "You tested the link pulses?"
+                        },
+                        {
+                            "Character": "CORY",
+                            "Line": "I know what I'm doing."
+                        },
+                        {
+                            "Character": "LOWERY",
+                            "Line": "All right, all right, so the link pulses work. There could be something else wrong with it. What about the vergometer? Have you tested that? Without that you'd never break through the atmosphere."
+                        },
+                        {
+                            "Character": "CORY",
+                            "Line": "How can I possibly test that? We've just got to take our chance that it hasn't been damaged. Freighter XM2. Freighter XM2. Come in, please. Come in, please. (static) It's useless. Are you sure we can't repair this ship?"
+                        },
+                        {
+                            "Character": "LOWERY",
+                            "Line": "Oh, not a chance. So you think that the Daleks have established some sort of a base here, is that it?"
+                        },
+                        {
+                            "Character": "CORY",
+                            "Line": "It could be. This is the most hostile planet in the universe. People from other civilisations avoid it. I suddenly had a hunch that this might make an ideal place for any secret preparations that the Daleks wanted to make. That's why we brought this ship down here."
+                        },
+                        {
+                            "Character": "LOWERY",
+                            "Line": "Did you tell anybody else about this hunch of yours?"
+                        },
+                        {
+                            "Character": "CORY",
+                            "Line": "No one. Not even your commander. I just asked for a couple of men and a small rocket. I didn't even tell him what for."
+                        },
+                        {
+                            "Character": "LOWERY",
+                            "Line": "Then why are you telling me?"
+                        },
+                        {
+                            "Character": "CORY",
+                            "Line": "Because of this. A thorn from a Varga plant. A thing part animal, part vegetable. Looks like a cactus. The poison attacks the brain. Rational thought is replaced by an overwhelming desire to kill. Eventually the poison seeps through the system and the victim is gradually transformed into a Varga."
+                        },
+                        {
+                            "Character": "LOWERY",
+                            "Line": "And what's that got to do with the Daleks?"
+                        },
+                        {
+                            "Character": "CORY",
+                            "Line": "The only place in the universe where Vargas grow naturally is on the Daleks' own planet, Skaro. If the Vargas are here, the Daleks are, too."
+                        }
+                    ]
+                },
+                {
+                    "Scene": "Dalek control room",
+                    "Dialogue": [
+                        {
+                            "Stage Direction": "Cory's hunch is correct. There is indeed a Dalek base on Kembel. The machine creatures gather in the main control room as the Dalek Supreme enters and prepares to be updated on the latest developments. The Supreme's casing is jet black in contrast to the gunmetal blue-grey and silver of the others."
+                        },
+                        {
+                            "Character": "DALEK SUPREME",
+                            "Line": "I will receive your reports. First, space monitor control."
+                        },
+                        {
+                            "Character": "DALEK 1",
+                            "Line": "Space monitor control. The emissaries from the seven planets will arrive as arranged."
+                        },
+                        {
+                            "Character": "DALEK SUPREME",
+                            "Line": "Then the conference will begin at first sun. Security report."
+                        },
+                        {
+                            "Character": "DALEK 2",
+                            "Line": "Security control. Position of alien space craft located. Our patrol will reach it shortly."
+                        },
+                        {
+                            "Character": "DALEK SUPREME",
+                            "Line": "The ship and its occupants must be totally destroyed. Destroyed! Destroyed!"
+                        },
+                        {
+                            "Character": "DALEK 2",
+                            "Line": "It will be done."
+                        }
+                    ]
+                },
+                {
+                    "Scene": "Outside the ship",
+                    "Dialogue": [
+                        {
+                            "Stage Direction": "Lowery and Cory are both outside the rocket ship, observed from the fringes of the clearing by three Vargas, which sway slightly from side to side as they wait. Lowery is preparing a rescue beacon, a small metal framework with capsule launcher, while Cory makes a circuit of the ship. Lowery looks up as he returns."
+                        },
+                        {
+                            "Character": "LOWERY",
+                            "Line": "Anything out there?"
+                        },
+                        {
+                            "Character": "CORY",
+                            "Line": "Vargas. They're closing in."
+                        },
+                        {
+                            "Character": "LOWERY",
+                            "Line": "Do you mean to say they can move?"
+                        },
+                        {
+                            "Character": "CORY",
+                            "Line": "Very slowly. Look. They're using their roots to drag themselves along. How long are you going to be with this rescue beacon?"
+                        },
+                        {
+                            "Character": "LOWERY",
+                            "Line": "This is the recording part. Let's hope it wasn't damaged in the crash."
+                        },
+                        {
+                            "Character": "CORY",
+                            "Line": "We'll soon find out. Can you fix this capsule up?"
+                        },
+                        {
+                            "Character": "LOWERY",
+                            "Line": "Well that's easy enough, but this is the recording mechanism for the message. If we sent the rocket into space without this, not only would we not be rescued, but as you pointed out earlier, no one would even know we were here."
+                        },
+                        {
+                            "Character": "CORY",
+                            "Line": "Hurry up and attach it then."
+                        },
+                        {
+                            "Character": "LOWERY",
+                            "Line": "All right, all right, I'm as keen to get out of here as you are. Give me those pliers, will you? Nearly finished."
+                        },
+                        {
+                            "Character": "CORY",
+                            "Line": "Good. I don't know how long we've got. But the Daleks must know we're here. They'll be coming for us soon."
+                        },
+                        {
+                            "Character": "LOWERY",
+                            "Line": "Well I still think you're jumping to conclusions, you know. I mean, just because these, what are they, Varga things grow here, it's no proof that the Daleks are here too."
+                        },
+                        {
+                            "Character": "CORY",
+                            "Line": "Take my word for it, they're here all right."
+                        },
+                        {
+                            "Character": "LOWERY",
+                            "Line": "Yes, but couldn't these Varga things grow here naturally? I mean, it's possible, isn't it?"
+                        },
+                        {
+                            "Character": "CORY",
+                            "Line": "No. They were developed in Dalek laboratories. They grow them to give themselves protection."
+                        },
+                        {
+                            "Character": "LOWERY",
+                            "Line": "Well if they're synthetic, that means we"
+                        },
+                        {
+                            "Character": "CORY",
+                            "Line": "Look, stop asking questions and get on with the work!"
+                        }
+                    ]
+                },
+                {
+                    "Scene": "Jungle",
+                    "Dialogue": [
+                        {
+                            "Stage Direction": "Elsewhere in the jungle, the Dalek security patrol considers tactics."
+                        },
+                        {
+                            "Character": "DALEK 1",
+                            "Line": "Acceptor readings indicated alien space craft. We will close on it from two directions."
+                        },
+                        {
+                            "Character": "DALEKS",
+                            "Line": "We obey."
+                        },
+                        {
+                            "Stage Direction": "The Daleks fan off in two groups"
+                        }
+                    ]
+                },
+                {
+                    "Scene": "Outside the ship",
+                    "Dialogue": [
+                        {
+                            "Stage Direction": "Cory and Lowery, unaware of the greater danger, are more concerned with the threat of the Vargas, which are edging ever closer to the rocket ship."
+                        },
+                        {
+                            "Character": "LOWERY",
+                            "Line": "Those things are getting too close for comfort. I'll fix them."
+                        },
+                        {
+                            "Character": "CORY",
+                            "Line": "It's no good, Lowery. They'll only grow again as fast as you can shoot them."
+                        },
+                        {
+                            "Character": "LOWERY",
+                            "Line": "At least I'll have had a try at them."
+                        },
+                        {
+                            "Character": "CORY",
+                            "Line": "Get back to the beacon. You sure it'll work?"
+                        },
+                        {
+                            "Character": "LOWERY",
+                            "Line": "Well, it should work. It's standard safety equipment on all rocket ships."
+                        },
+                        {
+                            "Character": "CORY",
+                            "Line": "What does it do exactly?"
+                        },
+                        {
+                            "Character": "LOWERY",
+                            "Line": "Well, you record the message, SOS, on this, just like an ordinary tape recorder. The rocket launcher shoots it high into orbit. Once it's in orbit it transmits the message. Simple."
+                        },
+                        {
+                            "Character": "CORY",
+                            "Line": "From what we know about the Daleks, we've got to be picked up."
+                        },
+                        {
+                            "Character": "LOWERY",
+                            "Line": "Well, it's tuned in to a special frequency, and there are listening posts all over the galaxy. Our people should get the message."
+                        },
+                        {
+                            "Character": "CORY",
+                            "Line": "And all we have to do is to stay alive until they get here."
+                        },
+                        {
+                            "Stage Direction": "Lowery continues to prepare the launcher. Then both men are startled by a sound overhead. As they stare upwards, a huge craft passes above them."
+                        },
+                        {
+                            "Character": "LOWERY",
+                            "Line": "That's the biggest rocket ship I've ever seen. It's like nothing we've got."
+                        },
+                        {
+                            "Character": "CORY",
+                            "Line": "It's from an outer galaxy."
+                        },
+                        {
+                            "Character": "LOWERY",
+                            "Line": "Yes, but what's it doing in a God-forsaken planet like this?"
+                        },
+                        {
+                            "Character": "CORY",
+                            "Line": "I don't know, but I'll tell you this. There's something very big going on here, and if the Daleks are involved you can bet your life our whole galaxy is in danger."
+                        }
+                    ]
+                },
+                {
+                    "Scene": "Jungle",
+                    "Dialogue": [
+                        {
+                            "Stage Direction": "The Dalek patrol has also observed the spaceship's arrival."
+                        },
+                        {
+                            "Character": "DALEK 1",
+                            "Line": "The ship from the planet Gearon."
+                        },
+                        {
+                            "Character": "DALEK 2",
+                            "Line": "And the beginning of the Great Alliance."
+                        },
+                        {
+                            "Stage Direction": "The Dalek's resume their advance, closing in on the rocket ship."
+                        }
+                    ]
+                },
+                {
+                    "Scene": "Outside the ship",
+                    "Dialogue": [
+                        {
+                            "Stage Direction": "Meanwhile, Lowery has finally finished assembling the launcher for the beacon."
+                        },
+                        {
+                            "Character": "LOWERY",
+                            "Line": "That should just about do it. Give me the capsule will you, I'll record the message."
+                        },
+                        {
+                            "Character": "CORY",
+                            "Line": "Shush."
+                        },
+                        {
+                            "Character": "LOWERY",
+                            "Line": "What is it?"
+                        },
+                        {
+                            "Character": "CORY",
+                            "Line": "There's something out there moving."
+                        },
+                        {
+                            "Character": "LOWERY",
+                            "Line": "Vargas?"
+                        },
+                        {
+                            "Character": "CORY",
+                            "Line": "No. Moving too quickly. Come on, we've got to get away."
+                        },
+                        {
+                            "Character": "LOWERY",
+                            "Line": "What about the distress signal?"
+                        },
+                        {
+                            "Character": "CORY",
+                            "Line": "We'll take it with us, launch it as soon as we get a chance."
+                        },
+                        {
+                            "Character": "LOWERY",
+                            "Line": "All right. Which way?"
+                        },
+                        {
+                            "Character": "CORY",
+                            "Line": "Over here. They won't be the only ones, so watch out."
+                        },
+                        {
+                            "Stage Direction": "A sudden noise makes Lowery turn."
+                        },
+                        {
+                            "Character": "LOWERY",
+                            "Line": "Cory! Daleks!"
+                        },
+                        {
+                            "Character": "CORY",
+                            "Line": "Get down and don't make a sound! (Crouched in the bushes, Cory and Lowery watch as two Daleks glide past them and into the clearing. They're soon joined by two more. The Daleks line up in front of the rocket ship whilst one glides up to the doorway and checks inside before turning to face the others."
+                        },
+                        {
+                            "Character": "DALEK 2",
+                            "Line": "The ship is empty. The crew has gone."
+                        },
+                        {
+                            "Character": "DALEK 1",
+                            "Line": "We will search for them. Destroy the ship. Fire!"
+                        },
+                        {
+                            "Stage Direction": "Lowery watches in horror as his ship is destroyed."
+                        },
+                        {
+                            "Character": "LOWERY",
+                            "Line": "It's just falling apart!"
+                        },
+                        {
+                            "Character": "CORY",
+                            "Line": "Come on!"
+                        },
+                        {
+                            "Stage Direction": "Cory heads off deeper into the jungle. Lowery follows nervously, carrying the capsule launcher. All too aware that he's falling behind, Lowery pushes through a clump of dense bushes then recoils in alarm as if he has been stung. Horrified, he discovers he has a Varga thorn deeply embedded in the palm of his hand. Panicking, Lowery tears out the thorn and throws it aside, frantically sucking at the wound, trying to extract the poison."
+                        },
+                        {
+                            "Character": "CORY",
+                            "Line": "Come on, man, come on. They'll be looking for us now!"
+                        },
+                        {
+                            "Stage Direction": "Hesitating only a moment, Lowery follows Cory into the jungle. Back in the clearing, the Daleks have totally destroyed the rocket ship."
+                        },
+                        {
+                            "Character": "DALEK 1",
+                            "Line": "Report destruction of alien ship to control."
+                        },
+                        {
+                            "Character": "DALEK 2",
+                            "Line": "I obey."
+                        },
+                        {
+                            "Character": "DALEK 1",
+                            "Line": "Advise that we will now seek out the crew. Alert all patrols."
+                        },
+                        {
+                            "Character": "DALEKS",
+                            "Line": "We obey."
+                        }
+                    ]
+                },
+                {
+                    "Scene": "Conference room",
+                    "Dialogue": [
+                        {
+                            "Stage Direction": "In the Dalek city, emissaries from the seven systems have gathered in the huge conference room. Representative Malpha is the last to take his seat."
+                        },
+                        {
+                            "Character": "DALEK SUPREME",
+                            "Line": "With the arrival of our ally Malpha, we are enough. The meeting can now begin."
+                        },
+                        {
+                            "Character": "MALPHA",
+                            "Line": "No it can't."
+                        },
+                        {
+                            "Character": "DALEK SUPREME",
+                            "Line": "What is wrong?"
+                        },
+                        {
+                            "Character": "MALPHA",
+                            "Line": "There is a hostile presence among us."
+                        },
+                        {
+                            "Character": "DALEK SUPREME",
+                            "Line": "What do you mean?"
+                        },
+                        {
+                            "Character": "MALPHA",
+                            "Line": "On arrival here, I am told that there are hostile influences from the solar system among us."
+                        },
+                        {
+                            "Character": "DALEK SUPREME",
+                            "Line": "Not among us."
+                        },
+                        {
+                            "Character": "MALPHA",
+                            "Line": "Then here on the planet Kembel."
+                        },
+                        {
+                            "Character": "DALEK SUPREME",
+                            "Line": "Some beings have landed from the planet Earth, hostile beings from the centre of the solar system. But do not worry. Their spaceship has been destroyed."
+                        },
+                        {
+                            "Character": "MALPHA",
+                            "Line": "What about the beings?"
+                        },
+                        {
+                            "Character": "DALEK SUPREME",
+                            "Line": "They cannot escape. At this moment they are being hunted down. They will be destroyed."
+                        },
+                        {
+                            "Character": "MALPHA",
+                            "Line": "Are you sure?"
+                        },
+                        {
+                            "Character": "DALEK SUPREME",
+                            "Line": "They cannot get away."
+                        },
+                        {
+                            "Character": "MALPHA",
+                            "Line": "Suppose they send a message through this universe?"
+                        },
+                        {
+                            "Character": "DALEK SUPREME",
+                            "Line": "They will not have time. If they do not die by our Varga plants, my patrols will kill them! They will be exterminated! Exterminated!"
+                        }
+                    ]
+                },
+                {
+                    "Scene": "Jungle",
+                    "Dialogue": [
+                        {
+                            "Stage Direction": "Cory leads Lowery through the jungle, desperately seeking refuge."
+                        },
+                        {
+                            "Character": "CORY",
+                            "Line": "This way."
+                        }
+                    ]
+                },
+                {
+                    "Scene": "Conference room",
+                    "Dialogue": [
+                        {
+                            "Stage Direction": "The delegates signal their assent to the treaty laid before them."
+                        },
+                        {
+                            "Character": "ALIEN 1",
+                            "Line": "Agreed."
+                        },
+                        {
+                            "Character": "ALIEN 2",
+                            "Line": "Agreed."
+                        },
+                        {
+                            "Character": "DALEK SUPREME",
+                            "Line": "All are agreed. It is done. The seven great powers of the outer galaxies are one."
+                        },
+                        {
+                            "Character": "ALIENS",
+                            "Line": "Our galactic domination. Victory."
+                        },
+                        {
+                            "Stage Direction": "Malpha, assuming the role of speaker, addresses the others."
+                        },
+                        {
+                            "Character": "MALPHA",
+                            "Line": "This is indeed an historic moment in the history of the universe. We six from the outer galaxies, joining with the power from the solar system, the Daleks! The seven of us represent the greatest war force ever assembled. Conquest is assured! Mars! Venus! Jupiter! The moon colonies!"
+                        },
+                        {
+                            "Character": "DALEK SUPREME",
+                            "Line": "They will all fall before our might. But the first of them will be Earth!"
+                        }
+                    ]
+                },
+                {
+                    "Scene": "Jungle",
+                    "Dialogue": [
+                        {
+                            "Stage Direction": "Resting as Cory scouts ahead, Lowery is now in great pain, and still desperately trying to suck the poison from his palm. Then he notices the back of his hand. Horrified, Lowery pulls up his sleeve to discover that his hand and forearm are covered with the white spines of the Varga. Hearing Cory returning, Lowery hastily covers his arm."
+                        },
+                        {
+                            "Character": "CORY",
+                            "Line": "We've got to get this capsule off, and fast. There's a city down there, A Dalek city. I got quite close. Close enough to hear an announcement through the loudspeaker system."
+                        },
+                        {
+                            "Character": "LOWERY",
+                            "Line": "What did you hear?"
+                        },
+                        {
+                            "Character": "CORY",
+                            "Line": "Our whole galaxy is to be invaded and destroyed."
+                        },
+                        {
+                            "Character": "LOWERY",
+                            "Line": "Kill."
+                        },
+                        {
+                            "Character": "CORY",
+                            "Line": "What?"
+                        },
+                        {
+                            "Character": "LOWERY",
+                            "Line": "Kill. Kill."
+                        },
+                        {
+                            "Stage Direction": "The truth dawns on Cory."
+                        },
+                        {
+                            "Character": "CORY",
+                            "Line": "The Varga!"
+                        },
+                        {
+                            "Character": "LOWERY",
+                            "Line": "That's right. I'll soon, soon I shall be one of them. Kill. Kill,"
+                        },
+                        {
+                            "Stage Direction": "Lowery brings his gun up, but Cory is quicker. Lowery slumps to the ground, dead. Businesslike, Cory turns his attention to the rescue beacon, and begins recording his message."
+                        },
+                        {
+                            "Character": "CORY",
+                            "Line": "Marc Cory, Special Security Service, reporting from the planet Kembel. The Daleks are planning the complete destruction of our galaxy. Together with the powers of the outer galaxies, a war force is being assembled."
+                        },
+                        {
+                            "Stage Direction": "Elsewhere in the jungle"
+                        },
+                        {
+                            "Character": "DALEK 1",
+                            "Line": "Seismic detector is registering."
+                        },
+                        {
+                            "Character": "DALEK 2",
+                            "Line": "The crew from the rocket ship must be in this direction."
+                        },
+                        {
+                            "Character": "DALEK 1",
+                            "Line": "Are they to be taken for questioning?"
+                        },
+                        {
+                            "Character": "DALEK 2",
+                            "Line": "No. They are to be exterminated. Destroy them on sight. Destroy and exterminate!"
+                        },
+                        {
+                            "Character": "DALEKS",
+                            "Line": "We obey."
+                        },
+                        {
+                            "Stage Direction": "Unaware the Daleks are closing in on his position, Cory continues his recording."
+                        },
+                        {
+                            "Character": "CORY",
+                            "Line": "If our galaxy is to be saved, whoever receives this message must relay this information to Earth immediately. It is vital that defence mechanisms are put into operation at once! Message ends."
+                        },
+                        {
+                            "Stage Direction": "Surrounded by Daleks, Cory struggles to launch the capsule."
+                        },
+                        {
+                            "Character": "DALEK 2",
+                            "Line": "Fire. He is dead."
+                        },
+                        {
+                            "Character": "DALEK 1",
+                            "Line": "Our plans for the galactic conquest are safe. Whatever information he discovered has died with him. Return to the city."
+                        },
+                        {
+                            "Character": "DALEKS",
+                            "Line": "We obey."
+                        },
+                        {
+                            "Stage Direction": "As the Daleks move away, the capsule containing Cory's warning message lies unnoticed near his body."
+                        }
+                    ]
+                },
+                {
+                    "Scene": "Conference room",
+                    "Dialogue": [
+                        {
+                            "Character": "MALPHA",
+                            "Line": "Now all is ready. We at this table pledge our allegiance to the Dalek cause. Our armies will reduce the galaxies to ashes. Their people to dust. And Earth we will conquer first. Victory! Victory!"
+                        },
+                        {
+                            "Character": "ALL",
+                            "Line": "Victory! Victory! Victory!"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

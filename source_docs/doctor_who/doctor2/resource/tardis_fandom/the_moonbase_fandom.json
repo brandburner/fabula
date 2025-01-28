@@ -1,0 +1,142 @@
+{
+  "metadata": {
+    "title": "The Moonbase",
+    "series": "Doctor Who",
+    "season": "4",
+    "episode_number": 6,
+    "release_date": "11 February - 4 March 1967",
+    "writer": "Kit Pedler, Gerry Davis",
+    "director": "Morris Barry",
+    "producer": "Innes Lloyd",
+    "main_actors": [
+      "Patrick Troughton",
+      "Michael Craze",
+      "Anneke Wills",
+      "Frazer Hines"
+    ],
+    "time_reference": "2070"
+  },
+  "cast_crew": [
+    {
+      "cast": {
+        "name": "Patrick Troughton",
+        "role": "Doctor Who"
+      },
+      "crew": {
+        "name": "Kit Pedler",
+        "role": "Writer"
+      }
+    },
+    {
+      "cast": {
+        "name": "Michael Craze",
+        "role": "Ben Jackson"
+      },
+      "crew": {
+        "name": "Gerry Davis",
+        "role": "Writer"
+      }
+    },
+    {
+      "cast": {
+        "name": "Anneke Wills",
+        "role": "Polly"
+      },
+      "crew": {
+        "name": "Morris Barry",
+        "role": "Director"
+      }
+    },
+    {
+      "cast": {
+        "name": "Frazer Hines",
+        "role": "Jamie McCrimmon"
+      },
+      "crew": {
+        "name": "Innes Lloyd",
+        "role": "Producer"
+      }
+    }
+  ],
+  "home_media": [
+    {
+      "releases": {
+        "media_type": "DVD",
+        "date": "2014",
+        "special_features": [
+          "Commentary",
+          "Interviews",
+          "Making-of documentary",
+          "Photo gallery",
+          "Radio Times listings"
+        ]
+      }
+    }
+  ],
+  "story_notes": [
+    {
+      "notes": [
+        "Working title was 'Return of the Cybermen'",
+        "Only episodes 2 and 4 exist in the BBC archives, episodes 1 and 3 were animated for the DVD release",
+        "Cybermen have been redesigned to look more robotic and streamlined",
+        "The Moonbase is a weather control station using a Gravitron device",
+        "The Cybermen infect the crew with a neurotropic virus called Neurotrope X"
+      ]
+    }
+  ],
+  "worldbuilding": {
+    "in_universe_mythology": [
+      "International Space Command",
+      "Cyberman invasion of 1986"
+    ],
+    "real_world_cultural_references": [
+      "Joseph Lister",
+      "Phantom Piper"
+    ],
+    "individuals": [
+      "Hobson",
+      "Evans",
+      "Rinberg"
+    ],
+    "items": [
+      "Gravitron",
+      "Neurotrope X virus"
+    ],
+    "locations": [
+      "Moonbase",
+      "Earth"
+    ]
+  },
+  "ratings": {
+    "ratings_millions": [
+      {
+        "part": "1",
+        "viewers": 8.1
+      },
+      {
+        "part": "2",
+        "viewers": 8.9
+      },
+      {
+        "part": "3",
+        "viewers": 8.2
+      },
+      {
+        "part": "4",
+        "viewers": 8.1
+      }
+    ]
+  },
+  "continuity": {
+    "continuity_notes": [
+      "The Cybermen recognize the Doctor despite his renewal into the Second Doctor",
+      "The Cybermen can shoot electricity from their hands",
+      "The story leads directly into The Macra Terror"
+    ]
+  },
+  "plot": [
+    {
+      "plot_summary": "The TARDIS lands on the Moon in 2070, where a weather control station called the Moonbase is suffering from a plague epidemic caused by a Cyberman plot. The Doctor, Ben, Polly and Jamie have to fight off a Cyberman attack and uncover the Cybermen's plan to take over the Gravitron device and destroy the Earth."
+    }
+  ]
+}

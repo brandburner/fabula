@@ -1,0 +1,78 @@
+{
+    "title": "The Myth Makers",
+    "air_date": "16 October 1965",
+    "num_episodes": 4,
+    "episode_titles": [
+        "Temple of Secrets",
+        "Small Prophet, Quick Return",
+        "Death of a Spy",
+        "Horse of Destruction"
+    ],
+    "episode_duration": 25,
+    "writers": [
+        "Donald Cotton"
+    ],
+    "directors": [
+        "Michael Leeston-Smith"
+    ],
+    "media_format": "B_W",
+    "dialogue_triumphs": [
+        "The Doctor (on Hector): 'You have killed this poor fellow!' Achilles (thinking the Doctor is Zeus): 'Ah, but in your name!'"
+    ],
+    "dialogue_disasters": [
+        "Cassandra: 'Woe to Troy!' Paris: 'It's too late to say \"whoa!\" to the horse.'"
+    ],
+    "goofs": [],
+    "continuity_notes": [
+        {
+            "name": "TARDIS",
+            "type": "Object",
+            "description": "The Doctor's time machine and spacecraft",
+            "origin": null,
+            "current_status": "Light enough to be carried by Paris and his men"
+        },
+        {
+            "name": "The Doctor",
+            "type": "Character",
+            "description": "The main protagonist of Doctor Who",
+            "origin": null,
+            "current_status": "Directly influences history by telling Odysseus about the Trojan Horse"
+        },
+        {
+            "name": "Vicki",
+            "type": "Character",
+            "description": "The Doctor's companion",
+            "origin": null,
+            "current_status": "Has a sprained ankle from the previous story"
+        }
+    ],
+    "technobabble": null,
+    "roots": [
+        "Homer's Iliad and Odyssey",
+        "Virgil's Aenid",
+        "Chaucer's Troilus and Criseyde",
+        "Shakespeare's Troilus and Cressida",
+        "Donald Cotton's early 60s adaptations of Greek tales for the BBC Third Programme",
+        "A Funny Thing Happened on the Way to the Forum"
+    ],
+    "links": [
+        "The story follows directly on from 'Galaxy 4'"
+    ],
+    "locations": [
+        {
+            "name": "Troy",
+            "type": "Location",
+            "description": "Ancient city in Asia Minor, site of the Trojan War",
+            "origin": "Ancient Greece",
+            "current_status": "Under siege"
+        }
+    ],
+    "future_history": null,
+    "untold_adventures": null,
+    "qv": [
+        "The Doctor's Doctorate",
+        "The Moonbase"
+    ],
+    "additional_notes": "The story concentrates on perceptions of history, noting that Troilus and Cressida derive from medieval romance rather than classical legend.",
+    "bottom_line": "The massacre of Trojan soldiers and some reasonable fight sequences form the odd back-drop to a 'high comedy' that concentrates on perceptions of history. Despite the presence of some fine actors the whole thing feels uneasy."
+}

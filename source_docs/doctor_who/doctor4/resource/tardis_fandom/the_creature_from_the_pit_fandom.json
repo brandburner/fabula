@@ -1,0 +1,156 @@
+{
+  "metadata": {
+    "title": "The Creature from the Pit",
+    "series": "Doctor Who",
+    "season": "17",
+    "episode_number": 3,
+    "release_date": "1979-10-27",
+    "release_end_date": "1979-11-17",
+    "writer": "David Fisher",
+    "director": "Christopher Barry",
+    "producer": "Graham Williams",
+    "main_actors": [
+      "Tom Baker",
+      "Lalla Ward",
+      "David Brierley",
+      "Myra Frances",
+      "Geoffrey Bayldon",
+      "Eileen Way",
+      "David Telfer",
+      "Morris Barry"
+    ],
+    "time_reference": "During the adventure on Chloris"
+  },
+  "cast_crew": [
+    {
+      "cast": {
+        "name": "Tom Baker",
+        "role": "Actor"
+      },
+      "crew": {
+        "name": "David Fisher",
+        "role": "Writer"
+      }
+    },
+    {
+      "cast": {
+        "name": "Lalla Ward",
+        "role": "Actor"
+      },
+      "crew": {
+        "name": "Christopher Barry",
+        "role": "Director"
+      }
+    },
+    {
+      "cast": {
+        "name": "David Brierley",
+        "role": "Voice Actor"
+      },
+      "crew": {
+        "name": "Graham Williams",
+        "role": "Producer"
+      }
+    },
+    {
+      "cast": {
+        "name": "Myra Frances",
+        "role": "Actor"
+      },
+      "crew": {
+        "name": "Douglas Adams",
+        "role": "Script Editor"
+      }
+    }
+  ],
+  "home_media": [
+    {
+      "releases": {
+        "media_type": "DVD",
+        "date": "2010-05-03",
+        "details": "One disc standard edition",
+        "special_features": [
+          "Commentary by Lalla Ward, Myra Frances, Christopher Barry, and Mat Irvine",
+          "Christopher Barry: Director feature",
+          "Team Erato feature",
+          "Animal Magic feature",
+          "Radio Times Billings PDF",
+          "Production Information Subtitles",
+          "Photo Gallery",
+          "Extended Scene",
+          "Coming Soon Trailer"
+        ]
+      }
+    },
+    {
+      "releases": {
+        "media_type": "VHS",
+        "date": "2002",
+        "special_features": []
+      }
+    }
+  ],
+  "story_notes": [
+    {
+      "notes": [
+        "The first story produced for Season 17 with Lalla Ward as Romana II",
+        "Director Christopher Barry's last story for Doctor Who",
+        "The initial trouble with the Erato prop and model work",
+        "Some scenes were reshot due to visible wires",
+        "The script was adapted from David Fisher's original story"
+      ]
+    }
+  ],
+  "worldbuilding": {
+    "in_universe_mythology": [
+      "Time Lords have ninety lives",
+      "Erato's being an ambassador from Tythonus"
+    ],
+    "real_world_cultural_references": [
+      "Peter Rabbit",
+      "Oliver Twist's Fagin",
+      "Greek mythology with names like Erato, Adrasta, etc."
+    ],
+    "individuals": [
+      "Lady Adrasta",
+      "Organon"
+    ],
+    "items": [
+      "Pentagonal communication plate"
+    ],
+    "locations": [
+      "Chloris"
+    ]
+  },
+  "ratings": {
+    "ratings_millions": [
+      {
+        "part": "Part one",
+        "viewers": 9.3
+      },
+      {
+        "part": "Part two",
+        "viewers": 10.8
+      },
+      {
+        "part": "Part three",
+        "viewers": 10.2
+      },
+      {
+        "part": "Part four",
+        "viewers": 9.6
+      }
+    ]
+  },
+  "continuity": {
+    "continuity_notes": [
+      "Old costumes from The Seeds of Doom and The Talons of Weng-Chiang appear on the TARDIS hatstand.",
+      "Elements from the hyperspace machine used in The Stones of Blood are present."
+    ]
+  },
+  "plot": [
+    {
+      "plot_summary": "The Fourth Doctor, Romana II, and K9 arrive on the planet Chloris after receiving a distress signal. Metal is a rare commodity there, controlled by the ruler, Lady Adrasta. In the jungle, they find a large empty egg and are soon caught by Adrasta and her guards. Romana is taken by bandits, while the Doctor is presented to Adrasta and learns about a creature trapped within the Pit. Events lead the Doctor to explore the Pit, where he encounters the creature and a fellow prisoner, Organon. They learn the creature is Erato, an ambassador from Tythonus seeking a trade agreement. Adrasta sought to maintain power by imprisoning Erato, leading to deadly consequences. Ultimately, the Doctor and Erato work together to stop a neutron star sent to destroy Chloris."
+    }
+  ]
+}

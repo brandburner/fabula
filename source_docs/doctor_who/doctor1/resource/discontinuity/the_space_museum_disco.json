@@ -1,0 +1,110 @@
+{
+    "title": "The Space Museum",
+    "air_date": "24 April 1965",
+    "num_episodes": 4,
+    "episode_titles": [
+        "The Space Museum",
+        "The Dimensions of Time",
+        "The Search",
+        "The Final Phase"
+    ],
+    "episode_duration": 25,
+    "writers": [
+        "Glyn Jones"
+    ],
+    "directors": [
+        "Mervyn Pinfield"
+    ],
+    "media_format": "B_W",
+    "dialogue_triumphs": [],
+    "dialogue_disasters": [
+        "Have any arms fallen into Xeron hands?"
+    ],
+    "goofs": [
+        "Ian says they are wearing 13th-century clothes, but the previous story was set in the 12th-century.",
+        "When they leave the TARDIS, their shadows are cast over the distant mountains.",
+        "It's unclear how the Doctor gets the Time Space Visualiser into the TARDIS."
+    ],
+    "continuity_notes": [
+        {
+            "name": "TARDIS",
+            "type": "Object",
+            "description": "The Doctor's time and space machine",
+            "origin": null,
+            "current_status": "Has a 'lights' control on the console"
+        },
+        {
+            "name": "Moroks",
+            "type": "Organization",
+            "description": "An alien race with a collapsed empire",
+            "origin": "Morok planet",
+            "current_status": "Maintaining a Space Museum on Xeros"
+        },
+        {
+            "name": "Daleks",
+            "type": "Character",
+            "description": "Infamous alien race known for invading Earth",
+            "origin": "Skaro",
+            "current_status": "Specimen in the Space Museum"
+        },
+        {
+            "name": "Vicki",
+            "type": "Character",
+            "description": "One of the Doctor's companions",
+            "origin": "Earth's future",
+            "current_status": "Traveling with the Doctor"
+        },
+        {
+            "name": "Time Space Visualiser",
+            "type": "Object",
+            "description": "A device found in the museum",
+            "origin": "Earth scientists, pre-2493",
+            "current_status": "Given to the Doctor"
+        }
+    ],
+    "technobabble": [
+        "Time, like space, although a dimension of itself, also has dimensions of its own.",
+        "The Moroks are armed with 'ray guns'."
+    ],
+    "roots": [
+        "J. B. Priestley's time plays",
+        "The complexities of time-lines, as presented in The Twilight Zone",
+        "The theory of relativity",
+        "Renaissance subterfuge of chairs that trap sitting people"
+    ],
+    "links": [
+        "The Rescue",
+        "The Dalek Invasion of Earth",
+        "The Chase",
+        "The Mind Robber",
+        "The Time Monster",
+        "The Creature from the Pit",
+        "The Horns of Nimon"
+    ],
+    "locations": [
+        {
+            "name": "Space Museum",
+            "type": "Location",
+            "description": "A museum on the planet Xeros, containing artifacts from the Morok Empire",
+            "origin": "Morok Empire",
+            "current_status": "Active museum, site of conflict between Moroks and Xerons"
+        },
+        {
+            "name": "Xeros",
+            "type": "Location",
+            "description": "Planet hosting the Space Museum",
+            "origin": null,
+            "current_status": "Three light years from the Morok planet, post-2493"
+        }
+    ],
+    "future_history": "Vicki mentions that scientists from Earth were working on the Time Space Visualiser when she left in 2493.",
+    "untold_adventures": [
+        "The Doctor claims he was with James Watt when he discovered steam power."
+    ],
+    "qv": [
+        "The Chase for more fun with cardigans",
+        "The Mind Robber, The Time Monster, The Creature from the Pit and The Horns of Nimon for more Minotaurs"
+    ],
+    "additional_notes": "William Hartnell has difficulty pronouncing 'fluorescent' when explaining the light source in the museum.",
+    "bottom_line": "A silly 'fascists-and-rebels' runaround following a very weird first episode."
+}

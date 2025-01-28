@@ -1,0 +1,173 @@
+{
+  "metadata": {
+    "title": "The Leisure Hive",
+    "series": "Doctor Who",
+    "season": "18",
+    "episode_number": 1,
+    "release_date": "1980-08-30",
+    "release_end_date": "1980-09-20",
+    "writer": "David Fisher",
+    "director": "Lovett Bickford",
+    "producer": "John Nathan-Turner",
+    "main_actors": [
+      "Tom Baker",
+      "Lalla Ward",
+      "John Leeson",
+      "Adrienne Corri",
+      "Laurence Payne",
+      "John Collin",
+      "David Haig",
+      "Nigel Lambert"
+    ],
+    "time_reference": "2290"
+  },
+  "cast_crew": [
+    {
+      "cast": {
+        "name": "Tom Baker",
+        "role": "Doctor Who"
+      },
+      "crew": {
+        "name": "Lovett Bickford",
+        "role": "Director"
+      }
+    },
+    {
+      "cast": {
+        "name": "Lalla Ward",
+        "role": "Romana"
+      },
+      "crew": {
+        "name": "John Nathan-Turner",
+        "role": "Producer"
+      }
+    },
+    {
+      "cast": {
+        "name": "John Leeson",
+        "role": "Voice of K9"
+      },
+      "crew": {
+        "name": "David Fisher",
+        "role": "Writer"
+      }
+    },
+    {
+      "cast": {
+        "name": "Adrienne Corri",
+        "role": "Mena"
+      },
+      "crew": {
+        "name": "Christopher H. Bidmead",
+        "role": "Script Editor"
+      }
+    },
+    {
+      "cast": {
+        "name": "David Haig",
+        "role": "Pangol"
+      },
+      "crew": {
+        "name": "Peter Howell",
+        "role": "Incidental Music/Theme Arrangement"
+      }
+    }
+  ],
+  "home_media": [
+    {
+      "releases": {
+        "media_type": "DVD",
+        "date": "2004-07-05",
+        "details": "Region 2",
+        "special_features": [
+          "Commentary by Lalla Ward, Lovett Bickford, and Christopher H. Bidmead",
+          "A New Beginning",
+          "From Avalon to Argolis",
+          "Synthesising Starfields",
+          "Leisure Wear",
+          "Blue Peter",
+          "Music-only Option",
+          "Photo Gallery",
+          "Production Subtitles",
+          "Easter Egg: Continuity announcements"
+        ]
+      }
+    },
+    {
+      "releases": {
+        "media_type": "VHS",
+        "date": "1997-01-01",
+        "details": "UK Release",
+        "special_features": []
+      }
+    }
+  ],
+  "story_notes": [
+    {
+      "notes": [
+        "The Leisure Hive was the first serial produced by John Nathan-Turner.",
+        "Introduced new opening and closing title sequences with a 'neon tube' logo.",
+        "Peter Howell composed a new theme music arrangement.",
+        "This story included a new coat and burgundy scarf for the Fourth Doctor.",
+        "First use of the digital Quantel image processing system in Doctor Who."
+      ]
+    }
+  ],
+  "worldbuilding": {
+    "in_universe_mythology": [
+      "The Foamasi and Argolin conflict.",
+      "Tachyonics science innovation."
+    ],
+    "real_world_cultural_references": [
+      "Death in Venice film homage with the opening tracking shot."
+    ],
+    "individuals": [
+      "Pangol",
+      "Mena",
+      "Morix"
+    ],
+    "items": [
+      "Tachyon Recreation Generator",
+      "Helmet of Theron",
+      "Limitation collars"
+    ],
+    "locations": [
+      "Argolis",
+      "The Leisure Hive",
+      "Brighton Pavilion"
+    ]
+  },
+  "ratings": {
+    "ratings_millions": [
+      {
+        "part": "Part one",
+        "viewers": 5.9
+      },
+      {
+        "part": "Part two",
+        "viewers": 5.0
+      },
+      {
+        "part": "Part three",
+        "viewers": 5.0
+      },
+      {
+        "part": "Part four",
+        "viewers": 4.5
+      }
+    ]
+  },
+  "continuity": {
+    "continuity_notes": [
+      "The Foamasi reappear in Placebo Effect.",
+      "The Doctor attempts to reach Brighton again in Horror of Fang Rock.",
+      "The Doctor is aged rapidly again in The Sound of Drums.",
+      "Argolis is later visited by Epsilon Delta in The Dimension Riders."
+    ]
+  },
+  "plot": [
+    {
+      "plot_summary": "The Fourth Doctor and Romana arrive at the Leisure Hive on Argolis for a vacation, only to find themselves embroiled in a power struggle. The Argolins' historic foes, the Foamasi, want to take over the Hive. The Tachyon Recreation Generator is misused by Pangol, who plans to use it to create a clone army. Throughout the story, deception, mistaken identities, and issues with aging are key themes. By the end, peace negotiations begin, and the Doctor and Romana leave the randomiser behind as they depart."
+    }
+  ]
+}

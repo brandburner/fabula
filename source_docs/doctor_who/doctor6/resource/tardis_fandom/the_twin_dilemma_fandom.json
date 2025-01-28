@@ -1,0 +1,163 @@
+{
+  "metadata": {
+    "title": "The Twin Dilemma",
+    "series": "Doctor Who",
+    "season": "21",
+    "release_date": "22 March 1984",
+    "release_end_date": "30 March 1984",
+    "writer": "Anthony Steven",
+    "director": "Peter Moffatt",
+    "producer": "John Nathan-Turner",
+    "main_actors": [
+      "Colin Baker",
+      "Nicola Bryant",
+      "Maurice Denham",
+      "Kevin McNally",
+      "Edwin Richfield",
+      "Gavin Conrad",
+      "Andrew Conrad",
+      "Dennis Chinnery",
+      "Barry Stanton",
+      "Oliver Smith",
+      "Helen Blatch",
+      "Dione Inman",
+      "Seymour Green",
+      "Roger Nott",
+      "John Wilson"
+    ],
+    "time_reference": "2310"
+  },
+  "cast_crew": [
+    {
+      "cast": {
+        "name": "Colin Baker",
+        "role": "The Doctor"
+      },
+      "uncredited_cast": {
+        "name": "Colin Baker",
+        "role": "Voice of Jacondan Control"
+      },
+      "crew": {
+        "name": "Anthony Steven",
+        "role": "Writer"
+      }
+    },
+    {
+      "cast": {
+        "name": "Nicola Bryant",
+        "role": "Peri Brown"
+      },
+      "crew": {
+        "name": "Peter Moffatt",
+        "role": "Director"
+      }
+    },
+    {
+      "cast": {
+        "name": "Maurice Denham",
+        "role": "Professor Edgeworth / Azmael"
+      },
+      "crew": {
+        "name": "John Nathan-Turner",
+        "role": "Producer"
+      }
+    },
+    {
+      "cast": {
+        "name": "Kevin McNally",
+        "role": "Hugo Lang"
+      },
+      "crew": {
+        "name": "Eric Saward",
+        "role": "Script Editor"
+      }
+    }
+  ],
+  "home_media": [
+    {
+      "releases": {
+        "media_type": "VHS",
+        "date": "May 1992",
+        "details": "Available exclusively from branches of Woolworths.",
+        "special_features": []
+      }
+    },
+    {
+      "releases": {
+        "media_type": "DVD",
+        "date": "7 September 2009",
+        "details": "Special features include commentary and interviews.",
+        "special_features": [
+          "Commentary by Colin Baker, Nicola Bryant, and Kevin McNally",
+          "The Star Man - An interview with title sequence designer Sid Sutton",
+          "Look 100 Years Younger - Discussion on the Doctor's costumes",
+          "Stripped for Action: The Sixth Doctor - Comic strip adventures",
+          "Breakfast Time - Interview with Colin Baker and Nicola Bryant",
+          "Continuity - Original continuity announcements",
+          "Photo Gallery - Includes unreleased incidental music",
+          "Coming Soon Trailer - The Keys of Marinus",
+          "Easter Egg: Silent film rushes"
+        ]
+      }
+    }
+  ],
+  "story_notes": [
+    {
+      "notes": [
+        "The story contrasts sharply with the previous serial's positive reception.",
+        "Considered the worst Doctor Who story in several polls.",
+        "Introduces a new title sequence featuring the Sixth Doctor."
+      ]
+    }
+  ],
+  "worldbuilding": {
+    "in_universe_mythology": [
+      "Jacondan myth involving a Sun God and Gastropods."
+    ],
+    "real_world_cultural_references": [
+      "Beau Brummell and the poem 'Excelsior' by Longfellow."
+    ],
+    "individuals": [
+      "Romulus and Remus Sylvest - kidnapped twins",
+      "Professor Edgeworth / Azmael - the Doctor's friend"
+    ],
+    "items": [
+      "Zanium - evidence of alien kidnapping",
+      "Gastropod eggs"
+    ],
+    "locations": [
+      "Titan III - a desolate asteroid",
+      "Jaconda - covered in Gastropod trails"
+    ]
+  },
+  "ratings": {
+    "ratings_millions": [
+      {
+        "part": "Part one",
+        "viewers": 7.6
+      },
+      {
+        "part": "Part two",
+        "viewers": 7.4
+      },
+      {
+        "part": "Part three",
+        "viewers": 7.0
+      },
+      {
+        "part": "Part four",
+        "viewers": 6.3
+      }
+    ]
+  },
+  "continuity": {
+    "continuity_notes": [
+      "Follows the regeneration from the previous Doctor, where he faced Spectrox toxaemia."
+    ]
+  },
+  "plot": [
+    {
+      "plot_summary": "After regenerating, the Doctor behaves erratically and takes his companion Peri to a desolate asteroid. They uncover a plot involving alien Gastropods kidnapping twins, led by Mestor, as they grapple with the Doctor's unstable behavior and the threat to the galaxy."
+    }
+  ]
+}

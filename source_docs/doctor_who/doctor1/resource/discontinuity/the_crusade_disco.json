@@ -1,0 +1,72 @@
+{
+    "title": "The Crusade",
+    "air_date": "27 March 1965",
+    "num_episodes": 4,
+    "episode_titles": [
+        "The Lion",
+        "The Knight of Jaffa",
+        "The Wheel of Fortune",
+        "The Warlords"
+    ],
+    "episode_duration": 25,
+    "writers": [
+        "David Whitaker"
+    ],
+    "directors": [
+        "Douglas Camfield"
+    ],
+    "media_format": "B_W",
+    "dialogue_triumphs": [
+        "Lady Joanna on the Doctor: 'There is something new in you. Yet something older than the sky. I sense that I can trust you.'"
+    ],
+    "dialogue_disasters": [
+        "Ian and the curse of the bad pun: 'I need a good knight's sleep.'"
+    ],
+    "goofs": [],
+    "continuity_notes": [
+        {
+            "name": "The Doctor",
+            "type": "Character",
+            "description": "Time Lord protagonist who assures King Richard he will see Jerusalem",
+            "origin": "Gallifrey",
+            "current_status": "Traveling with companions, careful not to interfere with established history"
+        },
+        {
+            "name": "Time",
+            "type": "Concept",
+            "description": "The flow of events that the Doctor is careful not to alter",
+            "origin": null,
+            "current_status": "Must be allowed to run its course, according to the Doctor"
+        }
+    ],
+    "technobabble": null,
+    "roots": [
+        "Shakespeare's King Lear",
+        "Shakespeare's The Merchant of Venice",
+        "Shelley's Epipsychidion",
+        "The Arabian Nights",
+        "Shakespeare's Romeo and Juliet",
+        "Gulliver's Travels",
+        "Anderson's fairy tales",
+        "Shakespeare's Henry IV Part I"
+    ],
+    "links": [
+        "Barbara tells Saladin about England in the future ('The Dalek Invasion of Earth')",
+        "Barbara mentions the Zarbi ('The Web Planet')",
+        "Barbara references Nero ('The Romans')"
+    ],
+    "locations": [
+        {
+            "name": "Jaffa, Palestine",
+            "type": "Location",
+            "description": "Setting of the story during the Crusades",
+            "origin": "Earth",
+            "current_status": "Site of conflict in October 1191"
+        }
+    ],
+    "future_history": null,
+    "untold_adventures": null,
+    "qv": null,
+    "additional_notes": "This is one of the more literate Doctor Who stories, with characters quoting Shakespeare and Shelley. The script includes some iambic pentameter. It's an ambitious project that highlights the possibilities for historical adventure. The story features a fine cast, including Julian Glover, marking the first flowering of Doctor Who's guest-star policy. Despite some misogyny, the script avoids racism and presents Arabic culture with integrity.",
+    "bottom_line": "An ambitious project which highlights the possibilities for historical adventure. Imaginative, with a fine cast and a very adult storyline. Despite a dose of misogyny (with torture and beatings on-screen), the script manages to avoid racism, presenting Arabic culture with integrity."
+}

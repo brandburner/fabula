@@ -1,0 +1,174 @@
+{
+  "metadata": {
+    "title": "Resurrection of the Daleks",
+    "series": "Doctor Who",
+    "season": "21",
+    "release_date": "8 February 1984",
+    "release_end_date": "15 February 1984",
+    "writer": "Eric Saward",
+    "director": "Matthew Robinson",
+    "producer": "John Nathan-Turner",
+    "main_actors": [
+      "Peter Davison",
+      "Janet Fielding",
+      "Mark Strickson",
+      "Terry Molloy",
+      "Rodney Bewes",
+      "Maurice Colbourne",
+      "Rula Lenska",
+      "Del Henney",
+      "Chloe Ashcroft",
+      "Philip McGough",
+      "Jim Findley"
+    ],
+    "time_reference": "London docklands, 1984; Prison Station, 4590"
+  },
+  "cast_crew": [
+    {
+      "cast": {
+        "name": "Peter Davison",
+        "role": "The Doctor"
+      },
+      "crew": {
+        "name": "Eric Saward",
+        "role": "Writer"
+      }
+    },
+    {
+      "cast": {
+        "name": "Janet Fielding",
+        "role": "Tegan Jovanka"
+      },
+      "crew": {
+        "name": "Matthew Robinson",
+        "role": "Director"
+      }
+    },
+    {
+      "cast": {
+        "name": "Mark Strickson",
+        "role": "Turlough"
+      },
+      "crew": {
+        "name": "John Nathan-Turner",
+        "role": "Producer"
+      }
+    },
+    {
+      "cast": {
+        "name": "Terry Molloy",
+        "role": "Davros"
+      },
+      "crew": {
+        "name": "Matthew Robinson",
+        "role": "Director"
+      }
+    },
+    {
+      "cast": {
+        "name": "Rodney Bewes",
+        "role": "Stien"
+      },
+      "crew": {
+        "name": "John Nathan-Turner",
+        "role": "Producer"
+      }
+    },
+    {
+      "cast": {
+        "name": "Maurice Colbourne",
+        "role": "Lytton"
+      },
+      "crew": {
+        "name": "Eric Saward",
+        "role": "Writer"
+      }
+    },
+    {
+      "cast": {
+        "name": "Rula Lenska",
+        "role": "Styles"
+      },
+      "crew": {
+        "name": "Matthew Robinson",
+        "role": "Director"
+      }
+    }
+  ],
+  "home_media": [
+    {
+      "releases": {
+        "media_type": "DVD",
+        "date": "18 November 2002",
+        "details": "Includes the untransmitted 4-part edition.",
+        "special_features": [
+          "Location - Return to London's Shad Thames",
+          "Deleted Scenes",
+          "Music-only Option",
+          "TARDIS Cam No.4",
+          "Photo Gallery"
+        ]
+      }
+    },
+    {},
+    {
+      "releases": {
+        "media_type": "VHS",
+        "date": "November 1993",
+        "details": "Includes the untransmitted (original edit) four-part version.",
+        "special_features": []
+      }
+    }
+  ],
+  "story_notes": [
+    {
+      "notes": [
+        "The story was recorded as a four-part serial but was broadcast as two 45-minute episodes.",
+        "This story had the working titles of 'The Return' and 'Return of the Daleks'.",
+        "It marked the final regular appearance of Janet Fielding as Tegan Jovanka."
+      ]
+    }
+  ],
+  "worldbuilding": {
+    "in_universe_mythology": [
+      "Davros' creation of the Daleks",
+      "Clone technology used by the Daleks"
+    ],
+    "real_world_cultural_references": [],
+    "individuals": [
+      "Tegan Jovanka",
+      "Davros"
+    ],
+    "items": [
+      "Dalek control device",
+      "Movellan virus canisters"
+    ],
+    "locations": [
+      "London docklands",
+      "Prison Station"
+    ]
+  },
+  "ratings": {
+    "ratings_millions": [
+      {
+        "part": "Part one",
+        "viewers": 7.3
+      },
+      {
+        "part": "Part two",
+        "viewers": 8.0
+      }
+    ]
+  },
+  "continuity": {
+    "continuity_notes": [
+      "Davros was in suspended animation for 90 years during the events of 'Destiny of the Daleks'.",
+      "Lytton reappears in 'Attack of the Cybermen'."
+    ]
+  },
+  "plot": [
+    {
+      "plot_summary": "In this two-part adventure, the Doctor and his companions are captured in a time corridor and forced to land on 20th century Earth, failing to escape the armies of the Daleks. Their ultimate goal is to resurrect Davros and utilize his genius to bring back their deadly race. The Doctor must evade his adversaries while ensuring that Davros does not undermine the very foundation of life."
+    }
+  ]
+}

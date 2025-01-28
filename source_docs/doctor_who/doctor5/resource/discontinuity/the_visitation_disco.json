@@ -1,0 +1,98 @@
+{
+    "title": "The Visitation",
+    "air_date": "15 February 1982",
+    "num_episodes": 4,
+    "episode_titles": [
+        "Part One",
+        "Part Two",
+        "Part Three",
+        "Part Four"
+    ],
+    "episode_duration": 25,
+    "writers": [
+        "Eric Saward"
+    ],
+    "directors": [
+        "Peter Moffat"
+    ],
+    "media_format": "Color",
+    "dialogue_triumphs": [
+        "Tegan lies outrageously when asked about the Doctor: 'He likes to be mysterious, although he talks a lot about Guildford. I think that's where he comes from.'",
+        "Doctor: 'How do you feel now?' Tegan: 'Groggy, sore and bad-tempered.' Doctor: 'Almost your old self.'"
+    ],
+    "dialogue_disasters": null,
+    "goofs": [
+        "The android wears poorly disguised cricket gloves (cf. 'Silver Nemesis').",
+        "The miller's donkey seems to resent Mace's attention.",
+        "When Nyssa is attacked by the android, the room begins to shake before she switches on the machine.",
+        "When the Doctor is searching for the Terileptils' London base, the scanner shows a 'brown and white' 17th-century print of London's streets, rather than an image drawn up by the TARDIS' sensors."
+    ],
+    "continuity_notes": [
+        {
+            "name": "TARDIS",
+            "type": "Object",
+            "description": "The Doctor's time machine and spacecraft",
+            "origin": null,
+            "current_status": "Lateral balance cones are 'playing up' (probably 'temperamental solenoids'), foiling the Doctor's attempt to get Tegan back to 1981 Heathrow."
+        },
+        {
+            "name": "Adric",
+            "type": "Character",
+            "description": "Companion of the Doctor",
+            "origin": "Alzarius",
+            "current_status": "Able to recover from injuries quickly. Can pilot the TARDIS with Nyssa."
+        },
+        {
+            "name": "Nyssa",
+            "type": "Character",
+            "description": "Companion of the Doctor",
+            "origin": "Traken",
+            "current_status": "Able to pilot the TARDIS with Adric."
+        },
+        {
+            "name": "Terileptils",
+            "type": "Character",
+            "description": "Very intelligent semi-reptilian creatures with a heightened appreciation of aesthetics and warfare",
+            "origin": "Raaga",
+            "current_status": "Escaped from tinclavic mines on Raaga, where they were sentenced to life imprisonment."
+        },
+        {
+            "name": "Sonic Screwdriver",
+            "type": "Object",
+            "description": "The Doctor's multi-purpose tool",
+            "origin": null,
+            "current_status": "Destroyed during the events of the episode."
+        }
+    ],
+    "technobabble": [
+        "Soliton gas",
+        "Tinclavic mines",
+        "Polygrite",
+        "Vintaric crystals"
+    ],
+    "roots": [
+        "Pepys",
+        "Saward's 1970s radio plays (Mace)"
+    ],
+    "links": [
+        "The story follows on directly from 'Kinda'",
+        "Tegan assumes that the Terileptil's interest in the TARDIS means that, like Monarch, he wants to 'ride in it' ('Four to Doomsday')",
+        "The Doctor's line 'Not again', as he faces the chop at the end of episode two, is also a reference to 'Four to Doomsday'"
+    ],
+    "locations": [
+        {
+            "name": "Somewhere near London, 1666",
+            "type": "Location",
+            "description": "Setting of the episode",
+            "origin": "Earth",
+            "current_status": "Site of Terileptil activity"
+        }
+    ],
+    "future_history": null,
+    "untold_adventures": null,
+    "qv": [
+        "Temporal Grace, 'The Hand of Fear'"
+    ],
+    "additional_notes": "Nyssa's fluffy ear-muffs are noted as a 'Fashion Victim' item.",
+    "bottom_line": "A good, hearty action romp, crisply written and engaging, although critics might say that it's too straightforward. There's only one proper character (Richard Mace), which gives Peter Davison and Michael Robbins the space to turn in a pair of lovely performances. The end result is a stylish slice of pseudo-historical nonsense."
+}

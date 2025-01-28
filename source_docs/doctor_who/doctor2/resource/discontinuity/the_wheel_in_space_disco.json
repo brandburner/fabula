@@ -1,0 +1,97 @@
+{
+    "title": "The Wheel in Space",
+    "air_date": "27 April 1968",
+    "num_episodes": 6,
+    "episode_titles": [
+        "Episode 1",
+        "Episode 2",
+        "Episode 3",
+        "Episode 4",
+        "Episode 5",
+        "Episode 6"
+    ],
+    "episode_duration": 25,
+    "writers": [
+        "David Whitaker",
+        "Kit Pedler"
+    ],
+    "directors": [
+        "Tristan de Vere Cole"
+    ],
+    "media_format": "B_W",
+    "dialogue_triumphs": [
+        "'Logic, my dear Zoe, merely enables one to be wrong with authority.'"
+    ],
+    "dialogue_disasters": [
+        "'Leo, did I ever tell you about my nose?'"
+    ],
+    "goofs": [
+        "The Cybermen's control device refers to them being aboard the Voyager, rather than the Silver Carrier."
+    ],
+    "continuity_notes": [
+        {
+            "name": "James Robert McCrimmon",
+            "type": "Character",
+            "description": "The Doctor's companion, very fit mentally and physically, with a constructive personality.",
+            "origin": "Scottish Highlands",
+            "current_status": "Recently joined the TARDIS crew, as evidenced by his blood pressure readings."
+        },
+        {
+            "name": "The Doctor",
+            "type": "Character",
+            "description": "Time Lord protagonist, carries lemon sherbets and adopts the pseudonym John Smith.",
+            "origin": "Gallifrey",
+            "current_status": "Traveling with Jamie, encounters the Cybermen."
+        },
+        {
+            "name": "Zoe Herriot",
+            "type": "Character",
+            "description": "Wheel's parapsychology librarian, astrophysicist, astrometricist, and mathematician.",
+            "origin": "Earth, future",
+            "current_status": "Working on Station W3, joins the TARDIS crew."
+        },
+        {
+            "name": "TARDIS",
+            "type": "Object",
+            "description": "The Doctor's time and space machine, experiencing technical issues.",
+            "origin": "Gallifrey",
+            "current_status": "Needs mercury for fluid links, has a faulty Time Vector Generator."
+        },
+        {
+            "name": "Cybermen",
+            "type": "Character",
+            "description": "Cyborg antagonists seeking Earth's mineral wealth, vulnerable to electricity and plastic.",
+            "origin": "Mondas",
+            "current_status": "Attacking Station W3, capable of destroying stars and controlling humans."
+        }
+    ],
+    "technobabble": [
+        "One of the stars in M13 (the Hercules Cluster) is going nova, 'ionised' by the Cybermen, and so diverts a meteor stream at the station!"
+    ],
+    "roots": [
+        "Star Trek",
+        "Conquest of Space",
+        "Dracula (coffins=crates)"
+    ],
+    "links": [
+        "'The Evil of the Daleks' (the Doctor's repeat for Zoe's benefit)"
+    ],
+    "locations": [
+        {
+            "name": "Station W3",
+            "type": "Location",
+            "description": "Space station within the path of the Perseid meteor stream, inside the orbit of Venus and probably Mercury.",
+            "origin": "Earth's future space program",
+            "current_status": "Under attack by Cybermen, serves as a relay station, research facility, and early warning post."
+        }
+    ],
+    "future_history": "The kilt is no longer worn by the Scots, but Scandanavian 'kilties' wear them. Earth Central controls the space programme, with opposition from the 'pull back to Earth' movement. Helicopters are still used on Earth. Space personnel are given anti-brain control drugs and fitted with Silenski capsules.",
+    "untold_adventures": null,
+    "qv": [
+        "Cyber History, 'The Tenth Planet'",
+        "Venus, 'The Time Monster'",
+        "The TARDIS Scanner, 'Full Circle'"
+    ],
+    "additional_notes": "The episode features several double entendres and suggestive dialogue.",
+    "bottom_line": "Dull, lifeless and so derivative of other base-under-siege stories that it isn't really a story in its own right. Despite the detailed Wheel setting, the galloping lack of scientific credibility is annoying, and the Cybermen are so bland and ordinary they could have been any other monster. Generic speed-written tosh."
+}

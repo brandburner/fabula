@@ -1,0 +1,148 @@
+{
+  "metadata": {
+    "title": "The Gunfighters",
+    "series": "Doctor Who",
+    "season": "3",
+    "episode_number": 8,
+    "release_date": "30 April - 21 May 1966",
+    "writer": "Donald Cotton",
+    "director": "Rex Tucker",
+    "producer": "Innes Lloyd",
+    "main_actors": [
+      "William Hartnell",
+      "Peter Purves",
+      "Jackie Lane"
+    ],
+    "time_reference": "October 1881"
+  },
+  "cast_crew": [
+    {
+      "cast": {
+        "name": "William Hartnell",
+        "role": "Dr. Who"
+      },
+      "crew": {
+        "name": "Rex Tucker",
+        "role": "Director"
+      }
+    },
+    {
+      "cast": {
+        "name": "Peter Purves",
+        "role": "Steven Taylor"
+      },
+      "crew": {
+        "name": "Innes Lloyd",
+        "role": "Producer"
+      }
+    },
+    {
+      "cast": {
+        "name": "Jackie Lane",
+        "role": "Dodo Chaplet"
+      },
+      "crew": {
+        "name": "Donald Cotton",
+        "role": "Writer"
+      }
+    }
+  ],
+  "home_media": [
+    {
+      "releases": {
+        "media_type": "VHS",
+        "date": "November 2002 (UK), October 2003 (US)",
+        "special_features": []
+      }
+    },
+    {
+      "releases": {
+        "media_type": "DVD",
+        "date": "2011",
+        "special_features": [
+          "Commentary by cast and crew",
+          "The End of the Line? documentary",
+          "Tomorrow's Times - The First Doctor",
+          "Radio Times listings"
+        ]
+      }
+    }
+  ],
+  "story_notes": [
+    {
+      "notes": [
+        "The Gunfighters was the first full and only serial of the original series to take place completely within the United States.",
+        "This story contains an example of the play on the series' title - when introducing himself and his companions to Bat Masterson, the Doctor creates aliases for the group, and says of himself, \"And lastly, sir, your humble servant, Doctor, er, Caligari.\" Masterson, confused, asks, \"Doctor who?\" to which the Doctor responds, \"Yes, quite right.\"",
+        "The storyline of the serial makes several notable departures from the historical fact. In reality, Wyatt Earp was not the ranking Marshal of Tombstone, and several other characters were not present during the events depicted."
+      ]
+    }
+  ],
+  "worldbuilding": {
+    "in_universe_mythology": [],
+    "real_world_cultural_references": [
+      "My Darling Clementine",
+      "Gunfight at the OK Corral",
+      "Cat Ballou"
+    ],
+    "individuals": [
+      "Doc Holliday",
+      "Wyatt Earp",
+      "Bat Masterson",
+      "Johnny Ringo",
+      "Kate Fisher",
+      "Pa Clanton",
+      "Ike Clanton",
+      "Phineas Clanton",
+      "Billy Clanton",
+      "Seth Harper",
+      "Warren Earp",
+      "Virgil Earp"
+    ],
+    "items": [],
+    "locations": [
+      "Tombstone, Arizona",
+      "The Last Chance Saloon"
+    ]
+  },
+  "ratings": {
+    "ratings_millions": [
+      {
+        "part": "A Holiday for the Doctor",
+        "viewers": 6.5
+      },
+      {
+        "part": "Don't Shoot the Pianist",
+        "viewers": 6.6
+      },
+      {
+        "part": "Johnny Ringo",
+        "viewers": 6.2
+      },
+      {
+        "part": "The O.K. Corral",
+        "viewers": 5.7
+      }
+    ]
+  },
+  "continuity": {
+    "continuity_notes": [
+      "The Doctor returned to the Wild West several times in later stories.",
+      "Dodo suffered a nervous breakdown after being conditioned by WOTAN, leading to her leaving the TARDIS soon after this story.",
+      "The Torchwood Institute tracked the Doctor to Tombstone after the gunfight."
+    ]
+  },
+  "plot": [
+    {
+      "plot_summary": "The First Doctor, Steven and Dodo arrive in Tombstone, Arizona in 1881, where the Doctor is seeking a dentist for his toothache. They become embroiled in the feud between the Clanton gang and Doc Holliday, leading to the famous Gunfight at the O.K. Corral."
+    },
+    {
+      "plot_summary": "The Clantons and their gang arrive in Tombstone seeking revenge on Doc Holliday for the murder of one of their brothers. The Doctor is mistaken for Holliday and arrested, while Steven and Dodo get caught up in the escalating tensions. Wyatt Earp and Bat Masterson try to keep the peace, but the Clantons hire the outlaw Johnny Ringo to help them."
+    },
+    {
+      "plot_summary": "Ringo arrives in Tombstone and begins plotting with the Clantons against the Earps. The Doctor is deputized by Wyatt Earp in an attempt to diffuse the situation. Ringo takes Dodo hostage to force Doc Holliday to surrender, but Holliday is able to kill Ringo."
+    },
+    {
+      "plot_summary": "The Gunfight at the O.K. Corral takes place, with the Earps and Holliday emerging victorious over the Clantons. Afterwards, the Doctor insists they leave Tombstone in the TARDIS, much to Dodo's disappointment. As they depart, the scanner shows a savage figure appearing on the crest of a hill, hinting at their next destination."
+    }
+  ]
+}

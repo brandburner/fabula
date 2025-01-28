@@ -1,0 +1,99 @@
+{
+    "title": "The Claws of Axos",
+    "air_date": "13 March 1971",
+    "num_episodes": 4,
+    "episode_titles": [
+        "Part One",
+        "Part Two",
+        "Part Three",
+        "Part Four"
+    ],
+    "episode_duration": 25,
+    "writers": [
+        "Bob Baker",
+        "Dave Martin"
+    ],
+    "directors": [
+        "Michael Ferguson"
+    ],
+    "media_format": "Color",
+    "dialogue_triumphs": [
+        "The Master on the Doctor's TARDIS: 'Overweight, underpowered museum-piece\u2026 Might as well try to fly a second-hand gas stove.'"
+    ],
+    "dialogue_disasters": [
+        "Pigbin Josh: 'Furge-thangering muckwitchellers rock-throbblin' this time o' day. Ur bin oughta gone put thickery blarmdasted zones about, gordangun, diddenum? Havver froggin' law onnum, shouldnum? Eh? Eh? Arn I?' He sees Axos: 'Oh ar? 'Oh ar?' The Axos root goes for him: 'Aargh!'",
+        "The Doctor: 'It seems that I'm some kind of galactic yo-yo.'"
+    ],
+    "goofs": [
+        "As the Brigadier and his men leave the room where they've been held captive in episode two the wall shakes.",
+        "In episode four, after the TARDIS dematerializes from the Nuton lab, it is still there during the UNIT gun battle.",
+        "There's a very unconvincing blue cloth hanging behind Benton and Yates's jeep when attacked by Axons, and then behind Filer's car. Perhaps a CSO backing with no CSO?",
+        "UNIT mobile HQ is a BBC Outside Broadcast van.",
+        "Why is a replica of Filer made?",
+        "The Nuton complex powers half the UK, but explodes without loss of life. (Characters return to it only seconds after it has blown up.)"
+    ],
+    "continuity_notes": [
+        {
+            "name": "Chinn",
+            "type": "Character",
+            "description": "An MoD official currently in charge of a security check at UNIT",
+            "origin": "Ministry of Defence",
+            "current_status": "Overseeing security at UNIT"
+        },
+        {
+            "name": "Bill Filer",
+            "type": "Character",
+            "description": "A character from Washington HQ, possibly working for UNIT or the US CIA",
+            "origin": "Washington HQ",
+            "current_status": "Investigating the Axos incident"
+        },
+        {
+            "name": "Axos",
+            "type": "Character",
+            "description": "A cosmic parasite disguised as benevolent aliens, capable of sucking planets of their energy",
+            "origin": "Unknown",
+            "current_status": "Attempting to drain Earth's energy"
+        },
+        {
+            "name": "Axonite",
+            "type": "Object",
+            "description": "A 'thinking molecule' capable of copying, recreating, and restructuring any given substance",
+            "origin": "Axos",
+            "current_status": "Being offered to Earth as a gift"
+        },
+        {
+            "name": "TARDIS",
+            "type": "Object",
+            "description": "The Doctor's time and space machine",
+            "origin": "Gallifrey",
+            "current_status": "Used to trap Axos in a time loop"
+        }
+    ],
+    "technobabble": [
+        "Winser's particle light accelerator cyclotron is a primitive electromagnetic tachyon field.",
+        "The Doctor traps Axos in a time loop but escapes it himself by 'simply boosting the circuits and breaking free'."
+    ],
+    "roots": [
+        "Quatermass and the Pit",
+        "The Iliad (Axons/Greeks bearing gifts)",
+        "Fantastic Voyage (Axon designs)",
+        "Lost in Space ('The Golden Man')",
+        "Invaders from Mars",
+        "George Pal's War of the Worlds"
+    ],
+    "links": null,
+    "locations": [
+        {
+            "name": "Nuton Power Complex",
+            "type": "Location",
+            "description": "A nuclear power facility supplying power to all of Southern England",
+            "origin": "Earth",
+            "current_status": "Site of Axos landing and subsequent events"
+        }
+    ],
+    "future_history": null,
+    "untold_adventures": null,
+    "qv": null,
+    "additional_notes": "Fashion Victims: Jo wears purple suede boots and a purple miniskirt. (Her knickers \u2013 also purple \u2013 are briefly seen.) Double Entendres: The design of the eye of Axos.",
+    "bottom_line": "A very routine story, the dayglo aliens and silly characters masking a clever script."
+}

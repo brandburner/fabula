@@ -1,0 +1,194 @@
+{
+  "metadata": {
+    "title": "Battlefield",
+    "series": "Doctor Who",
+    "season": "26",
+    "release_date": "6 September 1989",
+    "release_end_date": "27 September 1989",
+    "writer": "Ben Aaronovitch",
+    "director": "Michael Kerrigan",
+    "producer": "John Nathan-Turner",
+    "main_actors": [
+      "Sylvester McCoy",
+      "Sophie Aldred",
+      "Jean Marsh",
+      "Nicholas Courtney",
+      "James Ellis",
+      "Angela Bruce",
+      "Christopher Bowen",
+      "Marcus Gilbert",
+      "Angela Douglas",
+      "Noel Collins",
+      "June Bland",
+      "Ling Tai"
+    ],
+    "time_reference": "1997"
+  },
+  "cast_crew": [
+    {
+      "cast": {
+        "name": "Sylvester McCoy",
+        "role": "The Doctor"
+      },
+      "crew": {
+        "name": "Michael Kerrigan",
+        "role": "Director"
+      }
+    },
+    {
+      "cast": {
+        "name": "Sophie Aldred",
+        "role": "Ace"
+      },
+      "crew": {
+        "name": "Ben Aaronovitch",
+        "role": "Writer"
+      }
+    },
+    {
+      "cast": {
+        "name": "Jean Marsh",
+        "role": "Morgaine"
+      },
+      "crew": {
+        "name": "John Nathan-Turner",
+        "role": "Producer"
+      }
+    },
+    {
+      "cast": {
+        "name": "Nicholas Courtney",
+        "role": "Brigadier Lethbridge-Stewart"
+      },
+      "crew": {
+        "name": "Andrew Cartmel",
+        "role": "Script Editor"
+      }
+    },
+    {
+      "cast": {
+        "name": "Angela Bruce",
+        "role": "Brigadier Winifred Bambera"
+      },
+      "crew": {
+        "name": "Keff McCulloch",
+        "role": "Incidental Music"
+      }
+    }
+  ],
+  "home_media": [
+    {
+      "releases": {
+        "media_type": "VHS",
+        "date": "1998",
+        "details": "Extended version with additional material.",
+        "special_features": []
+      }
+    },
+    {
+      "releases": {
+        "media_type": "DVD",
+        "date": "29 December 2008",
+        "details": "Two-disc set featuring original and extended versions.",
+        "special_features": [
+          "Commentary by cast and crew",
+          "Storm Over Avallion - Making of",
+          "Past and Future King - Discussion",
+          "Watertank - Recalling on-set accident",
+          "Studio Recording - Behind-the-scenes footage"
+        ]
+      }
+    },
+    {
+      "releases": {
+        "media_type": "BLU_RAY",
+        "date": "27 January 2020",
+        "details": "Newly restored with updated special effects.",
+        "special_features": [
+          "Audio Commentary",
+          "Optional 5.1 surround sound mix",
+          "Isolated Music Soundtrack",
+          "Info Text",
+          "BBC1 Trails & Continuities"
+        ]
+      }
+    }
+  ],
+  "story_notes": [
+    {
+      "notes": [
+        "This story marks the last appearance of UNIT in the show's classic run.",
+        "Nicholas Courtney's last performance as the Brigadier in the series proper.",
+        "The story introduces the idea that the Doctor was the man behind the myth of Merlin."
+      ]
+    }
+  ],
+  "worldbuilding": {
+    "in_universe_mythology": [
+      "The Doctor is identified as Merlin.",
+      "King Arthur and Excalibur are central to the plot."
+    ],
+    "real_world_cultural_references": [
+      "Alice in Wonderland references.",
+      "Clarke's Law regarding technology and magic."
+    ],
+    "individuals": [
+      "Brigadier Winifred Bambera",
+      "King Arthur",
+      "Morgaine"
+    ],
+    "items": [
+      "Excalibur",
+      "Silver Bullets",
+      "The Doctor's Sonic Screwdriver"
+    ],
+    "locations": [
+      "Carbury, England",
+      "Lake Vortigern",
+      "Gore Crow Hotel"
+    ]
+  },
+  "ratings": {
+    "ratings_millions": [
+      {
+        "part": "Part One",
+        "viewers": 3.1
+      },
+      {
+        "part": "Part Two",
+        "viewers": 3.9
+      },
+      {
+        "part": "Part Three",
+        "viewers": 3.6
+      },
+      {
+        "part": "Part Four",
+        "viewers": 4.0
+      }
+    ]
+  },
+  "continuity": {
+    "continuity_notes": [
+      "This story is set after the events of The Five Doctors.",
+      "The Brigadier's character continues to appear in audio dramas and spin-offs."
+    ]
+  },
+  "plot": [
+    {
+      "plot_summary": "The TARDIS materializes in the English countryside near Carbury, where a nuclear missile convoy led by UNIT is in distress due to strange supernatural occurrences. The Doctor and his companion Ace encounter characters from Arthurian legend, including Merlin and Morgaine, as they confront a powerful enemy and prevent a nuclear disaster."
+    },
+    {
+      "plot_summary": "Part One: The Doctor and Ace arrive at Carbury and get involved with UNIT. They discover a mysterious distress signal linked to Excalibur."
+    },
+    {
+      "plot_summary": "Part Two: The Doctor must face enemies from another dimension, including Mordred and Morgaine. Tension builds as they prepare for an epic confrontation."
+    },
+    {
+      "plot_summary": "Part Three: The stakes rise as the Doctor, Ace, and their allies work to combat the threat of Morgaine and the Destroyer."
+    },
+    {
+      "plot_summary": "Part Four: The Doctor confronts Morgaine and Mordred over the control of Excalibur and the missile. In a climactic battle, the Brigadier gives a heroic sacrifice leading to their eventual victory."
+    }
+  ]
+}

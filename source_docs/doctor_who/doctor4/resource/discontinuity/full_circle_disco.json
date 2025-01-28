@@ -1,0 +1,105 @@
+{
+    "title": "Full Circle",
+    "air_date": "25 October 1980",
+    "num_episodes": 4,
+    "episode_titles": [
+        "Part One",
+        "Part Two",
+        "Part Three",
+        "Part Four"
+    ],
+    "episode_duration": 25,
+    "writers": [
+        "Andrew Smith"
+    ],
+    "directors": [
+        "Peter Grimwade"
+    ],
+    "media_format": "Color",
+    "dialogue_triumphs": [
+        "'Garif, we must live up to our names. We must make this decision \u2013 together.' 'Yes, of course. But you will agree, it does require some thought.'"
+    ],
+    "dialogue_disasters": null,
+    "goofs": [
+        "Tom Baker says 40,000 generations at one point when he should have said 4000.",
+        "The Marshmen have cuffs.",
+        "The technology of Gallifrey and Alzarius/Terradon is very interchangeable.",
+        "When Romana asks the Doctor 'What was that noise?' in episode one, it might be the fly that's buzzing around his head."
+    ],
+    "continuity_notes": [
+        {
+            "name": "TARDIS Scanner",
+            "type": "Object",
+            "description": "A device in the TARDIS that shows images of the exterior or other locations. It has various functions beyond a simple camera, including showing future events, connecting to telepathic circuits, and displaying false locations.",
+            "origin": "TARDIS",
+            "current_status": "Malfunctioning due to being in E-space, showing Gallifrey instead of Alzarius."
+        },
+        {
+            "name": "Charged Vacuum Emboitement (CVE)",
+            "type": "Concept",
+            "description": "An incredibly rare phenomenon that allows passage between universes.",
+            "origin": null,
+            "current_status": "The TARDIS has passed through a CVE into E-space."
+        },
+        {
+            "name": "TARDIS",
+            "type": "Object",
+            "description": "The Doctor's time and space machine.",
+            "origin": "Gallifrey",
+            "current_status": "Weighs 5x10^6 kilos according to Romana, but this is likely the interior weight rather than the exterior."
+        },
+        {
+            "name": "Adric",
+            "type": "Character",
+            "description": "A new companion introduced in this story.",
+            "origin": "Alzarius",
+            "current_status": "Given a homing device to find the TARDIS and receives his brother's Outler belt of marsh-reed."
+        },
+        {
+            "name": "Alzarius",
+            "type": "Location",
+            "description": "A planet of hyper-evolutionary creatures in E-space.",
+            "origin": "E-space",
+            "current_status": "Experiencing Mistfall, a period when creatures emerge from the marshes."
+        },
+        {
+            "name": "Terradon",
+            "type": "Location",
+            "description": "A planet in E-space, origin of the crashed starliner on Alzarius.",
+            "origin": "E-space",
+            "current_status": "Not directly seen, only referenced as the origin of the crashed ship."
+        }
+    ],
+    "technobabble": [
+        "The binary coordinates are 1001100 by 02 from galactic zero centre.",
+        "Charged Vacuum Emboitement (CVE)",
+        "Exo-space"
+    ],
+    "roots": [
+        "The Creature from the Black Lagoon",
+        "Gaia",
+        "The Fifth Head of Cerberus"
+    ],
+    "links": [
+        "The Doctor mentions looking forward to seeing Leela and Andred again.",
+        "The original K-9 is mentioned.",
+        "The Key to Time is referenced.",
+        "Romana's room is seen, and Adric briefly picks up her boater from 'City of Death'."
+    ],
+    "locations": [
+        {
+            "name": "Alzarius",
+            "type": "Location",
+            "description": "A planet in E-space with hyper-evolutionary creatures and a crashed Terradonian starliner.",
+            "origin": "E-space",
+            "current_status": "Experiencing Mistfall, a periodic event that triggers the emergence of marsh creatures."
+        }
+    ],
+    "future_history": null,
+    "untold_adventures": [
+        "The kidnapped human from the previous story has now been returned to Earth."
+    ],
+    "qv": null,
+    "additional_notes": "The episode explores themes of evolution, hidden histories, and the nature of identity. It introduces the concept of E-space and sets up a new story arc.",
+    "bottom_line": "A brilliantly constructed tale, blessed with good visuals and a cracking pace. There's scarcely a shot or a line that isn't needed."
+}

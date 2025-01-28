@@ -1,0 +1,99 @@
+{
+    "title": "The Krotons",
+    "air_date": "28 December 1968",
+    "num_episodes": 4,
+    "episode_titles": [
+        "Part One",
+        "Part Two",
+        "Part Three",
+        "Part Four"
+    ],
+    "episode_duration": 25,
+    "writers": [
+        "Robert Holmes"
+    ],
+    "directors": [
+        "David Maloney"
+    ],
+    "media_format": "B_W",
+    "dialogue_triumphs": [
+        "Zoe, modestly: 'The Doctor's almost as clever as I am.'",
+        "The Doctor gets his own back: 'Zoe is something of a genius\u2026 It can be rather irritating at times.'"
+    ],
+    "dialogue_disasters": [
+        "Great jumping gobstoppers, what's that?"
+    ],
+    "goofs": [
+        "The first shot is of a sliding door refusing to open.",
+        "Vana's cloak falls off when she raises her arms in episode one.",
+        "Jamie collides with Zoe whilst climbing in episode one, and in the same scene her knickers are briefly visible.",
+        "Zoe's jacket is badly torn at one shoulder in episode four.",
+        "Selris is Scottish.",
+        "Beta is magically transported from place to place."
+    ],
+    "continuity_notes": [
+        {
+            "name": "TARDIS",
+            "type": "Object",
+            "description": "The Doctor's time and space machine",
+            "origin": null,
+            "current_status": "Equipped with Hostile Action Displacement System, which activates when a Kroton attempts to destroy it"
+        },
+        {
+            "name": "The Doctor",
+            "type": "Character",
+            "description": "The main protagonist, a Time Lord",
+            "origin": "Gallifrey",
+            "current_status": "Carrying an umbrella due to the planet's twin suns"
+        },
+        {
+            "name": "Zoe",
+            "type": "Character",
+            "description": "One of the Doctor's companions, known for her intelligence",
+            "origin": null,
+            "current_status": "Demonstrating her knowledge and occasionally irritating the Doctor with her genius"
+        },
+        {
+            "name": "Krotons",
+            "type": "Character",
+            "description": "Crystalline aliens with a life-system based on tellurium",
+            "origin": "Unknown",
+            "current_status": "Have been on the planet for thousands of years, part of a war fleet"
+        },
+        {
+            "name": "Dynatrope",
+            "type": "Object",
+            "description": "The Krotons' crystalline ship",
+            "origin": null,
+            "current_status": "Transfers mental power into energy, requires 'High Brains for transfer power'"
+        }
+    ],
+    "technobabble": [
+        "Zoe gets tellurium's atomic number (52) correct, but is 0.4 out on its atomic weight (128 instead of 127.6).",
+        "She describes hydrogen telluride as having 'the worst smell in the world'."
+    ],
+    "roots": [
+        "The Prisoner episode 'The General' (fascist educational techniques)",
+        "The Paris student riots of 1968",
+        "Theseus and the Minotaur",
+        "John Christopher's Tripods novels"
+    ],
+    "links": null,
+    "locations": [
+        {
+            "name": "Unnamed planet of the Gonds",
+            "type": "Location",
+            "description": "Planet with twin suns, rich in magnesium silicate and tellurium",
+            "origin": null,
+            "current_status": "Inhabited by the Gonds, under the influence of the Krotons"
+        }
+    ],
+    "future_history": null,
+    "untold_adventures": null,
+    "qv": [
+        "The Doctor's Doctorate",
+        "'The Moonbase'"
+    ],
+    "additional_notes": "Fashion Victims: Zoe in PVC. Beta has amazing sideburns.",
+    "bottom_line": "'It is not patriotism to lead people into a war they cannot win.' An acid trip! 'The Krotons' is standard 60s action material, with Jamie getting a good fight scene in episode one."
+}
