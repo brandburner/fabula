@@ -2,6 +2,7 @@
 from typing import Dict, List, Optional, Tuple
 import logging
 import re
+import pydantic
 from thefuzz import fuzz, process
 from baml_client import b
 from baml_client.type_builder import TypeBuilder
@@ -84,7 +85,13 @@ async def extract_and_register_entities(
            # Clean up any owner references
            if obj_data.get('original_owner'):
                 owner_ref = obj_data['original_owner']
-                if isinstance(owner_ref, str) and owner_ref.strip():
+                if isinstance(owner_ref, pydantic.BaseModel):
+                    # If it's a pydantic model (like an Agent), extract its uuid
+                    if hasattr(owner_ref, "uuid"):
+                        obj_data['original_owner'] = owner_ref.uuid
+                    else:
+                        obj_data['original_owner'] = None
+                elif isinstance(owner_ref, str) and owner_ref.strip():
                     owner_uuid = entity_registry.find_best_match(owner_ref, entity_registry.agents)
                     obj_data['original_owner'] = owner_uuid
                 else:
@@ -270,7 +277,8 @@ async def infer_object_owners(
             
             if inferred_owner:
                 logger.debug(f"Inferred owner for object '{object_data['name']}': {inferred_owner}")
-                object_data['original_owner'] = inferred_owner
+                object_data["original_owner"] = inferred_owner.uuid
+
             else:
                 logger.debug(f"Could not infer owner for object '{object_data['name']}' ({object_uuid})")
 

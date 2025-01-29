@@ -33,11 +33,11 @@ from entity_cleaners import (
 
 # Constants
 
-INPUT_JSON_PATH = Path("source_docs/ai_fanfic/doctor_who/quantum_archive_transcript.json")
-CONTEXT_FILES = [
-    Path("ssource_docs/ai_fanfic/doctor_who/quantum_archive_novelization.txt")
-]
-OUTPUT_JSON_PATH = Path("output/pre_processed/quantum_archive_graph.json")
+# INPUT_JSON_PATH = Path("source_docs/ai_fanfic/doctor_who/quantum_archive_transcript.json")
+# CONTEXT_FILES = [
+#     Path("ssource_docs/ai_fanfic/doctor_who/quantum_archive_novelization.txt")
+# ]
+# OUTPUT_JSON_PATH = Path("output/pre_processed/quantum_archive_graph.json")
 
 # INPUT_JSON_PATH = Path("source_docs/ai_fanfic/west_wing/fault_lines_transcript.json")
 # CONTEXT_FILES = [
@@ -55,7 +55,13 @@ OUTPUT_JSON_PATH = Path("output/pre_processed/quantum_archive_graph.json")
 # CONTEXT_FILES = [
 #     Path("source_docs/ai_fanfic/star_trek_tng/echoes_of_the_past_treatment.txt")
 # ]
-# OUTPUT_JSON_PATH = Path("output/pre_processed/echoes_of_the_past.json")
+# OUTPUT_JSON_PATH = Path("output/pre_processed/echoes_of_the_pastA.json")
+
+INPUT_JSON_PATH = Path("source_docs/doctor_who/doctor10/json/blink_transcript.json")
+CONTEXT_FILES = [
+    Path("source_docs/doctor_who/doctor10/resource/txt/blink_summary.txt")
+]
+OUTPUT_JSON_PATH = Path("output/pre_processed/blink_extracted.json")
 
 
 LOG_DIR = Path("logs")

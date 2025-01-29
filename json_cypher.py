@@ -9,7 +9,7 @@ import logging
 from collections import defaultdict
 
 # Set up logging
-logging.basicConfig(level=logging.INFO,
+logging.basicConfig(level=logging.DEBUG,
                     format='%(asctime)s - %(levelname)s - %(message)s')
 logger = logging.getLogger(__name__)
 
@@ -312,8 +312,8 @@ def generate_location_hierarchy_cypher(child_uuid: str, parent_uuid: str) -> Cyp
 
 def main():
     try:
-        input_path = Path("output/pre_processed/networking_event_graph.json")
-        output_path = Path("output/post_processed/networking_event_graph.cypher")
+        input_path = Path("output/pre_processed/blink_graph.json")
+        output_path = Path("output/post_processed/blink_graph.cypher")
         output_path.parent.mkdir(parents=True, exist_ok=True)
         
         logger.info(f"Reading input file: {input_path}")
@@ -433,6 +433,25 @@ def main():
                     #     cypher_statements.append(generate_relationship_cypher(
                     #         previous_event, event_uuid, "NEXT_EVENT", "Event", "Event"))
                     # previous_event = event_uuid
+
+                logger.info("Processing object involvements...")
+                for involvement in extracted_data.get("object_involvements", []):
+                    logger.debug(f"Processing involvement: {involvement}")
+                    if not isinstance(involvement, dict):
+                        logger.error(f"Skipping invalid involvement (not a dict): {involvement}")
+                        continue
+                    try:
+                        involvement_uuid = involvement.get("uuid")
+                        object_uuid = involvement.get("object")
+                        event_uuid = involvement.get("event")
+                        if not involvement_uuid or not object_uuid or not event_uuid:
+                            logger.error("Missing required UUIDs in involvement")
+                            continue
+                        cypher_statements.append(generate_object_involvement_cypher(involvement))
+                    except Exception as e:
+                        logger.error(f"Error processing involvement {involvement_uuid}: {str(e)}")
+                        raise
+
                 
                 # Process agent participations
                 for participation in extracted_data.get("agent_participations", []):
