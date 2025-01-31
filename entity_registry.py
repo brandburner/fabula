@@ -24,19 +24,10 @@ class EntityRegistry:
 
     def determine_primary_entity_type(self, entity_name: str, extracted_types: Dict[str, Dict]) -> Optional[Tuple[str, str]]:
         """
-        Determine the primary type for an entity that was extracted as multiple types.
-        Enhanced to prioritize organizations over locations.
-
-        Args:
-            entity_name: The normalized name of the entity
-            extracted_types: Dictionary of form {'agents': {...}, 'objects': {...}, etc}
-                            containing the entity data for each type it was extracted as
-        
-        Returns:
-            Tuple of (primary_type, uuid) or None if no determination can be made
+        Enhanced to prioritize organizations over locations and handle cases where an entity is extracted as both.
         """
         normalized_name = self.normalize_name(entity_name)
-        
+
         # Find all matching entities across types
         found_types = {}
         for type_name, entities in extracted_types.items():
@@ -46,14 +37,19 @@ class EntityRegistry:
                         'uuid': uuid,
                         'data': data
                     }
-        
+
         if not found_types:
             return None
-            
+
+        # Prioritize organizations over locations
+        if 'organizations' in found_types and 'locations' in found_types:
+            logger.warning(f"Entity '{entity_name}' is both an organization and a location. Prioritizing organization.")
+            return ('organizations', found_types['organizations']['uuid'])
+
         # Base type hierarchy with organizations prioritized over locations
         type_scores = {
             'agents': 10,
-            'organizations': 9,  # Increased score for organizations
+            'organizations': 9,
             'locations': 6,
             'objects': 4
         }
