@@ -25,7 +25,8 @@ class EntityRegistry:
     def determine_primary_entity_type(self, entity_name: str, extracted_types: Dict[str, Dict]) -> Optional[Tuple[str, str]]:
         """
         Determine the primary type for an entity that was extracted as multiple types.
-        
+        Enhanced to prioritize organizations over locations.
+
         Args:
             entity_name: The normalized name of the entity
             extracted_types: Dictionary of form {'agents': {...}, 'objects': {...}, etc}
@@ -49,12 +50,12 @@ class EntityRegistry:
         if not found_types:
             return None
             
-        # Base type hierarchy
+        # Base type hierarchy with organizations prioritized over locations
         type_scores = {
-            'agents': 10,      # Agents take highest precedence
-            'organizations': 8, # Organizations next
-            'locations': 6,    # Then locations
-            'objects': 4       # Objects lowest
+            'agents': 10,
+            'organizations': 9,  # Increased score for organizations
+            'locations': 6,
+            'objects': 4
         }
         
         # Calculate final scores with context-based adjustments
@@ -244,8 +245,7 @@ class EntityRegistry:
         # Special handling for agent's affiliated_org
         if entity_type == 'agents' and 'affiliated_org' in entity:
             org_ref = entity['affiliated_org']
-            # Check if org_ref is not None before calling .startswith()
-            if org_ref is not None and not org_ref.startswith('org-'):
+            if isinstance(org_ref, str):
                 # Resolve the organization reference
                 org_uuid = self.resolve_organization_reference(org_ref)
                 if org_uuid:
@@ -254,10 +254,10 @@ class EntityRegistry:
                     # If still not resolved, remove the reference
                     del entity['affiliated_org']
                     logger.warning(f"Removed unresolved affiliated_org for agent {entity['name']}")
-            elif org_ref is None:
-                # Remove the affiliated_org if it's None
+            else:
+                # Remove the affiliated_org if it's not a string
                 del entity['affiliated_org']
-                logger.warning(f"Removed None affiliated_org for agent {entity['name']}")
+                logger.warning(f"Removed invalid affiliated_org for agent {entity['name']}")
 
         registry = getattr(self, entity_type)
         registry[entity['uuid']] = entity
@@ -340,16 +340,30 @@ class EntityRegistry:
 
     def resolve_organization_reference(self, org_name: str) -> Optional[str]:
         """Specifically resolve an organization reference, creating it if not found."""
+        logger.debug(f"Resolving organization reference: '{org_name}'")
+
+        if not org_name:
+            logger.debug("Organization reference is None or empty, returning None")
+            return None
+
         normalized_name = self.normalize_name(org_name)
 
         # Check if it exists
         for org_uuid, org_data in self.organizations.items():
             if self.normalize_name(org_data['name']) == normalized_name:
+                logger.debug(f"Found existing organization: {org_uuid}")
                 return org_uuid
 
         # Create if it doesn't exist
         logger.info(f"Creating missing organization: {org_name}")
-        return self.register_entity('organizations', {'name': org_name})
+        new_org_uuid = f"org-{normalized_name}"
+        self.organizations[new_org_uuid] = {
+            'uuid': new_org_uuid,
+            'name': org_name,
+            'description': 'Automatically created from agent affiliation',
+            'members': []  # Initialize with an empty member list
+        }
+        return new_org_uuid
 
     def get_entity_details(self, entity_type: str, uuid: str) -> Optional[Dict]:
         """Retrieve entity details by UUID."""

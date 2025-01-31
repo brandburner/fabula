@@ -449,17 +449,21 @@ def synchronize_organization_memberships(entity_registry: Union[EntityRegistry, 
         agents = entity_registry.get('agents', {})
 
     # Merge duplicate organizations (handles both EntityRegistry and dict)
-    merged_orgs = merge_duplicate_organizations(organizations)  # Use updated function
+    merged_orgs = merge_duplicate_organizations(organizations)
 
     # Ensure all affiliated agents are in member lists
     for agent_uuid, agent in agents.items():
         if affiliated_org := agent.get('affiliated_org'):
+            logger.debug(f"Checking agent {agent_uuid} affiliation: {affiliated_org}")
             if affiliated_org in merged_orgs:
                 org = merged_orgs[affiliated_org]
                 if 'members' not in org:
                     org['members'] = []
                 if agent_uuid not in org['members']:
+                    logger.debug(f"Adding agent {agent_uuid} to members of {affiliated_org}")
                     org['members'].append(agent_uuid)
+            else:
+                logger.warning(f"Agent {agent_uuid} affiliated with non-existent org: {affiliated_org}")
 
     # Update the registry/dict based on input type
     if isinstance(entity_registry, EntityRegistry):
@@ -733,10 +737,12 @@ def merge_duplicate_organizations(organizations: Union[Dict, EntityRegistry]) ->
             for agent_uuid, agent in agents_dict.items():
                 if 'affiliated_org' in agent:
                     org_uuid = agent['affiliated_org']
+                    logger.debug(f"Agent {agent_uuid} has affiliated_org: {org_uuid}")
                     if org_uuid not in merged_orgs:
                         # Find the merged org that this agent should now point to
                         for merged_uuid, merged_org in merged_orgs.items():
                             if org_uuid in [uuid for uuid, _ in org_groups.get(EntityNormalizer.normalize_name(merged_org['name']), [])]:
+                                logger.debug(f"Updating agent {agent_uuid} affiliation from {org_uuid} to {merged_uuid}")
                                 agent['affiliated_org'] = merged_uuid
                                 break
 
