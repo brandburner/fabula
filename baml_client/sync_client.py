@@ -68,7 +68,7 @@ class BamlSyncClient:
         tb,
         __cr__,
       )
-      return cast(List[types.AgentParticipation], raw.cast_to(types, types))
+      return cast(List[types.AgentParticipation], raw.cast_to(types, types, partial_types, False))
     
     def ExtractAgents(
         self,
@@ -91,7 +91,7 @@ class BamlSyncClient:
         tb,
         __cr__,
       )
-      return cast(List[types.Agent], raw.cast_to(types, types))
+      return cast(List[types.Agent], raw.cast_to(types, types, partial_types, False))
     
     def ExtractAllWikiData(
         self,
@@ -114,7 +114,7 @@ class BamlSyncClient:
         tb,
         __cr__,
       )
-      return cast(types.WikiData, raw.cast_to(types, types))
+      return cast(types.WikiData, raw.cast_to(types, types, partial_types, False))
     
     def ExtractCastCrew(
         self,
@@ -137,7 +137,7 @@ class BamlSyncClient:
         tb,
         __cr__,
       )
-      return cast(types.CastCrew, raw.cast_to(types, types))
+      return cast(types.CastCrew, raw.cast_to(types, types, partial_types, False))
     
     def ExtractContinuity(
         self,
@@ -160,7 +160,7 @@ class BamlSyncClient:
         tb,
         __cr__,
       )
-      return cast(types.Continuity, raw.cast_to(types, types))
+      return cast(types.Continuity, raw.cast_to(types, types, partial_types, False))
     
     def ExtractEntities(
         self,
@@ -183,7 +183,7 @@ class BamlSyncClient:
         tb,
         __cr__,
       )
-      return cast(types.OntoMediaEntities, raw.cast_to(types, types))
+      return cast(types.OntoMediaEntities, raw.cast_to(types, types, partial_types, False))
     
     def ExtractEpisodePlot(
         self,
@@ -206,7 +206,7 @@ class BamlSyncClient:
         tb,
         __cr__,
       )
-      return cast(List[types.EpisodePlot], raw.cast_to(types, types))
+      return cast(List[types.EpisodePlot], raw.cast_to(types, types, partial_types, False))
     
     def ExtractEvents(
         self,
@@ -229,7 +229,7 @@ class BamlSyncClient:
         tb,
         __cr__,
       )
-      return cast(List[types.Event], raw.cast_to(types, types))
+      return cast(List[types.Event], raw.cast_to(types, types, partial_types, False))
     
     def ExtractHomeMedia(
         self,
@@ -252,7 +252,7 @@ class BamlSyncClient:
         tb,
         __cr__,
       )
-      return cast(types.HomeRelease, raw.cast_to(types, types))
+      return cast(types.HomeRelease, raw.cast_to(types, types, partial_types, False))
     
     def ExtractLocations(
         self,
@@ -275,7 +275,7 @@ class BamlSyncClient:
         tb,
         __cr__,
       )
-      return cast(List[types.Location], raw.cast_to(types, types))
+      return cast(List[types.Location], raw.cast_to(types, types, partial_types, False))
     
     def ExtractObjectInvolvements(
         self,
@@ -298,7 +298,7 @@ class BamlSyncClient:
         tb,
         __cr__,
       )
-      return cast(List[types.ObjectInvolvement], raw.cast_to(types, types))
+      return cast(List[types.ObjectInvolvement], raw.cast_to(types, types, partial_types, False))
     
     def ExtractObjects(
         self,
@@ -321,7 +321,7 @@ class BamlSyncClient:
         tb,
         __cr__,
       )
-      return cast(List[types.Object], raw.cast_to(types, types))
+      return cast(List[types.Object], raw.cast_to(types, types, partial_types, False))
     
     def ExtractOrganizations(
         self,
@@ -344,7 +344,7 @@ class BamlSyncClient:
         tb,
         __cr__,
       )
-      return cast(List[types.Organization], raw.cast_to(types, types))
+      return cast(List[types.Organization], raw.cast_to(types, types, partial_types, False))
     
     def ExtractRatings(
         self,
@@ -367,7 +367,7 @@ class BamlSyncClient:
         tb,
         __cr__,
       )
-      return cast(types.Ratings, raw.cast_to(types, types))
+      return cast(types.Ratings, raw.cast_to(types, types, partial_types, False))
     
     def ExtractResume(
         self,
@@ -390,7 +390,7 @@ class BamlSyncClient:
         tb,
         __cr__,
       )
-      return cast(types.Resume, raw.cast_to(types, types))
+      return cast(types.Resume, raw.cast_to(types, types, partial_types, False))
     
     def ExtractScene(
         self,
@@ -413,7 +413,7 @@ class BamlSyncClient:
         tb,
         __cr__,
       )
-      return cast(types.OntoMediaScene, raw.cast_to(types, types))
+      return cast(types.OntoMediaScene, raw.cast_to(types, types, partial_types, False))
     
     def ExtractSceneMetadata(
         self,
@@ -436,7 +436,7 @@ class BamlSyncClient:
         tb,
         __cr__,
       )
-      return cast(types.SceneMetadata, raw.cast_to(types, types))
+      return cast(types.SceneMetadata, raw.cast_to(types, types, partial_types, False))
     
     def ExtractStoryMetadata(
         self,
@@ -459,7 +459,7 @@ class BamlSyncClient:
         tb,
         __cr__,
       )
-      return cast(types.StoryMetadata, raw.cast_to(types, types))
+      return cast(types.StoryMetadata, raw.cast_to(types, types, partial_types, False))
     
     def ExtractStoryNotes(
         self,
@@ -482,7 +482,7 @@ class BamlSyncClient:
         tb,
         __cr__,
       )
-      return cast(types.StoryNotes, raw.cast_to(types, types))
+      return cast(types.StoryNotes, raw.cast_to(types, types, partial_types, False))
     
     def ExtractWorldbuilding(
         self,
@@ -505,7 +505,7 @@ class BamlSyncClient:
         tb,
         __cr__,
       )
-      return cast(types.Worldbuilding, raw.cast_to(types, types))
+      return cast(types.Worldbuilding, raw.cast_to(types, types, partial_types, False))
     
     def InferObjectOwner(
         self,
@@ -528,7 +528,7 @@ class BamlSyncClient:
         tb,
         __cr__,
       )
-      return cast(Optional[types.Agent], raw.cast_to(types, types))
+      return cast(Optional[types.Agent], raw.cast_to(types, types, partial_types, False))
     
     def ResolveAgentCluster(
         self,
@@ -551,7 +551,7 @@ class BamlSyncClient:
         tb,
         __cr__,
       )
-      return cast(List[types.ResolvedAgent], raw.cast_to(types, types))
+      return cast(List[types.ResolvedAgent], raw.cast_to(types, types, partial_types, False))
     
     def ResolveLocationCluster(
         self,
@@ -574,7 +574,7 @@ class BamlSyncClient:
         tb,
         __cr__,
       )
-      return cast(List[types.ResolvedLocation], raw.cast_to(types, types))
+      return cast(List[types.ResolvedLocation], raw.cast_to(types, types, partial_types, False))
     
     def ResolveObjectCluster(
         self,
@@ -597,7 +597,7 @@ class BamlSyncClient:
         tb,
         __cr__,
       )
-      return cast(List[types.ResolvedObject], raw.cast_to(types, types))
+      return cast(List[types.ResolvedObject], raw.cast_to(types, types, partial_types, False))
     
     def ResolveOrganizationCluster(
         self,
@@ -620,7 +620,7 @@ class BamlSyncClient:
         tb,
         __cr__,
       )
-      return cast(List[types.ResolvedOrganization], raw.cast_to(types, types))
+      return cast(List[types.ResolvedOrganization], raw.cast_to(types, types, partial_types, False))
     
     def ResolveSceneAgents(
         self,
@@ -643,7 +643,7 @@ class BamlSyncClient:
         tb,
         __cr__,
       )
-      return cast(List[types.ResolvedAgent], raw.cast_to(types, types))
+      return cast(List[types.ResolvedAgent], raw.cast_to(types, types, partial_types, False))
     
 
 
@@ -685,8 +685,8 @@ class BamlStreamClient:
 
       return baml_py.BamlSyncStream[List[partial_types.AgentParticipation], List[types.AgentParticipation]](
         raw,
-        lambda x: cast(List[partial_types.AgentParticipation], x.cast_to(types, partial_types)),
-        lambda x: cast(List[types.AgentParticipation], x.cast_to(types, types)),
+        lambda x: cast(List[partial_types.AgentParticipation], x.cast_to(types, types, partial_types, True)),
+        lambda x: cast(List[types.AgentParticipation], x.cast_to(types, types, partial_types, False)),
         self.__ctx_manager.get(),
       )
     
@@ -718,8 +718,8 @@ class BamlStreamClient:
 
       return baml_py.BamlSyncStream[List[partial_types.Agent], List[types.Agent]](
         raw,
-        lambda x: cast(List[partial_types.Agent], x.cast_to(types, partial_types)),
-        lambda x: cast(List[types.Agent], x.cast_to(types, types)),
+        lambda x: cast(List[partial_types.Agent], x.cast_to(types, types, partial_types, True)),
+        lambda x: cast(List[types.Agent], x.cast_to(types, types, partial_types, False)),
         self.__ctx_manager.get(),
       )
     
@@ -748,8 +748,8 @@ class BamlStreamClient:
 
       return baml_py.BamlSyncStream[partial_types.WikiData, types.WikiData](
         raw,
-        lambda x: cast(partial_types.WikiData, x.cast_to(types, partial_types)),
-        lambda x: cast(types.WikiData, x.cast_to(types, types)),
+        lambda x: cast(partial_types.WikiData, x.cast_to(types, types, partial_types, True)),
+        lambda x: cast(types.WikiData, x.cast_to(types, types, partial_types, False)),
         self.__ctx_manager.get(),
       )
     
@@ -778,8 +778,8 @@ class BamlStreamClient:
 
       return baml_py.BamlSyncStream[partial_types.CastCrew, types.CastCrew](
         raw,
-        lambda x: cast(partial_types.CastCrew, x.cast_to(types, partial_types)),
-        lambda x: cast(types.CastCrew, x.cast_to(types, types)),
+        lambda x: cast(partial_types.CastCrew, x.cast_to(types, types, partial_types, True)),
+        lambda x: cast(types.CastCrew, x.cast_to(types, types, partial_types, False)),
         self.__ctx_manager.get(),
       )
     
@@ -808,8 +808,8 @@ class BamlStreamClient:
 
       return baml_py.BamlSyncStream[partial_types.Continuity, types.Continuity](
         raw,
-        lambda x: cast(partial_types.Continuity, x.cast_to(types, partial_types)),
-        lambda x: cast(types.Continuity, x.cast_to(types, types)),
+        lambda x: cast(partial_types.Continuity, x.cast_to(types, types, partial_types, True)),
+        lambda x: cast(types.Continuity, x.cast_to(types, types, partial_types, False)),
         self.__ctx_manager.get(),
       )
     
@@ -839,8 +839,8 @@ class BamlStreamClient:
 
       return baml_py.BamlSyncStream[partial_types.OntoMediaEntities, types.OntoMediaEntities](
         raw,
-        lambda x: cast(partial_types.OntoMediaEntities, x.cast_to(types, partial_types)),
-        lambda x: cast(types.OntoMediaEntities, x.cast_to(types, types)),
+        lambda x: cast(partial_types.OntoMediaEntities, x.cast_to(types, types, partial_types, True)),
+        lambda x: cast(types.OntoMediaEntities, x.cast_to(types, types, partial_types, False)),
         self.__ctx_manager.get(),
       )
     
@@ -869,8 +869,8 @@ class BamlStreamClient:
 
       return baml_py.BamlSyncStream[List[partial_types.EpisodePlot], List[types.EpisodePlot]](
         raw,
-        lambda x: cast(List[partial_types.EpisodePlot], x.cast_to(types, partial_types)),
-        lambda x: cast(List[types.EpisodePlot], x.cast_to(types, types)),
+        lambda x: cast(List[partial_types.EpisodePlot], x.cast_to(types, types, partial_types, True)),
+        lambda x: cast(List[types.EpisodePlot], x.cast_to(types, types, partial_types, False)),
         self.__ctx_manager.get(),
       )
     
@@ -903,8 +903,8 @@ class BamlStreamClient:
 
       return baml_py.BamlSyncStream[List[partial_types.Event], List[types.Event]](
         raw,
-        lambda x: cast(List[partial_types.Event], x.cast_to(types, partial_types)),
-        lambda x: cast(List[types.Event], x.cast_to(types, types)),
+        lambda x: cast(List[partial_types.Event], x.cast_to(types, types, partial_types, True)),
+        lambda x: cast(List[types.Event], x.cast_to(types, types, partial_types, False)),
         self.__ctx_manager.get(),
       )
     
@@ -933,8 +933,8 @@ class BamlStreamClient:
 
       return baml_py.BamlSyncStream[partial_types.HomeRelease, types.HomeRelease](
         raw,
-        lambda x: cast(partial_types.HomeRelease, x.cast_to(types, partial_types)),
-        lambda x: cast(types.HomeRelease, x.cast_to(types, types)),
+        lambda x: cast(partial_types.HomeRelease, x.cast_to(types, types, partial_types, True)),
+        lambda x: cast(types.HomeRelease, x.cast_to(types, types, partial_types, False)),
         self.__ctx_manager.get(),
       )
     
@@ -964,8 +964,8 @@ class BamlStreamClient:
 
       return baml_py.BamlSyncStream[List[partial_types.Location], List[types.Location]](
         raw,
-        lambda x: cast(List[partial_types.Location], x.cast_to(types, partial_types)),
-        lambda x: cast(List[types.Location], x.cast_to(types, types)),
+        lambda x: cast(List[partial_types.Location], x.cast_to(types, types, partial_types, True)),
+        lambda x: cast(List[types.Location], x.cast_to(types, types, partial_types, False)),
         self.__ctx_manager.get(),
       )
     
@@ -997,8 +997,8 @@ class BamlStreamClient:
 
       return baml_py.BamlSyncStream[List[partial_types.ObjectInvolvement], List[types.ObjectInvolvement]](
         raw,
-        lambda x: cast(List[partial_types.ObjectInvolvement], x.cast_to(types, partial_types)),
-        lambda x: cast(List[types.ObjectInvolvement], x.cast_to(types, types)),
+        lambda x: cast(List[partial_types.ObjectInvolvement], x.cast_to(types, types, partial_types, True)),
+        lambda x: cast(List[types.ObjectInvolvement], x.cast_to(types, types, partial_types, False)),
         self.__ctx_manager.get(),
       )
     
@@ -1029,8 +1029,8 @@ class BamlStreamClient:
 
       return baml_py.BamlSyncStream[List[partial_types.Object], List[types.Object]](
         raw,
-        lambda x: cast(List[partial_types.Object], x.cast_to(types, partial_types)),
-        lambda x: cast(List[types.Object], x.cast_to(types, types)),
+        lambda x: cast(List[partial_types.Object], x.cast_to(types, types, partial_types, True)),
+        lambda x: cast(List[types.Object], x.cast_to(types, types, partial_types, False)),
         self.__ctx_manager.get(),
       )
     
@@ -1061,8 +1061,8 @@ class BamlStreamClient:
 
       return baml_py.BamlSyncStream[List[partial_types.Organization], List[types.Organization]](
         raw,
-        lambda x: cast(List[partial_types.Organization], x.cast_to(types, partial_types)),
-        lambda x: cast(List[types.Organization], x.cast_to(types, types)),
+        lambda x: cast(List[partial_types.Organization], x.cast_to(types, types, partial_types, True)),
+        lambda x: cast(List[types.Organization], x.cast_to(types, types, partial_types, False)),
         self.__ctx_manager.get(),
       )
     
@@ -1091,8 +1091,8 @@ class BamlStreamClient:
 
       return baml_py.BamlSyncStream[partial_types.Ratings, types.Ratings](
         raw,
-        lambda x: cast(partial_types.Ratings, x.cast_to(types, partial_types)),
-        lambda x: cast(types.Ratings, x.cast_to(types, types)),
+        lambda x: cast(partial_types.Ratings, x.cast_to(types, types, partial_types, True)),
+        lambda x: cast(types.Ratings, x.cast_to(types, types, partial_types, False)),
         self.__ctx_manager.get(),
       )
     
@@ -1121,8 +1121,8 @@ class BamlStreamClient:
 
       return baml_py.BamlSyncStream[partial_types.Resume, types.Resume](
         raw,
-        lambda x: cast(partial_types.Resume, x.cast_to(types, partial_types)),
-        lambda x: cast(types.Resume, x.cast_to(types, types)),
+        lambda x: cast(partial_types.Resume, x.cast_to(types, types, partial_types, True)),
+        lambda x: cast(types.Resume, x.cast_to(types, types, partial_types, False)),
         self.__ctx_manager.get(),
       )
     
@@ -1152,8 +1152,8 @@ class BamlStreamClient:
 
       return baml_py.BamlSyncStream[partial_types.OntoMediaScene, types.OntoMediaScene](
         raw,
-        lambda x: cast(partial_types.OntoMediaScene, x.cast_to(types, partial_types)),
-        lambda x: cast(types.OntoMediaScene, x.cast_to(types, types)),
+        lambda x: cast(partial_types.OntoMediaScene, x.cast_to(types, types, partial_types, True)),
+        lambda x: cast(types.OntoMediaScene, x.cast_to(types, types, partial_types, False)),
         self.__ctx_manager.get(),
       )
     
@@ -1183,8 +1183,8 @@ class BamlStreamClient:
 
       return baml_py.BamlSyncStream[partial_types.SceneMetadata, types.SceneMetadata](
         raw,
-        lambda x: cast(partial_types.SceneMetadata, x.cast_to(types, partial_types)),
-        lambda x: cast(types.SceneMetadata, x.cast_to(types, types)),
+        lambda x: cast(partial_types.SceneMetadata, x.cast_to(types, types, partial_types, True)),
+        lambda x: cast(types.SceneMetadata, x.cast_to(types, types, partial_types, False)),
         self.__ctx_manager.get(),
       )
     
@@ -1213,8 +1213,8 @@ class BamlStreamClient:
 
       return baml_py.BamlSyncStream[partial_types.StoryMetadata, types.StoryMetadata](
         raw,
-        lambda x: cast(partial_types.StoryMetadata, x.cast_to(types, partial_types)),
-        lambda x: cast(types.StoryMetadata, x.cast_to(types, types)),
+        lambda x: cast(partial_types.StoryMetadata, x.cast_to(types, types, partial_types, True)),
+        lambda x: cast(types.StoryMetadata, x.cast_to(types, types, partial_types, False)),
         self.__ctx_manager.get(),
       )
     
@@ -1243,8 +1243,8 @@ class BamlStreamClient:
 
       return baml_py.BamlSyncStream[partial_types.StoryNotes, types.StoryNotes](
         raw,
-        lambda x: cast(partial_types.StoryNotes, x.cast_to(types, partial_types)),
-        lambda x: cast(types.StoryNotes, x.cast_to(types, types)),
+        lambda x: cast(partial_types.StoryNotes, x.cast_to(types, types, partial_types, True)),
+        lambda x: cast(types.StoryNotes, x.cast_to(types, types, partial_types, False)),
         self.__ctx_manager.get(),
       )
     
@@ -1273,8 +1273,8 @@ class BamlStreamClient:
 
       return baml_py.BamlSyncStream[partial_types.Worldbuilding, types.Worldbuilding](
         raw,
-        lambda x: cast(partial_types.Worldbuilding, x.cast_to(types, partial_types)),
-        lambda x: cast(types.Worldbuilding, x.cast_to(types, types)),
+        lambda x: cast(partial_types.Worldbuilding, x.cast_to(types, types, partial_types, True)),
+        lambda x: cast(types.Worldbuilding, x.cast_to(types, types, partial_types, False)),
         self.__ctx_manager.get(),
       )
     
@@ -1305,8 +1305,8 @@ class BamlStreamClient:
 
       return baml_py.BamlSyncStream[partial_types.Agent, Optional[types.Agent]](
         raw,
-        lambda x: cast(partial_types.Agent, x.cast_to(types, partial_types)),
-        lambda x: cast(Optional[types.Agent], x.cast_to(types, types)),
+        lambda x: cast(partial_types.Agent, x.cast_to(types, types, partial_types, True)),
+        lambda x: cast(Optional[types.Agent], x.cast_to(types, types, partial_types, False)),
         self.__ctx_manager.get(),
       )
     
@@ -1335,8 +1335,8 @@ class BamlStreamClient:
 
       return baml_py.BamlSyncStream[List[partial_types.ResolvedAgent], List[types.ResolvedAgent]](
         raw,
-        lambda x: cast(List[partial_types.ResolvedAgent], x.cast_to(types, partial_types)),
-        lambda x: cast(List[types.ResolvedAgent], x.cast_to(types, types)),
+        lambda x: cast(List[partial_types.ResolvedAgent], x.cast_to(types, types, partial_types, True)),
+        lambda x: cast(List[types.ResolvedAgent], x.cast_to(types, types, partial_types, False)),
         self.__ctx_manager.get(),
       )
     
@@ -1365,8 +1365,8 @@ class BamlStreamClient:
 
       return baml_py.BamlSyncStream[List[partial_types.ResolvedLocation], List[types.ResolvedLocation]](
         raw,
-        lambda x: cast(List[partial_types.ResolvedLocation], x.cast_to(types, partial_types)),
-        lambda x: cast(List[types.ResolvedLocation], x.cast_to(types, types)),
+        lambda x: cast(List[partial_types.ResolvedLocation], x.cast_to(types, types, partial_types, True)),
+        lambda x: cast(List[types.ResolvedLocation], x.cast_to(types, types, partial_types, False)),
         self.__ctx_manager.get(),
       )
     
@@ -1395,8 +1395,8 @@ class BamlStreamClient:
 
       return baml_py.BamlSyncStream[List[partial_types.ResolvedObject], List[types.ResolvedObject]](
         raw,
-        lambda x: cast(List[partial_types.ResolvedObject], x.cast_to(types, partial_types)),
-        lambda x: cast(List[types.ResolvedObject], x.cast_to(types, types)),
+        lambda x: cast(List[partial_types.ResolvedObject], x.cast_to(types, types, partial_types, True)),
+        lambda x: cast(List[types.ResolvedObject], x.cast_to(types, types, partial_types, False)),
         self.__ctx_manager.get(),
       )
     
@@ -1425,8 +1425,8 @@ class BamlStreamClient:
 
       return baml_py.BamlSyncStream[List[partial_types.ResolvedOrganization], List[types.ResolvedOrganization]](
         raw,
-        lambda x: cast(List[partial_types.ResolvedOrganization], x.cast_to(types, partial_types)),
-        lambda x: cast(List[types.ResolvedOrganization], x.cast_to(types, types)),
+        lambda x: cast(List[partial_types.ResolvedOrganization], x.cast_to(types, types, partial_types, True)),
+        lambda x: cast(List[types.ResolvedOrganization], x.cast_to(types, types, partial_types, False)),
         self.__ctx_manager.get(),
       )
     
@@ -1456,8 +1456,8 @@ class BamlStreamClient:
 
       return baml_py.BamlSyncStream[List[partial_types.ResolvedAgent], List[types.ResolvedAgent]](
         raw,
-        lambda x: cast(List[partial_types.ResolvedAgent], x.cast_to(types, partial_types)),
-        lambda x: cast(List[types.ResolvedAgent], x.cast_to(types, types)),
+        lambda x: cast(List[partial_types.ResolvedAgent], x.cast_to(types, types, partial_types, True)),
+        lambda x: cast(List[types.ResolvedAgent], x.cast_to(types, types, partial_types, False)),
         self.__ctx_manager.get(),
       )
     

@@ -2,7 +2,8 @@
 from typing import Dict, Optional, List, Any, Tuple
 import logging
 import re
-from fuzzywuzzy import fuzz
+import pydantic
+from thefuzz import fuzz
 from entity_normalizer import EntityNormalizer
 
 logger = logging.getLogger(__name__)
@@ -146,56 +147,72 @@ class EntityRegistry:
         return False
     
     def find_best_match(self, name: str, registry: Dict[str, Dict[str, Any]]) -> Optional[str]:
-        """Find best matching entity using fuzzy matching."""
-        logger.debug(f"Finding best match for: {name} in {registry.keys()}")
+        """Find best matching entity using fuzzy matching with enhanced type checking."""
+        logger.debug(f"Finding best match for: {name} (type: {type(name)}) in registry")
         
-        if not name:
+        if not name or not isinstance(name, str):
+            logger.warning(f"Invalid name parameter: {name} (type: {type(name)})")
             return None
 
         # Direct UUID match
         if name in registry:
             self._debug_matches[name] = ('direct_uuid', name)
-            logger.debug(f"Found direct match by UUID: {name} -> {name}")
             return name
 
         normalized = self.normalize_name(name)
         
         # Direct normalized name match
         for uuid, details in registry.items():
-            if self.normalize_name(details['name']) == normalized:
+            # Ensure we're working with string names
+            entity_name = details.get('name', '')
+            if isinstance(entity_name, (dict, pydantic.BaseModel)):
+                logger.warning(f"Found non-string name in registry: {entity_name}")
+                continue
+                
+            if self.normalize_name(str(entity_name)) == normalized:
                 self._debug_matches[name] = ('direct', normalized)
-                logger.debug(f"Found direct match: {normalized} -> {uuid}")
                 return uuid
-            
-        # Special agent_id handling
-        if registry is self.agents:
-            for uuid, details in registry.items():
-                if 'agent_id' in details and self.normalize_name(details['agent_id']) == normalized:
-                    self._debug_matches[name] = ('agent_id', normalized)
-                    logger.debug(f"Found agent_id match: {normalized} -> {uuid}")
-                    return uuid
 
-        # Fuzzy matching
+        # Fuzzy matching with type safety
         best_match = None
         best_ratio = 0
         for uuid, details in registry.items():
-            ratio = fuzz.ratio(normalized, self.normalize_name(details['name']))
-            if ratio > 85 and ratio > best_ratio:
-                best_match = uuid
-                best_ratio = ratio
-                self._debug_matches[name] = ('fuzzy', details['name'], ratio)
-                logger.debug(f"Found fuzzy match: {normalized} ~ {details['name']} ({ratio}) -> {uuid}")
+            try:
+                entity_name = str(details.get('name', ''))
+                ratio = fuzz.ratio(normalized, self.normalize_name(entity_name))
+                if ratio > 85 and ratio > best_ratio:
+                    best_match = uuid
+                    best_ratio = ratio
+                    self._debug_matches[name] = ('fuzzy', entity_name, ratio)
+            except Exception as e:
+                logger.error(f"Error during fuzzy matching: {e}")
+                continue
 
         return best_match
 
     def register_entity(self, entity_type: str, entity: Dict) -> Optional[str]:
-        """Register an entity and return its UUID."""
+        """Register an entity with enhanced type checking and organization resolution."""
         if not entity or not entity.get('name'):
             logger.warning(f"Attempting to register invalid entity: {entity}")
             return None
 
-        normalized_name = self.normalize_name(entity['name'])
+        # Convert any Pydantic models to dictionaries
+        if isinstance(entity, pydantic.BaseModel):
+            entity = entity.model_dump()
+
+        # Ensure name is a string
+        if not isinstance(entity['name'], str):
+            try:
+                entity['name'] = str(entity['name'])
+            except Exception as e:
+                logger.error(f"Could not convert entity name to string: {e}")
+                return None
+
+        # Clean references before registration
+        entity = self._clean_entity_references(entity)
         
+        normalized_name = self.normalize_name(entity['name'])
+
         # Check across all registries
         current_entities = {
             'agents': self.agents,
@@ -224,9 +241,54 @@ class EntityRegistry:
         if 'uuid' not in entity:
             entity['uuid'] = f"{entity_type[:-1]}-{normalized_name}"
         
+        # Special handling for agent's affiliated_org
+        if entity_type == 'agents' and 'affiliated_org' in entity:
+            org_ref = entity['affiliated_org']
+            # Check if org_ref is not None before calling .startswith()
+            if org_ref is not None and not org_ref.startswith('org-'):
+                # Resolve the organization reference
+                org_uuid = self.resolve_organization_reference(org_ref)
+                if org_uuid:
+                    entity['affiliated_org'] = org_uuid
+                else:
+                    # If still not resolved, remove the reference
+                    del entity['affiliated_org']
+                    logger.warning(f"Removed unresolved affiliated_org for agent {entity['name']}")
+            elif org_ref is None:
+                # Remove the affiliated_org if it's None
+                del entity['affiliated_org']
+                logger.warning(f"Removed None affiliated_org for agent {entity['name']}")
+
         registry = getattr(self, entity_type)
         registry[entity['uuid']] = entity
         return entity['uuid']
+
+    def _clean_entity_references(self, entity: Dict) -> Dict:
+        """Clean entity references to ensure they're stored as strings."""
+        cleaned = entity.copy()
+        
+        # Clean original_owner references
+        if 'original_owner' in cleaned:
+            if isinstance(cleaned['original_owner'], pydantic.BaseModel):
+                cleaned['original_owner'] = cleaned['original_owner'].uuid
+            elif isinstance(cleaned['original_owner'], dict):
+                cleaned['original_owner'] = cleaned['original_owner'].get('uuid')
+                
+        # Clean location references
+        if 'location' in cleaned:
+            if isinstance(cleaned['location'], pydantic.BaseModel):
+                cleaned['location'] = cleaned['location'].uuid
+            elif isinstance(cleaned['location'], dict):
+                cleaned['location'] = cleaned['location'].get('uuid')
+                
+        # Clean affiliated_org references
+        if 'affiliated_org' in cleaned:
+            if isinstance(cleaned['affiliated_org'], pydantic.BaseModel):
+                cleaned['affiliated_org'] = cleaned['affiliated_org'].uuid
+            elif isinstance(cleaned['affiliated_org'], dict):
+                cleaned['affiliated_org'] = cleaned['affiliated_org'].get('uuid')
+                
+        return cleaned
 
     def _merge_entity_data(self, existing: Dict, new: Dict) -> None:
         """Helper method to merge new entity data into existing entity."""
@@ -253,13 +315,19 @@ class EntityRegistry:
         registry = getattr(self, entity_type)
         if uuid := self.find_best_match(reference, registry):
             return uuid
-            
+
+        # Special handling for organizations when resolving agent affiliations
+        if entity_type == 'agents' and 'affiliated_org' in reference:
+            org_name = reference.split('affiliated_org:')[-1].strip()
+            if org_uuid := self.resolve_organization_reference(org_name):
+                return org_uuid
+
         # Check other types
         normalized_ref = self.normalize_name(reference)
         for type_name in ['agents', 'objects', 'locations', 'organizations']:
             if type_name == entity_type:
                 continue
-                
+
             registry = getattr(self, type_name)
             if uuid := self.find_best_match(normalized_ref, registry):
                 logger.warning(
@@ -267,8 +335,21 @@ class EntityRegistry:
                     f"but it exists as {type_name} {uuid}"
                 )
                 return None
-                    
+
         return None
+
+    def resolve_organization_reference(self, org_name: str) -> Optional[str]:
+        """Specifically resolve an organization reference, creating it if not found."""
+        normalized_name = self.normalize_name(org_name)
+
+        # Check if it exists
+        for org_uuid, org_data in self.organizations.items():
+            if self.normalize_name(org_data['name']) == normalized_name:
+                return org_uuid
+
+        # Create if it doesn't exist
+        logger.info(f"Creating missing organization: {org_name}")
+        return self.register_entity('organizations', {'name': org_name})
 
     def get_entity_details(self, entity_type: str, uuid: str) -> Optional[Dict]:
         """Retrieve entity details by UUID."""

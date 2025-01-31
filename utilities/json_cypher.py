@@ -312,8 +312,8 @@ def generate_location_hierarchy_cypher(child_uuid: str, parent_uuid: str) -> Cyp
 
 def main():
     try:
-        input_path = Path("output/pre_processed/blink_graph.json")
-        output_path = Path("output/post_processed/blink_graph.cypher")
+        input_path = Path("output/pre_processed/mission_to_the_unknown_graph.json")
+        output_path = Path("output/post_processed/mission_to_the_unknown_graph.cypher")
         output_path.parent.mkdir(parents=True, exist_ok=True)
         
         logger.info(f"Reading input file: {input_path}")

@@ -2,10 +2,12 @@
 import asyncio
 import logging
 from pathlib import Path
-from typing import Dict, List, Optional
+from typing import Dict, List, Optional, Set, Union
 from baml_client.type_builder import TypeBuilder
 from baml_client import b
+from thefuzz import fuzz
 from entity_registry import EntityRegistry
+from entity_normalizer import EntityNormalizer
 from entity_extractors import extract_and_register_entities
 from scene_processor import process_scene, format_dialogue
 from utils import (
@@ -33,11 +35,11 @@ from entity_cleaners import (
 
 # Constants
 
-# INPUT_JSON_PATH = Path("source_docs/ai_fanfic/doctor_who/quantum_archive_transcript.json")
-# CONTEXT_FILES = [
-#     Path("ssource_docs/ai_fanfic/doctor_who/quantum_archive_novelization.txt")
-# ]
-# OUTPUT_JSON_PATH = Path("output/pre_processed/quantum_archive_graph.json")
+INPUT_JSON_PATH = Path("source_docs/ai_fanfic/doctor_who/quantum_archive_transcript.json")
+CONTEXT_FILES = [
+    Path("source_docs/ai_fanfic/doctor_who/quantum_archive_novelization.txt")
+]
+OUTPUT_JSON_PATH = Path("output/pre_processed/quantum_archive_graph.json")
 
 # INPUT_JSON_PATH = Path("source_docs/ai_fanfic/west_wing/fault_lines_transcript.json")
 # CONTEXT_FILES = [
@@ -57,11 +59,17 @@ from entity_cleaners import (
 # ]
 # OUTPUT_JSON_PATH = Path("output/pre_processed/echoes_of_the_pastA.json")
 
-INPUT_JSON_PATH = Path("source_docs/doctor_who/doctor10/json/blink_transcript.json")
-CONTEXT_FILES = [
-    Path("source_docs/doctor_who/doctor10/resource/txt/blink_summary.txt")
-]
-OUTPUT_JSON_PATH = Path("output/pre_processed/blink_extracted.json")
+# INPUT_JSON_PATH = Path("source_docs/doctor_who/doctor10/json/blink_transcript.json")
+# CONTEXT_FILES = [
+#     Path("source_docs/doctor_who/doctor10/resource/txt/blink_summary.txt")
+# ]
+# OUTPUT_JSON_PATH = Path("output/pre_processed/blink_extracted.json")
+
+# INPUT_JSON_PATH = Path("source_docs/doctor_who/doctor1/json/mission_to_the_unknown_transcript.json")
+# CONTEXT_FILES = [
+#     Path("source_docs/doctor_who/doctor1/resource/novel/mission_to_the_unknown_novel.txt")
+# ]
+# OUTPUT_JSON_PATH = Path("output/pre_processed/mission_to_the_unknown_graph.json")
 
 
 LOG_DIR = Path("logs")
@@ -197,9 +205,24 @@ async def process_story(story_json: Dict, story_context: str) -> Dict:
     logger.info("Processing entities after first pass")
     merge_duplicate_entities(entity_registry)
 
+    # Resolve and potentially create missing organizations
+    logger.info("Resolving and creating missing organizations")
+    for agent_uuid, agent_data in entity_registry.agents.items():
+        if 'affiliated_org' in agent_data:
+            org_uuid = entity_registry.resolve_organization_reference(agent_data['affiliated_org'])
+            agent_data['affiliated_org'] = org_uuid
+            
+    # Merge duplicate organizations (after resolving)
+    merge_duplicate_organizations(entity_registry)
+
     # Second pass: process episodes in detail
     logger.info("Second pass: processing episodes in detail")
-    processed_episodes = []
+    processed_episodes = await second_pass_processing(
+        story_json,
+        story_context,
+        entity_registry,
+        tb
+    )
     
     for episode_idx, episode in enumerate(story_json.get("Episodes", []), 1):
         processed_scenes = []
@@ -254,6 +277,12 @@ async def process_story(story_json: Dict, story_context: str) -> Dict:
     
     # Update event involvements
     final_data = update_event_involvements(final_data)
+
+    # After all entities are extracted and before final output
+    synchronize_organization_memberships(entity_registry)
+
+    # Validate affiliations
+    validate_affiliations(entity_registry)
     
     # Final validation
     validate_entity_references(final_data)
@@ -337,21 +366,19 @@ def merge_duplicate_entities(entity_registry: EntityRegistry) -> None:
     for uuid, agent in list(entity_registry.agents.items()):
         normalized_name = entity_registry.normalize_name(agent['name'])
         if normalized_name in agent_names:
-            # Merge into existing agent
             existing_uuid = agent_names[normalized_name]
             existing_agent = entity_registry.agents[existing_uuid]
             merged_agent = merge_agent_data(existing_agent, agent)
             entity_registry.agents[existing_uuid] = merged_agent
-            # Remove duplicate
             del entity_registry.agents[uuid]
             logger.info(f"Merged agent {uuid} into {existing_uuid}")
         else:
             agent_names[normalized_name] = uuid
 
-    # Similar process for other entity types
+    # Process other entity types
     merge_duplicate_objects(entity_registry)
     merge_duplicate_locations(entity_registry)
-    merge_duplicate_organizations(entity_registry)
+    merge_duplicate_organizations(entity_registry)  # Using the enhanced version
 
 def merge_agent_data(agent1: Dict, agent2: Dict) -> Dict:
     """Merge two agent dictionaries, combining their attributes intelligently."""
@@ -409,22 +436,321 @@ def merge_duplicate_locations(entity_registry: EntityRegistry) -> None:
         else:
             location_names[normalized_name] = uuid
 
-def merge_duplicate_organizations(entity_registry: EntityRegistry) -> None:
-    """Merge duplicate organizations based on normalized names."""
-    org_names = {}
-    for uuid, org in list(entity_registry.organizations.items()):
-        normalized_name = entity_registry.normalize_name(org['name'])
-        if normalized_name in org_names:
-            # Merge into existing organization
-            existing_uuid = org_names[normalized_name]
-            existing_org = entity_registry.organizations[existing_uuid]
-            merged_org = merge_organization_data(existing_org, org)
-            entity_registry.organizations[existing_uuid] = merged_org
-            # Remove duplicate
-            del entity_registry.organizations[uuid]
-            logger.info(f"Merged organization {uuid} into {existing_uuid}")
+def synchronize_organization_memberships(entity_registry: Union[EntityRegistry, Dict]) -> None:
+    """Synchronize organization memberships with agent affiliations."""
+    logger.info("Synchronizing organization memberships...")
+
+    # Handle both EntityRegistry object and dict cases
+    if isinstance(entity_registry, EntityRegistry):
+        organizations = entity_registry.organizations
+        agents = entity_registry.agents
+    else:
+        organizations = entity_registry.get('organizations', {})
+        agents = entity_registry.get('agents', {})
+
+    # Merge duplicate organizations (handles both EntityRegistry and dict)
+    merged_orgs = merge_duplicate_organizations(organizations)  # Use updated function
+
+    # Ensure all affiliated agents are in member lists
+    for agent_uuid, agent in agents.items():
+        if affiliated_org := agent.get('affiliated_org'):
+            if affiliated_org in merged_orgs:
+                org = merged_orgs[affiliated_org]
+                if 'members' not in org:
+                    org['members'] = []
+                if agent_uuid not in org['members']:
+                    org['members'].append(agent_uuid)
+
+    # Update the registry/dict based on input type
+    if isinstance(entity_registry, EntityRegistry):
+        entity_registry.organizations = merged_orgs
+        # Agent affiliations are already updated in-place by merge_duplicate_organizations
+    else:
+        entity_registry['organizations'] = merged_orgs
+        # For dict input, we need to manually update agent affiliations
+        for agent_uuid, agent in agents.items():
+            if 'affiliated_org' in agent:
+                org_uuid = agent['affiliated_org']
+                if org_uuid not in merged_orgs:
+                    for merged_uuid, merged_org in merged_orgs.items():
+                        if org_uuid in [uuid for uuid, _ in org_groups.get(EntityNormalizer.normalize_name(merged_org['name']), [])]:
+                            agent['affiliated_org'] = merged_uuid
+                            break
+
+def filter_valid_organizations(organizations: Dict) -> Dict:
+    """Filter out entries that aren't actually organizations."""
+    invalid_keywords = {
+        'species', 'plant', 'animal', 'weapon', 'vehicle', 'location'
+    }
+    
+    return {
+        uuid: org for uuid, org in organizations.items()
+        if not any(keyword in org.get('description', '').lower() 
+                  for keyword in invalid_keywords)
+    }
+
+def create_canonical_mapping(organizations: Dict) -> Dict:
+    """Create mapping of similar organization names to canonical UUID."""
+    canonical_map = {}
+    
+    for uuid, org in organizations.items():
+        name_variants = generate_name_variants(org['name'])
+        for variant in name_variants:
+            canonical_map[variant] = uuid
+            
+    return canonical_map
+
+def generate_name_variants(name: str) -> List[str]:
+    """Generate possible variants of organization names."""
+    variants = {name.lower()}
+    
+    # Handle common abbreviations
+    words = name.split()
+    if len(words) > 1:
+        abbrev = ''.join(word[0].upper() for word in words)
+        variants.add(abbrev)
+        
+    # Handle parenthetical abbreviations
+    if '(' in name and ')' in name:
+        base = name.split('(')[0].strip().lower()
+        abbrev = name.split('(')[1].split(')')[0].strip().lower()
+        variants.add(base)
+        variants.add(abbrev)
+        
+    return list(variants)
+
+def process_agent_affiliations(
+    agents: Dict,
+    organizations: Dict,
+    canonical_map: Dict
+) -> None:
+    """Process and validate agent affiliations."""
+    
+    # First pass: collect all affiliations
+    agent_orgs = defaultdict(set)
+    for agent_uuid, agent in agents.items():
+        if agent.get('affiliated_org'):
+            org_uuid = resolve_organization_reference(
+                agent['affiliated_org'],
+                canonical_map
+            )
+            if org_uuid:
+                agent_orgs[agent_uuid].add(org_uuid)
+    
+    # Second pass: resolve conflicts
+    for agent_uuid, agent in agents.items():
+        orgs = agent_orgs.get(agent_uuid, set())
+        if len(orgs) > 1:
+            # Resolve conflicting affiliations
+            primary_org = resolve_affiliation_conflicts(
+                agent,
+                orgs,
+                organizations
+            )
+            agent['affiliated_org'] = primary_org
+            if primary_org:
+                organizations[primary_org]['members'].append(agent_uuid)
+        elif len(orgs) == 1:
+            org_uuid = orgs.pop()
+            agent['affiliated_org'] = org_uuid
+            organizations[org_uuid]['members'].append(agent_uuid)
         else:
-            org_names[normalized_name] = uuid
+            agent['affiliated_org'] = None
+
+def resolve_organization_reference(ref: str, canonical_map: Dict) -> Optional[str]:
+    """Resolve organization reference to canonical UUID."""
+    if not ref:
+        return None
+        
+    ref_lower = ref.lower()
+    
+    # Direct UUID match
+    if ref in canonical_map.values():
+        return ref
+        
+    # Name variant match
+    if ref_lower in canonical_map:
+        return canonical_map[ref_lower]
+        
+    # Fuzzy match
+    best_match = None
+    best_ratio = 0
+    for variant, uuid in canonical_map.items():
+        ratio = fuzz.ratio(ref_lower, variant)
+        if ratio > 85 and ratio > best_ratio:
+            best_match = uuid
+            best_ratio = ratio
+            
+    return best_match
+
+def resolve_affiliation_conflicts(
+    agent: Dict,
+    org_uuids: Set[str],
+    organizations: Dict
+) -> Optional[str]:
+    """Resolve conflicting organization affiliations."""
+    # Score each organization based on various factors
+    org_scores = {}
+    
+    for org_uuid in org_uuids:
+        org = organizations[org_uuid]
+        score = 0
+        
+        # Check title match
+        if agent.get('title') and org['name'].lower() in agent['title'].lower():
+            score += 3
+            
+        # Check sphere of influence match
+        if (agent.get('sphere_of_influence') and 
+            org.get('sphere_of_influence') and
+            fuzz.ratio(agent['sphere_of_influence'].lower(),
+                      org['sphere_of_influence'].lower()) > 70):
+            score += 2
+            
+        # Check description alignment
+        if (agent.get('description') and
+            org['name'].lower() in agent['description'].lower()):
+            score += 1
+            
+        org_scores[org_uuid] = score
+    
+    # Return highest scoring organization, or None if no clear winner
+    if org_scores:
+        max_score = max(org_scores.values())
+        if max_score > 0:
+            return max(org_scores.items(), key=lambda x: x[1])[0]
+    
+    return None
+    
+    # Update registry with merged organizations
+    entity_registry.organizations = merged_orgs
+
+def merge_duplicate_organizations(organizations: Union[Dict, EntityRegistry]) -> Dict:
+    """
+    Merge organizations with similar names, handling both EntityRegistry and dictionary inputs.
+
+    Args:
+        organizations: Either an EntityRegistry instance or a dictionary of organizations
+
+    Returns:
+        Dict containing merged organizations
+    """
+    logger.info("Starting organization merge process")
+
+    # Handle input type and extract organization dictionary
+    if isinstance(organizations, EntityRegistry):
+        org_dict = organizations.organizations
+        # Keep a reference to the agents for updating affiliations later
+        agents_dict = organizations.agents  
+    elif isinstance(organizations, dict):
+        org_dict = organizations
+        agents_dict = None  # No agents to update if it's just a dict
+    else:
+        logger.error(f"Invalid organizations type: {type(organizations)}")
+        return {}
+
+    merged_orgs = {}
+    org_groups = {}  # Groups of similar organization names
+
+    # Group similar organizations
+    try:
+        for uuid, org in org_dict.items():
+            # Validate organization entry
+            if not isinstance(org, dict) or 'name' not in org:
+                logger.warning(f"Skipping invalid organization entry: {uuid}")
+                continue
+
+            normalized_name = EntityNormalizer.normalize_name(org['name'])
+            found_match = False
+
+            # Check for similar existing groups
+            for group_name in list(org_groups.keys()):
+                if fuzz.ratio(normalized_name, group_name) > 85:
+                    org_groups[group_name].append((uuid, org))
+                    found_match = True
+                    break
+
+            if not found_match:
+                org_groups[normalized_name] = [(uuid, org)]
+
+    except Exception as e:
+        logger.error(f"Error during organization grouping: {str(e)}")
+        return org_dict  # Return original dict on error
+
+    # Merge each group
+    for group_orgs in org_groups.values():
+        if not group_orgs:
+            continue
+
+        try:
+            # Use the first org as base
+            base_uuid, base_org = group_orgs[0]
+            merged_org = base_org.copy()
+            merged_org['members'] = set(base_org.get('members', []))
+
+            # Merge additional orgs
+            for other_uuid, other_org in group_orgs[1:]:
+                # Merge members
+                merged_org['members'].update(other_org.get('members', []))
+
+                # Take longer description if available
+                if len(other_org.get('description', '')) > len(merged_org.get('description', '')):
+                    merged_org['description'] = other_org['description']
+
+                # Combine spheres of influence if different
+                if other_org.get('sphere_of_influence') != merged_org.get('sphere_of_influence'):
+                    spheres = {s for s in [
+                        merged_org.get('sphere_of_influence'),
+                        other_org.get('sphere_of_influence')
+                    ] if s}  # Filter None values
+                    merged_org['sphere_of_influence'] = ' & '.join(spheres) if spheres else None
+
+                logger.debug(f"Successfully merged organization {other_uuid} into {base_uuid}")
+
+            # Convert members back to list
+            merged_org['members'] = list(merged_org['members'])
+            merged_orgs[base_uuid] = merged_org
+
+            # Log successful merge
+            if len(group_orgs) > 1:
+                logger.info(
+                    f"Merged organizations: {[org['name'] for _, org in group_orgs]} "
+                    f"into {merged_org['name']}"
+                )
+
+        except Exception as e:
+            logger.error(f"Error merging organization group: {str(e)}")
+            # Add unmerged orgs to result
+            for uuid, org in group_orgs:
+                merged_orgs[uuid] = org
+
+    # Update the registry if we were passed an EntityRegistry
+    if isinstance(organizations, EntityRegistry):
+        organizations.organizations = merged_orgs
+
+        # Update agent affiliations to point to merged orgs
+        if agents_dict:  # Check if agents_dict is available
+            for agent_uuid, agent in agents_dict.items():
+                if 'affiliated_org' in agent:
+                    org_uuid = agent['affiliated_org']
+                    if org_uuid not in merged_orgs:
+                        # Find the merged org that this agent should now point to
+                        for merged_uuid, merged_org in merged_orgs.items():
+                            if org_uuid in [uuid for uuid, _ in org_groups.get(EntityNormalizer.normalize_name(merged_org['name']), [])]:
+                                agent['affiliated_org'] = merged_uuid
+                                break
+
+    return merged_orgs
+
+def validate_affiliations(entity_registry: EntityRegistry) -> None:
+    """Validate that all agent affiliations point to valid organizations."""
+    for agent_uuid, agent in entity_registry.agents.items():
+        if 'affiliated_org' in agent:
+            org_uuid = agent['affiliated_org']
+            if org_uuid not in entity_registry.organizations:
+                logger.warning(
+                    f"Agent {agent_uuid} has an invalid affiliated_org: {org_uuid}"
+                )
 
 def merge_object_data(obj1: Dict, obj2: Dict) -> Dict:
     """Merge two object dictionaries, combining their attributes intelligently."""
