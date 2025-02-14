@@ -1,0 +1,1939 @@
+{
+    "story_title": "Peep Show",
+    "airdate": "2011-12-29",
+    "episodes": [
+        {
+            "episode_title": "Episode One - The Networking Event",
+            "scenes": [
+                {
+                    "scene_uuid": "scene-1",
+                    "original_scene_data": {
+                        "Scene": "Mark's Bedroom - Apollo House, Croydon - Early Morning",
+                        "Dialogue": [
+                            {
+                                "Stage Direction": "6:47 AM. Mark sits at his IKEA Markus desk chair in M&S boxers and a TM Lewin shirt, anxiously toggling between LinkedIn and his 'Career Crisis Management' spreadsheet on his HP laptop. His MetricShift Digital 'Employee of the Month (August 2023)' certificate hangs askew next to his Dartmouth Business Studies diploma."
+                            },
+                            {
+                                "Character": "MARK (V/O)",
+                                "Line": "God, Steve from accounts has done another 'humbled to announce' post. He's got a Microsoft Excel certification. The man who logged into his own LinkedIn through the company Twitter last month is now officially more qualified than me. The digital revolution is eating its children."
+                            },
+                            {
+                                "Character": "JEREMY (O.S.)",
+                                "Line": "Mark! Mark! The corporate world won't know what hit it! I've mastered the LinkedIn algorithm!"
+                            },
+                            {
+                                "Character": "MARK (V/O)",
+                                "Line": "Oh Jesus, he's wearing my interview suit. The suit I wore to three job interviews and one disciplinary hearing. It's like watching a monkey wear the crown jewels."
+                            },
+                            {
+                                "Stage Direction": "Jeremy bursts in wearing Mark's old M&S suit, accessorized with festival wristbands and a 'Web3 Visionary' pin badge."
+                            },
+                            {
+                                "Character": "JEREMY",
+                                "Line": "How do I look? Professional enough for the MetricShift Innovation Sundowner? I've been practicing my pitch all morning."
+                            },
+                            {
+                                "Character": "MARK",
+                                "Line": "That's my interview suit from the Johnson account pitch. It was in the box marked 'Career Emergency Kit - Do Not Touch Under Any Circumstances.'"
+                            },
+                            {
+                                "Character": "JEREMY",
+                                "Line": "Yeah, well, desperate times, desperate measures. Super Hans says my sonic optimization concept could be the next mindfulness."
+                            }
+                        ]
+                    },
+                    "extracted_data": {
+                        "metadata": {
+                            "uuid": "scene-1",
+                            "title": "Mark's Anxious Morning: LinkedIn Blues and Suit Misuse",
+                            "description": "In Mark's bedroom at Apollo House, he sits at his desk early in the morning, visibly anxious as he switches between LinkedIn and his self-titled 'Career Crisis Management' spreadsheet on his laptop. His award and diploma serve as reminders of past achievements now overshadowed by digital skills he lacks. Jeremy enters energetically, wearing Mark's old interview suit, accessorizing it with festival wristbands and a pin, preparing for the MetricShift Innovation Sundowner. Mark is annoyed by Jeremy using his suit from pivotal career moments.",
+                            "scene_number": 1,
+                            "location": "location_marks_bedroom_apollo_house",
+                            "next_scene": "scene-2"
+                        },
+                        "events": [
+                            {
+                                "title": "Mark Corrigan Starts His Day Anxiously",
+                                "uuid": "event-1-1",
+                                "description": "At 6:47 AM, Mark Corrigan sits at his IKEA Markus desk chair in his bedroom, toggling between LinkedIn and his 'Career Crisis Management' spreadsheet on his HP laptop. He reflects on a LinkedIn post by Steve from accounts, who announced earning a Microsoft Excel certification. Mark is concerned about his career prospects and feels overshadowed by his colleague\u2019s achievements.",
+                                "sequence_within_scene": 1,
+                                "key_dialogue": [
+                                    "God, Steve from accounts has done another 'humbled to announce' post. He's got a Microsoft Excel certification. The man who logged into his own LinkedIn through the company Twitter last month is now officially more qualified than me. The digital revolution is eating its children."
+                                ],
+                                "agent_participations": [
+                                    "agentparticipation-agent-mark_corrigan-event-1-1",
+                                    "agentparticipation-agent-jeremy_usbourne-event-1-1"
+                                ],
+                                "object_involvements": [
+                                    "objectinvolvement-object-hp_laptop-event-1-1",
+                                    "objectinvolvement-object-ikea_markus_chair-event-1-1",
+                                    "objectinvolvement-object-metricshift_employee_certificate-event-1-1",
+                                    "objectinvolvement-object-dartmouth_diploma-event-1-1",
+                                    "objectinvolvement-object-marks_and_spencer_suit-event-1-1"
+                                ],
+                                "next_event": "event-1-2"
+                            },
+                            {
+                                "title": "Jeremy Usbourne Enthusiastically Enters",
+                                "uuid": "event-1-2",
+                                "description": "Jeremy Usbourne enters Mark's bedroom, exuberantly announcing his mastery of the LinkedIn algorithm and wearing Mark's old interview suit. He accessorizes it with festival wristbands and a 'Web3 Visionary' pin badge, furthering Mark's dismay. Jeremy asks Mark for his opinion on his appearance for the upcoming MetricShift Innovation Sundowner event.",
+                                "sequence_within_scene": 2,
+                                "key_dialogue": [
+                                    "Mark! Mark! The corporate world won't know what hit it! I've mastered the LinkedIn algorithm!",
+                                    "How do I look? Professional enough for the MetricShift Innovation Sundowner? I've been practicing my pitch all morning."
+                                ],
+                                "agent_participations": [
+                                    "agentparticipation-agent-mark_corrigan-event-1-2",
+                                    "agentparticipation-agent-jeremy_usbourne-event-1-2"
+                                ],
+                                "object_involvements": [
+                                    "objectinvolvement-object-hp_laptop-event-1-2",
+                                    "objectinvolvement-object-metricshift_employee_certificate-event-1-2",
+                                    "objectinvolvement-object-dartmouth_diploma-event-1-2",
+                                    "objectinvolvement-object-marks_and_spencer_suit-event-1-2",
+                                    "objectinvolvement-object-ikea_markus_chair-event-1-2"
+                                ],
+                                "next_event": "event-1-3"
+                            },
+                            {
+                                "title": "Mark Criticizes Jeremy's Use of His Suit",
+                                "uuid": "event-1-3",
+                                "description": "Mark expresses his frustration with Jeremy for wearing his suit, describing it as part of his 'Career Emergency Kit'. Jeremy defends his actions by quoting Super Hans and mentioning his 'sonic optimization concept'. Their exchange highlights tensions over personal boundaries and differing career strategies.",
+                                "sequence_within_scene": 3,
+                                "key_dialogue": [
+                                    "That's my interview suit from the Johnson account pitch. It was in the box marked 'Career Emergency Kit - Do Not Touch Under Any Circumstances.'",
+                                    "Yeah, well, desperate times, desperate measures. Super Hans says my sonic optimization concept could be the next mindfulness."
+                                ],
+                                "agent_participations": [
+                                    "agentparticipation-agent-mark_corrigan-event-1-3",
+                                    "agentparticipation-agent-jeremy_usbourne-event-1-3"
+                                ],
+                                "object_involvements": [
+                                    "objectinvolvement-object-hp_laptop-event-1-3",
+                                    "objectinvolvement-object-metricshift_employee_certificate-event-1-3",
+                                    "objectinvolvement-object-dartmouth_diploma-event-1-3",
+                                    "objectinvolvement-object-ikea_markus_chair-event-1-3",
+                                    "objectinvolvement-object-marks_and_spencer_suit-event-1-3"
+                                ],
+                                "next_event": null
+                            }
+                        ],
+                        "agent_participations": [
+                            {
+                                "uuid": "agentparticipation-agent-mark_corrigan-event-1-1",
+                                "agent": "agent-mark_corrigan",
+                                "event": "event-1-1",
+                                "current_status": "Mark is sitting at his desk chair, toggling between LinkedIn and a spreadsheet.",
+                                "emotional_state": "Anxious and feeling overshadowed.",
+                                "active_plans": [
+                                    "Review and update career management strategies."
+                                ],
+                                "beliefs": [
+                                    "Colleagues' achievements highlight his own inadequacies.",
+                                    "The fast pace of the digital era poses a threat to his career stability."
+                                ],
+                                "goals": [
+                                    "Find a way to enhance his professional qualifications.",
+                                    "Reassess his career path and status within the company."
+                                ]
+                            },
+                            {
+                                "uuid": "agentparticipation-agent-jeremy_usbourne-event-1-1",
+                                "agent": "agent-jeremy_usbourne",
+                                "event": "event-1-1",
+                                "current_status": "Jeremy bursts into Mark's room, wearing Mark's interview suit.",
+                                "emotional_state": "Enthusiastic and oblivious to Mark's distress.",
+                                "active_plans": [
+                                    "Attend the MetricShift Innovation Sundowner.",
+                                    "Pitch his sonic optimization concept."
+                                ],
+                                "beliefs": [
+                                    "Mastering LinkedIn's algorithm is key to success.",
+                                    "His sonic optimization concept has great potential."
+                                ],
+                                "goals": [
+                                    "Make a professional impression at the social event.",
+                                    "Gain support for his innovative idea."
+                                ]
+                            },
+                            {
+                                "uuid": "agentparticipation-agent-mark_corrigan-event-1-2",
+                                "agent": "agent-mark_corrigan",
+                                "event": "event-1-2",
+                                "current_status": "Sitting anxiously at his desk, toggling between LinkedIn and a 'Career Crisis Management' spreadsheet on his HP laptop.",
+                                "emotional_state": "Anxious and dismayed.",
+                                "active_plans": [
+                                    "Monitor LinkedIn for competitor activity",
+                                    "Manage career prospects using his spreadsheet"
+                                ],
+                                "beliefs": [
+                                    "The digital revolution is challenging and consuming traditional career paths",
+                                    "Maintaining relevance and qualifications is increasingly difficult"
+                                ],
+                                "goals": [
+                                    "Regain a sense of career stability",
+                                    "Stay competitive in the digital realm"
+                                ]
+                            },
+                            {
+                                "uuid": "agentparticipation-agent-jeremy_usbourne-event-1-2",
+                                "agent": "agent-jeremy_usbourne",
+                                "event": "event-1-2",
+                                "current_status": "Entering Mark's bedroom, announcing his mastery of the LinkedIn algorithm while wearing Mark's interview suit.",
+                                "emotional_state": "Exuberant and upbeat.",
+                                "active_plans": [
+                                    "Prepare and practice for the MetricShift Innovation Sundowner event",
+                                    "Optimize his appearance for professional presentations"
+                                ],
+                                "beliefs": [
+                                    "Mastering LinkedIn's algorithm will provide a competitive edge",
+                                    "His creativity in presentation will make a significant impact"
+                                ],
+                                "goals": [
+                                    "Make a strong impression at the MetricShift Innovation Sundowner",
+                                    "Advance his career through innovative concepts"
+                                ]
+                            },
+                            {
+                                "uuid": "agentparticipation-agent-mark_corrigan-event-1-3",
+                                "agent": "agent-mark_corrigan",
+                                "event": "event-1-3",
+                                "current_status": "Sitting at his desk, toggling between LinkedIn and his spreadsheet.",
+                                "emotional_state": "Anxious and frustrated.",
+                                "active_plans": [
+                                    "Monitor LinkedIn for professional updates.",
+                                    "Manage personal and career crises strategically."
+                                ],
+                                "beliefs": [
+                                    "The digital revolution is becoming overwhelming and competitive.",
+                                    "Steve from accounts, despite prior incompetence, is now more qualified."
+                                ],
+                                "goals": [
+                                    "Improve professional qualifications.",
+                                    "Prevent career setbacks and manage personal brand."
+                                ]
+                            },
+                            {
+                                "uuid": "agentparticipation-agent-jeremy_usbourne-event-1-3",
+                                "agent": "agent-jeremy_usbourne",
+                                "event": "event-1-3",
+                                "current_status": "Wearing Mark's suit, claiming mastery over the LinkedIn algorithm.",
+                                "emotional_state": "Excited and bold.",
+                                "active_plans": [
+                                    "Impress at the MetricShift Innovation Sundowner.",
+                                    "Present his 'sonic optimization concept'."
+                                ],
+                                "beliefs": [
+                                    "Desperate times require desperate measures.",
+                                    "Super Hans's advice is valuable and relevant."
+                                ],
+                                "goals": [
+                                    "Gain professional recognition at the event.",
+                                    "Enhance career prospects with innovative concepts."
+                                ]
+                            }
+                        ],
+                        "object_involvements": [
+                            {
+                                "uuid": "objectinvolvement-object-hp_laptop-event-1-1",
+                                "object": "object-hp_laptop",
+                                "event": "event-1-1",
+                                "description_of_involvement": "Mark uses his HP laptop to toggle between LinkedIn and his 'Career Crisis Management' spreadsheet, reflecting on a colleague's recent achievement.",
+                                "object_status_before_event": "The HP laptop was idle on Mark's desk.",
+                                "object_status_after_event": "The HP laptop is being actively used by Mark for career-related activities."
+                            },
+                            {
+                                "uuid": "objectinvolvement-object-ikea_markus_chair-event-1-1",
+                                "object": "object-ikea_markus_chair",
+                                "event": "event-1-1",
+                                "description_of_involvement": "Mark sits on his IKEA Markus chair while contemplating his career and using his laptop.",
+                                "object_status_before_event": "The IKEA Markus chair was unoccupied in Mark's bedroom.",
+                                "object_status_after_event": "The IKEA Markus chair is occupied by Mark as he uses his laptop."
+                            },
+                            {
+                                "uuid": "objectinvolvement-object-metricshift_employee_certificate-event-1-1",
+                                "object": "object-metricshift_employee_certificate",
+                                "event": "event-1-1",
+                                "description_of_involvement": "The MetricShift Employee of the Month Certificate is hanging next to the Dartmouth Diploma, serving as a reminder of Mark's professional achievements.",
+                                "object_status_before_event": "The certificate was hanging askew on the wall.",
+                                "object_status_after_event": "The certificate remains hanging askew on the wall."
+                            },
+                            {
+                                "uuid": "objectinvolvement-object-dartmouth_diploma-event-1-1",
+                                "object": "object-dartmouth_diploma",
+                                "event": "event-1-1",
+                                "description_of_involvement": "The Dartmouth Diploma hangs on the wall, symbolizing Mark's academic accomplishments.",
+                                "object_status_before_event": "The diploma was hanging on the wall.",
+                                "object_status_after_event": "The diploma remains hanging on the wall."
+                            },
+                            {
+                                "uuid": "objectinvolvement-object-marks_and_spencer_suit-event-1-1",
+                                "object": "object-marks_and_spencer_suit",
+                                "event": "event-1-1",
+                                "description_of_involvement": "Jeremy is wearing Mark's Marks & Spencer suit, which is identified by Mark as being part of his 'Career Emergency Kit.'",
+                                "object_status_before_event": "The Marks & Spencer suit was stored in a box marked 'Career Emergency Kit - Do Not Touch Under Any Circumstances.'",
+                                "object_status_after_event": "The Marks & Spencer suit is worn by Jeremy, complete with additional personal accessories."
+                            },
+                            {
+                                "uuid": "objectinvolvement-object-hp_laptop-event-1-2",
+                                "object": "object-hp_laptop",
+                                "event": "event-1-2",
+                                "description_of_involvement": "Mark uses the HP Laptop to toggle between LinkedIn and his 'Career Crisis Management' spreadsheet, reflecting his anxiety over career advancements.",
+                                "object_status_before_event": "The HP Laptop is powered on and actively being used by Mark.",
+                                "object_status_after_event": "The HP Laptop remains in use by Mark as Jeremy enters the room."
+                            },
+                            {
+                                "uuid": "objectinvolvement-object-metricshift_employee_certificate-event-1-2",
+                                "object": "object-metricshift_employee_certificate",
+                                "event": "event-1-2",
+                                "description_of_involvement": "The MetricShift Employee of the Month Certificate is part of the background in Mark's room, symbolizing past achievements that are overshadowed by current concerns.",
+                                "object_status_before_event": "The MetricShift Employee of the Month Certificate hangs askew on the wall.",
+                                "object_status_after_event": "The certificate's position remains unchanged as the scene progresses."
+                            },
+                            {
+                                "uuid": "objectinvolvement-object-dartmouth_diploma-event-1-2",
+                                "object": "object-dartmouth_diploma",
+                                "event": "event-1-2",
+                                "description_of_involvement": "The Dartmouth Business Studies Diploma is displayed on the wall, representing Mark's educational background amidst his career anxiety.",
+                                "object_status_before_event": "The Dartmouth Diploma is hanging properly on the wall.",
+                                "object_status_after_event": "The diploma remains in the same position throughout the scene."
+                            },
+                            {
+                                "uuid": "objectinvolvement-object-marks_and_spencer_suit-event-1-2",
+                                "object": "object-marks_and_spencer_suit",
+                                "event": "event-1-2",
+                                "description_of_involvement": "Jeremy enters wearing Mark's old Marks & Spencer suit, which is meant for significant career events, highlighting Jeremy's disregard for Mark's boundaries.",
+                                "object_status_before_event": "The suit was stored in a box labeled 'Career Emergency Kit - Do Not Touch Under Any Circumstances.'",
+                                "object_status_after_event": "The suit is being worn by Jeremy, accessorized with festival wristbands and a 'Web3 Visionary' pin badge."
+                            },
+                            {
+                                "uuid": "objectinvolvement-object-ikea_markus_chair-event-1-2",
+                                "object": "object-ikea_markus_chair",
+                                "event": "event-1-2",
+                                "description_of_involvement": "Mark sits on the IKEA Markus Chair while managing his anxiety over LinkedIn posts and spreadsheets.",
+                                "object_status_before_event": "The IKEA Markus Chair is positioned at Mark's desk.",
+                                "object_status_after_event": "Mark remains seated on the chair as the scene continues."
+                            },
+                            {
+                                "uuid": "objectinvolvement-object-hp_laptop-event-1-3",
+                                "object": "object-hp_laptop",
+                                "event": "event-1-3",
+                                "description_of_involvement": "Mark uses his HP Laptop to check LinkedIn and manage his 'Career Crisis Management' spreadsheet, indicating his anxiety about career advancement.",
+                                "object_status_before_event": "The HP Laptop is presumably on and available for Mark's use.",
+                                "object_status_after_event": "The HP Laptop remains in use as Mark continues toggling between LinkedIn and his spreadsheet."
+                            },
+                            {
+                                "uuid": "objectinvolvement-object-metricshift_employee_certificate-event-1-3",
+                                "object": "object-metricshift_employee_certificate",
+                                "event": "event-1-3",
+                                "description_of_involvement": "The MetricShift Employee of the Month Certificate is hanging on the wall, representing Mark's past achievement and contrasting with his current career anxiety.",
+                                "object_status_before_event": "The certificate hangs askew on the wall.",
+                                "object_status_after_event": "The certificate remains askew on the wall."
+                            },
+                            {
+                                "uuid": "objectinvolvement-object-dartmouth_diploma-event-1-3",
+                                "object": "object-dartmouth_diploma",
+                                "event": "event-1-3",
+                                "description_of_involvement": "The Dartmouth Business Studies Diploma is displayed on the wall, symbolizing Mark's educational background amidst his present frustrations.",
+                                "object_status_before_event": "The diploma hangs on the wall beside the MetricShift certificate.",
+                                "object_status_after_event": "The diploma remains on the wall as part of the background scene."
+                            },
+                            {
+                                "uuid": "objectinvolvement-object-ikea_markus_chair-event-1-3",
+                                "object": "object-ikea_markus_chair",
+                                "event": "event-1-3",
+                                "description_of_involvement": "Mark is seated in his IKEA Markus Chair while anxiously working on his laptop, showcasing his typical working environment.",
+                                "object_status_before_event": "The IKEA Markus Chair is positioned at Mark's desk for use.",
+                                "object_status_after_event": "The IKEA Markus Chair continues to support Mark as he works at his desk."
+                            },
+                            {
+                                "uuid": "objectinvolvement-object-marks_and_spencer_suit-event-1-3",
+                                "object": "object-marks_and_spencer_suit",
+                                "event": "event-1-3",
+                                "description_of_involvement": "The Marks & Spencer Suit is worn by Jeremy, causing tension between him and Mark due to its designation as part of Mark's 'Career Emergency Kit'.",
+                                "object_status_before_event": "The suit was stored in a box labeled 'Career Emergency Kit - Do Not Touch Under Any Circumstances.'",
+                                "object_status_after_event": "The suit is being worn by Jeremy, accessorized with festival wristbands and a 'Web3 Visionary' pin badge."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "scene_uuid": "scene-2",
+                    "original_scene_data": {
+                        "Scene": "Mark's Bedroom - Apollo House, Croydon - Early Morning",
+                        "Dialogue": [
+                            {
+                                "Stage Direction": "6:47 AM. Mark sits at his IKEA Markus desk chair in M&S boxers and a TM Lewin shirt, anxiously toggling between LinkedIn and his 'Career Crisis Management' spreadsheet on his HP laptop. His MetricShift Digital 'Employee of the Month (August 2023)' certificate hangs askew next to his Dartmouth Business Studies diploma."
+                            },
+                            {
+                                "Character": "MARK (V/O)",
+                                "Line": "God, Steve from accounts has done another 'humbled to announce' post. He's got a Microsoft Excel certification. The man who logged into his own LinkedIn through the company Twitter last month is now officially more qualified than me. The digital revolution is eating its children."
+                            },
+                            {
+                                "Character": "JEREMY (O.S.)",
+                                "Line": "Mark! Mark! The corporate world won't know what hit it! I've mastered the LinkedIn algorithm!"
+                            },
+                            {
+                                "Character": "MARK (V/O)",
+                                "Line": "Oh Jesus, he's wearing my interview suit. The suit I wore to three job interviews and one disciplinary hearing. It's like watching a monkey wear the crown jewels."
+                            },
+                            {
+                                "Stage Direction": "Jeremy bursts in wearing Mark's old M&S suit, accessorized with festival wristbands and a 'Web3 Visionary' pin badge."
+                            },
+                            {
+                                "Character": "JEREMY",
+                                "Line": "How do I look? Professional enough for the MetricShift Innovation Sundowner? I've been practicing my pitch all morning."
+                            },
+                            {
+                                "Character": "MARK",
+                                "Line": "That's my interview suit from the Johnson account pitch. It was in the box marked 'Career Emergency Kit - Do Not Touch Under Any Circumstances.'"
+                            },
+                            {
+                                "Character": "JEREMY",
+                                "Line": "Yeah, well, desperate times, desperate measures. Super Hans says my sonic optimization concept could be the next mindfulness."
+                            }
+                        ]
+                    },
+                    "extracted_data": {
+                        "metadata": {
+                            "uuid": "scene-2",
+                            "title": "Mark's Morning Anxieties and Jeremy's Ambitions",
+                            "description": "In Mark's bedroom at Apollo House early in the morning, Mark is seated at his desk toggling anxiously between LinkedIn and a career management spreadsheet on his laptop. His certificates are hanging askew beside him as he contemplates his professional insecurities. Meanwhile, Jeremy bursts in energetically wearing Mark's old interview suit, accessorized with festival wristbands and a badge, claiming he's mastered the LinkedIn algorithm. Concerned about his friend's antics, Mark recognizes Jeremy's reckless confidence as he prepares for the MetricShift Innovation Sundowner.",
+                            "scene_number": 2,
+                            "location": "location_marks_bedroom_apollo_house",
+                            "next_scene": "scene-3"
+                        },
+                        "events": [
+                            {
+                                "title": "Mark Analyzes LinkedIn and His Career Crisis",
+                                "uuid": "event-2-1",
+                                "description": "Early in the morning, Mark Corrigan is at his desk in his bedroom, anxiously flipping between LinkedIn and his 'Career Crisis Management' spreadsheet on his HP laptop. He reflects on a colleague's progress and his own professional insecurities.",
+                                "sequence_within_scene": 1,
+                                "key_dialogue": [
+                                    "God, Steve from accounts has done another 'humbled to announce' post. He's got a Microsoft Excel certification. The man who logged into his own LinkedIn through the company Twitter last month is now officially more qualified than me. The digital revolution is eating its children."
+                                ],
+                                "agent_participations": [
+                                    "agentparticipation-agent-mark_corrigan-event-2-1",
+                                    "agentparticipation-agent-jeremy_usbourne-event-2-1"
+                                ],
+                                "object_involvements": [
+                                    "objectinvolvement-object-hp_laptop-event-2-1",
+                                    "objectinvolvement-object-metricshift_employee_certificate-event-2-1",
+                                    "objectinvolvement-object-dartmouth_diploma-event-2-1",
+                                    "objectinvolvement-object-ikea_markus_chair-event-2-1",
+                                    "objectinvolvement-object-marks_and_spencer_suit-event-2-1"
+                                ],
+                                "next_event": "event-2-2"
+                            },
+                            {
+                                "title": "Jeremy Bursts In with Enthusiasm for MetricShift Event",
+                                "uuid": "event-2-2",
+                                "description": "Jeremy Usbourne excitedly enters Mark's bedroom wearing Mark's old Marks & Spencer suit, ready to wing it at the MetricShift Innovation Sundowner. He proudly shares his confidence in his LinkedIn skills and anticipates a successful pitch.",
+                                "sequence_within_scene": 2,
+                                "key_dialogue": [
+                                    "Mark! Mark! The corporate world won't know what hit it! I've mastered the LinkedIn algorithm!",
+                                    "How do I look? Professional enough for the MetricShift Innovation Sundowner? I've been practicing my pitch all morning.",
+                                    "Yeah, well, desperate times, desperate measures. Super Hans says my sonic optimization concept could be the next mindfulness."
+                                ],
+                                "agent_participations": [
+                                    "agentparticipation-agent-mark_corrigan-event-2-2",
+                                    "agentparticipation-agent-jeremy_usbourne-event-2-2"
+                                ],
+                                "object_involvements": [
+                                    "objectinvolvement-object-marks_and_spencer_suit-event-2-2",
+                                    "objectinvolvement-object-hp_laptop-event-2-2",
+                                    "objectinvolvement-object-metricshift_employee_certificate-event-2-2",
+                                    "objectinvolvement-object-dartmouth_diploma-event-2-2",
+                                    "objectinvolvement-object-ikea_markus_chair-event-2-2"
+                                ],
+                                "next_event": null
+                            }
+                        ],
+                        "agent_participations": [
+                            {
+                                "uuid": "agentparticipation-agent-mark_corrigan-event-2-1",
+                                "agent": "agent-mark_corrigan",
+                                "event": "event-2-1",
+                                "current_status": "Sitting at his desk, toggling between LinkedIn and a 'Career Crisis Management' spreadsheet.",
+                                "emotional_state": "Anxious and insecure.",
+                                "active_plans": [
+                                    "Monitor LinkedIn for opportunities",
+                                    "Analyze the 'Career Crisis Management' spreadsheet for potential improvements"
+                                ],
+                                "beliefs": [
+                                    "Steve's recent achievements amplify Mark's professional insecurities",
+                                    "The digital revolution poses personal and professional threats"
+                                ],
+                                "goals": [
+                                    "Regain professional confidence",
+                                    "Ultimately surpass colleague achievements"
+                                ]
+                            },
+                            {
+                                "uuid": "agentparticipation-agent-jeremy_usbourne-event-2-1",
+                                "agent": "agent-jeremy_usbourne",
+                                "event": "event-2-1",
+                                "current_status": "Bursting in while wearing Mark's suit, expressing excitement about LinkedIn and MetricShift event.",
+                                "emotional_state": "Enthusiastic and oblivious.",
+                                "active_plans": [
+                                    "Attend the MetricShift Innovation Sundowner",
+                                    "Present sonic optimization concept"
+                                ],
+                                "beliefs": [
+                                    "Newly mastered LinkedIn strategies will be advantageous",
+                                    "The suit will help him make a professional impression"
+                                ],
+                                "goals": [
+                                    "Impress at the MetricShift Innovation Sundowner",
+                                    "Gain recognition for his sonic optimization concept"
+                                ]
+                            },
+                            {
+                                "uuid": "agentparticipation-agent-mark_corrigan-event-2-2",
+                                "agent": "agent-mark_corrigan",
+                                "event": "event-2-2",
+                                "current_status": "Mark is sitting at his IKEA Markus chair in his bedroom, toggling between LinkedIn and a spreadsheet on his laptop.",
+                                "emotional_state": "Anxious and self-critical.",
+                                "active_plans": [
+                                    "Monitor LinkedIn for professional updates",
+                                    "Evaluate personal career strategy through the 'Career Crisis Management' spreadsheet"
+                                ],
+                                "beliefs": [
+                                    "Steve's minor certification achievements increase his professional standing",
+                                    "The digital landscape is increasingly competitive and unforgiving"
+                                ],
+                                "goals": [
+                                    "Enhance personal qualifications",
+                                    "Regain professional relevance and superiority"
+                                ]
+                            },
+                            {
+                                "uuid": "agentparticipation-agent-jeremy_usbourne-event-2-2",
+                                "agent": "agent-jeremy_usbourne",
+                                "event": "event-2-2",
+                                "current_status": "Jeremy enters Mark's bedroom wearing Mark's old suit, excitedly preparing for the MetricShift Innovation Sundowner.",
+                                "emotional_state": "Confident and enthusiastic.",
+                                "active_plans": [
+                                    "Utilize LinkedIn strategies to make an impact",
+                                    "Deliver a compelling pitch at the MetricShift Innovation Sundowner"
+                                ],
+                                "beliefs": [
+                                    "His understanding of the LinkedIn algorithm will give him an advantage",
+                                    "His sonic optimization concept has significant potential"
+                                ],
+                                "goals": [
+                                    "Make a successful pitch at the sundowner",
+                                    "Achieve recognition and possibly career advancement through innovative ideas"
+                                ]
+                            }
+                        ],
+                        "object_involvements": [
+                            {
+                                "uuid": "objectinvolvement-object-hp_laptop-event-2-1",
+                                "object": "object-hp_laptop",
+                                "event": "event-2-1",
+                                "description_of_involvement": "Mark Corrigan uses the HP laptop to anxiously toggle between LinkedIn and his 'Career Crisis Management' spreadsheet, reflecting on his career and a colleague's progress.",
+                                "object_status_before_event": "The HP laptop was on Mark's desk, accessible for use.",
+                                "object_status_after_event": "The HP laptop remains in use by Mark, open to LinkedIn and the spreadsheet."
+                            },
+                            {
+                                "uuid": "objectinvolvement-object-metricshift_employee_certificate-event-2-1",
+                                "object": "object-metricshift_employee_certificate",
+                                "event": "event-2-1",
+                                "description_of_involvement": "The MetricShift Employee of the Month Certificate is mentioned as part of the room's decor, symbolizing Mark's past achievements at work.",
+                                "object_status_before_event": "The certificate was hanging askew on Mark's wall.",
+                                "object_status_after_event": "The certificate continues to hang askew as Mark reflects on his career."
+                            },
+                            {
+                                "uuid": "objectinvolvement-object-dartmouth_diploma-event-2-1",
+                                "object": "object-dartmouth_diploma",
+                                "event": "event-2-1",
+                                "description_of_involvement": "The Dartmouth Business Studies Diploma is part of Mark's decor, serving as a reminder of his educational background.",
+                                "object_status_before_event": "The diploma was hanging on the wall in Mark's bedroom.",
+                                "object_status_after_event": "The diploma remains on the wall unchanged, serving as background decor."
+                            },
+                            {
+                                "uuid": "objectinvolvement-object-ikea_markus_chair-event-2-1",
+                                "object": "object-ikea_markus_chair",
+                                "event": "event-2-1",
+                                "description_of_involvement": "Mark sits in his IKEA Markus desk chair while working at his desk, supporting him physically during his introspective moment.",
+                                "object_status_before_event": "The IKEA Markus chair was at Mark's desk, ready for use.",
+                                "object_status_after_event": "The IKEA Markus chair remains in place at the desk, continuing to support Mark physically."
+                            },
+                            {
+                                "uuid": "objectinvolvement-object-marks_and_spencer_suit-event-2-1",
+                                "object": "object-marks_and_spencer_suit",
+                                "event": "event-2-1",
+                                "description_of_involvement": "Jeremy wears Mark's Marks & Spencer suit, previously kept in a 'Career Emergency Kit,' highlighting its symbolic importance to Mark's professional identity.",
+                                "object_status_before_event": "The suit was stored in a box labeled 'Career Emergency Kit - Do Not Touch Under Any Circumstances.'",
+                                "object_status_after_event": "The suit is being worn by Jeremy, now part of his attire."
+                            },
+                            {
+                                "uuid": "objectinvolvement-object-marks_and_spencer_suit-event-2-2",
+                                "object": "object-marks_and_spencer_suit",
+                                "event": "event-2-2",
+                                "description_of_involvement": "Jeremy Usbourne wears Mark's Marks & Spencer suit to boost his confidence for the MetricShift Innovation Sundowner and as part of his pitch preparation.",
+                                "object_status_before_event": "The suit was stored in a box labeled 'Career Emergency Kit - Do Not Touch Under Any Circumstances' in Mark's bedroom.",
+                                "object_status_after_event": "The suit is being worn by Jeremy, accessorized with festival wristbands and a 'Web3 Visionary' pin badge."
+                            },
+                            {
+                                "uuid": "objectinvolvement-object-hp_laptop-event-2-2",
+                                "object": "object-hp_laptop",
+                                "event": "event-2-2",
+                                "description_of_involvement": "Mark is using his HP laptop to toggle between LinkedIn and his 'Career Crisis Management' spreadsheet, reflecting his anxiety and career concerns.",
+                                "object_status_before_event": "The laptop is active, likely on a desk in Mark's bedroom, used regularly for career-related online activity.",
+                                "object_status_after_event": "The laptop remains in use as Mark continues to analyze his career prospects and LinkedIn activities."
+                            },
+                            {
+                                "uuid": "objectinvolvement-object-metricshift_employee_certificate-event-2-2",
+                                "object": "object-metricshift_employee_certificate",
+                                "event": "event-2-2",
+                                "description_of_involvement": "The MetricShift 'Employee of the Month (August 2023)' certificate hangs in Mark's bedroom as a reminder of his past achievements.",
+                                "object_status_before_event": "The certificate was hung askew on the wall next to Mark's Dartmouth Business Studies diploma.",
+                                "object_status_after_event": "The certificate remains on the wall, unchanged physically but adding emotional context to Mark's feelings about his career."
+                            },
+                            {
+                                "uuid": "objectinvolvement-object-dartmouth_diploma-event-2-2",
+                                "object": "object-dartmouth_diploma",
+                                "event": "event-2-2",
+                                "description_of_involvement": "Mark's Dartmouth Business Studies diploma is displayed alongside his MetricShift Employee of the Month certificate, representing his educational background.",
+                                "object_status_before_event": "The diploma was hung on the wall, indicative of Mark's educational achievements.",
+                                "object_status_after_event": "The diploma remains displayed on the wall, serving as a symbolic backdrop to Mark's career struggles."
+                            },
+                            {
+                                "uuid": "objectinvolvement-object-ikea_markus_chair-event-2-2",
+                                "object": "object-ikea_markus_chair",
+                                "event": "event-2-2",
+                                "description_of_involvement": "Mark sits in his IKEA Markus chair while using his laptop, contributing to his daily work routine.",
+                                "object_status_before_event": "The chair was in Mark's bedroom, used as his regular desk chair.",
+                                "object_status_after_event": "The chair remains in active use by Mark during his morning routine."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "scene_uuid": "scene-3",
+                    "original_scene_data": {
+                        "Scene": "Mark's Bedroom - Apollo House, Croydon - Early Morning",
+                        "Dialogue": [
+                            {
+                                "Stage Direction": "6:47 AM. Mark sits at his IKEA Markus desk chair in M&S boxers and a TM Lewin shirt, anxiously toggling between LinkedIn and his 'Career Crisis Management' spreadsheet on his HP laptop. His MetricShift Digital 'Employee of the Month (August 2023)' certificate hangs askew next to his Dartmouth Business Studies diploma."
+                            },
+                            {
+                                "Character": "MARK (V/O)",
+                                "Line": "God, Steve from accounts has done another 'humbled to announce' post. He's got a Microsoft Excel certification. The man who logged into his own LinkedIn through the company Twitter last month is now officially more qualified than me. The digital revolution is eating its children."
+                            },
+                            {
+                                "Character": "JEREMY (O.S.)",
+                                "Line": "Mark! Mark! The corporate world won't know what hit it! I've mastered the LinkedIn algorithm!"
+                            },
+                            {
+                                "Character": "MARK (V/O)",
+                                "Line": "Oh Jesus, he's wearing my interview suit. The suit I wore to three job interviews and one disciplinary hearing. It's like watching a monkey wear the crown jewels."
+                            },
+                            {
+                                "Stage Direction": "Jeremy bursts in wearing Mark's old M&S suit, accessorized with festival wristbands and a 'Web3 Visionary' pin badge."
+                            },
+                            {
+                                "Character": "JEREMY",
+                                "Line": "How do I look? Professional enough for the MetricShift Innovation Sundowner? I've been practicing my pitch all morning."
+                            },
+                            {
+                                "Character": "MARK",
+                                "Line": "That's my interview suit from the Johnson account pitch. It was in the box marked 'Career Emergency Kit - Do Not Touch Under Any Circumstances.'"
+                            },
+                            {
+                                "Character": "JEREMY",
+                                "Line": "Yeah, well, desperate times, desperate measures. Super Hans says my sonic optimization concept could be the next mindfulness."
+                            }
+                        ]
+                    },
+                    "extracted_data": {
+                        "metadata": {
+                            "uuid": "scene-3",
+                            "title": "Mark's Morning Anxiety and Jeremy's Fashion Faux Pas",
+                            "description": "In Mark's Bedroom at Apollo House, as the clock reads 6:47 AM, Mark is in his boxer shorts and a shirt, immersed in the tension of comparing himself to colleagues on LinkedIn and managing his career anxieties via a spreadsheet. His attempts at finding solace in his achievements are undermined by the lopsided display of his 'Employee of the Month' certificate. Jeremy, in a playful yet frustrating breach of Mark's personal space, enters wearing Mark's interview suit adorned with festival wristbands, claiming to be ready for the MetricShift Innovation Sundowner. Jeremy's carefree demeanor and bold assumptions starkly contrast with Mark's anxious introspection.",
+                            "scene_number": 3,
+                            "location": "location_marks_bedroom_apollo_house",
+                            "next_scene": "scene-4"
+                        },
+                        "events": [
+                            {
+                                "title": "Mark Contemplates His Career While Checking LinkedIn",
+                                "uuid": "event-3-1",
+                                "description": "Mark Corrigan sits alone in his bedroom, toggling between LinkedIn and his 'Career Crisis Management' spreadsheet on his HP Laptop. He anxiously reflects on Steve from accounts' latest LinkedIn achievement and his own perceived inadequacies.",
+                                "sequence_within_scene": 1,
+                                "key_dialogue": [
+                                    "MARK (V/O): God, Steve from accounts has done another 'humbled to announce' post. He's got a Microsoft Excel certification. The man who logged into his own LinkedIn through the company Twitter last month is now officially more qualified than me. The digital revolution is eating its children."
+                                ],
+                                "agent_participations": [
+                                    "agentparticipation-agent-mark_corrigan-event-3-1",
+                                    "agentparticipation-agent-jeremy_usbourne-event-3-1"
+                                ],
+                                "object_involvements": [
+                                    "objectinvolvement-object-hp_laptop-event-3-1",
+                                    "objectinvolvement-object-ikea_markus_chair-event-3-1",
+                                    "objectinvolvement-object-marks_and_spencer_suit-event-3-1",
+                                    "objectinvolvement-object-metricshift_employee_certificate-event-3-1",
+                                    "objectinvolvement-object-dartmouth_diploma-event-3-1"
+                                ],
+                                "next_event": "event-3-2"
+                            },
+                            {
+                                "title": "Jeremy Bursts In Wearing Mark's Interview Suit",
+                                "uuid": "event-3-2",
+                                "description": "Jeremy Usbourne enters the scene, exuberantly claiming mastery over the LinkedIn algorithm while wearing Mark's M&S suit. He asks for Mark's opinion on his look, aiming for professionalism suitable for the MetricShift Innovation Sundowner.",
+                                "sequence_within_scene": 2,
+                                "key_dialogue": [
+                                    "JEREMY (O.S.): Mark! Mark! The corporate world won't know what hit it! I've mastered the LinkedIn algorithm!"
+                                ],
+                                "agent_participations": [
+                                    "agentparticipation-agent-mark_corrigan-event-3-2",
+                                    "agentparticipation-agent-jeremy_usbourne-event-3-2"
+                                ],
+                                "object_involvements": [
+                                    "objectinvolvement-object-marks_and_spencer_suit-event-3-2",
+                                    "objectinvolvement-object-hp_laptop-event-3-2",
+                                    "objectinvolvement-object-metricshift_employee_certificate-event-3-2",
+                                    "objectinvolvement-object-dartmouth_diploma-event-3-2",
+                                    "objectinvolvement-object-ikea_markus_chair-event-3-2"
+                                ],
+                                "next_event": "event-3-3"
+                            },
+                            {
+                                "title": "Mark and Jeremy Discuss the Suit and Upcoming Event",
+                                "uuid": "event-3-3",
+                                "description": "Mark expresses his discontent with Jeremy borrowing his suit, which he reserved for career emergencies. Jeremy dismisses his concerns, citing the urgency of his need due to upcoming pitch practice for the MetricShift Innovation Sundowner.",
+                                "sequence_within_scene": 3,
+                                "key_dialogue": [
+                                    "MARK (V/O): Oh Jesus, he's wearing my interview suit. The suit I wore to three job interviews and one disciplinary hearing. It's like watching a monkey wear the crown jewels.",
+                                    "JEREMY: How do I look? Professional enough for the MetricShift Innovation Sundowner? I've been practicing my pitch all morning.",
+                                    "MARK: That's my interview suit from the Johnson account pitch. It was in the box marked 'Career Emergency Kit - Do Not Touch Under Any Circumstances.'",
+                                    "JEREMY: Yeah, well, desperate times, desperate measures. Super Hans says my sonic optimization concept could be the next mindfulness."
+                                ],
+                                "agent_participations": [
+                                    "agentparticipation-agent-mark_corrigan-event-3-3",
+                                    "agentparticipation-agent-jeremy_usbourne-event-3-3"
+                                ],
+                                "object_involvements": [
+                                    "objectinvolvement-object-marks_and_spencer_suit-event-3-3",
+                                    "objectinvolvement-object-hp_laptop-event-3-3",
+                                    "objectinvolvement-object-metricshift_employee_certificate-event-3-3",
+                                    "objectinvolvement-object-dartmouth_diploma-event-3-3",
+                                    "objectinvolvement-object-ikea_markus_chair-event-3-3"
+                                ],
+                                "next_event": null
+                            }
+                        ],
+                        "agent_participations": [
+                            {
+                                "uuid": "agentparticipation-agent-mark_corrigan-event-3-1",
+                                "agent": "agent-mark_corrigan",
+                                "event": "event-3-1",
+                                "current_status": "Sitting at his desk, toggling between LinkedIn and his 'Career Crisis Management' spreadsheet.",
+                                "emotional_state": "Anxious and self-critical.",
+                                "active_plans": [
+                                    "Compare his career progress with colleagues on LinkedIn",
+                                    "Analyze potential strategies for career improvement"
+                                ],
+                                "beliefs": [
+                                    "He perceives himself as inadequate compared to colleagues",
+                                    "The corporate world's dynamics are rapidly changing, potentially leaving him behind"
+                                ],
+                                "goals": [
+                                    "Address feelings of inadequacy by improving his qualifications",
+                                    "Reposition himself advantageously within MetricShift Digital Solutions"
+                                ]
+                            },
+                            {
+                                "uuid": "agentparticipation-agent-jeremy_usbourne-event-3-1",
+                                "agent": "agent-jeremy_usbourne",
+                                "event": "event-3-1",
+                                "current_status": "Wearing Mark's interview suit, practicing his pitch for the MetricShift Innovation Sundowner.",
+                                "emotional_state": "Excited and optimistic.",
+                                "active_plans": [
+                                    "Present a pitch at the MetricShift Innovation Sundowner",
+                                    "Leverage LinkedIn algorithms to enhance his professional visibility"
+                                ],
+                                "beliefs": [
+                                    "His sonic optimization concept could be groundbreaking",
+                                    "Desperate times justify unconventional measures"
+                                ],
+                                "goals": [
+                                    "Make a strong impression at the MetricShift Innovation Sundowner",
+                                    "Establish himself as an innovator within MetricShift Digital Solutions"
+                                ]
+                            },
+                            {
+                                "uuid": "agentparticipation-agent-mark_corrigan-event-3-2",
+                                "agent": "agent-mark_corrigan",
+                                "event": "event-3-2",
+                                "current_status": "Sitting at desk, monitoring LinkedIn and working on 'Career Crisis Management' spreadsheet on HP Laptop.",
+                                "emotional_state": "Anxious and slightly frustrated.",
+                                "active_plans": [
+                                    "Monitor LinkedIn for professional opportunities or certifications.",
+                                    "Assess personal qualifications and crisis manage career trajectory."
+                                ],
+                                "beliefs": [
+                                    "The digital revolution and professional advancements are overwhelming.",
+                                    "Evolving job market requires constant vigilance and adaptation."
+                                ],
+                                "goals": [
+                                    "Enhance qualifications to stay competitive in the professional world.",
+                                    "Secure career stability amidst personal and market uncertainties."
+                                ]
+                            },
+                            {
+                                "uuid": "agentparticipation-agent-jeremy_usbourne-event-3-2",
+                                "agent": "agent-jeremy_usbourne",
+                                "event": "event-3-2",
+                                "current_status": "Entering the scene wearing Mark's old M&S suit, boasting about mastering LinkedIn algorithm.",
+                                "emotional_state": "Exuberant and confident, with a touch of boastfulness.",
+                                "active_plans": [
+                                    "Present a professional image for the MetricShift Innovation Sundowner.",
+                                    "Impress with mastery over LinkedIn for professional gain."
+                                ],
+                                "beliefs": [
+                                    "Mastery of social media algorithms is key to professional success.",
+                                    "Innovative concepts can elevate one's status in the professional realm."
+                                ],
+                                "goals": [
+                                    "Make a strong impression at the MetricShift Innovation Sundowner.",
+                                    "Propose a compelling 'sonic optimization' idea and gain recognition."
+                                ]
+                            },
+                            {
+                                "uuid": "agentparticipation-agent-mark_corrigan-event-3-3",
+                                "agent": "agent-mark_corrigan",
+                                "event": "event-3-3",
+                                "current_status": "Sitting at his desk, toggling between LinkedIn and a spreadsheet on his laptop.",
+                                "emotional_state": "Anxious and frustrated.",
+                                "active_plans": [
+                                    "Manage his career crisis using the spreadsheet.",
+                                    "Monitor LinkedIn for professional opportunities."
+                                ],
+                                "beliefs": [
+                                    "He is falling behind his colleagues in professional qualifications.",
+                                    "The digital era is negatively impacting personal growth."
+                                ],
+                                "goals": [
+                                    "Advance his career and maintain his professional standing.",
+                                    "Prevent further misuse of his career-related resources."
+                                ]
+                            },
+                            {
+                                "uuid": "agentparticipation-agent-jeremy_usbourne-event-3-3",
+                                "agent": "agent-jeremy_usbourne",
+                                "event": "event-3-3",
+                                "current_status": "Wearing Mark's suit and preparing for a pitch.",
+                                "emotional_state": "Excited and confident.",
+                                "active_plans": [
+                                    "Use Mark's suit to enhance his professional image.",
+                                    "Deliver a compelling pitch at the MetricShift Innovation Sundowner."
+                                ],
+                                "beliefs": [
+                                    "Desperate measures are justified in urgent times.",
+                                    "His sonic optimization concept has potential."
+                                ],
+                                "goals": [
+                                    "Impress the MetricShift audience with his pitch.",
+                                    "Become recognized for his innovative ideas."
+                                ]
+                            }
+                        ],
+                        "object_involvements": [
+                            {
+                                "uuid": "objectinvolvement-object-hp_laptop-event-3-1",
+                                "object": "object-hp_laptop",
+                                "event": "event-3-1",
+                                "description_of_involvement": "Mark uses his HP Laptop to toggle between LinkedIn and his 'Career Crisis Management' spreadsheet.",
+                                "object_status_before_event": "The HP Laptop was likely inactive as Mark entered the scene.",
+                                "object_status_after_event": "The HP Laptop is actively being used by Mark to assess career-related information."
+                            },
+                            {
+                                "uuid": "objectinvolvement-object-ikea_markus_chair-event-3-1",
+                                "object": "object-ikea_markus_chair",
+                                "event": "event-3-1",
+                                "description_of_involvement": "Mark is sitting on the IKEA Markus Chair while working on his laptop.",
+                                "object_status_before_event": "The IKEA Markus Chair was unoccupied.",
+                                "object_status_after_event": "The IKEA Markus Chair supports Mark as he works on his laptop."
+                            },
+                            {
+                                "uuid": "objectinvolvement-object-marks_and_spencer_suit-event-3-1",
+                                "object": "object-marks_and_spencer_suit",
+                                "event": "event-3-1",
+                                "description_of_involvement": "Jeremy wears Mark's old M&S suit, which was initially stored in a 'Career Emergency Kit' box.",
+                                "object_status_before_event": "The M&S suit was stored away in a box labeled 'Career Emergency Kit - Do Not Touch Under Any Circumstances.'",
+                                "object_status_after_event": "The M&S suit is being worn by Jeremy as he prepares for a professional event."
+                            },
+                            {
+                                "uuid": "objectinvolvement-object-metricshift_employee_certificate-event-3-1",
+                                "object": "object-metricshift_employee_certificate",
+                                "event": "event-3-1",
+                                "description_of_involvement": "The MetricShift Employee of the Month Certificate for August 2023 hangs askew on Mark's wall.",
+                                "object_status_before_event": "The certificate was hung askew, indicating neglect or oversight.",
+                                "object_status_after_event": "The certificate remains askew, unchanged during the scene."
+                            },
+                            {
+                                "uuid": "objectinvolvement-object-dartmouth_diploma-event-3-1",
+                                "object": "object-dartmouth_diploma",
+                                "event": "event-3-1",
+                                "description_of_involvement": "Mark's Dartmouth Business Studies Diploma is displayed on the wall next to his MetricShift certificate.",
+                                "object_status_before_event": "The diploma was in its display position on the wall.",
+                                "object_status_after_event": "The diploma remains displayed, symbolizing Mark's academic achievement."
+                            },
+                            {
+                                "uuid": "objectinvolvement-object-marks_and_spencer_suit-event-3-2",
+                                "object": "object-marks_and_spencer_suit",
+                                "event": "event-3-2",
+                                "description_of_involvement": "Jeremy Usbourne enters the scene wearing Mark Corrigan's old Marks & Spencer interview suit, aiming for a professional look for the MetricShift Innovation Sundowner.",
+                                "object_status_before_event": "The Marks & Spencer suit was stored in a box labeled 'Career Emergency Kit' belonging to Mark Corrigan.",
+                                "object_status_after_event": "The suit is being worn by Jeremy Usbourne, accessorized with festival wristbands and a 'Web3 Visionary' pin badge, intending to project professionalism."
+                            },
+                            {
+                                "uuid": "objectinvolvement-object-hp_laptop-event-3-2",
+                                "object": "object-hp_laptop",
+                                "event": "event-3-2",
+                                "description_of_involvement": "Mark Corrigan is using his HP Laptop to monitor LinkedIn and manage his 'Career Crisis Management' spreadsheet.",
+                                "object_status_before_event": "The laptop is in active use by Mark Corrigan for career-related activities.",
+                                "object_status_after_event": "The laptop continues to be used by Mark Corrigan for tracking LinkedIn and career activities."
+                            },
+                            {
+                                "uuid": "objectinvolvement-object-metricshift_employee_certificate-event-3-2",
+                                "object": "object-metricshift_employee_certificate",
+                                "event": "event-3-2",
+                                "description_of_involvement": "Mark Corrigan's MetricShift 'Employee of the Month' certificate is hanging askew on the wall, serving as a reminder of his achievements while experiencing anxiety about his career.",
+                                "object_status_before_event": "The certificate hangs slightly unevenly on the wall.",
+                                "object_status_after_event": "The certificate remains on the wall, unchanged by the events occurring in the scene."
+                            },
+                            {
+                                "uuid": "objectinvolvement-object-dartmouth_diploma-event-3-2",
+                                "object": "object-dartmouth_diploma",
+                                "event": "event-3-2",
+                                "description_of_involvement": "Mark Corrigan's Dartmouth Business Studies diploma is present in the room, symbolizing his educational background as he navigates his career anxieties.",
+                                "object_status_before_event": "The diploma is displayed on the wall in Mark Corrigan's bedroom.",
+                                "object_status_after_event": "The diploma remains on the wall, serving as a backdrop to the ongoing scene."
+                            },
+                            {
+                                "uuid": "objectinvolvement-object-ikea_markus_chair-event-3-2",
+                                "object": "object-ikea_markus_chair",
+                                "event": "event-3-2",
+                                "description_of_involvement": "Mark Corrigan is seated on his IKEA Markus chair while managing career tasks on his laptop.",
+                                "object_status_before_event": "The chair is positioned at Mark Corrigan's desk.",
+                                "object_status_after_event": "The chair continues to support Mark as he remains seated, working on his laptop."
+                            },
+                            {
+                                "uuid": "objectinvolvement-object-marks_and_spencer_suit-event-3-3",
+                                "object": "object-marks_and_spencer_suit",
+                                "event": "event-3-3",
+                                "description_of_involvement": "Jeremy is wearing Mark's Marks & Spencer suit, which Mark reserved for career emergencies, such as interviews and important meetings.",
+                                "object_status_before_event": "The suit was stored in a box labeled 'Career Emergency Kit - Do Not Touch Under Any Circumstances'.",
+                                "object_status_after_event": "The suit is now being worn by Jeremy, against Mark's original intent, for the MetricShift Innovation Sundowner pitch practice."
+                            },
+                            {
+                                "uuid": "objectinvolvement-object-hp_laptop-event-3-3",
+                                "object": "object-hp_laptop",
+                                "event": "event-3-3",
+                                "description_of_involvement": "Mark uses his HP laptop to toggle between LinkedIn and his 'Career Crisis Management' spreadsheet, reflecting his anxious state about career progression.",
+                                "object_status_before_event": "The HP laptop was being used by Mark to manage career-related activities.",
+                                "object_status_after_event": "The HP laptop continues to be actively used by Mark during his morning routine, filled with career-related anxieties."
+                            },
+                            {
+                                "uuid": "objectinvolvement-object-metricshift_employee_certificate-event-3-3",
+                                "object": "object-metricshift_employee_certificate",
+                                "event": "event-3-3",
+                                "description_of_involvement": "Mark's MetricShift Employee of the Month certificate is mentioned hanging askew, symbolizing his past achievements and current sense of professional insecurity.",
+                                "object_status_before_event": "The certificate was hanging on the wall, visibly askew next to his Dartmouth diploma.",
+                                "object_status_after_event": "The certificate remains on the wall, its presence continuing to remind Mark of his achievements amidst his current anxieties."
+                            },
+                            {
+                                "uuid": "objectinvolvement-object-dartmouth_diploma-event-3-3",
+                                "object": "object-dartmouth_diploma",
+                                "event": "event-3-3",
+                                "description_of_involvement": "The Dartmouth Business Studies Diploma is visible next to the Employee of the Month certificate, representing Mark's educational background amidst his career concerns.",
+                                "object_status_before_event": "The diploma was hanging on the wall, serving as a symbol of Mark's educational accomplishment.",
+                                "object_status_after_event": "The diploma remains in its place, providing a contrast to Mark's feelings of inadequacy despite his qualifications."
+                            },
+                            {
+                                "uuid": "objectinvolvement-object-ikea_markus_chair-event-3-3",
+                                "object": "object-ikea_markus_chair",
+                                "event": "event-3-3",
+                                "description_of_involvement": "Mark sits in his IKEA Markus Chair as he processes career anxieties using his laptop.",
+                                "object_status_before_event": "The IKEA Markus Chair was part of Mark's workspace setup.",
+                                "object_status_after_event": "The chair supports Mark during this routine early morning activity, remaining part of his everyday environment."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "scene_uuid": "scene-4",
+                    "original_scene_data": {
+                        "Scene": "Mark's Bedroom - Apollo House, Croydon - Early Morning",
+                        "Dialogue": [
+                            {
+                                "Stage Direction": "6:47 AM. Mark sits at his IKEA Markus desk chair in M&S boxers and a TM Lewin shirt, anxiously toggling between LinkedIn and his 'Career Crisis Management' spreadsheet on his HP laptop. His MetricShift Digital 'Employee of the Month (August 2023)' certificate hangs askew next to his Dartmouth Business Studies diploma."
+                            },
+                            {
+                                "Character": "MARK (V/O)",
+                                "Line": "God, Steve from accounts has done another 'humbled to announce' post. He's got a Microsoft Excel certification. The man who logged into his own LinkedIn through the company Twitter last month is now officially more qualified than me. The digital revolution is eating its children."
+                            },
+                            {
+                                "Character": "JEREMY (O.S.)",
+                                "Line": "Mark! Mark! The corporate world won't know what hit it! I've mastered the LinkedIn algorithm!"
+                            },
+                            {
+                                "Character": "MARK (V/O)",
+                                "Line": "Oh Jesus, he's wearing my interview suit. The suit I wore to three job interviews and one disciplinary hearing. It's like watching a monkey wear the crown jewels."
+                            },
+                            {
+                                "Stage Direction": "Jeremy bursts in wearing Mark's old M&S suit, accessorized with festival wristbands and a 'Web3 Visionary' pin badge."
+                            },
+                            {
+                                "Character": "JEREMY",
+                                "Line": "How do I look? Professional enough for the MetricShift Innovation Sundowner? I've been practicing my pitch all morning."
+                            },
+                            {
+                                "Character": "MARK",
+                                "Line": "That's my interview suit from the Johnson account pitch. It was in the box marked 'Career Emergency Kit - Do Not Touch Under Any Circumstances.'"
+                            },
+                            {
+                                "Character": "JEREMY",
+                                "Line": "Yeah, well, desperate times, desperate measures. Super Hans says my sonic optimization concept could be the next mindfulness."
+                            }
+                        ]
+                    },
+                    "extracted_data": {
+                        "metadata": {
+                            "uuid": "scene-4",
+                            "title": "Mark's Early Morning Anxiety and Jeremy's Bold Pitch Preparations",
+                            "description": "In the early hours at Mark's Bedroom in Apollo House, Mark sits anxiously at his desk, toggling between LinkedIn and a crisis management spreadsheet. He's in a state of disbelief over a colleague's minor certification. Meanwhile, Jeremy bursts in wearing Mark's treasured interview suit, complete with eccentric accessories, preparing for the MetricShift Innovation Sundowner. Tension arises as Jeremy nonchalantly explains borrowing the suit for his pitch.",
+                            "scene_number": 4,
+                            "location": "location_marks_bedroom_apollo_house",
+                            "next_scene": "scene-5"
+                        },
+                        "events": [
+                            {
+                                "title": "Mark Contemplates LinkedIn Credentials",
+                                "uuid": "event-4-1",
+                                "description": "Mark sits anxiously at his desk, toggling between LinkedIn and his 'Career Crisis Management' spreadsheet on his HP laptop. He is troubled by Steve's new LinkedIn certification announcement, feeling overshadowed and questioning his own career progress.",
+                                "sequence_within_scene": 1,
+                                "key_dialogue": [
+                                    "God, Steve from accounts has done another 'humbled to announce' post. He's got a Microsoft Excel certification. The man who logged into his own LinkedIn through the company Twitter last month is now officially more qualified than me. The digital revolution is eating its children."
+                                ],
+                                "agent_participations": [
+                                    "agentparticipation-agent-mark_corrigan-event-4-1",
+                                    "agentparticipation-agent-jeremy_usbourne-event-4-1"
+                                ],
+                                "object_involvements": [
+                                    "objectinvolvement-object-hp_laptop-event-4-1",
+                                    "objectinvolvement-object-metricshift_employee_certificate-event-4-1",
+                                    "objectinvolvement-object-dartmouth_diploma-event-4-1",
+                                    "objectinvolvement-object-ikea_markus_chair-event-4-1",
+                                    "objectinvolvement-object-marks_and_spencer_suit-event-4-1"
+                                ],
+                                "next_event": "event-4-2"
+                            },
+                            {
+                                "title": "Jeremy Bursts In With New Corporate Strategy",
+                                "uuid": "event-4-2",
+                                "description": "Jeremy enthusiastically enters Mark's room, wearing Mark's old M&S interview suit, adorned with additional festival wristbands and a 'Web3 Visionary' pin badge. He announces his mastery of the LinkedIn algorithm and seeks Mark's opinion on his look for the MetricShift Innovation Sundowner.",
+                                "sequence_within_scene": 2,
+                                "key_dialogue": [
+                                    "Mark! Mark! The corporate world won't know what hit it! I've mastered the LinkedIn algorithm!",
+                                    "How do I look? Professional enough for the MetricShift Innovation Sundowner? I've been practicing my pitch all morning."
+                                ],
+                                "agent_participations": [
+                                    "agentparticipation-agent-mark_corrigan-event-4-2",
+                                    "agentparticipation-agent-jeremy_usbourne-event-4-2"
+                                ],
+                                "object_involvements": [
+                                    "objectinvolvement-object-marks_and_spencer_suit-event-4-2",
+                                    "objectinvolvement-object-hp_laptop-event-4-2",
+                                    "objectinvolvement-object-metricshift_employee_certificate-event-4-2",
+                                    "objectinvolvement-object-dartmouth_diploma-event-4-2",
+                                    "objectinvolvement-object-ikea_markus_chair-event-4-2"
+                                ],
+                                "next_event": "event-4-3"
+                            },
+                            {
+                                "title": "Mark Confronts Jeremy About the Suit",
+                                "uuid": "event-4-3",
+                                "description": "Mark confronts Jeremy for wearing his interview suit, which holds personal significance as it was part of his 'Career Emergency Kit'. Jeremy defends his actions, citing Super Hans's advice on his new project.",
+                                "sequence_within_scene": 3,
+                                "key_dialogue": [
+                                    "That's my interview suit from the Johnson account pitch. It was in the box marked 'Career Emergency Kit - Do Not Touch Under Any Circumstances.'",
+                                    "Yeah, well, desperate times, desperate measures. Super Hans says my sonic optimization concept could be the next mindfulness."
+                                ],
+                                "agent_participations": [
+                                    "agentparticipation-agent-mark_corrigan-event-4-3",
+                                    "agentparticipation-agent-jeremy_usbourne-event-4-3"
+                                ],
+                                "object_involvements": [
+                                    "objectinvolvement-object-hp_laptop-event-4-3",
+                                    "objectinvolvement-object-metricshift_employee_certificate-event-4-3",
+                                    "objectinvolvement-object-dartmouth_diploma-event-4-3",
+                                    "objectinvolvement-object-marks_and_spencer_suit-event-4-3",
+                                    "objectinvolvement-object-ikea_markus_chair-event-4-3"
+                                ],
+                                "next_event": null
+                            }
+                        ],
+                        "agent_participations": [
+                            {
+                                "uuid": "agentparticipation-agent-mark_corrigan-event-4-1",
+                                "agent": "agent-mark_corrigan",
+                                "event": "event-4-1",
+                                "current_status": "Sitting in his IKEA Markus desk chair, toggling between LinkedIn and his 'Career Crisis Management' spreadsheet.",
+                                "emotional_state": "Anxious and overshadowed.",
+                                "active_plans": [
+                                    "Monitor LinkedIn for competitive improvements",
+                                    "Assess his own career progress using his spreadsheet"
+                                ],
+                                "beliefs": [
+                                    "Steve's new qualification represents a threat to his own standing",
+                                    "The digital revolution is challenging his career stability"
+                                ],
+                                "goals": [
+                                    "Stay competitive in the job market",
+                                    "Ensure his qualifications are not surpassed by colleagues"
+                                ]
+                            },
+                            {
+                                "uuid": "agentparticipation-agent-jeremy_usbourne-event-4-1",
+                                "agent": "agent-jeremy_usbourne",
+                                "event": "event-4-1",
+                                "current_status": "Bursting in wearing Mark's old M&S suit, claiming mastery of the LinkedIn algorithm.",
+                                "emotional_state": "Excited and confident.",
+                                "active_plans": [
+                                    "Present himself professionally for the MetricShift Innovation Sundowner",
+                                    "Prepare and practice his pitch"
+                                ],
+                                "beliefs": [
+                                    "His pitch has the potential to be successful",
+                                    "Mastery of LinkedIn's algorithm will open opportunities"
+                                ],
+                                "goals": [
+                                    "Impress at the MetricShift Innovation Sundowner",
+                                    "Launch his 'sonic optimization' concept"
+                                ]
+                            },
+                            {
+                                "uuid": "agentparticipation-agent-mark_corrigan-event-4-2",
+                                "agent": "agent-mark_corrigan",
+                                "event": "event-4-2",
+                                "current_status": "Sitting at his IKEA Markus desk chair, toggling between LinkedIn and his 'Career Crisis Management' spreadsheet on his HP laptop.",
+                                "emotional_state": "Anxious and self-critical, with a touch of exasperation.",
+                                "active_plans": [
+                                    "Monitor and compare LinkedIn profiles and certifications",
+                                    "Manage career uncertainties through a 'Career Crisis Management' spreadsheet"
+                                ],
+                                "beliefs": [
+                                    "The digital world is outpacing his credentials",
+                                    "Jeremy's actions, like wearing his suit, are problematic but somehow inevitable"
+                                ],
+                                "goals": [
+                                    "Improve current career standing",
+                                    "Avoid being professionally overshadowed by peers like Steve from accounts"
+                                ]
+                            },
+                            {
+                                "uuid": "agentparticipation-agent-jeremy_usbourne-event-4-2",
+                                "agent": "agent-jeremy_usbourne",
+                                "event": "event-4-2",
+                                "current_status": "Enters enthusiastically wearing Mark's old M&S suit, discussing his mastery of the LinkedIn algorithm.",
+                                "emotional_state": "Excited and confident, with a sense of urgency.",
+                                "active_plans": [
+                                    "Prepare for the MetricShift Innovation Sundowner",
+                                    "Utilize his newfound LinkedIn skills to make an impression"
+                                ],
+                                "beliefs": [
+                                    "Mastering the LinkedIn algorithm gives him an edge in the corporate world",
+                                    "Borrowed suit and festival wristbands enhance his 'Web3 Visionary' image"
+                                ],
+                                "goals": [
+                                    "Fashion a professional image suitable for the MetricShift Innovation Sundowner",
+                                    "Successfully pitch his idea inspired by Super Hans about 'sonic optimization'"
+                                ]
+                            },
+                            {
+                                "uuid": "agentparticipation-agent-mark_corrigan-event-4-3",
+                                "agent": "agent-mark_corrigan",
+                                "event": "event-4-3",
+                                "current_status": "Mark sits at his desk chair, managing his career tools on his HP laptop while confronting Jeremy.",
+                                "emotional_state": "Anxious and frustrated.",
+                                "active_plans": [
+                                    "Manage professional image and resources using LinkedIn and spreadsheets.",
+                                    "Confront Jeremy about the misuse of his interview suit."
+                                ],
+                                "beliefs": [
+                                    "The digital revolution is complicating professional merit.",
+                                    "Certain personal items should remain untouched to preserve their readiness for career emergencies."
+                                ],
+                                "goals": [
+                                    "Secure his professional standing in a competitive environment.",
+                                    "Reclaim control over his 'Career Emergency Kit'."
+                                ]
+                            },
+                            {
+                                "uuid": "agentparticipation-agent-jeremy_usbourne-event-4-3",
+                                "agent": "agent-jeremy_usbourne",
+                                "event": "event-4-3",
+                                "current_status": "Jeremy wears Mark's interview suit, enters the room with enthusiasm, and justifies his use of the suit for a professional event.",
+                                "emotional_state": "Excited and opportunistic.",
+                                "active_plans": [
+                                    "Leverage Mark's suit to present himself professionally at the MetricShift Innovation Sundowner.",
+                                    "Utilize Super Hans's advice to promote his sonic optimization concept."
+                                ],
+                                "beliefs": [
+                                    "Desperate times call for resourceful measures.",
+                                    "His sonic optimization concept holds significant potential."
+                                ],
+                                "goals": [
+                                    "Establish a professional presence at the MetricShift Innovation Sundowner.",
+                                    "Successfully pitch his project ideas."
+                                ]
+                            }
+                        ],
+                        "object_involvements": [
+                            {
+                                "uuid": "objectinvolvement-object-hp_laptop-event-4-1",
+                                "object": "object-hp_laptop",
+                                "event": "event-4-1",
+                                "description_of_involvement": "Mark uses his HP laptop to toggle between LinkedIn and his 'Career Crisis Management' spreadsheet, feeling anxious about his career progress.",
+                                "object_status_before_event": "The HP laptop is on Mark's desk, actively used for career management tasks.",
+                                "object_status_after_event": "The HP laptop remains on Mark's desk, continuing to be used for his LinkedIn and spreadsheet activities."
+                            },
+                            {
+                                "uuid": "objectinvolvement-object-metricshift_employee_certificate-event-4-1",
+                                "object": "object-metricshift_employee_certificate",
+                                "event": "event-4-1",
+                                "description_of_involvement": "The MetricShift Employee of the Month Certificate hangs on the wall, representing Mark's past achievements at MetricShift.",
+                                "object_status_before_event": "The certificate hangs askew on the wall next to Mark's Dartmouth Business Studies diploma.",
+                                "object_status_after_event": "The certificate remains askew, unchanged and still visible as a symbol of Mark's prior success."
+                            },
+                            {
+                                "uuid": "objectinvolvement-object-dartmouth_diploma-event-4-1",
+                                "object": "object-dartmouth_diploma",
+                                "event": "event-4-1",
+                                "description_of_involvement": "The Dartmouth Business Studies Diploma hangs on the wall, signifying Mark's educational background.",
+                                "object_status_before_event": "The diploma is hanging on the wall next to the MetricShift Employee of the Month certificate.",
+                                "object_status_after_event": "The diploma remains in its position, unchanged and serving as a reminder of Mark's education."
+                            },
+                            {
+                                "uuid": "objectinvolvement-object-ikea_markus_chair-event-4-1",
+                                "object": "object-ikea_markus_chair",
+                                "event": "event-4-1",
+                                "description_of_involvement": "Mark sits in his IKEA Markus desk chair while managing his career concerns.",
+                                "object_status_before_event": "The chair is positioned at Mark's desk.",
+                                "object_status_after_event": "The chair remains at the desk, supporting Mark during his introspective moment."
+                            },
+                            {
+                                "uuid": "objectinvolvement-object-marks_and_spencer_suit-event-4-1",
+                                "object": "object-marks_and_spencer_suit",
+                                "event": "event-4-1",
+                                "description_of_involvement": "Jeremy wears Mark's old Marks & Spencer suit, despite it being intended for career emergencies.",
+                                "object_status_before_event": "The suit is stored in a box labeled 'Career Emergency Kit - Do Not Touch Under Any Circumstances'.",
+                                "object_status_after_event": "The suit is worn by Jeremy, no longer in its career emergency box."
+                            },
+                            {
+                                "uuid": "objectinvolvement-object-marks_and_spencer_suit-event-4-2",
+                                "object": "object-marks_and_spencer_suit",
+                                "event": "event-4-2",
+                                "description_of_involvement": "The Marks & Spencer suit, originally owned by Mark, is worn by Jeremy as he enters the room, showcasing his attempt to look professional for the MetricShift Innovation Sundowner.",
+                                "object_status_before_event": "The suit was stored in a box labeled 'Career Emergency Kit - Do Not Touch Under Any Circumstances.'",
+                                "object_status_after_event": "The suit is being worn by Jeremy, accessorized with festival wristbands and a 'Web3 Visionary' pin badge."
+                            },
+                            {
+                                "uuid": "objectinvolvement-object-hp_laptop-event-4-2",
+                                "object": "object-hp_laptop",
+                                "event": "event-4-2",
+                                "description_of_involvement": "Mark uses his HP laptop to toggle between LinkedIn and a 'Career Crisis Management' spreadsheet while contemplating his professional anxieties.",
+                                "object_status_before_event": "The HP laptop was on Mark's desk, likely already in use or on standby.",
+                                "object_status_after_event": "The HP laptop continues to be used by Mark as he manages his professional concerns."
+                            },
+                            {
+                                "uuid": "objectinvolvement-object-metricshift_employee_certificate-event-4-2",
+                                "object": "object-metricshift_employee_certificate",
+                                "event": "event-4-2",
+                                "description_of_involvement": "The MetricShift Employee of the Month certificate is a symbol of Mark's past achievement, hanging skewed on the wall, reflecting its insignificant current role compared to his anxieties.",
+                                "object_status_before_event": "The certificate was hanging askew on the wall.",
+                                "object_status_after_event": "The certificate remains hanging askew on the wall."
+                            },
+                            {
+                                "uuid": "objectinvolvement-object-dartmouth_diploma-event-4-2",
+                                "object": "object-dartmouth_diploma",
+                                "event": "event-4-2",
+                                "description_of_involvement": "The Dartmouth Business Studies Diploma, hanging on the wall, serves as a constant reminder of Mark's academic credentials amidst his present career insecurities.",
+                                "object_status_before_event": "The diploma was hanging on the wall alongside Mark's other recognitions.",
+                                "object_status_after_event": "The diploma remains hanging on the wall, untouched."
+                            },
+                            {
+                                "uuid": "objectinvolvement-object-ikea_markus_chair-event-4-2",
+                                "object": "object-ikea_markus_chair",
+                                "event": "event-4-2",
+                                "description_of_involvement": "Mark sits in his IKEA Markus chair while managing his professional insecurities on his laptop.",
+                                "object_status_before_event": "The chair was positioned at the desk, ready for use.",
+                                "object_status_after_event": "Mark is sitting on the chair as he continues to interact with his laptop."
+                            },
+                            {
+                                "uuid": "objectinvolvement-object-hp_laptop-event-4-3",
+                                "object": "object-hp_laptop",
+                                "event": "event-4-3",
+                                "description_of_involvement": "Mark is using the HP laptop to toggle between LinkedIn and his 'Career Crisis Management' spreadsheet, indicating his anxiety and attempts to manage his work situation.",
+                                "object_status_before_event": "The HP laptop is actively being used by Mark at his desk.",
+                                "object_status_after_event": "The HP laptop continues to be a tool for Mark to manage his career-related anxieties and activities."
+                            },
+                            {
+                                "uuid": "objectinvolvement-object-metricshift_employee_certificate-event-4-3",
+                                "object": "object-metricshift_employee_certificate",
+                                "event": "event-4-3",
+                                "description_of_involvement": "The MetricShift Employee of the Month certificate is hanging askew, representing Mark's past achievements and current feelings of instability or disarray.",
+                                "object_status_before_event": "The certificate is hanging on the wall, but askew.",
+                                "object_status_after_event": "The certificate remains on the wall, still askew and unattended during the event."
+                            },
+                            {
+                                "uuid": "objectinvolvement-object-dartmouth_diploma-event-4-3",
+                                "object": "object-dartmouth_diploma",
+                                "event": "event-4-3",
+                                "description_of_involvement": "The Dartmouth Business Studies Diploma is displayed next to the MetricShift Employee certificate, suggesting Mark's academic credentials and foundational career achievements.",
+                                "object_status_before_event": "The diploma is hanging on the wall alongside the certificate.",
+                                "object_status_after_event": "The diploma remains in place, serving as a symbolic reminder of Mark's educational background."
+                            },
+                            {
+                                "uuid": "objectinvolvement-object-marks_and_spencer_suit-event-4-3",
+                                "object": "object-marks_and_spencer_suit",
+                                "event": "event-4-3",
+                                "description_of_involvement": "Jeremy is wearing Mark's Marks & Spencer suit, which is part of Mark's 'Career Emergency Kit' and holds significant personal and professional value for Mark.",
+                                "object_status_before_event": "The suit was stored in a box marked 'Career Emergency Kit - Do Not Touch Under Any Circumstances.'",
+                                "object_status_after_event": "The suit is being worn by Jeremy, against Mark's intentions for its use."
+                            },
+                            {
+                                "uuid": "objectinvolvement-object-ikea_markus_chair-event-4-3",
+                                "object": "object-ikea_markus_chair",
+                                "event": "event-4-3",
+                                "description_of_involvement": "Mark is sitting in his IKEA Markus desk chair while using his laptop, symbolizing the everyday context of his professional and personal life.",
+                                "object_status_before_event": "The chair is in Mark's bedroom, used as a regular seating place for work or reflection.",
+                                "object_status_after_event": "The chair remains in use by Mark as he balances his activities at the desk."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "scene_uuid": "scene-5",
+                    "original_scene_data": {
+                        "Scene": "Mark's Bedroom - Apollo House, Croydon - Early Morning",
+                        "Dialogue": [
+                            {
+                                "Stage Direction": "6:47 AM. Mark sits at his IKEA Markus desk chair in M&S boxers and a TM Lewin shirt, anxiously toggling between LinkedIn and his 'Career Crisis Management' spreadsheet on his HP laptop. His MetricShift Digital 'Employee of the Month (August 2023)' certificate hangs askew next to his Dartmouth Business Studies diploma."
+                            },
+                            {
+                                "Character": "MARK (V/O)",
+                                "Line": "God, Steve from accounts has done another 'humbled to announce' post. He's got a Microsoft Excel certification. The man who logged into his own LinkedIn through the company Twitter last month is now officially more qualified than me. The digital revolution is eating its children."
+                            },
+                            {
+                                "Character": "JEREMY (O.S.)",
+                                "Line": "Mark! Mark! The corporate world won't know what hit it! I've mastered the LinkedIn algorithm!"
+                            },
+                            {
+                                "Character": "MARK (V/O)",
+                                "Line": "Oh Jesus, he's wearing my interview suit. The suit I wore to three job interviews and one disciplinary hearing. It's like watching a monkey wear the crown jewels."
+                            },
+                            {
+                                "Stage Direction": "Jeremy bursts in wearing Mark's old M&S suit, accessorized with festival wristbands and a 'Web3 Visionary' pin badge."
+                            },
+                            {
+                                "Character": "JEREMY",
+                                "Line": "How do I look? Professional enough for the MetricShift Innovation Sundowner? I've been practicing my pitch all morning."
+                            },
+                            {
+                                "Character": "MARK",
+                                "Line": "That's my interview suit from the Johnson account pitch. It was in the box marked 'Career Emergency Kit - Do Not Touch Under Any Circumstances.'"
+                            },
+                            {
+                                "Character": "JEREMY",
+                                "Line": "Yeah, well, desperate times, desperate measures. Super Hans says my sonic optimization concept could be the next mindfulness."
+                            }
+                        ]
+                    },
+                    "extracted_data": {
+                        "metadata": {
+                            "uuid": "scene-5",
+                            "title": "Mark's Morning Anxiety",
+                            "description": "Early morning in Mark's bedroom at Apollo House. Mark, dressed in boxers and a shirt, is toggling between LinkedIn and managing his career crisis on his HP laptop. Certificates hang on the wall, symbolizing his precarious achievements. Mark's internal monologue reveals his anxiety about a colleague's Excel certification. Jeremy, wearing Mark's interview suit adorned with festival wristbands and a visionary pin, bursts in, excited about an upcoming event, much to Mark's dismay.",
+                            "scene_number": 5,
+                            "location": "location_marks_bedroom_apollo_house",
+                            "next_scene": null
+                        },
+                        "events": [
+                            {
+                                "title": "Mark Anxiously Reviews LinkedIn",
+                                "uuid": "event-5-1",
+                                "description": "Mark sits in his IKEA Markus chair in minimal attire, overwhelmed by anxiety as he toggles between LinkedIn and his 'Career Crisis Management' spreadsheet on his HP laptop. He internally laments over Steve from accounts having a new Microsoft Excel certification.",
+                                "sequence_within_scene": 1,
+                                "key_dialogue": [
+                                    "God, Steve from accounts has done another 'humbled to announce' post. He's got a Microsoft Excel certification. The man who logged into his own LinkedIn through the company Twitter last month is now officially more qualified than me. The digital revolution is eating its children."
+                                ],
+                                "agent_participations": [
+                                    "agentparticipation-agent-mark_corrigan-event-5-1",
+                                    "agentparticipation-agent-jeremy_usbourne-event-5-1"
+                                ],
+                                "object_involvements": [
+                                    "objectinvolvement-object-hp_laptop-event-5-1",
+                                    "objectinvolvement-object-ikea_markus_chair-event-5-1",
+                                    "objectinvolvement-object-metricshift_employee_certificate-event-5-1",
+                                    "objectinvolvement-object-dartmouth_diploma-event-5-1",
+                                    "objectinvolvement-object-marks_and_spencer_suit-event-5-1"
+                                ],
+                                "next_event": "event-5-2"
+                            },
+                            {
+                                "title": "Jeremy Announces LinkedIn Algorithm Mastery",
+                                "uuid": "event-5-2",
+                                "description": "Jeremy enters the room, wearing Mark's interview suit with festival wristbands and a 'Web3 Visionary' pin badge. He enthusiastically declares his mastery of the LinkedIn algorithm, causing Mark further distress.",
+                                "sequence_within_scene": 2,
+                                "key_dialogue": [
+                                    "Mark! Mark! The corporate world won't know what hit it! I've mastered the LinkedIn algorithm!"
+                                ],
+                                "agent_participations": [
+                                    "agentparticipation-agent-mark_corrigan-event-5-2",
+                                    "agentparticipation-agent-jeremy_usbourne-event-5-2"
+                                ],
+                                "object_involvements": [
+                                    "objectinvolvement-object-marks_and_spencer_suit-event-5-2",
+                                    "objectinvolvement-object-hp_laptop-event-5-2"
+                                ],
+                                "next_event": "event-5-3"
+                            },
+                            {
+                                "title": "Jeremy Seeks Approval for Sundowner Pitch",
+                                "uuid": "event-5-3",
+                                "description": "Mark comments on Jeremy wearing his interview suit, noting its previous use for significant occasions. Jeremy justifies his choice by mentioning he's been practicing his pitch for the MetricShift Innovation Sundowner.",
+                                "sequence_within_scene": 3,
+                                "key_dialogue": [
+                                    "How do I look? Professional enough for the MetricShift Innovation Sundowner? I've been practicing my pitch all morning.",
+                                    "That's my interview suit from the Johnson account pitch. It was in the box marked 'Career Emergency Kit - Do Not Touch Under Any Circumstances.'",
+                                    "Yeah, well, desperate times, desperate measures. Super Hans says my sonic optimization concept could be the next mindfulness."
+                                ],
+                                "agent_participations": [
+                                    "agentparticipation-agent-mark_corrigan-event-5-3",
+                                    "agentparticipation-agent-jeremy_usbourne-event-5-3"
+                                ],
+                                "object_involvements": [
+                                    "objectinvolvement-object-hp_laptop-event-5-3",
+                                    "objectinvolvement-object-metricshift_employee_certificate-event-5-3",
+                                    "objectinvolvement-object-dartmouth_diploma-event-5-3",
+                                    "objectinvolvement-object-ikea_markus_chair-event-5-3",
+                                    "objectinvolvement-object-marks_and_spencer_suit-event-5-3"
+                                ],
+                                "next_event": null
+                            }
+                        ],
+                        "agent_participations": [
+                            {
+                                "uuid": "agentparticipation-agent-mark_corrigan-event-5-1",
+                                "agent": "agent-mark_corrigan",
+                                "event": "event-5-1",
+                                "current_status": "Sitting in an IKEA Markus chair, toggling between LinkedIn and a 'Career Crisis Management' spreadsheet on his HP laptop.",
+                                "emotional_state": "Anxious, feeling inferior and overwhelmed by professional shortcomings.",
+                                "active_plans": [
+                                    "Monitor LinkedIn for potential career opportunities",
+                                    "Adjust 'Career Crisis Management' spreadsheet strategies"
+                                ],
+                                "beliefs": [
+                                    "Professional upgrades like certifications are crucial for success",
+                                    "He is currently less qualified than his peers, which may hinder professional progress"
+                                ],
+                                "goals": [
+                                    "Avoid falling further behind in professional qualifications",
+                                    "Find ways to improve his career standing and visibility"
+                                ]
+                            },
+                            {
+                                "uuid": "agentparticipation-agent-jeremy_usbourne-event-5-1",
+                                "agent": "agent-jeremy_usbourne",
+                                "event": "event-5-1",
+                                "current_status": "Wearing Mark's old M&S suit, burst into the room, excited about practicing a pitch for the MetricShift Innovation Sundowner.",
+                                "emotional_state": "Enthusiastic and overconfident.",
+                                "active_plans": [
+                                    "Pitch his sonic optimization concept at the MetricShift Innovation Sundowner",
+                                    "Make a strong impression with his professional appearance"
+                                ],
+                                "beliefs": [
+                                    "Mastery of the LinkedIn algorithm will significantly elevate his professional presence",
+                                    "Wearing Mark's suit will contribute to his chances of success"
+                                ],
+                                "goals": [
+                                    "Succeed at the MetricShift Innovation Sundowner",
+                                    "Be recognized for his sonic optimization concept"
+                                ]
+                            },
+                            {
+                                "uuid": "agentparticipation-agent-mark_corrigan-event-5-2",
+                                "agent": "agent-mark_corrigan",
+                                "event": "event-5-2",
+                                "current_status": "Sitting at his desk toggling between LinkedIn and his spreadsheet, reacting to Jeremy's entrance.",
+                                "emotional_state": "Anxious and distressed.",
+                                "active_plans": [
+                                    "Monitor LinkedIn for career updates",
+                                    "Manage career crisis via spreadsheet"
+                                ],
+                                "beliefs": [
+                                    "The digital revolution is making him obsolete",
+                                    "Jeremy's actions are inappropriate and frustrating"
+                                ],
+                                "goals": [
+                                    "Regain control over his career",
+                                    "Prevent Jeremy from impacting his professional reputation"
+                                ]
+                            },
+                            {
+                                "uuid": "agentparticipation-agent-jeremy_usbourne-event-5-2",
+                                "agent": "agent-jeremy_usbourne",
+                                "event": "event-5-2",
+                                "current_status": "Entering the room in Mark's interview suit, boasting about mastering LinkedIn.",
+                                "emotional_state": "Enthusiastic and self-assured.",
+                                "active_plans": [
+                                    "Attend the MetricShift Innovation Sundowner",
+                                    "Pitch his sonic optimization concept"
+                                ],
+                                "beliefs": [
+                                    "His new concept could be revolutionary",
+                                    "Mastery of LinkedIn will provide new opportunities"
+                                ],
+                                "goals": [
+                                    "Gain recognition at the MetricShift event",
+                                    "Convince others of the value of his concept"
+                                ]
+                            },
+                            {
+                                "uuid": "agentparticipation-agent-mark_corrigan-event-5-3",
+                                "agent": "agent-mark_corrigan",
+                                "event": "event-5-3",
+                                "current_status": "Sitting at his desk in his bedroom, toggling between LinkedIn and 'Career Crisis Management' spreadsheet.",
+                                "emotional_state": "Anxious and slightly bitter.",
+                                "active_plans": [
+                                    "Monitor LinkedIn for job opportunities and updates.",
+                                    "Manage personal career crisis."
+                                ],
+                                "beliefs": [
+                                    "Feels inferior to colleagues with new qualifications.",
+                                    "Believes the digital revolution is consuming the workforce."
+                                ],
+                                "goals": [
+                                    "Achieve professional stability and recognition.",
+                                    "Prepare for potential career opportunities."
+                                ]
+                            },
+                            {
+                                "uuid": "agentparticipation-agent-jeremy_usbourne-event-5-3",
+                                "agent": "agent-jeremy_usbourne",
+                                "event": "event-5-3",
+                                "current_status": "Wearing Mark's interview suit, preparing for the MetricShift Innovation Sundowner pitch.",
+                                "emotional_state": "Confident and energetic.",
+                                "active_plans": [
+                                    "Present his pitch at the MetricShift Innovation Sundowner.",
+                                    "Utilize the borrowed interview suit for professional appearance."
+                                ],
+                                "beliefs": [
+                                    "Believes his sonic optimization concept is revolutionary.",
+                                    "Considers the suit as a means to boost confidence and professionalism."
+                                ],
+                                "goals": [
+                                    "Successfully pitch at the MetricShift Innovation Sundowner.",
+                                    "Gain recognition for his concept and advance his career."
+                                ]
+                            }
+                        ],
+                        "object_involvements": [
+                            {
+                                "uuid": "objectinvolvement-object-hp_laptop-event-5-1",
+                                "object": "object-hp_laptop",
+                                "event": "event-5-1",
+                                "description_of_involvement": "Mark uses his HP laptop to toggle between LinkedIn and his 'Career Crisis Management' spreadsheet, reflecting his anxiety about his career and qualifications.",
+                                "object_status_before_event": "The HP laptop is in Mark's possession, being used for career management tasks.",
+                                "object_status_after_event": "The HP laptop continues to be used for managing LinkedIn notifications and career-related spreadsheets."
+                            },
+                            {
+                                "uuid": "objectinvolvement-object-ikea_markus_chair-event-5-1",
+                                "object": "object-ikea_markus_chair",
+                                "event": "event-5-1",
+                                "description_of_involvement": "Mark sits in the IKEA Markus chair, signifying his settled yet anxious posture as he navigates his online professional presence.",
+                                "object_status_before_event": "The IKEA Markus chair is positioned at Mark's desk for regular use.",
+                                "object_status_after_event": "The IKEA Markus chair continues to be part of Mark's home office setup."
+                            },
+                            {
+                                "uuid": "objectinvolvement-object-metricshift_employee_certificate-event-5-1",
+                                "object": "object-metricshift_employee_certificate",
+                                "event": "event-5-1",
+                                "description_of_involvement": "The MetricShift Employee of the Month Certificate hangs on Mark's wall as a reminder of past accomplishments contrasted with his current crisis.",
+                                "object_status_before_event": "The certificate is displayed on Mark's wall, slightly askew.",
+                                "object_status_after_event": "The certificate remains on display, symbolizing Mark's past achievements amid his current insecurities."
+                            },
+                            {
+                                "uuid": "objectinvolvement-object-dartmouth_diploma-event-5-1",
+                                "object": "object-dartmouth_diploma",
+                                "event": "event-5-1",
+                                "description_of_involvement": "The Dartmouth Business Studies Diploma hangs on the wall, serving as part of the backdrop to Mark's professional anxiety.",
+                                "object_status_before_event": "The diploma is displayed on Mark's wall.",
+                                "object_status_after_event": "The diploma continues to be part of the decor, representing Mark's educational background."
+                            },
+                            {
+                                "uuid": "objectinvolvement-object-marks_and_spencer_suit-event-5-1",
+                                "object": "object-marks_and_spencer_suit",
+                                "event": "event-5-1",
+                                "description_of_involvement": "Jeremy wears Mark's Marks & Spencer suit, which Mark identifies as his interview suit, illustrating Jeremy's casual appropriation of Mark's professional attire.",
+                                "object_status_before_event": "Stored in a box labeled 'Career Emergency Kit - Do Not Touch Under Any Circumstances'.",
+                                "object_status_after_event": "The suit is being worn by Jeremy, displaced from its storage without Mark's consent."
+                            },
+                            {
+                                "uuid": "objectinvolvement-object-marks_and_spencer_suit-event-5-2",
+                                "object": "object-marks_and_spencer_suit",
+                                "event": "event-5-2",
+                                "description_of_involvement": "Jeremy is wearing Mark's Marks & Spencer suit, which is significant as it symbolizes Jeremy appropriating Mark's professional identity for the MetricShift Innovation Sundowner.",
+                                "object_status_before_event": "The Marks & Spencer suit was stored in a box labeled 'Career Emergency Kit - Do Not Touch Under Any Circumstances'.",
+                                "object_status_after_event": "Jeremy is wearing the Marks & Spencer suit, accessorized with wristbands and a 'Web3 Visionary' pin badge."
+                            },
+                            {
+                                "uuid": "objectinvolvement-object-hp_laptop-event-5-2",
+                                "object": "object-hp_laptop",
+                                "event": "event-5-2",
+                                "description_of_involvement": "Mark uses his HP laptop to toggle between LinkedIn and his 'Career Crisis Management' spreadsheet, indicating his anxiety about his career and position.",
+                                "object_status_before_event": "Mark is actively using the HP laptop to manage his career crisis.",
+                                "object_status_after_event": "The HP laptop continues to be in use for managing LinkedIn updates and the spreadsheet."
+                            },
+                            {
+                                "uuid": "objectinvolvement-object-hp_laptop-event-5-3",
+                                "object": "object-hp_laptop",
+                                "event": "event-5-3",
+                                "description_of_involvement": "Mark uses the HP Laptop to toggle between LinkedIn and his 'Career Crisis Management' spreadsheet.",
+                                "object_status_before_event": "The HP Laptop is actively being used to manage LinkedIn profile and spreadsheets.",
+                                "object_status_after_event": "The HP Laptop remains in use for career management tasks."
+                            },
+                            {
+                                "uuid": "objectinvolvement-object-metricshift_employee_certificate-event-5-3",
+                                "object": "object-metricshift_employee_certificate",
+                                "event": "event-5-3",
+                                "description_of_involvement": "Hangs askew on the wall beside Mark's work area, serving as a reminder of his past achievement at MetricShift.",
+                                "object_status_before_event": "Hanging askew on the wall as part of Mark's motivational backdrop.",
+                                "object_status_after_event": "Continues to hang askew, reflecting Mark's current state of mind."
+                            },
+                            {
+                                "uuid": "objectinvolvement-object-dartmouth_diploma-event-5-3",
+                                "object": "object-dartmouth_diploma",
+                                "event": "event-5-3",
+                                "description_of_involvement": "Displays Mark's academic achievement, underlining the dissonance between his education and current job situation.",
+                                "object_status_before_event": "Displayed prominently next to the MetricShift Employee of the Month certificate.",
+                                "object_status_after_event": "Remains hanging unchanged, symbolizing unfulfilled potential."
+                            },
+                            {
+                                "uuid": "objectinvolvement-object-ikea_markus_chair-event-5-3",
+                                "object": "object-ikea_markus_chair",
+                                "event": "event-5-3",
+                                "description_of_involvement": "Provides Mark with a seat at his desk as he navigates his professional dilemmas.",
+                                "object_status_before_event": "Occupied by Mark as he works at his desk.",
+                                "object_status_after_event": "Remains as Mark's work seat, supporting him physically if not emotionally."
+                            },
+                            {
+                                "uuid": "objectinvolvement-object-marks_and_spencer_suit-event-5-3",
+                                "object": "object-marks_and_spencer_suit",
+                                "event": "event-5-3",
+                                "description_of_involvement": "Worn by Jeremy despite being Mark's property, symbolizing Jeremy's desperation and ambition.",
+                                "object_status_before_event": "Stored in Mark's 'Career Emergency Kit' box, reserved for significant occasions.",
+                                "object_status_after_event": "Worn by Jeremy for the MetricShift Innovation Sundowner, against Mark's intended use."
+                            }
+                        ]
+                    }
+                }
+            ]
+        }
+    ],
+    "entity_registry": {
+        "agents": [
+            {
+                "uuid": "agent-mark_corrigan",
+                "agent_id": "mark_corrigan",
+                "name": "Mark Corrigan",
+                "title": "Regional Sales Manager",
+                "aliases": [],
+                "description": "Mark Corrigan is a perpetually anxious yet ambitious individual, holding the position of Regional Sales Manager at MetricShift Digital Solutions. He is troubled by his precarious standing within the corporate hierarchy amid frequent restructures. Despite his attempts at upward mobility, he often feels outpaced by the changing demands of digital transformation. Mark balances his ambition with a looming sense of inadequacy, and while navigating a turbulent personal and professional life, he is often skeptical and rational. He struggles to adapt to the corporate world's preference for style over substance, often feeling overshadowed by his flatmate Jeremy Usbourne.",
+                "traits": [
+                    "Insecure",
+                    "Incompatible with modern corporate culture",
+                    "Perfectionist",
+                    "Skeptical",
+                    "Self-Doubting",
+                    "Thoughtful",
+                    "Analytical",
+                    "Anxious",
+                    "Strategic",
+                    "Conscientious",
+                    "Cautious",
+                    "Career-Oriented",
+                    "Responsible",
+                    "Cynical",
+                    "Rational",
+                    "Practical",
+                    "Ambitious",
+                    "Diligent"
+                ],
+                "affiliated_org": "org-metricshift_digital_solutions",
+                "sphere_of_influence": "Corporate Sales"
+            },
+            {
+                "uuid": "agent-jeremy_usbourne",
+                "agent_id": "jeremy_usbourne",
+                "name": "Jeremy Usbourne",
+                "title": null,
+                "aliases": [],
+                "description": "Jeremy Usbourne is a failed musician and occasional DJ, perpetually 'between projects'. Known for his unconventional approach to work and life, he often uses buzzwords and outlandish concepts to reinvent himself in the corporate world. Previously the frontman of the band 'Momentary Enlightenment,' Jeremy is currently dabbling in the 'sonic arts space', proposing audacious ideas to colleagues and superiors.",
+                "traits": [
+                    "Creative",
+                    "Unconventional",
+                    "Impulsive",
+                    "Carefree",
+                    "Confident",
+                    "Charismatic",
+                    "Amateurish"
+                ],
+                "affiliated_org": "org-metricshift_digital_solutions",
+                "sphere_of_influence": "Sonic Arts"
+            },
+            {
+                "uuid": "agent-charlotte_walsh_henderson",
+                "agent_id": "charlotte_walsh_henderson",
+                "name": "Charlotte Walsh-Henderson",
+                "title": "Head of Digital Transformation",
+                "aliases": [],
+                "description": "Charlotte Walsh-Henderson is the Head of Digital Transformation at MetricShift Digital Solutions. A veteran of Silicon Valley with notable burnouts, she represents the new wave of leadership focused on integrating modern corporate culture elements like mindfulness and TikTok references into traditional models. She is known for her openness to innovative and disruptive ideas, seeking ways to transform and modernize workplace productivity.",
+                "traits": [
+                    "Open-minded",
+                    "Mindful",
+                    "Ambitious",
+                    "Trendy",
+                    "Strategic",
+                    "Innovative",
+                    "Adaptable"
+                ],
+                "affiliated_org": "org-metricshift_digital_solutions",
+                "sphere_of_influence": "Digital Transformation"
+            },
+            {
+                "uuid": "agent-alan_johnson",
+                "agent_id": "alan_johnson",
+                "name": "Alan Johnson",
+                "title": "CEO",
+                "aliases": [],
+                "description": "Alan Johnson is the charismatic and influential CEO of Johnson Dynamic Solutions, known for his ability to pivot struggling companies into successful ventures. Often described as 'The Disruptor Whisperer', Johnson has a keen eye for innovation and values authenticity and rawness in corporate strategies. He is open to disruptive thinking and innovative ideas.",
+                "traits": [
+                    "Open-minded",
+                    "Bold",
+                    "Influential",
+                    "Disruptive",
+                    "Ambitious",
+                    "Charismatic",
+                    "Strategic",
+                    "Innovative"
+                ],
+                "affiliated_org": "org-johnson_dynamic_solutions",
+                "sphere_of_influence": "Corporate Strategy and Innovation"
+            }
+        ],
+        "organizations": [
+            {
+                "uuid": "org-metricshift_digital_solutions",
+                "name": "MetricShift Digital Solutions",
+                "description": "MetricShift Digital Solutions is a company involved in digital solutions, influenced by corporate restructuring and innovations in workplace productivity. It is potentially merging with Johnson Dynamic Solutions to expand its disruptive influence.",
+                "sphere_of_influence": "Digital Innovation and Corporate Restructuring",
+                "members": [
+                    "agent-jeremy_usbourne",
+                    "agent-mark_corrigan",
+                    "agent-charlotte_walsh_henderson"
+                ]
+            },
+            {
+                "uuid": "org-johnson_dynamic_solutions",
+                "name": "Johnson Dynamic Solutions",
+                "description": "Johnson Dynamic Solutions is a company known for pivoting failing startups into successful ventures, potentially merging with MetricShift Digital Solutions to expand its disruptive influence.",
+                "sphere_of_influence": "Business Revitalization and Mergers",
+                "members": [
+                    "agent-alan_johnson"
+                ]
+            }
+        ],
+        "locations": [
+            {
+                "uuid": "location_marks_bedroom_apollo_house",
+                "name": "Mark's Bedroom - Apollo House",
+                "description": "Located in Croydon, Mark's personal space where he grapples with career anxieties early in the morning. It features an IKEA Markus desk chair and a TM Lewin shirt, indicative of Mark's somewhat conventional taste. The room displays his 'Employee of the Month (August 2023)' certificate hanging askew next to his Dartmouth Business Studies diploma, suggesting both a sense of achievement and a degree of disarray.",
+                "type": "Room"
+            },
+            {
+                "uuid": "location_living_room_apollo_house",
+                "name": "Living Room - Apollo House",
+                "description": "The living room in Apollo House where Jeremy practices his pitch. The room is characterized by a cracked mirror and is littered with empty Red Bull cans and printouts of motivational quotes from Gary Vaynerchuk. It's a chaotic space reflecting Jeremy's frantic preparation for the upcoming networking event.",
+                "type": "Apartment"
+            },
+            {
+                "uuid": "location_ideation_zone",
+                "name": "Ideation Zone",
+                "description": "Located on the 14th floor of MetricShift Digital Solutions HQ, the Ideation Zone is transformed for the monthly Innovation Sundowner. This space is meant for creative thinking and is currently decorated with fairy lights that outline whiteboards covered in buzzwords. Kombucha stations, overseen by Charlotte Walsh-Henderson, add to the modern and innovative atmosphere.",
+                "type": "Office"
+            },
+            {
+                "uuid": "location_disruption_chamber",
+                "name": "MetricShift Executive Boardroom - 'The Disruption Chamber'",
+                "description": "The executive boardroom at MetricShift, rebranded as 'The Disruption Chamber' as part of a controversial initiative led by Charlotte Walsh-Henderson. The space is used for high-level meetings and showcases the company's emphasis on innovative and disruptive corporate culture. It is furnished with high-end Herman Miller furniture, creating a blend of style and comfort for executives and potential partners.",
+                "type": "Office"
+            },
+            {
+                "uuid": "location_fox_and_goose_pub",
+                "name": "The Fox & Goose Pub",
+                "description": "A cozy corner pub located on Croydon High Street, where Mark and Jeremy sit at a corner table. The ambiance is casual and familiar, typical of a local hangout for winding down with drinks and conversation. The atmosphere is lively enough to allow for interactions without being overly crowded.",
+                "type": "Pub"
+            }
+        ],
+        "objects": [
+            {
+                "uuid": "object-hp_laptop",
+                "name": "HP Laptop",
+                "description": "A laptop that Mark uses to manage his career strategy, marked by its display alternating between LinkedIn and a spreadsheet labeled 'Career Crisis Management'.",
+                "purpose": "To manage Mark's career and navigate his anxieties related to corporate life.",
+                "significance": "Embodies Mark's struggle with his professional identity and the pressures of modern corporate competitiveness.",
+                "original_owner": "agent-mark_corrigan"
+            },
+            {
+                "uuid": "object-metricshift_employee_certificate",
+                "name": "MetricShift Employee of the Month Certificate",
+                "description": "A certificate recognizing Mark as Employee of the Month for August 2023, hung slightly askew on the wall.",
+                "purpose": "To validate Mark's accomplishments within the unstable corporate environment of MetricShift Digital Solutions.",
+                "significance": "Reflects Mark's tenuous standing in his company and his constant need for validation.",
+                "original_owner": "agent-mark_corrigan"
+            },
+            {
+                "uuid": "object-dartmouth_diploma",
+                "name": "Dartmouth Business Studies Diploma",
+                "description": "A diploma indicating Mark's completion of a business studies degree from Dartmouth, displayed on his wall.",
+                "purpose": "To serve as a testament to Mark's formal education and his aspirations for career advancement.",
+                "significance": "Highlights the clash between Mark's education and the often irrational dynamics of the corporate world.",
+                "original_owner": "agent-mark_corrigan"
+            },
+            {
+                "uuid": "object-marks_and_spencer_suit",
+                "name": "Marks & Spencer Suit",
+                "description": "Mark's suit, originally purchased for job interviews and significant events, now worn by Jeremy along with festival wristbands and a 'Web3 Visionary' pin badge.",
+                "purpose": "To provide Jeremy with a professional appearance for the MetricShift Innovation Sundowner.",
+                "significance": "A symbol of Mark's past aspirations and the absurdity of Jeremy's aspirations in the corporate world.",
+                "original_owner": "agent-mark_corrigan"
+            },
+            {
+                "uuid": "object-ikea_markus_chair",
+                "name": "IKEA Markus Chair",
+                "description": "A desk chair from IKEA that Mark uses while working at his desk.",
+                "purpose": "To provide Mark with comfort and support while he works at his desk.",
+                "significance": "Represents Mark's personal workspace and his attempts to control his professional environment.",
+                "original_owner": "agent-mark_corrigan"
+            },
+            {
+                "uuid": "object-cracked_mirror",
+                "name": "Cracked Mirror",
+                "description": "A mirror with visible cracks, used by Jeremy to practice his pitch in the living room.",
+                "purpose": "To allow Jeremy to rehearse his presentation and refine his presentation skills.",
+                "significance": "Represents Jeremy's fractured professional identity and the fragile nature of his aspirations.",
+                "original_owner": null
+            },
+            {
+                "uuid": "object-empty_red_bull_cans",
+                "name": "Empty Red Bull Cans",
+                "description": "Multiple empty cans of Red Bull energy drink littering the floor, indicating Jeremy's caffeine consumption.",
+                "purpose": "To visually depict Jeremy's reliance on energy drinks for focus and energy.",
+                "significance": "Highlights Jeremy's impulsive and unsustainable lifestyle choices.",
+                "original_owner": null
+            },
+            {
+                "uuid": "object-printouts_gary_vaynerchuk_quotes",
+                "name": "Printouts of Gary Vaynerchuk Quotes",
+                "description": "Sheets of paper with inspirational quotes by Gary Vaynerchuk, scattered around the living room.",
+                "purpose": "To serve as motivational material for Jeremy's entrepreneurial efforts.",
+                "significance": "Symbolizes Jeremy's superficial approach to business and reliance on popular motivational figures.",
+                "original_owner": null
+            },
+            {
+                "uuid": "object-networking_emergency_protocols_index_cards",
+                "name": "Networking Emergency Protocols Index Cards",
+                "description": "Index cards meticulously organized by Mark, containing tips and protocols for networking situations.",
+                "purpose": "To help Mark prepare and manage networking interactions with structured guidance.",
+                "significance": "Represents Mark's meticulous nature and anxiety-driven need for control during social interactions.",
+                "original_owner": "agent-mark_corrigan"
+            },
+            {
+                "uuid": "object-fairy_lights",
+                "name": "Fairy Lights",
+                "description": "A series of small decorative fairy lights outlining whiteboards.",
+                "purpose": "To enhance the ambiance of the 'Ideation Zone' during the Innovation Sundowner event.",
+                "significance": "Symbolizes the attempt to create an inspiring and creative environment, highlighting the superficial efforts in corporate culture to perform innovation rather than achieve it.",
+                "original_owner": null
+            },
+            {
+                "uuid": "object-whiteboards",
+                "name": "Whiteboards",
+                "description": "Whiteboards covered in corporate buzzwords used for brainstorming and idea generation.",
+                "purpose": "To serve as surfaces for team collaboration and display of innovative thoughts during the event.",
+                "significance": "Represents the corporate focus on formalized brainstorming and the emphasis on trendy jargon as part of the innovation process.",
+                "original_owner": null
+            },
+            {
+                "uuid": "object-kombucha_stations",
+                "name": "Kombucha Stations",
+                "description": "Designated areas set up with kombucha drinks for attendees.",
+                "purpose": "To offer trendy, health-conscious drink options at the Innovation Sundowner.",
+                "significance": "Illustrates the blend of wellness and corporate culture, and the pursuit of modernity and trendiness in workplace environments.",
+                "original_owner": null
+            },
+            {
+                "uuid": "object-fruit_infused_water_station",
+                "name": "Fruit-Infused Water Station",
+                "description": "A station providing water infused with fresh fruits.",
+                "purpose": "To offer a refreshing drink option for attendees while contributing to the wellness ethos.",
+                "significance": "Emphasizes the corporate wellness trend and the attempt to portray a progressive and health-oriented company culture.",
+                "original_owner": null
+            },
+            {
+                "uuid": "object-linkedIn_premium_name_badge",
+                "name": "LinkedIn Premium Name Badge",
+                "description": "A name badge denoting a user's LinkedIn Premium status worn by Mark.",
+                "purpose": "To provide identification and signify professional networking capability.",
+                "significance": "Highlights Mark's need to demonstrate his professional engagement and status amidst corporate anxiety.",
+                "original_owner": "agent-mark_corrigan"
+            },
+            {
+                "uuid": "object-dj_equipment",
+                "name": "DJ Equipment",
+                "description": "A set of DJ equipment borrowed from Super Hans' failed silent disco business, featuring components suited for electronic music performances.",
+                "purpose": "To create and play a 'scientifically-engineered productivity soundscape' during Jeremy's presentation.",
+                "significance": "Symbolizes Jeremy's unconventional approach and the unexpected success of his impromptu pitch, leading to potential corporate opportunities for him.",
+                "original_owner": null
+            },
+            {
+                "uuid": "object-metricshift_lanyard",
+                "name": "MetricShift Lanyard",
+                "description": "A lanyard bearing the MetricShift logo, inexplicably worn by Super Hans in a casual pub setting.",
+                "purpose": "To signify Super Hans's unexpected involvement or connection with MetricShift.",
+                "significance": "Symbolizes the blurring boundaries between professional and personal identities and the infiltration of corporate culture into casual life.",
+                "original_owner": null
+            },
+            {
+                "uuid": "object-linkedin_notification",
+                "name": "LinkedIn Notification",
+                "description": "A notification on Mark's phone indicating an endorsement Steven from accounts has given Jeremy for skills in 'Digital Transformation' and 'Change Management'.",
+                "purpose": "To update Mark on Jeremy's growing professional network and perceived skills.",
+                "significance": "Highlights the irony of Jeremy's rise in the corporate world based on superficial achievements and the social validation attached to online endorsements.",
+                "original_owner": "agent-mark_corrigan"
+            }
+        ]
+    },
+    "validation_results": {
+        "is_valid": true,
+        "errors": [],
+        "warnings": []
+    }
+}

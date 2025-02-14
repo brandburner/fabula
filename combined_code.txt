@@ -105,6 +105,24 @@ async def process_scene_entities(scene: Dict[str, Any], global_context: GlobalCo
 
 
 
+def validate_event_references(event: Event, global_context: GlobalContext) -> bool:
+    """Validates all entity references in an event."""
+    valid = True
+    
+    # Validate agent participations
+    for participation_id in event.agent_participations:
+        if not global_context.entity_registry.find_entity_by_uuid(participation_id):
+            logging.error(f"Invalid agent participation reference: {participation_id}")
+            valid = False
+            
+    # Validate object involvements  
+    for involvement_id in event.object_involvements:
+        if not global_context.entity_registry.find_entity_by_uuid(involvement_id):
+            logging.error(f"Invalid object involvement reference: {involvement_id}")
+            valid = False
+            
+    return valid
+
 async def process_scene_data(scene: Dict[str, Any], global_context: GlobalContext, scene_number: int, scene_uuid: str) -> Dict[str, Any]:
     """
     Second pass: Extracts Scene Metadata, Events, AgentParticipations, and ObjectInvolvements,
@@ -153,6 +171,8 @@ async def process_scene_data(scene: Dict[str, Any], global_context: GlobalContex
     )
     # Generate event UUIDs after extracting events.
     for event in events:
+        if not validate_event_references(event, global_context):
+            logging.error(f"Invalid references in event {event.uuid}")
         event.uuid = generate_uuid(f"event-{scene_number}", str(event.sequence_within_scene))
 
     # Sort events by their sequence number and update next_event for each event.
@@ -404,10 +424,35 @@ async def process_episode(episode: Dict[str, Any], global_context: GlobalContext
 ----- File: ./validation.py -----
 # File: validation.py
 import logging
-from typing import Any, Dict
+from typing import Any, Dict, Optional, Set, List, Union
 from baml_client.types import Agent, Organization, Location, Object, Event, AgentParticipation, ObjectInvolvement
-from context import GlobalContext # Import GlobalContext
-from entity_registry import EntityRegistry  # <---- CORRECTED IMPORT STATEMENT
+from context import GlobalContext
+from dataclasses import dataclass
+from entity_registry import EntityRegistry
+
+@dataclass
+class ValidationResult:
+    """Represents the result of validating an entity or reference."""
+    is_valid: bool
+    errors: List[str]
+    warnings: List[str]
+
+def validate_entity_references(
+    entity_refs: List[str],
+    entity_type: str,
+    registry: EntityRegistry
+) -> ValidationResult:
+    """
+    Validates a list of entity references against the registry.
+    """
+    result = ValidationResult(is_valid=True, errors=[], warnings=[])
+    
+    for ref in entity_refs:
+        if not registry.find_entity_by_uuid(ref):
+            result.is_valid = False
+            result.errors.append(f"Invalid {entity_type} reference: {ref}")
+            
+    return result
 
 
 def validate_entity_attributes(entity: Any) -> bool:
@@ -562,6 +607,21 @@ def validate_all(global_context: "GlobalContext") -> bool:
 
     return all_valid
 
+def validate_organization_consistency(self) -> None:
+    """Validates and optionally fixes org/agent consistency"""
+    for agent in self.agents.values():
+        if agent.affiliated_org:
+            org = self.get_organization(agent.affiliated_org)
+            if org:
+                if agent.uuid not in (org.members or []):
+                    # Option to add agent to org members
+                    if org.members is None:
+                        org.members = []
+                    org.members.append(agent.uuid)
+            else:
+                # Clear invalid reference
+                agent.affiliated_org = None
+
 def validate_object_involvement(involvement_data: Dict[str, Any], entity_registry: EntityRegistry) -> bool:
     """
     Validates an ObjectInvolvement record.
@@ -610,27 +670,284 @@ def validate_agent_participation(participation_data: Dict[str, Any], entity_regi
 
     return True
 
+def validate_agent_affiliations(entity_registry: EntityRegistry) -> ValidationResult:
+    """
+    Validates bidirectional consistency between agent affiliations and org members.
+    """
+    result = ValidationResult(is_valid=True, errors=[], warnings=[])
+    
+    # Check agent -> org references
+    for agent in entity_registry.agents.values():
+        if agent.affiliated_org:
+            org = entity_registry.get_organization(agent.affiliated_org)
+            if not org:
+                result.is_valid = False
+                result.errors.append(
+                    f"Agent {agent.name} ({agent.uuid}) references non-existent "
+                    f"organization: {agent.affiliated_org}"
+                )
+            elif not org.members or agent.uuid not in org.members:
+                result.is_valid = False
+                result.errors.append(
+                    f"Agent {agent.name} ({agent.uuid}) claims affiliation with "
+                    f"org {org.name} but is not in its members list"
+                )
+
+    # Check org -> agent references 
+    for org in entity_registry.organizations.values():
+        if org.members:
+            for member_uuid in org.members:
+                agent = entity_registry.get_agent(member_uuid)
+                if not agent:
+                    result.is_valid = False
+                    result.errors.append(
+                        f"Organization {org.name} ({org.uuid}) references "
+                        f"non-existent agent: {member_uuid}"
+                    )
+                elif agent.affiliated_org != org.uuid:
+                    result.is_valid = False
+                    result.errors.append(
+                        f"Organization {org.name} claims agent {agent.name} as member "
+                        f"but agent's affiliated_org doesn't match"
+                    )
+                    
+    return result
+
+
+def validate_participation_references(
+    scene_data: Dict[str, Any],
+    registry: EntityRegistry
+) -> ValidationResult:
+    """Validates participation and involvement references within a scene."""
+    result = ValidationResult(is_valid=True, errors=[], warnings=[])
+
+    # Event -> AgentParticipation/ObjectInvolvement
+    for event in scene_data.get("events", []):
+        # Validate agent participations
+        for participation_id in event.get("agent_participations", []):
+            participation = next(
+                (p for p in scene_data.get("agent_participations", [])
+                 if p["uuid"] == participation_id),
+                None
+            )
+            if not participation:
+                result.errors.append(
+                    f"Event {event['uuid']} references non-existent "
+                    f"participation: {participation_id}"
+                )
+                result.is_valid = False
+            elif not registry.get_agent(participation["agent"]):
+                result.errors.append(
+                    f"Participation {participation_id} references non-existent "
+                    f"agent: {participation['agent']}"
+                )
+                result.is_valid = False
+
+        # Validate object involvements
+        for involvement_id in event.get("object_involvements", []):
+            involvement = next(
+                (i for i in scene_data.get("object_involvements", [])
+                 if i["uuid"] == involvement_id),
+                None
+            )
+            if not involvement:
+                result.errors.append(
+                    f"Event {event['uuid']} references non-existent "
+                    f"involvement: {involvement_id}"
+                )
+                result.is_valid = False
+            elif not registry.get_object(involvement["object"]):
+                result.errors.append(
+                    f"Involvement {involvement_id} references non-existent "
+                    f"object: {involvement['object']}"
+                )
+                result.is_valid = False
+
+    return result
+
+def validate_bidirectional_relationships(registry: EntityRegistry) -> ValidationResult:
+    """Validates relationships that should be reciprocal."""
+    result = ValidationResult(is_valid=True, errors=[], warnings=[])
+    
+    # Agent <-> Organization
+    for agent in registry.agents.values():
+        if agent.affiliated_org:
+            org = registry.get_organization(agent.affiliated_org)
+            if not org:
+                result.errors.append(
+                    f"Agent {agent.name} ({agent.uuid}) references non-existent "
+                    f"organization: {agent.affiliated_org}"
+                )
+                result.is_valid = False
+            elif not org.members or agent.uuid not in org.members:
+                result.errors.append(
+                    f"Agent {agent.name} references org {org.name} but is not in "
+                    "its members list"
+                )
+                result.is_valid = False
+
+    return result
+
+def validate_simple_references(registry: EntityRegistry) -> ValidationResult:
+    """Validates one-way entity references."""
+    result = ValidationResult(is_valid=True, errors=[], warnings=[])
+    
+    # Object -> Agent (original owner)
+    for obj in registry.objects.values():
+        if obj.original_owner:
+            owner = registry.get_agent(obj.original_owner)
+            if not owner:
+                result.errors.append(
+                    f"Object {obj.name} references non-existent owner: "
+                    f"{obj.original_owner}"
+                )
+                result.is_valid = False
+
+    return result
+
+def validate_sequence_references(
+    scenes: List[Dict[str, Any]]
+) -> ValidationResult:
+    """Validates scene and event sequence references."""
+    result = ValidationResult(is_valid=True, errors=[], warnings=[])
+    
+    scene_uuids = {scene["scene_uuid"] for scene in scenes}
+    
+    for i, scene in enumerate(scenes):
+        # Validate scene sequence
+        if i < len(scenes) - 1:
+            next_scene = scene["extracted_data"]["metadata"].get("next_scene")
+            if not next_scene:
+                result.errors.append(
+                    f"Scene {scene['scene_uuid']} missing next_scene reference"
+                )
+                result.is_valid = False
+            elif next_scene not in scene_uuids:
+                result.errors.append(
+                    f"Scene {scene['scene_uuid']} references invalid next_scene: "
+                    f"{next_scene}"
+                )
+                result.is_valid = False
+                
+        # Validate event sequence within scene
+        events = scene["extracted_data"].get("events", [])
+        event_uuids = {event["uuid"] for event in events}
+        
+        for j, event in enumerate(events):
+            if j < len(events) - 1:
+                next_event = event.get("next_event")
+                if not next_event:
+                    result.errors.append(
+                        f"Event {event['uuid']} missing next_event reference"
+                    )
+                    result.is_valid = False
+                elif next_event not in event_uuids:
+                    result.errors.append(
+                        f"Event {event['uuid']} references invalid next_event: "
+                        f"{next_event}"
+                    )
+                    result.is_valid = False
+
+    return result
+
+def validate_all_relationships(
+    global_context: GlobalContext
+) -> ValidationResult:
+    """Performs comprehensive validation of all entity relationships."""
+    
+    registry = global_context.entity_registry
+    final_result = ValidationResult(is_valid=True, errors=[], warnings=[])
+    
+    # Run all validation checks
+    validations = [
+        validate_bidirectional_relationships(registry),
+        validate_simple_references(registry)
+    ]
+    
+    # Add scene-specific validations
+    for episode in global_context.processed_episodes:
+        for scene in episode["scenes"]:
+            validations.extend([
+                validate_participation_references(
+                    scene["extracted_data"], 
+                    registry
+                )
+            ])
+    
+    # Add sequence validation
+    for episode in global_context.processed_episodes:
+        validations.append(
+            validate_sequence_references(episode["scenes"])
+        )
+    
+    # Combine all validation results
+    for result in validations:
+        if not result.is_valid:
+            final_result.is_valid = False
+            final_result.errors.extend(result.errors)
+            final_result.warnings.extend(result.warnings)
+    
+    return final_result
+
+
+def validate_all(global_context: "GlobalContext") -> ValidationResult:
+    """
+    Performs all validations on the given global context.
+    """
+    final_result = ValidationResult(is_valid=True, errors=[], warnings=[])
+
+    # Validate entity attributes
+    for entity_type, entities in global_context.entity_registry.get_all_entities().items():
+        for entity in entities:
+            if not validate_entity_attributes(entity):
+                final_result.errors.append(f"Invalid entity: {entity_type} - {entity.uuid}")
+                final_result.is_valid = False
+
+    # Validate all relationships
+    relationship_result = validate_all_relationships(global_context)
+    if not relationship_result.is_valid:
+        final_result.is_valid = False
+        final_result.errors.extend(relationship_result.errors)
+        final_result.warnings.extend(relationship_result.warnings)
+
+    # Validate scene consistency
+    for episode in global_context.processed_episodes:
+        for scene in episode["scenes"]:
+            if not validate_scene_consistency(scene):
+                final_result.errors.append(f"Scene consistency validation failed for scene {scene.get('scene_uuid')}")
+                final_result.is_valid = False
+
+    return final_result
+
 ----- File: ./main.py -----
 # File: main.py
 import asyncio
 import json
 import logging
 import sys
-import json
 from pathlib import Path
 from typing import List
+from collections import defaultdict
 
 from episode_processor import process_episode
 from context import GlobalContext
-from validation import validate_all
-from utils import normalize_name # NEW IMPORT
+from validation import (
+    ValidationResult,
+    validate_all,
+    validate_all_relationships,
+    validate_agent_affiliations,
+    validate_bidirectional_relationships,
+    validate_simple_references,
+    validate_participation_references,
+    validate_sequence_references,
+    validate_organization_consistency
+)
+from utils import normalize_name
 from entity_registry import EntityRegistry
 
-
-import logging
+# Configure logging
 for handler in logging.root.handlers[:]:
     logging.root.removeHandler(handler)
-# Configure logging
 logging.basicConfig(
     filename="fabula_processing.log",
     level=logging.DEBUG,
@@ -642,7 +959,7 @@ INPUT_JSON_PATH = Path("/home/user/fabula/source_docs/ai_fanfic/star_trek_tng/ec
 CONTEXT_FILES = [
     Path("/home/user/fabula/source_docs/ai_fanfic/star_trek_tng/echoes_of_the_past_treatment.txt")
 ]
-OUTPUT_JSON_PATH = Path("echoes_of_the_past_graph_GPT4mini.json")
+OUTPUT_JSON_PATH = Path("/home/user/fabula/output/pre_processed/echoes_of_the_past_graph_GPT4oMini.json")
 
 # INPUT_JSON_PATH = Path("dummy_data/fault_lines_transcript.json")
 # CONTEXT_FILES = [
@@ -652,24 +969,23 @@ OUTPUT_JSON_PATH = Path("echoes_of_the_past_graph_GPT4mini.json")
 
 # OUTPUT_JSON_PATH = Path("output/test_graph.json")
 
-# INPUT_JSON_PATH = Path("dummy_data/networking_event_transcript.json")
+# INPUT_JSON_PATH = Path("/home/user/fabula/source_docs/ai_fanfic/peep_show/networking_event_transcript.json")
 # CONTEXT_FILES = [
-#     Path("dummy_data/networking_event_treatment.txt")
+#     Path("/home/user/fabula/source_docs/ai_fanfic/peep_show/networking_event_treatment.txt")
 # ]
-# OUTPUT_JSON_PATH = Path("output/networking_event_graph.json")
+# OUTPUT_JSON_PATH = Path("networking_event_graph_GPT4o.json")
 
 def load_context_documents(context_files: List[Path]) -> str:
     """Loads and concatenates context documents."""
     context_text = ""
     for filepath in context_files:
-        with open(filepath, "r") as f:
-            context_text += f.read() + "\n"
+        if filepath.exists():
+            with open(filepath, "r") as f:
+                context_text += f.read() + "\n"
     return context_text
 
 def convert_to_serializable(obj):
-    """
-    Recursively convert Pydantic objects to dictionaries for JSON serialization.
-    """
+    """Recursively convert Pydantic objects to dictionaries for JSON serialization."""
     if isinstance(obj, list):
         return [convert_to_serializable(item) for item in obj]
     elif isinstance(obj, dict):
@@ -682,9 +998,6 @@ def convert_to_serializable(obj):
 async def main():
     """
     Orchestrates the complete processing of a narrative script.
-    Loads the script JSON, processes episodes, updates the global context,
-    and outputs the final structured JSON.  Uses a two-pass approach with
-    dependency-based entity extraction.
     """
     logging.info("Starting Fabula processing...")
 
@@ -722,93 +1035,15 @@ async def main():
             
         # Load default context files
         if CONTEXT_FILES:
-            existing_context_files = [Path(filepath) for filepath in CONTEXT_FILES if Path(filepath).exists()]
-            if existing_context_files:
-                context_documents = load_context_documents(existing_context_files)
-    
-    # If no input file found, use test data
-    else:
-        logging.info("No input file provided. Using test data.")
-        script_data = {
-            "Story": "Frontier in Space",
-            "Airdate": "1973-02-24",
-            "Episodes": [
-                {
-                    "Episode": "Episode One",
-                    "Scenes": [
-                        {
-                            "Scene": "Spaceship Bridge",
-                            "Dialogue": [
-                                {
-                                    "Stage Direction": "A spaceship is travelling between star systems."
-                                },
-                                {
-                                    "Character": "HARDY",
-                                    "Line": "We shall be entering hyperspace in fifty seconds."
-                                },
-                                {
-                                    "Character": "STEWART",
-                                    "Line": "Do you know what I'd like?"
-                                }
-                            ]
-                        }
-                    ]
-                },
-                {
-                    "Episode": "Episode Two",
-                    "Acts": [
-                        {
-                            "Act": "Act One",
-                            "Scenes": [
-                                {
-                                    "Scene": "Control Room",
-                                    "Dialogue": [
-                                        {
-                                            "Stage Direction": "The control room buzzes with activity."
-                                        },
-                                        {
-                                            "Character": "CAPTAIN",
-                                            "Line": "Prepare for jump!"
-                                        }
-                                    ]
-                                }
-                            ]
-                        },
-                        {
-                            "Act": "Act Two",
-                            "Scenes": [
-                                {
-                                    "Scene": "Engine Room",
-                                    "Dialogue": [
-                                        {
-                                            "Stage Direction": "The engine room hums with power."
-                                        },
-                                        {
-                                            "Character": "TECHNICIAN",
-                                            "Line": "All systems are green."
-                                        }
-                                    ]
-                                }
-                            ]
-                        }
-                    ]
-                }
-            ]
-        }
-        context_documents = ""  # Or load default context if applicable
+            context_documents = load_context_documents(CONTEXT_FILES)
 
-    # Add support for context files, if provided
-    if len(sys.argv) > 2:  # Check for command line arguments for context files
-        context_documents = load_context_documents([Path(filepath) for filepath in sys.argv[2:]])
-    else:  # Use default context files, if they exist
-        context_documents = load_context_documents([Path(filepath) for filepath in CONTEXT_FILES if Path(filepath).exists()]) # Use list comprehension for safety
-    # Initialize GlobalContext with context documents
-    global_context = GlobalContext(context_documents)
-
-    # **ADD THIS CHECK: Skip processing if script_data is None (error already logged)**
+    # Skip processing if script_data is None
     if script_data is None:
         logging.error("No script data loaded. Aborting processing.")
         return
+
+    # Initialize GlobalContext with context documents
+    global_context = GlobalContext(context_documents)
 
     episodes = script_data.get("Episodes", [])
     processed_episodes = []
@@ -816,99 +1051,81 @@ async def main():
     logging.info("Starting episode processing (two-pass)...")
     for episode_index, episode in enumerate(episodes):
         logging.info(f"Processing episode {episode_index + 1}: {episode.get('Episode', 'Untitled Episode')}")
-        processed_episode = await process_episode(episode, global_context)  # process_episode now handles BOTH passes
+        processed_episode = await process_episode(episode, global_context)
         processed_episodes.append(processed_episode)
     logging.info("Finished episode processing.")
 
-    # --- Entity Reconciliation (after ALL episodes are processed) ---
+    # Entity Reconciliation
     logging.info("Starting entity reconciliation...")
-    await global_context.entity_registry.reconcile_entities()  # Await the async function
+    await global_context.entity_registry.reconcile_entities()
     logging.info("Entity reconciliation complete.")
 
-    # After processing episodes, attach them to the global context.
+    # Update agent affiliations
+    global_context.entity_registry.update_agent_affiliations()
+
+    # After processing episodes, attach them to the global context
     global_context.processed_episodes = processed_episodes
 
-    # --- Remapping (as a final safety net) ---
-    #Remove all the remapping - we have to resolve the core problem, not patch it
-    #logging.info("Starting remapping...")
-    #agent_name_to_uuid = global_context.entity_registry.get_agent_name_to_uuid_mapping()
-    #entity_registry = global_context.entity_registry
+    # Validation
+    logging.info("Starting validation...")
+    
+    # Run all validation checks
+    validation_results = [
+        validate_all_relationships(global_context),
+        validate_agent_affiliations(global_context.entity_registry),
+        validate_bidirectional_relationships(global_context.entity_registry),
+        validate_simple_references(global_context.entity_registry),
+        validate_organization_consistency(global_context.entity_registry)  # Add this
+    ]
+    
+    # Add scene-specific validations
+    for episode in global_context.processed_episodes:
+        for scene in episode["scenes"]:
+            validation_results.append(
+                validate_participation_references(
+                    scene["extracted_data"],
+                    global_context.entity_registry
+                )
+            )
+        validation_results.append(
+            validate_sequence_references(episode["scenes"])
+        )
 
-    #for episode in processed_episodes:
-    #    for scene in episode["scenes"]:
-    #        extracted_data = scene["extracted_data"]
+    # Combine all validation results
+    final_validation = ValidationResult(is_valid=True, errors=[], warnings=[])
+    for result in validation_results:
+        if not result.is_valid:
+            final_validation.is_valid = False
+            final_validation.errors.extend(result.errors)
+            final_validation.warnings.extend(result.warnings)
 
-            # Remap agent_participations
-    #        for participation in extracted_data["agent_participations"]:
-    #            if participation["agent"] in agent_name_to_uuid:
-    #                participation["agent"] = agent_name_to_uuid[participation["agent"]]
-    #            elif entity_registry.find_entity_by_uuid(participation["agent"]):
-    #              #If already a UUID, pass
-    #              pass
-    #            else:
-    #                logging.warning(f"Agent participation refers to unknown agent: {participation['agent']}")
-
-            # Remap object_involvements
-    #        for involvement in extracted_data["object_involvements"]:
-                # Check for name-based references and remap if possible
-    #            if involvement["object"] in {obj.name: obj.uuid for obj in entity_registry.objects.values()}:
-    #                involvement["object"] = {obj.name: obj.uuid for obj in entity_registry.objects.values()}[involvement["object"]]
-    #            elif entity_registry.find_entity_by_uuid(involvement["object"]):
-                    # If already a UUID, pass
-    #                pass
-    #            else:
-    #                logging.warning(f"Object involvement refers to unknown object: {involvement['object']}")
-
-
-            #Remap original owners in objects
-    #        for obj in entity_registry.objects.values():
-    #            if obj.original_owner:
-    #                if obj.original_owner in agent_name_to_uuid:
-    #                    obj.original_owner = agent_name_to_uuid[obj.original_owner]
-    #                elif entity_registry.find_entity_by_uuid(obj.original_owner):
-                        # If already a UUID, pass
-    #                    pass
-    #                else:
-    #                    logging.warning(f"Object refers to unknown original owner: {obj.original_owner}")
-
-            #Remap locations in scene metadata
-    #        metadata = extracted_data["metadata"]
-    #        if metadata.get("location"):
-    #            location_uuid = metadata["location"]
-
-    #            if location_uuid in {loc.name: loc.uuid for loc in entity_registry.locations.values()}:
-    #                metadata["location"] = {loc.name: loc.uuid for loc in entity_registry.locations.values()}[location_uuid]
-    #            elif entity_registry.find_entity_by_uuid(location_uuid):
-                    #If already a valid UUID, pass
-    #                pass
-    #            else:
-    #                logging.warning(f"Scene metadata refers to unknown location: {location_uuid}")
-
-
-    #logging.info("Remapping complete.")
-
-    # Validate the output (now that the global context contains the updated processed episodes)
-    logging.info("Validating extracted data...")
-    if validate_all(global_context):
-        logging.info("Validation successful.")
+    # Log validation results
+    if not final_validation.is_valid:
+        logging.warning("Validation found issues:")
+        for error in final_validation.errors:
+            logging.error(f"  - {error}")
+        for warning in final_validation.warnings:
+            logging.warning(f"  - {warning}")
     else:
-        logging.error("Validation failed. Check logs for details.")
+        logging.info("Validation successful.")
 
+    # Prepare final output
     final_output = {
         "story_title": script_data.get("Story", "Untitled Story"),
         "airdate": script_data.get("Airdate"),
-        "episodes": processed_episodes,  # Include processed episodes
-        "entity_registry": global_context.entity_registry.get_all_entities()
+        "episodes": processed_episodes,
+        "entity_registry": global_context.entity_registry.get_all_entities(),
+        "validation_results": {
+            "is_valid": final_validation.is_valid,
+            "errors": final_validation.errors,
+            "warnings": final_validation.warnings
+        }
     }
 
-    # Convert the output to a JSON-serializable format
+    # Convert to JSON-serializable format
     serializable_output = convert_to_serializable(final_output)
 
-    # Log the final output
-    logging.info("Final output:")
-    logging.info(json.dumps(serializable_output, indent=4))
-
-    # Write the output to a file
+    # Write output to file
     with open(OUTPUT_JSON_PATH, "w") as f:
         json.dump(serializable_output, f, indent=4)
     logging.info(f"Fabula processing complete. Output written to {OUTPUT_JSON_PATH}")
@@ -1134,6 +1351,7 @@ from thefuzz import fuzz
 from baml_client.types import Agent, Organization, Location, Object, ResolvedAgent, ResolvedOrganization, ResolvedLocation, ResolvedObject
 from utils import generate_uuid, normalize_identifier, normalize_name, normalize_for_matching, is_close_match
 from baml_client import b
+from collections import defaultdict
 
 class EntityRegistry:
     """
@@ -1146,88 +1364,54 @@ class EntityRegistry:
         self.organizations: Dict[str, Organization] = {}
         self.locations: Dict[str, Location] = {}
         self.objects: Dict[str, Object] = {}
+        self.processed_episodes: List[Dict[str, Any]] = []  # Initialize processed_episodes
+
 
     def register(self, entity: Any, entity_type: str) -> None:
         """Registers or merges an entity into the registry based on type."""
         logging.debug(f"Registering entity of type: {entity_type}")
         if entity_type == "agents":
-            self.register_agent(cast(Agent, entity))
+            self._register_agent(cast(Agent, entity))
         elif entity_type == "organizations":
-            self.register_organization(cast(Organization, entity))
+            self._register_organization(cast(Organization, entity))
         elif entity_type == "locations":
-            self.register_location(cast(Location, entity))
+            self._register_location(cast(Location, entity))
         elif entity_type == "objects":
-            self.register_object(cast(Object, entity))
+            self._register_object(cast(Object, entity))
         else:
             logging.error(f"Unknown entity type: {entity_type}")
             raise ValueError(f"Unknown entity type: {entity_type}")
 
-    def register_agent(self, agent: Agent) -> None:
+    def _register_agent(self, agent: Agent) -> None:
         """Registers or updates an agent, handling duplicates and orgs."""
-
-        identifier = agent.agent_id if agent.agent_id else agent.name
-        if not identifier:
-            logging.error("Agent must have a name or an agent_id.")
-            return
-
+        
         # 1. Check for existing agent by UUID (fastest and most reliable)
         existing_agent = self.find_entity_by_uuid(agent.uuid)
         if existing_agent:
-            logging.debug(f"Agent with UUID {agent.uuid} already exists. Merging...")
             self._merge_agent(existing_agent, agent)
-            return  # CRITICAL: Return after merging by UUID
+            return
 
-        # 2. Check for potential duplicates by name/aliases (using normalize_for_matching)
+        # 2. Check for potential duplicates by name/aliases using normalized matching
+        normalized_name = normalize_for_matching(agent.name)
         for existing_agent in self.agents.values():
-            if is_close_match(agent.name, existing_agent.name):
-                logging.debug(f"Potential duplicate agent found (name match). Merging...")
-                self._merge_agent(existing_agent, agent)
-                return # Return after merging
+            if is_close_match(normalized_name, normalize_for_matching(existing_agent.name)):
+                self._merge_agent(existing_agent, agent) 
+                return
+            
+            # Check aliases with normalized matching
             if hasattr(agent, "aliases") and agent.aliases:
                 for alias in agent.aliases:
-                    if is_close_match(alias, existing_agent.name):
-                        logging.debug(f"Potential duplicate agent found (alias match). Merging...")
+                    if is_close_match(normalize_for_matching(alias), 
+                                    normalize_for_matching(existing_agent.name)):
                         self._merge_agent(existing_agent, agent)
-                        return # Return after merging
+                        return
 
-        # 3. Add new agent to the registry
-        logging.debug(f"Adding new agent {agent.name} with UUID {agent.uuid}.")
+        # 3. Add new agent using UUID as key
+        logging.debug(f"Adding new agent {agent.name} (Agent ID: {agent.agent_id}) with UUID {agent.uuid} to registry.")
         key = agent.uuid # Use LLM UUID as the key
         self.agents[key] = agent
 
-    def _merge_agent(self, existing_agent: Agent, new_agent: Agent) -> None:
-        """Merges new agent data into the existing agent record, KEEPING EXISTING UUID."""
-        logging.debug(f"Merging agent {existing_agent.uuid} ({existing_agent.name}) with new data.")
-
-        # Prioritize existing values, but update if new data is present and different
-        if new_agent.name and new_agent.name != existing_agent.name:
-            logging.debug(f"Updating agent name from {existing_agent.name} to {new_agent.name}")
-            existing_agent.name = new_agent.name
-        if new_agent.title is not None and new_agent.title != existing_agent.title:
-            existing_agent.title = new_agent.title
-        if new_agent.description is not None and new_agent.description != existing_agent.description:
-            existing_agent.description = new_agent.description
-        if new_agent.traits:
-            existing_agent.traits = list(
-                set(existing_agent.traits or []) | set(new_agent.traits)
-            )
-        if new_agent.affiliated_org and new_agent.affiliated_org != existing_agent.affiliated_org:
-            existing_agent.affiliated_org = new_agent.affiliated_org
-        if new_agent.sphere_of_influence is not None and new_agent.sphere_of_influence != existing_agent.sphere_of_influence:
-            existing_agent.sphere_of_influence = new_agent.sphere_of_influence
-
-        # Merge aliases only if the attribute exists in both
-        if hasattr(existing_agent, "aliases") and hasattr(new_agent, "aliases"):
-            existing_agent.aliases = list(
-                set(existing_agent.aliases or []) | set(new_agent.aliases or [])
-            )
-
-    def get_agent(self, agent_id: str) -> Optional[Agent]:
-        """Retrieves an agent by its ID (using normalize_identifier)."""
-        return self.agents.get(agent_id)
-
-
-    def register_organization(self, org: Organization) -> None:
+    def _register_organization(self, org: Organization) -> None:
         """Registers or updates an organization."""
         logging.debug(f"Registering organization: {org.name}")
 
@@ -1250,29 +1434,7 @@ class EntityRegistry:
         key = org.uuid # Use LLM UUID for the key
         self.organizations[key] = org
 
-
-    def _merge_organization(self, existing_org: Organization, new_org: Organization) -> None:
-        """Merges new organization data into the existing record, KEEPING EXISTING UUID."""
-        logging.debug(f"Merging organization {existing_org.uuid} ({existing_org.name}) with new data.")
-
-        if new_org.name and new_org.name != existing_org.name:
-            logging.info(f"Updating org name from {existing_org.name} to {new_org.name}")
-            existing_org.name = new_org.name
-        if new_org.description is not None and new_org.description != existing_org.description:
-            existing_org.description = new_org.description
-        if new_org.sphere_of_influence and new_org.sphere_of_influence != "Unknown" and new_org.sphere_of_influence != existing_org.sphere_of_influence:
-            existing_org.sphere_of_influence = new_org.sphere_of_influence
-        if new_org.members:
-            existing_org.members = list(
-                set(existing_org.members or []) | set(new_org.members)
-            )
-
-    def get_organization(self, org_id: str) -> Optional[Organization]:
-        """Retrieves an organization by its ID."""
-        key = normalize_identifier(org_id)
-        return self.organizations.get(key)
-
-    def register_location(self, location: Location) -> None:
+    def _register_location(self, location: Location) -> None:
         """Registers or updates a location."""
         logging.debug(f"Registering location: {location.name}")
 
@@ -1295,23 +1457,7 @@ class EntityRegistry:
         key = location.uuid # Use the LLM UUID as the Key
         self.locations[key] = location
 
-    def _merge_location(self, existing_location: Location, new_location: Location) -> None:
-        """Merges new location data into the existing record, KEEPING EXISTING UUID."""
-        logging.debug(f"Merging location {existing_location.uuid} ({existing_location.name}) with new data.")
-        if new_location.name and new_location.name != existing_location.name:
-            logging.debug(f"Updating location name to {new_location.name}")
-            existing_location.name = new_location.name
-        if new_location.description is not None and new_location.description != existing_location.description:
-            existing_location.description = new_location.description
-        if new_location.type is not None and new_location.type != existing_location.type:
-            existing_location.type = new_location.type
-
-    def get_location(self, location_name: str) -> Optional[Location]:
-        """Retrieves a location by its name."""
-        key = normalize_identifier(location_name)
-        return self.locations.get(key)
-
-    def register_object(self, obj: Object) -> None:
+    def _register_object(self, obj: Object) -> None:
         """Registers or updates an object."""
         logging.debug(f"Registering object: {obj.name}")
 
@@ -1334,6 +1480,70 @@ class EntityRegistry:
         key = obj.uuid # Use LLM UUID as key
         self.objects[key] = obj
 
+    def _merge_agent(self, existing_agent: Agent, new_agent: Agent) -> None:
+        """Merges new agent data into existing agent record, preserving existing UUID."""
+        
+        logging.debug(f"Merging agent {existing_agent.uuid} with new data")
+        
+        # Core fields - take non-null new values
+        if new_agent.name and new_agent.name != existing_agent.name:
+            existing_agent.name = new_agent.name
+            logging.debug(f"Updated name to: {new_agent.name}")
+            
+        if new_agent.title and new_agent.title != existing_agent.title:
+            existing_agent.title = new_agent.title
+            
+        # Merge descriptions if both exist
+        if existing_agent.description and new_agent.description:
+            existing_agent.description = f"{existing_agent.description}\n{new_agent.description}"
+        elif new_agent.description:
+            existing_agent.description = new_agent.description
+            
+        # Merge traits as sets
+        if new_agent.traits:
+            existing_traits = set(existing_agent.traits or [])
+            new_traits = set(new_agent.traits)
+            existing_agent.traits = list(existing_traits | new_traits)
+            
+        # Organizational affiliation - prefer more specific over "Unknown"
+        if (new_agent.affiliated_org and 
+            new_agent.affiliated_org != "Unknown" and
+            new_agent.affiliated_org != existing_agent.affiliated_org):
+            existing_agent.affiliated_org = new_agent.affiliated_org
+            
+        # Merge aliases if present
+        if hasattr(existing_agent, "aliases") and hasattr(new_agent, "aliases"):
+            existing_aliases = set(existing_agent.aliases or [])
+            new_aliases = set(new_agent.aliases or [])
+            existing_agent.aliases = list(existing_aliases | new_aliases)
+
+    def _merge_organization(self, existing_org: Organization, new_org: Organization) -> None:
+        """Merges new organization data into the existing record, KEEPING EXISTING UUID."""
+        logging.debug(f"Merging organization {existing_org.uuid} ({existing_org.name}) with new data.")
+
+        if new_org.name and new_org.name != existing_org.name:
+            logging.info(f"Updating org name from {existing_org.name} to {new_org.name}")
+            existing_org.name = new_org.name
+        if new_org.description is not None and new_org.description != existing_org.description:
+            existing_org.description = new_org.description
+        if new_org.sphere_of_influence and new_org.sphere_of_influence != "Unknown" and new_org.sphere_of_influence != existing_org.sphere_of_influence:
+            existing_org.sphere_of_influence = new_org.sphere_of_influence
+        if new_org.members:
+            existing_org.members = list(
+                set(existing_org.members or []) | set(new_org.members)
+            )
+
+    def _merge_location(self, existing_location: Location, new_location: Location) -> None:
+        """Merges new location data into the existing record, KEEPING EXISTING UUID."""
+        logging.debug(f"Merging location {existing_location.uuid} ({existing_location.name}) with new data.")
+        if new_location.name and new_location.name != existing_location.name:
+            logging.debug(f"Updating location name to {new_location.name}")
+            existing_location.name = new_location.name
+        if new_location.description is not None and new_location.description != existing_location.description:
+            existing_location.description = new_location.description
+        if new_location.type is not None and new_location.type != existing_location.type:
+            existing_location.type = new_location.type
+
     def _merge_object(self, existing_obj: Object, new_obj: Object) -> None:
         """Merges new object data into the existing record, KEEPING EXISTING UUID."""
         logging.debug(f"Merging object {existing_obj.uuid} ({existing_obj.name}) with new data.")
@@ -1348,6 +1558,21 @@ class EntityRegistry:
             existing_obj.significance = new_obj.significance
         if new_obj.original_owner and new_obj.original_owner != existing_obj.original_owner:
             existing_obj.original_owner = new_obj.original_owner
+
+    def get_agent(self, agent_id: str) -> Optional[Agent]:
+        """Retrieves an agent by its ID (using normalize_identifier)."""
+        key = normalize_identifier(agent_id)
+        return self.agents.get(key)
+
+    def get_organization(self, org_id: str) -> Optional[Organization]:
+        """Retrieves an organization by its ID."""
+        key = normalize_identifier(org_id)
+        return self.organizations.get(key)
+
+    def get_location(self, location_name: str) -> Optional[Location]:
+        """Retrieves a location by its name."""
+        key = normalize_identifier(location_name)
+        return self.locations.get(key)
 
     def get_object(self, object_name: str) -> Optional[Object]:
         """Retrieves an object by its name."""
@@ -1421,9 +1646,10 @@ class EntityRegistry:
 
     async def reconcile_entities(self) -> None:
         """
-        Reconciles entities using LLM-assisted resolution.  Converts from
-        Resolved* types back to the original entity types.
+        Reconciles entities using LLM-assisted resolution.
         """
+        old_to_new_uuids = {}  # Track UUID changes during resolution
+        
         for entity_type in ["agents", "organizations", "locations", "objects"]:
             logging.info(f"Reconciling {entity_type}...")
             entities = list(getattr(self, entity_type).values())
@@ -1432,10 +1658,12 @@ class EntityRegistry:
                 logging.info(f"No {entity_type} to reconcile.")
                 continue
 
-            # Call the appropriate BAML resolution function
+            # Store old UUIDs before resolution
+            old_uuids = {entity.uuid for entity in entities}
+
+            # Existing resolution code...
             if entity_type == "agents":
                 resolved_entities = await b.ResolveAgentCluster(entities=entities)
-                # Convert ResolvedAgent back to Agent
                 new_registry = {
                     entity.uuid: Agent(
                         uuid=entity.uuid,
@@ -1452,7 +1680,6 @@ class EntityRegistry:
                 }
             elif entity_type == "organizations":
                 resolved_entities = await b.ResolveOrganizationCluster(entities=entities)
-                # Convert ResolvedOrganization back to Organization
                 new_registry = {
                     entity.uuid: Organization(
                         uuid=entity.uuid,
@@ -1465,7 +1692,6 @@ class EntityRegistry:
                 }
             elif entity_type == "locations":
                 resolved_entities = await b.ResolveLocationCluster(entities=entities)
-                # Convert ResolvedLocation back to Location
                 new_registry = {
                     entity.uuid: Location(
                         uuid=entity.uuid,
@@ -1477,7 +1703,6 @@ class EntityRegistry:
                 }
             elif entity_type == "objects":
                 resolved_entities = await b.ResolveObjectCluster(entities=entities)
-                # Convert ResolvedObject back to Object
                 new_registry = {
                     entity.uuid: Object(
                         uuid=entity.uuid,
@@ -1492,9 +1717,109 @@ class EntityRegistry:
             else:
                 raise ValueError(f"Unknown entity type: {entity_type}")
 
-            # Replace the existing entity list with the resolved and converted entities
+            # Track UUID changes
+            new_uuids = {entity.uuid for entity in resolved_entities}
+            for old_uuid in old_uuids:
+                # Find the corresponding new UUID through name matching
+                old_entity = next((e for e in entities if e.uuid == old_uuid), None)
+                if old_entity and hasattr(old_entity, 'name'):
+                    old_entity_name = normalize_for_matching(old_entity.name)
+                    new_entity = next((e for e in resolved_entities if hasattr(e, 'name') and normalize_for_matching(e.name) == old_entity_name), None)
+                    if new_entity:
+                        old_to_new_uuids[old_uuid] = new_entity.uuid
+                
+
             setattr(self, entity_type, new_registry)
             logging.info(f"Reconciliation of {entity_type} complete. {len(resolved_entities)} entities remain.")
+
+        # Update references using the collected UUID changes
+        if old_to_new_uuids:
+            logging.info(f"Updating {len(old_to_new_uuids)} entity references after resolution...")
+            self.update_references_after_resolution(old_to_new_uuids)
+
+    def update_agent_affiliations(self):
+        """
+        Updates agent affiliated_org fields to match reconciled organization UUIDs.
+        Also ensures bidirectional consistency with organization.members lists.
+        """
+        logging.info("Updating agent affiliations after organization reconciliation...")
+        
+        # Build maps for both exact and normalized matching
+        org_maps = {
+            'exact': {org.name: org.uuid for org in self.organizations.values()},
+            'normalized': {normalize_for_matching(org.name): org.uuid 
+                        for org in self.organizations.values()}
+        }
+
+        # Track which agents belong to which orgs for bidirectional updates
+        org_to_agents: Dict[str, Set[str]] = defaultdict(set)
+        
+        for agent in self.agents.values():
+            if not agent.affiliated_org:
+                continue
+                
+            # Try exact match first
+            new_uuid = org_maps['exact'].get(agent.affiliated_org)
+            
+            # If no exact match, try normalized match
+            if not new_uuid:
+                normalized_affiliation = normalize_for_matching(agent.affiliated_org)
+                new_uuid = org_maps['normalized'].get(normalized_affiliation)
+                
+            # If still no match, try fuzzy matching
+            if not new_uuid:
+                best_match = None
+                best_score = 0
+                for org_name, org_uuid in org_maps['normalized'].items():
+                    score = fuzz.ratio(normalized_affiliation, org_name)
+                    if score > 85 and score > best_score:  # Threshold of 85
+                        best_score = score
+                        best_match = org_uuid
+                new_uuid = best_match
+
+            if new_uuid:
+                if new_uuid != agent.affiliated_org:
+                    logging.debug(
+                        f"Updating agent {agent.name}'s affiliated_org from "
+                        f"{agent.affiliated_org} to {new_uuid}"
+                    )
+                    agent.affiliated_org = new_uuid
+                org_to_agents[new_uuid].add(agent.uuid)
+            else:
+                logging.warning(
+                    f"No organization match found for affiliation '{agent.affiliated_org}' "
+                    f"of agent '{agent.name}'"
+                )
+                agent.affiliated_org = None  # Clear invalid reference
+
+        # Update organization.members lists for bidirectional consistency
+        for org in self.organizations.values():
+            org.members = list(org_to_agents.get(org.uuid, set()))
+            
+        logging.info("Agent affiliations and organization members updated.")
+
+    def update_references_after_resolution(self, old_to_new_uuids: Dict[str, str]) -> None:
+        """Updates all entity references after resolution using a mapping of old->new UUIDs"""
+        for episode in self.processed_episodes:
+            for scene in episode["scenes"]:
+                for event in scene["extracted_data"]["events"]:
+                    # Update object involvement references
+                    updated_involvements = []
+                    for involvement_id in event["object_involvements"]:
+                        if involvement_id in old_to_new_uuids:
+                            updated_involvements.append(old_to_new_uuids[involvement_id])
+                        else:
+                            updated_involvements.append(involvement_id)
+                    event["object_involvements"] = updated_involvements
+                    
+                    # Update other entity references as needed
+                    if "agent_id" in event and event["agent_id"] in old_to_new_uuids:
+                        event["agent_id"] = old_to_new_uuids[event["agent_id"]]
+                    if "location_id" in event and event["location_id"] in old_to_new_uuids:
+                        event["location_id"] = old_to_new_uuids[event["location_id"]]
+                    if "organization_id" in event and event["organization_id"] in old_to_new_uuids:
+                        event["organization_id"] = old_to_new_uuids[event["organization_id"]]
+
 
 ----- File: ./utils.py -----
 # File: utils.py

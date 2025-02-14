@@ -6,10 +6,14 @@ __pycache__/
 # C extensions
 *.so
 
-# Private test data
-source_docs/doctor_who/
-source_docs/west_wing/
-source_docs/peep_show/
+# Private code
+utilities/
+.idx/
+.venv/
+baml_src/
+combined_code.txt
+episode_processing.log
+fabula_processing.log
 
 # Distribution / packaging
 .Python

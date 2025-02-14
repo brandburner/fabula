@@ -5,6 +5,7 @@ from thefuzz import fuzz
 from baml_client.types import Agent, Organization, Location, Object, ResolvedAgent, ResolvedOrganization, ResolvedLocation, ResolvedObject
 from utils import generate_uuid, normalize_identifier, normalize_name, normalize_for_matching, is_close_match
 from baml_client import b
+from collections import defaultdict
 
 class EntityRegistry:
     """
@@ -17,56 +18,25 @@ class EntityRegistry:
         self.organizations: Dict[str, Organization] = {}
         self.locations: Dict[str, Location] = {}
         self.objects: Dict[str, Object] = {}
+        self.processed_episodes: List[Dict[str, Any]] = []  # Initialize processed_episodes
+
 
     def register(self, entity: Any, entity_type: str) -> None:
         """Registers or merges an entity into the registry based on type."""
         logging.debug(f"Registering entity of type: {entity_type}")
         if entity_type == "agents":
-            self.register_agent(cast(Agent, entity))
+            self._register_agent(cast(Agent, entity))
         elif entity_type == "organizations":
-            self.register_organization(cast(Organization, entity))
+            self._register_organization(cast(Organization, entity))
         elif entity_type == "locations":
-            self.register_location(cast(Location, entity))
+            self._register_location(cast(Location, entity))
         elif entity_type == "objects":
-            self.register_object(cast(Object, entity))
+            self._register_object(cast(Object, entity))
         else:
             logging.error(f"Unknown entity type: {entity_type}")
             raise ValueError(f"Unknown entity type: {entity_type}")
 
-    # def register_agent(self, agent: Agent) -> None:
-    #     """Registers or updates an agent, handling duplicates and orgs."""
-
-    #     identifier = agent.agent_id if agent.agent_id else agent.name
-    #     if not identifier:
-    #         logging.error("Agent must have a name or an agent_id.")
-    #         return
-
-    #     # 1. Check for existing agent by UUID (fastest and most reliable)
-    #     existing_agent = self.find_entity_by_uuid(agent.uuid)
-    #     if existing_agent:
-    #         logging.debug(f"Agent with UUID {agent.uuid} already exists. Merging...")
-    #         self._merge_agent(existing_agent, agent)
-    #         return  # CRITICAL: Return after merging by UUID
-
-    #     # 2. Check for potential duplicates by name/aliases (using normalize_for_matching)
-    #     for existing_agent in self.agents.values():
-    #         if is_close_match(agent.name, existing_agent.name):
-    #             logging.debug(f"Potential duplicate agent found (name match). Merging...")
-    #             self._merge_agent(existing_agent, agent)
-    #             return # Return after merging
-    #         if hasattr(agent, "aliases") and agent.aliases:
-    #             for alias in agent.aliases:
-    #                 if is_close_match(alias, existing_agent.name):
-    #                     logging.debug(f"Potential duplicate agent found (alias match). Merging...")
-    #                     self._merge_agent(existing_agent, agent)
-    #                     return # Return after merging
-
-    #     # 3. Add new agent to the registry
-    #     logging.debug(f"Adding new agent {agent.name} with UUID {agent.uuid}.")
-    #     key = agent.uuid # Use LLM UUID as the key
-    #     self.agents[key] = agent
-
-    def register_agent(self, agent: Agent) -> None:
+    def _register_agent(self, agent: Agent) -> None:
         """Registers or updates an agent, handling duplicates and orgs."""
         
         # 1. Check for existing agent by UUID (fastest and most reliable)
@@ -91,34 +61,78 @@ class EntityRegistry:
                         return
 
         # 3. Add new agent using UUID as key
-        self.agents[agent.uuid] = agent
+        logging.debug(f"Adding new agent {agent.name} (Agent ID: {agent.agent_id}) with UUID {agent.uuid} to registry.")
+        key = agent.uuid # Use LLM UUID as the key
+        self.agents[key] = agent
 
-    # def _merge_agent(self, existing_agent: Agent, new_agent: Agent) -> None:
-    #     """Merges new agent data into the existing agent record, KEEPING EXISTING UUID."""
-    #     logging.debug(f"Merging agent {existing_agent.uuid} ({existing_agent.name}) with new data.")
+    def _register_organization(self, org: Organization) -> None:
+        """Registers or updates an organization."""
+        logging.debug(f"Registering organization: {org.name}")
 
-    #     # Prioritize existing values, but update if new data is present and different
-    #     if new_agent.name and new_agent.name != existing_agent.name:
-    #         logging.debug(f"Updating agent name from {existing_agent.name} to {new_agent.name}")
-    #         existing_agent.name = new_agent.name
-    #     if new_agent.title is not None and new_agent.title != existing_agent.title:
-    #         existing_agent.title = new_agent.title
-    #     if new_agent.description is not None and new_agent.description != existing_agent.description:
-    #         existing_agent.description = new_agent.description
-    #     if new_agent.traits:
-    #         existing_agent.traits = list(
-    #             set(existing_agent.traits or []) | set(new_agent.traits)
-    #         )
-    #     if new_agent.affiliated_org and new_agent.affiliated_org != existing_agent.affiliated_org:
-    #         existing_agent.affiliated_org = new_agent.affiliated_org
-    #     if new_agent.sphere_of_influence is not None and new_agent.sphere_of_influence != existing_agent.sphere_of_influence:
-    #         existing_agent.sphere_of_influence = new_agent.sphere_of_influence
+        # Check for existing by UUID
+        existing_org = self.find_entity_by_uuid(org.uuid)
+        if existing_org:
+            logging.debug(f"Organization with UUID {org.uuid} already exists. Merging...")
+            self._merge_organization(existing_org, org)
+            return
 
-    #     # Merge aliases only if the attribute exists in both
-    #     if hasattr(existing_agent, "aliases") and hasattr(new_agent, "aliases"):
-    #         existing_agent.aliases = list(
-    #             set(existing_agent.aliases or []) | set(new_agent.aliases or [])
-    #         )
+        # Check for potential duplicates by name (using normalize_for_matching)
+        for existing_org in self.organizations.values():
+            if is_close_match(org.name, existing_org.name):
+                logging.debug(f"Potential duplicate organization found (name match). Merging...")
+                self._merge_organization(existing_org, org)
+                return
+
+        # Add new organization
+        logging.debug(f"Adding new organization {org.name} with UUID {org.uuid}.")
+        key = org.uuid # Use LLM UUID for the key
+        self.organizations[key] = org
+
+    def _register_location(self, location: Location) -> None:
+        """Registers or updates a location."""
+        logging.debug(f"Registering location: {location.name}")
+
+        # Check by UUID
+        existing_location = self.find_entity_by_uuid(location.uuid)
+        if existing_location:
+            logging.debug(f"Location {location.name} exists. Merging...")
+            self._merge_location(existing_location, location)
+            return
+
+        # Check for duplicates by name
+        for existing_location in self.locations.values():
+            if is_close_match(location.name, existing_location.name):
+                 logging.debug(f"Potential duplicate location found (name match). Merging...")
+                 self._merge_location(existing_location, location)
+                 return
+
+        # Add new
+        logging.debug(f"Adding new location {location.name} to registry.")
+        key = location.uuid # Use the LLM UUID as the Key
+        self.locations[key] = location
+
+    def _register_object(self, obj: Object) -> None:
+        """Registers or updates an object."""
+        logging.debug(f"Registering object: {obj.name}")
+
+        # Check by UUID
+        existing_object = self.find_entity_by_uuid(obj.uuid)
+        if existing_object:
+            logging.debug(f"Object {obj.name} exists. Merging...")
+            self._merge_object(existing_object, obj)
+            return
+
+        # Check for duplicates by name
+        for existing_object in self.objects.values():
+            if is_close_match(obj.name, existing_object.name):
+                logging.debug(f"Potential duplicate object found (name match). Merging...")
+                self._merge_object(existing_object, obj)
+                return
+
+        # Add new
+        logging.debug(f"Adding new object {obj.name} to registry.")
+        key = obj.uuid # Use LLM UUID as key
+        self.objects[key] = obj
 
     def _merge_agent(self, existing_agent: Agent, new_agent: Agent) -> None:
         """Merges new agent data into existing agent record, preserving existing UUID."""
@@ -157,35 +171,6 @@ class EntityRegistry:
             new_aliases = set(new_agent.aliases or [])
             existing_agent.aliases = list(existing_aliases | new_aliases)
 
-        def get_agent(self, agent_id: str) -> Optional[Agent]:
-            """Retrieves an agent by its ID (using normalize_identifier)."""
-            return self.agents.get(agent_id)
-
-
-        def register_organization(self, org: Organization) -> None:
-            """Registers or updates an organization."""
-            logging.debug(f"Registering organization: {org.name}")
-
-            # Check for existing by UUID
-            existing_org = self.find_entity_by_uuid(org.uuid)
-            if existing_org:
-                logging.debug(f"Organization with UUID {org.uuid} already exists. Merging...")
-                self._merge_organization(existing_org, org)
-                return
-
-            # Check for potential duplicates by name (using normalize_for_matching)
-            for existing_org in self.organizations.values():
-                if is_close_match(org.name, existing_org.name):
-                    logging.debug(f"Potential duplicate organization found (name match). Merging...")
-                    self._merge_organization(existing_org, org)
-                    return
-
-            # Add new organization
-            logging.debug(f"Adding new organization {org.name} with UUID {org.uuid}.")
-            key = org.uuid # Use LLM UUID for the key
-            self.organizations[key] = org
-
-
     def _merge_organization(self, existing_org: Organization, new_org: Organization) -> None:
         """Merges new organization data into the existing record, KEEPING EXISTING UUID."""
         logging.debug(f"Merging organization {existing_org.uuid} ({existing_org.name}) with new data.")
@@ -202,34 +187,6 @@ class EntityRegistry:
                 set(existing_org.members or []) | set(new_org.members)
             )
 
-    def get_organization(self, org_id: str) -> Optional[Organization]:
-        """Retrieves an organization by its ID."""
-        key = normalize_identifier(org_id)
-        return self.organizations.get(key)
-
-    def register_location(self, location: Location) -> None:
-        """Registers or updates a location."""
-        logging.debug(f"Registering location: {location.name}")
-
-        # Check by UUID
-        existing_location = self.find_entity_by_uuid(location.uuid)
-        if existing_location:
-            logging.debug(f"Location {location.name} exists. Merging...")
-            self._merge_location(existing_location, location)
-            return
-
-        # Check for duplicates by name
-        for existing_location in self.locations.values():
-            if is_close_match(location.name, existing_location.name):
-                 logging.debug(f"Potential duplicate location found (name match). Merging...")
-                 self._merge_location(existing_location, location)
-                 return
-
-        # Add new
-        logging.debug(f"Adding new location {location.name} to registry.")
-        key = location.uuid # Use the LLM UUID as the Key
-        self.locations[key] = location
-
     def _merge_location(self, existing_location: Location, new_location: Location) -> None:
         """Merges new location data into the existing record, KEEPING EXISTING UUID."""
         logging.debug(f"Merging location {existing_location.uuid} ({existing_location.name}) with new data.")
@@ -240,34 +197,6 @@ class EntityRegistry:
             existing_location.description = new_location.description
         if new_location.type is not None and new_location.type != existing_location.type:
             existing_location.type = new_location.type
-
-    def get_location(self, location_name: str) -> Optional[Location]:
-        """Retrieves a location by its name."""
-        key = normalize_identifier(location_name)
-        return self.locations.get(key)
-
-    def register_object(self, obj: Object) -> None:
-        """Registers or updates an object."""
-        logging.debug(f"Registering object: {obj.name}")
-
-        # Check by UUID
-        existing_object = self.find_entity_by_uuid(obj.uuid)
-        if existing_object:
-            logging.debug(f"Object {obj.name} exists. Merging...")
-            self._merge_object(existing_object, obj)
-            return
-
-        # Check for duplicates by name
-        for existing_object in self.objects.values():
-            if is_close_match(obj.name, existing_object.name):
-                logging.debug(f"Potential duplicate object found (name match). Merging...")
-                self._merge_object(existing_object, obj)
-                return
-
-        # Add new
-        logging.debug(f"Adding new object {obj.name} to registry.")
-        key = obj.uuid # Use LLM UUID as key
-        self.objects[key] = obj
 
     def _merge_object(self, existing_obj: Object, new_obj: Object) -> None:
         """Merges new object data into the existing record, KEEPING EXISTING UUID."""
@@ -283,6 +212,21 @@ class EntityRegistry:
             existing_obj.significance = new_obj.significance
         if new_obj.original_owner and new_obj.original_owner != existing_obj.original_owner:
             existing_obj.original_owner = new_obj.original_owner
+
+    def get_agent(self, agent_id: str) -> Optional[Agent]:
+        """Retrieves an agent by its ID (using normalize_identifier)."""
+        key = normalize_identifier(agent_id)
+        return self.agents.get(key)
+
+    def get_organization(self, org_id: str) -> Optional[Organization]:
+        """Retrieves an organization by its ID."""
+        key = normalize_identifier(org_id)
+        return self.organizations.get(key)
+
+    def get_location(self, location_name: str) -> Optional[Location]:
+        """Retrieves a location by its name."""
+        key = normalize_identifier(location_name)
+        return self.locations.get(key)
 
     def get_object(self, object_name: str) -> Optional[Object]:
         """Retrieves an object by its name."""
@@ -356,9 +300,10 @@ class EntityRegistry:
 
     async def reconcile_entities(self) -> None:
         """
-        Reconciles entities using LLM-assisted resolution.  Converts from
-        Resolved* types back to the original entity types.
+        Reconciles entities using LLM-assisted resolution.
         """
+        old_to_new_uuids = {}  # Track UUID changes during resolution
+        
         for entity_type in ["agents", "organizations", "locations", "objects"]:
             logging.info(f"Reconciling {entity_type}...")
             entities = list(getattr(self, entity_type).values())
@@ -367,10 +312,12 @@ class EntityRegistry:
                 logging.info(f"No {entity_type} to reconcile.")
                 continue
 
-            # Call the appropriate BAML resolution function
+            # Store old UUIDs before resolution
+            old_uuids = {entity.uuid for entity in entities}
+
+            # Existing resolution code...
             if entity_type == "agents":
                 resolved_entities = await b.ResolveAgentCluster(entities=entities)
-                # Convert ResolvedAgent back to Agent
                 new_registry = {
                     entity.uuid: Agent(
                         uuid=entity.uuid,
@@ -387,7 +334,6 @@ class EntityRegistry:
                 }
             elif entity_type == "organizations":
                 resolved_entities = await b.ResolveOrganizationCluster(entities=entities)
-                # Convert ResolvedOrganization back to Organization
                 new_registry = {
                     entity.uuid: Organization(
                         uuid=entity.uuid,
@@ -400,7 +346,6 @@ class EntityRegistry:
                 }
             elif entity_type == "locations":
                 resolved_entities = await b.ResolveLocationCluster(entities=entities)
-                # Convert ResolvedLocation back to Location
                 new_registry = {
                     entity.uuid: Location(
                         uuid=entity.uuid,
@@ -412,7 +357,6 @@ class EntityRegistry:
                 }
             elif entity_type == "objects":
                 resolved_entities = await b.ResolveObjectCluster(entities=entities)
-                # Convert ResolvedObject back to Object
                 new_registry = {
                     entity.uuid: Object(
                         uuid=entity.uuid,
@@ -427,6 +371,105 @@ class EntityRegistry:
             else:
                 raise ValueError(f"Unknown entity type: {entity_type}")
 
-            # Replace the existing entity list with the resolved and converted entities
+            # Track UUID changes
+            new_uuids = {entity.uuid for entity in resolved_entities}
+            for old_uuid in old_uuids:
+                # Find the corresponding new UUID through name matching
+                old_entity = next((e for e in entities if e.uuid == old_uuid), None)
+                if old_entity and hasattr(old_entity, 'name'):
+                    old_entity_name = normalize_for_matching(old_entity.name)
+                    new_entity = next((e for e in resolved_entities if hasattr(e, 'name') and normalize_for_matching(e.name) == old_entity_name), None)
+                    if new_entity:
+                        old_to_new_uuids[old_uuid] = new_entity.uuid
+                
+
             setattr(self, entity_type, new_registry)
             logging.info(f"Reconciliation of {entity_type} complete. {len(resolved_entities)} entities remain.")
+
+        # Update references using the collected UUID changes
+        if old_to_new_uuids:
+            logging.info(f"Updating {len(old_to_new_uuids)} entity references after resolution...")
+            self.update_references_after_resolution(old_to_new_uuids)
+
+    def update_agent_affiliations(self):
+        """
+        Updates agent affiliated_org fields to match reconciled organization UUIDs.
+        Also ensures bidirectional consistency with organization.members lists.
+        """
+        logging.info("Updating agent affiliations after organization reconciliation...")
+        
+        # Build maps for both exact and normalized matching
+        org_maps = {
+            'exact': {org.name: org.uuid for org in self.organizations.values()},
+            'normalized': {normalize_for_matching(org.name): org.uuid 
+                        for org in self.organizations.values()}
+        }
+
+        # Track which agents belong to which orgs for bidirectional updates
+        org_to_agents: Dict[str, Set[str]] = defaultdict(set)
+        
+        for agent in self.agents.values():
+            if not agent.affiliated_org:
+                continue
+                
+            # Try exact match first
+            new_uuid = org_maps['exact'].get(agent.affiliated_org)
+            
+            # If no exact match, try normalized match
+            if not new_uuid:
+                normalized_affiliation = normalize_for_matching(agent.affiliated_org)
+                new_uuid = org_maps['normalized'].get(normalized_affiliation)
+                
+            # If still no match, try fuzzy matching
+            if not new_uuid:
+                best_match = None
+                best_score = 0
+                for org_name, org_uuid in org_maps['normalized'].items():
+                    score = fuzz.ratio(normalized_affiliation, org_name)
+                    if score > 85 and score > best_score:  # Threshold of 85
+                        best_score = score
+                        best_match = org_uuid
+                new_uuid = best_match
+
+            if new_uuid:
+                if new_uuid != agent.affiliated_org:
+                    logging.debug(
+                        f"Updating agent {agent.name}'s affiliated_org from "
+                        f"{agent.affiliated_org} to {new_uuid}"
+                    )
+                    agent.affiliated_org = new_uuid
+                org_to_agents[new_uuid].add(agent.uuid)
+            else:
+                logging.warning(
+                    f"No organization match found for affiliation '{agent.affiliated_org}' "
+                    f"of agent '{agent.name}'"
+                )
+                agent.affiliated_org = None  # Clear invalid reference
+
+        # Update organization.members lists for bidirectional consistency
+        for org in self.organizations.values():
+            org.members = list(org_to_agents.get(org.uuid, set()))
+            
+        logging.info("Agent affiliations and organization members updated.")
+
+    def update_references_after_resolution(self, old_to_new_uuids: Dict[str, str]) -> None:
+        """Updates all entity references after resolution using a mapping of old->new UUIDs"""
+        for episode in self.processed_episodes:
+            for scene in episode["scenes"]:
+                for event in scene["extracted_data"]["events"]:
+                    # Update object involvement references
+                    updated_involvements = []
+                    for involvement_id in event["object_involvements"]:
+                        if involvement_id in old_to_new_uuids:
+                            updated_involvements.append(old_to_new_uuids[involvement_id])
+                        else:
+                            updated_involvements.append(involvement_id)
+                    event["object_involvements"] = updated_involvements
+                    
+                    # Update other entity references as needed
+                    if "agent_id" in event and event["agent_id"] in old_to_new_uuids:
+                        event["agent_id"] = old_to_new_uuids[event["agent_id"]]
+                    if "location_id" in event and event["location_id"] in old_to_new_uuids:
+                        event["location_id"] = old_to_new_uuids[event["location_id"]]
+                    if "organization_id" in event and event["organization_id"] in old_to_new_uuids:
+                        event["organization_id"] = old_to_new_uuids[event["organization_id"]]

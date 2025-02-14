@@ -60,7 +60,7 @@ class Agent {
     aliases string[]? @description("Alternative names or titles used to refer to the agent.")
     description string @description("Comprehensive general (not scene-specific) character profile based on all known information in the story so far. This is an evergreen description but you'll keep adding to and revising it as the story progresses.")
     traits string[] @description("List of defining qualities and characteristics that describe the agent's personality, behavior, or abilities (e.g., 'Brave', 'Time Lord', 'Resourceful').")
-    affiliated_org string @description("The organization the agent appears to be officially associated with. Expressed as a unique identifier in snake_case, in the format 'org-{org_id}' of  (e.g., 'org-department_of_justice', 'org-time_lords', 'org-galactic_empire', 'org-library_of_congress'. Organization is broad and might include corporations, orchestras, universities, sports teams, alien empires, races, institutions or any other permanent or temporary collective bodies or gatherings.") @alias("affiliated_org_uuid")
+    affiliated_org string @description("The organization the agent appears to be officially associated with. Expressed as a unique identifier in snake_case, in the format 'org-{org_id}'") @alias("affiliated_org_uuid)
     sphere_of_influence string? @description("Primary domain, area, or field where the agent exerts their power or influence (e.g., 'Time Travel', 'Military Strategy').")
     @@dynamic
 }
@@ -195,6 +195,7 @@ function ExtractEvents(scene_text: string, story_context: string?, scene_number:
         3. **UUID Integrity**:
         - Ensure that all UUIDs for agents and objects correspond to valid entries in the provided `known_agents` and `known_objects` lists.
         - Do not introduce new UUIDs for known entities; reuse existing ones for consistency.
+        - Avoid using non-ASCII characters in entity names (especially for affiliated_org). Normalize or transliterate names to a standard character set.
 
         [EXAMPLE]
         {
@@ -238,12 +239,13 @@ function ExtractAgents(scene_text: string, story_context: string?, agent_name_to
 
         **Instructions**:
         1. **Identify Agents**: Find characters who speak, act, or are directly referenced. Do *not* treat groups (e.g., 'hostages') as Agents unless they have dialogue.
-        2. **Full Name**: Provide the full name (including surname) if known.
+        2. **Full Name**: Provide hhe most complete and and descriptive name as canonical for the 'name' property.
         3. **No Honorifics**: Do not use titles in names (e.g., 'James T. Kirk', not 'Captain Kirk'), except for cases like 'The Doctor'.
         4. **Affiliated Organization**: Select the UUID from the available organizations, or leave it null if the agent is not affiliated with any known organization.  (The available organizations are reflected in the expected output schema.)
         5. **Aliases**: Extract any alternative names used for the agent.
-        6. **UUID Mapping**: Use the `agent_name_to_uuid_mapping` to resolve agents to existing UUIDs if possible. If no match, create a new agent.
+        6. **UUID Mapping**: Use the `agent_name_to_uuid_mapping` to resolve agents to existing UUIDs if possible. If no match, create a new agent. Ensure uuid is correct and appropriately chosen. Avoid spelling out acronyms etc. in uuid labels.
         7. **agent_id**: Should follow snake_case conventions
+        8. **ASCII-only**: Avoid using non-ASCII characters in entity names (especially for affiliated_org). Normalize or transliterate names to a standard character set.
 
         [EXAMPLE]
         {
@@ -305,6 +307,7 @@ function ExtractObjects(scene_text: string, story_context: string?, scene_number
         2. **Never People**: Do *not* categorize people as objects. Groups of people are 'organizations'.
         3. **Description**: Provide a concise description of each object.
         4. **Original Owner**: Select the UUID of the original owner from the provided `agents` list. If the object has no original owner, leave the field null.
+        5. **ASCII-only**: Avoid using non-ASCII characters in entity names (especially for affiliated_org). Normalize or transliterate names to a standard character set.
 
         [EXAMPLE]
         {
@@ -459,6 +462,7 @@ function ExtractLocations(scene_text: string, story_context: string?, scene_numb
         2. **Specificity**: Prioritize specific rooms within larger buildings (e.g., "Situation Room" within the "White House").
         3. **Location vs. Object**: If an entity could be both, treat it as a location if it's a defined space where actions occur.
         4. **Description**: Provide a brief description if present.
+        5. **ASCII-only**: Avoid using non-ASCII characters in entity names (especially for affiliated_org). Normalize or transliterate names to a standard character set.
 
 
         [EXAMPLE]
@@ -494,13 +498,67 @@ function ExtractOrganizations(
     prompt #"
         {{ Narrative_analyst_persona ()}}
 
-        **Objective**: Extract details of organizations in the scene or referenced by agents.
+                **Objective**:
+        Extract comprehensive details of organizations appearing in the current scene (the provided `scene_text`) or the provided list of Known Agents (specifically their affiliated_org) and Known Organizations.
+        In the knowledge graph we are constructing, it is vital that each agent's 'affiliated_org' is modeled as complete Organization object, with a recriprocal connection via the Organization's member list.
+        For example if an agent has an affiliated_org like this:
+
+            "agent-nancy_mcnally": {
+                "uuid": "agent-nancy_mcnally",
+                "agent_id": "nancy_mcnally",
+                "name": "Nancy McNally",
+                "title": "National Security Advisor",
+                "description": "Nancy McNally is the National Security Advisor, responsible for the country's security policies and strategies. She is depicted as a strong and authoritative figure, capable of handling high-pressure situations with a steady hand. Her expertise in national security matters is complemented by her ability to maintain a commanding presence.",
+                "traits": [
+                    "Strategic",
+                    "Authoritative",
+                    "Concerned",
+                    "Experienced"
+                ],
+                "affiliated_org": "org-national_security_council",
+                "sphere_of_influence": "National Security"
+            },
+
+            then this should also exist as an extracted organization, even if it isn't explicitly mentioned in the scene:
+
+            "org-national_security_council": {
+                "uuid": "org-national_security_council",
+                "name": "National Security Council",
+                "description": "Advises the President on national security and foreign policy matters.",
+                "sphere_of_influence": "United States government and its foreign relations.",
+                "members": [
+                    "agent-nancy_mcnally"
+                ]
+            },
+
+        It's also fine for organizations that are referenced in passing to have no agent members, for example:
+
+            "org-serbian_paramilitary_group": {
+                "uuid": "org-serbian_paramilitary_group",
+                "name": "Serbian Paramilitary Group",
+                "description": "A paramilitary organization claiming responsibility for the attack on USAID workers.",
+                "sphere_of_influence": "Serbia and areas affected by its armed groups.",
+                "members": []
+            },
+
+        Organizations is a broad term and might include corporations, orchestras, universities, sports teams, alien empires, races, institutions or any other permanent or temporary collective bodies or gatherings that agents in our story are affiliated with, work for, represent, belong to etc., or otherwise appear significantly in the story.
+        
+        **Instructions**:
+        - An organization is typically a group or institution (e.g., a military unit, government body, or secret society).
+        - An organization may also be a temporary grouping of people (e.g. hostages, an angry crowd, or tour group)
+        - Generate a UUID for the organization in the format 'org-{name}' where 'name' is a normalized, lowercase version of the organization's name with words separated by underscores (e.g., 'org-entropy_syndicate', 'org-starfleet', 'org-department_of_justice').
+        - Include a short 'description' of the organization's role or purpose if stated or implied.
+        - **Identify members of each organization. Use the provided `known_agents` list and the scene text to determine which agents belong to each organization. List the members using their UUIDs (e.g., `agent-sarah_chen`).**
+        - If the provided information does not mention any type of organization, return an empty list.
+
+        **Objective**: Extract details of organizations represented in the scene or referenced by characters.
 
         **Instructions**:
         1. **Definition**: An organization is a group or institution (e.g., military unit, government body) or a less formal grouping (e.g., "protesters").
         2. **Description**: Provide a brief description of the organization's role.
         3. **Members**: List members using *valid UUIDs ONLY from the provided `agents` list*. Do *NOT* create new agent UUIDs.
         4. **Existing Organizations**: If an agent's `affiliated_org` refers to a known organization (in `organizations`), ensure the agent's UUID is in the organization's `members` list.
+        5. **ASCII-only**: Avoid using non-ASCII characters in entity names (especially for affiliated_org). Normalize or transliterate names to a standard character set.
 
         [EXAMPLE]
         {
@@ -548,7 +606,7 @@ class ResolvedAgent {
     aliases string[]? @description("Alternative names or titles used to refer to the agent.")
     description string @description("Comprehensive general (not scene-specific) character profile based on all known information in the story so far. This is an evergreen description but you'll keep adding to and revising it as the story progresses.")
     traits string[] @description("List of defining qualities and characteristics that describe the agent's personality, behavior, or abilities (e.g., 'Brave', 'Time Lord', 'Resourceful').")
-    affiliated_org string @description("The organization the agent appears to be officially associated with. Expressed as a unique identifier in snake_case, in the format 'org-{org_id}' of  (e.g., 'org-department_of_justice', 'org-time_lords', 'org-galactic_empire', 'org-library_of_congress'. Organization is broad and might include corporations, orchestras, universities, sports teams, alien empires, races, institutions or any other permanent or temporary collective bodies or gatherings.") @alias("affiliated_org_uuid")
+    affiliated_org string @description("The organization the agent appears to be officially associated with. Expressed as a unique identifier in snake_case, in the format 'org-{org_id}' - e.g., 'org-department_of_justice', 'org-time_lords', 'org-galactic_empire', 'org-library_of_congress'. Organization is broad and might include corporations, orchestras, universities, sports teams, alien empires, races, institutions or any other permanent or temporary collective bodies or gatherings.") @alias("affiliated_org_uuid")
     sphere_of_influence string? @description("Primary domain, area, or field where the agent exerts their power or influence (e.g., 'Time Travel', 'Military Strategy').")
     source_uuids string[]? @description("List of UUIDs of the original entities that were merged into this resolved entity.")
     @@dynamic
@@ -677,7 +735,9 @@ function ResolveObjectCluster(entities: Object[]) -> ResolvedObject[] {
         - Consider each provided object as a potential reference to a unique item.
         - Identify all unique objects present in the list.
         - For each unique object:
-            - Choose the most descriptive and specific name as canonical.
+            - Ensure the uuid is correct and appropriately chosen. Avoid spelling out acronyms etc. in uuid labels.
+            - Choose the most complete and and descriptive name as canonical for the 'name' property
+            - Normalize or transliterate names and uuids to a standard character set (ASCII or similar) where necessary.
             - Merge descriptions into a single cohesive, non-redundant description.
             - Combine purpose and significance fields if they provide distinct information; otherwise, choose the most informative one.
             - If multiple original_owner values are present, choose the most likely owner based on the context.
