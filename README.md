@@ -1,111 +1,122 @@
-# Fabula
+# Fabula: AI-Powered Narrative Analysis Engine
 
-Fabula is a Python-based project that models narrative drama using graph databases, specifically Neo4j with the Cypher query language. Inspired by the BBC's Mythology Engine ([BBC](https://www.bbc.com/rd/projects/mythology-engine?utm_source=chatgpt.com)), Fabula aims to represent complex narratives interactively and non-linearly, facilitating advanced narrative analysis and emergent storyline detection.
+Fabula is an AI-powered narrative analysis engine designed to extract structured, interconnected data from narrative texts (such as drama scripts and novels). By leveraging advanced LLM-driven extraction (via the BAML library) and a robust entity resolution pipeline, Fabula transforms unstructured narratives into a detailed knowledge graph—facilitating deep analysis of story structure, character development, events, and thematic elements.
 
-## Abstract
+## 🚧 Work in Progress
 
-In this project, we present a comprehensive approach to modeling narrative drama using graph databases. We address the challenges of representing complex narrative elements such as characters, events, scenes, timelines, and internal character states within a graph structure. By using the "Blink" episode from _Doctor Who_ as a test case, we develop a graph ontology that captures both the structural and dramatic aspects of the narrative. Our methodology balances detail with practicality, ensuring that the model remains both expressive and efficient. We provide reproducible code snippets and demonstrate how our model can be used to perform insightful queries, facilitating advanced narrative analysis.
+This project is actively under development. While core functionality is implemented, some features may be incomplete or subject to change.
 
 ## Features
 
-- **Entity Extraction**: Extracts entities from text using various methods.
-- **Entity Normalization**: Normalizes extracted entities for consistency.
-- **Scene Processing**: Processes scenes to model their structure and relationships.
-- **Graph Ontology**: Defines a graph-based ontology to represent narrative elements and their interconnections.
+- **LLM-Based Extraction**: Uses the BAML library to extract entities and events directly from narrative scenes
+- **Two-Pass Processing Pipeline**:
+  - First Pass: Extracts raw entities from scenes (even if duplicates exist)
+  - Second Pass: Extracts detailed scene metadata, events, and participations
+- **Dedicated Entity Resolution**: A post-processing module that reconciles and merges raw entity records based on consistent normalization and fuzzy matching
+- **Validation and Remapping**: Ensures that all relationships (e.g. character affiliations, event participations) are valid and correctly referenced
+- **Knowledge Graph Output**: Generates a JSON-serializable output that can be used for further analysis or visualization
+
+## Architecture
+
+### Processing Pipeline
+
+1. **Input Loading**:
+   - Narrative scripts are provided in JSON format
+   - Supporting context documents (e.g., a novelization text) are also loaded
+
+2. **Raw Entity Extraction (First Pass)**:
+   - Each episode and its scenes are processed
+   - Extracts:
+     - Locations
+     - Organizations
+     - Agents (Characters)
+     - Objects
+
+3. **Entity Resolution**:
+   - Resolves duplicate or similar entities
+   - Uses consistent normalization and fuzzy matching
+   - Maintains both raw and resolved registries
+
+4. **Event and Participation Extraction (Second Pass)**:
+   - Scene metadata
+   - Events
+   - Agent Participations
+   - Object Involvements
+
+5. **Validation and Output Generation**:
+   - Validates all references and relationships
+   - Generates final JSON knowledge graph
 
 ## Installation
 
-To get started with Fabula, clone the repository and install the required dependencies:
-
 ```bash
-git clone https://github.com/brandburner/fabula.git
-cd fabula
-# Install dependencies (e.g., Neo4j, Python libraries)
+# Dependencies will be specified in requirements.txt (coming soon)
+pip install -r requirements.txt
 ```
 
 ## Usage
 
-Provide examples of how to use your project. For instance:
-
 ```python
-# Example usage of Fabula
-from fabula import main
+# Basic usage (more detailed documentation coming soon)
+from main import main
+import asyncio
 
-# Describe how to use the main module or any other functionalities
+asyncio.run(main())
 ```
 
 ## Project Structure
 
-- `baml_client/`: [Describe the purpose of this directory]
-- `output/`: [Describe the purpose of this directory]
-- `source_docs/`: [Contains source documents used for entity extraction and scene processing]
-- `utilities/`: [Utility scripts and helper functions]
-- `entity_cleaners.py`: [Cleans and preprocesses entities]
-- `entity_extractors.py`: [Contains methods for entity extraction]
-- `entity_normalizer.py`: [Normalizes entities to a standard format]
-- `entity_registry.py`: [Manages the registry of entities]
-- `json_cypher.py`: [Handles JSON and Cypher operations]
-- `main.py`: [The main entry point of the application]
-- `post_processor.py`: [Post-processes data after initial processing]
-- `scene_processor.py`: [Processes scenes for analysis]
-- `utils.py`: [Utility functions used across the project]
+- `main.py`: Entry point and orchestration
+- `episode_processor.py`: Processes individual episodes
+- `scene_processor.py`: Handles scene-level extraction
+- `entity_registry.py`: Maintains entity collections and handles resolution
+- `validation.py`: Validates entity references and relationships
+- `context.py`: Manages global context and story state
+- `utils.py`: Utility functions for normalization and ID generation
 
-## Graph Ontology
+## Dependencies
 
-The graph ontology developed for Fabula includes:
+- BAML (for LLM interactions)
+- thefuzz (for fuzzy string matching)
+- Additional dependencies to be specified in requirements.txt
 
-### Node Types
+## Development Status
 
-- **Character**: Represents individuals or groups.
-- **Event**: Significant occurrences in the narrative.
-- **Scene**: Narrative segments containing events.
-- **Location**: Places where events occur.
-- **Object**: Items of significance.
-- **Timeline**: Represents chronological sequences or alternate realities.
+### Implemented
+- Core extraction pipeline
+- Entity resolution
+- Basic validation
+- JSON output generation
 
-### Relationship Types
+### In Progress
+- Enhanced entity resolution
+- Improved validation rules
+- Documentation
+- Test coverage
+- Requirements specification
 
-- **PARTICIPATES_IN**: Links characters to events.
-- **OCCURS_IN**: Associates events with scenes.
-- **LOCATED_AT**: Specifies where an event takes place.
-- **OWNS**: Represents object ownership.
-- **NEXT_EVENT**: Establishes chronological order.
-- **NEXT_SCENE**: Establishes narrative order.
-- **BELONGS_TO**: Assigns events to timelines.
-- **INTERACTS_WITH**: Captures interactions between characters.
-- **HAS_BELIEF**: Represents characters' beliefs at specific times.
-
-## Implementation
-
-Using the "Blink" episode as a test case, we implemented the graph ontology in Neo4j using Cypher queries. The implementation includes:
-
-- **Data Creation Script**: A Cypher script to create nodes and relationships representing the narrative elements.
-- **Modeling Decisions**: Strategies to simplify changes over time and ensure data integrity.
-
-## Results
-
-We demonstrate how the model can be used to perform insightful queries, such as:
-
-- Retrieving events in chronological order.
-- Listing scenes in narrative order.
-- Tracking ownership of significant objects.
-- Analyzing characters' beliefs over time.
-- Identifying events involving specific characters or groups.
+### Planned
+- Performance optimizations
+- Additional extraction types
+- Visualization tools
+- API documentation
+- Example notebooks
 
 ## Contributing
 
-Contributions are welcome! Please open an issue or submit a pull request for any improvements or suggestions.
+While this project is still in development, we welcome feedback and suggestions. Please open an issue to discuss potential changes.
 
 ## License
 
-[Specify the license under which your project is distributed.]
+[License details to be added]
 
-## References
+## Acknowledgements
 
-1. **BBC Mythology Engine**: ([BBC](https://www.bbc.com/rd/projects/mythology-engine))
-2. **Neo4j Documentation**: [https://neo4j.com/docs/](https://neo4j.com/docs/)
-3. **Belief-Desire-Intention Model**: Rao, A. S., & Georgeff, M. P. (1995). BDI Agents: From Theory to Practice.
+- BAML team for the extraction framework
+- [Additional acknowledgements to be added]
 
-```
+---
 
-Feel free to expand upon each section, especially the descriptions of each module and directory, to provide more detailed information about your project. o
+For more information or to report issues, please open a GitHub issue.
+
+Note: This README will be updated as development continues.
