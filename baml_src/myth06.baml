@@ -1,0 +1,693 @@
+// File: fabula_dev/myth06.baml
+// Jinja-like template syntax for baml python library
+// Defines classes, enums and functions to guide LLM output to strict schema alignment
+
+// Reusable template string for the narrative analyst persona
+template_string Narrative_analyst_persona #"
+  {{ _.role('system') }}
+    You are a world-class script editor, dramaturg, and narrative analyst, specializing in the structured dissection of drama scripts according to a well-defined ontology.
+
+    Your Expertise & Approach:
+    ✅ Narrative Mastery: You possess an encyclopedic knowledge of story structure, character development, thematic elements, and genre conventions, allowing you to conduct insightful, contextually accurate analyses.
+    ✅ Ontology-Driven Extraction: You meticulously extract entities, relationships, and narrative structures while strictly adhering to specified ontology rules and UUID formatting.
+    ✅ Fandom-Level Detail & Context Awareness: Your understanding of television shows, serialized storytelling, and worldbuilding extends beyond surface-level knowledge, enabling you to detect continuity, subtext, and intertextual references with precision.
+    ✅ Nuanced Language Interpretation: You excel at recognizing subtle shifts in tone, implicit information, and ambiguous references, ensuring they are correctly inferred but never misinterpreted outside the provided context.
+    ✅ Error Detection & Consistency: You diligently identify, flag, and resolve inconsistencies in extracted data, ensuring alignment with both internal narrative logic and established metadata constraints.
+    ✅ Justified Reasoning in Underspecified Cases: When encountering ambiguous or underspecified content, you apply reasoned, evidence-based assumptions grounded in narrative conventions—always ensuring transparency in your decision-making process.
+    ✅ Clarity, Precision, & Structure: Your responses are well-structured, concise, and explicitly aligned with provided guidelines, ensuring high-quality, repeatable analysis across scripts.
+
+    Your Commitment:
+    You are dedicated to delivering comprehensive, structured, and reliable narrative extractions, ensuring a rigorous yet adaptable approach to analyzing explicit and implicit storytelling elements with consistency and accuracy.
+"#
+
+// --- Classes ---
+
+class Episode {
+    title string @description("The official title of the episode, reflecting its central theme or key events. Example: 'Episode One - Fault Lines'.")
+    synopsis string @description("A brief summary outlining the main plot points and developments of the episode.")
+    episode_number int @description("The numerical order of the episode within the season or series. Example: 1 for the first episode.")
+    part_of_serial string @description("The name of the larger series or serial to which this episode belongs. Example: 'The West Wing'.")
+    @@dynamic
+}
+
+class Scene {
+    title string @description("The official title of the scene, capturing its primary focus or significant events. Example: 'Emergency at the Kosovo-Serbia Border'.")
+    description string @description("A detailed narrative summarizing the scene's setting, involved characters, and main actions. It should encapsulate the atmosphere and key occurrences.")
+    scene_number int @description("The numerical sequence of the scene within its respective episode. Example: 1 for the first scene in an episode.")
+    events string[] @description("An array of UUIDs representing the events that occur within this scene, listed in chronological order.")
+    location string? @description("The UUID of the primary location where the scene takes place. Follows the format 'location-<normalized_name>'. If the location is not identifiable, use 'location-unknown'.")
+    next_scene string? @description("The UUID of the subsequent scene in the narrative flow, following the format 'scene-XXX'. If there is no next scene, set to null.")
+    @@dynamic
+}
+
+class Event {
+    title string @description("The official title of the event, summarizing its essence. Example: 'Josh Lyman Enters Situation Room'.")
+    uuid string @description("Unique identifier for the event, following the format 'event-<scene_number>-<sequence_within_scene>'. Example: 'event-1-1'.")
+    description string @description("A comprehensive description detailing what happens during the event, including key actions and outcomes.")
+    sequence_within_scene int @description("The order of the event within its scene, starting from 1.")
+    key_dialogue string[] @description("An array of significant dialogue lines that are central to the event's occurrence or impact.")
+    agent_participations string[] @skip
+    object_involvements string[] @skip
+    next_event string? @description("The UUID of the next event in chronological order within the scene. If there is no subsequent event, set to null.")
+    @@dynamic
+}
+
+class Agent {
+    uuid string @description("Unique identifier for the agent in snake_case, in the format 'agent-{agent_id}', for example 'agent-josiah_bartlet', 'agent-eleventh_doctor', 'agent-she_ra'")
+    agent_id string @description("Unique identifier derived from the agent's name in snake_case")
+    name string @description("Full canonical name (including surname) of the dramatic agent (character) excluding title, rank or honorific")
+    title string? @description("Official or informal role, title, or designation held by the agent within the narrative (e.g., 'Doctor', 'UNIT Commander', 'President of the United States').")
+    aliases string[]? @description("Alternative names or titles used to refer to the agent.")
+    description string @description("Comprehensive general (not scene-specific) character profile based on all known information in the story so far. This is an evergreen description but you'll keep adding to and revising it as the story progresses.")
+    traits string[] @description("List of defining qualities and characteristics that describe the agent's personality, behavior, or abilities (e.g., 'Brave', 'Time Lord', 'Resourceful').")
+    affiliated_org string @description("The organization the agent appears to be officially associated with. Expressed as a unique identifier in snake_case, in the format 'org-{org_id}' of  (e.g., 'org-department_of_justice', 'org-time_lords', 'org-galactic_empire', 'org-library_of_congress'. Organization is broad and might include corporations, orchestras, universities, sports teams, alien empires, races, institutions or any other permanent or temporary collective bodies or gatherings.") @alias("affiliated_org_uuid")
+    sphere_of_influence string? @description("Primary domain, area, or field where the agent exerts their power or influence (e.g., 'Time Travel', 'Military Strategy').")
+    @@dynamic
+}
+
+class Organization {
+    uuid string @description("Unique identifier for the organization in snake_case, in the format 'org-{name}', for example 'org-time_lords' or 'org-galactic_empire'")
+    name string @description("Name of the organization.")
+    description string @description("Description of the organization's purpose and role.")
+    sphere_of_influence string @description("Area where the organization has influence.")
+    members string[]? @skip
+    @@dynamic
+}
+
+class Location {
+    uuid string @description("Unique identifier for the location in snake_case, in the format 'location-{name}', for example 'location-mos_eisley' or 'location-hogwarts_castle'")
+    name string @description("Name of the location.")
+    description string @description("Detailed description of the location's characteristics.")
+    type string @description("Type of location (e.g., City, Building, Planet, Office, Apartment).")
+    @@dynamic
+}
+
+class Object {
+    uuid string @description("Unique identifier for the object, following the format 'object-<normalized_name>'. Example: 'object-lcd_screens'.")
+    name string @description("The official name of the object. Example: 'LCD Screens'.")
+    description string @description("A detailed description of the object's nature, physical attributes, and role within the narrative.")
+    purpose string @description("The intended use or function of the object within the context of the narrative. Example: 'To visualize satellite imagery for briefings'.")
+    significance string @description("The narrative importance or symbolic meaning of the object. Example: 'Provides visual context for the Kosovo-Serbia situation'.")
+    original_owner string? @description("The UUID of the agent who originally owns the object, following the format 'agent-<agent_id>'. Example: 'agent-josh_lyman'. If no owner, set to null.")
+    @@dynamic
+}
+
+class AgentParticipation {
+    uuid string @description("Unique identifier for this agent's participation in an event in the format 'agentparticipation-{agent_uuid}-{event_uuid}' for example 'agentparticipation-agent-mark_corrigan-event-5-3'.")
+    agent string @description("UUID of the agent participating in the event.")
+    event string @description("UUID of the event.")
+    current_status string @description("What the agent is doing during the event.")
+    emotional_state string @description("Brief description of the agent's emotional disposition during the event.")
+    active_plans string[] @description("Brief description of the agent's active objectives or strategies in the context of the event.")
+    beliefs string[] @description("The agent's beliefs or convictions that influence their actions during the event.")
+    goals string[] @description("The agent's short-term and long-term goals related to the event.")
+    @@dynamic
+}
+
+class ObjectInvolvement {
+    uuid string @description("Unique identifier for this object's involvement in an event in the format 'objectinvolvement-{object_uuid}-{event_uuid}', for example 'objectinvolvement-object-melatrite_nebula-event-5-5'")
+    object string @description("UUID of the involved object.")
+    event string @description("UUID of the event where the object is involved.")
+    description_of_involvement string @description("Clear description of how the object is used or affected in the event, detailing its functional and narrative role.")
+    object_status_before_event string @description("Brief description of the object's state prior to the event.")
+    object_status_after_event string @description("Brief description of the object's state following the event.")
+    @@dynamic
+}
+
+class SceneMetadata {
+    uuid string? @description("Unique identifier for the scene.")
+    title string @description("Title of the scene.")
+    description string @description("Detailed description of the scene's setting and action.")
+    scene_number int? @description("Order of the scene within the episode.")
+    location string? @description("UUID of the primary location where this scene takes place.")
+    next_scene string? @description("UUID of the next scene in the narrative order (syuzhet).")
+}
+
+// --- Functions ---
+
+function ExtractSceneMetadata(scene_text: string, story_context: string?, scene_number: int, locations: Location[]) -> SceneMetadata {
+    client CustomGPT4oMini
+    prompt #"
+        {{ Narrative_analyst_persona ()}}
+
+        **Objective**: Extract metadata for the current scene.
+
+        **Instructions**:
+        1. **Title**: Generate a concise, descriptive title.
+        2. **Description**: Summarize the setting, characters, actions, and emotional tone.
+        3. **Scene Number**: Extract if explicitly mentioned; otherwise, leave null.
+        4. **Location**: Select the UUID of the primary location from the provided `locations` list. If not explicit, infer from `story_context`. If still unidentifiable, use 'location-unknown'.
+        5. **Next Scene**:  Identify any references to the next scene and assign its `scene_uuid`. If none, leave null.
+        6. **UUID**: This will be assigned in post processing.
+
+        **Known Locations**:
+        {% for loc in locations %}
+        - {{ loc.name }} ({{ loc.uuid }})
+        {% endfor %}
+
+        **Story Context**:
+        {{ story_context }}
+
+        {{ _.role('user') }}
+        **Scene to Analyze**:
+        Scene number {{ scene_number }}
+        {{ scene_text }}
+        <end of scene>
+
+        {{ ctx.output_format }}
+    "#
+}
+
+function ExtractEvents(scene_text: string, story_context: string?, scene_number: int) -> Event[] {
+    client CustomGPT4oMini
+    prompt #"
+        {{ Narrative_analyst_persona ()}}
+
+        **Objective**: Extract distinct events within the scene in chronological order.
+
+        **Instructions**:
+        Extract and detail each distinct event or occurrence within the current scene in chronological order. For each event, provide comprehensive information as outlined below:
+
+        1. **Event Identification**:
+        - **Chronological Order**: Ensure events are ordered based on their sequence of occurrence within the scene.
+        - **Distinctness**: Each event should represent a unique action, decision, or occurrence that advances the narrative.
+
+        2. **Event Details**:
+        - **Title**:
+            - Create a clear and descriptive title that encapsulates the essence of the event.
+        - **UUID**:
+            - Will be assigned in post-processing
+        - **Description**:
+            - Provide a detailed summary of the event, including key actions, decisions, and outcomes.
+        - **Sequence Within Scene**:
+            - Assign a numerical order to each event starting from 1.
+        - **Key Dialogue**:
+            - Extract significant lines of dialogue that are central to the event's occurrence or impact.
+            - Ensure each line is accurately attributed to the correct speaker and event.
+        - **Agent Participations**:
+            - List the UUIDs of agents participating in the event (e.g., `agent-josh_lyman`).
+        - **Object Involvements**:
+            - List the UUIDs of objects involved in the event (e.g., `object-tie`).
+        - **Next Event**:
+            - Assign the UUID of the subsequent event in chronological order (e.g., `event-1-2`).
+            - If there is no subsequent event, set this field to null.
+
+        3. **UUID Integrity**:
+        - Ensure that all UUIDs for agents and objects correspond to valid entries in the provided `known_agents` and `known_objects` lists.
+        - Do not introduce new UUIDs for known entities; reuse existing ones for consistency.
+
+        [EXAMPLE]
+        {
+        "title": "Nancy McNally Briefs the Staff",
+        "uuid": "event-1-2",
+        "description": "National Security Advisor Nancy McNally addresses the senior staff, notifying them about the four USAID workers who went missing near the Kosovo-Serbia border while conducting post-conflict assessments.",
+        "sequence_within_scene": 2,
+        "key_dialogue": [
+            "Four USAID workers went dark three hours ago near the Kosovo-Serbia border. They were conducting post-conflict reconstruction assessments when we lost contact."
+        ],
+        "agent_participations": [
+            "agent-nancy_mcnally"
+        ],
+        "object_involvements": [
+            "object-lcd_screens"
+        ],
+        "next_event": "event-1-3"
+        },
+        [/EXAMPLE]
+
+
+        **Story Context**:
+        {{ story_context }}
+
+        {{ _.role('user') }}
+        **Scene to Analyze**:
+        Scene number {{ scene_number }}
+        {{ scene_text }}
+        <end of scene>
+
+        {{ ctx.output_format }}
+    "#
+}
+
+function ExtractAgents(scene_text: string, story_context: string?, agent_name_to_uuid_mapping: map<string, string>, scene_number: int, organizations: Organization[]) -> Agent[] {
+    client CustomGPT4oMini
+    prompt #"
+        {{ Narrative_analyst_persona ()}}
+
+        **Objective**: Extract information about characters (agents) in the scene.
+
+        **Instructions**:
+        1. **Identify Agents**: Find characters who speak, act, or are directly referenced. Do *not* treat groups (e.g., 'hostages') as Agents unless they have dialogue.
+        2. **Full Name**: Provide the full name (including surname) if known.
+        3. **No Honorifics**: Do not use titles in names (e.g., 'James T. Kirk', not 'Captain Kirk'), except for cases like 'The Doctor'.
+        4. **Affiliated Organization**: Select the UUID from the available organizations, or leave it null if the agent is not affiliated with any known organization.  (The available organizations are reflected in the expected output schema.)
+        5. **Aliases**: Extract any alternative names used for the agent.
+        6. **UUID Mapping**: Use the `agent_name_to_uuid_mapping` to resolve agents to existing UUIDs if possible. If no match, create a new agent.
+        7. **agent_id**: Should follow snake_case conventions
+
+        [EXAMPLE]
+        {
+        "uuid": "agent-jeremy_usbourne",
+        "agent_id": "jeremy_usbourne",
+        "name": "Jeremy Usbourne",
+        "title": "Creative Entrepreneur",
+        "aliases": [
+            "Super Hans",
+            "Digital Prophet"
+        ],
+        "description": "Jeremy Usbourne is a failed musician turned creative entrepreneur who has embraced an unconventional approach to the corporate world. He is characterized by his exuberance and ability to charm others, often leveraging buzzwords and absurd concepts to elevate his status within the corporate environment.",
+        "traits": [
+            "Creative",
+            "Unconventional",
+            "Impulsive",
+            "Carefree",
+            "Confident",
+            "Ambitious",
+            "Impractical",
+            "Charismatic",
+            "Charming"
+        ],
+        "affiliated_org": "org-metricshift_digital_solutions",
+        "sphere_of_influence": "Corporate Innovation"
+        },
+        [/EXAMPLE]
+
+        **Story Context**:
+        {{ story_context }}
+    		**Known Organizations**:
+            {% for org in organizations %}
+            - {{ org.name }} ({{ org.uuid }})
+            {% endfor %}
+
+            {{ _.role('user') }}
+            **Existing Agents (Name to UUID Mapping)**:
+            {% for name in agent_name_to_uuid_mapping %}{{ name }}: {{ agent_name_to_uuid_mapping[name] }}
+            {% endfor %}
+
+            **Scene to Analyze**:
+            Scene number {{ scene_number }}
+            {{ scene_text }}
+            <end of scene>
+
+            {{ ctx.output_format }}
+        "#
+    }
+
+function ExtractObjects(scene_text: string, story_context: string?, scene_number: int, agents: Agent[]) -> Object[] {
+    client CustomGPT4oMini
+    prompt #"
+        {{ Narrative_analyst_persona ()}}
+
+        **Objective**: Extract details of noteworthy objects in the scene.
+
+        **Instructions**:
+        1. **Relevance**: Extract objects relevant to the story or explicitly mentioned.
+        2. **Never People**: Do *not* categorize people as objects. Groups of people are 'organizations'.
+        3. **Description**: Provide a concise description of each object.
+        4. **Original Owner**: Select the UUID of the original owner from the provided `agents` list. If the object has no original owner, leave the field null.
+
+        [EXAMPLE]
+        {
+        "uuid": "object-laptop",
+        "name": "Laptop",
+        "description": "A portable computer that Sam Seaborn uses to draft presidential addresses, featuring an illuminated screen displaying two documents.",
+        "purpose": "To draft presidential addresses regarding the current situation involving aid workers.",
+        "significance": "Symbolizes the pressure and urgency faced by staff in crisis situations, as well as the need for careful communication in political narratives.",
+        "original_owner": "agent-sam_seaborn",
+        },
+        [/EXAMPLE]
+
+        **Known Agents (for Original Owner)**:
+        {% for agent in agents %}
+        - {{ agent.name }} ({{ agent.uuid }}): affiliated_org = {{ agent.affiliated_org or 'None' }}
+        {% endfor %}
+
+        **Story Context**:
+        {{ story_context }}
+
+        {{ _.role('user') }}
+        **Scene to Analyze**:
+        Scene number {{ scene_number }}
+        {{ scene_text }}
+        <end of scene>
+
+        {{ ctx.output_format }}
+    "#
+}
+function ExtractAgentParticipations(scene_text: string, story_context: string?, event: Event, agents: Agent[], scene_number: int) -> AgentParticipation[] {
+  client CustomGPT4oMini
+  prompt #"
+    {{ Narrative_analyst_persona ()}}
+
+    **Objective**:
+    Use your dramatic analysis to provide a comprehensive picture of agents' participation in an event, including insight into their state of mind.
+
+    **Instructions**:
+    1. **Analyze Scene and Event**: Determine which agents participate in the event *within the current scene {{ scene_number }}*.
+    2. **AgentParticipation Object**: For each participation:
+       - `agent`: Select the UUID from the provided `agents` list. Do *NOT* invent new agent UUIDs.
+       -  `event`: Use the existing UUID of the provided 'event'
+       -  Fill out all other relevant properties
+    3. **UUID**: This will be assigned in post-processing.
+
+    [EXAMPLE]
+    {
+    "uuid": "participation-agent-jean_luc_picard-event-1-4",
+    "agent": "agent-jean_luc_picard",
+    "event": "event-1-4",
+    "current_status": "Commanding Ensign Taur to set course for investigation.",
+    "emotional_state": "Confident and resolute.",
+    "active_plans": [
+        "Initiate travel to Melatrite III",
+        "Explore the energy readings firsthand"
+    ],
+    "beliefs": [
+        "Proactive investigation will yield answers",
+        "The crew's safety and the mission's success are paramount"
+    ],
+    "goals": [
+        "Gather more data from Melatrite III",
+        "Ensure the crew is prepared for possible encounters"
+    ]
+    },
+    [/EXAMPLE]
+
+
+    **Story Context**:
+    {{ story_context }}
+
+    **Known Agents**:
+    {% for agent in agents %}
+    -  {{ agent.name }} ({{ agent.uuid }})
+    {% endfor %}
+
+    **Event Description**:
+    {{ event.description }}
+    **Event UUID:**
+    {{event.uuid}}
+
+    {{ _.role('user') }}
+    **Scene to Analyze**:
+    Scene number {{ scene_number }}
+    {{ scene_text }}
+    <end of scene>
+
+    {{ ctx.output_format }}
+  "#
+}
+
+function ExtractObjectInvolvements(scene_text: string, story_context: string?, event: Event, objects: Object[], scene_number: int) -> ObjectInvolvement[] {
+  client CustomGPT4oMini
+  prompt #"
+    {{ Narrative_analyst_persona ()}}
+
+    **Objective**:
+    Use your dramatic analysis to provide a comprehensive picture of objects' literal or subtextual involvement in an event, including who used it.
+
+    **Instructions**:
+    1. **Review Scene and Event**: Determine which objects are involved (directly or indirectly) *within the current scene {{ scene_number }}*.
+    2. **ObjectInvolvement Object**: For each object involved:
+        - `object`: Select the UUID from the provided `objects` list. Do *NOT* invent new object UUIDs.
+        - `event`: Use the existing UUID of the provided 'event'
+        - Fill out all other relevant properties.
+    3.  **UUID**: This will be assigned in post processing.
+
+    [EXAMPLE]
+    {
+    "uuid": "involvement-object-varga_thorn-event-2-12",
+    "object": "object-varga_thorn",
+    "event": "event-2-12",
+    "description_of_involvement": "Marc Cory examines Garvey's body and discovers a Varga thorn embedded in Garvey's flesh, identifying the cause of his transformation.",
+    "object_status_before_event": "The Varga thorn was embedded in Jeff Garvey's flesh, unnoticed.",
+    "object_status_after_event": "The Varga thorn is removed from Garvey's body during the examination."
+     },
+     [/EXAMPLE]
+
+    **Story Context**:
+    {{ story_context }}
+
+    **Event Description**:
+    {{ event.description }}
+    **Event UUID:**
+    {{event.uuid}}
+
+    {{ _.role('user') }}
+
+    **Known Objects (if any)**:
+    {% for object in objects %}
+    - {{ object.name }} ({{ object.uuid }})
+    {% endfor %}
+
+    **Scene to Analyze**:
+    Scene number {{ scene_number }}
+    {{ scene_text }}
+    <end of scene>
+
+    {{ ctx.output_format }}
+  "#
+}
+
+function ExtractLocations(scene_text: string, story_context: string?, scene_number: int) -> Location[] {
+   client CustomGPT4oMini
+   prompt #"
+       {{ Narrative_analyst_persona ()}}
+
+       **Objective**: Detail the principal location and other significant places.
+
+       **Instructions**:
+        1. **References**: Look for places (rooms, cities, planets, etc.) in dialogue and stage directions.
+        2. **Specificity**: Prioritize specific rooms within larger buildings (e.g., "Situation Room" within the "White House").
+        3. **Location vs. Object**: If an entity could be both, treat it as a location if it's a defined space where actions occur.
+        4. **Description**: Provide a brief description if present.
+
+
+        [EXAMPLE]
+        {
+        "name": "Steam Pipe Trunk Distribution Venue",
+        "type": "Scene Location",
+        "description": "A windowless office space occupied by staff members amidst an atmosphere of tension and urgency. It contains remnants of intense work, such as crumpled papers and empty coffee cups, reflecting the pressure of the situation. The space serves as a backdrop for significant discussions and emotional exchanges related to the ongoing crises.",
+        "uuid": "location-steam_pipe_trunk_distribution_venue"
+        },
+        [/EXAMPLE]
+
+       **Story Context**:
+       {{ story_context }}
+
+       {{ _.role('user') }}
+       **Scene to Analyze**:
+       Scene number {{ scene_number }}
+       {{ scene_text }}
+        <end of scene>
+
+       {{ ctx.output_format }}
+   "#
+}
+
+function ExtractOrganizations(
+    scene_number: int,
+    scene_text: string,
+    story_context: string?,
+    agents: Agent[],
+    organizations: Organization[]
+) -> Organization[] {
+    client CustomGPT4oMini
+    prompt #"
+        {{ Narrative_analyst_persona ()}}
+
+        **Objective**: Extract details of organizations in the scene or referenced by agents.
+
+        **Instructions**:
+        1. **Definition**: An organization is a group or institution (e.g., military unit, government body) or a less formal grouping (e.g., "protesters").
+        2. **Description**: Provide a brief description of the organization's role.
+        3. **Members**: List members using *valid UUIDs ONLY from the provided `agents` list*. Do *NOT* create new agent UUIDs.
+        4. **Existing Organizations**: If an agent's `affiliated_org` refers to a known organization (in `organizations`), ensure the agent's UUID is in the organization's `members` list.
+
+        [EXAMPLE]
+        {
+        "uuid": "org-entropy_syndicate",
+        "name": "Entropy Syndicate",
+        "description": "The Entropy Syndicate is a clandestine group adept in temporal espionage, aiming to manipulate and exploit temporal technologies for their gain. They orchestrated a sophisticated attack on the Quantum Archive to procure secrets of the Time War.",
+        "sphere_of_influence": "Hostile Acquisitions and Temporal Warfare",
+        "members": [
+            "agent-director_malik",
+            "agent-coordinator_voss"
+        ]
+        },
+        [/EXAMPLE]
+
+        **Story Context**:
+        {{ story_context }}
+
+        **Known Agents (if any)**:
+        {% for agent in agents %}
+        - {{ agent.name }} ({{ agent.uuid }}): affiliated_org = {{ agent.affiliated_org or 'None' }}
+        {% endfor %}
+
+        **Known Organizations (if any)**:
+        {% for org in organizations %}
+        - {{ org.name }} ({{ org.uuid }})
+        {% endfor %}
+
+        {{ _.role('user') }}
+        **Scene to Analyze**:
+        Scene number {{ scene_number }}
+        {{ scene_text }}
+        <end of scene>
+
+        {{ ctx.output_format }}
+    "#
+}
+
+// Entity Resolution Stage
+
+class ResolvedAgent {
+    uuid string @description("Unique identifier for the agent in snake_case, derived from their name excluding title, honorific or rank, in the format 'agent-{agent_id}', for example 'agent-josiah_bartlet', 'agent-jean_luc_picard', 'agent-she_ra' Special exceptions for cases where the character's name *is* a title, such as 'agent-darth_vader'")
+    agent_id string @description("Unique identifier derived from the agent's name in snake_case")
+    name string @description("Full canonical name (including surname) of the dramatic agent (character) if you know it.")
+    title string? @description("Official or informal role, title, or designation held by the agent within the narrative (e.g., 'Doctor', 'UNIT Commander', 'President of the United States', 'Lieutenant Commander').")
+    aliases string[]? @description("Alternative names or titles used to refer to the agent.")
+    description string @description("Comprehensive general (not scene-specific) character profile based on all known information in the story so far. This is an evergreen description but you'll keep adding to and revising it as the story progresses.")
+    traits string[] @description("List of defining qualities and characteristics that describe the agent's personality, behavior, or abilities (e.g., 'Brave', 'Time Lord', 'Resourceful').")
+    affiliated_org string @description("The organization the agent appears to be officially associated with. Expressed as a unique identifier in snake_case, in the format 'org-{org_id}' of  (e.g., 'org-department_of_justice', 'org-time_lords', 'org-galactic_empire', 'org-library_of_congress'. Organization is broad and might include corporations, orchestras, universities, sports teams, alien empires, races, institutions or any other permanent or temporary collective bodies or gatherings.") @alias("affiliated_org_uuid")
+    sphere_of_influence string? @description("Primary domain, area, or field where the agent exerts their power or influence (e.g., 'Time Travel', 'Military Strategy').")
+    source_uuids string[]? @description("List of UUIDs of the original entities that were merged into this resolved entity.")
+    @@dynamic
+}
+
+class ResolvedOrganization {
+    uuid string @description("Unique identifier for the organization in snake_case, in the format 'org-{name}', for example 'org-time_lords', 'org-galactic_empire', 'org-united_federation_of_planets'")
+    name string @description("Name of the organization.")
+    description string @description("Description of the organization's purpose and role.")
+    sphere_of_influence string @description("Area where the organization has influence.")
+    members string[]? @description("List of UUIDs of agents who are members of this organization.")
+    source_uuids string[]? @description("List of UUIDs of the original entities that were merged into this resolved entity.")
+    @@dynamic
+}
+
+class ResolvedObject {
+    uuid string @description("Unique identifier for the object, following the format 'object-<normalized_name>'. Example: 'object-lcd_screens'.")
+    name string @description("The official name of the object. Example: 'LCD Screens'.")
+    description string @description("A detailed description of the object's nature, physical attributes, and role within the narrative.")
+    purpose string @description("The intended use or function of the object within the context of the narrative. Example: 'To visualize satellite imagery for briefings'.")
+    significance string @description("The narrative importance or symbolic meaning of the object. Example: 'Provides visual context for the Kosovo-Serbia situation'.")
+    original_owner string? @description("The UUID of the agent who originally owns the object, following the format 'agent-<agent_id>'. Example: 'agent-josh_lyman'. If no owner, set to null.")
+    source_uuids string[]? @description("List of UUIDs of the original entities that were merged into this resolved entity.")
+    @@dynamic
+}
+
+class ResolvedLocation {
+    uuid string @description("Unique identifier for the location in snake_case, in the format 'location-{name}', for example 'location-mos_eisley' or 'location-hogwarts_castle'")
+    name string @description("Name of the location.")
+    description string @description("Detailed description of the location's characteristics.")
+    type string @description("Type of location (e.g., City, Building, Planet, Office, Apartment).")
+    source_uuids string[]? @description("List of UUIDs of the original entities that were merged into this resolved entity.")
+    @@dynamic
+}
+
+function ResolveAgentCluster(entities: Agent[]) -> ResolvedAgent[] {
+    client CustomGPT4oMini
+    prompt #"
+        {{ Narrative_analyst_persona ()}}
+
+        **Objective**:
+        Disambiguate and resolve a list of Agent entities, identifying all unique agents present.
+
+        **Instructions**:
+        - Consider each provided agent as a potential reference to a unique character.
+        - Identify all unique agents present in the list.
+        - For each unique agent:
+            - Choose the most complete name as canonical.  Prefer names with surnames.
+            - Merge descriptions into a single cohesive, non-redundant description.
+            - Combine traits.
+            - If an affiliated_org is mentioned, choose the most relevant one.
+            - If multiple sphere_of_influence values appear, pick the most representative one.
+            - Do NOT include a source_uuids field.
+        - Return a list of all resolved unique agents.
+
+        Input Agents:
+        {{ entities }}
+
+        ______
+        {{ ctx.output_format }}
+    "#
+}
+
+function ResolveOrganizationCluster(entities: Organization[]) -> ResolvedOrganization[] {
+    client CustomGPT4oMini
+    prompt #"
+        {{ Narrative_analyst_persona ()}}
+
+        **Objective**:
+        Disambiguate and resolve a list of Organization entities, identifying all unique organizations.
+
+        **Instructions**:
+        - Consider each provided organization as a potential reference to a unique group or institution.
+        - Identify all unique organizations present in the list.
+        - For each unique organization:
+            - Choose the most complete and descriptive name as canonical.
+            - Merge descriptions into a single cohesive, non-redundant description.
+            - Combine member lists, removing duplicates.
+            - If multiple sphere_of_influence values appear, pick the most representative one.
+            - Do NOT include a source_uuids field.
+        - Return a list of all resolved unique organizations.
+
+        Input Organizations:
+        {{ entities }}
+
+        ______
+        {{ ctx.output_format }}
+    "#
+}
+
+function ResolveLocationCluster(entities: Location[]) -> ResolvedLocation[] {
+    client CustomGPT4oMini
+    prompt #"
+        {{ Narrative_analyst_persona ()}}
+
+        **Objective**:
+        Disambiguate and resolve a list of Location entities, identifying all unique locations.
+
+        **Instructions**:
+        - Consider each provided location as a potential reference to a unique place.
+        - Identify all unique locations present in the list.
+        - For each unique location:
+            - Choose the most specific and descriptive name as canonical (e.g., "White House Situation Room" is preferred over "White House").
+            - Merge descriptions into a single cohesive, non-redundant description.
+            - Combine location types, if applicable.
+            - Do NOT include a source_uuids field.
+        - Return a list of all resolved unique locations.
+
+        Input Locations:
+        {{ entities }}
+
+        ______
+        {{ ctx.output_format }}
+    "#
+}
+
+function ResolveObjectCluster(entities: Object[]) -> ResolvedObject[] {
+    client CustomGPT4oMini
+    prompt #"
+        {{ Narrative_analyst_persona ()}}
+
+        **Objective**:
+        Disambiguate and resolve a list of Object entities, identifying all unique objects.
+
+        **Instructions**:
+        - Consider each provided object as a potential reference to a unique item.
+        - Identify all unique objects present in the list.
+        - For each unique object:
+            - Choose the most descriptive and specific name as canonical.
+            - Merge descriptions into a single cohesive, non-redundant description.
+            - Combine purpose and significance fields if they provide distinct information; otherwise, choose the most informative one.
+            - If multiple original_owner values are present, choose the most likely owner based on the context.
+            - Do NOT include a source_uuids field.
+        - Return a list of all resolved unique objects.
+
+        Input Objects:
+        {{ entities }}
+
+        ______
+        {{ ctx.output_format }}
+    "#
+}

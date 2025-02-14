@@ -20,9 +20,9 @@ from baml_py.type_builder import TypeBuilder as _TypeBuilder, ClassPropertyBuild
 class TypeBuilder(_TypeBuilder):
     def __init__(self):
         super().__init__(classes=set(
-          ["Agent","AgentParticipation","CastCrew","Continuity","Episode","EpisodePlot","Event","HomeRelease","Location","Object","ObjectInvolvement","OntoMediaEntities","OntoMediaScene","Organization","Person","Rating","Ratings","Release","ResolvedAgent","ResolvedLocation","ResolvedObject","ResolvedOrganization","Resume","Scene","SceneMetadata","StoryMetadata","StoryNotes","WikiData","Worldbuilding",]
+          ["Agent","AgentParticipation","Episode","Event","Location","Object","ObjectInvolvement","Organization","ResolvedAgent","ResolvedLocation","ResolvedObject","ResolvedOrganization","Resume","Scene","SceneMetadata",]
         ), enums=set(
-          ["MediaType",]
+          []
         ))
 
 
@@ -76,8 +76,26 @@ class TypeBuilder(_TypeBuilder):
 
     
     @property
-    def Person(self) -> "PersonBuilder":
-        return PersonBuilder(self)
+    def ResolvedAgent(self) -> "ResolvedAgentBuilder":
+        return ResolvedAgentBuilder(self)
+
+
+    
+    @property
+    def ResolvedLocation(self) -> "ResolvedLocationBuilder":
+        return ResolvedLocationBuilder(self)
+
+
+    
+    @property
+    def ResolvedObject(self) -> "ResolvedObjectBuilder":
+        return ResolvedObjectBuilder(self)
+
+
+    
+    @property
+    def ResolvedOrganization(self) -> "ResolvedOrganizationBuilder":
+        return ResolvedOrganizationBuilder(self)
 
 
     
@@ -93,7 +111,7 @@ class AgentBuilder:
     def __init__(self, tb: _TypeBuilder):
         _tb = tb._tb # type: ignore (we know how to use this private attribute)
         self.__bldr = _tb.class_("Agent")
-        self.__properties: typing.Set[str] = set([ "uuid",  "agent_id",  "name",  "title",  "description",  "traits",  "affiliated_org",  "sphere_of_influence", ])
+        self.__properties: typing.Set[str] = set([ "uuid",  "agent_id",  "name",  "title",  "aliases",  "description",  "traits",  "affiliated_org",  "sphere_of_influence", ])
         self.__props = AgentProperties(self.__bldr, self.__properties)
 
     def type(self) -> FieldType:
@@ -133,6 +151,10 @@ class AgentProperties:
     @property
     def title(self) -> ClassPropertyBuilder:
         return ClassPropertyBuilder(self.__bldr.property("title"))
+
+    @property
+    def aliases(self) -> ClassPropertyBuilder:
+        return ClassPropertyBuilder(self.__bldr.property("aliases"))
 
     @property
     def description(self) -> ClassPropertyBuilder:
@@ -391,7 +413,7 @@ class ObjectBuilder:
     def __init__(self, tb: _TypeBuilder):
         _tb = tb._tb # type: ignore (we know how to use this private attribute)
         self.__bldr = _tb.class_("Object")
-        self.__properties: typing.Set[str] = set([ "uuid",  "name",  "description",  "purpose",  "significance",  "original_owner",  "event_involvements", ])
+        self.__properties: typing.Set[str] = set([ "uuid",  "name",  "description",  "purpose",  "significance",  "original_owner", ])
         self.__props = ObjectProperties(self.__bldr, self.__properties)
 
     def type(self) -> FieldType:
@@ -439,10 +461,6 @@ class ObjectProperties:
     @property
     def original_owner(self) -> ClassPropertyBuilder:
         return ClassPropertyBuilder(self.__bldr.property("original_owner"))
-
-    @property
-    def event_involvements(self) -> ClassPropertyBuilder:
-        return ClassPropertyBuilder(self.__bldr.property("event_involvements"))
 
     def __getattr__(self, name: str) -> ClassPropertyBuilder:
         if name not in self.__properties:
@@ -561,18 +579,18 @@ class OrganizationProperties:
             raise AttributeError(f"Property {name} not found.")
         return ClassPropertyBuilder(self.__bldr.property(name))
 
-class PersonBuilder:
+class ResolvedAgentBuilder:
     def __init__(self, tb: _TypeBuilder):
         _tb = tb._tb # type: ignore (we know how to use this private attribute)
-        self.__bldr = _tb.class_("Person")
-        self.__properties: typing.Set[str] = set([ "name",  "role", ])
-        self.__props = PersonProperties(self.__bldr, self.__properties)
+        self.__bldr = _tb.class_("ResolvedAgent")
+        self.__properties: typing.Set[str] = set([ "uuid",  "agent_id",  "name",  "title",  "aliases",  "description",  "traits",  "affiliated_org",  "sphere_of_influence",  "source_uuids", ])
+        self.__props = ResolvedAgentProperties(self.__bldr, self.__properties)
 
     def type(self) -> FieldType:
         return self.__bldr.field()
 
     @property
-    def props(self) -> "PersonProperties":
+    def props(self) -> "ResolvedAgentProperties":
         return self.__props
     
     def list_properties(self) -> typing.List[typing.Tuple[str, ClassPropertyBuilder]]:
@@ -583,7 +601,7 @@ class PersonBuilder:
             raise ValueError(f"Property {name} already exists.")
         return ClassPropertyBuilder(self.__bldr.property(name).type(type))
 
-class PersonProperties:
+class ResolvedAgentProperties:
     def __init__(self, cls_bldr: ClassBuilder, properties: typing.Set[str]):
         self.__bldr = cls_bldr
         self.__properties = properties
@@ -591,12 +609,218 @@ class PersonProperties:
     
 
     @property
+    def uuid(self) -> ClassPropertyBuilder:
+        return ClassPropertyBuilder(self.__bldr.property("uuid"))
+
+    @property
+    def agent_id(self) -> ClassPropertyBuilder:
+        return ClassPropertyBuilder(self.__bldr.property("agent_id"))
+
+    @property
     def name(self) -> ClassPropertyBuilder:
         return ClassPropertyBuilder(self.__bldr.property("name"))
 
     @property
-    def role(self) -> ClassPropertyBuilder:
-        return ClassPropertyBuilder(self.__bldr.property("role"))
+    def title(self) -> ClassPropertyBuilder:
+        return ClassPropertyBuilder(self.__bldr.property("title"))
+
+    @property
+    def aliases(self) -> ClassPropertyBuilder:
+        return ClassPropertyBuilder(self.__bldr.property("aliases"))
+
+    @property
+    def description(self) -> ClassPropertyBuilder:
+        return ClassPropertyBuilder(self.__bldr.property("description"))
+
+    @property
+    def traits(self) -> ClassPropertyBuilder:
+        return ClassPropertyBuilder(self.__bldr.property("traits"))
+
+    @property
+    def affiliated_org(self) -> ClassPropertyBuilder:
+        return ClassPropertyBuilder(self.__bldr.property("affiliated_org"))
+
+    @property
+    def sphere_of_influence(self) -> ClassPropertyBuilder:
+        return ClassPropertyBuilder(self.__bldr.property("sphere_of_influence"))
+
+    @property
+    def source_uuids(self) -> ClassPropertyBuilder:
+        return ClassPropertyBuilder(self.__bldr.property("source_uuids"))
+
+    def __getattr__(self, name: str) -> ClassPropertyBuilder:
+        if name not in self.__properties:
+            raise AttributeError(f"Property {name} not found.")
+        return ClassPropertyBuilder(self.__bldr.property(name))
+
+class ResolvedLocationBuilder:
+    def __init__(self, tb: _TypeBuilder):
+        _tb = tb._tb # type: ignore (we know how to use this private attribute)
+        self.__bldr = _tb.class_("ResolvedLocation")
+        self.__properties: typing.Set[str] = set([ "uuid",  "name",  "description",  "type",  "source_uuids", ])
+        self.__props = ResolvedLocationProperties(self.__bldr, self.__properties)
+
+    def type(self) -> FieldType:
+        return self.__bldr.field()
+
+    @property
+    def props(self) -> "ResolvedLocationProperties":
+        return self.__props
+    
+    def list_properties(self) -> typing.List[typing.Tuple[str, ClassPropertyBuilder]]:
+        return [(name, ClassPropertyBuilder(self.__bldr.property(name))) for name in self.__properties]
+
+    def add_property(self, name: str, type: FieldType) -> ClassPropertyBuilder:
+        if name in self.__properties:
+            raise ValueError(f"Property {name} already exists.")
+        return ClassPropertyBuilder(self.__bldr.property(name).type(type))
+
+class ResolvedLocationProperties:
+    def __init__(self, cls_bldr: ClassBuilder, properties: typing.Set[str]):
+        self.__bldr = cls_bldr
+        self.__properties = properties
+
+    
+
+    @property
+    def uuid(self) -> ClassPropertyBuilder:
+        return ClassPropertyBuilder(self.__bldr.property("uuid"))
+
+    @property
+    def name(self) -> ClassPropertyBuilder:
+        return ClassPropertyBuilder(self.__bldr.property("name"))
+
+    @property
+    def description(self) -> ClassPropertyBuilder:
+        return ClassPropertyBuilder(self.__bldr.property("description"))
+
+    @property
+    def type(self) -> ClassPropertyBuilder:
+        return ClassPropertyBuilder(self.__bldr.property("type"))
+
+    @property
+    def source_uuids(self) -> ClassPropertyBuilder:
+        return ClassPropertyBuilder(self.__bldr.property("source_uuids"))
+
+    def __getattr__(self, name: str) -> ClassPropertyBuilder:
+        if name not in self.__properties:
+            raise AttributeError(f"Property {name} not found.")
+        return ClassPropertyBuilder(self.__bldr.property(name))
+
+class ResolvedObjectBuilder:
+    def __init__(self, tb: _TypeBuilder):
+        _tb = tb._tb # type: ignore (we know how to use this private attribute)
+        self.__bldr = _tb.class_("ResolvedObject")
+        self.__properties: typing.Set[str] = set([ "uuid",  "name",  "description",  "purpose",  "significance",  "original_owner",  "source_uuids", ])
+        self.__props = ResolvedObjectProperties(self.__bldr, self.__properties)
+
+    def type(self) -> FieldType:
+        return self.__bldr.field()
+
+    @property
+    def props(self) -> "ResolvedObjectProperties":
+        return self.__props
+    
+    def list_properties(self) -> typing.List[typing.Tuple[str, ClassPropertyBuilder]]:
+        return [(name, ClassPropertyBuilder(self.__bldr.property(name))) for name in self.__properties]
+
+    def add_property(self, name: str, type: FieldType) -> ClassPropertyBuilder:
+        if name in self.__properties:
+            raise ValueError(f"Property {name} already exists.")
+        return ClassPropertyBuilder(self.__bldr.property(name).type(type))
+
+class ResolvedObjectProperties:
+    def __init__(self, cls_bldr: ClassBuilder, properties: typing.Set[str]):
+        self.__bldr = cls_bldr
+        self.__properties = properties
+
+    
+
+    @property
+    def uuid(self) -> ClassPropertyBuilder:
+        return ClassPropertyBuilder(self.__bldr.property("uuid"))
+
+    @property
+    def name(self) -> ClassPropertyBuilder:
+        return ClassPropertyBuilder(self.__bldr.property("name"))
+
+    @property
+    def description(self) -> ClassPropertyBuilder:
+        return ClassPropertyBuilder(self.__bldr.property("description"))
+
+    @property
+    def purpose(self) -> ClassPropertyBuilder:
+        return ClassPropertyBuilder(self.__bldr.property("purpose"))
+
+    @property
+    def significance(self) -> ClassPropertyBuilder:
+        return ClassPropertyBuilder(self.__bldr.property("significance"))
+
+    @property
+    def original_owner(self) -> ClassPropertyBuilder:
+        return ClassPropertyBuilder(self.__bldr.property("original_owner"))
+
+    @property
+    def source_uuids(self) -> ClassPropertyBuilder:
+        return ClassPropertyBuilder(self.__bldr.property("source_uuids"))
+
+    def __getattr__(self, name: str) -> ClassPropertyBuilder:
+        if name not in self.__properties:
+            raise AttributeError(f"Property {name} not found.")
+        return ClassPropertyBuilder(self.__bldr.property(name))
+
+class ResolvedOrganizationBuilder:
+    def __init__(self, tb: _TypeBuilder):
+        _tb = tb._tb # type: ignore (we know how to use this private attribute)
+        self.__bldr = _tb.class_("ResolvedOrganization")
+        self.__properties: typing.Set[str] = set([ "uuid",  "name",  "description",  "sphere_of_influence",  "members",  "source_uuids", ])
+        self.__props = ResolvedOrganizationProperties(self.__bldr, self.__properties)
+
+    def type(self) -> FieldType:
+        return self.__bldr.field()
+
+    @property
+    def props(self) -> "ResolvedOrganizationProperties":
+        return self.__props
+    
+    def list_properties(self) -> typing.List[typing.Tuple[str, ClassPropertyBuilder]]:
+        return [(name, ClassPropertyBuilder(self.__bldr.property(name))) for name in self.__properties]
+
+    def add_property(self, name: str, type: FieldType) -> ClassPropertyBuilder:
+        if name in self.__properties:
+            raise ValueError(f"Property {name} already exists.")
+        return ClassPropertyBuilder(self.__bldr.property(name).type(type))
+
+class ResolvedOrganizationProperties:
+    def __init__(self, cls_bldr: ClassBuilder, properties: typing.Set[str]):
+        self.__bldr = cls_bldr
+        self.__properties = properties
+
+    
+
+    @property
+    def uuid(self) -> ClassPropertyBuilder:
+        return ClassPropertyBuilder(self.__bldr.property("uuid"))
+
+    @property
+    def name(self) -> ClassPropertyBuilder:
+        return ClassPropertyBuilder(self.__bldr.property("name"))
+
+    @property
+    def description(self) -> ClassPropertyBuilder:
+        return ClassPropertyBuilder(self.__bldr.property("description"))
+
+    @property
+    def sphere_of_influence(self) -> ClassPropertyBuilder:
+        return ClassPropertyBuilder(self.__bldr.property("sphere_of_influence"))
+
+    @property
+    def members(self) -> ClassPropertyBuilder:
+        return ClassPropertyBuilder(self.__bldr.property("members"))
+
+    @property
+    def source_uuids(self) -> ClassPropertyBuilder:
+        return ClassPropertyBuilder(self.__bldr.property("source_uuids"))
 
     def __getattr__(self, name: str) -> ClassPropertyBuilder:
         if name not in self.__properties:

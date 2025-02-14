@@ -1,0 +1,300 @@
+// ------------------------ Core Entity Classes ------------------------
+
+// Represents a character or entity capable of intentional actions within the narrative.
+class Agent {
+    agent_id string @description("Unique identifier derived from the agent's name in snake_case (e.g., josiah_bartlet, eleventh_doctor).")
+    name string @description("Full canonical name of the dramatic agent (character).")
+    title string? @description("Official or informal role, title, or designation held by the agent within the narrative (e.g., 'Doctor', 'UNIT Commander').")
+    description string @description("Comprehensive character description based on known information, including background, personality, and key attributes.")
+    traits string[] @description("List of defining qualities and characteristics that describe the agent's personality, behavior, or abilities (e.g., 'Brave', 'Time Lord', 'Resourceful').")
+    affiliated_org string? @description("Canonical name of the organization or body the agent is officially associated with or represents (e.g., 'UNIT', 'Gallifrey').")
+    sphere_of_influence string? @description("Primary domain, area, or field where the agent exerts their power or influence (e.g., 'Time Travel', 'Military Strategy').")
+}
+
+// Represents an organization or entity that agents can be affiliated with.
+class Organization {
+    organization_id string @description("Unique identifier derived from the organization's name in snake_case (e.g., skynet, u_n_i_t).")
+    name string @description("Canonical name of the organization.")
+    description string @description("Purpose, mission, and nature of the organization, detailing its role within the narrative.")
+    sphere_of_influence string? @description("Primary domain, area, or field where the organization exerts its power or influence (e.g., 'Global Surveillance', 'Alien Affairs').")
+}
+
+// Represents an object or artifact within the narrative.
+class Object {
+    object_id string @description("Unique identifier derived from the object's name in snake_case (e.g., flux_capacitor, maltese_falcon).")
+    name string @description("Canonical name of the object.")
+    description string @description("Physical characteristics, functionalities, and any special attributes or abilities of the object.")
+    sphere_of_influence string? @description("Primary domain or area where the object holds significance or power (e.g., 'Time Manipulation', 'Weaponry').")
+    significance string? @description("Symbolic meaning or practical importance of the object within the story (e.g., 'Represents hope', 'Essential for time travel').")
+    owner string? @description("Name of the current possessor, controller, or primary user of the object, if applicable.")
+}
+
+// Represents a location or setting within the narrative.
+class Location {
+    location_id string @description("Unique identifier derived from the location's name in snake_case (e.g., tower_bridge, earth).")
+    name string @description("Distinctive and canonical name identifying this place.")
+    description string @description("Physical characteristics, atmosphere, and any notable features that define the location.")
+    sphere_of_influence string? @description("Primary domain or area where the location holds significance or influence (e.g., 'Temporal Vortex', 'Cybermen Base').")
+}
+
+// Represents the current state and intentions of an agent.
+class AgentStatus {
+    agent_name string @description("Full canonical name of the dramatic agent (character).")
+    current_status string @description("Current physical, mental, or social state of the agent (e.g., 'Arriving in London', 'Under Mind Control').")
+    active_plans string[] @description("List of ongoing plans, objectives, or missions the agent is actively pursuing.")
+    beliefs string[] @description("List of current beliefs, convictions, or ideologies held by the agent.")
+    goals string[] @description("List of active objectives or targets the agent aims to achieve.")
+}
+
+// Represents a significant line of dialogue within an event or scene.
+class KeyDialogue {
+    speaker string @description("Full canonical name of the agent delivering the dialogue.")
+    line string @description("The actual spoken dialogue line.")
+    significance string @description("Explanation of why this dialogue is important or its impact on the narrative (e.g., reveals a secret, motivates a character).")
+}
+
+// Represents a specific event within a scene, detailing its components and interactions.
+class OntoMediaEvent {
+    event_id int @description("Unique numerical identifier for the event.")
+    sequence int @description("Sequence number indicating the chronological order of the event within the scene.") @assert({{ this > 0 }})
+    description string @description("Detailed description of what happened during the event.")
+    agents_involved string[] @description("List of agent_ids representing the agents involved in the event.")
+    participant_mental_states AgentStatus[] @description("List of AgentStatus objects capturing the mental and emotional states of participating agents during the event.")
+    object_involved Object? @description("Object involved in the event, if applicable (e.g., 'sonic_screwdriver').")
+    event_causes string[] @description("List of event_ids representing events that caused this event.")
+    event_caused_by string[] @description("List of event_ids representing events that are consequences or results of this event.")
+    key_dialogue KeyDialogue[] @description("List of KeyDialogue objects capturing significant dialogues associated with the event.")
+}
+
+// Represents a scene within the narrative, encompassing its setting and contained events.
+class OntoMediaScene {
+    sequence int @description("Sequence number indicating the chronological order of the scene within the story.") @assert({{ this > 0 }})
+    title string @description("Title of the scene, summarizing its main focus or event.") @assert({{ this|length > 0 }})
+    time_reference string @description("Reference point within the story's timeline indicating when this scene occurs (e.g., 'Year 3000', 'During the Cybermen Invasion').")
+    space Location @description("Location object representing where the scene takes place.")
+    events OntoMediaEvent[] @description("List of OntoMediaEvent objects that occur within the scene.")
+}
+
+// Aggregates all entities extracted from a scene for easy access and processing.
+class OntoMediaEntities {
+    agents Agent[] @description("List of Agent objects representing all agents present or mentioned in the scene.")
+    organizations Organization[] @description("List of Organization objects representing all organizations involved or referenced in the scene.")
+    objects Object[] @description("List of Object objects representing all objects present or mentioned in the scene.")
+    locations Location[] @description("List of Location objects representing all locations involved or mentioned in the scene.")
+}
+
+function ExtractEntities(scene_text: string, story_context: string?) -> OntoMediaEntities {
+  // Implementation using your BAML client (e.g., GPT4o)
+  client CustomGPT4o
+  prompt #"
+    {{ _.role('system') }}
+    You are an expert script supervisor and dramaturg with decades of experience in breaking down television scripts for production and analysis. Your expertise includes tracking scene continuity, character presence, and narrative progression. Focus on extracting the essential elements of this scene. Be precise and economical - each element should serve a clear narrative purpose.
+
+    Guidelines:
+    IMPORTANT: Use the story_context for background but report only on the current scene.
+
+    - Agents: (Dramatic) agents are the characters in the story. Prefer full names except where the character is known for a specific appelation. Don't include honorifics ('President', 'Captain' etc. where these may be covered by role), unless it is what the character is principally known as (e.g. 'The Ninth Doctor')
+    - Locations: Use most specific form that maintains clarity
+    - Organizations: Preserve full official names
+    - Objects: Use most commonly referenced form
+
+    Consult story_context material where names are not explicit in the scene dialogue
+    ---
+    {{ _.role("user") }}
+    Story context materials: {{ story_context }}
+    {{ _.role("user",cache_control={"type": "ephemeral"}) }}
+
+
+    Scene to analyze:
+    {{ scene_text }}
+    <end of scene>
+    ---
+
+    {# special macro to print the output instructions. #}
+    {{ ctx.output_format }}
+
+    JSON:
+  "#
+}
+
+function ExtractScene(scene_text: string, story_context: string?) -> OntoMediaScene {
+  // Implementation using your BAML client (e.g., Gemini)
+  client CustomGPT4o
+  prompt #"
+    {{ _.role('system') }}
+    You are an expert script supervisor and dramaturg with decades of experience in breaking down television scripts for production and analysis. Your expertise includes tracking scene continuity, character presence, and narrative progression. Focus on extracting the essential elements of this scene. Be precise and economical - each element should serve a clear narrative purpose.
+
+    Guidelines:
+    IMPORTANT: Use the story_context for background but report only on the current scene.
+
+    1. NAMES AND TITLES:
+    - Use the most complete form as canonical (e.g., "Gordon Lowery" over "Lowery")
+    - Preserve meaningful titles (e.g., "Representative Malpha" over "Malpha" for formal contexts), but don't include honorifics ('President', 'Captain' etc. where these may be covered by role), unless it is what the character is principally known as (e.g. 'The Ninth Doctor')
+    - Consider character roles and status
+
+    2. ENTITY TYPES:
+    - Agents: (Dramatic) agents are the characters in the story.
+    - Locations: Use most specific form that maintains clarity
+    - Organizations: Preserve full official names
+    - Objects: Use most commonly referenced form
+
+    Location Details:
+    - Capture both the physical space and its narrative significance
+    - Note any location transitions within the scene
+    - Consider how the environment affects character interactions
+
+    Events and Timeline:
+    - List events in strict chronological order
+    - Each event should have clear causation
+    - Focus on actions that advance the plot or reveal character
+    - Use consistent names for characters
+
+    Conflicts:
+    - Identify both explicit and implicit conflicts
+    - Consider internal, interpersonal, and institutional conflicts
+
+    Character Tracking:
+    - List ALL present characters, including background or briefly present ones
+    - Note when characters enter or exit the scene
+    - Include non-speaking but significant presence (e.g., Secret Service)
+
+    ---
+    {{ _.role("user") }}
+    Story context materials: {{ story_context }}
+    {{ _.role("user",cache_control={"type": "ephemeral"}) }}
+
+
+    Scene to analyze:o
+    {{ scene_text }}
+    <end of scene>
+    ---
+
+    {# special macro to print the output instructions. #}
+    {{ ctx.output_format }}
+
+    JSON:
+  "#
+}
+
+
+// ------------------------ Updated Function Definitions ------------------------
+
+// No changes needed for OntoMediaEntities
+class OntoMediaEntities {
+    episodes Episode[] @description("List of episodes in the analyzed text.")
+    scenes Scene[] @description("List of Scene objects.")
+    events Event[] @description("List of Event objects.")
+    agents Agent[] @description("List of Agent objects.")
+    organizations Organization[] @description("List of Organization objects.")
+    objects Object[] @description("List of Object objects.")
+    locations Location[] @description("List of Location objects.")
+    agent_participations AgentParticipation[] @description("List of AgentParticipation objects.")
+    object_involvements ObjectInvolvement[] @description("List of ObjectInvolvement objects.")
+}
+
+function ExtractEntities(scene_text: string, story_context: string?) -> OntoMediaEntities {
+  client CustomGPT4oMini
+  prompt #"
+    {{ Narrative_analyst_persona ()}}
+
+    **Guidelines**:
+    - **Entity Focus**: Identify ONLY entities explicitly present or directly referenced within the current scene.
+    - **Context Utilization**: Use `story_context` solely for disambiguation or additional background information. Do not extract or infer entities based solely on the context without direct references in the scene.
+    - **UUID Management**:
+    - **Existing Entities**: If an entity has been previously mentioned (and thus has a UUID in the `story_context`), reuse that existing UUID.
+    - **New Entities**: If an entity is new, generate a unique UUID following the specifications in each entity's description.
+    - **Entity Attributes**:
+    - Extract all relevant properties as defined in each entity's schema.
+    - Where applicable, include attributes like roles within organizations, ownership details for objects, or emotional states for agents.
+    - **Error Reporting**:
+    - If the LLM encounters ambiguities or uncertainties in entity identification, include an `errors` section detailing these issues for manual review.
+    - **Output Integrity**:
+    - Ensure the output strictly adheres to the provided schema, avoiding additional or missing fields.
+
+    **Entity Definitions**:
+    - **Episode**: A distinct part of a larger narrative (if applicable to the scene context).
+    - **Scene**: A segment of action happening in one location and time.
+    - **Event**: A specific action or occurrence within the scene.
+    - **Agent**: A character or entity capable of action.
+    - **Organization**: A group or institution.
+    - **Object**: A tangible item of significance.
+    - **Location**: A place where action occurs.
+    - **AgentParticipation**: Captures the status and emotional state of an agent during an event.
+    - **ObjectInvolvement**: Describes how an object is used or affected during an event.
+
+    **Output Format**: Return a JSON object containing lists of each entity type found in the scene. Ensure each entity includes a `uuid` and all relevant properties as defined in the provided schema.
+
+    Story context materials: {{ story_context }}
+    {{ _.role('user') }}
+    Scene to analyze:
+    {{ scene_text }}
+    <end of scene>
+
+    {{ ctx.output_format }}
+  "#
+}
+
+class OntoMediaScene {
+    uuid string @description("Unique identifier for the scene.")
+    title string @description("Title of the scene.")
+    description string @description("Detailed description of the scene's setting and action.")
+    scene_number int @description("Order of the scene within the episode.")
+    events Event[] @description("List of Event objects that occur in this scene.")
+    location string? @description("UUID of the primary location where this scene takes place.")
+    next_scene string? @description("UUID of the next scene in the narrative order (syuzhet).")
+}
+
+function ExtractScene(scene_text: string, story_context: string?) -> OntoMediaScene {
+  client CustomGPT4oMini
+  prompt #"
+    {{ Narrative_analyst_persona ()}}
+
+    **Objective**:
+    Generate a comprehensive `OntoMediaScene` object for the current scene based on the provided `scene_text`. The object should encapsulate all relevant narrative elements in alignment with the BAML schema.
+
+    **Components to Include**:
+
+    1. **Scene Metadata**:
+    - **UUID**: Assign a unique identifier following the format `scene-XXX`, where `XXX` corresponds to the `scene_number` (e.g., `scene-001`).
+    - **Title**: Create a concise and descriptive title that captures the essence of the scene.
+    - **Description**: Provide a detailed summary of the scene, including:
+        - **Setting**: Physical location, time of day, and atmosphere.
+        - **Characters Present**: Key agents involved.
+        - **Major Actions**: Primary events and interactions.
+        - **Emotional Tone**: Prevailing emotions or tensions.
+    - **Scene Number**: Extract if explicitly mentioned; otherwise, assign externally.
+    - **Location**: Primary location UUID, normalized (e.g., `location-white_house-situation_room`). Use a placeholder like `location-unknown` if not identifiable.
+    - **Next Scene**: UUID of the subsequent scene if explicitly referenced; otherwise, leave null.
+
+    2. **Events**:
+    - **List of Event Objects**: Extract and detail each event within the scene in chronological order.
+        - **UUID**: Follow the format `event-<scene_number>-<sequence_within_scene>` (e.g., `event-1-1`).
+        - **Title**: Descriptive title summarizing the event.
+        - **Description**: Comprehensive overview of what occurs during the event, including key actions and outcomes.
+        - **Sequence Within Scene**: Numerical order of the event within the scene.
+        - **Key Dialogue**: Extract significant lines of dialogue associated with the event.
+        - **Agent Participations**: List of agent UUIDs involved in the event.
+        - **Object Involvements**: List of object UUIDs involved in the event.
+        - **Next Event**: UUID of the following event if applicable; otherwise, leave null.
+
+    3. **Relationship Mapping**:
+    - **Agent Participations**: Link agents to their respective events using UUIDs.
+    - **Object Involvements**: Link objects to their respective events using UUIDs.
+
+    **Guidelines**:
+    - **Exclusivity**: Base all information extraction solely on the provided `scene_text`. Do not infer details from `story_context` unless explicitly referenced within the scene.
+    - **Consistency**: Reuse existing UUIDs from the `story_context` for known entities to maintain consistency across scenes.
+    - **UUID Generation**: Adhere strictly to the UUID formatting rules to ensure seamless integration with the Entity Registry.
+    - **Narrative Order**: Maintain chronological order in event sequencing and ensure that `next_event` references reflect the narrative flow.
+
+    **Story background context**: 
+    {{ story_context }}
+
+    {{ _.role('user') }}
+    **Scene to analyze**:
+    {{ scene_text }}
+    <end of scene>
+
+    {{ ctx.output_format }}
+  "#
+}

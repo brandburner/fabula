@@ -1,367 +1,249 @@
-# scene_processor.py
-from typing import Dict, Optional, List, Any
+# File: scene_processor.py
 import logging
+import json
+from typing import Dict, Any, List
+
 from baml_client import b
 from baml_client.type_builder import TypeBuilder
-from entity_registry import EntityRegistry
-from entity_extractors import (
-    extract_and_register_entities,
-    infer_object_owners
+from baml_client.types import (
+    Agent,
+    Organization,
+    Location,
+    Object,
+    Event,
+    AgentParticipation,
+    ObjectInvolvement
 )
 
-logger = logging.getLogger(__name__)
+from context import GlobalContext
+from utils import format_scene_text, generate_uuid, normalize_identifier, is_close_match
 
-async def process_scene(
-    scene_data: Dict,
-    story_context: str,
-    scene_number: int,
-    *,
-    next_scene_uuid: Optional[str]=None,
-    entity_registry: Optional[EntityRegistry]=None,
-    tb: Optional[TypeBuilder] = None,
-    known_agent_uuids: Optional[List[str]] = None,
-    known_object_uuids: Optional[List[str]] = None
-) -> Dict:
-    """Process a single scene, extracting all relevant information."""
-    try:
-        if entity_registry is None:
-            entity_registry = EntityRegistry()
-            
-        # Generate scene UUID
-        scene_uuid = f"scene-{scene_number:03}"
-        scene_title = scene_data.get("Scene", "Untitled Scene")
-        logger.info(f"Processing scene: {scene_title} (UUID: {scene_uuid})")
+async def process_scene_entities(scene: Dict[str, Any], global_context: GlobalContext, scene_number: int) -> str:
+    """
+    First pass: Extracts and registers entities in dependency order.
+    """
+    scene_text = format_scene_text(scene)
+    story_summary = global_context.get_story_summary()
+    tb = TypeBuilder()
 
-        # Format scene text for processing, now passing scene_location
-        scene_text = format_dialogue(scene_data.get("Dialogue", []), scene_number, scene_data.get("Scene"))
-        
-        # First extract entities to ensure proper typing
-        await extract_and_register_entities(
-            scene_data,
-            scene_text, 
-            story_context,
-            entity_registry,
-            tb
-        )
-
-        # Get current UUIDs after entity registration
-        current_agent_uuids = known_agent_uuids or list(entity_registry.agents.keys())
-        current_object_uuids = known_object_uuids or list(entity_registry.objects.keys())
-
-        # Extract metadata (now using existing entity UUIDs)
-        metadata = await b.ExtractSceneMetadata(
-            scene_text=scene_text,
-            story_context=story_context,
-            baml_options={"tb": tb}
-        )
-
-        if metadata:
-            metadata_dict = metadata.model_dump()
-            # Directly use the location from ExtractSceneMetadata if it's a valid UUID
-            if metadata_dict.get('location') and not entity_registry.normalizer.validate_reference(metadata_dict['location']):
-                # Only resolve if it's not already a valid UUID
-                location_uuid = entity_registry.resolve_reference('locations', metadata_dict['location'])
-                metadata_dict['location'] = location_uuid
-            metadata_dict['uuid'] = scene_uuid
-            metadata_dict['scene_number'] = scene_number
-            metadata_dict['next_scene'] = next_scene_uuid
-        else:
-            metadata_dict = {
-                'uuid': scene_uuid,
-                'scene_number': scene_number,
-                'next_scene': next_scene_uuid,
-                'title': scene_title,
-                'description': ''
-            }
-
-        # Extract events using known entity UUIDs
-        events = await b.ExtractEvents(
-            scene_text=scene_text,
-            story_context=story_context,
-            scene_number=scene_number,
-            known_agents=current_agent_uuids,
-            known_objects=current_object_uuids,
-            baml_options={"tb": tb}
-        )
-        
-        events_list = []
-        for event in events:
-            event_dict = event.model_dump()
-            # Ensure all agent/object references are valid UUIDs
-            if 'agent_participations' in event_dict:
-                event_dict['agent_participations'] = [
-                    uuid for uuid in event_dict['agent_participations']
-                    if entity_registry.get_entity_details('agents', uuid)
-                ]
-            if 'object_involvements' in event_dict:
-                event_dict['object_involvements'] = [
-                    uuid for uuid in event_dict['object_involvements']
-                    if entity_registry.get_entity_details('objects', uuid)
-                ]
-            events_list.append(event_dict)
-
-        # Extract participations and involvements
-        agent_participations = await b.ExtractAgentParticipations(
-            scene_text=scene_text,
-            story_context=story_context,
-            events=events_list,
-            agents=current_agent_uuids,
-            baml_options={"tb": tb}
-        )
-        
-        participations_list = []
-        for ap in agent_participations:
-            ap_dict = ap.model_dump()
-            agent_uuid = entity_registry.resolve_reference('agents', ap_dict['agent'])
-            if agent_uuid and ap_dict.get('event'):
-                ap_dict['agent'] = agent_uuid
-                ap_dict['uuid'] = f"participation-{agent_uuid}-{ap_dict['event']}"
-                participations_list.append(ap_dict)
-
-        object_involvements = await b.ExtractObjectInvolvements(
-            scene_text=scene_text,
-            story_context=story_context,
-            events=events_list,
-            objects=current_object_uuids,
-            baml_options={"tb": tb}
-        )
-        
-        involvements_list = []
-        for oi in object_involvements:
-            oi_dict = oi.model_dump()
-            object_uuid = entity_registry.resolve_reference('objects', oi_dict['object'])
-            if object_uuid and oi_dict.get('event'):
-                oi_dict['object'] = object_uuid
-                oi_dict['uuid'] = f"involvement-{object_uuid}-{oi_dict['event']}"
-                involvements_list.append(oi_dict)
-
-        return {
-            "scene_uuid": scene_uuid,
-            "original_scene_data": scene_data,
-            "extracted_data": {
-                "metadata": metadata_dict,
-                "events": events_list,
-                "agent_participations": participations_list,
-                "object_involvements": involvements_list
-            }
-        }
-
-    except Exception as e:
-        logger.error(f"Error processing scene {scene_title}: {str(e)}")
-        return {
-            "scene_uuid": scene_uuid,
-            "original_scene_data": scene_data,
-            "error": str(e)
-        }
-
-async def extract_scene_metadata(
-    scene_text: str,
-    story_context: str,
-    scene_uuid: str,
-    scene_number: int,
-    next_scene_uuid: Optional[str],
-    entity_registry: EntityRegistry,
-    tb: TypeBuilder
-) -> Dict:
-    """Extract and process scene metadata."""
-    metadata_extracted = await b.ExtractSceneMetadata(
-        scene_text=scene_text,
-        story_context=story_context,
-        baml_options={"tb": tb}
-    )
-    metadata = metadata_extracted.model_dump()
-    metadata["uuid"] = scene_uuid
-    metadata["scene_number"] = scene_number
-    metadata["next_scene"] = next_scene_uuid
-
-    # Extract and assign primary location
+    # 1. Extract and Register Locations
     locations = await b.ExtractLocations(
         scene_text=scene_text,
-        story_context=story_context,
-        baml_options={"tb": tb}
-    )
-    
-    if locations:
-        primary_location = locations[0].model_dump()
-        location_uuid = entity_registry.register_entity('locations', primary_location)
-        metadata["location"] = location_uuid
-
-    return metadata
-
-async def extract_scene_events(
-    scene_text: str,
-    story_context: str,
-    scene_number: int,
-    known_agent_uuids: List[str],
-    known_object_uuids: List[str],
-    tb: TypeBuilder
-) -> List[Dict]:
-    """Extract events from a scene."""
-    events_extracted = await b.ExtractEvents(
-        scene_text=scene_text,
-        story_context=story_context,
+        story_context=story_summary,
         scene_number=scene_number,
-        known_agents=known_agent_uuids,
-        known_objects=known_object_uuids,
         baml_options={"tb": tb}
     )
+    for loc in locations:
+        global_context.entity_registry.register(loc, "locations")
+
+    # 2. Extract and Register Organizations
+    organizations = await b.ExtractOrganizations(
+        scene_text=scene_text,
+        story_context=story_summary,
+        scene_number=scene_number,
+        agents=[],  # No agents at this point
+        organizations=list(global_context.entity_registry.organizations.values()),
+        baml_options={"tb": tb}
+    )
+    for org in organizations:
+        global_context.entity_registry.register(org, "organizations")
+
+    # 3. Extract and Register Agents (using resolved organizations)
+    org_enum = tb.add_enum("OrganizationEnum")
+    for org in global_context.entity_registry.organizations.values():
+        org_enum.add_value(org.uuid)
+
+    # Get the agent name to UUID mapping *before* extracting agents.
+    agent_name_to_uuid_mapping = global_context.entity_registry.get_agent_name_to_uuid_mapping()
+
+    # --- Debugging Prints ---
+    print("--- Scene Text ---")
+    print(scene_text)
+    print("--- Story Summary ---")
+    print(story_summary)
+    print("--- Agent Name to UUID Mapping ---")
+    print(agent_name_to_uuid_mapping)
+
+    # IMPORTANT: Supply the mapping as a required positional parameter!
+    agents_call = b.ExtractAgents(
+        scene_text=scene_text,
+        story_context=story_summary,
+        agent_name_to_uuid_mapping=agent_name_to_uuid_mapping,  # <-- now provided correctly
+        scene_number=scene_number,
+        organizations=list(global_context.entity_registry.organizations.values()),
+        baml_options={"tb": tb}
+    )
+
+    # Await the result from the BAML call.
+    agents = await agents_call
+
+    # (If you need to debug the rendered prompt, check your BAML client documentation;
+    # usually the awaitable returns the extracted agents and not a prompt property.)
+
+    for agent in agents:
+        global_context.entity_registry.register(agent, "agents")
+
+    # 4. Extract and Register Objects (using resolved agents)
+    agent_enum = tb.add_enum("AgentEnum")
+    for agent in global_context.entity_registry.agents.values():
+        agent_enum.add_value(agent.uuid)
+
+    objects = await b.ExtractObjects(
+        scene_text=scene_text,
+        story_context=story_summary,
+        scene_number=scene_number,
+        agents=list(global_context.entity_registry.agents.values()),
+        baml_options={"tb": tb}
+    )
+    for obj in objects:
+        global_context.entity_registry.register(obj, "objects")
+
+    # Generate a UUID for the scene.
+    scene_uuid = generate_uuid("scene", str(scene_number))
+    return scene_uuid
+
+
+
+def validate_event_references(event: Event, global_context: GlobalContext) -> bool:
+    """Validates all entity references in an event."""
+    valid = True
     
-    events = [ev.model_dump() for ev in events_extracted]
+    # Validate agent participations
+    for participation_id in event.agent_participations:
+        if not global_context.entity_registry.find_entity_by_uuid(participation_id):
+            logging.error(f"Invalid agent participation reference: {participation_id}")
+            valid = False
+            
+    # Validate object involvements  
+    for involvement_id in event.object_involvements:
+        if not global_context.entity_registry.find_entity_by_uuid(involvement_id):
+            logging.error(f"Invalid object involvement reference: {involvement_id}")
+            valid = False
+            
+    return valid
+
+async def process_scene_data(scene: Dict[str, Any], global_context: GlobalContext, scene_number: int, scene_uuid: str) -> Dict[str, Any]:
+    """
+    Second pass: Extracts Scene Metadata, Events, AgentParticipations, and ObjectInvolvements,
+    using the already reconciled entities from the global_context.
+    """
+    scene_text = format_scene_text(scene)
+    registry_context = global_context.get_registry_context()
+    tb = TypeBuilder()
+
+    # 1. Extract Scene Metadata (using resolved locations)
+    location_enum = tb.add_enum("LocationEnum")
+    for loc in global_context.entity_registry.locations.values():
+        location_enum.add_value(loc.uuid)
+
+    metadata = await b.ExtractSceneMetadata(
+        scene_text=scene_text,
+        story_context=global_context.get_story_summary(),
+        scene_number=scene_number,
+        locations=list(global_context.entity_registry.locations.values()), # Pass the locations
+        baml_options={"tb": tb}
+    )
+    metadata.uuid = scene_uuid  # Assign previously generated scene_uuid
+
+    # Normalize the location field
+    if metadata and metadata.location:
+        normalized_location = "location-" + normalize_identifier(metadata.location)
+        registered_location = global_context.entity_registry.get_location(normalized_location)
+        if registered_location:
+            metadata.location = registered_location.uuid
+        else:
+            found = False
+            for loc in global_context.entity_registry.locations.values():
+                if is_close_match(normalized_location, loc.uuid):
+                    metadata.location = loc.uuid
+                    found = True
+                    break
+            if not found:
+                metadata.location = None
+
+    # 2. Extract Events
+    events = await b.ExtractEvents(
+        scene_text=scene_text,
+        story_context=registry_context,  # Use registry context
+        scene_number=scene_number, #Pass the scene_number
+        baml_options={"tb": tb}
+    )
+    # Generate event UUIDs after extracting events.
     for event in events:
-        event['uuid'] = f"event-{scene_number}-{event['sequence_within_scene']}"
-    
-    return events
+        if not validate_event_references(event, global_context):
+            logging.error(f"Invalid references in event {event.uuid}")
+        event.uuid = generate_uuid(f"event-{scene_number}", str(event.sequence_within_scene))
 
-async def extract_agent_participations(
-    scene_text: str,
-    story_context: str,
-    events: List[Dict],
-    entity_registry: EntityRegistry,
-    tb: TypeBuilder
-) -> List[Dict]:
-    """Extract agent participations for events."""
-    registry_agents = [v for v in entity_registry.agents.values()]
-    
-    agent_parts_extracted = await b.ExtractAgentParticipations(
-        scene_text=scene_text,
-        story_context=story_context,
-        events=events,
-        agents=registry_agents,
-        baml_options={"tb": tb}
-    )
-    
-    agent_participations = []
-    for p in agent_parts_extracted:
-        d = p.model_dump()
-        agent_uuid = entity_registry.resolve_reference('agents', d['agent'])
-        if agent_uuid:
-            d['agent'] = agent_uuid
-            d['uuid'] = f"participation-{agent_uuid}-{d['event']}"
-            agent_participations.append(d)
+    # Sort events by their sequence number and update next_event for each event.
+    events.sort(key=lambda e: e.sequence_within_scene)
+    for i, event in enumerate(events):
+        if i < len(events) - 1:
+            event.next_event = events[i+1].uuid
         else:
-            logger.warning(f"Skipping invalid agent participation for '{d['agent']}'")
-    
-    return agent_participations
+            event.next_event = None
 
-async def extract_object_involvements(
-    scene_text: str,
-    story_context: str,
-    events: List[Dict],
-    entity_registry: EntityRegistry,
-    tb: TypeBuilder
-) -> List[Dict]:
-    """Extract object involvements for events."""
-    registry_objects = [v for v in entity_registry.objects.values()]
-    
-    obj_invs_extracted = await b.ExtractObjectInvolvements(
-        scene_text=scene_text,
-        story_context=story_context,
-        events=events,
-        objects=registry_objects,
-        baml_options={"tb": tb}
-    )
-    
-    object_involvements = []
-    for oi in obj_invs_extracted:
-        d = oi.model_dump()
-        obj_uuid = entity_registry.resolve_reference('objects', d['object'])
-        if obj_uuid:
-            d['object'] = obj_uuid
-            d['uuid'] = f"involvement-{obj_uuid}-{d['event']}"
-            object_involvements.append(d)
-        else:
-            logger.warning(f"Skipping invalid object involvement for '{d['object']}'")
-    
-    return object_involvements
 
-def build_scene_output(
-    metadata: Dict,
-    events: List[Dict],
-    agent_participations: List[Dict],
-    object_involvements: List[Dict],
-    entity_registry: EntityRegistry
-) -> Dict:
-    """Build the final scene output structure."""
-    used_agent_uuids = set()
-    used_object_uuids = set()
-    used_location_uuids = set()
-    used_org_uuids = set()
+    # 3. Extract AgentParticipations (using resolved agents and events)
+    agent_enum = tb.add_enum("AgentEnum")
+    for agent in global_context.entity_registry.agents.values():
+        agent_enum.add_value(agent.uuid)
+    event_enum = tb.add_enum("EventEnum")
+    for event in events:
+      event_enum.add_value(event.uuid)
 
-    # Primary location from metadata
-    if metadata.get("location"):
-        used_location_uuids.add(metadata["location"])
+    agent_participations: List[AgentParticipation] = []
+    for event in events:
+        agent_participations_for_event = await b.ExtractAgentParticipations(
+            scene_text=scene_text,
+            story_context=registry_context,  # Use registry context
+            event=event,
+            agents=list(global_context.entity_registry.agents.values()),  # Pass pre-extracted agents
+            scene_number=scene_number, # Pass the scene number
+            baml_options={"tb": tb}
+        )
+        for participation in agent_participations_for_event:
+            if participation.agent:
+                participation.uuid = generate_uuid("agentparticipation", f"{participation.agent}-{event.uuid}")
+                agent_participations.append(participation)
 
-    # Collect references from events
-    for e in events:
-        used_agent_uuids.update(e.get('agent_participations', []))
-        used_object_uuids.update(e.get('object_involvements', []))
-        if e.get('location'):
-            used_location_uuids.add(e['location'])
 
-    # Collect references from agent_participations
-    for ap in agent_participations:
-        used_agent_uuids.add(ap['agent'])
-        agent_details = entity_registry.get_entity_details('agents', ap['agent'])
-        if agent_details and agent_details.get('affiliated_org'):
-            org_uuid = entity_registry.resolve_reference(
-                'organizations',
-                agent_details['affiliated_org']
-            )
-            if org_uuid:
-                used_org_uuids.add(org_uuid)
+    # 4. Extract ObjectInvolvements (using resolved objects and events)
+    object_enum = tb.add_enum("ObjectEnum")
+    for obj in global_context.entity_registry.objects.values():
+        object_enum.add_value(obj.uuid)
 
-    # Collect references from object_involvements
-    for oi in object_involvements:
-        used_object_uuids.add(oi['object'])
-        obj_details = entity_registry.get_entity_details('objects', oi['object'])
-        if obj_details and obj_details.get('original_owner'):
-            owner_uuid = entity_registry.resolve_reference(
-                'agents',
-                obj_details['original_owner']
-            )
-            if owner_uuid:
-                used_agent_uuids.add(owner_uuid)
+    object_involvements: List[ObjectInvolvement] = []
+    for event in events:
+        object_involvements_for_event = await b.ExtractObjectInvolvements(
+            scene_text=scene_text,
+            story_context=registry_context,  # Use registry context
+            event=event,
+            objects=list(global_context.entity_registry.objects.values()),  # Pass pre-extracted objects
+            scene_number=scene_number,  # Pass the scene number
+            baml_options={"tb": tb}
+        )
+        for involvement in object_involvements_for_event:
+            if involvement.object:
+                involvement.uuid = generate_uuid("objectinvolvement", f"{involvement.object}-{event.uuid}")
+                object_involvements.append(involvement)
 
-    return {
-        "metadata": metadata,
-        "events": events,
-        "agents": [
-            entity_registry.get_entity_details('agents', au)
-            for au in used_agent_uuids
-            if entity_registry.get_entity_details('agents', au)
-        ],
-        "objects": [
-            entity_registry.get_entity_details('objects', ou)
-            for ou in used_object_uuids
-            if entity_registry.get_entity_details('objects', ou)
-        ],
-        "locations": [
-            entity_registry.get_entity_details('locations', lu)
-            for lu in used_location_uuids
-            if entity_registry.get_entity_details('locations', lu)
-        ],
-        "organizations": [
-            entity_registry.get_entity_details('organizations', ou)
-            for ou in used_org_uuids
-            if entity_registry.get_entity_details('organizations', ou)
-        ],
-        "agent_participations": agent_participations,
-        "object_involvements": object_involvements,
+    # Update each event with the IDs of the participation/involvement records.
+    for event in events:
+        event.agent_participations = [p.uuid for p in agent_participations if p.event == event.uuid]
+        event.object_involvements = [i.uuid for i in object_involvements if i.event == event.uuid]
+
+    # Assemble the extracted data.
+    extracted_data = {
+        "metadata": metadata.model_dump() if metadata else {},
+        "events": [e.model_dump() for e in events],
+        "agent_participations": [p.model_dump() for p in agent_participations],
+        "object_involvements": [i.model_dump() for i in object_involvements]
     }
 
-def format_dialogue(
-    dialogues: List[Dict[str, str]], 
-    scene_number: int,
-    scene_location: Optional[str] = None
-) -> str:
-    formatted_lines = [f"(Scene Number: {scene_number})"]
-    if scene_location:
-        formatted_lines.append(f"Location: {scene_location}")
-    
-    for dialogue in dialogues:
-        if "Stage Direction" in dialogue:
-            formatted_lines.append(f"[{dialogue['Stage Direction']}]")
-        elif "Character" in dialogue and "Line" in dialogue:
-            formatted_lines.append(f"{dialogue['Character']}: {dialogue['Line']}")
-            
-    return "\n".join(formatted_lines)
+    # Build the final scene output.
+    processed_scene = {
+        "scene_uuid": scene_uuid,
+        "original_scene_data": scene,
+        "extracted_data": extracted_data
+    }
+    return processed_scene

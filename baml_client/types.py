@@ -39,21 +39,16 @@ def all_succeeded(checks: Dict[CheckName, Check]) -> bool:
 
 
 
-class MediaType(str, Enum):
-    
-    VHS = "VHS"
-    DVD = "DVD"
-    BLU_RAY = "BLU_RAY"
-
 class Agent(BaseModel):
     model_config = ConfigDict(extra='allow')
     uuid: str
     agent_id: str
     name: str
     title: Optional[str] = None
+    aliases: Optional[List[str]] = None
     description: str
     traits: List[str]
-    affiliated_org: Optional[str] = None
+    affiliated_org: str
     sphere_of_influence: Optional[str] = None
 
 class AgentParticipation(BaseModel):
@@ -67,23 +62,12 @@ class AgentParticipation(BaseModel):
     beliefs: List[str]
     goals: List[str]
 
-class CastCrew(BaseModel):
-    cast: "Person"
-    uncredited_cast: Optional["Person"] = None
-    crew: "Person"
-
-class Continuity(BaseModel):
-    continuity_notes: List[str]
-
 class Episode(BaseModel):
     model_config = ConfigDict(extra='allow')
     title: str
     synopsis: str
     episode_number: int
     part_of_serial: str
-
-class EpisodePlot(BaseModel):
-    plot_summary: str
 
 class Event(BaseModel):
     model_config = ConfigDict(extra='allow')
@@ -95,9 +79,6 @@ class Event(BaseModel):
     agent_participations: List[str]
     object_involvements: List[str]
     next_event: Optional[str] = None
-
-class HomeRelease(BaseModel):
-    releases: Optional["Release"] = None
 
 class Location(BaseModel):
     model_config = ConfigDict(extra='allow')
@@ -114,7 +95,6 @@ class Object(BaseModel):
     purpose: str
     significance: str
     original_owner: Optional[str] = None
-    event_involvements: int
 
 class ObjectInvolvement(BaseModel):
     model_config = ConfigDict(extra='allow')
@@ -125,82 +105,53 @@ class ObjectInvolvement(BaseModel):
     object_status_before_event: str
     object_status_after_event: str
 
-class OntoMediaEntities(BaseModel):
-    episodes: List["Episode"]
-    scenes: List["Scene"]
-    events: List["Event"]
-    agents: List["Agent"]
-    organizations: List["Organization"]
-    objects: List["Object"]
-    locations: List["Location"]
-    agent_participations: List["AgentParticipation"]
-    object_involvements: List["ObjectInvolvement"]
-
-class OntoMediaScene(BaseModel):
-    uuid: str
-    title: str
-    description: str
-    scene_number: int
-    events: List["Event"]
-    location: Optional[str] = None
-    next_scene: Optional[str] = None
-
 class Organization(BaseModel):
     model_config = ConfigDict(extra='allow')
     uuid: str
     name: str
     description: str
     sphere_of_influence: str
-    members: List[str]
-
-class Person(BaseModel):
-    model_config = ConfigDict(extra='allow')
-    name: str
-    role: Optional[str] = None
-
-class Rating(BaseModel):
-    part: str
-    viewers: float
-
-class Ratings(BaseModel):
-    ratings_millions: List["Rating"]
-
-class Release(BaseModel):
-    media_type: "MediaType"
-    date: str
-    details: Optional[str] = None
-    special_features: List[str]
+    members: Optional[List[str]] = None
 
 class ResolvedAgent(BaseModel):
+    model_config = ConfigDict(extra='allow')
     uuid: str
+    agent_id: str
     name: str
     title: Optional[str] = None
+    aliases: Optional[List[str]] = None
     description: str
     traits: List[str]
-    affiliation: Optional[str] = None
+    affiliated_org: str
     sphere_of_influence: Optional[str] = None
+    source_uuids: Optional[List[str]] = None
 
 class ResolvedLocation(BaseModel):
+    model_config = ConfigDict(extra='allow')
     uuid: str
     name: str
     description: str
-    traits: List[str]
-    sphere_of_influence: Optional[str] = None
+    type: str
+    source_uuids: Optional[List[str]] = None
 
 class ResolvedObject(BaseModel):
+    model_config = ConfigDict(extra='allow')
     uuid: str
     name: str
     description: str
-    traits: List[str]
-    sphere_of_influence: Optional[str] = None
-    owner: Optional[str] = None
+    purpose: str
+    significance: str
+    original_owner: Optional[str] = None
+    source_uuids: Optional[List[str]] = None
 
 class ResolvedOrganization(BaseModel):
+    model_config = ConfigDict(extra='allow')
     uuid: str
     name: str
     description: str
-    traits: List[str]
-    sphere_of_influence: Optional[str] = None
+    sphere_of_influence: str
+    members: Optional[List[str]] = None
+    source_uuids: Optional[List[str]] = None
 
 class Resume(BaseModel):
     name: str
@@ -224,36 +175,3 @@ class SceneMetadata(BaseModel):
     scene_number: Optional[int] = None
     location: Optional[str] = None
     next_scene: Optional[str] = None
-
-class StoryMetadata(BaseModel):
-    title: str
-    series: str
-    season: str
-    episode_number: Optional[int] = None
-    release_date: str
-    release_end_date: Optional[str] = None
-    writer: str
-    director: str
-    producer: Optional[str] = None
-    main_actors: List[str]
-    time_reference: str
-
-class StoryNotes(BaseModel):
-    notes: List[str]
-
-class WikiData(BaseModel):
-    metadata: "StoryMetadata"
-    cast_crew: List["CastCrew"]
-    home_media: List["HomeRelease"]
-    story_notes: List["StoryNotes"]
-    worldbuilding: "Worldbuilding"
-    ratings: Optional["Ratings"] = None
-    continuity: Optional["Continuity"] = None
-    plot: List["EpisodePlot"]
-
-class Worldbuilding(BaseModel):
-    in_universe_mythology: List[str]
-    real_world_cultural_references: List[str]
-    individuals: List[str]
-    items: List[str]
-    locations: List[str]

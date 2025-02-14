@@ -49,7 +49,7 @@ class BamlSyncClient:
     
     def ExtractAgentParticipations(
         self,
-        scene_text: str,story_context: Optional[str],events: List[types.Event],agents: List[str],
+        scene_text: str,story_context: Optional[str],event: types.Event,agents: List[types.Agent],scene_number: int,
         baml_options: BamlCallOptions = {},
     ) -> List[types.AgentParticipation]:
       __tb__ = baml_options.get("tb", None)
@@ -62,7 +62,7 @@ class BamlSyncClient:
       raw = self.__runtime.call_function_sync(
         "ExtractAgentParticipations",
         {
-          "scene_text": scene_text,"story_context": story_context,"events": events,"agents": agents,
+          "scene_text": scene_text,"story_context": story_context,"event": event,"agents": agents,"scene_number": scene_number,
         },
         self.__ctx_manager.get(),
         tb,
@@ -72,7 +72,7 @@ class BamlSyncClient:
     
     def ExtractAgents(
         self,
-        scene_text: str,story_context: Optional[str],known_agents: List[types.Agent],agent_name_to_uuid_mapping: Dict[str, str],
+        scene_text: str,story_context: Optional[str],agent_name_to_uuid_mapping: Dict[str, str],scene_number: int,organizations: List[types.Organization],
         baml_options: BamlCallOptions = {},
     ) -> List[types.Agent]:
       __tb__ = baml_options.get("tb", None)
@@ -85,7 +85,7 @@ class BamlSyncClient:
       raw = self.__runtime.call_function_sync(
         "ExtractAgents",
         {
-          "scene_text": scene_text,"story_context": story_context,"known_agents": known_agents,"agent_name_to_uuid_mapping": agent_name_to_uuid_mapping,
+          "scene_text": scene_text,"story_context": story_context,"agent_name_to_uuid_mapping": agent_name_to_uuid_mapping,"scene_number": scene_number,"organizations": organizations,
         },
         self.__ctx_manager.get(),
         tb,
@@ -93,124 +93,9 @@ class BamlSyncClient:
       )
       return cast(List[types.Agent], raw.cast_to(types, types, partial_types, False))
     
-    def ExtractAllWikiData(
-        self,
-        text: str,
-        baml_options: BamlCallOptions = {},
-    ) -> types.WikiData:
-      __tb__ = baml_options.get("tb", None)
-      if __tb__ is not None:
-        tb = __tb__._tb # type: ignore (we know how to use this private attribute)
-      else:
-        tb = None
-      __cr__ = baml_options.get("client_registry", None)
-
-      raw = self.__runtime.call_function_sync(
-        "ExtractAllWikiData",
-        {
-          "text": text,
-        },
-        self.__ctx_manager.get(),
-        tb,
-        __cr__,
-      )
-      return cast(types.WikiData, raw.cast_to(types, types, partial_types, False))
-    
-    def ExtractCastCrew(
-        self,
-        text: str,
-        baml_options: BamlCallOptions = {},
-    ) -> types.CastCrew:
-      __tb__ = baml_options.get("tb", None)
-      if __tb__ is not None:
-        tb = __tb__._tb # type: ignore (we know how to use this private attribute)
-      else:
-        tb = None
-      __cr__ = baml_options.get("client_registry", None)
-
-      raw = self.__runtime.call_function_sync(
-        "ExtractCastCrew",
-        {
-          "text": text,
-        },
-        self.__ctx_manager.get(),
-        tb,
-        __cr__,
-      )
-      return cast(types.CastCrew, raw.cast_to(types, types, partial_types, False))
-    
-    def ExtractContinuity(
-        self,
-        text: str,
-        baml_options: BamlCallOptions = {},
-    ) -> types.Continuity:
-      __tb__ = baml_options.get("tb", None)
-      if __tb__ is not None:
-        tb = __tb__._tb # type: ignore (we know how to use this private attribute)
-      else:
-        tb = None
-      __cr__ = baml_options.get("client_registry", None)
-
-      raw = self.__runtime.call_function_sync(
-        "ExtractContinuity",
-        {
-          "text": text,
-        },
-        self.__ctx_manager.get(),
-        tb,
-        __cr__,
-      )
-      return cast(types.Continuity, raw.cast_to(types, types, partial_types, False))
-    
-    def ExtractEntities(
-        self,
-        scene_text: str,story_context: Optional[str],
-        baml_options: BamlCallOptions = {},
-    ) -> types.OntoMediaEntities:
-      __tb__ = baml_options.get("tb", None)
-      if __tb__ is not None:
-        tb = __tb__._tb # type: ignore (we know how to use this private attribute)
-      else:
-        tb = None
-      __cr__ = baml_options.get("client_registry", None)
-
-      raw = self.__runtime.call_function_sync(
-        "ExtractEntities",
-        {
-          "scene_text": scene_text,"story_context": story_context,
-        },
-        self.__ctx_manager.get(),
-        tb,
-        __cr__,
-      )
-      return cast(types.OntoMediaEntities, raw.cast_to(types, types, partial_types, False))
-    
-    def ExtractEpisodePlot(
-        self,
-        text: str,
-        baml_options: BamlCallOptions = {},
-    ) -> List[types.EpisodePlot]:
-      __tb__ = baml_options.get("tb", None)
-      if __tb__ is not None:
-        tb = __tb__._tb # type: ignore (we know how to use this private attribute)
-      else:
-        tb = None
-      __cr__ = baml_options.get("client_registry", None)
-
-      raw = self.__runtime.call_function_sync(
-        "ExtractEpisodePlot",
-        {
-          "text": text,
-        },
-        self.__ctx_manager.get(),
-        tb,
-        __cr__,
-      )
-      return cast(List[types.EpisodePlot], raw.cast_to(types, types, partial_types, False))
-    
     def ExtractEvents(
         self,
-        scene_text: str,story_context: Optional[str],scene_number: int,known_agents: List[str],known_objects: List[str],
+        scene_text: str,story_context: Optional[str],scene_number: int,
         baml_options: BamlCallOptions = {},
     ) -> List[types.Event]:
       __tb__ = baml_options.get("tb", None)
@@ -223,7 +108,7 @@ class BamlSyncClient:
       raw = self.__runtime.call_function_sync(
         "ExtractEvents",
         {
-          "scene_text": scene_text,"story_context": story_context,"scene_number": scene_number,"known_agents": known_agents,"known_objects": known_objects,
+          "scene_text": scene_text,"story_context": story_context,"scene_number": scene_number,
         },
         self.__ctx_manager.get(),
         tb,
@@ -231,32 +116,9 @@ class BamlSyncClient:
       )
       return cast(List[types.Event], raw.cast_to(types, types, partial_types, False))
     
-    def ExtractHomeMedia(
-        self,
-        text: str,
-        baml_options: BamlCallOptions = {},
-    ) -> types.HomeRelease:
-      __tb__ = baml_options.get("tb", None)
-      if __tb__ is not None:
-        tb = __tb__._tb # type: ignore (we know how to use this private attribute)
-      else:
-        tb = None
-      __cr__ = baml_options.get("client_registry", None)
-
-      raw = self.__runtime.call_function_sync(
-        "ExtractHomeMedia",
-        {
-          "text": text,
-        },
-        self.__ctx_manager.get(),
-        tb,
-        __cr__,
-      )
-      return cast(types.HomeRelease, raw.cast_to(types, types, partial_types, False))
-    
     def ExtractLocations(
         self,
-        scene_text: str,story_context: Optional[str],
+        scene_text: str,story_context: Optional[str],scene_number: int,
         baml_options: BamlCallOptions = {},
     ) -> List[types.Location]:
       __tb__ = baml_options.get("tb", None)
@@ -269,7 +131,7 @@ class BamlSyncClient:
       raw = self.__runtime.call_function_sync(
         "ExtractLocations",
         {
-          "scene_text": scene_text,"story_context": story_context,
+          "scene_text": scene_text,"story_context": story_context,"scene_number": scene_number,
         },
         self.__ctx_manager.get(),
         tb,
@@ -279,7 +141,7 @@ class BamlSyncClient:
     
     def ExtractObjectInvolvements(
         self,
-        scene_text: str,story_context: Optional[str],events: List[types.Event],objects: List[str],
+        scene_text: str,story_context: Optional[str],event: types.Event,objects: List[types.Object],scene_number: int,
         baml_options: BamlCallOptions = {},
     ) -> List[types.ObjectInvolvement]:
       __tb__ = baml_options.get("tb", None)
@@ -292,7 +154,7 @@ class BamlSyncClient:
       raw = self.__runtime.call_function_sync(
         "ExtractObjectInvolvements",
         {
-          "scene_text": scene_text,"story_context": story_context,"events": events,"objects": objects,
+          "scene_text": scene_text,"story_context": story_context,"event": event,"objects": objects,"scene_number": scene_number,
         },
         self.__ctx_manager.get(),
         tb,
@@ -302,7 +164,7 @@ class BamlSyncClient:
     
     def ExtractObjects(
         self,
-        scene_text: str,story_context: Optional[str],known_object_uuids: List[str],
+        scene_text: str,story_context: Optional[str],scene_number: int,agents: List[types.Agent],
         baml_options: BamlCallOptions = {},
     ) -> List[types.Object]:
       __tb__ = baml_options.get("tb", None)
@@ -315,7 +177,7 @@ class BamlSyncClient:
       raw = self.__runtime.call_function_sync(
         "ExtractObjects",
         {
-          "scene_text": scene_text,"story_context": story_context,"known_object_uuids": known_object_uuids,
+          "scene_text": scene_text,"story_context": story_context,"scene_number": scene_number,"agents": agents,
         },
         self.__ctx_manager.get(),
         tb,
@@ -325,7 +187,7 @@ class BamlSyncClient:
     
     def ExtractOrganizations(
         self,
-        scene_text: str,story_context: Optional[str],known_agents: List[types.Agent],
+        scene_number: int,scene_text: str,story_context: Optional[str],agents: List[types.Agent],organizations: List[types.Organization],
         baml_options: BamlCallOptions = {},
     ) -> List[types.Organization]:
       __tb__ = baml_options.get("tb", None)
@@ -338,36 +200,13 @@ class BamlSyncClient:
       raw = self.__runtime.call_function_sync(
         "ExtractOrganizations",
         {
-          "scene_text": scene_text,"story_context": story_context,"known_agents": known_agents,
+          "scene_number": scene_number,"scene_text": scene_text,"story_context": story_context,"agents": agents,"organizations": organizations,
         },
         self.__ctx_manager.get(),
         tb,
         __cr__,
       )
       return cast(List[types.Organization], raw.cast_to(types, types, partial_types, False))
-    
-    def ExtractRatings(
-        self,
-        text: str,
-        baml_options: BamlCallOptions = {},
-    ) -> types.Ratings:
-      __tb__ = baml_options.get("tb", None)
-      if __tb__ is not None:
-        tb = __tb__._tb # type: ignore (we know how to use this private attribute)
-      else:
-        tb = None
-      __cr__ = baml_options.get("client_registry", None)
-
-      raw = self.__runtime.call_function_sync(
-        "ExtractRatings",
-        {
-          "text": text,
-        },
-        self.__ctx_manager.get(),
-        tb,
-        __cr__,
-      )
-      return cast(types.Ratings, raw.cast_to(types, types, partial_types, False))
     
     def ExtractResume(
         self,
@@ -392,32 +231,9 @@ class BamlSyncClient:
       )
       return cast(types.Resume, raw.cast_to(types, types, partial_types, False))
     
-    def ExtractScene(
-        self,
-        scene_text: str,story_context: Optional[str],
-        baml_options: BamlCallOptions = {},
-    ) -> types.OntoMediaScene:
-      __tb__ = baml_options.get("tb", None)
-      if __tb__ is not None:
-        tb = __tb__._tb # type: ignore (we know how to use this private attribute)
-      else:
-        tb = None
-      __cr__ = baml_options.get("client_registry", None)
-
-      raw = self.__runtime.call_function_sync(
-        "ExtractScene",
-        {
-          "scene_text": scene_text,"story_context": story_context,
-        },
-        self.__ctx_manager.get(),
-        tb,
-        __cr__,
-      )
-      return cast(types.OntoMediaScene, raw.cast_to(types, types, partial_types, False))
-    
     def ExtractSceneMetadata(
         self,
-        scene_text: str,story_context: Optional[str],
+        scene_text: str,story_context: Optional[str],scene_number: int,locations: List[types.Location],
         baml_options: BamlCallOptions = {},
     ) -> types.SceneMetadata:
       __tb__ = baml_options.get("tb", None)
@@ -430,105 +246,13 @@ class BamlSyncClient:
       raw = self.__runtime.call_function_sync(
         "ExtractSceneMetadata",
         {
-          "scene_text": scene_text,"story_context": story_context,
+          "scene_text": scene_text,"story_context": story_context,"scene_number": scene_number,"locations": locations,
         },
         self.__ctx_manager.get(),
         tb,
         __cr__,
       )
       return cast(types.SceneMetadata, raw.cast_to(types, types, partial_types, False))
-    
-    def ExtractStoryMetadata(
-        self,
-        text: str,
-        baml_options: BamlCallOptions = {},
-    ) -> types.StoryMetadata:
-      __tb__ = baml_options.get("tb", None)
-      if __tb__ is not None:
-        tb = __tb__._tb # type: ignore (we know how to use this private attribute)
-      else:
-        tb = None
-      __cr__ = baml_options.get("client_registry", None)
-
-      raw = self.__runtime.call_function_sync(
-        "ExtractStoryMetadata",
-        {
-          "text": text,
-        },
-        self.__ctx_manager.get(),
-        tb,
-        __cr__,
-      )
-      return cast(types.StoryMetadata, raw.cast_to(types, types, partial_types, False))
-    
-    def ExtractStoryNotes(
-        self,
-        text: str,
-        baml_options: BamlCallOptions = {},
-    ) -> types.StoryNotes:
-      __tb__ = baml_options.get("tb", None)
-      if __tb__ is not None:
-        tb = __tb__._tb # type: ignore (we know how to use this private attribute)
-      else:
-        tb = None
-      __cr__ = baml_options.get("client_registry", None)
-
-      raw = self.__runtime.call_function_sync(
-        "ExtractStoryNotes",
-        {
-          "text": text,
-        },
-        self.__ctx_manager.get(),
-        tb,
-        __cr__,
-      )
-      return cast(types.StoryNotes, raw.cast_to(types, types, partial_types, False))
-    
-    def ExtractWorldbuilding(
-        self,
-        text: str,
-        baml_options: BamlCallOptions = {},
-    ) -> types.Worldbuilding:
-      __tb__ = baml_options.get("tb", None)
-      if __tb__ is not None:
-        tb = __tb__._tb # type: ignore (we know how to use this private attribute)
-      else:
-        tb = None
-      __cr__ = baml_options.get("client_registry", None)
-
-      raw = self.__runtime.call_function_sync(
-        "ExtractWorldbuilding",
-        {
-          "text": text,
-        },
-        self.__ctx_manager.get(),
-        tb,
-        __cr__,
-      )
-      return cast(types.Worldbuilding, raw.cast_to(types, types, partial_types, False))
-    
-    def InferObjectOwner(
-        self,
-        scene_text: str,object_uuid: str,agent_uuids: List[str],
-        baml_options: BamlCallOptions = {},
-    ) -> Optional[types.Agent]:
-      __tb__ = baml_options.get("tb", None)
-      if __tb__ is not None:
-        tb = __tb__._tb # type: ignore (we know how to use this private attribute)
-      else:
-        tb = None
-      __cr__ = baml_options.get("client_registry", None)
-
-      raw = self.__runtime.call_function_sync(
-        "InferObjectOwner",
-        {
-          "scene_text": scene_text,"object_uuid": object_uuid,"agent_uuids": agent_uuids,
-        },
-        self.__ctx_manager.get(),
-        tb,
-        __cr__,
-      )
-      return cast(Optional[types.Agent], raw.cast_to(types, types, partial_types, False))
     
     def ResolveAgentCluster(
         self,
@@ -622,29 +346,6 @@ class BamlSyncClient:
       )
       return cast(List[types.ResolvedOrganization], raw.cast_to(types, types, partial_types, False))
     
-    def ResolveSceneAgents(
-        self,
-        scene_text: str,potential_agents: List[str],
-        baml_options: BamlCallOptions = {},
-    ) -> List[types.ResolvedAgent]:
-      __tb__ = baml_options.get("tb", None)
-      if __tb__ is not None:
-        tb = __tb__._tb # type: ignore (we know how to use this private attribute)
-      else:
-        tb = None
-      __cr__ = baml_options.get("client_registry", None)
-
-      raw = self.__runtime.call_function_sync(
-        "ResolveSceneAgents",
-        {
-          "scene_text": scene_text,"potential_agents": potential_agents,
-        },
-        self.__ctx_manager.get(),
-        tb,
-        __cr__,
-      )
-      return cast(List[types.ResolvedAgent], raw.cast_to(types, types, partial_types, False))
-    
 
 
 
@@ -659,7 +360,7 @@ class BamlStreamClient:
     
     def ExtractAgentParticipations(
         self,
-        scene_text: str,story_context: Optional[str],events: List[types.Event],agents: List[str],
+        scene_text: str,story_context: Optional[str],event: types.Event,agents: List[types.Agent],scene_number: int,
         baml_options: BamlCallOptions = {},
     ) -> baml_py.BamlSyncStream[List[partial_types.AgentParticipation], List[types.AgentParticipation]]:
       __tb__ = baml_options.get("tb", None)
@@ -674,8 +375,9 @@ class BamlStreamClient:
         {
           "scene_text": scene_text,
           "story_context": story_context,
-          "events": events,
+          "event": event,
           "agents": agents,
+          "scene_number": scene_number,
         },
         None,
         self.__ctx_manager.get(),
@@ -692,7 +394,7 @@ class BamlStreamClient:
     
     def ExtractAgents(
         self,
-        scene_text: str,story_context: Optional[str],known_agents: List[types.Agent],agent_name_to_uuid_mapping: Dict[str, str],
+        scene_text: str,story_context: Optional[str],agent_name_to_uuid_mapping: Dict[str, str],scene_number: int,organizations: List[types.Organization],
         baml_options: BamlCallOptions = {},
     ) -> baml_py.BamlSyncStream[List[partial_types.Agent], List[types.Agent]]:
       __tb__ = baml_options.get("tb", None)
@@ -707,8 +409,9 @@ class BamlStreamClient:
         {
           "scene_text": scene_text,
           "story_context": story_context,
-          "known_agents": known_agents,
           "agent_name_to_uuid_mapping": agent_name_to_uuid_mapping,
+          "scene_number": scene_number,
+          "organizations": organizations,
         },
         None,
         self.__ctx_manager.get(),
@@ -723,160 +426,9 @@ class BamlStreamClient:
         self.__ctx_manager.get(),
       )
     
-    def ExtractAllWikiData(
-        self,
-        text: str,
-        baml_options: BamlCallOptions = {},
-    ) -> baml_py.BamlSyncStream[partial_types.WikiData, types.WikiData]:
-      __tb__ = baml_options.get("tb", None)
-      if __tb__ is not None:
-        tb = __tb__._tb # type: ignore (we know how to use this private attribute)
-      else:
-        tb = None
-      __cr__ = baml_options.get("client_registry", None)
-
-      raw = self.__runtime.stream_function_sync(
-        "ExtractAllWikiData",
-        {
-          "text": text,
-        },
-        None,
-        self.__ctx_manager.get(),
-        tb,
-        __cr__,
-      )
-
-      return baml_py.BamlSyncStream[partial_types.WikiData, types.WikiData](
-        raw,
-        lambda x: cast(partial_types.WikiData, x.cast_to(types, types, partial_types, True)),
-        lambda x: cast(types.WikiData, x.cast_to(types, types, partial_types, False)),
-        self.__ctx_manager.get(),
-      )
-    
-    def ExtractCastCrew(
-        self,
-        text: str,
-        baml_options: BamlCallOptions = {},
-    ) -> baml_py.BamlSyncStream[partial_types.CastCrew, types.CastCrew]:
-      __tb__ = baml_options.get("tb", None)
-      if __tb__ is not None:
-        tb = __tb__._tb # type: ignore (we know how to use this private attribute)
-      else:
-        tb = None
-      __cr__ = baml_options.get("client_registry", None)
-
-      raw = self.__runtime.stream_function_sync(
-        "ExtractCastCrew",
-        {
-          "text": text,
-        },
-        None,
-        self.__ctx_manager.get(),
-        tb,
-        __cr__,
-      )
-
-      return baml_py.BamlSyncStream[partial_types.CastCrew, types.CastCrew](
-        raw,
-        lambda x: cast(partial_types.CastCrew, x.cast_to(types, types, partial_types, True)),
-        lambda x: cast(types.CastCrew, x.cast_to(types, types, partial_types, False)),
-        self.__ctx_manager.get(),
-      )
-    
-    def ExtractContinuity(
-        self,
-        text: str,
-        baml_options: BamlCallOptions = {},
-    ) -> baml_py.BamlSyncStream[partial_types.Continuity, types.Continuity]:
-      __tb__ = baml_options.get("tb", None)
-      if __tb__ is not None:
-        tb = __tb__._tb # type: ignore (we know how to use this private attribute)
-      else:
-        tb = None
-      __cr__ = baml_options.get("client_registry", None)
-
-      raw = self.__runtime.stream_function_sync(
-        "ExtractContinuity",
-        {
-          "text": text,
-        },
-        None,
-        self.__ctx_manager.get(),
-        tb,
-        __cr__,
-      )
-
-      return baml_py.BamlSyncStream[partial_types.Continuity, types.Continuity](
-        raw,
-        lambda x: cast(partial_types.Continuity, x.cast_to(types, types, partial_types, True)),
-        lambda x: cast(types.Continuity, x.cast_to(types, types, partial_types, False)),
-        self.__ctx_manager.get(),
-      )
-    
-    def ExtractEntities(
-        self,
-        scene_text: str,story_context: Optional[str],
-        baml_options: BamlCallOptions = {},
-    ) -> baml_py.BamlSyncStream[partial_types.OntoMediaEntities, types.OntoMediaEntities]:
-      __tb__ = baml_options.get("tb", None)
-      if __tb__ is not None:
-        tb = __tb__._tb # type: ignore (we know how to use this private attribute)
-      else:
-        tb = None
-      __cr__ = baml_options.get("client_registry", None)
-
-      raw = self.__runtime.stream_function_sync(
-        "ExtractEntities",
-        {
-          "scene_text": scene_text,
-          "story_context": story_context,
-        },
-        None,
-        self.__ctx_manager.get(),
-        tb,
-        __cr__,
-      )
-
-      return baml_py.BamlSyncStream[partial_types.OntoMediaEntities, types.OntoMediaEntities](
-        raw,
-        lambda x: cast(partial_types.OntoMediaEntities, x.cast_to(types, types, partial_types, True)),
-        lambda x: cast(types.OntoMediaEntities, x.cast_to(types, types, partial_types, False)),
-        self.__ctx_manager.get(),
-      )
-    
-    def ExtractEpisodePlot(
-        self,
-        text: str,
-        baml_options: BamlCallOptions = {},
-    ) -> baml_py.BamlSyncStream[List[partial_types.EpisodePlot], List[types.EpisodePlot]]:
-      __tb__ = baml_options.get("tb", None)
-      if __tb__ is not None:
-        tb = __tb__._tb # type: ignore (we know how to use this private attribute)
-      else:
-        tb = None
-      __cr__ = baml_options.get("client_registry", None)
-
-      raw = self.__runtime.stream_function_sync(
-        "ExtractEpisodePlot",
-        {
-          "text": text,
-        },
-        None,
-        self.__ctx_manager.get(),
-        tb,
-        __cr__,
-      )
-
-      return baml_py.BamlSyncStream[List[partial_types.EpisodePlot], List[types.EpisodePlot]](
-        raw,
-        lambda x: cast(List[partial_types.EpisodePlot], x.cast_to(types, types, partial_types, True)),
-        lambda x: cast(List[types.EpisodePlot], x.cast_to(types, types, partial_types, False)),
-        self.__ctx_manager.get(),
-      )
-    
     def ExtractEvents(
         self,
-        scene_text: str,story_context: Optional[str],scene_number: int,known_agents: List[str],known_objects: List[str],
+        scene_text: str,story_context: Optional[str],scene_number: int,
         baml_options: BamlCallOptions = {},
     ) -> baml_py.BamlSyncStream[List[partial_types.Event], List[types.Event]]:
       __tb__ = baml_options.get("tb", None)
@@ -892,8 +444,6 @@ class BamlStreamClient:
           "scene_text": scene_text,
           "story_context": story_context,
           "scene_number": scene_number,
-          "known_agents": known_agents,
-          "known_objects": known_objects,
         },
         None,
         self.__ctx_manager.get(),
@@ -908,39 +458,9 @@ class BamlStreamClient:
         self.__ctx_manager.get(),
       )
     
-    def ExtractHomeMedia(
-        self,
-        text: str,
-        baml_options: BamlCallOptions = {},
-    ) -> baml_py.BamlSyncStream[partial_types.HomeRelease, types.HomeRelease]:
-      __tb__ = baml_options.get("tb", None)
-      if __tb__ is not None:
-        tb = __tb__._tb # type: ignore (we know how to use this private attribute)
-      else:
-        tb = None
-      __cr__ = baml_options.get("client_registry", None)
-
-      raw = self.__runtime.stream_function_sync(
-        "ExtractHomeMedia",
-        {
-          "text": text,
-        },
-        None,
-        self.__ctx_manager.get(),
-        tb,
-        __cr__,
-      )
-
-      return baml_py.BamlSyncStream[partial_types.HomeRelease, types.HomeRelease](
-        raw,
-        lambda x: cast(partial_types.HomeRelease, x.cast_to(types, types, partial_types, True)),
-        lambda x: cast(types.HomeRelease, x.cast_to(types, types, partial_types, False)),
-        self.__ctx_manager.get(),
-      )
-    
     def ExtractLocations(
         self,
-        scene_text: str,story_context: Optional[str],
+        scene_text: str,story_context: Optional[str],scene_number: int,
         baml_options: BamlCallOptions = {},
     ) -> baml_py.BamlSyncStream[List[partial_types.Location], List[types.Location]]:
       __tb__ = baml_options.get("tb", None)
@@ -955,6 +475,7 @@ class BamlStreamClient:
         {
           "scene_text": scene_text,
           "story_context": story_context,
+          "scene_number": scene_number,
         },
         None,
         self.__ctx_manager.get(),
@@ -971,7 +492,7 @@ class BamlStreamClient:
     
     def ExtractObjectInvolvements(
         self,
-        scene_text: str,story_context: Optional[str],events: List[types.Event],objects: List[str],
+        scene_text: str,story_context: Optional[str],event: types.Event,objects: List[types.Object],scene_number: int,
         baml_options: BamlCallOptions = {},
     ) -> baml_py.BamlSyncStream[List[partial_types.ObjectInvolvement], List[types.ObjectInvolvement]]:
       __tb__ = baml_options.get("tb", None)
@@ -986,8 +507,9 @@ class BamlStreamClient:
         {
           "scene_text": scene_text,
           "story_context": story_context,
-          "events": events,
+          "event": event,
           "objects": objects,
+          "scene_number": scene_number,
         },
         None,
         self.__ctx_manager.get(),
@@ -1004,7 +526,7 @@ class BamlStreamClient:
     
     def ExtractObjects(
         self,
-        scene_text: str,story_context: Optional[str],known_object_uuids: List[str],
+        scene_text: str,story_context: Optional[str],scene_number: int,agents: List[types.Agent],
         baml_options: BamlCallOptions = {},
     ) -> baml_py.BamlSyncStream[List[partial_types.Object], List[types.Object]]:
       __tb__ = baml_options.get("tb", None)
@@ -1019,7 +541,8 @@ class BamlStreamClient:
         {
           "scene_text": scene_text,
           "story_context": story_context,
-          "known_object_uuids": known_object_uuids,
+          "scene_number": scene_number,
+          "agents": agents,
         },
         None,
         self.__ctx_manager.get(),
@@ -1036,7 +559,7 @@ class BamlStreamClient:
     
     def ExtractOrganizations(
         self,
-        scene_text: str,story_context: Optional[str],known_agents: List[types.Agent],
+        scene_number: int,scene_text: str,story_context: Optional[str],agents: List[types.Agent],organizations: List[types.Organization],
         baml_options: BamlCallOptions = {},
     ) -> baml_py.BamlSyncStream[List[partial_types.Organization], List[types.Organization]]:
       __tb__ = baml_options.get("tb", None)
@@ -1049,9 +572,11 @@ class BamlStreamClient:
       raw = self.__runtime.stream_function_sync(
         "ExtractOrganizations",
         {
+          "scene_number": scene_number,
           "scene_text": scene_text,
           "story_context": story_context,
-          "known_agents": known_agents,
+          "agents": agents,
+          "organizations": organizations,
         },
         None,
         self.__ctx_manager.get(),
@@ -1063,36 +588,6 @@ class BamlStreamClient:
         raw,
         lambda x: cast(List[partial_types.Organization], x.cast_to(types, types, partial_types, True)),
         lambda x: cast(List[types.Organization], x.cast_to(types, types, partial_types, False)),
-        self.__ctx_manager.get(),
-      )
-    
-    def ExtractRatings(
-        self,
-        text: str,
-        baml_options: BamlCallOptions = {},
-    ) -> baml_py.BamlSyncStream[partial_types.Ratings, types.Ratings]:
-      __tb__ = baml_options.get("tb", None)
-      if __tb__ is not None:
-        tb = __tb__._tb # type: ignore (we know how to use this private attribute)
-      else:
-        tb = None
-      __cr__ = baml_options.get("client_registry", None)
-
-      raw = self.__runtime.stream_function_sync(
-        "ExtractRatings",
-        {
-          "text": text,
-        },
-        None,
-        self.__ctx_manager.get(),
-        tb,
-        __cr__,
-      )
-
-      return baml_py.BamlSyncStream[partial_types.Ratings, types.Ratings](
-        raw,
-        lambda x: cast(partial_types.Ratings, x.cast_to(types, types, partial_types, True)),
-        lambda x: cast(types.Ratings, x.cast_to(types, types, partial_types, False)),
         self.__ctx_manager.get(),
       )
     
@@ -1126,40 +621,9 @@ class BamlStreamClient:
         self.__ctx_manager.get(),
       )
     
-    def ExtractScene(
-        self,
-        scene_text: str,story_context: Optional[str],
-        baml_options: BamlCallOptions = {},
-    ) -> baml_py.BamlSyncStream[partial_types.OntoMediaScene, types.OntoMediaScene]:
-      __tb__ = baml_options.get("tb", None)
-      if __tb__ is not None:
-        tb = __tb__._tb # type: ignore (we know how to use this private attribute)
-      else:
-        tb = None
-      __cr__ = baml_options.get("client_registry", None)
-
-      raw = self.__runtime.stream_function_sync(
-        "ExtractScene",
-        {
-          "scene_text": scene_text,
-          "story_context": story_context,
-        },
-        None,
-        self.__ctx_manager.get(),
-        tb,
-        __cr__,
-      )
-
-      return baml_py.BamlSyncStream[partial_types.OntoMediaScene, types.OntoMediaScene](
-        raw,
-        lambda x: cast(partial_types.OntoMediaScene, x.cast_to(types, types, partial_types, True)),
-        lambda x: cast(types.OntoMediaScene, x.cast_to(types, types, partial_types, False)),
-        self.__ctx_manager.get(),
-      )
-    
     def ExtractSceneMetadata(
         self,
-        scene_text: str,story_context: Optional[str],
+        scene_text: str,story_context: Optional[str],scene_number: int,locations: List[types.Location],
         baml_options: BamlCallOptions = {},
     ) -> baml_py.BamlSyncStream[partial_types.SceneMetadata, types.SceneMetadata]:
       __tb__ = baml_options.get("tb", None)
@@ -1174,6 +638,8 @@ class BamlStreamClient:
         {
           "scene_text": scene_text,
           "story_context": story_context,
+          "scene_number": scene_number,
+          "locations": locations,
         },
         None,
         self.__ctx_manager.get(),
@@ -1185,128 +651,6 @@ class BamlStreamClient:
         raw,
         lambda x: cast(partial_types.SceneMetadata, x.cast_to(types, types, partial_types, True)),
         lambda x: cast(types.SceneMetadata, x.cast_to(types, types, partial_types, False)),
-        self.__ctx_manager.get(),
-      )
-    
-    def ExtractStoryMetadata(
-        self,
-        text: str,
-        baml_options: BamlCallOptions = {},
-    ) -> baml_py.BamlSyncStream[partial_types.StoryMetadata, types.StoryMetadata]:
-      __tb__ = baml_options.get("tb", None)
-      if __tb__ is not None:
-        tb = __tb__._tb # type: ignore (we know how to use this private attribute)
-      else:
-        tb = None
-      __cr__ = baml_options.get("client_registry", None)
-
-      raw = self.__runtime.stream_function_sync(
-        "ExtractStoryMetadata",
-        {
-          "text": text,
-        },
-        None,
-        self.__ctx_manager.get(),
-        tb,
-        __cr__,
-      )
-
-      return baml_py.BamlSyncStream[partial_types.StoryMetadata, types.StoryMetadata](
-        raw,
-        lambda x: cast(partial_types.StoryMetadata, x.cast_to(types, types, partial_types, True)),
-        lambda x: cast(types.StoryMetadata, x.cast_to(types, types, partial_types, False)),
-        self.__ctx_manager.get(),
-      )
-    
-    def ExtractStoryNotes(
-        self,
-        text: str,
-        baml_options: BamlCallOptions = {},
-    ) -> baml_py.BamlSyncStream[partial_types.StoryNotes, types.StoryNotes]:
-      __tb__ = baml_options.get("tb", None)
-      if __tb__ is not None:
-        tb = __tb__._tb # type: ignore (we know how to use this private attribute)
-      else:
-        tb = None
-      __cr__ = baml_options.get("client_registry", None)
-
-      raw = self.__runtime.stream_function_sync(
-        "ExtractStoryNotes",
-        {
-          "text": text,
-        },
-        None,
-        self.__ctx_manager.get(),
-        tb,
-        __cr__,
-      )
-
-      return baml_py.BamlSyncStream[partial_types.StoryNotes, types.StoryNotes](
-        raw,
-        lambda x: cast(partial_types.StoryNotes, x.cast_to(types, types, partial_types, True)),
-        lambda x: cast(types.StoryNotes, x.cast_to(types, types, partial_types, False)),
-        self.__ctx_manager.get(),
-      )
-    
-    def ExtractWorldbuilding(
-        self,
-        text: str,
-        baml_options: BamlCallOptions = {},
-    ) -> baml_py.BamlSyncStream[partial_types.Worldbuilding, types.Worldbuilding]:
-      __tb__ = baml_options.get("tb", None)
-      if __tb__ is not None:
-        tb = __tb__._tb # type: ignore (we know how to use this private attribute)
-      else:
-        tb = None
-      __cr__ = baml_options.get("client_registry", None)
-
-      raw = self.__runtime.stream_function_sync(
-        "ExtractWorldbuilding",
-        {
-          "text": text,
-        },
-        None,
-        self.__ctx_manager.get(),
-        tb,
-        __cr__,
-      )
-
-      return baml_py.BamlSyncStream[partial_types.Worldbuilding, types.Worldbuilding](
-        raw,
-        lambda x: cast(partial_types.Worldbuilding, x.cast_to(types, types, partial_types, True)),
-        lambda x: cast(types.Worldbuilding, x.cast_to(types, types, partial_types, False)),
-        self.__ctx_manager.get(),
-      )
-    
-    def InferObjectOwner(
-        self,
-        scene_text: str,object_uuid: str,agent_uuids: List[str],
-        baml_options: BamlCallOptions = {},
-    ) -> baml_py.BamlSyncStream[partial_types.Agent, Optional[types.Agent]]:
-      __tb__ = baml_options.get("tb", None)
-      if __tb__ is not None:
-        tb = __tb__._tb # type: ignore (we know how to use this private attribute)
-      else:
-        tb = None
-      __cr__ = baml_options.get("client_registry", None)
-
-      raw = self.__runtime.stream_function_sync(
-        "InferObjectOwner",
-        {
-          "scene_text": scene_text,
-          "object_uuid": object_uuid,
-          "agent_uuids": agent_uuids,
-        },
-        None,
-        self.__ctx_manager.get(),
-        tb,
-        __cr__,
-      )
-
-      return baml_py.BamlSyncStream[partial_types.Agent, Optional[types.Agent]](
-        raw,
-        lambda x: cast(partial_types.Agent, x.cast_to(types, types, partial_types, True)),
-        lambda x: cast(Optional[types.Agent], x.cast_to(types, types, partial_types, False)),
         self.__ctx_manager.get(),
       )
     
@@ -1427,37 +771,6 @@ class BamlStreamClient:
         raw,
         lambda x: cast(List[partial_types.ResolvedOrganization], x.cast_to(types, types, partial_types, True)),
         lambda x: cast(List[types.ResolvedOrganization], x.cast_to(types, types, partial_types, False)),
-        self.__ctx_manager.get(),
-      )
-    
-    def ResolveSceneAgents(
-        self,
-        scene_text: str,potential_agents: List[str],
-        baml_options: BamlCallOptions = {},
-    ) -> baml_py.BamlSyncStream[List[partial_types.ResolvedAgent], List[types.ResolvedAgent]]:
-      __tb__ = baml_options.get("tb", None)
-      if __tb__ is not None:
-        tb = __tb__._tb # type: ignore (we know how to use this private attribute)
-      else:
-        tb = None
-      __cr__ = baml_options.get("client_registry", None)
-
-      raw = self.__runtime.stream_function_sync(
-        "ResolveSceneAgents",
-        {
-          "scene_text": scene_text,
-          "potential_agents": potential_agents,
-        },
-        None,
-        self.__ctx_manager.get(),
-        tb,
-        __cr__,
-      )
-
-      return baml_py.BamlSyncStream[List[partial_types.ResolvedAgent], List[types.ResolvedAgent]](
-        raw,
-        lambda x: cast(List[partial_types.ResolvedAgent], x.cast_to(types, types, partial_types, True)),
-        lambda x: cast(List[types.ResolvedAgent], x.cast_to(types, types, partial_types, False)),
         self.__ctx_manager.get(),
       )
     
