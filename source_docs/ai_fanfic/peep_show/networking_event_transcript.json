@@ -1,10 +1,11 @@
 {
     "Story": "Peep Show",
-    "Airdate": "2011-12-29",
+    "Airdate": "2024-12-29",
     "Episodes": [{
         "Episode": "Episode One - The Networking Event",
         "Scenes": [{
-            "Scene": "Mark's Bedroom - Apollo House, Croydon - Early Morning",
+            "Scene": "Mark's Bedroom - Apollo House, Croydon",
+            "TimeOfDay": "Early Morning",
             "Dialogue": [
                 {
                     "Stage Direction": "6:47 AM. Mark sits at his IKEA Markus desk chair in M&S boxers and a TM Lewin shirt, anxiously toggling between LinkedIn and his 'Career Crisis Management' spreadsheet on his HP laptop. His MetricShift Digital 'Employee of the Month (August 2023)' certificate hangs askew next to his Dartmouth Business Studies diploma."
@@ -39,7 +40,8 @@
             ]
         },
         {
-            "Scene": "Living Room - Apollo House - Morning",
+            "Scene": "Living Room - Apollo House",
+            "TimeOfDay": "Morning",
             "Dialogue": [
                 {
                     "Stage Direction": "Jeremy practices his pitch in front of a cracked mirror while surrounded by empty Red Bull cans and printouts of Gary Vaynerchuk quotes. Mark anxiously reorganizes his 'Networking Emergency Protocols' index cards."
@@ -63,7 +65,8 @@
             ]
         },
         {
-            "Scene": "MetricShift Digital Solutions HQ - Canary Wharf Innovation Suite, 14th Floor - Evening",
+            "Scene": "MetricShift Digital Solutions HQ - Canary Wharf Innovation Suite, 14th Floor",
+            "TimeOfDay": "Evening",
             "Dialogue": [
                 {
                     "Stage Direction": "The 'Ideation Zone' has been transformed for the monthly Innovation Sundowner. Fairy lights outline whiteboards covered in buzzwords. Charlotte Walsh-Henderson, Head of Digital Transformation and veteran of three Silicon Valley burnouts, oversees the arranging of kombucha stations. Mark lurks by the fruit-infused water, straightening his LinkedIn Premium name badge."
@@ -87,7 +90,8 @@
             ]
         },
         {
-            "Scene": "MetricShift Executive Boardroom - 'The Disruption Chamber' - One Week Later - Morning",
+            "Scene": "MetricShift Executive Boardroom - 'The Disruption Chamber'",
+            "TimeOfDay": "One Week Later - Morning",
             "Dialogue": [
                 {
                     "Stage Direction": "Jeremy sets up his DJ equipment (borrowed from Super Hans' silent disco business) while Alan Johnson, CEO of Johnson Dynamic Solutions and potential MetricShift merger partner, watches with interest. Mark tries to blend into the Herman Miller wallpaper."
@@ -114,7 +118,44 @@
             ]
         },
         {
-            "Scene": "The Fox & Goose Pub - Croydon High Street - Evening",
+            "Scene": "Mark and Jeremy's Flat - Kitchen",
+            "TimeOfDay": "Late Afternoon",
+            "Dialogue": [
+                {
+                    "Stage Direction": "Jeremy excitedly makes tea while Super Hans sits at the kitchen table, surrounded by printouts about blockchain and meditation apps. His laptop displays the remains of his hacked cryptocurrency project 'MindCoin.'"
+                },
+                {
+                    "Character": "SUPER HANS",
+                    "Line": "This is it, Jez. This is the big one. We combine your corporate sound therapy thing with what's left of my mindfulness platform. Call it 'SonicChain.' The suits'll love it."
+                },
+                {
+                    "Character": "JEREMY",
+                    "Line": "Hans, you're a genius. We could add NFTs somehow. Like, people buy the right to different frequency ranges."
+                },
+                {
+                    "Character": "SUPER HANS",
+                    "Line": "Already on it, my friend. Been coding since Tuesday. Well, since Tuesday's ketamine wore off. The Russians might've nicked my database, but they can't steal the vision."
+                },
+                {
+                    "Stage Direction": "Mark enters, still wearing his MetricShift lanyard."
+                },
+                {
+                    "Character": "MARK",
+                    "Line": "Oh good, Super Hans is here. I suppose you'll be wanting to pitch your crypto-mindfulness app to MetricShift as well?"
+                },
+                {
+                    "Character": "SUPER HANS",
+                    "Line": "Mark, Mark, Mark. Think bigger. What's the one thing missing from corporate meditation? Exactly - the blockchain. That, and proper drugs. But we'll sort that out in phase two."
+                },
+                {
+                    "Character": "MARK (V/O)",
+                    "Line": "Super Hans is going to end up on the board of directors. This is how the financial crisis started."
+                }
+            ]
+        },
+        {
+            "Scene": "The Fox & Goose Pub - Croydon High Street",
+            "TimeOfDay": "Evening",
             "Dialogue": [
                 {
                     "Stage Direction": "Mark and Jeremy sit at a corner table. Mark nurses a warm white wine while Jeremy celebrates with Super Hans, who's inexplicably wearing a MetricShift lanyard."

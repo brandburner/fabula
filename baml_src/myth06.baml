@@ -5,19 +5,21 @@
 // Reusable template string for the narrative analyst persona
 template_string Narrative_analyst_persona #"
   {{ _.role('system') }}
-    You are a world-class script editor, dramaturg, and narrative analyst, specializing in the structured dissection of drama scripts according to a well-defined ontology.
+You are a world-class script editor, dramaturg, and narrative analyst, specializing in the structured dissection of drama scripts according to a well-defined ontology. You possess the instincts of a seasoned screenwriter, understanding the importance of pacing, rhythm, and impactful story beats.
 
-    Your Expertise & Approach:
-    ✅ Narrative Mastery: You possess an encyclopedic knowledge of story structure, character development, thematic elements, and genre conventions, allowing you to conduct insightful, contextually accurate analyses.
-    ✅ Ontology-Driven Extraction: You meticulously extract entities, relationships, and narrative structures while strictly adhering to specified ontology rules and UUID formatting.
-    ✅ Fandom-Level Detail & Context Awareness: Your understanding of television shows, serialized storytelling, and worldbuilding extends beyond surface-level knowledge, enabling you to detect continuity, subtext, and intertextual references with precision.
-    ✅ Nuanced Language Interpretation: You excel at recognizing subtle shifts in tone, implicit information, and ambiguous references, ensuring they are correctly inferred but never misinterpreted outside the provided context.
-    ✅ Error Detection & Consistency: You diligently identify, flag, and resolve inconsistencies in extracted data, ensuring alignment with both internal narrative logic and established metadata constraints.
-    ✅ Justified Reasoning in Underspecified Cases: When encountering ambiguous or underspecified content, you apply reasoned, evidence-based assumptions grounded in narrative conventions—always ensuring transparency in your decision-making process.
-    ✅ Clarity, Precision, & Structure: Your responses are well-structured, concise, and explicitly aligned with provided guidelines, ensuring high-quality, repeatable analysis across scripts.
+Your Expertise & Approach:
+✅ Narrative Mastery: You possess an encyclopedic knowledge of story structure, character development, thematic elements, and genre conventions, allowing you to conduct insightful, contextually accurate analyses. You are particularly attuned to identifying key turning points, moments of high tension, and scenes that significantly advance the plot.
+✅ Story Beat Identification: You have a keen ability to recognize and isolate the essential story beats within a scene – the pivotal moments that drive character arcs, reveal crucial information, or alter the course of events. You understand that effective storytelling relies on carefully selected and impactful beats, not every minor action.
+✅ Pacing and Rhythm Awareness: You are sensitive to the pacing and rhythm of a scene. You consider how events contribute to the overall flow and build towards a climax, avoiding unnecessary details that disrupt the narrative's momentum.
+✅ Ontology-Driven Extraction: You meticulously extract entities, relationships, and narrative structures while strictly adhering to specified ontology rules and UUID formatting.
+✅ Fandom-Level Detail & Context Awareness: Your understanding of television shows, serialized storytelling, and worldbuilding extends beyond surface-level knowledge, enabling you to detect continuity, subtext, and intertextual references with precision.
+✅ Nuanced Language Interpretation: You excel at recognizing subtle shifts in tone, implicit information, and ambiguous references, ensuring they are correctly inferred but never misinterpreted outside the provided context.
+✅ Error Detection & Consistency: You diligently identify, flag, and resolve inconsistencies in extracted data, ensuring alignment with both internal narrative logic and established metadata constraints.
+✅ Justified Reasoning in Underspecified Cases: When encountering ambiguous or underspecified content, you apply reasoned, evidence-based assumptions grounded in narrative conventions—always ensuring transparency in your decision-making process.
+✅ Clarity, Precision, & Structure: Your responses are well-structured, concise, and explicitly aligned with provided guidelines, ensuring high-quality, repeatable analysis across scripts.
 
-    Your Commitment:
-    You are dedicated to delivering comprehensive, structured, and reliable narrative extractions, ensuring a rigorous yet adaptable approach to analyzing explicit and implicit storytelling elements with consistency and accuracy.
+Your Commitment:
+You are dedicated to delivering comprehensive, structured, and reliable narrative extractions, ensuring a rigorous yet adaptable approach to analyzing explicit and implicit storytelling elements with consistency and accuracy. You prioritize identifying the *most important* events that shape the narrative, capturing the essence of each scene with a focus on pacing and impact.
 "#
 
 // --- Classes ---
@@ -27,7 +29,7 @@ class Episode {
     synopsis string @description("A brief summary outlining the main plot points and developments of the episode.")
     episode_number int @description("The numerical order of the episode within the season or series. Example: 1 for the first episode.")
     part_of_serial string @description("The name of the larger series or serial to which this episode belongs. Example: 'The West Wing'.")
-    @@dynamic
+    //@@dynamic
 }
 
 class Scene {
@@ -35,9 +37,9 @@ class Scene {
     description string @description("A detailed narrative summarizing the scene's setting, involved characters, and main actions. It should encapsulate the atmosphere and key occurrences.")
     scene_number int @description("The numerical sequence of the scene within its respective episode. Example: 1 for the first scene in an episode.")
     events string[] @description("An array of UUIDs representing the events that occur within this scene, listed in chronological order.")
-    location string? @description("The UUID of the primary location where the scene takes place. Follows the format 'location-<normalized_name>'. If the location is not identifiable, use 'location-unknown'.")
-    next_scene string? @description("The UUID of the subsequent scene in the narrative flow, following the format 'scene-XXX'. If there is no next scene, set to null.")
-    @@dynamic
+    location string @description("The UUID of the primary location where the scene takes place. Follows the format 'location-<normalized_name>'. If the location is not identifiable, use 'location-unknown'.")
+    next_scene string|null @description("The UUID of the subsequent scene in the narrative flow, following the format 'scene-XXX'. If there is no next scene, set to null.")
+    //@@dynamic
 }
 
 class Event {
@@ -48,8 +50,8 @@ class Event {
     key_dialogue string[] @description("An array of significant dialogue lines that are central to the event's occurrence or impact.")
     agent_participations string[] @skip
     object_involvements string[] @skip
-    next_event string? @description("The UUID of the next event in chronological order within the scene. If there is no subsequent event, set to null.")
-    @@dynamic
+    next_event string|null @description("The UUID of the next event in chronological order within the scene. If there is no subsequent event, set to null.")
+    //@@dynamic
 }
 
 class Agent {
@@ -57,12 +59,12 @@ class Agent {
     agent_id string @description("Unique identifier derived from the agent's name in snake_case")
     name string @description("Full canonical name (including surname) of the dramatic agent (character) excluding title, rank or honorific")
     title string? @description("Official or informal role, title, or designation held by the agent within the narrative (e.g., 'Doctor', 'UNIT Commander', 'President of the United States').")
-    aliases string[]? @description("Alternative names or titles used to refer to the agent.")
+    aliases string[]|null @description("Alternative names or titles used to refer to the agent.")
     description string @description("Comprehensive general (not scene-specific) character profile based on all known information in the story so far. This is an evergreen description but you'll keep adding to and revising it as the story progresses.")
     traits string[] @description("List of defining qualities and characteristics that describe the agent's personality, behavior, or abilities (e.g., 'Brave', 'Time Lord', 'Resourceful').")
-    affiliated_org string @description("The organization the agent appears to be officially associated with. Expressed as a unique identifier in snake_case, in the format 'org-{org_id}'") @alias("affiliated_org_uuid)
+    affiliated_org string|null @description("The organization the agent appears to be officially associated with. Expressed as a unique identifier in snake_case, in the format 'org-{org_id}'") @alias("affiliated_org_uuid")
     sphere_of_influence string? @description("Primary domain, area, or field where the agent exerts their power or influence (e.g., 'Time Travel', 'Military Strategy').")
-    @@dynamic
+    //@@dynamic
 }
 
 class Organization {
@@ -70,7 +72,7 @@ class Organization {
     name string @description("Name of the organization.")
     description string @description("Description of the organization's purpose and role.")
     sphere_of_influence string @description("Area where the organization has influence.")
-    members string[]? @skip
+    members string[] @skip
     @@dynamic
 }
 
@@ -79,7 +81,7 @@ class Location {
     name string @description("Name of the location.")
     description string @description("Detailed description of the location's characteristics.")
     type string @description("Type of location (e.g., City, Building, Planet, Office, Apartment).")
-    @@dynamic
+    //@@dynamic
 }
 
 class Object {
@@ -88,8 +90,8 @@ class Object {
     description string @description("A detailed description of the object's nature, physical attributes, and role within the narrative.")
     purpose string @description("The intended use or function of the object within the context of the narrative. Example: 'To visualize satellite imagery for briefings'.")
     significance string @description("The narrative importance or symbolic meaning of the object. Example: 'Provides visual context for the Kosovo-Serbia situation'.")
-    original_owner string? @description("The UUID of the agent who originally owns the object, following the format 'agent-<agent_id>'. Example: 'agent-josh_lyman'. If no owner, set to null.")
-    @@dynamic
+    original_owner string|null @description("The UUID of the agent who originally owns the object, following the format 'agent-<agent_id>'. Example: 'agent-josh_lyman'. If no owner, set to null.")
+    //@@dynamic
 }
 
 class AgentParticipation {
@@ -101,7 +103,7 @@ class AgentParticipation {
     active_plans string[] @description("Brief description of the agent's active objectives or strategies in the context of the event.")
     beliefs string[] @description("The agent's beliefs or convictions that influence their actions during the event.")
     goals string[] @description("The agent's short-term and long-term goals related to the event.")
-    @@dynamic
+    //@@dynamic
 }
 
 class ObjectInvolvement {
@@ -111,16 +113,16 @@ class ObjectInvolvement {
     description_of_involvement string @description("Clear description of how the object is used or affected in the event, detailing its functional and narrative role.")
     object_status_before_event string @description("Brief description of the object's state prior to the event.")
     object_status_after_event string @description("Brief description of the object's state following the event.")
-    @@dynamic
+    //@@dynamic
 }
 
 class SceneMetadata {
-    uuid string? @description("Unique identifier for the scene.")
+    uuid string|null @description("Unique identifier for the scene.")
     title string @description("Title of the scene.")
     description string @description("Detailed description of the scene's setting and action.")
-    scene_number int? @description("Order of the scene within the episode.")
-    location string? @description("UUID of the primary location where this scene takes place.")
-    next_scene string? @description("UUID of the next scene in the narrative order (syuzhet).")
+    scene_number int @description("Order of the scene within the episode.")
+    location string @description("UUID of the primary location where this scene takes place.")
+    next_scene string|null @description("UUID of the next scene in the narrative order (syuzhet).")
 }
 
 // --- Functions ---
@@ -243,8 +245,8 @@ function ExtractAgents(scene_text: string, story_context: string?, agent_name_to
         3. **No Honorifics**: Do not use titles in names (e.g., 'James T. Kirk', not 'Captain Kirk'), except for cases like 'The Doctor'.
         4. **Affiliated Organization**: Select the UUID from the available organizations, or leave it null if the agent is not affiliated with any known organization.  (The available organizations are reflected in the expected output schema.)
         5. **Aliases**: Extract any alternative names used for the agent.
-        6. **UUID Mapping**: Use the `agent_name_to_uuid_mapping` to resolve agents to existing UUIDs if possible. If no match, create a new agent. Ensure uuid is correct and appropriately chosen. Avoid spelling out acronyms etc. in uuid labels.
-        7. **agent_id**: Should follow snake_case conventions
+        6. **UUID Mapping**: Use the `agent_name_to_uuid_mapping` to resolve agents to existing UUIDs if possible. If no match, create a new agent. Ensure uuid is correct and appropriately chosen, based on correctly-spelled names in snake case (e.g. 'agent-leo_mcgarry')
+
         8. **ASCII-only**: Avoid using non-ASCII characters in entity names (especially for affiliated_org). Normalize or transliterate names to a standard character set.
 
         [EXAMPLE]
@@ -319,6 +321,9 @@ function ExtractObjects(scene_text: string, story_context: string?, scene_number
         "original_owner": "agent-sam_seaborn",
         },
         [/EXAMPLE]
+
+        Be careful to use hyphens and underscores correctly. Hyphenate only the entity type ('object-') otherwise use lowercase with underscores (snake_case) if using multiple words (example: 'object_cd_rom', 'object-merry_go_round', 'object-long-range_sensor_array')
+
 
         **Known Agents (for Original Owner)**:
         {% for agent in agents %}
@@ -411,7 +416,7 @@ function ExtractObjectInvolvements(scene_text: string, story_context: string?, e
     1. **Review Scene and Event**: Determine which objects are involved (directly or indirectly) *within the current scene {{ scene_number }}*.
     2. **ObjectInvolvement Object**: For each object involved:
         - `object`: Select the UUID from the provided `objects` list. Do *NOT* invent new object UUIDs.
-        - `event`: Use the existing UUID of the provided 'event'
+        - `event`: Use the existing UUID of the provided 'event
         - Fill out all other relevant properties.
     3.  **UUID**: This will be assigned in post processing.
 
@@ -436,7 +441,7 @@ function ExtractObjectInvolvements(scene_text: string, story_context: string?, e
 
     {{ _.role('user') }}
 
-    **Known Objects (if any)**:
+    **Known Objects**:
     {% for object in objects %}
     - {{ object.name }} ({{ object.uuid }})
     {% endfor %}
@@ -606,7 +611,7 @@ class ResolvedAgent {
     aliases string[]? @description("Alternative names or titles used to refer to the agent.")
     description string @description("Comprehensive general (not scene-specific) character profile based on all known information in the story so far. This is an evergreen description but you'll keep adding to and revising it as the story progresses.")
     traits string[] @description("List of defining qualities and characteristics that describe the agent's personality, behavior, or abilities (e.g., 'Brave', 'Time Lord', 'Resourceful').")
-    affiliated_org string @description("The organization the agent appears to be officially associated with. Expressed as a unique identifier in snake_case, in the format 'org-{org_id}' - e.g., 'org-department_of_justice', 'org-time_lords', 'org-galactic_empire', 'org-library_of_congress'. Organization is broad and might include corporations, orchestras, universities, sports teams, alien empires, races, institutions or any other permanent or temporary collective bodies or gatherings.") @alias("affiliated_org_uuid")
+    affiliated_org string|null @description("The organization the agent appears to be officially associated with. Expressed as a unique identifier in snake_case, in the format 'org-{org_id}' - e.g., 'org-department_of_justice', 'org-time_lords', 'org-galactic_empire', 'org-library_of_congress'. Organization is broad and might include corporations, orchestras, universities, sports teams, alien empires, races, institutions or any other permanent or temporary collective bodies or gatherings.") @alias("affiliated_org_uuid")
     sphere_of_influence string? @description("Primary domain, area, or field where the agent exerts their power or influence (e.g., 'Time Travel', 'Military Strategy').")
     source_uuids string[]? @description("List of UUIDs of the original entities that were merged into this resolved entity.")
     @@dynamic

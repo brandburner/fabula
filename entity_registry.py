@@ -340,7 +340,7 @@ class EntityRegistry:
                         name=entity.name,
                         description=entity.description,
                         sphere_of_influence=entity.sphere_of_influence,
-                        members=entity.members,
+                        members=entity.members or []  # Ensure members is always a list
                     )
                     for entity in resolved_entities
                 }
@@ -393,83 +393,76 @@ class EntityRegistry:
 
     def update_agent_affiliations(self):
         """
-        Updates agent affiliated_org fields to match reconciled organization UUIDs.
-        Also ensures bidirectional consistency with organization.members lists.
+        Updates agent affiliated_org fields to match reconciled organization UUIDs
+        and ensures bidirectional consistency with organization.members lists.
         """
         logging.info("Updating agent affiliations after organization reconciliation...")
         
-        # Build maps for both exact and normalized matching
-        org_maps = {
-            'exact': {org.name: org.uuid for org in self.organizations.values()},
-            'normalized': {normalize_for_matching(org.name): org.uuid 
-                        for org in self.organizations.values()}
-        }
-
-        # Track which agents belong to which orgs for bidirectional updates
+        # Build a direct map of organization UUIDs to organization instances
+        org_map = {org.uuid: org for org in self.organizations.values()}
         org_to_agents: Dict[str, Set[str]] = defaultdict(set)
         
         for agent in self.agents.values():
             if not agent.affiliated_org:
                 continue
-                
-            # Try exact match first
-            new_uuid = org_maps['exact'].get(agent.affiliated_org)
-            
-            # If no exact match, try normalized match
-            if not new_uuid:
-                normalized_affiliation = normalize_for_matching(agent.affiliated_org)
-                new_uuid = org_maps['normalized'].get(normalized_affiliation)
-                
-            # If still no match, try fuzzy matching
-            if not new_uuid:
-                best_match = None
-                best_score = 0
-                for org_name, org_uuid in org_maps['normalized'].items():
-                    score = fuzz.ratio(normalized_affiliation, org_name)
-                    if score > 85 and score > best_score:  # Threshold of 85
-                        best_score = score
-                        best_match = org_uuid
-                new_uuid = best_match
-
-            if new_uuid:
-                if new_uuid != agent.affiliated_org:
-                    logging.debug(
-                        f"Updating agent {agent.name}'s affiliated_org from "
-                        f"{agent.affiliated_org} to {new_uuid}"
-                    )
-                    agent.affiliated_org = new_uuid
-                org_to_agents[new_uuid].add(agent.uuid)
+            # Directly check if the agent's affiliated_org is in the organization map
+            if agent.affiliated_org in org_map:
+                org_to_agents[agent.affiliated_org].add(agent.uuid)
             else:
                 logging.warning(
-                    f"No organization match found for affiliation '{agent.affiliated_org}' "
-                    f"of agent '{agent.name}'"
+                    f"No organization match found for affiliation '{agent.affiliated_org}' of agent '{agent.name}'"
                 )
                 agent.affiliated_org = None  # Clear invalid reference
 
-        # Update organization.members lists for bidirectional consistency
+        # Update the organization's member lists based on the collected mapping
         for org in self.organizations.values():
             org.members = list(org_to_agents.get(org.uuid, set()))
-            
+                
         logging.info("Agent affiliations and organization members updated.")
 
+
     def update_references_after_resolution(self, old_to_new_uuids: Dict[str, str]) -> None:
-        """Updates all entity references after resolution using a mapping of old->new UUIDs"""
+        from utils import generate_uuid  # Ensure generate_uuid is imported
+
         for episode in self.processed_episodes:
             for scene in episode["scenes"]:
+                # First update standalone agent participations
+                if "agent_participations" in scene["extracted_data"]:
+                    for participation in scene["extracted_data"]["agent_participations"]:
+                        old_agent_uuid = participation.get("agent")
+                        if old_agent_uuid in old_to_new_uuids:
+                            new_agent_uuid = old_to_new_uuids[old_agent_uuid]
+                            participation["agent"] = new_agent_uuid
+                            # Recalculate the participation UUID based on the new agent UUID and event
+                            participation["uuid"] = generate_uuid("agentparticipation", f"{new_agent_uuid}-{participation['event']}")
+
+                # Then update standalone object involvements
+                if "object_involvements" in scene["extracted_data"]:
+                    for involvement in scene["extracted_data"]["object_involvements"]:
+                        old_object_uuid = involvement.get("object")
+                        if old_object_uuid in old_to_new_uuids:
+                            new_object_uuid = old_to_new_uuids[old_object_uuid]
+                            involvement["object"] = new_object_uuid
+                            involvement["uuid"] = generate_uuid("objectinvolvement", f"{new_object_uuid}-{involvement['event']}")
+
+                # Now update the event-level lists so they reference the updated records.
                 for event in scene["extracted_data"]["events"]:
-                    # Update object involvement references
-                    updated_involvements = []
-                    for involvement_id in event["object_involvements"]:
-                        if involvement_id in old_to_new_uuids:
-                            updated_involvements.append(old_to_new_uuids[involvement_id])
-                        else:
-                            updated_involvements.append(involvement_id)
-                    event["object_involvements"] = updated_involvements
-                    
-                    # Update other entity references as needed
+                    event["agent_participations"] = [
+                        participation["uuid"]
+                        for participation in scene["extracted_data"].get("agent_participations", [])
+                        if participation.get("event") == event["uuid"]
+                    ]
+                    event["object_involvements"] = [
+                        involvement["uuid"]
+                        for involvement in scene["extracted_data"].get("object_involvements", [])
+                        if involvement.get("event") == event["uuid"]
+                    ]
+
+                    # Also update any other direct references, if present.
                     if "agent_id" in event and event["agent_id"] in old_to_new_uuids:
                         event["agent_id"] = old_to_new_uuids[event["agent_id"]]
                     if "location_id" in event and event["location_id"] in old_to_new_uuids:
                         event["location_id"] = old_to_new_uuids[event["location_id"]]
                     if "organization_id" in event and event["organization_id"] in old_to_new_uuids:
                         event["organization_id"] = old_to_new_uuids[event["organization_id"]]
+

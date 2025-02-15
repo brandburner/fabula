@@ -35,6 +35,15 @@ client<llm> CustomHaiku {
   }
 }
 
+client<llm> CustomGPT4oMinixx {
+  provider google-ai
+  retry_policy Exponential
+  options {
+    model "gemini-2.0-flash-001"
+    api_key env.GOOGLE_API_KEY
+  }
+}
+
 // https://docs.boundaryml.com/docs/snippets/clients/round-robin
 client<llm> CustomFast {
   provider round-robin
@@ -64,7 +73,7 @@ retry_policy Constant {
 }
 
 retry_policy Exponential {
-  max_retries 2
+  max_retries 3
   // Strategy is optional
   strategy {
     type exponential_backoff

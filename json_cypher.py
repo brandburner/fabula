@@ -23,8 +23,6 @@ class RelationshipType(Enum):
     OWNS = "OWNS"
     AFFILIATED_WITH = "AFFILIATED_WITH"
     PART_OF = "PART_OF"
-    INFLUENCES = "INFLUENCES"
-    HAS_STATUS = "HAS_STATUS"
     LOCATED_IN = "LOCATED_IN"
 
 @dataclass
@@ -41,7 +39,6 @@ def escape_cypher_string(value: str) -> str:
 def generate_schema_cleanup() -> List[CypherStatement]:
     """Generates Cypher statements for dropping existing indexes and constraints."""
     cleanup_statements = [
-        # Drop existing indexes
         "DROP INDEX scene_uuid IF EXISTS;",
         "DROP INDEX event_uuid IF EXISTS;",
         "DROP INDEX agent_uuid IF EXISTS;",
@@ -50,8 +47,7 @@ def generate_schema_cleanup() -> List[CypherStatement]:
         "DROP INDEX object_involvement_uuid IF EXISTS;",
         "DROP INDEX organization_uuid IF EXISTS;",
         "DROP INDEX location_uuid IF EXISTS;",
-        
-        # Drop existing constraints
+        "DROP INDEX episode_uuid IF EXISTS;",
         "DROP CONSTRAINT agent_uuid_unique IF EXISTS;",
         "DROP CONSTRAINT event_uuid_unique IF EXISTS;",
         "DROP CONSTRAINT scene_uuid_unique IF EXISTS;",
@@ -59,7 +55,8 @@ def generate_schema_cleanup() -> List[CypherStatement]:
         "DROP CONSTRAINT location_uuid_unique IF EXISTS;",
         "DROP CONSTRAINT organization_uuid_unique IF EXISTS;",
         "DROP CONSTRAINT agent_participation_uuid_unique IF EXISTS;",
-        "DROP CONSTRAINT object_involvement_uuid_unique IF EXISTS;"
+        "DROP CONSTRAINT object_involvement_uuid_unique IF EXISTS;",
+        "DROP CONSTRAINT episode_uuid_unique IF EXISTS;"
     ]
     return [CypherStatement(stmt, 0) for stmt in cleanup_statements]
 
@@ -73,7 +70,8 @@ def generate_constraints() -> List[CypherStatement]:
         "CREATE CONSTRAINT location_uuid_unique IF NOT EXISTS FOR (l:Location) REQUIRE l.uuid IS UNIQUE;",
         "CREATE CONSTRAINT organization_uuid_unique IF NOT EXISTS FOR (org:Organization) REQUIRE org.uuid IS UNIQUE;",
         "CREATE CONSTRAINT agent_participation_uuid_unique IF NOT EXISTS FOR (ap:AgentParticipation) REQUIRE ap.uuid IS UNIQUE;",
-        "CREATE CONSTRAINT object_involvement_uuid_unique IF NOT EXISTS FOR (oi:ObjectInvolvement) REQUIRE oi.uuid IS UNIQUE;"
+        "CREATE CONSTRAINT object_involvement_uuid_unique IF NOT EXISTS FOR (oi:ObjectInvolvement) REQUIRE oi.uuid IS UNIQUE;",
+        "CREATE CONSTRAINT episode_uuid_unique IF NOT EXISTS FOR (ep:Episode) REQUIRE ep.uuid IS UNIQUE;"
     ]
     return [CypherStatement(stmt, 0) for stmt in constraints]
 
@@ -87,7 +85,8 @@ def generate_indexes() -> List[CypherStatement]:
         "CREATE INDEX agent_participation_uuid IF NOT EXISTS FOR (ap:AgentParticipation) ON (ap.uuid);",
         "CREATE INDEX object_involvement_uuid IF NOT EXISTS FOR (oi:ObjectInvolvement) ON (oi.uuid);",
         "CREATE INDEX organization_uuid IF NOT EXISTS FOR (org:Organization) ON (org.uuid);",
-        "CREATE INDEX location_uuid IF NOT EXISTS FOR (l:Location) ON (l.uuid);"
+        "CREATE INDEX location_uuid IF NOT EXISTS FOR (l:Location) ON (l.uuid);",
+        "CREATE INDEX episode_uuid IF NOT EXISTS FOR (ep:Episode) ON (ep.uuid);"
     ]
     return [CypherStatement(stmt, 0) for stmt in indexes]
 
@@ -169,6 +168,23 @@ def generate_object_node_cypher(obj: Dict) -> CypherStatement:
     """
     return CypherStatement(query.strip(), 1)
 
+def generate_episode_node_cypher(episode: Dict) -> CypherStatement:
+    """Generates Cypher for Episode nodes."""
+    title = episode.get("episode_title", "Untitled Episode")
+    episode_uuid = f"episode-{title.lower().replace(' ', '_')}"
+    description = episode.get("description", "")
+    airdate = episode.get("airdate", "")
+    
+    query = f"""
+    MERGE (ep:Episode {{uuid: '{escape_cypher_string(episode_uuid)}'}})
+    ON CREATE SET
+        ep.title = '{escape_cypher_string(title)}',
+        ep.description = '{escape_cypher_string(description)}',
+        ep.airdate = '{escape_cypher_string(airdate)}'
+    ;
+    """
+    return CypherStatement(query.strip(), 1)
+
 def generate_scene_node_cypher(metadata: Dict) -> CypherStatement:
     """Generates Cypher for Scene nodes and their location relationships."""
     uuid = metadata.get("uuid", "")
@@ -177,23 +193,22 @@ def generate_scene_node_cypher(metadata: Dict) -> CypherStatement:
     scene_number = metadata.get("scene_number", 0)
     location_uuid = metadata.get("location")
 
-    # Create base query that assigns 's' variable
     query = f"""
     MERGE (s:Scene {{uuid: '{escape_cypher_string(uuid)}'}})
     ON CREATE SET
         s.title = '{escape_cypher_string(title)}',
         s.description = '{escape_cypher_string(description)}',
-        s.scene_number = {scene_number}"""
-
+        s.scene_number = {scene_number}
+    """
     if location_uuid:
         query += f"""
     WITH s
     MATCH (l:Location {{uuid: '{escape_cypher_string(location_uuid)}'}})
-    MERGE (s)-[:LOCATED_IN]->(l)"""
+    MERGE (s)-[:LOCATED_IN]->(l)
+    """
         logger.info(f"Linking scene {uuid} to location {location_uuid}")
     else:
         logger.warning(f"No location specified for scene {uuid}: {title}")
-
     query += ";"
     return CypherStatement(query.strip(), 1)
 
@@ -221,6 +236,7 @@ def generate_agent_participation_node_cypher(participation: Dict) -> CypherState
     uuid = participation.get("uuid", "")
     current_status = participation.get("current_status", "")
     emotional_state = participation.get("emotional_state", "")
+    # Split the emotional_state into tags based on 'and' (this can be refined)
     emotional_tags = json.dumps([tag.strip() for tag in emotional_state.split("and")])
     active_plans = json.dumps(participation.get("active_plans", []))
     beliefs = json.dumps(participation.get("beliefs", []))
@@ -247,7 +263,7 @@ def generate_object_involvement_cypher(involvement: Dict) -> CypherStatement:
     description = involvement.get("description_of_involvement", "")
     before_status = involvement.get("object_status_before_event", "")
     after_status = involvement.get("object_status_after_event", "")
-
+    
     query = f"""
     MERGE (oi:ObjectInvolvement {{uuid: '{escape_cypher_string(uuid)}'}})
     ON CREATE SET
@@ -267,21 +283,10 @@ def generate_relationship_cypher(from_uuid: str, to_uuid: str, rel_type: str,
     """Generates Cypher for creating relationships between nodes."""
     query = f"""
     MATCH (a:{from_label} {{uuid: '{escape_cypher_string(from_uuid)}'}}),
-          (b:{to_label} {{uuid: '{escape_cypher_string(to_uuid)}'}})\n
+          (b:{to_label} {{uuid: '{escape_cypher_string(to_uuid)}'}})
     MERGE (a)-[:{rel_type}]->(b);
     """
     return CypherStatement(query.strip(), 3)
-
-def infer_location_hierarchy(locations: Dict):
-    hierarchy = {}
-    for loc_id, loc in locations.items():
-        if loc.get("type") in ["City", "Geopolitical Area"]:
-            # Find potential parent locations by examining description
-            for other_id, other in locations.items():
-                if other_id != loc_id and other["name"].lower() in loc["description"].lower():
-                    hierarchy[loc_id] = other_id
-                    break
-    return hierarchy
 
 def generate_ownership_relationship_cypher(object_uuid: str, owner_uuid: str) -> CypherStatement:
     """Generates Cypher for connecting Objects to their owning Agents."""
@@ -301,19 +306,29 @@ def generate_affiliation_relationship_cypher(agent_uuid: str, org_uuid: str) -> 
     """
     return CypherStatement(query.strip(), 2)
 
-def generate_location_hierarchy_cypher(child_uuid: str, parent_uuid: str) -> CypherStatement:
-    """Generates Cypher for location hierarchy relationships."""
+def generate_scene_episode_relationship(scene_uuid: str, episode_uuid: str) -> CypherStatement:
+    """Generates Cypher for connecting a Scene to its Episode."""
     query = f"""
-    MATCH (child:Location {{uuid: '{escape_cypher_string(child_uuid)}'}}),
-          (parent:Location {{uuid: '{escape_cypher_string(parent_uuid)}'}})
-    MERGE (child)-[:PART_OF]->(parent);
+    MATCH (s:Scene {{uuid: '{escape_cypher_string(scene_uuid)}'}}),
+          (ep:Episode {{uuid: '{escape_cypher_string(episode_uuid)}'}})
+    MERGE (s)-[:PART_OF]->(ep);
     """
-    return CypherStatement(query.strip(), 2)
+    return CypherStatement(query.strip(), 3)
 
 def main():
     try:
-        input_path = Path("output/pre_processed/mission_to_the_unknown_graph.json")
-        output_path = Path("output/post_processed/mission_to_the_unknown_graph.cypher")
+        input_path = Path("output/pre_processed/echoes_of_the_past_graph.json")
+        output_path = Path("output/post_processed/echoes_of_the_past_graph.cypher")
+
+        # input_path = Path("output/pre_processed/fault_lines_graph.json")
+        # output_path = Path("output/post_processed/fault_lines_graph.cypher")
+
+        # input_path = Path("output/pre_processed/quantum_archive_graph.json")
+        # output_path = Path("output/post_processed/quantum_archive_graph.cypher")
+
+        # input_path = Path("output/pre_processed/networking_event_graph.json")
+        # output_path = Path("output/post_processed/networking_event_graph.cypher")
+
         output_path.parent.mkdir(parents=True, exist_ok=True)
         
         logger.info(f"Reading input file: {input_path}")
@@ -324,83 +339,74 @@ def main():
             story_data = json.load(f)
         
         cypher_statements = []
-
-        # Add schema cleanup and setup statements
+        
+        # Schema cleanup, constraints, indexes, and clear graph
         cypher_statements.extend(generate_schema_cleanup())
         cypher_statements.extend(generate_constraints())
         cypher_statements.extend(generate_indexes())
         cypher_statements.append(generate_clear_graph())
-
+        
         # Process entity registry
         entity_registry = story_data.get("entity_registry", {})
-
+        
         # Process agents and their affiliations
         logger.info("Processing agents...")
-        for agent in entity_registry.get("agents", {}).values():
+        for agent in entity_registry.get("agents", []):
             cypher_statements.append(generate_agent_node_cypher(agent))
-            # Check for affiliated organization
             affiliated_org = agent.get("affiliated_org")
             if affiliated_org:
                 cypher_statements.append(generate_affiliation_relationship_cypher(
                     agent["uuid"], affiliated_org))
-
+        
         # Process objects and their ownership
         logger.info("Processing objects...")
-        for obj in entity_registry.get("objects", {}).values():
+        for obj in entity_registry.get("objects", []):
             cypher_statements.append(generate_object_node_cypher(obj))
-            # Check for original owner
             original_owner = obj.get("original_owner")
             if original_owner:
                 cypher_statements.append(generate_ownership_relationship_cypher(
                     obj["uuid"], original_owner))
-
-        # Process locations and infer hierarchy
+        
+        # Process locations
         logger.info("Processing locations...")
-        locations = entity_registry.get("locations", {})
-        for location in locations.values():
+        for location in entity_registry.get("locations", []):
             cypher_statements.append(generate_location_node_cypher(location))
-
-        # Infer and create location hierarchy
-        # logger.info("Inferring location hierarchy...")
-        # hierarchy = infer_location_hierarchy(locations)
-        # for child_id, parent_id in hierarchy.items():
-        #     cypher_statements.append(generate_location_hierarchy_cypher(child_id, parent_id))
-
+        
         # Process organizations
         logger.info("Processing organizations...")
-        for org in entity_registry.get("organizations", {}).values():
+        for org in entity_registry.get("organizations", []):
             cypher_statements.append(generate_organization_node_cypher(org))
-            # Process organization members
             for member_uuid in org.get("members", []):
                 cypher_statements.append(generate_affiliation_relationship_cypher(
                     member_uuid, org["uuid"]))
         
-        # Initial setup and base entities remain unchanged until scenes processing
-        
-        logger.info("Processing scenes and events...")
+        # Process episodes, scenes, events, participations, and object involvements
+        logger.info("Processing episodes...")
         for episode in story_data.get("episodes", []):
-            previous_scene = None
+            # Create Episode node
+            episode_node = generate_episode_node_cypher(episode)
+            cypher_statements.append(episode_node)
+            # Generate episode UUID (using same logic as in generate_episode_node_cypher)
+            title = episode.get("episode_title", "Untitled Episode")
+            episode_uuid = f"episode-{title.lower().replace(' ', '_')}"
             
+            previous_scene = None
             for scene in episode.get("scenes", []):
                 extracted_data = scene.get("extracted_data", {})
                 metadata = extracted_data.get("metadata", {})
                 scene_uuid = metadata.get("uuid")
-                location_uuid = metadata.get("location")
-                previous_event = None
-                
-                logger.info(f"Processing scene {scene_uuid}")
-                if not any(scene_uuid in stmt.statement for stmt in cypher_statements):
-                    logger.warning(f"Scene {scene_uuid} appears disconnected")
-                
                 if not scene_uuid:
                     logger.warning(f"Scene found without UUID: {metadata.get('title', 'Unknown scene')}")
                     continue
                 
                 cypher_statements.append(generate_scene_node_cypher(metadata))
-
+                # Link scene to its location if provided
+                location_uuid = metadata.get("location")
                 if location_uuid:
                     cypher_statements.append(generate_relationship_cypher(
                         scene_uuid, location_uuid, "LOCATED_IN", "Scene", "Location"))
+                # Link scene to its parent episode
+                cypher_statements.append(generate_scene_episode_relationship(scene_uuid, episode_uuid))
                 
                 if previous_scene:
                     cypher_statements.append(generate_relationship_cypher(
@@ -408,59 +414,30 @@ def main():
                 previous_scene = scene_uuid
                 
                 # Process events
-                # Process events
                 previous_event = None
                 for event in extracted_data.get("events", []):
                     event_uuid = event.get("uuid")
-                    
                     cypher_statements.append(generate_event_node_cypher(event))
                     cypher_statements.append(generate_relationship_cypher(
                         event_uuid, scene_uuid, "OCCURS_IN", "Event", "Scene"))
-
                     if previous_event:
                         cypher_statements.append(generate_relationship_cypher(
                             previous_event, event_uuid, "NEXT_EVENT", "Event", "Event"))
                     previous_event = event_uuid
-                    
-                # Process object involvements for the entire scene
+                
+                # Process object involvements
                 for involvement in extracted_data.get("object_involvements", []):
                     if isinstance(involvement, dict):
                         cypher_statements.append(generate_object_involvement_cypher(involvement))
                     else:
                         logger.error(f"Skipping invalid object involvement format: {involvement}")
-                    
-                    # if previous_event:
-                    #     cypher_statements.append(generate_relationship_cypher(
-                    #         previous_event, event_uuid, "NEXT_EVENT", "Event", "Event"))
-                    # previous_event = event_uuid
-
-                logger.info("Processing object involvements...")
-                for involvement in extracted_data.get("object_involvements", []):
-                    logger.debug(f"Processing involvement: {involvement}")
-                    if not isinstance(involvement, dict):
-                        logger.error(f"Skipping invalid involvement (not a dict): {involvement}")
-                        continue
-                    try:
-                        involvement_uuid = involvement.get("uuid")
-                        object_uuid = involvement.get("object")
-                        event_uuid = involvement.get("event")
-                        if not involvement_uuid or not object_uuid or not event_uuid:
-                            logger.error("Missing required UUIDs in involvement")
-                            continue
-                        cypher_statements.append(generate_object_involvement_cypher(involvement))
-                    except Exception as e:
-                        logger.error(f"Error processing involvement {involvement_uuid}: {str(e)}")
-                        raise
-
                 
                 # Process agent participations
                 for participation in extracted_data.get("agent_participations", []):
                     participation_uuid = participation.get("uuid")
                     agent_uuid = participation.get("agent")
                     event_uuid = participation.get("event")
-                    
                     cypher_statements.append(generate_agent_participation_node_cypher(participation))
-                    
                     if agent_uuid and event_uuid:
                         cypher_statements.append(generate_relationship_cypher(
                             agent_uuid, participation_uuid, "HAS_PARTICIPATION", "Agent", "AgentParticipation"))
@@ -470,7 +447,6 @@ def main():
         # Sort and write statements
         logger.info("Sorting and writing Cypher statements...")
         sorted_statements = sorted(cypher_statements, key=lambda x: x.priority)
-        
         with output_path.open('w', encoding='utf-8') as f:
             for stmt in sorted_statements:
                 f.write(f"{stmt.statement}\n")

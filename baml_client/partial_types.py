@@ -35,19 +35,17 @@ class StreamState(BaseModel, Generic[T]):
 
 
 class Agent(BaseModel):
-    model_config = ConfigDict(extra='allow')
     uuid: Optional[str] = None
     agent_id: Optional[str] = None
     name: Optional[str] = None
     title: Optional[str] = None
-    aliases: List[Optional[str]]
+    aliases: Optional[Union[List[Optional[str]], Optional[None]]] = None
     description: Optional[str] = None
     traits: List[Optional[str]]
-    affiliated_org: Optional[str] = None
+    affiliated_org: Optional[Union[Optional[str], Optional[None]]] = None
     sphere_of_influence: Optional[str] = None
 
 class AgentParticipation(BaseModel):
-    model_config = ConfigDict(extra='allow')
     uuid: Optional[str] = None
     agent: Optional[str] = None
     event: Optional[str] = None
@@ -58,14 +56,12 @@ class AgentParticipation(BaseModel):
     goals: List[Optional[str]]
 
 class Episode(BaseModel):
-    model_config = ConfigDict(extra='allow')
     title: Optional[str] = None
     synopsis: Optional[str] = None
     episode_number: Optional[int] = None
     part_of_serial: Optional[str] = None
 
 class Event(BaseModel):
-    model_config = ConfigDict(extra='allow')
     title: Optional[str] = None
     uuid: Optional[str] = None
     description: Optional[str] = None
@@ -73,26 +69,23 @@ class Event(BaseModel):
     key_dialogue: List[Optional[str]]
     agent_participations: List[Optional[str]]
     object_involvements: List[Optional[str]]
-    next_event: Optional[str] = None
+    next_event: Optional[Union[Optional[str], Optional[None]]] = None
 
 class Location(BaseModel):
-    model_config = ConfigDict(extra='allow')
     uuid: Optional[str] = None
     name: Optional[str] = None
     description: Optional[str] = None
     type: Optional[str] = None
 
 class Object(BaseModel):
-    model_config = ConfigDict(extra='allow')
     uuid: Optional[str] = None
     name: Optional[str] = None
     description: Optional[str] = None
     purpose: Optional[str] = None
     significance: Optional[str] = None
-    original_owner: Optional[str] = None
+    original_owner: Optional[Union[Optional[str], Optional[None]]] = None
 
 class ObjectInvolvement(BaseModel):
-    model_config = ConfigDict(extra='allow')
     uuid: Optional[str] = None
     object: Optional[str] = None
     event: Optional[str] = None
@@ -117,7 +110,7 @@ class ResolvedAgent(BaseModel):
     aliases: List[Optional[str]]
     description: Optional[str] = None
     traits: List[Optional[str]]
-    affiliated_org: Optional[str] = None
+    affiliated_org: Optional[Union[Optional[str], Optional[None]]] = None
     sphere_of_influence: Optional[str] = None
     source_uuids: List[Optional[str]]
 
@@ -155,18 +148,17 @@ class Resume(BaseModel):
     skills: List[Optional[str]]
 
 class Scene(BaseModel):
-    model_config = ConfigDict(extra='allow')
     title: Optional[str] = None
     description: Optional[str] = None
     scene_number: Optional[int] = None
     events: List[Optional[str]]
     location: Optional[str] = None
-    next_scene: Optional[str] = None
+    next_scene: Optional[Union[Optional[str], Optional[None]]] = None
 
 class SceneMetadata(BaseModel):
-    uuid: Optional[str] = None
+    uuid: Optional[Union[Optional[str], Optional[None]]] = None
     title: Optional[str] = None
     description: Optional[str] = None
     scene_number: Optional[int] = None
     location: Optional[str] = None
-    next_scene: Optional[str] = None
+    next_scene: Optional[Union[Optional[str], Optional[None]]] = None

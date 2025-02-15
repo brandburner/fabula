@@ -1,0 +1,1972 @@
+{
+    "story_title": "The West Wing",
+    "airdate": "2024-12-28",
+    "episodes": [
+        {
+            "episode_title": "Episode One - Fault Lines",
+            "scenes": [
+                {
+                    "scene_uuid": "scene-1",
+                    "original_scene_data": {
+                        "Scene": "Situation Room",
+                        "Dialogue": [
+                            {
+                                "Stage Direction": "Pre-dawn in the White House Situation Room. The room's characteristic dim lighting casts shadows across tired faces as multiple LCD screens display satellite imagery of the Kosovo-Serbia border region. Josh Lyman enters, his tie already loosened despite the early hour. National Security Advisor Nancy McNally stands at the head of the table, her usual commanding presence tinged with obvious concern."
+                            },
+                            {
+                                "Character": "NANCY MCNALLY",
+                                "Line": "Four USAID workers went dark three hours ago near the Kosovo-Serbia border. They were conducting post-conflict reconstruction assessments when we lost contact."
+                            },
+                            {
+                                "Stage Direction": "Josh takes his seat, unconsciously rubbing the old scar on his chest - a habit he's developed since Rosslyn when situations turn tense."
+                            },
+                            {
+                                "Character": "DONNA",
+                                "Line": "Serbian paramilitary group is claiming responsibility on social media. They're demanding the release of three commanders from The Hague."
+                            },
+                            {
+                                "Character": "KATE HARPER",
+                                "Line": "Our intelligence suggests elements within Serbian security services provided tactical support to the paramilitary group."
+                            },
+                            {
+                                "Stage Direction": "President Bartlet enters with Leo McGarry and General Alexander. The room immediately stands at attention. Bartlet's expression is grim, his usual intellectual playfulness entirely absent."
+                            },
+                            {
+                                "Character": "PRESIDENT BARTLET",
+                                "Line": "Where are we on options?"
+                            }
+                        ]
+                    },
+                    "extracted_data": {
+                        "metadata": {
+                            "uuid": "scene-1",
+                            "title": "Pre-Dawn Crisis in the Situation Room",
+                            "description": "In the pre-dawn hours, the Situation Room is cast in its characteristic dim lighting as tense faces gather around LCD screens showing Kosovo-Serbia border imagery. Josh Lyman, already disheveled, joins National Security Advisor Nancy McNally as she relays the urgent situation: Four missing USAID workers at the Kosovo-Serbia border with a claim of responsibility from a Serbian paramilitary group. The paramilitary demands the release of commanders from The Hague. Intelligence points to Serbian security service involvement. President Bartlet enters with Leo McGarry and General Alexander, demanding available options with a grim demeanor, underscoring the gravity of the crisis.",
+                            "scene_number": 1,
+                            "location": "location-situation_room",
+                            "next_scene": "scene-2"
+                        },
+                        "events": [
+                            {
+                                "title": "Josh Lyman Enters Situation Room",
+                                "uuid": "event-1-1",
+                                "description": "Josh Lyman enters the Situation Room at the White House, appearing fatigued, with his tie already loosened. The room is dimly lit, and various LCD screens display satellite imagery of the Kosovo-Serbia border region.",
+                                "sequence_within_scene": 1,
+                                "key_dialogue": [],
+                                "agent_participations": [
+                                    "agentparticipation-agent-josh_lyman-event-1-1",
+                                    "agentparticipation-agent-nancy_mcnally-event-1-1",
+                                    "agentparticipation-agent-donna_moss-event-1-1",
+                                    "agentparticipation-agent-kate_harper-event-1-1",
+                                    "agentparticipation-agent-josiah_bartlet-event-1-1",
+                                    "agentparticipation-agent-leo_mcgarry-event-1-1"
+                                ],
+                                "object_involvements": [
+                                    "objectinvolvement-object-lcd_screens-event-1-1",
+                                    "objectinvolvement-object-scar_on_chest-event-1-1"
+                                ],
+                                "next_event": "event-1-2"
+                            },
+                            {
+                                "title": "Nancy McNally Briefs on Missing USAID Workers",
+                                "uuid": "event-1-2",
+                                "description": "National Security Advisor Nancy McNally briefs the attendees, stating that four USAID workers went missing three hours ago near the Kosovo-Serbia border while conducting post-conflict reconstruction assessments.",
+                                "sequence_within_scene": 2,
+                                "key_dialogue": [
+                                    "NANCY MCNALLY: Four USAID workers went dark three hours ago near the Kosovo-Serbia border. They were conducting post-conflict reconstruction assessments when we lost contact."
+                                ],
+                                "agent_participations": [
+                                    "agentparticipation-agent-nancy_mcnally-event-1-2",
+                                    "agentparticipation-agent-josh_lyman-event-1-2",
+                                    "agentparticipation-agent-donna_moss-event-1-2",
+                                    "agentparticipation-agent-kate_harper-event-1-2",
+                                    "agentparticipation-agent-josiah_bartlet-event-1-2",
+                                    "agentparticipation-agent-leo_mcgarry-event-1-2"
+                                ],
+                                "object_involvements": [
+                                    "objectinvolvement-object-lcd_screens-event-1-2",
+                                    "objectinvolvement-object-scar_on_chest-event-1-2"
+                                ],
+                                "next_event": "event-1-3"
+                            },
+                            {
+                                "title": "Donna Reports Serbian Paramilitary Claims",
+                                "uuid": "event-1-3",
+                                "description": "Donna Moss reports that a Serbian paramilitary group is claiming responsibility for the disappearance on social media and is demanding the release of three commanders held at The Hague.",
+                                "sequence_within_scene": 3,
+                                "key_dialogue": [
+                                    "DONNA: Serbian paramilitary group is claiming responsibility on social media. They're demanding the release of three commanders from The Hague."
+                                ],
+                                "agent_participations": [
+                                    "agentparticipation-agent-josh_lyman-event-1-3",
+                                    "agentparticipation-agent-nancy_mcnally-event-1-3",
+                                    "agentparticipation-agent-donna_moss-event-1-3",
+                                    "agentparticipation-agent-kate_harper-event-1-3"
+                                ],
+                                "object_involvements": [
+                                    "objectinvolvement-object-lcd_screens-event-1-3",
+                                    "objectinvolvement-object-scar_on_chest-event-1-3"
+                                ],
+                                "next_event": "event-1-4"
+                            },
+                            {
+                                "title": "Kate Harper Reveals Intel on Serbian Support",
+                                "uuid": "event-1-4",
+                                "description": "Kate Harper states that intelligence suggests some elements within Serbian security services provided tactical support to the paramilitary group.",
+                                "sequence_within_scene": 4,
+                                "key_dialogue": [
+                                    "KATE HARPER: Our intelligence suggests elements within Serbian security services provided tactical support to the paramilitary group."
+                                ],
+                                "agent_participations": [
+                                    "agentparticipation-agent-nancy_mcnally-event-1-4",
+                                    "agentparticipation-agent-kate_harper-event-1-4"
+                                ],
+                                "object_involvements": [
+                                    "objectinvolvement-object-lcd_screens-event-1-4",
+                                    "objectinvolvement-object-scar_on_chest-event-1-4"
+                                ],
+                                "next_event": "event-1-5"
+                            },
+                            {
+                                "title": "President Bartlet Enters and Asks for Options",
+                                "uuid": "event-1-5",
+                                "description": "President Josiah Bartlet enters the Situation Room, accompanied by Leo McGarry and General Alexander. The gravity of the situation is evident in Bartlet's demeanor as he asks for available options.",
+                                "sequence_within_scene": 5,
+                                "key_dialogue": [
+                                    "PRESIDENT BARTLET: Where are we on options?"
+                                ],
+                                "agent_participations": [
+                                    "agentparticipation-agent-josh_lyman-event-1-5",
+                                    "agentparticipation-agent-nancy_mcnally-event-1-5",
+                                    "agentparticipation-agent-kate_harper-event-1-5",
+                                    "agentparticipation-agent-josiah_bartlet-event-1-5"
+                                ],
+                                "object_involvements": [
+                                    "objectinvolvement-object-lcd_screens-event-1-5",
+                                    "objectinvolvement-object-scar_on_chest-event-1-5"
+                                ],
+                                "next_event": null
+                            }
+                        ],
+                        "agent_participations": [
+                            {
+                                "uuid": "agentparticipation-agent-josh_lyman-event-1-1",
+                                "agent": "agent-josh_lyman",
+                                "event": "event-1-1",
+                                "current_status": "Entered the Situation Room, taking his seat and rubbing the scar on his chest.",
+                                "emotional_state": "Fatigued and tense.",
+                                "active_plans": [
+                                    "Engage in situation assessment",
+                                    "Monitor the unfolding situation regarding the USAID workers"
+                                ],
+                                "beliefs": [
+                                    "The situation is tense and requires careful handling",
+                                    "His past experiences, represented by the scar, inform his perception of the gravity"
+                                ],
+                                "goals": [
+                                    "Collaborate with the team to determine a response strategy",
+                                    "Contribute to securing the safe return of USAID workers"
+                                ]
+                            },
+                            {
+                                "uuid": "agentparticipation-agent-nancy_mcnally-event-1-1",
+                                "agent": "agent-nancy_mcnally",
+                                "event": "event-1-1",
+                                "current_status": "Standing at the head of the table, updating on the loss of contact with USAID workers.",
+                                "emotional_state": "Concerned but focused.",
+                                "active_plans": [
+                                    "Continue situation monitoring",
+                                    "Coordinate with intelligence and security services"
+                                ],
+                                "beliefs": [
+                                    "Calm and decisive communication is crucial",
+                                    "Immediate steps are necessary to address the crisis"
+                                ],
+                                "goals": [
+                                    "Provide the President with current information and options",
+                                    "Facilitate a synchronized national response"
+                                ]
+                            },
+                            {
+                                "uuid": "agentparticipation-agent-donna_moss-event-1-1",
+                                "agent": "agent-donna_moss",
+                                "event": "event-1-1",
+                                "current_status": "Reporting on the Serbian paramilitary group\u2019s social media claims.",
+                                "emotional_state": "Alert and concerned.",
+                                "active_plans": [
+                                    "Gather intelligence from social media channels",
+                                    "Relay relevant information to the team"
+                                ],
+                                "beliefs": [
+                                    "Social media can provide vital clues",
+                                    "Keeping the team informed is critical"
+                                ],
+                                "goals": [
+                                    "Aid in assessing the credibility and intent behind the paramilitary group\u2019s claims",
+                                    "Support efforts in crafting a strategic response"
+                                ]
+                            },
+                            {
+                                "uuid": "agentparticipation-agent-kate_harper-event-1-1",
+                                "agent": "agent-kate_harper",
+                                "event": "event-1-1",
+                                "current_status": "Providing intel on Serbian security services' possible involvement.",
+                                "emotional_state": "Serious and analytical.",
+                                "active_plans": [
+                                    "Analyze intelligence on involvement",
+                                    "Advise on potential security service repercussions"
+                                ],
+                                "beliefs": [
+                                    "Understanding the various players is critical for an effective response",
+                                    "Intel must be constantly reassessed for actionable insights"
+                                ],
+                                "goals": [
+                                    "Advise the President and team on strategic options",
+                                    "Mitigate risks of further regional destabilization"
+                                ]
+                            },
+                            {
+                                "uuid": "agentparticipation-agent-josiah_bartlet-event-1-1",
+                                "agent": "agent-josiah_bartlet",
+                                "event": "event-1-1",
+                                "current_status": "Entering the Situation Room with Leo McGarry and General Alexander, seeking updates and options.",
+                                "emotional_state": "Grim and focused.",
+                                "active_plans": [
+                                    "Assess current options for the safety of USAID workers",
+                                    "Lead the discussion on crisis management"
+                                ],
+                                "beliefs": [
+                                    "Presidential leadership is crucial in times of crisis",
+                                    "A multi-faceted approach may be necessary"
+                                ],
+                                "goals": [
+                                    "Ensure timely and safe resolution of the hostage situation",
+                                    "Exercise diplomatic and strategic options to stabilize the situation"
+                                ]
+                            },
+                            {
+                                "uuid": "agentparticipation-agent-leo_mcgarry-event-1-1",
+                                "agent": "agent-leo_mcgarry",
+                                "event": "event-1-1",
+                                "current_status": "Accompanying President Bartlet, preparing to advise on options.",
+                                "emotional_state": "Resolute and composed.",
+                                "active_plans": [
+                                    "Support President Bartlet in strategic decision making",
+                                    "Coordinate efforts across different departments"
+                                ],
+                                "beliefs": [
+                                    "Situational awareness is essential for effective counseling",
+                                    "A coordinated approach will lead to the best outcome"
+                                ],
+                                "goals": [
+                                    "Help formulate a strong, decisive response",
+                                    "Provide leadership and guidance to the team"
+                                ]
+                            },
+                            {
+                                "uuid": "agentparticipation-agent-nancy_mcnally-event-1-2",
+                                "agent": "agent-nancy_mcnally",
+                                "event": "event-1-2",
+                                "current_status": "Briefing the attendees about the missing USAID workers.",
+                                "emotional_state": "Concerned and authoritative.",
+                                "active_plans": [
+                                    "Provide detailed briefing on the status of the missing workers."
+                                ],
+                                "beliefs": [
+                                    "Providing accurate intelligence is crucial for formulating a response."
+                                ],
+                                "goals": [
+                                    "Ensure all relevant parties understand the seriousness of the situation.",
+                                    "Facilitate immediate and effective decision-making."
+                                ]
+                            },
+                            {
+                                "uuid": "agentparticipation-agent-josh_lyman-event-1-2",
+                                "agent": "agent-josh_lyman",
+                                "event": "event-1-2",
+                                "current_status": "Listening to the briefing and reacting to the tense situation.",
+                                "emotional_state": "Tense and reflective.",
+                                "active_plans": [
+                                    "Stay informed about the situation as it develops."
+                                ],
+                                "beliefs": [
+                                    "Situations like these require careful handling and strategic communication."
+                                ],
+                                "goals": [
+                                    "Understand the implications of the briefing for potential further action."
+                                ]
+                            },
+                            {
+                                "uuid": "agentparticipation-agent-donna_moss-event-1-2",
+                                "agent": "agent-donna_moss",
+                                "event": "event-1-2",
+                                "current_status": "Informing the group about the Serbian paramilitary group's claim.",
+                                "emotional_state": "Alert and proactive.",
+                                "active_plans": [
+                                    "Monitor social media for additional statements or demands."
+                                ],
+                                "beliefs": [
+                                    "Monitoring external communications is key to understanding adversary motives."
+                                ],
+                                "goals": [
+                                    "Ensure that pertinent information is shared with decision-makers."
+                                ]
+                            },
+                            {
+                                "uuid": "agentparticipation-agent-kate_harper-event-1-2",
+                                "agent": "agent-kate_harper",
+                                "event": "event-1-2",
+                                "current_status": "Providing intelligence about the Serbian security services' involvement.",
+                                "emotional_state": "Focused and analytical.",
+                                "active_plans": [
+                                    "Verify intelligence related to paramilitary group operations."
+                                ],
+                                "beliefs": [
+                                    "Intelligence analysis is crucial for understanding the paramilitary's support structure."
+                                ],
+                                "goals": [
+                                    "Enhance the group's awareness of potential security service involvement."
+                                ]
+                            },
+                            {
+                                "uuid": "agentparticipation-agent-josiah_bartlet-event-1-2",
+                                "agent": "agent-josiah_bartlet",
+                                "event": "event-1-2",
+                                "current_status": "Entering the room and seeking options for action.",
+                                "emotional_state": "Serious and tasked-focused.",
+                                "active_plans": [
+                                    "Evaluate available options to address the situation."
+                                ],
+                                "beliefs": [
+                                    "Decisive action is necessary to manage the crisis."
+                                ],
+                                "goals": [
+                                    "Determine the most effective course of action regarding the missing workers."
+                                ]
+                            },
+                            {
+                                "uuid": "agentparticipation-agent-leo_mcgarry-event-1-2",
+                                "agent": "agent-leo_mcgarry",
+                                "event": "event-1-2",
+                                "current_status": "Accompanying President Bartlet and analyzing the situation.",
+                                "emotional_state": "Concerned and strategic.",
+                                "active_plans": [
+                                    "Assist President Bartlet in evaluating response options."
+                                ],
+                                "beliefs": [
+                                    "Strong leadership and strategic planning are imperative in crisis situations."
+                                ],
+                                "goals": [
+                                    "Support the President in making informed decisions."
+                                ]
+                            },
+                            {
+                                "uuid": "agentparticipation-agent-josh_lyman-event-1-3",
+                                "agent": "agent-josh_lyman",
+                                "event": "event-1-3",
+                                "current_status": "Listening to the report about the USAID workers and the paramilitary group's demands.",
+                                "emotional_state": "Tense and concerned, indicated by his habit of rubbing his chest scar.",
+                                "active_plans": [
+                                    "Assess the situation and determine possible responses."
+                                ],
+                                "beliefs": [
+                                    "The paramilitary group's demands point to a complicated geopolitical tension."
+                                ],
+                                "goals": [
+                                    "Understand the situation fully to contribute to resolving the crisis."
+                                ]
+                            },
+                            {
+                                "uuid": "agentparticipation-agent-nancy_mcnally-event-1-3",
+                                "agent": "agent-nancy_mcnally",
+                                "event": "event-1-3",
+                                "current_status": "Briefing others on the disappearance of the USAID workers.",
+                                "emotional_state": "Concerned and focused, maintaining her commanding presence.",
+                                "active_plans": [
+                                    "Gather and present crucial intelligence to facilitate decision-making."
+                                ],
+                                "beliefs": [
+                                    "Decisive action is necessary in response to the paramilitary group\u2019s claims."
+                                ],
+                                "goals": [
+                                    "Maintain national security and ensure the safety of the missing USAID workers."
+                                ]
+                            },
+                            {
+                                "uuid": "agentparticipation-agent-donna_moss-event-1-3",
+                                "agent": "agent-donna_moss",
+                                "event": "event-1-3",
+                                "current_status": "Reporting on the paramilitary group's social media claims.",
+                                "emotional_state": "Calm but aware of the seriousness of the situation.",
+                                "active_plans": [
+                                    "Communicate available information efficiently."
+                                ],
+                                "beliefs": [
+                                    "Prompt information sharing is critical in crisis response."
+                                ],
+                                "goals": [
+                                    "Ensure that leaders have the latest updates to formulate a plan."
+                                ]
+                            },
+                            {
+                                "uuid": "agentparticipation-agent-kate_harper-event-1-3",
+                                "agent": "agent-kate_harper",
+                                "event": "event-1-3",
+                                "current_status": "Providing intelligence on Serbian security services' involvement.",
+                                "emotional_state": "Serious and focused on delivering intelligence.",
+                                "active_plans": [
+                                    "Assess the reliability of intelligence regarding Serbian involvement."
+                                ],
+                                "beliefs": [
+                                    "The situation is complex and reliant on accurate intelligence."
+                                ],
+                                "goals": [
+                                    "Clarify the extent of tactical support provided to the paramilitary group."
+                                ]
+                            },
+                            {
+                                "uuid": "agentparticipation-agent-nancy_mcnally-event-1-4",
+                                "agent": "agent-nancy_mcnally",
+                                "event": "event-1-4",
+                                "current_status": "Leading the briefing on the situation with the kidnapped USAID workers.",
+                                "emotional_state": "Concerned and focused.",
+                                "active_plans": [
+                                    "Assess intelligence reports regarding Serbian security involvement",
+                                    "Coordinate with national security team for possible responses"
+                                ],
+                                "beliefs": [
+                                    "The safety of American citizens is paramount",
+                                    "The influence of hostile elements in destabilizing regions must be controlled"
+                                ],
+                                "goals": [
+                                    "Recover the USAID workers safely",
+                                    "Develop a strategy to counteract any further paramilitary threats"
+                                ]
+                            },
+                            {
+                                "uuid": "agentparticipation-agent-kate_harper-event-1-4",
+                                "agent": "agent-kate_harper",
+                                "event": "event-1-4",
+                                "current_status": "Providing intelligence update linking Serbian security services to the paramilitary group.",
+                                "emotional_state": "Informative and composed.",
+                                "active_plans": [
+                                    "Verify the credibility of intelligence linking Serbian security services to the paramilitary group",
+                                    "Advise on intelligence-led response options"
+                                ],
+                                "beliefs": [
+                                    "Intel is crucial for informed decision making",
+                                    "Interagency cooperation is critical for addressing complex international threats"
+                                ],
+                                "goals": [
+                                    "Ensure decision-makers have actionable intelligence",
+                                    "Prevent escalation by understanding the adversary's support networks"
+                                ]
+                            },
+                            {
+                                "uuid": "agentparticipation-agent-josh_lyman-event-1-5",
+                                "agent": "agent-josh_lyman",
+                                "event": "event-1-5",
+                                "current_status": "Entering the Situation Room and taking his seat.",
+                                "emotional_state": "Tense but focused, indicated by rubbing his scar.",
+                                "active_plans": [],
+                                "beliefs": [
+                                    "Significance of USAID workers' loss necessitates urgent focus testifying to high-stakes nature."
+                                ],
+                                "goals": [
+                                    "Understand the situation.",
+                                    "Contribute to strategic response planning."
+                                ]
+                            },
+                            {
+                                "uuid": "agentparticipation-agent-nancy_mcnally-event-1-5",
+                                "agent": "agent-nancy_mcnally",
+                                "event": "event-1-5",
+                                "current_status": "Standing at the head of the table, explaining the situation.",
+                                "emotional_state": "Concerned and authoritative.",
+                                "active_plans": [
+                                    "Provide detailed situation update.",
+                                    "Facilitate discussion of potential actions."
+                                ],
+                                "beliefs": [
+                                    "USAID workers' safety is top priority.",
+                                    "Need for coordination with President and advisors."
+                                ],
+                                "goals": [
+                                    "Develop actionable response strategies.",
+                                    "Guide national security conversation."
+                                ]
+                            },
+                            {
+                                "uuid": "agentparticipation-agent-kate_harper-event-1-5",
+                                "agent": "agent-kate_harper",
+                                "event": "event-1-5",
+                                "current_status": "Contributing strategic intelligence on the situation.",
+                                "emotional_state": "Calm but alert, signified by reporting intelligence findings.",
+                                "active_plans": [
+                                    "Analyze intelligence data regarding paramilitary support."
+                                ],
+                                "beliefs": [
+                                    "Existence of complicity within Serbian security services elevates risk."
+                                ],
+                                "goals": [
+                                    "Enhance situational awareness.",
+                                    "Aid in crafting a targeted response."
+                                ]
+                            },
+                            {
+                                "uuid": "agentparticipation-agent-josiah_bartlet-event-1-5",
+                                "agent": "agent-josiah_bartlet",
+                                "event": "event-1-5",
+                                "current_status": "Entering the Situation Room with Leo McGarry and General Alexander, asking for options.",
+                                "emotional_state": "Grim and serious, devoid of typical intellectual playfulness.",
+                                "active_plans": [
+                                    "Phrase initial inquiry to gauge status and options.",
+                                    "Potentially authorize decisive action."
+                                ],
+                                "beliefs": [
+                                    "Immediate presidential intervention is critical.",
+                                    "Complexity requires coordinated government response."
+                                ],
+                                "goals": [
+                                    "Assess all available options.",
+                                    "Ensure safety and resolution for USAID workers."
+                                ]
+                            }
+                        ],
+                        "object_involvements": [
+                            {
+                                "uuid": "objectinvolvement-object-lcd_screens-event-1-1",
+                                "object": "object-lcd_screens",
+                                "event": "event-1-1",
+                                "description_of_involvement": "The LCD screens display satellite imagery of the Kosovo-Serbia border region, providing visual context and geographical information vital to the briefing and analysis.",
+                                "object_status_before_event": "The LCD screens were likely off or displaying different content prior to being utilized in this briefing.",
+                                "object_status_after_event": "The LCD screens continue to display satellite imagery as a reference throughout the meeting."
+                            },
+                            {
+                                "uuid": "objectinvolvement-object-scar_on_chest-event-1-1",
+                                "object": "object-scar_on_chest",
+                                "event": "event-1-1",
+                                "description_of_involvement": "Josh Lyman unconsciously rubs the old scar on his chest, a habitual response when situations become tense, adding a personal tension dynamic to the scene.",
+                                "object_status_before_event": "The scar on Josh Lyman's chest was an old wound, inactive but a psychological marker of past trauma.",
+                                "object_status_after_event": "The scar remains untouched and unchanged physically, but its presence underscores Josh's internal tension during the event."
+                            },
+                            {
+                                "uuid": "objectinvolvement-object-lcd_screens-event-1-2",
+                                "object": "object-lcd_screens",
+                                "event": "event-1-2",
+                                "description_of_involvement": "The LCD screens display satellite imagery of the Kosovo-Serbia border region, providing visual context for Nancy McNally's briefing about the missing USAID workers.",
+                                "object_status_before_event": "The LCD screens are turned on, ready to display relevant imagery.",
+                                "object_status_after_event": "The LCD screens continue to display satellite imagery as the discussion progresses."
+                            },
+                            {
+                                "uuid": "objectinvolvement-object-scar_on_chest-event-1-2",
+                                "object": "object-scar_on_chest",
+                                "event": "event-1-2",
+                                "description_of_involvement": "Josh Lyman unconsciously rubs the scar on his chest, which serves as a physical manifestation of his tension and anxiety during the briefing.",
+                                "object_status_before_event": "The scar is present on Josh's chest, serving as a reminder of past trauma.",
+                                "object_status_after_event": "The scar remains on Josh's chest, having acted as a tactile trigger for Josh's anxiety."
+                            },
+                            {
+                                "uuid": "objectinvolvement-object-lcd_screens-event-1-3",
+                                "object": "object-lcd_screens",
+                                "event": "event-1-3",
+                                "description_of_involvement": "The LCD screens in the Situation Room are displaying satellite imagery of the Kosovo-Serbia border region, providing visual aid for ongoing discussions about the disappearance of USAID workers.",
+                                "object_status_before_event": "The LCD screens were likely powered on, ready to display relevant information as events unfolded.",
+                                "object_status_after_event": "The LCD screens continue to display the satellite imagery during the briefing, highlighting the geographic context of the incident."
+                            },
+                            {
+                                "uuid": "objectinvolvement-object-scar_on_chest-event-1-3",
+                                "object": "object-scar_on_chest",
+                                "event": "event-1-3",
+                                "description_of_involvement": "Josh Lyman unconsciously rubs his old scar on his chest, a subconscious reaction to the tense situation described by Nancy McNally.",
+                                "object_status_before_event": "Josh's scar was present and has become a habitual focal point during tense moments.",
+                                "object_status_after_event": "The scar remains unchanged, as it continues to serve as a physical reminder of past trauma and tense scenarios."
+                            },
+                            {
+                                "uuid": "objectinvolvement-object-lcd_screens-event-1-4",
+                                "object": "object-lcd_screens",
+                                "event": "event-1-4",
+                                "description_of_involvement": "The LCD screens display satellite imagery of the Kosovo-Serbia border region, providing visual intelligence that supports the discussion about potential Serbian security service involvement.",
+                                "object_status_before_event": "The LCD screens were likely displaying general information or inactive before the event began.",
+                                "object_status_after_event": "The LCD screens are actively displaying satellite imagery relevant to the situation at the Kosovo-Serbia border."
+                            },
+                            {
+                                "uuid": "objectinvolvement-object-scar_on_chest-event-1-4",
+                                "object": "object-scar_on_chest",
+                                "event": "event-1-4",
+                                "description_of_involvement": "Josh Lyman unconsciously rubs the scar on his chest, reflecting his tension and anxiety during the serious discussion about the USAID workers who went dark.",
+                                "object_status_before_event": "The scar on Josh's chest is a constant physical reminder, unchanged but psychologically impactful.",
+                                "object_status_after_event": "The scar remains unchanged physically but symbolizes Josh's heightened emotional state during the tense Situation Room meeting."
+                            },
+                            {
+                                "uuid": "objectinvolvement-object-lcd_screens-event-1-5",
+                                "object": "object-lcd_screens",
+                                "event": "event-1-5",
+                                "description_of_involvement": "The LCD screens display satellite imagery of the Kosovo-Serbia border region, providing visual context for the urgent discussion about the missing USAID workers.",
+                                "object_status_before_event": "The LCD screens are operational and set to display relevant satellite data.",
+                                "object_status_after_event": "The LCD screens continue to display satellite imagery, remaining a crucial source of visual information."
+                            },
+                            {
+                                "uuid": "objectinvolvement-object-scar_on_chest-event-1-5",
+                                "object": "object-scar_on_chest",
+                                "event": "event-1-5",
+                                "description_of_involvement": "Josh Lyman unconsciously rubs the scar on his chest, a reflexive gesture reflecting his anxiety about the precarious situation.",
+                                "object_status_before_event": "The scar on Josh's chest is a permanent mark from a past incident, typically unnoticed.",
+                                "object_status_after_event": "The scar remains unchanged but serves as a subtle emotional cue during high-stress moments."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "scene_uuid": "scene-2",
+                    "original_scene_data": {
+                        "Scene": "Vice President's Office",
+                        "Dialogue": [
+                            {
+                                "Stage Direction": "The stately Office of the Vice President is dark except for a single desk lamp. Bob Russell sits alone, staring at a framed photograph of himself teaching a young Amanda Dalton to fish at his Colorado lake house. His carefully maintained political mask has slipped, revealing raw emotion."
+                            },
+                            {
+                                "Character": "RUSSELL",
+                                "Line": "She joined USAID because of him, you know."
+                            },
+                            {
+                                "Stage Direction": "Margaret stands in the doorway, clearly uncomfortable at witnessing this private moment."
+                            },
+                            {
+                                "Character": "MARGARET",
+                                "Line": "Sir, they're waiting for you in the Situation Room."
+                            },
+                            {
+                                "Character": "RUSSELL",
+                                "Line": "Because of a speech Bartlet gave. About America's obligation to help rebuild war-torn regions. To prevent the next conflict before it starts."
+                            },
+                            {
+                                "Stage Direction": "Russell places the photograph carefully back on his desk, visibly reconstructing his political persona as he stands."
+                            }
+                        ]
+                    },
+                    "extracted_data": {
+                        "metadata": {
+                            "uuid": "scene-2",
+                            "title": "Russell Reflects Alone in the Vice President's Office",
+                            "description": "In the dimly lit Vice President's Office, Bob Russell sits alone, gazing at a photograph that reveals a personal connection to Amanda Dalton, a USAID worker in danger. His emotional vulnerability is exposed, juxtaposing his usual political facade. Margaret enters, informing him that he is needed in the Situation Room. Russell, reflecting on the influence of President Bartlet's speech on Amanda's career choice, composedly returns the photograph to his desk and reconstructs his political persona before departing.",
+                            "scene_number": 2,
+                            "location": "location_vice_presidents_office",
+                            "next_scene": "scene-3"
+                        },
+                        "events": [
+                            {
+                                "title": "Bob Russell Reflects on Amanda Dalton's Inspiration",
+                                "uuid": "event-2-1",
+                                "description": "In the dimly lit Vice President's Office, Bob Russell is alone, reflecting on a framed photograph of a personal moment with Amanda Dalton. He reveals that Amanda joined USAID influenced by a speech from President Bartlet. This speech emphasized America's role in rebuilding war-torn regions. Margaret interrupts, reminding Russell of a meeting in the Situation Room.",
+                                "sequence_within_scene": 1,
+                                "key_dialogue": [
+                                    "RUSSELL: She joined USAID because of him, you know.",
+                                    "MARGARET: Sir, they're waiting for you in the Situation Room.",
+                                    "RUSSELL: Because of a speech Bartlet gave. About America's obligation to help rebuild war-torn regions. To prevent the next conflict before it starts."
+                                ],
+                                "agent_participations": [
+                                    "agentparticipation-agent-bob_russell-event-2-1",
+                                    "agentparticipation-agent-margaret-event-2-1"
+                                ],
+                                "object_involvements": [
+                                    "objectinvolvement-object-framed_photograph-event-2-1",
+                                    "objectinvolvement-object-desk_lamp-event-2-1"
+                                ],
+                                "next_event": null
+                            }
+                        ],
+                        "agent_participations": [
+                            {
+                                "uuid": "agentparticipation-agent-bob_russell-event-2-1",
+                                "agent": "agent-bob_russell",
+                                "event": "event-2-1",
+                                "current_status": "Reflecting on a personal photograph and its significance.",
+                                "emotional_state": "Vulnerable and introspective, shifting back to a political demeanor.",
+                                "active_plans": [
+                                    "Attend the meeting in the Situation Room"
+                                ],
+                                "beliefs": [
+                                    "America has an obligation to help rebuild war-torn regions"
+                                ],
+                                "goals": [
+                                    "Maintain his political persona",
+                                    "Reflect on Amanda Dalton's career choice"
+                                ]
+                            },
+                            {
+                                "uuid": "agentparticipation-agent-margaret-event-2-1",
+                                "agent": "agent-margaret",
+                                "event": "event-2-1",
+                                "current_status": "Informing Bob Russell about the meeting in the Situation Room.",
+                                "emotional_state": "Uncomfortable witnessing Bob Russell's private moment.",
+                                "active_plans": [
+                                    "Ensure Bob Russell attends the meeting"
+                                ],
+                                "beliefs": [
+                                    "Professional duties require notifying Bob Russell of his obligations"
+                                ],
+                                "goals": [
+                                    "Prompt Bob Russell to attend the meeting"
+                                ]
+                            }
+                        ],
+                        "object_involvements": [
+                            {
+                                "uuid": "objectinvolvement-object-framed_photograph-event-2-1",
+                                "object": "object-framed_photograph",
+                                "event": "event-2-1",
+                                "description_of_involvement": "Bob Russell reflects on the framed photograph of himself with Amanda Dalton as he reveals her motivation for joining USAID. This moment of vulnerability provides insight into his personal connection to the speech made by President Bartlet.",
+                                "object_status_before_event": "The photograph was on Bob Russell's desk, likely serving as a personal reminder of his past and connection to Amanda Dalton.",
+                                "object_status_after_event": "The photograph is placed carefully back on the desk by Bob Russell as he attempts to reconstruct his political persona."
+                            },
+                            {
+                                "uuid": "objectinvolvement-object-desk_lamp-event-2-1",
+                                "object": "object-desk_lamp",
+                                "event": "event-2-1",
+                                "description_of_involvement": "The desk lamp provides the only illumination in the Vice President's Office, creating a dim atmosphere that underscores Bob Russell's private reflection.",
+                                "object_status_before_event": "The desk lamp was turned on, casting light on the framed photograph and Bob Russell.",
+                                "object_status_after_event": "The desk lamp remains on, continuing to illuminate the room as Bob Russell is informed of the meeting in the Situation Room."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "scene_uuid": "scene-3",
+                    "original_scene_data": {
+                        "Scene": "Mural Room",
+                        "Dialogue": [
+                            {
+                                "Stage Direction": "The Russian Ambassador, Viktor Petrov, stands with perfect diplomatic posture as he delivers Moscow's position. C.J. and Leo observe from near the doorway, both noting Bartlet's tells - the subtle jaw clench, the hands clasped tightly behind his back."
+                            },
+                            {
+                                "Character": "AMBASSADOR PETROV",
+                                "Line": "This is, as we see it, an internal Serbian law enforcement matter. Any NATO intervention would constitute a serious violation of sovereign territory."
+                            },
+                            {
+                                "Character": "PRESIDENT BARTLET",
+                                "Line": "Mr. Ambassador, would you care to explain how the kidnapping of American aid workers constitutes an internal matter?"
+                            },
+                            {
+                                "Stage Direction": "C.J.'s BlackBerry buzzes. The news alerts make her close her eyes briefly, steeling herself for the coming media storm."
+                            },
+                            {
+                                "Character": "C.J.",
+                                "Line": "Sir, CNN is running with Amanda Dalton's identity."
+                            }
+                        ]
+                    },
+                    "extracted_data": {
+                        "metadata": {
+                            "uuid": "scene-3",
+                            "title": "Tense Diplomatic Exchange in the Mural Room",
+                            "description": "In the Mural Room, Russian Ambassador Viktor Petrov maintains a formal posture as he delivers Moscow's stance, asserting that the situation in Serbia is an internal matter, opposing NATO intervention. President Bartlet challenges this view, questioning the classification of the kidnapping of American aid workers as an internal issue. C.J. Cregg and Leo McGarry quietly observe from the doorway, noting Bartlet's visible signs of increasing tension. C.J.'s BlackBerry alerts her to a breaking news story revealing Amanda Dalton's identity, signaling an impending media challenge.",
+                            "scene_number": 3,
+                            "location": "location-mural_room",
+                            "next_scene": "scene-4"
+                        },
+                        "events": [
+                            {
+                                "title": "Ambassador Petrov Delivers Moscow's Position",
+                                "uuid": "event-3-1",
+                                "description": "Ambassador Viktor Petrov stands in the Mural Room with perfect diplomatic posture as he communicates Moscow's stance on NATO's involvement, asserting that the situation in Serbia is an internal law enforcement matter.",
+                                "sequence_within_scene": 1,
+                                "key_dialogue": [
+                                    "This is, as we see it, an internal Serbian law enforcement matter. Any NATO intervention would constitute a serious violation of sovereign territory."
+                                ],
+                                "agent_participations": [
+                                    "agentparticipation-agent-viktor_petrov-event-3-1",
+                                    "agentparticipation-agent-josiah_bartlet-event-3-1",
+                                    "agentparticipation-agent-c_j_cregg-event-3-1",
+                                    "agentparticipation-agent-leo_mcgarry-event-3-1"
+                                ],
+                                "object_involvements": [
+                                    "objectinvolvement-object-blackberry-event-3-1"
+                                ],
+                                "next_event": "event-3-2"
+                            },
+                            {
+                                "title": "President Bartlet Challenges the Ambassador",
+                                "uuid": "event-3-2",
+                                "description": "President Bartlet responds to Ambassador Petrov's statement, questioning how the kidnapping of American aid workers can be considered an internal Serbian matter.",
+                                "sequence_within_scene": 2,
+                                "key_dialogue": [
+                                    "Mr. Ambassador, would you care to explain how the kidnapping of American aid workers constitutes an internal matter?"
+                                ],
+                                "agent_participations": [
+                                    "agentparticipation-agent-viktor_petrov-event-3-2",
+                                    "agentparticipation-agent-josiah_bartlet-event-3-2",
+                                    "agentparticipation-agent-c_j_cregg-event-3-2",
+                                    "agentparticipation-agent-leo_mcgarry-event-3-2"
+                                ],
+                                "object_involvements": [
+                                    "objectinvolvement-object-blackberry-event-3-2"
+                                ],
+                                "next_event": "event-3-3"
+                            },
+                            {
+                                "title": "C.J. Receives Breaking News Alert",
+                                "uuid": "event-3-3",
+                                "description": "C.J.'s BlackBerry buzzes with news alerts, and she informs President Bartlet that CNN is running with the story of Amanda Dalton's identity, indicating a looming media storm.",
+                                "sequence_within_scene": 3,
+                                "key_dialogue": [
+                                    "Sir, CNN is running with Amanda Dalton's identity."
+                                ],
+                                "agent_participations": [
+                                    "agentparticipation-agent-c_j_cregg-event-3-3",
+                                    "agentparticipation-agent-josiah_bartlet-event-3-3"
+                                ],
+                                "object_involvements": [
+                                    "objectinvolvement-object-blackberry-event-3-3"
+                                ],
+                                "next_event": null
+                            }
+                        ],
+                        "agent_participations": [
+                            {
+                                "uuid": "agentparticipation-agent-viktor_petrov-event-3-1",
+                                "agent": "agent-viktor_petrov",
+                                "event": "event-3-1",
+                                "current_status": "Standing with diplomatic posture, delivering Moscow's position.",
+                                "emotional_state": "Calm, diplomatic.",
+                                "active_plans": [
+                                    "Communicate Moscow's stance that NATO intervention is a violation of sovereignty."
+                                ],
+                                "beliefs": [
+                                    "Serbia's situation is an internal law enforcement matter.",
+                                    "NATO's involvement is unwarranted and unauthorized."
+                                ],
+                                "goals": [
+                                    "Dissuade NATO from intervening in Serbia."
+                                ]
+                            },
+                            {
+                                "uuid": "agentparticipation-agent-josiah_bartlet-event-3-1",
+                                "agent": "agent-josiah_bartlet",
+                                "event": "event-3-1",
+                                "current_status": "Questioning Ambassador Petrov about the kidnapping of American aid workers.",
+                                "emotional_state": "Tense, challenging.",
+                                "active_plans": [
+                                    "Challenge the assertion that the situation is solely internal.",
+                                    "Seek clarification on the kidnapping of American personnel."
+                                ],
+                                "beliefs": [
+                                    "The kidnapping involves international implications.",
+                                    "The safety of American citizens is a priority."
+                                ],
+                                "goals": [
+                                    "Ensure safety of American aid workers.",
+                                    "Address potential international legal violations."
+                                ]
+                            },
+                            {
+                                "uuid": "agentparticipation-agent-c_j_cregg-event-3-1",
+                                "agent": "agent-c_j_cregg",
+                                "event": "event-3-1",
+                                "current_status": "Observing the discussion, receiving news alerts on BlackBerry.",
+                                "emotional_state": "Anxious, worried.",
+                                "active_plans": [
+                                    "Monitor media reports and prepare for potential media response."
+                                ],
+                                "beliefs": [
+                                    "Media coverage will impact public perception.",
+                                    "It is crucial to manage the narrative actively."
+                                ],
+                                "goals": [
+                                    "Prepare a strategy to respond to the media storm.",
+                                    "Protect the administration's position and credibility."
+                                ]
+                            },
+                            {
+                                "uuid": "agentparticipation-agent-leo_mcgarry-event-3-1",
+                                "agent": "agent-leo_mcgarry",
+                                "event": "event-3-1",
+                                "current_status": "Observing the interaction, noting Bartlet's reactions.",
+                                "emotional_state": "Vigilant, analytical.",
+                                "active_plans": [
+                                    "Assess potential diplomatic fallout.",
+                                    "Support President Bartlet in countering Petrov's argument."
+                                ],
+                                "beliefs": [
+                                    "Leadership's response must be measured and strategic.",
+                                    "Ensuring international stability is of utmost importance."
+                                ],
+                                "goals": [
+                                    "Aid Bartlet in diplomatic negotiations.",
+                                    "Navigate diplomatic tensions effectively."
+                                ]
+                            },
+                            {
+                                "uuid": "agentparticipation-agent-viktor_petrov-event-3-2",
+                                "agent": "agent-viktor_petrov",
+                                "event": "event-3-2",
+                                "current_status": "Delivering Moscow's position on the situation.",
+                                "emotional_state": "Calm and composed, maintaining diplomatic posture.",
+                                "active_plans": [
+                                    "Affirm Moscow's stance regarding the issue as an internal matter."
+                                ],
+                                "beliefs": [
+                                    "NATO intervention would violate Serbian sovereignty."
+                                ],
+                                "goals": [
+                                    "Prevent international intervention in Serbian affairs."
+                                ]
+                            },
+                            {
+                                "uuid": "agentparticipation-agent-josiah_bartlet-event-3-2",
+                                "agent": "agent-josiah_bartlet",
+                                "event": "event-3-2",
+                                "current_status": "Questioning Ambassador Petrov on the presented stance.",
+                                "emotional_state": "Assertive, subtly displaying frustration.",
+                                "active_plans": [
+                                    "Challenge the notion that the kidnapping is an internal matter."
+                                ],
+                                "beliefs": [
+                                    "The safety of American citizens abroad is a priority."
+                                ],
+                                "goals": [
+                                    "Seek accountability for the kidnapping of American aid workers.",
+                                    "Ensure responsible actions are taken to secure their release."
+                                ]
+                            },
+                            {
+                                "uuid": "agentparticipation-agent-c_j_cregg-event-3-2",
+                                "agent": "agent-c_j_cregg",
+                                "event": "event-3-2",
+                                "current_status": "Receiving a news alert about media coverage.",
+                                "emotional_state": "Anxious and preparing for media fallout.",
+                                "active_plans": [
+                                    "Prepare for potential media response and increase in public scrutiny."
+                                ],
+                                "beliefs": [
+                                    "The media exposure will complicate diplomatic efforts."
+                                ],
+                                "goals": [
+                                    "Manage and mitigate the media narrative regarding Amanda Dalton."
+                                ]
+                            },
+                            {
+                                "uuid": "agentparticipation-agent-leo_mcgarry-event-3-2",
+                                "agent": "agent-leo_mcgarry",
+                                "event": "event-3-2",
+                                "current_status": "Observing President Bartlet and the Ambassador's interaction.",
+                                "emotional_state": "Focused and assessing the diplomatic situation.",
+                                "active_plans": [
+                                    "Support President Bartlet's position during the discussion."
+                                ],
+                                "beliefs": [
+                                    "Diplomatic negotiation is crucial in managing the crisis."
+                                ],
+                                "goals": [
+                                    "Enhance the U.S. diplomatic position regarding the kidnapping."
+                                ]
+                            },
+                            {
+                                "uuid": "agentparticipation-agent-c_j_cregg-event-3-3",
+                                "agent": "agent-c_j_cregg",
+                                "event": "event-3-3",
+                                "current_status": "Notifying President Bartlet about the CNN report concerning Amanda Dalton.",
+                                "emotional_state": "Alert and concerned, preparing for media repercussions.",
+                                "active_plans": [
+                                    "Inform President Bartlet about media developments",
+                                    "Prepare to manage potential press inquiries"
+                                ],
+                                "beliefs": [
+                                    "Transparency with Bartlet is vital for effective crisis management",
+                                    "Media's focus on Dalton's identity can escalate the situation"
+                                ],
+                                "goals": [
+                                    "Ensure the administration is aware of media implications",
+                                    "Develop a response strategy for potential media fallout"
+                                ]
+                            },
+                            {
+                                "uuid": "agentparticipation-agent-josiah_bartlet-event-3-3",
+                                "agent": "agent-josiah_bartlet",
+                                "event": "event-3-3",
+                                "current_status": "Receiving C.J.'s update about the media's knowledge of Amanda Dalton's identity.",
+                                "emotional_state": "Concerned and tense, aware of escalating diplomatic sensitivities.",
+                                "active_plans": [
+                                    "Engage in diplomatic dialogue with Ambassador Petrov",
+                                    "Consider the implications of media exposure on diplomatic strategy"
+                                ],
+                                "beliefs": [
+                                    "Managing diplomatic relations is crucial amidst media scrutiny",
+                                    "Need to balance public knowledge with diplomatic negotiations"
+                                ],
+                                "goals": [
+                                    "Maintain diplomatic control over the situation",
+                                    "Navigate potential international backlash due to media exposure"
+                                ]
+                            }
+                        ],
+                        "object_involvements": [
+                            {
+                                "uuid": "objectinvolvement-object-blackberry-event-3-1",
+                                "object": "object-blackberry",
+                                "event": "event-3-1",
+                                "description_of_involvement": "C.J.'s BlackBerry buzzes with news alerts regarding Amanda Dalton, affecting her emotional state and preparation for a media response.",
+                                "object_status_before_event": "C.J.'s BlackBerry is inactive and held by her.",
+                                "object_status_after_event": "The BlackBerry is active, displaying news alerts, leading to C.J. closing her eyes to prepare for the news impact."
+                            },
+                            {
+                                "uuid": "objectinvolvement-object-blackberry-event-3-2",
+                                "object": "object-blackberry",
+                                "event": "event-3-2",
+                                "description_of_involvement": "C.J.'s BlackBerry buzzes with news alerts, indicating that CNN is running with Amanda Dalton's identity, which adds immediate pressure to the situation and informs her reaction.",
+                                "object_status_before_event": "The BlackBerry is in C.J.'s possession, inactive, serving as her communication device.",
+                                "object_status_after_event": "The BlackBerry buzzes with news alerts, indicating incoming information critical to the unfolding situation."
+                            },
+                            {
+                                "uuid": "objectinvolvement-object-blackberry-event-3-3",
+                                "object": "object-blackberry",
+                                "event": "event-3-3",
+                                "description_of_involvement": "C.J.'s BlackBerry alerts her with news that CNN is running with Amanda Dalton's identity, indicating an impending media situation she needs to address.",
+                                "object_status_before_event": "The BlackBerry is in C.J.'s possession, idle and unalerted.",
+                                "object_status_after_event": "The BlackBerry has alerted C.J. to a developing news story, prompting her response to the situation."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "scene_uuid": "scene-4",
+                    "original_scene_data": {
+                        "Scene": "Steam Pipe Trunk Distribution Venue",
+                        "Dialogue": [
+                            {
+                                "Stage Direction": "In the windowless office space, Sam Seaborn sits surrounded by crumpled paper and empty coffee cups. His laptop screen glows with two distinct documents - one for victory, one for tragedy. Toby stands in the doorway, watching his deputy with concern."
+                            },
+                            {
+                                "Character": "SAM",
+                                "Line": "The thing about tragedy is that it demands poetry. But how do you make poetry out of political violence?"
+                            },
+                            {
+                                "Character": "TOBY",
+                                "Line": "Sometimes poetry is in the restraint. We need to remind people why we send aid workers into dangerous places. Why we try to rebuild what others have destroyed."
+                            },
+                            {
+                                "Stage Direction": "Sam runs his hands through his already disheveled hair, his usual polish completely abandoned in the intensity of the moment."
+                            },
+                            {
+                                "Character": "SAM",
+                                "Line": "I keep thinking about what you said after Rosslyn. About how we're supposed to be the good guys."
+                            },
+                            {
+                                "Character": "TOBY",
+                                "Line": "We still are. That's why this is hard."
+                            }
+                        ]
+                    },
+                    "extracted_data": {
+                        "metadata": {
+                            "uuid": "scene-4",
+                            "title": "Debating the Role of Poetry in Political Speeches",
+                            "description": "In the Steam Pipe Trunk Distribution Venue, Sam Seaborn is enveloped in the chaotic remnants of drafts and coffee cups, diligently working on two distinct speeches\u2014one for a potential victory, the other for a tragedy. His colleague, Toby Ziegler, observes with a watchful concern as Sam grapples with the challenge of injecting poetry into the harsh realities of political violence. Sam's disheveled state reflects the pressure of the task, as he recalls Toby's earlier reflections on their moral compass\u2014being the good guys. The exchange underscores the tension between their ideals and the harsh truths they must navigate.",
+                            "scene_number": 4,
+                            "location": "location-steam_pipe_trunk_distribution_venue",
+                            "next_scene": "scene-5"
+                        },
+                        "events": [
+                            {
+                                "title": "Sam Seaborn Reflects on Tragedy and Political Violence",
+                                "uuid": "event-4-1",
+                                "description": "Sam Seaborn is seated in the Steam Pipe Trunk Distribution Venue, surrounded by crumpled paper and empty coffee cups, indicating a long, intense session of work. He's struggling with crafting speeches that capture the dual outcomes of victory and tragedy. Sam expresses his thoughts on the challenge of turning political violence into poetry. Toby Ziegler interjects with a perspective on restraint in such writings, emphasizing the importance of their work in sending aid workers to dangerous areas and rebuilding efforts.",
+                                "sequence_within_scene": 1,
+                                "key_dialogue": [
+                                    "SAM: The thing about tragedy is that it demands poetry. But how do you make poetry out of political violence?",
+                                    "TOBY: Sometimes poetry is in the restraint. We need to remind people why we send aid workers into dangerous places. Why we try to rebuild what others have destroyed."
+                                ],
+                                "agent_participations": [
+                                    "agentparticipation-agent-sam_seaborn-event-4-1",
+                                    "agentparticipation-agent-toby_ziegler-event-4-1"
+                                ],
+                                "object_involvements": [
+                                    "objectinvolvement-object-crumpled_paper-event-4-1",
+                                    "objectinvolvement-object-empty_coffee_cups-event-4-1",
+                                    "objectinvolvement-object-laptop-event-4-1"
+                                ],
+                                "next_event": "event-4-2"
+                            },
+                            {
+                                "title": "Sam Seaborn Recalls Toby's Words Post-Rosslyn",
+                                "uuid": "event-4-2",
+                                "description": "As the conversation progresses, Sam reflects on Toby's past words after the Rosslyn shooting incident, pondering their role as 'the good guys' and the moral complexity of their decisions. Toby reassures him that they remain on the side of good, acknowledging the inherent difficulty of navigating such roles in the face of tragedy.",
+                                "sequence_within_scene": 2,
+                                "key_dialogue": [
+                                    "SAM: I keep thinking about what you said after Rosslyn. About how we're supposed to be the good guys.",
+                                    "TOBY: We still are. That's why this is hard."
+                                ],
+                                "agent_participations": [
+                                    "agentparticipation-agent-sam_seaborn-event-4-2",
+                                    "agentparticipation-agent-toby_ziegler-event-4-2"
+                                ],
+                                "object_involvements": [
+                                    "objectinvolvement-object-crumpled_paper-event-4-2",
+                                    "objectinvolvement-object-empty_coffee_cups-event-4-2",
+                                    "objectinvolvement-object-laptop-event-4-2"
+                                ],
+                                "next_event": null
+                            }
+                        ],
+                        "agent_participations": [
+                            {
+                                "uuid": "agentparticipation-agent-sam_seaborn-event-4-1",
+                                "agent": "agent-sam_seaborn",
+                                "event": "event-4-1",
+                                "current_status": "Sitting at his desk, surrounded by crumpled paper and empty coffee cups, struggling to craft speeches.",
+                                "emotional_state": "Frustrated and contemplative.",
+                                "active_plans": [
+                                    "Draft speeches that convey the dual themes of victory and tragedy",
+                                    "Capture the essence of political events in a poetic manner"
+                                ],
+                                "beliefs": [
+                                    "Tragedy in political contexts demands a poetic approach",
+                                    "Their work as speechwriters is crucial in framing political narratives"
+                                ],
+                                "goals": [
+                                    "Effectively communicate the necessity of sending aid workers into dangerous areas",
+                                    "Balance the portrayal of victory and tragedy in political contexts"
+                                ]
+                            },
+                            {
+                                "uuid": "agentparticipation-agent-toby_ziegler-event-4-1",
+                                "agent": "agent-toby_ziegler",
+                                "event": "event-4-1",
+                                "current_status": "Standing in the doorway, observing and engaging with Sam.",
+                                "emotional_state": "Reassuring and reflective.",
+                                "active_plans": [
+                                    "Provide guidance and perspective to Sam",
+                                    "Emphasize the importance of restraint in their speechwriting"
+                                ],
+                                "beliefs": [
+                                    "Restraint can embody poetry in political contexts",
+                                    "Reinforcing the message of 'being the good guys' is vital"
+                                ],
+                                "goals": [
+                                    "Highlight the importance of their message in sending aid workers",
+                                    "Support and mentor Sam through the speechwriting process"
+                                ]
+                            },
+                            {
+                                "uuid": "agentparticipation-agent-sam_seaborn-event-4-2",
+                                "agent": "agent-sam_seaborn",
+                                "event": "event-4-2",
+                                "current_status": "Reflecting on Toby's past words and pondering the moral complexities in a politically charged environment.",
+                                "emotional_state": "Struggling with disillusionment and seeking clarity.",
+                                "active_plans": [
+                                    "Write a speech addressing both victory and tragedy."
+                                ],
+                                "beliefs": [
+                                    "Tragedy should be met with profound reflection.",
+                                    "Their work is significant and morally directed towards aiding others."
+                                ],
+                                "goals": [
+                                    "Craft a speech that balances the gravity of tragedy with hope.",
+                                    "Continue to affirm their position as the moral 'good guys'."
+                                ]
+                            },
+                            {
+                                "uuid": "agentparticipation-agent-toby_ziegler-event-4-2",
+                                "agent": "agent-toby_ziegler",
+                                "event": "event-4-2",
+                                "current_status": "Providing reassurance and advice to Sam while reflecting on their roles.",
+                                "emotional_state": "Empathic yet resolute.",
+                                "active_plans": [
+                                    "Encourage Sam to find poetry in restraint and moral clarity."
+                                ],
+                                "beliefs": [
+                                    "Despite challenges, they are working for a noble cause.",
+                                    "It is essential to convey their ideals clearly to the public."
+                                ],
+                                "goals": [
+                                    "Support Sam in writing a meaningful speech.",
+                                    "Reaffirm their commitment to moral leadership."
+                                ]
+                            }
+                        ],
+                        "object_involvements": [
+                            {
+                                "uuid": "objectinvolvement-object-crumpled_paper-event-4-1",
+                                "object": "object-crumpled_paper",
+                                "event": "event-4-1",
+                                "description_of_involvement": "Crumpled paper surrounds Sam Seaborn, symbolizing the ongoing struggle and frustration he faces while attempting to articulate the dual outcomes of victory and tragedy in his speeches.",
+                                "object_status_before_event": "The crumpled paper was scattered around Sam Seaborn, representing previous unsuccessful attempts at crafting speeches.",
+                                "object_status_after_event": "The crumpled paper remains in the same scattered condition, reflecting Sam's continued attempts to perfect his writing."
+                            },
+                            {
+                                "uuid": "objectinvolvement-object-empty_coffee_cups-event-4-1",
+                                "object": "object-empty_coffee_cups",
+                                "event": "event-4-1",
+                                "description_of_involvement": "Empty coffee cups depict the passing of time and the intensity of Sam's work session, indicating long hours spent in focus and determination.",
+                                "object_status_before_event": "The empty coffee cups were present on the desk, indicating prolonged periods of work.",
+                                "object_status_after_event": "The empty coffee cups remain on the desk as a testament to the effort and time invested in the speech-writing process."
+                            },
+                            {
+                                "uuid": "objectinvolvement-object-laptop-event-4-1",
+                                "object": "object-laptop",
+                                "event": "event-4-1",
+                                "description_of_involvement": "Sam Seaborn's laptop hosts two distinct documents that he is concurrently working on, highlighting the challenges of addressing both victory and tragedy in his speeches.",
+                                "object_status_before_event": "The laptop was actively being used by Sam Seaborn to draft and revise his speeches.",
+                                "object_status_after_event": "The laptop continues to display the work-in-progress documents, capturing Sam's ongoing efforts in crafting meaningful communications."
+                            },
+                            {
+                                "uuid": "objectinvolvement-object-crumpled_paper-event-4-2",
+                                "object": "object-crumpled_paper",
+                                "event": "event-4-2",
+                                "description_of_involvement": "The crumpled paper surrounds Sam Seaborn's workspace, symbolizing his struggle with expressing the complexity of political violence and tragedy in words.",
+                                "object_status_before_event": "The crumpled paper was scattered around Sam's workspace, representing discarded attempts at capturing the right words.",
+                                "object_status_after_event": "The crumpled paper remains as a testament to Sam's continued attempts to articulate his thoughts, still unresolved."
+                            },
+                            {
+                                "uuid": "objectinvolvement-object-empty_coffee_cups-event-4-2",
+                                "object": "object-empty_coffee_cups",
+                                "event": "event-4-2",
+                                "description_of_involvement": "The empty coffee cups indicate Sam Seaborn's prolonged efforts and his exhaustion as he tries to write two different documents to address an uncertain future.",
+                                "object_status_before_event": "The coffee cups are empty, suggesting they've been consumed in the process of a long work session.",
+                                "object_status_after_event": "The empty coffee cups remain, symbolizing Sam's fatigue and continued effort."
+                            },
+                            {
+                                "uuid": "objectinvolvement-object-laptop-event-4-2",
+                                "object": "object-laptop",
+                                "event": "event-4-2",
+                                "description_of_involvement": "The laptop displays two documents, representing the divergent paths and emotional weight of triumph or tragedy that Sam is preparing for.",
+                                "object_status_before_event": "The laptop is active, displaying two open documents.",
+                                "object_status_after_event": "The laptop remains on with the documents open, reflecting Sam's engagement with the unpredictable events ahead."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "scene_uuid": "scene-5",
+                    "original_scene_data": {
+                        "Scene": "Oval Office",
+                        "Dialogue": [
+                            {
+                                "Stage Direction": "Rain streams down the windows of the Oval Office as Kate Harper bursts in, interrupting a tense strategy session. The room is crowded with senior staff, all showing signs of the crushing night."
+                            },
+                            {
+                                "Character": "KATE",
+                                "Line": "Serbian special police units have secured the compound. All hostages are safe."
+                            },
+                            {
+                                "Stage Direction": "Relief floods the room, but Josh remains by the window, his expression troubled. Donna approaches him quietly."
+                            },
+                            {
+                                "Character": "JOSH",
+                                "Line": "For about twenty minutes there, when we thought we'd lost them... I understood why nations go to war. Why they abandon principles for revenge."
+                            },
+                            {
+                                "Character": "DONNA",
+                                "Line": "But we didn't."
+                            },
+                            {
+                                "Character": "JOSH",
+                                "Line": "That's what scares me. Not that we might have failed, but that we might have succeeded in the wrong way."
+                            },
+                            {
+                                "Stage Direction": "President Bartlet watches his staff from behind the Resolute desk, his own tension not fully dissipated."
+                            },
+                            {
+                                "Character": "PRESIDENT BARTLET",
+                                "Line": "Charlie, get me President Kovach. And then the leadership of both parties. The American people deserve to know how close we came to the brink today - and who pushed us there."
+                            }
+                        ]
+                    },
+                    "extracted_data": {
+                        "metadata": {
+                            "uuid": "scene-5",
+                            "title": "Relief and Reflection in the Oval Office",
+                            "description": "As rain streams down the windows, Kate Harper announces the safe rescue of hostages to the tense senior staff gathered in the Oval Office. Relief fills the room, but Josh Lyman remains troubled by the ethical implications of their potential actions. President Bartlet decides to address the high-stakes situation with political leaders, highlighting the fine line between justice and vengeance.",
+                            "scene_number": 5,
+                            "location": "location-oval_office",
+                            "next_scene": null
+                        },
+                        "events": [
+                            {
+                                "title": "Kate Harper Reports the Hostage Situation Resolved",
+                                "uuid": "event-5-1",
+                                "description": "Kate Harper bursts into the Oval Office during a tense strategy session to announce that Serbian special police units have secured the compound and all hostages are safe. The relief is palpable among the senior staff present in the room.",
+                                "sequence_within_scene": 1,
+                                "key_dialogue": [
+                                    "KATE: Serbian special police units have secured the compound. All hostages are safe."
+                                ],
+                                "agent_participations": [
+                                    "agentparticipation-agent-kate_harper-event-5-1",
+                                    "agentparticipation-agent-josh_lyman-event-5-1",
+                                    "agentparticipation-agent-donna_moss-event-5-1",
+                                    "agentparticipation-agent-josiah_bartlet-event-5-1"
+                                ],
+                                "object_involvements": [
+                                    "objectinvolvement-object-rain-event-5-1",
+                                    "objectinvolvement-object-resolute_desk-event-5-1"
+                                ],
+                                "next_event": "event-5-2"
+                            },
+                            {
+                                "title": "Josh Lyman Reflects on the Threat of Losing Hostages",
+                                "uuid": "event-5-2",
+                                "description": "Reflecting by a window, Josh Lyman shares his thoughts with Donna Moss about nearly losing the hostages. He understands the motivations for war and revenge when nations believe they've lost everything. However, what scares him is achieving success in the wrong way rather than failure.",
+                                "sequence_within_scene": 2,
+                                "key_dialogue": [
+                                    "JOSH: For about twenty minutes there, when we thought we'd lost them... I understood why nations go to war. Why they abandon principles for revenge.",
+                                    "DONNA: But we didn't.",
+                                    "JOSH: That's what scares me. Not that we might have failed, but that we might have succeeded in the wrong way."
+                                ],
+                                "agent_participations": [
+                                    "agentparticipation-agent-josh_lyman-event-5-2",
+                                    "agentparticipation-agent-donna_moss-event-5-2"
+                                ],
+                                "object_involvements": [
+                                    "objectinvolvement-object-rain-event-5-2",
+                                    "objectinvolvement-object-resolute_desk-event-5-2"
+                                ],
+                                "next_event": "event-5-3"
+                            },
+                            {
+                                "title": "President Bartlet Prepares to Address the Crisis",
+                                "uuid": "event-5-3",
+                                "description": "President Bartlet, still tense, instructs Charlie to contact President Kovach and the leadership of both parties. He emphasizes the importance of informing the American people about the severity of the recent crisis and identifying the parties responsible for bringing the nation close to a significant conflict.",
+                                "sequence_within_scene": 3,
+                                "key_dialogue": [
+                                    "PRESIDENT BARTLET: Charlie, get me President Kovach. And then the leadership of both parties. The American people deserve to know how close we came to the brink today - and who pushed us there."
+                                ],
+                                "agent_participations": [
+                                    "agentparticipation-agent-kate_harper-event-5-3",
+                                    "agentparticipation-agent-josh_lyman-event-5-3",
+                                    "agentparticipation-agent-donna_moss-event-5-3",
+                                    "agentparticipation-agent-josiah_bartlet-event-5-3"
+                                ],
+                                "object_involvements": [
+                                    "objectinvolvement-object-resolute_desk-event-5-3",
+                                    "objectinvolvement-object-rain-event-5-3"
+                                ],
+                                "next_event": null
+                            }
+                        ],
+                        "agent_participations": [
+                            {
+                                "uuid": "agentparticipation-agent-kate_harper-event-5-1",
+                                "agent": "agent-kate_harper",
+                                "event": "event-5-1",
+                                "current_status": "Announcing the securing of the compound and safety of the hostages.",
+                                "emotional_state": "Relieved and urgent.",
+                                "active_plans": [
+                                    "Report developments to senior staff"
+                                ],
+                                "beliefs": [
+                                    "Communicating critical information promptly is essential"
+                                ],
+                                "goals": [
+                                    "Ensure senior staff are updated on the situation",
+                                    "Facilitate further strategic planning"
+                                ]
+                            },
+                            {
+                                "uuid": "agentparticipation-agent-josh_lyman-event-5-1",
+                                "agent": "agent-josh_lyman",
+                                "event": "event-5-1",
+                                "current_status": "Reflecting on the events by the window, engaged in conversation with Donna.",
+                                "emotional_state": "Troubled and introspective.",
+                                "active_plans": [
+                                    "Contemplate the implications of recent events"
+                                ],
+                                "beliefs": [
+                                    "Actions taken during crises can compromise principles"
+                                ],
+                                "goals": [
+                                    "Process the emotional and strategic complexities of the night's events",
+                                    "Maintain ethical standards in governance"
+                                ]
+                            },
+                            {
+                                "uuid": "agentparticipation-agent-donna_moss-event-5-1",
+                                "agent": "agent-donna_moss",
+                                "event": "event-5-1",
+                                "current_status": "Approaching Josh to provide reassurance.",
+                                "emotional_state": "Reassuring and calm.",
+                                "active_plans": [
+                                    "Offer support to Josh"
+                                ],
+                                "beliefs": [
+                                    "Providing support and perspective is crucial during tense times"
+                                ],
+                                "goals": [
+                                    "Help Josh cope with the situation's aftermath",
+                                    "Maintain a supportive work environment"
+                                ]
+                            },
+                            {
+                                "uuid": "agentparticipation-agent-josiah_bartlet-event-5-1",
+                                "agent": "agent-josiah_bartlet",
+                                "event": "event-5-1",
+                                "current_status": "Observing the staff and preparing to address the American people.",
+                                "emotional_state": "Relieved but still tense.",
+                                "active_plans": [
+                                    "Contact President Kovach",
+                                    "Engage with party leadership"
+                                ],
+                                "beliefs": [
+                                    "The American people need transparency about close calls in governance"
+                                ],
+                                "goals": [
+                                    "Communicate the gravity of the situation",
+                                    "Strengthen diplomatic relationships"
+                                ]
+                            },
+                            {
+                                "uuid": "agentparticipation-agent-josh_lyman-event-5-2",
+                                "agent": "agent-josh_lyman",
+                                "event": "event-5-2",
+                                "current_status": "Reflecting by the window, sharing thoughts with Donna about the situation.",
+                                "emotional_state": "Troubled and introspective.",
+                                "active_plans": [
+                                    "Process the emotional impact of the near-loss",
+                                    "Discuss the implications with Donna"
+                                ],
+                                "beliefs": [
+                                    "Nations abandon principles for revenge when they believe they've lost everything",
+                                    "Success achieved in the wrong way is more frightening than failure"
+                                ],
+                                "goals": [
+                                    "Ensure future actions are grounded in principles",
+                                    "Understand the motivations and implications of their decisions"
+                                ]
+                            },
+                            {
+                                "uuid": "agentparticipation-agent-donna_moss-event-5-2",
+                                "agent": "agent-donna_moss",
+                                "event": "event-5-2",
+                                "current_status": "Approaching Josh, engaging in discussion about the hostage situation.",
+                                "emotional_state": "Reassuring but concerned.",
+                                "active_plans": [
+                                    "Engage with Josh's concerns",
+                                    "Provide reassurance by highlighting the positive outcome"
+                                ],
+                                "beliefs": [
+                                    "The hostages' safe return is a relief",
+                                    "Success, even if close to failure, is still success"
+                                ],
+                                "goals": [
+                                    "Support Josh emotionally",
+                                    "Contribute to a balanced perspective on the situation"
+                                ]
+                            },
+                            {
+                                "uuid": "agentparticipation-agent-kate_harper-event-5-3",
+                                "agent": "agent-kate_harper",
+                                "event": "event-5-3",
+                                "current_status": "Informing the staff about the successful completion of the operation by Serbian special police units.",
+                                "emotional_state": "Relieved but still alert.",
+                                "active_plans": [
+                                    "Monitor the situation for any further developments"
+                                ],
+                                "beliefs": [
+                                    "Ensuring the safety of hostages is the top priority",
+                                    "Timely information is crucial in crisis management"
+                                ],
+                                "goals": [
+                                    "Keep senior staff and the President updated on security matters"
+                                ]
+                            },
+                            {
+                                "uuid": "agentparticipation-agent-josh_lyman-event-5-3",
+                                "agent": "agent-josh_lyman",
+                                "event": "event-5-3",
+                                "current_status": "Reflecting by the window and contemplating the implications of the crisis.",
+                                "emotional_state": "Troubled and contemplative.",
+                                "active_plans": [
+                                    "Consider the political and ethical implications of recent decisions"
+                                ],
+                                "beliefs": [
+                                    "Success by compromising principles could be dangerous",
+                                    "The methods by which goals are achieved matter as much as the outcomes"
+                                ],
+                                "goals": [
+                                    "Ensure future actions uphold the nation's principles",
+                                    "Acknowledge and learn from near-crisis experiences"
+                                ]
+                            },
+                            {
+                                "uuid": "agentparticipation-agent-donna_moss-event-5-3",
+                                "agent": "agent-donna_moss",
+                                "event": "event-5-3",
+                                "current_status": "Consoling Josh and prompting him to reflect on the crisis's avoidance.",
+                                "emotional_state": "Reassuring but concerned for Josh.",
+                                "active_plans": [
+                                    "Support Josh emotionally",
+                                    "Encourage collective reflection on the crisis"
+                                ],
+                                "beliefs": [
+                                    "It is important to focus on the positive outcome",
+                                    "Reflecting on the implications helps in understanding broader contexts"
+                                ],
+                                "goals": [
+                                    "Promote a reflective and balanced perspective",
+                                    "Aid in maintaining morale post-crisis"
+                                ]
+                            },
+                            {
+                                "uuid": "agentparticipation-agent-josiah_bartlet-event-5-3",
+                                "agent": "agent-josiah_bartlet",
+                                "event": "event-5-3",
+                                "current_status": "Instructing Charlie to contact world leaders and party leadership.",
+                                "emotional_state": "Tense and resolute.",
+                                "active_plans": [
+                                    "Communicate with President Kovach and political leadership",
+                                    "Inform the nation about the crisis and responsible parties"
+                                ],
+                                "beliefs": [
+                                    "Transparency with the American public is crucial",
+                                    "Leadership requires confronting uncomfortable truths"
+                                ],
+                                "goals": [
+                                    "Explain the severity of the crisis to the public",
+                                    "Hold accountable those responsible for the near-conflict"
+                                ]
+                            }
+                        ],
+                        "object_involvements": [
+                            {
+                                "uuid": "objectinvolvement-object-rain-event-5-1",
+                                "object": "object-rain",
+                                "event": "event-5-1",
+                                "description_of_involvement": "The rain streams down the windows of the Oval Office, setting a somber tone for the tense strategy session.",
+                                "object_status_before_event": "The rain was falling outside, contributing to the somber atmosphere.",
+                                "object_status_after_event": "The rain continues to fall, maintaining the somber mood as relief fills the room."
+                            },
+                            {
+                                "uuid": "objectinvolvement-object-resolute_desk-event-5-1",
+                                "object": "object-resolute_desk",
+                                "event": "event-5-1",
+                                "description_of_involvement": "President Bartlet watches his staff from behind the Resolute Desk, which serves as a symbol of his authority during the tense strategy session.",
+                                "object_status_before_event": "The Resolute Desk was in the Oval Office, representing presidential authority.",
+                                "object_status_after_event": "The Resolute Desk remains in the Oval Office, continuing to symbolize leadership and decision-making."
+                            },
+                            {
+                                "uuid": "objectinvolvement-object-rain-event-5-2",
+                                "object": "object-rain",
+                                "event": "event-5-2",
+                                "description_of_involvement": "The rain streams down the windows of the Oval Office, setting a somber and tense tone for the scene as Josh reflects on the aftermath of the hostage situation.",
+                                "object_status_before_event": "The rain was already falling, contributing to the tense atmosphere.",
+                                "object_status_after_event": "The rain continues to fall, maintaining the somber mood following the revelation of the hostages' safety."
+                            },
+                            {
+                                "uuid": "objectinvolvement-object-resolute_desk-event-5-2",
+                                "object": "object-resolute_desk",
+                                "event": "event-5-2",
+                                "description_of_involvement": "President Bartlet stands behind the Resolute desk, directing the next steps in the strategy discussions following the news that hostages have been secured.",
+                                "object_status_before_event": "The desk was in place as part of the Oval Office's furnishings.",
+                                "object_status_after_event": "The Resolute desk remains in use as President Bartlet issues orders, symbolizing the authority and leadership in the aftermath of the crisis."
+                            },
+                            {
+                                "uuid": "objectinvolvement-object-resolute_desk-event-5-3",
+                                "object": "object-resolute_desk",
+                                "event": "event-5-3",
+                                "description_of_involvement": "President Bartlet remains seated behind the Resolute Desk, indicating his leadership and authority during the crisis. The desk serves as a physical representation of his role in communicating the gravity of the situation to the American people.",
+                                "object_status_before_event": "The Resolute Desk is in the Oval Office, serving as President Bartlet's official workspace.",
+                                "object_status_after_event": "The Resolute Desk continues to be in the Oval Office, symbolizing the seat of power and decision-making."
+                            },
+                            {
+                                "uuid": "objectinvolvement-object-rain-event-5-3",
+                                "object": "object-rain",
+                                "event": "event-5-3",
+                                "description_of_involvement": "The rain streams down the windows of the Oval Office, mirroring the tense atmosphere and reflecting the somber mood of the scene. It serves as a backdrop to the strategic meeting and the reflections of Josh Lyman.",
+                                "object_status_before_event": "Rain is falling outside the Oval Office, creating a somber and tense atmosphere.",
+                                "object_status_after_event": "Rain continues to fall outside, contributing to the mood and thematic tone of the scene."
+                            }
+                        ]
+                    }
+                }
+            ]
+        }
+    ],
+    "entity_registry": {
+        "agents": [
+            {
+                "uuid": "agent-josh_lyman",
+                "agent_id": "josh_lyman",
+                "name": "Josh Lyman",
+                "title": "Deputy Chief of Staff",
+                "aliases": [],
+                "description": "Josh Lyman is the Deputy Chief of Staff at the White House, known for his strategic political acumen and sharp wit. He is deeply committed to the administration's policies, having a history marked by resilience after surviving an assassination attempt in Rosslyn. Josh often navigates the complex landscape of Washington politics with a focus on acting in the country's best interests, while grappling with the moral and strategic implications of political decisions.",
+                "traits": [
+                    "Passionate",
+                    "Reflective",
+                    "Dedicated",
+                    "Resilient",
+                    "Intense",
+                    "Witty",
+                    "Tenacious",
+                    "Political Acumen",
+                    "Loyal",
+                    "Strategic"
+                ],
+                "affiliated_org": null,
+                "sphere_of_influence": "Political Strategy"
+            },
+            {
+                "uuid": "agent-nancy_mcnally",
+                "agent_id": "nancy_mcnally",
+                "name": "Nancy McNally",
+                "title": "National Security Advisor",
+                "aliases": null,
+                "description": "Nancy McNally serves as the National Security Advisor, providing counsel on security-related matters and overseeing responses to international and domestic crises. She is recognized for her authoritative presence and expertise in handling complex security situations.",
+                "traits": [
+                    "Authoritative",
+                    "Knowledgeable",
+                    "Calm under pressure"
+                ],
+                "affiliated_org": "org-national_security_council",
+                "sphere_of_influence": "National Security"
+            },
+            {
+                "uuid": "agent-donna_moss",
+                "agent_id": "donna_moss",
+                "name": "Donna Moss",
+                "title": "Senior Assistant",
+                "aliases": [],
+                "description": "Donna Moss is a Senior Assistant to Deputy Chief of Staff Josh Lyman, known for her keen insights and understanding of White House operations. Her role often places her at the center of important political discussions and decisions. Donna maintains a strong working relationship with Josh, offering insights and support during critical moments. She demonstrates a high level of competence and dedication, balancing the demands of her role with a nuanced understanding of the political environment.",
+                "traits": [
+                    "Highly Competent",
+                    "Supportive",
+                    "Astute",
+                    "Responsible",
+                    "Loyal",
+                    "Insightful"
+                ],
+                "affiliated_org": null,
+                "sphere_of_influence": "Political Operations"
+            },
+            {
+                "uuid": "agent-kate_harper",
+                "agent_id": "kate_harper",
+                "name": "Kate Harper",
+                "title": "Deputy National Security Advisor",
+                "aliases": [],
+                "description": "Kate Harper serves as the Deputy National Security Advisor, working closely with Nancy McNally. Her experience and intelligence make her a valuable asset in analyzing intelligence data and forming strategic responses to threats. She has a reputation for being efficient and direct, delivering critical information promptly and effectively, which aids in decision-making during crises.",
+                "traits": [
+                    "Proactive",
+                    "Efficient",
+                    "Direct",
+                    "Alert",
+                    "Reliable",
+                    "Resourceful",
+                    "Intelligent",
+                    "Analytical"
+                ],
+                "affiliated_org": "org-national_security_council",
+                "sphere_of_influence": "Intelligence Analysis"
+            },
+            {
+                "uuid": "agent-josiah_bartlet",
+                "agent_id": "josiah_bartlet",
+                "name": "Josiah Bartlet",
+                "title": "President of the United States",
+                "aliases": [],
+                "description": "Josiah Bartlet is the President of the United States, characterized by his intellect, wit, and dedication to public service. He balances political goals with ethical considerations, showing intelligence and a sense of moral duty. Bartlet is known for his deep understanding of world issues and his commitment to public service, striving to balance diplomacy with decisive action, even when tensions run high. He demonstrates leadership and occasionally displays impatience with bureaucratic processes.",
+                "traits": [
+                    "Principled",
+                    "Decisive",
+                    "Intellectual",
+                    "Moral",
+                    "Diplomatic",
+                    "Leader",
+                    "Determined",
+                    "Witty",
+                    "Charismatic",
+                    "Intelligent",
+                    "Occasionally Impatient"
+                ],
+                "affiliated_org": null,
+                "sphere_of_influence": "Political Leadership"
+            },
+            {
+                "uuid": "agent-leo_mcgarry",
+                "agent_id": "leo_mcgarry",
+                "name": "Leo McGarry",
+                "title": "White House Chief of Staff",
+                "aliases": [],
+                "description": "Leo McGarry is the White House Chief of Staff, known for his wise counsel, strategic mind, and strong leadership. He plays a crucial role in shaping and implementing the administration's policies and in guiding President Bartlet. McGarry serves as a trusted advisor to the President and often mediates high-stakes situations with a calm demeanor, understanding the nuances of political negotiation.",
+                "traits": [
+                    "Experienced",
+                    "Diplomatic",
+                    "Wise",
+                    "Leadership",
+                    "Strategic",
+                    "Calm"
+                ],
+                "affiliated_org": null,
+                "sphere_of_influence": "Executive Management"
+            },
+            {
+                "uuid": "agent-bob_russell",
+                "agent_id": "bob_russell",
+                "name": "Bob Russell",
+                "title": "Vice President of the United States",
+                "aliases": null,
+                "description": "Bob Russell is the Vice President of the United States, known for his carefully crafted political persona. He appears affable and calculating, without allowing emotions to generally influence his judgment. However, he demonstrates personal vulnerability and emotional connection to Amanda Dalton, his goddaughter, revealing a more personal side usually kept hidden.",
+                "traits": [
+                    "Affable",
+                    "Calculating",
+                    "Emotionally Reserved",
+                    "Loyal",
+                    "Politically Savvy"
+                ],
+                "affiliated_org": null,
+                "sphere_of_influence": "Politics"
+            },
+            {
+                "uuid": "agent-amanda_dalton",
+                "agent_id": "amanda_dalton",
+                "name": "Amanda Dalton",
+                "title": null,
+                "aliases": null,
+                "description": "Amanda Dalton is a USAID worker known for her dedication to rebuilding war-torn regions. She is the goddaughter of Vice President Bob Russell and has a significant emotional connection to him. Inspired by one of President Bartlet's speeches about America's role in preventing conflicts, she joined USAID to make a difference.",
+                "traits": [
+                    "Determined",
+                    "Dedicated",
+                    "Compassionate"
+                ],
+                "affiliated_org": "org-usaid",
+                "sphere_of_influence": "International Aid"
+            },
+            {
+                "uuid": "agent-margaret",
+                "agent_id": "margaret",
+                "name": "Margaret",
+                "title": "Assistant",
+                "aliases": null,
+                "description": "Margaret is an assistant who works closely with key political figures. She is shown to be professional and respectful but may feel uncomfortable in emotionally charged situations. Her presence in the Vice President's office during a moment of vulnerability highlights her role in maintaining the political decorum.",
+                "traits": [
+                    "Professional",
+                    "Respectful",
+                    "Discreet"
+                ],
+                "affiliated_org": null,
+                "sphere_of_influence": "Political Administration"
+            },
+            {
+                "uuid": "agent-viktor_petrov",
+                "agent_id": "viktor_petrov",
+                "name": "Viktor Petrov",
+                "title": "Ambassador",
+                "aliases": null,
+                "description": "Viktor Petrov is a Russian Ambassador, characterized by his diplomatic demeanor and strong posturing while representing Moscow's positions on international matters. He maintains a perfect diplomatic posture and communicates with a sense of firm authority.",
+                "traits": [
+                    "Diplomatic",
+                    "Authoritative",
+                    "Composed",
+                    "Strategic"
+                ],
+                "affiliated_org": null,
+                "sphere_of_influence": "Diplomacy"
+            },
+            {
+                "uuid": "agent-c_j_cregg",
+                "agent_id": "c_j_cregg",
+                "name": "C.J. Cregg",
+                "title": "White House Press Secretary",
+                "aliases": null,
+                "description": "C.J. Cregg is the White House Press Secretary, tasked with managing media relations and navigating the complexities of public communication. She is adept at anticipating media reactions and remains alert to the implications of new developments.",
+                "traits": [
+                    "Composed",
+                    "Media-Savvy",
+                    "Strategic",
+                    "Perceptive"
+                ],
+                "affiliated_org": null,
+                "sphere_of_influence": "Media Relations"
+            },
+            {
+                "uuid": "agent-sam_seaborn",
+                "agent_id": "sam_seaborn",
+                "name": "Sam Seaborn",
+                "title": "Deputy Communications Director",
+                "aliases": null,
+                "description": "Sam Seaborn is the Deputy Communications Director at the White House, renowned for his eloquent speechwriting and dedication to public service. He is characterized by his idealism and commitment to ethical governance, often driving him to produce speeches that inspire and unify. Sam is a close confidant and advisor to his colleagues, especially during times of crisis.",
+                "traits": [
+                    "Idealistic",
+                    "Eloquent",
+                    "Dedicated",
+                    "Empathetic",
+                    "Passionate",
+                    "Intelligent"
+                ],
+                "affiliated_org": null,
+                "sphere_of_influence": "Communications and Speechwriting"
+            },
+            {
+                "uuid": "agent-toby_ziegler",
+                "agent_id": "toby_ziegler",
+                "name": "Toby Ziegler",
+                "title": "Communications Director",
+                "aliases": null,
+                "description": "Toby Ziegler is the Communications Director at the White House, known for his sharp intellect and moral integrity. As a seasoned political strategist and speechwriter, Toby is recognized for his pragmatic approach to the complex challenges of governance while ensuring that the administration maintains its ethical compass.",
+                "traits": [
+                    "Pragmatic",
+                    "Intelligent",
+                    "Integrity",
+                    "Morally Grounded",
+                    "Strategic",
+                    "Empathetic"
+                ],
+                "affiliated_org": null,
+                "sphere_of_influence": "Communications and Political Strategy"
+            }
+        ],
+        "organizations": [
+            {
+                "uuid": "org-serbian_paramilitary_group",
+                "name": "Serbian Paramilitary Group",
+                "description": "A paramilitary organization claiming responsibility for attacks, including the attack on USAID workers.",
+                "sphere_of_influence": "Serbia and areas affected by its armed groups.",
+                "members": []
+            },
+            {
+                "uuid": "org-usaid",
+                "name": "USAID",
+                "description": "Responsible for administering civilian foreign aid and development assistance globally.",
+                "sphere_of_influence": "Global humanitarian aid and development projects.",
+                "members": [
+                    "agent-amanda_dalton"
+                ]
+            },
+            {
+                "uuid": "org-national_security_council",
+                "name": "National Security Council",
+                "description": "Advises the President on national security and foreign policy matters.",
+                "sphere_of_influence": "United States government and its foreign relations.",
+                "members": [
+                    "agent-kate_harper",
+                    "agent-nancy_mcnally"
+                ]
+            },
+            {
+                "uuid": "org-serbian_special_police_units",
+                "name": "Serbian Special Police Units",
+                "description": "Responsible for high-stakes operations within Serbia, including securing compounds and resolving hostage situations.",
+                "sphere_of_influence": "Serbia",
+                "members": []
+            }
+        ],
+        "locations": [
+            {
+                "uuid": "location-situation_room",
+                "name": "Situation Room",
+                "description": "A dimly lit, high-security conference room within the White House, used for crisis management meetings. It is equipped with multiple LCD screens displaying critical intelligence data, such as satellite imagery of the Kosovo-Serbia border region. The room is characterized by its tense, urgent atmosphere and is typically occupied by senior government officials during times of national or international crisis.",
+                "type": "Room"
+            },
+            {
+                "uuid": "location-vice_presidents_office",
+                "name": "Vice President's Office",
+                "description": "The stately office of the Vice President, featuring a dark ambiance except for a single desk lamp. It is a private space where Bob Russell contemplates a personal photograph, revealing raw emotion behind his political mask.",
+                "type": "Office"
+            },
+            {
+                "uuid": "location-mural_room",
+                "name": "Mural Room",
+                "description": "An elegant room within the White House, used for meetings and diplomacy. The room features decorative murals and serves as a setting for crucial discussions, such as the one between President Bartlet and the Russian Ambassador. In scenes of diplomacy, the room becomes an arena for international dialogue, particularly during tense situations involving American aid workers.",
+                "type": "Scene Location"
+            },
+            {
+                "uuid": "location-steam_pipe_trunk_distribution_venue",
+                "name": "Steam Pipe Trunk Distribution Venue",
+                "description": "A windowless office space filled with staff members amidst an atmosphere of tension and urgency. It contains remnants of intense work, such as crumpled papers and empty coffee cups, reflecting the pressure of ongoing crises. The space serves as a backdrop for significant discussions and emotional exchanges related to current events.",
+                "type": "Office"
+            },
+            {
+                "uuid": "location-oval_office",
+                "name": "Oval Office",
+                "description": "The central office of the President of the United States, known for its distinct oval shape and historical significance. Streams of rainwater are visible on the windows. The space is currently occupied by senior staff engaged in a high-stakes strategy session, dealing with the aftermath of a recent crisis. The tense atmosphere reflects the profound decision-making that occurs here.",
+                "type": "Office"
+            }
+        ],
+        "objects": [
+            {
+                "uuid": "object-lcd_screens",
+                "name": "LCD Screens",
+                "description": "Multiple LCD screens positioned around the Situation Room, displaying satellite imagery of the Kosovo-Serbia border region.",
+                "purpose": "To visualize satellite imagery for briefings.",
+                "significance": "Provides visual context for the Kosovo-Serbia situation, highlighting the urgency and gravity of the crisis.",
+                "original_owner": null
+            },
+            {
+                "uuid": "object-scar_on_chest",
+                "name": "Scar on Chest",
+                "description": "An old scar on Josh Lyman's chest, unconsciously rubbed by him during tense moments as a reminder of the past incident at Rosslyn.",
+                "purpose": "A physical reminder of past trauma triggered during moments of stress.",
+                "significance": "Symbolizes the lasting impact of past violence on Josh, serving as a psychological and narrative element of tension.",
+                "original_owner": "agent-josh_lyman"
+            },
+            {
+                "uuid": "object-framed_photograph",
+                "name": "Framed Photograph",
+                "description": "A framed photograph of a younger Bob Russell teaching a young Amanda Dalton to fish at his lake house in Colorado.",
+                "purpose": "To serve as a personal memento and reminder of Russell's bond with Amanda Dalton.",
+                "significance": "Symbolizes the emotional stakes for Bob Russell in the USAID worker crisis, revealing his personal connection and the weight of his emotions beneath his political persona.",
+                "original_owner": "agent-bob_russell"
+            },
+            {
+                "uuid": "object-desk_lamp",
+                "name": "Desk Lamp",
+                "description": "A single desk lamp providing light in the otherwise darkened office of the Vice President.",
+                "purpose": "To illuminate Bob Russell's immediate workspace.",
+                "significance": "Highlights the solitude and introspection of Bob Russell during this emotional moment, contrasting the darkness of the room with the focus on his personal reflection.",
+                "original_owner": null
+            },
+            {
+                "uuid": "object-blackberry",
+                "name": "BlackBerry",
+                "description": "A handheld device used by C.J. Cregg to receive news alerts during high-stakes situations.",
+                "purpose": "To keep C.J. informed of breaking news and developments that could impact the President's administration.",
+                "significance": "Symbolizes the fast-paced nature of media and communication, highlighting how quickly information can influence political actions and decisions.",
+                "original_owner": "agent-c_j_cregg"
+            },
+            {
+                "uuid": "object-crumpled_paper",
+                "name": "Crumpled Paper",
+                "description": "Sheets of paper scattered around Sam Seaborn, each crumpled from being discarded during the writing process.",
+                "purpose": "To capture the failed drafts and ideas that didn't make it into the final speeches.",
+                "significance": "Symbolizes the intense pressure and iterative nature of crafting a message for the President, reflecting the mental state and struggle of Sam Seaborn in addressing a delicate situation.",
+                "original_owner": null
+            },
+            {
+                "uuid": "object-empty_coffee_cups",
+                "name": "Empty Coffee Cups",
+                "description": "Several empty coffee cups around Sam, evidence of long hours and sustained focus.",
+                "purpose": "To provide caffeine and maintain alertness during the demanding task of drafting important speeches.",
+                "significance": "Highlights the exhaustive mental effort and determination required in political crisis management.",
+                "original_owner": null
+            },
+            {
+                "uuid": "object-laptop",
+                "name": "Laptop",
+                "description": "A laptop used by Sam Seaborn to draft two distinct speeches \u2013 one for a victorious outcome, another for tragedy.",
+                "purpose": "To draft presidential speeches for both possible outcomes of the crisis involving USAID workers.",
+                "significance": "Represents the dual nature of the political situation, requiring preparation for both triumph and disaster, capturing the ongoing tension within the administration.",
+                "original_owner": "agent-sam_seaborn"
+            },
+            {
+                "uuid": "object-resolute_desk",
+                "name": "Resolute Desk",
+                "description": "The iconic desk in the Oval Office behind which President Bartlet sits during the strategy session.",
+                "purpose": "To serve as the President's workspace and a place from which he commands authority.",
+                "significance": "Symbolizes presidential authority and the weight of the decisions being made by President Bartlet during the crisis.",
+                "original_owner": null
+            },
+            {
+                "uuid": "object-rain",
+                "name": "Rain",
+                "description": "Rain streams down the windows of the Oval Office during the scene.",
+                "purpose": "Acts as atmospheric backdrop, reinforcing the tension and somber mood of the ongoing crisis.",
+                "significance": "Emphasizes the emotional weight and the contemplative nature of the moment as the staff processes the crisis's resolution.",
+                "original_owner": null
+            }
+        ]
+    },
+    "validation_results": {
+        "is_valid": true,
+        "errors": [],
+        "warnings": []
+    }
+}

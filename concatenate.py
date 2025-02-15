@@ -18,7 +18,7 @@ def concatenate_python_files(folder_path, output_file="combined_code.txt"):
     python_files = glob.glob(os.path.join(folder_path, "*.py"))
     
     # Add the specific .baml file
-    baml_file = "/home/user/langchain/baml_src/myth06.baml"
+    baml_file = "/home/user/fabula/baml_src/myth06.baml"
     all_files_to_concatenate = python_files + [baml_file]
 
     if not python_files:

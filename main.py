@@ -33,29 +33,29 @@ logging.basicConfig(
 )
 
 # Define paths for input and output files
-# INPUT_JSON_PATH = Path("/home/user/fabula/source_docs/ai_fanfic/star_trek_tng/echoes_of_the_past_transcript.json")
-# CONTEXT_FILES = [
-#     Path("/home/user/fabula/source_docs/ai_fanfic/star_trek_tng/echoes_of_the_past_treatment.txt")
-# ]
-# OUTPUT_JSON_PATH = Path("/home/user/fabula/output/pre_processed/echoes_of_the_past_graph_GPT4oMini.json")
+INPUT_JSON_PATH = Path("/home/user/fabula/source_docs/ai_fanfic/star_trek_tng/echoes_of_the_past_transcript.json")
+CONTEXT_FILES = [
+    Path("/home/user/fabula/source_docs/ai_fanfic/star_trek_tng/echoes_of_the_past_treatment.txt")
+]
+OUTPUT_JSON_PATH = Path("/home/user/fabula/output/pre_processed/echoes_of_the_past_graph.json")
 
-# INPUT_JSON_PATH = Path("/home/user/fabula/source_docs/ai_fanfic/peep_show/networking_event_transcript.json")
+# INPUT_JSON_PATH = Path("/home/user/fabula/source_docs8/ai_fanfic/peep_show/networking_event_transcript.json")
 # CONTEXT_FILES = [
 #     Path("/home/user/fabula/source_docs/ai_fanfic/peep_show/networking_event_treatment.txt")
 # ]
-# OUTPUT_JSON_PATH = Path("/home/user/fabula/output/pre_processed/networking_event_graph_GPT4oMini.json")
+# OUTPUT_JSON_PATH = Path("/home/user/fabula/output/pre_processed/networking_event_graph.json")
 
-INPUT_JSON_PATH = Path("/home/user/fabula/source_docs/ai_fanfic/west_wing/fault_lines_transcript.json")
-CONTEXT_FILES = [
-    Path("/home/user/fabula/source_docs/ai_fanfic/west_wing/fault_lines_novelization.txt")
-]
-OUTPUT_JSON_PATH = Path("/home/user/fabula/output/pre_processed/fault_lines_graph_GPT4oMini.json")
+# INPUT_JSON_PATH = Path("/home/user/fabula/source_docs/ai_fanfic/west_wing/fault_lines_transcript.json")
+# CONTEXT_FILES = [
+#     Path("/home/user/fabula/source_docs/ai_fanfic/west_wing/fault_lines_novelization.txt")
+# ]
+# OUTPUT_JSON_PATH = Path("/home/user/fabula/output/pre_processed/fault_lines_graph.json")
 
 # INPUT_JSON_PATH = Path("/home/user/fabula/source_docs/ai_fanfic/doctor_who/quantum_archive_transcript.json")
 # CONTEXT_FILES = [
 #     Path("/home/user/fabula/source_docs/ai_fanfic/doctor_who/quantum_archive_novelization.txt")
 # ]
-# OUTPUT_JSON_PATH = Path("/home/user/fabula/output/pre_processed/quantum_archive_graph_GPT4oMini.json")
+# OUTPUT_JSON_PATH = Path("/home/user/fabula/output/pre_processed/quantum_archive_graph.json")
 
 
 def load_context_documents(context_files: List[Path]) -> str:

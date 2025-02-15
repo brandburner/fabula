@@ -40,19 +40,17 @@ def all_succeeded(checks: Dict[CheckName, Check]) -> bool:
 
 
 class Agent(BaseModel):
-    model_config = ConfigDict(extra='allow')
     uuid: str
     agent_id: str
     name: str
     title: Optional[str] = None
-    aliases: Optional[List[str]] = None
+    aliases: Union[List[str], Optional[None]]
     description: str
     traits: List[str]
-    affiliated_org: str
+    affiliated_org: Union[str, Optional[None]]
     sphere_of_influence: Optional[str] = None
 
 class AgentParticipation(BaseModel):
-    model_config = ConfigDict(extra='allow')
     uuid: str
     agent: str
     event: str
@@ -63,14 +61,12 @@ class AgentParticipation(BaseModel):
     goals: List[str]
 
 class Episode(BaseModel):
-    model_config = ConfigDict(extra='allow')
     title: str
     synopsis: str
     episode_number: int
     part_of_serial: str
 
 class Event(BaseModel):
-    model_config = ConfigDict(extra='allow')
     title: str
     uuid: str
     description: str
@@ -78,26 +74,23 @@ class Event(BaseModel):
     key_dialogue: List[str]
     agent_participations: List[str]
     object_involvements: List[str]
-    next_event: Optional[str] = None
+    next_event: Union[str, Optional[None]]
 
 class Location(BaseModel):
-    model_config = ConfigDict(extra='allow')
     uuid: str
     name: str
     description: str
     type: str
 
 class Object(BaseModel):
-    model_config = ConfigDict(extra='allow')
     uuid: str
     name: str
     description: str
     purpose: str
     significance: str
-    original_owner: Optional[str] = None
+    original_owner: Union[str, Optional[None]]
 
 class ObjectInvolvement(BaseModel):
-    model_config = ConfigDict(extra='allow')
     uuid: str
     object: str
     event: str
@@ -111,7 +104,7 @@ class Organization(BaseModel):
     name: str
     description: str
     sphere_of_influence: str
-    members: Optional[List[str]] = None
+    members: List[str]
 
 class ResolvedAgent(BaseModel):
     model_config = ConfigDict(extra='allow')
@@ -122,7 +115,7 @@ class ResolvedAgent(BaseModel):
     aliases: Optional[List[str]] = None
     description: str
     traits: List[str]
-    affiliated_org: str
+    affiliated_org: Union[str, Optional[None]]
     sphere_of_influence: Optional[str] = None
     source_uuids: Optional[List[str]] = None
 
@@ -160,18 +153,17 @@ class Resume(BaseModel):
     skills: List[str]
 
 class Scene(BaseModel):
-    model_config = ConfigDict(extra='allow')
     title: str
     description: str
     scene_number: int
     events: List[str]
-    location: Optional[str] = None
-    next_scene: Optional[str] = None
+    location: str
+    next_scene: Union[str, Optional[None]]
 
 class SceneMetadata(BaseModel):
-    uuid: Optional[str] = None
+    uuid: Union[str, Optional[None]]
     title: str
     description: str
-    scene_number: Optional[int] = None
-    location: Optional[str] = None
-    next_scene: Optional[str] = None
+    scene_number: int
+    location: str
+    next_scene: Union[str, Optional[None]]
