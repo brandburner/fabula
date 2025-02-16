@@ -99,7 +99,6 @@ class ObjectInvolvement(BaseModel):
     object_status_after_event: str
 
 class Organization(BaseModel):
-    model_config = ConfigDict(extra='allow')
     uuid: str
     name: str
     description: str
@@ -107,7 +106,6 @@ class Organization(BaseModel):
     members: List[str]
 
 class ResolvedAgent(BaseModel):
-    model_config = ConfigDict(extra='allow')
     uuid: str
     agent_id: str
     name: str
@@ -120,7 +118,6 @@ class ResolvedAgent(BaseModel):
     source_uuids: Optional[List[str]] = None
 
 class ResolvedLocation(BaseModel):
-    model_config = ConfigDict(extra='allow')
     uuid: str
     name: str
     description: str
@@ -128,22 +125,20 @@ class ResolvedLocation(BaseModel):
     source_uuids: Optional[List[str]] = None
 
 class ResolvedObject(BaseModel):
-    model_config = ConfigDict(extra='allow')
     uuid: str
     name: str
     description: str
     purpose: str
     significance: str
-    original_owner: Optional[str] = None
+    original_owner: Union[str, Optional[None]]
     source_uuids: Optional[List[str]] = None
 
 class ResolvedOrganization(BaseModel):
-    model_config = ConfigDict(extra='allow')
     uuid: str
     name: str
     description: str
     sphere_of_influence: str
-    members: Optional[List[str]] = None
+    members: Union[List[str], Optional[None]]
     source_uuids: Optional[List[str]] = None
 
 class Resume(BaseModel):

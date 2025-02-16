@@ -94,7 +94,6 @@ class ObjectInvolvement(BaseModel):
     object_status_after_event: Optional[str] = None
 
 class Organization(BaseModel):
-    model_config = ConfigDict(extra='allow')
     uuid: Optional[str] = None
     name: Optional[str] = None
     description: Optional[str] = None
@@ -102,7 +101,6 @@ class Organization(BaseModel):
     members: List[Optional[str]]
 
 class ResolvedAgent(BaseModel):
-    model_config = ConfigDict(extra='allow')
     uuid: Optional[str] = None
     agent_id: Optional[str] = None
     name: Optional[str] = None
@@ -115,7 +113,6 @@ class ResolvedAgent(BaseModel):
     source_uuids: List[Optional[str]]
 
 class ResolvedLocation(BaseModel):
-    model_config = ConfigDict(extra='allow')
     uuid: Optional[str] = None
     name: Optional[str] = None
     description: Optional[str] = None
@@ -123,22 +120,20 @@ class ResolvedLocation(BaseModel):
     source_uuids: List[Optional[str]]
 
 class ResolvedObject(BaseModel):
-    model_config = ConfigDict(extra='allow')
     uuid: Optional[str] = None
     name: Optional[str] = None
     description: Optional[str] = None
     purpose: Optional[str] = None
     significance: Optional[str] = None
-    original_owner: Optional[str] = None
+    original_owner: Optional[Union[Optional[str], Optional[None]]] = None
     source_uuids: List[Optional[str]]
 
 class ResolvedOrganization(BaseModel):
-    model_config = ConfigDict(extra='allow')
     uuid: Optional[str] = None
     name: Optional[str] = None
     description: Optional[str] = None
     sphere_of_influence: Optional[str] = None
-    members: List[Optional[str]]
+    members: Optional[Union[List[Optional[str]], Optional[None]]] = None
     source_uuids: List[Optional[str]]
 
 class Resume(BaseModel):

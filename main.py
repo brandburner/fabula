@@ -33,11 +33,11 @@ logging.basicConfig(
 )
 
 # Define paths for input and output files
-INPUT_JSON_PATH = Path("/home/user/fabula/source_docs/ai_fanfic/star_trek_tng/echoes_of_the_past_transcript.json")
-CONTEXT_FILES = [
-    Path("/home/user/fabula/source_docs/ai_fanfic/star_trek_tng/echoes_of_the_past_treatment.txt")
-]
-OUTPUT_JSON_PATH = Path("/home/user/fabula/output/pre_processed/echoes_of_the_past_graph.json")
+# INPUT_JSON_PATH = Path("/home/user/fabula/source_docs/ai_fanfic/star_trek_tng/echoes_of_the_past_transcript.json")
+# CONTEXT_FILES = [
+#     Path("/home/user/fabula/source_docs/ai_fanfic/star_trek_tng/echoes_of_the_past_treatment.txt")
+# ]
+# OUTPUT_JSON_PATH = Path("/home/user/fabula/output/pre_processed/echoes_of_the_past_graph.json")
 
 # INPUT_JSON_PATH = Path("/home/user/fabula/source_docs8/ai_fanfic/peep_show/networking_event_transcript.json")
 # CONTEXT_FILES = [
@@ -56,6 +56,18 @@ OUTPUT_JSON_PATH = Path("/home/user/fabula/output/pre_processed/echoes_of_the_pa
 #     Path("/home/user/fabula/source_docs/ai_fanfic/doctor_who/quantum_archive_novelization.txt")
 # ]
 # OUTPUT_JSON_PATH = Path("/home/user/fabula/output/pre_processed/quantum_archive_graph.json")
+
+# INPUT_JSON_PATH = Path("/home/user/fabula/utilities/doctor_who/doctor10/json/blink_transcript.json")
+# CONTEXT_FILES = [
+#     Path("/home/user/fabula/utilities/doctor_who/doctor10/resource/txt/blink_summary.txt")
+# ]
+# OUTPUT_JSON_PATH = Path("/home/user/fabula/utilities/blink_graph.json")
+
+INPUT_JSON_PATH = Path("/home/user/fabula/utilities/doctor_who/doctor1/json/mission_to_the_unknown_transcript.json")
+CONTEXT_FILES = [
+    Path("utilities/doctor_who/doctor1/resource/novel/mission_to_the_unknown_novel.txt")
+]
+OUTPUT_JSON_PATH = Path("/home/user/fabula/utilities/mission_to_the_unknown_graph.json")
 
 
 def load_context_documents(context_files: List[Path]) -> str:
