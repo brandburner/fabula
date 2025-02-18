@@ -222,9 +222,12 @@ def validate_object_involvement(involvement_data: Dict[str, Any], entity_registr
         logging.error(f"Invalid ObjectInvolvement data: Missing 'event' field.")
         return False
 
-    involved_object = entity_registry.get_object(involvement_data["object"])
+    object_uuid = involvement_data["object"]
+    normalized_object_uuid = normalize_identifier(object_uuid) # Normalize the object UUID
+
+    involved_object = entity_registry.get_object(normalized_object_uuid)
     if not involved_object:
-        logging.error(f"Validation Error: ObjectInvolvement refers to object '{involvement_data['object']}' but object not found.")
+        logging.error(f"Validation Error: ObjectInvolvement refers to object '{object_uuid}' but object not found (normalized: '{normalized_object_uuid}').")
         return False
 
     # Ensure event UUID is valid
@@ -246,9 +249,12 @@ def validate_agent_participation(participation_data: Dict[str, Any], entity_regi
         logging.error(f"Invalid AgentParticipation data: Missing 'event' field.")
         return False
 
-    participating_agent = entity_registry.get_agent(participation_data["agent"])
+    agent_uuid = participation_data["agent"]
+    normalized_agent_uuid = normalize_identifier(agent_uuid)
+
+    participating_agent = entity_registry.get_agent(normalized_agent_uuid)
     if not participating_agent:
-        logging.error(f"Validation Error: AgentParticipation refers to agent '{participation_data['agent']}' but agent not found.")
+        logging.error(f"Validation Error: AgentParticipation refers to agent '{agent_uuid}' but agent not found (normalized: '{normalized_agent_uuid}').")
         return False
 
     # Ensure event UUID is valid
@@ -301,7 +307,6 @@ def validate_agent_affiliations(entity_registry: EntityRegistry) -> ValidationRe
                     
     return result
 
-
 def validate_participation_references(
     scene_data: Dict[str, Any],
     registry: EntityRegistry
@@ -324,12 +329,14 @@ def validate_participation_references(
                     f"participation: {participation_id}"
                 )
                 result.is_valid = False
-            elif not registry.get_agent(participation["agent"]):
-                result.errors.append(
-                    f"Participation {participation_id} references non-existent "
-                    f"agent: {participation['agent']}"
-                )
-                result.is_valid = False
+            else:
+                agent = registry.get_agent(participation["agent"])
+                if not agent:
+                    result.errors.append(
+                        f"Participation {participation_id} references non-existent "
+                        f"agent: {participation['agent']}"
+                    )
+                    result.is_valid = False
 
         # Validate object involvements
         for involvement_id in event.get("object_involvements", []):
@@ -344,12 +351,14 @@ def validate_participation_references(
                     f"involvement: {involvement_id}"
                 )
                 result.is_valid = False
-            elif not registry.get_object(involvement["object"]):
-                result.errors.append(
-                    f"Involvement {involvement_id} references non-existent "
-                    f"object: {involvement['object']}"
-                )
-                result.is_valid = False
+            else:
+                obj = registry.get_object(involvement["object"])
+                if not obj:
+                    result.errors.append(
+                        f"Involvement {involvement_id} references non-existent "
+                        f"object: {involvement['object']}"
+                    )
+                    result.is_valid = False
 
     return result
 

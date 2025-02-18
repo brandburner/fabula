@@ -39,10 +39,10 @@ class Agent(BaseModel):
     agent_id: Optional[str] = None
     name: Optional[str] = None
     title: Optional[str] = None
-    aliases: Optional[Union[List[Optional[str]], Optional[None]]] = None
+    aliases: Optional[Union[List[str], Optional[None]]] = None
     description: Optional[str] = None
-    traits: List[Optional[str]]
-    affiliated_org: Optional[Union[Optional[str], Optional[None]]] = None
+    traits: List[str]
+    affiliated_org: Optional[Union[str, Optional[None]]] = None
     sphere_of_influence: Optional[str] = None
 
 class AgentParticipation(BaseModel):
@@ -51,9 +51,9 @@ class AgentParticipation(BaseModel):
     event: Optional[str] = None
     current_status: Optional[str] = None
     emotional_state: Optional[str] = None
-    active_plans: List[Optional[str]]
-    beliefs: List[Optional[str]]
-    goals: List[Optional[str]]
+    active_plans: List[str]
+    beliefs: List[str]
+    goals: List[str]
 
 class Episode(BaseModel):
     title: Optional[str] = None
@@ -66,10 +66,10 @@ class Event(BaseModel):
     uuid: Optional[str] = None
     description: Optional[str] = None
     sequence_within_scene: Optional[int] = None
-    key_dialogue: List[Optional[str]]
-    agent_participations: List[Optional[str]]
-    object_involvements: List[Optional[str]]
-    next_event: Optional[Union[Optional[str], Optional[None]]] = None
+    key_dialogue: List[str]
+    agent_participations: List[str]
+    object_involvements: List[str]
+    next_event: Optional[Union[str, Optional[None]]] = None
 
 class Location(BaseModel):
     uuid: Optional[str] = None
@@ -83,7 +83,7 @@ class Object(BaseModel):
     description: Optional[str] = None
     purpose: Optional[str] = None
     significance: Optional[str] = None
-    original_owner: Optional[Union[Optional[str], Optional[None]]] = None
+    original_owner: Optional[Union[str, Optional[None]]] = None
 
 class ObjectInvolvement(BaseModel):
     uuid: Optional[str] = None
@@ -98,26 +98,26 @@ class Organization(BaseModel):
     name: Optional[str] = None
     description: Optional[str] = None
     sphere_of_influence: Optional[str] = None
-    members: List[Optional[str]]
+    members: List[str]
 
 class ResolvedAgent(BaseModel):
     uuid: Optional[str] = None
     agent_id: Optional[str] = None
     name: Optional[str] = None
     title: Optional[str] = None
-    aliases: List[Optional[str]]
+    aliases: Optional[List[str]] = None
     description: Optional[str] = None
-    traits: List[Optional[str]]
-    affiliated_org: Optional[Union[Optional[str], Optional[None]]] = None
+    traits: List[str]
+    affiliated_org: Optional[Union[str, Optional[None]]] = None
     sphere_of_influence: Optional[str] = None
-    source_uuids: List[Optional[str]]
+    source_uuids: Optional[List[str]] = None
 
 class ResolvedLocation(BaseModel):
     uuid: Optional[str] = None
     name: Optional[str] = None
     description: Optional[str] = None
     type: Optional[str] = None
-    source_uuids: List[Optional[str]]
+    source_uuids: Optional[List[str]] = None
 
 class ResolvedObject(BaseModel):
     uuid: Optional[str] = None
@@ -125,35 +125,35 @@ class ResolvedObject(BaseModel):
     description: Optional[str] = None
     purpose: Optional[str] = None
     significance: Optional[str] = None
-    original_owner: Optional[Union[Optional[str], Optional[None]]] = None
-    source_uuids: List[Optional[str]]
+    original_owner: Optional[Union[str, Optional[None]]] = None
+    source_uuids: Optional[List[str]] = None
 
 class ResolvedOrganization(BaseModel):
     uuid: Optional[str] = None
     name: Optional[str] = None
     description: Optional[str] = None
     sphere_of_influence: Optional[str] = None
-    members: Optional[Union[List[Optional[str]], Optional[None]]] = None
-    source_uuids: List[Optional[str]]
+    members: Optional[Union[List[str], Optional[None]]] = None
+    source_uuids: Optional[List[str]] = None
 
 class Resume(BaseModel):
     name: Optional[str] = None
     email: Optional[str] = None
-    experience: List[Optional[str]]
-    skills: List[Optional[str]]
+    experience: List[str]
+    skills: List[str]
 
 class Scene(BaseModel):
     title: Optional[str] = None
     description: Optional[str] = None
     scene_number: Optional[int] = None
-    events: List[Optional[str]]
+    events: List[str]
     location: Optional[str] = None
-    next_scene: Optional[Union[Optional[str], Optional[None]]] = None
+    next_scene: Optional[Union[str, Optional[None]]] = None
 
 class SceneMetadata(BaseModel):
-    uuid: Optional[Union[Optional[str], Optional[None]]] = None
+    uuid: Optional[Union[str, Optional[None]]] = None
     title: Optional[str] = None
     description: Optional[str] = None
     scene_number: Optional[int] = None
     location: Optional[str] = None
-    next_scene: Optional[Union[Optional[str], Optional[None]]] = None
+    next_scene: Optional[Union[str, Optional[None]]] = None

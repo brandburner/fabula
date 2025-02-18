@@ -16,6 +16,8 @@
 import typing
 from baml_py.baml_py import FieldType, EnumValueBuilder, EnumBuilder, ClassBuilder
 from baml_py.type_builder import TypeBuilder as _TypeBuilder, ClassPropertyBuilder
+from .globals import DO_NOT_USE_DIRECTLY_UNLESS_YOU_KNOW_WHAT_YOURE_DOING_RUNTIME
+
 
 class TypeBuilder(_TypeBuilder):
     def __init__(self):
@@ -23,7 +25,7 @@ class TypeBuilder(_TypeBuilder):
           ["Agent","AgentParticipation","Episode","Event","Location","Object","ObjectInvolvement","Organization","ResolvedAgent","ResolvedLocation","ResolvedObject","ResolvedOrganization","Resume","Scene","SceneMetadata",]
         ), enums=set(
           []
-        ))
+        ), runtime=DO_NOT_USE_DIRECTLY_UNLESS_YOU_KNOW_WHAT_YOURE_DOING_RUNTIME)
 
 
 

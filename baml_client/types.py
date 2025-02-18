@@ -16,7 +16,8 @@
 import baml_py
 from enum import Enum
 from pydantic import BaseModel, ConfigDict
-from typing import Dict, Generic, List, Literal, Optional, TypeVar, Union, TypeAlias
+from typing_extensions import TypeAlias
+from typing import Dict, Generic, List, Literal, Optional, TypeVar, Union
 
 
 T = TypeVar('T')
@@ -44,10 +45,10 @@ class Agent(BaseModel):
     agent_id: str
     name: str
     title: Optional[str] = None
-    aliases: Union[List[str], Optional[None]]
+    aliases: Union[List[str], Optional[None]] = None
     description: str
     traits: List[str]
-    affiliated_org: Union[str, Optional[None]]
+    affiliated_org: Union[str, Optional[None]] = None
     sphere_of_influence: Optional[str] = None
 
 class AgentParticipation(BaseModel):
@@ -74,7 +75,7 @@ class Event(BaseModel):
     key_dialogue: List[str]
     agent_participations: List[str]
     object_involvements: List[str]
-    next_event: Union[str, Optional[None]]
+    next_event: Union[str, Optional[None]] = None
 
 class Location(BaseModel):
     uuid: str
@@ -88,7 +89,7 @@ class Object(BaseModel):
     description: str
     purpose: str
     significance: str
-    original_owner: Union[str, Optional[None]]
+    original_owner: Union[str, Optional[None]] = None
 
 class ObjectInvolvement(BaseModel):
     uuid: str
@@ -113,7 +114,7 @@ class ResolvedAgent(BaseModel):
     aliases: Optional[List[str]] = None
     description: str
     traits: List[str]
-    affiliated_org: Union[str, Optional[None]]
+    affiliated_org: Union[str, Optional[None]] = None
     sphere_of_influence: Optional[str] = None
     source_uuids: Optional[List[str]] = None
 
@@ -130,7 +131,7 @@ class ResolvedObject(BaseModel):
     description: str
     purpose: str
     significance: str
-    original_owner: Union[str, Optional[None]]
+    original_owner: Union[str, Optional[None]] = None
     source_uuids: Optional[List[str]] = None
 
 class ResolvedOrganization(BaseModel):
@@ -138,7 +139,7 @@ class ResolvedOrganization(BaseModel):
     name: str
     description: str
     sphere_of_influence: str
-    members: Union[List[str], Optional[None]]
+    members: Union[List[str], Optional[None]] = None
     source_uuids: Optional[List[str]] = None
 
 class Resume(BaseModel):
@@ -153,12 +154,12 @@ class Scene(BaseModel):
     scene_number: int
     events: List[str]
     location: str
-    next_scene: Union[str, Optional[None]]
+    next_scene: Union[str, Optional[None]] = None
 
 class SceneMetadata(BaseModel):
-    uuid: Union[str, Optional[None]]
+    uuid: Union[str, Optional[None]] = None
     title: str
     description: str
     scene_number: int
     location: str
-    next_scene: Union[str, Optional[None]]
+    next_scene: Union[str, Optional[None]] = None

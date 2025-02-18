@@ -23,13 +23,13 @@ async def process_scene_entities(scene: Dict[str, Any], global_context: GlobalCo
     First pass: Extracts and registers entities in dependency order.
     """
     scene_text = format_scene_text(scene)
-    story_summary = global_context.get_story_summary()
+    story_synopsis = global_context.get_story_summary()
     tb = TypeBuilder()
 
     # 1. Extract and Register Locations
     locations = await b.ExtractLocations(
         scene_text=scene_text,
-        story_context=story_summary,
+        story_synopsis=story_synopsis,
         scene_number=scene_number,
         baml_options={"tb": tb}
     )
@@ -39,7 +39,7 @@ async def process_scene_entities(scene: Dict[str, Any], global_context: GlobalCo
     # 2. Extract and Register Organizations
     organizations = await b.ExtractOrganizations(
         scene_text=scene_text,
-        story_context=story_summary,
+        story_synopsis=story_synopsis,
         scene_number=scene_number,
         agents=[],  # No agents at this point
         organizations=list(global_context.entity_registry.organizations.values()),
@@ -59,15 +59,15 @@ async def process_scene_entities(scene: Dict[str, Any], global_context: GlobalCo
     # --- Debugging Prints ---
     print("--- Scene Text ---")
     print(scene_text)
-    print("--- Story Summary ---")
-    print(story_summary)
+    print("--- Story Synopsis ---")
+    print(story_synopsis)
     print("--- Agent Name to UUID Mapping ---")
     print(agent_name_to_uuid_mapping)
 
     # IMPORTANT: Supply the mapping as a required positional parameter!
     agents_call = b.ExtractAgents(
         scene_text=scene_text,
-        story_context=story_summary,
+        story_synopsis=story_synopsis,
         agent_name_to_uuid_mapping=agent_name_to_uuid_mapping,  # <-- now provided correctly
         scene_number=scene_number,
         organizations=list(global_context.entity_registry.organizations.values()),
@@ -90,7 +90,7 @@ async def process_scene_entities(scene: Dict[str, Any], global_context: GlobalCo
 
     objects = await b.ExtractObjects(
         scene_text=scene_text,
-        story_context=story_summary,
+        story_synopsis=story_synopsis,
         scene_number=scene_number,
         agents=list(global_context.entity_registry.agents.values()),
         baml_options={"tb": tb}
@@ -129,6 +129,7 @@ async def process_scene_data(scene: Dict[str, Any], global_context: GlobalContex
     """
     scene_text = format_scene_text(scene)
     registry_context = global_context.get_registry_context()
+    story_synopsis = global_context.get_story_summary() # Get story summary
     tb = TypeBuilder()
 
     # 1. Extract Scene Metadata (using resolved locations)
@@ -138,7 +139,7 @@ async def process_scene_data(scene: Dict[str, Any], global_context: GlobalContex
 
     metadata = await b.ExtractSceneMetadata(
         scene_text=scene_text,
-        story_context=global_context.get_story_summary(),
+        story_synopsis=story_synopsis, # Pass the story synopsis here
         scene_number=scene_number,
         locations=list(global_context.entity_registry.locations.values()), # Pass the locations
         baml_options={"tb": tb}
@@ -164,7 +165,8 @@ async def process_scene_data(scene: Dict[str, Any], global_context: GlobalContex
     # 2. Extract Events
     events = await b.ExtractEvents(
         scene_text=scene_text,
-        story_context=registry_context,  # Use registry context
+        registry_context=registry_context,  # Use registry context
+        story_synopsis=story_synopsis, # Pass the story synopsis here
         scene_number=scene_number, #Pass the scene_number
         baml_options={"tb": tb}
     )
@@ -195,9 +197,9 @@ async def process_scene_data(scene: Dict[str, Any], global_context: GlobalContex
     for event in events:
         agent_participations_for_event = await b.ExtractAgentParticipations(
             scene_text=scene_text,
-            story_context=registry_context,  # Use registry context
+            registry_context=registry_context,  # Use registry context
+            story_synopsis=story_synopsis, # Pass the story synopsis here
             event=event,
-            agents=list(global_context.entity_registry.agents.values()),  # Pass pre-extracted agents
             scene_number=scene_number, # Pass the scene number
             baml_options={"tb": tb}
         )
@@ -216,9 +218,9 @@ async def process_scene_data(scene: Dict[str, Any], global_context: GlobalContex
     for event in events:
         object_involvements_for_event = await b.ExtractObjectInvolvements(
             scene_text=scene_text,
-            story_context=registry_context,  # Use registry context
+            registry_context=registry_context,  # Use registry context
+            story_synopsis=story_synopsis, # Pass the story synopsis here
             event=event,
-            objects=list(global_context.entity_registry.objects.values()),  # Pass pre-extracted objects
             scene_number=scene_number,  # Pass the scene number
             baml_options={"tb": tb}
         )

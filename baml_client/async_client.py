@@ -52,7 +52,7 @@ class BamlAsyncClient:
     
     async def ExtractAgentParticipations(
         self,
-        scene_text: str,story_context: Optional[str],event: types.Event,agents: List[types.Agent],scene_number: int,
+        scene_text: str,registry_context: Optional[str],story_synopsis: Optional[str],event: types.Event,scene_number: int,
         baml_options: BamlCallOptions = {},
     ) -> List[types.AgentParticipation]:
       __tb__ = baml_options.get("tb", None)
@@ -65,7 +65,7 @@ class BamlAsyncClient:
       raw = await self.__runtime.call_function(
         "ExtractAgentParticipations",
         {
-          "scene_text": scene_text,"story_context": story_context,"event": event,"agents": agents,"scene_number": scene_number,
+          "scene_text": scene_text,"registry_context": registry_context,"story_synopsis": story_synopsis,"event": event,"scene_number": scene_number,
         },
         self.__ctx_manager.get(),
         tb,
@@ -75,7 +75,7 @@ class BamlAsyncClient:
     
     async def ExtractAgents(
         self,
-        scene_text: str,story_context: Optional[str],agent_name_to_uuid_mapping: Dict[str, str],scene_number: int,organizations: List[types.Organization],
+        scene_text: str,story_synopsis: Optional[str],agent_name_to_uuid_mapping: Dict[str, str],scene_number: int,organizations: List[types.Organization],
         baml_options: BamlCallOptions = {},
     ) -> List[types.Agent]:
       __tb__ = baml_options.get("tb", None)
@@ -88,7 +88,7 @@ class BamlAsyncClient:
       raw = await self.__runtime.call_function(
         "ExtractAgents",
         {
-          "scene_text": scene_text,"story_context": story_context,"agent_name_to_uuid_mapping": agent_name_to_uuid_mapping,"scene_number": scene_number,"organizations": organizations,
+          "scene_text": scene_text,"story_synopsis": story_synopsis,"agent_name_to_uuid_mapping": agent_name_to_uuid_mapping,"scene_number": scene_number,"organizations": organizations,
         },
         self.__ctx_manager.get(),
         tb,
@@ -98,7 +98,7 @@ class BamlAsyncClient:
     
     async def ExtractEvents(
         self,
-        scene_text: str,story_context: Optional[str],scene_number: int,
+        scene_text: str,registry_context: Optional[str],story_synopsis: Optional[str],scene_number: int,
         baml_options: BamlCallOptions = {},
     ) -> List[types.Event]:
       __tb__ = baml_options.get("tb", None)
@@ -111,7 +111,7 @@ class BamlAsyncClient:
       raw = await self.__runtime.call_function(
         "ExtractEvents",
         {
-          "scene_text": scene_text,"story_context": story_context,"scene_number": scene_number,
+          "scene_text": scene_text,"registry_context": registry_context,"story_synopsis": story_synopsis,"scene_number": scene_number,
         },
         self.__ctx_manager.get(),
         tb,
@@ -121,7 +121,7 @@ class BamlAsyncClient:
     
     async def ExtractLocations(
         self,
-        scene_text: str,story_context: Optional[str],scene_number: int,
+        scene_text: str,story_synopsis: Optional[str],scene_number: int,
         baml_options: BamlCallOptions = {},
     ) -> List[types.Location]:
       __tb__ = baml_options.get("tb", None)
@@ -134,7 +134,7 @@ class BamlAsyncClient:
       raw = await self.__runtime.call_function(
         "ExtractLocations",
         {
-          "scene_text": scene_text,"story_context": story_context,"scene_number": scene_number,
+          "scene_text": scene_text,"story_synopsis": story_synopsis,"scene_number": scene_number,
         },
         self.__ctx_manager.get(),
         tb,
@@ -144,7 +144,7 @@ class BamlAsyncClient:
     
     async def ExtractObjectInvolvements(
         self,
-        scene_text: str,story_context: Optional[str],event: types.Event,objects: List[types.Object],scene_number: int,
+        scene_text: str,registry_context: Optional[str],story_synopsis: Optional[str],event: types.Event,scene_number: int,
         baml_options: BamlCallOptions = {},
     ) -> List[types.ObjectInvolvement]:
       __tb__ = baml_options.get("tb", None)
@@ -157,7 +157,7 @@ class BamlAsyncClient:
       raw = await self.__runtime.call_function(
         "ExtractObjectInvolvements",
         {
-          "scene_text": scene_text,"story_context": story_context,"event": event,"objects": objects,"scene_number": scene_number,
+          "scene_text": scene_text,"registry_context": registry_context,"story_synopsis": story_synopsis,"event": event,"scene_number": scene_number,
         },
         self.__ctx_manager.get(),
         tb,
@@ -167,7 +167,7 @@ class BamlAsyncClient:
     
     async def ExtractObjects(
         self,
-        scene_text: str,story_context: Optional[str],scene_number: int,agents: List[types.Agent],
+        scene_text: str,story_synopsis: Optional[str],scene_number: int,agents: List[types.Agent],
         baml_options: BamlCallOptions = {},
     ) -> List[types.Object]:
       __tb__ = baml_options.get("tb", None)
@@ -180,7 +180,7 @@ class BamlAsyncClient:
       raw = await self.__runtime.call_function(
         "ExtractObjects",
         {
-          "scene_text": scene_text,"story_context": story_context,"scene_number": scene_number,"agents": agents,
+          "scene_text": scene_text,"story_synopsis": story_synopsis,"scene_number": scene_number,"agents": agents,
         },
         self.__ctx_manager.get(),
         tb,
@@ -190,7 +190,7 @@ class BamlAsyncClient:
     
     async def ExtractOrganizations(
         self,
-        scene_number: int,scene_text: str,story_context: Optional[str],agents: List[types.Agent],organizations: List[types.Organization],
+        scene_number: int,scene_text: str,story_synopsis: Optional[str],agents: List[types.Agent],organizations: List[types.Organization],
         baml_options: BamlCallOptions = {},
     ) -> List[types.Organization]:
       __tb__ = baml_options.get("tb", None)
@@ -203,7 +203,7 @@ class BamlAsyncClient:
       raw = await self.__runtime.call_function(
         "ExtractOrganizations",
         {
-          "scene_number": scene_number,"scene_text": scene_text,"story_context": story_context,"agents": agents,"organizations": organizations,
+          "scene_number": scene_number,"scene_text": scene_text,"story_synopsis": story_synopsis,"agents": agents,"organizations": organizations,
         },
         self.__ctx_manager.get(),
         tb,
@@ -236,7 +236,7 @@ class BamlAsyncClient:
     
     async def ExtractSceneMetadata(
         self,
-        scene_text: str,story_context: Optional[str],scene_number: int,locations: List[types.Location],
+        scene_text: str,story_synopsis: Optional[str],scene_number: int,locations: List[types.Location],
         baml_options: BamlCallOptions = {},
     ) -> types.SceneMetadata:
       __tb__ = baml_options.get("tb", None)
@@ -249,7 +249,7 @@ class BamlAsyncClient:
       raw = await self.__runtime.call_function(
         "ExtractSceneMetadata",
         {
-          "scene_text": scene_text,"story_context": story_context,"scene_number": scene_number,"locations": locations,
+          "scene_text": scene_text,"story_synopsis": story_synopsis,"scene_number": scene_number,"locations": locations,
         },
         self.__ctx_manager.get(),
         tb,
@@ -362,7 +362,7 @@ class BamlStreamClient:
     
     def ExtractAgentParticipations(
         self,
-        scene_text: str,story_context: Optional[str],event: types.Event,agents: List[types.Agent],scene_number: int,
+        scene_text: str,registry_context: Optional[str],story_synopsis: Optional[str],event: types.Event,scene_number: int,
         baml_options: BamlCallOptions = {},
     ) -> baml_py.BamlStream[List[partial_types.AgentParticipation], List[types.AgentParticipation]]:
       __tb__ = baml_options.get("tb", None)
@@ -376,9 +376,9 @@ class BamlStreamClient:
         "ExtractAgentParticipations",
         {
           "scene_text": scene_text,
-          "story_context": story_context,
+          "registry_context": registry_context,
+          "story_synopsis": story_synopsis,
           "event": event,
-          "agents": agents,
           "scene_number": scene_number,
         },
         None,
@@ -396,7 +396,7 @@ class BamlStreamClient:
     
     def ExtractAgents(
         self,
-        scene_text: str,story_context: Optional[str],agent_name_to_uuid_mapping: Dict[str, str],scene_number: int,organizations: List[types.Organization],
+        scene_text: str,story_synopsis: Optional[str],agent_name_to_uuid_mapping: Dict[str, str],scene_number: int,organizations: List[types.Organization],
         baml_options: BamlCallOptions = {},
     ) -> baml_py.BamlStream[List[partial_types.Agent], List[types.Agent]]:
       __tb__ = baml_options.get("tb", None)
@@ -410,7 +410,7 @@ class BamlStreamClient:
         "ExtractAgents",
         {
           "scene_text": scene_text,
-          "story_context": story_context,
+          "story_synopsis": story_synopsis,
           "agent_name_to_uuid_mapping": agent_name_to_uuid_mapping,
           "scene_number": scene_number,
           "organizations": organizations,
@@ -430,7 +430,7 @@ class BamlStreamClient:
     
     def ExtractEvents(
         self,
-        scene_text: str,story_context: Optional[str],scene_number: int,
+        scene_text: str,registry_context: Optional[str],story_synopsis: Optional[str],scene_number: int,
         baml_options: BamlCallOptions = {},
     ) -> baml_py.BamlStream[List[partial_types.Event], List[types.Event]]:
       __tb__ = baml_options.get("tb", None)
@@ -444,7 +444,8 @@ class BamlStreamClient:
         "ExtractEvents",
         {
           "scene_text": scene_text,
-          "story_context": story_context,
+          "registry_context": registry_context,
+          "story_synopsis": story_synopsis,
           "scene_number": scene_number,
         },
         None,
@@ -462,7 +463,7 @@ class BamlStreamClient:
     
     def ExtractLocations(
         self,
-        scene_text: str,story_context: Optional[str],scene_number: int,
+        scene_text: str,story_synopsis: Optional[str],scene_number: int,
         baml_options: BamlCallOptions = {},
     ) -> baml_py.BamlStream[List[partial_types.Location], List[types.Location]]:
       __tb__ = baml_options.get("tb", None)
@@ -476,7 +477,7 @@ class BamlStreamClient:
         "ExtractLocations",
         {
           "scene_text": scene_text,
-          "story_context": story_context,
+          "story_synopsis": story_synopsis,
           "scene_number": scene_number,
         },
         None,
@@ -494,7 +495,7 @@ class BamlStreamClient:
     
     def ExtractObjectInvolvements(
         self,
-        scene_text: str,story_context: Optional[str],event: types.Event,objects: List[types.Object],scene_number: int,
+        scene_text: str,registry_context: Optional[str],story_synopsis: Optional[str],event: types.Event,scene_number: int,
         baml_options: BamlCallOptions = {},
     ) -> baml_py.BamlStream[List[partial_types.ObjectInvolvement], List[types.ObjectInvolvement]]:
       __tb__ = baml_options.get("tb", None)
@@ -508,9 +509,9 @@ class BamlStreamClient:
         "ExtractObjectInvolvements",
         {
           "scene_text": scene_text,
-          "story_context": story_context,
+          "registry_context": registry_context,
+          "story_synopsis": story_synopsis,
           "event": event,
-          "objects": objects,
           "scene_number": scene_number,
         },
         None,
@@ -528,7 +529,7 @@ class BamlStreamClient:
     
     def ExtractObjects(
         self,
-        scene_text: str,story_context: Optional[str],scene_number: int,agents: List[types.Agent],
+        scene_text: str,story_synopsis: Optional[str],scene_number: int,agents: List[types.Agent],
         baml_options: BamlCallOptions = {},
     ) -> baml_py.BamlStream[List[partial_types.Object], List[types.Object]]:
       __tb__ = baml_options.get("tb", None)
@@ -542,7 +543,7 @@ class BamlStreamClient:
         "ExtractObjects",
         {
           "scene_text": scene_text,
-          "story_context": story_context,
+          "story_synopsis": story_synopsis,
           "scene_number": scene_number,
           "agents": agents,
         },
@@ -561,7 +562,7 @@ class BamlStreamClient:
     
     def ExtractOrganizations(
         self,
-        scene_number: int,scene_text: str,story_context: Optional[str],agents: List[types.Agent],organizations: List[types.Organization],
+        scene_number: int,scene_text: str,story_synopsis: Optional[str],agents: List[types.Agent],organizations: List[types.Organization],
         baml_options: BamlCallOptions = {},
     ) -> baml_py.BamlStream[List[partial_types.Organization], List[types.Organization]]:
       __tb__ = baml_options.get("tb", None)
@@ -576,7 +577,7 @@ class BamlStreamClient:
         {
           "scene_number": scene_number,
           "scene_text": scene_text,
-          "story_context": story_context,
+          "story_synopsis": story_synopsis,
           "agents": agents,
           "organizations": organizations,
         },
@@ -625,7 +626,7 @@ class BamlStreamClient:
     
     def ExtractSceneMetadata(
         self,
-        scene_text: str,story_context: Optional[str],scene_number: int,locations: List[types.Location],
+        scene_text: str,story_synopsis: Optional[str],scene_number: int,locations: List[types.Location],
         baml_options: BamlCallOptions = {},
     ) -> baml_py.BamlStream[partial_types.SceneMetadata, types.SceneMetadata]:
       __tb__ = baml_options.get("tb", None)
@@ -639,7 +640,7 @@ class BamlStreamClient:
         "ExtractSceneMetadata",
         {
           "scene_text": scene_text,
-          "story_context": story_context,
+          "story_synopsis": story_synopsis,
           "scene_number": scene_number,
           "locations": locations,
         },

@@ -1,5 +1,5 @@
 # entity_registry.py
-from typing import Dict, Any, List, Union, cast, Optional
+from typing import Dict, Any, List, Union, cast, Optional, Set
 import logging
 from thefuzz import fuzz
 from baml_client.types import Agent, Organization, Location, Object, ResolvedAgent, ResolvedOrganization, ResolvedLocation, ResolvedObject
@@ -405,7 +405,8 @@ class EntityRegistry:
         for agent in self.agents.values():
             if not agent.affiliated_org:
                 continue
-            # Directly check if the agent's affiliated_org is in the organization map
+
+            # Direct check if the agent's affiliated_org is in the organization map
             if agent.affiliated_org in org_map:
                 org_to_agents[agent.affiliated_org].add(agent.uuid)
             else:
@@ -421,32 +422,72 @@ class EntityRegistry:
         logging.info("Agent affiliations and organization members updated.")
 
 
-    def update_references_after_resolution(self, old_to_new_uuids: Dict[str, str]) -> None:
-        from utils import generate_uuid  # Ensure generate_uuid is imported
+    def update_entity_references(self, old_to_new_uuids: Dict[str, str]) -> None:
+        """
+        Updates all internal entity references based on the provided mapping.
+        This includes:
+          - Updating each object's original_owner field.
+          - Updating each agent's affiliated_org field.
+          - Updating each organization's members list.
+        """
+        # Update objects
+        for obj in self.objects.values():
+            if obj.original_owner and obj.original_owner in old_to_new_uuids:
+                new_owner = old_to_new_uuids[obj.original_owner]
+                logging.debug(f"Updating object {obj.uuid} original_owner from {obj.original_owner} to {new_owner}") # Added logging
+                obj.original_owner = new_owner
 
+        # Update agents
+        for agent in self.agents.values():
+            if agent.affiliated_org and agent.affiliated_org in old_to_new_uuids:
+                old_org = agent.affiliated_org
+                new_org = old_to_new_uuids[agent.affiliated_org]
+                logging.debug(f"Updating agent {agent.uuid} affiliated_org from {old_org} to {new_org}") # Added logging
+                agent.affiliated_org = new_org
+
+        # Update organizations' members
+        for org in self.organizations.values():
+            updated_members: List[str] = []  # Initialize updated_members here
+            if org.members:
+                for member in org.members:
+                    if member in old_to_new_uuids:
+                        new_member = old_to_new_uuids[member]
+                        logging.debug(f"Updating organization {org.uuid} member from {member} to {new_member}") # Added logging
+                        updated_members.append(new_member)
+                    else:
+                        updated_members.append(member)
+            org.members = updated_members
+
+
+    def update_references_after_resolution(self, old_to_new_uuids: Dict[str, str]) -> None:
+        """
+        Updates entity references in all processed episodes extracted data,
+        and also calls update_entity_references to patch the registry.
+        """
+        # First update registry-level references.
+        self.update_entity_references(old_to_new_uuids)
+
+        # Now update extracted scene data.
+        from utils import generate_uuid # import here as it's only needed in this function
         for episode in self.processed_episodes:
             for scene in episode["scenes"]:
-                # First update standalone agent participations
-                if "agent_participations" in scene["extracted_data"]:
-                    for participation in scene["extracted_data"]["agent_participations"]:
-                        old_agent_uuid = participation.get("agent")
-                        if old_agent_uuid in old_to_new_uuids:
-                            new_agent_uuid = old_to_new_uuids[old_agent_uuid]
-                            participation["agent"] = new_agent_uuid
-                            # Recalculate the participation UUID based on the new agent UUID and event
-                            participation["uuid"] = generate_uuid("agentparticipation", f"{new_agent_uuid}-{participation['event']}")
+                # Update agent participations.
+                for participation in scene["extracted_data"].get("agent_participations", []):
+                    old_agent_uuid = participation.get("agent")
+                    if old_agent_uuid in old_to_new_uuids:
+                        new_agent_uuid = old_to_new_uuids[old_agent_uuid]
+                        participation["agent"] = new_agent_uuid
+                        participation["uuid"] = generate_uuid("agentparticipation", f"{new_agent_uuid}-{participation['event']}")
+                # Update object involvements.
+                for involvement in scene["extracted_data"].get("object_involvements", []):
+                    old_object_uuid = involvement.get("object")
+                    if old_object_uuid in old_to_new_uuids:
+                        new_object_uuid = old_to_new_uuids[old_object_uuid]
+                        involvement["object"] = new_object_uuid
+                        involvement["uuid"] = generate_uuid("objectinvolvement", f"{new_object_uuid}-{involvement['event']}")
 
-                # Then update standalone object involvements
-                if "object_involvements" in scene["extracted_data"]:
-                    for involvement in scene["extracted_data"]["object_involvements"]:
-                        old_object_uuid = involvement.get("object")
-                        if old_object_uuid in old_to_new_uuids:
-                            new_object_uuid = old_to_new_uuids[old_object_uuid]
-                            involvement["object"] = new_object_uuid
-                            involvement["uuid"] = generate_uuid("objectinvolvement", f"{new_object_uuid}-{involvement['event']}")
-
-                # Now update the event-level lists so they reference the updated records.
-                for event in scene["extracted_data"]["events"]:
+                # Rebuild event lists.
+                for event in scene["extracted_data"].get("events", []):
                     event["agent_participations"] = [
                         participation["uuid"]
                         for participation in scene["extracted_data"].get("agent_participations", [])
@@ -458,11 +499,10 @@ class EntityRegistry:
                         if involvement.get("event") == event["uuid"]
                     ]
 
-                    # Also update any other direct references, if present.
+                    # Also update any direct references if they exist.
                     if "agent_id" in event and event["agent_id"] in old_to_new_uuids:
                         event["agent_id"] = old_to_new_uuids[event["agent_id"]]
                     if "location_id" in event and event["location_id"] in old_to_new_uuids:
                         event["location_id"] = old_to_new_uuids[event["location_id"]]
                     if "organization_id" in event and event["organization_id"] in old_to_new_uuids:
                         event["organization_id"] = old_to_new_uuids[event["organization_id"]]
-
