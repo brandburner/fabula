@@ -148,7 +148,7 @@ async def process_scene_data(scene: Dict[str, Any], global_context: GlobalContex
 
     # Normalize the location field
     if metadata and metadata.location:
-        normalized_location = "location-" + normalize_identifier(metadata.location)
+        normalized_location = "location_" + normalize_identifier(metadata.location)
         registered_location = global_context.entity_registry.get_location(normalized_location)
         if registered_location:
             metadata.location = registered_location.uuid
@@ -174,7 +174,7 @@ async def process_scene_data(scene: Dict[str, Any], global_context: GlobalContex
     for event in events:
         if not validate_event_references(event, global_context):
             logging.error(f"Invalid references in event {event.uuid}")
-        event.uuid = generate_uuid(f"event-{scene_number}", str(event.sequence_within_scene))
+        event.uuid = generate_uuid(f"event_{scene_number}", str(event.sequence_within_scene))
 
     # Sort events by their sequence number and update next_event for each event.
     events.sort(key=lambda e: e.sequence_within_scene)
@@ -205,7 +205,7 @@ async def process_scene_data(scene: Dict[str, Any], global_context: GlobalContex
         )
         for participation in agent_participations_for_event:
             if participation.agent:
-                participation.uuid = generate_uuid("agentparticipation", f"{participation.agent}-{event.uuid}")
+                participation.uuid = generate_uuid("agentparticipation", f"{participation.agent}_{event.uuid}")
                 agent_participations.append(participation)
 
 
@@ -226,7 +226,7 @@ async def process_scene_data(scene: Dict[str, Any], global_context: GlobalContex
         )
         for involvement in object_involvements_for_event:
             if involvement.object:
-                involvement.uuid = generate_uuid("objectinvolvement", f"{involvement.object}-{event.uuid}")
+                involvement.uuid = generate_uuid("objectinvolvement", f"{involvement.object}_{event.uuid}")
                 object_involvements.append(involvement)
 
     # Update each event with the IDs of the participation/involvement records.

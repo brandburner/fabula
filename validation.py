@@ -42,18 +42,18 @@ def validate_entity_attributes(entity: Any) -> bool:
         True if the entity is valid, False otherwise.
     """
     if isinstance(entity, Agent):
-        if not entity.uuid or not entity.uuid.startswith("agent-"):
+        if not entity.uuid or not entity.uuid.startswith("agent_"):
             logging.error(f"Invalid agent UUID: {entity.uuid}")
             return False
         if not entity.name:
             logging.error(f"Agent {entity.uuid} has no name.")
             return False
-        if entity.affiliated_org and not entity.affiliated_org.startswith("org-"):
+        if entity.affiliated_org and not entity.affiliated_org.startswith("org_"):
             logging.error(f"Agent {entity.uuid} has invalid affiliated_org: {entity.affiliated_org}")
             return False
 
     elif isinstance(entity, Organization):
-        if not entity.uuid or not entity.uuid.startswith("org-"):
+        if not entity.uuid or not entity.uuid.startswith("org_"):
             logging.error(f"Invalid organization UUID: {entity.uuid}")
             return False
         if not entity.name:
@@ -62,7 +62,7 @@ def validate_entity_attributes(entity: Any) -> bool:
         # Add more Organization-specific checks if needed
 
     elif isinstance(entity, Location):
-        if not entity.uuid or not entity.uuid.startswith("location-"):
+        if not entity.uuid or not entity.uuid.startswith("location_"):
             logging.error(f"Invalid location UUID: {entity.uuid}")
             return False
         if not entity.name:
@@ -70,7 +70,7 @@ def validate_entity_attributes(entity: Any) -> bool:
             return False
 
     elif isinstance(entity, Object):
-        if not entity.uuid or not entity.uuid.startswith("object-"):
+        if not entity.uuid or not entity.uuid.startswith("object_"):
             logging.error(f"Invalid object UUID: {entity.uuid}")
             return False
         if not entity.name:
@@ -258,7 +258,7 @@ def validate_agent_participation(participation_data: Dict[str, Any], entity_regi
         return False
 
     # Ensure event UUID is valid
-    if not participation_data["event"].startswith("event-"):
+    if not participation_data["event"].startswith("event_"):
         logging.error(f"Validation Error: AgentParticipation refers to event '{participation_data['event']}' with invalid UUID format.")
         return False
 

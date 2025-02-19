@@ -13,10 +13,10 @@ def generate_uuid(entity_type: str, identifier: str) -> str:
         identifier: A string identifier unique to the entity within its type.
 
     Returns:
-        A UUID string in the format "entity_type-normalized_identifier".
+        A UUID string in the format "entity_type_normalized_identifier".
     """
     normalized_identifier = normalize_identifier(identifier)
-    return f"{entity_type}-{normalized_identifier}"
+    return f"{entity_type}_{normalized_identifier}"
 
 def normalize_identifier(identifier: str) -> str:
     """
@@ -61,7 +61,7 @@ def validate_reference(reference: str, valid_prefixes: list) -> bool:
     """
     return any(reference.startswith(prefix) for prefix in valid_prefixes)
 
-def is_close_match(str1: str, str2: str, threshold: int = 80) -> bool:
+def is_close_match(str1: str, str2: str, threshold: int = 90) -> bool:
     """
     Checks if two strings are a close match using fuzzy matching.
     Now uses normalize_for_matching before comparison.

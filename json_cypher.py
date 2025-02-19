@@ -388,7 +388,7 @@ def main():
             cypher_statements.append(episode_node)
             # Generate episode UUID (using same logic as in generate_episode_node_cypher)
             title = episode.get("episode_title", "Untitled Episode")
-            episode_uuid = f"episode-{title.lower().replace(' ', '_')}"
+            episode_uuid = f"episode_{title.lower().replace(' ', '_')}"
             
             previous_scene = None
             for scene in episode.get("scenes", []):

@@ -58,12 +58,7 @@ class GlobalContext:
         return "\n".join(summary_lines)
 
     def get_registry_context(self) -> str:
-        """
-        Generates a context string summarizing the current state of the entity registry.
-        """
         summary_lines = []
-
-        # Summarize entities
         entities = self.entity_registry.get_all_entities()
         for entity_type, entity_list in entities.items():
             if entity_list:
@@ -71,19 +66,18 @@ class GlobalContext:
                 for entity in entity_list:
                     if entity_type == "agents":
                         summary_lines.append(
-                            f"  Agent: {entity.name}, UUID: {entity.uuid}, Affiliated Org: {entity.affiliated_org}"
+                            f"  Agent: {entity.name}, UUID: {entity.uuid}, Affiliated Org: {entity.affiliated_org}, Description: {entity.description}"
                         )
                     elif entity_type == "organizations":
                         summary_lines.append(
-                            f"  Organization: {entity.name}, UUID: {entity.uuid}, Members: {', '.join(entity.members or [])}"
+                            f"  Organization: {entity.name}, UUID: {entity.uuid}, Members: {', '.join(entity.members or [])}, Description: {entity.description}"
                         )
                     elif entity_type == "locations":
                         summary_lines.append(
-                            f"  Location: {entity.name}, UUID: {entity.uuid}, Type: {entity.type}"
+                            f"  Location: {entity.name}, UUID: {entity.uuid}, Type: {entity.type}, Description: {entity.description}"
                         )
                     elif entity_type == "objects":
                         summary_lines.append(
-                            f"  Object: {entity.name}, UUID: {entity.uuid}, Original Owner: {entity.original_owner}"
+                            f"  Object: {entity.name}, UUID: {entity.uuid}, Original Owner: {entity.original_owner}, Description: {entity.description}"
                         )
-
         return "\n".join(summary_lines)

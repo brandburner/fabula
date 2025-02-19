@@ -6,6 +6,7 @@ from baml_client.types import Agent, Organization, Location, Object, ResolvedAge
 from utils import generate_uuid, normalize_identifier, normalize_name, normalize_for_matching, is_close_match
 from baml_client import b
 from collections import defaultdict
+import re
 
 class EntityRegistry:
     """
@@ -38,27 +39,28 @@ class EntityRegistry:
 
     def _register_agent(self, agent: Agent) -> None:
         """Registers or updates an agent, handling duplicates and orgs."""
-        
         # 1. Check for existing agent by UUID (fastest and most reliable)
         existing_agent = self.find_entity_by_uuid(agent.uuid)
         if existing_agent:
             self._merge_agent(existing_agent, agent)
             return
 
-        # 2. Check for potential duplicates by name/aliases using normalized matching
         normalized_name = normalize_for_matching(agent.name)
+        
+        # Remove any trailing numeric suffix for base comparison
+        base_name_new = re.sub(r'\s+\d+$', '', normalized_name)
+        
         for existing_agent in self.agents.values():
-            if is_close_match(normalized_name, normalize_for_matching(existing_agent.name)):
-                self._merge_agent(existing_agent, agent) 
-                return
+            existing_normalized_name = normalize_for_matching(existing_agent.name)
+            base_name_existing = re.sub(r'\s+\d+$', '', existing_normalized_name)
             
-            # Check aliases with normalized matching
-            if hasattr(agent, "aliases") and agent.aliases:
-                for alias in agent.aliases:
-                    if is_close_match(normalize_for_matching(alias), 
-                                    normalize_for_matching(existing_agent.name)):
-                        self._merge_agent(existing_agent, agent)
-                        return
+            # If the base names are the same but the full names differ, skip merging
+            if base_name_new == base_name_existing and normalized_name != existing_normalized_name:
+                continue
+            
+            if is_close_match(normalized_name, existing_normalized_name):
+                self._merge_agent(existing_agent, agent)
+                return
 
         # 3. Add new agent using UUID as key
         logging.debug(f"Adding new agent {agent.name} (Agent ID: {agent.agent_id}) with UUID {agent.uuid} to registry.")
@@ -477,14 +479,14 @@ class EntityRegistry:
                     if old_agent_uuid in old_to_new_uuids:
                         new_agent_uuid = old_to_new_uuids[old_agent_uuid]
                         participation["agent"] = new_agent_uuid
-                        participation["uuid"] = generate_uuid("agentparticipation", f"{new_agent_uuid}-{participation['event']}")
+                        participation["uuid"] = generate_uuid("agentparticipation", f"{new_agent_uuid}_{participation['event']}")
                 # Update object involvements.
                 for involvement in scene["extracted_data"].get("object_involvements", []):
                     old_object_uuid = involvement.get("object")
                     if old_object_uuid in old_to_new_uuids:
                         new_object_uuid = old_to_new_uuids[old_object_uuid]
                         involvement["object"] = new_object_uuid
-                        involvement["uuid"] = generate_uuid("objectinvolvement", f"{new_object_uuid}-{involvement['event']}")
+                        involvement["uuid"] = generate_uuid("objectinvolvement", f"{new_object_uuid}_{involvement['event']}")
 
                 # Rebuild event lists.
                 for event in scene["extracted_data"].get("events", []):
