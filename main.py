@@ -37,7 +37,7 @@ INPUT_JSON_PATH = Path("/home/user/fabula/source_docs/ai_fanfic/star_trek_tng/ec
 CONTEXT_FILES = [
     Path("/home/user/fabula/source_docs/ai_fanfic/star_trek_tng/echoes_of_the_past_treatment.txt")
 ]
-OUTPUT_JSON_PATH = Path("/home/user/fabula/output/pre_processed/echoes_of_the_past_graphyy.json")
+OUTPUT_JSON_PATH = Path("/home/user/fabula/output/pre_processed/echoes_of_the_past_graph.json")
 
 # INPUT_JSON_PATH = Path("/home/user/fabula/source_docs/ai_fanfic/peep_show/networking_event_transcript.json")
 # CONTEXT_FILES = [
@@ -56,18 +56,6 @@ OUTPUT_JSON_PATH = Path("/home/user/fabula/output/pre_processed/echoes_of_the_pa
 #     Path("/home/user/fabula/source_docs/ai_fanfic/doctor_who/quantum_archive_novelization.txt")
 # ]
 # OUTPUT_JSON_PATH = Path("/home/user/fabula/output/pre_processed/quantum_archive_graph.json")
-
-# INPUT_JSON_PATH = Path("/home/user/fabula/utilities/doctor_who/doctor10/json/blink_transcript.json")
-# CONTEXT_FILES = [
-#     Path("/home/user/fabula/utilities/doctor_who/doctor10/resource/txt/blink_summary.txt")
-# ]
-# OUTPUT_JSON_PATH = Path("/home/user/fabula/utilities/blink_graphxx.json")
-
-# INPUT_JSON_PATH = Path("/home/user/fabula/utilities/doctor_who/doctor1/json/mission_to_the_unknown_transcript.json")
-# CONTEXT_FILES = [
-#     Path("/home/user/fabula/utilities/doctor_who/doctor1/resource/autoguide/03_02_Mission_to_the_Unknown.md")
-# ]
-# OUTPUT_JSON_PATH = Path("/home/user/fabula/utilities/mission_to_the_unknown_graphxx.json")
 
 def load_context_documents(context_files: List[Path]) -> str:
     """Loads and concatenates context documents."""
