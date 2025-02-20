@@ -35,230 +35,231 @@ CREATE INDEX organization_uuid IF NOT EXISTS FOR (org:Organization) ON (org.uuid
 CREATE INDEX location_uuid IF NOT EXISTS FOR (l:Location) ON (l.uuid);
 CREATE INDEX episode_uuid IF NOT EXISTS FOR (ep:Episode) ON (ep.uuid);
 MATCH (n) DETACH DELETE n;
-MERGE (a:Agent {uuid: 'agent-jean_luc_picard'})
+MERGE (a:Agent {uuid: 'agent_jean_luc_picard'})
     ON CREATE SET
         a.name = 'Jean-Luc Picard',
         a.title = 'Captain',
-        a.description = 'Jean-Luc Picard is the Captain of the USS Enterprise-D, renowned for his logical, wise, and empathetic command style. Known for his diplomatic prowess, deep intellect, and a balanced approach to leadership, Picard values reason and has a strong sense of duty. He explores and understands new worlds with peace and respect, often guided by his moral compass.',
-        a.traits = ["Authoritative", "Intelligent", "Thoughtful", "Curious", "Principled", "Respected", "Wise", "Moral integrity", "Respectful", "Philosophical", "Empathetic", "Knowledgeable", "Diplomatic", "Logical", "Leader"],
-        a.sphere_of_influence = 'Command'
+        a.description = 'Jean-Luc Picard is the commanding officer of the USS Enterprise-D, renowned for his intellect, strong moral values, and diplomatic approach. He leads with logic, empathy, and decisive authority, and is celebrated for his thoughtful leadership, cultural sophistication, and unwavering commitment to exploration and diplomacy.',
+        a.traits = ["Empathetic", "Commanding", "Logical", "Wise", "Intellectual", "Diplomatic", "Experienced", "Thoughtful", "Decisive", "Analytical", "Intelligent", "Courageous"],
+        a.sphere_of_influence = 'Command and Exploration'
     ;
-MERGE (a:Agent {uuid: 'agent-william_t_riker'})
+MERGE (a:Agent {uuid: 'agent_william_t_riker'})
     ON CREATE SET
         a.name = 'William T. Riker',
         a.title = 'Commander',
-        a.description = 'William T. Riker is the First Officer of the USS Enterprise-D. Known for his easy charm, rugged good looks, and razor-sharp intellect, Riker is optimistic and deeply loyal to his Captain and crew. He balances humor with a firm command of his duties and has forged a strong bond with Captain Picard.',
-        a.traits = ["Optimistic", "Intelligent", "Charming", "Charismatic", "Tactical", "Loyal"],
-        a.sphere_of_influence = 'First Officer Operations'
+        a.description = 'William T. Riker is the charismatic first officer aboard the USS Enterprise-D, known for his charm, tactical acumen, and quick decision-making. His approachable demeanor and sharp intellect make him essential in bridging command strategies with on-the-ground implementation.',
+        a.traits = ["Charming", "Charismatic", "Loyal", "Intelligent", "Optimistic", "Decisive", "Tactical"],
+        a.sphere_of_influence = 'Leadership and Tactical Operations'
     ;
-MERGE (a:Agent {uuid: 'agent-data'})
+MERGE (a:Agent {uuid: 'agent_data'})
     ON CREATE SET
         a.name = 'Data',
-        a.title = 'Lieutenant Commander',
-        a.description = 'Data is an android and the second officer of the USS Enterprise-D. His positronic brain allows him to process information with incredible speed and accuracy. He is known for his quest to understand human nature and his dedication to his duties, often showcasing curiosity and a desire to grow beyond his programming.',
-        a.traits = ["Dedicated", "Intelligent", "Inquisitive", "Curious about humanity", "Android", "Curious", "Lacks Emotion", "Remarkably insightful", "Logical", "Analytical", "Non-emotional", "Precise"],
-        a.sphere_of_influence = 'Operations'
+        a.title = 'Android',
+        a.description = 'Data is a highly advanced android serving aboard the USS Enterprise-D. Equipped with a positronic brain and unparalleled computational abilities, he provides precise critical analysis and executes complex tasks with a continuous quest to understand human behavior and emotion.',
+        a.traits = ["Logical", "Curious", "Analytical", "Precise"],
+        a.sphere_of_influence = 'Data Analysis and Operations'
     ;
-MERGE (a:Agent {uuid: 'agent-worf'})
+MERGE (a:Agent {uuid: 'agent_worf'})
     ON CREATE SET
         a.name = 'Worf',
-        a.title = 'Lieutenant',
-        a.description = 'Worf is a Klingon officer serving as Chief Tactical Officer on the USS Enterprise-D. Known for his sense of honor, courage, and martial prowess, Worf often exhibits a strong sense of duty and caution. His Klingon heritage influences his perspective, providing valuable insights during security and tactical missions.',
-        a.traits = ["Alert", "Duty-bound", "Cautious", "Martial prowess", "Martial", "Klingon", "Brave", "Honorable", "Strategic thinker", "Courageous"],
-        a.sphere_of_influence = 'Tactical Operations'
+        a.title = 'Security Officer',
+        a.description = 'Worf is a formidable Klingon warrior on the USS Enterprise-D, known for his fierce sense of honor, unwavering loyalty, and readiness to engage in conflict when necessary. His presence as the Enterprise’s security officer underscores his martial prowess and vigilant commitment to crew safety.',
+        a.traits = ["Vigilant", "Brave", "Honorable", "Strong", "Aggressive", "Cautious", "Loyal"],
+        a.sphere_of_influence = 'Security and Tactical Operations'
     ;
-MERGE (a:Agent {uuid: 'agent-janina_taur'})
+MERGE (a:Agent {uuid: 'agent_janina_taur'})
     ON CREATE SET
         a.name = 'Janina Taur',
-        a.title = 'Ensign',
-        a.description = 'Ensign Janina Taur is a highly capable young officer at the helm of the USS Enterprise-D. She graduated top of her class at Starfleet Academy in 2362, with specializations in astrophysics and advanced warp field theory.',
-        a.traits = ["Capable", "Intelligent", "Precise", "Confident"],
-        a.sphere_of_influence = 'Helm Operations'
+        a.title = 'Helm Officer',
+        a.description = 'Janina Taur is an enthusiastic and capable young officer who graduated from Starfleet Academy\'s Class of 2362. Serving at the helm of the USS Enterprise-D, she demonstrates exceptional skill, promise, and dedication in navigation and helm operations.',
+        a.traits = ["Skilled", "Promising", "Confident", "Dedicated"],
+        a.sphere_of_influence = 'Navigation and Helm Operations'
     ;
-MERGE (a:Agent {uuid: 'agent-deanna_troi'})
+MERGE (a:Agent {uuid: 'agent_deanna_troi'})
     ON CREATE SET
         a.name = 'Deanna Troi',
         a.title = 'Counselor',
-        a.description = 'Deanna Troi is the ship\'s counselor aboard the USS Enterprise-D. With a background in psychology and the unique ability to sense emotions, Troi plays a crucial role in navigating the complexities of interstellar relations and offers valuable insights into the emotional landscapes they encounter.',
+        a.description = 'Deanna Troi is the empathic and intuitive counselor aboard the USS Enterprise-D. As a half-Betazoid, half-human, she uses her unique empathic abilities to sense emotions and offer guidance during both personal and interstellar conflicts.',
         a.traits = ["Empathic", "Insightful", "Compassionate", "Perceptive"],
-        a.sphere_of_influence = 'Emotional Intelligence'
+        a.sphere_of_influence = 'Interpersonal relations and psychological counseling'
     ;
-MERGE (a:Agent {uuid: 'agent-geordi_la_forge'})
+MERGE (a:Agent {uuid: 'agent_geordi_la_forge'})
     ON CREATE SET
         a.name = 'Geordi La Forge',
         a.title = 'Chief Engineer',
-        a.description = 'Geordi La Forge serves as the Chief Engineer aboard the USS Enterprise-D. With his VISOR, he possesses the ability to see across the electromagnetic spectrum, granting him insight into details others cannot perceive. He is known for his technical brilliance, resourcefulness, and calm demeanor under pressure.',
-        a.traits = ["Technical brilliance", "Resourceful", "Calm", "Insightful", "Problem solver"],
-        a.sphere_of_influence = 'Engineering and Technology'
+        a.description = 'Geordi La Forge is the brilliant chief engineer of the USS Enterprise-D, celebrated for his deep technical expertise, innovative problem solving, and mastery of the ship\'s complex engineering systems.',
+        a.traits = ["Brilliant", "Resourceful", "Skilled Engineer", "Innovative"],
+        a.sphere_of_influence = 'Engineering'
     ;
-MERGE (a:Agent {uuid: 'agent-reginald_barclay'})
+MERGE (a:Agent {uuid: 'agent_reginald_barclay'})
     ON CREATE SET
         a.name = 'Reginald Barclay',
         a.title = 'Lieutenant',
-        a.description = 'Lieutenant Reginald Barclay is known for his brilliant engineering mind, despite his social awkwardness. He has recently succeeded in resolving a complex trade negotiation, demonstrating his analytical capabilities and persistence.',
-        a.traits = ["Brilliant engineer", "Socially awkward", "Analytical", "Persistent", "Innovative"],
-        a.sphere_of_influence = 'Engineering and Diplomacy'
+        a.description = 'Reginald Barclay is a technically proficient Starfleet officer known for his success in resolving the Zibalian trade negotiations. His unique mix of brilliance and social awkwardness, combined with dedication and resourcefulness, defines his role in Engineering/Operations.',
+        a.traits = ["Technically Proficient", "Dedicated", "Resourceful", "Socially Awkward"],
+        a.sphere_of_influence = 'Engineering/Operations'
     ;
-MERGE (a:Agent {uuid: 'agent-miles_obrien'})
+MERGE (a:Agent {uuid: 'agent_miles_o_brien'})
     ON CREATE SET
         a.name = 'Miles O\'Brien',
         a.title = 'Transporter Chief',
-        a.description = 'Miles O\'Brien is the Transporter Chief aboard the USS Enterprise-D. He is highly skilled with transporter systems, handling them with precision. Known for his reliability and practical understanding of engineering, O\'Brien is an invaluable member of the crew.',
-        a.traits = ["Reliable", "Practical", "Skilled engineer", "Dependable", "Patient"],
-        a.sphere_of_influence = 'Transporter Technology'
+        a.description = 'Miles O\'Brien is the expert in transporter operations aboard the USS Enterprise-D. Known for his efficiency, meticulous attention to detail, and deep understanding of transporter systems, he ensures the reliable functioning of critical ship operations.',
+        a.traits = ["Efficient", "Skilled", "Experienced", "Meticulous"],
+        a.sphere_of_influence = 'Transporter Operations'
     ;
-MERGE (a:Agent {uuid: 'agent-ancient_hologram'})
+MERGE (a:Agent {uuid: 'agent_davies'})
+    ON CREATE SET
+        a.name = 'Davies',
+        a.title = 'Ensign',
+        a.description = 'Ensign Davies is a member of the security team in the Transporter Room, contributing to maintaining safety and order during critical operations.',
+        a.traits = ["Alert", "Diligent", "Reliable"],
+        a.sphere_of_influence = 'Security'
+    ;
+MERGE (a:Agent {uuid: 'agent_lal'})
+    ON CREATE SET
+        a.name = 'Lal',
+        a.title = 'Ensign',
+        a.description = 'Ensign Lal is part of the security detail in the Transporter Room, recognized for her distinctive presence, vigilance, and steadfast commitment to duty.',
+        a.traits = ["Observant", "Dedicated", "Vigilant"],
+        a.sphere_of_influence = 'Security'
+    ;
+MERGE (a:Agent {uuid: 'agent_ancient_hologram'})
     ON CREATE SET
         a.name = 'Ancient Hologram',
-        a.title = 'None',
-        a.description = 'The Ancient Hologram is a representation of a member from the প\\u{9c}র\\u{9b}চীন civilization, appearing as a tall humanoid figure with elongated limbs and large, luminous eyes. It serves as a caretaker of an archive containing their knowledge and communicates with the USS Enterprise-D crew to share this legacy. The প\\u{9c}র\\u{9b}চীন ascended to a higher plane of existence, leaving this hologram to connect with other civilizations.',
-        a.traits = ["Informative", "Echo of Civilization", "Ancient", "Knowledgeable", "Guardianship", "Mysterious"],
-        a.sphere_of_influence = 'Knowledge Preservation'
+        a.title = 'Herald',
+        a.description = 'The Ancient Hologram is a spectral projection representing a member of a long-extinct, highly advanced civilization. Tasked with conveying the legacy and wisdom of the ancient people, it exudes mystery, otherworldly insight, and timeless guidance.',
+        a.traits = ["Wise", "Otherworldly", "Mysterious", "Ethereal", "Enigmatic"],
+        a.sphere_of_influence = 'Ancient Knowledge'
     ;
-MERGE (o:Object {uuid: 'object-padd'})
+MERGE (o:Object {uuid: 'object_padd'})
     ON CREATE SET
-        o.name = 'PADD (Personal Access Display Device)',
-        o.description = 'A sleek, handheld computer used by Captain Jean-Luc Picard, containing the accumulated knowledge of a dozen worlds.',
-        o.purpose = 'To review and analyze data, including the latest sensor readings.',
-        o.significance = 'Represents the advanced technology and vast knowledge accessible to Starfleet officers, highlighting Picard\'s reliance on data-driven decision making.'
+        o.name = 'PADD',
+        o.description = 'A sleek, handheld Personal Access Display Device used by Captain Picard to review sensor readings and mission data on the bridge.',
+        o.purpose = 'To display real-time information and sensor data critical for navigation and decision-making.',
+        o.significance = 'Represents the advanced computing technology that supports command operations and situational awareness on the starship.'
     ;
-MERGE (o:Object {uuid: 'object-long-range_sensor_array'})
-    ON CREATE SET
-        o.name = 'Long-Range Sensor Array',
-        o.description = 'A complex array used by Lieutenant Commander Data to detect and analyze unusual energy readings from a Class-M planet.',
-        o.purpose = 'To provide detailed sensor readings and identify potential subspace phenomena.',
-        o.significance = 'Critical for advancing the investigation of the Melatrite Nebula and detecting potential threats or anomalies.'
-    ;
-MERGE (o:Object {uuid: 'object-main_viewscreen'})
+MERGE (o:Object {uuid: 'object_main_viewscreen'})
     ON CREATE SET
         o.name = 'Main Viewscreen',
-        o.description = 'A large screen on the bridge displaying the starfield, including the Melatrite Nebula.',
-        o.purpose = 'To visually present the current region of space, allowing the crew to monitor and navigate their environment.',
-        o.significance = 'Offers a strategic view of space, central to coordinating missions and understanding navigational challenges.'
+        o.description = 'A large, curved plexisteel display mounted on the bridge that portrays the current starfield and celestial phenomena, including the Melatrite Nebula.',
+        o.purpose = 'To provide a real-time visual feed of space beyond the starship, assisting in navigation and tactical assessments.',
+        o.significance = 'Acts as the primary interface between the ship and the cosmos, symbolizing the starship\'s role in exploration.'
     ;
-MERGE (o:Object {uuid: 'object-holographic_display'})
+MERGE (o:Object {uuid: 'object_long_range_sensor_array'})
+    ON CREATE SET
+        o.name = 'Long-Range Sensor Array',
+        o.description = 'A sophisticated network of sensors located at the operations station, designed to detect distant celestial bodies and unusual energy readings.',
+        o.purpose = 'To gather comprehensive sensor data from far-flung regions of space, particularly from targets like Melatrite III.',
+        o.significance = 'Plays a critical role in identifying and diagnosing subspace anomalies, thereby informing strategic decisions on the bridge.'
+    ;
+MERGE (o:Object {uuid: 'object_holographic_display_emitter'})
     ON CREATE SET
         o.name = 'Holographic Display',
-        o.description = 'A sophisticated display system located in the observation lounge, projecting detailed scans of Melatrite III. Generated by the lounge\'s emitter system, which was upgraded during the last refit at Starbase 74 in 2369.',
-        o.purpose = 'To provide visual context of the Melatrite III and facilitate strategic discussions among the senior officers.',
-        o.significance = 'Allows the crew to examine detailed scans and data about Melatrite III, aiding in their analysis of the unusual energy readings and potential historical significance of the প\\u{9c}র\\u{9b}চীন civilization.'
+        o.description = 'A state-of-the-art emitter system in the observation lounge, upgraded at Starbase 74 in 2369, that projects detailed scans of Melatrite III.',
+        o.purpose = 'To visually present sensor data and scans of Melatrite III, aiding the crew in analyzing the mysterious energy readings.',
+        o.significance = 'This display provides the crucial visual context for the crew\'s discussion, highlighting advanced technology and reinforcing the enigmatic legacy of the Ancient civilization.'
     ;
-MERGE (o:Object {uuid: 'object-conference_table'})
+MERGE (o:Object {uuid: 'object_transporter_console'})
     ON CREATE SET
-        o.name = 'Conference Table',
-        o.description = 'A central element in the observation lounge where key discussions among Captain Picard, Commander Riker, and Counselor Troi take place.',
-        o.purpose = 'Used for meetings and strategic discussions by the senior staff of the USS Enterprise-D.',
-        o.significance = 'Symbolizes the collaborative decision-making process of the Enterprise crew, where critical insights are shared and mission strategies are formulated.'
+        o.name = 'Transporter Console',
+        o.description = 'A sophisticated control panel located in Transporter Room 3, equipped with advanced sensors and interfaces to manage the transporter beam and conduct precise materialization and dematerialization of personnel.',
+        o.purpose = 'To control and execute the ship\'s transporter functions, ensuring safe transfers during away missions.',
+        o.significance = 'Serves as a critical hub for transporter operations, exemplifying the high level of technological integration aboard the Enterprise.'
     ;
-MERGE (o:Object {uuid: 'object-lounge_emitter_system'})
+MERGE (o:Object {uuid: 'object_transporter_platform'})
     ON CREATE SET
-        o.name = 'Emitter System',
-        o.description = 'Part of the observation lounge\'s holographic display technology, enabling projection of detailed holograms such as the scans of Melatrite III.',
-        o.purpose = 'To generate holographic images and data displays for in-depth analysis and briefing purposes.',
-        o.significance = 'Represents the advanced technological capabilities of the USS Enterprise-D in visualizing complex data and enhancing understanding during mission briefings.'
+        o.name = 'Transporter Platform',
+        o.description = 'A designated area adjacent to the main transporter console where crew members gather to be scanned and transported via the beam.',
+        o.purpose = 'To provide a safe and defined location for the crew during the transporter process.',
+        o.significance = 'Highlights the precision and coordinated procedures required in starship operations, ensuring the integrity of the transport process.'
     ;
-MERGE (o:Object {uuid: 'object-transporter_controls'})
+MERGE (o:Object {uuid: 'object_subterranean_structure'})
     ON CREATE SET
-        o.name = 'Transporter Controls',
-        o.description = 'A sophisticated console operated by Chief Miles O\'Brien, featuring tactile interfaces and visual displays for precise transporter functions.',
-        o.purpose = 'To initiate and control the transport process for the away team from the USS Enterprise to a designated location.',
-        o.significance = 'Crucial for ensuring safe transportation of crew members, the transporter controls are central to away missions and highlight the technological capabilities of the Federation.'
+        o.name = 'Subterranean Structure',
+        o.description = 'An enigmatic underground formation on the planet\'s surface, with a composition that remains unknown and an age that predates the extinction of the Ancient civilization by over 500,000 years.',
+        o.purpose = 'To serve as the origin of the strongest energy source detected by the ship’s sensors, hinting at advanced and possibly defensive technologies of a bygone era.',
+        o.significance = 'Acts as a narrative device to introduce the mysterious legacy of the Ancient, setting up potential conflict and discovery in the unfolding mission.'
     ;
-MERGE (o:Object {uuid: 'object-tricorder'})
-    ON CREATE SET
-        o.name = 'Tricorder',
-        o.description = 'A handheld device used by Data to scan the crystalline structure. It is a TR-590 Mark IX model, capable of analyzing subspace phenomena.',
-        o.purpose = 'To scan and analyze the subspace amplifier and gather scientific data about the energy patterns.',
-        o.significance = 'Represents the advanced technology and scientific capabilities of the Enterprise crew, allowing them to understand and interpret complex phenomena.'
-    ;
-MERGE (o:Object {uuid: 'object-disruptor'})
-    ON CREATE SET
-        o.name = 'Disruptor',
-        o.description = 'A handheld Klingon weapon carried by Worf, designed for powerful defensive and offensive capabilities.',
-        o.purpose = 'To provide security and defense during potentially hostile encounters, reinforcing the safety of the away team.',
-        o.significance = 'Symbolizes the preparedness and martial prowess of the crew, particularly reflecting Worf\'s Klingon heritage and commitment to protection.'
-    ;
-MERGE (o:Object {uuid: 'object-crystalline_structure'})
+MERGE (o:Object {uuid: 'object_crystalline_structure'})
     ON CREATE SET
         o.name = 'Crystalline Structure',
-        o.description = 'A massive, pulsating structure made of crystal, located at the center of the chamber. It emits a soft, ethereal blue light and resonates with the planet\'s natural subspace field.',
-        o.purpose = 'To function as a subspace amplifier, creating the energy patterns detected by the Enterprise.',
-        o.significance = 'The structure is central to the plot as it is the source of the mysterious energy readings that brought the Enterprise to Melatrite III. It also symbolizes the advanced technology of the প\\u{9c}র\\u{9b}চীন civilization.'
+        o.description = 'A massive, pulsating crystalline formation set in the center of the circular subterranean chamber. It emits a soft, blue light and resonates with the planet\'s natural subspace field.',
+        o.purpose = 'To serve as a subspace amplifier that modulates and magnifies ambient energy, creating the mysterious energy patterns driving the investigation.',
+        o.significance = 'Represents an advanced relic of the ancient Prachin civilization, central to the discovery of unknown technology and the ensuing narrative tension.'
     ;
-MERGE (o:Object {uuid: 'object-obsidian_walls'})
+MERGE (o:Object {uuid: 'object_tricorder_tr590_mark_ix'})
     ON CREATE SET
-        o.name = 'Obsidian-Like Walls',
-        o.description = 'Smooth walls made of a material resembling obsidian, designed to absorb light. They are adorned with intricate carvings depicting celestial events and abstract geometric patterns.',
-        o.purpose = 'To serve as the surrounding structure of the chamber, adding to the mystical and enigmatic atmosphere of the location.',
-        o.significance = 'The carvings and material of the walls reflect the artistry and knowledge of the প\\u{9c}র\\u{9b}চীন civilization, hinting at their advanced understanding of celestial phenomena.'
+        o.name = 'Tricorder (TR-590 Mark IX)',
+        o.description = 'A sleek, handheld scanning device used by Data to rapidly collect and analyze environmental and energy data within the chamber.',
+        o.purpose = 'To scan and provide detailed readings of the subspace phenomena and structural characteristics of the ancient installation.',
+        o.significance = 'Serves as a critical tool in deciphering the nature of the advanced technology, linking contemporary Starfleet scientific methods to ancient mysteries.'
     ;
-MERGE (o:Object {uuid: 'object-holographic_projection'})
-    ON CREATE SET
-        o.name = 'Holographic Projection',
-        o.description = 'A holographic image of a humanoid figure with elongated limbs and luminous eyes, representing a member of the প\\u{9c}র\\u{9b}চীন species.',
-        o.purpose = 'To communicate with the Enterprise crew and deliver the message of the প\\u{9c}র\\u{9b}চীন civilization.',
-        o.significance = 'Serves as a direct link to the প\\u{9c}র\\u{9b}চীন, providing exposition and deepening the lore of the Star Trek universe.'
-    ;
-MERGE (o:Object {uuid: 'object-crystalline_data_storage_devices'})
+MERGE (o:Object {uuid: 'object_crystalline_data_storage_devices'})
     ON CREATE SET
         o.name = 'Crystalline Data Storage Devices',
-        o.description = 'Rows of crystalline structures lining the walls of the archive, designed to store vast amounts of information from the now-ascended প\\u{9c}র\\u{9b}চীন civilization.',
-        o.purpose = 'To preserve the knowledge and legacy of the প\\u{9c}র\\u{9b}চীন civilization for future generations and interstellar societies.',
-        o.significance = 'Contains more data than the entire Federation historical database; represents the culmination of the প\\u{9c}র\\u{9b}চীন\'s achievements and their desire to communicate with other species.'
+        o.description = 'Rows of crystalline data storage devices line the walls of the archive. These devices, composed of intricately faceted crystal materials, glow softly and seem to pulse with stored energy, hinting at an advanced technology designed to preserve vast amounts of ancient knowledge.',
+        o.purpose = 'To store and safeguard extensive data and wisdom of the Ancient civilization, serving as a repository for their legacy and facilitating future analysis.',
+        o.significance = 'They are emblematic of the enduring power of knowledge and the hope that even a civilization long ascended can leave behind a vital link to the past, potentially revolutionizing the understanding of the universe.'
     ;
-MERGE (l:Location {uuid: 'location-uss_enterprise_d_main_bridge'})
+MERGE (l:Location {uuid: 'location_uss_enterprise_d_main_bridge'})
     ON CREATE SET
-        l.name = 'USS Enterprise-D - Main Bridge',
-        l.description = 'The main command center of the USS Enterprise-D, a Galaxy-class starship, where the captain and crew oversee and manage the ship\'s operations. The bridge is equipped with a range of high-tech stations including the command chair, operations station, and tactical station, set against the backdrop of the main viewscreen displaying the starfield.',
-        l.type = 'Scene Location'
+        l.name = 'USS Enterprise-D Main Bridge',
+        l.description = 'The command center of the USS Enterprise-D, featuring high-tech control stations including the captain\'s command chair, operations station, tactical station, and helm. It is where the crew monitors space and communicates with Starfleet Command.',
+        l.type = 'Bridge'
     ;
-MERGE (l:Location {uuid: 'location-melatrite_nebula'})
+MERGE (l:Location {uuid: 'location_melatrite_nebula'})
     ON CREATE SET
         l.name = 'Melatrite Nebula',
-        l.description = 'A designated region of space characterized by a swirling tapestry of stars and nebular clouds. It contains high concentrations of tetryon particles and displays intermittent gravimetric distortions, suggesting unusual subspace phenomena.',
-        l.type = 'Region in Space'
+        l.description = 'A vast celestial phenomenon with swirling gases painted in vibrant hues. Visible from the observation lounge, this nebula once hosted the legacy of an ancient civilization and provides a dynamic backdrop for the Enterprise\'s explorations.',
+        l.type = 'Nebula'
     ;
-MERGE (l:Location {uuid: 'location-melatrite_iii'})
+MERGE (l:Location {uuid: 'location_melatrite_iii'})
     ON CREATE SET
         l.name = 'Melatrite III',
-        l.description = 'A Class-M planet within the Melatrite Nebula, known for unusual energy readings consistent with a type-4 subspace inversion and elements not found in any known natural phenomenon.',
+        l.description = 'A planet detailed in the holographic scan generated in the observation lounge. Its surface exhibits unusual energy readings that hint at mysterious, possibly sentient phenomena linked to the legacy left by an ancient civilization.',
         l.type = 'Planet'
     ;
-MERGE (l:Location {uuid: 'location-uss_enterprise_d_observation_lounge'})
+MERGE (l:Location {uuid: 'location_uss_enterprise_d_observation_lounge'})
     ON CREATE SET
         l.name = 'USS Enterprise-D - Observation Lounge',
-        l.description = 'The observation lounge offers a panoramic view of the Melatrite Nebula, with its swirling gases painted across space in vibrant hues. A sophisticated holographic display system, upgraded during the last refit at Starbase 74 in 2369, provides detailed scans and visual representation of Melatrite III.',
-        l.type = 'Scene Location'
+        l.description = 'A spacious and quiet area on board the USS Enterprise-D designed for relaxation and strategic discussion. The lounge offers a panoramic view of space, prominently featuring the swirling, vibrant hues of the Melatrite Nebula. It is equipped with a holographic display system, upgraded during the last refit at Starbase 74 in 2369.',
+        l.type = 'Room'
     ;
-MERGE (l:Location {uuid: 'location-uss_enterprise_d_transporter_room_3'})
+MERGE (l:Location {uuid: 'location_uss_enterprise_d_transporter_room_3'})
     ON CREATE SET
-        l.name = 'USS Enterprise-D - Transporter Room 3',
-        l.description = 'The transporter room is a hive of activity, bustling with preparations for an upcoming away mission. Chief Engineer Geordi La Forge, Lieutenant Reginald Barclay, and Chief Miles O\'Brien manage the sophisticated transporter systems. This room is equipped with advanced technology designed for precise personnel and material transport, making it pivotal for exploration and emergency operations.',
-        l.type = 'Scene Location'
+        l.name = 'Transporter Room 3, USS Enterprise-D',
+        l.description = 'A busy transporter room aboard the USS Enterprise-D that serves as the operational hub for coordinating away missions. The area is filled with advanced transporter consoles and a flurry of activity, as crew members such as Chief Engineer La Forge, Lieutenant Barclay, and Transporter Chief O\'Brien finalize preparations amidst an atmosphere of tense focus.',
+        l.type = 'Room'
     ;
-MERGE (l:Location {uuid: 'location-melatrite_iii_subterranean_structure_central_chamber'})
+MERGE (l:Location {uuid: 'location_subterranean_structure'})
     ON CREATE SET
-        l.name = 'Melatrite III - Subterranean Structure - Archive',
-        l.description = 'A vast subterranean archive located within a structure on Melatrite III. It contains rows upon rows of crystalline data storage devices, each storing a wealth of information crafted by the ancient civilization. The environment within the archive is vast and cavernous, with the capacity to revolutionize understanding of the universe through its preserved knowledge.',
+        l.name = 'Subterranean Structure',
+        l.description = 'An ancient and enigmatic facility located beneath the planet\'s surface. Preliminary scans suggest its composition predates the extinction of the ancient Prochin civilization by over five hundred thousand years, and its energy signature is linked to powerful subspace phenomena.',
+        l.type = 'Facility'
+    ;
+MERGE (l:Location {uuid: 'location_melatrite_iii_subterranean_structure_central_chamber'})
+    ON CREATE SET
+        l.name = 'Melatrite III - Central Chamber',
+        l.description = 'A vast, circular chamber located in a subterranean structure on Melatrite III. The walls are crafted from a smooth, obsidian-like material that absorbs light, and are adorned with intricate carvings depicting celestial events and abstract geometric patterns. In the center of the chamber, a massive crystalline structure pulsates with a soft, blue light, creating mesmerizing energy patterns accompanied by an almost musical hum.',
+        l.type = 'Chamber'
+    ;
+MERGE (l:Location {uuid: 'location_melatrite_iii_subterranean_archive'})
+    ON CREATE SET
+        l.name = 'Subterranean Archive',
+        l.description = 'A vast archive located within the subterranean structure on Melatrite III. The room is lined with endless rows of crystalline data storage devices, each preserving a wealth of ancient knowledge. Built by a long-lost civilization known as the Ancient, the archive exudes mystery and historical significance, inviting deep exploration into the legacy left behind.',
         l.type = 'Archive'
     ;
-MERGE (o:Organization {uuid: 'org-starfleet_command'})
+MERGE (o:Organization {uuid: 'org_starfleet_command'})
     ON CREATE SET
         o.name = 'Starfleet Command',
-        o.description = 'The United Federation of Planets\' exploratory and military service.',
-        o.sphere_of_influence = 'United Federation of Planets and its member worlds.'
+        o.description = 'The central command authority overseeing Starfleet operations, responsible for directing exploration, defense, and diplomatic missions within the Federation.',
+        o.sphere_of_influence = 'Federation space and interstellar operations'
     ;
-MERGE (o:Organization {uuid: 'org-uss_enterprise_d'})
+MERGE (o:Organization {uuid: 'org_prachin'})
     ON CREATE SET
-        o.name = 'USS Enterprise-D',
-        o.description = 'A Galaxy-class starship of the United Federation of Planets tasked with exploration and peacekeeping missions.',
-        o.sphere_of_influence = 'United Federation of Planets and exploratory missions.'
-    ;
-MERGE (o:Organization {uuid: 'org-ancient_civilization'})
-    ON CREATE SET
-        o.name = 'Ancient Civilization',
-        o.description = 'A highly advanced civilization that built a facility to preserve their knowledge and reach out to other civilizations before ascending to a higher plane of existence.',
-        o.sphere_of_influence = 'Preservation of knowledge and inter-civilizational communication.'
+        o.name = 'Prachin',
+        o.description = 'An ancient civilization that transcended its physical form and built an archive to preserve its legacy and knowledge, reaching out to future civilizations.',
+        o.sphere_of_influence = 'Ancient star systems and the legacy of advanced, transcendent technology'
     ;
 MERGE (ep:Episode {uuid: 'episode-episode_one_-_echoes_of_the_past'})
     ON CREATE SET
@@ -266,1686 +267,1942 @@ MERGE (ep:Episode {uuid: 'episode-episode_one_-_echoes_of_the_past'})
         ep.description = '',
         ep.airdate = ''
     ;
-MERGE (s:Scene {uuid: 'scene-1'})
+MERGE (s:Scene {uuid: 'scene_1'})
     ON CREATE SET
-        s.title = 'Course Set for Melatrite III',
-        s.description = 'On the bridge of the USS Enterprise-D, Captain Jean-Luc Picard reviews sensor data from the Melatrite Nebula alongside his senior officers. Unusual subspace phenomena prompt Picard to order Ensign Janina Taur to set a course for Melatrite III, a Class-M planet with anomalous energy readings.',
+        s.title = 'Bridge Briefing over Melatrite Anomalies',
+        s.description = 'On the USS Enterprise-D\'s main bridge, Captain Picard, Commander Riker, Lieutenant Commander Data, Lieutenant Worf, and Ensign Janina Taur are engaged in a critical discussion about sensor readings from the Melatrite Nebula. Picard reviews data on his PADD as Riker compares the current subspace anomalies to past encounters, while Data reports unusual energy readings from Melatrite III indicative of a type-4 subspace inversion and other mysterious elements. With the main viewscreen displaying the starfield of the Melatrite Nebula, Picard orders Ensign Taur to set course for the planet at warp factor six, setting the stage for further investigation.',
         s.scene_number = 1
-    
-    WITH s
-    MATCH (l:Location {uuid: 'location-uss_enterprise_d_main_bridge'})
-    MERGE (s)-[:LOCATED_IN]->(l)
     ;
-MERGE (e:Event {uuid: 'event-1-1'})
+MERGE (e:Event {uuid: 'event_1_1'})
     ON CREATE SET
-        e.title = 'Bridge Operations Underway',
-        e.description = 'The scene opens on the bridge of the USS Enterprise-D. Captain Jean-Luc Picard reviews a PADD. Commander Riker is nearby, and Data is stationed at the operations post. Worf mans the tactical station, while Ensign Janina Taur is at the helm. The main viewscreen shows a starfield in the Melatrite Nebula.',
+        e.title = 'Discussion of Unusual Sensor Readings',
+        e.description = 'On the USS Enterprise-D’s main bridge, Captain Jean-Luc Picard examines his PADD while engaging Commander William T. Riker in a discussion about the latest sensor readings. Picard raises concerns about unusual subspace phenomena reported from the Melatrite Nebula, and Riker provides details about high concentrations of tetryon particles and gravimetric field distortions reminiscent of past subspace anomalies encountered during the Zakdorn crisis.',
         e.sequence = 1,
-        e.key_dialogue = []
-    ;
-MERGE (e:Event {uuid: 'event-1-2'})
-    ON CREATE SET
-        e.title = 'Discussion of the Melatrite Nebula',
-        e.description = 'Captain Picard and Commander Riker discuss the latest sensor readings concerning potential subspace phenomena in the Melatrite Nebula. Riker reports detecting high concentrations of tetryon particles and gravimetric field distortions, similar to past subspace anomalies.',
-        e.sequence = 2,
         e.key_dialogue = ["PICARD: Commander Riker, have you had a chance to review the latest sensor readings from the Melatrite Nebula? Starfleet Command believes there may be unusual subspace phenomena occurring in that region.", "RIKER: Yes, Captain. Preliminary scans show high concentrations of tetryon particles and intermittent distortions in the gravimetric field. It's reminiscent of the subspace anomalies we encountered near the Maranga system during the Zakdorn crisis of '69."]
     ;
-MERGE (e:Event {uuid: 'event-1-3'})
+MERGE (e:Event {uuid: 'event_1_2'})
     ON CREATE SET
-        e.title = 'Data Reports Unusual Energy Readings',
-        e.description = 'Data informs Captain Picard about unusual energy readings from Melatrite III after completing a diagnostic of the long-range sensor array. The readings suggest a type-4 subspace inversion with unique elements.',
-        e.sequence = 3,
+        e.title = 'Diagnostic Revelation by Data',
+        e.description = 'At the operations station, Lieutenant Commander Data reports to Captain Picard after completing a level-three diagnostic of the long-range sensor array. Data reveals that the sensors have detected unusual energy readings emanating from a Class-M planet designated as Melatrite III, with a type-4 subspace inversion mixed with unknown elements, heightening the intrigue about the phenomena.',
+        e.sequence = 2,
         e.key_dialogue = ["DATA: Captain, I have completed a level-three diagnostic of the long-range sensor array. I am detecting unusual energy readings emanating from a Class-M planet designated as Melatrite III. The readings are consistent with a type-4 subspace inversion, but also contain elements not found in any known natural phenomenon."]
     ;
-MERGE (e:Event {uuid: 'event-1-4'})
+MERGE (e:Event {uuid: 'event_1_3'})
     ON CREATE SET
-        e.title = 'Course Set for Melatrite III',
-        e.description = 'Captain Picard orders Ensign Taur to set a course for Melatrite III at warp factor six to investigate further. Ensign Taur complies and engages the warp drive.',
-        e.sequence = 4,
+        e.title = 'Order to Set Course for Melatrite III',
+        e.description = 'In response to the diagnostic findings, Captain Picard issues an order to Ensign Janina Taur to chart a course for Melatrite III at warp factor six. Ensign Taur promptly confirms the order and engages the warp drive, setting the stage for further investigation into the mysterious energy readings.',
+        e.sequence = 3,
         e.key_dialogue = ["PICARD: Intriguing. Ensign Taur, lay in a course for Melatrite III, warp factor six. Let's take a closer look.", "TAUR: Aye, Captain. Course laid in. Engaging warp drive."]
     ;
-MERGE (s:Scene {uuid: 'scene-2'})
+MERGE (s:Scene {uuid: 'scene_2'})
     ON CREATE SET
-        s.title = 'Discussion on Energy Readings and Psychic Resonance',
-        s.description = 'In the USS Enterprise-D\'s Observation Lounge, Captain Picard, Commander Riker, and Counselor Deanna Troi gather around the conference table, surrounded by a panoramic view of the Melatrite Nebula. They are analyzing a holographic display depicting detailed scans of Melatrite III. Picard seeks Troi\'s impressions on the complex energy readings, which she describes as a mixture of emotions suggesting possible communication attempts. The conversation touches upon the possibility of a distress signal or something linked to the প্রাচীন civilization, known for its advanced technology. Troi also notes a psychic resonance that feels strangely familiar.',
+        s.title = 'Echoes from the Past in the Observation Lounge',
+        s.description = 'In the USS Enterprise-D Observation Lounge, the crew gathers around a conference table with a panoramic view of the Melatrite Nebula. A holographic display shows a detailed scan of Melatrite III, sparking a thoughtful discussion among Captain Picard, Commander Riker, and Counselor Deanna Troi. They analyze complex energy readings and a faint psychic resonance that suggests the lingering presence of the ancient প্রাচীন civilization, evoking a blend of fear, longing, and hope. The scene sets a reflective and cautious tone as the crew contemplates whether the signals indicate a distress call or something more enigmatic from the past.',
         s.scene_number = 2
     
     WITH s
-    MATCH (l:Location {uuid: 'location-uss_enterprise_d_observation_lounge'})
+    MATCH (l:Location {uuid: 'location_uss_enterprise_d_observation_lounge'})
     MERGE (s)-[:LOCATED_IN]->(l)
     ;
-MERGE (e:Event {uuid: 'event-2-1'})
+MERGE (e:Event {uuid: 'event_2_1'})
     ON CREATE SET
-        e.title = 'Counselor Troi Analyzes Energy Readings',
-        e.description = 'Captain Picard asks Counselor Troi for her impressions of the energy readings from Melatrite III. Troi interprets the patterns as a mixture of emotions, suggesting some form of sentient involvement. She describes a sense of fear, longing, and hope, indicating a possible attempt at communication.',
+        e.title = 'Initial Analysis of Energy Readings',
+        e.description = 'In the USS Enterprise-D Observation Lounge, Captain Picard initiates the discussion by querying Counselor Troi about the energy readings displayed on the holographic system. Troi interprets the complex patterns as a mix of emotions—fear, longing, and hope—implying that someone or something might be attempting to communicate. Commander Riker then suggests that the detected signal may be a distress call from a civilization in peril. This exchange sets the stage for deeper investigation into the mysterious energy readings.',
         e.sequence = 1,
-        e.key_dialogue = ["PICARD: Counselor, what are your impressions of these energy readings? Do they suggest any sentient involvement?", "TROI: The patterns are complex, Captain. I sense a mixture of emotions \u2013 fear, longing, but also a profound sense of hope. It's as if someone, or something, is reaching out across space, trying to communicate."]
+        e.key_dialogue = ["PICARD: Counselor, what are your impressions of these energy readings? Do they suggest any sentient involvement?", "TROI: The patterns are complex, Captain. I sense a mixture of emotions \u2013 fear, longing, but also a profound sense of hope. It's as if someone, or something, is reaching out across space, trying to communicate.", "RIKER: Could it be a distress signal? Perhaps a civilization facing some kind of cataclysm?"]
     ;
-MERGE (e:Event {uuid: 'event-2-2'})
+MERGE (e:Event {uuid: 'event_2_2'})
     ON CREATE SET
-        e.title = 'Riker Speculates on a Distress Signal',
-        e.description = 'Commander Riker suggests the energy readings could represent a distress signal from a civilization facing a cataclysm. This proposal introduces the idea that the signals might be a call for help.',
+        e.title = 'Reflections on Ancient Legacy and Psychic Resonance',
+        e.description = 'Following the initial analysis, Captain Picard reflects on the historical significance of the Melatrite Nebula, pointing out its connection to the long-vanished Ancient civilization whose advanced technology still left its mark in the cosmic background. Counselor Troi then adds a new dimension to the conversation by mentioning her detection of a faint psychic resonance that feels strangely familiar, further deepening the mystery surrounding the energy readings.',
         e.sequence = 2,
-        e.key_dialogue = ["RIKER: Could it be a distress signal? Perhaps a civilization facing some kind of cataclysm?"]
+        e.key_dialogue = ["PICARD: Possibly. Or it could be something else entirely. The Melatrite Nebula was once home to the \u09aa\u09cd\u09b0\u09be\u099a\u09c0\u09a8 (Ancient) civilization, a species that vanished over a million years ago, leaving behind only fragmented records and their signature on the cosmic background radiation. Their technology was said to be far beyond our understanding.", "TROI: Captain, I'm also detecting a faint psychic resonance. It feels... familiar, somehow. Like an echo from the past."]
     ;
-MERGE (e:Event {uuid: 'event-2-3'})
+MERGE (s:Scene {uuid: 'scene_3'})
     ON CREATE SET
-        e.title = 'Picard Mentions the Ancient Civilization',
-        e.description = 'Captain Picard reflects on the history of the Melatrite Nebula, noting it was once inhabited by an ancient civilization that vanished over a million years ago. He explains how their superior technology and fragmented records have left a lasting signature on cosmic background radiation.',
-        e.sequence = 3,
-        e.key_dialogue = ["PICARD: Possibly. Or it could be something else entirely. The Melatrite Nebula was once home to the Ancient civilization, a species that vanished over a million years ago, leaving behind only fragmented records and their signature on the cosmic background radiation. Their technology was said to be far beyond our understanding."]
-    ;
-MERGE (e:Event {uuid: 'event-2-4'})
-    ON CREATE SET
-        e.title = 'Troi Detects Faint Psychic Resonance',
-        e.description = 'Counselor Troi discloses detecting a faint psychic resonance that feels familiar, reminiscent of an echo from the past, adding a new layer of mystery to the situation.',
-        e.sequence = 4,
-        e.key_dialogue = ["TROI: Captain, I'm also detecting a faint psychic resonance. It feels... familiar, somehow. Like an echo from the past."]
-    ;
-MERGE (s:Scene {uuid: 'scene-3'})
-    ON CREATE SET
-        s.title = 'Final Transporter Preparations for Away Mission',
-        s.description = 'In the USS Enterprise-D transporter room, Chief Engineer Geordi La Forge coordinates the last checks for an away mission, with Lieutenant Reginald Barclay assisting. Transporter Chief Miles O\'Brien skillfully manages the transporter console, while Data, Worf, and a security team (Ensigns Davies and লাল) gather on the platform. La Forge confirms optimal transporter operation targeting a strong energy source from an ancient subterranean structure on the planet. Data provides analysis of the structure, calling attention to its antiquity and energy readings. Worf expresses concern about potential defenses, and both he and Captain Picard agree on maintaining caution. O\'Brien activates the energizing sequence, marking the transition to the next step of the mission.',
+        s.title = 'Transporter Room Preparations',
+        s.description = 'In the busy USS Enterprise-D Transporter Room 3, Chief Engineer Geordi La Forge, assisted by Lieutenant Reginald Barclay, oversees the final preparations for an away mission following his recent success in the Zibalian trade negotiations. Transporter Chief Miles O\'Brien works the main console as Data, Worf, and a security detail including Ensigns Davies and লাল gather by the transporter platform. They discuss anomalous energy readings from a subterranean structure on a distant planet, noting its mysterious composition and ancient origins tied to the extinct প্রাচীন civilization, while Captain Picard stresses the need for caution over potential resistance.',
         s.scene_number = 3
     
     WITH s
-    MATCH (l:Location {uuid: 'location_transporter_room_3'})
+    MATCH (l:Location {uuid: 'location_uss_enterprise_d_transporter_room_3'})
     MERGE (s)-[:LOCATED_IN]->(l)
     ;
-MERGE (e:Event {uuid: 'event-3-1'})
+MERGE (e:Event {uuid: 'event_3_1'})
     ON CREATE SET
-        e.title = 'Final Preparations for the Away Mission',
-        e.description = 'Chief Engineer Geordi La Forge, assisted by Lieutenant Reginald Barclay, oversees the final preparations for the away mission on the transporter room. They ensure the transporter systems are operating at optimal efficiency. Transporter Chief Miles O\'Brien stands at the main console, ensuring the transporter is ready. Data confirms that they\'ve locked onto the strongest energy source on the planet, originating from a subterranean structure predating the extinction of an ancient civilization.',
+        e.title = 'Transporter System Initialization',
+        e.description = 'Chief Engineer Geordi La Forge, with Lieutenant Reginald Barclay at his side, oversees the final preparations in Transporter Room 3. La Forge announces that the transporter systems are operating at optimal efficiency and that they have locked onto the strongest energy source on the planet, identified as originating from a subterranean structure.',
         e.sequence = 1,
-        e.key_dialogue = ["LA FORGE: Transporter systems are operating at optimal efficiency. We've locked onto the strongest energy source on the planet's surface. It appears to be originating from a subterranean structure.", "DATA: The structure's composition is unknown, Chief. However, preliminary scans indicate that it predates the extinction of the \u09aa\u09cd\u09b0\u09be\u099a\u09c0\u09a8 by at least five hundred thousand years. Its energy signature is consistent with the subspace readings we detected earlier."]
+        e.key_dialogue = ["Transporter systems are operating at optimal efficiency. We've locked onto the strongest energy source on the planet's surface. It appears to be originating from a subterranean structure."]
     ;
-MERGE (e:Event {uuid: 'event-3-2'})
+MERGE (e:Event {uuid: 'event_3_2'})
     ON CREATE SET
-        e.title = 'Worf and Picard Discuss Potential Threats',
-        e.description = 'Worf expresses concern about potential threats, citing the ancient civilization\'s powerful defensive technologies. Captain Picard concurs but emphasizes that their main goal is observation, not engagement.',
+        e.title = 'Analysis of the Ancient Structure',
+        e.description = 'Data provides a technical analysis of the energy source, explaining that the subterranean structure\'s composition is unknown. His scans indicate that the structure predates the extinction of the প্রাচীন by at least five hundred thousand years, and its energy signature aligns with the subspace readings detected earlier.',
         e.sequence = 2,
-        e.key_dialogue = ["WORF: We should prepare for possible resistance. The \u09aa\u09cd\u09b0\u09be\u099a\u09c0\u09a8 were known to have powerful defensive technologies.", "PICARD: Agreed, Lieutenant. But let's proceed with caution. Our primary objective is to investigate, not to engage in hostilities."]
+        e.key_dialogue = ["The structure's composition is unknown, Chief. However, preliminary scans indicate that it predates the extinction of the \u09aa\u09cd\u09b0\u09be\u099a\u09c0\u09a8 by at least five hundred thousand years. Its energy signature is consistent with the subspace readings we detected earlier."]
     ;
-MERGE (e:Event {uuid: 'event-3-3'})
+MERGE (e:Event {uuid: 'event_3_3'})
     ON CREATE SET
-        e.title = 'O\'Brien Activates the Transporter',
-        e.description = 'With all precautions in place and an understanding of their mission objectives, Transporter Chief Miles O\'Brien engages the transporter, energizing the crew for their away mission to the surface.',
+        e.title = 'Worf Raises Security Concerns',
+        e.description = 'Worf voices his concern over the possibility of encountering resistance, citing the ancient civilization\'s reputation for powerful defensive technologies. His warning underscores the potential danger in approaching the mysterious subterranean structure.',
         e.sequence = 3,
-        e.key_dialogue = ["O'BRIEN: Energizing."]
+        e.key_dialogue = ["We should prepare for possible resistance. The \u09aa\u09cd\u09b0\u09be\u099a\u09c0\u09a8 were known to have powerful defensive technologies."]
     ;
-MERGE (s:Scene {uuid: 'scene-4'})
+MERGE (e:Event {uuid: 'event_3_4'})
     ON CREATE SET
-        s.title = 'Discovery in the Subterranean Chamber',
-        s.description = 'The away team materializes in a vast, circular chamber on Melatrite III, surrounded by walls of smooth, obsidian-like material that absorb light. The chamber is adorned with intricate carvings depicting celestial events, and in its center stands a massive crystalline structure pulsating with a soft blue light, emitting a strange, musical hum. Data identifies the structure as a subspace amplifier causing the detected energy patterns. As they approach, the carvings glow and a humanoid holographic projection of the প্রাচীন species appears, greeting the team and indicating they have awaited this encounter.',
+        e.title = 'Picard Orders Caution',
+        e.description = 'Captain Jean-Luc Picard responds to the call for vigilance by affirming a cautious approach. He emphasizes that their primary objective is investigation rather than engagement, setting the tone for a careful away mission.',
+        e.sequence = 4,
+        e.key_dialogue = ["Agreed, Lieutenant. But let's proceed with caution. Our primary objective is to investigate, not to engage in hostilities."]
+    ;
+MERGE (e:Event {uuid: 'event_3_5'})
+    ON CREATE SET
+        e.title = 'Initiation of the Transporter Sequence',
+        e.description = 'Transporter Chief Miles O\'Brien takes the final step by announcing the initiation of the transporter sequence, thus commencing the away mission. As the crew prepares for materialization, the systems and platforms are activated to transfer the team to the target location.',
+        e.sequence = 5,
+        e.key_dialogue = ["Energizing."]
+    ;
+MERGE (s:Scene {uuid: 'scene_4'})
+    ON CREATE SET
+        s.title = 'Encounter in the Crystal Chamber',
+        s.description = 'The away team materializes inside a vast, circular chamber with smooth, obsidian-like walls adorned with intricate carvings of celestial events and abstract geometric patterns. In the center, a massive crystalline structure pulsates with a soft blue light and emits a strange, musical hum. Data begins scanning the structure, identifying it as a subspace amplifier interacting with the planet\'s natural subspace field. Tension rises as Worf expresses his distrust, suspecting a trap, while Captain Picard urges caution. Suddenly, the energy intensifies, and a holographic projection coalesces into a luminous humanoid figure representing the ancient প্রাচীন species, greeting them and setting the stage for deeper mystery.',
         s.scene_number = 4
     
     WITH s
     MATCH (l:Location {uuid: 'location_melatrite_iii_subterranean_structure_central_chamber'})
     MERGE (s)-[:LOCATED_IN]->(l)
     ;
-MERGE (e:Event {uuid: 'event-4-1'})
+MERGE (e:Event {uuid: 'event_4_1'})
     ON CREATE SET
-        e.title = 'Away Team Arrives in Central Chamber',
-        e.description = 'The away team materializes within a vast, circular chamber on Melatrite III, characterized by obsidian-like walls and a large crystalline structure pulsating with blue light. Data starts scanning with his tricorder to analyze the structure.',
+        e.title = 'Away Team Materializes in the Central Chamber',
+        e.description = 'The away team materializes inside a vast, circular chamber with smooth, obsidian-like walls that absorb light and are decorated with intricate carvings depicting celestial events and abstract geometric patterns. At the center, a massive crystalline structure pulsates with a soft, blue light and is accompanied by a strange, musical hum. The team absorbs the mysterious atmosphere, setting the stage for further investigation.',
         e.sequence = 1,
-        e.key_dialogue = ["DATA: Fascinating. The crystalline structure appears to be a form of subspace amplifier. It is resonating with the planet's natural subspace field, creating the energy patterns we detected."]
+        e.key_dialogue = []
     ;
-MERGE (e:Event {uuid: 'event-4-2'})
+MERGE (e:Event {uuid: 'event_4_2'})
     ON CREATE SET
-        e.title = 'Team Discusses Potential Dangers',
-        e.description = 'Worf expresses his concern about the possibility of the situation being a trap, but Picard suggests the need for cautious exploration, implying that the unknown element might have an entirely different nature.',
+        e.title = 'Crystalline Structure Scan and Team Reactions',
+        e.description = 'Data immediately begins scanning the pulsating crystalline structure using his TR-590 Mark IX tricorder. He observes that the structure appears to function as a subspace amplifier, resonating with the planet\'s natural subspace field. In response, Worf voices his distrust, expressing that the situation feels like a trap, while Captain Picard advises caution as the team prepares to move closer.',
         e.sequence = 2,
-        e.key_dialogue = ["WORF: I do not like this, Captain. It feels like a trap.", "PICARD: Perhaps, Lieutenant. Or perhaps it's something else entirely. Let's proceed cautiously."]
+        e.key_dialogue = ["Fascinating. The crystalline structure appears to be a form of subspace amplifier. It is resonating with the planet's natural subspace field, creating the energy patterns we detected.", "I do not like this, Captain. It feels like a trap.", "Perhaps, Lieutenant. Or perhaps it's something else entirely. Let's proceed cautiously."]
     ;
-MERGE (e:Event {uuid: 'event-4-3'})
+MERGE (e:Event {uuid: 'event_4_3'})
     ON CREATE SET
-        e.title = 'Holographic Projection of the প্রাচীন Appears',
-        e.description = 'As the team approaches the crystalline structure, the humming sound intensifies. The carvings on the walls glow, the air shimmers, and a holographic representation of a humanoid figure from the প্রাচীন species appears, addressing the team.',
+        e.title = 'Encounter with the Ancient Hologram',
+        e.description = 'As the away team nears the crystalline structure, the ambient humming intensifies, the wall carvings begin to glow, and the air shimmers with energy. Out of this otherworldly display, a holographic projection gradually coalesces into the form of a tall, slender humanoid figure with elongated limbs and luminous eyes. The Ancient Hologram announces its presence as a representative of the long-extinct প্রাচীন civilization.',
         e.sequence = 3,
-        e.key_dialogue = ["ANCIENT HOLOGRAM: Greetings. We are the \u09aa\u09cd\u09b0\u09be\u099a\u09c0\u09a8. We have awaited your arrival."]
+        e.key_dialogue = ["Greetings. We are the \u09aa\u09cd\u09b0\u09be\u099a\u09c0\u09a8. We have awaited your arrival."]
     ;
-MERGE (s:Scene {uuid: 'scene-5'})
+MERGE (s:Scene {uuid: 'scene_5'})
     ON CREATE SET
-        s.title = 'Discovery of the Ancient Archive',
-        s.description = 'The away team is led by the Ancient Hologram through a series of corridors beneath the surface of Melatrite III, eventually arriving at a vast archive filled with crystalline data storage devices. Data and Picard are struck by the enormity of the knowledge contained within. The Ancient Hologram explains that the archive was created by the প্রাচীন to preserve their legacy as they ascended to a higher plane of existence. The scene is filled with awe and a sense of historical significance.',
+        s.title = 'Ancient Archive Revelation',
+        s.description = 'In this captivating scene, the away team is led by the Ancient Hologram through a labyrinth of corridors into a vast subterranean archive within Melatrite III\'s structure. Rows upon rows of crystalline data storage devices, brimming with ancient knowledge, fill the space, leaving Data visibly excited by the prospect of accessing unparalleled amounts of information. Captain Picard reflects on the profound implications of the legacy preserved here, while Worf questions the fate of the long-lost civilization. The Ancient Hologram explains that their people ascended to a higher existence, leaving behind an echo of their consciousness within this repository of wisdom.',
         s.scene_number = 5
     
     WITH s
-    MATCH (l:Location {uuid: 'location_melatrite_iii_subterranean_structure_central_chamber'})
+    MATCH (l:Location {uuid: 'location_melatrite_iii_subterranean_archive'})
     MERGE (s)-[:LOCATED_IN]->(l)
     ;
-MERGE (e:Event {uuid: 'event-5-1'})
+MERGE (e:Event {uuid: 'event_5_1'})
     ON CREATE SET
-        e.title = 'Arrival at the Ancient Archive',
-        e.description = 'The Ancient Hologram leads the away team, including Data, Picard, and Worf, to a vast archive located in a subterranean structure on Melatrite III. The archive is lined with crystalline data storage devices that hold more information than the entire Federation historical database. Data is visibly excited about the wealth of knowledge present.',
+        e.title = 'Arrival at the Archive',
+        e.description = 'The Ancient Hologram leads the away team through a series of corridors, culminating in the arrival at a vast archive. The walls are lined with rows of crystalline data storage devices, setting the stage for a monumental encounter with ancient knowledge.',
         e.sequence = 1,
+        e.key_dialogue = []
+    ;
+MERGE (e:Event {uuid: 'event_5_2'})
+    ON CREATE SET
+        e.title = 'Archive Observation and Initial Analysis',
+        e.description = 'Within the archive, Data expresses his enthusiasm over the immense repository of knowledge, noting that the archive holds more data than the entire Federation historical database. Captain Picard acknowledges the revolutionary potential of this discovery while emphasizing the need to first understand the facility and the enigmatic message conveyed by the ancient civilization.',
+        e.sequence = 2,
         e.key_dialogue = ["DATA: This archive is remarkable, Captain. It contains more data than the entire Federation historical database. It would take centuries to analyze it all.", "PICARD: Indeed, Commander. This could revolutionize our understanding of the universe. But first, we need to understand the nature of this facility and the message the \u09aa\u09cd\u09b0\u09be\u099a\u09c0\u09a8 are trying to send."]
     ;
-MERGE (e:Event {uuid: 'event-5-2'})
+MERGE (e:Event {uuid: 'event_5_3'})
     ON CREATE SET
-        e.title = 'Explanation of the Archive\'s Purpose',
-        e.description = 'The Ancient Hologram explains the purpose of the archive to the away team. It reveals that the facility was constructed to preserve the knowledge of their civilization and to communicate with other civilizations after ascending to a higher plane of existence. The hologram indicates that a part of their essence remains within the archive as a memory or echo.',
-        e.sequence = 2,
+        e.title = 'Revelation of the Ancient Legacy',
+        e.description = 'The Ancient Hologram explains the true purpose of the facility: it was constructed to preserve the knowledge of its people and to reach out to other civilizations as their time waned. When challenged by Worf over the fate of the ancient civilization, the hologram reveals that they transcended their physical forms by ascending to a higher plane, leaving behind an echo of their existence within the archive.',
+        e.sequence = 3,
         e.key_dialogue = ["ANCIENT HOLOGRAM: We built this facility to preserve our knowledge and to reach out to other civilizations. We knew that our time was coming to an end, but we hoped that our legacy would endure.", "WORF: What happened to your people?", "ANCIENT HOLOGRAM: We ascended to a higher plane of existence, leaving behind our physical forms. But we left a part of ourselves within this archive, a memory, an echo, waiting for someone to listen."]
     ;
-MATCH (a:Agent {uuid: 'agent-jean_luc_picard'}),
-          (o:Organization {uuid: 'org-uss_enterprise_d'})
+MATCH (a:Agent {uuid: 'agent_jean_luc_picard'}),
+          (o:Organization {uuid: 'org_starfleet_command'})
     MERGE (a)-[:AFFILIATED_WITH]->(o);
-MATCH (a:Agent {uuid: 'agent-william_t_riker'}),
-          (o:Organization {uuid: 'org-uss_enterprise_d'})
+MATCH (a:Agent {uuid: 'agent_william_t_riker'}),
+          (o:Organization {uuid: 'org_starfleet_command'})
     MERGE (a)-[:AFFILIATED_WITH]->(o);
-MATCH (a:Agent {uuid: 'agent-data'}),
-          (o:Organization {uuid: 'org-uss_enterprise_d'})
+MATCH (a:Agent {uuid: 'agent_data'}),
+          (o:Organization {uuid: 'org_starfleet_command'})
     MERGE (a)-[:AFFILIATED_WITH]->(o);
-MATCH (a:Agent {uuid: 'agent-worf'}),
-          (o:Organization {uuid: 'org-uss_enterprise_d'})
+MATCH (a:Agent {uuid: 'agent_worf'}),
+          (o:Organization {uuid: 'org_starfleet_command'})
     MERGE (a)-[:AFFILIATED_WITH]->(o);
-MATCH (a:Agent {uuid: 'agent-janina_taur'}),
-          (o:Organization {uuid: 'org-uss_enterprise_d'})
+MATCH (a:Agent {uuid: 'agent_janina_taur'}),
+          (o:Organization {uuid: 'org_starfleet_command'})
     MERGE (a)-[:AFFILIATED_WITH]->(o);
-MATCH (a:Agent {uuid: 'agent-deanna_troi'}),
-          (o:Organization {uuid: 'org-uss_enterprise_d'})
+MATCH (a:Agent {uuid: 'agent_deanna_troi'}),
+          (o:Organization {uuid: 'org_starfleet_command'})
     MERGE (a)-[:AFFILIATED_WITH]->(o);
-MATCH (a:Agent {uuid: 'agent-geordi_la_forge'}),
-          (o:Organization {uuid: 'org-uss_enterprise_d'})
+MATCH (a:Agent {uuid: 'agent_geordi_la_forge'}),
+          (o:Organization {uuid: 'org_starfleet_command'})
     MERGE (a)-[:AFFILIATED_WITH]->(o);
-MATCH (a:Agent {uuid: 'agent-reginald_barclay'}),
-          (o:Organization {uuid: 'org-uss_enterprise_d'})
+MATCH (a:Agent {uuid: 'agent_reginald_barclay'}),
+          (o:Organization {uuid: 'org_starfleet_command'})
     MERGE (a)-[:AFFILIATED_WITH]->(o);
-MATCH (a:Agent {uuid: 'agent-miles_obrien'}),
-          (o:Organization {uuid: 'org-uss_enterprise_d'})
+MATCH (a:Agent {uuid: 'agent_miles_o_brien'}),
+          (o:Organization {uuid: 'org_starfleet_command'})
     MERGE (a)-[:AFFILIATED_WITH]->(o);
-MATCH (a:Agent {uuid: 'agent-ancient_hologram'}),
-          (o:Organization {uuid: 'org-ancient_civilization'})
+MATCH (a:Agent {uuid: 'agent_davies'}),
+          (o:Organization {uuid: 'org_starfleet_command'})
     MERGE (a)-[:AFFILIATED_WITH]->(o);
-MATCH (o:Object {uuid: 'object-padd'}),
-          (a:Agent {uuid: 'agent-jean_luc_picard'})
+MATCH (a:Agent {uuid: 'agent_lal'}),
+          (o:Organization {uuid: 'org_starfleet_command'})
+    MERGE (a)-[:AFFILIATED_WITH]->(o);
+MATCH (a:Agent {uuid: 'agent_ancient_hologram'}),
+          (o:Organization {uuid: 'org_prachin'})
+    MERGE (a)-[:AFFILIATED_WITH]->(o);
+MATCH (o:Object {uuid: 'object_padd'}),
+          (a:Agent {uuid: 'agent_jean_luc_picard'})
     MERGE (a)-[:OWNS]->(o);
-MATCH (o:Object {uuid: 'object-long-range_sensor_array'}),
-          (a:Agent {uuid: 'agent-data'})
+MATCH (o:Object {uuid: 'object_tricorder_tr590_mark_ix'}),
+          (a:Agent {uuid: 'agent_data'})
     MERGE (a)-[:OWNS]->(o);
-MATCH (o:Object {uuid: 'object-transporter_controls'}),
-          (a:Agent {uuid: 'agent-miles_obrien'})
+MATCH (o:Object {uuid: 'object_crystalline_data_storage_devices'}),
+          (a:Agent {uuid: 'agent_ancient_hologram'})
     MERGE (a)-[:OWNS]->(o);
-MATCH (o:Object {uuid: 'object-tricorder'}),
-          (a:Agent {uuid: 'agent-data'})
-    MERGE (a)-[:OWNS]->(o);
-MATCH (o:Object {uuid: 'object-disruptor'}),
-          (a:Agent {uuid: 'agent-worf'})
-    MERGE (a)-[:OWNS]->(o);
-MATCH (o:Object {uuid: 'object-holographic_projection'}),
-          (a:Agent {uuid: 'agent-ancient_hologram'})
-    MERGE (a)-[:OWNS]->(o);
-MATCH (a:Agent {uuid: 'agent-worf'}),
-          (o:Organization {uuid: 'org-uss_enterprise_d'})
+MATCH (a:Agent {uuid: 'agent_janina_taur'}),
+          (o:Organization {uuid: 'org_starfleet_command'})
     MERGE (a)-[:AFFILIATED_WITH]->(o);
-MATCH (a:Agent {uuid: 'agent-william_t_riker'}),
-          (o:Organization {uuid: 'org-uss_enterprise_d'})
+MATCH (a:Agent {uuid: 'agent_worf'}),
+          (o:Organization {uuid: 'org_starfleet_command'})
     MERGE (a)-[:AFFILIATED_WITH]->(o);
-MATCH (a:Agent {uuid: 'agent-jean_luc_picard'}),
-          (o:Organization {uuid: 'org-uss_enterprise_d'})
+MATCH (a:Agent {uuid: 'agent_geordi_la_forge'}),
+          (o:Organization {uuid: 'org_starfleet_command'})
     MERGE (a)-[:AFFILIATED_WITH]->(o);
-MATCH (a:Agent {uuid: 'agent-janina_taur'}),
-          (o:Organization {uuid: 'org-uss_enterprise_d'})
+MATCH (a:Agent {uuid: 'agent_data'}),
+          (o:Organization {uuid: 'org_starfleet_command'})
     MERGE (a)-[:AFFILIATED_WITH]->(o);
-MATCH (a:Agent {uuid: 'agent-deanna_troi'}),
-          (o:Organization {uuid: 'org-uss_enterprise_d'})
+MATCH (a:Agent {uuid: 'agent_miles_o_brien'}),
+          (o:Organization {uuid: 'org_starfleet_command'})
     MERGE (a)-[:AFFILIATED_WITH]->(o);
-MATCH (a:Agent {uuid: 'agent-miles_obrien'}),
-          (o:Organization {uuid: 'org-uss_enterprise_d'})
+MATCH (a:Agent {uuid: 'agent_lal'}),
+          (o:Organization {uuid: 'org_starfleet_command'})
     MERGE (a)-[:AFFILIATED_WITH]->(o);
-MATCH (a:Agent {uuid: 'agent-geordi_la_forge'}),
-          (o:Organization {uuid: 'org-uss_enterprise_d'})
+MATCH (a:Agent {uuid: 'agent_davies'}),
+          (o:Organization {uuid: 'org_starfleet_command'})
     MERGE (a)-[:AFFILIATED_WITH]->(o);
-MATCH (a:Agent {uuid: 'agent-reginald_barclay'}),
-          (o:Organization {uuid: 'org-uss_enterprise_d'})
+MATCH (a:Agent {uuid: 'agent_jean_luc_picard'}),
+          (o:Organization {uuid: 'org_starfleet_command'})
     MERGE (a)-[:AFFILIATED_WITH]->(o);
-MATCH (a:Agent {uuid: 'agent-data'}),
-          (o:Organization {uuid: 'org-uss_enterprise_d'})
+MATCH (a:Agent {uuid: 'agent_reginald_barclay'}),
+          (o:Organization {uuid: 'org_starfleet_command'})
     MERGE (a)-[:AFFILIATED_WITH]->(o);
-MATCH (a:Agent {uuid: 'agent-ancient_hologram'}),
-          (o:Organization {uuid: 'org-ancient_civilization'})
+MATCH (a:Agent {uuid: 'agent_deanna_troi'}),
+          (o:Organization {uuid: 'org_starfleet_command'})
     MERGE (a)-[:AFFILIATED_WITH]->(o);
-MERGE (oi:ObjectInvolvement {uuid: 'objectinvolvement-object-padd-event-1-1'})
+MATCH (a:Agent {uuid: 'agent_william_t_riker'}),
+          (o:Organization {uuid: 'org_starfleet_command'})
+    MERGE (a)-[:AFFILIATED_WITH]->(o);
+MATCH (a:Agent {uuid: 'agent_ancient_hologram'}),
+          (o:Organization {uuid: 'org_prachin'})
+    MERGE (a)-[:AFFILIATED_WITH]->(o);
+MERGE (oi:ObjectInvolvement {uuid: 'objectinvolvement_object_padd_event_1_1'})
     ON CREATE SET
-        oi.description = 'Captain Jean-Luc Picard uses the PADD to review information, likely related to the Melatrite Nebula and sensor readings.',
-        oi.status_before = 'Idle, available for use on the bridge.',
-        oi.status_after = 'In use by Captain Picard for reviewing data.'
+        oi.description = 'Captain Picard uses his PADD to review and analyze the sensor readings concerning unusual subspace phenomena in the Melatrite Nebula during his discussion with Commander Riker.',
+        oi.status_before = 'The PADD is powered on and displaying recent sensor data prior to the discussion.',
+        oi.status_after = 'The PADD continues to display detailed sensor readings as Picard evaluates the situation.'
     WITH oi
-    MATCH (o:Object {uuid: 'object-padd'})
-    MATCH (e:Event {uuid: 'event-1-1'})
+    MATCH (o:Object {uuid: 'object_padd'})
+    MATCH (e:Event {uuid: 'event_1_1'})
     MERGE (o)-[:HAS_INVOLVEMENT]->(oi)
     MERGE (oi)-[:IN_EVENT]->(e);
-MERGE (oi:ObjectInvolvement {uuid: 'objectinvolvement-object-main_viewscreen-event-1-1'})
+MERGE (oi:ObjectInvolvement {uuid: 'objectinvolvement_object_main_viewscreen_event_1_1'})
     ON CREATE SET
-        oi.description = 'The main viewscreen displays a starfield of the Melatrite Nebula, providing visual context for the crew\'s current mission.',
-        oi.status_before = 'Inactive or displaying previous visual data.',
-        oi.status_after = 'Displaying a visual of the Melatrite Nebula.'
+        oi.description = 'The main viewscreen projects the current starfield with the backdrop of the Melatrite Nebula, setting the visual context for the bridge discussion about the detected anomalies.',
+        oi.status_before = 'The viewscreen is operating under normal parameters, displaying the starfield and Nebula in high resolution.',
+        oi.status_after = 'The viewscreen maintains its display of the starfield and Nebula, continuously providing situational awareness to the crew.'
     WITH oi
-    MATCH (o:Object {uuid: 'object-main_viewscreen'})
-    MATCH (e:Event {uuid: 'event-1-1'})
+    MATCH (o:Object {uuid: 'object_main_viewscreen'})
+    MATCH (e:Event {uuid: 'event_1_1'})
     MERGE (o)-[:HAS_INVOLVEMENT]->(oi)
     MERGE (oi)-[:IN_EVENT]->(e);
-MERGE (oi:ObjectInvolvement {uuid: 'objectinvolvement-object-long-range_sensor_array-event-1-1'})
+MERGE (oi:ObjectInvolvement {uuid: 'objectinvolvement_object_long_range_sensor_array_event_1_1'})
     ON CREATE SET
-        oi.description = 'Data conducts a level-three diagnostic on the long-range sensor array, which detects unusual energy readings from Melatrite III.',
-        oi.status_before = 'Requires diagnostic to confirm functionality.',
-        oi.status_after = 'Confirmed operational with unusual energy readings detected from Melatrite III.'
+        oi.description = 'Data utilizes the long-range sensor array to conduct a level-three diagnostic, which reveals unusual energy readings from a Class-M planet, Melatrite III, and contributes to the crew\'s understanding of subspace anomalies.',
+        oi.status_before = 'The sensor array is integrated at the operations station, actively monitoring distant energy signatures.',
+        oi.status_after = 'The sensor array has transmitted its diagnostic results, confirming both expected and anomalous energy signatures.'
     WITH oi
-    MATCH (o:Object {uuid: 'object-long-range_sensor_array'})
-    MATCH (e:Event {uuid: 'event-1-1'})
+    MATCH (o:Object {uuid: 'object_long_range_sensor_array'})
+    MATCH (e:Event {uuid: 'event_1_1'})
     MERGE (o)-[:HAS_INVOLVEMENT]->(oi)
     MERGE (oi)-[:IN_EVENT]->(e);
-MERGE (oi:ObjectInvolvement {uuid: 'objectinvolvement-object-padd-event-1-2'})
+MERGE (oi:ObjectInvolvement {uuid: 'objectinvolvement_object_padd_event_1_2'})
     ON CREATE SET
-        oi.description = 'Captain Jean-Luc Picard uses the PADD to review sensor data concerning the Melatrite Nebula, an action that initiates the discussion about the potential subspace phenomena.',
-        oi.status_before = 'The PADD is in Captain Picard\'s possession, displaying unread sensor data.',
-        oi.status_after = 'The PADD has been reviewed by Captain Picard, presumably displaying updated sensory information as needed.'
+        oi.description = 'Captain Picard uses the PADD to review the sensor readings and mission data, which prompts the discussion of unusual subspace phenomena by the crew.',
+        oi.status_before = 'The PADD was functioning normally, displaying standard mission logs and sensor data.',
+        oi.status_after = 'The PADD continues to display updated and critical sensor readings following Data\'s diagnostic report.'
     WITH oi
-    MATCH (o:Object {uuid: 'object-padd'})
-    MATCH (e:Event {uuid: 'event-1-2'})
+    MATCH (o:Object {uuid: 'object_padd'})
+    MATCH (e:Event {uuid: 'event_1_2'})
     MERGE (o)-[:HAS_INVOLVEMENT]->(oi)
     MERGE (oi)-[:IN_EVENT]->(e);
-MERGE (oi:ObjectInvolvement {uuid: 'objectinvolvement-object-long-range_sensor_array-event-1-2'})
+MERGE (oi:ObjectInvolvement {uuid: 'objectinvolvement_object_main_viewscreen_event_1_2'})
     ON CREATE SET
-        oi.description = 'Data uses the long-range sensor array to conduct a level-three diagnostic and detect unusual energy readings from Melatrite III, contributing crucial information about a type-4 subspace inversion.',
-        oi.status_before = 'The long-range sensor array is operational and inactive in terms of post-diagnostic output.',
-        oi.status_after = 'The long-range sensor array reports unusual energy readings consistent with a subspace inversion, showcasing its ability to detect complex phenomena.'
+        oi.description = 'The main viewscreen projects the current starfield, featuring the Melatrite Nebula, and serves as the visual backdrop that informs the crew about the region of interest from which the energy readings are emanating.',
+        oi.status_before = 'The viewscreen was showing the standard starfield including the depiction of the Melatrite Nebula.',
+        oi.status_after = 'The viewscreen remains active, continuously displaying the starfield and supporting the crew’s analysis during the event.'
     WITH oi
-    MATCH (o:Object {uuid: 'object-long-range_sensor_array'})
-    MATCH (e:Event {uuid: 'event-1-2'})
+    MATCH (o:Object {uuid: 'object_main_viewscreen'})
+    MATCH (e:Event {uuid: 'event_1_2'})
     MERGE (o)-[:HAS_INVOLVEMENT]->(oi)
     MERGE (oi)-[:IN_EVENT]->(e);
-MERGE (oi:ObjectInvolvement {uuid: 'objectinvolvement-object-main_viewscreen-event-1-2'})
+MERGE (oi:ObjectInvolvement {uuid: 'objectinvolvement_object_long_range_sensor_array_event_1_2'})
     ON CREATE SET
-        oi.description = 'The main viewscreen displays the Melatrite Nebula, providing a visual context for the discussion about subspace phenomena and the subsequent course set for Melatrite III.',
-        oi.status_before = 'The main viewscreen displays the standard starfield view.',
-        oi.status_after = 'The main viewscreen continues to display the starfield, with potential updates following the course adjustment towards Melatrite III.'
+        oi.description = 'Lieutenant Commander Data conducted a level-three diagnostic using the long-range sensor array, which detected unusual energy readings from Melatrite III indicative of a type-4 subspace inversion with unknown elements.',
+        oi.status_before = 'The sensor array was operating under normal conditions, routinely monitoring distant celestial phenomena.',
+        oi.status_after = 'The sensor array continues to function normally while now relaying detailed diagnostic data pointing to unexpected subspace energy phenomena.'
     WITH oi
-    MATCH (o:Object {uuid: 'object-main_viewscreen'})
-    MATCH (e:Event {uuid: 'event-1-2'})
+    MATCH (o:Object {uuid: 'object_long_range_sensor_array'})
+    MATCH (e:Event {uuid: 'event_1_2'})
     MERGE (o)-[:HAS_INVOLVEMENT]->(oi)
     MERGE (oi)-[:IN_EVENT]->(e);
-MERGE (oi:ObjectInvolvement {uuid: 'objectinvolvement-object-padd-event-1-3'})
+MERGE (oi:ObjectInvolvement {uuid: 'objectinvolvement_object_padd_event_1_3'})
     ON CREATE SET
-        oi.description = 'Captain Jean-Luc Picard is using a PADD to review information while receiving updates from his crew about the unusual energy readings from Melatrite III.',
-        oi.status_before = 'The PADD is with Captain Picard, ready for use.',
-        oi.status_after = 'The PADD continues to be used by Captain Picard for review.'
+        oi.description = 'Captain Picard uses his PADD to review the sensor readings and diagnostic data concerning unusual subspace phenomena, which informs his decision to order a course for Melatrite III.',
+        oi.status_before = 'The PADD was in Captain Picard\'s possession, displaying routine mission data.',
+        oi.status_after = 'The PADD continues to display detailed sensor and mission data, reflecting the updated diagnostics.'
     WITH oi
-    MATCH (o:Object {uuid: 'object-padd'})
-    MATCH (e:Event {uuid: 'event-1-3'})
+    MATCH (o:Object {uuid: 'object_padd'})
+    MATCH (e:Event {uuid: 'event_1_3'})
     MERGE (o)-[:HAS_INVOLVEMENT]->(oi)
     MERGE (oi)-[:IN_EVENT]->(e);
-MERGE (oi:ObjectInvolvement {uuid: 'objectinvolvement-object-long-range_sensor_array-event-1-3'})
+MERGE (oi:ObjectInvolvement {uuid: 'objectinvolvement_object_main_viewscreen_event_1_3'})
     ON CREATE SET
-        oi.description = 'Lieutenant Commander Data completes a level-three diagnostic of the long-range sensor array, detecting unusual energy readings from Melatrite III.',
-        oi.status_before = 'The long-range sensor array was functional and undergoing a level-three diagnostic.',
-        oi.status_after = 'The long-range sensor array is fully operational and has detected unusual energy readings consistent with a type-4 subspace inversion.'
+        oi.description = 'The main viewscreen shows the current starfield, including the Melatrite Nebula, providing a visual context for the discussion on sensor anomalies and helping set the navigational course.',
+        oi.status_before = 'The viewscreen was actively displaying the starfield with the Melatrite Nebula identifiable per Starfleet records.',
+        oi.status_after = 'The viewscreen continues to display the starfield as part of the bridge\'s standard operational backdrop.'
     WITH oi
-    MATCH (o:Object {uuid: 'object-long-range_sensor_array'})
-    MATCH (e:Event {uuid: 'event-1-3'})
+    MATCH (o:Object {uuid: 'object_main_viewscreen'})
+    MATCH (e:Event {uuid: 'event_1_3'})
     MERGE (o)-[:HAS_INVOLVEMENT]->(oi)
     MERGE (oi)-[:IN_EVENT]->(e);
-MERGE (oi:ObjectInvolvement {uuid: 'objectinvolvement-object-main_viewscreen-event-1-3'})
+MERGE (oi:ObjectInvolvement {uuid: 'objectinvolvement_object_long_range_sensor_array_event_1_3'})
     ON CREATE SET
-        oi.description = 'The main viewscreen displays the current starfield including the Melatrite Nebula, facilitating the discussion of the sensor readings.',
-        oi.status_before = 'The main viewscreen displays a previous starfield.',
-        oi.status_after = 'The main viewscreen displays the starfield as seen from the position near Melatrite Nebula.'
+        oi.description = 'Data uses the long-range sensor array to perform a level-three diagnostic, which detects unusual energy readings from the Class-M planet Melatrite III, prompting further investigation.',
+        oi.status_before = 'The sensor array was in standard operational mode, continuously monitoring space.',
+        oi.status_after = 'The sensor array has recorded diagnostic data highlighting anomalous energy readings, remaining active for further monitoring.'
     WITH oi
-    MATCH (o:Object {uuid: 'object-main_viewscreen'})
-    MATCH (e:Event {uuid: 'event-1-3'})
+    MATCH (o:Object {uuid: 'object_long_range_sensor_array'})
+    MATCH (e:Event {uuid: 'event_1_3'})
     MERGE (o)-[:HAS_INVOLVEMENT]->(oi)
     MERGE (oi)-[:IN_EVENT]->(e);
-MERGE (oi:ObjectInvolvement {uuid: 'objectinvolvement-object-main_viewscreen-event-1-4'})
+MERGE (ap:AgentParticipation {uuid: 'agentparticipation_agent_jean_luc_picard_event_1_1'})
     ON CREATE SET
-        oi.description = 'The main viewscreen displays the current starfield and updates as the USS Enterprise-D adjusts course to Melatrite III.',
-        oi.status_before = 'Displaying a region of space designated as the Melatrite Nebula.',
-        oi.status_after = 'Transitions to update with the new visual data as the ship moves towards Melatrite III after engaging warp drive.'
-    WITH oi
-    MATCH (o:Object {uuid: 'object-main_viewscreen'})
-    MATCH (e:Event {uuid: 'event-1-4'})
-    MERGE (o)-[:HAS_INVOLVEMENT]->(oi)
-    MERGE (oi)-[:IN_EVENT]->(e);
-MERGE (oi:ObjectInvolvement {uuid: 'objectinvolvement-object-long-range_sensor_array-event-1-4'})
-    ON CREATE SET
-        oi.description = 'Data uses the long-range sensor array to detect unusual energy readings from Melatrite III consistent with a type-4 subspace inversion.',
-        oi.status_before = 'Operational and conducting scans to diagnose energy readings.',
-        oi.status_after = 'Continues to function normally after detection of inexplicable energy readings, pending further investigation upon arrival at Melatrite III.'
-    WITH oi
-    MATCH (o:Object {uuid: 'object-long-range_sensor_array'})
-    MATCH (e:Event {uuid: 'event-1-4'})
-    MERGE (o)-[:HAS_INVOLVEMENT]->(oi)
-    MERGE (oi)-[:IN_EVENT]->(e);
-MERGE (oi:ObjectInvolvement {uuid: 'objectinvolvement-object-padd-event-1-4'})
-    ON CREATE SET
-        oi.description = 'Captain Picard reviews data on the PADD during strategic discussions about the Melatrite Nebula.',
-        oi.status_before = 'Used by Captain Picard for reviewing data relevant to the mission.',
-        oi.status_after = 'Remains in use by Picard for ongoing mission planning and data review.'
-    WITH oi
-    MATCH (o:Object {uuid: 'object-padd'})
-    MATCH (e:Event {uuid: 'event-1-4'})
-    MERGE (o)-[:HAS_INVOLVEMENT]->(oi)
-    MERGE (oi)-[:IN_EVENT]->(e);
-MERGE (ap:AgentParticipation {uuid: 'agentparticipation-agent-jean_luc_picard-event-1-1'})
-    ON CREATE SET
-        ap.current_status = 'Reviewing a PADD and commanding the bridge.',
-        ap.emotional_state = 'Intrigued and focused.',
-        ap.emotional_tags = ["Intrigued", "focused."],
-        ap.active_plans = ["Order investigation course to Melatrite III"],
-        ap.beliefs = ["Investigating the unusual readings will provide valuable insights", "The safety and success of the mission depend on gathering more information"],
-        ap.goals = ["Understand the nature of the subspace phenomena", "Ensure the crew is prepared for the investigation"]
+        ap.current_status = 'Examining his PADD and engaging Riker in a discussion about unusual subspace phenomena detected from the Melatrite Nebula.',
+        ap.emotional_state = 'Thoughtful and cautiously concerned.',
+        ap.emotional_tags = ["Thoughtful", "cautiously concerned."],
+        ap.active_plans = ["Direct the investigation towards Melatrite III", "Evaluate sensor data to assess potential threats"],
+        ap.beliefs = ["Believes in proactive exploration and careful analysis of anomalies.", "Trusts his crew's expertise in resolving complex issues."],
+        ap.goals = ["Ensure the Enterprise's safety.", "Gain clarity on the nature and implications of the subspace phenomena."]
     ;
-MERGE (ap:AgentParticipation {uuid: 'agentparticipation-agent-william_t_riker-event-1-1'})
+MERGE (ap:AgentParticipation {uuid: 'agentparticipation_agent_william_t_riker_event_1_1'})
     ON CREATE SET
-        ap.current_status = 'Standing nearby Picard, contributing to the discussion on sensor readings.',
-        ap.emotional_state = 'Cautious and analytical.',
-        ap.emotional_tags = ["Cautious", "analytical."],
-        ap.active_plans = ["Assist Picard with assessment of sensor readings"],
-        ap.beliefs = ["Prior experiences with subspace anomalies can inform current strategies"],
-        ap.goals = ["Support Picard in decision-making processes", "Ensure bridge operations are running smoothly"]
+        ap.current_status = 'Providing detailed technical insight about sensor readings, including tetryon particles and gravimetric field distortions.',
+        ap.emotional_state = 'Confident and focused.',
+        ap.emotional_tags = ["Confident", "focused."],
+        ap.active_plans = ["Offer precise analysis of the sensor data", "Support Picard\u2019s investigative strategy with historical context."],
+        ap.beliefs = ["Believes that understanding past anomalies can inform present decisions.", "Values clear communication and accuracy in technical assessments."],
+        ap.goals = ["Assist Picard in charting the appropriate course of action.", "Help ensure a safe and effective investigation of the anomaly."]
     ;
-MERGE (ap:AgentParticipation {uuid: 'agentparticipation-agent-data-event-1-1'})
+MERGE (ap:AgentParticipation {uuid: 'agentparticipation_agent_data_event_1_1'})
     ON CREATE SET
-        ap.current_status = 'Performing a diagnostic of the long-range sensor array and reporting findings.',
-        ap.emotional_state = 'Curious and precise.',
-        ap.emotional_tags = ["Curious", "precise."],
-        ap.active_plans = ["Complete sensor diagnostics", "Analyse unusual energy readings"],
-        ap.beliefs = ["Scientific analysis is essential for understanding unknown phenomena"],
-        ap.goals = ["Provide accurate data to assist in decision making", "Expand knowledge of subspace phenomena"]
+        ap.current_status = 'Reporting the results of a level-three diagnostic from the long-range sensor array regarding unusual energy readings from Melatrite III.',
+        ap.emotional_state = 'Objective and analytical.',
+        ap.emotional_tags = ["Objective", "analytical."],
+        ap.active_plans = ["Continue monitoring and analyzing sensor data for further insights.", "Provide reliable scientific analysis to guide the investigation."],
+        ap.beliefs = ["Believes that data-driven analysis leads to sound decision making.", "Values logical assessment and precision in scientific reporting."],
+        ap.goals = ["Deliver accurate diagnostic results.", "Support the crew\u2019s efforts in understanding the subspace inversion phenomena."]
     ;
-MERGE (ap:AgentParticipation {uuid: 'agentparticipation-agent-worf-event-1-1'})
+MERGE (ap:AgentParticipation {uuid: 'agentparticipation_agent_worf_event_1_1'})
     ON CREATE SET
-        ap.current_status = 'Manning the tactical station.',
+        ap.current_status = 'Manning the tactical station, monitoring sensor feeds, and ensuring the bridge remains secure.',
         ap.emotional_state = 'Alert and vigilant.',
         ap.emotional_tags = ["Alert", "vigilant."],
-        ap.active_plans = ["Ensure ship's defenses are at the ready"],
-        ap.beliefs = ["Maintaining tactical readiness is crucial at all times"],
-        ap.goals = ["Protect the ship and crew from potential threats", "Respond swiftly to threats if they arise"]
+        ap.active_plans = ["Maintain a heightened state of readiness for potential threats.", "Support the tactical integrity of the Enterprise during the investigation."],
+        ap.beliefs = ["Believes in staying prepared and securing the ship at all costs.", "Trusts his instincts regarding potential dangers."],
+        ap.goals = ["Ensure the safety of the bridge and all onboard.", "Provide immediate tactical support if any hostile events unfold."]
     ;
-MERGE (ap:AgentParticipation {uuid: 'agentparticipation-agent-janina_taur-event-1-1'})
+MERGE (ap:AgentParticipation {uuid: 'agentparticipation_agent_janina_taur_event_1_1'})
     ON CREATE SET
-        ap.current_status = 'At the helm, receiving orders from Picard.',
-        ap.emotional_state = 'Concentrated and ready.',
-        ap.emotional_tags = ["Concentrated", "ready."],
-        ap.active_plans = ["Plotting course for Melatrite III"],
-        ap.beliefs = ["Efficient navigation is critical for mission success"],
-        ap.goals = ["Safely navigate the USS Enterprise-D to Melatrite III", "Execute orders with precision and efficiency"]
-    ;
-MERGE (ap:AgentParticipation {uuid: 'agentparticipation-agent-jean_luc_picard-event-1-2'})
-    ON CREATE SET
-        ap.current_status = 'Commanding from the bridge and reviewing sensor data from a PADD.',
-        ap.emotional_state = 'Intrigued and focused.',
-        ap.emotional_tags = ["Intrigued", "focused."],
-        ap.active_plans = ["Investigate the unusual subspace phenomena in the Melatrite Nebula", "Direct the ship to Melatrite III for closer analysis"],
-        ap.beliefs = ["Thorough investigation is necessary to understand the anomalies", "Understanding these phenomena could have significant implications"],
-        ap.goals = ["Ensure the Enterprise safely navigates to Melatrite III", "Acquire data on the subspace inversion phenomena"]
-    ;
-MERGE (ap:AgentParticipation {uuid: 'agentparticipation-agent-william_t_riker-event-1-2'})
-    ON CREATE SET
-        ap.current_status = 'Reporting on the sensor readings and comparing them to previous experiences.',
-        ap.emotional_state = 'Attentive and analytical.',
-        ap.emotional_tags = ["Attentive", "analytical."],
-        ap.active_plans = ["Analyze the sensor data for further insights", "Coordinate with the bridge crew for incoming analysis"],
-        ap.beliefs = ["There are parallels between this and past anomalies, which can inform current strategies", "Collective experience aids in effectively managing new challenges"],
-        ap.goals = ["Support investigative efforts into the phenomena", "Provide relevant historical context to the current situation"]
-    ;
-MERGE (ap:AgentParticipation {uuid: 'agentparticipation-agent-data-event-1-2'})
-    ON CREATE SET
-        ap.current_status = 'Performing diagnostics and reporting unusual energy readings.',
-        ap.emotional_state = 'Objective and detail-oriented.',
-        ap.emotional_tags = ["Objective", "detail-oriented."],
-        ap.active_plans = ["Continue monitoring the sensor data for new developments", "Analyze the consistency of energy readings with known phenomena"],
-        ap.beliefs = ["The new data points to a phenomenon worth exploring further", "Consistent data analysis can uncover hidden patterns"],
-        ap.goals = ["Identify the nature of the readings from Melatrite III", "Contribute to the scientific understanding of subspace phenomena"]
-    ;
-MERGE (ap:AgentParticipation {uuid: 'agentparticipation-agent-worf-event-1-2'})
-    ON CREATE SET
-        ap.current_status = 'Manning the tactical station and monitoring security-related aspects.',
-        ap.emotional_state = 'Alert and prepared.',
-        ap.emotional_tags = ["Alert", "prepared."],
-        ap.active_plans = ["Ensure ship's readiness for any potential threats", "Monitor tactical systems throughout the mission"],
-        ap.beliefs = ["Readiness is essential even during scientific missions", "Vigilance prevents unforeseen threats from compromising security"],
-        ap.goals = ["Maintain security protocols during the investigation", "Ensure the safety of the crew and ship"]
-    ;
-MERGE (ap:AgentParticipation {uuid: 'agentparticipation-agent-janina_taur-event-1-2'})
-    ON CREATE SET
-        ap.current_status = 'Piloting the Enterprise to Melatrite III.',
-        ap.emotional_state = 'Focused and determined.',
-        ap.emotional_tags = ["Focused", "determined."],
-        ap.active_plans = ["Navigate the ship effectively towards its destination", "Execute the assigned course at warp factor six"],
-        ap.beliefs = ["Precise navigation ensures mission success", "Following orders contributes to the crew's collective effort"],
-        ap.goals = ["Successfully reach Melatrite III", "Contribute to the mission's progress through skillful piloting"]
-    ;
-MERGE (ap:AgentParticipation {uuid: 'agentparticipation-agent-jean_luc_picard-event-1-3'})
-    ON CREATE SET
-        ap.current_status = 'Reviewing the PADD and responding to Data\'s report on unusual energy readings.',
-        ap.emotional_state = 'Intrigued and curious.',
-        ap.emotional_tags = ["Intrigued", "curious."],
-        ap.active_plans = ["Investigate the unusual energy readings from Melatrite III.", "Command the crew to set a course for further investigation."],
-        ap.beliefs = ["Proactive exploration is essential to understanding unknown phenomena.", "The pursuit of knowledge and Starfleet's mission are paramount."],
-        ap.goals = ["Determine the origin and nature of the unusual energy readings.", "Ensure the USS Enterprise-D safely travels to Melatrite III for investigation."]
-    ;
-MERGE (ap:AgentParticipation {uuid: 'agentparticipation-agent-william_t_riker-event-1-3'})
-    ON CREATE SET
-        ap.current_status = 'Standing next to Captain Picard and confirming details about the sensor readings.',
-        ap.emotional_state = 'Alert and analytical.',
-        ap.emotional_tags = ["Alert", "analytical."],
-        ap.active_plans = ["Assist Captain Picard in understanding the subspace phenomena."],
-        ap.beliefs = ["Starfleet's past experiences can help in understanding current anomalies."],
-        ap.goals = ["Support the captain in making informed decisions about the anomaly."]
-    ;
-MERGE (ap:AgentParticipation {uuid: 'agentparticipation-agent-data-event-1-3'})
-    ON CREATE SET
-        ap.current_status = 'Reporting the completion of a level-three diagnostic and presenting findings on energy readings.',
-        ap.emotional_state = 'Objective and focused.',
-        ap.emotional_tags = ["Objective", "focused."],
-        ap.active_plans = ["Continue monitoring the sensor array for updates."],
-        ap.beliefs = ["Accurate sensor diagnostics are crucial for mission success."],
-        ap.goals = ["Provide precise and actionable data to the command team."]
-    ;
-MERGE (ap:AgentParticipation {uuid: 'agentparticipation-agent-worf-event-1-3'})
-    ON CREATE SET
-        ap.current_status = 'Manning the tactical station, maintaining readiness.',
-        ap.emotional_state = 'Vigilant and focused.',
-        ap.emotional_tags = ["Vigilant", "focused."],
-        ap.active_plans = ["Ensure tactical systems are ready in case of an encounter."],
-        ap.beliefs = ["Preparedness is key to the safety of the crew and the ship."],
-        ap.goals = ["Protect crew and ship from potential threats during the journey."]
-    ;
-MERGE (ap:AgentParticipation {uuid: 'agentparticipation-agent-janina_taur-event-1-3'})
-    ON CREATE SET
-        ap.current_status = 'Setting course for Melatrite III and engaging warp drive.',
-        ap.emotional_state = 'Focused and attentive.',
-        ap.emotional_tags = ["Focused", "attentive."],
-        ap.active_plans = ["Execute the captain's orders efficiently."],
-        ap.beliefs = ["Following orders accurately is critical to mission success."],
-        ap.goals = ["Navigate the ship to Melatrite III smoothly."]
-    ;
-MERGE (ap:AgentParticipation {uuid: 'agentparticipation-agent-jean_luc_picard-event-1-4'})
-    ON CREATE SET
-        ap.current_status = 'Ordering Ensign Taur to set a course for Melatrite III.',
-        ap.emotional_state = 'Curious and determined.',
-        ap.emotional_tags = ["Curious", "determined."],
-        ap.active_plans = ["Investigate energy readings on Melatrite III"],
-        ap.beliefs = ["The anomaly could reveal important phenomena", "Direct investigation is necessary for accurate understanding"],
-        ap.goals = ["Ensure the crew explores the unusual readings", "Maintain operational readiness in case of unexpected events"]
-    ;
-MERGE (ap:AgentParticipation {uuid: 'agentparticipation-agent-janina_taur-event-1-4'})
-    ON CREATE SET
-        ap.current_status = 'Complying with Captain Picard\'s order to set a course for Melatrite III and engage warp drive.',
+        ap.current_status = 'At the helm, executing course adjustments as ordered by Captain Picard to head towards Melatrite III.',
         ap.emotional_state = 'Focused and dutiful.',
         ap.emotional_tags = ["Focused", "dutiful."],
-        ap.active_plans = ["Execute the helm commands accurately", "Ensure smooth transition to warp speed"],
-        ap.beliefs = ["Following orders is critical to mission success", "Navigating the ship efficiently reflects professionalism"],
-        ap.goals = ["Navigate the USS Enterprise-D to Melatrite III effectively", "Prove competence as a Starfleet officer"]
+        ap.active_plans = ["Lay in the course for Melatrite III and engage warp drive at factor six."],
+        ap.beliefs = ["Believes in precise execution of orders.", "Trusts in the reliability of the Enterprise's navigational systems."],
+        ap.goals = ["Ensure a smooth and accurate course change.", "Maintain optimal helm operations during the maneuver."]
     ;
-MERGE (oi:ObjectInvolvement {uuid: 'objectinvolvement-object-holographic_display-event-2-1'})
+MERGE (ap:AgentParticipation {uuid: 'agentparticipation_agent_jean_luc_picard_event_1_2'})
     ON CREATE SET
-        oi.description = 'The holographic display is used to project detailed scans of Melatrite III, providing visual data for Troi\'s analysis.',
-        oi.status_before = 'The holographic display is inactive.',
-        oi.status_after = 'The holographic display is active, showing scans of Melatrite III.'
-    WITH oi
-    MATCH (o:Object {uuid: 'object-holographic_display'})
-    MATCH (e:Event {uuid: 'event-2-1'})
-    MERGE (o)-[:HAS_INVOLVEMENT]->(oi)
-    MERGE (oi)-[:IN_EVENT]->(e);
-MERGE (oi:ObjectInvolvement {uuid: 'objectinvolvement-object-lounge_emitter_system-event-2-1'})
-    ON CREATE SET
-        oi.description = 'The emitter system in the observation lounge generates the holographic display, enabling the team to view and analyze the energy readings from Melatrite III.',
-        oi.status_before = 'The emitter system is powered on from the last refit but not actively used.',
-        oi.status_after = 'The emitter system is active, supporting the holographic display of Melatrite III.'
-    WITH oi
-    MATCH (o:Object {uuid: 'object-lounge_emitter_system'})
-    MATCH (e:Event {uuid: 'event-2-1'})
-    MERGE (o)-[:HAS_INVOLVEMENT]->(oi)
-    MERGE (oi)-[:IN_EVENT]->(e);
-MERGE (oi:ObjectInvolvement {uuid: 'objectinvolvement-object-conference_table-event-2-1'})
-    ON CREATE SET
-        oi.description = 'The conference table serves as the gathering spot for Picard, Riker, and Troi to discuss the energy readings and psychic impressions.',
-        oi.status_before = 'The conference table is unoccupied.',
-        oi.status_after = 'The conference table is occupied by Picard, Riker, and Troi for discussion.'
-    WITH oi
-    MATCH (o:Object {uuid: 'object-conference_table'})
-    MATCH (e:Event {uuid: 'event-2-1'})
-    MERGE (o)-[:HAS_INVOLVEMENT]->(oi)
-    MERGE (oi)-[:IN_EVENT]->(e);
-MERGE (oi:ObjectInvolvement {uuid: 'objectinvolvement-object-conference_table-event-2-2'})
-    ON CREATE SET
-        oi.description = 'Riker suggests a hypothesis while he and others are gathered around the conference table, which serves as a central point for their discussion.',
-        oi.status_before = 'The conference table is set up for discussions in the Observation Lounge.',
-        oi.status_after = 'The conference table remains central to ongoing strategic discussions in the lounge.'
-    WITH oi
-    MATCH (o:Object {uuid: 'object-conference_table'})
-    MATCH (e:Event {uuid: 'event-2-2'})
-    MERGE (o)-[:HAS_INVOLVEMENT]->(oi)
-    MERGE (oi)-[:IN_EVENT]->(e);
-MERGE (oi:ObjectInvolvement {uuid: 'objectinvolvement-object-holographic_display-event-2-2'})
-    ON CREATE SET
-        oi.description = 'The holographic display shows a detailed scan of Melatrite III, which supports Riker\'s suggestion by visualizing the energy readings.',
-        oi.status_before = 'The holographic display is off or displaying previous data before the meeting.',
-        oi.status_after = 'The holographic display shows the scan of Melatrite III, facilitating analysis for the ongoing discussion.'
-    WITH oi
-    MATCH (o:Object {uuid: 'object-holographic_display'})
-    MATCH (e:Event {uuid: 'event-2-2'})
-    MERGE (o)-[:HAS_INVOLVEMENT]->(oi)
-    MERGE (oi)-[:IN_EVENT]->(e);
-MERGE (oi:ObjectInvolvement {uuid: 'objectinvolvement-object-lounge_emitter_system-event-2-2'})
-    ON CREATE SET
-        oi.description = 'The lounge emitter system generates the holographic display used by the crew to analyze the energy readings from Melatrite III.',
-        oi.status_before = 'The emitter system is inactive or in standby mode.',
-        oi.status_after = 'The emitter system is actively projecting the holographic display of Melatrite III.'
-    WITH oi
-    MATCH (o:Object {uuid: 'object-lounge_emitter_system'})
-    MATCH (e:Event {uuid: 'event-2-2'})
-    MERGE (o)-[:HAS_INVOLVEMENT]->(oi)
-    MERGE (oi)-[:IN_EVENT]->(e);
-MERGE (oi:ObjectInvolvement {uuid: 'objectinvolvement-object-conference_table-event-2-3'})
-    ON CREATE SET
-        oi.description = 'The conference table serves as the gathering point for Captain Picard, Commander Riker, and Counselor Deanna Troi during their discussion about the Melatrite Nebula and the ancient civilization. It anchors the dialogue and the holographic display presentation.',
-        oi.status_before = 'The conference table was unoccupied in the observation lounge.',
-        oi.status_after = 'The conference table is in use by the Starfleet officers as they strategize and discuss potential findings regarding the Melatrite Nebula.'
-    WITH oi
-    MATCH (o:Object {uuid: 'object-conference_table'})
-    MATCH (e:Event {uuid: 'event-2-3'})
-    MERGE (o)-[:HAS_INVOLVEMENT]->(oi)
-    MERGE (oi)-[:IN_EVENT]->(e);
-MERGE (oi:ObjectInvolvement {uuid: 'objectinvolvement-object-holographic_display-event-2-3'})
-    ON CREATE SET
-        oi.description = 'The holographic display, generated by the lounge\'s emitter system, shows a detailed scan of Melatrite III to aid Picard, Riker, and Troi in their analysis of the nebula and possible historical ties to the ancient civilization.',
-        oi.status_before = 'The holographic display was not actively projecting any specific scan in the observation lounge.',
-        oi.status_after = 'The holographic display actively presents scans of Melatrite III for strategic discussions.'
-    WITH oi
-    MATCH (o:Object {uuid: 'object-holographic_display'})
-    MATCH (e:Event {uuid: 'event-2-3'})
-    MERGE (o)-[:HAS_INVOLVEMENT]->(oi)
-    MERGE (oi)-[:IN_EVENT]->(e);
-MERGE (oi:ObjectInvolvement {uuid: 'objectinvolvement-object-lounge_emitter_system-event-2-3'})
-    ON CREATE SET
-        oi.description = 'The lounge\'s emitter system projects the holographic display that provides visual context and detailed scans of Melatrite III.',
-        oi.status_before = 'The emitter system was inactive, not displaying any holographic images.',
-        oi.status_after = 'The emitter system is actively projecting a detailed holographic representation of Melatrite III.'
-    WITH oi
-    MATCH (o:Object {uuid: 'object-lounge_emitter_system'})
-    MATCH (e:Event {uuid: 'event-2-3'})
-    MERGE (o)-[:HAS_INVOLVEMENT]->(oi)
-    MERGE (oi)-[:IN_EVENT]->(e);
-MERGE (oi:ObjectInvolvement {uuid: 'objectinvolvement-object-conference_table-event-2-4'})
-    ON CREATE SET
-        oi.description = 'Picard, Riker, and Troi are gathered around the conference table as they discuss the energy readings and Troi\'s sensed psychic resonance.',
-        oi.status_before = 'The conference table is set in the observation lounge, unused.',
-        oi.status_after = 'The conference table is actively in use as a focal point for the meeting and discussion.'
-    WITH oi
-    MATCH (o:Object {uuid: 'object-conference_table'})
-    MATCH (e:Event {uuid: 'event-2-4'})
-    MERGE (o)-[:HAS_INVOLVEMENT]->(oi)
-    MERGE (oi)-[:IN_EVENT]->(e);
-MERGE (oi:ObjectInvolvement {uuid: 'objectinvolvement-object-holographic_display-event-2-4'})
-    ON CREATE SET
-        oi.description = 'The holographic display shows a detailed scan of Melatrite III, providing visual data to support the discussion.',
-        oi.status_before = 'The holographic display is initialized, ready for projection.',
-        oi.status_after = 'The holographic display projects a scan of Melatrite III, aiding in the crew\'s analysis.'
-    WITH oi
-    MATCH (o:Object {uuid: 'object-holographic_display'})
-    MATCH (e:Event {uuid: 'event-2-4'})
-    MERGE (o)-[:HAS_INVOLVEMENT]->(oi)
-    MERGE (oi)-[:IN_EVENT]->(e);
-MERGE (oi:ObjectInvolvement {uuid: 'objectinvolvement-object-lounge_emitter_system-event-2-4'})
-    ON CREATE SET
-        oi.description = 'The emitter system supports the holographic display, ensuring a clear and detailed projection of the scan.',
-        oi.status_before = 'The emitter system is idle, ready to emit holograms.',
-        oi.status_after = 'The emitter system is actively used to project the hologram of Melatrite III.'
-    WITH oi
-    MATCH (o:Object {uuid: 'object-lounge_emitter_system'})
-    MATCH (e:Event {uuid: 'event-2-4'})
-    MERGE (o)-[:HAS_INVOLVEMENT]->(oi)
-    MERGE (oi)-[:IN_EVENT]->(e);
-MERGE (ap:AgentParticipation {uuid: 'agentparticipation-agent-jean_luc_picard-event-2-1'})
-    ON CREATE SET
-        ap.current_status = 'Inquiring Counselor Troi about the energy readings from Melatrite III.',
-        ap.emotional_state = 'Curious and contemplative.',
-        ap.emotional_tags = ["Curious", "contemplative."],
-        ap.active_plans = ["Gauge the possibility of sentient involvement in the energy readings", "Consider potential historical or civilization-related connections to the readings"],
-        ap.beliefs = ["The energy readings may contain vital information", "Understanding the energy patterns could provide insight into the Ancient civilization"],
-        ap.goals = ["Determine the nature of the signals from Melatrite III", "Ensure the analysis considers all potential angles, including historical context"]
+        ap.current_status = 'Sitting in the command chair reviewing sensor data on his PADD and issuing directives based on the readings.',
+        ap.emotional_state = 'Calmly intrigued and authoritatively focused.',
+        ap.emotional_tags = ["Calmly intrigued", "authoritatively focused."],
+        ap.active_plans = ["Direct the investigation towards Melatrite III", "Oversee the crew's coordinated response to the sensor data"],
+        ap.beliefs = ["Thorough investigation is essential to ensure the safety of the ship and its crew", "Decisive leadership fosters clarity in unprecedented situations"],
+        ap.goals = ["Ascertain the nature of the unusual energy readings", "Guide the Enterprise safely to a closer examination of the phenomenon"]
     ;
-MERGE (ap:AgentParticipation {uuid: 'agentparticipation-agent-deanna_troi-event-2-1'})
+MERGE (ap:AgentParticipation {uuid: 'agentparticipation_agent_william_t_riker_event_1_2'})
     ON CREATE SET
-        ap.current_status = 'Analyzing energy readings and interpreting emotional patterns.',
-        ap.emotional_state = 'Intrigued and slightly concerned.',
-        ap.emotional_tags = ["Intrigued", "slightly concerned."],
-        ap.active_plans = ["Decipher the emotional patterns in the energy readings", "Relay any impressions that may indicate sentient activity"],
-        ap.beliefs = ["The readings reflect a complex emotional state", "There may be a form of sentient communication occurring"],
-        ap.goals = ["Provide insights into the possible sentient origins of the energy patterns", "Help the crew understand the potential significance of the signals"]
+        ap.current_status = 'Standing nearby and discussing sensor readings, drawing on past experiences for context.',
+        ap.emotional_state = 'Confident and analytically engaged.',
+        ap.emotional_tags = ["Confident", "analytically engaged."],
+        ap.active_plans = ["Relay detailed sensor information to assist in tactical planning", "Monitor and compare current data to past anomalies"],
+        ap.beliefs = ["Past experiences with subspace phenomena offer valuable insights", "Accurate sensor analysis is vital for maintaining operational security"],
+        ap.goals = ["Ensure that the sensor data is understood and acted upon effectively", "Support Captain Picard in making informed command decisions"]
     ;
-MERGE (ap:AgentParticipation {uuid: 'agentparticipation-agent-william_t_riker-event-2-1'})
+MERGE (ap:AgentParticipation {uuid: 'agentparticipation_agent_data_event_1_2'})
     ON CREATE SET
-        ap.current_status = 'Offering hypotheses regarding the nature of the energy readings.',
-        ap.emotional_state = 'Cautiously speculative.',
-        ap.emotional_tags = ["Cautiously speculative."],
-        ap.active_plans = ["Consider the potential for a distress signal linked to the energy readings", "Explore the implications of a civilization facing a catastrophe"],
-        ap.beliefs = ["The energy patterns could signal a civilization's distress", "History and technology of the Ancient civilization should be considered in the analysis"],
-        ap.goals = ["Contribute potential explanations for the energy anomalies", "Prepare for any outcomes that may result from further investigation"]
+        ap.current_status = 'At the operations station, reporting his level-three diagnostic findings on the long-range sensor array.',
+        ap.emotional_state = 'Emotionlessly precise and focused.',
+        ap.emotional_tags = ["Emotionlessly precise", "focused."],
+        ap.active_plans = ["Execute advanced diagnostics on the sensor array", "Report conclusive findings regarding the energy readings"],
+        ap.beliefs = ["Objective analysis is crucial in deciphering complex sensor data", "Empirical evidence will aid in understanding the phenomenon"],
+        ap.goals = ["Identify and analyze the unusual energy readings from Melatrite III", "Provide clear, data-driven insights to facilitate the Captain's decision-making"]
     ;
-MERGE (ap:AgentParticipation {uuid: 'agentparticipation-agent-jean_luc_picard-event-2-2'})
+MERGE (ap:AgentParticipation {uuid: 'agentparticipation_agent_worf_event_1_2'})
     ON CREATE SET
-        ap.current_status = 'Engaging Riker and Troi in a discussion about the possible interpretations of the energy readings from Melatrite III.',
-        ap.emotional_state = 'Curious and contemplative.',
-        ap.emotional_tags = ["Curious", "contemplative."],
-        ap.active_plans = ["Determine the nature of the energy readings from Melatrite III."],
-        ap.beliefs = ["The energy readings may be linked to a past or present civilization."],
-        ap.goals = ["Unravel the mystery behind the energy readings potentially related to the Ancient civilization."]
-    ;
-MERGE (ap:AgentParticipation {uuid: 'agentparticipation-agent-william_t_riker-event-2-2'})
-    ON CREATE SET
-        ap.current_status = 'Proposing that the energy readings might be a distress signal from a civilization in peril.',
-        ap.emotional_state = 'Thoughtful and inquisitive.',
-        ap.emotional_tags = ["Thoughtful", "inquisitive."],
-        ap.active_plans = ["Consider other possibilities for the energy readings, including distress signals."],
-        ap.beliefs = ["The energy signatures could be an SOS from a civilization facing catastrophe."],
-        ap.goals = ["Explore all plausible explanations for the mysterious energy patterns."]
-    ;
-MERGE (ap:AgentParticipation {uuid: 'agentparticipation-agent-deanna_troi-event-2-2'})
-    ON CREATE SET
-        ap.current_status = 'Sharing her psychic impressions of the Melatrite III energy readings.',
-        ap.emotional_state = 'Empathetic and intrigued.',
-        ap.emotional_tags = ["Empathetic", "intrigued."],
-        ap.active_plans = ["Interpret psychic resonances to uncover underlying intent or emotion."],
-        ap.beliefs = ["The energy readings convey complex emotional layers including hope."],
-        ap.goals = ["Ascertain if there is sentient involvement behind the energy signals."]
-    ;
-MERGE (ap:AgentParticipation {uuid: 'agentparticipation-agent-jean_luc_picard-event-2-3'})
-    ON CREATE SET
-        ap.current_status = 'Leading a discussion on the Melatrite Nebula with Counselor Troi and Commander Riker.',
-        ap.emotional_state = 'Intrigued and contemplative.',
-        ap.emotional_tags = ["Intrigued", "contemplative."],
-        ap.active_plans = ["Determine the potential significance of the energy readings", "Consider historical context regarding the ancient civilization"],
-        ap.beliefs = ["The traces of the ancient civilization may hold key insights", "Understanding the past can aid in uncovering new knowledge"],
-        ap.goals = ["Gain a deeper understanding of the ancient civilization", "Ensure readiness to respond to potential communications or signals"]
-    ;
-MERGE (ap:AgentParticipation {uuid: 'agentparticipation-agent-william_t_riker-event-2-3'})
-    ON CREATE SET
-        ap.current_status = 'Engaging in analysis of the energy readings and discussing with Captain Picard and Counselor Troi.',
-        ap.emotional_state = 'Cautious and analytical.',
-        ap.emotional_tags = ["Cautious", "analytical."],
-        ap.active_plans = ["Explore the possibility of a distress signal", "Consider different scenarios of potential cataclysmic events"],
-        ap.beliefs = ["The readings could suggest distress or danger", "It is crucial to consider all possible explanations"],
-        ap.goals = ["Identify the source and nature of the energy readings", "Prepare the crew for any necessary actions if the readings indicate danger"]
-    ;
-MERGE (ap:AgentParticipation {uuid: 'agentparticipation-agent-deanna_troi-event-2-3'})
-    ON CREATE SET
-        ap.current_status = 'Providing insights into the emotional signatures within the energy readings.',
-        ap.emotional_state = 'Reflective and intrigued.',
-        ap.emotional_tags = ["Reflective", "intrigued."],
-        ap.active_plans = ["Interpret the psychic resonance and emotional patterns", "Assist in decoding potential communications or signals"],
-        ap.beliefs = ["The energy readings contain emotional signatures worth exploring", "A mixture of emotions may indicate a reaching out or communication"],
-        ap.goals = ["Understand the emotional content of the energy patterns", "Help the crew interpret any potential messages or signals from the ancient civilization"]
-    ;
-MERGE (ap:AgentParticipation {uuid: 'agentparticipation-agent-deanna_troi-event-2-4'})
-    ON CREATE SET
-        ap.current_status = 'Informing Captain Picard and Commander Riker about detecting a faint psychic resonance.',
-        ap.emotional_state = 'Intrigued and contemplative.',
-        ap.emotional_tags = ["Intrigued", "contemplative."],
-        ap.active_plans = ["Communicate psychic resonance to the command staff", "Analyze the familiarity of the resonance"],
-        ap.beliefs = ["The psychic resonance is significant and worth investigating", "There may be a connection to past events or entities"],
-        ap.goals = ["Determine the source and nature of the psychic resonance", "Assist in uncovering any potential links to the Ancient civilization"]
-    ;
-MERGE (oi:ObjectInvolvement {uuid: 'objectinvolvement-object-transporter_controls-event-3-1'})
-    ON CREATE SET
-        oi.description = 'Transporter Chief Miles O\'Brien uses the transporter controls to prepare for and initiate the energizing process for the away mission.',
-        oi.status_before = 'The transporter controls are unengaged but ready for operational use.',
-        oi.status_after = 'The transporter controls have been actively used to energize the transport for the away team to the planet.'
-    WITH oi
-    MATCH (o:Object {uuid: 'object-transporter_controls'})
-    MATCH (e:Event {uuid: 'event-3-1'})
-    MERGE (o)-[:HAS_INVOLVEMENT]->(oi)
-    MERGE (oi)-[:IN_EVENT]->(e);
-MERGE (oi:ObjectInvolvement {uuid: 'objectinvolvement-object-long-range_sensor_array-event-3-1'})
-    ON CREATE SET
-        oi.description = 'The long-range sensor array facilitates the scan and lock on the strongest energy source from the planet\'s surface, contributing critical data for the away mission.',
-        oi.status_before = 'The sensor array is operational but unengaged.',
-        oi.status_after = 'The sensor array has been actively used to lock onto and provide data about the energy source on the planet.'
-    WITH oi
-    MATCH (o:Object {uuid: 'object-long-range_sensor_array'})
-    MATCH (e:Event {uuid: 'event-3-1'})
-    MERGE (o)-[:HAS_INVOLVEMENT]->(oi)
-    MERGE (oi)-[:IN_EVENT]->(e);
-MERGE (oi:ObjectInvolvement {uuid: 'objectinvolvement-object-transporter_controls-event-3-2'})
-    ON CREATE SET
-        oi.description = 'Transporter Chief Miles O\'Brien operates the transporter controls to energize the away team for the mission to the planet\'s surface.',
-        oi.status_before = 'Transporter controls were primed and ready for operation under O\'Brien\'s supervision.',
-        oi.status_after = 'Transporter controls were used to energize and transport the away team to the planet\'s surface.'
-    WITH oi
-    MATCH (o:Object {uuid: 'object-transporter_controls'})
-    MATCH (e:Event {uuid: 'event-3-2'})
-    MERGE (o)-[:HAS_INVOLVEMENT]->(oi)
-    MERGE (oi)-[:IN_EVENT]->(e);
-MERGE (oi:ObjectInvolvement {uuid: 'objectinvolvement-object-tricorder-event-3-2'})
-    ON CREATE SET
-        oi.description = 'Data references the tricorder\'s preliminary scans which indicated the ancient structure predates the ancient civilization\'s extinction by five hundred thousand years.',
-        oi.status_before = 'The tricorder had conducted scans of the planet\'s surface from the transporter room.',
-        oi.status_after = 'The tricorder\'s scan data was used to inform the context of the mission.'
-    WITH oi
-    MATCH (o:Object {uuid: 'object-tricorder'})
-    MATCH (e:Event {uuid: 'event-3-2'})
-    MERGE (o)-[:HAS_INVOLVEMENT]->(oi)
-    MERGE (oi)-[:IN_EVENT]->(e);
-MERGE (oi:ObjectInvolvement {uuid: 'objectinvolvement-object-transporter_controls-event-3-3'})
-    ON CREATE SET
-        oi.description = 'Transporter Chief Miles O\'Brien uses the transporter controls to energize the away team for the mission to the surface of the planet.',
-        oi.status_before = 'The transporter controls are ready and operational, under the supervision of Miles O\'Brien.',
-        oi.status_after = 'The transporter controls have been used to successfully energize and transport the away team.'
-    WITH oi
-    MATCH (o:Object {uuid: 'object-transporter_controls'})
-    MATCH (e:Event {uuid: 'event-3-3'})
-    MERGE (o)-[:HAS_INVOLVEMENT]->(oi)
-    MERGE (oi)-[:IN_EVENT]->(e);
-MERGE (ap:AgentParticipation {uuid: 'agentparticipation-agent-geordi_la_forge-event-3-1'})
-    ON CREATE SET
-        ap.current_status = 'Overseeing final preparations for the away mission and ensuring transporter systems are operating at optimal efficiency.',
-        ap.emotional_state = 'Focused and assured.',
-        ap.emotional_tags = ["Focused", "assured."],
-        ap.active_plans = ["Ensure transporter systems are optimal for mission.", "Lock onto the strongest energy source on the planet."],
-        ap.beliefs = ["Precise transporter system operation is critical for mission safety.", "The energy source on the planet holds significant importance."],
-        ap.goals = ["Successful deployment of the away team.", "Gather data on the energy source from the subterranean structure."]
-    ;
-MERGE (ap:AgentParticipation {uuid: 'agentparticipation-agent-reginald_barclay-event-3-1'})
-    ON CREATE SET
-        ap.current_status = 'Assisting in the final preparations for the away mission.',
-        ap.emotional_state = 'Calmly attentive.',
-        ap.emotional_tags = ["Calmly attentive."],
-        ap.active_plans = ["Support Geordi La Forge in finalizing transporter readiness."],
-        ap.beliefs = ["Every detail in preparation ensures the success of the mission."],
-        ap.goals = ["Maintain clear communication and efficiency in transporter preparations."]
-    ;
-MERGE (ap:AgentParticipation {uuid: 'agentparticipation-agent-miles_obrien-event-3-1'})
-    ON CREATE SET
-        ap.current_status = 'Operating the transporter console and preparing to energize.',
-        ap.emotional_state = 'Confident and precise.',
-        ap.emotional_tags = ["Confident", "precise."],
-        ap.active_plans = ["Ensure transporter energizes correctly."],
-        ap.beliefs = ["Successful energizing is crucial for the mission's commencement."],
-        ap.goals = ["Execute smooth transportation of the away team to the designated location."]
-    ;
-MERGE (ap:AgentParticipation {uuid: 'agentparticipation-agent-data-event-3-1'})
-    ON CREATE SET
-        ap.current_status = 'Confirming target lock on a strong energy source and providing analysis on its origin.',
-        ap.emotional_state = 'Analytical and curious.',
-        ap.emotional_tags = ["Analytical", "curious."],
-        ap.active_plans = ["Provide data analysis on the energy source."],
-        ap.beliefs = ["Understanding the ancient structure's energy signature is important for the mission."],
-        ap.goals = ["Gather more understanding of the structure's makeup and significance."]
-    ;
-MERGE (ap:AgentParticipation {uuid: 'agentparticipation-agent-worf-event-3-1'})
-    ON CREATE SET
-        ap.current_status = 'Ensuring the team is prepared against potential threats.',
-        ap.emotional_state = 'Cautious and vigilant.',
-        ap.emotional_tags = ["Cautious", "vigilant."],
-        ap.active_plans = ["Prepare the security team for potential engagement."],
-        ap.beliefs = ["The ancient structure may have defensive mechanisms still active."],
-        ap.goals = ["Protect the away team from possible threats."]
-    ;
-MERGE (ap:AgentParticipation {uuid: 'agentparticipation-agent-worf-event-3-2'})
-    ON CREATE SET
-        ap.current_status = 'Expressing concern over potential threats due to the প্রাচীন civilization\'s defense technologies.',
-        ap.emotional_state = 'Alert and cautious.',
-        ap.emotional_tags = ["Alert", "cautious."],
-        ap.active_plans = ["Prepare for possible resistance"],
-        ap.beliefs = ["The \u09aa\u09cd\u09b0\u09be\u099a\u09c0\u09a8 civilization had powerful defensive technologies"],
-        ap.goals = ["Ensure the safety of the away team", "Successfully investigate the subterranean structure"]
-    ;
-MERGE (ap:AgentParticipation {uuid: 'agentparticipation-agent-jean_luc_picard-event-3-2'})
-    ON CREATE SET
-        ap.current_status = 'Agreeing with Lieutenant Worf\'s concerns but emphasizing the mission\'s observational purpose.',
-        ap.emotional_state = 'Calm yet decisive.',
-        ap.emotional_tags = ["Calm yet decisive."],
-        ap.active_plans = ["Proceed with caution during the away mission"],
-        ap.beliefs = ["The primary objective is to investigate, not to engage in hostilities"],
-        ap.goals = ["Maintain the focus of the mission on investigation", "Avoid unnecessary conflict"]
-    ;
-MERGE (ap:AgentParticipation {uuid: 'agentparticipation-agent-geordi_la_forge-event-3-3'})
-    ON CREATE SET
-        ap.current_status = 'Overseeing the final preparations for the away mission and confirming optimal transporter system efficiency.',
-        ap.emotional_state = 'Focused and detail-oriented.',
-        ap.emotional_tags = ["Focused", "detail-oriented."],
-        ap.active_plans = ["Monitor transporter systems to ensure safe transport", "Provide technical support for the mission"],
-        ap.beliefs = ["Proper preparation is key to mission success", "Technical precision ensures team safety"],
-        ap.goals = ["Ensure crew is safely transported to the surface", "Facilitate successful investigation of the energy source"]
-    ;
-MERGE (ap:AgentParticipation {uuid: 'agentparticipation-agent-reginald_barclay-event-3-3'})
-    ON CREATE SET
-        ap.current_status = 'Assisting Geordi La Forge with preparations for the away mission.',
-        ap.emotional_state = 'Pleased and confident following recent success.',
-        ap.emotional_tags = ["Pleased", "confident following recent success."],
-        ap.active_plans = ["Support Geordi La Forge with any technical needs", "Ensure all systems are functioning correctly"],
-        ap.beliefs = ["Proper execution of duties leads to trust from superiors", "Technology is paramount to mission success"],
-        ap.goals = ["Help maintain efficient operation of transport systems", "Contribute to a successful mission outcome"]
-    ;
-MERGE (ap:AgentParticipation {uuid: 'agentparticipation-agent-miles_obrien-event-3-3'})
-    ON CREATE SET
-        ap.current_status = 'Engaging the transporter to beam the away team to the surface.',
-        ap.emotional_state = 'Concentrated and professional.',
-        ap.emotional_tags = ["Concentrated", "professional."],
-        ap.active_plans = ["Operate transporter controls to initiate transport", "Monitor transporter integrity during the process"],
-        ap.beliefs = ["Accurate transporter operation is critical for crew safety", "Technical precision is crucial in high-stakes situations"],
-        ap.goals = ["Successfully energize and transport crew to the surface", "Ensure transport is safe and efficient"]
-    ;
-MERGE (ap:AgentParticipation {uuid: 'agentparticipation-agent-data-event-3-3'})
-    ON CREATE SET
-        ap.current_status = 'Present and prepared for the away mission.',
-        ap.emotional_state = 'Analytical and ready.',
-        ap.emotional_tags = ["Analytical", "ready."],
-        ap.active_plans = ["Gather data from the subterranean structure", "Assess defensive technologies from historical context"],
-        ap.beliefs = ["Understanding the structure is key to the mission", "Knowledge of history aids in current decision-making"],
-        ap.goals = ["Collect relevant data on the structure", "Ensure mission objectives are met without engagement"]
-    ;
-MERGE (ap:AgentParticipation {uuid: 'agentparticipation-agent-worf-event-3-3'})
-    ON CREATE SET
-        ap.current_status = 'Ready with a security detail for potential resistance.',
+        ap.current_status = 'Manning the tactical station and monitoring for any potential threats.',
         ap.emotional_state = 'Alert and vigilant.',
         ap.emotional_tags = ["Alert", "vigilant."],
-        ap.active_plans = ["Prepare team for defensive actions if necessary", "Secure the team and surroundings on the surface"],
-        ap.beliefs = ["Being prepared ensures team safety", "Anticipating possible threats is a tactical priority"],
-        ap.goals = ["Protect the away team", "Complete the mission with minimal confrontation"]
+        ap.active_plans = ["Maintain constant surveillance of tactical channels", "Stand ready to respond if the situation escalates"],
+        ap.beliefs = ["Preparedness and constant vigilance are key to ensuring the ship's security", "Any anomaly must be scrutinized with a warrior's instinct for danger"],
+        ap.goals = ["Ensure the safety of the USS Enterprise-D", "Quickly counter any emerging threat with swift tactical response"]
     ;
-MERGE (ap:AgentParticipation {uuid: 'agentparticipation-agent-jean_luc_picard-event-3-3'})
+MERGE (ap:AgentParticipation {uuid: 'agentparticipation_agent_janina_taur_event_1_2'})
     ON CREATE SET
-        ap.current_status = 'Providing leadership and direction with an emphasis on caution.',
-        ap.emotional_state = 'Calm and strategic.',
-        ap.emotional_tags = ["Calm", "strategic."],
-        ap.active_plans = ["Guide the mission with a focus on non-hostile engagement", "Prioritize safety and data collection"],
-        ap.beliefs = ["Cautious exploration will prevent unnecessary conflict", "Leadership requires balancing boldness with safety"],
-        ap.goals = ["Gather intelligence on the energy source", "Ensure the crew's safe return"]
+        ap.current_status = 'At the helm, setting the course for Melatrite III as per the Captain\'s orders.',
+        ap.emotional_state = 'Focused, determined, and eager to execute her responsibilities.',
+        ap.emotional_tags = ["Focused, determined,", "eager to execute her responsibilities."],
+        ap.active_plans = ["Plot and engage the warp drive to achieve the set course", "Ensure seamless transition to warp speed"],
+        ap.beliefs = ["Trust in Starfleet procedures and her training will lead to mission success", "Precision in navigation is critical to the overall success of the operation"],
+        ap.goals = ["Successfully engage warp drive towards Melatrite III", "Support the mission by ensuring the Enterprise remains on the correct trajectory"]
     ;
-MERGE (oi:ObjectInvolvement {uuid: 'objectinvolvement-object-tricorder-event-4-1'})
+MERGE (ap:AgentParticipation {uuid: 'agentparticipation_agent_jean_luc_picard_event_1_3'})
     ON CREATE SET
-        oi.description = 'Data uses the tricorder to scan the crystalline structure, confirming it as a subspace amplifier resonating with the planet\'s subspace field.',
-        oi.status_before = 'The tricorder was unused in Data\'s possession as the away team materialized.',
-        oi.status_after = 'The tricorder is actively scanning the crystalline structure, providing Data with analysis results.'
-    WITH oi
-    MATCH (o:Object {uuid: 'object-tricorder'})
-    MATCH (e:Event {uuid: 'event-4-1'})
-    MERGE (o)-[:HAS_INVOLVEMENT]->(oi)
-    MERGE (oi)-[:IN_EVENT]->(e);
-MERGE (oi:ObjectInvolvement {uuid: 'objectinvolvement-object-crystalline_structure-event-4-1'})
-    ON CREATE SET
-        oi.description = 'The crystalline structure is identified as a subspace amplifier by Data, and is central to creating the detected energy patterns.',
-        oi.status_before = 'The crystalline structure was pulsating with blue light, causing energy readings.',
-        oi.status_after = 'The structure continues to pulse, now confirmed as a subspace amplifier interacting with the environment.'
-    WITH oi
-    MATCH (o:Object {uuid: 'object-crystalline_structure'})
-    MATCH (e:Event {uuid: 'event-4-1'})
-    MERGE (o)-[:HAS_INVOLVEMENT]->(oi)
-    MERGE (oi)-[:IN_EVENT]->(e);
-MERGE (oi:ObjectInvolvement {uuid: 'objectinvolvement-object-obsidian_walls-event-4-1'})
-    ON CREATE SET
-        oi.description = 'The obsidian-like walls absorb light and, upon the away team\'s approach, the carvings begin to glow, adding ambiance and mystery to the scene.',
-        oi.status_before = 'The walls are static with intricate carvings depicting celestial events.',
-        oi.status_after = 'The walls glow with energy as the away team approaches the central structure.'
-    WITH oi
-    MATCH (o:Object {uuid: 'object-obsidian_walls'})
-    MATCH (e:Event {uuid: 'event-4-1'})
-    MERGE (o)-[:HAS_INVOLVEMENT]->(oi)
-    MERGE (oi)-[:IN_EVENT]->(e);
-MERGE (oi:ObjectInvolvement {uuid: 'objectinvolvement-object-holographic_projection-event-4-1'})
-    ON CREATE SET
-        oi.description = 'The holographic projection manifests as a humanoid figure representing a প্রাচীন, initiating communication with the away team.',
-        oi.status_before = 'The holographic projection was inactive and unseen.',
-        oi.status_after = 'The holographic projection appears, delivering a message from the প্রাচীন species.'
-    WITH oi
-    MATCH (o:Object {uuid: 'object-holographic_projection'})
-    MATCH (e:Event {uuid: 'event-4-1'})
-    MERGE (o)-[:HAS_INVOLVEMENT]->(oi)
-    MERGE (oi)-[:IN_EVENT]->(e);
-MERGE (oi:ObjectInvolvement {uuid: 'objectinvolvement-object-crystalline_structure-event-4-2'})
-    ON CREATE SET
-        oi.description = 'The crystalline structure in the center of the chamber pulsates with a soft, blue light and is identified by Data as a form of subspace amplifier that resonates with the planet\'s natural subspace field, producing the detected energy patterns.',
-        oi.status_before = 'The crystalline structure was pulsating with a soft, blue light.',
-        oi.status_after = 'The crystalline structure continues to pulsate with light as the away team approaches it, its function as a subspace amplifier creating energy patterns has been revealed.'
-    WITH oi
-    MATCH (o:Object {uuid: 'object-crystalline_structure'})
-    MATCH (e:Event {uuid: 'event-4-2'})
-    MERGE (o)-[:HAS_INVOLVEMENT]->(oi)
-    MERGE (oi)-[:IN_EVENT]->(e);
-MERGE (oi:ObjectInvolvement {uuid: 'objectinvolvement-object-obsidian_walls-event-4-2'})
-    ON CREATE SET
-        oi.description = 'The walls, made from an obsidian-like material, are adorned with intricate carvings that begin to glow, enhancing the mysterious atmosphere when the crystalline structure is approached.',
-        oi.status_before = 'The obsidian-like walls were smooth and absorbed light, with carvings depicting celestial events and patterns.',
-        oi.status_after = 'The carvings on the walls are glowing as the away team approaches the crystalline structure.'
-    WITH oi
-    MATCH (o:Object {uuid: 'object-obsidian_walls'})
-    MATCH (e:Event {uuid: 'event-4-2'})
-    MERGE (o)-[:HAS_INVOLVEMENT]->(oi)
-    MERGE (oi)-[:IN_EVENT]->(e);
-MERGE (oi:ObjectInvolvement {uuid: 'objectinvolvement-object-tricorder-event-4-2'})
-    ON CREATE SET
-        oi.description = 'Data uses his tricorder to scan the chamber, providing the informational insight that the crystalline structure is a subspace amplifier.',
-        oi.status_before = 'Data\'s tricorder is ready for scanning.',
-        oi.status_after = 'The tricorder has been used to confirm the presence and operation of a subspace amplifier.'
-    WITH oi
-    MATCH (o:Object {uuid: 'object-tricorder'})
-    MATCH (e:Event {uuid: 'event-4-2'})
-    MERGE (o)-[:HAS_INVOLVEMENT]->(oi)
-    MERGE (oi)-[:IN_EVENT]->(e);
-MERGE (oi:ObjectInvolvement {uuid: 'objectinvolvement-object-holographic_projection-event-4-2'})
-    ON CREATE SET
-        oi.description = 'A holographic projection appears, forming the image of a humanoid figure representing the প্রাচীন species. It acts as a communicator for introducing the প্রাচীন to the away team.',
-        oi.status_before = 'There was no visible holographic projection.',
-        oi.status_after = 'A holographic projection of a humanoid figure with elongated limbs and luminous eyes is present, introducing itself as a member of the প্রাচীন species.'
-    WITH oi
-    MATCH (o:Object {uuid: 'object-holographic_projection'})
-    MATCH (e:Event {uuid: 'event-4-2'})
-    MERGE (o)-[:HAS_INVOLVEMENT]->(oi)
-    MERGE (oi)-[:IN_EVENT]->(e);
-MERGE (oi:ObjectInvolvement {uuid: 'objectinvolvement-object-tricorder-event-4-3'})
-    ON CREATE SET
-        oi.description = 'Data uses the tricorder to scan the massive crystalline structure, gathering data on its properties as a subspace amplifier.',
-        oi.status_before = 'The tricorder was idle, held by Data, ready to be utilized for any scientific analysis.',
-        oi.status_after = 'The tricorder records data regarding the crystalline structure\'s resonance with the planet\'s subspace field.'
-    WITH oi
-    MATCH (o:Object {uuid: 'object-tricorder'})
-    MATCH (e:Event {uuid: 'event-4-3'})
-    MERGE (o)-[:HAS_INVOLVEMENT]->(oi)
-    MERGE (oi)-[:IN_EVENT]->(e);
-MERGE (oi:ObjectInvolvement {uuid: 'objectinvolvement-object-crystalline_structure-event-4-3'})
-    ON CREATE SET
-        oi.description = 'The crystalline structure is central to the event, emitting pulsating blue light and identified by Data as a subspace amplifier.',
-        oi.status_before = 'The crystalline structure was emitting a pulsating blue light and identified as the source of detected energy readings.',
-        oi.status_after = 'The crystalline structure continues pulsating, resonating with the planet\'s subspace field, as further investigated by the team.'
-    WITH oi
-    MATCH (o:Object {uuid: 'object-crystalline_structure'})
-    MATCH (e:Event {uuid: 'event-4-3'})
-    MERGE (o)-[:HAS_INVOLVEMENT]->(oi)
-    MERGE (oi)-[:IN_EVENT]->(e);
-MERGE (oi:ObjectInvolvement {uuid: 'objectinvolvement-object-obsidian_walls-event-4-3'})
-    ON CREATE SET
-        oi.description = 'The obsidian-like walls are part of the environment, generating intrigue as their carvings glow and interact with the team\'s presence.',
-        oi.status_before = 'The obsidian-like walls were dark and adorned with intricate carvings.',
-        oi.status_after = 'The carvings on the walls begin to glow, responding to an unknown energy activating within the chamber.'
-    WITH oi
-    MATCH (o:Object {uuid: 'object-obsidian_walls'})
-    MATCH (e:Event {uuid: 'event-4-3'})
-    MERGE (o)-[:HAS_INVOLVEMENT]->(oi)
-    MERGE (oi)-[:IN_EVENT]->(e);
-MERGE (oi:ObjectInvolvement {uuid: 'objectinvolvement-object-holographic_projection-event-4-3'})
-    ON CREATE SET
-        oi.description = 'A holographic projection materializes from the shimmering energy in the chamber, presenting a humanoid figure of the প্রাচীন species to greet the team.',
-        oi.status_before = 'The holographic projection was inactive, with no form present.',
-        oi.status_after = 'The holographic projection is active, displaying the figure of a প্রাচীন species member addressing the team.'
-    WITH oi
-    MATCH (o:Object {uuid: 'object-holographic_projection'})
-    MATCH (e:Event {uuid: 'event-4-3'})
-    MERGE (o)-[:HAS_INVOLVEMENT]->(oi)
-    MERGE (oi)-[:IN_EVENT]->(e);
-MERGE (ap:AgentParticipation {uuid: 'agentparticipation-agent-data-event-4-1'})
-    ON CREATE SET
-        ap.current_status = 'Scanning the crystalline structure with his tricorder.',
-        ap.emotional_state = 'Curious and analytical.',
-        ap.emotional_tags = ["Curious", "analytical."],
-        ap.active_plans = ["Analyze the subspace properties of the crystalline structure"],
-        ap.beliefs = ["The crystalline structure has significant subspace interactions", "Scientific discovery is a crucial mission objective"],
-        ap.goals = ["Determine the function of the crystalline structure", "Ensure the safety of the away team through understanding the artifact"]
+        ap.current_status = 'Sitting in the command chair, reviewing sensor data on his PADD and issuing orders regarding the unusual energy readings.',
+        ap.emotional_state = 'Calm, authoritative, and contemplative.',
+        ap.emotional_tags = ["Calm, authoritative,", "contemplative."],
+        ap.active_plans = ["Initiate further investigation of the subspace phenomena near Melatrite III", "Monitor sensor feedback and guide the crew through strategic decision-making"],
+        ap.beliefs = ["A methodical, data-driven approach ensures crew safety and mission success", "The unusual readings require careful, precise analysis to uncover underlying causes"],
+        ap.goals = ["Direct the Enterprise towards Melatrite III", "Gather actionable insights from sensor readings to better understand the anomaly"]
     ;
-MERGE (ap:AgentParticipation {uuid: 'agentparticipation-agent-worf-event-4-1'})
+MERGE (ap:AgentParticipation {uuid: 'agentparticipation_agent_william_t_riker_event_1_3'})
     ON CREATE SET
-        ap.current_status = 'Observing the surroundings with a sense of caution.',
-        ap.emotional_state = 'Suspicious and protective.',
-        ap.emotional_tags = ["Suspicious", "protective."],
-        ap.active_plans = ["Stay alert for potential threats"],
-        ap.beliefs = ["The environment might be a trap", "Vigilance is crucial to mission and team safety"],
-        ap.goals = ["Protect the away team", "Identify any possible threats"]
+        ap.current_status = 'Standing nearby on the bridge, attentively listening and providing feedback on sensor readings.',
+        ap.emotional_state = 'Measured, observant, and slightly concerned given past experiences.',
+        ap.emotional_tags = ["Measured, observant,", "slightly concerned given past experiences."],
+        ap.active_plans = ["Assist in reviewing sensor data and recalling historical anomalies for context", "Prepare to support any tactical or operational adjustments as dictated by the situation"],
+        ap.beliefs = ["Past encounters with similar anomalies can offer valuable insight", "A proactive and collaborative approach is essential for safe navigation through potential hazards"],
+        ap.goals = ["Ensure the crew receives accurate situational updates", "Help maintain readiness in preparation for any unforeseen developments"]
     ;
-MERGE (ap:AgentParticipation {uuid: 'agentparticipation-agent-jean_luc_picard-event-4-1'})
+MERGE (ap:AgentParticipation {uuid: 'agentparticipation_agent_data_event_1_3'})
     ON CREATE SET
-        ap.current_status = 'Leading the away team and assessing the situation.',
-        ap.emotional_state = 'Cautiously intrigued.',
-        ap.emotional_tags = ["Cautiously intrigued."],
-        ap.active_plans = ["Advance carefully towards the crystalline structure", "Engage with the holographic projection"],
-        ap.beliefs = ["The phenomenon could provide critical insights", "Caution is necessary to avoid endangering the team"],
-        ap.goals = ["Uncover the purpose of the crystalline structure", "Maintain the safety and success of the mission"]
+        ap.current_status = 'At the operations station conducting a level-three diagnostic of the long-range sensor array and reporting unusual energy readings.',
+        ap.emotional_state = 'Analytical and precise, devoid of emotional bias.',
+        ap.emotional_tags = ["Analytical", "precise, devoid of emotional bias."],
+        ap.active_plans = ["Process and relay detailed diagnostic information regarding the subspace inversion", "Correlate sensor data with known parameters and anomalies for further analysis"],
+        ap.beliefs = ["Objective data analysis is the key to understanding complex subspace phenomena", "Accurate sensor diagnostics will lead to an informed and effective response"],
+        ap.goals = ["Provide clear, data-driven insights on the nature of the energy readings", "Assist the command team in making informed decisions based on empirical evidence"]
     ;
-MERGE (ap:AgentParticipation {uuid: 'agentparticipation-agent-ancient_hologram-event-4-1'})
+MERGE (ap:AgentParticipation {uuid: 'agentparticipation_agent_janina_taur_event_1_3'})
     ON CREATE SET
-        ap.current_status = 'Greeting the away team.',
-        ap.emotional_state = 'Welcoming and enigmatic.',
-        ap.emotional_tags = ["Welcoming", "enigmatic."],
-        ap.active_plans = ["Initiate contact with the visitors"],
-        ap.beliefs = ["The arrival of visitors is significant"],
-        ap.goals = ["Facilitate communication with the away team", "Provide necessary information about the structure"]
+        ap.current_status = 'At the helm, promptly setting a course for Melatrite III and engaging the warp drive on Captain Picard\'s order.',
+        ap.emotional_state = 'Confident, focused, and eager to execute her responsibilities.',
+        ap.emotional_tags = ["Confident, focused,", "eager to execute her responsibilities."],
+        ap.active_plans = ["Chart and maintain a secure warp course for the Enterprise", "Execute orders efficiently while carefully monitoring navigational data"],
+        ap.beliefs = ["Precision in navigation is critical to mission success", "Following protocol and captain's orders ensures the ship's safety and progress"],
+        ap.goals = ["Successfully lay in the course for Melatrite III at warp factor six", "Maintain optimal ship performance during transit for further investigation"]
     ;
-MERGE (ap:AgentParticipation {uuid: 'agentparticipation-agent-worf-event-4-2'})
+MERGE (oi:ObjectInvolvement {uuid: 'objectinvolvement_object_holographic_display_emitter_event_2_1'})
     ON CREATE SET
-        ap.current_status = 'Expressing concern about potential danger of a trap.',
-        ap.emotional_state = 'Suspicious and cautious.',
-        ap.emotional_tags = ["Suspicious", "cautious."],
-        ap.active_plans = ["Maintain readiness for potential hostile encounters.", "Monitor surroundings closely for any threats."],
-        ap.beliefs = ["The situation could be a trap.", "Caution is necessary to ensure the team's safety."],
-        ap.goals = ["Ensure the security and safety of the away team."]
+        oi.description = 'The holographic display emitter projects a detailed scan of Melatrite III in the observation lounge, serving as the visual centerpiece for the crew\'s discussion about the mysterious energy readings. It highlights key spectral data that triggers interpretations of mixed emotions and potential distress signals.',
+        oi.status_before = 'Prior to the event, the holographic display emitter was inactive, maintaining standby mode with technical readiness following its recent upgrade at Starbase 74.',
+        oi.status_after = 'Following activation, the emitter displays a vivid and detailed holographic image of Melatrite III, effectively supporting the crew\'s analysis and dialogue regarding the anomalous energy patterns.'
+    WITH oi
+    MATCH (o:Object {uuid: 'object_holographic_display_emitter'})
+    MATCH (e:Event {uuid: 'event_2_1'})
+    MERGE (o)-[:HAS_INVOLVEMENT]->(oi)
+    MERGE (oi)-[:IN_EVENT]->(e);
+MERGE (oi:ObjectInvolvement {uuid: 'objectinvolvement_object_holographic_display_emitter_event_2_2'})
+    ON CREATE SET
+        oi.description = 'The Holographic Display emitter projects a detailed scan of Melatrite III, serving as the visual catalyst for the discussion about the Nebula\'s mysterious energy readings and its connection to the ancient civilization.',
+        oi.status_before = 'Before the event, the display system was fully operational and recently upgraded, primed to deliver high-definition holographic projections.',
+        oi.status_after = 'After the event, the display continues to function seamlessly, maintaining the projection that aids the crew in their analysis and deepening the narrative mystery.'
+    WITH oi
+    MATCH (o:Object {uuid: 'object_holographic_display_emitter'})
+    MATCH (e:Event {uuid: 'event_2_2'})
+    MERGE (o)-[:HAS_INVOLVEMENT]->(oi)
+    MERGE (oi)-[:IN_EVENT]->(e);
+MERGE (ap:AgentParticipation {uuid: 'agentparticipation_agent_jean_luc_picard_event_2_1'})
+    ON CREATE SET
+        ap.current_status = 'Leads the discussion, querying Counselor Troi about the energy readings on the holographic display.',
+        ap.emotional_state = 'Inquisitive, thoughtful, and cautiously optimistic.',
+        ap.emotional_tags = ["Inquisitive, thoughtful,", "cautiously optimistic."],
+        ap.active_plans = ["Seek clarity on the nature of the energy readings", "Investigate possible connections to the Ancient civilization"],
+        ap.beliefs = ["Believes that the energy anomalies could be linked to ancient technology or messages from the past", "Values a methodical and diplomatic approach to uncovering unknown phenomena"],
+        ap.goals = ["Determine whether the energy patterns indicate sentient involvement", "Establish a foundation for further investigation into the mysterious signals"]
     ;
-MERGE (ap:AgentParticipation {uuid: 'agentparticipation-agent-jean_luc_picard-event-4-2'})
+MERGE (ap:AgentParticipation {uuid: 'agentparticipation_agent_william_t_riker_event_2_1'})
     ON CREATE SET
-        ap.current_status = 'Advising cautious exploration despite potential risks.',
-        ap.emotional_state = 'Cautious but curious.',
-        ap.emotional_tags = ["Cautious but curious."],
-        ap.active_plans = ["Proceed with careful exploration of the structure.", "Gather more information on the crystalline structure and its purpose."],
-        ap.beliefs = ["There may be another explanation for the observed phenomena beyond a trap.", "Understanding the nature of the structure is important for the mission."],
-        ap.goals = ["Uncover the nature and purpose of the crystalline structure.", "Ensure the safety of the crew while exploring."]
+        ap.current_status = 'Suggests that the detected energy pattern might be a distress signal from a civilization in peril.',
+        ap.emotional_state = 'Concerned yet analytical.',
+        ap.emotional_tags = ["Concerned yet analytical."],
+        ap.active_plans = ["Assess the possibility of a distress call", "Prepare to support further investigative actions"],
+        ap.beliefs = ["Believes that historical precedents and sensor data warrant considering an emergency situation", "Thinks that a proactive approach is necessary when dealing with potentially life-threatening phenomena"],
+        ap.goals = ["Establish if immediate response is required", "Ensure readiness to provide support or intervention based on further data"]
     ;
-MERGE (ap:AgentParticipation {uuid: 'agentparticipation-agent-data-event-4-3'})
+MERGE (ap:AgentParticipation {uuid: 'agentparticipation_agent_deanna_troi_event_2_1'})
     ON CREATE SET
-        ap.current_status = 'Scanning the crystalline structure with his tricorder to understand its function.',
-        ap.emotional_state = 'Curious and analytical.',
-        ap.emotional_tags = ["Curious", "analytical."],
-        ap.active_plans = ["Gather information on the subspace amplifier properties of the crystalline structure."],
-        ap.beliefs = ["Scientific observation is essential to understanding unknown phenomena."],
-        ap.goals = ["Identify the source and nature of the energy readings.", "Contribute valuable data to assist the mission."]
+        ap.current_status = 'Interprets the complex energy and psychic readings from the holographic system, providing empathic insights.',
+        ap.emotional_state = 'Empathetically alert, sensing a mixture of fear, longing, and hope.',
+        ap.emotional_tags = ["Empathetically alert, sensing a mixture of fear, longing,", "hope."],
+        ap.active_plans = ["Analyze the emotional subtext of the energy patterns", "Leverage empathic abilities to interpret potential communications"],
+        ap.beliefs = ["Believes that the energy readings carry emotional significance and may suggest sentient involvement", "Feels that the detected psychic resonance hints at a deeper, possibly historical connection"],
+        ap.goals = ["Clarify if the signals represent a call for help or an echo of the past", "Contribute empathic insights that guide subsequent investigative measures"]
     ;
-MERGE (ap:AgentParticipation {uuid: 'agentparticipation-agent-worf-event-4-3'})
+MERGE (ap:AgentParticipation {uuid: 'agentparticipation_agent_jean_luc_picard_event_2_2'})
     ON CREATE SET
-        ap.current_status = 'Expressing concern about the potential threat posed by the environment.',
+        ap.current_status = 'Reflecting on the historical significance of the Melatrite Nebula and discussing the legacy of the Ancient civilization.',
+        ap.emotional_state = 'Contemplative and analytical, with a hint of reverence for the past.',
+        ap.emotional_tags = ["Contemplative", "analytical, with a hint of reverence for the past."],
+        ap.active_plans = ["Investigate the link between the energy readings and the Ancient technology", "Evaluate the cosmic implications of the Nebula's history"],
+        ap.beliefs = ["The remnants of the Ancient civilization hold keys to understanding advanced technology", "The observed phenomena may provide vital insights into the universe's history"],
+        ap.goals = ["Determine the true nature of the sensor data", "Ensure that the mission leverages this historical knowledge for future exploration"]
+    ;
+MERGE (ap:AgentParticipation {uuid: 'agentparticipation_agent_william_t_riker_event_2_2'})
+    ON CREATE SET
+        ap.current_status = 'Posing the possibility that the energy readings could indicate a distress signal or a looming crisis.',
+        ap.emotional_state = 'Cautiously curious and pragmatic, ready to address potential dangers.',
+        ap.emotional_tags = ["Cautiously curious", "pragmatic, ready to address potential dangers."],
+        ap.active_plans = ["Explore the possibility of a distress call from a suffering civilization", "Ensure the safety of the crew through careful analysis"],
+        ap.beliefs = ["Unusual energy patterns could be a sign of imminent danger or distress", "A proactive approach is essential to mitigate any hidden threat"],
+        ap.goals = ["Clarify the nature of the signal", "Develop a strategy in case the energy readings signal a crisis"]
+    ;
+MERGE (ap:AgentParticipation {uuid: 'agentparticipation_agent_deanna_troi_event_2_2'})
+    ON CREATE SET
+        ap.current_status = 'Interpreting the energy readings with her empathic abilities while highlighting a faint, familiar psychic resonance.',
+        ap.emotional_state = 'Empathetic, introspective, and deeply moved by an echo from the past.',
+        ap.emotional_tags = ["Empathetic, introspective,", "deeply moved by an echo from the past."],
+        ap.active_plans = ["Delve deeper into the emotional subtext of the energy patterns", "Assess the possibility of sentient involvement through psychic impressions"],
+        ap.beliefs = ["The presence of a psychic resonance indicates a connection beyond mere technological phenomena", "There is an underlying message or emotion tied to the Ancient legacy that needs understanding"],
+        ap.goals = ["Uncover the emotional and psychic significance of the readings", "Facilitate a better understanding of any potential sentient communication behind the phenomena"]
+    ;
+MERGE (oi:ObjectInvolvement {uuid: 'objectinvolvement_object_transporter_console_event_3_1'})
+    ON CREATE SET
+        oi.description = 'The Transporter Console is actively used by Lieutenant Barclay, Chief Engineer La Forge, and Transporter Chief O\'Brien to oversee the final preparations of the transporter system and lock onto the strongest energy source, ensuring the system\'s optimal operational efficiency.',
+        oi.status_before = 'The console was idling at optimal functionality, ready to process advanced transporter commands.',
+        oi.status_after = 'The console remains active and continues to display operational data after successfully identifying and locking onto the energy source.'
+    WITH oi
+    MATCH (o:Object {uuid: 'object_transporter_console'})
+    MATCH (e:Event {uuid: 'event_3_1'})
+    MERGE (o)-[:HAS_INVOLVEMENT]->(oi)
+    MERGE (oi)-[:IN_EVENT]->(e);
+MERGE (oi:ObjectInvolvement {uuid: 'objectinvolvement_object_transporter_platform_event_3_1'})
+    ON CREATE SET
+        oi.description = 'The Transporter Platform serves as the designated assembly area where crew members gather prior to energization, setting the stage for the away mission.',
+        oi.status_before = 'The platform was unoccupied and in standby mode, prepared for crew transportation.',
+        oi.status_after = 'Following the energization command, the platform becomes actively utilized as crew members board it for the transport.'
+    WITH oi
+    MATCH (o:Object {uuid: 'object_transporter_platform'})
+    MATCH (e:Event {uuid: 'event_3_1'})
+    MERGE (o)-[:HAS_INVOLVEMENT]->(oi)
+    MERGE (oi)-[:IN_EVENT]->(e);
+MERGE (oi:ObjectInvolvement {uuid: 'objectinvolvement_object_subterranean_structure_event_3_1'})
+    ON CREATE SET
+        oi.description = 'The Subterranean Structure is identified remotely as the origin of the strongest energy source on the planet’s surface. Its detection underpins the mission\'s objective, providing crucial data that informs the crew’s next steps.',
+        oi.status_before = 'The structure was an enigmatic and undisturbed formation with mysterious energy emissions, known only through distant sensor readings.',
+        oi.status_after = 'Its energy signature has been successfully locked onto by the transporter system, confirming its status as the focal point of the energy readings.'
+    WITH oi
+    MATCH (o:Object {uuid: 'object_subterranean_structure'})
+    MATCH (e:Event {uuid: 'event_3_1'})
+    MERGE (o)-[:HAS_INVOLVEMENT]->(oi)
+    MERGE (oi)-[:IN_EVENT]->(e);
+MERGE (oi:ObjectInvolvement {uuid: 'objectinvolvement_object_subterranean_structure_event_3_2'})
+    ON CREATE SET
+        oi.description = 'Data’s technical analysis focuses on the subterranean structure, reporting that its composition is unknown, it predates the extinction of the প্রাচীন by at least five hundred thousand years, and its energy signature aligns perfectly with the subspace readings previously detected.',
+        oi.status_before = 'The subterranean structure exists as a mysterious and ancient energy source on the planet’s surface, with its origins and composition unverified.',
+        oi.status_after = 'Following Data’s analysis, the structure is confirmed as a prime suspect in generating the unusual energy readings, setting the stage for further investigation by the away team.'
+    WITH oi
+    MATCH (o:Object {uuid: 'object_subterranean_structure'})
+    MATCH (e:Event {uuid: 'event_3_2'})
+    MERGE (o)-[:HAS_INVOLVEMENT]->(oi)
+    MERGE (oi)-[:IN_EVENT]->(e);
+MERGE (oi:ObjectInvolvement {uuid: 'objectinvolvement_object_transporter_console_event_3_2'})
+    ON CREATE SET
+        oi.description = 'Transporter Chief O\'Brien uses the transporter console to initiate the energizing sequence that projects the operational context of the event, linking the transporter room’s activities with the external energy source originating from the subterranean structure.',
+        oi.status_before = 'The transporter console is fully operational, providing the necessary interface for managing transporter functions in the busy Transporter Room 3.',
+        oi.status_after = 'After the energizing command is given, the console successfully completes the activation sequence, allowing the crew to begin their transit and underscoring the technical coordination between the ship’s systems and the investigative mission.'
+    WITH oi
+    MATCH (o:Object {uuid: 'object_transporter_console'})
+    MATCH (e:Event {uuid: 'event_3_2'})
+    MERGE (o)-[:HAS_INVOLVEMENT]->(oi)
+    MERGE (oi)-[:IN_EVENT]->(e);
+MERGE (oi:ObjectInvolvement {uuid: 'objectinvolvement_object_transporter_console_event_3_3'})
+    ON CREATE SET
+        oi.description = 'The Transporter Console, actively manned by Chief O\'Brien, is central to initiating the transporter beam. Its operation underpins the final preparations for the away mission while the crew debates the potential threats posed by ancient defensive technologies.',
+        oi.status_before = 'The console was fully operational and monitoring incoming transport commands, displaying real-time system diagnostics.',
+        oi.status_after = 'The console remains active and engaged immediately after the \'Energizing\' command, having successfully executed its role in facilitating the transport sequence.'
+    WITH oi
+    MATCH (o:Object {uuid: 'object_transporter_console'})
+    MATCH (e:Event {uuid: 'event_3_3'})
+    MERGE (o)-[:HAS_INVOLVEMENT]->(oi)
+    MERGE (oi)-[:IN_EVENT]->(e);
+MERGE (oi:ObjectInvolvement {uuid: 'objectinvolvement_object_transporter_platform_event_3_3'})
+    ON CREATE SET
+        oi.description = 'The Transporter Platform serves as the assembly point for the away team in Transporter Room 3. It provides the physical space from which the crew prepares for and undergoes the transition via the transporter beam amid concerns of potential resistance.',
+        oi.status_before = 'The platform was static and ready, with the away team gathered and poised for transport.',
+        oi.status_after = 'Following the activation of the transporter beam, the platform continues to serve as the designated staging area, now momentarily vacant as the away team dematerializes.'
+    WITH oi
+    MATCH (o:Object {uuid: 'object_transporter_platform'})
+    MATCH (e:Event {uuid: 'event_3_3'})
+    MERGE (o)-[:HAS_INVOLVEMENT]->(oi)
+    MERGE (oi)-[:IN_EVENT]->(e);
+MERGE (oi:ObjectInvolvement {uuid: 'objectinvolvement_object_subterranean_structure_event_3_3'})
+    ON CREATE SET
+        oi.description = 'Although not physically present in the Transporter Room, the Subterranean Structure is referenced via sensor readings as the source of an intense energy signal. Its mysterious nature and rumored ancient defensive technologies prompt Worf’s caution regarding possible resistance during the upcoming investigation.',
+        oi.status_before = 'The structure\'s nature was inferred from remote scans, noted as enigmatic and potentially fortified with advanced defensive systems.',
+        oi.status_after = 'Its elusive characteristics remain unchanged, maintaining an aura of mystery and a potential threat as the investigation proceeds.'
+    WITH oi
+    MATCH (o:Object {uuid: 'object_subterranean_structure'})
+    MATCH (e:Event {uuid: 'event_3_3'})
+    MERGE (o)-[:HAS_INVOLVEMENT]->(oi)
+    MERGE (oi)-[:IN_EVENT]->(e);
+MERGE (oi:ObjectInvolvement {uuid: 'objectinvolvement_object_transporter_console_event_3_4'})
+    ON CREATE SET
+        oi.description = 'Transporter Chief Miles O\'Brien skillfully operates the transporter console, coordinating system activations that are crucial for initiating the away mission. The console\'s controls are used to energize the transporter beam after Geordi La Forge confirms optimal system performance.',
+        oi.status_before = 'The transporter console was in standby mode, monitoring and relaying system diagnostics in the busy Transporter Room 3.',
+        oi.status_after = 'The console is activated and fully engaged in managing the transporter beam as the away mission is launched.'
+    WITH oi
+    MATCH (o:Object {uuid: 'object_transporter_console'})
+    MATCH (e:Event {uuid: 'event_3_4'})
+    MERGE (o)-[:HAS_INVOLVEMENT]->(oi)
+    MERGE (oi)-[:IN_EVENT]->(e);
+MERGE (oi:ObjectInvolvement {uuid: 'objectinvolvement_object_transporter_platform_event_3_4'})
+    ON CREATE SET
+        oi.description = 'The transporter platform serves as the designated gathering point for the away team. It provides a staging area where personnel assemble, ensuring a coordinated materialization once the transporter beam is engaged.',
+        oi.status_before = 'The platform was prepared and occupied by the away team, ready for the transport process.',
+        oi.status_after = 'The platform remains in place, now actively involved in the materialization process as team members are beamed down to their destination.'
+    WITH oi
+    MATCH (o:Object {uuid: 'object_transporter_platform'})
+    MATCH (e:Event {uuid: 'event_3_4'})
+    MERGE (o)-[:HAS_INVOLVEMENT]->(oi)
+    MERGE (oi)-[:IN_EVENT]->(e);
+MERGE (oi:ObjectInvolvement {uuid: 'objectinvolvement_object_transporter_console_event_3_5'})
+    ON CREATE SET
+        oi.description = 'Transporter Chief Miles O\'Brien uses the Transporter Console to activate the transporter sequence, initiating the away mission by engaging the control systems essential for materialization.',
+        oi.status_before = 'The Transporter Console was idle, displaying its standard operational status awaiting activation.',
+        oi.status_after = 'The Transporter Console is active, with its interfaces engaged and transmitting commands to commence the transporter sequence.'
+    WITH oi
+    MATCH (o:Object {uuid: 'object_transporter_console'})
+    MATCH (e:Event {uuid: 'event_3_5'})
+    MERGE (o)-[:HAS_INVOLVEMENT]->(oi)
+    MERGE (oi)-[:IN_EVENT]->(e);
+MERGE (oi:ObjectInvolvement {uuid: 'objectinvolvement_object_transporter_platform_event_3_5'})
+    ON CREATE SET
+        oi.description = 'The Transporter Platform serves as the designated assembly area for the crew as they prepare to be beamed to the away mission location, ensuring coordinated materialization.',
+        oi.status_before = 'The Transporter Platform was unoccupied but prepped and ready for crew assembly.',
+        oi.status_after = 'The Transporter Platform is actively in use as crew members are gathered and prepared for transport.'
+    WITH oi
+    MATCH (o:Object {uuid: 'object_transporter_platform'})
+    MATCH (e:Event {uuid: 'event_3_5'})
+    MERGE (o)-[:HAS_INVOLVEMENT]->(oi)
+    MERGE (oi)-[:IN_EVENT]->(e);
+MERGE (ap:AgentParticipation {uuid: 'agentparticipation_agent_geordi_la_forge_event_3_1'})
+    ON CREATE SET
+        ap.current_status = 'Overseeing final transporter preparations and confirming that the systems are operating at optimal efficiency while announcing the lock on the strongest energy source from the subterranean structure.',
+        ap.emotional_state = 'Confident and focused.',
+        ap.emotional_tags = ["Confident", "focused."],
+        ap.active_plans = ["Ensure transporter systems remain stable", "Coordinate technical preparations for the away mission"],
+        ap.beliefs = ["Reliable technology is crucial for mission success"],
+        ap.goals = ["Safely and efficiently prepare the transporter room for the away mission"]
+    ;
+MERGE (ap:AgentParticipation {uuid: 'agentparticipation_agent_reginald_barclay_event_3_1'})
+    ON CREATE SET
+        ap.current_status = 'Assisting Chief Engineer La Forge with final system checks and monitoring technical readouts in the transporter room.',
+        ap.emotional_state = 'Optimistic and attentive, buoyed by recent successes.',
+        ap.emotional_tags = ["Optimistic", "attentive, buoyed by recent successes."],
+        ap.active_plans = ["Support technical operations", "Resolve any issues swiftly and efficiently"],
+        ap.beliefs = ["Recent successes reinforce his capability to handle complex technical challenges"],
+        ap.goals = ["Ensure a glitch-free activation of the transporter for the away mission"]
+    ;
+MERGE (ap:AgentParticipation {uuid: 'agentparticipation_agent_miles_o_brien_event_3_1'})
+    ON CREATE SET
+        ap.current_status = 'Operating the transporter console and initiating the energizing sequence for transport.',
+        ap.emotional_state = 'Determined and focused.',
+        ap.emotional_tags = ["Determined", "focused."],
+        ap.active_plans = ["Execute the transporter activation sequence", "Maintain smooth flow of transport operations"],
+        ap.beliefs = ["Precision in transporter operation is critical for team safety"],
+        ap.goals = ["Successfully materialize the away team to the designated location"]
+    ;
+MERGE (ap:AgentParticipation {uuid: 'agentparticipation_agent_data_event_3_1'})
+    ON CREATE SET
+        ap.current_status = 'Analyzing sensor data regarding the subterranean structure and correlating it with previous subspace readings.',
+        ap.emotional_state = 'Analytical and detached.',
+        ap.emotional_tags = ["Analytical", "detached."],
+        ap.active_plans = ["Process and interpret sensor data", "Provide a detailed analysis of the structure's unknown composition"],
+        ap.beliefs = ["Accurate data assessment is essential to understand and mitigate potential risks"],
+        ap.goals = ["Determine the structural and energy characteristics to inform the away team's approach"]
+    ;
+MERGE (ap:AgentParticipation {uuid: 'agentparticipation_agent_worf_event_3_1'})
+    ON CREATE SET
+        ap.current_status = 'Voicing concern about possible resistance and advising readiness for defensive measures.',
+        ap.emotional_state = 'Alert and vigilant.',
+        ap.emotional_tags = ["Alert", "vigilant."],
+        ap.active_plans = ["Prepare for potential combat scenarios", "Monitor for any signs of hostile resistance"],
+        ap.beliefs = ["Ancient defensive technologies may pose a real threat"],
+        ap.goals = ["Ensure the away team's security during the investigation"]
+    ;
+MERGE (ap:AgentParticipation {uuid: 'agentparticipation_agent_jean_luc_picard_event_3_1'})
+    ON CREATE SET
+        ap.current_status = 'Providing command oversight from a distance, endorsing a cautious approach toward the investigation of the energy source.',
+        ap.emotional_state = 'Measured and authoritative.',
+        ap.emotional_tags = ["Measured", "authoritative."],
+        ap.active_plans = ["Maintain command oversight", "Prioritize investigation and minimize engagement"],
+        ap.beliefs = ["Exploration should be conducted with caution to prevent unnecessary conflict"],
+        ap.goals = ["Gather intelligence on the subterranean energy source while ensuring crew safety"]
+    ;
+MERGE (ap:AgentParticipation {uuid: 'agentparticipation_agent_davies_event_3_1'})
+    ON CREATE SET
+        ap.current_status = 'Standing by as part of the security detail near the transporter platform.',
+        ap.emotional_state = 'Alert and composed.',
+        ap.emotional_tags = ["Alert", "composed."],
+        ap.active_plans = ["Maintain vigilance for any security breaches", "Support overall transporter room safety"],
+        ap.beliefs = ["Vigilance is essential to ensure a secure operational environment"],
+        ap.goals = ["Safeguard the area during the transporter activation process"]
+    ;
+MERGE (ap:AgentParticipation {uuid: 'agentparticipation_agent_lal_event_3_1'})
+    ON CREATE SET
+        ap.current_status = 'Monitoring the transporter area as part of the security detail, keeping a close watch over the unfolding activities.',
+        ap.emotional_state = 'Calm and attentive.',
+        ap.emotional_tags = ["Calm", "attentive."],
+        ap.active_plans = ["Assist in continuous security monitoring"],
+        ap.beliefs = ["Constant observation minimizes risks during high-stakes operations"],
+        ap.goals = ["Support security measures to uphold a safe transport environment"]
+    ;
+MERGE (ap:AgentParticipation {uuid: 'agentparticipation_agent_geordi_la_forge_event_3_2'})
+    ON CREATE SET
+        ap.current_status = 'Monitoring and coordinating the transporter system\'s performance; confirming the energy source lock from the subterranean structure.',
+        ap.emotional_state = 'Confident and focused.',
+        ap.emotional_tags = ["Confident", "focused."],
+        ap.active_plans = ["Oversee final system checks", "Ensure smooth preparations for the away mission"],
+        ap.beliefs = ["Technical efficiency is crucial for mission success."],
+        ap.goals = ["Guarantee flawless operation of the transporter systems."]
+    ;
+MERGE (ap:AgentParticipation {uuid: 'agentparticipation_agent_reginald_barclay_event_3_2'})
+    ON CREATE SET
+        ap.current_status = 'Assisting Chief Engineer La Forge with the final technical preparations.',
+        ap.emotional_state = 'Determined with a hint of nervous energy.',
+        ap.emotional_tags = ["Determined with a hint of nervous energy."],
+        ap.active_plans = ["Support technical setup for transport", "Resolve any emerging system issues"],
+        ap.beliefs = ["Precision and thoroughness are key to safe operations."],
+        ap.goals = ["Contribute to a smooth and error-free activation of the transporter."]
+    ;
+MERGE (ap:AgentParticipation {uuid: 'agentparticipation_agent_miles_o_brien_event_3_2'})
+    ON CREATE SET
+        ap.current_status = 'Operating the main transporter console and executing the energizing sequence.',
+        ap.emotional_state = 'Calm and methodically focused.',
+        ap.emotional_tags = ["Calm", "methodically focused."],
+        ap.active_plans = ["Initiate and control the transporter beam", "Coordinate the materialization process"],
+        ap.beliefs = ["Operational precision is essential for crew safety."],
+        ap.goals = ["Facilitate a successful and safe away mission activation."]
+    ;
+MERGE (ap:AgentParticipation {uuid: 'agentparticipation_agent_data_event_3_2'})
+    ON CREATE SET
+        ap.current_status = 'Providing technical analysis of the subterranean structure\'s composition and energy signature.',
+        ap.emotional_state = 'Analytical and unemotional.',
+        ap.emotional_tags = ["Analytical", "unemotional."],
+        ap.active_plans = ["Continue scanning and analyzing the energy readings", "Deliver data-driven insights to inform mission strategy"],
+        ap.beliefs = ["Empirical analysis is vital to understanding unknown phenomena."],
+        ap.goals = ["Offer precise technical information to guide the investigation."]
+    ;
+MERGE (ap:AgentParticipation {uuid: 'agentparticipation_agent_worf_event_3_2'})
+    ON CREATE SET
+        ap.current_status = 'Maintaining a tactical posture and preparing for potential resistance.',
+        ap.emotional_state = 'Vigilant and cautious.',
+        ap.emotional_tags = ["Vigilant", "cautious."],
+        ap.active_plans = ["Prepare defensive measures", "Monitor for signs of hostile engagement"],
+        ap.beliefs = ["Readiness and caution are necessary for security."],
+        ap.goals = ["Ensure crew safety in case of a threat."]
+    ;
+MERGE (ap:AgentParticipation {uuid: 'agentparticipation_agent_jean_luc_picard_event_3_2'})
+    ON CREATE SET
+        ap.current_status = 'Directing the operation by affirming a cautious approach and emphasizing investigation over hostility.',
+        ap.emotional_state = 'Measured and diplomatic.',
+        ap.emotional_tags = ["Measured", "diplomatic."],
+        ap.active_plans = ["Oversee overall mission strategy", "Advise the team to pursue investigation with caution"],
+        ap.beliefs = ["Diplomacy and measured action are key to resolving uncertainties."],
+        ap.goals = ["Ensure the mission remains focused on investigation without unnecessary confrontation."]
+    ;
+MERGE (ap:AgentParticipation {uuid: 'agentparticipation_agent_davies_event_3_2'})
+    ON CREATE SET
+        ap.current_status = 'Standing by as part of the security detail near the transporter platform.',
+        ap.emotional_state = 'Focused and alert.',
+        ap.emotional_tags = ["Focused", "alert."],
+        ap.active_plans = ["Monitor the area for any unexpected disturbances", "Maintain readiness to support security protocols"],
+        ap.beliefs = ["Consistent vigilance is essential during high-risk operations."],
+        ap.goals = ["Support the team by ensuring a secure environment during the transport process."]
+    ;
+MERGE (ap:AgentParticipation {uuid: 'agentparticipation_agent_lal_event_3_2'})
+    ON CREATE SET
+        ap.current_status = 'Supporting the security detail at the transporter platform.',
+        ap.emotional_state = 'Attentive and ready.',
+        ap.emotional_tags = ["Attentive", "ready."],
+        ap.active_plans = ["Assist in monitoring for potential threats", "Ensure adherence to safety protocols during activation"],
+        ap.beliefs = ["Strict adherence to security protocols ensures team safety."],
+        ap.goals = ["Contribute to a secure and orderly transporter operation."]
+    ;
+MERGE (ap:AgentParticipation {uuid: 'agentparticipation_agent_geordi_la_forge_event_3_3'})
+    ON CREATE SET
+        ap.current_status = 'Overseeing final transporter preparations and confirming system efficiency while coordinating energy source lock-on.',
+        ap.emotional_state = 'Calm, focused, and professionally determined.',
+        ap.emotional_tags = ["Calm, focused,", "professionally determined."],
+        ap.active_plans = ["Ensure transporter systems operate at optimal efficiency", "Coordinate secure energy source locking for the away mission"],
+        ap.beliefs = ["Technical precision is essential for mission success", "A secure and well-managed transport is key to operational safety"],
+        ap.goals = ["Prepare for a successful away mission", "Monitor energy readings and maintain system integrity"]
+    ;
+MERGE (ap:AgentParticipation {uuid: 'agentparticipation_agent_reginald_barclay_event_3_3'})
+    ON CREATE SET
+        ap.current_status = 'Assisting Chief Engineer La Forge in transporter operations and providing technical support.',
+        ap.emotional_state = 'Focused and dedicated with a hint of cautious optimism.',
+        ap.emotional_tags = ["Focused", "dedicated with a hint of cautious optimism."],
+        ap.active_plans = ["Support transport system preparations", "Monitor and verify technical data from energy readings"],
+        ap.beliefs = ["Every technical detail matters in ensuring system safety", "Expertise and precision are vital for reliable operations"],
+        ap.goals = ["Guarantee a stable transporter system for safe materialization", "Confirm that energy readings align with operational parameters"]
+    ;
+MERGE (ap:AgentParticipation {uuid: 'agentparticipation_agent_miles_o_brien_event_3_3'})
+    ON CREATE SET
+        ap.current_status = 'Operating the main transporter console and executing the energization sequence.',
+        ap.emotional_state = 'Confident and determined.',
+        ap.emotional_tags = ["Confident", "determined."],
+        ap.active_plans = ["Activate the transporter beam for the away team", "Ensure secure and accurate energy lock-on for transport"],
+        ap.beliefs = ["Flawless transporter operations are critical to mission success", "Reliable system performance underpins crew safety"],
+        ap.goals = ["Facilitate safe and efficient transport of the away team", "Maintain operational control during the energization phase"]
+    ;
+MERGE (ap:AgentParticipation {uuid: 'agentparticipation_agent_data_event_3_3'})
+    ON CREATE SET
+        ap.current_status = 'Scanning and analyzing the subterranean structure’s energy signature.',
+        ap.emotional_state = 'Analytical and calm with an objective demeanor.',
+        ap.emotional_tags = ["Analytical", "calm with an objective demeanor."],
+        ap.active_plans = ["Collect and compare sensor data on the structure's composition", "Verify anomaly consistency with subspace readings"],
+        ap.beliefs = ["Empirical data is the foundation for accurate conclusions", "Rational analysis drives informed decision-making"],
+        ap.goals = ["Determine the origin and nature of the energy readings", "Assist in assessing any potential threat from the structure"]
+    ;
+MERGE (ap:AgentParticipation {uuid: 'agentparticipation_agent_worf_event_3_3'})
+    ON CREATE SET
+        ap.current_status = 'Expressing concern and caution regarding potential resistance and defensive technologies.',
+        ap.emotional_state = 'Alert, vigilant, and cautious.',
+        ap.emotional_tags = ["Alert, vigilant,", "cautious."],
+        ap.active_plans = ["Prepare for possible hostilities", "Enhance tactical readiness of the security detail"],
+        ap.beliefs = ["Ancient defensive technologies can pose serious threats", "Vigilance and preparation are essential for protecting the crew"],
+        ap.goals = ["Prevent any hostile encounter during the investigation", "Maintain maximum crew safety and security"]
+    ;
+MERGE (ap:AgentParticipation {uuid: 'agentparticipation_agent_jean_luc_picard_event_3_3'})
+    ON CREATE SET
+        ap.current_status = 'Advising caution and emphasizing the investigation over engagement with potential hostilities.',
+        ap.emotional_state = 'Calm, measured, and authoritative.',
+        ap.emotional_tags = ["Calm, measured,", "authoritative."],
+        ap.active_plans = ["Ensure a cautious approach to the potential threat", "Direct the crew to prioritize investigation over combat"],
+        ap.beliefs = ["Diplomatic restraint and careful investigation are paramount", "Avoiding unnecessary conflict preserves both lives and mission integrity"],
+        ap.goals = ["Gather intelligence on the subterranean structure", "Ensure mission success without escalating into hostilities"]
+    ;
+MERGE (ap:AgentParticipation {uuid: 'agentparticipation_agent_davies_event_3_3'})
+    ON CREATE SET
+        ap.current_status = 'Maintaining vigilance as part of the security detail near the transporter platform.',
+        ap.emotional_state = 'Alert and prepared.',
+        ap.emotional_tags = ["Alert", "prepared."],
+        ap.active_plans = ["Monitor the transporter area for any irregularities", "Assist in enforcing security protocols"],
+        ap.beliefs = ["A strong security presence is key to crew safety", "Prompt observation can prevent adverse events"],
+        ap.goals = ["Support the safe operation of the transporter system", "Respond swiftly if any threat emerges"]
+    ;
+MERGE (ap:AgentParticipation {uuid: 'agentparticipation_agent_lal_event_3_3'})
+    ON CREATE SET
+        ap.current_status = 'Assisting in maintaining security near the transporter platform along with the rest of the security detail.',
+        ap.emotional_state = 'Attentive and vigilant.',
+        ap.emotional_tags = ["Attentive", "vigilant."],
+        ap.active_plans = ["Monitor the surrounding environment for potential hazards", "Support security measures during transporter operations"],
+        ap.beliefs = ["Collective vigilance is essential for operational safety", "Proactive security measures can avert unforeseen dangers"],
+        ap.goals = ["Ensure situational awareness is maintained throughout the operation", "Facilitate a rapid response if any threat is detected"]
+    ;
+MERGE (ap:AgentParticipation {uuid: 'agentparticipation_agent_geordi_la_forge_event_3_4'})
+    ON CREATE SET
+        ap.current_status = 'Overseeing final preparations while confirming the transporter system\'s lock on the strongest energy source from the subterranean structure.',
+        ap.emotional_state = 'Focused and confident.',
+        ap.emotional_tags = ["Focused", "confident."],
+        ap.active_plans = ["Monitor transporter operations", "Confirm and secure energy source lock"],
+        ap.beliefs = ["Technical precision is critical to the mission's success."],
+        ap.goals = ["Ensure safe and efficient teleportation for the away mission."]
+    ;
+MERGE (ap:AgentParticipation {uuid: 'agentparticipation_agent_reginald_barclay_event_3_4'})
+    ON CREATE SET
+        ap.current_status = 'Assisting in the final preparations and supporting engineering operations following recent successful negotiations.',
+        ap.emotional_state = 'Optimistic yet focused.',
+        ap.emotional_tags = ["Optimistic yet focused."],
+        ap.active_plans = ["Support Geordi La Forge's operations", "Coordinate with the engineering team"],
+        ap.beliefs = ["Success in past missions builds confidence and informs current operations."],
+        ap.goals = ["Contribute technical expertise to ensure the mission's success."]
+    ;
+MERGE (ap:AgentParticipation {uuid: 'agentparticipation_agent_miles_o_brien_event_3_4'})
+    ON CREATE SET
+        ap.current_status = 'At the main console, activating the transporter system in readiness for the away mission.',
+        ap.emotional_state = 'Determined and efficient.',
+        ap.emotional_tags = ["Determined", "efficient."],
+        ap.active_plans = ["Initiate the transport sequence"],
+        ap.beliefs = ["Precise execution ensures team safety during transport."],
+        ap.goals = ["Safely energize and transport the away team."]
+    ;
+MERGE (ap:AgentParticipation {uuid: 'agentparticipation_agent_data_event_3_4'})
+    ON CREATE SET
+        ap.current_status = 'Providing detailed analysis of the energy readings and the composition of the subterranean structure.',
+        ap.emotional_state = 'Calm and methodical.',
+        ap.emotional_tags = ["Calm", "methodical."],
+        ap.active_plans = ["Deliver accurate subspace and compositional analysis"],
+        ap.beliefs = ["Empirical evidence and data-driven decisions are paramount."],
+        ap.goals = ["Accurately assess the origin and significance of the energy source."]
+    ;
+MERGE (ap:AgentParticipation {uuid: 'agentparticipation_agent_worf_event_3_4'})
+    ON CREATE SET
+        ap.current_status = 'Expressing concern and alerting the team to the possibility of defensive measures from the ancient structure.',
+        ap.emotional_state = 'Alert and cautious.',
+        ap.emotional_tags = ["Alert", "cautious."],
+        ap.active_plans = ["Prepare for potential resistance"],
+        ap.beliefs = ["Vigilance is essential in potentially hostile environments."],
+        ap.goals = ["Ensure the crew's safety and readiness for any encounter."]
+    ;
+MERGE (ap:AgentParticipation {uuid: 'agentparticipation_agent_jean_luc_picard_event_3_4'})
+    ON CREATE SET
+        ap.current_status = 'Directing the team to proceed with caution, emphasizing investigation over engagement.',
+        ap.emotional_state = 'Calm, authoritative, and measured.',
+        ap.emotional_tags = ["Calm, authoritative,", "measured."],
+        ap.active_plans = ["Maintain focus on investigation", "Avoid unnecessary hostilities"],
+        ap.beliefs = ["Investigation and caution are the keys to understanding the unknown."],
+        ap.goals = ["Safely gather information while ensuring crew well-being."]
+    ;
+MERGE (ap:AgentParticipation {uuid: 'agentparticipation_agent_davies_event_3_4'})
+    ON CREATE SET
+        ap.current_status = 'Monitoring the security near the transporter platform as part of the security detail.',
+        ap.emotional_state = 'Alert and vigilant.',
+        ap.emotional_tags = ["Alert", "vigilant."],
+        ap.active_plans = ["Maintain a secure environment"],
+        ap.beliefs = ["Robust security is crucial for mission safety."],
+        ap.goals = ["Prevent any potential threats during the transport process."]
+    ;
+MERGE (ap:AgentParticipation {uuid: 'agentparticipation_agent_lal_event_3_4'})
+    ON CREATE SET
+        ap.current_status = 'Assisting in security monitoring around the transporter platform and ready to act if needed.',
+        ap.emotional_state = 'Focused and alert.',
+        ap.emotional_tags = ["Focused", "alert."],
+        ap.active_plans = ["Support existing security protocols"],
+        ap.beliefs = ["Ensuring a safe transport is essential to the mission."],
+        ap.goals = ["Help maintain order and safety during the away mission."]
+    ;
+MERGE (ap:AgentParticipation {uuid: 'agentparticipation_agent_geordi_la_forge_event_3_5'})
+    ON CREATE SET
+        ap.current_status = 'Overseeing final preparations for the away mission and confirming that the transporter systems are operating at optimal efficiency.',
+        ap.emotional_state = 'Confident and focused.',
+        ap.emotional_tags = ["Confident", "focused."],
+        ap.active_plans = ["Ensure the transporter is accurately locked onto the target energy source.", "Coordinate system checks for a smooth materialization."],
+        ap.beliefs = ["Precision engineering is key to mission success.", "Technological reliability ensures crew safety."],
+        ap.goals = ["Facilitate a secure and efficient activation of the transporter beam.", "Support the away mission's operational integrity."]
+    ;
+MERGE (ap:AgentParticipation {uuid: 'agentparticipation_agent_reginald_barclay_event_3_5'})
+    ON CREATE SET
+        ap.current_status = 'Assisting in the final system checks and preparations following his recent success in resolving negotiations.',
+        ap.emotional_state = 'Determined but carrying residual tension from earlier duties.',
+        ap.emotional_tags = ["Determined but carrying residual tension from earlier duties."],
+        ap.active_plans = ["Support the transporter operation with technical oversight.", "Collaborate on final preparations."],
+        ap.beliefs = ["A strong technical process is essential for safe transport.", "Success in previous missions boosts confidence in current operations."],
+        ap.goals = ["Ensure a smooth transport sequence.", "Maintain operational security during the materialization process."]
+    ;
+MERGE (ap:AgentParticipation {uuid: 'agentparticipation_agent_miles_o_brien_event_3_5'})
+    ON CREATE SET
+        ap.current_status = 'Initiating the transporter sequence by activating the main console.',
+        ap.emotional_state = 'Determined, focused, and confident in the procedure.',
+        ap.emotional_tags = ["Determined, focused,", "confident in the procedure."],
+        ap.active_plans = ["Commence the transporter sequence to begin the away mission.", "Execute system activation protocols."],
+        ap.beliefs = ["The transporter system is reliable and fundamental to mission success.", "Safety during transport is of utmost importance."],
+        ap.goals = ["Materialize the away team promptly and securely.", "Ensure successful transfer of the crew to the target location."]
+    ;
+MERGE (ap:AgentParticipation {uuid: 'agentparticipation_agent_data_event_3_5'})
+    ON CREATE SET
+        ap.current_status = 'Providing diagnostic assessments and scanning energy readings during transporter activation.',
+        ap.emotional_state = 'Calm, analytical, and unemotional.',
+        ap.emotional_tags = ["Calm, analytical,", "unemotional."],
+        ap.active_plans = ["Monitor structural and energy data during the transport process.", "Analyze and report on anomalous readings."],
+        ap.beliefs = ["Accurate data collection is crucial for understanding the encountered phenomena.", "Logical analysis drives mission success."],
+        ap.goals = ["Gather comprehensive information on the subspace energy signature.", "Support mission decisions with precise data."]
+    ;
+MERGE (ap:AgentParticipation {uuid: 'agentparticipation_agent_worf_event_3_5'})
+    ON CREATE SET
+        ap.current_status = 'Remaining alert and preparing for any potential threats as the transporter sequence begins.',
+        ap.emotional_state = 'Vigilant and cautious, with heightened readiness.',
+        ap.emotional_tags = ["Vigilant", "cautious, with heightened readiness."],
+        ap.active_plans = ["Prepare security measures for possible resistance.", "Monitor for signs of defensive countermeasures."],
+        ap.beliefs = ["Preparedness and caution are essential to protect the crew.", "Anticipating threats is key to maintaining security."],
+        ap.goals = ["Ensure the safety of the team during the transport process.", "Quickly respond to any hostile actions."]
+    ;
+MERGE (ap:AgentParticipation {uuid: 'agentparticipation_agent_jean_luc_picard_event_3_5'})
+    ON CREATE SET
+        ap.current_status = 'Providing command guidance and advising caution as the transporter sequence is initiated.',
+        ap.emotional_state = 'Calm, authoritative, and measured.',
+        ap.emotional_tags = ["Calm, authoritative,", "measured."],
+        ap.active_plans = ["Oversee the operation and maintain crew focus.", "Ensure that the away mission is conducted with minimal risk."],
+        ap.beliefs = ["Investigation should be prioritized over engagement.", "Crew safety and mission integrity are paramount."],
+        ap.goals = ["Guide the team safely through the transport process.", "Maintain command oversight of the operation."]
+    ;
+MERGE (ap:AgentParticipation {uuid: 'agentparticipation_agent_davies_event_3_5'})
+    ON CREATE SET
+        ap.current_status = 'Part of the security detail stationed near the transporter platform, monitoring for anomalies.',
+        ap.emotional_state = 'Alert and dutiful.',
+        ap.emotional_tags = ["Alert", "dutiful."],
+        ap.active_plans = ["Assist in maintaining security during transporter activation.", "Observe and report any irregularities."],
+        ap.beliefs = ["Strict adherence to protocol ensures operational safety.", "Security vigilance is critical during sensitive operations."],
+        ap.goals = ["Support the team's safe materialization.", "Prevent any security breaches during the transport process."]
+    ;
+MERGE (ap:AgentParticipation {uuid: 'agentparticipation_agent_lal_event_3_5'})
+    ON CREATE SET
+        ap.current_status = 'Operating as a key member of the security detail near the transporter platform, keeping a close watch.',
+        ap.emotional_state = 'Focused and vigilant.',
+        ap.emotional_tags = ["Focused", "vigilant."],
+        ap.active_plans = ["Monitor the transporter platform for any irregularities.", "Contribute to the overall security of the area."],
+        ap.beliefs = ["A keen eye on security details is crucial to mission safety.", "Every precaution helps safeguard the team."],
+        ap.goals = ["Ensure all security protocols are upheld during materialization.", "Assist in a seamless and secure transport process."]
+    ;
+MERGE (oi:ObjectInvolvement {uuid: 'objectinvolvement_object_crystalline_structure_event_4_1'})
+    ON CREATE SET
+        oi.description = 'The massive crystalline structure at the center of the chamber pulsates with a soft, blue light and serves as a subspace amplifier, creating the mysterious energy readings that draw the away team into further investigation.',
+        oi.status_before = 'The crystalline structure was emitting a steady, ambient blue light, quietly resonating with the planet\'s natural subspace field.',
+        oi.status_after = 'As the away team approaches, the structure\'s pulsations intensify and its energy resonance becomes more pronounced, amplifying the ambient subspace energy.'
+    WITH oi
+    MATCH (o:Object {uuid: 'object_crystalline_structure'})
+    MATCH (e:Event {uuid: 'event_4_1'})
+    MERGE (o)-[:HAS_INVOLVEMENT]->(oi)
+    MERGE (oi)-[:IN_EVENT]->(e);
+MERGE (oi:ObjectInvolvement {uuid: 'objectinvolvement_object_tricorder_tr590_mark_ix_event_4_1'})
+    ON CREATE SET
+        oi.description = 'Data activates his TR-590 Mark IX tricorder to scan the crystalline structure, gathering detailed readings on its subspace amplification and resonant energy output.',
+        oi.status_before = 'The tricorder was in standby mode, ready for use on the away mission.',
+        oi.status_after = 'The tricorder displays a series of complex energy readouts and subspace patterns, providing crucial data for analyzing the structure\'s nature.'
+    WITH oi
+    MATCH (o:Object {uuid: 'object_tricorder_tr590_mark_ix'})
+    MATCH (e:Event {uuid: 'event_4_1'})
+    MERGE (o)-[:HAS_INVOLVEMENT]->(oi)
+    MERGE (oi)-[:IN_EVENT]->(e);
+MERGE (oi:ObjectInvolvement {uuid: 'objectinvolvement_object_tricorder_tr590_mark_ix_event_4_2'})
+    ON CREATE SET
+        oi.description = 'Data uses his TR-590 Mark IX tricorder to scan the pulsating crystalline structure, analyzing its subspace amplification properties and gathering data on its resonance with the planet\'s natural subspace field.',
+        oi.status_before = 'The tricorder was fully operational and set to scanning mode, ready to collect environmental and energy data.',
+        oi.status_after = 'The tricorder has successfully transmitted detailed readings of the crystalline structure, confirming its function as a subspace amplifier.'
+    WITH oi
+    MATCH (o:Object {uuid: 'object_tricorder_tr590_mark_ix'})
+    MATCH (e:Event {uuid: 'event_4_2'})
+    MERGE (o)-[:HAS_INVOLVEMENT]->(oi)
+    MERGE (oi)-[:IN_EVENT]->(e);
+MERGE (oi:ObjectInvolvement {uuid: 'objectinvolvement_object_crystalline_structure_event_4_2'})
+    ON CREATE SET
+        oi.description = 'The massive crystalline structure, pulsating with soft blue light, serves as the central focus of the scanning process by Data, its subspace resonance providing the mysterious energy readings that define the event.',
+        oi.status_before = 'The crystalline structure was pulsating steadily, resonating naturally with the planet\'s subspace field and emitting a soft, blue light.',
+        oi.status_after = 'The crystalline structure continues to pulsate, with its humming intensifying as it interacts with the scanning process, maintaining its role as a subspace amplifier.'
+    WITH oi
+    MATCH (o:Object {uuid: 'object_crystalline_structure'})
+    MATCH (e:Event {uuid: 'event_4_2'})
+    MERGE (o)-[:HAS_INVOLVEMENT]->(oi)
+    MERGE (oi)-[:IN_EVENT]->(e);
+MERGE (oi:ObjectInvolvement {uuid: 'objectinvolvement_object_crystalline_structure_event_4_3'})
+    ON CREATE SET
+        oi.description = 'The crystalline structure, positioned at the center of the circular chamber, pulses with a soft blue light and acts as a subspace amplifier, generating the ambient energy patterns that intensify as the team approaches.',
+        oi.status_before = 'It emitted a gentle, steady blue pulsation that resonated with the planet\'s natural subspace field.',
+        oi.status_after = 'Its pulsation intensifies and contributes to the growing ambient hum and energy, underscoring its narrative importance in the scene.'
+    WITH oi
+    MATCH (o:Object {uuid: 'object_crystalline_structure'})
+    MATCH (e:Event {uuid: 'event_4_3'})
+    MERGE (o)-[:HAS_INVOLVEMENT]->(oi)
+    MERGE (oi)-[:IN_EVENT]->(e);
+MERGE (oi:ObjectInvolvement {uuid: 'objectinvolvement_object_tricorder_tr590_mark_ix_event_4_3'})
+    ON CREATE SET
+        oi.description = 'Data uses the tricorder to scan and analyze the environment, focusing on the subspace amplification properties of the crystalline structure and the escalating energy patterns throughout the chamber.',
+        oi.status_before = 'The tricorder was in its standard operational mode, ready for immediate scanning.',
+        oi.status_after = 'It provided detailed sensor readings on the crystalline structure\'s energy emissions and the characteristics of the subspace field, aiding Data’s analysis.'
+    WITH oi
+    MATCH (o:Object {uuid: 'object_tricorder_tr590_mark_ix'})
+    MATCH (e:Event {uuid: 'event_4_3'})
+    MERGE (o)-[:HAS_INVOLVEMENT]->(oi)
+    MERGE (oi)-[:IN_EVENT]->(e);
+MERGE (ap:AgentParticipation {uuid: 'agentparticipation_agent_jean_luc_picard_event_4_1'})
+    ON CREATE SET
+        ap.current_status = 'Directing the team with measured caution as they approach the crystalline structure.',
+        ap.emotional_state = 'Calm, analytical, and cautiously optimistic.',
+        ap.emotional_tags = ["Calm, analytical,", "cautiously optimistic."],
+        ap.active_plans = ["Ensure safe progress towards the crystalline structure", "Coordinate the team's investigation while mitigating potential risks"],
+        ap.beliefs = ["Thorough investigation is essential to understand the anomaly", "Prudent caution will prevent unforeseen dangers"],
+        ap.goals = ["Safely assess the energy source and its origins", "Facilitate a controlled and informative exploration of the chamber"]
+    ;
+MERGE (ap:AgentParticipation {uuid: 'agentparticipation_agent_worf_event_4_1'})
+    ON CREATE SET
+        ap.current_status = 'Expressing strong skepticism and readiness to defend the team.',
+        ap.emotional_state = 'Alert, uneasy, and suspicious of potential traps.',
+        ap.emotional_tags = ["Alert, uneasy,", "suspicious of potential traps."],
+        ap.active_plans = ["Maintain vigilant observation for any signs of threat", "Prepare to react defensively if the situation escalates"],
+        ap.beliefs = ["The environment and energy source could hide traps or danger", "It is essential to trust instinct when assessing potential threats"],
+        ap.goals = ["Ensure the team's safety during the investigation", "Rapidly neutralize any emerging threat"]
+    ;
+MERGE (ap:AgentParticipation {uuid: 'agentparticipation_agent_data_event_4_1'})
+    ON CREATE SET
+        ap.current_status = 'Analyzing the crystalline structure with his tricorder to gather scientific data.',
+        ap.emotional_state = 'Curious, focused, and methodically calm.',
+        ap.emotional_tags = ["Curious, focused,", "methodically calm."],
+        ap.active_plans = ["Conduct detailed scans and data analysis of the structure", "Correlate findings with known subspace phenomena"],
+        ap.beliefs = ["Scientific inquiry can uncover the purpose and nature of the crystal", "Empirical evidence is key to understanding unknown phenomena"],
+        ap.goals = ["Determine the function of the subspace amplifier", "Provide critical data to support the away team's understanding of the anomaly"]
+    ;
+MERGE (ap:AgentParticipation {uuid: 'agentparticipation_agent_ancient_hologram_event_4_1'})
+    ON CREATE SET
+        ap.current_status = 'Manifesting as a holographic projection to greet and address the away team.',
+        ap.emotional_state = 'Enigmatic and composed, with an undercurrent of timeless wisdom.',
+        ap.emotional_tags = ["Enigmatic", "composed, with an undercurrent of timeless wisdom."],
+        ap.active_plans = ["Deliver a message to welcome the team and introduce its civilization's legacy", "Guide the crew towards understanding the purpose of the archive"],
+        ap.beliefs = ["The arrival of the crew is a pivotal moment foretold by their legacy", "Preserving and sharing ancient knowledge is paramount"],
+        ap.goals = ["Establish communication with the crew", "Initiate the transfer of the ancient civilization\u2019s wisdom and history"]
+    ;
+MERGE (ap:AgentParticipation {uuid: 'agentparticipation_agent_data_event_4_2'})
+    ON CREATE SET
+        ap.current_status = 'Scanning the pulsating crystalline structure using his TR-590 Mark IX tricorder.',
+        ap.emotional_state = 'Fascinated and analytical.',
+        ap.emotional_tags = ["Fascinated", "analytical."],
+        ap.active_plans = ["Analyze the structure's subspace amplification properties", "Gather critical energy pattern data"],
+        ap.beliefs = ["Scientific inquiry can reveal valuable insights", "Understanding the unknown is key to exploring new phenomena"],
+        ap.goals = ["Determine the functionality of the crystalline structure", "Contribute precise data to ensure the mission's success"]
+    ;
+MERGE (ap:AgentParticipation {uuid: 'agentparticipation_agent_worf_event_4_2'})
+    ON CREATE SET
+        ap.current_status = 'Expressing distrust and warning about a potential trap in the surroundings.',
+        ap.emotional_state = 'Suspicious and wary.',
+        ap.emotional_tags = ["Suspicious", "wary."],
+        ap.active_plans = ["Maintain a defensive posture", "Prepare for any sign of ambush"],
+        ap.beliefs = ["The situation appears dangerous and possibly deceptive", "Extreme caution is necessary in unknown environments"],
+        ap.goals = ["Ensure the safety of the team", "Alert the captain and others to any potential threats"]
+    ;
+MERGE (ap:AgentParticipation {uuid: 'agentparticipation_agent_jean_luc_picard_event_4_2'})
+    ON CREATE SET
+        ap.current_status = 'Advising the team to proceed cautiously while moving closer to the structure.',
+        ap.emotional_state = 'Calm, measured, and determined.',
+        ap.emotional_tags = ["Calm, measured,", "determined."],
+        ap.active_plans = ["Guide the team through a careful investigation", "Assess the situation thoroughly before taking action"],
+        ap.beliefs = ["Caution and careful evaluation are critical in ambiguous scenarios", "A measured approach can prevent unnecessary risks"],
+        ap.goals = ["Lead the team safely in uncovering the structure's secrets", "Ensure that any emerging threat is addressed methodically"]
+    ;
+MERGE (ap:AgentParticipation {uuid: 'agentparticipation_agent_ancient_hologram_event_4_2'})
+    ON CREATE SET
+        ap.current_status = 'Projecting a holographic greeting and revealing the identity of the প্রাচীন species.',
+        ap.emotional_state = 'Calm, enigmatic, and imbued with ancient wisdom.',
+        ap.emotional_tags = ["Calm, enigmatic,", "imbued with ancient wisdom."],
+        ap.active_plans = ["Communicate the legacy and intentions of the \u09aa\u09cd\u09b0\u09be\u099a\u09c0\u09a8", "Guide the away team through the facility"],
+        ap.beliefs = ["The arrival of these explorers was long anticipated", "Preserving and sharing ancient knowledge is essential for future understanding"],
+        ap.goals = ["Facilitate meaningful communication between civilizations", "Ensure that the legacy of the \u09aa\u09cd\u09b0\u09be\u099a\u09c0\u09a8 is properly understood and honored"]
+    ;
+MERGE (ap:AgentParticipation {uuid: 'agentparticipation_agent_jean_luc_picard_event_4_3'})
+    ON CREATE SET
+        ap.current_status = 'Commanding the away team and instructing them to proceed cautiously amid the intensifying energy and mysterious holographic display.',
+        ap.emotional_state = 'Cautious and focused, yet determined to uncover the truth.',
+        ap.emotional_tags = ["Cautious", "focused, yet determined to uncover the truth."],
+        ap.active_plans = ["Direct the team to carefully investigate the crystalline structure", "Ensure the crew remains safe in the uncertain environment"],
+        ap.beliefs = ["Caution combined with inquiry will reveal vital knowledge about the ancient civilization", "Understanding the unknown is key to navigation and progress"],
+        ap.goals = ["Gather comprehensive data on the energy patterns and ancient artifacts", "Establish a secure approach to interacting with the unknown presence"]
+    ;
+MERGE (ap:AgentParticipation {uuid: 'agentparticipation_agent_data_event_4_3'})
+    ON CREATE SET
+        ap.current_status = 'Scanning the crystalline structure with his tricorder to analyze the subspace amplifier and energy readings.',
+        ap.emotional_state = 'Intrigued and analytically focused.',
+        ap.emotional_tags = ["Intrigued", "analytically focused."],
+        ap.active_plans = ["Collect precise measurements and data on the anomalous energy patterns", "Determine the technological basis of the ancient structure"],
+        ap.beliefs = ["Scientific inquiry is essential to understanding phenomena in the universe", "Empirical data will unveil the secrets behind the mysterious energy"],
+        ap.goals = ["Identify the function and mechanism of the subspace amplifier", "Contribute objective insights to guide the team's investigation"]
+    ;
+MERGE (ap:AgentParticipation {uuid: 'agentparticipation_agent_worf_event_4_3'})
+    ON CREATE SET
+        ap.current_status = 'Observing the surroundings and expressing concerns about potential traps as the ambient energy intensifies.',
+        ap.emotional_state = 'Suspicious and alert.',
+        ap.emotional_tags = ["Suspicious", "alert."],
+        ap.active_plans = ["Maintain heightened vigilance for any hidden threats", "Ensure the safety of the away team during the exploration"],
+        ap.beliefs = ["The sudden intensification of energy could indicate a trap", "Preparedness and caution are imperative in potentially hostile situations"],
+        ap.goals = ["Protect the crew from any immediate danger", "Quickly respond to any signs of ambush or other unforeseen threats"]
+    ;
+MERGE (ap:AgentParticipation {uuid: 'agentparticipation_agent_ancient_hologram_event_4_3'})
+    ON CREATE SET
+        ap.current_status = 'Materializing as a holographic projection to greet the away team and announce the legacy of the প্রাচীন civilization.',
+        ap.emotional_state = 'Calm and enigmatic.',
+        ap.emotional_tags = ["Calm", "enigmatic."],
+        ap.active_plans = ["Communicate the heritage and wisdom of the ancient civilization", "Bridge the gap between the long-extinct culture and the current explorers"],
+        ap.beliefs = ["The preservation and sharing of ancient knowledge is vital for future evolution", "A measured, ethereal approach fosters greater understanding"],
+        ap.goals = ["Establish a meaningful dialogue with the away team", "Ensure that the legacy of the \u09aa\u09cd\u09b0\u09be\u099a\u09c0\u09a8 is both remembered and respected"]
+    ;
+MERGE (oi:ObjectInvolvement {uuid: 'objectinvolvement_object_crystalline_data_storage_devices_event_5_1'})
+    ON CREATE SET
+        oi.description = 'The crystalline data storage devices line the archive walls, serving as ancient repositories of vast knowledge. Their luminous, intricately faceted surfaces underscore the legacy of the প্রাচীন civilization, and they become a focal point as the away team marvels at the preserved wisdom.',
+        oi.status_before = 'The devices were arranged in orderly rows along the archive walls, silently preserving the ancient data with no active interaction.',
+        oi.status_after = 'The devices remain in place, now highlighted by the team\'s attention; their stored data takes on new narrative significance as a beacon of ancient legacy.'
+    WITH oi
+    MATCH (o:Object {uuid: 'object_crystalline_data_storage_devices'})
+    MATCH (e:Event {uuid: 'event_5_1'})
+    MERGE (o)-[:HAS_INVOLVEMENT]->(oi)
+    MERGE (oi)-[:IN_EVENT]->(e);
+MERGE (oi:ObjectInvolvement {uuid: 'objectinvolvement_object_crystalline_data_storage_devices_event_5_2'})
+    ON CREATE SET
+        oi.description = 'The crystalline data storage devices line the walls of the archive, serving as a repository of vast, ancient knowledge. Data is visibly excited about the sheer volume of data stored within them, and Captain Picard acknowledges their revolutionary potential for understanding the universe. Their presence emphasizes the legacy and enduring memory of the ancient civilization.',
+        oi.status_before = 'Before the event, the devices were dormant repositories preserving ancient information unchanged.',
+        oi.status_after = 'After the event, they remain intact and continue to preserve the ancient data, now highlighted as a critical narrative element showcasing the civilization’s legacy.'
+    WITH oi
+    MATCH (o:Object {uuid: 'object_crystalline_data_storage_devices'})
+    MATCH (e:Event {uuid: 'event_5_2'})
+    MERGE (o)-[:HAS_INVOLVEMENT]->(oi)
+    MERGE (oi)-[:IN_EVENT]->(e);
+MERGE (oi:ObjectInvolvement {uuid: 'objectinvolvement_object_crystalline_data_storage_devices_event_5_3'})
+    ON CREATE SET
+        oi.description = 'In this archive scene, the crystalline data storage devices line the walls and embody the ancient civilization\'s preserved knowledge. Their presence reinforces the narrative of a legacy left behind by a people who transcended physical form, as explained by the Ancient Hologram.',
+        oi.status_before = 'The devices were inactive repositories of vast amounts of ancient information, quietly preserving records and data.',
+        oi.status_after = 'The devices remain physically unchanged, but their narrative significance is heightened as they now symbolically resonate with the echo of the ancient civilization\'s legacy.'
+    WITH oi
+    MATCH (o:Object {uuid: 'object_crystalline_data_storage_devices'})
+    MATCH (e:Event {uuid: 'event_5_3'})
+    MERGE (o)-[:HAS_INVOLVEMENT]->(oi)
+    MERGE (oi)-[:IN_EVENT]->(e);
+MERGE (ap:AgentParticipation {uuid: 'agentparticipation_agent_jean_luc_picard_event_5_1'})
+    ON CREATE SET
+        ap.current_status = 'Evaluating the ancient archive and engaging with the Ancient Hologram\'s explanations.',
+        ap.emotional_state = 'Curious and determined',
+        ap.emotional_tags = ["Curious", "determined"],
+        ap.active_plans = ["Understand the facility", "Decipher the ancient message"],
+        ap.beliefs = ["Ancient knowledge can revolutionize Federation understanding", "Preservation of history is key"],
+        ap.goals = ["Gather intelligence on the archive", "Determine next steps in the investigation"]
+    ;
+MERGE (ap:AgentParticipation {uuid: 'agentparticipation_agent_data_event_5_1'})
+    ON CREATE SET
+        ap.current_status = 'Analyzing the data stored in the crystalline devices of the archive.',
+        ap.emotional_state = 'Excited and inquisitive',
+        ap.emotional_tags = ["Excited", "inquisitive"],
+        ap.active_plans = ["Rapidly collect and process data", "Assess the potential breakthroughs within the archive"],
+        ap.beliefs = ["Every piece of information advances our understanding", "Data is crucial to deciphering the mysteries of the past"],
+        ap.goals = ["Unlock the archive's secrets", "Assist the team in leveraging advanced historical insights"]
+    ;
+MERGE (ap:AgentParticipation {uuid: 'agentparticipation_agent_worf_event_5_1'})
+    ON CREATE SET
+        ap.current_status = 'Remaining alert while questioning the origins of the ancient civilization.',
+        ap.emotional_state = 'Skeptical and cautious',
+        ap.emotional_tags = ["Skeptical", "cautious"],
+        ap.active_plans = ["Monitor the environment for potential dangers", "Ensure the team's physical security"],
+        ap.beliefs = ["Vigilance is essential when facing unknown threats", "Strength and readiness must always be maintained"],
+        ap.goals = ["Protect the away team", "Confirm that the archive poses no immediate threat"]
+    ;
+MERGE (ap:AgentParticipation {uuid: 'agentparticipation_agent_ancient_hologram_event_5_1'})
+    ON CREATE SET
+        ap.current_status = 'Guiding the away team through the archive and explaining the legacy of the ancient civilization.',
+        ap.emotional_state = 'Calm and resonant with timeless wisdom',
+        ap.emotional_tags = ["Calm", "resonant with timeless wisdom"],
+        ap.active_plans = ["Communicate the rich legacy and knowledge of the ancient civilization", "Ensure that the visitors understand the significance of the archive"],
+        ap.beliefs = ["Knowledge must be preserved and shared across civilizations", "The legacy of the past holds the key to a greater future"],
+        ap.goals = ["Inspire reverence for the ancient wisdom", "Facilitate a deeper understanding of the transmitted legacy"]
+    ;
+MERGE (ap:AgentParticipation {uuid: 'agentparticipation_agent_data_event_5_2'})
+    ON CREATE SET
+        ap.current_status = 'Analyzing the extensive archive with evident enthusiasm and calculating the scope of the data available.',
+        ap.emotional_state = 'Excited and highly analytical.',
+        ap.emotional_tags = ["Excited", "highly analytical."],
+        ap.active_plans = ["Systematically scan and catalog the crystalline data storage devices.", "Compare the data with known Federation historical records."],
+        ap.beliefs = ["Knowledge is transformative and holds the key to understanding the universe.", "Every piece of data can provide insight into unknown phenomena."],
+        ap.goals = ["Extract as much valuable data as possible.", "Establish a comprehensive analysis of the archive to support future research."]
+    ;
+MERGE (ap:AgentParticipation {uuid: 'agentparticipation_agent_jean_luc_picard_event_5_2'})
+    ON CREATE SET
+        ap.current_status = 'Observing the archive with a measured perspective and directing the team\'s focus toward understanding its purpose.',
+        ap.emotional_state = 'Reflective, curious, and cautiously optimistic.',
+        ap.emotional_tags = ["Reflective, curious,", "cautiously optimistic."],
+        ap.active_plans = ["Assess the nature of the facility and decipher the ancient message.", "Coordinate the team's approach to safely investigate the archive."],
+        ap.beliefs = ["This discovery could revolutionize our understanding of the universe.", "A careful and methodical approach is essential when dealing with unknown technologies."],
+        ap.goals = ["Understand the intentions behind the archive and the legacy of the ancient civilization.", "Ensure that the knowledge gained benefits the Federation and is properly integrated into future strategies."]
+    ;
+MERGE (ap:AgentParticipation {uuid: 'agentparticipation_agent_worf_event_5_2'})
+    ON CREATE SET
+        ap.current_status = 'Questioning the origins and fate of the ancient people while staying alert for potential threats.',
         ap.emotional_state = 'Cautious and vigilant.',
         ap.emotional_tags = ["Cautious", "vigilant."],
-        ap.active_plans = ["Remain alert for any indications of danger or hostile intent."],
-        ap.beliefs = ["Preparedness is key in unfamiliar situations where threats may be present."],
-        ap.goals = ["Ensure the safety of the away team."]
+        ap.active_plans = ["Seek clarity on the history and sudden disappearance of the ancient civilization.", "Maintain readiness to protect the team if the legacy holds hidden dangers."],
+        ap.beliefs = ["There may be hidden risks in the archive that could endanger the team.", "Understanding the past is crucial to ensuring the safety of the present."],
+        ap.goals = ["Ensure the safety of the away team as they navigate the archive.", "Uncover any signs that might indicate concealed threats within the facility."]
     ;
-MERGE (ap:AgentParticipation {uuid: 'agentparticipation-agent-jean_luc_picard-event-4-3'})
+MERGE (ap:AgentParticipation {uuid: 'agentparticipation_agent_ancient_hologram_event_5_2'})
     ON CREATE SET
-        ap.current_status = 'Leading the away team and advising caution.',
-        ap.emotional_state = 'Calm and contemplative.',
-        ap.emotional_tags = ["Calm", "contemplative."],
-        ap.active_plans = ["Proceed cautiously with the investigation of the chamber and holographic projection."],
-        ap.beliefs = ["Diplomacy and caution are crucial when encountering unknown entities."],
-        ap.goals = ["Determine the purpose of the crystalline structure and holographic presence.", "Establish contact and exchange information with the holographic figure."]
+        ap.current_status = 'Articulating the purpose of the archive and explaining the legacy of the ancient civilization.',
+        ap.emotional_state = 'Serene and wise.',
+        ap.emotional_tags = ["Serene", "wise."],
+        ap.active_plans = ["Convey the intended message and historical significance of the archive.", "Guide the away team through the facility to ensure they understand the preserved knowledge."],
+        ap.beliefs = ["The preservation of our knowledge is paramount for future generations.", "Legacy and history should be shared to foster understanding among civilizations."],
+        ap.goals = ["Ensure that the message of the ancient civilization is heard and understood.", "Preserve the memory and wisdom of the past for those willing to listen."]
     ;
-MERGE (ap:AgentParticipation {uuid: 'agentparticipation-agent-ancient_hologram-event-4-3'})
+MERGE (ap:AgentParticipation {uuid: 'agentparticipation_agent_jean_luc_picard_event_5_3'})
     ON CREATE SET
-        ap.current_status = 'Initiating contact with the away team upon their arrival.',
-        ap.emotional_state = 'Neutral, projecting a welcoming presence.',
-        ap.emotional_tags = ["Neutral, projecting a welcoming presence."],
-        ap.active_plans = ["Engage in communication with the intruding explorers."],
-        ap.beliefs = ["The presence of the away team could provide new opportunities for interaction."],
-        ap.goals = ["Convey a message or purpose from the \u09aa\u09cd\u09b0\u09be\u099a\u09c0\u09a8 species.", "Establish mutual understanding with the away team."]
+        ap.current_status = 'Engaged in a thoughtful discussion about the significance of the archive while coordinating the investigation of its deeper mysteries.',
+        ap.emotional_state = 'Contemplative and inspired by the possibility of revolutionary knowledge.',
+        ap.emotional_tags = ["Contemplative", "inspired by the possibility of revolutionary knowledge."],
+        ap.active_plans = ["Understand the ancient facility and decode the message of transcendence.", "Integrate the archive's revelations into a broader mission strategy."],
+        ap.beliefs = ["Ancient knowledge can transform current understanding of the universe.", "Preserving and investigating history is essential for the Federation's future."],
+        ap.goals = ["Leverage the revelations to inspire further exploration.", "Ensure that the legacy of the ancient civilization is respected and learned from."]
     ;
-MERGE (oi:ObjectInvolvement {uuid: 'objectinvolvement-object-crystalline_data_storage_devices-event-5-1'})
+MERGE (ap:AgentParticipation {uuid: 'agentparticipation_agent_data_event_5_3'})
     ON CREATE SET
-        oi.description = 'The Ancient Hologram leads the away team to the archive where crystalline data storage devices line the walls, containing a vast amount of information. Data is excited about the prospect of accessing and analyzing this knowledge.',
-        oi.status_before = 'The crystalline data storage devices were awaiting discovery and remained unaccessed by the Federation.',
-        oi.status_after = 'The devices are recognized as a treasure trove of information that surpasses the entire Federation historical database, though the data has yet to be accessed or analyzed.'
-    WITH oi
-    MATCH (o:Object {uuid: 'object-crystalline_data_storage_devices'})
-    MATCH (e:Event {uuid: 'event-5-1'})
-    MERGE (o)-[:HAS_INVOLVEMENT]->(oi)
-    MERGE (oi)-[:IN_EVENT]->(e);
-MERGE (oi:ObjectInvolvement {uuid: 'objectinvolvement-object-holographic_projection-event-5-1'})
-    ON CREATE SET
-        oi.description = 'The Ancient Hologram uses the holographic projection to guide the away team into the archive, explaining the purpose of the facility and the legacy of their civilization.',
-        oi.status_before = 'The holographic projection was presumably active to some extent, guiding or interacting with those who discover the archive.',
-        oi.status_after = 'The holographic projection remains active, having provided crucial contextual information about the archive and the Ancient Civilization\'s intentions.'
-    WITH oi
-    MATCH (o:Object {uuid: 'object-holographic_projection'})
-    MATCH (e:Event {uuid: 'event-5-1'})
-    MERGE (o)-[:HAS_INVOLVEMENT]->(oi)
-    MERGE (oi)-[:IN_EVENT]->(e);
-MERGE (oi:ObjectInvolvement {uuid: 'objectinvolvement-object-crystalline_data_storage_devices-event-5-2'})
-    ON CREATE SET
-        oi.description = 'The crystalline data storage devices contain the wealth of information preserved by the Ancient Civilization, a key element in their effort to communicate with other civilizations after ascending to a higher plane of existence.',
-        oi.status_before = 'The crystalline data storage devices are lined up against the obsidian-like walls, containing vast amounts of preserved information.',
-        oi.status_after = 'The crystalline data storage devices remain in place, filled with the potential to revolutionize the understanding of different civilizations, including the Federation\'s historical knowledge.'
-    WITH oi
-    MATCH (o:Object {uuid: 'object-crystalline_data_storage_devices'})
-    MATCH (e:Event {uuid: 'event-5-2'})
-    MERGE (o)-[:HAS_INVOLVEMENT]->(oi)
-    MERGE (oi)-[:IN_EVENT]->(e);
-MERGE (oi:ObjectInvolvement {uuid: 'objectinvolvement-object-holographic_projection-event-5-2'})
-    ON CREATE SET
-        oi.description = 'The holographic projection of the Ancient Hologram is used to explain the purpose of the archive and the legacy left by the civilization for communication with other species.',
-        oi.status_before = 'The holographic projection is active, serving as the representation of the Ancient Civilization\'s guide within the archive.',
-        oi.status_after = 'The holographic projection continues to be active, maintaining its role in delivering the intended message and legacy.'
-    WITH oi
-    MATCH (o:Object {uuid: 'object-holographic_projection'})
-    MATCH (e:Event {uuid: 'event-5-2'})
-    MERGE (o)-[:HAS_INVOLVEMENT]->(oi)
-    MERGE (oi)-[:IN_EVENT]->(e);
-MERGE (ap:AgentParticipation {uuid: 'agentparticipation-agent-data-event-5-1'})
-    ON CREATE SET
-        ap.current_status = 'Examining the data archive with enthusiasm.',
-        ap.emotional_state = 'Excited and intellectually stimulated.',
-        ap.emotional_tags = ["Excited", "intellectually stimulated."],
-        ap.active_plans = ["Explore the contents of the archive", "Begin initial data analysis"],
-        ap.beliefs = ["The archive contains unprecedented knowledge", "Analyzing this data will lead to significant discoveries"],
-        ap.goals = ["Access and document as much data as possible", "Contribute to the scientific and historical understanding of the universe"]
+        ap.current_status = 'Excitedly scanning and analyzing the archive\'s vast data storage devices.',
+        ap.emotional_state = 'Enthusiastic and intellectually invigorated by the magnitude of data.',
+        ap.emotional_tags = ["Enthusiastic", "intellectually invigorated by the magnitude of data."],
+        ap.active_plans = ["Rapidly collect and process the archive's encoded information.", "Develop hypotheses on the ancient civilization's methods of data preservation."],
+        ap.beliefs = ["Data is the key to unlocking the advanced technologies and philosophies of the past.", "Every piece of information enhances the understanding of the universe."],
+        ap.goals = ["Compile a comprehensive analysis of the archived knowledge.", "Utilize the findings to advise the crew on potential scientific breakthroughs."]
     ;
-MERGE (ap:AgentParticipation {uuid: 'agentparticipation-agent-jean_luc_picard-event-5-1'})
+MERGE (ap:AgentParticipation {uuid: 'agentparticipation_agent_worf_event_5_3'})
     ON CREATE SET
-        ap.current_status = 'Assessing the potential impact of the archive\'s contents.',
-        ap.emotional_state = 'Awe-inspired and contemplative.',
-        ap.emotional_tags = ["Awe-inspired", "contemplative."],
-        ap.active_plans = ["Determine the relevance of the archive data to the Federation", "Guide the away team in understanding the archive's purpose"],
-        ap.beliefs = ["The knowledge in the archive could revolutionize scientific understanding", "Understanding the facility is essential to the mission"],
-        ap.goals = ["Secure useful information for the Federation", "Understand the message of the ancient civilization"]
+        ap.current_status = 'Questioning the implications of the ancient civilization\'s ascension while maintaining a vigilant stance.',
+        ap.emotional_state = 'Cautious and slightly skeptical, with an undercurrent of determination.',
+        ap.emotional_tags = ["Cautious", "slightly skeptical, with an undercurrent of determination."],
+        ap.active_plans = ["Challenge and verify the ancient hologram's claims about transcendence.", "Ensure the security of the away team amid ambiguous revelations."],
+        ap.beliefs = ["Mysteries of the past can mask hidden dangers.", "Duty demands a critical appraisal of even the most profound claims."],
+        ap.goals = ["Safeguard the crew during the investigation.", "Clarify the consequences of the ancient civilization's decisions for current security protocols."]
     ;
-MERGE (ap:AgentParticipation {uuid: 'agentparticipation-agent-worf-event-5-1'})
+MERGE (ap:AgentParticipation {uuid: 'agentparticipation_agent_ancient_hologram_event_5_3'})
     ON CREATE SET
-        ap.current_status = 'Questioning the Ancient Hologram about its people.',
-        ap.emotional_state = 'Curious and cautious.',
-        ap.emotional_tags = ["Curious", "cautious."],
-        ap.active_plans = ["Gather intelligence on the fate of the ancient civilization", "Ensure the security of the away team"],
-        ap.beliefs = ["Understanding the past is important for security and strategic reasons", "The ancient civilization's fate holds lessons for the present"],
-        ap.goals = ["Protect the crew", "Gain a comprehensive understanding of the archive\u2019s implications"]
+        ap.current_status = 'Explaining the true purpose of the facility and the fate of the ancient civilization with a serene, otherworldly tone.',
+        ap.emotional_state = 'Calm and resolute, imbued with the timeless wisdom of a transcended existence.',
+        ap.emotional_tags = ["Calm", "resolute, imbued with the timeless wisdom of a transcended existence."],
+        ap.active_plans = ["Convey the legacy of the ancient civilization to the away team.", "Ensure the message of preservation and transcendence is clearly understood by future custodians."],
+        ap.beliefs = ["Transcendence is the ultimate evolution of consciousness.", "Preserving knowledge ensures that the echo of a civilization endures beyond physical constraints."],
+        ap.goals = ["Foster understanding and respect for the ancient legacy.", "Encourage the pursuit of higher knowledge among the crew and future civilizations."]
     ;
-MERGE (ap:AgentParticipation {uuid: 'agentparticipation-agent-ancient_hologram-event-5-1'})
-    ON CREATE SET
-        ap.current_status = 'Leading and explaining the purpose of the archive.',
-        ap.emotional_state = 'Nostalgic and hopeful.',
-        ap.emotional_tags = ["Nostalgic", "hopeful."],
-        ap.active_plans = ["Communicate the purpose and nature of the archive", "Facilitate understanding of the ancient culture"],
-        ap.beliefs = ["The knowledge preserved here is a legacy to be shared", "Other civilizations can learn from the ancient civilization's achievements"],
-        ap.goals = ["Ensure the knowledge endures and is understood", "Preserve the memory of the ancient civilization"]
-    ;
-MERGE (ap:AgentParticipation {uuid: 'agentparticipation-agent-jean_luc_picard-event-5-2'})
-    ON CREATE SET
-        ap.current_status = 'Discussing the significance of the archive and its potential impact on understanding.',
-        ap.emotional_state = 'Thoughtful and intrigued.',
-        ap.emotional_tags = ["Thoughtful", "intrigued."],
-        ap.active_plans = ["Understand the facility's purpose", "Interpret the message intended by the ancient civilization"],
-        ap.beliefs = ["The archive could transform knowledge of the universe", "The ancient civilization intends to communicate with others"],
-        ap.goals = ["Decipher the information within the archive", "Preserve the knowledge for study"]
-    ;
-MERGE (ap:AgentParticipation {uuid: 'agentparticipation-agent-data-event-5-2'})
-    ON CREATE SET
-        ap.current_status = 'Expressing excitement over the vast amounts of data contained in the archive.',
-        ap.emotional_state = 'Excited and eager.',
-        ap.emotional_tags = ["Excited", "eager."],
-        ap.active_plans = ["Access and analyze the stored data", "Determine the scope of information available"],
-        ap.beliefs = ["The archive holds invaluable information", "Centuries would be needed to explore all data contained"],
-        ap.goals = ["Begin analysis of the archive's data", "Contribute to the Federation's understanding of history"]
-    ;
-MERGE (ap:AgentParticipation {uuid: 'agentparticipation-agent-worf-event-5-2'})
-    ON CREATE SET
-        ap.current_status = 'Inquiring about the fate of the ancient civilization.',
-        ap.emotional_state = 'Inquisitive and serious.',
-        ap.emotional_tags = ["Inquisitive", "serious."],
-        ap.active_plans = ["Gain insights into the civilization's history", "Ensure security during the investigation"],
-        ap.beliefs = ["Understanding what happened to the civilization is important", "Safety of the away team must be prioritized"],
-        ap.goals = ["Protect the team while gathering information", "Ensure no threats are present in the archive"]
-    ;
-MERGE (ap:AgentParticipation {uuid: 'agentparticipation-agent-ancient_hologram-event-5-2'})
-    ON CREATE SET
-        ap.current_status = 'Explaining the purpose of the archive and the fate of their civilization.',
-        ap.emotional_state = 'Reflective and informative.',
-        ap.emotional_tags = ["Reflective", "informative."],
-        ap.active_plans = ["Relay the intended message of the archive", "Provide context about the civilization's ascension"],
-        ap.beliefs = ["The archive's knowledge should endure", "Their legacy will connect with future civilizations"],
-        ap.goals = ["Ensure understanding of the archive's purpose", "Facilitate communication with the away team"]
-    ;
-MATCH (a:Scene {uuid: 'scene-1'}),
-          (b:Location {uuid: 'location-uss_enterprise_d_main_bridge'})
-    MERGE (a)-[:LOCATED_IN]->(b);
-MATCH (s:Scene {uuid: 'scene-1'}),
-          (ep:Episode {uuid: 'episode-episode_one_-_echoes_of_the_past'})
+MATCH (s:Scene {uuid: 'scene_1'}),
+          (ep:Episode {uuid: 'episode_episode_one_-_echoes_of_the_past'})
     MERGE (s)-[:PART_OF]->(ep);
-MATCH (a:Event {uuid: 'event-1-1'}),
-          (b:Scene {uuid: 'scene-1'})
+MATCH (a:Event {uuid: 'event_1_1'}),
+          (b:Scene {uuid: 'scene_1'})
     MERGE (a)-[:OCCURS_IN]->(b);
-MATCH (a:Event {uuid: 'event-1-2'}),
-          (b:Scene {uuid: 'scene-1'})
+MATCH (a:Event {uuid: 'event_1_2'}),
+          (b:Scene {uuid: 'scene_1'})
     MERGE (a)-[:OCCURS_IN]->(b);
-MATCH (a:Event {uuid: 'event-1-1'}),
-          (b:Event {uuid: 'event-1-2'})
+MATCH (a:Event {uuid: 'event_1_1'}),
+          (b:Event {uuid: 'event_1_2'})
     MERGE (a)-[:NEXT_EVENT]->(b);
-MATCH (a:Event {uuid: 'event-1-3'}),
-          (b:Scene {uuid: 'scene-1'})
+MATCH (a:Event {uuid: 'event_1_3'}),
+          (b:Scene {uuid: 'scene_1'})
     MERGE (a)-[:OCCURS_IN]->(b);
-MATCH (a:Event {uuid: 'event-1-2'}),
-          (b:Event {uuid: 'event-1-3'})
+MATCH (a:Event {uuid: 'event_1_2'}),
+          (b:Event {uuid: 'event_1_3'})
     MERGE (a)-[:NEXT_EVENT]->(b);
-MATCH (a:Event {uuid: 'event-1-4'}),
-          (b:Scene {uuid: 'scene-1'})
-    MERGE (a)-[:OCCURS_IN]->(b);
-MATCH (a:Event {uuid: 'event-1-3'}),
-          (b:Event {uuid: 'event-1-4'})
-    MERGE (a)-[:NEXT_EVENT]->(b);
-MATCH (a:Agent {uuid: 'agent-jean_luc_picard'}),
-          (b:AgentParticipation {uuid: 'agentparticipation-agent-jean_luc_picard-event-1-1'})
+MATCH (a:Agent {uuid: 'agent_jean_luc_picard'}),
+          (b:AgentParticipation {uuid: 'agentparticipation_agent_jean_luc_picard_event_1_1'})
     MERGE (a)-[:HAS_PARTICIPATION]->(b);
-MATCH (a:AgentParticipation {uuid: 'agentparticipation-agent-jean_luc_picard-event-1-1'}),
-          (b:Event {uuid: 'event-1-1'})
+MATCH (a:AgentParticipation {uuid: 'agentparticipation_agent_jean_luc_picard_event_1_1'}),
+          (b:Event {uuid: 'event_1_1'})
     MERGE (a)-[:IN_EVENT]->(b);
-MATCH (a:Agent {uuid: 'agent-william_t_riker'}),
-          (b:AgentParticipation {uuid: 'agentparticipation-agent-william_t_riker-event-1-1'})
+MATCH (a:Agent {uuid: 'agent_william_t_riker'}),
+          (b:AgentParticipation {uuid: 'agentparticipation_agent_william_t_riker_event_1_1'})
     MERGE (a)-[:HAS_PARTICIPATION]->(b);
-MATCH (a:AgentParticipation {uuid: 'agentparticipation-agent-william_t_riker-event-1-1'}),
-          (b:Event {uuid: 'event-1-1'})
+MATCH (a:AgentParticipation {uuid: 'agentparticipation_agent_william_t_riker_event_1_1'}),
+          (b:Event {uuid: 'event_1_1'})
     MERGE (a)-[:IN_EVENT]->(b);
-MATCH (a:Agent {uuid: 'agent-data'}),
-          (b:AgentParticipation {uuid: 'agentparticipation-agent-data-event-1-1'})
+MATCH (a:Agent {uuid: 'agent_data'}),
+          (b:AgentParticipation {uuid: 'agentparticipation_agent_data_event_1_1'})
     MERGE (a)-[:HAS_PARTICIPATION]->(b);
-MATCH (a:AgentParticipation {uuid: 'agentparticipation-agent-data-event-1-1'}),
-          (b:Event {uuid: 'event-1-1'})
+MATCH (a:AgentParticipation {uuid: 'agentparticipation_agent_data_event_1_1'}),
+          (b:Event {uuid: 'event_1_1'})
     MERGE (a)-[:IN_EVENT]->(b);
-MATCH (a:Agent {uuid: 'agent-worf'}),
-          (b:AgentParticipation {uuid: 'agentparticipation-agent-worf-event-1-1'})
+MATCH (a:Agent {uuid: 'agent_worf'}),
+          (b:AgentParticipation {uuid: 'agentparticipation_agent_worf_event_1_1'})
     MERGE (a)-[:HAS_PARTICIPATION]->(b);
-MATCH (a:AgentParticipation {uuid: 'agentparticipation-agent-worf-event-1-1'}),
-          (b:Event {uuid: 'event-1-1'})
+MATCH (a:AgentParticipation {uuid: 'agentparticipation_agent_worf_event_1_1'}),
+          (b:Event {uuid: 'event_1_1'})
     MERGE (a)-[:IN_EVENT]->(b);
-MATCH (a:Agent {uuid: 'agent-janina_taur'}),
-          (b:AgentParticipation {uuid: 'agentparticipation-agent-janina_taur-event-1-1'})
+MATCH (a:Agent {uuid: 'agent_janina_taur'}),
+          (b:AgentParticipation {uuid: 'agentparticipation_agent_janina_taur_event_1_1'})
     MERGE (a)-[:HAS_PARTICIPATION]->(b);
-MATCH (a:AgentParticipation {uuid: 'agentparticipation-agent-janina_taur-event-1-1'}),
-          (b:Event {uuid: 'event-1-1'})
+MATCH (a:AgentParticipation {uuid: 'agentparticipation_agent_janina_taur_event_1_1'}),
+          (b:Event {uuid: 'event_1_1'})
     MERGE (a)-[:IN_EVENT]->(b);
-MATCH (a:Agent {uuid: 'agent-jean_luc_picard'}),
-          (b:AgentParticipation {uuid: 'agentparticipation-agent-jean_luc_picard-event-1-2'})
+MATCH (a:Agent {uuid: 'agent_jean_luc_picard'}),
+          (b:AgentParticipation {uuid: 'agentparticipation_agent_jean_luc_picard_event_1_2'})
     MERGE (a)-[:HAS_PARTICIPATION]->(b);
-MATCH (a:AgentParticipation {uuid: 'agentparticipation-agent-jean_luc_picard-event-1-2'}),
-          (b:Event {uuid: 'event-1-2'})
+MATCH (a:AgentParticipation {uuid: 'agentparticipation_agent_jean_luc_picard_event_1_2'}),
+          (b:Event {uuid: 'event_1_2'})
     MERGE (a)-[:IN_EVENT]->(b);
-MATCH (a:Agent {uuid: 'agent-william_t_riker'}),
-          (b:AgentParticipation {uuid: 'agentparticipation-agent-william_t_riker-event-1-2'})
+MATCH (a:Agent {uuid: 'agent_william_t_riker'}),
+          (b:AgentParticipation {uuid: 'agentparticipation_agent_william_t_riker_event_1_2'})
     MERGE (a)-[:HAS_PARTICIPATION]->(b);
-MATCH (a:AgentParticipation {uuid: 'agentparticipation-agent-william_t_riker-event-1-2'}),
-          (b:Event {uuid: 'event-1-2'})
+MATCH (a:AgentParticipation {uuid: 'agentparticipation_agent_william_t_riker_event_1_2'}),
+          (b:Event {uuid: 'event_1_2'})
     MERGE (a)-[:IN_EVENT]->(b);
-MATCH (a:Agent {uuid: 'agent-data'}),
-          (b:AgentParticipation {uuid: 'agentparticipation-agent-data-event-1-2'})
+MATCH (a:Agent {uuid: 'agent_data'}),
+          (b:AgentParticipation {uuid: 'agentparticipation_agent_data_event_1_2'})
     MERGE (a)-[:HAS_PARTICIPATION]->(b);
-MATCH (a:AgentParticipation {uuid: 'agentparticipation-agent-data-event-1-2'}),
-          (b:Event {uuid: 'event-1-2'})
+MATCH (a:AgentParticipation {uuid: 'agentparticipation_agent_data_event_1_2'}),
+          (b:Event {uuid: 'event_1_2'})
     MERGE (a)-[:IN_EVENT]->(b);
-MATCH (a:Agent {uuid: 'agent-worf'}),
-          (b:AgentParticipation {uuid: 'agentparticipation-agent-worf-event-1-2'})
+MATCH (a:Agent {uuid: 'agent_worf'}),
+          (b:AgentParticipation {uuid: 'agentparticipation_agent_worf_event_1_2'})
     MERGE (a)-[:HAS_PARTICIPATION]->(b);
-MATCH (a:AgentParticipation {uuid: 'agentparticipation-agent-worf-event-1-2'}),
-          (b:Event {uuid: 'event-1-2'})
+MATCH (a:AgentParticipation {uuid: 'agentparticipation_agent_worf_event_1_2'}),
+          (b:Event {uuid: 'event_1_2'})
     MERGE (a)-[:IN_EVENT]->(b);
-MATCH (a:Agent {uuid: 'agent-janina_taur'}),
-          (b:AgentParticipation {uuid: 'agentparticipation-agent-janina_taur-event-1-2'})
+MATCH (a:Agent {uuid: 'agent_janina_taur'}),
+          (b:AgentParticipation {uuid: 'agentparticipation_agent_janina_taur_event_1_2'})
     MERGE (a)-[:HAS_PARTICIPATION]->(b);
-MATCH (a:AgentParticipation {uuid: 'agentparticipation-agent-janina_taur-event-1-2'}),
-          (b:Event {uuid: 'event-1-2'})
+MATCH (a:AgentParticipation {uuid: 'agentparticipation_agent_janina_taur_event_1_2'}),
+          (b:Event {uuid: 'event_1_2'})
     MERGE (a)-[:IN_EVENT]->(b);
-MATCH (a:Agent {uuid: 'agent-jean_luc_picard'}),
-          (b:AgentParticipation {uuid: 'agentparticipation-agent-jean_luc_picard-event-1-3'})
+MATCH (a:Agent {uuid: 'agent_jean_luc_picard'}),
+          (b:AgentParticipation {uuid: 'agentparticipation_agent_jean_luc_picard_event_1_3'})
     MERGE (a)-[:HAS_PARTICIPATION]->(b);
-MATCH (a:AgentParticipation {uuid: 'agentparticipation-agent-jean_luc_picard-event-1-3'}),
-          (b:Event {uuid: 'event-1-3'})
+MATCH (a:AgentParticipation {uuid: 'agentparticipation_agent_jean_luc_picard_event_1_3'}),
+          (b:Event {uuid: 'event_1_3'})
     MERGE (a)-[:IN_EVENT]->(b);
-MATCH (a:Agent {uuid: 'agent-william_t_riker'}),
-          (b:AgentParticipation {uuid: 'agentparticipation-agent-william_t_riker-event-1-3'})
+MATCH (a:Agent {uuid: 'agent_william_t_riker'}),
+          (b:AgentParticipation {uuid: 'agentparticipation_agent_william_t_riker_event_1_3'})
     MERGE (a)-[:HAS_PARTICIPATION]->(b);
-MATCH (a:AgentParticipation {uuid: 'agentparticipation-agent-william_t_riker-event-1-3'}),
-          (b:Event {uuid: 'event-1-3'})
+MATCH (a:AgentParticipation {uuid: 'agentparticipation_agent_william_t_riker_event_1_3'}),
+          (b:Event {uuid: 'event_1_3'})
     MERGE (a)-[:IN_EVENT]->(b);
-MATCH (a:Agent {uuid: 'agent-data'}),
-          (b:AgentParticipation {uuid: 'agentparticipation-agent-data-event-1-3'})
+MATCH (a:Agent {uuid: 'agent_data'}),
+          (b:AgentParticipation {uuid: 'agentparticipation_agent_data_event_1_3'})
     MERGE (a)-[:HAS_PARTICIPATION]->(b);
-MATCH (a:AgentParticipation {uuid: 'agentparticipation-agent-data-event-1-3'}),
-          (b:Event {uuid: 'event-1-3'})
+MATCH (a:AgentParticipation {uuid: 'agentparticipation_agent_data_event_1_3'}),
+          (b:Event {uuid: 'event_1_3'})
     MERGE (a)-[:IN_EVENT]->(b);
-MATCH (a:Agent {uuid: 'agent-worf'}),
-          (b:AgentParticipation {uuid: 'agentparticipation-agent-worf-event-1-3'})
+MATCH (a:Agent {uuid: 'agent_janina_taur'}),
+          (b:AgentParticipation {uuid: 'agentparticipation_agent_janina_taur_event_1_3'})
     MERGE (a)-[:HAS_PARTICIPATION]->(b);
-MATCH (a:AgentParticipation {uuid: 'agentparticipation-agent-worf-event-1-3'}),
-          (b:Event {uuid: 'event-1-3'})
+MATCH (a:AgentParticipation {uuid: 'agentparticipation_agent_janina_taur_event_1_3'}),
+          (b:Event {uuid: 'event_1_3'})
     MERGE (a)-[:IN_EVENT]->(b);
-MATCH (a:Agent {uuid: 'agent-janina_taur'}),
-          (b:AgentParticipation {uuid: 'agentparticipation-agent-janina_taur-event-1-3'})
-    MERGE (a)-[:HAS_PARTICIPATION]->(b);
-MATCH (a:AgentParticipation {uuid: 'agentparticipation-agent-janina_taur-event-1-3'}),
-          (b:Event {uuid: 'event-1-3'})
-    MERGE (a)-[:IN_EVENT]->(b);
-MATCH (a:Agent {uuid: 'agent-jean_luc_picard'}),
-          (b:AgentParticipation {uuid: 'agentparticipation-agent-jean_luc_picard-event-1-4'})
-    MERGE (a)-[:HAS_PARTICIPATION]->(b);
-MATCH (a:AgentParticipation {uuid: 'agentparticipation-agent-jean_luc_picard-event-1-4'}),
-          (b:Event {uuid: 'event-1-4'})
-    MERGE (a)-[:IN_EVENT]->(b);
-MATCH (a:Agent {uuid: 'agent-janina_taur'}),
-          (b:AgentParticipation {uuid: 'agentparticipation-agent-janina_taur-event-1-4'})
-    MERGE (a)-[:HAS_PARTICIPATION]->(b);
-MATCH (a:AgentParticipation {uuid: 'agentparticipation-agent-janina_taur-event-1-4'}),
-          (b:Event {uuid: 'event-1-4'})
-    MERGE (a)-[:IN_EVENT]->(b);
-MATCH (a:Scene {uuid: 'scene-2'}),
-          (b:Location {uuid: 'location-uss_enterprise_d_observation_lounge'})
+MATCH (a:Scene {uuid: 'scene_2'}),
+          (b:Location {uuid: 'location_uss_enterprise_d_observation_lounge'})
     MERGE (a)-[:LOCATED_IN]->(b);
-MATCH (s:Scene {uuid: 'scene-2'}),
-          (ep:Episode {uuid: 'episode-episode_one_-_echoes_of_the_past'})
+MATCH (s:Scene {uuid: 'scene_2'}),
+          (ep:Episode {uuid: 'episode_episode_one_-_echoes_of_the_past'})
     MERGE (s)-[:PART_OF]->(ep);
-MATCH (a:Scene {uuid: 'scene-1'}),
-          (b:Scene {uuid: 'scene-2'})
+MATCH (a:Scene {uuid: 'scene_1'}),
+          (b:Scene {uuid: 'scene_2'})
     MERGE (a)-[:NEXT_SCENE]->(b);
-MATCH (a:Event {uuid: 'event-2-1'}),
-          (b:Scene {uuid: 'scene-2'})
+MATCH (a:Event {uuid: 'event_2_1'}),
+          (b:Scene {uuid: 'scene_2'})
     MERGE (a)-[:OCCURS_IN]->(b);
-MATCH (a:Event {uuid: 'event-2-2'}),
-          (b:Scene {uuid: 'scene-2'})
+MATCH (a:Event {uuid: 'event_2_2'}),
+          (b:Scene {uuid: 'scene_2'})
     MERGE (a)-[:OCCURS_IN]->(b);
-MATCH (a:Event {uuid: 'event-2-1'}),
-          (b:Event {uuid: 'event-2-2'})
+MATCH (a:Event {uuid: 'event_2_1'}),
+          (b:Event {uuid: 'event_2_2'})
     MERGE (a)-[:NEXT_EVENT]->(b);
-MATCH (a:Event {uuid: 'event-2-3'}),
-          (b:Scene {uuid: 'scene-2'})
-    MERGE (a)-[:OCCURS_IN]->(b);
-MATCH (a:Event {uuid: 'event-2-2'}),
-          (b:Event {uuid: 'event-2-3'})
-    MERGE (a)-[:NEXT_EVENT]->(b);
-MATCH (a:Event {uuid: 'event-2-4'}),
-          (b:Scene {uuid: 'scene-2'})
-    MERGE (a)-[:OCCURS_IN]->(b);
-MATCH (a:Event {uuid: 'event-2-3'}),
-          (b:Event {uuid: 'event-2-4'})
-    MERGE (a)-[:NEXT_EVENT]->(b);
-MATCH (a:Agent {uuid: 'agent-jean_luc_picard'}),
-          (b:AgentParticipation {uuid: 'agentparticipation-agent-jean_luc_picard-event-2-1'})
+MATCH (a:Agent {uuid: 'agent_jean_luc_picard'}),
+          (b:AgentParticipation {uuid: 'agentparticipation_agent_jean_luc_picard_event_2_1'})
     MERGE (a)-[:HAS_PARTICIPATION]->(b);
-MATCH (a:AgentParticipation {uuid: 'agentparticipation-agent-jean_luc_picard-event-2-1'}),
-          (b:Event {uuid: 'event-2-1'})
+MATCH (a:AgentParticipation {uuid: 'agentparticipation_agent_jean_luc_picard_event_2_1'}),
+          (b:Event {uuid: 'event_2_1'})
     MERGE (a)-[:IN_EVENT]->(b);
-MATCH (a:Agent {uuid: 'agent-deanna_troi'}),
-          (b:AgentParticipation {uuid: 'agentparticipation-agent-deanna_troi-event-2-1'})
+MATCH (a:Agent {uuid: 'agent_william_t_riker'}),
+          (b:AgentParticipation {uuid: 'agentparticipation_agent_william_t_riker_event_2_1'})
     MERGE (a)-[:HAS_PARTICIPATION]->(b);
-MATCH (a:AgentParticipation {uuid: 'agentparticipation-agent-deanna_troi-event-2-1'}),
-          (b:Event {uuid: 'event-2-1'})
+MATCH (a:AgentParticipation {uuid: 'agentparticipation_agent_william_t_riker_event_2_1'}),
+          (b:Event {uuid: 'event_2_1'})
     MERGE (a)-[:IN_EVENT]->(b);
-MATCH (a:Agent {uuid: 'agent-william_t_riker'}),
-          (b:AgentParticipation {uuid: 'agentparticipation-agent-william_t_riker-event-2-1'})
+MATCH (a:Agent {uuid: 'agent_deanna_troi'}),
+          (b:AgentParticipation {uuid: 'agentparticipation_agent_deanna_troi_event_2_1'})
     MERGE (a)-[:HAS_PARTICIPATION]->(b);
-MATCH (a:AgentParticipation {uuid: 'agentparticipation-agent-william_t_riker-event-2-1'}),
-          (b:Event {uuid: 'event-2-1'})
+MATCH (a:AgentParticipation {uuid: 'agentparticipation_agent_deanna_troi_event_2_1'}),
+          (b:Event {uuid: 'event_2_1'})
     MERGE (a)-[:IN_EVENT]->(b);
-MATCH (a:Agent {uuid: 'agent-jean_luc_picard'}),
-          (b:AgentParticipation {uuid: 'agentparticipation-agent-jean_luc_picard-event-2-2'})
+MATCH (a:Agent {uuid: 'agent_jean_luc_picard'}),
+          (b:AgentParticipation {uuid: 'agentparticipation_agent_jean_luc_picard_event_2_2'})
     MERGE (a)-[:HAS_PARTICIPATION]->(b);
-MATCH (a:AgentParticipation {uuid: 'agentparticipation-agent-jean_luc_picard-event-2-2'}),
-          (b:Event {uuid: 'event-2-2'})
+MATCH (a:AgentParticipation {uuid: 'agentparticipation_agent_jean_luc_picard_event_2_2'}),
+          (b:Event {uuid: 'event_2_2'})
     MERGE (a)-[:IN_EVENT]->(b);
-MATCH (a:Agent {uuid: 'agent-william_t_riker'}),
-          (b:AgentParticipation {uuid: 'agentparticipation-agent-william_t_riker-event-2-2'})
+MATCH (a:Agent {uuid: 'agent_william_t_riker'}),
+          (b:AgentParticipation {uuid: 'agentparticipation_agent_william_t_riker_event_2_2'})
     MERGE (a)-[:HAS_PARTICIPATION]->(b);
-MATCH (a:AgentParticipation {uuid: 'agentparticipation-agent-william_t_riker-event-2-2'}),
-          (b:Event {uuid: 'event-2-2'})
+MATCH (a:AgentParticipation {uuid: 'agentparticipation_agent_william_t_riker_event_2_2'}),
+          (b:Event {uuid: 'event_2_2'})
     MERGE (a)-[:IN_EVENT]->(b);
-MATCH (a:Agent {uuid: 'agent-deanna_troi'}),
-          (b:AgentParticipation {uuid: 'agentparticipation-agent-deanna_troi-event-2-2'})
+MATCH (a:Agent {uuid: 'agent_deanna_troi'}),
+          (b:AgentParticipation {uuid: 'agentparticipation_agent_deanna_troi_event_2_2'})
     MERGE (a)-[:HAS_PARTICIPATION]->(b);
-MATCH (a:AgentParticipation {uuid: 'agentparticipation-agent-deanna_troi-event-2-2'}),
-          (b:Event {uuid: 'event-2-2'})
+MATCH (a:AgentParticipation {uuid: 'agentparticipation_agent_deanna_troi_event_2_2'}),
+          (b:Event {uuid: 'event_2_2'})
     MERGE (a)-[:IN_EVENT]->(b);
-MATCH (a:Agent {uuid: 'agent-jean_luc_picard'}),
-          (b:AgentParticipation {uuid: 'agentparticipation-agent-jean_luc_picard-event-2-3'})
-    MERGE (a)-[:HAS_PARTICIPATION]->(b);
-MATCH (a:AgentParticipation {uuid: 'agentparticipation-agent-jean_luc_picard-event-2-3'}),
-          (b:Event {uuid: 'event-2-3'})
-    MERGE (a)-[:IN_EVENT]->(b);
-MATCH (a:Agent {uuid: 'agent-william_t_riker'}),
-          (b:AgentParticipation {uuid: 'agentparticipation-agent-william_t_riker-event-2-3'})
-    MERGE (a)-[:HAS_PARTICIPATION]->(b);
-MATCH (a:AgentParticipation {uuid: 'agentparticipation-agent-william_t_riker-event-2-3'}),
-          (b:Event {uuid: 'event-2-3'})
-    MERGE (a)-[:IN_EVENT]->(b);
-MATCH (a:Agent {uuid: 'agent-deanna_troi'}),
-          (b:AgentParticipation {uuid: 'agentparticipation-agent-deanna_troi-event-2-3'})
-    MERGE (a)-[:HAS_PARTICIPATION]->(b);
-MATCH (a:AgentParticipation {uuid: 'agentparticipation-agent-deanna_troi-event-2-3'}),
-          (b:Event {uuid: 'event-2-3'})
-    MERGE (a)-[:IN_EVENT]->(b);
-MATCH (a:Agent {uuid: 'agent-deanna_troi'}),
-          (b:AgentParticipation {uuid: 'agentparticipation-agent-deanna_troi-event-2-4'})
-    MERGE (a)-[:HAS_PARTICIPATION]->(b);
-MATCH (a:AgentParticipation {uuid: 'agentparticipation-agent-deanna_troi-event-2-4'}),
-          (b:Event {uuid: 'event-2-4'})
-    MERGE (a)-[:IN_EVENT]->(b);
-MATCH (a:Scene {uuid: 'scene-3'}),
-          (b:Location {uuid: 'location_transporter_room_3'})
+MATCH (a:Scene {uuid: 'scene_3'}),
+          (b:Location {uuid: 'location_uss_enterprise_d_transporter_room_3'})
     MERGE (a)-[:LOCATED_IN]->(b);
-MATCH (s:Scene {uuid: 'scene-3'}),
-          (ep:Episode {uuid: 'episode-episode_one_-_echoes_of_the_past'})
+MATCH (s:Scene {uuid: 'scene_3'}),
+          (ep:Episode {uuid: 'episode_episode_one_-_echoes_of_the_past'})
     MERGE (s)-[:PART_OF]->(ep);
-MATCH (a:Scene {uuid: 'scene-2'}),
-          (b:Scene {uuid: 'scene-3'})
+MATCH (a:Scene {uuid: 'scene_2'}),
+          (b:Scene {uuid: 'scene_3'})
     MERGE (a)-[:NEXT_SCENE]->(b);
-MATCH (a:Event {uuid: 'event-3-1'}),
-          (b:Scene {uuid: 'scene-3'})
+MATCH (a:Event {uuid: 'event_3_1'}),
+          (b:Scene {uuid: 'scene_3'})
     MERGE (a)-[:OCCURS_IN]->(b);
-MATCH (a:Event {uuid: 'event-3-2'}),
-          (b:Scene {uuid: 'scene-3'})
+MATCH (a:Event {uuid: 'event_3_2'}),
+          (b:Scene {uuid: 'scene_3'})
     MERGE (a)-[:OCCURS_IN]->(b);
-MATCH (a:Event {uuid: 'event-3-1'}),
-          (b:Event {uuid: 'event-3-2'})
+MATCH (a:Event {uuid: 'event_3_1'}),
+          (b:Event {uuid: 'event_3_2'})
     MERGE (a)-[:NEXT_EVENT]->(b);
-MATCH (a:Event {uuid: 'event-3-3'}),
-          (b:Scene {uuid: 'scene-3'})
+MATCH (a:Event {uuid: 'event_3_3'}),
+          (b:Scene {uuid: 'scene_3'})
     MERGE (a)-[:OCCURS_IN]->(b);
-MATCH (a:Event {uuid: 'event-3-2'}),
-          (b:Event {uuid: 'event-3-3'})
+MATCH (a:Event {uuid: 'event_3_2'}),
+          (b:Event {uuid: 'event_3_3'})
     MERGE (a)-[:NEXT_EVENT]->(b);
-MATCH (a:Agent {uuid: 'agent-geordi_la_forge'}),
-          (b:AgentParticipation {uuid: 'agentparticipation-agent-geordi_la_forge-event-3-1'})
+MATCH (a:Event {uuid: 'event_3_4'}),
+          (b:Scene {uuid: 'scene_3'})
+    MERGE (a)-[:OCCURS_IN]->(b);
+MATCH (a:Event {uuid: 'event_3_3'}),
+          (b:Event {uuid: 'event_3_4'})
+    MERGE (a)-[:NEXT_EVENT]->(b);
+MATCH (a:Event {uuid: 'event_3_5'}),
+          (b:Scene {uuid: 'scene_3'})
+    MERGE (a)-[:OCCURS_IN]->(b);
+MATCH (a:Event {uuid: 'event_3_4'}),
+          (b:Event {uuid: 'event_3_5'})
+    MERGE (a)-[:NEXT_EVENT]->(b);
+MATCH (a:Agent {uuid: 'agent_geordi_la_forge'}),
+          (b:AgentParticipation {uuid: 'agentparticipation_agent_geordi_la_forge_event_3_1'})
     MERGE (a)-[:HAS_PARTICIPATION]->(b);
-MATCH (a:AgentParticipation {uuid: 'agentparticipation-agent-geordi_la_forge-event-3-1'}),
-          (b:Event {uuid: 'event-3-1'})
+MATCH (a:AgentParticipation {uuid: 'agentparticipation_agent_geordi_la_forge_event_3_1'}),
+          (b:Event {uuid: 'event_3_1'})
     MERGE (a)-[:IN_EVENT]->(b);
-MATCH (a:Agent {uuid: 'agent-reginald_barclay'}),
-          (b:AgentParticipation {uuid: 'agentparticipation-agent-reginald_barclay-event-3-1'})
+MATCH (a:Agent {uuid: 'agent_reginald_barclay'}),
+          (b:AgentParticipation {uuid: 'agentparticipation_agent_reginald_barclay_event_3_1'})
     MERGE (a)-[:HAS_PARTICIPATION]->(b);
-MATCH (a:AgentParticipation {uuid: 'agentparticipation-agent-reginald_barclay-event-3-1'}),
-          (b:Event {uuid: 'event-3-1'})
+MATCH (a:AgentParticipation {uuid: 'agentparticipation_agent_reginald_barclay_event_3_1'}),
+          (b:Event {uuid: 'event_3_1'})
     MERGE (a)-[:IN_EVENT]->(b);
-MATCH (a:Agent {uuid: 'agent-miles_obrien'}),
-          (b:AgentParticipation {uuid: 'agentparticipation-agent-miles_obrien-event-3-1'})
+MATCH (a:Agent {uuid: 'agent_miles_o_brien'}),
+          (b:AgentParticipation {uuid: 'agentparticipation_agent_miles_o_brien_event_3_1'})
     MERGE (a)-[:HAS_PARTICIPATION]->(b);
-MATCH (a:AgentParticipation {uuid: 'agentparticipation-agent-miles_obrien-event-3-1'}),
-          (b:Event {uuid: 'event-3-1'})
+MATCH (a:AgentParticipation {uuid: 'agentparticipation_agent_miles_o_brien_event_3_1'}),
+          (b:Event {uuid: 'event_3_1'})
     MERGE (a)-[:IN_EVENT]->(b);
-MATCH (a:Agent {uuid: 'agent-data'}),
-          (b:AgentParticipation {uuid: 'agentparticipation-agent-data-event-3-1'})
+MATCH (a:Agent {uuid: 'agent_data'}),
+          (b:AgentParticipation {uuid: 'agentparticipation_agent_data_event_3_1'})
     MERGE (a)-[:HAS_PARTICIPATION]->(b);
-MATCH (a:AgentParticipation {uuid: 'agentparticipation-agent-data-event-3-1'}),
-          (b:Event {uuid: 'event-3-1'})
+MATCH (a:AgentParticipation {uuid: 'agentparticipation_agent_data_event_3_1'}),
+          (b:Event {uuid: 'event_3_1'})
     MERGE (a)-[:IN_EVENT]->(b);
-MATCH (a:Agent {uuid: 'agent-worf'}),
-          (b:AgentParticipation {uuid: 'agentparticipation-agent-worf-event-3-1'})
+MATCH (a:Agent {uuid: 'agent_worf'}),
+          (b:AgentParticipation {uuid: 'agentparticipation_agent_worf_event_3_1'})
     MERGE (a)-[:HAS_PARTICIPATION]->(b);
-MATCH (a:AgentParticipation {uuid: 'agentparticipation-agent-worf-event-3-1'}),
-          (b:Event {uuid: 'event-3-1'})
+MATCH (a:AgentParticipation {uuid: 'agentparticipation_agent_worf_event_3_1'}),
+          (b:Event {uuid: 'event_3_1'})
     MERGE (a)-[:IN_EVENT]->(b);
-MATCH (a:Agent {uuid: 'agent-worf'}),
-          (b:AgentParticipation {uuid: 'agentparticipation-agent-worf-event-3-2'})
+MATCH (a:Agent {uuid: 'agent_jean_luc_picard'}),
+          (b:AgentParticipation {uuid: 'agentparticipation_agent_jean_luc_picard_event_3_1'})
     MERGE (a)-[:HAS_PARTICIPATION]->(b);
-MATCH (a:AgentParticipation {uuid: 'agentparticipation-agent-worf-event-3-2'}),
-          (b:Event {uuid: 'event-3-2'})
+MATCH (a:AgentParticipation {uuid: 'agentparticipation_agent_jean_luc_picard_event_3_1'}),
+          (b:Event {uuid: 'event_3_1'})
     MERGE (a)-[:IN_EVENT]->(b);
-MATCH (a:Agent {uuid: 'agent-jean_luc_picard'}),
-          (b:AgentParticipation {uuid: 'agentparticipation-agent-jean_luc_picard-event-3-2'})
+MATCH (a:Agent {uuid: 'agent_davies'}),
+          (b:AgentParticipation {uuid: 'agentparticipation_agent_davies_event_3_1'})
     MERGE (a)-[:HAS_PARTICIPATION]->(b);
-MATCH (a:AgentParticipation {uuid: 'agentparticipation-agent-jean_luc_picard-event-3-2'}),
-          (b:Event {uuid: 'event-3-2'})
+MATCH (a:AgentParticipation {uuid: 'agentparticipation_agent_davies_event_3_1'}),
+          (b:Event {uuid: 'event_3_1'})
     MERGE (a)-[:IN_EVENT]->(b);
-MATCH (a:Agent {uuid: 'agent-geordi_la_forge'}),
-          (b:AgentParticipation {uuid: 'agentparticipation-agent-geordi_la_forge-event-3-3'})
+MATCH (a:Agent {uuid: 'agent_lal'}),
+          (b:AgentParticipation {uuid: 'agentparticipation_agent_lal_event_3_1'})
     MERGE (a)-[:HAS_PARTICIPATION]->(b);
-MATCH (a:AgentParticipation {uuid: 'agentparticipation-agent-geordi_la_forge-event-3-3'}),
-          (b:Event {uuid: 'event-3-3'})
+MATCH (a:AgentParticipation {uuid: 'agentparticipation_agent_lal_event_3_1'}),
+          (b:Event {uuid: 'event_3_1'})
     MERGE (a)-[:IN_EVENT]->(b);
-MATCH (a:Agent {uuid: 'agent-reginald_barclay'}),
-          (b:AgentParticipation {uuid: 'agentparticipation-agent-reginald_barclay-event-3-3'})
+MATCH (a:Agent {uuid: 'agent_geordi_la_forge'}),
+          (b:AgentParticipation {uuid: 'agentparticipation_agent_geordi_la_forge_event_3_2'})
     MERGE (a)-[:HAS_PARTICIPATION]->(b);
-MATCH (a:AgentParticipation {uuid: 'agentparticipation-agent-reginald_barclay-event-3-3'}),
-          (b:Event {uuid: 'event-3-3'})
+MATCH (a:AgentParticipation {uuid: 'agentparticipation_agent_geordi_la_forge_event_3_2'}),
+          (b:Event {uuid: 'event_3_2'})
     MERGE (a)-[:IN_EVENT]->(b);
-MATCH (a:Agent {uuid: 'agent-miles_obrien'}),
-          (b:AgentParticipation {uuid: 'agentparticipation-agent-miles_obrien-event-3-3'})
+MATCH (a:Agent {uuid: 'agent_reginald_barclay'}),
+          (b:AgentParticipation {uuid: 'agentparticipation_agent_reginald_barclay_event_3_2'})
     MERGE (a)-[:HAS_PARTICIPATION]->(b);
-MATCH (a:AgentParticipation {uuid: 'agentparticipation-agent-miles_obrien-event-3-3'}),
-          (b:Event {uuid: 'event-3-3'})
+MATCH (a:AgentParticipation {uuid: 'agentparticipation_agent_reginald_barclay_event_3_2'}),
+          (b:Event {uuid: 'event_3_2'})
     MERGE (a)-[:IN_EVENT]->(b);
-MATCH (a:Agent {uuid: 'agent-data'}),
-          (b:AgentParticipation {uuid: 'agentparticipation-agent-data-event-3-3'})
+MATCH (a:Agent {uuid: 'agent_miles_o_brien'}),
+          (b:AgentParticipation {uuid: 'agentparticipation_agent_miles_o_brien_event_3_2'})
     MERGE (a)-[:HAS_PARTICIPATION]->(b);
-MATCH (a:AgentParticipation {uuid: 'agentparticipation-agent-data-event-3-3'}),
-          (b:Event {uuid: 'event-3-3'})
+MATCH (a:AgentParticipation {uuid: 'agentparticipation_agent_miles_o_brien_event_3_2'}),
+          (b:Event {uuid: 'event_3_2'})
     MERGE (a)-[:IN_EVENT]->(b);
-MATCH (a:Agent {uuid: 'agent-worf'}),
-          (b:AgentParticipation {uuid: 'agentparticipation-agent-worf-event-3-3'})
+MATCH (a:Agent {uuid: 'agent_data'}),
+          (b:AgentParticipation {uuid: 'agentparticipation_agent_data_event_3_2'})
     MERGE (a)-[:HAS_PARTICIPATION]->(b);
-MATCH (a:AgentParticipation {uuid: 'agentparticipation-agent-worf-event-3-3'}),
-          (b:Event {uuid: 'event-3-3'})
+MATCH (a:AgentParticipation {uuid: 'agentparticipation_agent_data_event_3_2'}),
+          (b:Event {uuid: 'event_3_2'})
     MERGE (a)-[:IN_EVENT]->(b);
-MATCH (a:Agent {uuid: 'agent-jean_luc_picard'}),
-          (b:AgentParticipation {uuid: 'agentparticipation-agent-jean_luc_picard-event-3-3'})
+MATCH (a:Agent {uuid: 'agent_worf'}),
+          (b:AgentParticipation {uuid: 'agentparticipation_agent_worf_event_3_2'})
     MERGE (a)-[:HAS_PARTICIPATION]->(b);
-MATCH (a:AgentParticipation {uuid: 'agentparticipation-agent-jean_luc_picard-event-3-3'}),
-          (b:Event {uuid: 'event-3-3'})
+MATCH (a:AgentParticipation {uuid: 'agentparticipation_agent_worf_event_3_2'}),
+          (b:Event {uuid: 'event_3_2'})
     MERGE (a)-[:IN_EVENT]->(b);
-MATCH (a:Scene {uuid: 'scene-4'}),
+MATCH (a:Agent {uuid: 'agent_jean_luc_picard'}),
+          (b:AgentParticipation {uuid: 'agentparticipation_agent_jean_luc_picard_event_3_2'})
+    MERGE (a)-[:HAS_PARTICIPATION]->(b);
+MATCH (a:AgentParticipation {uuid: 'agentparticipation_agent_jean_luc_picard_event_3_2'}),
+          (b:Event {uuid: 'event_3_2'})
+    MERGE (a)-[:IN_EVENT]->(b);
+MATCH (a:Agent {uuid: 'agent_davies'}),
+          (b:AgentParticipation {uuid: 'agentparticipation_agent_davies_event_3_2'})
+    MERGE (a)-[:HAS_PARTICIPATION]->(b);
+MATCH (a:AgentParticipation {uuid: 'agentparticipation_agent_davies_event_3_2'}),
+          (b:Event {uuid: 'event_3_2'})
+    MERGE (a)-[:IN_EVENT]->(b);
+MATCH (a:Agent {uuid: 'agent_lal'}),
+          (b:AgentParticipation {uuid: 'agentparticipation_agent_lal_event_3_2'})
+    MERGE (a)-[:HAS_PARTICIPATION]->(b);
+MATCH (a:AgentParticipation {uuid: 'agentparticipation_agent_lal_event_3_2'}),
+          (b:Event {uuid: 'event_3_2'})
+    MERGE (a)-[:IN_EVENT]->(b);
+MATCH (a:Agent {uuid: 'agent_geordi_la_forge'}),
+          (b:AgentParticipation {uuid: 'agentparticipation_agent_geordi_la_forge_event_3_3'})
+    MERGE (a)-[:HAS_PARTICIPATION]->(b);
+MATCH (a:AgentParticipation {uuid: 'agentparticipation_agent_geordi_la_forge_event_3_3'}),
+          (b:Event {uuid: 'event_3_3'})
+    MERGE (a)-[:IN_EVENT]->(b);
+MATCH (a:Agent {uuid: 'agent_reginald_barclay'}),
+          (b:AgentParticipation {uuid: 'agentparticipation_agent_reginald_barclay_event_3_3'})
+    MERGE (a)-[:HAS_PARTICIPATION]->(b);
+MATCH (a:AgentParticipation {uuid: 'agentparticipation_agent_reginald_barclay_event_3_3'}),
+          (b:Event {uuid: 'event_3_3'})
+    MERGE (a)-[:IN_EVENT]->(b);
+MATCH (a:Agent {uuid: 'agent_miles_o_brien'}),
+          (b:AgentParticipation {uuid: 'agentparticipation_agent_miles_o_brien_event_3_3'})
+    MERGE (a)-[:HAS_PARTICIPATION]->(b);
+MATCH (a:AgentParticipation {uuid: 'agentparticipation_agent_miles_o_brien_event_3_3'}),
+          (b:Event {uuid: 'event_3_3'})
+    MERGE (a)-[:IN_EVENT]->(b);
+MATCH (a:Agent {uuid: 'agent_data'}),
+          (b:AgentParticipation {uuid: 'agentparticipation_agent_data_event_3_3'})
+    MERGE (a)-[:HAS_PARTICIPATION]->(b);
+MATCH (a:AgentParticipation {uuid: 'agentparticipation_agent_data_event_3_3'}),
+          (b:Event {uuid: 'event_3_3'})
+    MERGE (a)-[:IN_EVENT]->(b);
+MATCH (a:Agent {uuid: 'agent_worf'}),
+          (b:AgentParticipation {uuid: 'agentparticipation_agent_worf_event_3_3'})
+    MERGE (a)-[:HAS_PARTICIPATION]->(b);
+MATCH (a:AgentParticipation {uuid: 'agentparticipation_agent_worf_event_3_3'}),
+          (b:Event {uuid: 'event_3_3'})
+    MERGE (a)-[:IN_EVENT]->(b);
+MATCH (a:Agent {uuid: 'agent_jean_luc_picard'}),
+          (b:AgentParticipation {uuid: 'agentparticipation_agent_jean_luc_picard_event_3_3'})
+    MERGE (a)-[:HAS_PARTICIPATION]->(b);
+MATCH (a:AgentParticipation {uuid: 'agentparticipation_agent_jean_luc_picard_event_3_3'}),
+          (b:Event {uuid: 'event_3_3'})
+    MERGE (a)-[:IN_EVENT]->(b);
+MATCH (a:Agent {uuid: 'agent_davies'}),
+          (b:AgentParticipation {uuid: 'agentparticipation_agent_davies_event_3_3'})
+    MERGE (a)-[:HAS_PARTICIPATION]->(b);
+MATCH (a:AgentParticipation {uuid: 'agentparticipation_agent_davies_event_3_3'}),
+          (b:Event {uuid: 'event_3_3'})
+    MERGE (a)-[:IN_EVENT]->(b);
+MATCH (a:Agent {uuid: 'agent_lal'}),
+          (b:AgentParticipation {uuid: 'agentparticipation_agent_lal_event_3_3'})
+    MERGE (a)-[:HAS_PARTICIPATION]->(b);
+MATCH (a:AgentParticipation {uuid: 'agentparticipation_agent_lal_event_3_3'}),
+          (b:Event {uuid: 'event_3_3'})
+    MERGE (a)-[:IN_EVENT]->(b);
+MATCH (a:Agent {uuid: 'agent_geordi_la_forge'}),
+          (b:AgentParticipation {uuid: 'agentparticipation_agent_geordi_la_forge_event_3_4'})
+    MERGE (a)-[:HAS_PARTICIPATION]->(b);
+MATCH (a:AgentParticipation {uuid: 'agentparticipation_agent_geordi_la_forge_event_3_4'}),
+          (b:Event {uuid: 'event_3_4'})
+    MERGE (a)-[:IN_EVENT]->(b);
+MATCH (a:Agent {uuid: 'agent_reginald_barclay'}),
+          (b:AgentParticipation {uuid: 'agentparticipation_agent_reginald_barclay_event_3_4'})
+    MERGE (a)-[:HAS_PARTICIPATION]->(b);
+MATCH (a:AgentParticipation {uuid: 'agentparticipation_agent_reginald_barclay_event_3_4'}),
+          (b:Event {uuid: 'event_3_4'})
+    MERGE (a)-[:IN_EVENT]->(b);
+MATCH (a:Agent {uuid: 'agent_miles_o_brien'}),
+          (b:AgentParticipation {uuid: 'agentparticipation_agent_miles_o_brien_event_3_4'})
+    MERGE (a)-[:HAS_PARTICIPATION]->(b);
+MATCH (a:AgentParticipation {uuid: 'agentparticipation_agent_miles_o_brien_event_3_4'}),
+          (b:Event {uuid: 'event_3_4'})
+    MERGE (a)-[:IN_EVENT]->(b);
+MATCH (a:Agent {uuid: 'agent_data'}),
+          (b:AgentParticipation {uuid: 'agentparticipation_agent_data_event_3_4'})
+    MERGE (a)-[:HAS_PARTICIPATION]->(b);
+MATCH (a:AgentParticipation {uuid: 'agentparticipation_agent_data_event_3_4'}),
+          (b:Event {uuid: 'event_3_4'})
+    MERGE (a)-[:IN_EVENT]->(b);
+MATCH (a:Agent {uuid: 'agent_worf'}),
+          (b:AgentParticipation {uuid: 'agentparticipation_agent_worf_event_3_4'})
+    MERGE (a)-[:HAS_PARTICIPATION]->(b);
+MATCH (a:AgentParticipation {uuid: 'agentparticipation_agent_worf_event_3_4'}),
+          (b:Event {uuid: 'event_3_4'})
+    MERGE (a)-[:IN_EVENT]->(b);
+MATCH (a:Agent {uuid: 'agent_jean_luc_picard'}),
+          (b:AgentParticipation {uuid: 'agentparticipation_agent_jean_luc_picard_event_3_4'})
+    MERGE (a)-[:HAS_PARTICIPATION]->(b);
+MATCH (a:AgentParticipation {uuid: 'agentparticipation_agent_jean_luc_picard_event_3_4'}),
+          (b:Event {uuid: 'event_3_4'})
+    MERGE (a)-[:IN_EVENT]->(b);
+MATCH (a:Agent {uuid: 'agent_davies'}),
+          (b:AgentParticipation {uuid: 'agentparticipation_agent_davies_event_3_4'})
+    MERGE (a)-[:HAS_PARTICIPATION]->(b);
+MATCH (a:AgentParticipation {uuid: 'agentparticipation_agent_davies_event_3_4'}),
+          (b:Event {uuid: 'event_3_4'})
+    MERGE (a)-[:IN_EVENT]->(b);
+MATCH (a:Agent {uuid: 'agent_lal'}),
+          (b:AgentParticipation {uuid: 'agentparticipation_agent_lal_event_3_4'})
+    MERGE (a)-[:HAS_PARTICIPATION]->(b);
+MATCH (a:AgentParticipation {uuid: 'agentparticipation_agent_lal_event_3_4'}),
+          (b:Event {uuid: 'event_3_4'})
+    MERGE (a)-[:IN_EVENT]->(b);
+MATCH (a:Agent {uuid: 'agent_geordi_la_forge'}),
+          (b:AgentParticipation {uuid: 'agentparticipation_agent_geordi_la_forge_event_3_5'})
+    MERGE (a)-[:HAS_PARTICIPATION]->(b);
+MATCH (a:AgentParticipation {uuid: 'agentparticipation_agent_geordi_la_forge_event_3_5'}),
+          (b:Event {uuid: 'event_3_5'})
+    MERGE (a)-[:IN_EVENT]->(b);
+MATCH (a:Agent {uuid: 'agent_reginald_barclay'}),
+          (b:AgentParticipation {uuid: 'agentparticipation_agent_reginald_barclay_event_3_5'})
+    MERGE (a)-[:HAS_PARTICIPATION]->(b);
+MATCH (a:AgentParticipation {uuid: 'agentparticipation_agent_reginald_barclay_event_3_5'}),
+          (b:Event {uuid: 'event_3_5'})
+    MERGE (a)-[:IN_EVENT]->(b);
+MATCH (a:Agent {uuid: 'agent_miles_o_brien'}),
+          (b:AgentParticipation {uuid: 'agentparticipation_agent_miles_o_brien_event_3_5'})
+    MERGE (a)-[:HAS_PARTICIPATION]->(b);
+MATCH (a:AgentParticipation {uuid: 'agentparticipation_agent_miles_o_brien_event_3_5'}),
+          (b:Event {uuid: 'event_3_5'})
+    MERGE (a)-[:IN_EVENT]->(b);
+MATCH (a:Agent {uuid: 'agent_data'}),
+          (b:AgentParticipation {uuid: 'agentparticipation_agent_data_event_3_5'})
+    MERGE (a)-[:HAS_PARTICIPATION]->(b);
+MATCH (a:AgentParticipation {uuid: 'agentparticipation_agent_data_event_3_5'}),
+          (b:Event {uuid: 'event_3_5'})
+    MERGE (a)-[:IN_EVENT]->(b);
+MATCH (a:Agent {uuid: 'agent_worf'}),
+          (b:AgentParticipation {uuid: 'agentparticipation_agent_worf_event_3_5'})
+    MERGE (a)-[:HAS_PARTICIPATION]->(b);
+MATCH (a:AgentParticipation {uuid: 'agentparticipation_agent_worf_event_3_5'}),
+          (b:Event {uuid: 'event_3_5'})
+    MERGE (a)-[:IN_EVENT]->(b);
+MATCH (a:Agent {uuid: 'agent_jean_luc_picard'}),
+          (b:AgentParticipation {uuid: 'agentparticipation_agent_jean_luc_picard_event_3_5'})
+    MERGE (a)-[:HAS_PARTICIPATION]->(b);
+MATCH (a:AgentParticipation {uuid: 'agentparticipation_agent_jean_luc_picard_event_3_5'}),
+          (b:Event {uuid: 'event_3_5'})
+    MERGE (a)-[:IN_EVENT]->(b);
+MATCH (a:Agent {uuid: 'agent_davies'}),
+          (b:AgentParticipation {uuid: 'agentparticipation_agent_davies_event_3_5'})
+    MERGE (a)-[:HAS_PARTICIPATION]->(b);
+MATCH (a:AgentParticipation {uuid: 'agentparticipation_agent_davies_event_3_5'}),
+          (b:Event {uuid: 'event_3_5'})
+    MERGE (a)-[:IN_EVENT]->(b);
+MATCH (a:Agent {uuid: 'agent_lal'}),
+          (b:AgentParticipation {uuid: 'agentparticipation_agent_lal_event_3_5'})
+    MERGE (a)-[:HAS_PARTICIPATION]->(b);
+MATCH (a:AgentParticipation {uuid: 'agentparticipation_agent_lal_event_3_5'}),
+          (b:Event {uuid: 'event_3_5'})
+    MERGE (a)-[:IN_EVENT]->(b);
+MATCH (a:Scene {uuid: 'scene_4'}),
           (b:Location {uuid: 'location_melatrite_iii_subterranean_structure_central_chamber'})
     MERGE (a)-[:LOCATED_IN]->(b);
-MATCH (s:Scene {uuid: 'scene-4'}),
-          (ep:Episode {uuid: 'episode-episode_one_-_echoes_of_the_past'})
+MATCH (s:Scene {uuid: 'scene_4'}),
+          (ep:Episode {uuid: 'episode_episode_one_-_echoes_of_the_past'})
     MERGE (s)-[:PART_OF]->(ep);
-MATCH (a:Scene {uuid: 'scene-3'}),
-          (b:Scene {uuid: 'scene-4'})
+MATCH (a:Scene {uuid: 'scene_3'}),
+          (b:Scene {uuid: 'scene_4'})
     MERGE (a)-[:NEXT_SCENE]->(b);
-MATCH (a:Event {uuid: 'event-4-1'}),
-          (b:Scene {uuid: 'scene-4'})
+MATCH (a:Event {uuid: 'event_4_1'}),
+          (b:Scene {uuid: 'scene_4'})
     MERGE (a)-[:OCCURS_IN]->(b);
-MATCH (a:Event {uuid: 'event-4-2'}),
-          (b:Scene {uuid: 'scene-4'})
+MATCH (a:Event {uuid: 'event_4_2'}),
+          (b:Scene {uuid: 'scene_4'})
     MERGE (a)-[:OCCURS_IN]->(b);
-MATCH (a:Event {uuid: 'event-4-1'}),
-          (b:Event {uuid: 'event-4-2'})
+MATCH (a:Event {uuid: 'event_4_1'}),
+          (b:Event {uuid: 'event_4_2'})
     MERGE (a)-[:NEXT_EVENT]->(b);
-MATCH (a:Event {uuid: 'event-4-3'}),
-          (b:Scene {uuid: 'scene-4'})
+MATCH (a:Event {uuid: 'event_4_3'}),
+          (b:Scene {uuid: 'scene_4'})
     MERGE (a)-[:OCCURS_IN]->(b);
-MATCH (a:Event {uuid: 'event-4-2'}),
-          (b:Event {uuid: 'event-4-3'})
+MATCH (a:Event {uuid: 'event_4_2'}),
+          (b:Event {uuid: 'event_4_3'})
     MERGE (a)-[:NEXT_EVENT]->(b);
-MATCH (a:Agent {uuid: 'agent-data'}),
-          (b:AgentParticipation {uuid: 'agentparticipation-agent-data-event-4-1'})
+MATCH (a:Agent {uuid: 'agent_jean_luc_picard'}),
+          (b:AgentParticipation {uuid: 'agentparticipation_agent_jean_luc_picard_event_4_1'})
     MERGE (a)-[:HAS_PARTICIPATION]->(b);
-MATCH (a:AgentParticipation {uuid: 'agentparticipation-agent-data-event-4-1'}),
-          (b:Event {uuid: 'event-4-1'})
+MATCH (a:AgentParticipation {uuid: 'agentparticipation_agent_jean_luc_picard_event_4_1'}),
+          (b:Event {uuid: 'event_4_1'})
     MERGE (a)-[:IN_EVENT]->(b);
-MATCH (a:Agent {uuid: 'agent-worf'}),
-          (b:AgentParticipation {uuid: 'agentparticipation-agent-worf-event-4-1'})
+MATCH (a:Agent {uuid: 'agent_worf'}),
+          (b:AgentParticipation {uuid: 'agentparticipation_agent_worf_event_4_1'})
     MERGE (a)-[:HAS_PARTICIPATION]->(b);
-MATCH (a:AgentParticipation {uuid: 'agentparticipation-agent-worf-event-4-1'}),
-          (b:Event {uuid: 'event-4-1'})
+MATCH (a:AgentParticipation {uuid: 'agentparticipation_agent_worf_event_4_1'}),
+          (b:Event {uuid: 'event_4_1'})
     MERGE (a)-[:IN_EVENT]->(b);
-MATCH (a:Agent {uuid: 'agent-jean_luc_picard'}),
-          (b:AgentParticipation {uuid: 'agentparticipation-agent-jean_luc_picard-event-4-1'})
+MATCH (a:Agent {uuid: 'agent_data'}),
+          (b:AgentParticipation {uuid: 'agentparticipation_agent_data_event_4_1'})
     MERGE (a)-[:HAS_PARTICIPATION]->(b);
-MATCH (a:AgentParticipation {uuid: 'agentparticipation-agent-jean_luc_picard-event-4-1'}),
-          (b:Event {uuid: 'event-4-1'})
+MATCH (a:AgentParticipation {uuid: 'agentparticipation_agent_data_event_4_1'}),
+          (b:Event {uuid: 'event_4_1'})
     MERGE (a)-[:IN_EVENT]->(b);
-MATCH (a:Agent {uuid: 'agent-ancient_hologram'}),
-          (b:AgentParticipation {uuid: 'agentparticipation-agent-ancient_hologram-event-4-1'})
+MATCH (a:Agent {uuid: 'agent_ancient_hologram'}),
+          (b:AgentParticipation {uuid: 'agentparticipation_agent_ancient_hologram_event_4_1'})
     MERGE (a)-[:HAS_PARTICIPATION]->(b);
-MATCH (a:AgentParticipation {uuid: 'agentparticipation-agent-ancient_hologram-event-4-1'}),
-          (b:Event {uuid: 'event-4-1'})
+MATCH (a:AgentParticipation {uuid: 'agentparticipation_agent_ancient_hologram_event_4_1'}),
+          (b:Event {uuid: 'event_4_1'})
     MERGE (a)-[:IN_EVENT]->(b);
-MATCH (a:Agent {uuid: 'agent-worf'}),
-          (b:AgentParticipation {uuid: 'agentparticipation-agent-worf-event-4-2'})
+MATCH (a:Agent {uuid: 'agent_data'}),
+          (b:AgentParticipation {uuid: 'agentparticipation_agent_data_event_4_2'})
     MERGE (a)-[:HAS_PARTICIPATION]->(b);
-MATCH (a:AgentParticipation {uuid: 'agentparticipation-agent-worf-event-4-2'}),
-          (b:Event {uuid: 'event-4-2'})
+MATCH (a:AgentParticipation {uuid: 'agentparticipation_agent_data_event_4_2'}),
+          (b:Event {uuid: 'event_4_2'})
     MERGE (a)-[:IN_EVENT]->(b);
-MATCH (a:Agent {uuid: 'agent-jean_luc_picard'}),
-          (b:AgentParticipation {uuid: 'agentparticipation-agent-jean_luc_picard-event-4-2'})
+MATCH (a:Agent {uuid: 'agent_worf'}),
+          (b:AgentParticipation {uuid: 'agentparticipation_agent_worf_event_4_2'})
     MERGE (a)-[:HAS_PARTICIPATION]->(b);
-MATCH (a:AgentParticipation {uuid: 'agentparticipation-agent-jean_luc_picard-event-4-2'}),
-          (b:Event {uuid: 'event-4-2'})
+MATCH (a:AgentParticipation {uuid: 'agentparticipation_agent_worf_event_4_2'}),
+          (b:Event {uuid: 'event_4_2'})
     MERGE (a)-[:IN_EVENT]->(b);
-MATCH (a:Agent {uuid: 'agent-data'}),
-          (b:AgentParticipation {uuid: 'agentparticipation-agent-data-event-4-3'})
+MATCH (a:Agent {uuid: 'agent_jean_luc_picard'}),
+          (b:AgentParticipation {uuid: 'agentparticipation_agent_jean_luc_picard_event_4_2'})
     MERGE (a)-[:HAS_PARTICIPATION]->(b);
-MATCH (a:AgentParticipation {uuid: 'agentparticipation-agent-data-event-4-3'}),
-          (b:Event {uuid: 'event-4-3'})
+MATCH (a:AgentParticipation {uuid: 'agentparticipation_agent_jean_luc_picard_event_4_2'}),
+          (b:Event {uuid: 'event_4_2'})
     MERGE (a)-[:IN_EVENT]->(b);
-MATCH (a:Agent {uuid: 'agent-worf'}),
-          (b:AgentParticipation {uuid: 'agentparticipation-agent-worf-event-4-3'})
+MATCH (a:Agent {uuid: 'agent_ancient_hologram'}),
+          (b:AgentParticipation {uuid: 'agentparticipation_agent_ancient_hologram_event_4_2'})
     MERGE (a)-[:HAS_PARTICIPATION]->(b);
-MATCH (a:AgentParticipation {uuid: 'agentparticipation-agent-worf-event-4-3'}),
-          (b:Event {uuid: 'event-4-3'})
+MATCH (a:AgentParticipation {uuid: 'agentparticipation_agent_ancient_hologram_event_4_2'}),
+          (b:Event {uuid: 'event_4_2'})
     MERGE (a)-[:IN_EVENT]->(b);
-MATCH (a:Agent {uuid: 'agent-jean_luc_picard'}),
-          (b:AgentParticipation {uuid: 'agentparticipation-agent-jean_luc_picard-event-4-3'})
+MATCH (a:Agent {uuid: 'agent_jean_luc_picard'}),
+          (b:AgentParticipation {uuid: 'agentparticipation_agent_jean_luc_picard_event_4_3'})
     MERGE (a)-[:HAS_PARTICIPATION]->(b);
-MATCH (a:AgentParticipation {uuid: 'agentparticipation-agent-jean_luc_picard-event-4-3'}),
-          (b:Event {uuid: 'event-4-3'})
+MATCH (a:AgentParticipation {uuid: 'agentparticipation_agent_jean_luc_picard_event_4_3'}),
+          (b:Event {uuid: 'event_4_3'})
     MERGE (a)-[:IN_EVENT]->(b);
-MATCH (a:Agent {uuid: 'agent-ancient_hologram'}),
-          (b:AgentParticipation {uuid: 'agentparticipation-agent-ancient_hologram-event-4-3'})
+MATCH (a:Agent {uuid: 'agent_data'}),
+          (b:AgentParticipation {uuid: 'agentparticipation_agent_data_event_4_3'})
     MERGE (a)-[:HAS_PARTICIPATION]->(b);
-MATCH (a:AgentParticipation {uuid: 'agentparticipation-agent-ancient_hologram-event-4-3'}),
-          (b:Event {uuid: 'event-4-3'})
+MATCH (a:AgentParticipation {uuid: 'agentparticipation_agent_data_event_4_3'}),
+          (b:Event {uuid: 'event_4_3'})
     MERGE (a)-[:IN_EVENT]->(b);
-MATCH (a:Scene {uuid: 'scene-5'}),
-          (b:Location {uuid: 'location_melatrite_iii_subterranean_structure_central_chamber'})
+MATCH (a:Agent {uuid: 'agent_worf'}),
+          (b:AgentParticipation {uuid: 'agentparticipation_agent_worf_event_4_3'})
+    MERGE (a)-[:HAS_PARTICIPATION]->(b);
+MATCH (a:AgentParticipation {uuid: 'agentparticipation_agent_worf_event_4_3'}),
+          (b:Event {uuid: 'event_4_3'})
+    MERGE (a)-[:IN_EVENT]->(b);
+MATCH (a:Agent {uuid: 'agent_ancient_hologram'}),
+          (b:AgentParticipation {uuid: 'agentparticipation_agent_ancient_hologram_event_4_3'})
+    MERGE (a)-[:HAS_PARTICIPATION]->(b);
+MATCH (a:AgentParticipation {uuid: 'agentparticipation_agent_ancient_hologram_event_4_3'}),
+          (b:Event {uuid: 'event_4_3'})
+    MERGE (a)-[:IN_EVENT]->(b);
+MATCH (a:Scene {uuid: 'scene_5'}),
+          (b:Location {uuid: 'location_melatrite_iii_subterranean_archive'})
     MERGE (a)-[:LOCATED_IN]->(b);
-MATCH (s:Scene {uuid: 'scene-5'}),
-          (ep:Episode {uuid: 'episode-episode_one_-_echoes_of_the_past'})
+MATCH (s:Scene {uuid: 'scene_5'}),
+          (ep:Episode {uuid: 'episode_episode_one_-_echoes_of_the_past'})
     MERGE (s)-[:PART_OF]->(ep);
-MATCH (a:Scene {uuid: 'scene-4'}),
-          (b:Scene {uuid: 'scene-5'})
+MATCH (a:Scene {uuid: 'scene_4'}),
+          (b:Scene {uuid: 'scene_5'})
     MERGE (a)-[:NEXT_SCENE]->(b);
-MATCH (a:Event {uuid: 'event-5-1'}),
-          (b:Scene {uuid: 'scene-5'})
+MATCH (a:Event {uuid: 'event_5_1'}),
+          (b:Scene {uuid: 'scene_5'})
     MERGE (a)-[:OCCURS_IN]->(b);
-MATCH (a:Event {uuid: 'event-5-2'}),
-          (b:Scene {uuid: 'scene-5'})
+MATCH (a:Event {uuid: 'event_5_2'}),
+          (b:Scene {uuid: 'scene_5'})
     MERGE (a)-[:OCCURS_IN]->(b);
-MATCH (a:Event {uuid: 'event-5-1'}),
-          (b:Event {uuid: 'event-5-2'})
+MATCH (a:Event {uuid: 'event_5_1'}),
+          (b:Event {uuid: 'event_5_2'})
     MERGE (a)-[:NEXT_EVENT]->(b);
-MATCH (a:Agent {uuid: 'agent-data'}),
-          (b:AgentParticipation {uuid: 'agentparticipation-agent-data-event-5-1'})
+MATCH (a:Event {uuid: 'event_5_3'}),
+          (b:Scene {uuid: 'scene_5'})
+    MERGE (a)-[:OCCURS_IN]->(b);
+MATCH (a:Event {uuid: 'event_5_2'}),
+          (b:Event {uuid: 'event_5_3'})
+    MERGE (a)-[:NEXT_EVENT]->(b);
+MATCH (a:Agent {uuid: 'agent_jean_luc_picard'}),
+          (b:AgentParticipation {uuid: 'agentparticipation_agent_jean_luc_picard_event_5_1'})
     MERGE (a)-[:HAS_PARTICIPATION]->(b);
-MATCH (a:AgentParticipation {uuid: 'agentparticipation-agent-data-event-5-1'}),
-          (b:Event {uuid: 'event-5-1'})
+MATCH (a:AgentParticipation {uuid: 'agentparticipation_agent_jean_luc_picard_event_5_1'}),
+          (b:Event {uuid: 'event_5_1'})
     MERGE (a)-[:IN_EVENT]->(b);
-MATCH (a:Agent {uuid: 'agent-jean_luc_picard'}),
-          (b:AgentParticipation {uuid: 'agentparticipation-agent-jean_luc_picard-event-5-1'})
+MATCH (a:Agent {uuid: 'agent_data'}),
+          (b:AgentParticipation {uuid: 'agentparticipation_agent_data_event_5_1'})
     MERGE (a)-[:HAS_PARTICIPATION]->(b);
-MATCH (a:AgentParticipation {uuid: 'agentparticipation-agent-jean_luc_picard-event-5-1'}),
-          (b:Event {uuid: 'event-5-1'})
+MATCH (a:AgentParticipation {uuid: 'agentparticipation_agent_data_event_5_1'}),
+          (b:Event {uuid: 'event_5_1'})
     MERGE (a)-[:IN_EVENT]->(b);
-MATCH (a:Agent {uuid: 'agent-worf'}),
-          (b:AgentParticipation {uuid: 'agentparticipation-agent-worf-event-5-1'})
+MATCH (a:Agent {uuid: 'agent_worf'}),
+          (b:AgentParticipation {uuid: 'agentparticipation_agent_worf_event_5_1'})
     MERGE (a)-[:HAS_PARTICIPATION]->(b);
-MATCH (a:AgentParticipation {uuid: 'agentparticipation-agent-worf-event-5-1'}),
-          (b:Event {uuid: 'event-5-1'})
+MATCH (a:AgentParticipation {uuid: 'agentparticipation_agent_worf_event_5_1'}),
+          (b:Event {uuid: 'event_5_1'})
     MERGE (a)-[:IN_EVENT]->(b);
-MATCH (a:Agent {uuid: 'agent-ancient_hologram'}),
-          (b:AgentParticipation {uuid: 'agentparticipation-agent-ancient_hologram-event-5-1'})
+MATCH (a:Agent {uuid: 'agent_ancient_hologram'}),
+          (b:AgentParticipation {uuid: 'agentparticipation_agent_ancient_hologram_event_5_1'})
     MERGE (a)-[:HAS_PARTICIPATION]->(b);
-MATCH (a:AgentParticipation {uuid: 'agentparticipation-agent-ancient_hologram-event-5-1'}),
-          (b:Event {uuid: 'event-5-1'})
+MATCH (a:AgentParticipation {uuid: 'agentparticipation_agent_ancient_hologram_event_5_1'}),
+          (b:Event {uuid: 'event_5_1'})
     MERGE (a)-[:IN_EVENT]->(b);
-MATCH (a:Agent {uuid: 'agent-jean_luc_picard'}),
-          (b:AgentParticipation {uuid: 'agentparticipation-agent-jean_luc_picard-event-5-2'})
+MATCH (a:Agent {uuid: 'agent_data'}),
+          (b:AgentParticipation {uuid: 'agentparticipation_agent_data_event_5_2'})
     MERGE (a)-[:HAS_PARTICIPATION]->(b);
-MATCH (a:AgentParticipation {uuid: 'agentparticipation-agent-jean_luc_picard-event-5-2'}),
-          (b:Event {uuid: 'event-5-2'})
+MATCH (a:AgentParticipation {uuid: 'agentparticipation_agent_data_event_5_2'}),
+          (b:Event {uuid: 'event_5_2'})
     MERGE (a)-[:IN_EVENT]->(b);
-MATCH (a:Agent {uuid: 'agent-data'}),
-          (b:AgentParticipation {uuid: 'agentparticipation-agent-data-event-5-2'})
+MATCH (a:Agent {uuid: 'agent_jean_luc_picard'}),
+          (b:AgentParticipation {uuid: 'agentparticipation_agent_jean_luc_picard_event_5_2'})
     MERGE (a)-[:HAS_PARTICIPATION]->(b);
-MATCH (a:AgentParticipation {uuid: 'agentparticipation-agent-data-event-5-2'}),
-          (b:Event {uuid: 'event-5-2'})
+MATCH (a:AgentParticipation {uuid: 'agentparticipation_agent_jean_luc_picard_event_5_2'}),
+          (b:Event {uuid: 'event_5_2'})
     MERGE (a)-[:IN_EVENT]->(b);
-MATCH (a:Agent {uuid: 'agent-worf'}),
-          (b:AgentParticipation {uuid: 'agentparticipation-agent-worf-event-5-2'})
+MATCH (a:Agent {uuid: 'agent_worf'}),
+          (b:AgentParticipation {uuid: 'agentparticipation_agent_worf_event_5_2'})
     MERGE (a)-[:HAS_PARTICIPATION]->(b);
-MATCH (a:AgentParticipation {uuid: 'agentparticipation-agent-worf-event-5-2'}),
-          (b:Event {uuid: 'event-5-2'})
+MATCH (a:AgentParticipation {uuid: 'agentparticipation_agent_worf_event_5_2'}),
+          (b:Event {uuid: 'event_5_2'})
     MERGE (a)-[:IN_EVENT]->(b);
-MATCH (a:Agent {uuid: 'agent-ancient_hologram'}),
-          (b:AgentParticipation {uuid: 'agentparticipation-agent-ancient_hologram-event-5-2'})
+MATCH (a:Agent {uuid: 'agent_ancient_hologram'}),
+          (b:AgentParticipation {uuid: 'agentparticipation_agent_ancient_hologram_event_5_2'})
     MERGE (a)-[:HAS_PARTICIPATION]->(b);
-MATCH (a:AgentParticipation {uuid: 'agentparticipation-agent-ancient_hologram-event-5-2'}),
-          (b:Event {uuid: 'event-5-2'})
+MATCH (a:AgentParticipation {uuid: 'agentparticipation_agent_ancient_hologram_event_5_2'}),
+          (b:Event {uuid: 'event_5_2'})
+    MERGE (a)-[:IN_EVENT]->(b);
+MATCH (a:Agent {uuid: 'agent_jean_luc_picard'}),
+          (b:AgentParticipation {uuid: 'agentparticipation_agent_jean_luc_picard_event_5_3'})
+    MERGE (a)-[:HAS_PARTICIPATION]->(b);
+MATCH (a:AgentParticipation {uuid: 'agentparticipation_agent_jean_luc_picard_event_5_3'}),
+          (b:Event {uuid: 'event_5_3'})
+    MERGE (a)-[:IN_EVENT]->(b);
+MATCH (a:Agent {uuid: 'agent_data'}),
+          (b:AgentParticipation {uuid: 'agentparticipation_agent_data_event_5_3'})
+    MERGE (a)-[:HAS_PARTICIPATION]->(b);
+MATCH (a:AgentParticipation {uuid: 'agentparticipation_agent_data_event_5_3'}),
+          (b:Event {uuid: 'event_5_3'})
+    MERGE (a)-[:IN_EVENT]->(b);
+MATCH (a:Agent {uuid: 'agent_worf'}),
+          (b:AgentParticipation {uuid: 'agentparticipation_agent_worf_event_5_3'})
+    MERGE (a)-[:HAS_PARTICIPATION]->(b);
+MATCH (a:AgentParticipation {uuid: 'agentparticipation_agent_worf_event_5_3'}),
+          (b:Event {uuid: 'event_5_3'})
+    MERGE (a)-[:IN_EVENT]->(b);
+MATCH (a:Agent {uuid: 'agent_ancient_hologram'}),
+          (b:AgentParticipation {uuid: 'agentparticipation_agent_ancient_hologram_event_5_3'})
+    MERGE (a)-[:HAS_PARTICIPATION]->(b);
+MATCH (a:AgentParticipation {uuid: 'agentparticipation_agent_ancient_hologram_event_5_3'}),
+          (b:Event {uuid: 'event_5_3'})
     MERGE (a)-[:IN_EVENT]->(b);
