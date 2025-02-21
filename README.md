@@ -29,13 +29,12 @@ Inspired by the BBC's [Mythology Engine](https://www.bbc.co.uk/blogs/researchand
 
 ```bash
 # Required Python packages (requirements.txt coming soon)
-pip install requests beautifulsoup4 thefuzz neo4j pydantic openai langchain
+pip install requests beautifulsoup4 thefuzz neo4j pydantic openai
 ```
 
 You'll also need:
-- Neo4j Desktop (free version available)
-- A BAML client setup
-- Access to an LLM API (e.g., OpenAI, Anthropic)
+- Neo4j Desktop ([free version available](https://neo4j.com/))
+- Access to an LLM API (by default the code uses OpenAI o3-mini)
 
 ### Basic Usage
 
