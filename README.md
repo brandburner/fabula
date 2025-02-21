@@ -46,6 +46,10 @@ This project is actively under development. While core functionality is implemen
 5. **Validation and Output Generation**:
    - Validates all references and relationships
    - Generates final JSON knowledge graph
+  
+## Demo
+
+![Fabula Demo](fabula_video.gif)
 
 ## Installation
 
@@ -113,7 +117,7 @@ While this project is still in development, we welcome feedback and suggestions.
 ## Acknowledgements
 
 - BAML team for the extraction framework
-- [Additional acknowledgements to be added]
+- Inspired by the BBC Mythology Engine: [https://www.bbc.co.uk/blogs/researchanddevelopment/2010/03/the-mythology-engine-represent.shtml](https://www.bbc.co.uk/blogs/researchanddevelopment/2010/03/the-mythology-engine-represent.shtml)
 
 ---
 
