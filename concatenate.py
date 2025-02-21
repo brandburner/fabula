@@ -17,12 +17,18 @@ def concatenate_python_files(folder_path, output_file="combined_code.txt"):
 
     python_files = glob.glob(os.path.join(folder_path, "*.py"))
     
+    # Add python files from /utils
+    utils_folder = os.path.join(folder_path, "utils")
+    if os.path.isdir(utils_folder):
+        python_files_utils = glob.glob(os.path.join(utils_folder, "*.py"))
+        python_files.extend(python_files_utils)
+
     # Add the specific .baml file
     baml_file = "/home/user/fabula/baml_src/myth06.baml"
     all_files_to_concatenate = python_files + [baml_file]
 
     if not python_files:
-        print(f"No Python files found in '{folder_path}'.")
+        print(f"No Python files found in '{folder_path}' or its 'utils' subfolder.")
         return
 
     try:
@@ -44,7 +50,7 @@ def concatenate_python_files(folder_path, output_file="combined_code.txt"):
             
 
 
-        print(f"Successfully concatenated {len(python_files)} Python files into '{output_file}'.")
+        print(f"Successfully concatenated Python files into '{output_file}'.")
 
     except Exception as e:
         print(f"An error occurred: {e}")
