@@ -41,7 +41,7 @@
                             "title": "Bridge Briefing over Melatrite Anomalies",
                             "description": "On the USS Enterprise-D's main bridge, Captain Picard, Commander Riker, Lieutenant Commander Data, Lieutenant Worf, and Ensign Janina Taur are engaged in a critical discussion about sensor readings from the Melatrite Nebula. Picard reviews data on his PADD as Riker compares the current subspace anomalies to past encounters, while Data reports unusual energy readings from Melatrite III indicative of a type-4 subspace inversion and other mysterious elements. With the main viewscreen displaying the starfield of the Melatrite Nebula, Picard orders Ensign Taur to set course for the planet at warp factor six, setting the stage for further investigation.",
                             "scene_number": 1,
-                            "location": null,
+                            "location": "location_uss_enterprise_d_main_bridge",
                             "next_scene": "scene_2"
                         },
                         "events": [
