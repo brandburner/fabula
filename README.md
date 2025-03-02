@@ -1,122 +1,217 @@
 # Fabula: AI-Powered Narrative Analysis Engine
 
-Fabula is an AI-powered narrative analysis engine designed to extract structured, interconnected data from narrative texts (such as drama scripts and novels). By leveraging advanced LLM-driven extraction (via the BAML library) and a robust entity resolution pipeline, Fabula transforms unstructured narratives into a detailed knowledge graph—facilitating deep analysis of story structure, character development, events, and thematic elements.
+![Fabula Demo](fabula_video.gif)
 
-## 🚧 Work in Progress
+Fabula is an AI-powered narrative analysis engine that transforms unstructured narrative texts (scripts, novels, etc.) into richly structured knowledge graphs. By combining LLM-driven extraction with a robust entity resolution pipeline, Fabula enables deep analysis of story structure, character development, and thematic elements.
 
-This project is actively under development. While core functionality is implemented, some features may be incomplete or subject to change.
+Inspired by the BBC's [Mythology Engine](https://www.bbc.co.uk/blogs/researchanddevelopment/2010/03/the-mythology-engine-represent.shtml), Fabula aims to unlock narrative information and make it explorable through graph-based queries.
 
-## Features
+## Core Features
 
-- **LLM-Based Extraction**: Uses the BAML library to extract entities and events directly from narrative scenes
+- **Script Pre-processing**: Converts TV/film scripts from various formats into standardized JSON using `script2json.py`
+- **LLM-Based Entity Extraction**: Uses BAML for structured extraction of:
+  - Characters (Agents)
+  - Locations
+  - Objects
+  - Organizations
+  - Events
+  - Relationships
 - **Two-Pass Processing Pipeline**:
-  - First Pass: Extracts raw entities from scenes (even if duplicates exist)
-  - Second Pass: Extracts detailed scene metadata, events, and participations
-- **Dedicated Entity Resolution**: A post-processing module that reconciles and merges raw entity records based on consistent normalization and fuzzy matching
-- **Validation and Remapping**: Ensures that all relationships (e.g. character affiliations, event participations) are valid and correctly referenced
-- **Knowledge Graph Output**: Generates a JSON-serializable output that can be used for further analysis or visualization
+  - First Pass: Raw entity extraction
+  - Second Pass: Detailed scene metadata, events, and participations
+- **Entity Resolution**: Reconciles and merges duplicate entities using fuzzy matching and LLM-assisted resolution
+- **Cypher Generation**: Converts processed data to Neo4j Cypher queries for graph database import
+- **Natural Language Graph Queries**: Work-in-progress tool for converting natural language to Cypher queries
 
-## Architecture
+## Quick Start
 
-### Processing Pipeline
-
-1. **Input Loading**:
-   - Narrative scripts are provided in JSON format
-   - Supporting context documents (e.g., a novelization text) are also loaded
-
-2. **Raw Entity Extraction (First Pass)**:
-   - Each episode and its scenes are processed
-   - Extracts:
-     - Locations
-     - Organizations
-     - Agents (Characters)
-     - Objects
-
-3. **Entity Resolution**:
-   - Resolves duplicate or similar entities
-   - Uses consistent normalization and fuzzy matching
-   - Maintains both raw and resolved registries
-
-4. **Event and Participation Extraction (Second Pass)**:
-   - Scene metadata
-   - Events
-   - Agent Participations
-   - Object Involvements
-
-5. **Validation and Output Generation**:
-   - Validates all references and relationships
-   - Generates final JSON knowledge graph
-
-## Installation
+### Prerequisites
 
 ```bash
-# Dependencies will be specified in requirements.txt (coming soon)
-pip install -r requirements.txt
+# Required Python packages (requirements.txt coming soon)
+pip install requests beautifulsoup4 thefuzz neo4j pydantic openai
 ```
 
-## Usage
+You'll also need:
+- Neo4j Desktop ([free version available](https://neo4j.com/))
+- Access to an LLM API (by default the code uses OpenAI o3-mini)
 
+### Basic Usage
+
+1. Convert a script to JSON:
+```bash
+python script2json.py "http://chakoteya.net/DoctorWho/29-10.html" output.json
+```
+
+2. Process the script and generate the knowledge graph:
+```bash
+# Basic usage with default settings
+python main.py input_file.json --output output_graph.json
+
+# Using combined extraction mode (recommended for speed and efficiency)
+python main.py input_file.json --combined --output output_graph.json
+
+# Using fully combined extraction mode for max performance
+python main.py input_file.json --fully-combined --output output_graph.json
+
+# Using batch resolution for large datasets
+python main.py input_file.json --batch-resolution --output output_graph.json
+```
+
+3. Convert the processed data to Cypher:
 ```python
-# Basic usage (more detailed documentation coming soon)
-from main import main
-import asyncio
+from json_cypher import main as generate_cypher
+generate_cypher()
+```
 
-asyncio.run(main())
+## Processing Modes
+
+Fabula offers several processing modes to balance speed, cost, and accuracy:
+
+### Standard Mode
+Standard mode processes each entity type separately and is good for small datasets or when you need maximum precision.
+```bash
+python main.py input_file.json
+```
+
+### Combined Mode (`--combined`)
+Combined mode extracts all primary entities (agents, locations, organizations, objects) in a single pass, reducing API calls and improving consistency.
+```bash
+python main.py input_file.json --combined
+```
+
+### Fully Combined Mode (`--fully-combined`)
+This mode extracts both primary and secondary entities (events, participations, etc.) in combined calls, offering the best performance. This is recommended for most use cases.
+```bash
+python main.py input_file.json --fully-combined
+```
+
+### Batch Resolution (`--batch-resolution`)
+For large datasets, batch resolution processes entity resolution in smaller groups, improving performance and reducing API costs.
+```bash
+python main.py input_file.json --batch-resolution
+```
+
+### Multiple Flags
+You can combine multiple flags for optimal performance:
+```bash
+python main.py input_file.json --fully-combined --batch-resolution
 ```
 
 ## Project Structure
 
-- `main.py`: Entry point and orchestration
-- `episode_processor.py`: Processes individual episodes
-- `scene_processor.py`: Handles scene-level extraction
-- `entity_registry.py`: Maintains entity collections and handles resolution
-- `validation.py`: Validates entity references and relationships
-- `context.py`: Manages global context and story state
-- `utils.py`: Utility functions for normalization and ID generation
+```
+fabula/
+├── main.py                 # Main orchestration
+├── episode_processor.py    # Episode-level processing
+├── scene_processor.py      # Scene-level extraction
+├── entity_registry.py      # Entity management/resolution
+├── validation.py          # Reference validation
+├── context.py            # Global context management
+├── utils/
+│   ├── script2json.py    # Script preprocessing
+│   ├── fabula_graphrag.py # Natural language query tool
+│   └── other utilities...
+└── baml_src/
+    └── myth06.baml       # BAML extraction definitions
+```
 
-## Dependencies
+## Key Components
 
-- BAML (for LLM interactions)
-- thefuzz (for fuzzy string matching)
-- Additional dependencies to be specified in requirements.txt
+### Script Pre-processing (`script2json.py`)
+
+The script converter is designed to work with TV/film scripts from sources like chakoteya.net. It:
+- Parses HTML/text scripts into structured JSON
+- Extracts scene boundaries, dialogue, and stage directions
+- Handles multi-episode stories
+- Supports various script formats
+
+Example output structure:
+```json
+{
+  "Story": "Blink",
+  "Airdate": "2007-06-09",
+  "Episodes": [
+    {
+      "Episode": "Episode One",
+      "Scenes": [
+        {
+          "Scene": "WESTER DRUMLINS",
+          "Dialogue": [
+            {
+              "Character": "SALLY",
+              "Line": "Hello? Is someone there?"
+            },
+            {
+              "Stage Direction": "Sally enters the abandoned house"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
+```
+
+### Cypher Generation (`json_cypher.py`)
+
+Converts processed story data into Neo4j Cypher queries for graph database import. Features:
+- Generates schema cleanup and constraint creation
+- Creates nodes for all entity types
+- Establishes relationships between entities
+- Handles metadata and properties
+- Supports incremental updates
+
+### Natural Language Queries (Coming Soon)
+
+A tool for natural language querying of your story graph database is in development.
 
 ## Development Status
 
 ### Implemented
 - Core extraction pipeline
-- Entity resolution
+- Entity resolution with batch processing
+- Combined extraction modes
 - Basic validation
-- JSON output generation
+- Script preprocessing
+- Cypher generation
 
 ### In Progress
+- Natural language query tool
 - Enhanced entity resolution
-- Improved validation rules
-- Documentation
-- Test coverage
 - Requirements specification
+- Documentation improvements
+- Test coverage
 
 ### Planned
-- Performance optimizations
-- Additional extraction types
-- Visualization tools
+- Multi-modal support (extract from video)
+- Additional script format support
+- Interactive visualization
 - API documentation
-- Example notebooks
+- Performance optimizations
 
 ## Contributing
 
-While this project is still in development, we welcome feedback and suggestions. Please open an issue to discuss potential changes.
+While in active development, we welcome:
+- Bug reports
+- Feature suggestions
+- Documentation improvements
+- Script format contributions
+- Ontology enhancements
+
+Please open an issue to discuss potential changes.
 
 ## License
 
-[License details to be added]
+[License TBD]
 
 ## Acknowledgements
 
+- BBC Mythology Engine for inspiration
+- [chakoteya.net](http://chakoteya.net/) for script resources
 - BAML team for the extraction framework
-- [Additional acknowledgements to be added]
+- Neo4j community for graph database expertise
 
 ---
 
 For more information or to report issues, please open a GitHub issue.
-
-Note: This README will be updated as development continues.
