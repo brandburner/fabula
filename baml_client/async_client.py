@@ -33,7 +33,7 @@ OutputType = TypeVar('OutputType')
 class BamlCallOptions(TypedDict, total=False):
     tb: NotRequired[TypeBuilder]
     client_registry: NotRequired[baml_py.baml_py.ClientRegistry]
-
+    collector: NotRequired[Union[baml_py.baml_py.Collector, List[baml_py.baml_py.Collector]]]
 class BamlAsyncClient:
     __runtime: baml_py.BamlRuntime
     __ctx_manager: baml_py.BamlCtxManager
@@ -61,7 +61,8 @@ class BamlAsyncClient:
       else:
         tb = None
       __cr__ = baml_options.get("client_registry", None)
-
+      collector = baml_options.get("collector", None)
+      collectors = collector if isinstance(collector, list) else [collector] if collector is not None else []
       raw = await self.__runtime.call_function(
         "ExtractAgentParticipations",
         {
@@ -70,6 +71,7 @@ class BamlAsyncClient:
         self.__ctx_manager.get(),
         tb,
         __cr__,
+        collectors,
       )
       return cast(List[types.AgentParticipation], raw.cast_to(types, types, partial_types, False))
     
@@ -84,7 +86,8 @@ class BamlAsyncClient:
       else:
         tb = None
       __cr__ = baml_options.get("client_registry", None)
-
+      collector = baml_options.get("collector", None)
+      collectors = collector if isinstance(collector, list) else [collector] if collector is not None else []
       raw = await self.__runtime.call_function(
         "ExtractAgents",
         {
@@ -93,6 +96,7 @@ class BamlAsyncClient:
         self.__ctx_manager.get(),
         tb,
         __cr__,
+        collectors,
       )
       return cast(List[types.Agent], raw.cast_to(types, types, partial_types, False))
     
@@ -107,7 +111,8 @@ class BamlAsyncClient:
       else:
         tb = None
       __cr__ = baml_options.get("client_registry", None)
-
+      collector = baml_options.get("collector", None)
+      collectors = collector if isinstance(collector, list) else [collector] if collector is not None else []
       raw = await self.__runtime.call_function(
         "ExtractEventInteractions",
         {
@@ -116,6 +121,7 @@ class BamlAsyncClient:
         self.__ctx_manager.get(),
         tb,
         __cr__,
+        collectors,
       )
       return cast(types.EventInteractions, raw.cast_to(types, types, partial_types, False))
     
@@ -130,7 +136,8 @@ class BamlAsyncClient:
       else:
         tb = None
       __cr__ = baml_options.get("client_registry", None)
-
+      collector = baml_options.get("collector", None)
+      collectors = collector if isinstance(collector, list) else [collector] if collector is not None else []
       raw = await self.__runtime.call_function(
         "ExtractEvents",
         {
@@ -139,6 +146,7 @@ class BamlAsyncClient:
         self.__ctx_manager.get(),
         tb,
         __cr__,
+        collectors,
       )
       return cast(List[types.Event], raw.cast_to(types, types, partial_types, False))
     
@@ -153,7 +161,8 @@ class BamlAsyncClient:
       else:
         tb = None
       __cr__ = baml_options.get("client_registry", None)
-
+      collector = baml_options.get("collector", None)
+      collectors = collector if isinstance(collector, list) else [collector] if collector is not None else []
       raw = await self.__runtime.call_function(
         "ExtractLocations",
         {
@@ -162,6 +171,7 @@ class BamlAsyncClient:
         self.__ctx_manager.get(),
         tb,
         __cr__,
+        collectors,
       )
       return cast(List[types.Location], raw.cast_to(types, types, partial_types, False))
     
@@ -176,7 +186,8 @@ class BamlAsyncClient:
       else:
         tb = None
       __cr__ = baml_options.get("client_registry", None)
-
+      collector = baml_options.get("collector", None)
+      collectors = collector if isinstance(collector, list) else [collector] if collector is not None else []
       raw = await self.__runtime.call_function(
         "ExtractObjectInvolvements",
         {
@@ -185,6 +196,7 @@ class BamlAsyncClient:
         self.__ctx_manager.get(),
         tb,
         __cr__,
+        collectors,
       )
       return cast(List[types.ObjectInvolvement], raw.cast_to(types, types, partial_types, False))
     
@@ -199,7 +211,8 @@ class BamlAsyncClient:
       else:
         tb = None
       __cr__ = baml_options.get("client_registry", None)
-
+      collector = baml_options.get("collector", None)
+      collectors = collector if isinstance(collector, list) else [collector] if collector is not None else []
       raw = await self.__runtime.call_function(
         "ExtractObjects",
         {
@@ -208,6 +221,7 @@ class BamlAsyncClient:
         self.__ctx_manager.get(),
         tb,
         __cr__,
+        collectors,
       )
       return cast(List[types.Object], raw.cast_to(types, types, partial_types, False))
     
@@ -222,7 +236,8 @@ class BamlAsyncClient:
       else:
         tb = None
       __cr__ = baml_options.get("client_registry", None)
-
+      collector = baml_options.get("collector", None)
+      collectors = collector if isinstance(collector, list) else [collector] if collector is not None else []
       raw = await self.__runtime.call_function(
         "ExtractOrganizations",
         {
@@ -231,6 +246,7 @@ class BamlAsyncClient:
         self.__ctx_manager.get(),
         tb,
         __cr__,
+        collectors,
       )
       return cast(List[types.Organization], raw.cast_to(types, types, partial_types, False))
     
@@ -245,7 +261,8 @@ class BamlAsyncClient:
       else:
         tb = None
       __cr__ = baml_options.get("client_registry", None)
-
+      collector = baml_options.get("collector", None)
+      collectors = collector if isinstance(collector, list) else [collector] if collector is not None else []
       raw = await self.__runtime.call_function(
         "ExtractPrimaryEntities",
         {
@@ -254,6 +271,7 @@ class BamlAsyncClient:
         self.__ctx_manager.get(),
         tb,
         __cr__,
+        collectors,
       )
       return cast(types.PrimaryEntities, raw.cast_to(types, types, partial_types, False))
     
@@ -268,7 +286,8 @@ class BamlAsyncClient:
       else:
         tb = None
       __cr__ = baml_options.get("client_registry", None)
-
+      collector = baml_options.get("collector", None)
+      collectors = collector if isinstance(collector, list) else [collector] if collector is not None else []
       raw = await self.__runtime.call_function(
         "ExtractResume",
         {
@@ -277,6 +296,7 @@ class BamlAsyncClient:
         self.__ctx_manager.get(),
         tb,
         __cr__,
+        collectors,
       )
       return cast(types.Resume, raw.cast_to(types, types, partial_types, False))
     
@@ -291,7 +311,8 @@ class BamlAsyncClient:
       else:
         tb = None
       __cr__ = baml_options.get("client_registry", None)
-
+      collector = baml_options.get("collector", None)
+      collectors = collector if isinstance(collector, list) else [collector] if collector is not None else []
       raw = await self.__runtime.call_function(
         "ExtractSceneData",
         {
@@ -300,6 +321,7 @@ class BamlAsyncClient:
         self.__ctx_manager.get(),
         tb,
         __cr__,
+        collectors,
       )
       return cast(types.SceneData, raw.cast_to(types, types, partial_types, False))
     
@@ -314,7 +336,8 @@ class BamlAsyncClient:
       else:
         tb = None
       __cr__ = baml_options.get("client_registry", None)
-
+      collector = baml_options.get("collector", None)
+      collectors = collector if isinstance(collector, list) else [collector] if collector is not None else []
       raw = await self.__runtime.call_function(
         "ExtractSceneMetadata",
         {
@@ -323,6 +346,7 @@ class BamlAsyncClient:
         self.__ctx_manager.get(),
         tb,
         __cr__,
+        collectors,
       )
       return cast(types.SceneMetadata, raw.cast_to(types, types, partial_types, False))
     
@@ -337,7 +361,8 @@ class BamlAsyncClient:
       else:
         tb = None
       __cr__ = baml_options.get("client_registry", None)
-
+      collector = baml_options.get("collector", None)
+      collectors = collector if isinstance(collector, list) else [collector] if collector is not None else []
       raw = await self.__runtime.call_function(
         "ResolveAgentCluster",
         {
@@ -346,6 +371,7 @@ class BamlAsyncClient:
         self.__ctx_manager.get(),
         tb,
         __cr__,
+        collectors,
       )
       return cast(List[types.ResolvedAgent], raw.cast_to(types, types, partial_types, False))
     
@@ -360,7 +386,8 @@ class BamlAsyncClient:
       else:
         tb = None
       __cr__ = baml_options.get("client_registry", None)
-
+      collector = baml_options.get("collector", None)
+      collectors = collector if isinstance(collector, list) else [collector] if collector is not None else []
       raw = await self.__runtime.call_function(
         "ResolveLocationCluster",
         {
@@ -369,6 +396,7 @@ class BamlAsyncClient:
         self.__ctx_manager.get(),
         tb,
         __cr__,
+        collectors,
       )
       return cast(List[types.ResolvedLocation], raw.cast_to(types, types, partial_types, False))
     
@@ -383,7 +411,8 @@ class BamlAsyncClient:
       else:
         tb = None
       __cr__ = baml_options.get("client_registry", None)
-
+      collector = baml_options.get("collector", None)
+      collectors = collector if isinstance(collector, list) else [collector] if collector is not None else []
       raw = await self.__runtime.call_function(
         "ResolveObjectCluster",
         {
@@ -392,6 +421,7 @@ class BamlAsyncClient:
         self.__ctx_manager.get(),
         tb,
         __cr__,
+        collectors,
       )
       return cast(List[types.ResolvedObject], raw.cast_to(types, types, partial_types, False))
     
@@ -406,7 +436,8 @@ class BamlAsyncClient:
       else:
         tb = None
       __cr__ = baml_options.get("client_registry", None)
-
+      collector = baml_options.get("collector", None)
+      collectors = collector if isinstance(collector, list) else [collector] if collector is not None else []
       raw = await self.__runtime.call_function(
         "ResolveOrganizationCluster",
         {
@@ -415,6 +446,7 @@ class BamlAsyncClient:
         self.__ctx_manager.get(),
         tb,
         __cr__,
+        collectors,
       )
       return cast(List[types.ResolvedOrganization], raw.cast_to(types, types, partial_types, False))
     
@@ -429,7 +461,8 @@ class BamlAsyncClient:
       else:
         tb = None
       __cr__ = baml_options.get("client_registry", None)
-
+      collector = baml_options.get("collector", None)
+      collectors = collector if isinstance(collector, list) else [collector] if collector is not None else []
       raw = await self.__runtime.call_function(
         "ValidateCypher",
         {
@@ -438,6 +471,7 @@ class BamlAsyncClient:
         self.__ctx_manager.get(),
         tb,
         __cr__,
+        collectors,
       )
       return cast(types.CypherQuery, raw.cast_to(types, types, partial_types, False))
     
@@ -463,7 +497,8 @@ class BamlStreamClient:
       else:
         tb = None
       __cr__ = baml_options.get("client_registry", None)
-
+      collector = baml_options.get("collector", None)
+      collectors = collector if isinstance(collector, list) else [collector] if collector is not None else []
       raw = self.__runtime.stream_function(
         "ExtractAgentParticipations",
         {
@@ -477,6 +512,7 @@ class BamlStreamClient:
         self.__ctx_manager.get(),
         tb,
         __cr__,
+        collectors,
       )
 
       return baml_py.BamlStream[List[partial_types.AgentParticipation], List[types.AgentParticipation]](
@@ -497,7 +533,8 @@ class BamlStreamClient:
       else:
         tb = None
       __cr__ = baml_options.get("client_registry", None)
-
+      collector = baml_options.get("collector", None)
+      collectors = collector if isinstance(collector, list) else [collector] if collector is not None else []
       raw = self.__runtime.stream_function(
         "ExtractAgents",
         {
@@ -511,6 +548,7 @@ class BamlStreamClient:
         self.__ctx_manager.get(),
         tb,
         __cr__,
+        collectors,
       )
 
       return baml_py.BamlStream[List[partial_types.Agent], List[types.Agent]](
@@ -531,7 +569,8 @@ class BamlStreamClient:
       else:
         tb = None
       __cr__ = baml_options.get("client_registry", None)
-
+      collector = baml_options.get("collector", None)
+      collectors = collector if isinstance(collector, list) else [collector] if collector is not None else []
       raw = self.__runtime.stream_function(
         "ExtractEventInteractions",
         {
@@ -545,6 +584,7 @@ class BamlStreamClient:
         self.__ctx_manager.get(),
         tb,
         __cr__,
+        collectors,
       )
 
       return baml_py.BamlStream[partial_types.EventInteractions, types.EventInteractions](
@@ -565,7 +605,8 @@ class BamlStreamClient:
       else:
         tb = None
       __cr__ = baml_options.get("client_registry", None)
-
+      collector = baml_options.get("collector", None)
+      collectors = collector if isinstance(collector, list) else [collector] if collector is not None else []
       raw = self.__runtime.stream_function(
         "ExtractEvents",
         {
@@ -578,6 +619,7 @@ class BamlStreamClient:
         self.__ctx_manager.get(),
         tb,
         __cr__,
+        collectors,
       )
 
       return baml_py.BamlStream[List[partial_types.Event], List[types.Event]](
@@ -598,7 +640,8 @@ class BamlStreamClient:
       else:
         tb = None
       __cr__ = baml_options.get("client_registry", None)
-
+      collector = baml_options.get("collector", None)
+      collectors = collector if isinstance(collector, list) else [collector] if collector is not None else []
       raw = self.__runtime.stream_function(
         "ExtractLocations",
         {
@@ -610,6 +653,7 @@ class BamlStreamClient:
         self.__ctx_manager.get(),
         tb,
         __cr__,
+        collectors,
       )
 
       return baml_py.BamlStream[List[partial_types.Location], List[types.Location]](
@@ -630,7 +674,8 @@ class BamlStreamClient:
       else:
         tb = None
       __cr__ = baml_options.get("client_registry", None)
-
+      collector = baml_options.get("collector", None)
+      collectors = collector if isinstance(collector, list) else [collector] if collector is not None else []
       raw = self.__runtime.stream_function(
         "ExtractObjectInvolvements",
         {
@@ -644,6 +689,7 @@ class BamlStreamClient:
         self.__ctx_manager.get(),
         tb,
         __cr__,
+        collectors,
       )
 
       return baml_py.BamlStream[List[partial_types.ObjectInvolvement], List[types.ObjectInvolvement]](
@@ -664,7 +710,8 @@ class BamlStreamClient:
       else:
         tb = None
       __cr__ = baml_options.get("client_registry", None)
-
+      collector = baml_options.get("collector", None)
+      collectors = collector if isinstance(collector, list) else [collector] if collector is not None else []
       raw = self.__runtime.stream_function(
         "ExtractObjects",
         {
@@ -677,6 +724,7 @@ class BamlStreamClient:
         self.__ctx_manager.get(),
         tb,
         __cr__,
+        collectors,
       )
 
       return baml_py.BamlStream[List[partial_types.Object], List[types.Object]](
@@ -697,7 +745,8 @@ class BamlStreamClient:
       else:
         tb = None
       __cr__ = baml_options.get("client_registry", None)
-
+      collector = baml_options.get("collector", None)
+      collectors = collector if isinstance(collector, list) else [collector] if collector is not None else []
       raw = self.__runtime.stream_function(
         "ExtractOrganizations",
         {
@@ -711,6 +760,7 @@ class BamlStreamClient:
         self.__ctx_manager.get(),
         tb,
         __cr__,
+        collectors,
       )
 
       return baml_py.BamlStream[List[partial_types.Organization], List[types.Organization]](
@@ -731,7 +781,8 @@ class BamlStreamClient:
       else:
         tb = None
       __cr__ = baml_options.get("client_registry", None)
-
+      collector = baml_options.get("collector", None)
+      collectors = collector if isinstance(collector, list) else [collector] if collector is not None else []
       raw = self.__runtime.stream_function(
         "ExtractPrimaryEntities",
         {
@@ -747,6 +798,7 @@ class BamlStreamClient:
         self.__ctx_manager.get(),
         tb,
         __cr__,
+        collectors,
       )
 
       return baml_py.BamlStream[partial_types.PrimaryEntities, types.PrimaryEntities](
@@ -767,7 +819,8 @@ class BamlStreamClient:
       else:
         tb = None
       __cr__ = baml_options.get("client_registry", None)
-
+      collector = baml_options.get("collector", None)
+      collectors = collector if isinstance(collector, list) else [collector] if collector is not None else []
       raw = self.__runtime.stream_function(
         "ExtractResume",
         {
@@ -777,6 +830,7 @@ class BamlStreamClient:
         self.__ctx_manager.get(),
         tb,
         __cr__,
+        collectors,
       )
 
       return baml_py.BamlStream[partial_types.Resume, types.Resume](
@@ -797,7 +851,8 @@ class BamlStreamClient:
       else:
         tb = None
       __cr__ = baml_options.get("client_registry", None)
-
+      collector = baml_options.get("collector", None)
+      collectors = collector if isinstance(collector, list) else [collector] if collector is not None else []
       raw = self.__runtime.stream_function(
         "ExtractSceneData",
         {
@@ -812,6 +867,7 @@ class BamlStreamClient:
         self.__ctx_manager.get(),
         tb,
         __cr__,
+        collectors,
       )
 
       return baml_py.BamlStream[partial_types.SceneData, types.SceneData](
@@ -832,7 +888,8 @@ class BamlStreamClient:
       else:
         tb = None
       __cr__ = baml_options.get("client_registry", None)
-
+      collector = baml_options.get("collector", None)
+      collectors = collector if isinstance(collector, list) else [collector] if collector is not None else []
       raw = self.__runtime.stream_function(
         "ExtractSceneMetadata",
         {
@@ -845,6 +902,7 @@ class BamlStreamClient:
         self.__ctx_manager.get(),
         tb,
         __cr__,
+        collectors,
       )
 
       return baml_py.BamlStream[partial_types.SceneMetadata, types.SceneMetadata](
@@ -865,7 +923,8 @@ class BamlStreamClient:
       else:
         tb = None
       __cr__ = baml_options.get("client_registry", None)
-
+      collector = baml_options.get("collector", None)
+      collectors = collector if isinstance(collector, list) else [collector] if collector is not None else []
       raw = self.__runtime.stream_function(
         "ResolveAgentCluster",
         {
@@ -875,6 +934,7 @@ class BamlStreamClient:
         self.__ctx_manager.get(),
         tb,
         __cr__,
+        collectors,
       )
 
       return baml_py.BamlStream[List[partial_types.ResolvedAgent], List[types.ResolvedAgent]](
@@ -895,7 +955,8 @@ class BamlStreamClient:
       else:
         tb = None
       __cr__ = baml_options.get("client_registry", None)
-
+      collector = baml_options.get("collector", None)
+      collectors = collector if isinstance(collector, list) else [collector] if collector is not None else []
       raw = self.__runtime.stream_function(
         "ResolveLocationCluster",
         {
@@ -905,6 +966,7 @@ class BamlStreamClient:
         self.__ctx_manager.get(),
         tb,
         __cr__,
+        collectors,
       )
 
       return baml_py.BamlStream[List[partial_types.ResolvedLocation], List[types.ResolvedLocation]](
@@ -925,7 +987,8 @@ class BamlStreamClient:
       else:
         tb = None
       __cr__ = baml_options.get("client_registry", None)
-
+      collector = baml_options.get("collector", None)
+      collectors = collector if isinstance(collector, list) else [collector] if collector is not None else []
       raw = self.__runtime.stream_function(
         "ResolveObjectCluster",
         {
@@ -935,6 +998,7 @@ class BamlStreamClient:
         self.__ctx_manager.get(),
         tb,
         __cr__,
+        collectors,
       )
 
       return baml_py.BamlStream[List[partial_types.ResolvedObject], List[types.ResolvedObject]](
@@ -955,7 +1019,8 @@ class BamlStreamClient:
       else:
         tb = None
       __cr__ = baml_options.get("client_registry", None)
-
+      collector = baml_options.get("collector", None)
+      collectors = collector if isinstance(collector, list) else [collector] if collector is not None else []
       raw = self.__runtime.stream_function(
         "ResolveOrganizationCluster",
         {
@@ -965,6 +1030,7 @@ class BamlStreamClient:
         self.__ctx_manager.get(),
         tb,
         __cr__,
+        collectors,
       )
 
       return baml_py.BamlStream[List[partial_types.ResolvedOrganization], List[types.ResolvedOrganization]](
@@ -985,7 +1051,8 @@ class BamlStreamClient:
       else:
         tb = None
       __cr__ = baml_options.get("client_registry", None)
-
+      collector = baml_options.get("collector", None)
+      collectors = collector if isinstance(collector, list) else [collector] if collector is not None else []
       raw = self.__runtime.stream_function(
         "ValidateCypher",
         {
@@ -996,6 +1063,7 @@ class BamlStreamClient:
         self.__ctx_manager.get(),
         tb,
         __cr__,
+        collectors,
       )
 
       return baml_py.BamlStream[partial_types.CypherQuery, types.CypherQuery](
