@@ -71,55 +71,36 @@ except Exception as e:
     COMBINED_IMPORTS_AVAILABLE = False
 
 
-INPUT_JSON_PATH = Path("/home/user/fabula/utilities/doctor_who/doctor4/json/genesis_of_the_daleks_transcript.json")
-CONTEXT_FILES = [
-    Path("/home/user/fabula/utilities/doctor_who/doctor4/resource/novel/genesis_of_the_daleks_novel.txt")
-]
-OUTPUT_JSON_PATH = Path("genesis_of_the_daleks_graph_batched.json")
-
-
-# Define paths for input and output files
-# INPUT_JSON_PATH = Path("/home/user/fabula/utils/measure_man_transcript.json")
-# CONTEXT_FILES = [
-#     Path("/home/user/fabula/utils/measure_man_script.txt")
-# ]  # Empty by default, can be populated at runtime
-# OUTPUT_JSON_PATH = Path("measure_man_story_graph.json")
-
-# INPUT_JSON_PATH = Path("/home/user/fabula/utilities/doctor_who/doctor1/json/mission_to_the_unknown_transcript.json")
-# CONTEXT_FILES = [
-#     Path("/home/user/fabula/utilities/doctor_who/doctor1/resource/autoguide/03_02_Mission_to_the_Unknown.md")
-# ]  # Empty by default, can be populated at runtime
-# OUTPUT_JSON_PATH = Path("mission_devtest_batched_v1.json")
 
 # INPUT_JSON_PATH = Path("/home/user/fabula/source_docs/ai_fanfic/west_wing/fault_lines_transcript.json")
 # CONTEXT_FILES = [
 #     Path("/home/user/fabula/source_docs/ai_fanfic/west_wing/fault_lines_novelization.txt")
 # ]
-# OUTPUT_JSON_PATH = Path("/home/user/fabula/utils/fault_lines_test_lastorders.json")
+# OUTPUT_JSON_PATH = Path("fault_lines_graph.json")
 
 # INPUT_JSON_PATH = Path("/home/user/fabula/source_docs/ai_fanfic/star_trek_tng/echoes_of_the_past_transcript.json")
 # CONTEXT_FILES = [
 #     Path("/home/user/fabula/source_docs/ai_fanfic/star_trek_tng/echoes_of_the_past_treatment.txt")
 # ]
-# OUTPUT_JSON_PATH = Path("echoes_of_the_past_lastorders.json")
+# OUTPUT_JSON_PATH = Path("echoes_of_the_past_graph.json")
 
 # INPUT_JSON_PATH = Path("/home/user/fabula/utilities/doctor_who/doctor10/json/blink_transcript.json")
 # CONTEXT_FILES = [
 #     Path("/home/user/fabula/utilities/doctor_who/doctor10/resource/txt/blink_novelization.txt")
 # ]
-# OUTPUT_JSON_PATH = Path("/home/user/fabula/utilities/blink_graph_batched.json")
+# OUTPUT_JSON_PATH = Path("blink_graph.json")
 
 # INPUT_JSON_PATH = Path("/home/user/fabula/source_docs/ai_fanfic/peep_show/networking_event_transcript.json")
 # CONTEXT_FILES = [
 #     Path("/home/user/fabula/source_docs/ai_fanfic/peep_show/networking_event_treatment.txt")
 # ]
-# OUTPUT_JSON_PATH = Path("networking_event_lastorders.json")
+# OUTPUT_JSON_PATH = Path("networking_event_graph.json")
 
-# INPUT_JSON_PATH = Path("/home/user/fabula/source_docs/ai_fanfic/doctor_who/quantum_archive_transcript.json")
-# CONTEXT_FILES = [
-#     Path("/home/user/fabula/source_docs/ai_fanfic/doctor_who/quantum_archive_novelization.txt")
-# ]
-# OUTPUT_JSON_PATH = Path("quantum_archive_lastorders.json")
+INPUT_JSON_PATH = Path("/home/user/fabula/source_docs/ai_fanfic/doctor_who/quantum_archive_transcript.json")
+CONTEXT_FILES = [
+    Path("/home/user/fabula/source_docs/ai_fanfic/doctor_who/quantum_archive_novelization.txt")
+]
+OUTPUT_JSON_PATH = Path("quantum_archive_graph.json")
 
 
 def load_context_documents(context_files: Optional[List[Path]] = None) -> str:
