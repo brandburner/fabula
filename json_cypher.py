@@ -317,8 +317,17 @@ def generate_scene_episode_relationship(scene_uuid: str, episode_uuid: str) -> C
 
 def main():
     try:
-        input_path = Path("/home/user/fabula/myth_dev/genesis_of_the_daleks_graph.json")
-        output_path = Path("/home/user/fabula/myth_dev/genesis_of_the_daleks_graph.cypher")
+        # input_path = Path("/home/user/fabula/output/pre_processed/echoes_of_the_past_graph.json")
+        # output_path = Path("/home/user/fabula/output/post_processed/echoes_of_the_past_graph.cypher")
+
+        # input_path = Path("/home/user/fabula/output/pre_processed/fault_lines_graph.json")
+        # output_path = Path("/home/user/fabula/output/post_processed/fault_lines_graph.cypher")
+
+        # input_path = Path("/home/user/fabula/output/pre_processed/networking_event_graph.json")
+        # output_path = Path("/home/user/fabula/output/post_processed/networking_event_graph.cypher")
+
+        input_path = Path("/home/user/fabula/output/pre_processed/quantum_archive_graph.json")
+        output_path = Path("/home/user/fabula/output/post_processed/quantum_archive_graph.cypher")
 
         output_path.parent.mkdir(parents=True, exist_ok=True)
         

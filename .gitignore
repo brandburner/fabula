@@ -7,7 +7,7 @@ __pycache__/
 *.so
 
 # Private code
-old utilities/
+old_utilities/
 .idx/
 .venv/
 baml_src/

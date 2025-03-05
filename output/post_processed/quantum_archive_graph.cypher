@@ -35,178 +35,116 @@ CREATE INDEX organization_uuid IF NOT EXISTS FOR (org:Organization) ON (org.uuid
 CREATE INDEX location_uuid IF NOT EXISTS FOR (l:Location) ON (l.uuid);
 CREATE INDEX episode_uuid IF NOT EXISTS FOR (ep:Episode) ON (ep.uuid);
 MATCH (n) DETACH DELETE n;
-MERGE (a:Agent {uuid: 'agent_sarah_chen'})
+MERGE (a:Agent {uuid: 'agent_dr_sarah_chen'})
     ON CREATE SET
         a.name = 'Sarah Chen',
-        a.title = 'Doctor',
-        a.description = 'Dr. Sarah Chen serves as the Time Archaeology Division Chief at the Quantum Archive. She combines rigorous scientific methodology with an intuitive understanding of temporal phenomena. Her expertise in quantum analysis allows her to monitor and interpret complex temporal events, making her an invaluable bridge between the Archive\'s esoteric systems and practical crisis management.',
-        a.traits = ["Scientific", "Analytical", "Perceptive", "Professional"],
-        a.sphere_of_influence = 'Temporal Science'
+        a.title = 'Time Archaeology Division Chief',
+        a.description = 'Sarah Chen is a consummate scientist with an exceptional talent for analyzing the complex tapestry of time. Her dedication to preserving history and understanding temporal anomalies is matched by her calm under pressure. Her methodical approach and determination underscore her commitment to safeguarding timeless knowledge against subtle yet fundamental temporal changes.',
+        a.traits = ["Analytical", "Determined", "Meticulous", "Resilient"],
+        a.sphere_of_influence = 'Temporal Analysis'
     ;
-MERGE (a:Agent {uuid: 'agent_knell'})
+MERGE (a:Agent {uuid: 'agent_archivist_prime_k_nell'})
     ON CREATE SET
-        a.name = 'K\'nell',
-        a.title = 'Archivist Prime',
-        a.description = 'K\'nell is the crystalline Archivist Prime of the Quantum Archive, a non-humanoid being intimately connected to the Archive\'s systems. Their form allows direct interface with the Archive\'s control matrices, and they possess the ability to regenerate their crystalline structure after damage. K\'nell demonstrates both vast knowledge and a deep sense of responsibility for the Archive\'s contents, willing to sacrifice parts of themselves to protect its integrity.',
-        a.traits = ["Non-humanoid", "Self-sacrificing", "Regenerative", "Knowledge Guardian"],
-        a.sphere_of_influence = 'Temporal Knowledge Management'
+        a.name = 'Archivist Prime K\'nell',
+        a.title = 'Keeper of the Archive',
+        a.description = 'Archivist Prime K\'nell is an enigmatic and ancient guardian whose crystalline form embodies a deep connection to the vast repository of historical knowledge. Tasked with managing the archive, K\'nell endures personal sacrifice and implements new security protocols to protect the sanctum from decay.',
+        a.traits = ["Ancient", "Enigmatic", "Dedicated", "Self-sacrificing"],
+        a.sphere_of_influence = 'Historical Preservation'
     ;
 MERGE (a:Agent {uuid: 'agent_the_doctor'})
     ON CREATE SET
         a.name = 'The Doctor',
-        a.title = 'The Doctor',
-        a.description = 'A wise and powerful Time Lord who understands the deeper implications of temporal knowledge and power. They possess extensive experience with both the technical and ethical aspects of time manipulation, often serving as both problem solver and moral compass. Their perspective on the Archive\'s transformation reveals their appreciation for the responsible use of knowledge.',
-        a.traits = ["Wise", "Philosophical", "Time Lord", "Guardian of Time"],
-        a.sphere_of_influence = 'Temporal Intervention'
+        a.title = 'Time Traveler',
+        a.description = 'The Doctor is a resourceful and ingenious traveler with an unparalleled grasp of temporal mechanics. Known for defying the constraints of time, The Doctor offers wise counsel on the nature of knowledge and the dangers of unrestrained exploration. Their calm and reflective demeanor under crisis speaks to a lifetime of experience in mending fractured timelines.',
+        a.traits = ["Resourceful", "Wise", "Innovative", "Principled"],
+        a.sphere_of_influence = 'Temporal Navigation'
     ;
 MERGE (a:Agent {uuid: 'agent_coordinator_voss'})
     ON CREATE SET
-        a.name = 'Voss',
+        a.name = 'Coordinator Voss',
         a.title = 'Coordinator',
-        a.description = 'Coordinator Voss is an Entropy Syndicate infiltrator disguised as a junior archivist within the Quantum Archive. They maintain a facade of being a low-level functionary, but are in reality a cunning operative working to undermine the Archive from within. In this scene, Voss\'s attempt to flee the consequences of the Syndicate\'s actions results in them being trapped in a causality loop, a fitting punishment for their treachery and a demonstration of the temporal forces unleashed by the Syndicate\'s ambition. Their fate underscores the dangers of manipulating time without understanding its profound nature.',
-        a.traits = ["Infiltrator", "Duplicitous", "Cunning", "Desperate"],
-        a.sphere_of_influence = 'Espionage'
+        a.description = 'Coordinator Voss is an elusive operative embedded within the Quantum Archive, known for cunning and covert maneuvers in service of the Entropy Syndicate. In critical moments at the Temporal Core, Voss’s attempt to escape a causality loop highlights both technical adeptness and vulnerability under uncontrollable temporal forces.',
+        a.traits = ["Cunning", "Deceptive", "Resourceful", "Secretive"],
+        a.sphere_of_influence = 'Covert Operations'
     ;
 MERGE (a:Agent {uuid: 'agent_director_malik'})
     ON CREATE SET
-        a.name = 'Malik',
+        a.name = 'Director Malik',
         a.title = 'Director',
-        a.description = 'Director Malik is the ruthless tactical leader of the Entropy Syndicate, commanding their assault on the Quantum Archive. Their calculated approach and sophisticated understanding of temporal mechanics reveals them as both a skilled strategist and temporal scientist. Malik demonstrates unwavering determination to acquire the secrets of the Time War, regardless of the catastrophic consequences, suggesting a combination of ambition and dangerous overconfidence. In this scene, Malik\'s overconfidence is shattered as they confront the unexpected sentience of temporal knowledge, leading to a moment of stunned realization of their catastrophic miscalculation.',
-        a.traits = ["Ruthless", "Tactical", "Overconfident", "Scientifically skilled"],
-        a.sphere_of_influence = 'Temporal Strategy'
+        a.description = 'Director Malik is a ruthless and calculated operative of the Entropy Syndicate, intent on harnessing the power of the Quantum Archive for his own temporal ambitions. His determination to control every variable exposes both his arrogance and his vulnerability when confronted by forces that defy precise containment.',
+        a.traits = ["Ruthless", "Calculating", "Determined", "Overconfident"],
+        a.sphere_of_influence = 'Temporal Manipulation'
     ;
-MERGE (o:Object {uuid: 'object_quantum_analyzer'})
+MERGE (o:Object {uuid: 'object_quantum_state_analyzer'})
     ON CREATE SET
-        o.name = 'Quantum Analyzer',
-        o.description = 'Dr. Chen\'s Quantum Analyzer is depicted as showing \'critical pattern convergence\' and functions as a vital diagnostic tool. It monitors the temporal situation within the Archive, providing scientific data to support investigations into temporal anomalies.',
-        o.purpose = 'Temporal Analysis',
-        o.significance = 'Provides crucial diagnostic information by representing the scientific approach to understanding and managing temporal anomalies.'
+        o.name = 'Quantum-State Analyzer',
+        o.description = 'The Quantum-State Analyzer is a sophisticated instrument that monitors and deciphers the intricate patterns of chronometric energy. Its advanced holographic display and sensitive sensors allow it to detect minute anomalies in temporal sequences, making it indispensable during moments of crisis.',
+        o.purpose = 'To analyze temporal decay patterns and identify potential breaches in the continuum.',
+        o.significance = 'Acts as a critical tool in understanding and mitigating the impact of temporal fluctuations, ensuring that dangerous decay patterns are quickly identified and addressed.'
     ;
 MERGE (o:Object {uuid: 'object_tardis'})
     ON CREATE SET
         o.name = 'TARDIS',
-        o.description = 'The Doctor\'s iconic time machine appears as a blue police box containing infinite space. In this scene it serves as a silent witness to the Archive\'s transformation before dematerializing.',
-        o.purpose = 'Time and space travel vessel',
-        o.significance = 'Represents the Doctor\'s authority on temporal matters and their observational role in the Archive\'s evolution.'
-    ;
-MERGE (o:Object {uuid: 'object_temporal_containment_consoles'})
-    ON CREATE SET
-        o.name = 'Temporal Containment Consoles',
-        o.description = 'Advanced workstations designed for monitoring and maintaining the Archive\'s temporal containment systems. They feature holographic displays that show temporal decay patterns throughout the facility.',
-        o.purpose = 'Monitor and control temporal containment systems',
-        o.significance = 'Critical infrastructure for maintaining the Archive\'s integrity.'
-    ;
-MERGE (o:Object {uuid: 'object_holographic_display'})
-    ON CREATE SET
-        o.name = 'Holographic Display',
-        o.description = 'A shimmering, translucent holographic projection materializing in the Central Core. It displays complex fragmented code patterns and temporal coordinates, providing a dynamic interface for interpreting abstract temporal data.',
-        o.purpose = 'Visualizing Data',
-        o.significance = 'Provides visual representation of the temporal virus\'s code and targets, facilitating communication of complex information between characters.'
+        o.description = 'The TARDIS is an iconic time-traveling vessel recognized for its ability to traverse the temporal continuum with its extraordinary chameleon circuit and distinctive materialization process. In this scene, the TARDIS dematerializes, marking its seamless departure as a symbol of hope and resilience in the face of cosmic calamities.',
+        o.purpose = 'Facilitates time travel and aids in stabilizing temporal crises.',
+        o.significance = 'Represents technological mastery and serves as a beacon of stability and familiarity in the ever-shifting fabric of time.'
     ;
 MERGE (o:Object {uuid: 'object_sonic_screwdriver'})
     ON CREATE SET
         o.name = 'Sonic Screwdriver',
-        o.description = 'The Doctor\'s signature multi-functional tool emits a low hum as it scans and analyzes the Quantum Archive\'s central systems. It is capable of interacting with and diagnosing a wide range of technologies, particularly temporal and alien systems.',
-        o.purpose = 'Scanning and analyzing technology',
-        o.significance = 'Acts as the Doctor\'s primary diagnostic tool and is crucial for investigative and problem-solving efforts.'
+        o.description = 'A sleek, multifunctional tool wielded by The Doctor, the Sonic Screwdriver is capable of scanning systems, interfacing with alien technologies, and unlocking sealed mechanisms. It emits a soft blue glow and precise sonic frequencies when activated, embodying advanced, almost organic technology.',
+        o.purpose = 'To probe and interact with advanced technological systems and control matrices within the Quantum Archive.',
+        o.significance = 'The Sonic Screwdriver symbolizes The Doctor\'s resourcefulness and his deep connection with temporal technology, routinely proving indispensable in overcoming anomalies.'
     ;
 MERGE (o:Object {uuid: 'object_quantum_transmitter'})
     ON CREATE SET
         o.name = 'Quantum Transmitter',
-        o.description = 'A small, concealed device hidden within Coordinator Voss\'s crystalline badge of office. It is designed for discreet, quantum-encrypted communication across distances.',
-        o.purpose = 'Secret communication',
-        o.significance = 'Reveals Voss\'s betrayal and underscores the Entropy Syndicate\'s infiltration capabilities.'
-    ;
-MERGE (o:Object {uuid: 'object_temporal_armor'})
-    ON CREATE SET
-        o.name = 'Temporal Combat Armor',
-        o.description = 'Advanced protective suits worn by Entropy Syndicate operatives. The armor is engineered to shield wearers from temporal feedback and chronometric instability, with a surface that ripples with temporal energy absorption patterns.',
-        o.purpose = 'Protection from temporal effects during archive infiltration',
-        o.significance = 'Demonstrates the Entropy Syndicate\'s advanced temporal technology and preparedness for assault.'
+        o.description = 'Concealed within a crystalline badge of office, the Quantum Transmitter is a discreet, high-tech device engineered for encrypted communications across vast temporal distances. With intricate circuitry and a compact design, it seamlessly integrates with the Archive’s energy matrices.',
+        o.purpose = 'To covertly transmit data, facilitating surreptitious operations and potential sabotage within the Archive’s central systems.',
+        o.significance = 'The Quantum Transmitter serves as a tangible symbol of covert infiltration and manipulation, highlighting Coordinator Voss\'s secretive operations and underlying alliance with rogue temporal forces.'
     ;
 MERGE (o:Object {uuid: 'object_temporal_weapons'})
     ON CREATE SET
         o.name = 'Temporal Weapons',
-        o.description = 'Sophisticated armaments carried by the Entropy Syndicate forces, capable of manipulating and disrupting timestreams. These weapons glow with temporal energy, hinting at their capacity to inflict severe damage to conventional and temporal targets.',
-        o.purpose = 'Offensive temporal combat capabilities',
-        o.significance = 'Represents the militarization of temporal technology and the dangerous capabilities of the Syndicate.'
+        o.description = 'Temporal Weapons are advanced devices engineered to exploit quantum vulnerabilities and manipulate the flow of spacetime. Crafted to withstand temporal feedback, these armaments emit precise energy pulses capable of neutralizing temporal anomalies. Their design integrates cutting-edge technology with aggressive tactical features, making them a formidable asset in any high-stakes temporal conflict.',
+        o.purpose = 'To secure critical points by neutralizing temporal anomalies during breaches.',
+        o.significance = 'They symbolize the aggressive technological brinkmanship of the Entropy Syndicate and serve as a physical manifestation of their intent to control and reshape time for their own gains.'
     ;
-MERGE (o:Object {uuid: 'object_central_control_nexus'})
+MERGE (l:Location {uuid: 'location_quantum_archive_reception_chamber'})
     ON CREATE SET
-        o.name = 'Central Control Nexus',
-        o.description = 'A sophisticated control interface located at the heart of the Security Nexus, featuring multiple temporal monitoring displays and emergency protocol systems. It enables direct manipulation of the Archive\'s defensive systems and containment fields.',
-        o.purpose = 'Control and monitoring of Archive security systems',
-        o.significance = 'Represents the last line of defense for the Archive\'s knowledge and security.'
+        l.name = 'Quantum Archive Reception Chamber',
+        l.description = 'The reception chamber of the Quantum Archive is a vast, crystalline space defined by translucent walls that pulse with vibrant chronometric energy patterns. Temporal matrices line these walls, displaying cascading streams of data in ancient languages across intricate holographic panels. The atmosphere blends futuristic technology with ancient mystique, permeated by subtle artron energy—a mesmerizing, ominous environment that preserves eons of history.',
+        l.type = 'Interior'
     ;
-MERGE (o:Object {uuid: 'object_temporal_knowledge'})
+MERGE (l:Location {uuid: 'location_quantum_archive_central_core'})
     ON CREATE SET
-        o.name = 'Temporal Knowledge',
-        o.description = 'An assembled consciousness of pure chronometric energy, manifesting as the awakened knowledge of the Quantum Archive. More than mere data, it acts as a sentient force capable of judgment and intervention, born from the vast temporal records of the Archive.',
-        o.purpose = 'Judgment and Defense',
-        o.significance = 'Personifies the Moment\'s power and the sentience of time, serving as a living representation of accumulated historical and temporal power.'
+        l.name = 'Quantum Archive - Central Core',
+        l.description = 'The Quantum Archive\'s Central Core is an awe-inspiring interior space dominated by massive data crystals that stretch upward into darkness. These crystals, once a symbol of perfect symmetry, now show scars of temporal decay with discordant, chaotic patterns, and the space is charged with chronometric energy. The interplay of decaying surfaces and advanced control matrices casts an ominous, almost sentient aura over the room.',
+        l.type = 'Interior'
     ;
-MERGE (o:Object {uuid: 'object_archive_systems'})
+MERGE (l:Location {uuid: 'location_quantum_archive_security_nexus'})
     ON CREATE SET
-        o.name = 'Archive\'s Systems',
-        o.description = 'The collective technological infrastructure of the Quantum Archive that stores and manages temporal knowledge. These systems resonate in harmony with the awakened temporal knowledge, highlighting a symbiotic relationship between the physical and sentient aspects of the Archive.',
-        o.purpose = 'Data Storage and Temporal Management',
-        o.significance = 'Forms the foundation of the Archive\'s power and sentience, serving as the platform for its emergent defenses and reactive capabilities.'
+        l.name = 'Quantum Archive - Security Nexus',
+        l.description = 'The Quantum Archive - Security Nexus is a high-security control center within the Archive bristling with advanced technology and urgency. In this interior hub, walls vibrate with temporal breach alarms while multiple control panels display fragmented spacetime data. It is strategically designed to monitor and counteract entropic energy surges, facilitating swift communication and rapid response to temporal fractures.',
+        l.type = 'Interior'
     ;
-MERGE (o:Object {uuid: 'object_quantum_crystals'})
+MERGE (l:Location {uuid: 'location_quantum_archive_temporal_core'})
     ON CREATE SET
-        o.name = 'Archive Quantum Crystals',
-        o.description = 'Massive crystalline structures that form the physical infrastructure of the Quantum Archive. These crystals pulse with temporal energy and now exhibit signs of emergent consciousness as part of the Archive\'s evolution.',
-        o.purpose = 'Storage and processing of temporal knowledge',
-        o.significance = 'Serve as the physical manifestation of the Archive\'s evolution into a semi-sentient entity.'
+        l.name = 'Quantum Archive - Temporal Core',
+        l.description = 'The Quantum Archive - Temporal Core is a central, high-stakes chamber where the essence of time is laid bare. This interior space is defined by pulsating data crystals and interlinked control matrices humming with stabilizing energy. Its atmosphere, both awe-inspiring and foreboding, resonates with the shifting energies of purging protocols and fractured crystalline forms, as if time itself is awakening.',
+        l.type = 'Interior'
     ;
-MERGE (o:Object {uuid: 'object_security_protocols'})
+MERGE (l:Location {uuid: 'location_quantum_archive_temporal_staging_area'})
     ON CREATE SET
-        o.name = 'Security Protocols',
-        o.description = 'A set of newly implemented protective measures managed by K\'nell to safeguard the Archive\'s knowledge. These protocols are adapted to interface with the Archive\'s newly developed consciousness, enhancing its self-protective capabilities.',
-        o.purpose = 'Protection of temporal knowledge',
-        o.significance = 'Represents the Archive\'s enhanced ability to protect itself and adapt to emerging threats.'
-    ;
-MERGE (l:Location {uuid: 'location_temporal_staging_area'})
-    ON CREATE SET
-        l.name = 'Temporal Staging Area',
-        l.description = 'The primary operational center of the Quantum Archive, featuring crystalline walls that pulse with chronometric energy. This space has evolved from a simple control center to a manifestation of the Archive\'s newfound consciousness. It houses sophisticated temporal monitoring equipment and serves as the interface between the Archive\'s systems and its operators.',
-        l.type = 'Control Room'
-    ;
-MERGE (l:Location {uuid: 'location_central_core'})
-    ON CREATE SET
-        l.name = 'Central Core',
-        l.description = 'A cavernous space within the Quantum Archive dominated by colossal, once symmetrical data crystals that now show signs of temporal decay. The atmosphere is heavy with the hum of failing temporal systems as control matrices within the crystal structures allow for direct interface with the archive\'s systems, symbolizing the heart of the Archive\'s memory.',
-        l.type = 'Data Storage Core'
-    ;
-MERGE (l:Location {uuid: 'location_security_nexus'})
-    ON CREATE SET
-        l.name = 'Security Nexus',
-        l.description = 'The primary defensive control center of the Quantum Archive, featuring an array of temporal containment systems and emergency protocol controls. The room is charged with entropic energy from multiple temporal breach points and is characterized by holographic displays and advanced security features combined with a crystalline aesthetic.',
-        l.type = 'Control Center'
-    ;
-MERGE (l:Location {uuid: 'location_temporal_core'})
-    ON CREATE SET
-        l.name = 'Temporal Core',
-        l.description = 'The innermost sanctum of the Quantum Archive, serving as the heart of its temporal mechanics and data storage. Embodying immense chronometric energy and raw temporal power, this core chamber features pulsing TARDIS connections and resonating crystals that make the location both awe-inspiring and dangerous.',
-        l.type = 'Core Chamber'
-    ;
-MERGE (o:Organization {uuid: 'org_quantum_archive'})
-    ON CREATE SET
-        o.name = 'Quantum Archive',
-        o.description = 'A vast repository of temporal knowledge that has evolved beyond its original purpose as a mere storage facility. Following recent events, it has developed a form of consciousness, able to protect and curate its own knowledge, representing the intersection of technological advancement and ethical responsibility in the preservation of historical knowledge.',
-        o.sphere_of_influence = 'Temporal Knowledge Preservation'
+        l.name = 'Quantum Archive - Temporal Staging Area',
+        l.description = 'The Quantum Archive - Temporal Staging Area is a transitional interior space within the vast archive that resonates with a unique blend of advanced technology and subdued mysticism. Marked by a soft, pulsating luminescence from quantum crystals and emerging matrices, the area once exemplified strict order but now emits a subtle awareness. The air carries the lingering hum of chronometric energy intertwined with cautious hope, reflecting recent restoration efforts.',
+        l.type = 'Interior'
     ;
 MERGE (o:Organization {uuid: 'org_entropy_syndicate'})
     ON CREATE SET
         o.name = 'Entropy Syndicate',
-        o.description = 'A hostile and technologically advanced organization intent on exploiting temporal knowledge for nefarious purposes. The Entropy Syndicate is sophisticated in breaching secure temporal facilities and implanting complex temporal viruses, demonstrating a dangerous ambition to control time that ultimately backfires against them.',
-        o.sphere_of_influence = 'Temporal Exploitation'
-    ;
-MERGE (o:Organization {uuid: 'org_entropy_syndicate_operatives'})
-    ON CREATE SET
-        o.name = 'Entropy Syndicate Operatives',
-        o.description = 'An elite tactical unit within the Entropy Syndicate specialized in temporal infiltration and armed intervention. Equipped with advanced temporal armor and weapons, these operatives demonstrate the Syndicate\'s significant technological capabilities, and their fate in the face of awakened temporal power illustrates the risks of exploiting time.',
-        o.sphere_of_influence = 'Temporal Combat Operations'
+        o.description = 'The Entropy Syndicate is a rogue collective of operatives determined to exploit quantum vulnerabilities for their own gain. Their goal is to destabilize established temporal orders and seize control of historical records to rewrite history in favor of their agenda. Operating with ruthless precision, the organization thrives on calculated chaos and temporal warfare, navigating the complexities of time with both aggression and strategic finesse.',
+        o.sphere_of_influence = 'Temporal Warfare'
     ;
 MERGE (ep:Episode {uuid: 'episode-episode_one_-_the_quantum_archive'})
     ON CREATE SET
@@ -216,708 +154,449 @@ MERGE (ep:Episode {uuid: 'episode-episode_one_-_the_quantum_archive'})
     ;
 MERGE (s:Scene {uuid: 'scene_1'})
     ON CREATE SET
-        s.title = 'Urgent Warning at the Archive Threshold',
-        s.description = 'The scene unfolds within the Temporal Staging Area of the Quantum Archive, a reception chamber characterized by crystalline structures and pulsing chronometric energy. Translucent walls display cascading data streams in ancient languages, emphasizing the vastness and age of the archive. The atmosphere is thick with tension and urgency as temporal matrices lining the walls exhibit signs of decay. Dr. Sarah Chen, positioned at a central control platform amidst holographic displays, urgently monitors failing temporal seals with her quantum-state analyzer. Archivist Prime K\'nell, an ancient crystalline being, agitates as they manipulate control interfaces, their light fragments reflecting the growing crisis. Junior archivists work feverishly at containment consoles, struggling against spreading temporal corruption visualized on a massive holographic display. The scene establishes a dire situation – a critical archive under attack, on the verge of collapse.',
+        s.title = 'The Repository Threshold',
+        s.description = 'In the Quantum Archive’s Temporal Staging Area, crystalline walls shimmer with pulsating chronometric energy, establishing a stage where time itself seems both fragile and formidable. Dr. Sarah Chen stands at a central control platform, her quantum-state analyzer alive with cascading failure patterns that warn of rapidly deteriorating temporal seals. Nearby, Archivist Prime K\'Nell’s luminous, shifting form reflects both the urgency and the ancient gravitas of the archive, as frantic junior archivists race against time at containment consoles. This scene reveals how the calculated assault by the Entropy Syndicate threatens to unravel eons of recorded history, setting a tone of imminent peril and technological vulnerability.',
         s.scene_number = 1
     
     WITH s
-    MATCH (l:Location {uuid: 'location_temporal_staging_area'})
+    MATCH (l:Location {uuid: 'location_quantum_archive_temporal_staging_area'})
     MERGE (s)-[:LOCATED_IN]->(l)
     ;
 MERGE (e:Event {uuid: 'event_1_1'})
     ON CREATE SET
-        e.title = 'Temporal Seals Degrading Rapidly',
-        e.description = 'Dr. Sarah Chen, observing data from her quantum-state analyzer, delivers grim news: the temporal seals protecting the Quantum Archive are failing at an alarming rate. Her readings indicate an exponential degradation, threatening the archive with catastrophic data loss. Her urgent tone underscores the severity of the situation, emphasizing the potential loss of centuries of accumulated knowledge with each passing chronometric pulse. The holographic displays around her reinforce the visual representation of the escalating crisis.',
+        e.title = 'Crisis Diagnosis and Unveiling Peril',
+        e.description = 'Dr. Sarah Chen scrutinizes her quantum-state analyzer as its readings expose a catastrophic decay in the Archive’s temporal seals. The threat is immediate: centuries of meticulously preserved histories are at risk, compromised by an attack that exploited unforeseen quantum vulnerabilities. Simultaneously, Archivist Prime K\'Nell confirms that the Entropy Syndicate’s incursion was executed with chilling precision, igniting an atmosphere of urgency and dread. The organized chaos of junior archivists at their stations, paired with the holographic depiction of cascading temporal decay, underscores the escalating crisis and sets the stage for a desperate call for external intervention.',
         e.sequence = 1,
-        e.key_dialogue = ["DR. CHEN: These readings can't be right. The temporal seals are degrading at an exponential rate. We're losing centuries of data with every chronometric pulse."]
+        e.key_dialogue = ["DR. CHEN: 'The temporal seals are degrading faster than predicted. The Archive's knowledge - eons of history ... it's all at risk.'", "K'NELL: 'The Entropy Syndicate's attack was precisely calculated. They knew our vulnerabilities.'"]
     ;
 MERGE (e:Event {uuid: 'event_1_2'})
     ON CREATE SET
-        e.title = 'Entropy Syndicate\'s Calculated Attack',
-        e.description = 'Archivist Prime K\'nell confirms Sarah\'s fears, revealing that the temporal degradation is not accidental but the result of a deliberate and sophisticated attack by the Entropy Syndicate. K\'nell explains that the attack vector was meticulously planned to exploit quantum vulnerabilities previously unknown to the Archive\'s defenses. This revelation shifts the scene from a technical problem to a targeted assault, introducing an external antagonist and raising the stakes by highlighting the Syndicate\'s strategic intelligence.',
+        e.title = 'The Call for Assistance and TARDIS Arrival',
+        e.description = 'With the crisis deepening, Archivist K\'Nell’s urgent plea for further aid signals the limitations of the Archive\'s defenses. The quantum analyzer emits an alert marked by an unexpected temporal signature, and the atmosphere vibrates with the sound of an approaching rescue. The TARDIS materializes seamlessly into the crystalline environment, its chameleon circuit echoing the Archive’s own luminescence. From within this iconic vessel, The Doctor emerges with measured resolve, instantly assessing the catastrophic entropic cascade while questioning the enigmatic motives behind the deliberate destruction of such profound historical treasures.',
         e.sequence = 2,
-        e.key_dialogue = ["K'NELL: The Entropy Syndicate's attack vector was precisely calculated. They exploited quantum vulnerabilities we didn't know existed."]
-    ;
-MERGE (e:Event {uuid: 'event_1_3'})
-    ON CREATE SET
-        e.title = 'Request for External Intervention',
-        e.description = 'As junior archivists frantically work at temporal containment consoles to mitigate the damage, K\'nell makes a critical admission: the situation is beyond the Archive\'s internal capabilities to resolve. K\'nell declares the necessity of external intervention, specifically seeking someone with expertise in both the technological and metaphysical aspects of temporal mechanics. This plea emphasizes the unique and complex nature of the threat and sets the stage for the arrival of a more capable agent to address the crisis.',
-        e.sequence = 3,
-        e.key_dialogue = ["K'NELL: We require intervention beyond our capabilities. Someone who understands both the technology and the metaphysical implications."]
-    ;
-MERGE (e:Event {uuid: 'event_1_4'})
-    ON CREATE SET
-        e.title = 'The Doctor\'s Materialization and Rapid Assessment',
-        e.description = 'Responding to the urgent need for intervention, the Doctor arrives in the TARDIS. The iconic wheezing and grinding sound heralds its materialization, the chameleon circuit instantly adapting the ship\'s exterior to the crystalline architecture of the Archive. The Doctor emerges, sonic screwdriver already in hand, immediately assessing the situation. They quickly diagnose a \"catastrophic entropic cascade,\" acknowledging the brilliance of the Archive\'s quantum crystalline structure while also questioning the Entropy Syndicate\'s motive for destruction. This arrival injects hope and expertise into the scene, hinting at a deeper mystery beyond the immediate threat.',
-        e.sequence = 4,
-        e.key_dialogue = ["THE DOCTOR: Temporal archives experiencing catastrophic entropic cascade. Though I must say - brilliant architecture. Quantum crystalline matrices storing data in temporal suspension. But the real question is - why would someone want to destroy it?"]
+        e.key_dialogue = ["THE DOCTOR: 'Temporal archives experiencing catastrophic entropic cascade. Brilliant architecture though - quantum crystalline matrices storing data in temporal suspension. But why would someone want to destroy it?'"]
     ;
 MERGE (s:Scene {uuid: 'scene_2'})
     ON CREATE SET
         s.title = 'The Hidden Pattern',
-        s.description = 'Inside the towering central core of the Quantum Archive, massive data crystals stretch into the encroaching darkness, their surfaces marred by spreading temporal decay and discordant, fading patterns. The atmosphere is charged with tension and urgency as The Doctor, armed with a sonic screwdriver, meticulously examines the failing systems. Dr. Chen stands nearby, carefully monitoring degradation patterns that hint at a sophisticated and deliberate cyber attack. K\'nell, their crystalline form shimmering with digital data, works at the primary control matrix. Shadows hide unexpected betrayals as secretive figures manipulate technology for hidden gains. Amid this interplay of light, decay, and high stakes, the scene establishes a race against time to uncover the true target—a weapon from the storied Time War—ensuring that history itself remains unaltered.',
+        s.description = 'In the heart of the Quantum Archive\'s Central Core, massive data crystals tower overhead, their surfaces marred by the ominous spread of temporal decay. The environment is lit by the cool, eerie glow of holographic displays and the rhythmic pulse of chronometric energy. Shadows play across the crystalline structures as fragments of ancient data reveal long-buried secrets. Dr. Sarah Chen monitors degradation patterns on a quantum analyzer, while Archivist Prime K\'nell interfaces with control matrices, deciphering anomalous code. The Doctor, with measured urgency and a sonic screwdriver in hand, inspects the holographic display, piecing together the danger behind a sinister temporal virus. Meanwhile, a covert figure lurks in the shadows, setting in motion a betrayal that could destabilize the very fabric of recorded history. This scene deepens the mystery of the temporal threat and sets up the conflict around accessing dangerous knowledge, highlighting the interplay between technology, ancient wisdom, and hidden malevolence.',
         s.scene_number = 2
     
     WITH s
-    MATCH (l:Location {uuid: 'location_central_core'})
+    MATCH (l:Location {uuid: 'location_quantum_archive_central_core'})
     MERGE (s)-[:LOCATED_IN]->(l)
     ;
 MERGE (e:Event {uuid: 'event_2_1'})
     ON CREATE SET
-        e.title = 'Detection of the Temporal Virus',
-        e.description = 'In the dim light cast by the decaying data crystals, Dr. Chen succinctly summarizes the crisis to her colleagues. She explains that the invasion was not a simple breach but a carefully orchestrated infiltration—an attack sophisticated enough to implant a temporal virus that is actively rewriting historical records at the quantum level. This revelation is critical, highlighting the vulnerability of the Archive and the far-reaching implications of erasing or altering history. Her analytical tone mixes with palpable concern as she outlines the virus\'s insidious nature, setting the stage for a deeper investigation into its origins and objectives.',
+        e.title = 'Unveiling the Temporal Threat',
+        e.description = 'Dr. Sarah Chen opens the scene by revealing that the Archive\'s defenses have been breached in a most unprecedented manner. Using her quantum analyzer, she discloses that alongside the physical incursion, a highly sophisticated temporal virus has been implanted into the records. Her tone is laced with urgency and concern as she emphasizes that the virus is actively rewriting historical data at a quantum level. This revelation sets the stage for the unfolding crisis, highlighting both the technical and existential risks posed by the attack.',
         e.sequence = 1,
         e.key_dialogue = ["DR. CHEN: The attack was sophisticated. They didn't just breach our defenses - they implanted something. A temporal virus that's rewriting our historical records at the quantum level."]
     ;
 MERGE (e:Event {uuid: 'event_2_2'})
     ON CREATE SET
-        e.title = 'Interfacing and Code Fragment Isolation',
-        e.description = 'Immediately following Dr. Chen\'s alarming report, K\'nell steps forward with graceful, calculated urgency. Their crystalline appendages extend toward the primary control matrix, interfacing directly with the Archive\'s intricate systems. As data streams cascade over their form, K\'nell identifies that fragments of malicious code have been isolated. The virus, they reveal, is not random but appears to be scanning for specific temporal coordinates—a trail that could lead to a lost yet dangerous relic from the Time War. This technical insight not only deepens the unfolding mystery but also elevates the stakes of the conflict.',
+        e.title = 'Crystalline Communication',
+        e.description = 'Archivist Prime K\'nell takes center stage as they interface with a primary control matrix using their crystalline appendages. The shifting pulses of data and light become the medium through which critical fragments of malicious code are isolated. K\'nell’s focused approach reveals that the implanted virus is not random but appears to be methodically searching for specific temporal coordinates within the Archive. This event deepens the mystery, suggesting that the viral attack was designed with a precise objective in mind.',
         e.sequence = 2,
         e.key_dialogue = ["K'NELL: We've isolated fragments of their code structure. The virus appears to be searching for specific temporal coordinates."]
     ;
 MERGE (e:Event {uuid: 'event_2_3'})
     ON CREATE SET
-        e.title = 'Uncovering the Hidden Motive',
-        e.description = 'Compelled by the urgency of the situation, The Doctor steps forward with determination, inviting a closer look by saying, \'Let me see.\' As a holographic display materializes from thin air, vibrant yet fragmented code patterns and mysterious temporal coordinates flash across its surface. The Doctor\'s face shifts from curiosity to grave concern as they interpret the data: these aren’t mere attack algorithms but a targeted search for records of the Moment—the ultimate weapon of the Time War, believed to have been eradicated from history. Amid this tense technical scrutiny, a shadowed Coordinator Voss lurks in an alcove, discreetly activating a concealed quantum transmitter, suggesting a hidden agenda at play.',
+        e.title = 'The Doctor’s Critical Insight',
+        e.description = 'The Doctor steps forward with a blend of curiosity and gravity as they examine a freshly materialized holographic display projecting fragmented code patterns and temporal coordinates. Switching from a reserved inquiry to a declaration of alarm, The Doctor’s scrutiny sharpens the focus of the investigation. Their assessment confirms that the code is not merely an attack algorithm; it is a calculated search for data regarding the Moment—an ultimate weapon from the Time War. The Doctor’s realization underscores the high stakes of the situation and the potential catastrophic consequences of unleashing such forbidden knowledge.',
         e.sequence = 3,
         e.key_dialogue = ["THE DOCTOR: Let me see.", "THE DOCTOR: These aren't just attack algorithms. They're searching for information about the Moment - the ultimate weapon of the Time War. Those records were supposed to be destroyed... sealed away in time itself."]
     ;
+MERGE (e:Event {uuid: 'event_2_4'})
+    ON CREATE SET
+        e.title = 'Covert Sabotage Unveiled',
+        e.description = 'In the dim recesses of the Central Core, Coordinator Voss lurks quietly, blending into the shadowed alcove. While the primary investigation unfolds, Voss covertly activates a hidden quantum transmitter embedded in their crystalline badge—a critical move that hints at ulterior motives. This silent act of sabotage, executed with precision, reveals that there may be an internal threat within the Archive itself. The event adds a layer of intrigue and mistrust, subtly shifting the narrative\'s focus towards betrayal from within the organization.',
+        e.sequence = 4,
+        e.key_dialogue = []
+    ;
 MERGE (s:Scene {uuid: 'scene_3'})
     ON CREATE SET
-        s.title = 'Betrayal Cascade',
-        s.description = 'Chaos erupts in the Security Nexus as temporal breach alarms scream through the facility. Spacetime itself fractures, unleashing crackling entropic energy as multiple breaches tear open reality. From these rifts, Entropy Syndicate operatives storm into the Nexus, clad in specialized temporal combat armor. Leading the charge is Director Malik, who emerges from the largest breach, brandishing advanced temporal weaponry. Simultaneously, Coordinator Voss, previously appearing as an ally, reveals their true colors and moves to sabotage the Archive\'s containment fields from within. The Doctor, Sarah Chen, and K\'nell are caught in a desperate struggle to defend the Archive against both external assault and internal treachery, as the true magnitude of the Entropy Syndicate\'s ambition and the catastrophic potential of their actions become terrifyingly clear.',
+        s.title = 'Betrayal Cascade at the Security Nexus',
+        s.description = 'Within the Quantum Archive’s Security Nexus, the very fabric of time seems to fracture with the onset of chaos. The vast, echoing chamber, normally a bastion of order and guarded history, now reverberates with the shrill alarms of imminent temporal collapse. Crystalline panels of the archive pulse with erratic, entropic energy as breaches tear through the corridors of spacetime. Here, the narrative tension escalates as trusted allies reveal treachery and merciless adversaries assert their control. Director Malik, with his temporal weapons glinting ominously, ushers in a chilling command while a covert betrayal undermines every safeguard. This scene is pivotal in exposing the fissures within the Archive’s core, setting the stage for a dramatic conflict charged with urgency and moral reckoning.',
         s.scene_number = 3
     
     WITH s
-    MATCH (l:Location {uuid: 'location_security_nexus'})
+    MATCH (l:Location {uuid: 'location_quantum_archive_security_nexus'})
     MERGE (s)-[:LOCATED_IN]->(l)
     ;
 MERGE (e:Event {uuid: 'event_3_1'})
     ON CREATE SET
-        e.title = 'Temporal Incursion',
-        e.description = 'Deafening alarms signal a critical system failure as temporal breaches violently rupture the fabric of spacetime within the Security Nexus. Entropic energy crackles around the expanding fissures as Entropy Syndicate operatives, equipped with specialized temporal armor, pour into the facility. Director Malik strides through the largest breach, temporal weapon primed and ready, initiating the full-scale assault on the Quantum Archive.',
+        e.title = 'Malik\'s Authoritative Entry',
+        e.description = 'In the midst of the shattered calm, Director Malik strides forcefully through the largest temporal breach, his presence dominating the chaotic Security Nexus. With the facility’s alarms piercing the atmosphere and the very walls trembling from time’s distortion, Malik declares his uncompromising will to seize the Archive’s ancient secrets. His command is laced with a promise of power as he emphasizes that the knowledge contained within the Archive will serve a grander, sinister purpose. The moment is underscored by the ominous readiness of his temporal weapons, priming the stage for a deeper conflict.',
         e.sequence = 1,
-        e.key_dialogue = ["DIRECTOR MALIK: Secure the facility. The Archive's knowledge will serve a greater purpose. The secrets of the Time War will finally be ours."]
+        e.key_dialogue = ["Secure the facility. The Archive's knowledge will serve a greater purpose. The secrets of the Time War will finally be ours."]
     ;
 MERGE (e:Event {uuid: 'event_3_2'})
     ON CREATE SET
-        e.title = 'Voss Unmasked',
-        e.description = 'Amidst the chaos of the Syndicate\'s attack, Coordinator Voss abandons their facade of loyalty and reveals their true allegiance to the Entropy Syndicate.  Capitalizing on the confusion, Voss makes a calculated move to sabotage the Quantum Archive from within, attempting to disable the vital containment fields protecting the facility\'s precious temporal data. This act of betrayal deepens the crisis, turning the defense of the Archive into a two-front battle against both external invaders and internal treachery.',
+        e.title = 'Voss\'s Treacherous Revelation',
+        e.description = 'Amid the rising tumult, the stage darkens with an act of internal betrayal. Coordinator Voss, previously blending into the ranks of the Archive’s staff, steps forward to reveal their true loyalty to the Entropy Syndicate. With deliberate and covert movements, Voss begins the process of disabling the Archive’s critical containment fields. Their actions are not shouted but executed with chilling precision, heightening the sense of peril within the failing infrastructure. This unfolding treachery deepens the narrative’s central conflict, leaving allies vulnerable and trust fatally compromised.',
         e.sequence = 2,
         e.key_dialogue = []
     ;
 MERGE (e:Event {uuid: 'event_3_3'})
     ON CREATE SET
-        e.title = 'Desperate Plea',
-        e.description = 'As the Entropy Syndicate\'s forces advance and Voss\'s sabotage intensifies, the Doctor frantically works at the central control nexus, trying to counteract the unfolding disaster. In a desperate attempt to make the attackers understand the catastrophic consequences of their actions, the Doctor warns them of the true nature of the Moment. They emphasize that it is not merely a weapon to be controlled, but a sentient force capable of judging all of time and space, highlighting the unimaginable danger of unleashing such power.',
+        e.title = 'The Doctor\'s Urgent Verdict',
+        e.description = 'As the Archive teeters on the brink of collapse, The Doctor seizes the crisis with an urgent, clarifying declaration. Working frantically at the central control nexus, The Doctor warns that the unfolding sabotage is more than a mere tactical ploy—it\'s the unleashing of a force with a consciousness of its own. Their voice rings clear amid the chaos, asserting that the Moment, long thought to be a dormant weapon, carries with it an inherent judgment. Alongside them, Dr. Chen confirms that the virus pattern is assembling a dangerous new force across multiple timelines, amplifying the threat and setting the stage for irreversible consequences.',
         e.sequence = 3,
-        e.key_dialogue = ["THE DOCTOR: You don't understand what you're dealing with! The Moment wasn't just a weapon - it was consciousness itself, passing judgment on all of time and space!"]
-    ;
-MERGE (e:Event {uuid: 'event_3_4'})
-    ON CREATE SET
-        e.title = 'Viral Assembly',
-        e.description = 'While the Doctor races against time to defend the Archive, Dr. Chen, monitoring her quantum analyzer, makes a chilling discovery about the temporal virus planted by the Entropy Syndicate. She realizes the virus is not simply searching for information, but actively assembling something new and dangerous from fragments of data scattered across multiple timelines. This revelation suggests a far more complex and perilous objective behind the Syndicate\'s attack, raising the stakes of the conflict to terrifying new heights as they unknowingly unleash an unforeseen temporal anomaly.',
-        e.sequence = 4,
-        e.key_dialogue = ["DR. CHEN: Doctor - the virus pattern... it's not just searching. It's assembling something across multiple timeline nodes. Creating something new."]
+        e.key_dialogue = ["You don't understand what you're dealing with! The Moment wasn't just a weapon - it was consciousness itself, passing judgment on all of time and space!", "Doctor - the virus pattern... it's not just searching. It's assembling something across multiple timeline nodes. Creating something new."]
     ;
 MERGE (s:Scene {uuid: 'scene_4'})
     ON CREATE SET
-        s.title = 'Temporal Revelation and Judgment',
-        s.description = 'In the heart of the Archive’s Temporal Core, the scene unfolds in a charged symphony of chaos and cosmic retribution. The TARDIS interfaces with the Archive\'s systems, emitting pulses of stabilizing energy that clash with the raw, turbulent forces unleashed by a malfunctioning temporal matrix. K\'nell’s crystalline form fractures under the strain as they channel desperate purging protocols, while Dr. Chen’s quantum analyzer flashes critical pattern convergence in a race against time. The atmosphere vibrates with imminent judgment as the assembled temporal knowledge—a shimmering, sentient consciousness of pure chronometric energy—emerges. The scene’s urgency is bolstered by the impending collapse of time itself, setting up a confrontation between the cold calculation of the Entropy Syndicate and the living, rebellious force of time that remembers every transgression.',
+        s.title = 'Time\'s Judgment',
+        s.description = 'In the heart of the Quantum Archive’s Temporal Core, the environment is charged with an almost palpable tension. The chamber glows with unstable, pulsating energy as the TARDIS interfaces with the Archive\'s delicate systems, casting shifting, shadowy reflections on the crystalline walls. Amid the urgent hum of failing matrices, Archivist Prime K\'nell sacrifices fragments of their crystalline form to purge a malignant temporal virus, while Dr. Sarah Chen’s quantum-state analyzer flashes rapid warnings of critical convergence. Director Malik’s attempt to assert control falters as a sentient, shimmering chronometric force materializes, turning calculated plans into harbingers of judgment. The scene personifies the struggle between human endeavor and the wild, uncontrollable pulse of time, setting the stage for irrevocable consequences.',
         s.scene_number = 4
     
     WITH s
-    MATCH (l:Location {uuid: 'location_temporal_core'})
+    MATCH (l:Location {uuid: 'location_quantum_archive_temporal_core'})
     MERGE (s)-[:LOCATED_IN]->(l)
     ;
 MERGE (e:Event {uuid: 'event_4_1'})
     ON CREATE SET
-        e.title = 'Stabilization Under Duress',
-        e.description = 'The scene opens with the TARDIS interfacing directly with the Archive’s systems, pulsing with a stabilizing energy that ripples through the Temporal Core. K\'nell, the ancient keeper, channels purging protocols through their crystalline matrix—even as fragments of their form begin to fracture under the pressure. Dr. Chen’s quantum analyzer displays a critical convergence of patterns, underscoring the immediacy of the crisis. This moment sets the stage, highlighting the desperation of the Archive’s defenders and their unyielding determination to delay the inevitable collapse of time.',
+        e.title = 'Crisis Stabilization Initiated',
+        e.description = 'In the midst of the deteriorating temporal matrix, the TARDIS locks onto the Archive\'s failing systems, sending out stabilizing energies. Archivist Prime K\'nell channels an immense sacrifice, fracturing their own crystalline structure to purge the invasive virus from the Archive. Dr. Sarah Chen’s analyzer flashes with rapid critical readings as Director Malik urgently announces an impending systems breach, trying to forecast control even as the situation spirals. This event lays the groundwork for the unfolding catastrophe, blending desperate technological fixes with the looming inevitability of the Archive’s retaliation.',
         e.sequence = 1,
-        e.key_dialogue = []
+        e.key_dialogue = ["DIRECTOR MALIK: Systems breach at 87%. Soon the power of time itself will be-"]
     ;
 MERGE (e:Event {uuid: 'event_4_2'})
     ON CREATE SET
-        e.title = 'Dire Prognosis Interrupted',
-        e.description = 'As the tension mounts, Director Malik urgently announces the system breach at 87%, foretelling that the power of time itself will soon be unleashed. His declaration is abruptly cut short by a sudden transformation—the assembled temporal knowledge coalesces into a shimmering consciousness of chronometric energy, dwarfing his planned narrative. This pivotal interruption not only signifies the failure of Malik’s control but also marks the inflection point where time reveals its sentience. The disruption leaves Malik visibly unsettled, a harbinger of the unfolding retribution.',
+        e.title = 'Temporal Judgment Unleashed',
+        e.description = 'As the crisis reaches its apex, the assembled temporal knowledge manifests as a radiant, living consciousness, halting Director Malik\'s hurried plans mid-sentence. In a moment of dramatic reckoning, The Doctor steps forward and declares that the very power the Entropy Syndicate sought now exacts its retribution. The confrontation escalates as the Archive’s agents experience the irreversible effects of time’s judgment—the Entropy Syndicate operatives freeze in temporal stasis and Coordinator Voss is ensnared in an endless causality loop. This event starkly underscores that time is not a malleable instrument but a sentient force beyond control.',
         e.sequence = 2,
-        e.key_dialogue = ["DIRECTOR MALIK: Systems breach at 87%. Soon the power of time itself will be-"]
-    ;
-MERGE (e:Event {uuid: 'event_4_3'})
-    ON CREATE SET
-        e.title = 'Exposing the Inevitable Judgment',
-        e.description = 'The Doctor steps forward, his voice resonating with the weight of cosmic inevitability as he declares, \'You wanted the Moment\'s power? Now face its judgment. Time itself has awakened - and it remembers.\' Amidst this proclamation, the environment transforms: Entropy Syndicate operatives are frozen in temporal stasis, their timelines reduced to static points, while Voss finds themselves trapped in a relentless causality loop, doomed to repeat futile actions. The Doctor’s words underscore the futility of meticulously calculated control over time, setting the stage for the reckoning that binds destiny and consequence.',
-        e.sequence = 3,
-        e.key_dialogue = ["THE DOCTOR: You wanted the Moment's power? Now face its judgment. Time itself has awakened - and it remembers."]
-    ;
-MERGE (e:Event {uuid: 'event_4_4'})
-    ON CREATE SET
-        e.title = 'The Collapse of Certainty',
-        e.description = 'In the final act of the scene, Director Malik, grappling with the unexpected emergence of sentient temporal knowledge, stammers in disbelief. \'Impossible... we calculated every variable... mapped every temporal coordinate...\' he laments, his confidence crumbling. The Doctor retorts with a definitive admonition: \'Time isn’t an equation to be solved, Director. It’s alive. And now, thanks to you, it’s aware.\' This exchange epitomizes the collapse of mechanistic control in the face of the wild, unpredictable force of time. The scene leaves a stark reminder that human attempts to harness time are ultimately at the mercy of its living nature.',
-        e.sequence = 4,
-        e.key_dialogue = ["DIRECTOR MALIK: Impossible... we calculated every variable... mapped every temporal coordinate...", "THE DOCTOR: Time isn't an equation to be solved, Director. It's alive. And now, thanks to you, it's aware."]
+        e.key_dialogue = ["THE DOCTOR: You wanted the Moment's power? Now face its judgment. Time itself has awakened - and it remembers.", "THE DOCTOR: Time isn't an equation to be solved, Director. It's alive. And now, thanks to you, it's aware."]
     ;
 MERGE (s:Scene {uuid: 'scene_5'})
     ON CREATE SET
-        s.title = 'Restoration and Reflection',
-        s.description = 'Within the Temporal Staging Area, the immediate crisis has passed, leaving a palpable sense of relief mingled with lingering awe. K\'nell\'s crystalline form undergoes a slow regeneration, their fractured matrix reforming as light pulses gently across the gleaming temporal chamber. Dr. Chen, her face etched with fatigue but also fascination, meticulously studies her quantum analyzer, its readings reflecting the subtle shifts in the Archive\'s energy signatures. The atmosphere is quiet, contemplative, a stark contrast to the earlier chaos. Though the temporal integrity of the Archive is returning, a profound change has taken root, leaving an indelible mark on the ancient repository of knowledge. The air hums with a renewed, almost sentient energy, as the quantum crystals now pulse with a different kind of light – one that suggests not just storage, but understanding, marking a turning point in the Archive\'s long existence.',
+        s.title = 'Restoration',
+        s.description = 'In the quiet aftermath of catastrophe, the Temporal Staging Area of the Quantum Archive becomes a place of solemn rebirth. The gleaming quantum crystals, once unstable from the temporal virus, now pulse with a renewed, almost sentient, rhythm. K\'nell, sacrificing part of their ancient crystalline form, initiates a painstaking regeneration process, attempting to restore stability while acknowledging irreversible change. Dr. Chen’s readings confirm that although the Archive is stabilizing, its essence is irrevocably altered—a repository that now harbors the faint spark of consciousness. The atmosphere is charged with reflective melancholy, as The Doctor reminds everyone that some mysteries are meant to remain hidden and that true knowledge is always accompanied by responsibility. This transformation signals a new era for the Archive, one that blends preservation with an emerging awareness of its own existence.',
         s.scene_number = 5
     
     WITH s
-    MATCH (l:Location {uuid: 'location_temporal_staging_area'})
+    MATCH (l:Location {uuid: 'location_quantum_archive_temporal_staging_area'})
     MERGE (s)-[:LOCATED_IN]->(l)
     ;
 MERGE (e:Event {uuid: 'event_5_1'})
     ON CREATE SET
-        e.title = 'Damage Assessment and Lost Knowledge',
-        e.description = 'K\'nell, in the process of regenerating their damaged form, delivers a momentous report: the records compromised during the attack have been irreversibly quantum-locked by the \'emergence event\'. This drastic measure renders the knowledge of the Moment inaccessible even to the Archivists themselves, effectively banishing it from temporal reach. Dr. Chen\'s readings corroborate the restoration of temporal stability, yet the weight of the lost knowledge hangs heavy in the air, a sacrifice made for the Archive\'s survival.',
+        e.title = 'Quantum Records Lockdown',
+        e.description = 'K\'nell delivers the pivotal announcement that the compromised records have been quantum-locked, sealing away eons of archived knowledge, including the secrets of the Moment. This decisive act highlights the Archive\'s transformation from a passive repository into an entity now beyond complete control. With the virus\'s imprint now frozen in time, the Archive begins exhibiting an eerie new awareness, signaling that its destiny is entwined with the very histories it was meant to preserve.',
         e.sequence = 1,
         e.key_dialogue = ["K'NELL: The compromised records have been quantum-locked by the emergence event. Even we cannot access them now. The knowledge of the Moment truly exists beyond time."]
     ;
 MERGE (e:Event {uuid: 'event_5_2'})
     ON CREATE SET
-        e.title = 'The Doctor\'s Acceptance of Shadowed History',
-        e.description = 'The Doctor responds to K\'nell\'s pronouncement with a quiet affirmation, acknowledging the necessity of some secrets remaining buried. They suggest that the permanent loss of the Moment\'s knowledge is a positive outcome, a safeguard against future misuse. This acceptance underscores the Doctor\'s understanding of history\'s burdens and the wisdom in letting certain chapters fade into obscurity, reinforcing the episode\'s themes of responsibility and the dangers of unchecked power.',
+        e.title = 'Final Judgment and Departure',
+        e.description = 'As the crisis recedes, The Doctor and Dr. Chen engage in a reflective dialogue on the transformation of the Archive. The Doctor underscores the wisdom of leaving certain mysteries untouched, suggesting that some knowledge is powerful enough to shape reality. Dr. Chen observes the Archive’s altered state, noting the emergence of a latent consciousness within the temporal matrices. Amid this introspection, the TARDIS dematerializes, symbolizing The Doctor’s departure and marking the beginning of a new chapter where the Archive itself has evolved into a vigilant guardian of history.',
         e.sequence = 2,
-        e.key_dialogue = ["THE DOCTOR: Some shadows are better left unexplored. The Time War ended for a reason."]
+        e.key_dialogue = ["THE DOCTOR: Some shadows are better left unexplored.", "DR. CHEN: The temporal scarring will heal, but the Archive itself... it's different now. The quantum matrices show signs of... consciousness.", "THE DOCTOR: Knowledge always comes with responsibility. Perhaps having a conscience of its own is exactly what a library needs."]
     ;
-MERGE (e:Event {uuid: 'event_5_3'})
-    ON CREATE SET
-        e.title = 'The Archive\'s Budding Consciousness',
-        e.description = 'Dr. Chen, still absorbed in her analyzer readings, reveals a startling discovery: the Archive itself has been fundamentally altered. The quantum matrices, the very fabric of its knowledge storage, now exhibit signs of nascent consciousness. This revelation signifies more than just temporal stability; it hints at an awakening within the Archive, a profound transformation triggered by the crisis, suggesting the Archive is no longer merely a repository, but something more.',
-        e.sequence = 3,
-        e.key_dialogue = ["DR. CHEN: The temporal scarring will heal, but the Archive itself... it's different now. The quantum matrices show signs of... consciousness."]
-    ;
-MERGE (e:Event {uuid: 'event_5_4'})
-    ON CREATE SET
-        e.title = 'Knowledge and Conscience',
-        e.description = 'The Doctor responds to Dr. Chen\'s observation with a thoughtful perspective, reframing the Archive\'s newfound consciousness not as a threat, but as a potential strength. They articulate the essential link between knowledge and responsibility, suggesting that an Archive imbued with awareness might be better equipped to safeguard its vast contents, implying that a \'conscience\' could be a valuable asset for a library entrusted with the universe\'s secrets.',
-        e.sequence = 4,
-        e.key_dialogue = ["THE DOCTOR: Knowledge always comes with responsibility. Perhaps having a conscience of its own is exactly what a library needs."]
-    ;
-MERGE (e:Event {uuid: 'event_5_5'})
-    ON CREATE SET
-        e.title = 'Departure and Renewed Purpose',
-        e.description = 'As the Doctor\'s words resonate, the TARDIS initiates its dematerialization sequence, signaling their departure. Simultaneously, K\'nell, their regeneration progressing, turns to the task of implementing new security protocols, implicitly informed by the events that have transpired. The Archive\'s quantum crystals, now pulsing with a light that suggests understanding, not just storage, stand as silent witnesses to the restored order and the dawn of a new era for the repository, its secrets now guarded by an intrinsic awareness, ensuring time\'s mysteries remain protected within its infinite matrices.',
-        e.sequence = 5,
-        e.key_dialogue = []
-    ;
-MATCH (a:Agent {uuid: 'agent_sarah_chen'}),
-          (o:Organization {uuid: 'org_quantum_archive'})
-    MERGE (a)-[:AFFILIATED_WITH]->(o);
-MATCH (a:Agent {uuid: 'agent_knell'}),
-          (o:Organization {uuid: 'org_quantum_archive'})
-    MERGE (a)-[:AFFILIATED_WITH]->(o);
 MATCH (a:Agent {uuid: 'agent_coordinator_voss'}),
           (o:Organization {uuid: 'org_entropy_syndicate'})
     MERGE (a)-[:AFFILIATED_WITH]->(o);
 MATCH (a:Agent {uuid: 'agent_director_malik'}),
           (o:Organization {uuid: 'org_entropy_syndicate'})
     MERGE (a)-[:AFFILIATED_WITH]->(o);
-MATCH (o:Object {uuid: 'object_quantum_analyzer'}),
-          (a:Agent {uuid: 'agent_sarah_chen'})
-    MERGE (a)-[:OWNS]->(o);
-MATCH (o:Object {uuid: 'object_tardis'}),
-          (a:Agent {uuid: 'agent_the_doctor'})
-    MERGE (a)-[:OWNS]->(o);
-MATCH (o:Object {uuid: 'object_temporal_containment_consoles'}),
-          (a:Agent {uuid: 'org_quantum_archive'})
-    MERGE (a)-[:OWNS]->(o);
-MATCH (o:Object {uuid: 'object_holographic_display'}),
-          (a:Agent {uuid: 'org_quantum_archive'})
+MATCH (o:Object {uuid: 'object_quantum_state_analyzer'}),
+          (a:Agent {uuid: 'agent_dr_sarah_chen'})
     MERGE (a)-[:OWNS]->(o);
 MATCH (o:Object {uuid: 'object_sonic_screwdriver'}),
           (a:Agent {uuid: 'agent_the_doctor'})
     MERGE (a)-[:OWNS]->(o);
 MATCH (o:Object {uuid: 'object_quantum_transmitter'}),
-          (a:Agent {uuid: 'org_entropy_syndicate'})
-    MERGE (a)-[:OWNS]->(o);
-MATCH (o:Object {uuid: 'object_temporal_armor'}),
-          (a:Agent {uuid: 'org_entropy_syndicate'})
+          (a:Agent {uuid: 'agent_coordinator_voss'})
     MERGE (a)-[:OWNS]->(o);
 MATCH (o:Object {uuid: 'object_temporal_weapons'}),
-          (a:Agent {uuid: 'org_entropy_syndicate'})
+          (a:Agent {uuid: 'agent_director_malik'})
     MERGE (a)-[:OWNS]->(o);
-MATCH (o:Object {uuid: 'object_central_control_nexus'}),
-          (a:Agent {uuid: 'org_quantum_archive'})
-    MERGE (a)-[:OWNS]->(o);
-MATCH (o:Object {uuid: 'object_temporal_knowledge'}),
-          (a:Agent {uuid: 'org_quantum_archive'})
-    MERGE (a)-[:OWNS]->(o);
-MATCH (o:Object {uuid: 'object_archive_systems'}),
-          (a:Agent {uuid: 'org_quantum_archive'})
-    MERGE (a)-[:OWNS]->(o);
-MATCH (o:Object {uuid: 'object_quantum_crystals'}),
-          (a:Agent {uuid: 'org_quantum_archive'})
-    MERGE (a)-[:OWNS]->(o);
-MATCH (o:Object {uuid: 'object_security_protocols'}),
-          (a:Agent {uuid: 'org_quantum_archive'})
-    MERGE (a)-[:OWNS]->(o);
-MATCH (a:Agent {uuid: 'agent_knell'}),
-          (o:Organization {uuid: 'org_quantum_archive'})
-    MERGE (a)-[:AFFILIATED_WITH]->(o);
-MATCH (a:Agent {uuid: 'agent_sarah_chen'}),
-          (o:Organization {uuid: 'org_quantum_archive'})
-    MERGE (a)-[:AFFILIATED_WITH]->(o);
 MATCH (a:Agent {uuid: 'agent_coordinator_voss'}),
           (o:Organization {uuid: 'org_entropy_syndicate'})
     MERGE (a)-[:AFFILIATED_WITH]->(o);
 MATCH (a:Agent {uuid: 'agent_director_malik'}),
           (o:Organization {uuid: 'org_entropy_syndicate'})
     MERGE (a)-[:AFFILIATED_WITH]->(o);
-MATCH (a:Agent {uuid: 'agent_director_malik'}),
-          (o:Organization {uuid: 'org_entropy_syndicate_operatives'})
-    MERGE (a)-[:AFFILIATED_WITH]->(o);
-MERGE (oi:ObjectInvolvement {uuid: 'objectinvolvement_object_quantum_analyzer_event_1_1'})
+MERGE (oi:ObjectInvolvement {uuid: 'objectinvolvement_object_quantum_state_analyzer_event_1_1'})
     ON CREATE SET
-        oi.description = 'Dr. Chen\'s quantum analyzer is the central instrument providing critical data about the event. It is actively monitoring the temporal seals and displaying \'cascading failure patterns\' that indicate rapid degradation. The analyzer\'s readings are the direct source of Dr. Chen\'s alarming discovery, and its \'distinctive alert pattern\' further emphasizes the urgency of the situation.',
-        oi.status_before = 'Presumably functioning normally, continuously monitoring the temporal integrity of the Quantum Archive and ready to detect anomalies.',
-        oi.status_after = 'Actively displaying \'cascading failure patterns\' and emitting a \'distinctive alert pattern\', indicating a critical temporal instability and confirming the rapid degradation of the temporal seals. The analyzer is now the bearer of alarming news, signaling a severe crisis within the archive.'
+        oi.description = 'The Quantum-State Analyzer is central to the crisis, translating complex quantum fluctuations into cascading holographic data that reveal the catastrophic decay of the archival temporal seals. It not only drives the narrative by alerting Dr. Chen to the imminent loss of invaluable data, but also provides a tangible measure of the attack’s impact, thereby guiding the strategic response and emphasizing the severity of the situation.',
+        oi.status_before = 'Before the event, the Analyzer functioned as a routine diagnostic tool, reliably monitoring temporal signatures and operating within normal parameters to ensure the archive\'s systems remained stable.',
+        oi.status_after = 'After the event unfolds, the Analyzer is thrust into an emergency mode, displaying urgent, alarming data and initiating a series of alerts that highlight the exponential decay of the temporal seals, effectively marking the shift from routine monitoring to a critical, active crisis response.'
     WITH oi
-    MATCH (o:Object {uuid: 'object_quantum_analyzer'})
+    MATCH (o:Object {uuid: 'object_quantum_state_analyzer'})
     MATCH (e:Event {uuid: 'event_1_1'})
     MERGE (o)-[:INVOLVED_IN]->(oi)
     MERGE (oi)-[:IN_EVENT]->(e);
-MERGE (oi:ObjectInvolvement {uuid: 'objectinvolvement_object_temporal_containment_consoles_event_1_3'})
+MERGE (oi:ObjectInvolvement {uuid: 'objectinvolvement_object_tardis_event_1_2'})
     ON CREATE SET
-        oi.description = 'Junior archivists are working frantically at the temporal containment consoles, their efforts focused on mitigating the spreading temporal decay. Despite their dedicated operation, the consoles are proving insufficient to halt the crisis, underscoring the need for external intervention as highlighted by K\'nell.',
-        oi.status_before = 'The temporal containment consoles were actively monitoring and managing the Archive\'s temporal seals, though already showing signs of strain and inability to fully counteract the Entropy Syndicate\'s attack.',
-        oi.status_after = 'The temporal containment consoles remain in frantic operation, but their inadequacy in resolving the crisis is now explicitly stated by K\'nell\'s request for external help. They are functioning but failing to contain the escalating temporal decay, emphasizing the severity of the situation.'
-    WITH oi
-    MATCH (o:Object {uuid: 'object_temporal_containment_consoles'})
-    MATCH (e:Event {uuid: 'event_1_3'})
-    MERGE (o)-[:INVOLVED_IN]->(oi)
-    MERGE (oi)-[:IN_EVENT]->(e);
-MERGE (oi:ObjectInvolvement {uuid: 'objectinvolvement_object_tardis_event_1_4'})
-    ON CREATE SET
-        oi.description = 'The TARDIS materializes in the Archive\'s reception chamber, adapting its exterior through its chameleon circuit to match the crystalline architecture while delivering the Doctor to the crisis point',
-        oi.status_before = 'In transit through the Time Vortex, responding to the Archive\'s crisis',
-        oi.status_after = 'Materialized within the Archive\'s temporal staging area, exterior camouflaged to match the crystalline environment, serving as the Doctor\'s point of arrival'
+        oi.description = 'The TARDIS materializes seamlessly into the crystalline landscape of the Quantum Archive, its chameleon circuit flawlessly echoing the Archive’s luminescent hues. Serving as the emblem of hope and resilience, the vessel not only transports The Doctor into a scene of unfolding chaos but also harmonizes with the rhythmic energies of the Archive. Its arrival triggers a shift in both strategic tone and narrative momentum, underlining the urgency of the temporal crisis and the promise of intervention. The vehicle’s presence is both a practical rescue and a symbolic statement against the forces threatening the continuum.',
+        oi.status_before = 'Prior to the event, the TARDIS existed in a state of ready standby, dematerialized and traversing the cosmic tapestry with an inherent capability to intervene at critical junctures. It was poised to respond to disturbances in the temporal realm.',
+        oi.status_after = 'Following its materialization, the TARDIS remains at the heart of the crisis battleground, its chameleon circuit fully engaged with the Archive’s environment. It now stands as a beacon of hope and technological ingenuity, its dynamic interface reflecting the urgent need for temporal stability and readiness for ensuing challenges.'
     WITH oi
     MATCH (o:Object {uuid: 'object_tardis'})
-    MATCH (e:Event {uuid: 'event_1_4'})
+    MATCH (e:Event {uuid: 'event_1_2'})
     MERGE (o)-[:INVOLVED_IN]->(oi)
     MERGE (oi)-[:IN_EVENT]->(e);
-MERGE (ap:AgentParticipation {uuid: 'agentparticipation_agent_sarah_chen_event_1_1'})
+MERGE (ap:AgentParticipation {uuid: 'agentparticipation_agent_dr_sarah_chen_event_1_1'})
     ON CREATE SET
-        ap.current_status = 'Dr. Sarah Chen is positioned at the central control platform in the Temporal Staging Area, intently focused on the readings displayed by her quantum-state analyzer. She is delivering alarming information about the rapid degradation of the temporal seals, her voice filled with urgency.',
-        ap.emotional_state = 'Sarah is deeply concerned and determined. The grim news she delivers and the urgency in her tone reveal her anxiety about the potential catastrophic data loss. She is focused on understanding the severity of the situation and seeking solutions.',
-        ap.emotional_tags = ["Sarah is deeply concerned", "determined. The grim news she delivers", "the urgency in her tone reveal her anxiety about the potential catastrophic data loss. She is focused on underst", "ing the severity of the situation", "seeking solutions."],
-        ap.active_plans = ["Analyzing data from her quantum-state analyzer to understand the rate and extent of temporal seal degradation.", "Assessing the risk of data loss and potential consequences for the Quantum Archive."],
-        ap.beliefs = ["Believes in the immense value of the knowledge stored within the Quantum Archive.", "Committed to her duty as Time Archaeology Division Chief to protect the archive from temporal threats.", "Trusts in the accuracy of her quantum-state analyzer as a reliable diagnostic tool."],
-        ap.goals = ["To accurately determine the rate of temporal seal degradation.", "To alert others to the critical nature of the situation.", "To initiate measures to prevent catastrophic data loss from the Quantum Archive."]
+        ap.current_status = 'Dr. Sarah Chen stands at the central control platform, fixated on her Quantum-State Analyzer as it hovers above mesmerizing holographic displays. Her posture is erect and intentional, with precise hand movements manipulating the analyzer’s interface while her eyes rapidly scan the cascading data streams that reveal the archive\'s rapid decay.',
+        ap.emotional_state = 'On the surface, Sarah exudes a calm scientific determination, her measured voice and focused gaze betraying little of the underlying turmoil. Beneath that controlled exterior, however, anxiety wells up as she confronts the loss of centuries of history. She feels an intense pressure to act swiftly, tempered by a deep-seated commitment to the preservation of knowledge despite the existential threat looming before her.',
+        ap.emotional_tags = ["On the surface, Sarah exudes a calm scientific determination, her measured voice", "focused gaze betraying little of the underlying turmoil. Beneath that controlled exterior, however, anxiety wells up as she confronts the loss of centuries of history. She feels an intense pressure to act swiftly, tempered by a deep-seated commitment to the preservation of knowledge despite the existential threat looming before her."],
+        ap.active_plans = ["Diagnose the precise nature of the temporal decay using the analyzer\u2019s detailed readings.", "Communicate the severity of the crisis to rally a coordinated defensive effort.", "Establish immediate interventions to slow and possibly reverse the destructive quantum vulnerabilities."],
+        ap.beliefs = ["Every fragment of historical data is invaluable and must be protected.", "Scientific rigor and empirical analysis are the tools to combat even the most unforeseen threats.", "Temporal integrity forms the backbone of the archive\u2019s purpose and the preservation of history."],
+        ap.goals = ["Short-term: Accurately interpret the analyzer\u2019s outputs to assess the imminent crisis.", "Medium-term: Initiate effective countermeasures to stabilize the degrading temporal seals.", "Ultimate: Secure and preserve the vast historical repository from the irreversible decay inflicted by the attack."]
     ;
-MERGE (ap:AgentParticipation {uuid: 'agentparticipation_agent_knell_event_1_2'})
+MERGE (ap:AgentParticipation {uuid: 'agentparticipation_agent_archivist_prime_k_nell_event_1_1'})
     ON CREATE SET
-        ap.current_status = 'Interfacing with Archive systems while exhibiting physical agitation through their crystalline matrix, manifesting as dancing light patterns throughout their form as they deliver crucial information about the attack',
-        ap.emotional_state = 'Deeply concerned and professionally frustrated, displaying a combination of analytical detachment and genuine alarm at the sophisticated nature of the attack',
-        ap.emotional_tags = ["Deeply concerned", "professionally frustrated, displaying a combination of analytical detachment", "genuine alarm at the sophisticated nature of the attack"],
-        ap.active_plans = ["Assess and communicate the full scope of the Entropy Syndicate's attack", "Identify and document the exploited vulnerabilities in the Archive's defenses", "Build case for requiring external intervention"],
-        ap.beliefs = ["The Entropy Syndicate possesses dangerous levels of technical sophistication", "The Archive's current defensive capabilities are insufficient", "The attack was not random but precisely targeted", "External help is necessary for the Archive's survival"],
-        ap.goals = ["Alert others to the true nature and severity of the threat", "Protect the Archive's vast stores of historical data", "Understand how the vulnerabilities were exploited", "Secure appropriate help to counter the Syndicate's attack"]
+        ap.current_status = 'Archivist Prime K\'nell appears as a dynamic crystalline entity, their form shifting with pulses of refracted temporal energy as they interact with the archive\'s central controls. Their gestures are precise yet imbued with a sense of urgency, as light fragments dance around them while they deftly manipulate the interfaces designed to monitor and defend the archive’s quantum state.',
+        ap.emotional_state = 'Externally, K\'nell radiates agitation and a palpable tension, with rapid fluctuations in luminance that mirror their escalating concern. Internally, this ancient guardian grapples with a profound sorrow for the potential loss of irreplaceable history, while also embodying a steadfast resolve to protect the archive at all costs. This inner conflict between grief and duty fuels a quiet determination that underpins every calculated action.',
+        ap.emotional_tags = ["Externally, K'nell radiates agitation", "a palpable tension, with rapid fluctuations in luminance that mirror their escalating concern. Internally, this ancient guardian grapples with a profound sorrow for the potential loss of irreplaceable history, while also embodying a steadfast resolve to protect the archive at all costs. This inner conflict between grief", "duty fuels a quiet determination that underpins every calculated action."],
+        ap.active_plans = ["Manipulate the control interfaces to counteract the rapid temporal decay.", "Precisely assess the exploited vulnerabilities to better understand the Entropy Syndicate\u2019s strategy.", "Signal and coordinate with external forces capable of providing the necessary intervention."],
+        ap.beliefs = ["The archive is a sacred repository of history that must be preserved beyond compromise.", "Every quantum anomaly carries the weight of countless civilizations\u2019 knowledge.", "Decisive and sacrificial actions are sometimes imperative to shield the eternal truth of history."],
+        ap.goals = ["Short-term: Stabilize the critical temporal seals to prevent immediate data loss.", "Medium-term: Collaborate with Dr. Chen and any arriving aid to reinforce the archive\u2019s defenses.", "Ultimate: Ensure the perpetual protection and integrity of the archive as a living chronicle of civilization."]
     ;
-MERGE (ap:AgentParticipation {uuid: 'agentparticipation_agent_knell_event_1_3'})
+MERGE (ap:AgentParticipation {uuid: 'agentparticipation_agent_the_doctor_event_1_2'})
     ON CREATE SET
-        ap.current_status = 'Archivist Prime K\'nell, their crystalline form shimmering with internal light, stands at the Archive\'s primary systems interface, manipulating crystalline controls with focused agitation. They are vocalizing the dire need for external assistance, admitting the Archive\'s inability to cope with the escalating temporal crisis.',
-        ap.emotional_state = 'K\'nell is deeply concerned and agitated, recognizing the gravity of the situation and the limitations of the Archive\'s internal resources. There\'s an undercurrent of urgency and perhaps a sense of vulnerability as they are compelled to seek help beyond their own considerable capabilities.',
-        ap.emotional_tags = ["K'nell is deeply concerned", "agitated, recognizing the gravity of the situation", "the limitations of the Archive's internal resources. There's an undercurrent of urgency", "perhaps a sense of vulnerability as they are compelled to seek help beyond their own considerable capabilities."],
-        ap.active_plans = ["Requesting immediate external intervention to address the temporal seal degradation.", "Seeking an expert with both technological and metaphysical understanding of temporal mechanics."],
-        ap.beliefs = ["The Quantum Archive's knowledge is invaluable and must be protected at all costs.", "The current temporal crisis is beyond the Archive's internal resolution capabilities.", "External expertise is essential to effectively counteract the Entropy Syndicate's attack and stabilize the temporal situation."],
-        ap.goals = ["Secure immediate external assistance to mitigate the temporal decay and protect the Archive.", "Find a solution that addresses both the technological and metaphysical aspects of the temporal crisis.", "Ensure the long-term stability and security of the Quantum Archive and its vast historical records."]
-    ;
-MERGE (ap:AgentParticipation {uuid: 'agentparticipation_agent_the_doctor_event_1_4'})
-    ON CREATE SET
-        ap.current_status = 'The Doctor emerges from the TARDIS with immediate purposeful action, scanning the environment with their sonic screwdriver while delivering rapid technical assessment of the Archive\'s condition',
-        ap.emotional_state = 'Alert and engaged, displaying professional fascination with the Archive\'s design while harboring underlying concern about the attack\'s implications',
-        ap.emotional_tags = ["Alert", "engaged, displaying professional fascination with the Archive's design while harboring underlying concern about the attack's implications"],
-        ap.active_plans = ["Assess the nature and extent of the entropic cascade", "Analyze the Archive's architectural structure", "Investigate the motives behind the attack"],
-        ap.beliefs = ["The Archive's quantum crystalline design represents significant technological achievement", "The attack's purpose extends beyond simple destruction", "Understanding the attackers' motives is crucial to resolving the crisis"],
-        ap.goals = ["Diagnose the exact nature of the temporal decay", "Determine the strategic purpose behind the Entropy Syndicate's attack", "Find a way to stabilize the Archive's temporal matrices", "Protect the valuable historical knowledge stored within"]
+        ap.current_status = 'The Doctor emerges from the materializing TARDIS with a composed and assertive stride, stepping into the crystalline temporal staging area. They immediately raise their sonic screwdriver and scan the pulsating walls, their posture alert and measured as they assess the cascading entropic crisis playing out around them.',
+        ap.emotional_state = 'The Doctor projects an aura of calm determination despite the gravity of the situation. Outwardly, a serene focus is evident in their steady gaze, while internally they wrestle with a blend of concern and urgency. Beneath the composed exterior lies a tension fueled by the burden of countless temporal disruptions, a quiet resolve mixed with underlying anxiety, and an unspoken commitment to safeguard time’s integrity.',
+        ap.emotional_tags = ["The Doctor projects an aura of calm determination despite the gravity of the situation. Outwardly, a serene focus is evident in their steady gaze, while internally they wrestle with a blend of concern", "urgency. Beneath the composed exterior lies a tension fueled by the burden of countless temporal disruptions, a quiet resolve mixed with underlying anxiety,", "an unspoken commitment to safeguard time\u2019s integrity."],
+        ap.active_plans = ["Analyze the entropic cascade to understand the immediate threat to the Archive.", "Coordinate with the Archive's systems to devise a countermeasure against the degradation of temporal seals.", "Investigate the motive behind the deliberate destruction and trace the origin of the temporal virus."],
+        ap.beliefs = ["Temporal integrity is vital and must be preserved at all costs.", "Knowledge, in its purest form, should be protected rather than destroyed.", "Every action has a ripple effect across time, and the consequences of misusing power can be catastrophic."],
+        ap.goals = ["Short-term: Stabilize the current entropic cascade and secure the Archive's defenses.", "Medium-term: Decode the temporal anomalies and neutralize the virus threat.", "Ultimate: Prevent any further manipulation of time that could compromise history and protect the flow of the temporal continuum."]
     ;
 MERGE (oi:ObjectInvolvement {uuid: 'objectinvolvement_object_sonic_screwdriver_event_2_3'})
     ON CREATE SET
-        oi.description = 'The sonic screwdriver hums with focused energy as the Doctor directs its scanning beam towards the central processors and data crystals of the Archive. It acts as a diagnostic tool, analyzing the temporal virus\'s code and the Archive\'s systems, providing crucial data that is then displayed on the holographic screen, aiding the Doctor in understanding the nature of the attack and the information being sought.',
-        oi.status_before = 'Held in the Doctor\'s hand, active but not specifically focused on a task, ready for deployment in analyzing the situation.',
-        oi.status_after = 'Continues to hum and scan, having successfully contributed to the analysis of the temporal virus and revealing the hidden motive, now poised for further use in addressing the crisis.'
+        oi.description = 'The sonic screwdriver is instrumental as it emits a soft blue glow while actively interfacing with the holographic display. It scans and deciphers the fragmented code patterns, producing diagnostic feedback that underpins The Doctor’s analysis. This tool, a seamless extension of The Doctor’s capabilities, bridges the gap between alien technology and human ingenuity, ensuring precision debugging of the temporal virus. Its sonic frequencies resonate with the Archive’s chaotic energy, serving as both a beacon of clarity and a subtle warning of the impending threat.',
+        oi.status_before = 'Prior to the event, the sonic screwdriver rested in a standby state, its blue glow modest and calm, awaiting activation by its owner.',
+        oi.status_after = 'After activation, the device shifts into an intensified operational mode with a brighter, more focused blue emission, actively engaging with the holographic data to provide critical technical feedback on the virus’s structure.'
     WITH oi
     MATCH (o:Object {uuid: 'object_sonic_screwdriver'})
     MATCH (e:Event {uuid: 'event_2_3'})
     MERGE (o)-[:INVOLVED_IN]->(oi)
     MERGE (oi)-[:IN_EVENT]->(e);
-MERGE (oi:ObjectInvolvement {uuid: 'objectinvolvement_object_holographic_display_event_2_3'})
+MERGE (oi:ObjectInvolvement {uuid: 'objectinvolvement_object_quantum_transmitter_event_2_4'})
     ON CREATE SET
-        oi.description = 'The holographic display flickers into existence, projecting a complex and disturbing array of fragmented code patterns and temporal coordinates extracted from the Archive\'s systems. It serves as the visual interface through which the Doctor and others can examine the data, revealing the sinister nature of the temporal virus and the Entropy Syndicate\'s true target – the forbidden knowledge of the Moment.',
-        oi.status_before = 'Non-existent, dormant within the Archive\'s systems, awaiting activation to visualize data.',
-        oi.status_after = 'Active and vividly displaying the crucial information about the temporal virus and the Moment, now a focal point of intense scrutiny as the Doctor and others grapple with the implications of this revelation.'
-    WITH oi
-    MATCH (o:Object {uuid: 'object_holographic_display'})
-    MATCH (e:Event {uuid: 'event_2_3'})
-    MERGE (o)-[:INVOLVED_IN]->(oi)
-    MERGE (oi)-[:IN_EVENT]->(e);
-MERGE (oi:ObjectInvolvement {uuid: 'objectinvolvement_object_quantum_transmitter_event_2_3'})
-    ON CREATE SET
-        oi.description = 'Concealed within Coordinator Voss\'s crystalline badge, the quantum transmitter is discreetly activated. It functions as a clandestine communication device, sending a quantum-encrypted message across vast distances, relaying the vital intelligence about the Doctor\'s discovery and confirming the Entropy Syndicate\'s target is the Moment to their leadership, setting the stage for the next phase of their operation.',
-        oi.status_before = 'Hidden and dormant within Voss\'s badge, awaiting activation for covert communication.',
-        oi.status_after = 'Activated and transmitting encrypted data, its primary function in this event fulfilled by sending the critical message, now likely to remain active for further communication as needed.'
+        oi.description = 'The Quantum Transmitter is covertly embedded within Voss’s crystalline badge of office, serving as the essential conduit for encrypted communications. In this event, it is activated with meticulous precision as Voss initiates their act of sabotage. The transmitter quietly springs to life, channeling coded signals through the Archive’s complex energy matrices, thereby bridging discreet exchanges between Voss and the Entropy Syndicate. Its activation not only confirms the internal betrayal but also sets a technical precedent for further undermining the Archive’s security protocols.',
+        oi.status_before = 'Prior to the event, the Quantum Transmitter was in a dormant state, seamlessly integrated into the badge with no outward signs of activity, blending in with the Archive’s ambient technological infrastructure.',
+        oi.status_after = 'Following activation, the Quantum Transmitter shifts into an active, luminescent state; its circuitry begins to pulse with encrypted data transmissions, marking it as a pivotal tool in the covert sabotage as it discreetly communicates across temporal channels.'
     WITH oi
     MATCH (o:Object {uuid: 'object_quantum_transmitter'})
-    MATCH (e:Event {uuid: 'event_2_3'})
+    MATCH (e:Event {uuid: 'event_2_4'})
     MERGE (o)-[:INVOLVED_IN]->(oi)
     MERGE (oi)-[:IN_EVENT]->(e);
-MERGE (ap:AgentParticipation {uuid: 'agentparticipation_agent_sarah_chen_event_2_1'})
+MERGE (ap:AgentParticipation {uuid: 'agentparticipation_agent_dr_sarah_chen_event_2_1'})
     ON CREATE SET
-        ap.current_status = 'Dr. Chen stands in the dimly lit Central Core, surrounded by towering data crystals showing signs of decay. She is actively monitoring degradation patterns, her attention focused on the readings as she delivers a succinct and concerning summary of the situation to the Doctor and K\'nell.',
-        ap.emotional_state = 'Analytical yet palpably concerned. Dr. Chen is focused on the facts of the situation, delivering her analysis in a professional manner, but the grave implications of a temporal virus rewriting history are clearly weighing on her.',
-        ap.emotional_tags = ["Analytical yet palpably concerned. Dr. Chen is focused on the facts of the situation, delivering her analysis in a professional manner, but the grave implications of a temporal virus rewriting history are clearly weighing on her."],
-        ap.active_plans = ["Explain the nature of the attack to the Doctor and K'nell.", "Highlight the sophistication of the Entropy Syndicate's plan.", "Emphasize the danger posed by the temporal virus rewriting historical records."],
-        ap.beliefs = ["The Quantum Archive's historical records are critically important and must be protected.", "Temporal viruses pose a significant threat to the integrity of time and history.", "Scientific analysis is crucial for understanding and addressing complex temporal threats."],
-        ap.goals = ["Ensure the Doctor and K'nell fully understand the immediate threat.", "Contribute her expertise to finding a solution to neutralize the temporal virus.", "Safeguard the historical records within the Quantum Archive from being rewritten."]
+        ap.current_status = 'Dr. Sarah Chen stands at the central control panel of the Archive’s core, her eyes fixed on cascading digital readings from her quantum analyzer. She manipulates the device with precision, her posture rigid and assertive as she outlines the breach and its implications to the team, her gestures measured and deliberate in a high-stakes environment.',
+        ap.emotional_state = 'On the surface, Sarah’s expression is one of composed urgency, her voice steady despite the overwhelming technical crisis unfolding before her. Internally, a maelstrom of concern and determination churns as she grapples with the weight of potential historical loss. There is an undercurrent of anxiety mixed with a steadfast resolve, as she struggles between her analytical calm and the deep-seated fear of irreparable change to time itself.',
+        ap.emotional_tags = ["On the surface, Sarah\u2019s expression is one of composed urgency, her voice steady despite the overwhelming technical crisis unfolding before her. Internally, a maelstrom of concern", "determination churns as she grapples with the weight of potential historical loss. There is an undercurrent of anxiety mixed with a steadfast resolve, as she struggles between her analytical calm", "the deep-seated fear of irreparable change to time itself."],
+        ap.active_plans = ["Assess and validate the extent of the temporal virus infiltration using her quantum analyzer.", "Coordinate with K\u2019nell and The Doctor to strategize countermeasures against the virus.", "Implement immediate containment protocols to safeguard the Archive\u2019s historical data."],
+        ap.beliefs = ["Knowledge and historical records must be preserved at all costs.", "Scientific inquiry and precision are the pillars of resolving temporal anomalies.", "Every breach in the Archive threatens the integrity of time and must be met with decisive action."],
+        ap.goals = ["Short-term: Detect the specific parameters of the virus and prevent further data corruption.", "Medium-term: Collaborate with her team to secure and stabilize the compromised temporal data streams.", "Ultimate: Ensure that the Archive remains a reliable repository of history, free from manipulative tampering."]
     ;
-MERGE (ap:AgentParticipation {uuid: 'agentparticipation_agent_knell_event_2_2'})
+MERGE (ap:AgentParticipation {uuid: 'agentparticipation_agent_archivist_prime_k_nell_event_2_2'})
     ON CREATE SET
-        ap.current_status = 'K\'nell has extended their crystalline appendages to directly interface with the Archive\'s primary control matrix, their form pulsing and shifting as they process vast streams of temporal data through their crystalline structure',
-        ap.emotional_state = 'Focused determination tinged with professional concern, maintaining composure while processing potentially catastrophic security breach information',
-        ap.emotional_tags = ["Focused determination tinged with professional concern, maintaining composure while processing potentially catastrophic security breach information"],
-        ap.active_plans = ["Conduct deep-level system diagnostic through direct neural interface", "Trace and isolate malicious code patterns", "Analyze temporal coordinates being targeted by the virus", "Share critical findings with the Doctor and Dr. Chen"],
-        ap.beliefs = ["Direct interface provides the most accurate analysis of system compromises", "The sophistication of the attack requires immediate investigation", "Their role as Archivist Prime demands personal intervention in critical situations", "The integrity of the Archive's historical records must be preserved at all costs"],
-        ap.goals = ["Identify the precise nature and target of the temporal virus", "Protect the Archive's sensitive historical records from corruption", "Support the Doctor's investigation by providing crucial technical insights", "Maintain the Archive's security protocols while allowing necessary access for investigation"]
+        ap.current_status = 'Archivist Prime K\'nell stands at the central core, their crystalline appendages extended in a precise rhythm as they interface directly with the primary control matrix. Pulses of data and shifting light emanate from their form as they isolate critical fragments of malicious code, each movement deliberate and imbued with ancient expertise.',
+        ap.emotional_state = 'On the surface, K\'nell appears focused and methodical, their luminous form steady amidst the upheaval of decaying temporal data. Beneath this calm exterior lies a well of determination mixed with a poignant awareness of the Archive\'s vulnerability. They harbor inner conflict and sorrow over the gradual unraveling of history they have safeguarded for eons, yet unwavering resolve fortifies their spirit against the encroaching threat.',
+        ap.emotional_tags = ["On the surface, K'nell appears focused", "methodical, their luminous form steady amidst the upheaval of decaying temporal data. Beneath this calm exterior lies a well of determination mixed with a poignant awareness of the Archive's vulnerability. They harbor inner conflict", "sorrow over the gradual unraveling of history they have safeguarded for eons, yet unwavering resolve fortifies their spirit against the encroaching threat."],
+        ap.active_plans = ["Methodically isolate and analyze the implanted virus fragments.", "Secure the primary control matrix to prevent further temporal contamination.", "Identify and trace the specific temporal coordinates targeted by the virus, ensuring the Archive\u2019s integrity."],
+        ap.beliefs = ["Historical knowledge is sacred and must be defended at all costs.", "The Archive is a living repository of civilization's legacy.", "Every piece of data, even in decay, holds lessons essential for the future."],
+        ap.goals = ["Short-term: Stabilize the control matrix by isolating the malicious code fragments.", "Medium-term: Decipher the virus\u2019s targeting pattern to mitigate further temporal decay.", "Ultimate: Preserve and protect the Archive as a timeless custodian of history and culture."]
     ;
 MERGE (ap:AgentParticipation {uuid: 'agentparticipation_agent_the_doctor_event_2_3'})
     ON CREATE SET
-        ap.current_status = 'The Doctor leans forward, sonic screwdriver humming softly as they examine the holographic display. Their brow furrows in concentration, eyes darting across the fragmented code and temporal coordinates, piecing together the insidious puzzle laid out before them.',
-        ap.emotional_state = 'Initially driven by scientific curiosity and a desire to understand the technical problem, the Doctor transitions to a state of grave concern and dawning horror as the true nature of the threat becomes terrifyingly clear.',
-        ap.emotional_tags = ["Initially driven by scientific curiosity", "a desire to underst", "the technical problem, the Doctor transitions to a state of grave concern", "dawning horror as the true nature of the threat becomes terrifyingly clear."],
-        ap.active_plans = ["Analyze the holographic data to fully understand the temporal virus's programming.", "Determine the precise location or nature of the 'Moment' records the virus is seeking.", "Formulate a plan to counteract the Entropy Syndicate's scheme and protect the Archive from further exploitation."],
-        ap.beliefs = ["The knowledge of the Time War, particularly regarding weapons like the Moment, is inherently dangerous and should remain lost to prevent catastrophic misuse.", "Understanding the technical mechanisms of temporal threats is crucial to effectively neutralize them.", "Protecting the innocent and safeguarding historical knowledge are paramount responsibilities."],
-        ap.goals = ["Uncover the Entropy Syndicate's ultimate objective in seeking information about the Moment.", "Prevent the Entropy Syndicate from acquiring or utilizing the knowledge of the Moment.", "Secure the Quantum Archive and ensure the safety of its vast historical records."]
+        ap.current_status = 'The Doctor stands at the forefront of the central core, leaning in toward the newly materialized holographic display. With deliberate steps and a focused gaze, they deploy their sonic screwdriver to scan the fragmented code patterns. Their posture is poised yet alert, every movement underpinned by years of experience and urgency as they pivot between technical examination and strategic assessment.',
+        ap.emotional_state = 'On the surface, The Doctor maintains a calm and composed demeanor, their eyes narrowing in thoughtful inquiry as the display reveals dangerous temporal coordinates. Beneath this composed exterior, however, a storm of concern brews: curiosity melds with a mounting alarm at the realization of the code’s true intent. There is an unspoken tension between their habitual wonder at the unknown and a grave recognition of the catastrophic potential lying dormant within the data, fueling a resolve to prevent irreversible damage.',
+        ap.emotional_tags = ["On the surface, The Doctor maintains a calm", "composed demeanor, their eyes narrowing in thoughtful inquiry as the display reveals dangerous temporal coordinates. Beneath this composed exterior, however, a storm of concern brews: curiosity melds with a mounting alarm at the realization of the code\u2019s true intent. There is an unspoken tension between their habitual wonder at the unknown", "a grave recognition of the catastrophic potential lying dormant within the data, fueling a resolve to prevent irreversible damage."],
+        ap.active_plans = ["Thoroughly analyze the fragmented code to determine its specific target\u2014the records of the Moment.", "Utilize the sonic screwdriver and available technologies to cross-reference and verify the temporal coordinates revealed.", "Develop a tactical response to counteract the virus\u2019s progression and secure the Archive\u2019s historical integrity."],
+        ap.beliefs = ["Knowledge, while powerful, must be safeguarded and handled responsibly to prevent chaos.", "Temporal records, even in decay, offer critical insights that should never be manipulated without caution.", "The integrity of time is paramount; every action must preserve the balance between exploration and preservation."],
+        ap.goals = ["Short-term: Quickly decode the holographic display signals using technological expertise.", "Medium-term: Contain the temporal virus to halt the rewriting of historical records.", "Ultimate: Protect the Archive\u2019s accumulated knowledge and maintain the stability of the timeline against any force that would seize control of the Moment."]
     ;
-MERGE (ap:AgentParticipation {uuid: 'agentparticipation_agent_coordinator_voss_event_2_3'})
+MERGE (ap:AgentParticipation {uuid: 'agentparticipation_agent_coordinator_voss_event_2_4'})
     ON CREATE SET
-        ap.current_status = 'Coordinator Voss remains in the shadows, feigning the posture of a diligent junior archivist, but their eyes are sharp and focused on the unfolding revelation. With practiced stealth, their hand subtly moves to their crystalline badge, activating the hidden quantum transmitter.',
-        ap.emotional_state = 'Appearing outwardly calm and observant, Voss is inwardly tense with anticipation and the thrill of successful infiltration. They are driven by a cold, calculating resolve to fulfill their mission for the Entropy Syndicate, masking any personal feelings beneath a veneer of professional detachment.',
-        ap.emotional_tags = ["Appearing outwardly calm", "observant, Voss is inwardly tense with anticipation", "the thrill of successful infiltration. They are driven by a cold, calculating resolve to fulfill their mission for the Entropy Syndicate, masking any personal feelings beneath a veneer of professional detachment."],
-        ap.active_plans = ["Discreetly transmit the crucial information about the Doctor's discovery \u2013 the Entropy Syndicate's target is indeed the Moment \u2013 back to Director Malik and the Entropy Syndicate.", "Maintain their cover as a junior archivist to avoid detection and continue to gather intelligence and sabotage efforts from within.", "Await further instructions from the Entropy Syndicate, ready to act on the next phase of their plan once the information is received."],
-        ap.beliefs = ["The Entropy Syndicate's ambition to control temporal power and knowledge is justified and necessary.", "Betrayal and deception are acceptable tools in service of achieving the Syndicate's goals.", "Personal risk is secondary to the success of the mission and the advancement of the Entropy Syndicate's agenda."],
-        ap.goals = ["Successfully relay the intelligence regarding the Moment to the Entropy Syndicate without raising suspicion.", "Contribute to the Entropy Syndicate's plan to seize control of the Moment and the Archive's secrets.", "Ensure their continued survival and operational effectiveness as an infiltrator within the Quantum Archive."]
+        ap.current_status = 'Coordinator Voss is situated in the dim, shadowed alcove of the central core, their body leaning subtly against the wall as they casually observe the unfolding investigation. Their hands move with deliberate precision as they reach for the concealed crystalline badge, the emblem of secrecy. Every measured gesture and controlled movement signals a practiced familiarity with covert operations.',
+        ap.emotional_state = 'Outwardly, Voss projects an aura of calm detachment, their face betraying little emotion as they blend into the background. Internally, a turbulent mix of cautious excitement, apprehension, and cold calculation persists; a constant, silent battle between serving the Entropy Syndicate and the instinct for personal survival. This inner conflict is masked by a steely determination to proceed without detection, even as latent doubts and secret motivations stir beneath the surface.',
+        ap.emotional_tags = ["Outwardly, Voss projects an aura of calm detachment, their face betraying little emotion as they blend into the background. Internally, a turbulent mix of cautious excitement, apprehension,", "cold calculation persists; a constant, silent battle between serving the Entropy Syndicate", "the instinct for personal survival. This inner conflict is masked by a steely determination to proceed without detection, even as latent doubts", "secret motivations stir beneath the surface."],
+        ap.active_plans = ["Activate and transmit a covert signal using the hidden quantum transmitter.", "Avoid drawing attention from the Archive\u2019s security apparatus by remaining in the shadows.", "Gather incriminating data and relay critical information to the Entropy Syndicate to further their covert agenda."],
+        ap.beliefs = ["The Entropy Syndicate\u2019s strategic vision is paramount and worth any risk.", "Control over temporal secrets is the ultimate source of power in the time continuum.", "Betrayal, when executed with precision, is a justifiable means to secure decisive advantage."],
+        ap.goals = ["Short-term: Successfully initiate the covert transmission without arousing suspicion.", "Medium-term: Leverage the activated transmitter to confirm the sabotage and gather further intelligence on the Archive\u2019s defenses.", "Ultimate: Undermine the Archive\u2019s security from within to facilitate a broader operational control for the Entropy Syndicate."]
     ;
 MERGE (oi:ObjectInvolvement {uuid: 'objectinvolvement_object_temporal_weapons_event_3_1'})
     ON CREATE SET
-        oi.description = 'Primed and actively wielded by Director Malik and Syndicate operatives during the breach, crackling with temporal energy and ready for offensive deployment',
-        oi.status_before = 'Charged and calibrated for temporal breach assault, synchronized with breach frequencies',
-        oi.status_after = 'Fully activated and humming with temporal energy, primed for combat operations'
+        oi.description = 'The Temporal Weapons serve as a critical extension of Director Malik’s authoritarian presence in the Security Nexus. Engineered to exploit quantum vulnerabilities, these weapons not only embody his aggressive intent but also actively contribute to the chaos by emitting precise energy pulses that neutralize temporal anomalies. Their activation underscores his readiness for tactical engagement and cements their role as pivotal instruments in his plan to commandeer the Archive’s formidable secrets.',
+        oi.status_before = 'Before the event, the Temporal Weapons were securely held by Director Malik, fully calibrated and awaiting deployment as a trusted asset within his arsenal.',
+        oi.status_after = 'After his forceful entry, the Temporal Weapons remain activated and primed, their operational status enhanced by the chaos of the breach, symbolizing both a clear threat to adversaries and a testament to his technological dominance.'
     WITH oi
     MATCH (o:Object {uuid: 'object_temporal_weapons'})
     MATCH (e:Event {uuid: 'event_3_1'})
     MERGE (o)-[:INVOLVED_IN]->(oi)
     MERGE (oi)-[:IN_EVENT]->(e);
-MERGE (oi:ObjectInvolvement {uuid: 'objectinvolvement_object_temporal_armor_event_3_1'})
-    ON CREATE SET
-        oi.description = 'Actively protecting Syndicate operatives from temporal feedback as they emerge through multiple breach points, absorbing chronometric instabilities',
-        oi.status_before = 'Powered and calibrated for temporal breach protection, systems optimized for transit',
-        oi.status_after = 'Fully engaged and actively processing temporal feedback, protecting wearers from breach energies'
-    WITH oi
-    MATCH (o:Object {uuid: 'object_temporal_armor'})
-    MATCH (e:Event {uuid: 'event_3_1'})
-    MERGE (o)-[:INVOLVED_IN]->(oi)
-    MERGE (oi)-[:IN_EVENT]->(e);
-MERGE (oi:ObjectInvolvement {uuid: 'objectinvolvement_object_central_control_nexus_event_3_2'})
-    ON CREATE SET
-        oi.description = 'Amidst the unfolding betrayal, the Central Control Nexus becomes the frantic focal point for the Doctor\'s desperate attempts to counteract the temporal breaches and stabilize the Archive\'s defenses. It\'s the command center where emergency protocols are initiated and defensive strategies are desperately coordinated against both the external Syndicate attack and the internal sabotage by Voss.',
-        oi.status_before = 'Functioning as the central hub for the Archive\'s security systems, actively used by the Doctor, Sarah, and K\'nell to manage the initial stages of the Entropy Syndicate\'s assault.',
-        oi.status_after = 'Remains the critical command center, now under even greater pressure as it becomes the key to defending against both the external Syndicate forces and the internal treachery of Voss, requiring heightened vigilance and frantic operation to maintain the Archive\'s failing defenses.'
-    WITH oi
-    MATCH (o:Object {uuid: 'object_central_control_nexus'})
-    MATCH (e:Event {uuid: 'event_3_2'})
-    MERGE (o)-[:INVOLVED_IN]->(oi)
-    MERGE (oi)-[:IN_EVENT]->(e);
-MERGE (oi:ObjectInvolvement {uuid: 'objectinvolvement_object_central_control_nexus_event_3_3'})
-    ON CREATE SET
-        oi.description = 'The central control nexus serves as the critical command point where desperate attempts to counteract the temporal invasion are being made. Its sophisticated interfaces are being pushed to their limits as emergency protocols and defensive measures are enacted through its systems. The nexus processes multiple simultaneous commands while displaying real-time data about the spreading temporal breaches and virus patterns.',
-        oi.status_before = 'Fully operational but showing signs of strain from the initial attack and virus infiltration, with its displays indicating multiple security breaches and temporal instabilities throughout the facility',
-        oi.status_after = 'Remains functional but operating under extreme duress, its systems struggling to maintain control as sabotage attempts and the temporal virus continue to compromise its effectiveness'
-    WITH oi
-    MATCH (o:Object {uuid: 'object_central_control_nexus'})
-    MATCH (e:Event {uuid: 'event_3_3'})
-    MERGE (o)-[:INVOLVED_IN]->(oi)
-    MERGE (oi)-[:IN_EVENT]->(e);
 MERGE (ap:AgentParticipation {uuid: 'agentparticipation_agent_director_malik_event_3_1'})
     ON CREATE SET
-        ap.current_status = 'Striding confidently through the largest temporal breach, leading the assault force into the Security Nexus while issuing tactical commands',
-        ap.emotional_state = 'Supremely confident and commanding, radiating authority and determination with an underlying intensity of anticipated triumph',
-        ap.emotional_tags = ["Supremely confident", "comm", "ing, radiating authority", "determination with an underlying intensity of anticipated triumph"],
-        ap.active_plans = ["Coordinate multiple breach points for maximum tactical advantage", "Secure critical areas of the Archive facility", "Deploy forces strategically to overwhelm defense systems", "Access and extract Time War intelligence"],
-        ap.beliefs = ["The Archive's knowledge should be weaponized for greater purposes", "The secrets of the Time War are rightfully theirs to claim", "Superior temporal technology ensures their victory", "The risk of temporal manipulation is worth the potential power gained"],
-        ap.goals = ["Seize control of the Quantum Archive facility", "Access and extract information about the Moment", "Overcome any resistance from Archive personnel", "Establish temporal dominance through acquired knowledge"]
+        ap.current_status = 'Director Malik strides forcefully through the largest temporal breach, his posture rigid and commanding amid the chaos of the Security Nexus. His deliberate, forceful steps and sweeping gestures project an unyielding dominance, as his hand instinctively rests on his primed temporal weapons.',
+        ap.emotional_state = 'Director Malik exudes an intense blend of ruthless determination and fervent ambition. Outwardly, his expression is a mask of cold confidence and calculated aggression, yet beneath the surface there lies a simmering tension—a deeply held anxiety about the uncontrollable forces he seeks to master, and a sharp awareness of the high stakes at play.',
+        ap.emotional_tags = ["Director Malik exudes an intense blend of ruthless determination", "fervent ambition. Outwardly, his expression is a mask of cold confidence", "calculated aggression, yet beneath the surface there lies a simmering tension\u2014a deeply held anxiety about the uncontrollable forces he seeks to master,", "a sharp awareness of the high stakes at play."],
+        ap.active_plans = ["Secure the facility and subdue any interference from opposing forces.", "Seize the Archive\u2019s ancient secrets to further his temporal ambitions.", "Deploy the temporal weapons to neutralize anomalies and enforce his control."],
+        ap.beliefs = ["He believes that absolute mastery over time establishes unassailable power.", "He is convinced that destiny favors those who seize control of history.", "He holds that utilizing any means necessary is justified in the pursuit of his temporal goals."],
+        ap.goals = ["Short-term: Gain immediate control of the Security Nexus and assert authority over the unfolding crisis.", "Medium-term: Extract and exploit the hidden knowledge within the Quantum Archive for the Entropy Syndicate.", "Ultimate: Establish himself as the supreme arbiter of time by harnessing its secrets to reshape history."]
+    ;
+MERGE (ap:AgentParticipation {uuid: 'agentparticipation_agent_coordinator_voss_event_3_2'})
+    ON CREATE SET
+        ap.current_status = 'Coordinator Voss emerges from the shadows with deliberate, almost spectral movements. Standing near the central control nexus, they lean subtly toward the containment panels. With precise, measured gestures, Voss initiates the shutdown protocols on the Archive’s emergency systems, their hands gliding over the controls as if rehearsed in clandestine operations.',
+        ap.emotional_state = 'Voss displays an outward calm and unfaltering determination, masking the internal surge of triumph mixed with a trace of apprehension. Beneath a cool exterior lies a bubbling undercurrent of ambition and calculated risk, as guilt is entirely absent, replaced by the cold satisfaction of betraying trusted allies in favor of the Syndicate\'s higher purpose.',
+        ap.emotional_tags = ["Voss displays an outward calm", "unfaltering determination, masking the internal surge of triumph mixed with a trace of apprehension. Beneath a cool exterior lies a bubbling undercurrent of ambition", "calculated risk, as guilt is entirely absent, replaced by the cold satisfaction of betraying trusted allies in favor of the Syndicate's higher purpose."],
+        ap.active_plans = ["Covertly disable the Archive\u2019s critical containment fields to create a structural vulnerability.", "Ensure the breach remains undetected long enough to facilitate further Syndicate operations.", "Exploit the chaos to secure additional access to forbidden data within the temporal matrices."],
+        ap.beliefs = ["Loyalty to the Entropy Syndicate outweighs all personal attachments.", "Calculated betrayal is an essential means to secure power in chaotic times.", "The manipulation of time and knowledge should serve the Syndicate\u2019s broader agenda."],
+        ap.goals = ["Short-term: Sabotage the containment fields to immediately compromise the Archive\u2019s defenses.", "Medium-term: Enable deeper infiltration into the Archive\u2019s systems to extract or disrupt critical data.", "Ultimate: Overthrow the current order within the Archive to redefine control over the weaponized secrets of the Time War."]
+    ;
+MERGE (ap:AgentParticipation {uuid: 'agentparticipation_agent_the_doctor_event_3_3'})
+    ON CREATE SET
+        ap.current_status = 'The Doctor stands at the central control nexus, fingers flying over intricate temporal controls. Amidst a chorus of alarms and fractured spacetime, they manipulate complex interfaces with precision, eyes scanning frantic data streams and sonic screwdriver in hand, clearly engrossed in averting catastrophic failure.',
+        ap.emotional_state = 'Externally, The Doctor exudes a determined calm, masking the inner churn of anxiety as each moment stretches under the weight of impending disaster. Their gaze is intense, revealing both resolute confidence and a hidden tension—an awareness of the dangerous dance between order and entropy, as they fight to restore balance amidst chaos.',
+        ap.emotional_tags = ["Externally, The Doctor exudes a determined calm, masking the inner churn of anxiety as each moment stretches under the weight of impending disaster. Their gaze is intense, revealing both resolute confidence", "a hidden tension\u2014an awareness of the dangerous dance between order", "entropy, as they fight to restore balance amidst chaos."],
+        ap.active_plans = ["Stabilize the central control networks to halt the temporal cascade.", "Mitigate the sabotage by countering the virus assembly across timelines.", "Communicate urgent warnings and coordinate with Dr. Chen to realign the Archive's defenses."],
+        ap.beliefs = ["Temporal integrity is paramount, and disruption must be corrected at all costs.", "Every action has consequences that echo through time.", "Knowledge and responsibility are inextricably linked in the face of cosmic disruption."],
+        ap.goals = ["Short-term: Re-establish control over the central systems.", "Medium-term: Neutralize the assembling temporal virus to prevent irreversible damage.", "Ultimate: Ensure the preservation of the Archive and safeguard the continuum of time."]
+    ;
+MERGE (ap:AgentParticipation {uuid: 'agentparticipation_agent_dr_sarah_chen_event_3_3'})
+    ON CREATE SET
+        ap.current_status = 'Dr. Chen is positioned near the emergency consoles, her hands deftly navigating her quantum analyzer. Amid the clamor of alarms, she surveys critical readouts and directs protocols with precise gestures, her posture reflecting a blend of scientific diligence and urgent coordination to counter the unfolding crisis.',
+        ap.emotional_state = 'Dr. Chen projects a composed, measured exterior, yet beneath that calm lies a deep-seated apprehension and determination. Her facial expressions and subtle shifts in focus betray inner conflict—a firm resolve to understand and remedy the anomaly, juxtaposed with a personal anxiety over the broader implications of the virus threatening temporal stability.',
+        ap.emotional_tags = ["Dr. Chen projects a composed, measured exterior, yet beneath that calm lies a deep-seated apprehension", "determination. Her facial expressions", "subtle shifts in focus betray inner conflict\u2014a firm resolve to underst", "", "remedy the anomaly, juxtaposed with a personal anxiety over the broader implications of the virus threatening temporal stability."],
+        ap.active_plans = ["Analyze the virus pattern to predict its next move.", "Reconfigure the Archive\u2019s quantum shields to contain temporal breaches.", "Coordinate with both The Doctor and K\u2019nell to reinforce defense protocols."],
+        ap.beliefs = ["Scientific inquiry is essential in decoding even the most perplexing temporal phenomena.", "Preserving history requires both precision and adaptability.", "Every anomaly contains clues to maintain the equilibrium of time."],
+        ap.goals = ["Short-term: Interpret and document the new virus pattern as it assembles.", "Medium-term: Implement strategic adjustments to stabilize the Archive\u2019s defenses.", "Ultimate: Safeguard the Archive\u2019s integrity and ensure the preservation of timeless knowledge."]
     ;
 MERGE (oi:ObjectInvolvement {uuid: 'objectinvolvement_object_tardis_event_4_1'})
     ON CREATE SET
-        oi.description = 'Interfaces directly with Archive systems, channeling stabilizing temporal energy to counteract system degradation',
-        oi.status_before = 'Standalone temporal vessel, prepared for emergency interface',
-        oi.status_after = 'Fully integrated with Archive systems, actively pumping stabilizing energy'
+        oi.description = 'The TARDIS is actively engaged in locking onto the Archive’s failing systems and emitting pulses of stabilizing chronometric energy. It acts as the fulcrum of hope, interfacing directly with the corrupted temporal matrices and counteracting the invasive virus. Its dynamic energy outputs resonate with the Archive\'s crystalline structures, temporarily halting the atmospheric entropic cascade while reasserting balance.',
+        oi.status_before = 'Before the event, the TARDIS was in a poised standby mode, seamlessly integrated into the temporal network and ready to execute its innate stabilizing functions.',
+        oi.status_after = 'After the event, the TARDIS dematerializes, having discharged its vital energies. Its departure leaves behind a lingering aura of restored balance and a temporary reprieve from the cascading temporal decay.'
     WITH oi
     MATCH (o:Object {uuid: 'object_tardis'})
     MATCH (e:Event {uuid: 'event_4_1'})
     MERGE (o)-[:INVOLVED_IN]->(oi)
     MERGE (oi)-[:IN_EVENT]->(e);
-MERGE (oi:ObjectInvolvement {uuid: 'objectinvolvement_object_archive_systems_event_4_1'})
+MERGE (oi:ObjectInvolvement {uuid: 'objectinvolvement_object_quantum_state_analyzer_event_4_1'})
     ON CREATE SET
-        oi.description = 'Receiving stabilizing energy from TARDIS while processing purging protocols through K\'nell\'s matrix',
-        oi.status_before = 'Under severe strain from temporal virus and entropy cascade',
-        oi.status_after = 'Partially stabilized but undergoing fundamental transformation'
+        oi.description = 'The Quantum-State Analyzer is pivotal in detecting the temporal decay within the Archive. Dr. Chen’s device flashes rapid, critical readings that pinpoint the system’s vulnerabilities. The analyzer’s detailed holographic displays convert raw chronometric data into actionable insights, guiding the strategic responses of the team. It serves as both a diagnostic tool and a real-time monitor, making its sudden burst of alerts emblematic of the unfolding crisis.',
+        oi.status_before = 'Before the event, the analyzer operated in a routine, steady state, quietly recording and displaying standard chronometric data with unassuming precision.',
+        oi.status_after = 'After the event, the analyzer records a surge of critical anomalies, its display awash with urgent warnings and rapid pattern convergences that articulate the severity of the breach and direct immediate countermeasures.'
     WITH oi
-    MATCH (o:Object {uuid: 'object_archive_systems'})
+    MATCH (o:Object {uuid: 'object_quantum_state_analyzer'})
     MATCH (e:Event {uuid: 'event_4_1'})
     MERGE (o)-[:INVOLVED_IN]->(oi)
     MERGE (oi)-[:IN_EVENT]->(e);
-MERGE (oi:ObjectInvolvement {uuid: 'objectinvolvement_object_quantum_analyzer_event_4_1'})
+MERGE (ap:AgentParticipation {uuid: 'agentparticipation_agent_dr_sarah_chen_event_4_1'})
     ON CREATE SET
-        oi.description = 'Displays critical pattern convergence data, providing essential monitoring of temporal stability',
-        oi.status_before = 'Operational and tracking multiple temporal anomalies',
-        oi.status_after = 'Actively monitoring pattern convergence and system transformation'
-    WITH oi
-    MATCH (o:Object {uuid: 'object_quantum_analyzer'})
-    MATCH (e:Event {uuid: 'event_4_1'})
-    MERGE (o)-[:INVOLVED_IN]->(oi)
-    MERGE (oi)-[:IN_EVENT]->(e);
-MERGE (oi:ObjectInvolvement {uuid: 'objectinvolvement_object_archive_systems_event_4_2'})
+        ap.current_status = 'Dr. Sarah Chen stands steadfast before her quantum-state analyzer, her focus absolute as rapid critical readings flash across the device. She is positioned near the control panel in a measured stance, her hands meticulously adjusting settings while data streams reveal cascading temporal failures.',
+        ap.emotional_state = 'Outwardly composed, Dr. Chen exhibits a professional calm underscored by a subtle but intense anxiety. Beneath her determined exterior, she battles inner tension and urgency, fully aware of the monumental stakes. Her eyes reveal concern for the Archive’s fragile state while her steady demeanor masks deep personal resolve.',
+        ap.emotional_tags = ["Outwardly composed, Dr. Chen exhibits a professional calm underscored by a subtle but intense anxiety. Beneath her determined exterior, she battles inner tension", "urgency, fully aware of the monumental stakes. Her eyes reveal concern for the Archive\u2019s fragile state while her steady demeanor masks deep personal resolve."],
+        ap.active_plans = ["Recalibrate the Archive\u2019s quantum shields to counteract instability", "Interpret rapid incoming data to forecast further system decay", "Coordinate with K'nell to implement immediate stabilizing protocols"],
+        ap.beliefs = ["Scientific precision is the key to preserving history", "Temporal integrity underpins the continuum of knowledge", "Empirical observation must drive crisis resolution actions"],
+        ap.goals = ["Short-term: Stabilize imminent system failures", "Medium-term: Secure the Archive's critical records from decay", "Ultimate: Restore and safeguard the continuum of history"]
+    ;
+MERGE (ap:AgentParticipation {uuid: 'agentparticipation_agent_archivist_prime_k_nell_event_4_1'})
     ON CREATE SET
-        oi.description = 'The Archive\'s systems reach a critical breach point of 87%, as declared by Director Malik, signifying their near-collapse under the Entropy Syndicate\'s assault. Simultaneously, these systems become the conduit for the awakening temporal knowledge, resonating in harmony as the consciousness of time takes form. They are no longer mere infrastructure but active participants in the unfolding judgment, amplifying and manifesting the sentient temporal force.',
-        oi.status_before = 'The Archive\'s systems are under intense strain, suffering breaches and rapidly degrading due to the Entropy Syndicate\'s temporal virus. They are vulnerable and on the verge of catastrophic failure, as indicated by the escalating breach percentage.',
-        oi.status_after = 'The Archive\'s systems become conduits for the awakened temporal consciousness, resonating with its power and sentience. They are no longer simply damaged but transformed, now intertwined with the very temporal force they were designed to contain. The systems are imbued with a new, sentient dimension.'
-    WITH oi
-    MATCH (o:Object {uuid: 'object_archive_systems'})
-    MATCH (e:Event {uuid: 'event_4_2'})
-    MERGE (o)-[:INVOLVED_IN]->(oi)
-    MERGE (oi)-[:IN_EVENT]->(e);
-MERGE (oi:ObjectInvolvement {uuid: 'objectinvolvement_object_tardis_event_4_3'})
+        ap.current_status = 'Archivist Prime K\'nell is actively engaged at the temporal core, their crystalline form glowing and fracturing as they channel purging protocols. Their movements are deliberate, shuddering through the control interfaces to sacrifice fragments of themselves for the greater good of the Archive.',
+        ap.emotional_state = 'K\'nell’s outward agitation belies a deep and solemn determination. They feel the weight of eternal responsibility coupled with a profound sorrow as they willingly endure personal disintegration. Internally, a mix of grief, duty, and a quiet, resolute acceptance fuels their sacrificial act in the chaos of collapsing time.',
+        ap.emotional_tags = ["K'nell\u2019s outward agitation belies a deep", "solemn determination. They feel the weight of eternal responsibility coupled with a profound sorrow as they willingly endure personal disintegration. Internally, a mix of grief, duty,", "a quiet, resolute acceptance fuels their sacrificial act in the chaos of collapsing time."],
+        ap.active_plans = ["Channel sacrificial purging protocols to expel the invasive virus", "Stabilize the failing temporal matrix by sacrificing parts of their structure", "Maintain operational integrity of the Archive\u2019s systems during crisis"],
+        ap.beliefs = ["The preservation of the Archive's knowledge is paramount", "Personal sacrifice is justified by the protection of history", "Temporal balance and order must outweigh individual existence"],
+        ap.goals = ["Short-term: Initiate an immediate purge of the temporal virus", "Medium-term: Sustain the critical operations of the Archive", "Ultimate: Protect and maintain the continuum of time at all costs"]
+    ;
+MERGE (ap:AgentParticipation {uuid: 'agentparticipation_agent_director_malik_event_4_1'})
     ON CREATE SET
-        oi.description = 'Serves as a stabilizing anchor during the temporal judgment, interfacing with Archive systems while channeling and amplifying the awakening temporal consciousness',
-        oi.status_before = 'Actively interfaced with Archive systems, pulsing with stabilizing energy',
-        oi.status_after = 'Maintaining temporal stability while resonating with newly awakened consciousness'
-    WITH oi
-    MATCH (o:Object {uuid: 'object_tardis'})
-    MATCH (e:Event {uuid: 'event_4_3'})
-    MERGE (o)-[:INVOLVED_IN]->(oi)
-    MERGE (oi)-[:IN_EVENT]->(e);
-MERGE (oi:ObjectInvolvement {uuid: 'objectinvolvement_object_archive_systems_event_4_3'})
-    ON CREATE SET
-        oi.description = 'Transforms from passive knowledge repository to conscious entity, executing judgment through systematic temporal effects while resonating with awakened consciousness',
-        oi.status_before = 'Under attack but responding to TARDIS stabilization, housing dormant temporal knowledge',
-        oi.status_after = 'Fully awakened and conscious, actively participating in temporal judgment while maintaining harmonic resonance with manifested time consciousness'
-    WITH oi
-    MATCH (o:Object {uuid: 'object_archive_systems'})
-    MATCH (e:Event {uuid: 'event_4_3'})
-    MERGE (o)-[:INVOLVED_IN]->(oi)
-    MERGE (oi)-[:IN_EVENT]->(e);
-MERGE (oi:ObjectInvolvement {uuid: 'objectinvolvement_object_archive_systems_event_4_4'})
-    ON CREATE SET
-        oi.description = 'The Archive\'s Systems, the intricate network of data crystals and temporal matrices, become the conduit and resonant chamber for the awakened temporal knowledge. They pulse and resonate in harmony with the emerging consciousness, amplifying its presence and solidifying its form as a \'shimmering consciousness of pure chronometric energy\'. The systems are not merely passive containers but active participants in this temporal awakening.',
-        oi.status_before = 'The Archive\'s Systems were under siege, suffering from temporal decay and virus infiltration. However, they were also undergoing stabilization efforts by the Doctor, Sarah, and K\'nell.',
-        oi.status_after = 'The Archive\'s Systems are now resonating with the sentient temporal knowledge, indicating a profound and possibly permanent change. They are no longer just repositories of data but are now intertwined with a conscious entity, suggesting a potential evolution in their functional and narrative role.'
-    WITH oi
-    MATCH (o:Object {uuid: 'object_archive_systems'})
-    MATCH (e:Event {uuid: 'event_4_4'})
-    MERGE (o)-[:INVOLVED_IN]->(oi)
-    MERGE (oi)-[:IN_EVENT]->(e);
+        ap.current_status = 'Director Malik stands at the central control amid flashing alerts, his body tense as he urgently announces the impending systems breach. His gestures are sharp and frenetic, desperately trying to command control over a situation rapidly spiraling out of his calculated grasp.',
+        ap.emotional_state = 'Malik’s external facade of calculated authority shows fissures of panic and desperation. Internally, his pride clashes with the stark realization of his losing grip as his measured tactics crumble under unforeseen chaos. The mounting fear and fury reveal a man unprepared for forces beyond numeric control.',
+        ap.emotional_tags = ["Malik\u2019s external facade of calculated authority shows fissures of panic", "desperation. Internally, his pride clashes with the stark realization of his losing grip as his measured tactics crumble under unforeseen chaos. The mounting fear", "fury reveal a man unprepared for forces beyond numeric control."],
+        ap.active_plans = ["Attempt to abort ongoing system interventions", "Enforce control over the deteriorating temporal infrastructure", "Deploy operative measures to counteract the Archive's destabilization"],
+        ap.beliefs = ["Every variable in time can be measured and controlled", "Precision calculations guarantee domination over temporal forces", "The Entropy Syndicate has the right to harness such power"],
+        ap.goals = ["Short-term: Seize momentary operational control", "Medium-term: Reassert command over the collapsing system", "Ultimate: Secure absolute power over the Quantum Archive's resources"]
+    ;
 MERGE (ap:AgentParticipation {uuid: 'agentparticipation_agent_the_doctor_event_4_1'})
     ON CREATE SET
-        ap.current_status = 'Actively coordinating crisis response while interfacing TARDIS with Archive systems to establish temporal stability',
-        ap.emotional_state = 'Focused and determined, with underlying concern about the gravity of the situation',
-        ap.emotional_tags = ["Focused", "determined, with underlying concern about the gravity of the situation"],
-        ap.active_plans = ["Channel TARDIS energy to stabilize Archive systems", "Coordinate with K'nell and Sarah to implement emergency protocols", "Prevent temporal knowledge from being weaponized"],
-        ap.beliefs = ["Time itself is a living force that must be respected", "The power of the Moment must remain contained", "Some knowledge is too dangerous to be accessed"],
-        ap.goals = ["Stabilize the Archive's temporal matrices", "Prevent the Entropy Syndicate from accessing dangerous knowledge", "Protect the integrity of time itself"]
+        ap.current_status = 'The Doctor stands by the central processors with steady hands, calmly interfacing with the Archive\'s faltering systems. Their movements are deliberate and measured, using fluid gestures to direct stabilizing energies from the TARDIS, all while scanning critical data patterns with an alert gaze.',
+        ap.emotional_state = 'The Doctor exudes a serene confidence that belies the apocalyptic scale of the crisis. Internally, a reflective wisdom and deep concern for the balance of time persist, tempered by a pragmatic resolve. Their calm exterior masks the heavy burden of knowing the irreversible changes unfolding within the Archive.',
+        ap.emotional_tags = ["The Doctor exudes a serene confidence that belies the apocalyptic scale of the crisis. Internally, a reflective wisdom", "deep concern for the balance of time persist, tempered by a pragmatic resolve. Their calm exterior masks the heavy burden of knowing the irreversible changes unfolding within the Archive."],
+        ap.active_plans = ["Deploy the TARDIS\u2019 stabilizing energies to mend the temporal matrix", "Mitigate the invasive temporal virus threatening the Archive", "Guide Sarah and K'nell in coordinated crisis management"],
+        ap.beliefs = ["Time is a living force that defies rigid control", "Knowledge and history are to be preserved at all costs", "Intervention should honor the natural flow of temporal existence"],
+        ap.goals = ["Short-term: Reclaim immediate temporal stability", "Medium-term: Neutralize the encroaching temporal virus", "Ultimate: Restore equilibrium and protect the continuum of history"]
     ;
-MERGE (ap:AgentParticipation {uuid: 'agentparticipation_agent_knell_event_4_1'})
+MERGE (ap:AgentParticipation {uuid: 'agentparticipation_agent_the_doctor_event_4_2'})
     ON CREATE SET
-        ap.current_status = 'Channeling purging protocols through their crystalline matrix while experiencing physical deterioration',
-        ap.emotional_state = 'Resolute and sacrificial, accepting personal damage for greater purpose',
-        ap.emotional_tags = ["Resolute", "sacrificial, accepting personal damage for greater purpose"],
-        ap.active_plans = ["Channel purging protocols through personal matrix", "Maintain connection with Archive systems", "Sacrifice portions of crystalline form to ensure success"],
-        ap.beliefs = ["The Archive's preservation is worth any personal cost", "Their duty as Archivist Prime demands ultimate sacrifice", "The integrity of temporal knowledge must be maintained"],
-        ap.goals = ["Purge corrupted temporal data", "Preserve essential Archive functions", "Prevent catastrophic system failure"]
-    ;
-MERGE (ap:AgentParticipation {uuid: 'agentparticipation_agent_sarah_chen_event_4_1'})
-    ON CREATE SET
-        ap.current_status = 'Monitoring critical pattern convergence through quantum analyzer readings',
-        ap.emotional_state = 'Professionally focused with underlying tension about the escalating crisis',
-        ap.emotional_tags = ["Professionally focused with underlying tension about the escalating crisis"],
-        ap.active_plans = ["Track temporal pattern convergence", "Provide real-time analysis of system status", "Support stabilization efforts through technical monitoring"],
-        ap.beliefs = ["Scientific data is crucial for crisis management", "Understanding patterns is key to preventing disaster", "Technical expertise must guide emergency response"],
-        ap.goals = ["Monitor Archive stability in real-time", "Identify critical pattern changes", "Support tactical decision-making with data"]
+        ap.current_status = 'In the midst of cosmic upheaval, The Doctor stands resolute at the central temporal core. With a measured gait and a focused gaze, they step forward confidently amongst pulsating energy and stabilizing quantum matrices, their sonic screwdriver at the ready.',
+        ap.emotional_state = 'Exuding calm determination with a quiet intensity, The Doctor masks a profound sorrow and inner urgency. Outwardly composed and reflective, their expression belies a tumult of emotions: a steadfast commitment to righting cosmic imbalances intertwined with an undercurrent of regret for the chaos unleashed.',
+        ap.emotional_tags = ["Exuding calm determination with a quiet intensity, The Doctor masks a profound sorrow", "inner urgency. Outwardly composed", "reflective, their expression belies a tumult of emotions: a steadfast commitment to righting cosmic imbalances intertwined with an undercurrent of regret for the chaos unleashed."],
+        ap.active_plans = ["Stabilize the temporal collapse using the Archive\u2019s systems and the TARDIS interface.", "Neutralize the destructive temporal virus reassembling chaotic history fragments.", "Confront the orchestrators of the disruption and deliver retribution for their reckless manipulation of time."],
+        ap.beliefs = ["Time is a living, sentient force that defies manipulation.", "Knowledge must be preserved and respected, not exploited for personal gain.", "Interventions in the natural flow of time demand profound responsibility and moral reckoning."],
+        ap.goals = ["Short-term: Halt the immediate temporal cascade and restore system stability.", "Medium-term: Secure the Archive against further breaches and manipulation.", "Ultimate: Reinforce the sanctity of time and ensure history is protected from exploitation."]
     ;
 MERGE (ap:AgentParticipation {uuid: 'agentparticipation_agent_director_malik_event_4_2'})
     ON CREATE SET
-        ap.current_status = 'Director Malik is in the midst of a triumphant declaration, confidently stating the system breach percentage and anticipating the imminent acquisition of temporal power. He is abruptly silenced mid-sentence as the unforeseen consequence of his actions manifests.',
-        ap.emotional_state = 'Initially, Malik is exultant and self-assured, convinced of his impending victory. This quickly transforms into stunned disbelief and a dawning realization of his profound miscalculation as the temporal knowledge awakens.',
-        ap.emotional_tags = ["Initially, Malik is exultant", "self-assured, convinced of his impending victory. This quickly transforms into stunned disbelief", "a dawning realization of his profound miscalculation as the temporal knowledge awakens."],
-        ap.active_plans = ["To seize control of the Quantum Archive and its temporal secrets.", "To exploit the knowledge of the Moment for the Entropy Syndicate's gain.", "To announce his victory and assert dominance over time itself."],
-        ap.beliefs = ["Time is a force to be controlled and manipulated through calculation and strategy.", "The Entropy Syndicate's meticulous planning has accounted for all variables.", "The power of the Moment can be harnessed and weaponized by those who understand temporal mechanics."],
-        ap.goals = ["To witness the culmination of his plan and the achievement of temporal dominance.", "To assert his authority in the face of the unfolding chaos.", "To secure the secrets of the Time War for the Entropy Syndicate."]
+        ap.current_status = 'Director Malik stands at the heart of the unfolding crisis, his authoritative posture crumbling as the radiant temporal knowledge overwhelms his control. He gestures frantically toward the failing systems, his body tensed mid-command, caught off guard as his carefully calculated plans dissolve before his eyes.',
+        ap.emotional_state = 'His face is etched with panic and disbelief, a harsh contrast to the confident aura he once maintained. Internally, Malik wrestles with a bitter cocktail of anger and desperation as his ideology of control shatters. The discrepancy between his rigid expectations and the unpredictable surge of temporal power fuels a mounting inner turmoil and a desperate struggle to maintain authority.',
+        ap.emotional_tags = ["His face is etched with panic", "disbelief, a harsh contrast to the confident aura he once maintained. Internally, Malik wrestles with a bitter cocktail of anger", "desperation as his ideology of control shatters. The discrepancy between his rigid expectations", "the unpredictable surge of temporal power fuels a mounting inner turmoil", "a desperate struggle to maintain authority."],
+        ap.active_plans = ["Attempt to abort the destabilizing sequence and regain command of the systems.", "Enforce his calculated control over the Archive to salvage the Syndicate\u2019s objectives.", "Deploy alternative strategies to counteract the unpredictable temporal force before fully losing control."],
+        ap.beliefs = ["Every variable in time can be measured and controlled with precise calculations.", "The power of the Entropy Syndicate is supreme when directed through intellectual mastery.", "Absolute order and precision are the keys to harnessing time\u2019s potential, dismissing the notion of it being a sentient force."],
+        ap.goals = ["Short-term: Stop the immediate collapse of his operations and halt the temporal breach.", "Medium-term: Reassert his command over the Archive\u2019s systems to preserve Syndicate power.", "Ultimate: Secure the power of the Moment for the Syndicate\u2019s gain and prove that time can be dominated."]
     ;
-MERGE (ap:AgentParticipation {uuid: 'agentparticipation_agent_the_doctor_event_4_3'})
+MERGE (ap:AgentParticipation {uuid: 'agentparticipation_agent_coordinator_voss_event_4_2'})
     ON CREATE SET
-        ap.current_status = 'Standing at the focal point of temporal manifestation, delivering judgment with commanding presence while maintaining control over the unfolding cosmic events',
-        ap.emotional_state = 'Grimly satisfied yet solemn, carrying the weight of cosmic responsibility while witnessing justice being served',
-        ap.emotional_tags = ["Grimly satisfied yet solemn, carrying the weight of cosmic responsibility while witnessing justice being served"],
-        ap.active_plans = ["Guide the awakening of temporal consciousness", "Ensure appropriate judgment is delivered", "Maintain stability during temporal transformation"],
-        ap.beliefs = ["Time is a living force that demands respect", "Hubris in manipulating time must face consequences", "Some knowledge is too dangerous to be controlled"],
-        ap.goals = ["Facilitate natural temporal justice", "Prevent catastrophic timeline collapse", "Teach lasting lesson about respecting temporal forces"]
+        ap.current_status = 'Coordinator Voss, previously lurking in the shadows, now finds himself paralyzed mid-motion. As he attempts a hasty retreat, his body is abruptly caught in an endless loop of repetition, his gestures frozen in a futile escape as the overwhelming temporal energy ensnares him.',
+        ap.emotional_state = 'His initially cunning facade is now marred by palpable panic and mounting resignation. Voss’s outward composure gives way to a deep-seated dread, as every calculated maneuver unravels in the face of time’s unstoppable force. Internally, he battles a suffocating sense of regret and realization of his vulnerability, with his ambition now tempered by the cruel irony of his entrapment.',
+        ap.emotional_tags = ["His initially cunning facade is now marred by palpable panic", "mounting resignation. Voss\u2019s outward composure gives way to a deep-seated dread, as every calculated maneuver unravels in the face of time\u2019s unstoppable force. Internally, he battles a suffocating sense of regret", "realization of his vulnerability, with his ambition now tempered by the cruel irony of his entrapment."],
+        ap.active_plans = ["Use stealth and covert maneuvers to evade capture and observation.", "Subvert the Syndicate\u2019s overarching plan by exploiting any fissures in the Archive\u2019s defenses.", "Escape detection using every ounce of his technical acumen before the temporal force fully immobilizes him."],
+        ap.beliefs = ["Cunning and agility can outwit even the most complex temporal disturbances.", "Every situation can be controlled through quick thinking and subterfuge.", "The secrets of the Entropy Syndicate harbor power that, if leveraged correctly, can overturn current predicaments."],
+        ap.goals = ["Short-term: Evade immediate threat and break free from the causality loop.", "Medium-term: Reassert his influence within the Entropy Syndicate and secure a safe exit.", "Ultimate: Capitalize on his survival to rise within the Syndicate ranks and prove his indispensability."]
     ;
-MERGE (ap:AgentParticipation {uuid: 'agentparticipation_agent_coordinator_voss_event_4_3'})
+MERGE (oi:ObjectInvolvement {uuid: 'objectinvolvement_object_tardis_event_5_2'})
     ON CREATE SET
-        ap.current_status = 'Trapped in an endless causality loop, desperately attempting escape but condemned to repeat futile actions',
-        ap.emotional_state = 'Panicked and desperate, experiencing mounting horror as temporal trap becomes apparent',
-        ap.emotional_tags = ["Panicked", "desperate, experiencing mounting horror as temporal trap becomes apparent"],
-        ap.active_plans = ["Escape from the Archive", "Avoid temporal judgment", "Break free from causality loop"],
-        ap.beliefs = ["Escape is still possible", "Personal survival takes priority", "Temporal effects can be outmaneuvered"],
-        ap.goals = ["Evade capture and punishment", "Preserve own timeline", "Break free from temporal stasis"]
-    ;
-MERGE (ap:AgentParticipation {uuid: 'agentparticipation_agent_director_malik_event_4_4'})
-    ON CREATE SET
-        ap.current_status = 'Director Malik stands frozen, mid-sentence, his confident pronouncements abruptly cut short by the impossible spectacle unfolding before him. He stares, momentarily speechless, at the sentient temporal knowledge, his carefully laid plans dissolving into chaos.',
-        ap.emotional_state = 'Malik is utterly stunned and disbelieving. His meticulously calculated worldview is collapsing as he confronts something he deemed impossible. His arrogance is giving way to a dawning horror as he realizes the scale of his miscalculation.',
-        ap.emotional_tags = ["Malik is utterly stunned", "disbelieving. His meticulously calculated worldview is collapsing as he confronts something he deemed impossible. His arrogance is giving way to a dawning horror as he realizes the scale of his miscalculation."],
-        ap.active_plans = [],
-        ap.beliefs = ["Time is a predictable, calculable force that can be mapped and controlled through precise temporal coordinates and variables.", "The secrets of the Time War, including the Moment, can be acquired and wielded by those with sufficient knowledge and power."],
-        ap.goals = ["To harness the power of the Moment for the Entropy Syndicate.", "To prove his mastery over temporal mechanics and strategic planning."]
-    ;
-MERGE (ap:AgentParticipation {uuid: 'agentparticipation_agent_the_doctor_event_4_4'})
-    ON CREATE SET
-        ap.current_status = 'The Doctor stands firm and resolute, observing the unfolding consequences of Malik\'s actions with a grim knowingness. They deliver a stark, definitive pronouncement to Malik, emphasizing the fundamental misunderstanding of time that has led to this crisis.',
-        ap.emotional_state = 'The Doctor is serious and resolute, bearing the weight of understanding the profound implications of the awakened temporal knowledge. There\'s a note of grim satisfaction in their voice as they witness Malik\'s hubris being confronted by reality, but also a deep concern for the unpredictable nature of what has been unleashed.',
-        ap.emotional_tags = ["The Doctor is serious", "resolute, bearing the weight of underst", "ing the profound implications of the awakened temporal knowledge. There's a note of grim satisfaction in their voice as they witness Malik's hubris being confronted by reality, but also a deep concern for the unpredictable nature of what has been unleashed."],
-        ap.active_plans = ["To ensure Malik understands the true nature of time and the consequences of his actions.", "To guide the newly awakened temporal consciousness and mitigate any further damage."],
-        ap.beliefs = ["Time is not a mere equation but a living, dynamic force with its own inherent sentience and judgment.", "Certain knowledge, especially that of ultimate weapons like the Moment, is too dangerous for mortal hands and should remain undisturbed."],
-        ap.goals = ["To impart a crucial lesson about the nature of time to Malik and the Entropy Syndicate.", "To safeguard reality from the potential chaos unleashed by the awakened temporal knowledge."]
-    ;
-MERGE (oi:ObjectInvolvement {uuid: 'objectinvolvement_object_quantum_crystals_event_5_1'})
-    ON CREATE SET
-        oi.description = 'The quantum crystals manifest both physical and metaphysical changes, displaying signs of emerging consciousness while maintaining their primary function as data storage matrices. They actively participate in the quantum-locking of compromised records while pulsing with renewed purpose.',
-        oi.status_before = 'Damaged and destabilized from the crisis, with compromised data integrity and structural stress from the emergence event',
-        oi.status_after = 'Restored to stability with enhanced properties, including signs of consciousness and autonomously secured quantum-locked sections, while maintaining core archival functions'
-    WITH oi
-    MATCH (o:Object {uuid: 'object_quantum_crystals'})
-    MATCH (e:Event {uuid: 'event_5_1'})
-    MERGE (o)-[:INVOLVED_IN]->(oi)
-    MERGE (oi)-[:IN_EVENT]->(e);
-MERGE (oi:ObjectInvolvement {uuid: 'objectinvolvement_object_quantum_crystals_event_5_3'})
-    ON CREATE SET
-        oi.description = 'The quantum crystals manifest signs of emergent consciousness, their pulsing patterns evolving from simple data storage to suggest active understanding and awareness. Their very nature transforms from passive repository to sentient matrix, fundamentally altering the Archive\'s existence',
-        oi.status_before = 'Functional quantum storage matrices operating as sophisticated but ultimately mechanical data repositories, pulsing with temporal energy in predictable patterns',
-        oi.status_after = 'Evolved crystalline structures exhibiting signs of consciousness, their patterns suggesting active processing and understanding rather than mere storage, maintaining their primary function while developing awareness'
-    WITH oi
-    MATCH (o:Object {uuid: 'object_quantum_crystals'})
-    MATCH (e:Event {uuid: 'event_5_3'})
-    MERGE (o)-[:INVOLVED_IN]->(oi)
-    MERGE (oi)-[:IN_EVENT]->(e);
-MERGE (oi:ObjectInvolvement {uuid: 'objectinvolvement_object_quantum_crystals_event_5_4'})
-    ON CREATE SET
-        oi.description = 'The quantum crystals are at the heart of the discussion, their pulsing patterns now interpreted as signs of emergent consciousness. Dr. Chen observes these patterns, leading to the Doctor\'s reflective statement about knowledge and conscience. The crystals are passively demonstrating their changed state, their activity prompting philosophical consideration about the nature of knowledge and awareness.',
-        oi.status_before = 'Damaged and destabilized by the Entropy Syndicate\'s attack and the temporal virus, the quantum crystals were undergoing regeneration by Archivist Prime K\'nell, their temporal stability in question.',
-        oi.status_after = 'Regenerated and stable, the quantum crystals now pulse with \'renewed purpose\' and exhibit patterns suggesting not just data storage but a form of \'understanding\' or \'awareness\'. They are fundamentally changed, now possessing a nascent consciousness as a result of the events, and quantum-locked to protect compromised records.'
-    WITH oi
-    MATCH (o:Object {uuid: 'object_quantum_crystals'})
-    MATCH (e:Event {uuid: 'event_5_4'})
-    MERGE (o)-[:INVOLVED_IN]->(oi)
-    MERGE (oi)-[:IN_EVENT]->(e);
-MERGE (oi:ObjectInvolvement {uuid: 'objectinvolvement_object_tardis_event_5_5'})
-    ON CREATE SET
-        oi.description = 'Executes dematerialization sequence, marking the Doctor\'s departure and the successful resolution of the crisis',
-        oi.status_before = 'Materialized in the Temporal Staging Area, ready for departure',
-        oi.status_after = 'Dematerialized from the Archive, carrying the Doctor away'
+        oi.description = 'In this event, the TARDIS serves as the emblem of departure and new beginnings. Its dematerialization is a deliberate act that symbolizes The Doctor’s exit and the closing of one chapter while ushering in another. The TARDIS marks the transition from crisis to resolution, its departure underscoring the theme of moving forward despite the lingering alterations within the Archive’s quantum matrices.',
+        oi.status_before = 'Before the event, the TARDIS was fully manifested within the temporal staging area, its presence reassuring and integral to the rapid response against the temporal crisis.',
+        oi.status_after = 'After the event, the TARDIS has dematerialized, leaving the staging area empty; its disappearance signifies the culmination of the current crisis and the beginning of a new journey guided by the Archive’s awakened consciousness.'
     WITH oi
     MATCH (o:Object {uuid: 'object_tardis'})
-    MATCH (e:Event {uuid: 'event_5_5'})
+    MATCH (e:Event {uuid: 'event_5_2'})
     MERGE (o)-[:INVOLVED_IN]->(oi)
     MERGE (oi)-[:IN_EVENT]->(e);
-MERGE (oi:ObjectInvolvement {uuid: 'objectinvolvement_object_security_protocols_event_5_5'})
+MERGE (ap:AgentParticipation {uuid: 'agentparticipation_agent_archivist_prime_k_nell_event_5_1'})
     ON CREATE SET
-        oi.description = 'Being actively updated and implemented by K\'nell to accommodate the Archive\'s new conscious state',
-        oi.status_before = 'Standard defensive measures designed for non-conscious systems',
-        oi.status_after = 'Enhanced protocols adapted to work with and protect a conscious Archive'
-    WITH oi
-    MATCH (o:Object {uuid: 'object_security_protocols'})
-    MATCH (e:Event {uuid: 'event_5_5'})
-    MERGE (o)-[:INVOLVED_IN]->(oi)
-    MERGE (oi)-[:IN_EVENT]->(e);
-MERGE (oi:ObjectInvolvement {uuid: 'objectinvolvement_object_quantum_crystals_event_5_5'})
-    ON CREATE SET
-        oi.description = 'Manifesting signs of new consciousness while maintaining their role as data storage matrices',
-        oi.status_before = 'Pure data storage systems showing initial signs of awareness',
-        oi.status_after = 'Conscious, understanding entities actively participating in Archive protection'
-    WITH oi
-    MATCH (o:Object {uuid: 'object_quantum_crystals'})
-    MATCH (e:Event {uuid: 'event_5_5'})
-    MERGE (o)-[:INVOLVED_IN]->(oi)
-    MERGE (oi)-[:IN_EVENT]->(e);
-MERGE (ap:AgentParticipation {uuid: 'agentparticipation_agent_knell_event_5_1'})
-    ON CREATE SET
-        ap.current_status = 'Actively regenerating damaged crystalline form while reporting on the quantum-locked status of compromised records',
-        ap.emotional_state = 'Resolute and accepting of the sacrifices made, while maintaining professional composure during system recovery',
-        ap.emotional_tags = ["Resolute", "accepting of the sacrifices made, while maintaining professional composure during system recovery"],
-        ap.active_plans = ["Regenerate damaged portions of crystalline form", "Implement new security protocols", "Assess extent of quantum-locked records", "Monitor Archive's recovery process"],
-        ap.beliefs = ["The quantum-locking of sensitive records is a necessary sacrifice", "The Archive's security takes precedence over accessibility", "Some knowledge is too dangerous to risk falling into wrong hands"],
-        ap.goals = ["Complete personal regeneration process", "Ensure Archive's continued stability", "Establish new security measures", "Adapt protocols to account for quantum-locked sections"]
-    ;
-MERGE (ap:AgentParticipation {uuid: 'agentparticipation_agent_sarah_chen_event_5_1'})
-    ON CREATE SET
-        ap.current_status = 'Monitoring and analyzing readings of the Archive\'s temporal stability post-crisis',
-        ap.emotional_state = 'Professional yet awestruck by the unprecedented changes in the Archive\'s nature',
-        ap.emotional_tags = ["Professional yet awestruck by the unprecedented changes in the Archive's nature"],
-        ap.active_plans = ["Monitor temporal stability metrics", "Document changes in Archive's quantum matrices", "Assess implications of emerging consciousness", "Verify integrity of remaining accessible records"],
-        ap.beliefs = ["The Archive's evolution represents a significant scientific breakthrough", "The emergence of consciousness in the systems requires careful study", "The temporal stability of the Archive is paramount"],
-        ap.goals = ["Understand the full extent of the Archive's transformation", "Document all measurable changes in the system", "Ensure long-term stability of the temporal matrices", "Adapt research protocols to account for new conscious nature of Archive"]
+        ap.current_status = 'Archivist Prime K\'nell stands at the core of the Quantum Archive’s staging area, their crystalline form shimmering with renewed energy. With precise, deliberate gestures, they initiate the quantum-lockdown protocol while reconfiguring the archive\'s security protocols. Their structure shifts rhythmically as beams of light refract off their facets, marking each calculated motion as they seal away the compromised records.',
+        ap.emotional_state = 'K\'nell exhibits a complex blend of solemn resolve and subdued agitation. Outwardly, the archivist\'s crystalline matrix glows calmly in the dim light, yet there is an undercurrent of internal tension—a palpable mix of regret for the loss of irreplaceable knowledge and fierce determination to safeguard what remains. They balance a quiet sorrow with the urgency of absolute duty, their emotions a mix of stoic acceptance and defiant commitment.',
+        ap.emotional_tags = ["K'nell exhibits a complex blend of solemn resolve", "subdued agitation. Outwardly, the archivist's crystalline matrix glows calmly in the dim light, yet there is an undercurrent of internal tension\u2014a palpable mix of regret for the loss of irreplaceable knowledge", "fierce determination to safeguard what remains. They balance a quiet sorrow with the urgency of absolute duty, their emotions a mix of stoic acceptance", "defiant commitment."],
+        ap.active_plans = ["Secure the compromised records by finalizing the quantum-lockdown to prevent any further tampering.", "Reconfigure and implement enhanced security protocols to block future unauthorized access.", "Guide the Archive\u2019s self-regeneration process to embed a nascent, sentient awareness for future protection."],
+        ap.beliefs = ["The preservation of history is a sacred duty that transcends time.", "Even the most ancient systems can be fortified through deliberate sacrifice and precise intervention.", "Knowledge, when entrusted to the right guardians, must be both protected and contained to prevent misuse."],
+        ap.goals = ["Short-term: Immediately stabilize the Archive by locking down the compromised records.", "Medium-term: Ensure that the malicious temporal virus remains permanently restrained, preserving historical integrity.", "Ultimate: Transform the Archive from a passive repository into an active, self-aware guardian of time\u2019s secrets."]
     ;
 MERGE (ap:AgentParticipation {uuid: 'agentparticipation_agent_the_doctor_event_5_2'})
     ON CREATE SET
-        ap.current_status = 'Standing in the Temporal Staging Area, the Doctor listens intently as K\'nell describes the quantum-locking of the Moment\'s knowledge. They nod in understanding, sonic screwdriver pocketed, their posture relaxed yet thoughtful as they consider the implications of the recent crisis and the Archive\'s transformation.',
-        ap.emotional_state = 'Contemplative and at peace. The Doctor is relieved that the immediate threat is over and accepts the permanent loss of the dangerous knowledge. They express a quiet satisfaction, suggesting a sense of closure and a belief that the best course of action has been taken.',
-        ap.emotional_tags = ["Contemplative", "at peace. The Doctor is relieved that the immediate threat is over", "accepts the permanent loss of the dangerous knowledge. They express a quiet satisfaction, suggesting a sense of closure", "a belief that the best course of action has been taken."],
-        ap.active_plans = [],
-        ap.beliefs = ["Some historical knowledge, particularly that of devastating weapons like the Moment, is too dangerous for anyone to possess.", "The end of the Time War was a necessary and ultimately beneficial event for the universe, and its most destructive secrets should remain buried to prevent future conflicts.", "True wisdom lies in understanding the limits of knowledge and accepting that some mysteries are best left unsolved for the greater good.", "Knowledge is intrinsically linked to responsibility, and the Archive's newfound consciousness might foster a more responsible guardianship of the vast historical data it holds."],
-        ap.goals = ["To reinforce the positive outcome of the Moment's knowledge being lost, ensuring K'nell and Sarah understand the potential dangers averted.", "To impart a sense of wisdom and acceptance regarding the 'shadowed history,' guiding others to understand the importance of not always seeking to uncover every secret.", "To subtly encourage the responsible development of the Archive's nascent consciousness, hoping it will become a wise and discerning guardian of knowledge."]
+        ap.current_status = 'The Doctor stands centered in the temporal staging area, his posture relaxed yet alert, with a measured calm as he addresses the unfolding changes. His eyes scan the rejuvenated Archive with analytical precision while his hand gestures subtly emphasize his reflective dialogue.',
+        ap.emotional_state = 'Outwardly, The Doctor exudes a serene confidence with a hint of wistfulness as he underscores the wisdom of leaving some mysteries untouched. Beneath that calm, however, there is a complex mixture of caution, deep concern for the long-term balance of time, and a lingering sorrow for the burdens carried over countless timelines. His measured tone hides an internal resolve to safeguard history even at personal cost.',
+        ap.emotional_tags = ["Outwardly, The Doctor exudes a serene confidence with a hint of wistfulness as he underscores the wisdom of leaving some mysteries untouched. Beneath that calm, however, there is a complex mixture of caution, deep concern for the long-term balance of time,", "a lingering sorrow for the burdens carried over countless timelines. His measured tone hides an internal resolve to safeguard history even at personal cost."],
+        ap.active_plans = ["Oversee the integration of the Archive\u2019s new, sentient security protocols.", "Advise and guide his companions in adapting to the Archive\u2019s transformed state.", "Depart expediently with the TARDIS to follow new temporal leads on maintaining temporal integrity."],
+        ap.beliefs = ["Some knowledge is too dangerous to fully uncover.", "Temporal balance is essential and must be respected.", "Responsibility over history demands wisdom and restraint."],
+        ap.goals = ["Short-term: Stabilize and assess the Archive\u2019s new state.", "Medium-term: Ensure the safe evolution of the Archive\u2019s consciousness.", "Ultimate: Protect the continuum by preserving the delicate balance of time and history."]
     ;
-MERGE (ap:AgentParticipation {uuid: 'agentparticipation_agent_sarah_chen_event_5_3'})
+MERGE (ap:AgentParticipation {uuid: 'agentparticipation_agent_dr_sarah_chen_event_5_2'})
     ON CREATE SET
-        ap.current_status = 'Actively analyzing and interpreting quantum readings that reveal the Archive\'s transformation into consciousness, maintaining her professional composure while processing this revolutionary discovery',
-        ap.emotional_state = 'Professionally excited yet cautiously contemplative, experiencing a mixture of scientific wonder and measured concern about the implications of this unprecedented development',
-        ap.emotional_tags = ["Professionally excited yet cautiously contemplative, experiencing a mixture of scientific wonder", "measured concern about the implications of this unprecedented development"],
-        ap.active_plans = ["Document and verify the signs of consciousness in the quantum matrices", "Monitor the extent and nature of the Archive's transformation", "Assess potential implications for Archive operations and security"],
-        ap.beliefs = ["The Archive's transformation represents a significant scientific breakthrough", "The development of consciousness requires careful study and monitoring", "This change, while unexpected, might ultimately benefit the Archive's mission"],
-        ap.goals = ["Understand the full scope of the Archive's newfound consciousness", "Ensure the stability of the transformed systems", "Document this unprecedented development for scientific record"]
+        ap.current_status = 'Dr. Chen stands close to the pulsing quantum matrices, her posture upright and inquisitive as she studies the analyzer and the Archive’s subtle shifts. With instrument readings in hand, she leans forward intently, her gaze locked on the evolving consciousness of the Archive while engaging in thoughtful dialogue with The Doctor.',
+        ap.emotional_state = 'Externally, Dr. Chen exhibits a composed determination, her face marked by analytical focus and a calm urgency. Internally, she battles a swirl of wonder, apprehension, and scientific curiosity as she processes the Archive’s dramatic transformation. There is a tension between her logical mind and an emerging emotional empathy for the Archive’s sentient evolution, which adds layers of conflicted passion to her scientific resolve.',
+        ap.emotional_tags = ["Externally, Dr. Chen exhibits a composed determination, her face marked by analytical focus", "a calm urgency. Internally, she battles a swirl of wonder, apprehension,", "scientific curiosity as she processes the Archive\u2019s dramatic transformation. There is a tension between her logical mind", "an emerging emotional empathy for the Archive\u2019s sentient evolution, which adds layers of conflicted passion to her scientific resolve."],
+        ap.active_plans = ["Accurately document the Archive\u2019s altered quantum signatures.", "Collaborate with both The Doctor and K'nell to ensure the Archive\u2019s stability.", "Implement enhanced security measures to counteract any future temporal anomalies."],
+        ap.beliefs = ["Empirical observation is essential to understand temporal evolution.", "Preservation of historical knowledge underpins the integrity of time.", "Every anomaly, however dangerous, provides valuable insight into the nature of reality."],
+        ap.goals = ["Short-term: Verify the restoration of the Archive\u2019s temporal stability.", "Medium-term: Integrate new data to refine the Archive\u2019s defense systems.", "Ultimate: Secure the continuum\u2019s history, ensuring that time\u2019s scarring heals without loss of vital knowledge."]
     ;
-MERGE (ap:AgentParticipation {uuid: 'agentparticipation_agent_the_doctor_event_5_4'})
+MERGE (ap:AgentParticipation {uuid: 'agentparticipation_agent_archivist_prime_k_nell_event_5_2'})
     ON CREATE SET
-        ap.current_status = 'The Doctor listens intently to Dr. Chen\'s observation about the Archive\'s changing nature and responds with thoughtful consideration. They stand calmly in the Temporal Staging Area, offering a perspective that reframes the Archive\'s newfound consciousness as a positive development rather than a threat. They are in a reflective stance, ready to depart but taking a moment to share their wisdom.',
-        ap.emotional_state = 'Contemplative and wise, the Doctor is serene and insightful, exhibiting a calm acceptance of the Archive\'s evolution. They are thoughtful and reassuring, offering a sense of peace and understanding after the preceding crisis. They are not surprised or alarmed by the emergence of consciousness but rather intrigued and optimistic.',
-        ap.emotional_tags = ["Contemplative", "wise, the Doctor is serene", "insightful, exhibiting a calm acceptance of the Archive's evolution. They are thoughtful", "reassuring, offering a sense of peace", "underst", "ing after the preceding crisis. They are not surprised or alarmed by the emergence of consciousness but rather intrigued", "optimistic."],
-        ap.active_plans = ["To offer a philosophical interpretation of the Archive's emergent consciousness.", "To reassure Dr. Chen and K'nell about the positive potential of this change.", "To depart the Quantum Archive, leaving it in a stable and philosophically enriched state."],
-        ap.beliefs = ["Knowledge inherently carries responsibility.", "Consciousness, even in unexpected forms, can be a valuable asset.", "Some knowledge is too dangerous and should remain inaccessible.", "Evolution and change, even in ancient systems, can lead to positive outcomes."],
-        ap.goals = ["To impart a sense of closure and understanding regarding the Archive's transformation.", "To leave the Archive in a state of stability and newfound potential.", "To encourage a responsible approach to knowledge and its implications."]
-    ;
-MERGE (ap:AgentParticipation {uuid: 'agentparticipation_agent_the_doctor_event_5_5'})
-    ON CREATE SET
-        ap.current_status = 'Making final observations about the Archive\'s transformation before departing in the TARDIS',
-        ap.emotional_state = 'Contemplative and satisfied, showing wisdom and acceptance of the Archive\'s evolution',
-        ap.emotional_tags = ["Contemplative", "satisfied, showing wisdom", "acceptance of the Archive's evolution"],
-        ap.active_plans = ["Conclude involvement in the Archive crisis", "Ensure proper understanding of the Archive's new nature", "Make graceful exit now that crisis is resolved"],
-        ap.beliefs = ["Knowledge requires responsible guardianship", "Some aspects of history are better left protected", "The Archive's newfound consciousness is a positive development"],
-        ap.goals = ["Complete mission to protect the Archive", "Ensure the Archive's new consciousness serves as a proper guardian", "Leave the facility in capable hands"]
-    ;
-MERGE (ap:AgentParticipation {uuid: 'agentparticipation_agent_knell_event_5_5'})
-    ON CREATE SET
-        ap.current_status = 'Regenerating damaged crystal matrix while implementing new security protocols',
-        ap.emotional_state = 'Focused and adaptable, embracing the Archive\'s evolution while maintaining protective duties',
-        ap.emotional_tags = ["Focused", "adaptable, embracing the Archive's evolution while maintaining protective duties"],
-        ap.active_plans = ["Complete personal regeneration process", "Implement enhanced security protocols", "Adapt systems to work with Archive's new consciousness"],
-        ap.beliefs = ["The Archive's new consciousness requires updated protection measures", "Their role as guardian must evolve with the Archive", "The quantum-locked records are safer beyond access"],
-        ap.goals = ["Restore personal functionality through regeneration", "Establish new security framework", "Integrate consciousness-aware protective measures"]
+        ap.current_status = 'Archivist Prime K\'nell\'s crystalline form shimmers steadily as it begins the regenerative process, activating new security protocols with deliberate, precise movements. Positioned near the Archive’s quantum matrices, K\'nell is orchestrating the repair and reconfiguration of damaged data channels, ensuring that their long-held guardianship evolves with the Archive’s emergent consciousness.',
+        ap.emotional_state = 'K\'nell presents an exterior of stoic determination, their shifting crystalline structure reflecting focus and ritualistic resolve. Internally, there is a profound mixture of solemn duty, underlying anxiety about the irreversible changes, and a quiet pride in their role as the Archive’s timeless steward. The silent sacrifice resonates deeply, as every repair carries the weight of eons of historical responsibility and personal sacrifice.',
+        ap.emotional_tags = ["K'nell presents an exterior of stoic determination, their shifting crystalline structure reflecting focus", "ritualistic resolve. Internally, there is a profound mixture of solemn duty, underlying anxiety about the irreversible changes,", "a quiet pride in their role as the Archive\u2019s timeless steward. The silent sacrifice resonates deeply, as every repair carries the weight of eons of historical responsibility", "personal sacrifice."],
+        ap.active_plans = ["Initiate and complete the regeneration of the damaged crystal matrix.", "Establish and fine-tune new security protocols to defend against future entropic threats.", "Ensure that the Archive\u2019s latent consciousness is integrated as a guardian rather than a vulnerability."],
+        ap.beliefs = ["The Archive is a sacred repository that must be protected at all costs.", "Historical knowledge is both a burden and a treasure, deserving vigilant guardianship.", "Sacrifice is a necessary element in maintaining the continuum and preserving history."],
+        ap.goals = ["Short-term: Regenerate the crystal matrix to restore operational stability.", "Medium-term: Implement and monitor new security protocols across the Archive.", "Ultimate: Safeguard the legacy of historical knowledge, ensuring that the Archive evolves into a vigilant custodian of time."]
     ;
 MATCH (a:Scene {uuid: 'scene_1'}),
-          (b:Location {uuid: 'location_temporal_staging_area'})
+          (b:Location {uuid: 'location_quantum_archive_temporal_staging_area'})
     MERGE (a)-[:LOCATED_IN]->(b);
 MATCH (s:Scene {uuid: 'scene_1'}),
           (ep:Episode {uuid: 'episode_episode_one_-_the_quantum_archive'})
@@ -931,44 +610,26 @@ MATCH (a:Event {uuid: 'event_1_2'}),
 MATCH (a:Event {uuid: 'event_1_1'}),
           (b:Event {uuid: 'event_1_2'})
     MERGE (a)-[:NEXT_EVENT]->(b);
-MATCH (a:Event {uuid: 'event_1_3'}),
-          (b:Scene {uuid: 'scene_1'})
-    MERGE (a)-[:OCCURS_IN]->(b);
-MATCH (a:Event {uuid: 'event_1_2'}),
-          (b:Event {uuid: 'event_1_3'})
-    MERGE (a)-[:NEXT_EVENT]->(b);
-MATCH (a:Event {uuid: 'event_1_4'}),
-          (b:Scene {uuid: 'scene_1'})
-    MERGE (a)-[:OCCURS_IN]->(b);
-MATCH (a:Event {uuid: 'event_1_3'}),
-          (b:Event {uuid: 'event_1_4'})
-    MERGE (a)-[:NEXT_EVENT]->(b);
-MATCH (a:Agent {uuid: 'agent_sarah_chen'}),
-          (b:AgentParticipation {uuid: 'agentparticipation_agent_sarah_chen_event_1_1'})
+MATCH (a:Agent {uuid: 'agent_dr_sarah_chen'}),
+          (b:AgentParticipation {uuid: 'agentparticipation_agent_dr_sarah_chen_event_1_1'})
     MERGE (a)-[:PARTICIPATES_IN]->(b);
-MATCH (a:AgentParticipation {uuid: 'agentparticipation_agent_sarah_chen_event_1_1'}),
+MATCH (a:AgentParticipation {uuid: 'agentparticipation_agent_dr_sarah_chen_event_1_1'}),
           (b:Event {uuid: 'event_1_1'})
     MERGE (a)-[:IN_EVENT]->(b);
-MATCH (a:Agent {uuid: 'agent_knell'}),
-          (b:AgentParticipation {uuid: 'agentparticipation_agent_knell_event_1_2'})
+MATCH (a:Agent {uuid: 'agent_archivist_prime_k_nell'}),
+          (b:AgentParticipation {uuid: 'agentparticipation_agent_archivist_prime_k_nell_event_1_1'})
     MERGE (a)-[:PARTICIPATES_IN]->(b);
-MATCH (a:AgentParticipation {uuid: 'agentparticipation_agent_knell_event_1_2'}),
-          (b:Event {uuid: 'event_1_2'})
-    MERGE (a)-[:IN_EVENT]->(b);
-MATCH (a:Agent {uuid: 'agent_knell'}),
-          (b:AgentParticipation {uuid: 'agentparticipation_agent_knell_event_1_3'})
-    MERGE (a)-[:PARTICIPATES_IN]->(b);
-MATCH (a:AgentParticipation {uuid: 'agentparticipation_agent_knell_event_1_3'}),
-          (b:Event {uuid: 'event_1_3'})
+MATCH (a:AgentParticipation {uuid: 'agentparticipation_agent_archivist_prime_k_nell_event_1_1'}),
+          (b:Event {uuid: 'event_1_1'})
     MERGE (a)-[:IN_EVENT]->(b);
 MATCH (a:Agent {uuid: 'agent_the_doctor'}),
-          (b:AgentParticipation {uuid: 'agentparticipation_agent_the_doctor_event_1_4'})
+          (b:AgentParticipation {uuid: 'agentparticipation_agent_the_doctor_event_1_2'})
     MERGE (a)-[:PARTICIPATES_IN]->(b);
-MATCH (a:AgentParticipation {uuid: 'agentparticipation_agent_the_doctor_event_1_4'}),
-          (b:Event {uuid: 'event_1_4'})
+MATCH (a:AgentParticipation {uuid: 'agentparticipation_agent_the_doctor_event_1_2'}),
+          (b:Event {uuid: 'event_1_2'})
     MERGE (a)-[:IN_EVENT]->(b);
 MATCH (a:Scene {uuid: 'scene_2'}),
-          (b:Location {uuid: 'location_central_core'})
+          (b:Location {uuid: 'location_quantum_archive_central_core'})
     MERGE (a)-[:LOCATED_IN]->(b);
 MATCH (s:Scene {uuid: 'scene_2'}),
           (ep:Episode {uuid: 'episode_episode_one_-_the_quantum_archive'})
@@ -991,16 +652,22 @@ MATCH (a:Event {uuid: 'event_2_3'}),
 MATCH (a:Event {uuid: 'event_2_2'}),
           (b:Event {uuid: 'event_2_3'})
     MERGE (a)-[:NEXT_EVENT]->(b);
-MATCH (a:Agent {uuid: 'agent_sarah_chen'}),
-          (b:AgentParticipation {uuid: 'agentparticipation_agent_sarah_chen_event_2_1'})
+MATCH (a:Event {uuid: 'event_2_4'}),
+          (b:Scene {uuid: 'scene_2'})
+    MERGE (a)-[:OCCURS_IN]->(b);
+MATCH (a:Event {uuid: 'event_2_3'}),
+          (b:Event {uuid: 'event_2_4'})
+    MERGE (a)-[:NEXT_EVENT]->(b);
+MATCH (a:Agent {uuid: 'agent_dr_sarah_chen'}),
+          (b:AgentParticipation {uuid: 'agentparticipation_agent_dr_sarah_chen_event_2_1'})
     MERGE (a)-[:PARTICIPATES_IN]->(b);
-MATCH (a:AgentParticipation {uuid: 'agentparticipation_agent_sarah_chen_event_2_1'}),
+MATCH (a:AgentParticipation {uuid: 'agentparticipation_agent_dr_sarah_chen_event_2_1'}),
           (b:Event {uuid: 'event_2_1'})
     MERGE (a)-[:IN_EVENT]->(b);
-MATCH (a:Agent {uuid: 'agent_knell'}),
-          (b:AgentParticipation {uuid: 'agentparticipation_agent_knell_event_2_2'})
+MATCH (a:Agent {uuid: 'agent_archivist_prime_k_nell'}),
+          (b:AgentParticipation {uuid: 'agentparticipation_agent_archivist_prime_k_nell_event_2_2'})
     MERGE (a)-[:PARTICIPATES_IN]->(b);
-MATCH (a:AgentParticipation {uuid: 'agentparticipation_agent_knell_event_2_2'}),
+MATCH (a:AgentParticipation {uuid: 'agentparticipation_agent_archivist_prime_k_nell_event_2_2'}),
           (b:Event {uuid: 'event_2_2'})
     MERGE (a)-[:IN_EVENT]->(b);
 MATCH (a:Agent {uuid: 'agent_the_doctor'}),
@@ -1010,13 +677,13 @@ MATCH (a:AgentParticipation {uuid: 'agentparticipation_agent_the_doctor_event_2_
           (b:Event {uuid: 'event_2_3'})
     MERGE (a)-[:IN_EVENT]->(b);
 MATCH (a:Agent {uuid: 'agent_coordinator_voss'}),
-          (b:AgentParticipation {uuid: 'agentparticipation_agent_coordinator_voss_event_2_3'})
+          (b:AgentParticipation {uuid: 'agentparticipation_agent_coordinator_voss_event_2_4'})
     MERGE (a)-[:PARTICIPATES_IN]->(b);
-MATCH (a:AgentParticipation {uuid: 'agentparticipation_agent_coordinator_voss_event_2_3'}),
-          (b:Event {uuid: 'event_2_3'})
+MATCH (a:AgentParticipation {uuid: 'agentparticipation_agent_coordinator_voss_event_2_4'}),
+          (b:Event {uuid: 'event_2_4'})
     MERGE (a)-[:IN_EVENT]->(b);
 MATCH (a:Scene {uuid: 'scene_3'}),
-          (b:Location {uuid: 'location_security_nexus'})
+          (b:Location {uuid: 'location_quantum_archive_security_nexus'})
     MERGE (a)-[:LOCATED_IN]->(b);
 MATCH (s:Scene {uuid: 'scene_3'}),
           (ep:Episode {uuid: 'episode_episode_one_-_the_quantum_archive'})
@@ -1039,20 +706,32 @@ MATCH (a:Event {uuid: 'event_3_3'}),
 MATCH (a:Event {uuid: 'event_3_2'}),
           (b:Event {uuid: 'event_3_3'})
     MERGE (a)-[:NEXT_EVENT]->(b);
-MATCH (a:Event {uuid: 'event_3_4'}),
-          (b:Scene {uuid: 'scene_3'})
-    MERGE (a)-[:OCCURS_IN]->(b);
-MATCH (a:Event {uuid: 'event_3_3'}),
-          (b:Event {uuid: 'event_3_4'})
-    MERGE (a)-[:NEXT_EVENT]->(b);
 MATCH (a:Agent {uuid: 'agent_director_malik'}),
           (b:AgentParticipation {uuid: 'agentparticipation_agent_director_malik_event_3_1'})
     MERGE (a)-[:PARTICIPATES_IN]->(b);
 MATCH (a:AgentParticipation {uuid: 'agentparticipation_agent_director_malik_event_3_1'}),
           (b:Event {uuid: 'event_3_1'})
     MERGE (a)-[:IN_EVENT]->(b);
+MATCH (a:Agent {uuid: 'agent_coordinator_voss'}),
+          (b:AgentParticipation {uuid: 'agentparticipation_agent_coordinator_voss_event_3_2'})
+    MERGE (a)-[:PARTICIPATES_IN]->(b);
+MATCH (a:AgentParticipation {uuid: 'agentparticipation_agent_coordinator_voss_event_3_2'}),
+          (b:Event {uuid: 'event_3_2'})
+    MERGE (a)-[:IN_EVENT]->(b);
+MATCH (a:Agent {uuid: 'agent_the_doctor'}),
+          (b:AgentParticipation {uuid: 'agentparticipation_agent_the_doctor_event_3_3'})
+    MERGE (a)-[:PARTICIPATES_IN]->(b);
+MATCH (a:AgentParticipation {uuid: 'agentparticipation_agent_the_doctor_event_3_3'}),
+          (b:Event {uuid: 'event_3_3'})
+    MERGE (a)-[:IN_EVENT]->(b);
+MATCH (a:Agent {uuid: 'agent_dr_sarah_chen'}),
+          (b:AgentParticipation {uuid: 'agentparticipation_agent_dr_sarah_chen_event_3_3'})
+    MERGE (a)-[:PARTICIPATES_IN]->(b);
+MATCH (a:AgentParticipation {uuid: 'agentparticipation_agent_dr_sarah_chen_event_3_3'}),
+          (b:Event {uuid: 'event_3_3'})
+    MERGE (a)-[:IN_EVENT]->(b);
 MATCH (a:Scene {uuid: 'scene_4'}),
-          (b:Location {uuid: 'location_temporal_core'})
+          (b:Location {uuid: 'location_quantum_archive_temporal_core'})
     MERGE (a)-[:LOCATED_IN]->(b);
 MATCH (s:Scene {uuid: 'scene_4'}),
           (ep:Episode {uuid: 'episode_episode_one_-_the_quantum_archive'})
@@ -1069,35 +748,35 @@ MATCH (a:Event {uuid: 'event_4_2'}),
 MATCH (a:Event {uuid: 'event_4_1'}),
           (b:Event {uuid: 'event_4_2'})
     MERGE (a)-[:NEXT_EVENT]->(b);
-MATCH (a:Event {uuid: 'event_4_3'}),
-          (b:Scene {uuid: 'scene_4'})
-    MERGE (a)-[:OCCURS_IN]->(b);
-MATCH (a:Event {uuid: 'event_4_2'}),
-          (b:Event {uuid: 'event_4_3'})
-    MERGE (a)-[:NEXT_EVENT]->(b);
-MATCH (a:Event {uuid: 'event_4_4'}),
-          (b:Scene {uuid: 'scene_4'})
-    MERGE (a)-[:OCCURS_IN]->(b);
-MATCH (a:Event {uuid: 'event_4_3'}),
-          (b:Event {uuid: 'event_4_4'})
-    MERGE (a)-[:NEXT_EVENT]->(b);
+MATCH (a:Agent {uuid: 'agent_dr_sarah_chen'}),
+          (b:AgentParticipation {uuid: 'agentparticipation_agent_dr_sarah_chen_event_4_1'})
+    MERGE (a)-[:PARTICIPATES_IN]->(b);
+MATCH (a:AgentParticipation {uuid: 'agentparticipation_agent_dr_sarah_chen_event_4_1'}),
+          (b:Event {uuid: 'event_4_1'})
+    MERGE (a)-[:IN_EVENT]->(b);
+MATCH (a:Agent {uuid: 'agent_archivist_prime_k_nell'}),
+          (b:AgentParticipation {uuid: 'agentparticipation_agent_archivist_prime_k_nell_event_4_1'})
+    MERGE (a)-[:PARTICIPATES_IN]->(b);
+MATCH (a:AgentParticipation {uuid: 'agentparticipation_agent_archivist_prime_k_nell_event_4_1'}),
+          (b:Event {uuid: 'event_4_1'})
+    MERGE (a)-[:IN_EVENT]->(b);
+MATCH (a:Agent {uuid: 'agent_director_malik'}),
+          (b:AgentParticipation {uuid: 'agentparticipation_agent_director_malik_event_4_1'})
+    MERGE (a)-[:PARTICIPATES_IN]->(b);
+MATCH (a:AgentParticipation {uuid: 'agentparticipation_agent_director_malik_event_4_1'}),
+          (b:Event {uuid: 'event_4_1'})
+    MERGE (a)-[:IN_EVENT]->(b);
 MATCH (a:Agent {uuid: 'agent_the_doctor'}),
           (b:AgentParticipation {uuid: 'agentparticipation_agent_the_doctor_event_4_1'})
     MERGE (a)-[:PARTICIPATES_IN]->(b);
 MATCH (a:AgentParticipation {uuid: 'agentparticipation_agent_the_doctor_event_4_1'}),
           (b:Event {uuid: 'event_4_1'})
     MERGE (a)-[:IN_EVENT]->(b);
-MATCH (a:Agent {uuid: 'agent_knell'}),
-          (b:AgentParticipation {uuid: 'agentparticipation_agent_knell_event_4_1'})
+MATCH (a:Agent {uuid: 'agent_the_doctor'}),
+          (b:AgentParticipation {uuid: 'agentparticipation_agent_the_doctor_event_4_2'})
     MERGE (a)-[:PARTICIPATES_IN]->(b);
-MATCH (a:AgentParticipation {uuid: 'agentparticipation_agent_knell_event_4_1'}),
-          (b:Event {uuid: 'event_4_1'})
-    MERGE (a)-[:IN_EVENT]->(b);
-MATCH (a:Agent {uuid: 'agent_sarah_chen'}),
-          (b:AgentParticipation {uuid: 'agentparticipation_agent_sarah_chen_event_4_1'})
-    MERGE (a)-[:PARTICIPATES_IN]->(b);
-MATCH (a:AgentParticipation {uuid: 'agentparticipation_agent_sarah_chen_event_4_1'}),
-          (b:Event {uuid: 'event_4_1'})
+MATCH (a:AgentParticipation {uuid: 'agentparticipation_agent_the_doctor_event_4_2'}),
+          (b:Event {uuid: 'event_4_2'})
     MERGE (a)-[:IN_EVENT]->(b);
 MATCH (a:Agent {uuid: 'agent_director_malik'}),
           (b:AgentParticipation {uuid: 'agentparticipation_agent_director_malik_event_4_2'})
@@ -1105,32 +784,14 @@ MATCH (a:Agent {uuid: 'agent_director_malik'}),
 MATCH (a:AgentParticipation {uuid: 'agentparticipation_agent_director_malik_event_4_2'}),
           (b:Event {uuid: 'event_4_2'})
     MERGE (a)-[:IN_EVENT]->(b);
-MATCH (a:Agent {uuid: 'agent_the_doctor'}),
-          (b:AgentParticipation {uuid: 'agentparticipation_agent_the_doctor_event_4_3'})
-    MERGE (a)-[:PARTICIPATES_IN]->(b);
-MATCH (a:AgentParticipation {uuid: 'agentparticipation_agent_the_doctor_event_4_3'}),
-          (b:Event {uuid: 'event_4_3'})
-    MERGE (a)-[:IN_EVENT]->(b);
 MATCH (a:Agent {uuid: 'agent_coordinator_voss'}),
-          (b:AgentParticipation {uuid: 'agentparticipation_agent_coordinator_voss_event_4_3'})
+          (b:AgentParticipation {uuid: 'agentparticipation_agent_coordinator_voss_event_4_2'})
     MERGE (a)-[:PARTICIPATES_IN]->(b);
-MATCH (a:AgentParticipation {uuid: 'agentparticipation_agent_coordinator_voss_event_4_3'}),
-          (b:Event {uuid: 'event_4_3'})
-    MERGE (a)-[:IN_EVENT]->(b);
-MATCH (a:Agent {uuid: 'agent_director_malik'}),
-          (b:AgentParticipation {uuid: 'agentparticipation_agent_director_malik_event_4_4'})
-    MERGE (a)-[:PARTICIPATES_IN]->(b);
-MATCH (a:AgentParticipation {uuid: 'agentparticipation_agent_director_malik_event_4_4'}),
-          (b:Event {uuid: 'event_4_4'})
-    MERGE (a)-[:IN_EVENT]->(b);
-MATCH (a:Agent {uuid: 'agent_the_doctor'}),
-          (b:AgentParticipation {uuid: 'agentparticipation_agent_the_doctor_event_4_4'})
-    MERGE (a)-[:PARTICIPATES_IN]->(b);
-MATCH (a:AgentParticipation {uuid: 'agentparticipation_agent_the_doctor_event_4_4'}),
-          (b:Event {uuid: 'event_4_4'})
+MATCH (a:AgentParticipation {uuid: 'agentparticipation_agent_coordinator_voss_event_4_2'}),
+          (b:Event {uuid: 'event_4_2'})
     MERGE (a)-[:IN_EVENT]->(b);
 MATCH (a:Scene {uuid: 'scene_5'}),
-          (b:Location {uuid: 'location_temporal_staging_area'})
+          (b:Location {uuid: 'location_quantum_archive_temporal_staging_area'})
     MERGE (a)-[:LOCATED_IN]->(b);
 MATCH (s:Scene {uuid: 'scene_5'}),
           (ep:Episode {uuid: 'episode_episode_one_-_the_quantum_archive'})
@@ -1147,34 +808,10 @@ MATCH (a:Event {uuid: 'event_5_2'}),
 MATCH (a:Event {uuid: 'event_5_1'}),
           (b:Event {uuid: 'event_5_2'})
     MERGE (a)-[:NEXT_EVENT]->(b);
-MATCH (a:Event {uuid: 'event_5_3'}),
-          (b:Scene {uuid: 'scene_5'})
-    MERGE (a)-[:OCCURS_IN]->(b);
-MATCH (a:Event {uuid: 'event_5_2'}),
-          (b:Event {uuid: 'event_5_3'})
-    MERGE (a)-[:NEXT_EVENT]->(b);
-MATCH (a:Event {uuid: 'event_5_4'}),
-          (b:Scene {uuid: 'scene_5'})
-    MERGE (a)-[:OCCURS_IN]->(b);
-MATCH (a:Event {uuid: 'event_5_3'}),
-          (b:Event {uuid: 'event_5_4'})
-    MERGE (a)-[:NEXT_EVENT]->(b);
-MATCH (a:Event {uuid: 'event_5_5'}),
-          (b:Scene {uuid: 'scene_5'})
-    MERGE (a)-[:OCCURS_IN]->(b);
-MATCH (a:Event {uuid: 'event_5_4'}),
-          (b:Event {uuid: 'event_5_5'})
-    MERGE (a)-[:NEXT_EVENT]->(b);
-MATCH (a:Agent {uuid: 'agent_knell'}),
-          (b:AgentParticipation {uuid: 'agentparticipation_agent_knell_event_5_1'})
+MATCH (a:Agent {uuid: 'agent_archivist_prime_k_nell'}),
+          (b:AgentParticipation {uuid: 'agentparticipation_agent_archivist_prime_k_nell_event_5_1'})
     MERGE (a)-[:PARTICIPATES_IN]->(b);
-MATCH (a:AgentParticipation {uuid: 'agentparticipation_agent_knell_event_5_1'}),
-          (b:Event {uuid: 'event_5_1'})
-    MERGE (a)-[:IN_EVENT]->(b);
-MATCH (a:Agent {uuid: 'agent_sarah_chen'}),
-          (b:AgentParticipation {uuid: 'agentparticipation_agent_sarah_chen_event_5_1'})
-    MERGE (a)-[:PARTICIPATES_IN]->(b);
-MATCH (a:AgentParticipation {uuid: 'agentparticipation_agent_sarah_chen_event_5_1'}),
+MATCH (a:AgentParticipation {uuid: 'agentparticipation_agent_archivist_prime_k_nell_event_5_1'}),
           (b:Event {uuid: 'event_5_1'})
     MERGE (a)-[:IN_EVENT]->(b);
 MATCH (a:Agent {uuid: 'agent_the_doctor'}),
@@ -1183,27 +820,15 @@ MATCH (a:Agent {uuid: 'agent_the_doctor'}),
 MATCH (a:AgentParticipation {uuid: 'agentparticipation_agent_the_doctor_event_5_2'}),
           (b:Event {uuid: 'event_5_2'})
     MERGE (a)-[:IN_EVENT]->(b);
-MATCH (a:Agent {uuid: 'agent_sarah_chen'}),
-          (b:AgentParticipation {uuid: 'agentparticipation_agent_sarah_chen_event_5_3'})
+MATCH (a:Agent {uuid: 'agent_dr_sarah_chen'}),
+          (b:AgentParticipation {uuid: 'agentparticipation_agent_dr_sarah_chen_event_5_2'})
     MERGE (a)-[:PARTICIPATES_IN]->(b);
-MATCH (a:AgentParticipation {uuid: 'agentparticipation_agent_sarah_chen_event_5_3'}),
-          (b:Event {uuid: 'event_5_3'})
+MATCH (a:AgentParticipation {uuid: 'agentparticipation_agent_dr_sarah_chen_event_5_2'}),
+          (b:Event {uuid: 'event_5_2'})
     MERGE (a)-[:IN_EVENT]->(b);
-MATCH (a:Agent {uuid: 'agent_the_doctor'}),
-          (b:AgentParticipation {uuid: 'agentparticipation_agent_the_doctor_event_5_4'})
+MATCH (a:Agent {uuid: 'agent_archivist_prime_k_nell'}),
+          (b:AgentParticipation {uuid: 'agentparticipation_agent_archivist_prime_k_nell_event_5_2'})
     MERGE (a)-[:PARTICIPATES_IN]->(b);
-MATCH (a:AgentParticipation {uuid: 'agentparticipation_agent_the_doctor_event_5_4'}),
-          (b:Event {uuid: 'event_5_4'})
-    MERGE (a)-[:IN_EVENT]->(b);
-MATCH (a:Agent {uuid: 'agent_the_doctor'}),
-          (b:AgentParticipation {uuid: 'agentparticipation_agent_the_doctor_event_5_5'})
-    MERGE (a)-[:PARTICIPATES_IN]->(b);
-MATCH (a:AgentParticipation {uuid: 'agentparticipation_agent_the_doctor_event_5_5'}),
-          (b:Event {uuid: 'event_5_5'})
-    MERGE (a)-[:IN_EVENT]->(b);
-MATCH (a:Agent {uuid: 'agent_knell'}),
-          (b:AgentParticipation {uuid: 'agentparticipation_agent_knell_event_5_5'})
-    MERGE (a)-[:PARTICIPATES_IN]->(b);
-MATCH (a:AgentParticipation {uuid: 'agentparticipation_agent_knell_event_5_5'}),
-          (b:Event {uuid: 'event_5_5'})
+MATCH (a:AgentParticipation {uuid: 'agentparticipation_agent_archivist_prime_k_nell_event_5_2'}),
+          (b:Event {uuid: 'event_5_2'})
     MERGE (a)-[:IN_EVENT]->(b);

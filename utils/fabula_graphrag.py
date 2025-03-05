@@ -41,8 +41,8 @@ Relationships:
 - (Scene)-[:NEXT_SCENE]->(Scene)
 - (Event)-[:OCCURS_IN]->(Scene)
 - (Event)-[:NEXT_EVENT]->(Event)
-- (Agent)-[:HAS_PARTICIPATION]->(AgentParticipation)-[:IN_EVENT]->(Event)
-- (Object)-[:HAS_INVOLVEMENT]->(ObjectInvolvement)-[:IN_EVENT]->(Event)
+- (Agent)-[:PARTICIPATES_IN]->(AgentParticipation)-[:IN_EVENT]->(Event)
+- (Object)-[:INVOLVED_IN]->(ObjectInvolvement)-[:IN_EVENT]->(Event)
 - (Agent)-[:AFFILIATED_WITH]->(Organization)
 - (Agent)-[:OWNS]->(Object)
 """

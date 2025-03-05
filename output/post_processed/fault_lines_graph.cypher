@@ -38,240 +38,243 @@ MATCH (n) DETACH DELETE n;
 MERGE (a:Agent {uuid: 'agent_josh_lyman'})
     ON CREATE SET
         a.name = 'Josh Lyman',
-        a.title = 'Political Strategist',
-        a.description = 'Josh Lyman is a seasoned political strategist whose sharp instincts and emotional depth define his approach to crisis management. In this scene, he stands by a rain-streaked window, absorbed in his troubled thoughts even as relief sweeps the room. His reflective nature and ability to articulate the moral ambiguities of political warfare underscore his internal conflict between success and ethical compromise.',
-        a.traits = ["Reflective", "Strategic", "Passionate", "Morally conscientious"],
-        a.sphere_of_influence = 'Political strategy and crisis response'
+        a.title = 'None',
+        a.description = 'Josh Lyman is a determined and resourceful staff member whose experiences in past crises have left a visible imprint. He balances personal apprehension with a deep sense of duty, making him both relatable and formidable in the face of national emergencies. His quick thinking, emotional depth, and unwavering commitment add a palpable intensity to every high-stakes moment.',
+        a.traits = ["Determined", "Resilient", "Perceptive", "Anxious"],
+        a.sphere_of_influence = 'Political Strategy/Crisis Management'
     ;
 MERGE (a:Agent {uuid: 'agent_nancy_mcnally'})
     ON CREATE SET
         a.name = 'Nancy McNally',
         a.title = 'National Security Advisor',
-        a.description = 'Nancy McNally is a commanding figure whose calm authority under pressure belies the deep concern she holds for national security. Tasked with overseeing delicate assessments and emergency situations, she stands as a pillar of rationality amidst chaos. Her firm yet measured approach in briefing her senior staff highlights a clear mind and a dedication to protecting American interests abroad, making her a vital asset in critical situations.',
-        a.traits = ["Commanding", "Calm", "Pragmatic", "Observant"],
-        a.sphere_of_influence = 'National Security and crisis management'
+        a.description = 'Nancy McNally is a commanding presence in national security, known for her imperturbable dedication and firm decision-making during crises. In the Situation Room, her authoritative voice cuts through the tension as she reports on critical intelligence regarding USAID workers and emerging threats. Her concern is palpable as she balances detailed analysis with the urgency of unfolding events, demonstrating an unwavering commitment to her role in protecting national interests.',
+        a.traits = ["authoritative", "decisive", "concerned", "commanding"],
+        a.sphere_of_influence = 'National Security'
     ;
 MERGE (a:Agent {uuid: 'agent_donna_moss'})
     ON CREATE SET
         a.name = 'Donna Moss',
-        a.title = 'Senior Staff Member',
-        a.description = 'Donna Moss is a reliable and empathetic staff member who understands both the technical and emotional aspects of high-pressure political environments. In this scene, she quietly approaches Josh, attuned to his turmoil and offering a gentle reminder of their collective resilience. Donna blends discretion with forthright support, making her a pillar of both professionalism and compassionate stability during uncertain times.',
-        a.traits = ["Compassionate", "Observant", "Supportive", "Discreet"],
-        a.sphere_of_influence = 'Staff coordination and emotional support within the administration'
+        a.title = 'None',
+        a.description = 'Donna Moss is a perceptive and empathetic aide who provides quiet strength and support amidst the pressures of the White House. With a keen understanding of the intricate dynamics of national politics, she is adept at reading the subtle cues of her colleagues and offers comfort and guidance when tension mounts. Her observations and timely interventions reveal a blend of professionalism and heartfelt care.',
+        a.traits = ["Empathetic", "Observant", "Supportive", "Discerning"],
+        a.sphere_of_influence = 'Administrative Support/White House Operations'
     ;
 MERGE (a:Agent {uuid: 'agent_kate_harper'})
     ON CREATE SET
         a.name = 'Kate Harper',
-        a.title = 'Intelligence Officer',
-        a.description = 'Kate Harper is a razor-sharp intelligence officer known for her analytical mind and decisive action during crises. In this scene, she bursts into the Oval Office with a critical update that shifts the atmosphere from tense uncertainty to sudden relief. Her calm authority and precise delivery of information make her an indispensable figure in high-stakes situations, as she bridges the gap between raw intelligence and executive decision-making.',
-        a.traits = ["Analytical", "Decisive", "Assertive", "Detail-oriented"],
-        a.sphere_of_influence = 'National security and crisis management'
+        a.title = 'None',
+        a.description = 'Kate Harper is a vigilant intelligence officer whose analytical acumen is pivotal during crisis situations. Known for her cool, focused demeanor, she deciphers complex international signals with precision and contributes critical insights to high-stakes decision making. Her calm under pressure and unwavering commitment to uncovering the truth make her an indispensable asset in moments of uncertainty.',
+        a.traits = ["Vigilant", "Analytical", "Focused", "Determined"],
+        a.sphere_of_influence = 'National Security/Intelligence'
     ;
-MERGE (a:Agent {uuid: 'agent_president_bartlet'})
+MERGE (a:Agent {uuid: 'agent_bartlet'})
     ON CREATE SET
         a.name = 'Bartlet',
-        a.title = 'President of the United States',
-        a.description = 'Bartlet is the steadfast leader whose calm demeanor belies an intense inner resolve. In this scene, he monitors his staff from behind the Resolute desk, embodying both the weight of presidential responsibility and a simmering tension over the day\'s close calls. His measured authority and clear-eyed commitment to truth and accountability guide his actions, even as he prepares to address the nation about how narrowly the situation was contained.',
-        a.traits = ["Authoritative", "Measured", "Principled", "Reflective"],
-        a.sphere_of_influence = 'National leadership and executive decision-making'
+        a.title = 'President',
+        a.description = 'Bartlet is a commanding presence marked by a calm exterior and a deeply thoughtful approach to leadership. Carrying the weight of national destiny on his shoulders, he exhibits a restrained yet intense determination when making decisions during crises. His measured gestures and subtle physical cues reveal an inner turbulence, yet his resolve never wavers, positioning him as a steady force in the tumultuous realm of executive leadership.',
+        a.traits = ["Commanding", "Resolute", "Thoughtful", "Under Pressure"],
+        a.sphere_of_influence = 'Executive Leadership'
     ;
 MERGE (a:Agent {uuid: 'agent_leo_mcgarry'})
     ON CREATE SET
         a.name = 'Leo McGarry',
         a.title = 'Chief of Staff',
-        a.description = 'Leo McGarry is a steadfast and experienced political operator whose strategic acumen and loyalty ensure the smooth functioning of the administration. Always vigilant, he observes subtle cues in tense moments and provides both counsel and quiet strength to those around him. His presence in the scene is marked not only by his perceptiveness regarding Bartlet’s unspoken signals but also by a deep commitment to maintaining stability in turbulent times.',
-        a.traits = ["Loyal", "Strategic", "Observant", "Supportive"],
-        a.sphere_of_influence = 'Political strategy and administration management'
+        a.description = 'Leo McGarry epitomizes steady leadership and pragmatic management in moments of crisis. His calm and insightful presence offers a stabilizing force behind the scenes. In the current scene, his silent communication with C.J. signals a deep, unspoken understanding of the political dynamics at play, making him a key pillar in the administration’s overall strategy.',
+        a.traits = ["Steady", "Pragmatic", "Insightful", "Loyal"],
+        a.sphere_of_influence = 'Political Administration and Strategy'
     ;
 MERGE (a:Agent {uuid: 'agent_general_alexander'})
     ON CREATE SET
         a.name = 'General Alexander',
         a.title = 'General',
-        a.description = 'General Alexander is the embodiment of military precision and authority, representing the armed forces in a political milieu. His presence in the Situation Room underlines the gravity of the situation, as he serves as the voice of military insight during crises. With a career marked by decisive actions and rigorous discipline, General Alexander is committed to operational excellence and the safeguarding of national security. His demeanor is steely and measured, reflecting years of leadership in the field.',
-        a.traits = ["Disciplined", "Commanding", "Decisive", "Observant"],
-        a.sphere_of_influence = 'Military strategy and national defense'
+        a.description = 'General Alexander is a high-ranking military leader whose gravitas and strategic insight make him a vital voice during the crisis. His presence in the Situation Room underscores the intersection of military expertise and national policy. With a disciplined and measured approach, he provides incisive military perspectives that complement the broader political strategy. His experience and no-nonsense demeanor ensure that the discussion of options is both realistic and grounded in sound operational practice.',
+        a.traits = ["strategic", "commanding", "disciplined", "experienced"],
+        a.sphere_of_influence = 'Military Strategy'
     ;
 MERGE (a:Agent {uuid: 'agent_bob_russell'})
     ON CREATE SET
         a.name = 'Bob Russell',
         a.title = 'Vice President',
-        a.description = 'Vice President Bob Russell is typically seen as a cool and collected political operator, known for his calculated demeanor and ability to maintain composure under pressure. He has cultivated an image of affability and pragmatism, rarely allowing personal emotions to surface in his public or professional life. However, beneath this carefully constructed exterior lies a capacity for deep personal feeling, especially towards those he cares about. This scene reveals a crack in his political facade, exposing the raw vulnerability and emotional turmoil he experiences when personal connections are threatened, particularly concerning Amanda Dalton, whom he clearly regards with paternal affection and responsibility.',
-        a.traits = ["Affable", "Calculated", "Emotionally invested (privately)", "Political operator"],
-        a.sphere_of_influence = 'Political Strategy, Executive Branch'
+        a.description = 'Bob Russell carries the heavy mantle of the nation\'s second-in-command. In private moments his carefully constructed political armor slips, revealing a man burdened by regret and genuine emotion. His internal conflict is palpable as he contemplates personal memories—symbolized by the cherished photograph of his past. Behind his controlled exterior lies a soul shaped by tender recollections of a simpler time and the weight of public duty.',
+        a.traits = ["calculated", "nostalgic", "emotionally conflicted", "dedicated"],
+        a.sphere_of_influence = 'political governance and strategy'
     ;
 MERGE (a:Agent {uuid: 'agent_margaret'})
     ON CREATE SET
         a.name = 'Margaret',
-        a.title = 'Staffer',
-        a.description = 'Margaret is a White House staffer working in the Vice President\'s office, characterized by her professional demeanor and awareness of protocol. She is respectful and dutiful, approaching the Vice President with the necessary formality, even when witnessing him in a private moment of emotional vulnerability. Her presence is a reminder of the official world that surrounds even the most personal of spaces in the West Wing. Though brief, her interaction is crucial as she is the catalyst that pulls Vice President Russell back from his personal reflections and into the urgent demands of the unfolding crisis, highlighting her role as a bridge between his private feelings and his public duties.',
-        a.traits = ["Professional", "Respectful", "Duty-conscious", "Observant"],
-        a.sphere_of_influence = 'White House Operations, Vice President\'s Office'
+        a.title = 'None',
+        a.description = 'Margaret appears as a quietly observant presence in the scene, standing in the doorway of the Vice President\'s Office. Her discomfort at witnessing Bob Russell\'s vulnerable moment speaks to her awareness of protocol and the unspoken tensions that pervade political life. She is attentive, respectful of boundaries, yet clearly affected by the raw display of personal emotion that disrupts the rigid formality of the environment.',
+        a.traits = ["observant", "cautious", "sensitive", "dutiful"],
+        a.sphere_of_influence = 'administrative support within high-level government settings'
     ;
 MERGE (a:Agent {uuid: 'agent_amanda_dalton'})
     ON CREATE SET
         a.name = 'Amanda Dalton',
-        a.title = 'USAID Worker',
-        a.description = 'Amanda Dalton is a dedicated and courageous USAID worker who embodies the spirit of American idealism and service. Driven by a desire to make a tangible difference in the world, she chose a career path that places her in harm\'s way in conflict zones. Inspired by President Bartlet\'s vision of American responsibility, she represents the human face of foreign aid, venturing into dangerous territories to help rebuild shattered societies. Though unseen in this scene, her presence is powerfully felt through Vice President Russell\'s emotional distress, underscoring the personal stakes and the human cost of international crises. Her determination and commitment to humanitarian work are central to understanding the emotional core of the unfolding events.',
-        a.traits = ["Dedicated", "Courageous", "Idealistic", "Service-oriented"],
-        a.sphere_of_influence = 'International Aid, Humanitarian Work'
+        a.title = 'USAID Aid Worker',
+        a.description = 'Amanda Dalton is remembered both as a symbol of youthful determination and as a dedicated professional in the realm of international aid. Her early experiences, captured in a cherished photograph with Bob Russell, hint at a life committed to service and resilience. Now an experienced USAID veteran, she embodies the intersection of personal legacy and the larger duty of rebuilding and aiding communities in conflict zones.',
+        a.traits = ["resilient", "determined", "compassionate", "committed"],
+        a.sphere_of_influence = 'international aid and post-conflict recovery'
     ;
 MERGE (a:Agent {uuid: 'agent_viktor_petrov'})
     ON CREATE SET
         a.name = 'Viktor Petrov',
-        a.title = 'Russian Ambassador',
-        a.description = 'Viktor Petrov is the impeccable Russian Ambassador, a career diplomat whose every word and posture exudes authority and precision. Known for his perfect diplomatic posture and measured tones, he represents Moscow’s firm stance on international issues. His calm, methodical delivery under pressure reflects an experience honed by years in the diplomatic arena, and he is unflinching in defending his nation’s interests even when challenged by powerful figures such as President Bartlet.',
-        a.traits = ["Diplomatic", "Composed", "Articulate", "Resolute"],
-        a.sphere_of_influence = 'International diplomacy and Russian state affairs'
+        a.title = 'Ambassador',
+        a.description = 'Viktor Petrov is a consummate diplomat representing Moscow, exuding stern authority and measured composure. In this scene, his perfectly poised stance and precise articulation of policy underscore years of international experience and a deep understanding of delicate negotiations on the global stage.',
+        a.traits = ["Diplomatic", "Poised", "Assertive", "Meticulous"],
+        a.sphere_of_influence = 'Diplomacy and international relations'
     ;
-MERGE (a:Agent {uuid: 'agent_c_j_cregg'})
+MERGE (a:Agent {uuid: 'agent_cj_cregg'})
     ON CREATE SET
         a.name = 'C.J. Cregg',
         a.title = 'Press Secretary',
-        a.description = 'C.J. Cregg is a seasoned press secretary known for her keen insight and ability to brace under the weight of breaking news. Calm and collected even when the atmosphere is fraught with tension, she is quick to act on breaking news alerts and adjusts her demeanor to shield herself from the potential onslaught of media scrutiny. Her professionalism and acumen make her an essential communicator in high-pressure political situations.',
-        a.traits = ["Resilient", "Perceptive", "Communicative", "Calm"],
-        a.sphere_of_influence = 'Media relations and communications'
+        a.description = 'C.J. Cregg is a sharp and observant communications expert known for her resilience and calm under pressure. In this scene, her reaction to a breaking news alert on her BlackBerry reveals her acute awareness of the unfolding media storm. Her dedication to accurate communication and her composed demeanor serve as a critical counterbalance amidst the high-stakes diplomatic dialogue.',
+        a.traits = ["Observant", "Resilient", "Astute", "Composed"],
+        a.sphere_of_influence = 'Communications and Media Relations'
     ;
 MERGE (a:Agent {uuid: 'agent_sam_seaborn'})
     ON CREATE SET
         a.name = 'Sam Seaborn',
-        a.title = 'Deputy Communications Director',
-        a.description = 'Sam Seaborn is a gifted and idealistic speechwriter, known for his eloquent prose and deep commitment to public service. He is typically impeccably presented, maintaining a polished and professional image. Underneath his composed exterior, however, lies a passionate and deeply feeling individual, especially evident when grappling with the moral and ethical dimensions of political events. He is driven by a desire to articulate the administration\'s values with clarity and impact, often wrestling with the complexities of translating policy into resonant language that moves and inspires.',
-        a.traits = ["Idealistic", "Eloquent", "Passionate", "Intellectual"],
-        a.sphere_of_influence = 'Communications, Speechwriting'
+        a.title = 'None',
+        a.description = 'Sam Seaborn is a dedicated and creative staff member who channels his inner turmoil into his work. Often caught between the demands of poetic expression and the harsh realities of political violence, he is visibly affected by the pressures of his responsibilities. His normally impeccable appearance gives way to dishevelment in moments of intense introspection, revealing a man who carries both idealism and a deep sense of moral conflict.',
+        a.traits = ["idealistic", "emotionally vulnerable", "creative", "intensely passionate"],
+        a.sphere_of_influence = 'political communications'
     ;
 MERGE (a:Agent {uuid: 'agent_toby_ziegler'})
     ON CREATE SET
         a.name = 'Toby Ziegler',
-        a.title = 'Communications Director',
-        a.description = 'Toby Ziegler is the White House Communications Director, a man of sharp intellect and unwavering moral compass. He is known for his cynical exterior and gruff demeanor, often acting as the administration\'s conscience, challenging decisions and pushing for ethical clarity. Beneath his sometimes abrasive surface, Toby possesses a deep-seated idealism and a profound concern for the human impact of political actions. He is intensely dedicated to crafting messages that are not only strategically effective but also morally sound, often finding himself at odds with political pragmatism in favor of principled communication.',
-        a.traits = ["Cynical", "Principled", "Intellectual", "Moralistic"],
-        a.sphere_of_influence = 'Communications, Political Strategy'
-    ;
-MERGE (a:Agent {uuid: 'agent_charlie_young'})
-    ON CREATE SET
-        a.name = 'Charlie Young',
-        a.title = 'Personal Aide',
-        a.description = 'Charlie Young is a trusted aide known for his loyal service and ability to respond swiftly to presidential demands. Though his presence is brief in this scene, he is tasked with immediately contacting key figures on behalf of the President, demonstrating his efficiency and unwavering dedication. His role, while supportive, is central to ensuring that the chain of communication remains unbroken during moments of crisis.',
-        a.traits = ["Efficient", "Loyal", "Discreet", "Responsive"],
-        a.sphere_of_influence = 'Presidential support and communications'
+        a.title = 'None',
+        a.description = 'Toby Ziegler is a thoughtful and measured deputy whose calm demeanor balances the emotional intensity permeating the work environment. Known for his capacity to offer restraint and reflective insight, Toby provides guidance to his colleagues during harrowing moments. His presence in the doorway of the workspace underscores a protective and mentoring role, as he watches over Sam with concern while encouraging a measured approach to the burdens of political violence.',
+        a.traits = ["measured", "empathetic", "grounded", "observant"],
+        a.sphere_of_influence = 'political strategy and communications'
     ;
 MERGE (a:Agent {uuid: 'agent_president_kovach'})
     ON CREATE SET
         a.name = 'President Kovach',
         a.title = 'President',
-        a.description = 'President Kovach is summoned in this critical juncture, representing another facet of national leadership. Though not seen directly, his presence is implied by the urgent command issued by Bartlet. Kovach\'s role carries the weight of leadership and accountability, as his involvement is crucial to addressing the nation in the wake of a narrowly averted crisis. His character is expected to embody decisiveness and clarity, key traits for navigating treacherous political waters.',
-        a.traits = ["Decisive", "Authoritative", "Responsible", "Composed"],
-        a.sphere_of_influence = 'National governance and crisis resolution'
+        a.description = 'President Kovach is a seasoned leader known for his steady hand and unwavering commitment to national security and effective governance. Despite a limited appearance in the current scene, his reputation precedes him as a person who embodies both resolve and pragmatism in the face of crisis. His composed demeanor and strategic intellect highlight a profound understanding of international politics, underlined by a deep sense of duty and adherence to tradition.',
+        a.traits = ["Authoritative", "Calm", "Strategic", "Inspiring"],
+        a.sphere_of_influence = 'National Governance/Executive Leadership'
+    ;
+MERGE (a:Agent {uuid: 'agent_charlie_young'})
+    ON CREATE SET
+        a.name = 'Charlie Young',
+        a.title = 'Personal Assistant',
+        a.description = 'Charlie Young is a dedicated and efficient aide who plays a crucial role in ensuring the smooth functioning of the White House. Known for his resourcefulness and unwavering loyalty, he manages critical tasks with remarkable discretion even under intense pressure. His keen attention to detail and calm demeanor help to execute high-priority directives with precision, underscoring his indispensable value to the executive office.',
+        a.traits = ["Resourceful", "Reliable", "Attentive", "Meticulous"],
+        a.sphere_of_influence = 'White House Operations/Executive Support'
     ;
 MERGE (o:Object {uuid: 'object_lcd_screens'})
     ON CREATE SET
         o.name = 'LCD Screens',
-        o.description = 'Large, high-definition LCD screens dominate one wall of the Situation Room, continuously displaying satellite imagery of conflict zones. Their sleek design and bright, crisp images offer unfiltered, real-time updates that guide strategic decision-making.',
-        o.purpose = 'To provide live satellite imagery and vital real-time intelligence during crisis briefings.',
-        o.significance = 'They symbolize modern technological prowess in warfare and strategic operations, bridging the gap between remote crisis zones and the nerve center of national power.'
+        o.description = 'The LCD screens in the Situation Room are sleek, state-of-the-art devices that display live satellite imagery of the Kosovo-Serbia border region. Their digital glow cuts through the dim pre-dawn light, offering critical visual intelligence that underpins the briefing and informs strategic decisions during the crisis.',
+        o.purpose = 'To display live satellite imagery and real-time intelligence',
+        o.significance = 'They serve as a core tool for monitoring vital geopolitical developments and underpin decision-making in national security matters.'
     ;
 MERGE (o:Object {uuid: 'object_framed_photograph'})
     ON CREATE SET
         o.name = 'Framed Photograph',
-        o.description = 'A deeply personal framed photograph on Vice President Russell\'s desk, depicting a younger Bob Russell teaching a small, pigtailed Amanda Dalton to fish. It carries emotional weight and serves as a tangible link to happier, simpler times.',
-        o.purpose = 'To evoke memory and emotional connection.',
-        o.significance = 'Represents Russell\'s personal bond with Amanda Dalton and the contrast between forgotten joy and current crisis.'
-    ;
-MERGE (o:Object {uuid: 'object_desk_lamp'})
-    ON CREATE SET
-        o.name = 'Desk Lamp',
-        o.description = 'A single desk lamp in the Vice President\'s dark office, casting a focused pool of light on key objects, especially the framed photograph. Its illumination delineates a small intimate space amid surrounding shadows.',
-        o.purpose = 'To provide focused illumination and create an atmospheric, intimate setting.',
-        o.significance = 'Symbolizes solitude, introspection, and vulnerability in the midst of political and personal turmoil.'
+        o.description = 'A meticulously preserved framed photograph showing Bob Russell in a tender moment teaching a young Amanda Dalton how to fish at his Colorado lake house. The image, steeped in nostalgia, captures a period of innocence and connection far removed from the austere pressures of political leadership.',
+        o.purpose = 'To evoke personal memories and symbolize the fragile intersection between private sentiment and the demands of public office.',
+        o.significance = 'The photograph serves as a visual reminder of Bob Russell\'s past and the emotional cost of political responsibility, hinting at the sacrifices inherent in leadership.'
     ;
 MERGE (o:Object {uuid: 'object_blackberry'})
     ON CREATE SET
         o.name = 'BlackBerry',
-        o.description = 'A sleek, compact communication device that buzzes with crucial news alerts. Its efficient design and high-tech features make it a dependable tool during high-pressure moments.',
-        o.purpose = 'To receive and alert breaking news updates.',
-        o.significance = 'Symbolizes the convergence of technology and the immediacy of modern communication in high-pressure political environments.'
+        o.description = 'The BlackBerry is a sleek, early smartphone known for its physical keyboard and secure communication capabilities. It buzzes with incoming alerts, serving as a vital conduit for real-time news and updates.',
+        o.purpose = 'To receive and display instant news alerts and communications.',
+        o.significance = 'It symbolizes the relentless flow of information and the critical role of media in influencing political events.'
     ;
-MERGE (o:Object {uuid: 'object_crumpled_paper'})
+MERGE (o:Object {uuid: 'object_laptop_with_dual_documents'})
     ON CREATE SET
-        o.name = 'Crumpled Paper',
-        o.description = 'Scattered sheets of crumpled paper litter the desk area, embodying discarded drafts, failed ideas, and the intense creative struggle in speechwriting.',
-        o.purpose = 'To represent discarded drafts of speeches.',
-        o.significance = 'Embodies creative struggle, the iterative process of drafting, and the high stakes of crafting impactful communication.'
-    ;
-MERGE (o:Object {uuid: 'object_empty_coffee_cups'})
-    ON CREATE SET
-        o.name = 'Empty Coffee Cups',
-        o.description = 'Several empty coffee cups scattered around the workspace, marking long hours and the relentless effort behind political communication.',
-        o.purpose = 'To hold and consume coffee.',
-        o.significance = 'Symbolizes long hours, sustained effort, and the behind-the-scenes labor inherent to the West Wing\'s environment.'
-    ;
-MERGE (o:Object {uuid: 'object_laptop_screen'})
-    ON CREATE SET
-        o.name = 'Laptop Screen',
-        o.description = 'A brightly glowing laptop screen in a dimly lit office shows side-by-side documents, highlighting the precarious balance between hope and despair during a crisis. Its digital interface is central to crafting critical national narratives.',
-        o.purpose = 'Displaying documents and facilitating speechwriting.',
-        o.significance = 'Represents the duality of the situation and serves as the central tool for communication and strategy.'
+        o.name = 'Laptop with Dual Documents',
+        o.description = 'This laptop, surrounded by the physical detritus of a long and taxing work session, serves as a focal point in the scene. Its screen glows with two distinct documents—one heralding victory and the other steeped in tragedy—symbolizing the dualities of political messaging and the burden of leadership. The device is a silent witness to the inner conflict of its user, reflecting both creative determination and the somber weight of responsibility.',
+        o.purpose = 'To showcase the conflicting narratives of triumph and sorrow that define the current political crisis.',
+        o.significance = 'The laptop underscores the theme of duality, capturing the essence of a political environment where poetic ambition wrestles with harsh reality. It is a visual manifestation of the struggle to find meaning in tragedy.'
     ;
 MERGE (o:Object {uuid: 'object_resolute_desk'})
     ON CREATE SET
         o.name = 'Resolute Desk',
-        o.description = 'An iconic piece of furniture in the Oval Office, the Resolute Desk, with its aged wood and intricate design, silently witnesses the unfolding drama. It stands as a testament to the weight of leadership and historical continuity.',
-        o.purpose = 'To serve as the central executive workspace from which presidential authority is projected.',
-        o.significance = 'Symbolizes continuity and the enduring presence of leadership in the face of crisis.'
+        o.description = 'The Resolute Desk stands as a potent symbol of presidential authority and history, its finely crafted design merging tradition with the demands of modern statecraft. Often serving as the centerpiece in the Oval Office, it witnesses critical decisions and strategic meetings amid palpable tension.',
+        o.purpose = 'To serve as the central executive work desk and symbolic artifact of leadership.',
+        o.significance = 'Represents the continuity of presidential power and the gravity of national decision-making.'
     ;
 MERGE (l:Location {uuid: 'location_white_house_situation_room'})
     ON CREATE SET
         l.name = 'White House Situation Room',
-        l.description = 'The White House Situation Room is a secure, dimly lit chamber within the White House designed for crisis management and high-level briefings. Its subdued lighting casts dramatic shadows over a long table where senior officials converge, with multiple LCD screens displaying vital satellite imagery. Additional context underscores its role as a technologically advanced and bustling hub for urgent national security responses, pulling officials from personal spaces into the heart of complex crises.',
+        l.description = 'The White House Situation Room is a high-security command center set in the pre-dawn hours. Bathed in dim lighting that casts long shadows and accentuates tired faces, the room is outfitted with numerous LCD screens displaying live satellite imagery. Its deliberate design and atmosphere of urgent introspection make it the nerve center for the administration’s crisis management and high-level strategic discussions.',
         l.type = 'Office'
+    ;
+MERGE (l:Location {uuid: 'location_kosovo_serbia_border_region'})
+    ON CREATE SET
+        l.name = 'Kosovo-Serbia Border Region',
+        l.description = 'The Kosovo-Serbia Border Region is a geopolitically volatile area marked by post-conflict reconstruction efforts and ongoing tensions. The region’s stark, rugged terrain comes to life on LCD screens, revealing rapid changes and challenges faced by aid workers balancing between rebuilding efforts and political unrest.',
+        l.type = 'Region'
+    ;
+MERGE (l:Location {uuid: 'location_the_hague'})
+    ON CREATE SET
+        l.name = 'The Hague',
+        l.description = 'The Hague is an internationally renowned city celebrated for its integral role in global diplomacy and justice. In this context, it is referenced as the locale tied to the demands of a militant faction, embodying both legal accountability and the high stakes of international intervention in conflict resolution.',
+        l.type = 'City'
     ;
 MERGE (l:Location {uuid: 'location_vice_presidents_office'})
     ON CREATE SET
         l.name = 'Vice President\'s Office',
-        l.description = 'The Vice President\'s Office is depicted as a stately and traditionally furnished space imbued with an atmosphere of power and formality. In this pre-dawn scene, it is shrouded in darkness except for a solitary pool of light from a desk lamp, casting long shadows that emphasize both authority and vulnerability. Rich wood furnishings, leather-bound books, and heavy drapes contribute to its aura of established authority while also revealing a more personal, introspective side.',
+        l.description = 'The Vice President\'s Office is a stately, dimly lit sanctuary set apart from the high-energy corridors of power. Dominated by a solitary desk lamp that casts long shadows across polished wood surfaces, the room exudes gravitas and reflective introspection with sparse furnishings and carefully arranged personal mementos, emphasizing the weight of public duty alongside private vulnerability.',
         l.type = 'Office'
-    ;
-MERGE (l:Location {uuid: 'location_colorado_lake_house'})
-    ON CREATE SET
-        l.name = 'Colorado lake house',
-        l.description = 'The Colorado lake house exists only in a photograph and in Vice President Russell\'s memory, symbolizing personal warmth, familial connection, and simpler times. Surrounded by pine trees and overlooking a serene mountain lake, this rustic retreat stands in stark contrast to the tense environments of Washington D.C., evoking nostalgia and a cherished past marked by innocence and deep emotional bonds.',
-        l.type = 'Residence'
     ;
 MERGE (l:Location {uuid: 'location_mural_room'})
     ON CREATE SET
         l.name = 'Mural Room',
-        l.description = 'The Mural Room serves as an impromptu command center layered with artistic and historical significance. Its walls, adorned with evocative murals, provide a rich backdrop that contrasts with the severe and urgent political discussions taking place. Ambient lighting accentuates the room’s dual nature of solemnity and creative inspiration, making it a silent witness to high-stakes dialogue.',
-        l.type = 'Office'
+        l.description = 'The Mural Room is a spacious chamber adorned with large, expressive murals that capture significant historical and political moments. Bathed in subtle lighting and featuring elegant architectural details, this room exudes gravitas and decorum, making it an ideal setting for high-level diplomatic discussions and strategic sessions.',
+        l.type = 'Room'
     ;
 MERGE (l:Location {uuid: 'location_steam_pipe_trunk_distribution_venue'})
     ON CREATE SET
         l.name = 'Steam Pipe Trunk Distribution Venue',
-        l.description = 'The Steam Pipe Trunk Distribution Venue is a windowless office space tucked away within the West Wing of the White House. Its utilitarian design, complete with cramped, cluttered surfaces littered with crumpled papers and empty coffee cups, underscores its role as a no-frills functional area. The environment is characterized by the lack of natural light and a subterranean ambiance that contrasts sharply with more prestigious offices.',
+        l.description = 'The Steam Pipe Trunk Distribution Venue is a windowless office space with a palpable sense of urgency and isolation. The stark, sealed environment, highlighted by sparse lighting that accentuates scattered crumpled paper and empty coffee cups, mirrors the long hours of work and reflective crisis moments occurring within its walls.',
         l.type = 'Office'
     ;
 MERGE (l:Location {uuid: 'location_oval_office'})
     ON CREATE SET
         l.name = 'Oval Office',
-        l.description = 'The Oval Office is depicted as a grand yet intimate setting within the White House, embodying the weight of leadership. Large windows reveal rain streaming down, symbolizing both cleansing and reflection. The room\'s luxurious furnishings and historic decor provide a formal backdrop imbued with tension and the residue of strategic decisions and personal revelations.',
+        l.description = 'The Oval Office is a stately and well-appointed room serving as the epicenter of executive decision-making. Home to the iconic Resolute Desk amidst elegant furnishings and expansive windows that capture the steady descent of rain, its warm lighting and somber weather together create an atmosphere of reflective gravity suitable for high-stakes discussions.',
         l.type = 'Office'
-    ;
-MERGE (o:Organization {uuid: 'org_serbian_paramilitary'})
-    ON CREATE SET
-        o.name = 'Serbian Paramilitary Group',
-        o.description = 'An informal yet dangerous organization operating largely outside the official channels of governance, noted for utilizing modern social media to claim responsibility for brutal and unpredictable operations. They position themselves as avengers with political demands—such as the release of detained commanders—relying on a blend of traditional military tactics and modern digital influence to further their agenda.',
-        o.sphere_of_influence = 'Paramilitary operations and regional destabilization'
     ;
 MERGE (o:Organization {uuid: 'org_usaid'})
     ON CREATE SET
         o.name = 'USAID',
-        o.description = 'The United States Agency for International Development (USAID) administers civilian foreign aid and development assistance, supporting countries recovering from conflict, disaster, and poverty. The organization promotes global health, economic growth, and democratic values, embodying America\'s commitment to humanitarian efforts and proactively engaging in politically volatile regions.',
-        o.sphere_of_influence = 'International Development, Foreign Aid, Humanitarian Assistance'
+        o.description = 'USAID, the United States Agency for International Development, is dedicated to delivering international aid and fostering post-conflict stabilization. It plays a critical role in rebuilding war-torn regions by providing essential services and support, with a strong commitment to global humanitarian efforts and sustainable development.',
+        o.sphere_of_influence = 'international aid and reconstruction'
+    ;
+MERGE (o:Organization {uuid: 'org_serbian_paramilitary_group'})
+    ON CREATE SET
+        o.name = 'Serbian Paramilitary Group',
+        o.description = 'An armed and loosely organized militant faction that leverages conflict and chaos to enforce its radical agenda, often demanding concessions or the release of detained figures to expand its influence in the region.',
+        o.sphere_of_influence = 'Regional Insurgency in the Balkans'
+    ;
+MERGE (o:Organization {uuid: 'org_serbian_security_services'})
+    ON CREATE SET
+        o.name = 'Serbian Security Services',
+        o.description = 'A formal state security organization tasked with national protection. Amid the current crisis, it is alleged to have provided covert tactical support to paramilitary elements, blurring the lines between official security measures and underground operations.',
+        o.sphere_of_influence = 'National Security Operations'
+    ;
+MERGE (o:Organization {uuid: 'org_nato'})
+    ON CREATE SET
+        o.name = 'NATO',
+        o.description = 'NATO, the North Atlantic Treaty Organization, is a powerful military alliance committed to collective defense and crisis management, setting the standards for military intervention and establishing a framework for multinational security efforts.',
+        o.sphere_of_influence = 'International Military and Security'
     ;
 MERGE (o:Organization {uuid: 'org_cnn'})
     ON CREATE SET
         o.name = 'CNN',
-        o.description = 'CNN is a leading global news network known for its up-to-the-minute reporting on domestic and international affairs. In this narrative, CNN plays a pivotal role in disseminating breaking news and shaping public perception, especially during high-stakes political events.',
-        o.sphere_of_influence = 'Global news and media'
+        o.description = 'CNN is a leading global news organization renowned for its rapid coverage of breaking events. Its involvement in the narrative underscores the significant impact of media on shaping political narratives and public perception.',
+        o.sphere_of_influence = 'News and Media'
+    ;
+MERGE (o:Organization {uuid: 'org_serbian_special_police_units'})
+    ON CREATE SET
+        o.name = 'Serbian Special Police Units',
+        o.description = 'The Serbian Special Police Units are a tactical law enforcement entity responsible for securing critical sites and managing high-risk operations. Their exceptional coordination and rapid response capabilities highlight their pivotal role in maintaining regional security in volatile environments.',
+        o.sphere_of_influence = 'Law Enforcement/Regional Security'
     ;
 MERGE (ep:Episode {uuid: 'episode-episode_one_-_fault_lines'})
     ON CREATE SET
@@ -281,8 +284,8 @@ MERGE (ep:Episode {uuid: 'episode-episode_one_-_fault_lines'})
     ;
 MERGE (s:Scene {uuid: 'scene_1'})
     ON CREATE SET
-        s.title = 'Tensions in the Situation Room',
-        s.description = 'In the pre-dawn hush of the White House Situation Room, dim lighting and long shadows cast a somber mood over a room filled with determination and quiet urgency. Multiple LCD screens display satellite images of the Kosovo-Serbia border, underlining the critical nature of the situation unfolding. The room is steeped in a mix of fatigue and steely resolve, with every face marked by the weight of impending decisions. National Security Advisor Nancy McNally has taken charge, her concern evident as she briefs the assembled staff on the mystery of four missing USAID workers. The atmosphere is charged with both anxiety and focus, reflecting the high stakes of operations that blur the lines between diplomacy and crisis management.',
+        s.title = 'Pre-Dawn Crisis in the Situation Room',
+        s.description = 'In the cold, early light of pre-dawn, the White House Situation Room becomes a theater of urgent crisis management. The corridors, still echoing from the footsteps of a strained Josh Lyman, lead us into a room bathed in the soft glow of dim lighting and illuminated by multiple LCD screens that broadcast satellite imagery of the troubled Kosovo-Serbia border region. The air is heavy with apprehension as National Security Advisor Nancy McNally, her voice steady despite the tension, briefs the assembled staff on the mysterious loss of contact with USAID workers. Amid murmurs of paramilitary claims and strategic assessments, the room’s fragile calm shatters with the arrival of President Bartlet and his closest advisors. Every whispered dialogue and pained glance speaks to the weight of decisions yet to be made, as the administration grapples with the precarious balance between duty and moral reckoning.',
         s.scene_number = 1
     
     WITH s
@@ -291,43 +294,36 @@ MERGE (s:Scene {uuid: 'scene_1'})
     ;
 MERGE (e:Event {uuid: 'event_1_1'})
     ON CREATE SET
-        e.title = 'Josh Lyman\'s Entrance',
-        e.description = 'In the early pre-dawn hours, Josh Lyman enters the Situation Room. His tie is noticeably loosened, hinting at the tension already brewing within him. As he steps into the room, the ambient dim lighting and the glowing satellite images set a foreboding tone. His subtle gesture of rubbing the old scar on his chest, a relic of past crises, underscores his personal investment in the unfolding events. His quiet entry sets the stage for a morning that promises critical decisions and the weight of responsibility in the face of national security challenges.',
+        e.title = 'Josh Lyman Arrives in the Situation Room',
+        e.description = 'In the dim pre-dawn light of the Situation Room, Josh Lyman enters with a palpable sense of urgency. His tie is loosened, symbolizing the weariness and tension that has become his unwelcome companion during crises. As he walks through the echoing corridors, every step echoes the heavy responsibility of his role. Upon taking his seat, he unconsciously rubs an old scar on his chest—a subtle, yet profound reminder of past traumas. This moment powerfully sets the emotional tone, hinting at both internal conflict and the impending challenge that lies ahead.',
         e.sequence = 1,
         e.key_dialogue = []
     ;
 MERGE (e:Event {uuid: 'event_1_2'})
     ON CREATE SET
-        e.title = 'Nancy McNally\'s Briefing',
-        e.description = 'National Security Advisor Nancy McNally takes center stage at the head of the room’s long table, her commanding presence tinged with a deep concern. She delivers the grim news that four USAID workers, engaged in post-conflict reconstruction near the Kosovo-Serbia border, have gone dark for three hours. Her clear and authoritative tone is a call to attention, laying bare the crisis that now demands immediate action. The urgency in her voice, coupled with the visual cues of a digital display tracking the region, marks a pivotal moment in the narrative where personal duty intermingles with national security priorities.',
+        e.title = 'Nancy McNally Delivers the Urgent Briefing',
+        e.description = 'At the head of the table, National Security Advisor Nancy McNally seizes command of the moment. With unwavering authority, she informs the weary senior staff that four USAID workers have gone dark near the Kosovo-Serbia border while conducting post-conflict assessments. The gravity of her announcement is underscored by the multidimensional backdrop of satellite imagery blinking on LCD screens, highlighting the volatile region. This event effectively galvanizes the room, transforming routine morning briefings into a high-stakes operation, and leaving no doubt that the crisis at hand demands swift and measured action.',
         e.sequence = 2,
         e.key_dialogue = ["Four USAID workers went dark three hours ago near the Kosovo-Serbia border. They were conducting post-conflict reconstruction assessments when we lost contact."]
     ;
 MERGE (e:Event {uuid: 'event_1_3'})
     ON CREATE SET
-        e.title = 'Donna Reports Paramilitary Claim',
-        e.description = 'Amid the charged atmosphere of urgent briefings, Donna Moss interjects with an update that heightens the stakes. She mentions that a Serbian paramilitary group is taking responsibility for the disappearance on social media and is making what appears to be an explicit demand: the release of three commanders detained at The Hague. Her report layers another dimension of political tension over the room, emphasizing not only the complexity of the situation but also the intertwining of international repercussions with domestic crisis management. Donna’s intervention is a turning point that shifts the understanding of the threat looming over the administration.',
+        e.title = 'Intelligence and Claims: A Dual Update',
+        e.description = 'As the weight of Nancy’s briefing sinks in, additional voices in the room sharpen the picture of the unfolding crisis. Donna Moss steps forward to reveal that Serbian paramilitary groups are actively claiming responsibility on social media for the missing workers, while hinting at demands for the release of key detainees. Simultaneously, Kate Harper provides a crucial intelligence update, suggesting that elements within Serbian security services have covertly supported the paramilitary actions. This exchange of information not only deepens the narrative tension but also underscores the complexity of political and military maneuvers underpinning the crisis, creating a layered web of intrigue and urgency.',
         e.sequence = 3,
-        e.key_dialogue = ["Serbian paramilitary group is claiming responsibility on social media. They're demanding the release of three commanders from The Hague."]
+        e.key_dialogue = ["Serbian paramilitary group is claiming responsibility on social media. They're demanding the release of three commanders from The Hague.", "Our intelligence suggests elements within Serbian security services provided tactical support to the paramilitary group."]
     ;
 MERGE (e:Event {uuid: 'event_1_4'})
     ON CREATE SET
-        e.title = 'Kate Harper\'s Intelligence Update',
-        e.description = 'Kate Harper steps forward, delivering a critical piece of intelligence that further clarifies the layers of culpability. She informs the room that elements within the Serbian security services appear to be providing tactical support to the paramilitary group. This revelation not only deepens the conspiracy but also challenges the credibility of regional allies and enemies alike. Her precise articulation signals a turning of the narrative towards an intricate web of political breeding grounds and military undercurrents. The update builds on the established tension, forcing everyone present to question the integrity and reliability of existing intelligence.',
+        e.title = 'President Bartlet Takes Command',
+        e.description = 'In a decisive and solemn moment, the atmosphere thickens as President Bartlet enters the Situation Room accompanied by Leo McGarry and General Alexander. Their arrival shifts the dynamics instantly, as every face registers respect and alertness. The President’s grim expression and measured tone quash any remnants of routine as he demands a status update on strategic options. This intervention signals a critical turning point; the authority of the Commander-in-Chief reasserts control amid uncertainty and escalating peril. His succinct command underlines the urgency of the situation, setting the stage for high-level decision-making that will define the day’s events.',
         e.sequence = 4,
-        e.key_dialogue = ["Our intelligence suggests elements within Serbian security services provided tactical support to the paramilitary group."]
-    ;
-MERGE (e:Event {uuid: 'event_1_5'})
-    ON CREATE SET
-        e.title = 'President Bartlet\'s Arrival and Inquiry',
-        e.description = 'As the accumulated tension reaches its peak, President Bartlet enters the room accompanied by Leo McGarry and General Alexander. His arrival transforms the atmosphere, demanding immediate respect and attention from every staff member. The solemnity in his expression replaces any hint of his usual wittiness, marking the gravity of the situation. Without delay, he inquires about the available options, directly seeking clarity amid chaos. His question, piercing through the layered updates and analyses, underscores the leadership\'s urgent need to regain control and chart the nation’s course. This moment captures the essence of executive resolve in the face of complex international conflict.',
-        e.sequence = 5,
         e.key_dialogue = ["Where are we on options?"]
     ;
 MERGE (s:Scene {uuid: 'scene_2'})
     ON CREATE SET
-        s.title = 'A Private Vigil in the Vice President\'s Office',
-        s.description = 'In the hushed, pre-dawn darkness of the Vice President\'s Office, only a single desk lamp pierces the gloom, casting long shadows across the room\'s stately furnishings. The atmosphere is thick with unspoken anxiety and personal anguish as Bob Russell sits alone, his gaze locked on a framed photograph. The photograph, illuminated by the lamp\'s soft glow, depicts a younger Russell with a small girl at a Colorado lake house, a poignant reminder of happier times and a stark contrast to the current crisis. The weight of the unfolding hostage situation presses heavily upon him, cracking the carefully constructed facade of the unflappable politician to reveal the raw emotion of a man deeply concerned for someone he loves. This intimate moment underscores the personal stakes of the international crisis, highlighting the human element often obscured by political machinations and national security protocols. The scene serves as a quiet prelude to the high-stakes drama unfolding elsewhere, grounding the global implications of the crisis in the deeply personal.',
+        s.title = 'The Veil of Persona',
+        s.description = 'In the hushed and dimly lit Vice President\'s Office, a single desk lamp casts a fragile glow over Bob Russell, revealing a rare glimpse of vulnerability behind his carefully maintained political mask. Surrounded by shadowy contours of a stately office, Bob is drawn into a private reverie as he gazes at a cherished framed photograph of himself teaching a young Amanda Dalton to fish. This memento of a more sincere past contrasts sharply with the burden of public duty thrust upon him by recent political events. His whispered remark hints at a personal legacy intertwined with national service. The scene serves as a quiet yet pivotal moment, emphasizing the personal cost of leadership and the relentless tug between private sentiment and public responsibility.',
         s.scene_number = 2
     
     WITH s
@@ -336,29 +332,22 @@ MERGE (s:Scene {uuid: 'scene_2'})
     ;
 MERGE (e:Event {uuid: 'event_2_1'})
     ON CREATE SET
-        e.title = 'Russell\'s Pained Revelation',
-        e.description = 'Alone in the dimly lit office, Vice President Russell is consumed by worry, his eyes fixed on the photograph of a young Amanda Dalton. He speaks softly, almost to himself, revealing the personal connection between Amanda\'s dedication to USAID and President Bartlet\'s inspiring rhetoric. Russell\'s words underscore the unintended consequences of political idealism on personal lives, and the profound sense of responsibility he feels for Amanda\'s current peril. The dim light and solitary setting amplify the intimacy of his grief and fear, making it a moment of raw, unguarded vulnerability.',
+        e.title = 'Intimate Reflection',
+        e.description = 'In the soft shadows of his office, Bob Russell loses himself in a moment of introspection. Bathed in the solitary glow of a desk lamp, he studies the framed photograph that captures a tender memory from his past—a time when he taught a young Amanda Dalton to fish, symbolizing familial and inspirational bonds. As the silence of the early morning deepens, Bob’s hushed utterance reveals how personal ties influence his political judgments, inviting the audience to witness the fragile human side behind a hardened public façade.',
         e.sequence = 1,
         e.key_dialogue = ["RUSSELL: She joined USAID because of him, you know."]
     ;
 MERGE (e:Event {uuid: 'event_2_2'})
     ON CREATE SET
-        e.title = 'Margaret\'s Duty Call',
-        e.description = 'The quiet solitude of Russell\'s vigil is broken as Margaret appears in the doorway. She observes the Vice President\'s exposed vulnerability with evident discomfort, her presence a stark reminder of the official world intruding on his private grief. Margaret delivers a formal message, informing him that he is urgently needed in the Situation Room. Her words act as a summons back to duty, compelling Russell to confront the crisis in his official capacity and setting up the conflict between his personal emotions and public responsibilities.',
+        e.title = 'Interruption and Reaffirmation',
+        e.description = 'The quiet intimacy of reflection is abruptly interrupted as Margaret enters the office, her presence a reminder of the relentless demands of duty. Standing in the doorway with an evident air of urgency, she signals that the private moment must yield to the imperatives of statecraft. Bob shifts from a state of vulnerable introspection to the measured authority required of him when he explains that a speech by President Bartlet has summoned him to the Situation Room. As he carefully returns the photograph to its place, his actions symbolize the deliberate reassembly of his public persona, marking the transition from inward sentiment to external responsibility.',
         e.sequence = 2,
-        e.key_dialogue = ["MARGARET: Sir, they're waiting for you in the Situation Room."]
-    ;
-MERGE (e:Event {uuid: 'event_2_3'})
-    ON CREATE SET
-        e.title = 'Russell Regains Composure',
-        e.description = 'Prompted by Margaret\'s interruption and his own internal resolve, Russell continues his thought, now articulating the inspiring ideals behind Bartlet\'s speeches and America\'s humanitarian efforts. As he speaks, he deliberately places the photograph back on his desk, a symbolic gesture of regaining control and compartmentalizing his personal feelings.  He visibly reconstructs his political persona, shedding the raw vulnerability and adopting the composed demeanor of the Vice President, ready to face the unfolding crisis and step into his public role despite the deep personal anxiety he carries.',
-        e.sequence = 3,
-        e.key_dialogue = ["RUSSELL: Because of a speech Bartlet gave. About America's obligation to help rebuild war-torn regions. To prevent the next conflict before it starts."]
+        e.key_dialogue = ["MARGARET: Sir, they're waiting for you in the Situation Room.", "RUSSELL: Because of a speech Bartlet gave. About America's obligation to help rebuild war-torn regions. To prevent the next conflict before it starts."]
     ;
 MERGE (s:Scene {uuid: 'scene_3'})
     ON CREATE SET
-        s.title = 'Diplomatic Tensions in the Mural Room',
-        s.description = 'In the stately ambiance of the Mural Room, the atmosphere is taut with tension and diplomatic gravity. The room, filled with muted light and imposing artwork, serves as an impromptu stage for high-stakes international debate. Here, the Russian Ambassador, Viktor Petrov, stands with unwavering composure, articulating Moscow’s official line with meticulous precision. The room becomes a microcosm of global conflict as President Bartlet challenges Petrov’s narrative with incisive questioning. Subtle cues, such as Bartlet’s jaw clench and tightly clasped hands, signal a hidden storm of resolve behind his calm façade. Nearby, C.J. Cregg receives a disturbing news alert on her BlackBerry, portending the media tempest to come, further amplifying the urgency and high drama of the moment.',
+        s.title = 'Diplomacy Under Pressure',
+        s.description = 'In the stately Mural Room of the West Wing, the atmosphere is charged with a tense mix of authority and apprehension. The room’s high ceilings and austere decor frame a scene where every word carries weight. Dim ambient light and subtle art on the walls contribute to an air of meticulously controlled order, even as the crisis unfolds. Here, the Russian Ambassador, Viktor Petrov, stands with impeccable manners, delivering Moscow\'s measured yet defiant position. As President Bartlet interjects with piercing skepticism, the tension intensifies. Meanwhile, the urgent buzz of C.J.\'s BlackBerry presages the impending media storm, symbolizing the collision of political maneuvering with rapidly evolving external pressures. This moment underscores the delicate balance between national security, diplomatic posture, and the human cost of political decisions.',
         s.scene_number = 3
     
     WITH s
@@ -367,29 +356,29 @@ MERGE (s:Scene {uuid: 'scene_3'})
     ;
 MERGE (e:Event {uuid: 'event_3_1'})
     ON CREATE SET
-        e.title = 'Ambassador\'s Diplomatic Declaration',
-        e.description = 'In the Mural Room, the Russian Ambassador, Viktor Petrov, takes center stage with the poise and precision of a seasoned diplomat. With his posture perfected for the moment, he delivers Moscow’s position, arguing that the kidnapping of American aid workers is an internal Serbian law enforcement issue. The language is measured yet firm, designed to convince while deflecting international intervention. This moment underscores the stark differences in geopolitical perspectives and sets the stage for a sharp debate. The symbolic weight of his words feeds into the broader theme of national sovereignty and the complexities of international diplomacy.',
+        e.title = 'Ambassador’s Assertive Declaration',
+        e.description = 'Viktor Petrov, the Russian Ambassador, takes center stage with poised authority. Standing in the Mural Room, he delivers a carefully worded statement that minimizes NATO’s involvement by framing the crisis as an internal Serbian law enforcement matter. His diplomatic posture and refined articulation underline Moscow’s stance, setting a provocative tone. This declaration is charged with tension, as it not only defines Moscow’s position but also challenges the foundations of international intervention, making it a pivotal moment in the unfolding crisis.',
         e.sequence = 1,
         e.key_dialogue = ["This is, as we see it, an internal Serbian law enforcement matter. Any NATO intervention would constitute a serious violation of sovereign territory."]
     ;
 MERGE (e:Event {uuid: 'event_3_2'})
     ON CREATE SET
-        e.title = 'President Bartlet’s Sharp Rebuttal',
-        e.description = 'Following the Ambassador’s calculated declaration, President Bartlet steps forward with a measured yet assertive retort that cuts to the heart of the matter. He challenges the logic behind dismissing the abduction of American aid workers as merely a domestic issue. His question is both a probe into the credibility of the opposing view and a subtle assertion of American resolve. This exchange not only highlights the internal conflict between diplomatic language and real-world consequences but also reveals layers of personal and political stakes. The tension in Bartlet’s delivery, marked by a clenched jaw and tightly clasped hands, signals a brewing storm of discontent beneath his calm exterior.',
+        e.title = 'President Bartlet’s Confrontational Inquiry',
+        e.description = 'In the wake of the Ambassador’s poised declaration, President Bartlet steps forward with a forceful query that slices through the diplomatic veneer. His challenge questions how the kidnapping of American aid workers can be dismissed as a domestic issue. This moment is critical as it forces a confrontation between diplomatic rhetoric and the moral and national imperatives of leadership. Bartlet’s inquiry not only heightens the tension in the room but also signals a rejection of simplistic narratives in the face of complex, life-and-death decisions.',
         e.sequence = 2,
         e.key_dialogue = ["Mr. Ambassador, would you care to explain how the kidnapping of American aid workers constitutes an internal matter?"]
     ;
 MERGE (e:Event {uuid: 'event_3_3'})
     ON CREATE SET
-        e.title = 'C.J.\'s Stark News Alert',
-        e.description = 'Amid the high-stakes diplomatic exchange, C.J. Cregg experiences a sudden moment of disruption as her BlackBerry buzzes with urgent news. In a brief, private moment behind the scenes, she closes her eyes, steeling herself against the rapidly approaching media storm. The alert confirms that CNN is broadcasting Amanda Dalton\'s identity, an explosive detail that carries vast implications for both the political narrative and the personal stakes intertwined with the unfolding crisis. This event punctuates the dialogue with a reminder of how personal tragedies and public scrutiny intertwine, adding an edge of immediacy and foreboding to the ongoing discussions.',
+        e.title = 'C.J.’s Alert Amid Rising Tension',
+        e.description = 'As the heated exchange continues, the reality of the evolving crisis intrudes into the room through technology. C.J. Cregg experiences a brief yet significant moment of hesitation as her BlackBerry buzzes, signaling the circulation of breaking news. The message is immediately understood to be consequential when she informs the room that CNN is reporting Amanda Dalton’s identity. This interruption adds an urgent media dimension to the crisis, shifting the focus from theoretical debate to a stark, personal stake in the unfolding events.',
         e.sequence = 3,
         e.key_dialogue = ["Sir, CNN is running with Amanda Dalton's identity."]
     ;
 MERGE (s:Scene {uuid: 'scene_4'})
     ON CREATE SET
-        s.title = 'The Weight of Words in the Steam Pipe Trunk',
-        s.description = 'In the cramped, windowless office known as the Steam Pipe Trunk Distribution Venue, the air is thick with the residue of a long night\'s work. Crumpled papers litter the desk and floor, monuments to discarded ideas, while empty coffee cups stand as testaments to relentless effort.  The only light emanates from Sam Seaborn\'s laptop, its screen casting a pale glow on his face, illuminating the dual nature of his task: crafting speeches for both triumph and disaster. The atmosphere is intensely focused, bordering on frantic, reflecting the high stakes of the unfolding hostage crisis.  Toby Ziegler enters the room, his presence a mixture of concern and quiet support, observing Sam wrestling with the profound challenge of finding the right words to articulate the gravity of the situation and the nation\'s response. This scene underscores the intellectual and emotional labor behind the political drama, highlighting the crucial role of language in shaping national narratives during moments of crisis and moral reckoning.',
+        s.title = 'Drafts of Tragedy and Restraint',
+        s.description = 'In the cramped, windowless confines of the Steam Pipe Trunk Distribution Venue, the early morning gloom is pierced only by the eerie glow of a laptop screen displaying two conflicting drafts—one celebrating victory, the other lamenting tragedy. Crumpled papers and empty coffee cups scatter the space, evidence of long hours spent wrestling with the burdens of political speech and poetic truth. The atmosphere is charged with introspection and urgency as Sam Seaborn, visibly disheveled and lost in thought, grapples with the weight of recent events. Toby Ziegler stands in the doorway, a silent witness to the internal battle unfolding—a struggle to reconcile the harsh realities of political violence with the aspiration to remain principled \'good guys\'. This scene acts as a microcosm of the larger narrative, highlighting the tension between poetic expression and the brutal demands of geopolitics.',
         s.scene_number = 4
     
     WITH s
@@ -398,29 +387,22 @@ MERGE (s:Scene {uuid: 'scene_4'})
     ;
 MERGE (e:Event {uuid: 'event_4_1'})
     ON CREATE SET
-        e.title = 'Sam Grapples with the Language of Tragedy',
-        e.description = 'Sam Seaborn sits hunched over his laptop in the disheveled office, a landscape of creative struggle surrounding him. He articulates the core challenge of his task: to transform the brutal reality of political violence into something akin to poetry for a presidential address. He is wrestling with the immense weight of expectation, searching for words that can capture the gravity of the hostage situation and resonate with the nation\'s emotions. The visual of the two distinct documents on his screen—victory and tragedy—emphasizes the precarious balance and the unknown outcome of the crisis, highlighting the difficult task of preparing for both extremes.',
+        e.title = 'Defining Tragedy in the Midst of Crisis',
+        e.description = 'In this event, Sam Seaborn breaks the silence with a reflective musing on the inherent demands of tragedy, questioning how one can transform the harshness of political violence into poetic language. His words set the stage for a deeper exploration of the role of art in moments of despair. Toby Ziegler responds with a calming reminder that restraint can itself be a form of poetry, underscoring the need to remain principled. This exchange highlights the duo\'s struggle to capture a balance between emotional expression and the hard realities of their world, drawing the audience into the moral dilemmas faced on the front lines of political discourse.',
         e.sequence = 1,
-        e.key_dialogue = ["SAM: The thing about tragedy is that it demands poetry. But how do you make poetry out of political violence?"]
+        e.key_dialogue = ["SAM: The thing about tragedy is that it demands poetry. But how do you make poetry out of political violence?", "TOBY: Sometimes poetry is in the restraint. We need to remind people why we send aid workers into dangerous places. Why we try to rebuild what others have destroyed."]
     ;
 MERGE (e:Event {uuid: 'event_4_2'})
     ON CREATE SET
-        e.title = 'Toby Offers Counsel on Poetic Restraint',
-        e.description = 'Toby Ziegler, standing in the doorway, observes Sam\'s intense struggle with a seasoned and empathetic eye. He responds to Sam\'s question by suggesting that true poetry in such dire circumstances lies not in elaborate prose, but in restraint and in reaffirming core values. Toby guides Sam back to the fundamental purpose of their work: to articulate the nation\'s commitment to humanitarian ideals, reminding him of the importance of conveying why they undertake risky endeavors to help others and rebuild broken places. His advice serves as a crucial course correction, steering Sam away from potential grandiosity and towards a more grounded, meaningful approach.',
+        e.title = 'Confronting the Cost of Goodness',
+        e.description = 'The conversation deepens as Sam reflects on a past moment of crisis following the Rosslyn incident, confessing that the memory still haunts him as a reminder of their duty. His admission illuminates the personal toll of maintaining moral integrity in a world rife with compromise. Toby’s measured response reaffirms their collective identity as those who strive to be \'the good guys\', though not without significant hardship. This event encapsulates the emotional vulnerability beneath their professional facades, emphasizing the enduring conflict between idealism and the pragmatic demands of leadership.',
         e.sequence = 2,
-        e.key_dialogue = ["TOBY: Sometimes poetry is in the restraint. We need to remind people why we send aid workers into dangerous places. Why we try to rebuild what others have destroyed."]
-    ;
-MERGE (e:Event {uuid: 'event_4_3'})
-    ON CREATE SET
-        e.title = 'Shared Reflection on Moral Identity',
-        e.description = 'Sam, visibly absorbing Toby\'s words, runs a hand through his already messy hair, a gesture that underscores his mental and emotional exhaustion.  He reveals the deeper source of his struggle, referencing a past crisis—the Rosslyn shooting—and the subsequent conversation about being \'the good guys\'. This connects the current crisis to a recurring theme within the West Wing: their commitment to moral principles in the face of political realities. Toby\'s simple, firm affirmation, \'We still are,\' serves as a powerful reassurance, grounding Sam in their shared ethical foundation and reinforcing their purpose amidst the chaos and pressure.',
-        e.sequence = 3,
         e.key_dialogue = ["SAM: I keep thinking about what you said after Rosslyn. About how we're supposed to be the good guys.", "TOBY: We still are. That's why this is hard."]
     ;
 MERGE (s:Scene {uuid: 'scene_5'})
     ON CREATE SET
-        s.title = 'Oval Office Crisis Resolution',
-        s.description = 'In the tense, rain-soaked pre-dawn ambiance of the Oval Office, senior staff gather amid remnants of a long, exhausting night. The room, illuminated by the diffused natural light seeping through rain-streaked windows, is crowded with weary but focused officials. The atmosphere is charged with a palpable mix of relief and lingering anxiety as Kate Harper bursts in with urgent news. The drama unfolds in a space marked by iconic decor, including the revered Resolute Desk behind which President Bartlet silently monitors the unfolding crisis. The scene not only captures the immediate relief of a hostage situation secured but also deep introspection from Josh Lyman about the ethics of national power. Every conversation and gesture is weighed down by the responsibility of leadership and the subtle fears that even success might be morally ambiguous.',
+        s.title = 'Crisis Unfolds in the Oval Office',
+        s.description = 'In the heart of the Oval Office, rain streaks down the windows as tension mingles with relief. The room, filled with senior staff still reeling from the relentless pace of the night, becomes a crucible for raw emotion and political resolve. Kate Harper’s abrupt entrance brings urgent news about the safe retrieval of hostages, momentarily dispelling the collective anxiety. Yet, as relief floods the room, Josh Lyman remains by a rain-spattered window, troubled by the cost of their success. Behind his steady exterior, doubts and reflections on the nature of power and sacrifice come to light. President Bartlet, standing resolutely behind the Resolute Desk, signals the next command to expose the chain of decisions that led to this near-crisis. This scene encapsulates a turning point where personal introspection collides with the stark demands of political leadership, setting the stage for accountability in the aftermath of a narrowly averted disaster.',
         s.scene_number = 5
     
     WITH s
@@ -429,22 +411,22 @@ MERGE (s:Scene {uuid: 'scene_5'})
     ;
 MERGE (e:Event {uuid: 'event_5_1'})
     ON CREATE SET
-        e.title = 'Kate Harper\'s Urgent Announcement',
-        e.description = 'In the midst of a heavy strategy session filled with the palpable weight of a long, grueling night, Kate Harper makes a dramatic entrance into the Oval Office. She bursts in with news that the Serbian special police units have secured the compound, ensuring the safety of all hostages. This declaration floods the room with sudden relief, temporarily dissolving the tension that had been building up. Her announcement serves as a critical turning point in the crisis, providing a momentary reprieve and shifting the focus of the gathered senior staff from despair to cautious optimism.',
+        e.title = 'News of Hostage Safety',
+        e.description = 'Kate Harper bursts into the Oval Office, cutting through the heavy atmosphere with a crisp announcement that the Serbian special police units have secured the compound, and that all hostages are safe. Her delivery interrupts the tension in the room, triggering a momentary relief among the senior staff. This sudden communication reorients everyone\'s focus on the crisis at hand, marking a pivotal moment that shifts the narrative from impending doom to cautious optimism. The message underscores the fragile balance between security and vulnerability in the midst of high political stakes.',
         e.sequence = 1,
         e.key_dialogue = ["KATE: Serbian special police units have secured the compound. All hostages are safe."]
     ;
 MERGE (e:Event {uuid: 'event_5_2'})
     ON CREATE SET
-        e.title = 'Josh Lyman\'s Introspective Reflection',
-        e.description = 'As the euphoria of the safe hostage news begins to permeate the room, Josh Lyman stands apart by the window, his mind troubled by the ethical complexities of their success. In quiet, sombre dialogue with Donna Moss, Josh reflects on the harrowing moments when hope had nearly flickered out, pondering how narrowly a nation can dance with the temptation to forsake its principles for the sake of victory. His introspection reveals deep-seated fears about the moral costs inherent in political and military operations. This reflective conversation underlines the personal stakes for the characters involved, highlighting the inner conflict between achieving success and the potential for moral compromise.',
+        e.title = 'Introspective Reflections by the Window',
+        e.description = 'Amid the easing of palpable tension throughout the room, Josh Lyman stands apart by the window, his gaze fixed on the relentless rain. In a vulnerable monologue, he confesses that for those agonizing twenty minutes when they feared a total loss, he understood the grim rationale behind nations resorting to war, sacrificing principles for revenge. Donna Moss, moving quietly to his side, offers a counterpoint that while the outcome was dire, it was not a complete failure. This exchange deepens the emotional complexity of the scene, revealing the personal toll of decision-making under crisis, and setting the stage for a broader exploration of ethical ambiguity in political strategy.',
         e.sequence = 2,
         e.key_dialogue = ["JOSH: For about twenty minutes there, when we thought we'd lost them... I understood why nations go to war. Why they abandon principles for revenge.", "DONNA: But we didn't.", "JOSH: That's what scares me. Not that we might have failed, but that we might have succeeded in the wrong way."]
     ;
 MERGE (e:Event {uuid: 'event_5_3'})
     ON CREATE SET
-        e.title = 'President Bartlet\'s Command for Accountability',
-        e.description = 'In the wake of the high-stakes news and introspective dialogue, the focus shifts to President Bartlet, who watches his staff from behind the stately Resolute Desk. His measured yet determined tone underscores a critical demand for transparency and accountability. He instructs Charlie Young to contact President Kovach and mobilize bipartisan leadership, emphasizing that the American public must be informed about how perilously close the nation had come to the brink of disaster and who had driven the situation. This decisive moment encapsulates the themes of responsibility and leadership, reinforcing the moral and political gravity that permeates the Oval Office.',
+        e.title = 'Presidential Command for Accountability',
+        e.description = 'As the atmosphere begins to shift from personal reckoning to urgent strategy, President Bartlet steps forward with a decisive air. Standing behind the iconic Resolute Desk, his demeanor betrays a steely resolve despite the lingering tension. In a commanding tone, he instructs Charlie Young to contact President Kovach and summon bipartisan leadership, emphasizing the need for transparency with the American people. This directive underscores a critical turning point in the narrative as it transitions from internal doubt to external accountability, highlighting the cost of crisis management and the fine line between success and compromising core principles.',
         e.sequence = 3,
         e.key_dialogue = ["PRESIDENT BARTLET: Charlie, get me President Kovach. And then the leadership of both parties. The American people deserve to know how close we came to the brink today - and who pushed us there."]
     ;
@@ -454,16 +436,10 @@ MATCH (a:Agent {uuid: 'agent_amanda_dalton'}),
 MATCH (o:Object {uuid: 'object_framed_photograph'}),
           (a:Agent {uuid: 'agent_bob_russell'})
     MERGE (a)-[:OWNS]->(o);
-MATCH (o:Object {uuid: 'object_desk_lamp'}),
-          (a:Agent {uuid: 'agent_bob_russell'})
+MATCH (o:Object {uuid: 'object_blackberry'}),
+          (a:Agent {uuid: 'agent_cj_cregg'})
     MERGE (a)-[:OWNS]->(o);
-MATCH (o:Object {uuid: 'object_crumpled_paper'}),
-          (a:Agent {uuid: 'agent_sam_seaborn'})
-    MERGE (a)-[:OWNS]->(o);
-MATCH (o:Object {uuid: 'object_empty_coffee_cups'}),
-          (a:Agent {uuid: 'agent_sam_seaborn'})
-    MERGE (a)-[:OWNS]->(o);
-MATCH (o:Object {uuid: 'object_laptop_screen'}),
+MATCH (o:Object {uuid: 'object_laptop_with_dual_documents'}),
           (a:Agent {uuid: 'agent_sam_seaborn'})
     MERGE (a)-[:OWNS]->(o);
 MATCH (a:Agent {uuid: 'agent_amanda_dalton'}),
@@ -471,9 +447,9 @@ MATCH (a:Agent {uuid: 'agent_amanda_dalton'}),
     MERGE (a)-[:AFFILIATED_WITH]->(o);
 MERGE (oi:ObjectInvolvement {uuid: 'objectinvolvement_object_lcd_screens_event_1_2'})
     ON CREATE SET
-        oi.description = 'The LCD screens continuously display real-time satellite imagery of the Kosovo-Serbia border, serving as a critical visual aid to underscore the urgency of the crisis Nancy details.',
-        oi.status_before = 'Operating normally, the screens were already providing sharp, up-to-date images of the conflict zone.',
-        oi.status_after = 'They continue to function as an unyielding source of visual information, their display now imbued with the stark reality of the emerging crisis.'
+        oi.description = 'The LCD screens serve as the pivotal visual conduit in the Situation Room, broadcasting live satellite imagery of the Kosovo-Serbia border region. Their steady digital pulse offers real-time intelligence that intensifies the briefing, making abstract data tangible and pivotal for assessing the rapidly evolving crisis. By providing constant updates, they act as both a literal and metaphorical focal point for the discussion, influencing decision-making and underscoring the urgency of every directive.',
+        oi.status_before = 'Before the briefing, the LCD screens were pre-set with crucial satellite feeds that offered a baseline for monitoring the tense geopolitical situation, operating reliably and silently in the subdued pre-dawn light.',
+        oi.status_after = 'After the event, the screens continue to display dynamic, updated imagery; they have transitioned from passive information sources to active, central elements that mirror the heightened stakes and inform the ongoing strategic deliberations in the Situation Room.'
     WITH oi
     MATCH (o:Object {uuid: 'object_lcd_screens'})
     MATCH (e:Event {uuid: 'event_1_2'})
@@ -481,193 +457,119 @@ MERGE (oi:ObjectInvolvement {uuid: 'objectinvolvement_object_lcd_screens_event_1
     MERGE (oi)-[:IN_EVENT]->(e);
 MERGE (ap:AgentParticipation {uuid: 'agentparticipation_agent_josh_lyman_event_1_1'})
     ON CREATE SET
-        ap.current_status = 'Josh Lyman enters the dimly lit Situation Room, already showing signs of the early morning tension with his loosened tie. He unconsciously rubs the scar on his chest, a physical manifestation of past traumas resurfacing under pressure, and then takes his seat at the table, ready to engage with the unfolding crisis.',
-        ap.emotional_state = 'Josh is feeling the familiar weight of a developing crisis, indicated by his physical gesture of rubbing his scar – a habit formed after the Rosslyn shooting. He is likely anxious and focused, mentally preparing for the difficult decisions and high stakes discussions that are about to unfold.',
-        ap.emotional_tags = ["Josh is feeling the familiar weight of a developing crisis, indicated by his physical gesture of rubbing his scar \u2013 a habit formed after the Rosslyn shooting. He is likely anxious", "focused, mentally preparing for the difficult decisions", "high stakes discussions that are about to unfold."],
-        ap.active_plans = ["To quickly assess the situation regarding the missing USAID workers.", "To understand the Serbian paramilitary group's demands and the implications of their actions.", "To contribute his strategic expertise to formulate an effective response."],
-        ap.beliefs = ["Preparedness is crucial in managing national security crises.", "Past experiences deeply inform present actions and reactions.", "Personal investment and emotional awareness are integral to effective crisis management."],
-        ap.goals = ["To ensure the safe return of the USAID workers.", "To contribute to a swift and decisive resolution of the crisis.", "To navigate the situation with the wisdom gained from past experiences, avoiding past mistakes."]
+        ap.current_status = 'Josh Lyman strides into the Situation Room in the pre-dawn gloom, his tie loosened and his shoulders slightly slumped under the weight of past crises. He quickly takes his seat, each step echoing his urgency, and his hand unconsciously brushes over an old scar on his chest—a silent testament to the lasting impact of his traumas.',
+        ap.emotional_state = 'Outwardly, Josh presents a determined focus mingled with weariness, a calm resolve amid the tension that fills the room. Beneath his composed exterior, he is wrestling with unresolved pain and vivid memories of previous crises; his internal conflict between caution and preparedness marks a deep-seated vulnerability. His measured actions betray an inner anxiety and the burden of responsibility, a quiet storm of apprehension and resolve that drives each deliberate movement.',
+        ap.emotional_tags = ["Outwardly, Josh presents a determined focus mingled with weariness, a calm resolve amid the tension that fills the room. Beneath his composed exterior, he is wrestling with unresolved pain", "vivid memories of previous crises; his internal conflict between caution", "preparedness marks a deep-seated vulnerability. His measured actions betray an inner anxiety", "the burden of responsibility, a quiet storm of apprehension", "resolve that drives each deliberate movement."],
+        ap.active_plans = ["Quickly assess the unfolding crisis through available intelligence and observable cues.", "Coordinate seamlessly with senior staff to align immediate responses with long-term strategies.", "Internalize past traumatic experiences to fuel a sharp focus on preventing further losses."],
+        ap.beliefs = ["A steadfast commitment to duty under even the most extreme pressures.", "The conviction that personal experiences, however painful, bolster a more empathetic and effective response.", "The belief that transparency and decisive action are essential to uphold national security and trust."],
+        ap.goals = ["Short-term: Stabilize his immediate environment in the Situation Room by reestablishing order and focus.", "Medium-term: Ensure clear communication channels among the senior staff to manage the deteriorating situation effectively.", "Ultimate: Protect the integrity of national security while reconciling his past traumas to foster a resilient, responsive leadership culture."]
     ;
 MERGE (ap:AgentParticipation {uuid: 'agentparticipation_agent_nancy_mcnally_event_1_2'})
     ON CREATE SET
-        ap.current_status = 'Standing at the head of the long table, Nancy McNally commands the room with a focused presence as she delivers the grim briefing on the lost USAID workers.',
-        ap.emotional_state = 'Deeply concerned yet resolute, her calm authority masks an underlying urgency and determination.',
-        ap.emotional_tags = ["Deeply concerned yet resolute, her calm authority masks an underlying urgency", "determination."],
-        ap.active_plans = ["Communicate the critical details of the crisis to ensure coordinated action", "Set the agenda for immediate strategic response to secure the situation"],
-        ap.beliefs = ["Clear, direct communication is essential during national security emergencies", "Immediate, informed decision-making will safeguard American interests"],
-        ap.goals = ["Ensure all senior staff understand the gravity of the situation", "Prompt the activation of appropriate crisis response measures"]
+        ap.current_status = 'Nancy stands at the head of the table in the Situation Room, her posture firm and commanding despite the early hour. She raises her voice with precision, her hands gesturing confidently toward the satellite imagery displayed on the screens, making sure every member of the senior staff is fully engaged.',
+        ap.emotional_state = 'Nancy projects a cool, authoritative calm on the surface, her tone controlled and deliberate. Yet beneath that unwavering exterior, there is a palpable undercurrent of worry and determination; her mind races with the implications of the missing USAID workers, and each measured word carries the weight of deep internal anxiety and unspoken commitment to averting further disaster.',
+        ap.emotional_tags = ["Nancy projects a cool, authoritative calm on the surface, her tone controlled", "deliberate. Yet beneath that unwavering exterior, there is a palpable undercurrent of worry", "determination; her mind races with the implications of the missing USAID workers,", "each measured word carries the weight of deep internal anxiety", "unspoken commitment to averting further disaster."],
+        ap.active_plans = ["Clarify the details of the disrupted USAID mission immediately.", "Coordinate with intelligence and military teams to verify satellite data and ground reports.", "Steer the briefing towards concrete tactical decisions while managing the room's heightened tensions."],
+        ap.beliefs = ["Reliable intelligence is the cornerstone of national security.", "Decisive leadership during crises prevents escalation.", "Transparency and accountability are essential in communication with both staff and the public."],
+        ap.goals = ["Short-term: Secure immediate and accurate situational awareness to stabilize the crisis.", "Medium-term: Orchestrate a coordinated response among key departments to counter emerging threats.", "Ultimate: Uphold national security and safeguard lives by ensuring every decision is informed and measured."]
     ;
 MERGE (ap:AgentParticipation {uuid: 'agentparticipation_agent_donna_moss_event_1_3'})
     ON CREATE SET
-        ap.current_status = 'Donna stands in the Situation Room, delivering a critical update to the assembled senior staff and President Bartlet. She reports that a Serbian paramilitary group has claimed responsibility for the disappearance of the USAID workers on social media and is demanding the release of three commanders from The Hague.',
-        ap.emotional_state = 'Focused and serious, Donna understands the gravity of the information she is delivering. She is likely feeling the tension in the room and is aware that her update significantly raises the stakes of the situation.',
-        ap.emotional_tags = ["Focused", "serious, Donna underst", "s the gravity of the information she is delivering. She is likely feeling the tension in the room", "is aware that her update significantly raises the stakes of the situation."],
-        ap.active_plans = ["To clearly and concisely communicate the paramilitary group's claim and demands.", "To ensure the President and senior staff are fully informed of this new development so they can make informed decisions."],
-        ap.beliefs = ["Accurate and timely information is crucial in crisis situations.", "The safety of the USAID workers is paramount.", "Understanding the motives and demands of the paramilitary group is essential for effective response."],
-        ap.goals = ["To contribute to a comprehensive understanding of the unfolding crisis.", "To support the team in formulating an effective strategy to address the paramilitary threat and secure the release of the aid workers."]
+        ap.current_status = 'Donna Moss stands near the briefing table with purposeful strides in the dim light of the Situation Room. Her body language is measured yet assertive, as she steps forward to deliver critical intelligence. Her eyes scan the room with a practiced vigilance while her gestures punctuate the urgency of her report.',
+        ap.emotional_state = 'Donna presents a calm exterior, marked by a professional composure even as the weight of the crisis tugs at her inner resolve. Beneath this controlled demeanor lies a blend of concern and determination, as she battles the tension of imminent political fallout while internally committing to the clarity and accuracy of her message.',
+        ap.emotional_tags = ["Donna presents a calm exterior, marked by a professional composure even as the weight of the crisis tugs at her inner resolve. Beneath this controlled demeanor lies a blend of concern", "determination, as she battles the tension of imminent political fallout while internally committing to the clarity", "accuracy of her message."],
+        ap.active_plans = ["Confirm and validate the social media claims regarding the Serbian paramilitary group.", "Coordinate with intelligence units to gather additional corroborating evidence.", "Ensure that the chain of command is promptly informed to strategize an immediate response."],
+        ap.beliefs = ["Truth and transparency in intelligence are paramount in crisis management.", "Immediate and accurate communication can prevent further escalation.", "Every piece of verified information is a stepping stone to effective decision-making."],
+        ap.goals = ["Short-term: Relay timely and verified intelligence to the team.", "Medium-term: Facilitate coordinated strategic decisions to address the crisis.", "Ultimate: Uphold national security while maintaining public trust in government actions."]
     ;
-MERGE (ap:AgentParticipation {uuid: 'agentparticipation_agent_kate_harper_event_1_4'})
+MERGE (ap:AgentParticipation {uuid: 'agentparticipation_agent_kate_harper_event_1_3'})
     ON CREATE SET
-        ap.current_status = 'Kate Harper steps forward confidently, her posture straight and her voice clear as she delivers the crucial intelligence update to the room.',
-        ap.emotional_state = 'Calm and resolute, she exudes an air of precision and determination despite the mounting tension in the Situation Room.',
-        ap.emotional_tags = ["Calm", "resolute, she exudes an air of precision", "determination despite the mounting tension in the Situation Room."],
-        ap.active_plans = ["Communicate the layered intelligence regarding Serbian security services to refocus the strategic response.", "Clarify the implications of the new information to ensure that decision-makers understand the depth of the conspiracy."],
-        ap.beliefs = ["Accurate and timely intelligence is essential for effective crisis management.", "Transparency in delivering critical updates builds trust and allows for more informed decision-making."],
-        ap.goals = ["Ensure that the room understands the full scope of Serbian involvement.", "Shift the narrative toward addressing internal inconsistencies in regional security alliances."]
+        ap.current_status = 'Kate Harper stands at the edge of the Situation Room’s intelligence hub, her posture rigid with focus. Dressed in refined professional attire, she speaks succinctly and firmly as she provides her analytic update. Her constant monitoring of data streams and satellite imagery underscores her role as the voice of precision and clarity in a room thick with tension.',
+        ap.emotional_state = 'Kate maintains an outward calm and steely composure, every gesture measured and deliberate. Internally, however, she wrestles with the significance of her findings, feeling a quiet apprehension about the deeper connections suggested by the intelligence. Despite this, her determination to uncover the truth and support decisive action remains unwavering.',
+        ap.emotional_tags = ["Kate maintains an outward calm", "steely composure, every gesture measured", "deliberate. Internally, however, she wrestles with the significance of her findings, feeling a quiet apprehension about the deeper connections suggested by the intelligence. Despite this, her determination to uncover the truth", "support decisive action remains unwavering."],
+        ap.active_plans = ["Analyze and verify the technical data linking Serbian security support to the paramilitary operations.", "Integrate fresh intelligence into the ongoing briefing for real-time decision-making.", "Maintain a clear and measured communication channel to ensure accuracy in information dissemination."],
+        ap.beliefs = ["Objective, evidence-based intelligence is crucial for sound decision-making.", "Clarity and precision in reporting are essential in painting an accurate picture of complex situations.", "Every analytical insight contributes significantly to national security."],
+        ap.goals = ["Short-term: Deliver a precise, data-driven update on the intelligence status.", "Medium-term: Enable executive leadership to strategize effectively based on verified intelligence.", "Ultimate: Ensure national security is maintained through the diligent and accurate interpretation of critical data."]
     ;
-MERGE (ap:AgentParticipation {uuid: 'agentparticipation_agent_president_bartlet_event_1_5'})
+MERGE (ap:AgentParticipation {uuid: 'agentparticipation_agent_bartlet_event_1_4'})
     ON CREATE SET
-        ap.current_status = 'President Bartlet enters the Situation Room with a commanding presence, immediately drawing the attention of everyone present. He stands tall, his posture conveying authority and focus as he steps into the room already filled with tension. His arrival stills the room into respectful silence, all eyes turning towards him expectantly.',
-        ap.emotional_state = 'His expression is grim and devoid of his usual warmth or intellectual amusement.  The weight of the crisis is palpable on his face, indicating a deep seriousness and concern for the unfolding events. There\'s an undercurrent of controlled urgency in his demeanor.',
-        ap.emotional_tags = ["His expression is grim", "devoid of his usual warmth or intellectual amusement.  The weight of the crisis is palpable on his face, indicating a deep seriousness", "concern for the unfolding events. There's an undercurrent of controlled urgency in his demeanor."],
-        ap.active_plans = ["To quickly assess the situation and understand the available options for resolving the hostage crisis.", "To take decisive command of the situation, guiding his staff toward a resolution.", "To project presidential authority and instill confidence in his team during this critical moment."],
-        ap.beliefs = ["As President, he bears the ultimate responsibility for the safety of American citizens and the nation's response to international crises.", "Effective leadership requires immediate and informed action, especially in high-stakes situations.", "Maintaining control and clarity is paramount to navigating complex and dangerous scenarios."],
-        ap.goals = ["To gain a clear understanding of the current status and the options being considered.", "To ensure a coordinated and effective response to the hostage situation.", "To reassure his staff and project an image of presidential resolve."]
+        ap.current_status = 'President Bartlet strides into the Situation Room with deliberate steps, his back straight and his face set in a grim, resolute expression. His measured pace and firm gaze sweep the room as he asserts his authority, signaling that every second counts in this high-stakes crisis.',
+        ap.emotional_state = 'Bartlet’s external calm masks the internal storm of responsibility and unease that churns within him. His tense posture and controlled tone betray a deep concern for the unfolding events, while a quiet determination fuels his need to restore order, even as personal doubts and the burden of past failures subtly gnaw at him beneath the surface.',
+        ap.emotional_tags = ["Bartlet\u2019s external calm masks the internal storm of responsibility", "unease that churns within him. His tense posture", "controlled tone betray a deep concern for the unfolding events, while a quiet determination fuels his need to restore order, even as personal doubts", "the burden of past failures subtly gnaw at him beneath the surface."],
+        ap.active_plans = ["Demand an immediate, comprehensive update on strategic options.", "Reassert executive control over the crisis management process.", "Set in motion a coordinated response among senior advisors and military leaders."],
+        ap.beliefs = ["Decisive leadership is essential in moments of national peril.", "Every executive decision must be grounded in both ethical duty and strategic necessity.", "Maintaining public trust requires unwavering commitment even under intense pressure."],
+        ap.goals = ["Short-term: Secure immediate situational awareness and response options.", "Medium-term: Strengthen command cohesion and operational efficiency in the Situation Room.", "Ultimate: Safeguard national security while upholding the integrity of the nation\u2019s values."]
     ;
-MERGE (ap:AgentParticipation {uuid: 'agentparticipation_agent_leo_mcgarry_event_1_5'})
+MERGE (ap:AgentParticipation {uuid: 'agentparticipation_agent_leo_mcgarry_event_1_4'})
     ON CREATE SET
-        ap.current_status = 'Leo McGarry enters the Situation Room alongside President Bartlet, his presence a steady anchor in the escalating crisis. He positions himself near the President, acting as a close advisor and confidant. His posture is alert and attentive, ready to support the President in any capacity needed.',
-        ap.emotional_state = 'Leo\'s demeanor is serious and focused, reflecting the gravity of the situation. He carries a calm intensity, his expression conveying both concern and seasoned resolve. He is emotionally attuned to the President\'s state of mind, prepared to offer counsel and support.',
-        ap.emotional_tags = ["Leo's demeanor is serious", "focused, reflecting the gravity of the situation. He carries a calm intensity, his expression conveying both concern", "seasoned resolve. He is emotionally attuned to the President's state of mind, prepared to offer counsel", "support."],
-        ap.active_plans = ["To provide strategic counsel to President Bartlet as the situation unfolds.", "To observe the dynamics of the room and ensure the staff is effectively supporting the President.", "To act as a sounding board and trusted advisor, offering his experience and insights to guide decision-making."],
-        ap.beliefs = ["Loyalty and unwavering support for the President are crucial, especially in times of crisis.", "Experienced counsel and strategic thinking are essential for navigating complex international challenges.", "Maintaining a calm and steady presence helps to stabilize tense situations and facilitate effective leadership."],
-        ap.goals = ["To assist President Bartlet in making informed decisions by providing strategic advice.", "To ensure the President is well-supported and has access to all necessary information.", "To contribute to a calm and effective atmosphere within the Situation Room, enabling clear thinking and decisive action."]
+        ap.current_status = 'Leo McGarry stands quietly yet resolutely by Bartlet’s side, his posture calm and attentive as he monitors the rapid flow of information. He exudes quiet authority, his eyes scanning every nuance in the room, and his subtle gestures affirm his role as the steady backbone of the administration.',
+        ap.emotional_state = 'Leo embodies a layered stoicism; despite his outward calm, there is an undercurrent of focused anxiety and pragmatic worry about the broader political fallout. Beneath his composed exterior, he wrestles with the pressure of managing a crisis while balancing loyalty to the President with the need for practical, immediate solutions to preserve stability.',
+        ap.emotional_tags = ["Leo embodies a layered stoicism; despite his outward calm, there is an undercurrent of focused anxiety", "pragmatic worry about the broader political fallout. Beneath his composed exterior, he wrestles with the pressure of managing a crisis while balancing loyalty to the President with the need for practical, immediate solutions to preserve stability."],
+        ap.active_plans = ["Monitor and relay critical updates between the Situation Room and the broader team.", "Advise President Bartlet with pragmatic political and administrative insights.", "Coordinate rapid response measures to ensure the safety and integrity of the crisis management effort."],
+        ap.beliefs = ["The strength of leadership is proven in crisis through clear, decisive action.", "Pragmatism must guide governmental responses in unpredictable times.", "The stability of the nation relies on both seasoned experience and unyielding loyalty."],
+        ap.goals = ["Short-term: Ensure that all critical information is accurately and promptly communicated.", "Medium-term: Solidify the internal command structure for a unified response.", "Ultimate: Maintain the integrity and credibility of the administration under pressure."]
     ;
-MERGE (ap:AgentParticipation {uuid: 'agentparticipation_agent_general_alexander_event_1_5'})
+MERGE (ap:AgentParticipation {uuid: 'agentparticipation_agent_general_alexander_event_1_4'})
     ON CREATE SET
-        ap.current_status = 'General Alexander accompanies President Bartlet into the Situation Room, embodying military authority within the civilian command structure. He stands formally and respectfully, his presence underscoring the serious nature of the crisis and the potential for military involvement. He is ready to offer military expertise and respond to the President\'s directives.',
-        ap.emotional_state = 'General Alexander maintains a composed and professional demeanor, reflecting his military training and experience in high-pressure situations. He is focused and attentive, his expression conveying a readiness to act and a clear understanding of the gravity of the situation.',
-        ap.emotional_tags = ["General Alex", "er maintains a composed", "professional demeanor, reflecting his military training", "experience in high-pressure situations. He is focused", "attentive, his expression conveying a readiness to act", "a clear underst", "ing of the gravity of the situation."],
-        ap.active_plans = ["To offer military assessments and strategic options to President Bartlet.", "To be prepared to execute any military orders or directives issued by the President.", "To ensure the President is fully informed about the military dimensions of the crisis and the resources available."],
-        ap.beliefs = ["Military readiness and strategic expertise are vital components of national security and crisis response.", "The military must be prepared to support civilian leadership in resolving international conflicts and protecting national interests.", "Discipline, precision, and clear communication are essential for effective military action."],
-        ap.goals = ["To provide President Bartlet with the best possible military advice and options.", "To ensure the military is prepared to respond effectively to the crisis as directed.", "To contribute to a coordinated and decisive national response to the hostage situation."]
+        ap.current_status = 'General Alexander occupies a strategic position in the corner of the Situation Room, his military bearing unmistakable as he scrutinizes the incoming satellite imagery and briefing charts. His arms remain folded and his stance purposeful, every movement calculated and imbued with the discipline of a seasoned military strategist.',
+        ap.emotional_state = 'The General’s demeanor radiates disciplined focus, yet beneath his stoic exterior lies a controlled urgency and latent anxiety about the high-stakes implications of the crisis. His measured silence hints at intense contemplation and restrained frustration, as he internally contends with the potential ramifications of both action and inaction.',
+        ap.emotional_tags = ["The General\u2019s demeanor radiates disciplined focus, yet beneath his stoic exterior lies a controlled urgency", "latent anxiety about the high-stakes implications of the crisis. His measured silence hints at intense contemplation", "restrained frustration, as he internally contends with the potential ramifications of both action", "inaction."],
+        ap.active_plans = ["Provide a precise military assessment of the operational landscape.", "Outline viable contingency plans to counter emerging threats.", "Advise on tactical responses to neutralize any further escalation."],
+        ap.beliefs = ["A realistic military evaluation is indispensable for informed decision-making.", "Structured, disciplined action is the bedrock of national security.", "Timely tactical responses prevent broader escalation of conflict."],
+        ap.goals = ["Short-term: Deliver an immediate, detailed report on military options.", "Medium-term: Synchronize military strategy with overarching political objectives.", "Ultimate: Ensure that national security is preserved through calculated and effective force management."]
     ;
 MERGE (oi:ObjectInvolvement {uuid: 'objectinvolvement_object_framed_photograph_event_2_1'})
     ON CREATE SET
-        oi.description = 'The framed photograph serves as a heart-wrenching symbol of happier, simpler times and a tangible reminder of the personal connection between Bob Russell and Amanda Dalton. It triggers his introspection and emotional vulnerability.',
-        oi.status_before = 'The photograph rested as a cherished yet constant reminder of a cherished personal past, undisturbed and evoking sentimentality.',
-        oi.status_after = 'After handling and replacing it with care, it remains intact but now carries additional emotional weight from the moment of raw revelation.'
+        oi.description = 'The framed photograph serves as a poignant artifact in this intimate scene, symbolizing Bob Russell’s past and the deep emotional connections that influence his decisions. It is not merely a decorative piece but a narrative device that bridges his personal history with the gravity of his current responsibilities, evoking a simpler time of mentorship and innocence. Its careful handling underscores the delicate interplay between vulnerability and the necessity to maintain a steely composure in the political arena.',
+        oi.status_before = 'Before the event, the photograph was prominently displayed on Bob Russell’s desk, preserved as a cherished memento that evoked warm and intimate recollections of a bygone era.',
+        oi.status_after = 'After the event, the photograph remains on the desk, its emotional charge subdued as Bob Russell methodically reassembles his political façade, leaving its once unguarded intimacy now carefully compartmentalized.'
     WITH oi
     MATCH (o:Object {uuid: 'object_framed_photograph'})
     MATCH (e:Event {uuid: 'event_2_1'})
     MERGE (o)-[:INVOLVED_IN]->(oi)
     MERGE (oi)-[:IN_EVENT]->(e);
-MERGE (oi:ObjectInvolvement {uuid: 'objectinvolvement_object_desk_lamp_event_2_1'})
+MERGE (oi:ObjectInvolvement {uuid: 'objectinvolvement_object_framed_photograph_event_2_2'})
     ON CREATE SET
-        oi.description = 'The desk lamp casts a solitary pool of light that not only illuminates the photograph but also creates an intimate atmosphere in the otherwise dark office, reinforcing the isolation and personal nature of the moment.',
-        oi.status_before = 'Before the event, the lamp provided a steady, focused beam of light, maintaining a controlled ambiance in the Vice President\'s office.',
-        oi.status_after = 'Following the event, the lamp continues to emit the same steady light, now underscoring the lingering mood of vulnerability and reflection.'
-    WITH oi
-    MATCH (o:Object {uuid: 'object_desk_lamp'})
-    MATCH (e:Event {uuid: 'event_2_1'})
-    MERGE (o)-[:INVOLVED_IN]->(oi)
-    MERGE (oi)-[:IN_EVENT]->(e);
-MERGE (oi:ObjectInvolvement {uuid: 'objectinvolvement_object_framed_photograph_event_2_3'})
-    ON CREATE SET
-        oi.description = 'The framed photograph serves as a powerful symbol of Bob Russell\'s past tenderness, representing a simpler, more personal time. Its deliberate repositioning on the desk signifies his conscious effort to compartmentalize personal emotion and reclaim his public demeanor.',
-        oi.status_before = 'Displayed openly on the desk, evoking personal memories and raw emotional vulnerability.',
-        oi.status_after = 'Meticulously placed back on the desk, reinforcing a composed and controlled public image.'
+        oi.description = 'The framed photograph plays a central narrative role as both a relic of personal history and a visual cue of vulnerability in Bob Russell\'s life. During the event, it is the tangible reminder of a time when life was simpler and filled with genuine connections, serving as the catalyst for Bob’s brief personal reflection. Its careful handling and placement on the desk underscore the symbolic transition from raw emotion to calculated authority, marking his deliberate effort to reconstruct his public persona amidst the inevitable call of duty.',
+        oi.status_before = 'Prior to the event, the photograph was securely displayed on Bob’s desk, evoking memories of a gentler, more sincere past and held as a personal treasure linked to his private identity.',
+        oi.status_after = 'After the event, the photograph retains its place on the desk, now imbued with a renewed significance as it embodies the reconciliation of personal sentiment with the unyielding demands of political responsibility.'
     WITH oi
     MATCH (o:Object {uuid: 'object_framed_photograph'})
-    MATCH (e:Event {uuid: 'event_2_3'})
-    MERGE (o)-[:INVOLVED_IN]->(oi)
-    MERGE (oi)-[:IN_EVENT]->(e);
-MERGE (oi:ObjectInvolvement {uuid: 'objectinvolvement_object_desk_lamp_event_2_3'})
-    ON CREATE SET
-        oi.description = 'The desk lamp casts a focused pool of light in the dark office, accentuating the intimate ambiance of the scene. It highlights the framed photograph and by extension underscores the internal and external dualities of public and private selves in crisis.',
-        oi.status_before = 'Emitting a soft, singular light that defined the small space of introspection in the dark office.',
-        oi.status_after = 'Continuing to illuminate the space, symbolically underpinning the restoration of order and the Vice President’s renewed focus on duty.'
-    WITH oi
-    MATCH (o:Object {uuid: 'object_desk_lamp'})
-    MATCH (e:Event {uuid: 'event_2_3'})
+    MATCH (e:Event {uuid: 'event_2_2'})
     MERGE (o)-[:INVOLVED_IN]->(oi)
     MERGE (oi)-[:IN_EVENT]->(e);
 MERGE (ap:AgentParticipation {uuid: 'agentparticipation_agent_bob_russell_event_2_1'})
     ON CREATE SET
-        ap.current_status = 'Bob Russell is seated alone in his darkened Vice President\'s office, his posture a blend of stoic composure and internal anguish as he gazes intently at the framed photograph on his desk.',
-        ap.emotional_state = 'He feels a deep, pained vulnerability mixed with a resurgence of raw emotion, the mask of his political persona momentarily slipping to reveal regret and anxiety.',
-        ap.emotional_tags = ["He feels a deep, pained vulnerability mixed with a resurgence of raw emotion, the mask of his political persona momentarily slipping to reveal regret", "anxiety."],
-        ap.active_plans = ["Reconstructing his composed public demeanor before moving to the Situation Room.", "Mentally preparing to address the implications of Bartlet's speech and its impact on the aid mission."],
-        ap.beliefs = ["He believes in the transformative power of political rhetoric for the greater good, even though it carries personal costs.", "He holds a paternal conviction over Amanda Dalton's welfare, linking her dedication to the ideals inspired by leadership."],
-        ap.goals = ["Short-term: To regain his political composure and ready himself for impending crisis discussions.", "Long-term: To ensure that the ideals he supports do not inadvertently endanger those he cares about."]
-    ;
-MERGE (ap:AgentParticipation {uuid: 'agentparticipation_agent_amanda_dalton_event_2_1'})
-    ON CREATE SET
-        ap.current_status = 'Amanda Dalton is not physically present; her presence is powerfully felt through the emotional weight of the photograph and Russell’s reflective dialogue.',
-        ap.emotional_state = 'She is implicitly associated with determination and the burden of sacrifice, as remembered by Russell; her dedication invokes both admiration and concern.',
-        ap.emotional_tags = ["She is implicitly associated with determination", "the burden of sacrifice, as remembered by Russell; her dedication invokes both admiration", "concern."],
-        ap.active_plans = ["Continuing her commitment at USAID, driven by an idealistic mission to rebuild conflict-torn regions."],
-        ap.beliefs = ["She firmly believes in the duty to serve and ameliorate human suffering, inspired by leadership and personal conviction."],
-        ap.goals = ["To accomplish her humanitarian mission effectively and safely, despite personal risks."]
-    ;
-MERGE (ap:AgentParticipation {uuid: 'agentparticipation_agent_president_bartlet_event_2_1'})
-    ON CREATE SET
-        ap.current_status = 'President Bartlet is indirectly present through the echo of his recent speech, the ideological backdrop against which Russell\'s private moment unfolds.',
-        ap.emotional_state = 'His calm, authoritative demeanor is contrasted with the implications of his words, which stir a mix of inspiration and unintended personal consequence in Russell.',
-        ap.emotional_tags = ["His calm, authoritative demeanor is contrasted with the implications of his words, which stir a mix of inspiration", "unintended personal consequence in Russell."],
-        ap.active_plans = ["To articulate a vision of American responsibility while managing the fallout of political decisions on a personal level."],
-        ap.beliefs = ["He holds a conviction that bold political rhetoric can rally the nation, even as it risks collateral emotional impact on individuals linked to the causes he espouses."],
-        ap.goals = ["Short-term: To maintain leadership and guide the national conversation during a crisis.", "Long-term: To uphold the ideals of American intervention and support while mitigating the personal costs of these policies."]
-    ;
-MERGE (ap:AgentParticipation {uuid: 'agentparticipation_agent_margaret_event_2_2'})
-    ON CREATE SET
-        ap.current_status = 'Margaret stands in the doorway of the Vice President\'s dimly lit office, observing Bob Russell in a moment of private reflection. She maintains a respectful distance, her posture suggesting professional formality amidst an emotionally charged atmosphere.',
-        ap.emotional_state = 'Visibly uncomfortable and slightly awkward, Margaret senses she is intruding on a deeply personal moment for the Vice President. She is nevertheless resolute in her duty, balancing empathy with professional necessity.',
-        ap.emotional_tags = ["Visibly uncomfortable", "slightly awkward, Margaret senses she is intruding on a deeply personal moment for the Vice President. She is nevertheless resolute in her duty, balancing empathy with professional necessity."],
-        ap.active_plans = ["To inform Vice President Russell of the urgent meeting in the Situation Room.", "To respectfully interrupt his private moment while conveying the importance of his immediate presence."],
-        ap.beliefs = ["Protocol dictates informing the Vice President of urgent matters, regardless of personal circumstances.", "The situation is serious and requires the Vice President's immediate attention and expertise."],
-        ap.goals = ["To deliver the message efficiently and respectfully.", "To prompt the Vice President to transition from his personal grief to his official duties."]
+        ap.current_status = 'Bob Russell sits alone in the darkened Vice President\'s Office, bathed in the soft glow of a solitary desk lamp. His posture is both reverent and pensive as he cradles a framed photograph in his hands before gently returning it to his desk, his movements deliberate and imbued with personal meaning.',
+        ap.emotional_state = 'Outwardly, Bob exudes the calm reserve expected of his position, yet his eyes betray a torrent of internal conflict. Beneath the composed exterior lies a deep well of vulnerability and sorrow—remnants of cherished memories intertwined with the heavy burdens of duty. His mind oscillates between the warmth of nostalgic recollection and the urgency of political necessity, revealing a man caught between emotion and obligation.',
+        ap.emotional_tags = ["Outwardly, Bob exudes the calm reserve expected of his position, yet his eyes betray a torrent of internal conflict. Beneath the composed exterior lies a deep well of vulnerability", "sorrow\u2014remnants of cherished memories intertwined with the heavy burdens of duty. His mind oscillates between the warmth of nostalgic recollection", "the urgency of political necessity, revealing a man caught between emotion", "obligation."],
+        ap.active_plans = ["Momentarily reconnect with his personal past to ground his wavering emotions.", "Reconstruct his political persona to face imminent responsibilities in the Situation Room.", "Incorporate the tenderness of his memories to subtly influence his forthcoming public stance."],
+        ap.beliefs = ["He believes that personal history and genuine emotion are indispensable to authentic leadership.", "He holds that emotional truths, no matter how private, should inform the public responsibilities he bears.", "He is convinced that the bonds of past experiences can fortify his political decisions in moments of crisis."],
+        ap.goals = ["Short-term: Regain composure and clarity before rejoining the staff in the Situation Room.", "Medium-term: Leverage his reflective moment to refine his political messaging and strategy.", "Ultimate: Achieve a harmony between his personal vulnerabilities and the imperatives of his public duty."]
     ;
 MERGE (ap:AgentParticipation {uuid: 'agentparticipation_agent_bob_russell_event_2_2'})
     ON CREATE SET
-        ap.current_status = 'Vice President Russell is seated in his darkened office, illuminated only by a desk lamp, his gaze fixed on a framed photograph. He is audibly reflecting on Amanda Dalton\'s motivations and President Bartlet\'s influence, his voice tinged with raw emotion and vulnerability. As Margaret enters, he begins to compose himself, physically and emotionally.',
-        ap.emotional_state = 'Initially consumed by private grief and worry for Amanda Dalton, Russell\'s carefully constructed political composure has crumbled, revealing deep personal emotion. He is reflective, somber, and grappling with the personal impact of the crisis. As Margaret arrives, he begins to regain control, consciously reconstructing his public persona.',
-        ap.emotional_tags = ["Initially consumed by private grief", "worry for Am", "a Dalton, Russell's carefully constructed political composure has crumbled, revealing deep personal emotion. He is reflective, somber,", "grappling with the personal impact of the crisis. As Margaret arrives, he begins to regain control, consciously reconstructing his public persona."],
-        ap.active_plans = ["To process his personal emotions and anxieties regarding Amanda Dalton's situation.", "To transition from private grief back to his public role and responsibilities as Vice President upon being summoned to the Situation Room.", "To mentally prepare for the urgent meeting and the decisions he will need to make."],
-        ap.beliefs = ["He believes in the ideals of American aid and intervention that inspired Amanda Dalton.", "He holds a deep personal affection and responsibility for Amanda, viewing her almost as a daughter.", "He understands the gravity of his role and the necessity to compartmentalize personal feelings in service of his duty."],
-        ap.goals = ["To privately acknowledge and process his emotional turmoil.", "To regain his composure and assume his official responsibilities.", "To contribute effectively to the crisis resolution in the Situation Room."]
+        ap.current_status = 'Bob Russell sits alone at his desk under the glow of a single lamp, intently studying a cherished framed photograph. His movements are measured as he lifts the photograph, examining it with a tender gaze before carefully returning it to its rightful place, his posture shifting from reflective vulnerability to the poised stance of authority as he prepares to leave his intimate reverie behind.',
+        ap.emotional_state = 'Externally, Bob projects the calm and resolute demeanor expected of his office, yet underneath there is a raw, conflicted surge of emotion. His eyes betray a deep longing and sorrow as he recalls past moments of innocence, while the weight of duty and the imminent demands of statecraft force him to conceal his inner tenderness. There is a palpable tension between the vulnerability stirred by the memory and the need to reassemble his carefully crafted public persona.',
+        ap.emotional_tags = ["Externally, Bob projects the calm", "resolute demeanor expected of his office, yet underneath there is a raw, conflicted surge of emotion. His eyes betray a deep longing", "sorrow as he recalls past moments of innocence, while the weight of duty", "the imminent dem", "s of statecraft force him to conceal his inner tenderness. There is a palpable tension between the vulnerability stirred by the memory", "the need to reassemble his carefully crafted public persona."],
+        ap.active_plans = ["Prepare to join the Situation Room promptly and address the emerging crisis.", "Reassert his political composure by reconstructing his public image after a moment of personal introspection.", "Balance his emotional attachments with the critical responsibilities of state leadership."],
+        ap.beliefs = ["Personal history and cherished memories are essential to understanding one\u2019s duty.", "The demands of public service require the suppression of personal vulnerabilities.", "Leadership demands an unwavering commitment to duty, regardless of personal cost."],
+        ap.goals = ["Short-term: Transition smoothly from personal reflection to active duty in the Situation Room.", "Medium-term: Solidify his composed political image to reassure colleagues and the public.", "Ultimate: Uphold the responsibilities of the vice presidency by ensuring informed and decisive action in national affairs."]
     ;
-MERGE (ap:AgentParticipation {uuid: 'agentparticipation_agent_bob_russell_event_2_3'})
+MERGE (ap:AgentParticipation {uuid: 'agentparticipation_agent_margaret_event_2_2'})
     ON CREATE SET
-        ap.current_status = 'Bob Russell is seated in the dimly lit Vice President\'s Office, momentarily lost in the poignant memory evoked by the framed photograph. Prompted by Margaret\'s interruption, he deliberately removes the raw emotional trace by carefully placing the photograph back on his desk, transitioning from vulnerability to composure.',
-        ap.emotional_state = 'Initially overwhelmed by personal grief and paternal concern, his raw vulnerability gives way to a steely determination as he reasserts his public persona.',
-        ap.emotional_tags = ["Initially overwhelmed by personal grief", "paternal concern, his raw vulnerability gives way to a steely determination as he reasserts his public persona."],
-        ap.active_plans = ["Articulate the inspiring ideals behind Bartlet's speeches about America's humanitarian efforts.", "Regain control over his internal turmoil and step into his official role in the Situation Room."],
-        ap.beliefs = ["The responsibility of leadership demands compartmentalizing personal emotions for the greater good.", "America's duty to help rebuild war-torn regions is both a moral and political imperative."],
-        ap.goals = ["Reconstruct his political image by setting aside personal anxieties.", "Prepare to address the unfolding crisis with the necessary resolve."]
-    ;
-MERGE (ap:AgentParticipation {uuid: 'agentparticipation_agent_president_bartlet_event_2_3'})
-    ON CREATE SET
-        ap.current_status = 'President Bartlet\'s presence is felt through the ripple effects of his earlier speech. While not physically in the Vice President\'s Office, his words and leadership ethos resonate strongly, framing Russell\'s internal struggle and subsequent regain of composure.',
-        ap.emotional_state = 'Resolute and steady, carrying the weight of national duty despite underlying tension.',
-        ap.emotional_tags = ["Resolute", "steady, carrying the weight of national duty despite underlying tension."],
-        ap.active_plans = ["Project a calm and commanding presence to underpin national leadership."],
-        ap.beliefs = ["Truth and accountability must guide every presidential decision.", "The nation can be protected only through decisive and principled leadership."],
-        ap.goals = ["Inspire the staff and the American public through clear, balanced rhetoric amid crisis."]
-    ;
-MERGE (ap:AgentParticipation {uuid: 'agentparticipation_agent_amanda_dalton_event_2_3'})
-    ON CREATE SET
-        ap.current_status = 'Amanda Dalton is not physically present in the office but permeates Russell’s thoughts as a symbol of the idealistic heroism and personal sacrifice inherent in USAID work.',
-        ap.emotional_state = 'Embodied through memory with feelings of determination and quiet courage, reinforcing the emotional stakes of the moment.',
-        ap.emotional_tags = ["Embodied through memory with feelings of determination", "quiet courage, reinforcing the emotional stakes of the moment."],
-        ap.active_plans = ["Persevere in her humanitarian mission despite personal risk."],
-        ap.beliefs = ["That a commitment to service and international aid can bring about genuine change."],
-        ap.goals = ["Continue her critical work with USAID, reflecting the ideals championed by Bartlet."]
-    ;
-MERGE (ap:AgentParticipation {uuid: 'agentparticipation_agent_margaret_event_2_3'})
-    ON CREATE SET
-        ap.current_status = 'Margaret stands in the doorway of the Vice President\'s Office, her posture evidencing a mix of concern and professionalism as she interrupts the intimate moment to remind Russell of his immediate official obligations.',
-        ap.emotional_state = 'Uneasy and empathetic, yet firmly anchored in her commitment to protocol.',
-        ap.emotional_tags = ["Uneasy", "empathetic, yet firmly anchored in her commitment to protocol."],
-        ap.active_plans = ["Prompt Russell to leave the personal space and attend to the urgent demands waiting in the Situation Room."],
-        ap.beliefs = ["Private moments must yield to the overarching duty of public service in times of crisis."],
-        ap.goals = ["Ensure that the Vice President transitions smoothly and promptly from personal reflection to active crisis management."]
+        ap.current_status = 'Margaret stands in the doorway of the Vice President\'s Office with a slight hesitance, her body language revealing an inner conflict between professional duty and compassion. Her posture is firm yet gentle as she enters the intimate space, her eyes reflecting urgency and the weight of her message as she reminds Bob that state business awaits beyond the private moment.',
+        ap.emotional_state = 'Margaret experiences a complex mix of empathy and obligation. Outwardly, she remains composed and respectful, yet internally she feels discomfort and apprehension at interrupting Bob’s precious moment of vulnerability. Her heart is heavy with the knowledge that personal feelings must always yield to the imperatives of duty, leaving her with an unspoken sadness and anxiety over the collision of private reflection and public obligation.',
+        ap.emotional_tags = ["Margaret experiences a complex mix of empathy", "obligation. Outwardly, she remains composed", "respectful, yet internally she feels discomfort", "apprehension at interrupting Bob\u2019s precious moment of vulnerability. Her heart is heavy with the knowledge that personal feelings must always yield to the imperatives of duty, leaving her with an unspoken sadness", "anxiety over the collision of private reflection", "public obligation."],
+        ap.active_plans = ["Promptly inform Bob Russell of the urgent need to attend the Situation Room.", "Maintain the strict protocol required in political environments despite personal reservations.", "Ensure the smooth transition from a moment of private reflection to the broader demands of statecraft."],
+        ap.beliefs = ["Duty to the state must always override personal sentiments.", "Protocol and order are fundamental to the stability of political operations.", "Respect for individual vulnerability is important, but it should not interfere with the demands of leadership."],
+        ap.goals = ["Short-term: Successfully deliver the pressing message to Bob without causing further distraction.", "Medium-term: Help maintain the balance between the emotional well-being of staff and the operational requirements of state governance.", "Ultimate: Contribute to preserving the integrity and effectiveness of political leadership during moments of crisis."]
     ;
 MERGE (oi:ObjectInvolvement {uuid: 'objectinvolvement_object_blackberry_event_3_3'})
     ON CREATE SET
-        oi.description = 'C.J.\'s BlackBerry buzzes with an urgent news alert, disrupting the tense diplomatic scene in the Mural Room. It functions as the harbinger of unwelcome news, delivering the stark message that CNN has revealed Amanda Dalton\'s identity to the public. The device becomes the instrument through which external media pressure intrudes upon the private, high-stakes negotiations.',
-        oi.status_before = 'The BlackBerry is in standby mode, likely in C.J.\'s pocket or nearby, silently awaiting incoming notifications. It is a passive object in the scene, present but not yet actively influencing the unfolding events.',
-        oi.status_after = 'After buzzing and displaying the news alert, the BlackBerry has fulfilled its function as a communication device, delivering critical, albeit unwelcome, information. It remains physically unchanged, but its narrative significance has increased dramatically as the catalyst for C.J.\'s reaction and the impending media storm. It now represents the looming external pressures and the rapidly escalating stakes of the crisis.'
+        oi.description = 'The BlackBerry serves as a pivotal communication conduit in this climactic moment, buzzing to announce breaking news that dramatically shifts the crisis narrative. It channels real-time information directly to C.J. Cregg, effectively bridging the gap between the unfolding diplomatic dialogue and the rapidly evolving media narrative. This device thus becomes a critical tool in the translation of raw data into actionable intelligence within the room.',
+        oi.status_before = 'Before the event, the BlackBerry lay in a quiet standby mode, its secure interface ready but unalerted, maintaining its usual background role for routine communications.',
+        oi.status_after = 'After the event, the BlackBerry is active and dynamic, having signaled the urgent breaking news. Its functional state elevates from background utility to a central narrative catalyst, underscoring its importance as the trigger for shifting the room\'s focus toward a personal and politically charged revelation.'
     WITH oi
     MATCH (o:Object {uuid: 'object_blackberry'})
     MATCH (e:Event {uuid: 'event_3_3'})
@@ -675,111 +577,82 @@ MERGE (oi:ObjectInvolvement {uuid: 'objectinvolvement_object_blackberry_event_3_
     MERGE (oi)-[:IN_EVENT]->(e);
 MERGE (ap:AgentParticipation {uuid: 'agentparticipation_agent_viktor_petrov_event_3_1'})
     ON CREATE SET
-        ap.current_status = 'Viktor Petrov stands in the Mural Room, embodying diplomatic poise. He addresses President Bartlet and other members of the White House staff, articulating Moscow\'s official stance on the hostage situation with measured, precise language. His posture is impeccable, every gesture calibrated for maximum impact.',
-        ap.emotional_state = 'Viktor Petrov is outwardly calm and controlled, projecting an air of unflappable confidence. Beneath the surface, he is likely strategic and calculating, focused on delivering his message effectively and maintaining Russia\'s geopolitical position without revealing any personal emotion or vulnerability.',
-        ap.emotional_tags = ["Viktor Petrov is outwardly calm", "controlled, projecting an air of unflappable confidence. Beneath the surface, he is likely strategic", "calculating, focused on delivering his message effectively", "maintaining Russia's geopolitical position without revealing any personal emotion or vulnerability."],
-        ap.active_plans = ["To firmly establish Russia's position that the hostage situation is a Serbian internal affair.", "To discourage any NATO intervention by framing it as a violation of Serbian sovereignty.", "To project an image of Russian resolve and diplomatic strength."],
-        ap.beliefs = ["National sovereignty is paramount and should not be violated by external intervention.", "International matters should be resolved through diplomacy and respect for national borders.", "Russia has a right and a duty to assert its geopolitical interests and perspectives on the global stage."],
-        ap.goals = ["To prevent any NATO military action or intervention in Serbia.", "To reinforce Russia's influence in the region by supporting Serbia's position.", "To demonstrate Russia's diplomatic strength and strategic thinking to the US and other nations."]
+        ap.current_status = 'Viktor Petrov stands tall in the Mural Room with impeccable diplomatic posture. His measured movements, deliberate hand gestures, and unwavering gaze convey both authority and calm decisiveness. Every subtle tilt of his head and slight shift of weight underscores his carefully honed presence in this pivotal moment.',
+        ap.emotional_state = 'Petrov projects cool determination and a refined confidence as he articulates Moscow\'s position. While his expression remains composed and controlled on the surface, internally he is strategically calculating every word, masking any trace of internal tension or hesitation to maintain his image as the consummate diplomat. There is a silent resolve in his eyes, counterbalanced by an acute awareness of the international implications of his declaration.',
+        ap.emotional_tags = ["Petrov projects cool determination", "a refined confidence as he articulates Moscow's position. While his expression remains composed", "controlled on the surface, internally he is strategically calculating every word, masking any trace of internal tension or hesitation to maintain his image as the consummate diplomat. There is a silent resolve in his eyes, counterbalanced by an acute awareness of the international implications of his declaration."],
+        ap.active_plans = ["Assert Moscow\u2019s narrative by minimizing NATO\u2019s potential involvement.", "Control the diplomatic tone to preemptively disarm Western critiques.", "Reinforce Russia\u2019s geopolitical positioning through precise and measured articulation."],
+        ap.beliefs = ["Diplomacy is the highest form of power.", "Sovereignty must be defended against external interference.", "Precision in communication is essential for sustaining international credibility."],
+        ap.goals = ["Short-term: Command the room by delivering an authoritative, unyielding statement.", "Medium-term: Influence international opinion to view the crisis as an internal matter.", "Ultimate: Secure strategic advantage for Moscow in the broader geopolitical landscape."]
     ;
-MERGE (ap:AgentParticipation {uuid: 'agentparticipation_agent_president_bartlet_event_3_2'})
+MERGE (ap:AgentParticipation {uuid: 'agentparticipation_agent_bartlet_event_3_2'})
     ON CREATE SET
-        ap.current_status = 'President Bartlet steps forward with measured yet assertive movement, his posture rigid and purposeful as he delivers his sharp rebuttal. His eyes are fixed intently on Ambassador Petrov, his stance conveying both control and an underlying intensity.',
-        ap.emotional_state = 'Inside, a brewing storm of discontent simmers beneath his calm exterior. There is a clear tension marked by a clenched jaw and tightly clasped hands, symbolizing both his frustration and determination.',
-        ap.emotional_tags = ["Inside, a brewing storm of discontent simmers beneath his calm exterior. There is a clear tension marked by a clenched jaw", "tightly clasped h", "s, symbolizing both his frustration", "determination."],
-        ap.active_plans = ["Challenge the logic dismissing the kidnapping of American aid workers as an internal Serbian issue.", "Assert American resolve and expose the flaws in the opposing diplomatic stance."],
-        ap.beliefs = ["Unwavering commitment to truth and accountability in the face of diplomatic evasiveness.", "The fundamental duty to protect American citizens and uphold international responsibility."],
-        ap.goals = ["Clarify the gravity of the situation to both domestic and international audiences.", "Maintain national integrity by challenging any attempt to downplay a matter of national security."]
+        ap.current_status = 'President Bartlet steps deliberately forward in the Mural Room with measured authority, his posture rigid and commanding. His gaze is intense as he leans slightly forward to challenge the Ambassador’s claim. Every movement is calculated; his stance is firm and unwavering, his hands tightly clasped behind his back—a subtle but potent gesture of both restraint and resolve. His facial expressions betray the weight of his responsibilities as he voices a forceful inquiry that cuts through the diplomatic formalities.',
+        ap.emotional_state = 'Bartlet’s emotional state is a complex blend of controlled indignation and deeply held concern. Outwardly, his expression is calm but unmistakably steeled by anger, visible in the slight clench of his jaw and focused eyes. Internally, he wrestles with a surge of frustration fueled by the moral and national implications of the crisis, and his inner turmoil is masked by the veneer of presidential composure. This tension between the visible calm and concealed anxiety underlines his relentless commitment to defending American values.',
+        ap.emotional_tags = ["Bartlet\u2019s emotional state is a complex blend of controlled indignation", "deeply held concern. Outwardly, his expression is calm but unmistakably steeled by anger, visible in the slight clench of his jaw", "focused eyes. Internally, he wrestles with a surge of frustration fueled by the moral", "national implications of the crisis,", "his inner turmoil is masked by the veneer of presidential composure. This tension between the visible calm", "concealed anxiety underlines his relentless commitment to defending American values."],
+        ap.active_plans = ["Challenge and dismantle the Ambassador\u2019s oversimplified narrative on the kidnapping.", "Assert the moral and national imperatives that demand a robust response.", "Set the stage for a broader strategic communication that reinforces Presidential accountability."],
+        ap.beliefs = ["The security and dignity of American citizens are non-negotiable.", "Diplomatic rhetoric must not obscure the stark moral responsibilities of leadership.", "Transparency and accountability are essential in addressing national crises."],
+        ap.goals = ["Short-term: Force a clear explanation from the Ambassador to expose any misrepresentation of facts.", "Medium-term: Reinforce the administration\u2019s commitment to protecting American interests.", "Ultimate: Preserve the integrity of national leadership and restore confidence in the government\u2019s handling of international crises."]
     ;
-MERGE (ap:AgentParticipation {uuid: 'agentparticipation_agent_c_j_cregg_event_3_3'})
+MERGE (ap:AgentParticipation {uuid: 'agentparticipation_agent_cj_cregg_event_3_3'})
     ON CREATE SET
-        ap.current_status = 'C.J. stands near the doorway of the Mural Room, observing the tense exchange between President Bartlet and Ambassador Petrov. She is attentive to the diplomatic proceedings when her BlackBerry suddenly buzzes, diverting her attention. She glances at the device, reads the urgent news alert flashing on the screen, and then briefly closes her eyes, composing herself.',
-        ap.emotional_state = 'C.J. is initially focused and professional, monitoring the diplomatic situation. The sudden news alert injects a dose of anxiety and apprehension as she realizes the implications of the information. Closing her eyes suggests she is steeling herself, bracing for the inevitable media storm and the increased pressure it will bring.',
-        ap.emotional_tags = ["C.J. is initially focused", "professional, monitoring the diplomatic situation. The sudden news alert injects a dose of anxiety", "apprehension as she realizes the implications of the information. Closing her eyes suggests she is steeling herself, bracing for the inevitable media storm", "the increased pressure it will bring."],
-        ap.active_plans = ["Assess the immediate impact of the news leak on the ongoing crisis.", "Prepare to manage the anticipated media frenzy and public reaction to Amanda Dalton's identity being revealed.", "Inform President Bartlet and Leo McGarry about the CNN report and its potential consequences."],
-        ap.beliefs = ["Controlling the narrative is crucial in political crises, especially regarding sensitive information.", "The media's role can significantly escalate or de-escalate a crisis.", "Maintaining composure and professionalism is essential, even when facing disruptive news."],
-        ap.goals = ["Minimize the negative impact of the news leak on the hostage situation and diplomatic efforts.", "Protect the President's image and manage public perception of the crisis.", "Prepare a strategic communications response to address the media storm and control the narrative."]
+        ap.current_status = 'C.J. Cregg stands slightly aside near the doorway in the Mural Room, her posture both alert and measured. As the heated exchange unfolds, she briefly closes her eyes when her BlackBerry buzzes, her gesture a subtle signal of both hesitation and readiness. Her movements are precise, deliberately pausing to absorb the alert before stepping into her role as the bearer of breaking news.',
+        ap.emotional_state = 'Outwardly, C.J. maintains her trademark calm and composed demeanor, her face a mask of professional neutrality even as her eyes betray a flicker of concern. Internally, however, she is acutely aware of the rising stakes, feeling a surge of anxiety and tension at the potential fallout. There is a subtle conflict between her disciplined exterior and the urgency she experiences, as the burden of delivering consequential information weighs on her mind.',
+        ap.emotional_tags = ["Outwardly, C.J. maintains her trademark calm", "composed demeanor, her face a mask of professional neutrality even as her eyes betray a flicker of concern. Internally, however, she is acutely aware of the rising stakes, feeling a surge of anxiety", "tension at the potential fallout. There is a subtle conflict between her disciplined exterior", "the urgency she experiences, as the burden of delivering consequential information weighs on her mind."],
+        ap.active_plans = ["Ensure the accuracy of the news being relayed amidst the unfolding crisis.", "Manage the information flow to prepare for the impending media scrutiny.", "Support the leadership by maintaining unwavering composure and clarity in communication."],
+        ap.beliefs = ["Clear and accurate communication is essential during crises.", "Maintaining professional composure under pressure upholds the integrity of the administration.", "Every detail matters, and being informed is critical to effective response."],
+        ap.goals = ["Short-term: Immediately alert the room about the critical detail concerning Amanda Dalton.", "Medium-term: Coordinate with colleagues to manage the media storm effectively.", "Ultimate: Uphold the integrity of the administration\u2019s communication and safeguard public trust."]
     ;
-MERGE (oi:ObjectInvolvement {uuid: 'objectinvolvement_object_crumpled_paper_event_4_1'})
+MERGE (oi:ObjectInvolvement {uuid: 'objectinvolvement_object_laptop_with_dual_documents_event_4_1'})
     ON CREATE SET
-        oi.description = 'The crumpled papers scattered across the desk symbolize discarded ideas and fleeting attempts at capturing a powerful narrative, reflecting the intense creative struggle Sam experiences.',
-        oi.status_before = 'Before the event, the papers were the remnants of earlier drafts, already marking traces of frustration and iterative craftsmanship.',
-        oi.status_after = 'After the event, they stand as a visual record of the ongoing battle to merge creativity with political urgency, further disordered by new scribbles and rushed attempts at clarity.'
+        oi.description = 'The laptop serves as a silent yet potent character in this scene, its glowing screen displaying two documents that starkly encapsulate contrasting messages of victory and tragedy. It acts as the focal point of Sam\'s creative crisis, symbolizing the dual nature of political narratives. The device is integral to the unfolding drama, providing the medium through which the exchange of ideas between poetic passion and measured restraint takes shape, and reinforcing the gravity of the moment.',
+        oi.status_before = 'Before the event, the laptop was a reliable tool in Sam Seaborn’s arsenal, quietly supporting his work with clearly legible documents and functioning as a steady repository of his creative outputs.',
+        oi.status_after = 'After the event, the laptop remains a silent witness to the emotional and intellectual battle being waged, its illuminated screen a testament to the ongoing struggle between artistic expression and the cold demands of political messaging, leaving its significance deepened by the transformative dialogue.'
     WITH oi
-    MATCH (o:Object {uuid: 'object_crumpled_paper'})
-    MATCH (e:Event {uuid: 'event_4_1'})
-    MERGE (o)-[:INVOLVED_IN]->(oi)
-    MERGE (oi)-[:IN_EVENT]->(e);
-MERGE (oi:ObjectInvolvement {uuid: 'objectinvolvement_object_empty_coffee_cups_event_4_1'})
-    ON CREATE SET
-        oi.description = 'The empty coffee cups serve as a tangible marker of the long hours and relentless mental labor involved in crafting a speech that embodies both hope and tragedy.',
-        oi.status_before = 'Initially, the cups had already signified spent energy and multiple refills during earlier bursts of creative output.',
-        oi.status_after = 'Following this event, their presence intensifies the scene, underscoring the cost of deep contemplation and the exhaustion that accompanies intense creative pursuits.'
-    WITH oi
-    MATCH (o:Object {uuid: 'object_empty_coffee_cups'})
-    MATCH (e:Event {uuid: 'event_4_1'})
-    MERGE (o)-[:INVOLVED_IN]->(oi)
-    MERGE (oi)-[:IN_EVENT]->(e);
-MERGE (oi:ObjectInvolvement {uuid: 'objectinvolvement_object_laptop_screen_event_4_1'})
-    ON CREATE SET
-        oi.description = 'The laptop screen, displaying two distinct documents side-by-side, visually represents the dual paths of victory and tragedy that Sam is struggling to reconcile into a single powerful narrative.',
-        oi.status_before = 'Before this moment, the laptop was a tool of routine administrative tasks and orderly work, its screen bright and purposeful in a well-organized work setting.',
-        oi.status_after = 'After the event, the laptop becomes a vessel of chaotic inspiration, its illuminated documents a testament to the critical and creative crossroads at which Sam finds himself.'
-    WITH oi
-    MATCH (o:Object {uuid: 'object_laptop_screen'})
+    MATCH (o:Object {uuid: 'object_laptop_with_dual_documents'})
     MATCH (e:Event {uuid: 'event_4_1'})
     MERGE (o)-[:INVOLVED_IN]->(oi)
     MERGE (oi)-[:IN_EVENT]->(e);
 MERGE (ap:AgentParticipation {uuid: 'agentparticipation_agent_sam_seaborn_event_4_1'})
     ON CREATE SET
-        ap.current_status = 'Sam Seaborn sits hunched over his glowing laptop, his posture a blend of exhaustion and determination as he navigates the chaotic landscape of words and ideas scattered around him.',
-        ap.emotional_state = 'A mix of deep introspection and anxiety, with an underlying urgency as he grapples with the severe weight of the tragedy he needs to articulate.',
-        ap.emotional_tags = ["A mix of deep introspection", "anxiety, with an underlying urgency as he grapples with the severe weight of the tragedy he needs to articulate."],
-        ap.active_plans = ["Refine and reconcile two divergent narratives \u2014 one of victory and one of tragedy \u2014 into a cohesive presidential address.", "Capture the raw, poetic essence of political violence to emotionally resonate with the nation."],
-        ap.beliefs = ["Words possess the power to shape public perception and provide comfort in crisis.", "Articulating truth, even in the harshest circumstances, is essential for accountability and healing."],
-        ap.goals = ["Complete a speech that convincingly bridges the dualities of hope and despair.", "Ensure the narrative accurately reflects the gravity of the situation while maintaining a commitment to being 'the good guys.'"]
+        ap.current_status = 'Sam Seaborn sits at his cluttered workstation in the windowless office, surrounded by crumpled papers and empty coffee cups. His posture is slumped but intent, as he hunches over the illuminated laptop screen displaying two distinct documents. His hands occasionally pause over the keyboard, and he runs them through his disheveled hair in a gesture that betrays both frustration and creative fervor.',
+        ap.emotional_state = 'Outwardly, Sam appears reflective and pensive, his furrowed brow and hesitant tone communicating the weight of his inner conflict. Beneath that, however, burns a turbulent mix of idealism and despair, as he grapples with the challenge of crafting poetic language out of raw political violence. His quiet determination is intermingled with a profound vulnerability; he is torn between the urge to express deep emotion and the need to uphold his professional responsibilities.',
+        ap.emotional_tags = ["Outwardly, Sam appears reflective", "pensive, his furrowed brow", "hesitant tone communicating the weight of his inner conflict. Beneath that, however, burns a turbulent mix of idealism", "despair, as he grapples with the challenge of crafting poetic language out of raw political violence. His quiet determination is intermingled with a profound vulnerability; he is torn between the urge to express deep emotion", "the need to uphold his professional responsibilities."],
+        ap.active_plans = ["Complete the dual drafts that encapsulate both victory and tragedy.", "Channel his inner turmoil into creating a narrative that resonates with the public.", "Reconcile his creative impulses with the political realities he must portray."],
+        ap.beliefs = ["Art can and should transform the harsh realities of political violence into meaningful expression.", "The truth of political conflict must be conveyed with both passion and precision.", "Integrity in communication is essential even when facing moral ambiguity."],
+        ap.goals = ["Short-term: Finalize the presidential address drafts that capture the duality of the crisis.", "Medium-term: Find a balanced voice that marries poetic expression with political responsibility.", "Ultimate: Establish himself as a force for moral clarity, even in the face of overwhelming political turbulence."]
     ;
-MERGE (ap:AgentParticipation {uuid: 'agentparticipation_agent_toby_ziegler_event_4_2'})
+MERGE (ap:AgentParticipation {uuid: 'agentparticipation_agent_toby_ziegler_event_4_1'})
     ON CREATE SET
-        ap.current_status = 'Standing calmly in the doorway of the windowless office, Toby observes Sam\'s struggle with a seasoned and knowing gaze. He listens intently as Sam grapples with the weight of his task before offering measured, thoughtful counsel.',
-        ap.emotional_state = 'Empathetic and concerned, Toby carries a sense of quiet resolve. He is grounded and offers stability, his demeanor reflecting a deep understanding of the gravity of the situation and the emotional toll it takes on those around him.',
-        ap.emotional_tags = ["Empathetic", "concerned, Toby carries a sense of quiet resolve. He is grounded", "offers stability, his demeanor reflecting a deep underst", "ing of the gravity of the situation", "the emotional toll it takes on those around him."],
-        ap.active_plans = ["To guide Sam towards a more grounded and effective approach to speechwriting.", "To remind Sam of the core values that underpin their work and the administration's mission.", "To offer reassurance and perspective, helping Sam navigate the emotional and intellectual challenges of the moment."],
-        ap.beliefs = ["True poetry in times of tragedy lies in restraint and understated strength, not in elaborate prose.", "It is crucial to reaffirm the fundamental humanitarian principles that guide their actions, especially in moments of crisis.", "Their role is to articulate the nation's commitment to being 'the good guys', even when faced with difficult circumstances."],
-        ap.goals = ["To help Sam craft speeches that are both powerful and ethically sound, reflecting the gravity of the situation without succumbing to grandiosity.", "To ensure the speeches resonate with the core values of the administration and the American people.", "To provide Sam with the necessary perspective to overcome his creative block and deliver impactful communication."]
+        ap.current_status = 'Toby Ziegler stands in the doorway of the cramped, windowless office, his gaze fixed on Sam Seaborn as he works with intense focus. His posture is upright and reserved, the subtle set of his shoulders suggesting both concern and calm oversight. His presence is both grounding and protective, a quiet counterpoint to the turbulence unfolding within Sam.',
+        ap.emotional_state = 'Exuding a composed exterior, Toby’s calm demeanor belies an inner landscape of worry and resolute determination. He projects a confident, measured calmness, yet internally he wrestles with the complexities of balancing creative ambition against the backdrop of political reality. His concern for Sam is laced with an unspoken commitment to uphold ethical boundaries, reflecting both empathy and the heavy burden of senior responsibility.',
+        ap.emotional_tags = ["Exuding a composed exterior, Toby\u2019s calm demeanor belies an inner l", "scape of worry", "resolute determination. He projects a confident, measured calmness, yet internally he wrestles with the complexities of balancing creative ambition against the backdrop of political reality. His concern for Sam is laced with an unspoken commitment to uphold ethical boundaries, reflecting both empathy", "the heavy burden of senior responsibility."],
+        ap.active_plans = ["Monitor Sam\u2019s progress and offer subtle guidance when needed.", "Advise on maintaining a balance between creative expression and political restraint.", "Ensure that the narrative being crafted aligns with their core messaging and ethical standards."],
+        ap.beliefs = ["Restraint is a powerful form of expression in times of crisis.", "Political messaging must be infused with ethical responsibility.", "The duty to inform the public honestly requires a controlled and measured approach."],
+        ap.goals = ["Short-term: Provide immediate support to Sam to help him harness his creative energy.", "Medium-term: Cultivate a narrative that both inspires and reassures the public.", "Ultimate: Uphold the integrity of their political discourse by ensuring that principles guide every decision."]
     ;
 MERGE (ap:AgentParticipation {uuid: 'agentparticipation_agent_sam_seaborn_event_4_2'})
     ON CREATE SET
-        ap.current_status = 'Sam is hunched over his laptop in the dimly lit office, surrounded by discarded drafts and empty coffee cups, a physical manifestation of his intense creative struggle. He runs his hands through his already disheveled hair, his usual polished appearance completely abandoned as he wrestles with the immense task of writing speeches for both victory and tragedy.',
-        ap.emotional_state = 'Intensely focused and stressed, Sam is deeply immersed in the creative process, grappling with the profound emotional weight of the hostage situation. He is wrestling with feelings of inadequacy, questioning how to transform the stark reality of political violence into something poetic and meaningful.',
-        ap.emotional_tags = ["Intensely focused", "stressed, Sam is deeply immersed in the creative process, grappling with the profound emotional weight of the hostage situation. He is wrestling with feelings of inadequacy, questioning how to transform the stark reality of political violence into something poetic", "meaningful."],
-        ap.active_plans = ["To complete two distinct presidential addresses, one for a successful resolution and one for a tragic outcome.", "To find the appropriate tone and language to convey the gravity of the situation in either scenario.", "To articulate the complex emotions and moral implications of the crisis through his writing, seeking to capture the essence of the moment for the President and the nation."],
-        ap.beliefs = ["Tragedy, by its nature, demands a poetic response that transcends mere political rhetoric.", "He believes in the power of language to shape understanding and to offer solace in times of crisis.", "There's an inherent conflict between the brutality of political violence and the need for poetic expression to make sense of it."],
-        ap.goals = ["To produce speeches that are not only politically effective but also emotionally resonant and ethically sound.", "To find a way to articulate the administration's values and the nation's response in a way that is both truthful and inspiring.", "To overcome his creative and emotional block and deliver speeches that meet the immense challenge of the moment."]
+        ap.current_status = 'Sam Seaborn sits deeply engrossed at his workstation in the dim, windowless office, surrounded by crumpled papers and empty coffee cups. He runs his hands through his disheveled hair and speaks with a raw intensity that underscores his internal struggle.',
+        ap.emotional_state = 'Outwardly, Sam expresses a weary, almost resigned determination as he discusses the nature of tragedy with a hint of poetic frustration. Beneath his composed exterior, however, lies a storm of inner turmoil, haunted by memories of Rosslyn and the crushing weight of political violence. His inner conflict is palpable as he balances idealistic aspirations with the harsh realities of his responsibilities.',
+        ap.emotional_tags = ["Outwardly, Sam expresses a weary, almost resigned determination as he discusses the nature of tragedy with a hint of poetic frustration. Beneath his composed exterior, however, lies a storm of inner turmoil, haunted by memories of Rosslyn", "the crushing weight of political violence. His inner conflict is palpable as he balances idealistic aspirations with the harsh realities of his responsibilities."],
+        ap.active_plans = ["Finalize both the victory and tragedy drafts for the presidential addresses.", "Convey the nuanced duality of political messaging to reconcile hope with harsh realism.", "Transform his personal emotional entanglements into a coherent narrative that validates their moral stance."],
+        ap.beliefs = ["Art and poetry are essential in rendering the complexities of political violence and tragedy.", "Maintaining a moral high ground is vital even amid profound crisis.", "The creative process can serve as both a refuge and a tool for political truth."],
+        ap.goals = ["Short-term: Complete the draft speeches to capture both sides of the story.", "Medium-term: Ensure the narrative effectively communicates the balance between idealism and pragmatism.", "Ultimate: Uphold the institution\u2019s identity as the 'good guys' while reconciling the unavoidable costs of moral leadership."]
     ;
-MERGE (ap:AgentParticipation {uuid: 'agentparticipation_agent_sam_seaborn_event_4_3'})
+MERGE (ap:AgentParticipation {uuid: 'agentparticipation_agent_toby_ziegler_event_4_2'})
     ON CREATE SET
-        ap.current_status = 'Seated amid a chaotic array of crumpled paper and empty coffee cups, Sam is deeply absorbed in his work at the glowing laptop screen, visibly disheveled and lost in thought.',
-        ap.emotional_state = 'Emotionally drained and introspective, with an undercurrent of anxiety and vulnerability fueled by painful memories of past crises, notably the Rosslyn shooting.',
-        ap.emotional_tags = ["Emotionally drained", "introspective, with an undercurrent of anxiety", "vulnerability fueled by painful memories of past crises, notably the Rosslyn shooting."],
-        ap.active_plans = ["Crafting two contrasting presidential addresses that capture both hope and tragedy.", "Reconciling past failures with a renewed commitment to moral principles."],
-        ap.beliefs = ["Political messaging must remain rooted in honesty and ethical responsibility.", "Being 'the good guys' is both a duty and a constant moral challenge."],
-        ap.goals = ["To articulate a narrative that upholds moral values amidst political violence.", "To transform his inner turmoil into a compelling, authentic speech."]
-    ;
-MERGE (ap:AgentParticipation {uuid: 'agentparticipation_agent_toby_ziegler_event_4_3'})
-    ON CREATE SET
-        ap.current_status = 'Standing in the doorway of the cramped, windowless office, Toby watches over Sam with a steady, observant gaze.',
-        ap.emotional_state = 'Calm yet deeply concerned; his measured demeanor conceals an internal commitment to ensuring ethical clarity in a high-stakes environment.',
-        ap.emotional_tags = ["Calm yet deeply concerned; his measured demeanor conceals an internal commitment to ensuring ethical clarity in a high-stakes environment."],
-        ap.active_plans = ["Providing moral support and a grounding perspective to Sam during the crisis.", "Guiding the narrative to emphasize restraint and ethical responsibility."],
-        ap.beliefs = ["Moral integrity is essential, even when confronting political violence.", "The true strength of leadership lies in balancing strategic necessity with uncompromised principles."],
-        ap.goals = ["To reassure and refocus Sam on their shared commitment to justice and truth.", "To ensure that their public communication reflects a steadfast adherence to ethical values."]
+        ap.current_status = 'Toby Ziegler stands in the doorway, his presence both observant and supportive as he watches over Sam. His posture is measured and grounded, exuding a quiet determination and care, as he serves as the steady counterbalance to the emotional intensity unfolding within the workspace.',
+        ap.emotional_state = 'Toby exudes a calm, almost stoic exterior, yet his concerned gaze reveals a deeper empathy and internal conflict. He is subtly troubled by the emotional burden his colleague carries, feeling the weight of past crises and the challenge of reconciling idealism with political reality. His restrained demeanor belies the profound responsibility he carries as both a mentor and a guardian of their shared moral compass.',
+        ap.emotional_tags = ["Toby exudes a calm, almost stoic exterior, yet his concerned gaze reveals a deeper empathy", "internal conflict. He is subtly troubled by the emotional burden his colleague carries, feeling the weight of past crises", "the challenge of reconciling idealism with political reality. His restrained demeanor belies the profound responsibility he carries as both a mentor", "a guardian of their shared moral compass."],
+        ap.active_plans = ["Provide immediate emotional support and guidance to Sam amidst his inner turmoil.", "Advise on maintaining the necessary restraint in the tone and content of their communications.", "Bridge the gap between idealistic aspirations and the pragmatic demands of political messaging."],
+        ap.beliefs = ["Restraint in expression is crucial in political leadership.", "Moral integrity must be preserved even when faced with harsh realities.", "True leadership involves quietly bearing the burden of difficult truths while guiding others through crisis."],
+        ap.goals = ["Short-term: Offer constructive counsel to help Sam navigate his emotional and professional challenges.", "Medium-term: Ensure the final messages align with both the poetic ideals and the practical necessities of their work.", "Ultimate: Sustain the collective identity and moral purpose of their team amid ever-present political and personal challenges."]
     ;
 MERGE (oi:ObjectInvolvement {uuid: 'objectinvolvement_object_resolute_desk_event_5_3'})
     ON CREATE SET
-        oi.description = 'The Resolute Desk serves as President Bartlet\'s command post during this decisive moment. He stands behind it as he delivers his instructions to Charlie, using it as a symbolic anchor of presidential authority and resolve. It silently witnesses the transition from relief to determined action, embodying the weight of leadership in the Oval Office.',
-        oi.status_before = 'Positioned centrally in the Oval Office, the Resolute Desk has been present throughout the tense strategy session, bearing witness to the staff\'s anxiety and the fluctuating fortunes of the hostage situation.',
-        oi.status_after = 'The Resolute Desk remains unchanged physically, but now it stands as a silent testament to a pivotal moment of command and accountability. It has become further imbued with the gravity of presidential decision-making during a crisis, symbolizing the shift from immediate relief to the enduring responsibility of leadership.'
+        oi.description = 'The Resolute Desk serves as the symbolic epicenter of authority in the Oval Office during this pivotal moment. It not only frames President Bartlet’s commanding stance but also underscores the weight of his decision-making. As Bartlet stands behind it, the desk becomes a silent witness to a transformative command for accountability, reflecting both the historical gravitas and contemporary challenges of leadership.',
+        oi.status_before = 'Before the event, the desk exuded its long-established presence as a respected emblem of presidential power, meticulously maintained and constant in its authority.',
+        oi.status_after = 'Following the event, the desk remains unchanged physically yet gains an enriched narrative resonance as it silently endures and testifies to a turning point in the unfolding political drama.'
     WITH oi
     MATCH (o:Object {uuid: 'object_resolute_desk'})
     MATCH (e:Event {uuid: 'event_5_3'})
@@ -787,57 +660,48 @@ MERGE (oi:ObjectInvolvement {uuid: 'objectinvolvement_object_resolute_desk_event
     MERGE (oi)-[:IN_EVENT]->(e);
 MERGE (ap:AgentParticipation {uuid: 'agentparticipation_agent_kate_harper_event_5_1'})
     ON CREATE SET
-        ap.current_status = 'Kate Harper bursts into the Oval Office, interrupting a tense strategy session. She delivers the crucial information that Serbian special police units have successfully secured the compound and that all hostages are safe. Her sudden entrance and urgent announcement immediately capture the attention of everyone in the room, cutting through the heavy atmosphere of the crisis.',
-        ap.emotional_state = 'Focused and professional, Kate is the bearer of good news, though her demeanor remains grounded and serious given the gravity of the situation they\'ve just navigated. There\'s an underlying sense of relief in her delivery, but her primary focus is on conveying the facts clearly and efficiently.',
-        ap.emotional_tags = ["Focused", "professional, Kate is the bearer of good news, though her demeanor remains grounded", "serious given the gravity of the situation they've just navigated. There's an underlying sense of relief in her delivery, but her primary focus is on conveying the facts clearly", "efficiently."],
-        ap.active_plans = ["To inform the President and senior staff of the successful resolution of the hostage situation.", "To provide a concise and accurate update on the operation's outcome."],
-        ap.beliefs = ["In times of crisis, clear and direct communication is paramount.", "Successful intelligence operations are vital for national security.", "Delivering critical information swiftly can alleviate tension and enable effective decision-making."],
-        ap.goals = ["To ensure the President is immediately aware of the positive outcome.", "To shift the room's focus from crisis management to next steps following the successful resolution.", "To contribute to the overall success of the operation by providing timely and accurate intelligence updates."]
+        ap.current_status = 'Kate Harper bursts into the Oval Office with a brisk and assured gait, her step purposeful and unwavering. She navigates through a room thick with tension, her posture erect and her eyes scanning the assembly. Every movement is deliberate—a signal of both authority and urgency—as she cuts through the clutter of a high-stakes strategy session.',
+        ap.emotional_state = 'On the surface, Kate’s expression is steely and calm, exuding the confidence of someone who has seen crises before. However, a closer look reveals a simmering urgency beneath that calm exterior; her focused eyes betray a measured anxiety about the fragile balance of security and vulnerability. Internally, she is driven by a deep commitment to truth and clarity, even as she navigates the pressure of delivering life-altering news in an atmosphere rife with emotional conflict.',
+        ap.emotional_tags = ["On the surface, Kate\u2019s expression is steely", "calm, exuding the confidence of someone who has seen crises before. However, a closer look reveals a simmering urgency beneath that calm exterior; her focused eyes betray a measured anxiety about the fragile balance of security", "vulnerability. Internally, she is driven by a deep commitment to truth", "clarity, even as she navigates the pressure of delivering life-altering news in an atmosphere rife with emotional conflict."],
+        ap.active_plans = ["Deliver the critical update about the secure hostages to immediately alleviate the crisis atmosphere.", "Redirect the focus of the Oval Office leadership to the effective resolution of the conflict.", "Ensure that the intelligence she provides becomes the catalyst for decisive and balanced next steps in the ongoing strategy."],
+        ap.beliefs = ["Accuracy in reporting is paramount during crises.", "Direct, unambiguous communication is essential for effective leadership.", "Every crisis is managed best when truth guides action over panic."],
+        ap.goals = ["Short-term: Calm the immediate tension in the room by confirming the hostages' safety.", "Medium-term: Reestablish trust in the crisis management process among the senior staff.", "Ultimate: Contribute to a broader resolution that upholds national security and integrity under immense pressure."]
     ;
 MERGE (ap:AgentParticipation {uuid: 'agentparticipation_agent_josh_lyman_event_5_2'})
     ON CREATE SET
-        ap.current_status = 'Josh stands by the rain-streaked window, isolated amid the relief in the Oval Office. His posture is tense and withdrawn as he ponders the moral ambiguities of their success.',
-        ap.emotional_state = 'Deeply troubled and introspective, Josh is gripped by a persistent fear of compromising ethical principles even in victory.',
-        ap.emotional_tags = ["Deeply troubled", "introspective, Josh is gripped by a persistent fear of compromising ethical principles even in victory."],
-        ap.active_plans = ["Analyze the cost of political success and consider ways to sustain moral integrity in decision-making."],
-        ap.beliefs = ["Success in political operations should never come at the expense of ethical principles.", "The moral costs of leadership must be weighed carefully against the benefits of any achievement."],
-        ap.goals = ["Resolve the inner conflict about the correctness of their actions.", "Ensure that future decisions do not lead to the sacrifice of core ethical values."]
+        ap.current_status = 'Josh Lyman stands by the expansive Oval Office window, his gaze fixed on the relentless, streaming rain outside. His posture is tense yet controlled, as he leans slightly forward in quiet introspection. His hands are loosely positioned at his sides, betraying subtle gestures of internal agitation and reflective concern.',
+        ap.emotional_state = 'Outwardly, Josh wears a troubled expression marked by apprehension as his eyes follow the falling rain, yet his face also conveys a deep internal conflict. Beneath his composed exterior lies an intense anxiety triggered by past crises and a guarded sorrow for nearly crossing ethical boundaries. This guarded duality combines lingering fear of moral compromise with a steady determination to learn from the experience, highlighting his internal struggle between duty and the personal cost of leadership.',
+        ap.emotional_tags = ["Outwardly, Josh wears a troubled expression marked by apprehension as his eyes follow the falling rain, yet his face also conveys a deep internal conflict. Beneath his composed exterior lies an intense anxiety triggered by past crises", "a guarded sorrow for nearly crossing ethical boundaries. This guarded duality combines lingering fear of moral compromise with a steady determination to learn from the experience, highlighting his internal struggle between duty", "the personal cost of leadership."],
+        ap.active_plans = ["Reassess the decision-making process to ensure future strategies remain ethically sound.", "Reflect critically on past near-misses to adjust ongoing policies amid national crisis.", "Strengthen his internal resolve to prevent success from inadvertently compromising core values."],
+        ap.beliefs = ["The ethical means are as important as the ends in national decision-making.", "Leadership requires both courage and restraint, even during crises.", "Personal responsibility and integrity are non-negotiable in public service."],
+        ap.goals = ["Short-term: Ground his emotions and focus on the immediate implications of the crisis.", "Medium-term: Influence policy adjustments that reinforce ethical governance.", "Ultimate: Ensure that national strategies never sacrifice moral principles for expediency."]
     ;
 MERGE (ap:AgentParticipation {uuid: 'agentparticipation_agent_donna_moss_event_5_2'})
     ON CREATE SET
-        ap.current_status = 'Donna approaches Josh quietly, positioning herself as a steady support amidst the heightened emotional tension in the room.',
-        ap.emotional_state = 'Calm, empathetic, and subtly reassuring, she senses Josh\'s turmoil and works to provide him with comfort.',
-        ap.emotional_tags = ["Calm, empathetic,", "subtly reassuring, she senses Josh's turmoil", "works to provide him with comfort."],
-        ap.active_plans = ["Offer quiet support to Josh and help maintain a sense of collective resilience among the team."],
-        ap.beliefs = ["Emotional support and thoughtful presence are vital in navigating ethical and political crises.", "Team unity is essential for overcoming both external pressures and internal dilemmas."],
-        ap.goals = ["Help Josh regain balance while ensuring that the team stays focused on principled decision-making.", "Contribute to a supportive environment that reinforces moral and ethical standards."]
+        ap.current_status = 'Donna Moss moves quietly into the space beside Josh, her presence calm and deliberate amidst the charged atmosphere. Her steps are measured, and she glances at Josh with a blend of concern and professional composure. Standing close enough to offer support without imposing, her posture and gentle gestures reflect a readiness to provide both practical assistance and an empathetic ear.',
+        ap.emotional_state = 'Donna externally projects a serene and supportive demeanor, displaying calm assurance despite the ongoing crisis. Internally, she wrestles with deep concern for Josh’s well-being and the heavy burden of the decision-making process unfolding around them. Her empathetic nature is intermingled with a steadfast commitment to maintaining clarity and balance, as she silently challenges the encroaching tension with quiet determination and personal resolve.',
+        ap.emotional_tags = ["Donna externally projects a serene", "supportive demeanor, displaying calm assurance despite the ongoing crisis. Internally, she wrestles with deep concern for Josh\u2019s well-being", "the heavy burden of the decision-making process unfolding around them. Her empathetic nature is intermingled with a steadfast commitment to maintaining clarity", "balance, as she silently challenges the encroaching tension with quiet determination", "personal resolve."],
+        ap.active_plans = ["Offer genuine, non-intrusive support to help Josh navigate his inner turmoil.", "Serve as a stable, rational counterbalance to the intense emotions in the room.", "Provide timely reassurance and perspective during the critical aftermath of the crisis."],
+        ap.beliefs = ["Compassion and empathy are essential even in high-pressure political situations.", "Maintaining moral clarity is crucial, regardless of the crisis at hand.", "A steady presence can help mitigate panic and guide collective decision-making."],
+        ap.goals = ["Short-term: Comfort Josh and help alleviate his immediate anxiety.", "Medium-term: Stabilize the emotional climate of the senior staff during the crisis.", "Ultimate: Foster an environment where principled and empathetic leadership prevails."]
     ;
-MERGE (ap:AgentParticipation {uuid: 'agentparticipation_agent_president_bartlet_event_5_3'})
+MERGE (ap:AgentParticipation {uuid: 'agentparticipation_agent_bartlet_event_5_3'})
     ON CREATE SET
-        ap.current_status = 'President Bartlet stands behind the Resolute Desk in the Oval Office, observing his staff as they process the news of the hostages\' safety. He is composed but firm, his gaze steady as he issues clear directives to Charlie Young, indicating his shift from immediate crisis management to the broader implications of the event.',
-        ap.emotional_state = 'His relief at the successful resolution is palpable, yet tempered by a deep sense of gravity. He is serious and resolute, recognizing the precariousness of the situation and the necessity for accountability. There\'s an undercurrent of controlled anger at those who pushed the nation to the brink.',
-        ap.emotional_tags = ["His relief at the successful resolution is palpable, yet tempered by a deep sense of gravity. He is serious", "resolute, recognizing the precariousness of the situation", "the necessity for accountability. There's an undercurrent of controlled anger at those who pushed the nation to the brink."],
-        ap.active_plans = ["To inform the American public about the hostage crisis and the nation's proximity to escalation.", "To hold those responsible for the crisis accountable.", "To communicate with President Kovach and bipartisan leaders to ensure a unified front in addressing the situation."],
-        ap.beliefs = ["The American people have a right to know the truth, especially concerning matters of national security and international crises.", "Leadership demands transparency and accountability, both domestically and on the global stage.", "Bipartisan unity is crucial in times of national crisis to demonstrate strength and resolve."],
-        ap.goals = ["To ensure the American public understands the gravity of the averted crisis and the factors that led to it.", "To initiate a process of accountability, both domestically and internationally, for the parties responsible for the escalation.", "To reinforce his commitment to responsible leadership and principled action, even under immense pressure."]
+        ap.current_status = 'Bartlet stands firmly behind the iconic Resolute Desk, his posture betraying both authority and underlying strain. His measured stance and deliberate gestures serve as a visual command for order as he surveys the room with steely eyes and a resolute set of his jaw.',
+        ap.emotional_state = 'Outwardly, Bartlet masks his deep-seated tension with a calm, authoritative tone, yet beneath the surface he wrestles with inner turmoil and a cautious determination. His expression reveals a controlled fury and somber responsibility, as he balances personal doubts with the urgent need for decisive action.',
+        ap.emotional_tags = ["Outwardly, Bartlet masks his deep-seated tension with a calm, authoritative tone, yet beneath the surface he wrestles with inner turmoil", "a cautious determination. His expression reveals a controlled fury", "somber responsibility, as he balances personal doubts with the urgent need for decisive action."],
+        ap.active_plans = ["Instruct immediate communication with President Kovach to gather necessary updates.", "Summon bipartisan leadership to address the unfolding crisis in a transparent manner.", "Set the stage for public accountability by preparing to address the American people."],
+        ap.beliefs = ["Maintaining transparency with the public is essential for democratic accountability.", "Decisive leadership in times of crisis is necessary to uphold national values.", "Moral responsibility and ethical integrity are the cornerstones of effective governance."],
+        ap.goals = ["Short-term: Ensure crucial leaders are immediately contacted to manage the crisis.", "Medium-term: Stabilize the administration's response through bipartisanship and clear communication.", "Ultimate: Uphold the nation's trust and preserve the integrity of the presidency while never compromising core principles."]
     ;
 MERGE (ap:AgentParticipation {uuid: 'agentparticipation_agent_charlie_young_event_5_3'})
     ON CREATE SET
-        ap.current_status = 'Charlie Young stands in the Oval Office, attentive and ready to respond immediately to President Bartlet\'s instructions. He is the direct recipient of the President\'s command, poised to execute it without hesitation.',
-        ap.emotional_state = 'Focused and dutiful, Charlie reflects the serious atmosphere of the room. He is responsive to the President\'s need for swift action and conveys a sense of quiet efficiency.',
-        ap.emotional_tags = ["Focused", "dutiful, Charlie reflects the serious atmosphere of the room. He is responsive to the President's need for swift action", "conveys a sense of quiet efficiency."],
-        ap.active_plans = ["To immediately contact President Kovach as instructed by President Bartlet.", "To then reach out to the bipartisan leadership as per the President's directive.", "To ensure these contacts are made swiftly and efficiently, facilitating the President's plan for transparency and accountability."],
-        ap.beliefs = ["President Bartlet's commands are of paramount importance and must be executed with speed and precision.", "Maintaining seamless communication channels is vital for effective governance, especially in times of crisis.", "Loyalty and efficiency are key to his role as a presidential aide."],
-        ap.goals = ["To promptly establish communication with President Kovach and bipartisan leaders.", "To facilitate the President's initiative to inform the American public and pursue accountability.", "To ensure the President's directives are carried out flawlessly, contributing to a smooth transition from crisis resolution to strategic communication."]
-    ;
-MERGE (ap:AgentParticipation {uuid: 'agentparticipation_agent_president_kovach_event_5_3'})
-    ON CREATE SET
-        ap.current_status = 'President Kovach is not physically present but exists as the intended recipient of Charlie Young\'s call, and by extension, President Bartlet\'s directive. He is about to be drawn into the unfolding narrative, representing the broader scope of national leadership beyond the immediate White House staff.',
-        ap.emotional_state = '(Implicit) Unaware of the immediate situation but will likely transition to a state of concern and attentiveness upon receiving Charlie\'s call. He is expected to be responsive and prepared to engage with President Bartlet on matters of national importance.',
-        ap.emotional_tags = ["(Implicit) Unaware of the immediate situation but will likely transition to a state of concern", "attentiveness upon receiving Charlie's call. He is expected to be responsive", "prepared to engage with President Bartlet on matters of national importance."],
-        ap.active_plans = ["To receive and understand the information conveyed by Charlie Young on behalf of President Bartlet.", "To engage in conversation with President Bartlet regarding the hostage crisis and its implications.", "To collaborate with President Bartlet and bipartisan leaders on a unified approach to public communication and accountability."],
-        ap.beliefs = ["Inter-governmental communication and cooperation are essential for effective national governance.", "Presidential directives, especially from a fellow leader, warrant immediate attention and consideration.", "Collective leadership is necessary to address significant national and international events."],
-        ap.goals = ["To become fully informed about the details of the hostage crisis and the near-escalation.", "To coordinate with President Bartlet on messaging and strategy moving forward.", "To contribute to a unified and responsible national response to the crisis, emphasizing transparency and accountability."]
+        ap.current_status = 'Charlie stands at attentive readiness near the Resolute Desk, his posture alert and efficient. His calm demeanor complements his subtle movements as he listens intently to the President’s command, prepared to execute his orders with impeccable precision.',
+        ap.emotional_state = 'Charlie displays a composed exterior peppered with an undercurrent of focused determination and loyalty. Though his face remains impassive, there is a flicker of tension as he internalizes the gravity of the directive, aware that every second counts in meeting the administration\'s high-stakes expectations.',
+        ap.emotional_tags = ["Charlie displays a composed exterior peppered with an undercurrent of focused determination", "loyalty. Though his face remains impassive, there is a flicker of tension as he internalizes the gravity of the directive, aware that every second counts in meeting the administration's high-stakes expectations."],
+        ap.active_plans = ["Immediately contact President Kovach to relay the directive.", "Coordinate seamlessly with other staff to mobilize bipartisan leadership.", "Ensure that communication channels remain clear and effective throughout the crisis."],
+        ap.beliefs = ["Discipline and commitment to duty are paramount in the highest echelons of leadership.", "Every member of the team plays a vital role in crisis management.", "Absolute loyalty to the President and integrity in executing orders are non-negotiable."],
+        ap.goals = ["Short-term: Execute the direct order by swiftly contacting President Kovach.", "Medium-term: Facilitate smooth coordination among the leadership to address the crisis effectively.", "Ultimate: Maintain a reputation of unwavering professionalism and contribute decisively to the national effort."]
     ;
 MATCH (a:Scene {uuid: 'scene_1'}),
           (b:Location {uuid: 'location_white_house_situation_room'})
@@ -866,12 +730,6 @@ MATCH (a:Event {uuid: 'event_1_4'}),
 MATCH (a:Event {uuid: 'event_1_3'}),
           (b:Event {uuid: 'event_1_4'})
     MERGE (a)-[:NEXT_EVENT]->(b);
-MATCH (a:Event {uuid: 'event_1_5'}),
-          (b:Scene {uuid: 'scene_1'})
-    MERGE (a)-[:OCCURS_IN]->(b);
-MATCH (a:Event {uuid: 'event_1_4'}),
-          (b:Event {uuid: 'event_1_5'})
-    MERGE (a)-[:NEXT_EVENT]->(b);
 MATCH (a:Agent {uuid: 'agent_josh_lyman'}),
           (b:AgentParticipation {uuid: 'agentparticipation_agent_josh_lyman_event_1_1'})
     MERGE (a)-[:PARTICIPATES_IN]->(b);
@@ -891,28 +749,28 @@ MATCH (a:AgentParticipation {uuid: 'agentparticipation_agent_donna_moss_event_1_
           (b:Event {uuid: 'event_1_3'})
     MERGE (a)-[:IN_EVENT]->(b);
 MATCH (a:Agent {uuid: 'agent_kate_harper'}),
-          (b:AgentParticipation {uuid: 'agentparticipation_agent_kate_harper_event_1_4'})
+          (b:AgentParticipation {uuid: 'agentparticipation_agent_kate_harper_event_1_3'})
     MERGE (a)-[:PARTICIPATES_IN]->(b);
-MATCH (a:AgentParticipation {uuid: 'agentparticipation_agent_kate_harper_event_1_4'}),
+MATCH (a:AgentParticipation {uuid: 'agentparticipation_agent_kate_harper_event_1_3'}),
+          (b:Event {uuid: 'event_1_3'})
+    MERGE (a)-[:IN_EVENT]->(b);
+MATCH (a:Agent {uuid: 'agent_bartlet'}),
+          (b:AgentParticipation {uuid: 'agentparticipation_agent_bartlet_event_1_4'})
+    MERGE (a)-[:PARTICIPATES_IN]->(b);
+MATCH (a:AgentParticipation {uuid: 'agentparticipation_agent_bartlet_event_1_4'}),
           (b:Event {uuid: 'event_1_4'})
     MERGE (a)-[:IN_EVENT]->(b);
-MATCH (a:Agent {uuid: 'agent_president_bartlet'}),
-          (b:AgentParticipation {uuid: 'agentparticipation_agent_president_bartlet_event_1_5'})
-    MERGE (a)-[:PARTICIPATES_IN]->(b);
-MATCH (a:AgentParticipation {uuid: 'agentparticipation_agent_president_bartlet_event_1_5'}),
-          (b:Event {uuid: 'event_1_5'})
-    MERGE (a)-[:IN_EVENT]->(b);
 MATCH (a:Agent {uuid: 'agent_leo_mcgarry'}),
-          (b:AgentParticipation {uuid: 'agentparticipation_agent_leo_mcgarry_event_1_5'})
+          (b:AgentParticipation {uuid: 'agentparticipation_agent_leo_mcgarry_event_1_4'})
     MERGE (a)-[:PARTICIPATES_IN]->(b);
-MATCH (a:AgentParticipation {uuid: 'agentparticipation_agent_leo_mcgarry_event_1_5'}),
-          (b:Event {uuid: 'event_1_5'})
+MATCH (a:AgentParticipation {uuid: 'agentparticipation_agent_leo_mcgarry_event_1_4'}),
+          (b:Event {uuid: 'event_1_4'})
     MERGE (a)-[:IN_EVENT]->(b);
 MATCH (a:Agent {uuid: 'agent_general_alexander'}),
-          (b:AgentParticipation {uuid: 'agentparticipation_agent_general_alexander_event_1_5'})
+          (b:AgentParticipation {uuid: 'agentparticipation_agent_general_alexander_event_1_4'})
     MERGE (a)-[:PARTICIPATES_IN]->(b);
-MATCH (a:AgentParticipation {uuid: 'agentparticipation_agent_general_alexander_event_1_5'}),
-          (b:Event {uuid: 'event_1_5'})
+MATCH (a:AgentParticipation {uuid: 'agentparticipation_agent_general_alexander_event_1_4'}),
+          (b:Event {uuid: 'event_1_4'})
     MERGE (a)-[:IN_EVENT]->(b);
 MATCH (a:Scene {uuid: 'scene_2'}),
           (b:Location {uuid: 'location_vice_presidents_office'})
@@ -932,35 +790,11 @@ MATCH (a:Event {uuid: 'event_2_2'}),
 MATCH (a:Event {uuid: 'event_2_1'}),
           (b:Event {uuid: 'event_2_2'})
     MERGE (a)-[:NEXT_EVENT]->(b);
-MATCH (a:Event {uuid: 'event_2_3'}),
-          (b:Scene {uuid: 'scene_2'})
-    MERGE (a)-[:OCCURS_IN]->(b);
-MATCH (a:Event {uuid: 'event_2_2'}),
-          (b:Event {uuid: 'event_2_3'})
-    MERGE (a)-[:NEXT_EVENT]->(b);
 MATCH (a:Agent {uuid: 'agent_bob_russell'}),
           (b:AgentParticipation {uuid: 'agentparticipation_agent_bob_russell_event_2_1'})
     MERGE (a)-[:PARTICIPATES_IN]->(b);
 MATCH (a:AgentParticipation {uuid: 'agentparticipation_agent_bob_russell_event_2_1'}),
           (b:Event {uuid: 'event_2_1'})
-    MERGE (a)-[:IN_EVENT]->(b);
-MATCH (a:Agent {uuid: 'agent_amanda_dalton'}),
-          (b:AgentParticipation {uuid: 'agentparticipation_agent_amanda_dalton_event_2_1'})
-    MERGE (a)-[:PARTICIPATES_IN]->(b);
-MATCH (a:AgentParticipation {uuid: 'agentparticipation_agent_amanda_dalton_event_2_1'}),
-          (b:Event {uuid: 'event_2_1'})
-    MERGE (a)-[:IN_EVENT]->(b);
-MATCH (a:Agent {uuid: 'agent_president_bartlet'}),
-          (b:AgentParticipation {uuid: 'agentparticipation_agent_president_bartlet_event_2_1'})
-    MERGE (a)-[:PARTICIPATES_IN]->(b);
-MATCH (a:AgentParticipation {uuid: 'agentparticipation_agent_president_bartlet_event_2_1'}),
-          (b:Event {uuid: 'event_2_1'})
-    MERGE (a)-[:IN_EVENT]->(b);
-MATCH (a:Agent {uuid: 'agent_margaret'}),
-          (b:AgentParticipation {uuid: 'agentparticipation_agent_margaret_event_2_2'})
-    MERGE (a)-[:PARTICIPATES_IN]->(b);
-MATCH (a:AgentParticipation {uuid: 'agentparticipation_agent_margaret_event_2_2'}),
-          (b:Event {uuid: 'event_2_2'})
     MERGE (a)-[:IN_EVENT]->(b);
 MATCH (a:Agent {uuid: 'agent_bob_russell'}),
           (b:AgentParticipation {uuid: 'agentparticipation_agent_bob_russell_event_2_2'})
@@ -968,29 +802,11 @@ MATCH (a:Agent {uuid: 'agent_bob_russell'}),
 MATCH (a:AgentParticipation {uuid: 'agentparticipation_agent_bob_russell_event_2_2'}),
           (b:Event {uuid: 'event_2_2'})
     MERGE (a)-[:IN_EVENT]->(b);
-MATCH (a:Agent {uuid: 'agent_bob_russell'}),
-          (b:AgentParticipation {uuid: 'agentparticipation_agent_bob_russell_event_2_3'})
-    MERGE (a)-[:PARTICIPATES_IN]->(b);
-MATCH (a:AgentParticipation {uuid: 'agentparticipation_agent_bob_russell_event_2_3'}),
-          (b:Event {uuid: 'event_2_3'})
-    MERGE (a)-[:IN_EVENT]->(b);
-MATCH (a:Agent {uuid: 'agent_president_bartlet'}),
-          (b:AgentParticipation {uuid: 'agentparticipation_agent_president_bartlet_event_2_3'})
-    MERGE (a)-[:PARTICIPATES_IN]->(b);
-MATCH (a:AgentParticipation {uuid: 'agentparticipation_agent_president_bartlet_event_2_3'}),
-          (b:Event {uuid: 'event_2_3'})
-    MERGE (a)-[:IN_EVENT]->(b);
-MATCH (a:Agent {uuid: 'agent_amanda_dalton'}),
-          (b:AgentParticipation {uuid: 'agentparticipation_agent_amanda_dalton_event_2_3'})
-    MERGE (a)-[:PARTICIPATES_IN]->(b);
-MATCH (a:AgentParticipation {uuid: 'agentparticipation_agent_amanda_dalton_event_2_3'}),
-          (b:Event {uuid: 'event_2_3'})
-    MERGE (a)-[:IN_EVENT]->(b);
 MATCH (a:Agent {uuid: 'agent_margaret'}),
-          (b:AgentParticipation {uuid: 'agentparticipation_agent_margaret_event_2_3'})
+          (b:AgentParticipation {uuid: 'agentparticipation_agent_margaret_event_2_2'})
     MERGE (a)-[:PARTICIPATES_IN]->(b);
-MATCH (a:AgentParticipation {uuid: 'agentparticipation_agent_margaret_event_2_3'}),
-          (b:Event {uuid: 'event_2_3'})
+MATCH (a:AgentParticipation {uuid: 'agentparticipation_agent_margaret_event_2_2'}),
+          (b:Event {uuid: 'event_2_2'})
     MERGE (a)-[:IN_EVENT]->(b);
 MATCH (a:Scene {uuid: 'scene_3'}),
           (b:Location {uuid: 'location_mural_room'})
@@ -1022,16 +838,16 @@ MATCH (a:Agent {uuid: 'agent_viktor_petrov'}),
 MATCH (a:AgentParticipation {uuid: 'agentparticipation_agent_viktor_petrov_event_3_1'}),
           (b:Event {uuid: 'event_3_1'})
     MERGE (a)-[:IN_EVENT]->(b);
-MATCH (a:Agent {uuid: 'agent_president_bartlet'}),
-          (b:AgentParticipation {uuid: 'agentparticipation_agent_president_bartlet_event_3_2'})
+MATCH (a:Agent {uuid: 'agent_bartlet'}),
+          (b:AgentParticipation {uuid: 'agentparticipation_agent_bartlet_event_3_2'})
     MERGE (a)-[:PARTICIPATES_IN]->(b);
-MATCH (a:AgentParticipation {uuid: 'agentparticipation_agent_president_bartlet_event_3_2'}),
+MATCH (a:AgentParticipation {uuid: 'agentparticipation_agent_bartlet_event_3_2'}),
           (b:Event {uuid: 'event_3_2'})
     MERGE (a)-[:IN_EVENT]->(b);
-MATCH (a:Agent {uuid: 'agent_c_j_cregg'}),
-          (b:AgentParticipation {uuid: 'agentparticipation_agent_c_j_cregg_event_3_3'})
+MATCH (a:Agent {uuid: 'agent_cj_cregg'}),
+          (b:AgentParticipation {uuid: 'agentparticipation_agent_cj_cregg_event_3_3'})
     MERGE (a)-[:PARTICIPATES_IN]->(b);
-MATCH (a:AgentParticipation {uuid: 'agentparticipation_agent_c_j_cregg_event_3_3'}),
+MATCH (a:AgentParticipation {uuid: 'agentparticipation_agent_cj_cregg_event_3_3'}),
           (b:Event {uuid: 'event_3_3'})
     MERGE (a)-[:IN_EVENT]->(b);
 MATCH (a:Scene {uuid: 'scene_4'}),
@@ -1052,12 +868,6 @@ MATCH (a:Event {uuid: 'event_4_2'}),
 MATCH (a:Event {uuid: 'event_4_1'}),
           (b:Event {uuid: 'event_4_2'})
     MERGE (a)-[:NEXT_EVENT]->(b);
-MATCH (a:Event {uuid: 'event_4_3'}),
-          (b:Scene {uuid: 'scene_4'})
-    MERGE (a)-[:OCCURS_IN]->(b);
-MATCH (a:Event {uuid: 'event_4_2'}),
-          (b:Event {uuid: 'event_4_3'})
-    MERGE (a)-[:NEXT_EVENT]->(b);
 MATCH (a:Agent {uuid: 'agent_sam_seaborn'}),
           (b:AgentParticipation {uuid: 'agentparticipation_agent_sam_seaborn_event_4_1'})
     MERGE (a)-[:PARTICIPATES_IN]->(b);
@@ -1065,10 +875,10 @@ MATCH (a:AgentParticipation {uuid: 'agentparticipation_agent_sam_seaborn_event_4
           (b:Event {uuid: 'event_4_1'})
     MERGE (a)-[:IN_EVENT]->(b);
 MATCH (a:Agent {uuid: 'agent_toby_ziegler'}),
-          (b:AgentParticipation {uuid: 'agentparticipation_agent_toby_ziegler_event_4_2'})
+          (b:AgentParticipation {uuid: 'agentparticipation_agent_toby_ziegler_event_4_1'})
     MERGE (a)-[:PARTICIPATES_IN]->(b);
-MATCH (a:AgentParticipation {uuid: 'agentparticipation_agent_toby_ziegler_event_4_2'}),
-          (b:Event {uuid: 'event_4_2'})
+MATCH (a:AgentParticipation {uuid: 'agentparticipation_agent_toby_ziegler_event_4_1'}),
+          (b:Event {uuid: 'event_4_1'})
     MERGE (a)-[:IN_EVENT]->(b);
 MATCH (a:Agent {uuid: 'agent_sam_seaborn'}),
           (b:AgentParticipation {uuid: 'agentparticipation_agent_sam_seaborn_event_4_2'})
@@ -1076,17 +886,11 @@ MATCH (a:Agent {uuid: 'agent_sam_seaborn'}),
 MATCH (a:AgentParticipation {uuid: 'agentparticipation_agent_sam_seaborn_event_4_2'}),
           (b:Event {uuid: 'event_4_2'})
     MERGE (a)-[:IN_EVENT]->(b);
-MATCH (a:Agent {uuid: 'agent_sam_seaborn'}),
-          (b:AgentParticipation {uuid: 'agentparticipation_agent_sam_seaborn_event_4_3'})
-    MERGE (a)-[:PARTICIPATES_IN]->(b);
-MATCH (a:AgentParticipation {uuid: 'agentparticipation_agent_sam_seaborn_event_4_3'}),
-          (b:Event {uuid: 'event_4_3'})
-    MERGE (a)-[:IN_EVENT]->(b);
 MATCH (a:Agent {uuid: 'agent_toby_ziegler'}),
-          (b:AgentParticipation {uuid: 'agentparticipation_agent_toby_ziegler_event_4_3'})
+          (b:AgentParticipation {uuid: 'agentparticipation_agent_toby_ziegler_event_4_2'})
     MERGE (a)-[:PARTICIPATES_IN]->(b);
-MATCH (a:AgentParticipation {uuid: 'agentparticipation_agent_toby_ziegler_event_4_3'}),
-          (b:Event {uuid: 'event_4_3'})
+MATCH (a:AgentParticipation {uuid: 'agentparticipation_agent_toby_ziegler_event_4_2'}),
+          (b:Event {uuid: 'event_4_2'})
     MERGE (a)-[:IN_EVENT]->(b);
 MATCH (a:Scene {uuid: 'scene_5'}),
           (b:Location {uuid: 'location_oval_office'})
@@ -1130,21 +934,15 @@ MATCH (a:Agent {uuid: 'agent_donna_moss'}),
 MATCH (a:AgentParticipation {uuid: 'agentparticipation_agent_donna_moss_event_5_2'}),
           (b:Event {uuid: 'event_5_2'})
     MERGE (a)-[:IN_EVENT]->(b);
-MATCH (a:Agent {uuid: 'agent_president_bartlet'}),
-          (b:AgentParticipation {uuid: 'agentparticipation_agent_president_bartlet_event_5_3'})
+MATCH (a:Agent {uuid: 'agent_bartlet'}),
+          (b:AgentParticipation {uuid: 'agentparticipation_agent_bartlet_event_5_3'})
     MERGE (a)-[:PARTICIPATES_IN]->(b);
-MATCH (a:AgentParticipation {uuid: 'agentparticipation_agent_president_bartlet_event_5_3'}),
+MATCH (a:AgentParticipation {uuid: 'agentparticipation_agent_bartlet_event_5_3'}),
           (b:Event {uuid: 'event_5_3'})
     MERGE (a)-[:IN_EVENT]->(b);
 MATCH (a:Agent {uuid: 'agent_charlie_young'}),
           (b:AgentParticipation {uuid: 'agentparticipation_agent_charlie_young_event_5_3'})
     MERGE (a)-[:PARTICIPATES_IN]->(b);
 MATCH (a:AgentParticipation {uuid: 'agentparticipation_agent_charlie_young_event_5_3'}),
-          (b:Event {uuid: 'event_5_3'})
-    MERGE (a)-[:IN_EVENT]->(b);
-MATCH (a:Agent {uuid: 'agent_president_kovach'}),
-          (b:AgentParticipation {uuid: 'agentparticipation_agent_president_kovach_event_5_3'})
-    MERGE (a)-[:PARTICIPATES_IN]->(b);
-MATCH (a:AgentParticipation {uuid: 'agentparticipation_agent_president_kovach_event_5_3'}),
           (b:Event {uuid: 'event_5_3'})
     MERGE (a)-[:IN_EVENT]->(b);
