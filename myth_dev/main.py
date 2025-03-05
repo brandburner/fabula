@@ -96,11 +96,17 @@ except Exception as e:
 # ]
 # OUTPUT_JSON_PATH = Path("networking_event_graph.json")
 
-INPUT_JSON_PATH = Path("/home/user/fabula/source_docs/ai_fanfic/doctor_who/quantum_archive_transcript.json")
+# INPUT_JSON_PATH = Path("/home/user/fabula/source_docs/ai_fanfic/doctor_who/quantum_archive_transcript.json")
+# CONTEXT_FILES = [
+#     Path("/home/user/fabula/source_docs/ai_fanfic/doctor_who/quantum_archive_novelization.txt")
+# ]
+# OUTPUT_JSON_PATH = Path("quantum_archive_graph.json")
+
+INPUT_JSON_PATH = Path("/home/user/fabula/old_utilities/doctor_who/doctor10/json/blink_transcript.json")
 CONTEXT_FILES = [
-    Path("/home/user/fabula/source_docs/ai_fanfic/doctor_who/quantum_archive_novelization.txt")
+    Path("/home/user/fabula/old_utilities/doctor_who/doctor10/resource/txt/blink_summary.txt")
 ]
-OUTPUT_JSON_PATH = Path("quantum_archive_graph.json")
+OUTPUT_JSON_PATH = Path("blink_graph.json")
 
 
 def load_context_documents(context_files: Optional[List[Path]] = None) -> str:
