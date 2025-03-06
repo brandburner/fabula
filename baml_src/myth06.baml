@@ -129,7 +129,7 @@ class SceneMetadata {
 // --- Functions ---
 
 function ExtractSceneMetadata(scene_text: string, story_synopsis: string?, scene_number: int, locations: Location[]) -> SceneMetadata {
-    client OpenRouter
+    client GemkuA
     prompt #"
         {{ Narrative_analyst_persona ()}}
 
@@ -162,7 +162,7 @@ function ExtractSceneMetadata(scene_text: string, story_synopsis: string?, scene
 }
 
 function ExtractEvents(scene_text: string, registry_context: string?, story_synopsis: string?, scene_number: int) -> Event[] {
-    client OpenRouter
+    client GemkuA
     prompt #"
         {{ Narrative_analyst_persona ()}}
 
@@ -237,7 +237,7 @@ function ExtractEvents(scene_text: string, registry_context: string?, story_syno
 }
 
 function ExtractAgents(scene_text: string, story_synopsis: string?, agent_name_to_uuid_mapping: map<string, string>, scene_number: int, organizations: Organization[]) -> Agent[] {
-    client OpenRouter
+    client GemkuB
     prompt #"
         {{ Narrative_analyst_persona ()}}
 
@@ -299,7 +299,7 @@ function ExtractAgents(scene_text: string, story_synopsis: string?, agent_name_t
     }
 
 function ExtractObjects(scene_text: string, story_synopsis: string?, scene_number: int, agents: Agent[]) -> Object[] {
-    client OpenRouter
+    client GemkuA
     prompt #"
         {{ Narrative_analyst_persona ()}}
 
@@ -344,7 +344,7 @@ function ExtractObjects(scene_text: string, story_synopsis: string?, scene_numbe
     "#
 }
 function ExtractAgentParticipations(scene_text: string, registry_context: string?, story_synopsis: string?, event: Event, scene_number: int) -> AgentParticipation[] {
-  client OpenRouter
+  client GemkuB
   prompt #"
     {{ Narrative_analyst_persona ()}}
 
@@ -406,7 +406,7 @@ function ExtractAgentParticipations(scene_text: string, registry_context: string
 }
 
 function ExtractObjectInvolvements(scene_text: string, registry_context: string?, story_synopsis: string?, event: Event, scene_number: int) -> ObjectInvolvement[] {
-  client OpenRouter
+  client GemkuA
   prompt #"
     {{ Narrative_analyst_persona ()}}
 
@@ -456,7 +456,7 @@ function ExtractObjectInvolvements(scene_text: string, registry_context: string?
 }
 
 function ExtractLocations(scene_text: string, story_synopsis: string?, scene_number: int) -> Location[] {
-   client OpenRouter
+   client GemkuB
    prompt #"
        {{ Narrative_analyst_persona ()}}
 
@@ -500,7 +500,7 @@ function ExtractOrganizations(
     agents: Agent[],
     organizations: Organization[]
 ) -> Organization[] {
-    client OpenRouter
+    client GemkuA
     prompt #"
         {{ Narrative_analyst_persona ()}}
 
@@ -603,7 +603,7 @@ class ResolvedLocation {
 }
 
 function ResolveAgentCluster(entities: Agent[]) -> ResolvedAgent[] {
-    client OpenRouter
+    client Customo3Mini
     prompt #"
         {{ Narrative_analyst_persona ()}}
 
@@ -640,7 +640,7 @@ function ResolveAgentCluster(entities: Agent[]) -> ResolvedAgent[] {
 }
 
 function ResolveOrganizationCluster(entities: Organization[]) -> ResolvedOrganization[] {
-    client OpenRouter
+    client Customo3Mini
     prompt #"
         {{ Narrative_analyst_persona ()}}
 
@@ -674,7 +674,7 @@ function ResolveOrganizationCluster(entities: Organization[]) -> ResolvedOrganiz
 }
 
 function ResolveLocationCluster(entities: Location[]) -> ResolvedLocation[] {
-    client OpenRouter
+    client Customo3Mini
     prompt #"
         {{ Narrative_analyst_persona ()}}
 
@@ -707,7 +707,7 @@ function ResolveLocationCluster(entities: Location[]) -> ResolvedLocation[] {
 }
 
 function ResolveObjectCluster(entities: Object[]) -> ResolvedObject[] {
-    client OpenRouter
+    client Customo3Mini
     prompt #"
         {{ Narrative_analyst_persona ()}}
 

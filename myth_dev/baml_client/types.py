@@ -156,12 +156,6 @@ class ResolvedOrganization(BaseModel):
     members: Union[List[str], Optional[None]] = None
     source_uuids: Optional[List[str]] = None
 
-class Resume(BaseModel):
-    name: str
-    email: str
-    experience: List[str]
-    skills: List[str]
-
 class Scene(BaseModel):
     title: str
     description: str

@@ -102,11 +102,11 @@ except Exception as e:
 # ]
 # OUTPUT_JSON_PATH = Path("quantum_archive_graph.json")
 
-INPUT_JSON_PATH = Path("/home/user/fabula/old_utilities/doctor_who/doctor10/json/blink_transcript.json")
+INPUT_JSON_PATH = Path("/home/user/fabula/myth_dev/5doctors.json")
 CONTEXT_FILES = [
-    Path("/home/user/fabula/old_utilities/doctor_who/doctor10/resource/txt/blink_summary.txt")
+    Path("/home/user/fabula/old_utilities/doctor_who/doctor5/resource/novel/the_five_doctors_novel.txt")
 ]
-OUTPUT_JSON_PATH = Path("blink_graph.json")
+OUTPUT_JSON_PATH = Path("the_five_doctors_graph.json")
 
 
 def load_context_documents(context_files: Optional[List[Path]] = None) -> str:

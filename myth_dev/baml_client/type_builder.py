@@ -22,7 +22,7 @@ from .globals import DO_NOT_USE_DIRECTLY_UNLESS_YOU_KNOW_WHAT_YOURE_DOING_RUNTIM
 class TypeBuilder(_TypeBuilder):
     def __init__(self):
         super().__init__(classes=set(
-          ["Agent","AgentParticipation","CypherQuery","Episode","Event","EventInteractions","Location","Object","ObjectInvolvement","Organization","PrimaryEntities","ResolvedAgent","ResolvedLocation","ResolvedObject","ResolvedOrganization","Resume","Scene","SceneData","SceneMetadata",]
+          ["Agent","AgentParticipation","CypherQuery","Episode","Event","EventInteractions","Location","Object","ObjectInvolvement","Organization","PrimaryEntities","ResolvedAgent","ResolvedLocation","ResolvedObject","ResolvedOrganization","Scene","SceneData","SceneMetadata",]
         ), enums=set(
           []
         ), runtime=DO_NOT_USE_DIRECTLY_UNLESS_YOU_KNOW_WHAT_YOURE_DOING_RUNTIME)

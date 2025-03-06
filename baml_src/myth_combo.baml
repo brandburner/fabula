@@ -43,7 +43,7 @@ function ExtractPrimaryEntities(
     existing_agents: Agent[],
     registry_context: string?
 ) -> PrimaryEntities {
-    client OpenRouter
+    client GemkuA
     prompt #"
         {{ Narrative_analyst_cot() }}
 
@@ -194,7 +194,7 @@ function ExtractSceneData(
     scene_uuid: string,
     locations: Location[]
 ) -> SceneData {
-    client OpenRouter
+    client GemkuB
     prompt #"
         {{ Narrative_analyst_cot() }}
 
@@ -319,7 +319,7 @@ function ExtractEventInteractions(
     event: Event,
     scene_number: int
 ) -> EventInteractions {
-    client OpenRouter
+    client GemkuA
     prompt #"
         {{ Narrative_analyst_cot() }}
 

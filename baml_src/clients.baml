@@ -53,13 +53,14 @@ client<llm> CustomSonnet {
 
 
 client<llm> CustomHaiku {
-  provider anthropic
-  retry_policy Constant
+  provider "openai-generic"
   options {
-    model "claude-3-haiku-20240307"
-    api_key env.ANTHROPIC_API_KEY
+    base_url "https://openrouter.ai/api/v1"
+    api_key env.OPENROUTER_API_KEY
+    model "anthropic/claude-3-haiku"
   }
 }
+
 client<llm> CustomGemini {
   provider google-ai
   retry_policy Exponential
@@ -93,7 +94,7 @@ client<llm> OpenRouter {
   options {
     base_url "https://openrouter.ai/api/v1"
     api_key env.OPENROUTER_API_KEY
-    model "openai/o3-mini"
+    model "meta-llama/llama-3.3-70b-instruct"
   }
 }
 
