@@ -10,7 +10,6 @@ __pycache__/
 old_utilities/
 .idx/
 .venv/
-baml_src/
 combined_code.txt
 episode_processing.log
 fabula_processing.log
