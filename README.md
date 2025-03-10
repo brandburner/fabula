@@ -80,13 +80,13 @@ Combined mode extracts all primary entities (agents, locations, organizations, o
 python main.py input_file.json --combined
 ```
 
-### Fully Combined Mode (`--fully-combined`)
+### Fully Combined Mode (`--fully-combined`) RECOMMENDED
 This mode extracts both primary and secondary entities (events, participations, etc.) in combined calls, offering the best performance. This is recommended for most use cases.
 ```bash
 python main.py input_file.json --fully-combined
 ```
 
-### Batch Resolution (`--batch-resolution`)
+### Batch Resolution (`--batch-resolution`) RECOMMENDED
 For large datasets, batch resolution processes entity resolution in smaller groups, improving performance and reducing API costs.
 ```bash
 python main.py input_file.json --batch-resolution
@@ -111,14 +111,14 @@ fabula/
 ├── utils/
 │   ├── script2json.py    # Script preprocessing
 │   ├── fabula_graphrag.py # Natural language query tool
-│   └── other utilities...
+│   └── json_cypher.py  # Generate graph as Cypher statements
 └── baml_src/
     └── myth06.baml       # BAML extraction definitions
 ```
 
 ## Key Components
 
-### Script Pre-processing (`script2json.py`)
+### Script Pre-processing (`utils/script2json.py`)
 
 The script converter is designed to work with TV/film scripts from sources like chakoteya.net. It:
 - Parses HTML/text scripts into structured JSON
@@ -153,7 +153,7 @@ Example output structure:
 }
 ```
 
-### Cypher Generation (`json_cypher.py`)
+### Cypher Generation (`utils/json_cypher.py`)
 
 Converts processed story data into Neo4j Cypher queries for graph database import. Features:
 - Generates schema cleanup and constraint creation
@@ -162,9 +162,48 @@ Converts processed story data into Neo4j Cypher queries for graph database impor
 - Handles metadata and properties
 - Supports incremental updates
 
-### Natural Language Queries (Coming Soon)
+I can update the "Natural Language Queries" section of your README to better reflect the current state and capabilities of your system. Here's an improved version:
 
-A tool for natural language querying of your story graph database is in development.
+```markdown
+## Natural Language Queries ('utils/fabula_graphrag.py')
+
+The `fabula_graphrag.py` tool enables natural language querying of your narrative knowledge graphs, allowing exploration without writing Cypher queries:
+
+### Features
+
+- Dynamic schema extraction from Neo4j database
+- LLM-based question decomposition for complex narrative inquiries
+- BAML-constrained Cypher generation for accurate queries
+- Multi-hop path exploration for deep narrative connections
+- Rich answer synthesis with narrative context
+
+### Usage
+
+```python
+# Basic usage
+python fabula_graphrag.py
+
+# With custom Neo4j connection
+python fabula_graphrag.py --uri bolt://localhost:7687 --username neo4j --password password
+```
+
+Example questions:
+- "What happens prior to the Doctor's arrival?"
+- "How does Josh's emotional state change throughout the episode?"
+- "Which characters visit the White House Situation Room?"
+- "What objects are significant to the main character's development?"
+
+### Implementation Details
+
+The system:
+1. Extracts and enriches the database schema with narrative semantics
+2. Decomposes complex questions into focused sub-questions
+3. Generates Cypher queries constrained by BAML templates
+4. Traverses multi-hop relationships to find narrative connections
+5. Synthesizes results into coherent narrative answers
+
+The architecture combines BAML's structured output guarantees with rich narrative exploration capabilities, allowing both precise fact retrieval and deeper thematic analysis.
+```
 
 ## Development Status
 
