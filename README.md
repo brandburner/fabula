@@ -162,9 +162,6 @@ Converts processed story data into Neo4j Cypher queries for graph database impor
 - Handles metadata and properties
 - Supports incremental updates
 
-I can update the "Natural Language Queries" section of your README to better reflect the current state and capabilities of your system. Here's an improved version:
-
-```markdown
 ## Natural Language Queries ('utils/fabula_graphrag.py')
 
 The `fabula_graphrag.py` tool enables natural language querying of your narrative knowledge graphs, allowing exploration without writing Cypher queries:
@@ -203,7 +200,6 @@ The system:
 5. Synthesizes results into coherent narrative answers
 
 The architecture combines BAML's structured output guarantees with rich narrative exploration capabilities, allowing both precise fact retrieval and deeper thematic analysis.
-```
 
 ## Development Status
 
