@@ -450,6 +450,31 @@ class BamlAsyncClient:
       )
       return cast(types.CypherQuery, raw.cast_to(types, types, partial_types, False))
     
+    async def ValidateCypherOld(
+        self,
+        question: str,
+        baml_options: BamlCallOptions = {},
+    ) -> types.CypherQuery:
+      __tb__ = baml_options.get("tb", None)
+      if __tb__ is not None:
+        tb = __tb__._tb # type: ignore (we know how to use this private attribute)
+      else:
+        tb = None
+      __cr__ = baml_options.get("client_registry", None)
+      collector = baml_options.get("collector", None)
+      collectors = collector if isinstance(collector, list) else [collector] if collector is not None else []
+      raw = await self.__runtime.call_function(
+        "ValidateCypherOld",
+        {
+          "question": question,
+        },
+        self.__ctx_manager.get(),
+        tb,
+        __cr__,
+        collectors,
+      )
+      return cast(types.CypherQuery, raw.cast_to(types, types, partial_types, False))
+    
 
 
 class BamlStreamClient:
@@ -1001,6 +1026,38 @@ class BamlStreamClient:
         {
           "question": question,
           "available_apoc_functions": available_apoc_functions,
+        },
+        None,
+        self.__ctx_manager.get(),
+        tb,
+        __cr__,
+        collectors,
+      )
+
+      return baml_py.BamlStream[partial_types.CypherQuery, types.CypherQuery](
+        raw,
+        lambda x: cast(partial_types.CypherQuery, x.cast_to(types, types, partial_types, True)),
+        lambda x: cast(types.CypherQuery, x.cast_to(types, types, partial_types, False)),
+        self.__ctx_manager.get(),
+      )
+    
+    def ValidateCypherOld(
+        self,
+        question: str,
+        baml_options: BamlCallOptions = {},
+    ) -> baml_py.BamlStream[partial_types.CypherQuery, types.CypherQuery]:
+      __tb__ = baml_options.get("tb", None)
+      if __tb__ is not None:
+        tb = __tb__._tb # type: ignore (we know how to use this private attribute)
+      else:
+        tb = None
+      __cr__ = baml_options.get("client_registry", None)
+      collector = baml_options.get("collector", None)
+      collectors = collector if isinstance(collector, list) else [collector] if collector is not None else []
+      raw = self.__runtime.stream_function(
+        "ValidateCypherOld",
+        {
+          "question": question,
         },
         None,
         self.__ctx_manager.get(),

@@ -85,6 +85,9 @@ class Location(BaseModel):
     description: Optional[str] = None
     type: Optional[str] = None
 
+class NodeLabel(BaseModel):
+    name: Optional[Union[Literal["Agent"], Literal["Organization"], Literal["Location"], Literal["Object"], Literal["Scene"], Literal["Event"], Literal["AgentParticipation"], Literal["ObjectInvolvement"]]] = None
+
 class Object(BaseModel):
     uuid: Optional[str] = None
     name: Optional[str] = None
@@ -113,6 +116,19 @@ class PrimaryEntities(BaseModel):
     organizations: List["Organization"]
     locations: List["Location"]
     objects: List["Object"]
+
+class PropertyName(BaseModel):
+    agent: Optional[Union[Literal["uuid"], Literal["name"], Literal["description"], Literal["traits"], Literal["affiliated_org"]]] = None
+    organization: Optional[Union[Literal["uuid"], Literal["name"], Literal["description"], Literal["sphere_of_influence"], Literal["members"]]] = None
+    location: Optional[Union[Literal["uuid"], Literal["name"], Literal["description"], Literal["type"]]] = None
+    object: Optional[Union[Literal["uuid"], Literal["name"], Literal["description"], Literal["purpose"], Literal["significance"], Literal["original_owner"]]] = None
+    scene: Optional[Union[Literal["uuid"], Literal["title"], Literal["description"], Literal["scene_number"], Literal["location"], Literal["next_scene"]]] = None
+    event: Optional[Union[Literal["uuid"], Literal["title"], Literal["description"], Literal["sequence_within_scene"], Literal["key_dialogue"], Literal["next_event"]]] = None
+    agentParticipation: Optional[Union[Literal["uuid"], Literal["agent"], Literal["event"], Literal["current_status"], Literal["emotional_state"]]] = None
+    objectInvolvement: Optional[Union[Literal["uuid"], Literal["object"], Literal["event"], Literal["description_of_involvement"]]] = None
+
+class RelationType(BaseModel):
+    name: Optional[Union[Literal["NEXT_SCENE"], Literal["OCCURS_IN"], Literal["NEXT_EVENT"], Literal["PARTICIPATES_IN"], Literal["IN_EVENT"], Literal["INVOLVED_IN"], Literal["OWNS"], Literal["AFFILIATED_WITH"], Literal["PART_OF"], Literal["LOCATED_IN"]]] = None
 
 class ResolvedAgent(BaseModel):
     uuid: Optional[str] = None

@@ -1,4 +1,4 @@
-// File: fabula_dev/myth06.baml
+// File: baml_src/myth06.baml
 // Jinja-like template syntax for baml python library
 // Defines classes, enums and functions to guide LLM output to strict schema alignment
 

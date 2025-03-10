@@ -1,8 +1,9 @@
 # json_cypher.py
 
 import json
+import datetime
 from pathlib import Path
-from typing import List, Dict, Union
+from typing import List, Dict, Union, Set
 from dataclasses import dataclass
 from enum import Enum
 import logging
@@ -24,11 +25,22 @@ class RelationshipType(Enum):
     AFFILIATED_WITH = "AFFILIATED_WITH"
     PART_OF = "PART_OF"
     LOCATED_IN = "LOCATED_IN"
+    # Added relationship types
+    APPEARS_IN = "APPEARS_IN"
+    HAPPENED_BEFORE = "HAPPENED_BEFORE"
+    INTERACTED_WITH = "INTERACTED_WITH"
+    CO_PRESENT_WITH = "CO_PRESENT_WITH"
+    VISITED_LOCATION = "VISITED_LOCATION"
 
 @dataclass
 class CypherStatement:
     statement: str
     priority: int = 0  # Higher numbers execute later
+
+def generate_consistent_uuid(entity_type: str, entity_id: str) -> str:
+    """Generates consistent UUIDs across all entity types."""
+    clean_id = str(entity_id).lower().replace(" ", "_").replace("-", "_")
+    return f"{entity_type}_{clean_id}"
 
 def escape_cypher_string(value: str) -> str:
     """Escapes special characters in strings for Cypher."""
@@ -93,6 +105,18 @@ def generate_indexes() -> List[CypherStatement]:
 def generate_clear_graph() -> CypherStatement:
     """Generates Cypher statement to clear the existing graph."""
     return CypherStatement("MATCH (n) DETACH DELETE n;", 0)
+
+def generate_graph_metadata(source_file: str) -> CypherStatement:
+    """Adds metadata about the graph creation process."""
+    timestamp = datetime.datetime.now().isoformat()
+    query = f"""
+    CREATE (m:GraphMetadata {{
+        source_file: '{escape_cypher_string(source_file)}',
+        creation_timestamp: '{escape_cypher_string(timestamp)}',
+        version: '1.0'
+    }});
+    """
+    return CypherStatement(query, 0)
 
 def generate_agent_node_cypher(agent: Dict) -> CypherStatement:
     """Generates Cypher for an Agent node ensuring no duplication."""
@@ -171,7 +195,8 @@ def generate_object_node_cypher(obj: Dict) -> CypherStatement:
 def generate_episode_node_cypher(episode: Dict) -> CypherStatement:
     """Generates Cypher for Episode nodes."""
     title = episode.get("episode_title", "Untitled Episode")
-    episode_uuid = f"episode-{title.lower().replace(' ', '_')}"
+    # Using consistent UUID format
+    episode_uuid = generate_consistent_uuid("episode", title)
     description = episode.get("description", "")
     airdate = episode.get("airdate", "")
     
@@ -225,19 +250,33 @@ def generate_event_node_cypher(event: Dict) -> CypherStatement:
     ON CREATE SET
         e.title = '{escape_cypher_string(title)}',
         e.description = '{escape_cypher_string(description)}',
-        e.sequence = {sequence},
+        e.sequence_within_scene = {sequence},
         e.key_dialogue = {key_dialogue}
     ;
     """
     return CypherStatement(query.strip(), 1)
 
 def generate_agent_participation_node_cypher(participation: Dict) -> CypherStatement:
-    """Generates Cypher for AgentParticipation nodes."""
+    """Generates Cypher for AgentParticipation nodes with improved emotional parsing."""
     uuid = participation.get("uuid", "")
     current_status = participation.get("current_status", "")
     emotional_state = participation.get("emotional_state", "")
-    # Split the emotional_state into tags based on 'and' (this can be refined)
-    emotional_tags = json.dumps([tag.strip() for tag in emotional_state.split("and")])
+    
+    # Improved emotional state parsing
+    emotion_words = []
+    for splitter in [" and ", ",", ";", " while ", " but ", " as well as "]:
+        if splitter in emotional_state:
+            emotion_parts = emotional_state.split(splitter)
+            for part in emotion_parts:
+                clean_emotion = part.strip().lower()
+                if clean_emotion and clean_emotion not in emotion_words:
+                    emotion_words.append(clean_emotion)
+    
+    # If no splitters found, use the whole string
+    if not emotion_words and emotional_state:
+        emotion_words = [emotional_state.strip().lower()]
+    
+    emotional_tags = json.dumps(emotion_words)
     active_plans = json.dumps(participation.get("active_plans", []))
     beliefs = json.dumps(participation.get("beliefs", []))
     goals = json.dumps(participation.get("goals", []))
@@ -315,10 +354,103 @@ def generate_scene_episode_relationship(scene_uuid: str, episode_uuid: str) -> C
     """
     return CypherStatement(query.strip(), 3)
 
+def generate_temporal_sequence_relationships(events: List[Dict]) -> List[CypherStatement]:
+    """Create additional temporal relationships based on sequence numbers."""
+    statements = []
+    
+    # Map of events by their sequence numbers
+    events_by_sequence = defaultdict(list)
+    for event in events:
+        if 'sequence_within_scene' in event:
+            events_by_sequence[event['sequence_within_scene']].append(event['uuid'])
+    
+    # Create HAPPENED_BEFORE relationships
+    for seq in sorted(events_by_sequence.keys()):
+        earlier_events = []
+        for earlier_seq, event_ids in sorted(events_by_sequence.items()):
+            if earlier_seq < seq:
+                earlier_events.extend(event_ids)
+        
+        for later_event in events_by_sequence[seq]:
+            for earlier_event in earlier_events:
+                stmt = f"""
+                MATCH (e1:Event {{uuid: '{earlier_event}'}}),
+                      (e2:Event {{uuid: '{later_event}'}})
+                MERGE (e1)-[:HAPPENED_BEFORE]->(e2);
+                """
+                statements.append(CypherStatement(stmt, 4))
+    
+    return statements
+
+def generate_inference_relationships() -> List[CypherStatement]:
+    """Creates inferred relationships to enrich the graph."""
+    inferences = [
+        # Infer Agent-Scene relationships
+        """
+        MATCH (a:Agent)-[:PARTICIPATES_IN]->(:AgentParticipation)-[:IN_EVENT]->(e:Event)-[:OCCURS_IN]->(s:Scene)
+        WITH DISTINCT a, s
+        MERGE (a)-[:APPEARS_IN]->(s);
+        """,
+        
+        # Infer Agent-Location relationships
+        """
+        MATCH (a:Agent)-[:APPEARS_IN]->(s:Scene)-[:LOCATED_IN]->(l:Location)
+        WITH DISTINCT a, l
+        MERGE (a)-[:VISITED_LOCATION]->(l);
+        """,
+        
+        # Infer direct connections between co-present agents
+        """
+        MATCH (a1:Agent)-[:APPEARS_IN]->(s:Scene)<-[:APPEARS_IN]-(a2:Agent)
+        WHERE a1 <> a2
+        WITH DISTINCT a1, a2
+        MERGE (a1)-[:CO_PRESENT_WITH]->(a2);
+        """,
+        
+        # Infer direct connections between agents and objects they interact with
+        """
+        MATCH (a:Agent)-[:PARTICIPATES_IN]->(:AgentParticipation)-[:IN_EVENT]->(e:Event)<-[:IN_EVENT]-(:ObjectInvolvement)<-[:INVOLVED_IN]-(o:Object)
+        WITH DISTINCT a, o
+        MERGE (a)-[:INTERACTED_WITH]->(o);
+        """
+    ]
+    
+    return [CypherStatement(query.strip(), 5) for query in inferences]
+
+def generate_narrative_procedures() -> List[CypherStatement]:
+    """Creates direct Cypher queries for common narrative queries instead of procedures."""
+    comments = [
+        """
+        // Character arc query example - run with:
+        // MATCH (a:Agent {name: 'Character Name'})
+        // CALL {
+        //   MATCH (a)-[:PARTICIPATES_IN]->(ap:AgentParticipation)-[:IN_EVENT]->(e:Event)-[:OCCURS_IN]->(s:Scene)
+        //   WITH a, ap, e, s
+        //   ORDER BY s.scene_number, e.sequence
+        //   RETURN s.scene_number as scene, e.title as event, ap.emotional_state as emotional_state, ap.current_status as status
+        // }
+        // RETURN scene, event, emotional_state, status
+        """,
+        
+        """
+        // Location journey query example - run with:
+        // MATCH (a:Agent {name: 'Character Name'})
+        // CALL {
+        //   MATCH (a)-[:APPEARS_IN]->(s:Scene)-[:LOCATED_IN]->(l:Location)
+        //   WITH a, s, l
+        //   ORDER BY s.scene_number
+        //   RETURN s.scene_number as scene, l.name as location, l.type as location_type
+        // }
+        // RETURN scene, location, location_type
+        """
+    ]
+    
+    return [CypherStatement(comment.strip(), 6) for comment in comments]
+
 def main():
     try:
-        # input_path = Path("/home/user/fabula/output/pre_processed/echoes_of_the_past_graph.json")
-        # output_path = Path("/home/user/fabula/output/post_processed/echoes_of_the_past_graph.cypher")
+        input_path = Path("/home/user/fabula/output/pre_processed/echoes_of_the_past_graph.json")
+        output_path = Path("/home/user/fabula/output/post_processed/echoes_of_the_past_graph.cypher")
 
         # input_path = Path("/home/user/fabula/output/pre_processed/fault_lines_graph.json")
         # output_path = Path("/home/user/fabula/output/post_processed/fault_lines_graph.cypher")
@@ -326,8 +458,9 @@ def main():
         # input_path = Path("/home/user/fabula/output/pre_processed/networking_event_graph.json")
         # output_path = Path("/home/user/fabula/output/post_processed/networking_event_graph.cypher")
 
-        input_path = Path("/home/user/fabula/output/pre_processed/quantum_archive_graph.json")
-        output_path = Path("/home/user/fabula/output/post_processed/quantum_archive_graph.cypher")
+        # input_path = Path("/home/user/fabula/output/pre_processed/quantum_archive_graph.json")
+        # output_path = Path("/home/user/fabula/output/post_processed/quantum_archive_graph.cypher")
+
 
         output_path.parent.mkdir(parents=True, exist_ok=True)
         
@@ -346,8 +479,14 @@ def main():
         cypher_statements.extend(generate_indexes())
         cypher_statements.append(generate_clear_graph())
         
+        # Add graph metadata
+        cypher_statements.append(generate_graph_metadata(str(input_path)))
+        
         # Process entity registry
         entity_registry = story_data.get("entity_registry", {})
+        
+        # Track all events for temporal relationships
+        all_events = []
         
         # Process agents and their affiliations
         logger.info("Processing agents...")
@@ -386,9 +525,10 @@ def main():
             # Create Episode node
             episode_node = generate_episode_node_cypher(episode)
             cypher_statements.append(episode_node)
-            # Generate episode UUID (using same logic as in generate_episode_node_cypher)
+            
+            # Generate consistent episode UUID (using same logic as in generate_episode_node_cypher)
             title = episode.get("episode_title", "Untitled Episode")
-            episode_uuid = f"episode_{title.lower().replace(' ', '_')}"
+            episode_uuid = generate_consistent_uuid("episode", title)
             
             previous_scene = None
             for scene in episode.get("scenes", []):
@@ -400,11 +540,7 @@ def main():
                     continue
                 
                 cypher_statements.append(generate_scene_node_cypher(metadata))
-                # Link scene to its location if provided
-                location_uuid = metadata.get("location")
-                if location_uuid:
-                    cypher_statements.append(generate_relationship_cypher(
-                        scene_uuid, location_uuid, "LOCATED_IN", "Scene", "Location"))
+                
                 # Link scene to its parent episode
                 cypher_statements.append(generate_scene_episode_relationship(scene_uuid, episode_uuid))
                 
@@ -415,6 +551,7 @@ def main():
                 
                 # Process events
                 previous_event = None
+                scene_events = []
                 for event in extracted_data.get("events", []):
                     event_uuid = event.get("uuid")
                     cypher_statements.append(generate_event_node_cypher(event))
@@ -424,6 +561,13 @@ def main():
                         cypher_statements.append(generate_relationship_cypher(
                             previous_event, event_uuid, "NEXT_EVENT", "Event", "Event"))
                     previous_event = event_uuid
+                    
+                    # Add to all events for temporal relationships
+                    all_events.append(event)
+                    scene_events.append(event)
+                
+                # Add temporal sequence relationships for events in this scene
+                cypher_statements.extend(generate_temporal_sequence_relationships(scene_events))
                 
                 # Process object involvements
                 for involvement in extracted_data.get("object_involvements", []):
@@ -443,6 +587,12 @@ def main():
                             agent_uuid, participation_uuid, "PARTICIPATES_IN", "Agent", "AgentParticipation"))
                         cypher_statements.append(generate_relationship_cypher(
                             participation_uuid, event_uuid, "IN_EVENT", "AgentParticipation", "Event"))
+        
+        # Add inferred relationships
+        cypher_statements.extend(generate_inference_relationships())
+        
+        # Add narrative procedures if APOC is available
+        cypher_statements.extend(generate_narrative_procedures())
         
         # Sort and write statements
         logger.info("Sorting and writing Cypher statements...")

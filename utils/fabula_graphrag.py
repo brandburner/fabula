@@ -8,10 +8,14 @@ from pydantic import BaseModel
 from typing import List, Dict, Any, Optional
 from openai import OpenAI
 from neo4j import GraphDatabase
+from baml_client import b  # BAML client
+# Import the BAML-generated types
+from baml_client.types import CypherQuery as BamlCypherQuery
 
 # Set up logging
 logging.basicConfig(level=logging.INFO)
 logger = logging.getLogger(__name__)
+
 
 # Configuration
 NEO4J_URI = os.getenv("NEO4J_URI", "bolt://localhost:7689")
@@ -24,42 +28,14 @@ if not OPENAI_API_KEY:
 # Initialize OpenAI client
 client = OpenAI(api_key=OPENAI_API_KEY)
 
-SCHEMA_INFO = """
-Database Schema:
-Nodes:
-- Scene (title, description, uuid, scene_number)
-- Event (title, description, sequence, uuid, key_dialogue)
-- Agent (name, title, description, uuid, traits, sphere_of_influence)
-- Object (name, description, uuid, significance, purpose)
-- AgentParticipation (uuid, current_status, emotional_state, active_plans, beliefs, goals, emotional_tags)
-- ObjectInvolvement (description, uuid, status_after, status_before)
-- Organization (name, description, uuid, sphere_of_influence)
-- Location (name, description, uuid, type)
-
-Relationships:
-- (Scene)-[:LOCATED_IN]->(Location)
-- (Scene)-[:NEXT_SCENE]->(Scene)
-- (Event)-[:OCCURS_IN]->(Scene)
-- (Event)-[:NEXT_EVENT]->(Event)
-- (Agent)-[:PARTICIPATES_IN]->(AgentParticipation)-[:IN_EVENT]->(Event)
-- (Object)-[:INVOLVED_IN]->(ObjectInvolvement)-[:IN_EVENT]->(Event)
-- (Agent)-[:AFFILIATED_WITH]->(Organization)
-- (Agent)-[:OWNS]->(Object)
-"""
-
-# ----- Pydantic models for Structured Outputs -----
+# ----- Pydantic models for structured outputs -----
 
 class DecomposedQuestions(BaseModel):
     sub_questions: List[str]
 
-# Update the QueryStrategy model so that "parameters" is optional.
-class QueryStrategy(BaseModel):
-    strategy: str
+class CypherQuery(BaseModel):
     query: str
-    parameters: Optional[Dict[str, Any]] = None  # Now optional
-
-class QueryStrategies(BaseModel):
-    strategies: List[QueryStrategy]
+    purpose: str
 
 class SynthesizedAnswer(BaseModel):
     answer: str
@@ -91,21 +67,297 @@ class Neo4jConnection:
             logger.error(f"Error executing query: {e}")
             raise
 
+    def peek(self, limit: int = 5) -> str:
+        """Return a JSON string of a few sample records from the database."""
+        try:
+            sample = self.query("MATCH (n) RETURN n LIMIT $limit", {"limit": limit})
+            return json.dumps(sample, indent=2)
+        except Exception as e:
+            logger.error(f"Error peeking into database: {e}")
+            return "[]"
+
+# ----- Schema Extraction Functions -----
+
+def get_schema_from_neo4j(db_connection):
+    """
+    Dynamically extracts the schema from Neo4j database.
+    Returns both a dictionary representation and formatted string for BAML.
+    
+    Args:
+        db_connection: An instance of Neo4jConnection
+        
+    Returns:
+        tuple: (schema_dict, schema_string)
+    """
+    schema_dict = {
+        "nodes": [],
+        "relationships": []
+    }
+    
+    # Extract node labels and their properties
+    node_query = """
+    CALL apoc.meta.schema() YIELD value
+    RETURN value
+    """
+    
+    try:
+        schema_result = db_connection.query(node_query)
+        if schema_result and len(schema_result) > 0:
+            meta_schema = schema_result[0]['value']
+            
+            # Process nodes
+            for label, properties in meta_schema.items():
+                if 'type' in properties and properties['type'] == 'node':
+                    node_info = {
+                        "label": label,
+                        "properties": []
+                    }
+                    
+                    for prop_name, prop_info in properties.get('properties', {}).items():
+                        prop_type = prop_info.get('type', 'string')
+                        node_info["properties"].append({
+                            "name": prop_name,
+                            "type": prop_type
+                        })
+                    
+                    schema_dict["nodes"].append(node_info)
+            
+            # Process relationships
+            for label, properties in meta_schema.items():
+                if 'type' in properties and properties['type'] == 'relationship':
+                    # Get relationship details
+                    rel_query = f"""
+                    MATCH ()-[r:{label}]->()
+                    WITH type(r) AS rel_type, startNode(r) AS start_node, endNode(r) AS end_node
+                    RETURN DISTINCT rel_type, labels(start_node)[0] AS start_label, labels(end_node)[0] AS end_label
+                    LIMIT 1
+                    """
+                    
+                    rel_results = db_connection.query(rel_query)
+                    if rel_results and len(rel_results) > 0:
+                        rel_info = {
+                            "label": label,
+                            "src": rel_results[0]['start_label'],
+                            "dst": rel_results[0]['end_label'],
+                            "properties": []
+                        }
+                        
+                        for prop_name, prop_info in properties.get('properties', {}).items():
+                            prop_type = prop_info.get('type', 'string')
+                            rel_info["properties"].append({
+                                "name": prop_name,
+                                "type": prop_type
+                            })
+                        
+                        schema_dict["relationships"].append(rel_info)
+    
+    except Exception as e:
+        logger.warning(f"Error using apoc.meta.schema(): {str(e)}")
+        # Fall back to alternative schema extraction
+        return get_schema_fallback(db_connection)
+    
+    # Generate formatted schema string for BAML
+    schema_string = format_schema_for_baml(schema_dict)
+    
+    return schema_dict, schema_string
+
+
+def format_schema_for_baml(schema_dict):
+    """
+    Formats the schema dictionary into a string representation for BAML.
+    
+    Args:
+        schema_dict: Dictionary containing nodes and relationships information
+        
+    Returns:
+        str: Formatted schema string
+    """
+    lines = []
+    
+    # Add node labels
+    lines.append("Database Schema:")
+    lines.append("Nodes:")
+    for node in schema_dict["nodes"]:
+        lines.append(f"- {node['label']} ({node['label'].lower()})")
+        for prop in node["properties"]:
+            lines.append(f"  - {prop['name']}: {prop['type']}")
+    
+    # Add relationships
+    lines.append("\nRelationships:")
+    for rel in schema_dict["relationships"]:
+        lines.append(f"- ({rel['src']})-[:{rel['label']}]->({rel['dst']})")
+        if rel["properties"]:
+            lines.append("  Properties:")
+            for prop in rel["properties"]:
+                lines.append(f"  - {prop['name']}: {prop['type']}")
+    
+    return "\n".join(lines)
+
+
+# Alternative implementation if apoc.meta.schema() is not available
+def get_schema_fallback(db_connection):
+    """
+    Alternative schema extraction if apoc.meta.schema() is not available.
+    This uses Cypher's built-in functions for schema inspection.
+    """
+    schema_dict = {
+        "nodes": [],
+        "relationships": []
+    }
+    
+    # Get all node labels
+    labels_query = """
+    CALL db.labels() YIELD label
+    RETURN label
+    """
+    
+    labels_result = db_connection.query(labels_query)
+    
+    for label_row in labels_result:
+        label = label_row['label']
+        
+        # Get properties for this label
+        props_query = f"""
+        MATCH (n:{label})
+        UNWIND keys(n) AS property
+        RETURN DISTINCT property, 
+               CASE 
+                 WHEN apoc.meta.type(n[property]) CONTAINS 'int' THEN 'integer'
+                 WHEN apoc.meta.type(n[property]) CONTAINS 'float' THEN 'float'
+                 WHEN apoc.meta.type(n[property]) CONTAINS 'boolean' THEN 'boolean'
+                 ELSE 'string'
+               END AS type
+        LIMIT 100
+        """
+        
+        try:
+            props_result = db_connection.query(props_query)
+            
+            node_info = {
+                "label": label,
+                "properties": []
+            }
+            
+            for prop_row in props_result:
+                node_info["properties"].append({
+                    "name": prop_row['property'],
+                    "type": prop_row['type']
+                })
+            
+            schema_dict["nodes"].append(node_info)
+        
+        except Exception:
+            # If apoc.meta.type is not available, use a simpler query
+            props_query_simple = f"""
+            MATCH (n:{label})
+            UNWIND keys(n) AS property
+            RETURN DISTINCT property
+            LIMIT 100
+            """
+            
+            props_result = db_connection.query(props_query_simple)
+            
+            node_info = {
+                "label": label,
+                "properties": []
+            }
+            
+            for prop_row in props_result:
+                node_info["properties"].append({
+                    "name": prop_row['property'],
+                    "type": "string"  # Default to string type
+                })
+            
+            schema_dict["nodes"].append(node_info)
+    
+    # Get all relationship types
+    rels_query = """
+    CALL db.relationshipTypes() YIELD relationshipType
+    RETURN relationshipType
+    """
+    
+    rels_result = db_connection.query(rels_query)
+    
+    for rel_row in rels_result:
+        rel_type = rel_row['relationshipType']
+        
+        # Get start and end node labels for this relationship type
+        rel_meta_query = f"""
+        MATCH (start)-[r:{rel_type}]->(end)
+        RETURN DISTINCT labels(start)[0] AS start_label, 
+                        labels(end)[0] AS end_label
+        LIMIT 1
+        """
+        
+        rel_meta_result = db_connection.query(rel_meta_query)
+        
+        if rel_meta_result and len(rel_meta_result) > 0:
+            rel_info = {
+                "label": rel_type,
+                "src": rel_meta_result[0]['start_label'],
+                "dst": rel_meta_result[0]['end_label'],
+                "properties": []
+            }
+            
+            # Get properties for this relationship
+            rel_props_query = f"""
+            MATCH ()-[r:{rel_type}]->()
+            UNWIND keys(r) AS property
+            RETURN DISTINCT property
+            LIMIT 100
+            """
+            
+            rel_props_result = db_connection.query(rel_props_query)
+            
+            for prop_row in rel_props_result:
+                rel_info["properties"].append({
+                    "name": prop_row['property'],
+                    "type": "string"  # Default to string
+                })
+            
+            schema_dict["relationships"].append(rel_info)
+    
+    # Generate formatted schema string for BAML
+    schema_string = format_schema_for_baml(schema_dict)
+    
+    return schema_dict, schema_string
+
+# ----- Step 0: Initialize Database Schema -----
+
+def initialize_database_schema(db: Neo4jConnection) -> str:
+    """
+    Dynamically extracts the schema from the database.
+    Caches the schema to avoid repeated extraction.
+    """
+    global SCHEMA_INFO
+    
+    # Extract schema from database
+    _, schema_str = get_schema_from_neo4j(db)
+    SCHEMA_INFO = schema_str
+    
+    logger.info(f"Database schema initialized: {SCHEMA_INFO}")
+    return SCHEMA_INFO
+
 # ----- Step 1: Decompose the Question -----
 
-def decompose_question(question: str, schema: str = SCHEMA_INFO) -> List[str]:
+def decompose_question(question: str, db_context: str, schema: str) -> List[str]:
     """
     Uses the OpenAI API to decompose the user's narrative question into a list of sub-questions.
-    Returns a list of strings from the "sub_questions" key in the JSON object.
+    The prompt includes sample database records as context.
     """
     system_prompt = f"""
-You decompose questions into multiple sub-questions to form query strategies. Use only the following schema for context:
+You decompose narrative questions into multiple sub-questions to form query strategies.
+Use the following schema for context:
 {schema}
+
+Also, here are some sample records from the database:
+{db_context}
+
 Return only a JSON object in the format:
 {{"sub_questions": ["sub-question 1", "sub-question 2", ...]}}
     """
     user_prompt = f"""
-Decompose the following narrative question into clear sub-questions that target specific aspects of the narrative.
+Decompose the following narrative question into clear, focused sub-questions that target specific aspects of the narrative.
 
 Narrative Question: "{question}"
     """
@@ -125,42 +377,53 @@ Narrative Question: "{question}"
         logger.error(f"Error in decompose_question: {e}")
         return [question]
 
-# ----- Step 2: Generate Query Strategies for a Sub-question -----
+# ----- Step 2: Generate a Valid Query Using BAML -----
 
-def generate_query_strategies(subquestion: str, schema: str = SCHEMA_INFO) -> List[Dict[str, Any]]:
+def get_available_apoc_functions(db: Neo4jConnection) -> List[str]:
     """
-    Uses the OpenAI API to generate multiple candidate Cypher query strategies for the given sub-question.
-    Returns a list of strategy dictionaries from the "strategies" key in the JSON object.
+    Fetches the list of installed APOC functions from Neo4j.
+    Returns a list of valid function names.
     """
-    system_prompt = f"""
-You are a query generation assistant. Use only the following database schema:
-{schema}
-Return only a JSON object in the format:
-{{"strategies": [{{"strategy": "label", "query": "Cypher query", "parameters": {{...}}}}, ...]}}
-Do not include any additional text.
-    """
-    user_prompt = f"""
-Given the sub-question: "{subquestion}", generate 3 distinct Cypher query strategies.
-Ensure that if your query includes any parameter placeholders (e.g. $title),
-the parameters field must include a complete mapping with the correct key-value pairs.
-For instance, if you use $title, include "parameters": eg. "title": "National Security Advisor".
+    query = """
+    CALL apoc.help('apoc.path')
     """
     try:
-        response = client.beta.chat.completions.parse(
-            model="o3-mini",
-            messages=[
-                {"role": "system", "content": system_prompt},
-                {"role": "user", "content": user_prompt}
-            ],
-            response_format=QueryStrategies,
-        )
-        strategies = response.choices[0].message.parsed.strategies
-        logger.info(f"Generated query strategies for sub-question: {strategies}")
-        # Convert pydantic objects to dicts if needed:
-        return [strategy.dict() for strategy in strategies]
+        results = db.query(query)
+        return [row["name"] for row in results]
     except Exception as e:
-        logger.error(f"Error generating query strategies: {e}")
+        logger.error(f"Error fetching APOC functions: {e}")
         return []
+
+
+def validate_cypher(user_request: str, apoc_functions: List[str]) -> Optional[CypherQuery]:
+    """
+    Calls the BAML ValidateCypher function with dynamically injected APOC function list.
+    """
+    try:
+        result: BamlCypherQuery = b.ValidateCypher(
+            question=user_request,
+            available_apoc_functions=apoc_functions  # Inject valid APOC functions
+        )
+        return CypherQuery(query=result.query, purpose=result.purpose)
+    except Exception as e:
+        logger.error(f"Error in validate_cypher: {e}")
+        return None
+
+
+def generate_query_strategies(subquestion: str, apoc_functions: List[str]) -> List[Dict[str, Any]]:
+    """
+    Generates a list of possible query strategies for a given subquestion.
+    Ensures all generated queries use only valid APOC functions.
+    """
+    valid_query = validate_cypher(subquestion, apoc_functions)
+    if valid_query:
+        return [{
+            "query": valid_query.query,
+            "purpose": valid_query.purpose
+        }]
+    else:
+        return []
+
 
 # ----- Step 3: Execute the Best Query Strategy -----
 
@@ -171,19 +434,19 @@ def execute_best_strategy(strategies: List[Dict[str, Any]], db: Neo4jConnection)
     """
     for strategy in strategies:
         query = strategy.get("query")
-        parameters = strategy.get("parameters", {})
+        parameters = strategy.get("parameters", {})  # Our BAML queries should be fully inlined
         try:
             results = db.query(query, parameters)
             if results:
-                logger.info(f"Strategy '{strategy.get('strategy')}' returned {len(results)} results.")
+                logger.info(f"Strategy '{strategy.get('purpose')}' returned {len(results)} results.")
                 return {
-                    "strategy": strategy.get("strategy"),
+                    "strategy": strategy.get("purpose"),
                     "query": query,
                     "parameters": parameters,
                     "results": results
                 }
         except Exception as e:
-            logger.error(f"Strategy '{strategy.get('strategy')}' failed: {e}")
+            logger.error(f"Strategy '{strategy.get('purpose')}' failed: {e}")
             continue
     return {"strategy": None, "query": None, "parameters": {}, "results": []}
 
@@ -192,9 +455,8 @@ def execute_best_strategy(strategies: List[Dict[str, Any]], db: Neo4jConnection)
 def synthesize_answer(question: str, sub_results: Dict[str, Any]) -> str:
     """
     Uses the OpenAI API to synthesize a final narrative answer from all sub-question results.
-    Returns the final answer string from the "answer" key.
     """
-    system_prompt = "You are a world-class narrative analyst. Provide a concise, well-researched answer strictly in JSON."
+    system_prompt = "You are a world-class narrative analyst. Provide a concise, well-researched answer strictly in JSON. State your sources. Don't invent things - if you don't know, say so."
     user_prompt = f"""
 Given the original question: "{question}"
 and the following sub-question results:
@@ -204,7 +466,7 @@ Return only a JSON object in the following format:
     """
     try:
         response = client.beta.chat.completions.parse(
-            model="o3-mini",
+            model="gpt-4o-mini",
             messages=[
                 {"role": "system", "content": system_prompt},
                 {"role": "user", "content": user_prompt}
@@ -220,19 +482,23 @@ Return only a JSON object in the following format:
 
 # ----- Main Pipeline -----
 
-def process_question(question: str, db: Neo4jConnection) -> str:
+def process_question(question: str, db: Neo4jConnection, schema: str) -> str:
     """
-    Orchestrates the multi-step process:
-      1. Decomposes the question.
-      2. Generates query strategies for each sub-question.
-      3. Executes queries and collects results.
-      4. Synthesizes a final answer.
-    Returns the final answer as a string.
+    Handles the full pipeline:
+      1. Fetches available APOC functions.
+      2. Calls BAML with the updated function list.
+      3. Executes the best query and synthesizes an answer.
     """
-    sub_questions = decompose_question(question)
+    # Step 1: Fetch available APOC functions
+    apoc_functions = get_available_apoc_functions(db)
+    logger.info(f"Available APOC functions: {apoc_functions}")
+
+    # Step 2: Decompose into subquestions
+    sub_questions = decompose_question(question, db.peek(limit=3), schema)
+    
     sub_results = {}
     for idx, subq in enumerate(sub_questions):
-        strategies = generate_query_strategies(subq)
+        strategies = generate_query_strategies(subq, apoc_functions)  # ✅ Pass APOC list here
         result = execute_best_strategy(strategies, db)
         sub_results[f"sub_question_{idx+1}"] = {
             "question": subq,
@@ -240,8 +506,11 @@ def process_question(question: str, db: Neo4jConnection) -> str:
             "query": result.get("query"),
             "results": result.get("results")
         }
+
+    # Step 3: Synthesize a final answer
     final_answer = synthesize_answer(question, sub_results)
     return final_answer
+
 
 # ----- Interactive Chatbot Loop -----
 
@@ -251,7 +520,12 @@ def main():
     print("Type 'exit' or 'quit' to end the session.\n")
 
     db = Neo4jConnection(NEO4J_URI, NEO4J_USERNAME, NEO4J_PASSWORD)
+    
     try:
+        # Initialize database schema on startup
+        schema = initialize_database_schema(db)
+        print("Database schema initialized successfully!")
+        
         while True:
             try:
                 question = input("Your question: ").strip()
@@ -262,7 +536,7 @@ def main():
                     print("Please enter a valid question.")
                     continue
 
-                answer = process_question(question, db)
+                answer = process_question(question, db, schema)
                 print("\nFinal Answer:")
                 print(answer)
                 print("\n" + "-" * 60 + "\n")
