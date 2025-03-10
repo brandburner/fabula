@@ -1,6 +1,6 @@
 # Fabula: AI-Powered Narrative Analysis Engine
 
-![Fabula Demo](fabula_video.gif)
+![Fabula Demo](media/fabula_video.gif)
 
 Fabula is an AI-powered narrative analysis engine that transforms unstructured narrative texts (scripts, novels, etc.) into richly structured knowledge graphs. By combining LLM-driven extraction with a robust entity resolution pipeline, Fabula enables deep analysis of story structure, character development, and thematic elements.
 
@@ -43,6 +43,8 @@ You'll also need:
 python script2json.py "http://chakoteya.net/DoctorWho/29-10.html" output.json
 ```
 
+![Convert script to json](media/fabula_script_convert.gif)
+
 2. Process the script and generate the knowledge graph:
 ```bash
 # Basic usage with default settings
@@ -58,11 +60,14 @@ python main.py input_file.json --fully-combined --output output_graph.json
 python main.py input_file.json --batch-resolution --output output_graph.json
 ```
 
+![Process with fabula](media/fabula_running.gif)
+
 3. Convert the processed data to Cypher:
 ```python
 from json_cypher import main as generate_cypher
 generate_cypher()
 ```
+![Convert JSON to Cypher](media/fabula_json2cypher.gif)
 
 ## Processing Modes
 
@@ -163,6 +168,8 @@ Converts processed story data into Neo4j Cypher queries for graph database impor
 - Supports incremental updates
 
 ## Natural Language Queries ('utils/fabula_graphrag.py')
+
+![Graphrag queries](media/graphrag_q3.gif)
 
 The `fabula_graphrag.py` tool enables natural language querying of your narrative knowledge graphs, allowing exploration without writing Cypher queries:
 
