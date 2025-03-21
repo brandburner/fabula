@@ -1,0 +1,1484 @@
+{
+  "Story": "I, Claudius",
+  "Airdate": "22 Nov, 1976",
+  "Episodes": [
+    {
+      "Episode": "Fool's Luck",
+      "Scenes": [
+        {
+          "Scene": "INT. SENATE CHAMBER - DAY",
+          "Dialogue": [
+            {
+              "Stage Direction": "Dim light filters into the ancient Senate Chamber. Senators, a mix of apprehension and cynical amusement on their faces, are gathered. The air is thick with hushed conversations. Dust motes dance in the weak sunlight."
+            },
+            {
+              "Character": "CESTIAS",
+              "Line": "I call upon the noble APPIUS JUNIUS SILANUS to speak. "
+            },
+            {
+              "Character": "SILANUS",
+              "Line": "Senators, I was summoned here from Spain by our Emperor. By our late Emperor. "
+            },
+            {
+              "Stage Direction": "A smattering of LAUGHTER ripples through the chamber."
+            },
+            {
+              "Character": "SILANUS",
+              "Line": ""
+            },
+            {
+              "Character": "SILANUS",
+              "Line": "I need hardly describe to you the feelings with which I made the journey. A few months ago, hearing that an old friend was sick, I went to see him. \"What is it that ails you?\" I asked him. He smiled. \"APPIUS SILANUS\", he said, \"I have been summoned to Rome\". He meant, of course, that he was dying. I arrived here yesterday. Today, the Emperor is dead instead of me. Let that notorious phrase - summoned to Rome - perish with him from our language forever. And let us return once again to the sanity of a republic! "
+            },
+            {
+              "Stage Direction": "CHEERING erupts. Some senators rise to their feet, applauding vigorously."
+            },
+            {
+              "Character": "SILANUS",
+              "Line": ""
+            },
+            {
+              "Stage Direction": "struggling to be heard above the noise"
+            },
+            {
+              "Character": "CESTIAS",
+              "Line": "Senators! Senators! Senators! The Praetorian Guards have carried off CALIGULA's Uncle CLAUDIUS and proclaimed him Emperor. Did you not hear what I said? The Guards have proclaimed TIBERIUS CLAUDIUS Emperor. "
+            },
+            {
+              "Stage Direction": "More LAUGHTER, louder this time, mixed with disbelieving murmurs."
+            }
+          ]
+        },
+        {
+          "Scene": "INT. IMPERIAL STATE CHAMBER - DAY",
+          "Dialogue": [
+            {
+              "Stage Direction": "Subdued light filters into a stately chamber within the palatial complex. Marble and classical décor create an atmosphere of solemn deliberation. CLAUDIUS, looking disheveled and deeply uncomfortable, sits awkwardly on a makeshift throne. GRATUS, a burly guard, stands beside him, while RUFRIUS, another guard, paces nearby."
+            },
+            {
+              "Stage Direction": "CLAUDIUS is sweating profusely and looks like he wishes he was anywhere else."
+            },
+            {
+              "Character": "GRATUS",
+              "Line": "Come on, sir. Drink up. "
+            },
+            {
+              "Character": "CLAUDIUS",
+              "Line": "I d-don't want any wine. "
+            },
+            {
+              "Character": "GRATUS",
+              "Line": "Well, do you er...? Do you mind if I...? "
+            },
+            {
+              "Character": "CLAUDIUS",
+              "Line": "No, do as you like. I'm y-your prisoner, not you mine. "
+            },
+            {
+              "Character": "GRATUS",
+              "Line": "No, no, you're not our prisoner. You're our Emperor. "
+            },
+            {
+              "Character": "CLAUDIUS",
+              "Line": "I've told you a d-dozen times, I d-don't want to be Emperor. "
+            },
+            {
+              "Character": "GRATUS",
+              "Line": "You're a funny chap. I'll bet you're the only person in this country that doesn't want to be an emperor, and yet here you are, chosen to be one. Life's full of irony, isn't it? "
+            },
+            {
+              "Character": "RUFRIUS",
+              "Line": "Hail. Caesar! "
+            },
+            {
+              "Character": "CLAUDIUS",
+              "Line": "I have no right to that title and you've no business using it! "
+            },
+            {
+              "Character": "GRATUS",
+              "Line": "I've told you sir, he's being very awkward. He's been most uncooperative all the way here. "
+            },
+            {
+              "Character": "RUFRIUS",
+              "Line": "Alright, leave us. You know, sir, I knew your brother, the noble GERMANICUS, on the Rhine years ago. We tried to make him Emperor when AUGUSTUS died, but he'd not have it either. "
+            },
+            {
+              "Character": "CLAUDIUS",
+              "Line": "Well, my b-brother believed in a r-republic. "
+            },
+            {
+              "Character": "RUFRIUS",
+              "Line": "Yes, well that's all very well for the likes of you, sir. Being members of the Imperial family, you can afford the luxury of Republican sentiments. I can't. I rose through the ranks. Besides, I've got 4,000 men who need an Emperor if they're to be gainfully employed. I need hardly remind you of what the result might be if they're let loose on the streets with nothing to do.  There's a KNOCK at the door. "
+            },
+            {
+              "Character": "GRATUS",
+              "Line": "Excuse me, sir. There's a chap here who claims to be the King of Bashan. "
+            },
+            {
+              "Character": "CLAUDIUS",
+              "Line": "C-claims to be or is? "
+            },
+            {
+              "Character": "GRATUS",
+              "Line": "Well, I don't know. I didn't know there was a place called Bashan let alone a king of it. "
+            },
+            {
+              "Character": "RUFRIUS",
+              "Line": "Do you know him, sir? "
+            },
+            {
+              "Character": "CLAUDIUS",
+              "Line": "Well, if it's King HEROD, of course. L-let him in.  The doors open, and KING HEROD enters, radiating confidence and power. "
+            },
+            {
+              "Character": "HEROD",
+              "Line": "Congratulations, Caesar, on your election! May you long enjoy the great honors these brave soldiers have bestowed on you. "
+            },
+            {
+              "Character": "GRATUS",
+              "Line": "There you are, sir, you see! And he's the King of Bashan. "
+            },
+            {
+              "Character": "RUFRIUS",
+              "Line": "You've arrived at just the right moment, sir. It seems that though we've elected him Emperor, Tiberius Claudius has a Republic in mind. Perhaps you can persuade him to see the consequences of that. I wish you wouldn't keep taking it off, sir. It really does suit you. "
+            },
+            {
+              "Character": "CLAUDIUS",
+              "Line": "What is the matter with you, Herod? Do you intend to go along with this farce? "
+            },
+            {
+              "Character": "HEROD",
+              "Line": "Listen to me, old friend, and be thankful I arrived in Rome at this time. I know your views, so I know exactly what you're thinking. You have some idea of yielding up your power to the Senate at the earliest possible moment. "
+            },
+            {
+              "Character": "CLAUDIUS",
+              "Line": "Of course "
+            },
+            {
+              "Character": "HEROD",
+              "Line": "You mustn't! First, it would be signal for civil war. The Senate are a flock of sheep, but there are several wolves among them, all convinced they should be Emperor. Secondly, the moment you relinquish your power, you're a dead man. "
+            },
+            {
+              "Character": "CLAUDIUS",
+              "Line": "Why? I b-believe in a Republic. "
+            },
+            {
+              "Character": "HEROD",
+              "Line": "You're a danger to the assassins. They've already killed CAESONIA and the child. "
+            },
+            {
+              "Character": "CLAUDIUS",
+              "Line": "What? "
+            },
+            {
+              "Character": "HEROD",
+              "Line": "Don't you see? A Republic necessitates the death of the whole Imperial family, not just Caligula. "
+            },
+            {
+              "Character": "CLAUDIUS",
+              "Line": "And M-MESSALINA? "
+            },
+            {
+              "Character": "HEROD",
+              "Line": "Oh, she's safe. All that matters now is that you put aside your ancient prejudices, my friend, and accept the reality that is. If you do not, I cannot answer for the consequences. "
+            },
+            {
+              "Stage Direction": "to Claudius"
+            },
+            {
+              "Character": "RUFRIUS",
+              "Line": "These two Protectors have been sent to summon you to the Senate. "
+            },
+            {
+              "Character": "CLAUDIUS",
+              "Line": "What has happened to them? "
+            },
+            {
+              "Character": "RUFRIUS",
+              "Line": "They're fortunate to be alive, sir. The Guards almost killed them as they crossed the camp. "
+            },
+            {
+              "Character": "CLAUDIUS",
+              "Line": "Don't you know their persons are inv-violable? "
+            },
+            {
+              "Character": "RUFRIUS",
+              "Line": "Sorry, Caesar. I'd have given them protection if I'd known they were coming. "
+            },
+            {
+              "Character": "CLAUDIUS",
+              "Line": "It's a disgrace. Well, what does the Senate want? "
+            },
+            {
+              "Character": "PROTECTOR",
+              "Line": "Pardon us, Caesar... "
+            },
+            {
+              "Character": "CLAUDIUS",
+              "Line": "Stop c-calling me that! "
+            },
+            {
+              "Character": "PROTECTOR",
+              "Line": "The Senate would be obliged by your immediate attendance at the house. They're anxious to know your intentions. "
+            },
+            {
+              "Character": "GRATUS",
+              "Line": "What, take our Emperor? Not a chance. Dump them in the Tiber! "
+            },
+            {
+              "Character": "RUFRIUS",
+              "Line": "Get back, all of you! Tell the Senate that our Emperor remains here. And when he leaves, he leaves with 4,000 Guards behind him. "
+            },
+            {
+              "Character": "CLAUDIUS",
+              "Line": "Give my compliments to the Senate. Tell them I am unable, for the moment, to comply with their request. And, give them safe conduct back to the city. "
+            },
+            {
+              "Character": "RUFRIUS",
+              "Line": "Caesar. ... Out. Get a move on.  RUFRIUS gestures dismissively at the PROTECTORS, who quickly exit. "
+            },
+            {
+              "Character": "HEROD",
+              "Line": "Do nothing until you hear from me. I shall try to arrange a meeting between you and leading members of the Senate, but in the palace. But make your mind up to it, Claudius. For good or ill. they've made you Emperor. If you don't accept, you won't survive - or any of your family. If you do nothing else, accept. At least for the time being."
+            }
+          ]
+        },
+        {
+          "Scene": "INT. IMPERIAL PALACE - RECEPTION HALL - DAY",
+          "Dialogue": [
+            {
+              "Stage Direction": "GRAND HALL, vaulted ceilings soar above marble columns. Sunlight streams through arched windows, illuminating SENATORS gathered nervously. CLAUDIUS, looking overwhelmed but determined, stands before them."
+            },
+            {
+              "Character": "CLAUDIUS",
+              "Line": "Senators, I understand you d-d-do not want another Emperor. But it seems you've b-been given one. I sympathize with you. I d-do not want to be an Emperor, but it seems I have been chosen one. Perhaps you would t-take a little moment to sympathize with me. "
+            },
+            {
+              "Character": "CESTIAS",
+              "Line": "Your appointment is unconstitutional "
+            },
+            {
+              "Character": "CLAUDIUS",
+              "Line": "I agree, but there are 4,000 Praetorian Guards who d-do not. And who created that Praetorian Guard? You did in the reign of Augustus. "
+            },
+            {
+              "Character": "MARCUS",
+              "Line": "Nevertheless, it's against the constitution for anyone but the Senate to appoint an Emperor. "
+            },
+            {
+              "Character": "CLAUDIUS",
+              "Line": "It is also against the constitution to m-murder one! But if you hadn't done so, Marcus, we shouldn't b-be in this absurd position! "
+            },
+            {
+              "Character": "ASPRENAS",
+              "Line": "You're not fit to be Emperor. "
+            },
+            {
+              "Character": "CLAUDIUS",
+              "Line": "I agree. But then nor was my nephew. "
+            },
+            {
+              "Character": "ASPRENAS",
+              "Line": "Then what difference is there between you? "
+            },
+            {
+              "Character": "CLAUDIUS",
+              "Line": "He would not have agreed, and by now your head would be on that f-floor for saying so! "
+            },
+            {
+              "Character": "CESTIAS",
+              "Line": "There are those who say you cannot hear properly, you cannot speak properly, and you've got no experience of government. "
+            },
+            {
+              "Character": "CLAUDIUS",
+              "Line": "And that I am, besides, half w-witted. Senators, it is true I am hard of hearing... but you will find it's not for want of listening. As for speaking, again, it's true I have an impediment. But isn't what a man says more important than how.....long he takes to say it? It's true, again, I have little experience of government. But then have you more? I, at least, have lived with the imperial family who have ruled this Empire ever since you so spinelessly handed it over to us! I've observed it working more closely than any of you. Is your experience better than that? As for being half-witted. Well, what can I say except that I have survived to middle age with half my wits, while thousands have died with all of theirs intact! Evidently, quality of wits is more important than quantity. Senators, I shall do nothing unconstitutional. I shall appear at the next session of the Senate where you may confirm me in my position or not, as you wish. But if it pleases you not to, explain your reasons to them, not to me! Now you may all leave my house except Marcus, VINICIUS and Asprenas. And bring in CASSIUS CHAEREA and G-GAIUS SABINUS.  CLAUDIUS (to himself) ... I feel a f-fraud.  HEROD (approaching Claudius) You won't when you begin work. There's much to do. You're doing very well.  RUFRIUS (entering, grave) Caesar, Gaius Sabinus is dead. He's taken his own life. All the officers involved in the conspiracy have been arrested and are awaiting trial and execution. "
+            },
+            {
+              "Character": "CLAUDIUS",
+              "Line": "I cannot find it in me to condemn you for killing my nephew. But you also murdered the Lady CAESONIA and the child, and you meant to murder me and my wife. None of whom had ever done you any harm. "
+            },
+            {
+              "Character": "CASSIUS",
+              "Line": "I did it for the Republic and I would do it again. "
+            },
+            {
+              "Character": "CLAUDIUS",
+              "Line": "No. You did it more for the injuries to yourself than for the Republic. But even that doesn't weigh with me. What w-weighs with me is w-what I've heard - that it was agreed among you that only Caligula should die. But that you took it upon yourself to kill us all, Is that true? "
+            },
+            {
+              "Character": "CASSIUS",
+              "Line": "Why should I deny it? When your very existence here proves that only your death would have ensured the return of the Republic. "
+            },
+            {
+              "Character": "CLAUDIUS",
+              "Line": "Then you leave me no choice... b-but to condemn you for the murder of Caesonia and the child. Take him away.  CASSIUS (being dragged away) Congratulations, Caesar. You've passed your first sentence of death. How many more will you pass before they grow tired of you and pass one on you? Isn't that the way we've set for ourselves? Think about it, Caesar! Think about it!"
+            }
+          ]
+        },
+        {
+          "Scene": "EXT. IMPERIAL PALACE - BALCONY - DAY",
+          "Dialogue": [
+            {
+              "Stage Direction": "A crowd has gathered below. CLAUDIUS, holding CALIGULA's infant son, appears on the balcony with MESSALINA."
+            },
+            {
+              "Character": "CLAUDIUS",
+              "Line": "The investigation into this affair is closed. "
+            },
+            {
+              "Character": "CROWD",
+              "Line": "Hail. Caesar! Hail. Caesar! Hail. Caesar!  CLAUDIUS (to the baby, chuckling) Oh, here. Oh, wait. He's dribbling. Oh, chu chu chu. "
+            },
+            {
+              "Character": "MESSALINA",
+              "Line": "Claudius, there's no need to show him on the balcony every time you come in to see him. "
+            },
+            {
+              "Character": "CLAUDIUS",
+              "Line": "Well, I like to show him. The people like to see him. Next to you, he's the most imp-portant thing in my life. I can't thank you enough for him. I am so v-very much in love. "
+            },
+            {
+              "Character": "MESSALINA",
+              "Line": "And so am I. ... I've given him to a foster mother to nurse. "
+            },
+            {
+              "Character": "CLAUDIUS",
+              "Line": "What, you're not going to b-breast feed him anymore? "
+            },
+            {
+              "Character": "MESSALINA",
+              "Line": "No, my dear. Now, wait. I've thought a great deal about it. Now, be honest, have I been a help to you since you became Emperor? "
+            },
+            {
+              "Character": "CLAUDIUS",
+              "Line": "Of course. What would I have done without you? Oh. What would I have done without her? "
+            },
+            {
+              "Character": "MESSALINA",
+              "Line": "Now, I want no small husbandly praises. I asked you to let me revise the senatorial roll - who should be left on and who should be taken off. Was I efficient? "
+            },
+            {
+              "Character": "CLAUDIUS",
+              "Line": "I was amazed, truly, at how much detailed knowledge you had of everyone. "
+            },
+            {
+              "Character": "MESSALINA",
+              "Line": "And all the detailed work I did connected with your office as Director of Public Morals? "
+            },
+            {
+              "Character": "CLAUDIUS",
+              "Line": "Yes, it was a revelation. Yes, truly, you've been a great help to me. "
+            },
+            {
+              "Character": "MESSALINA",
+              "Line": "As LIVIA was to Augustus? "
+            },
+            {
+              "Character": "CLAUDIUS",
+              "Line": "... Yes. "
+            },
+            {
+              "Character": "MESSALINA",
+              "Line": "My darling, I want to be Livia to your Augustus. Now, you know I have a brain in my head, as she had. I'll never be content just to be the mother of children. Oh, oh, of course I shall love them. They'll be yours - how could I not? But I must work alongside you and relieve you of some of the small and petty burdens that have been thrust upon you. "
+            },
+            {
+              "Character": "CLAUDIUS",
+              "Line": "And will breast feeding my little son interfere with all this great work of state? "
+            },
+            {
+              "Character": "MESSALINA",
+              "Line": "Well, how would you feel if you had to break off in the middle of a Senate meeting to go and breast feed a child - not once, but four or five times a day? "
+            },
+            {
+              "Character": "CLAUDIUS",
+              "Line": "Yes. I can hardly find time to f-feed myself. Very well. All right. Now I shall leave you to rest. "
+            },
+            {
+              "Character": "MESSALINA",
+              "Line": "And you too should rest. You've not stopped for a year. "
+            },
+            {
+              "Character": "CLAUDIUS",
+              "Line": "When do I have time to stop? Well, if you're not going to feed my son, I shall find you other work to do for me. "
+            },
+            {
+              "Character": "MESSALINA",
+              "Line": "I told you he wouldn't be angry. "
+            },
+            {
+              "Character": "DOMITIA",
+              "Line": "You are very fortunate to have such an understanding husband - considering that he's also Emperor. "
+            },
+            {
+              "Character": "MESSALINA",
+              "Line": "Well, he loves me and I help him. "
+            },
+            {
+              "Character": "DOMITIA",
+              "Line": "I don't know why you want to concern yourself so much with matters of state. It's not a woman's place. "
+            },
+            {
+              "Character": "MESSALINA",
+              "Line": "It may not be yours, Mother, but it's mine. "
+            },
+            {
+              "Character": "DOMITIA",
+              "Line": "Do you not intend to have any more children? "
+            },
+            {
+              "Character": "MESSALINA",
+              "Line": "No. "
+            },
+            {
+              "Character": "DOMITIA",
+              "Line": "Does your husband realize this? "
+            },
+            {
+              "Character": "MESSALINA",
+              "Line": "Not yet. "
+            },
+            {
+              "Character": "DOMITIA",
+              "Line": "How will you prevent it? "
+            },
+            {
+              "Character": "MESSALINA",
+              "Line": "Oh, Mother, you're such a mouse. Do you think a wife must give in to her husband every time he insists? And one of his age? There are ways of being nice to a man without risking pregnancy every time. ... Have you never thought of marrying again? You know, you're still an attractive woman. "
+            },
+            {
+              "Character": "DOMITIA",
+              "Line": "I've thought of it. Why? Do you want to get rid of me? "
+            },
+            {
+              "Character": "MESSALINA",
+              "Line": "Of course not. On the contrary, I'd hope that you and any husband would continue to live in the new palace. "
+            },
+            {
+              "Character": "DOMITIA",
+              "Line": "Well, there's nobody who wants me. "
+            },
+            {
+              "Character": "MESSALINA",
+              "Line": "Not even APPIUS SILANUS? "
+            },
+            {
+              "Character": "DOMITIA",
+              "Line": "Why ever did you say that? "
+            },
+            {
+              "Character": "MESSALINA",
+              "Line": "Weren't you fond of him once? "
+            },
+            {
+              "Character": "DOMITIA",
+              "Line": "Oh, well... What a memory you have. You were so young. "
+            },
+            {
+              "Character": "MESSALINA",
+              "Line": "Oh, I remember him very well. He used to come to the house quite often. "
+            },
+            {
+              "Character": "DOMITIA",
+              "Line": "Well, that was a long time ago. And besides, he was in Rome at the time of Caligula's assassination but he never came near me. "
+            },
+            {
+              "Character": "MESSALINA",
+              "Line": "Perhaps he lacked encouragement. "
+            },
+            {
+              "Character": "DOMITIA",
+              "Line": "Well, he went back to Spain and I've no desire to live there, so stop making plans in that busy little head of yours."
+            }
+          ]
+        },
+        {
+          "Scene": "INT. CLAUDIUS'S PRIVATE STUDY - NIGHT",
+          "Dialogue": [
+            {
+              "Stage Direction": "A richly appointed study in the Imperial Palace. Books line the walls, and a fire crackles in the hearth. CLAUDIUS, middle-aged, scholarly, sits with KING HEROD, a shrewd and worldly man. MESSALINA, young and beautiful, stands nearby, a subtle manipulator."
+            },
+            {
+              "Character": "CLAUDIUS",
+              "Line": "So Livia is a goddess at last? That will please her. I think she wanted that more than anything. "
+            },
+            {
+              "Character": "CLAUDIUS",
+              "Line": "Yes, I've kept my promise, though I never dreamed I'd ever be able to. But the Senate f-formally granted my request this morning. Livia takes her p-place among the gods. "
+            },
+            {
+              "Character": "MESSALINA",
+              "Line": "I should like to be there in Heaven when she arrives, and the Divine Augustus takes her by the hand and shows her to all the gods. Oh, how proud he'll be. "
+            },
+            {
+              "Character": "HEROD",
+              "Line": "The Lady Messalina is excessively romantic. "
+            },
+            {
+              "Character": "CLAUDIUS",
+              "Line": "Yes. I'm a l-l-lucky man, am I not? Shall we tell him? "
+            },
+            {
+              "Character": "MESSALINA",
+              "Line": "Since he's going away, let him be the first to know. "
+            },
+            {
+              "Character": "CLAUDIUS",
+              "Line": "She's pregnant again. "
+            },
+            {
+              "Character": "HEROD",
+              "Line": "So soon? "
+            },
+            {
+              "Character": "MESSALINA",
+              "Line": "You see, even Herod thinks it's too soon. "
+            },
+            {
+              "Character": "CLAUDIUS",
+              "Line": "Well, my love, it wasn't my fault. "
+            },
+            {
+              "Character": "HEROD",
+              "Line": "Well, whose fault was it then, eh? "
+            },
+            {
+              "Character": "CLAUDIUS",
+              "Line": "Well, no... I mean, she gave our little son out to be nursed. Well, I understood. She does so much work for me. It was inconvenient. But it's well known breast feeding is a sure guarantee against pregnancy. "
+            },
+            {
+              "Character": "HEROD",
+              "Line": "When is it due? "
+            },
+            {
+              "Character": "MESSALINA",
+              "Line": "In July. "
+            },
+            {
+              "Character": "HEROD",
+              "Line": "I shall send it something very special indeed. "
+            },
+            {
+              "Character": "CLAUDIUS",
+              "Line": "What am I going to do without you, my friend? Won't you change your mind and stay? "
+            },
+            {
+              "Character": "HEROD",
+              "Line": "No, Caesar, you don't need me anymore. "
+            },
+            {
+              "Character": "CLAUDIUS",
+              "Line": "I need you. Who's going to tell me how to borrow money or what the corn factors are saying in the city? "
+            },
+            {
+              "Character": "HEROD",
+              "Line": "You have good people about you now who can tell you far more than I can. "
+            },
+            {
+              "Character": "CLAUDIUS",
+              "Line": "Messalina, make him change his mind. "
+            },
+            {
+              "Character": "MESSALINA",
+              "Line": "He has kingdoms of his own to govern. And you've given him several more than he had when he arrived. "
+            },
+            {
+              "Character": "CLAUDIUS",
+              "Line": "Oh, yes. Yes, I mustn't be selfish. "
+            },
+            {
+              "Character": "MESSALINA",
+              "Line": "But it's true, all your principal advisers are freedmen. It would be good to find a nobleman to take the place of King Herod on whom you could absolutely rely. "
+            },
+            {
+              "Character": "CLAUDIUS",
+              "Line": "Are you thinking of someone? "
+            },
+            {
+              "Character": "MESSALINA",
+              "Line": "Yes, my love. "
+            },
+            {
+              "Character": "CLAUDIUS",
+              "Line": "You see how she works for me! Her mind is never still. Who? "
+            },
+            {
+              "Character": "MESSALINA",
+              "Line": "Appius Silanus. "
+            },
+            {
+              "Character": "CLAUDIUS",
+              "Line": "Well, he's Governor of Spain. "
+            },
+            {
+              "Character": "MESSALINA",
+              "Line": "Why yes, and a man of immense experience. He's wasted in Spain. You should bring him to the palace and have him permanently at your side. "
+            },
+            {
+              "Character": "HEROD",
+              "Line": "He has Republican sentiments. "
+            },
+            {
+              "Character": "CLAUDIUS",
+              "Line": "Well, haven't I? "
+            },
+            {
+              "Character": "HEROD",
+              "Line": "He spoke out strongly against you in the Senate after the assassination. "
+            },
+            {
+              "Character": "CLAUDIUS",
+              "Line": "Augustus n-never enquired into people's political beliefs. He always said that was not his concern. I shall always do the same. Yes, but I'm not sure Silanus would like to live in the palace. "
+            },
+            {
+              "Character": "MESSALINA",
+              "Line": "Well, the new palace, which you've turned into offices. "
+            },
+            {
+              "Character": "HEROD",
+              "Line": "I have a feeling the Lady Messalina is ahead of us. "
+            },
+            {
+              "Character": "CLAUDIUS",
+              "Line": "Come, what are you thinking? "
+            },
+            {
+              "Character": "MESSALINA",
+              "Line": "It's only a suggestion, but you know my mother was fond of him once. It would please her to marry again, and I'm sure that Silanus would not be adverse to a connection by marriage with the Emperor's family. "
+            },
+            {
+              "Character": "CLAUDIUS",
+              "Line": "Have you added m-matchmaker to your list of chosen careers? "
+            },
+            {
+              "Character": "MESSALINA",
+              "Line": "Of course, if you don't approve... "
+            },
+            {
+              "Character": "CLAUDIUS",
+              "Line": "Well, I'm j-joking. I think it's a very good idea. Hey, what do you think? "
+            },
+            {
+              "Character": "HEROD",
+              "Line": "As from today, I cease to give advice on any subject! "
+            },
+            {
+              "Character": "MESSALINA",
+              "Line": "Well, I'm tired. I shall leave you both to talk. Goodnight, my dear. "
+            },
+            {
+              "Character": "CLAUDIUS",
+              "Line": "Have we tired you out? "
+            },
+            {
+              "Character": "MESSALINA",
+              "Line": "Oh, of course not. Goodbye, King Herod. If your people love you as much as we do, you are a fortunate king indeed. "
+            },
+            {
+              "Character": "HEROD",
+              "Line": "I shall be thinking of you in July. "
+            },
+            {
+              "Character": "MESSALINA",
+              "Line": "Goodnight. "
+            },
+            {
+              "Stage Direction": "Messalina exits, leaving Claudius and Herod alone."
+            },
+            {
+              "Character": "MESSALINA",
+              "Line": ""
+            },
+            {
+              "Character": "CLAUDIUS",
+              "Line": "Goodnight. ... Am I not the most f-fortunate of men, Herod? Now, why have I deserved such luck? "
+            },
+            {
+              "Character": "HEROD",
+              "Line": "Oh, it's fool's luck, little marmoset. You've always had it and you always will. One day, I'm sure, you'll be an Olympian god when I am only a dead king. You know, when I first came to Rome, you all seemed like gods to me. "
+            },
+            {
+              "Character": "CLAUDIUS",
+              "Line": "Oh, I'm sure I never l-looked like one. "
+            },
+            {
+              "Character": "HEROD",
+              "Line": "Yes, even you. Do you ever think of those days at all, eh, little marmoset? "
+            },
+            {
+              "Character": "CLAUDIUS",
+              "Line": "Lately I've been thinking about them a good deal. And with a good reason. I'm thinking of writing a book about my family. "
+            },
+            {
+              "Character": "HEROD",
+              "Line": "Oh, what sort of book? "
+            },
+            {
+              "Character": "CLAUDIUS",
+              "Line": "T-the truth. "
+            },
+            {
+              "Character": "HEROD",
+              "Line": "Oh. Will you tell everything? "
+            },
+            {
+              "Character": "CLAUDIUS",
+              "Line": "Everything. As an historian should. Not great tales of heroic exploits as T-Titus Livy wrote, no, but the plain facts, the kitchen details, even the gossip. "
+            },
+            {
+              "Character": "HEROD",
+              "Line": "Why? Why should you want to write such a book? Eh? Why rake it all up? "
+            },
+            {
+              "Character": "CLAUDIUS",
+              "Line": "Because I owe it to the others to tell the truth. T-to Postumus and Germanicus. "
+            },
+            {
+              "Character": "HEROD",
+              "Line": "Why? "
+            },
+            {
+              "Character": "CLAUDIUS",
+              "Line": "Because they're dead, and a man should keep faith with his friends even though they're dead. You see, I've been so very fortunate in my life, when they, who were born more deserving, have not. I've had only three real friends in my life. Postumus and Germanicus were two. The third one is you. "
+            },
+            {
+              "Character": "HEROD",
+              "Line": "Listen, Claudius. Let me give you a piece of advice. "
+            },
+            {
+              "Character": "CLAUDIUS",
+              "Line": "Oh, I thought you'd finished with advice. "
+            },
+            {
+              "Character": "HEROD",
+              "Line": "One last piece and then I'm done. Trust no one, my friend, no one. Not your most grateful freedman, not your most intimate friend, not your dearest child, not the wife of your bosom. Trust no one. "
+            },
+            {
+              "Character": "CLAUDIUS",
+              "Line": "No one? Not even you?"
+            }
+          ]
+        },
+        {
+          "Scene": "INT. MESSALINA'S BEDCHAMBER - MOMENTS LATER",
+          "Dialogue": [
+            {
+              "Stage Direction": "MESSALINA lies in bed, attended by a MIDWIFE."
+            },
+            {
+              "Character": "MESSALINA",
+              "Line": "Is it all right? "
+            },
+            {
+              "Character": "MIDWIFE",
+              "Line": "Beautiful. Beautiful. "
+            },
+            {
+              "Stage Direction": "A baby cries."
+            },
+            {
+              "Character": "MIDWIFE",
+              "Line": ""
+            },
+            {
+              "Character": "MESSALINA",
+              "Line": "Is it a boy or a girl?"
+            }
+          ]
+        },
+        {
+          "Scene": "INT. CLAUDIUS'S STUDY - CONTINUOUS",
+          "Dialogue": [
+            {
+              "Stage Direction": "CLAUDIUS is now at a table with NARCISSUS and PALLAS, two of his most powerful freedmen. They are studying architectural plans."
+            },
+            {
+              "Character": "CLAUDIUS",
+              "Line": "Well, let us at least get the engineers to survey it. We've always w-wanted a safe winter harbor. Everybody's always said it would cost too much. Well, let us find out. "
+            },
+            {
+              "Stage Direction": "A SLAVE knocks and enters urgently."
+            },
+            {
+              "Character": "CLAUDIUS",
+              "Line": ""
+            },
+            {
+              "Character": "SLAVE",
+              "Line": "Caesar, Caesar! The child is born! "
+            },
+            {
+              "Character": "CLAUDIUS",
+              "Line": "What? "
+            },
+            {
+              "Character": "NARCISSUS",
+              "Line": "Caesar, your child is born. "
+            },
+            {
+              "Character": "CLAUDIUS",
+              "Line": "But...? "
+            },
+            {
+              "Character": "SLAVE",
+              "Line": "The child is born, Caesar. It's a girl. "
+            },
+            {
+              "Character": "CLAUDIUS",
+              "Line": "Oh, Lucina be praised! She's heard my prayers. I'm coming. Let's have no more discussion. Get the engineers to make that survey. Then we'll decide. "
+            },
+            {
+              "Stage Direction": "Claudius exits, overjoyed."
+            },
+            {
+              "Character": "CLAUDIUS",
+              "Line": ""
+            },
+            {
+              "Character": "NARCISSUS",
+              "Line": "It'll cost ten million. More. "
+            },
+            {
+              "Character": "PALLAS",
+              "Line": "Well, the more expensive it is, the less likely it is it will ever be built. "
+            },
+            {
+              "Character": "NARCISSUS",
+              "Line": "What are you suggesting? That we exaggerate the cost? "
+            },
+            {
+              "Character": "PALLAS",
+              "Line": "Well, my dear Narcissus, you have money in corn. I have money in corn. Lots of people have money in corn. The more corn that can be landed in winter, the lower the price will be. That worries me. "
+            },
+            {
+              "Character": "NARCISSUS",
+              "Line": "That could be construed as a very selfish point of view. "
+            },
+            {
+              "Character": "PALLAS",
+              "Line": "Are you saying there is less selfishness in wanting the price of corn to be low rather than high? "
+            },
+            {
+              "Character": "NARCISSUS",
+              "Line": "There are more people who want it to be low. "
+            },
+            {
+              "Character": "PALLAS",
+              "Line": "Doesn't that add up to more selfishness rather than less? "
+            },
+            {
+              "Character": "NARCISSUS",
+              "Line": "That is sheer sophistry. One cannot argue with you. "
+            },
+            {
+              "Character": "PALLAS",
+              "Line": "Well, let's get the engineer's report and I'm sure the cost will take care of the philosophical considerations."
+            }
+          ]
+        },
+        {
+          "Scene": "INT. IMPERIAL PALACE - PRIVATE SUITE - NIGHT",
+          "Dialogue": [
+            {
+              "Stage Direction": "Soft light fills a private chamber, a haven within the Imperial Palace. The room is tastefully decorated, designed for quiet reflection. CLAUDIUS sits wearily on a couch, MESSALINA standing nearby, concern etched on her face."
+            },
+            {
+              "Character": "CLAUDIUS",
+              "Line": "Oh. I must have fallen asleep. "
+            },
+            {
+              "Character": "MESSALINA",
+              "Line": "You're tired. You don't look well. You work too hard. "
+            },
+            {
+              "Character": "CLAUDIUS",
+              "Line": "Yes, but so do you. "
+            },
+            {
+              "Character": "MESSALINA",
+              "Line": "You're not so young as I am. What does your doctor say? "
+            },
+            {
+              "Character": "CLAUDIUS",
+              "Line": "Oh, what they all say. I work too many hours. I should work less. "
+            },
+            {
+              "Character": "MESSALINA",
+              "Line": "Well, they're right. You should leave more things to other people. "
+            },
+            {
+              "Character": "CLAUDIUS",
+              "Line": "Well, I'm going to see another doctor soon. A G-Greek, recommended by Herod. "
+            },
+            {
+              "Character": "MESSALINA",
+              "Line": "Do you think that wise? Our own doctors are so clever. "
+            },
+            {
+              "Character": "CLAUDIUS",
+              "Line": "Well, I'll see him. What can I lose? How's my l-little daughter? "
+            },
+            {
+              "Character": "MESSALINA",
+              "Line": "Cutting her first tooth. The nurse showed it to me today. "
+            },
+            {
+              "Character": "CLAUDIUS",
+              "Line": "Ah. Oh, that's painful. Poor little thing.  MESSALINA moves closer, placing a hand on his arm. "
+            },
+            {
+              "Character": "MESSALINA",
+              "Line": "I think I have the most adorable husband in the world. He feels everything so deeply. "
+            },
+            {
+              "Character": "CLAUDIUS",
+              "Line": "You have the m-most adoring. "
+            },
+            {
+              "Character": "MESSALINA",
+              "Line": "What did you tell me the other day were the three main pillars of the temple of love? "
+            },
+            {
+              "Character": "CLAUDIUS",
+              "Line": "Oh, frankness, kindness and understanding. Why? "
+            },
+            {
+              "Character": "MESSALINA",
+              "Line": "I want to put them to the test. "
+            },
+            {
+              "Character": "CLAUDIUS",
+              "Line": "What have you done? "
+            },
+            {
+              "Character": "MESSALINA",
+              "Line": "Nothing. But there's something I want to do and for which I must be frank. "
+            },
+            {
+              "Character": "CLAUDIUS",
+              "Line": "And for which I must be kind and understanding? Well, tell me. "
+            },
+            {
+              "Character": "MESSALINA",
+              "Line": "Could you possibly allow me to sleep in a bedroom of my own for a little while? Oh, don't look like that or I shall hate myself forever! Oh, I should never have suggested it. "
+            },
+            {
+              "Character": "CLAUDIUS",
+              "Line": "But d-do you not l-love me anymore? I could understand that. I am so much older than you. "
+            },
+            {
+              "Character": "MESSALINA",
+              "Line": "Oh, my dear! I love you more than I ever did. Don't you know that? Well, it's because I do that I don't want to risk a third pregnancy in so short a time. Well, don't you see what it could do to our marriage? To our love for one another? "
+            },
+            {
+              "Character": "CLAUDIUS",
+              "Line": "My love, I would never force myself upon you. Do we have to sleep apart? Couldn't we at least s-share the same bed? "
+            },
+            {
+              "Character": "MESSALINA",
+              "Line": "Don't you see how much more it would hurt our marriage if you felt passionate to me in the night and I felt I had to refuse you? And if I did not, well how remorseful you would feel afterwards? Oh, I've hurt you. I should never have mentioned it. "
+            },
+            {
+              "Character": "CLAUDIUS",
+              "Line": "No, no, no. Oh... How l-long would you want the s-separation to last? "
+            },
+            {
+              "Character": "MESSALINA",
+              "Line": "Oh, not long. Well, let's see how it goes. You know I couldn't keep away from you forever. I shall slip into your room now and then when you least expect it. I think that could be even more fun, don't you?"
+            }
+          ]
+        },
+        {
+          "Scene": "INT. IMPERIAL PALACE - PRIVATE SUITE - CONTINUOUS",
+          "Dialogue": [
+            {
+              "Stage Direction": "There's a knock at the door. PALLAS enters."
+            },
+            {
+              "Character": "PALLAS",
+              "Line": "Pardon me, Caesar, but you asked me to let you know the moment the noble APPIUS JUNIUS SILANUS arrived. He is here. "
+            },
+            {
+              "Character": "CLAUDIUS",
+              "Line": "Oh, I'll see him shortly. "
+            },
+            {
+              "Character": "MESSALINA",
+              "Line": "Oh, no, wait. I'm leaving. Let him come in. Well, he's had a long journey. "
+            },
+            {
+              "Character": "CLAUDIUS",
+              "Line": "Oh, yes. Very well, my love. If you think it would be good for our m-marriage to be apart for a little while. Women know more about these matters than men. I'll have the servants arrange another bedroom. "
+            },
+            {
+              "Character": "MESSALINA",
+              "Line": "Oh, there's no need for that. Well, since you've agreed that it's a very sensible proposal. Let's do it properly and remove all temptation. I'll move into a suite next to my mother in the new palace. Well, after all, my offices are there too. It'll be much more convenient. "
+            },
+            {
+              "Character": "PALLAS",
+              "Line": "The noble Appius Junius Silanus, Caesar.  SILANUS enters, bowing respectfully. "
+            },
+            {
+              "Character": "SILANUS",
+              "Line": "Hail. Caesar. "
+            },
+            {
+              "Character": "CLAUDIUS",
+              "Line": "Did you have a good journey? "
+            },
+            {
+              "Character": "SILANUS",
+              "Line": "Excellent. The roads are in good shape. "
+            },
+            {
+              "Character": "CLAUDIUS",
+              "Line": "Do you know my wife, the Lady Messalina? "
+            },
+            {
+              "Character": "SILANUS",
+              "Line": "Only as a girl. You are even more beautiful than you were then.  MESSALINA (smiling) I'm so glad you're here. You shall be a great help to my husband. I'll tell my mother you've arrived. Perhaps we can all meet at dinner? "
+            },
+            {
+              "Character": "SILANUS",
+              "Line": "It will give me great pleasure to see her again.  MESSALINA exits, leaving CLAUDIUS and SILANUS."
+            }
+          ]
+        },
+        {
+          "Scene": "INT. IMPERIAL PALACE - CLAUDIUS'S CHAMBERS - DAY",
+          "Dialogue": [
+            {
+              "Stage Direction": "CLAUDIUS sits, undergoing a medical examination by XENOPHON, a Greek doctor. Xenophon prods and pokes with an air of detached clinical interest."
+            },
+            {
+              "Character": "XENOPHON",
+              "Line": "Your eyes are inflamed, but I can deal with that. I'll give you a lotion to bathe them with. Slight retraction of the eyeballs. You've had infantile paralysis? "
+            },
+            {
+              "Character": "CLAUDIUS",
+              "Line": "Yes. "
+            },
+            {
+              "Character": "XENOPHON",
+              "Line": "Well, there's nothing I can do about that. The rest of your body is fairly sound though. Good strong arms. You've developed to compensate for your legs. Were you a premature birth? "
+            },
+            {
+              "Character": "CLAUDIUS",
+              "Line": "Yes. "
+            },
+            {
+              "Character": "XENOPHON",
+              "Line": "I thought so. And you've had measles, colitis, erysipelas. "
+            },
+            {
+              "Character": "CLAUDIUS",
+              "Line": "And scrofula. Can you tell all that just by looking at me? "
+            },
+            {
+              "Character": "XENOPHON",
+              "Line": "And using my brains. Your food is not properly digested from yesterday. "
+            },
+            {
+              "Character": "CLAUDIUS",
+              "Line": "Well, we had a wedding yesterday. Appius Silanus married my mother-in-law. I probably ate too much. "
+            },
+            {
+              "Character": "XENOPHON",
+              "Line": "You must stop that. Never get up from a table without wishing you'd like something more. I suppose you get wind? "
+            },
+            {
+              "Character": "CLAUDIUS",
+              "Line": "Well.. "
+            },
+            {
+              "Character": "XENOPHON",
+              "Line": "Well, yes if you do, let it out. Don't hold it in. It does great injury to the stomach. I don't mind which end you let it out but let it out. A man who puts good manners before good health is a fool, I suppose it's no point in prescribing exercise? "
+            },
+            {
+              "Character": "CLAUDIUS",
+              "Line": "No. What time do I get for exercise? "
+            },
+            {
+              "Character": "XENOPHON",
+              "Line": "Massage will have to do. You can get up now. Now, Caesar, listen to me. You work too many hours. I don't suppose you'll reduce them because all important people think they're indispensable, but I suggest you read as little as possible - get your secretaries to read everything to you. Rest for an hour after your principal meal. Don't go rushing off to the law courts as soon as you finish your dessert. And you must find time for 20 minutes massage twice a day. "
+            },
+            {
+              "Character": "CLAUDIUS",
+              "Line": "Well, I've got a very good masseur. "
+            },
+            {
+              "Character": "XENOPHON",
+              "Line": "Get rid of him. The only good masseurs in Rome are slaves of mine. I'll send one them to you. "
+            },
+            {
+              "Character": "CLAUDIUS",
+              "Line": "Well, what about the cramps in my stomach? "
+            },
+            {
+              "Character": "XENOPHON",
+              "Line": "What cramps. If you will eat large meals quickly in a state of nervous excitement, you must expect cramp. But I'll give you some medicine to relieve them. "
+            },
+            {
+              "Character": "CLAUDIUS",
+              "Line": "Ah, medicine. Some secret preparation, I suppose? Can I get that here or shall I have to send away for it? "
+            },
+            {
+              "Character": "XENOPHON",
+              "Line": "You can find it on any piece of waste ground. It's bryony. "
+            },
+            {
+              "Character": "CLAUDIUS",
+              "Line": "What, common bryony? "
+            },
+            {
+              "Character": "XENOPHON",
+              "Line": "That's right. I'll leave instructions on how to prepare it. "
+            },
+            {
+              "Character": "CLAUDIUS",
+              "Line": "And what about the prayers? "
+            },
+            {
+              "Character": "XENOPHON",
+              "Line": "What prayers? "
+            },
+            {
+              "Character": "CLAUDIUS",
+              "Line": "Well, don't you prescribe special prayers to be used when taking medicine? "
+            },
+            {
+              "Character": "XENOPHON",
+              "Line": "I suggest Caesar, that as High Pontiff and the author of a book on religion, you are more qualified to prescribe prayers than I am. "
+            },
+            {
+              "Character": "CLAUDIUS",
+              "Line": "Do you Greeks believe in nothing? "
+            },
+            {
+              "Character": "XENOPHON",
+              "Line": "I've told you what I believe in - bryony. Hail. Caesar.  XENOPHON exits, leaving CLAUDIUS to ponder the doctor's words."
+            }
+          ]
+        },
+        {
+          "Scene": "INT. GRAND COUNCIL CHAMBER - DAY",
+          "Dialogue": [
+            {
+              "Stage Direction": "Sunlight streams into the chamber through tall windows, illuminating detailed maps spread across a large marble table. CLAUDIUS, fidgets with the plans, while PALLAS and NARCISSUS observe him."
+            },
+            {
+              "Character": "CLAUDIUS",
+              "Line": "Well, w-what is it? "
+            },
+            {
+              "Character": "PALLAS",
+              "Line": "It's a plan for rebuilding the harbor at Ostia. "
+            },
+            {
+              "Character": "CLAUDIUS",
+              "Line": "Of course it is! Whose is it? "
+            },
+            {
+              "Character": "PALLAS",
+              "Line": "It was made in the time of the Divine Julius. Where did you find it, Caesar? "
+            },
+            {
+              "Character": "CLAUDIUS",
+              "Line": "In the archives. It's almost identical to the one Tortius has just produced. Come and look at it SILANUS. Here. What's the matter with you? Are you ill? "
+            },
+            {
+              "Character": "SILANUS",
+              "Line": "No, Caesar. "
+            },
+            {
+              "Character": "PALLAS",
+              "Line": "What relevance have these plans to us Caesar? "
+            },
+            {
+              "Character": "CLAUDIUS",
+              "Line": "Well, you'll be interested to learn that the engineers working under the D-Divine Julius estimated this rebuilding would take four years and cost four million gold pieces. The estimates presented to me are for t-ten years and 15 million gold pieces. "
+            },
+            {
+              "Character": "NARCISSUS",
+              "Line": "But, Caesar, those estimates are 90 years old. "
+            },
+            {
+              "Character": "CLAUDIUS",
+              "Line": "Are there less days in a year now than there were then? Or less hours in a day? "
+            },
+            {
+              "Character": "NARCISSUS",
+              "Line": "There's been an increase in the costs of materials since then. "
+            },
+            {
+              "Character": "CLAUDIUS",
+              "Line": "The prices have risen by no more than a quarter. How, then, do you explain my chief engineer's estimate?  **TORTIUS fidgets uncomfortably.** "
+            },
+            {
+              "Character": "TORTIUS",
+              "Line": "Well.. "
+            },
+            {
+              "Character": "CLAUDIUS",
+              "Line": "I will explain. Everywhere, for instance, you underestimate the amount of earth that one hundred men can move in a day. I mean, are men weaker now than they were then? The topography remains unchanged, yet on the Divine Julius' plan they were cutting through earth. In yours, you claim we were cutting through r-r-rock. "
+            },
+            {
+              "Character": "TORTIUS",
+              "Line": "I can't understand it. "
+            },
+            {
+              "Character": "CLAUDIUS",
+              "Line": "Let me explain it then. Your surveyors have been taking bribes from the corn factors. "
+            },
+            {
+              "Character": "TORTIUS",
+              "Line": "Caesar! "
+            },
+            {
+              "Character": "CLAUDIUS",
+              "Line": "Sh-sh-shocking, isn't it? "
+            },
+            {
+              "Character": "TORTIUS",
+              "Line": "Well, I-I can't think why they should. "
+            },
+            {
+              "Character": "CLAUDIUS",
+              "Line": "I can. To keep up the price of corn. Wouldn't you agree, Silanus? "
+            },
+            {
+              "Character": "SILANUS",
+              "Line": "Yes, Caesar. "
+            },
+            {
+              "Character": "CLAUDIUS",
+              "Line": "Well, Tortius. You will begin work on the basis of these estimates, revised, of course, for the difference in prices. "
+            },
+            {
+              "Character": "PALLAS",
+              "Line": "Even so, Caesar, where is the money to come from? It's not in the purse. "
+            },
+            {
+              "Character": "CLAUDIUS",
+              "Line": "We shall get the first million on loan from the corn factors. "
+            },
+            {
+              "Character": "PALLAS",
+              "Line": "Haha. A million? They can't raise that kind of money. "
+            },
+            {
+              "Character": "CLAUDIUS",
+              "Line": "Oh, you will be amazed, Pallas, at what they can raise in return for my agreement not to begin an inquiry into allegations of b-bribing my officials. Yes. Now it's very late. You may all go. We'll visit the harbor tomorrow. "
+            },
+            {
+              "Character": "SILANUS",
+              "Line": "I should like a word with you alone, Caesar. "
+            },
+            {
+              "Character": "CLAUDIUS",
+              "Line": "Oh, very well. Come and look at these plans, Silanus. You didn't take much notice of them. The Divine Julius certainly knew what he was about. Yes. They are remarkable. In many ways, much better than the ones T-Tortius has produced. The only thing they leave out is the building of the island between the two moles. Come and look...  **Suddenly, SILANUS lunges at CLAUDIUS, knocking him to the ground. PALLAS and NARCISSUS react in shock.** "
+            },
+            {
+              "Character": "CLAUDIUS",
+              "Line": "Help! Get off me! Help me! Help me! Help me! Help me! ... Wait! Wait! Get up! Get up! "
+            },
+            {
+              "Character": "PALLAS",
+              "Line": "What happened? Caesar! You're hurt! "
+            },
+            {
+              "Character": "NARCISSUS",
+              "Line": "I'll fetch the doctor. "
+            },
+            {
+              "Character": "CLAUDIUS",
+              "Line": "Silanus tried to kill me. Why? Why?  **RUFRIUS and guards rush in, seizing SILANUS.** "
+            },
+            {
+              "Character": "RUFRIUS",
+              "Line": "Let me have him, Caesar. He'll talk. "
+            },
+            {
+              "Character": "CLAUDIUS",
+              "Line": "Why, Silanus, why? "
+            },
+            {
+              "Character": "SILANUS",
+              "Line": "Tyrant! "
+            },
+            {
+              "Character": "CLAUDIUS",
+              "Line": "Tyrant? I don't understand. What harm have I ever done you? I brought you back from Spain, I made you a minister. I connected you by marriage with my family. "
+            },
+            {
+              "Character": "SILANUS",
+              "Line": "Yes! To put me in bed with your wife and service her like a bull! "
+            },
+            {
+              "Character": "CLAUDIUS",
+              "Line": "What do you mean? W-what do you mean? "
+            },
+            {
+              "Character": "SILANUS",
+              "Line": "You're all the same. Don't toy with me, Caesar, I'm not a slave. Do what you have to do. "
+            },
+            {
+              "Character": "CLAUDIUS",
+              "Line": "I ask you again, w-what do you mean? "
+            },
+            {
+              "Character": "SILANUS",
+              "Line": "You know what I mean! How predictable you Emperors are. All your reigns begin and end the same. From vices timidly concealed to vices openly displayed. One follows the other as surely as decay follows death. "
+            },
+            {
+              "Character": "CLAUDIUS",
+              "Line": "Fetch the Lady M-Messalina, and fetch her mother! "
+            },
+            {
+              "Character": "SILANUS",
+              "Line": "Oh, get it over with Caesar. We've seen this play before, don't make us sit through it till the end. "
+            },
+            {
+              "Character": "CLAUDIUS",
+              "Line": "You will explain that calumny on my wife and on her mother. And if you do not or will not to my satisfaction, you will surely die for this attempt on my life!"
+            }
+          ]
+        },
+        {
+          "Scene": "INT. IMPERIAL ASSEMBLY HALL - DAY",
+          "Dialogue": [
+            {
+              "Stage Direction": "A vast, austere hall. Cold marble and long, echoing corridors amplify the sense of betrayal. The unadorned architecture serves as a grim reminder of Rome’s unforgiving nature."
+            },
+            {
+              "Stage Direction": "MESSALINA, radiant and scheming, stands with her mother, DOMITIA, who is visibly distressed. They face CLAUDIUS, who is flanked by PALLAS. APPIUS SILANUS stands defiant, guarded by soldiers."
+            },
+            {
+              "Character": "MESSALINA",
+              "Line": "What is it? What's the matter? "
+            },
+            {
+              "Character": "DOMITIA",
+              "Line": "Appius Silanus has tried to kill the Emperor. "
+            },
+            {
+              "Character": "MESSALINA",
+              "Line": "Silanus? But why? Why would he do such a thing? "
+            },
+            {
+              "Character": "DOMITIA",
+              "Line": "I don't know. I thought perhaps you could tell me. What have you done? What do you know about this? "
+            },
+            {
+              "Character": "MESSALINA",
+              "Line": "I know nothing. Nothing! Do you think I would plot to kill my own husband? There's no time to discuss it now. You must support everything I say, do you understand? "
+            },
+            {
+              "Character": "DOMITIA",
+              "Line": "I will do nothing to incriminate Silanus. He's my husband. "
+            },
+            {
+              "Character": "MESSALINA",
+              "Line": "Oh, you fool! Do you think I brought him back from Spain for you? I love him. I've always loved him. "
+            },
+            {
+              "Character": "DOMITIA",
+              "Line": "You are monstrous!  **A GUARD knocks on the door.** "
+            },
+            {
+              "Character": "MESSALINA",
+              "Line": "You will tell my husband what I tell him. Do you understand? If you do not, I shall say that you were part of it all. I'll say you agreed to it.  **The door opens. MESSALINA rushes to CLAUDIUS, feigning concern.** "
+            },
+            {
+              "Character": "MESSALINA",
+              "Line": "Oh, my dear. What's happened? Are you all right? "
+            },
+            {
+              "Character": "CLAUDIUS",
+              "Line": "Yes, yes. I'm all right. I'm all right. Silanus tried to assassinate me, but I'm all right. I want you to look at him. I want you to look into his face. Now, repeat to her what you said to me. "
+            },
+            {
+              "Character": "SILANUS",
+              "Line": "Oh, let's finish with this. Get it over. "
+            },
+            {
+              "Character": "CLAUDIUS",
+              "Line": "Repeat it. "
+            },
+            {
+              "Character": "SILANUS",
+              "Line": "For whom? For her, who told me what I told you? Or for you, who knew it all to begin with? "
+            },
+            {
+              "Character": "CLAUDIUS",
+              "Line": "Repeat it! "
+            },
+            {
+              "Character": "SILANUS",
+              "Line": "I told your husband what you told me. That he had arranged my marriage to your mother so that you could become my mistress. That he had done it so you could be kept amused while he took his own perverted pleasures elsewhere. It was there and then that I decided to kill him. To strike a last blow for Rome and end this plague of Emperors! "
+            },
+            {
+              "Character": "CLAUDIUS",
+              "Line": "Well? "
+            },
+            {
+              "Character": "MESSALINA",
+              "Line": "Oh, Silanus... How could you? How could you? He is sick with love, my dear, for me. I should have told you. I should have come to you at once but I thought it was a madness that would pass. Apparently, he has loved me ever since I was a little girl. I had no idea. How could I? Since he returned, he has pestered me day and night. Sometimes pleading and sometimes angry and violent. I think, perhaps, in his mind, he does in some way believe what he told you. That I had arranged his marriage for our convenience. You poor deluded man. How could you think there was anyone dearer to me than my husband? When he came to me today, he was so violent that I said I would come to you and have you send him away. Well, that's when he threatened to kill you! Well, I never in my wildest dreams imagined he would carry out such a threat! "
+            },
+            {
+              "Character": "SILANUS",
+              "Line": "Bravo! Beautifully played! That performance should be enshrined in drama. "
+            },
+            {
+              "Character": "CLAUDIUS",
+              "Line": "Is this t-true? "
+            },
+            {
+              "Character": "DOMITIA",
+              "Line": "Yes. His passion for my daughter has turned his wits. "
+            },
+            {
+              "Character": "CLAUDIUS",
+              "Line": "Have you anything to say? "
+            },
+            {
+              "Character": "SILANUS",
+              "Line": "Only that what I did, I'd do again. "
+            },
+            {
+              "Character": "CLAUDIUS",
+              "Line": "Then you leave me no choice! "
+            },
+            {
+              "Character": "MESSALINA",
+              "Line": "No! Oh, no! Please, my dearest, I beg you! I couldn't bear for him to die because of his love for me. No, no. Banish him. Banish him. But let him live. "
+            },
+            {
+              "Character": "PALLAS",
+              "Line": "He must die, Caesar. "
+            },
+            {
+              "Character": "MESSALINA",
+              "Line": "No! NO!! "
+            },
+            {
+              "Character": "PALLAS",
+              "Line": "An attempted assassination cannot be punished with banishment. Such a precedent would serve only to encourage others. "
+            },
+            {
+              "Character": "CLAUDIUS",
+              "Line": "What a soft heart you have. Even after all the lies he's told about you. But P-Pallas is right. The heart cannot rule the head in these matters. I cannot do it, even for you. ... I sentence you to die, as you sentenced me. Take him away. "
+            },
+            {
+              "Character": "SILANUS",
+              "Line": "May you rot in hell! And that she-wolf with you!  **GUARDS drag SILANUS away. CLAUDIUS slumps onto his throne, utterly drained.** "
+            },
+            {
+              "Character": "CLAUDIUS",
+              "Line": "Now, leave me, all of you. I'm tired."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

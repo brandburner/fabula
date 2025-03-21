@@ -1,0 +1,1627 @@
+{
+  "Story": "I, Claudius",
+  "Airdate": "18 Oct, 1976",
+  "Episodes": [
+    {
+      "Episode": "Some Justice",
+      "Scenes": [
+        {
+          "Scene": "INT. CLAUDIUS'S STUDY - NIGHT",
+          "Dialogue": [
+            {
+              "Stage Direction": "A small, cluttered room, illuminated by the flickering light of a single oil lamp. Scrolls are piled high on shelves and scattered across a large wooden desk. CLAUDIUS (40s, scholarly, with a slight stammer), paces back and forth, his brow furrowed in thought."
+            },
+            {
+              "Stage Direction": "belches"
+            },
+            {
+              "Character": "CLAUDIUS",
+              "Line": "Shouldn't eat so much at night. Mushrooms. Yes. I'm working too hard. Yes. Too much work. I must get it all done though. I must finish. Now, where was I? Augustus died, yes. Uncle Tiberius took his place. But he didn't want it. Not then. Waited too long. Yes. Strange man. Filthy brute. All power corrupts. Only one man kept him in check - Germanicus, my brother. My dear brother Germanicus. Tiberius sent him to Syria to take command and then..."
+            }
+          ]
+        },
+        {
+          "Scene": "EXT. ANTIOCH MARKETPLACE - DAY",
+          "Dialogue": [
+            {
+              "Stage Direction": "A bustling marketplace in Antioch, alive with the clamor of mourning citizens. The hearse carrying GERMANICUS’s ashes becomes a focal point of collective sorrow and political statement. The air is thick with lamentations and public dissent. A large crowd of TOWNSFOLK is gathered, their faces etched with grief."
+            },
+            {
+              "Stage Direction": "AGRIPPINA, a noblewoman, stands beside the hearse, her face contorted in anguish."
+            },
+            {
+              "Character": "AGRIPPINA",
+              "Line": "Let his body be laid in the marketplace at Antioch so that the people may see the marks of poison and witchery on his body. Let word be sent to Rome. Germanicus is dead. Germanicus is dead. Oh, nothing now stands between Rome and her Imperial destiny.  She gestures dramatically towards the urn containing Germanicus's ashes. Mournful trumpeting sounds. "
+            },
+            {
+              "Character": "AGRIPPINA",
+              "Line": "Thus, my children... does your father come home to you. Ashes in an urn. Look at him! Remember him! Remember all your days how your father returned to you.  The crowd murmurs in response. "
+            },
+            {
+              "Character": "AGRIPPINA",
+              "Line": "Take it, CASTOR! Carry it to Rome. And by the love you had for my dear husband, defend his children and avenge his death! My babies! My babies! What have they done to you? And CLAUDIUS, dear Claudius you, I know, loved him.  CLAUDIUS (40s, scholarly, with a slight stammer), stands nearby, looking genuinely distraught. "
+            },
+            {
+              "Character": "CLAUDIUS",
+              "Line": "He was dearer to me than anyone. Nobody had such a brother. "
+            },
+            {
+              "Character": "AGRIPPINA",
+              "Line": "Where is the Emperor? And where is LIVIA?  HEROD steps forward. "
+            },
+            {
+              "Character": "HEROD",
+              "Line": "Too stricken with grief to appear in public. "
+            },
+            {
+              "Character": "AGRIPPINA",
+              "Line": "And your mother? "
+            },
+            {
+              "Character": "CLAUDIUS",
+              "Line": "The same. "
+            },
+            {
+              "Character": "AGRIPPINA",
+              "Line": "Oh, is their grief greater than ours, then? All along the way, in every town and village, the people flooded to pay their respect to his ashes as we passed. The air was filled with cries and lamentations. Look at the faces of these people here. It's as if they've lost a son or a father of their own. Yet the man he called father and the woman who was his grandmother do not come out to greet us! I ask again, is their grief greater than ours?  The crowd roars in response. "
+            },
+            {
+              "Character": "CROWD",
+              "Line": "No! No! "
+            },
+            {
+              "Character": "AGRIPPINA",
+              "Line": "Put the ashes on the hearse and let us journey on to Rome."
+            }
+          ]
+        },
+        {
+          "Scene": "INT. ROMAN PALACE - NIGHT",
+          "Dialogue": [
+            {
+              "Stage Direction": "TIBERIUS (60s, Emperor of Rome, weary and suspicious), stands with SEJANUS (40s, ambitious and cunning Praetorian Prefect) and LIVIA (80s, powerful and manipulative Empress Dowager). Torches cast long shadows across their faces."
+            },
+            {
+              "Character": "TIBERIUS",
+              "Line": "A hundred thousand people out there. Mars Field is ablaze with torches. "
+            },
+            {
+              "Character": "SEJANUS",
+              "Line": "The funeral will be over soon. The crowds will disperse. "
+            },
+            {
+              "Character": "TIBERIUS",
+              "Line": "Why did they admire him so? "
+            },
+            {
+              "Character": "SEJANUS",
+              "Line": "When you're not the Emperor, you've always got the Emperor to blame. "
+            },
+            {
+              "Character": "LIVIA",
+              "Line": "My husband was Emperor for 40 years and he was admired by everyone. "
+            },
+            {
+              "Character": "SEJANUS",
+              "Line": "Ah, well, I wasn't referring to gods. "
+            },
+            {
+              "Character": "LIVIA",
+              "Line": "When Augustus died, the troops on the Rhine would have made Germanicus Emperor, if he'd agreed to it. "
+            },
+            {
+              "Character": "SEJANUS",
+              "Line": "Germanicus didn't believe in emperors. He'd done better if he had. "
+            },
+            {
+              "Character": "TIBERIUS",
+              "Line": "There's a lot of bad feeling out there and it's all directed at me! What do they want of me? They always preferred him to me. Why? "
+            },
+            {
+              "Character": "LIVIA",
+              "Line": "You just don't have a lovable nature. It's unfortunate but even your own son doesn't care for you much. "
+            },
+            {
+              "Character": "TIBERIUS",
+              "Line": "I think I'm loved by a great many people. "
+            },
+            {
+              "Character": "LIVIA",
+              "Line": "Well, you're loved alright, but you're not well loved. "
+            },
+            {
+              "Character": "TIBERIUS",
+              "Line": "And you are, I suppose? "
+            },
+            {
+              "Character": "LIVIA",
+              "Line": "Well, as to that I couldn't say but unlike you, I don't worry about it. "
+            },
+            {
+              "Character": "SEJANUS",
+              "Line": "Well, at any rate, if he's profoundly loved, he's also profoundly dead. There's no harm in loving the dead. Everybody's loved when he's dead. "
+            },
+            {
+              "Character": "LIVIA",
+              "Line": "I wouldn't count on that, if I were you. "
+            },
+            {
+              "Character": "TIBERIUS",
+              "Line": "What is it you want, Mother? "
+            },
+            {
+              "Character": "LIVIA",
+              "Line": "I'm told that your son CASTOR and Agrippina intend to prosecute PISO and PLANCINA on charges of treason and murder. "
+            },
+            {
+              "Character": "SEJANUS",
+              "Line": "They have no proof. "
+            },
+            {
+              "Character": "LIVIA",
+              "Line": "Well, I daresay, they could tell a pretty tale. "
+            },
+            {
+              "Character": "SEJANUS",
+              "Line": "A pretty tale isn't proof. "
+            },
+            {
+              "Character": "LIVIA",
+              "Line": "That's a different story from the one you've been telling for the last five years. You've buried more men with your pretty tales than anyone I know. "
+            },
+            {
+              "Character": "TIBERIUS",
+              "Line": "Where is he now? "
+            },
+            {
+              "Character": "SEJANUS",
+              "Line": "My last report said he'd taken ship from Illyria, he was on his way to Rome. "
+            },
+            {
+              "Character": "TIBERIUS",
+              "Line": "I won't have him tried. "
+            },
+            {
+              "Character": "LIVIA",
+              "Line": "Better to have him tried and cleared than to live forever under a cloud. "
+            },
+            {
+              "Character": "TIBERIUS",
+              "Line": "Well, it won't trouble Piso to live under a cloud. "
+            },
+            {
+              "Character": "LIVIA",
+              "Line": "I wasn't thinking of Piso. I was thinking of you. "
+            },
+            {
+              "Character": "TIBERIUS",
+              "Line": "Has it ever occurred to you, Mother, that it's you they hate and not me? "
+            },
+            {
+              "Character": "LIVIA",
+              "Line": "There is nothing in this world that occurs to you that has not occurred to me first. That is the affliction I live with."
+            }
+          ]
+        },
+        {
+          "Scene": "INT. SHADOWED COUNCIL CHAMBER - DAY",
+          "Dialogue": [
+            {
+              "Stage Direction": "Dim light filters into a private chamber within the imperial palace. ANTONIA, AGGRIPINA, CASTOR, VITELLIUS, CLAUDIUS, and HEROD are gathered around a table littered with strange objects."
+            },
+            {
+              "Character": "ANTONIA",
+              "Line": "I can't believe it. Dearly as I loved my son, I can't believe what you're saying. Piso, yes, we all know his record. But Tiberius? "
+            },
+            {
+              "Character": "AGRIPPINA",
+              "Line": "Then why did he appoint Piso Governor of Syria? There were others he could have chosen. "
+            },
+            {
+              "Character": "ANTONIA",
+              "Line": "Well, it wasn't a good choice, I grant you. But don't ask me to believe that an Emperor of Rome would stoop to such methods. "
+            },
+            {
+              "Character": "AGRIPPINA",
+              "Line": "Oh, those are his methods. He doesn't need to stoop. Yes, I'm sorry, Castor but I will say it even though he's your father. "
+            },
+            {
+              "Character": "CASTOR",
+              "Line": "Say it. Say it. You can say nothing against my father that I've not already said myself. "
+            },
+            {
+              "Character": "VITELLIUS",
+              "Line": "It's not for us to accuse the Emperor. We have no proof of his involvement. "
+            },
+            {
+              "Character": "AGRIPPINA",
+              "Line": "Proof! The people won't need proof. The people know. They're not fools. "
+            },
+            {
+              "Character": "CASTOR",
+              "Line": "I've instructed the prosecutor to prepare charges against Piso and Plancina. "
+            },
+            {
+              "Character": "CLAUDIUS",
+              "Line": "On wh-what grounds? "
+            },
+            {
+              "Character": "CASTOR",
+              "Line": "Treason and murder. "
+            },
+            {
+              "Character": "HEROD",
+              "Line": "Is there really proof of murder? "
+            },
+            {
+              "Character": "AGRIPPINA",
+              "Line": "And of witchery. "
+            },
+            {
+              "Character": "HEROD",
+              "Line": "Is it possible? Barbarian Jew that I am, I find it incredible that the most sophisticated people on earth believe in witchery. "
+            },
+            {
+              "Character": "AGRIPPINA",
+              "Line": "Oh, scoff all you like, Herod, but you judge for yourself. On our return to Syria from Egypt, Germanicus fell ill and suspected that Plancina had bribed her way into our kitchens and was having his food poisoned. "
+            },
+            {
+              "Character": "HEROD",
+              "Line": "But why? "
+            },
+            {
+              "Character": "AGRIPPINA",
+              "Line": "Because Germanicus had dismissed her husband, Piso. So I prepared all his food myself, but he was able to eat very little. He complained that there was a smell of death in the house, and began to believe that Plancina was using witchcraft against him. He made a propitiating sacrifice of nine black puppies to Hecate... "
+            },
+            {
+              "Stage Direction": "laughs"
+            },
+            {
+              "Character": "HEROD",
+              "Line": "... "
+            },
+            {
+              "Character": "AGRIPPINA",
+              "Line": "...which was the proper thing to do when being victimized. And the very next day, a slave who was washing the floor of the hall noticed a loose tile. Lifting it up, he saw beneath it the naked and decaying corpse of a baby, its belly painted red with horns tied to its forehead. We made an immediate search of every room and equally gruesome finds were made. The corpse of a cat with rudimentary wings growing in its back. The head of a negro with a child's white hand stuck in its mouth. The skull of an ass with the word Germanicus written across it. Oh, cock's feathers smeared in blood were found among the cushions. The word Rome written upside down. And the number 17. Now, only I knew that the number 17 upset him dreadfully. "
+            },
+            {
+              "Character": "HEROD",
+              "Line": "Plancina must have had accomplices at the house. "
+            },
+            {
+              "Character": "AGRIPPINA",
+              "Line": "And I tell you, there could not have been. The woman dabbles in witchcraft! "
+            },
+            {
+              "Character": "VITELLIUS",
+              "Line": "Go on, Pina. "
+            },
+            {
+              "Character": "AGRIPPINA",
+              "Line": "One of the things that upset him most was the appearance of his name, each day shortened by a letter. It would appear quite suddenly without explanation in rooms to which the servants had no access and where the windows were too small for a man to climb through. He told me he was doomed. But I told him no, not as long as you have the green jasper charm of Hecate with you. He felt under his pillow and he found it and that comforted him because he knew as long as he had that talisman safe, nothing could happen to him. That night, while he was asleep, he felt a tiny movement under his pillow. He turned on his side and fumbled for the charm. It was gone. Tell me, Herod, how did it disappear? Nobody but myself was allowed in that room. Who could have taken it? Who?  CALIGULA (O.S.)"
+            },
+            {
+              "Stage Direction": "coughs"
+            },
+            {
+              "Character": "AGRIPPINA",
+              "Line": ""
+            },
+            {
+              "Character": "AGRIPPINA",
+              "Line": "Caligula, darling, what are you doing out of bed? "
+            },
+            {
+              "Character": "CALIGULA",
+              "Line": "I've had a bad dream, Mother. "
+            },
+            {
+              "Character": "AGRIPPINA",
+              "Line": "Oh, my poor baby. Come here. What did you dream? "
+            },
+            {
+              "Character": "CALIGULA",
+              "Line": "Horrid dream. I dreamt there were bats sitting along the shelf in my room. Then they flew down and sat on me until I was all covered with them and no one could see me anymore. "
+            },
+            {
+              "Character": "AGRIPPINA",
+              "Line": "Oh, my poor baby. "
+            },
+            {
+              "Character": "ANTONIA",
+              "Line": "You shouldn't eat so much before you go to bed. "
+            },
+            {
+              "Character": "AGRIPPINA",
+              "Line": "Oh, Mother, he's been through so much! "
+            },
+            {
+              "Character": "ANTONIA",
+              "Line": "He stuffs himself with all manner of things. "
+            },
+            {
+              "Character": "CLAUDIUS",
+              "Line": "Perhaps he'd like to sleep with Drusillus? He'd be company for him. "
+            },
+            {
+              "Character": "AGRIPPINA",
+              "Line": "Would you like that darling? Would you like to sleep with your cousin's room? "
+            },
+            {
+              "Character": "CALIGULA",
+              "Line": "I'd rather sleep with Drusilla. "
+            },
+            {
+              "Character": "ANTONIA",
+              "Line": "Drusilla? Your sister? A boy of your age? What is the world coming to? "
+            },
+            {
+              "Character": "AGRIPPINA",
+              "Line": "Oh, he doesn't mean anything by it. "
+            },
+            {
+              "Character": "ANTONIA",
+              "Line": "He's been too long in the East. He should've been left here in Rome. Syria is no place to bring up a Roman child. "
+            },
+            {
+              "Character": "CALIGULA",
+              "Line": "I don't like it here. "
+            },
+            {
+              "Character": "ANTONIA",
+              "Line": "Well, you'll have to get used to it then, won't you? "
+            },
+            {
+              "Character": "HEROD",
+              "Line": "What was so wonderful about the East, hmmm? "
+            },
+            {
+              "Character": "ANTONIA",
+              "Line": "Herod Agrippa is talking to you, child! "
+            },
+            {
+              "Character": "AGRIPPINA",
+              "Line": "Oh, it was full of strange and mysterious people and things. Syrians made a great fuss of him, I'm afraid. Half the time we never saw him. He wandered all over Antioch. The house slaves took him everywhere. "
+            },
+            {
+              "Character": "ANTONIA",
+              "Line": "He had more freedom than is good for him. "
+            },
+            {
+              "Character": "AGRIPPINA",
+              "Line": "Oh, I don't think so. His father was very strict with him. Now, would you like to sleep in your cousin's room as Uncle Claudius suggests? "
+            },
+            {
+              "Character": "CALIGULA",
+              "Line": "I'll go back to my own room. "
+            },
+            {
+              "Character": "ANTONIA",
+              "Line": "Yes, I'll take him back. Say goodnight. "
+            },
+            {
+              "Character": "CALIGULA",
+              "Line": "Goodnight. "
+            },
+            {
+              "Character": "AGRIPPINA",
+              "Line": "He's very overwrought. "
+            },
+            {
+              "Character": "CLAUDIUS",
+              "Line": "Now, what about the t-t-trial? "
+            },
+            {
+              "Character": "HEROD",
+              "Line": "Do you really think you can prove a charge of poisoning? "
+            },
+            {
+              "Character": "VITELLIUS",
+              "Line": "We have a witness, a woman called Martina. She's a notorious poisoner, well known in the province. She was seen many times with Plancina. "
+            },
+            {
+              "Character": "HEROD",
+              "Line": "Where is she now? "
+            },
+            {
+              "Character": "CLAUDIUS",
+              "Line": "On her way to R-Rome. She's being kept hidden in different places along the route. "
+            },
+            {
+              "Character": "CASTOR",
+              "Line": "We must find a place for her when she arrives. Sejanus' agents are out looking for her even now. "
+            },
+            {
+              "Character": "HEROD",
+              "Line": "I know a place. A house of a merchant friend of mine. "
+            },
+            {
+              "Character": "CASTOR",
+              "Line": "Good. Now, I've applied for permission to prosecute in the courts. "
+            },
+            {
+              "Character": "CLAUDIUS",
+              "Line": "Oh, I'm afraid that's n-not a good idea. "
+            },
+            {
+              "Character": "CASTOR",
+              "Line": "Well, it's better to have it tried in the courts than in the Senate by my father. "
+            },
+            {
+              "Character": "CLAUDIUS",
+              "Line": "Your father can f-fix the courts behind the scenes. If he's tried in the Senate by him, T-T-Tiberius will be on trial too. "
+            },
+            {
+              "Character": "HEROD",
+              "Line": "Oh, clever, Clau-Clau! He's right. You'll be better off in the Senate. "
+            },
+            {
+              "Character": "CASTOR",
+              "Line": "Then we'll move for a trial in the Senate."
+            }
+          ]
+        },
+        {
+          "Scene": "INT. TIBERIUS'S PRIVATE CHAMBERS - DAY",
+          "Dialogue": [
+            {
+              "Stage Direction": "TIBERIUS sits with PISO and PLANCINA."
+            },
+            {
+              "Character": "PISO",
+              "Line": "In the Senate? Well, I mean, what's wrong with the courts? "
+            },
+            {
+              "Character": "TIBERIUS",
+              "Line": "I tried to get the case heard in the courts, but my son and his friends pressed for a hearing in the Senate. I couldn't oppose them, I had no grounds. "
+            },
+            {
+              "Character": "PISO",
+              "Line": "Well... Well, I mean, if it's the Senate, it's the Senate. Why should I be concerned? I'm no stranger to the Senate. And if my enemies have friends there, so have I. They'll find that out soon enough. And you will be hearing the case yourself? "
+            },
+            {
+              "Character": "TIBERIUS",
+              "Line": "Of course. "
+            },
+            {
+              "Character": "PISO",
+              "Line": "Well, then, what better guarantee of justice have we? And justice is all Plancina and I came home for. "
+            },
+            {
+              "Character": "PLANCINA",
+              "Line": "We've done nothing to be ashamed of, except that it makes me ashamed to have to say so. "
+            },
+            {
+              "Character": "PISO",
+              "Line": "That was very well put. I couldn't have put that better. But that shame, you mark my word, will be theirs in the end. Certain people will come to rue the day they should wantonly accuse Gnaeus Calpurnius Piso and his wife of murder! "
+            },
+            {
+              "Character": "TIBERIUS",
+              "Line": "They're arraigning you on a charge of treason as well. "
+            },
+            {
+              "Character": "PISO",
+              "Line": "Treason? Oh, it's treason now, is it? What will they think of next? That I caused a plague of moths? Or it is I who am polluting the Tiber? I mean, there was a drought on in Syria when I left, perhaps I caused that as well? "
+            },
+            {
+              "Character": "TIBERIUS",
+              "Line": "I should prepare your defense well. "
+            },
+            {
+              "Character": "PISO",
+              "Line": "I shall prepare my defense. That will take me no time. But treason! Where is the treason? I mean, I had certain disagreements with Germanicus, but I was not sent there to be his house boy. "
+            },
+            {
+              "Character": "PLANCINA",
+              "Line": "They were very cold to us, you know - Germanicus and Agrippina. From the very start, they snubbed us. "
+            },
+            {
+              "Character": "PISO",
+              "Line": "Well, naturally, they knew why I was there. They knew I had not been made Governor of Syria to follow like a small dog behind a parade. I was there as watch dog for my Emperor, and they knew it. Oh, the insults we bore at their hands! "
+            },
+            {
+              "Character": "PLANCINA",
+              "Line": "Even members of his own command were ashamed. At official banquets, we were seated on the third couch, and as for Agrippina, well, she gave herself such airs, she might have been queen! "
+            },
+            {
+              "Character": "PISO",
+              "Line": "And they accuse me of treason. Oh, don't talk to me of treason. Not to me. What has my whole life been but one of service to Rome and to my Emperor? My sons, too. Let the jackals howl. I have nothing to fear. I come home with my head held high. I am ashamed of nothing...  A SLAVE enters. "
+            },
+            {
+              "Stage Direction": "knocking"
+            },
+            {
+              "Character": "TIBERIUS",
+              "Line": "I gave orders not to be disturbed! "
+            },
+            {
+              "Character": "SLAVE",
+              "Line": "My lord, the Commander of the Guard has an urgent report to make. "
+            },
+            {
+              "Character": "TIBERIUS",
+              "Line": "Wait here.  Tiberius exits. Piso and Plancina exchange worried glances. "
+            },
+            {
+              "Character": "PLANCINA",
+              "Line": "He says very little. He neither agrees nor disagrees. "
+            },
+            {
+              "Character": "PISO",
+              "Line": "Oh, tell nothing from that. "
+            },
+            {
+              "Character": "PLANCINA",
+              "Line": "Well, he already plays the judge. "
+            },
+            {
+              "Character": "PISO",
+              "Line": "The judge? How? "
+            },
+            {
+              "Character": "PLANCINA",
+              "Line": "Well, he listens, but not with sympathy. "
+            },
+            {
+              "Character": "PISO",
+              "Line": "Oh, that's just his way. He's a very cold fish. You can tell nothing from that. "
+            },
+            {
+              "Character": "PLANCINA",
+              "Line": "I don't like it. It's not what I expected. "
+            },
+            {
+              "Character": "PISO",
+              "Line": "Each one written in his own handwriting. Quote: \"I have the utmost faith in you\". Quote: \"Any steps taken to check disloyalty will be looked on kindly by the Senate and the citizens of Rome\". Now, what did he expect me to make of such phrases? I'm not a fool and neither is he. They are his tacit agreement for every move that we made. "
+            },
+            {
+              "Character": "PLANCINA",
+              "Line": "But they bear his seal No power in Rome will allow a letter bearing the Imperial seal to be read in public. "
+            },
+            {
+              "Character": "PISO",
+              "Line": "I don't need it to be read in public. They will be beside me in the Senate, mute, but eloquent. They will plead our case better than Cicero could've done. There isn't a Senator that won't understand the meaning of those letters and vote the way he believes his Emperor wants him to.  Tiberius re-enters. "
+            },
+            {
+              "Character": "TIBERIUS",
+              "Line": "Who is the woman, Martina? "
+            },
+            {
+              "Character": "PLANCINA",
+              "Line": "Martina, she's the widow of the Roman soldier who settled in Antioch. We knew her slightly. "
+            },
+            {
+              "Character": "TIBERIUS",
+              "Line": "Did you know she was notorious as a poisoner in the province? "
+            },
+            {
+              "Character": "PISO",
+              "Line": "Poisoner? Has she ever been convicted of poisoning? "
+            },
+            {
+              "Character": "PLANCINA",
+              "Line": "Anyway, what of her? "
+            },
+            {
+              "Character": "TIBERIUS",
+              "Line": "Sejanus says that she has been brought secretly to Rome to be a witness. "
+            },
+            {
+              "Character": "PISO",
+              "Line": "Where is she? "
+            },
+            {
+              "Character": "TIBERIUS",
+              "Line": "His agents haven't found her yet. Do you have anything to fear from this witness? "
+            },
+            {
+              "Character": "PISO",
+              "Line": "Not if she speaks the truth... But if she's to be held incommunicado, I mean, who knows what they may not persuade her to say? "
+            },
+            {
+              "Character": "TIBERIUS",
+              "Line": "Well, let's hope we find her first then."
+            }
+          ]
+        },
+        {
+          "Scene": "INT. ROOM ABOVE THE RIVER - DAY",
+          "Dialogue": [
+            {
+              "Stage Direction": "A cramped room above the river. GERSHOM shows CLAUDIUS and HEROD around."
+            },
+            {
+              "Character": "GERSHOM",
+              "Line": "I loved this room. It was my life. "
+            },
+            {
+              "Character": "HEROD",
+              "Line": "But you won't mind letting it to us? "
+            },
+            {
+              "Character": "GERSHOM",
+              "Line": "Who can afford to keep an empty room? But you've got to pay in advance. "
+            },
+            {
+              "Character": "HEROD",
+              "Line": "My friend will pay. "
+            },
+            {
+              "Character": "GERSHOM",
+              "Line": "Are you taking the room? "
+            },
+            {
+              "Character": "CLAUDIUS",
+              "Line": "Y-yes. "
+            },
+            {
+              "Character": "GERSHOM",
+              "Line": "You'll like it. It's got a very fine view over the river. If you stand on a box, you'll see. "
+            },
+            {
+              "Character": "CLAUDIUS",
+              "Line": "It's n-n-not for me. It's f-for my mother. "
+            },
+            {
+              "Character": "GERSHOM",
+              "Line": "Oh. Well, it's not very comfortable. Hey, woh, woh, woh, woh, what about those soldiers? I'm not letting a barracks! "
+            },
+            {
+              "Character": "HEROD",
+              "Line": "No questions, Gershom. She's being locked up here. "
+            },
+            {
+              "Character": "GERSHOM",
+              "Line": "Locked up? What kind of a son are you? \"Honor thy father and thy mother!\" "
+            },
+            {
+              "Character": "HEROD",
+              "Line": "Do you want us to look elsewhere? "
+            },
+            {
+              "Character": "GERSHOM",
+              "Line": "Of course, I want you to look elsewhere! It's a disgrace! What do you think I run here? A jail? "
+            },
+            {
+              "Character": "CLAUDIUS",
+              "Line": "Is t-t-that enough? "
+            },
+            {
+              "Character": "GERSHOM",
+              "Line": "If I approved of what you were doing, it would be enough, but since you're offending against the Mosaic law... "
+            },
+            {
+              "Character": "HEROD",
+              "Line": "It's Roman law here, Gershom. "
+            },
+            {
+              "Character": "GERSHOM",
+              "Line": "It's Roman law everywhere. That's the trouble. But one day... With that kind of son, you've got to be lucky with your daughters."
+            }
+          ]
+        },
+        {
+          "Scene": "INT. SENATE CHAMBER - DAY",
+          "Dialogue": [
+            {
+              "Stage Direction": "A grand Senate chamber in Rome, resplendent with classical architecture and imperial insignia. Senators are seated, stern-faced. TIBERIUS sits on his throne, flanked by CASTOR. PISO stands before them, defiant."
+            },
+            {
+              "Character": "TIBERIUS",
+              "Line": "Like everyone else, I grieve for Germanicus. But apart from the charge of murder, we must consider the question of treason. Did Gnaeus Calpurnius Piso incite his troops to mutiny and rebellion? Did he bribe them to support him? Did he make war to regain his province? The case against Gnaeus Calpurnius Piso may now be heard. "
+            },
+            {
+              "Character": "CASTOR",
+              "Line": "If it please the Emperor my father, I have been asked to open the case against the accused. In the matter of murder, we shall be bringing before the House clear evidence of poisoning. In the matter of treason, we shall show that after Germanicus' death, Gnaeus Calpurnius Piso raised the troops in a rebellion against the newly appointed governor of that province."
+            }
+          ]
+        },
+        {
+          "Scene": "INT. ANTONIA'S PRIVATE QUARTERS - CONTINUOUS",
+          "Dialogue": [
+            {
+              "Stage Direction": "A lavishly decorated room. ANTONIA, a formidable woman, drags CALIGULA, a young boy, into the room."
+            },
+            {
+              "Character": "CALIGULA",
+              "Line": "No! Let go of me! Let go of me, you horrid old German woman!  CLAUDIUS (O.S) What's this?"
+            }
+          ]
+        },
+        {
+          "Scene": "INT. SENATE CHAMBER - CONTINUOUS",
+          "Dialogue": [
+            {
+              "Stage Direction": "CLAUDIUS enters, concerned, as the trial is paused. He observes the commotion."
+            },
+            {
+              "Character": "CALIGULA",
+              "Line": "I hate you! "
+            },
+            {
+              "Character": "CLAUDIUS",
+              "Line": "What's the matter? "
+            },
+            {
+              "Character": "ANTONIA",
+              "Line": "He is disgusting! "
+            },
+            {
+              "Character": "CLAUDIUS",
+              "Line": "What has he done? "
+            },
+            {
+              "Character": "ANTONIA",
+              "Line": "Oh! "
+            },
+            {
+              "Character": "CLAUDIUS",
+              "Line": "What has he done? "
+            },
+            {
+              "Character": "ANTONIA",
+              "Line": "That child is a monster! "
+            },
+            {
+              "Character": "CALIGULA",
+              "Line": "I'm not, you horrid old German woman! I'll burn your German house down! "
+            },
+            {
+              "Character": "CLAUDIUS",
+              "Line": "Stop it! Stop it! (to Caligula) Come here! Come here! Now, what is all this G-German? "
+            },
+            {
+              "Character": "ANTONIA",
+              "Line": "He calls everything German that he doesn't like it. He is a monster. "
+            },
+            {
+              "Character": "CLAUDIUS",
+              "Line": "Well, what has he done? "
+            },
+            {
+              "Character": "ANTONIA",
+              "Line": "He knows what he's done! "
+            },
+            {
+              "Character": "CALIGULA",
+              "Line": "I didn't do anything! I didn't! I didn't! Honestly, Uncle Claudius. I didn't do anything, I swear. It was only a game. "
+            },
+            {
+              "Character": "ANTONIA",
+              "Line": "I found him in Drusilla's bed. Naked, the pair of them! He is revolting and so is she. I've locked her in her room! "
+            },
+            {
+              "Character": "CALIGULA",
+              "Line": "Well, Mother... "
+            },
+            {
+              "Character": "ANTONIA",
+              "Line": "You're a blockhead if you believe his lies! "
+            },
+            {
+              "Character": "CLAUDIUS",
+              "Line": "Where are you taking him? "
+            },
+            {
+              "Character": "ANTONIA",
+              "Line": "To the cellar to lock him in. "
+            },
+            {
+              "Character": "CALIGULA",
+              "Line": "Please don't let her take me. Please Uncle Claudius. I hate the cellar. I'm afraid. "
+            },
+            {
+              "Character": "CLAUDIUS",
+              "Line": "Well, you leave him here with me. I'll t-t-talk to him. "
+            },
+            {
+              "Character": "ANTONIA",
+              "Line": "He needs a good whipping, not a talking to! Oh, Claudius, you're such a fool! I've no patience with you. It should have been you who died, not Germanicus! What use are you to anyone? "
+            },
+            {
+              "Character": "CLAUDIUS",
+              "Line": "Now, don't you know that you sh-shouldn't play games like that with your sister? Hmmm? Don't you know how w-wicked it is? "
+            },
+            {
+              "Character": "CALIGULA",
+              "Line": "Why? "
+            },
+            {
+              "Character": "CLAUDIUS",
+              "Line": "Why? B-because it is. "
+            },
+            {
+              "Character": "CALIGULA",
+              "Line": "Why? "
+            },
+            {
+              "Character": "CLAUDIUS",
+              "Line": "Now, now look, don't answer me back or I'll cut you on the head! Now, you listen to me. Now, a sister is a sister and she's not to be p-p-played with, ever, do you understand? You can't p-p-play with her and you can't m-marry her. "
+            },
+            {
+              "Character": "CALIGULA",
+              "Line": "But she wanted to... "
+            },
+            {
+              "Character": "CLAUDIUS",
+              "Line": "I don't care what she wanted! You're disgusting, the pair of you. And I shall talk to Dr-Drusilla later. "
+            },
+            {
+              "Character": "CLAUDIUS",
+              "Line": "What's the matter? "
+            },
+            {
+              "Character": "HEROD",
+              "Line": "Martina's disappeared. "
+            },
+            {
+              "Character": "CLAUDIUS",
+              "Line": "What? "
+            },
+            {
+              "Character": "AGRIPPINA",
+              "Line": "We took an escort and went to fetch her. She was gone. The guard outside had been overpowered and the room was empty. "
+            },
+            {
+              "Character": "CLAUDIUS",
+              "Line": "Oh, Sejanus? "
+            },
+            {
+              "Character": "HEROD",
+              "Line": "Who else? That man's spies are everywhere! Thick as flies in summer! "
+            },
+            {
+              "Character": "CLAUDIUS",
+              "Line": "We've lost our chief witness, then? "
+            },
+            {
+              "Character": "AGRIPPINA",
+              "Line": "That won't save the pair of them. If Tiberius thinks it will, he's mistaken. What's he doing here? "
+            },
+            {
+              "Character": "CLAUDIUS",
+              "Line": "He's been v-very very naughty. Mother was going to thrash him. "
+            },
+            {
+              "Character": "AGRIPPINA",
+              "Line": "Oh, why can't people leave him alone? Hasn't he been through enough already? "
+            },
+            {
+              "Character": "CLAUDIUS",
+              "Line": "Hey..."
+            }
+          ]
+        },
+        {
+          "Scene": "INT. SENATE CHAMBER - CONTINUOUS",
+          "Dialogue": [
+            {
+              "Stage Direction": "The trial resumes. Piso addresses the Senate."
+            },
+            {
+              "Character": "PISO",
+              "Line": "When I heard of the death of Germanicus, I was on the island of Cos. In fact on my way back to Rome to report my dismissal to the Emperor. Yes, and complain about it. I make no bones about that. Now, my accusers say that I entered temples and made sacrifices in an orgy of celebration. "
+            },
+            {
+              "Stage Direction": "shouting"
+            },
+            {
+              "Character": "SENATE",
+              "Line": "So you did! "
+            },
+            {
+              "Character": "PISO",
+              "Line": "One ewe and a goat! What orgy? And why? To celebrate the birth of a grandson. "
+            },
+            {
+              "Character": "SENATE",
+              "Line": "To celebrate the death of Germanicus! "
+            },
+            {
+              "Character": "PISO",
+              "Line": "The living have their rights as well as the dead! You would have done the same. "
+            },
+            {
+              "Character": "CASTOR",
+              "Line": "But why did you return to Syria? Why didn't you go on to Rome? "
+            },
+            {
+              "Character": "PISO",
+              "Line": "Because I was still Governor of Syria. "
+            },
+            {
+              "Stage Direction": "angry shouting"
+            },
+            {
+              "Character": "CASTOR",
+              "Line": "We have... We have the written instructions of Germanicus, ordering you to leave the province. Surtius had been made Governor of Syria. "
+            },
+            {
+              "Character": "PISO",
+              "Line": "Illegally! That governorship was mine! And the man who had unfairly removed me was dead. I had my appointment. I had my instructions. I knew where my loyalties lay. "
+            },
+            {
+              "Character": "SENATE",
+              "Line": "Read them out! Read the letters! "
+            },
+            {
+              "Character": "PISO",
+              "Line": "I have no need to read them! My defense will stand on its own merit. "
+            },
+            {
+              "Stage Direction": "angry shouting"
+            },
+            {
+              "Character": "PISO",
+              "Line": "I said I have no need to read them... "
+            },
+            {
+              "Character": "TIBERIUS",
+              "Line": "Unless order is maintained in the House, I shall adjourn! "
+            },
+            {
+              "Character": "CASTOR",
+              "Line": "If Gnaeus Calpurnius Piso's argument is to rely upon instructions, this House has the right to know what's in them. "
+            },
+            {
+              "Stage Direction": "shouts of agreement"
+            },
+            {
+              "Character": "PISO",
+              "Line": "These letters bear the Imperial seal. No one has the right to read them. "
+            },
+            {
+              "Character": "VITELLIUS",
+              "Line": "The Emperor may consent to having them read. "
+            },
+            {
+              "Character": "PISO",
+              "Line": "They have no bearing on the case. "
+            },
+            {
+              "Character": "VITELLIUS",
+              "Line": "Then why produce them? "
+            },
+            {
+              "Character": "PISO",
+              "Line": "They're not produced as evidence. They are merely here among my papers. "
+            },
+            {
+              "Stage Direction": "shouting again"
+            },
+            {
+              "Character": "VITELLIUS",
+              "Line": "If it please the Emperor, I move that any instructions received by the accused from Rome be entered as evidence pertaining to his guilt or innocence. "
+            },
+            {
+              "Character": "CASTOR",
+              "Line": "I second that motion. "
+            },
+            {
+              "Character": "TIBERIUS",
+              "Line": "Those letters bear the Imperial seal. The seal of the god Augustus himself. There is no precedence for making their contents public. I will not create such a precedent. The motion is denied. "
+            },
+            {
+              "Stage Direction": "angry shouting"
+            }
+          ]
+        },
+        {
+          "Scene": "INT. IMPERIAL VILLA - PRIVATE ROOM - NIGHT",
+          "Dialogue": [
+            {
+              "Stage Direction": "A sparsely furnished room within an imperial villa. PISO and PLANCINA are alone. The atmosphere is thick with tension."
+            },
+            {
+              "Character": "PISO",
+              "Line": "Well, they got more than they bargained for, eh? They thought they had a rabbit in the Senate. It turns out they had a tiger. Eh, Plancina? Oh, leave us, my friends. Plancina's tired after such a day. A good night's rest and a little peace and quiet will work miracles, you'll see. Our enterprise will prosper again tomorrow, you'll see. Goodnight, my friends. Goodnight... "
+            },
+            {
+              "Character": "PISO",
+              "Line": "What's the matter, Plancina? "
+            },
+            {
+              "Character": "PLANCINA",
+              "Line": "Oh, I don't like it. It didn't go the way it should. "
+            },
+            {
+              "Character": "PISO",
+              "Line": "I thought it went very well. "
+            },
+            {
+              "Character": "PLANCINA",
+              "Line": "And you shouldn't have used those letters. That was a mistake. "
+            },
+            {
+              "Character": "PISO",
+              "Line": "What do you mean mistake? "
+            },
+            {
+              "Character": "PLANCINA",
+              "Line": "Well, you saw the look on his face. He'll never forgive you. "
+            },
+            {
+              "Character": "PISO",
+              "Line": "We were carrying out his orders. "
+            },
+            {
+              "Character": "PLANCINA",
+              "Line": "Well, he's not going to thank you for reminding him of it. "
+            },
+            {
+              "Character": "PISO",
+              "Line": "I don't want his thanks, as long as he remembers. "
+            },
+            {
+              "Character": "PLANCINA",
+              "Line": "He'll never forgive you, never. "
+            },
+            {
+              "Character": "PISO",
+              "Line": "I'm not asking his forgiveness. He should be asking me for mine. That trial should never have taken place. "
+            },
+            {
+              "Character": "PLANCINA",
+              "Line": "Then why has he allowed it? "
+            },
+            {
+              "Character": "PISO",
+              "Line": "He had to give them a show. Germanicus has powerful friends. He can't just thumb his nose at them. So he gives them a trial. But a trial is one thing, a conviction that's another. That he'd never allow. Because if we're guilty, so is he and so is his mother. He knows that and the Senate does. We did what we were asked to - harass and provoke Germanicus into showing his hand. "
+            },
+            {
+              "Character": "PLANCINA",
+              "Line": "But did that include bringing about his death as well? "
+            },
+            {
+              "Character": "PISO",
+              "Line": "Yes. Well, that was your idea. "
+            },
+            {
+              "Character": "PLANCINA",
+              "Line": "My idea? "
+            },
+            {
+              "Character": "PISO",
+              "Line": "Yes. Oh, what does it matter? It turned out to be an additional bonus for them. They're not complaining. "
+            },
+            {
+              "Character": "PLANCINA",
+              "Line": "What do you mean, it was my idea? "
+            },
+            {
+              "Character": "PISO",
+              "Line": "Well, wasn't it you that came to me and said it could be managed. "
+            },
+            {
+              "Stage Direction": "scoffs"
+            },
+            {
+              "Character": "PLANCINA",
+              "Line": "Haha. Well, that's wonderful! I'm to blame then, am I? "
+            },
+            {
+              "Character": "PISO",
+              "Line": "Oh, of course not. "
+            },
+            {
+              "Character": "PLANCINA",
+              "Line": "I can just see the way your mind is working. I'm going to be sacrificed, is that it? "
+            },
+            {
+              "Character": "PISO",
+              "Line": "Oh, stop it. What are you talking about? What are you going on about? "
+            },
+            {
+              "Character": "PLANCINA",
+              "Line": "I am going to be sacrificed at the temple! Well, I won't be! I won't be! "
+            },
+            {
+              "Character": "PISO",
+              "Line": "Stop it! Stop it! Control yourself... Yes, what is it?  A SLAVE enters. "
+            },
+            {
+              "Character": "SLAVE",
+              "Line": "Lucius Aelius Sejanus is here master. "
+            },
+            {
+              "Character": "PISO",
+              "Line": "Show him in. "
+            },
+            {
+              "Character": "PLANCINA",
+              "Line": "What does he want? "
+            },
+            {
+              "Character": "PISO",
+              "Line": "How would I know what he wants? For heaven's sake, control yourself. I don't want him to see you looking like this."
+            }
+          ]
+        },
+        {
+          "Scene": "INT. IMPERIAL VILLA - PRIVATE ROOM - CONTINUOUS",
+          "Dialogue": [
+            {
+              "Stage Direction": "SEJANUS enters. He is calm and collected."
+            },
+            {
+              "Character": "SEJANUS",
+              "Line": "I came to tell you, sir, that I've had guards placed all around the house. "
+            },
+            {
+              "Character": "PISO",
+              "Line": "Why? I have guards of my own. "
+            },
+            {
+              "Character": "SEJANUS",
+              "Line": "Yes, of course. But the crowd is very large and seems to be in an ugly mood. "
+            },
+            {
+              "Character": "PISO",
+              "Line": "Oh, what's their mood to me? I go where I please in Rome. Nobody stops me. "
+            },
+            {
+              "Character": "SEJANUS",
+              "Line": "The Emperor requested it. For your safety. "
+            },
+            {
+              "Character": "PISO",
+              "Line": "Well, I mean if it's for our safety, we're very pleased, eh, Plancina? I understand their chief witness against me has, ummm, disappeared. "
+            },
+            {
+              "Character": "SEJANUS",
+              "Line": "So it seems. "
+            },
+            {
+              "Character": "PISO",
+              "Line": "Perhaps they never had one in the first place. "
+            },
+            {
+              "Character": "SEJANUS",
+              "Line": "Oh, I think they had one, but, unaccountably, she's disappeared. Oh, by the way, the Emperor asked me to ask you for the letters. "
+            },
+            {
+              "Character": "PISO",
+              "Line": "The letters? "
+            },
+            {
+              "Character": "SEJANUS",
+              "Line": "Since their documents of state, they should be placed in the archives. After all, they might get stolen or fall into the wrong hands. "
+            },
+            {
+              "Character": "PISO",
+              "Line": "As a matter of fact I was just about to send them around. We were just talking about it, eh Plancina? Here they are. Give them to the Emperor. Tell him I will never forget the things he wrote. I treasure in my mind every word.  Piso hands the letters to Sejanus. "
+            },
+            {
+              "Character": "SEJANUS",
+              "Line": "Thank you. The Imperial Guard will escort you to the Senate tomorrow. You needn't worry about the crowds. "
+            },
+            {
+              "Character": "PISO",
+              "Line": "Tell... Tell the Emperor I am grateful. Tell him I'm always of service. Tell him Gnaeus Calpurnius Piso is his humble servant and always will be! "
+            },
+            {
+              "Character": "SEJANUS",
+              "Line": "You'll have to sacrifice them. The mob will not have them acquitted. They're dragging Piso's statues down to the Tiber now and smashing them. It's as though they already have the meat hooks under his chin."
+            }
+          ]
+        },
+        {
+          "Scene": "INT. TIBERIUS'S CHAMBERS - NIGHT",
+          "Dialogue": [
+            {
+              "Stage Direction": "TIBERIUS is with SEJANUS."
+            },
+            {
+              "Character": "TIBERIUS",
+              "Line": "What are they saying about me? "
+            },
+            {
+              "Character": "SEJANUS",
+              "Line": "That Piso and his wife had your approval for everything they did. If you let them go now, they'll be convinced of it. But, above all, they praise Agrippina. The glory of her country, they call her, the only true descendant of Augustus. "
+            },
+            {
+              "Character": "TIBERIUS",
+              "Line": "Did he give you the letters without complaint? "
+            },
+            {
+              "Character": "SEJANUS",
+              "Line": "He expects you to save him, but you must not."
+            }
+          ]
+        },
+        {
+          "Scene": "INT. TIBERIUS'S CHAMBERS - CONTINUOUS",
+          "Dialogue": [
+            {
+              "Stage Direction": "AGRIPPINA enters, confronting TIBERIUS."
+            },
+            {
+              "Character": "AGRIPPINA",
+              "Line": "I have come to tell you, Tiberius, that I and all of Rome, hold you responsible for my husband's death and will do so until you prove your innocence. We know too that you've taken that woman who was our witness, but it will avail you nothing. Emperor you may be, but justice is emperor over all. "
+            },
+            {
+              "Character": "TIBERIUS",
+              "Line": "And the fact you are not queen, my dear - is that the greatest injustice of all? "
+            },
+            {
+              "Character": "AGRIPPINA",
+              "Line": "Vengeance, Tiberius! Walk down into the marketplace. The people are crying for it on every corner. Rome will not rest until you give it to them. And neither shall I. "
+            },
+            {
+              "Character": "TIBERIUS",
+              "Line": "Where is the woman, Martina? "
+            },
+            {
+              "Character": "SEJANUS",
+              "Line": "We don't know. "
+            },
+            {
+              "Character": "TIBERIUS",
+              "Line": "Then find her. Am I to be blamed for everything? How are you going to get a conviction if you don't find her? Find her! She must be somewhere!"
+            }
+          ]
+        },
+        {
+          "Scene": "INT. LIVIA'S CHAMBERS - DAY",
+          "Dialogue": [
+            {
+              "Stage Direction": "LIVIA is interrogating MARTINA."
+            },
+            {
+              "Character": "LIVIA",
+              "Line": "And what other poisons do you use? Have you ever tried aconite, for instance? "
+            },
+            {
+              "Character": "MARTINA",
+              "Line": "Aconite? Now, what's that? "
+            },
+            {
+              "Character": "LIVIA",
+              "Line": "Well, the roots look very like horseradish, but it'll do more than clear your head if you eat it. "
+            },
+            {
+              "Character": "MARTINA",
+              "Line": "Oh, yes, bless you, Lady. I know the one you mean. You mean wolf's bane. Well, that's what we call it. It came originally from India. "
+            },
+            {
+              "Character": "LIVIA",
+              "Line": "Really? I never knew that. "
+            },
+            {
+              "Character": "MARTINA",
+              "Line": "I bet you didn't know its antidote either. "
+            },
+            {
+              "Character": "LIVIA",
+              "Line": "Morphine? "
+            },
+            {
+              "Character": "MARTINA",
+              "Line": "You have made a study of it. Of course, I don't worry too much about antidotes. "
+            },
+            {
+              "Character": "LIVIA",
+              "Line": "Oh, well, you never know. Sometimes some fool of a slave will get the bowls mixed up. "
+            },
+            {
+              "Character": "MARTINA",
+              "Line": "I can see you've read a lot. It's a pity, in a way, you don't get a chance to practice. You'd be very good. "
+            },
+            {
+              "Character": "LIVIA",
+              "Line": "Thank you. Tell me now, what did you use on my grandson, Germanicus? "
+            },
+            {
+              "Character": "MARTINA",
+              "Line": "Ah, belladonna. "
+            },
+            {
+              "Character": "LIVIA",
+              "Line": "Ah, that accounts for the red rash. "
+            },
+            {
+              "Character": "MARTINA",
+              "Line": "It nearly always leaves that mark. That's why I didn't want to use it, but Plancina insisted. I warned her, but she'd been told by know-it-alls how tasteless it was. You know what people are like. "
+            },
+            {
+              "Character": "LIVIA",
+              "Line": "Amateurs. But you used witchcraft as well. "
+            },
+            {
+              "Character": "MARTINA",
+              "Line": "Oh, I wouldn't say that. All I did was arrange some apparitions. Your grandson was more superstitious than any man living. I just frightened him to death. If a man believes he's going to die, he'll die a lot quicker than if he doesn't. "
+            },
+            {
+              "Character": "LIVIA",
+              "Line": "How did you gain access to that house? "
+            },
+            {
+              "Character": "MARTINA",
+              "Line": "You remember when Germanicus went to Egypt, he took Agrippina with him, but left little Caligula behind as a punishment. "
+            },
+            {
+              "Character": "LIVIA",
+              "Line": "What for? "
+            },
+            {
+              "Character": "MARTINA",
+              "Line": "Oh, that child was never out of mischief. You know, he hated his father. They fought like cat and dog. It was he that told me how superstitious his father was. Well, they left him in the care of a tutor, a Greek, whom I knew. He took the child for walks all over the city, and each day he brought him to see me. Oh, that child's a strange one. He told me once he was born a god, and such was the conviction with which he said it, I believed him, and I said I did. It was then I suggested that he played the death game. I said, \"A god should be able to frighten a man to death.\" And he shouted, \"Tell me how and I'll show you.\" So I told him. "
+            },
+            {
+              "Character": "LIVIA",
+              "Line": "Are you telling me that that child was responsible for poisoning his own father? "
+            },
+            {
+              "Character": "MARTINA",
+              "Line": "Shocking, isn't it? "
+            },
+            {
+              "Character": "LIVIA",
+              "Line": "He's not a god, he's a monster. "
+            },
+            {
+              "Character": "MARTINA",
+              "Line": "You try telling him. Eh.... "
+            },
+            {
+              "Character": "LIVIA",
+              "Line": "What's the matter? "
+            },
+            {
+              "Character": "MARTINA",
+              "Line": "I don't know, I... I've got a pain. "
+            },
+            {
+              "Character": "LIVIA",
+              "Line": "Oh, come, it's wind, that's all. I have it all the time. Do you seriously think that if I wanted to dispose of you, I'd stoop to doing it myself? "
+            },
+            {
+              "Character": "MARTINA",
+              "Line": "What...? What's going to happen to me? "
+            },
+            {
+              "Character": "LIVIA",
+              "Line": "I don't know. I'll do the best I can for you. It's lucky for you that my agents found you before my son's did. If they hadn't, you wouldn't be sitting here complaining about wind, I can tell you."
+            }
+          ]
+        },
+        {
+          "Scene": "INT. IMPERIAL STUDY - DAY",
+          "Dialogue": [
+            {
+              "Stage Direction": "A richly appointed private imperial study adorned with symbols of authority. The luxurious decor stands in stark contrast to the tense confrontation about to unfold. TIBERIUS, Emperor of Rome, stands rigidly, his face a mask of controlled fury. LIVIA, his mother, sits regally in a high-backed chair, her eyes sharp and calculating. Incriminating letters lie scattered on a table between them."
+            },
+            {
+              "Stage Direction": "SOUND: of a trial in progress, muffled but audible, drifts in from another part of the palace."
+            },
+            {
+              "Character": "TIBERIUS",
+              "Line": "The trial of Gnaeus Calpurnius Piso and his wife Plancina is now resumed.  **SOUND** of indistinct speech from the trial.  ATTORNEY (O.S) We understand that the principal witness in the charge of poisoning has not been found. In her absence, the prosecution have no case, and we request that the charge be withdrawn.  **SOUND** of rowdy outcry from the SENATE (O.S). "
+            },
+            {
+              "Character": "TIBERIUS",
+              "Line": "Request denied.  **SOUND** of cheering from the SENATE (O.S).  ATTORNEY (O.S) If it please the Emperor, the wife of Gnaeus Calpurnius Piso has asked that from now on her defense be conducted separately from her husband's, and that she be tried independently from him.  PISO (O.S) Why...? Why did you do this to me? Don't you see what they'll think? Do you want me to die?  PLANCINA (O.S) They've made up their minds. There's nothing you nor I can say will change them. The Emperor has abandoned you. He's given you up to the mob. There's nothing on earth can save you now.  PISO (O.S) What about you?  PLANCINA (O.S) I'll go to Livia. She, at least, stands by her friends.  PISO (O.S) Oh...  PLANCINA (O.S) Oh, Piso, listen to me. There's the honor and wealth of our family to be saved. Our sons, our daughters, our grandchildren - what of them? If... If you would take your life now... If you take your life, there's a chance... and a good one, that an honorable death will preserve the family wealth. Well, execution means only one thing - destruction for all we've built.  PISO (O.S) Fall on a sword? Is that what you want for me, your husband? Is that to be the end of Gnaeus Calpurnius Piso? No. There is another way. You go to Livia, yes! Tell her I have a letter, another letter. She'll remember the one she wrote. It's in her name and his, but it bears no seal. Tell her no power on earth will prevent me reading in the Senate aloud tomorrow unless I have assurances of acquittal.  PLANCINA (O.S) You're bluffing.  PISO (O.S) No. Tell her. She'll remember. Tell her I intend to read it aloud in the Senate tomorrow."
+            }
+          ]
+        },
+        {
+          "Scene": "INT. IMPERIAL STUDY - CONTINUOUS",
+          "Dialogue": [
+            {
+              "Stage Direction": "LIVIA turns to face Tiberius, her expression a mixture of defiance and concern."
+            },
+            {
+              "Character": "LIVIA",
+              "Line": "Why, don't look at me as if I'd just told you I was pregnant! He's got a letter, and it's very incriminating. And he'll read it unless we do something about it. "
+            },
+            {
+              "Character": "TIBERIUS",
+              "Line": "You wrote a letter, in my name and yours, without even using the seal? "
+            },
+            {
+              "Character": "LIVIA",
+              "Line": "You were away, and anyway you don't let me use the seal. "
+            },
+            {
+              "Character": "TIBERIUS",
+              "Line": "Who's Emperor here, you or I? "
+            },
+            {
+              "Character": "LIVIA",
+              "Line": "I used Augustus' seal. I had the free use of that. "
+            },
+            {
+              "Character": "TIBERIUS",
+              "Line": "I am not Augustus! "
+            },
+            {
+              "Character": "LIVIA",
+              "Line": "No, you're not. Otherwise this situation would never have arisen. "
+            },
+            {
+              "Character": "TIBERIUS",
+              "Line": "I think I shall go mad. You will drive me insane! Will you stay out of my affairs? "
+            },
+            {
+              "Character": "LIVIA",
+              "Line": "Your affairs? You wouldn't be Emperor if it weren't for me. Well, what's done can be undone. Plancina isn't the only one with letters. I've got plenty from Augustus saying exactly what he thought about you, and don't think I won't have them circulated if I have to. "
+            },
+            {
+              "Character": "TIBERIUS",
+              "Line": "What do you want? "
+            },
+            {
+              "Character": "LIVIA",
+              "Line": "I don't want that letter read in the Senate. You'd be a fool if you allowed it. "
+            },
+            {
+              "Character": "TIBERIUS",
+              "Line": "You want my assurances that they'll be acquitted? "
+            },
+            {
+              "Character": "LIVIA",
+              "Line": "Of course I do. They should be acquitted. And if you had any backbone, you'd get them acquitted. "
+            },
+            {
+              "Character": "TIBERIUS",
+              "Line": "I'll tell you what I'm going to do. It's your letter, you stick to it... and if it's read in the House, I'll deny all knowledge of it and excuse you on the grounds of mental incompetence brought on by extreme old age. And you can tell your friend Plancina that there will be no deal! "
+            },
+            {
+              "Character": "LIVIA",
+              "Line": "What a spineless, miserable, mean-spirited creature you are!"
+            }
+          ]
+        },
+        {
+          "Scene": "INT. LIVIA'S PRIVATE CHAMBERS - LATER",
+          "Dialogue": [
+            {
+              "Stage Direction": "PLANCINA stands before Livia, her face etched with anxiety. Livia paces, her expression grim."
+            },
+            {
+              "Character": "LIVIA",
+              "Line": "(to Plancina) He won't have it. He won't acquit your husband. There is too much feeling against him. "
+            },
+            {
+              "Character": "PLANCINA",
+              "Line": "And what about me?"
+            }
+          ]
+        },
+        {
+          "Scene": "INT. LIVIA'S PRIVATE CHAMBERS - CONTINUOUS",
+          "Dialogue": [
+            {
+              "Character": "LIVIA",
+              "Line": "(to Plancina) Well, I was a little more successful there. In exchange for the letter, he will allow your husband to take his own life rather than face execution. Then he will see to it that you are spared and that your family and your estates do not suffer. "
+            },
+            {
+              "Character": "PLANCINA",
+              "Line": "And if my husband refuses? "
+            },
+            {
+              "Character": "LIVIA",
+              "Line": "Well, I would see to it that he doesn't refuse if I were you. It shouldn't be hard. Appeal to his sense of honor. Men find that irresistible. "
+            },
+            {
+              "Character": "PLANCINA",
+              "Line": "And what guarantee do I have that your son will get me acquitted? "
+            },
+            {
+              "Character": "LIVIA",
+              "Line": "Well, you see, I have Martina. But he doesn't know that. Now, his chances of convicting you without her are remote. On the other hand... if that letter is read, I shall be compelled, very reluctantly, to produce her."
+            }
+          ]
+        },
+        {
+          "Scene": "INT. PISO'S VILLA - NIGHT",
+          "Dialogue": [
+            {
+              "Stage Direction": "Smoke fills the air. Flames are visible through shattered windows, illuminating the panicked faces of PISO and PLANCINA. The room is in disarray, papers scattered across the floor."
+            },
+            {
+              "Character": "PLANCINA",
+              "Line": "He won't help us. He has abandoned us. "
+            },
+            {
+              "Character": "PISO",
+              "Line": "Oh, that... that miserable cur! Well, I shall read this letter. The Senate will see what sort of Emperor they have and what sort of bitch gave him birth and calls herself \"Mother of the nation\"! "
+            },
+            {
+              "Character": "PLANCINA",
+              "Line": "No, no, no, wait, wait, Piso, listen to me. We can't fight them. They're too powerful. And, anyway, there's the children and the estates. Is the whole family to be destroyed because of us? Oh, I can't believe it. It's not right. I won't allow it. We've lived together... we'll die together too. Oh, there's comfort in that, isn't there? "
+            },
+            {
+              "Character": "PISO",
+              "Line": "You would...die with me? "
+            },
+            {
+              "Character": "PLANCINA",
+              "Line": "Well, I couldn't live without you. We'll leave the letter for LIVIA. She'll help the family when we've gone. I know that. "
+            },
+            {
+              "Character": "PISO",
+              "Line": "Yes, you're right. I'm tired of it all. To have everybody against you when all you've done is your duty. There's no gratitude anymore. No... No honor. To hell with Rome, I've done with it. How shall we do it? Open a vein? Let them find us lying together? Shall we let them find us lying together? ... No, they're bluffing. They wouldn't dare have that letter read! "
+            },
+            {
+              "Character": "PLANCINA",
+              "Line": "Would you rather have an executioner's sword on your neck like a common criminal? "
+            },
+            {
+              "Character": "PISO",
+              "Line": "It'll never come to that! "
+            },
+            {
+              "Character": "PLANCINA",
+              "Line": "Oh, you coward! Well, I'm made of sterner stuff. "
+            },
+            {
+              "Character": "PISO",
+              "Line": "Plancina. "
+            },
+            {
+              "Character": "PLANCINA",
+              "Line": "I'll show you how a Roman should die. "
+            },
+            {
+              "Character": "PISO",
+              "Line": "Plancina, they're bluffing. They'll never have that letter read, Plancina, they'll never..."
+            }
+          ]
+        },
+        {
+          "Scene": "INT. IMPERIAL PALACE - DAY",
+          "Dialogue": [
+            {
+              "Stage Direction": "AGRIPPINA stands before CLAUDIUS and ANTONIA, her face etched with fury. CASTOR and HEROD are also present, looking uneasy. Smoke drifts in from outside."
+            },
+            {
+              "Character": "AGRIPPINA",
+              "Line": "Yes. Piso is dead, but Plancina goes free. And you call that justice? "
+            },
+            {
+              "Character": "CLAUDIUS",
+              "Line": "Well, it's s-s-some justice, I suppose. Better than none. "
+            },
+            {
+              "Character": "AGRIPPINA",
+              "Line": "Oh, yes. Some justice! "
+            },
+            {
+              "Character": "ANTONIA",
+              "Line": "Pina, can't we let it rest now? "
+            },
+            {
+              "Character": "AGRIPPINA",
+              "Line": "I have sons to think about. Their father is dead because Tiberius hated him. Oh, let's not deceive ourselves. And if he hated their father, will he love them any more? I worry about my boys - NERO, DRUSUS, and dear little CALIGULA asleep in his bed. What's to become of them? "
+            },
+            {
+              "Character": "CASTOR",
+              "Line": "It's SEJANUS. My father listens to everything he says and Sejanus plays on his fears. "
+            },
+            {
+              "Character": "HEROD",
+              "Line": "Can anyone smell burning? "
+            },
+            {
+              "Character": "CLAUDIUS",
+              "Line": "I can smell s-s-something."
+            }
+          ]
+        },
+        {
+          "Scene": "EXT. IMPERIAL PALACE - CONTINUOUS",
+          "Dialogue": [
+            {
+              "Stage Direction": "A SLAVE rushes in, his face blackened with soot and fear. The palace is in flames."
+            },
+            {
+              "Character": "SLAVE",
+              "Line": "Mistress! Mistress! Caligula's set fire to the house! It's burning. The whole top floor is ablaze! Run!  /EPISODE6"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

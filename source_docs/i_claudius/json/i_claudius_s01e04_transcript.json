@@ -1,0 +1,1701 @@
+{
+  "Story": "I, Claudius",
+  "Airdate": "04 Oct, 1976",
+  "Episodes": [
+    {
+      "Episode": "What Shall We Do About Claudius?",
+      "Scenes": [
+        {
+          "Scene": "INT. IMPERIAL SALON - NIGHT",
+          "Dialogue": [
+            {
+              "Stage Direction": "Elegant salon in the imperial palace. The room is richly decorated with classical art, yet maintains an intimate atmosphere. HORACE, a poet, recites his verses. AUGUSTUS, the Emperor, sits with his family: LIVIA, his wife; ANTONIA; GERMANICUS, a young soldier; AGRIPPINA; TIBERIUS; LIVILLA; DOMITIA; POSTUMUS, Agrippa's son; and CLAUDIUS, who stands awkwardly to the side."
+            },
+            {
+              "Character": "CLAUDIUS",
+              "Line": "Myself when young - not a pretty sight."
+            },
+            {
+              "Character": "HORACE",
+              "Line": "\"Thaw follows frost, hard on the heels of spring, treads summer bound to die...for hard on hers, comes autumn with his apples scattering. Then back to winter tide again where nothing stirs. But, oh, what're the sky-led seasons mar, Moon upon moon rebuilds it with her beams...\"  CLAUDIUS (V.O.) Postumus, Agrippa's sole surviving son, and my best friend. His mother, Julia was banished you may remember, and his two elder brothers died mysteriously. "
+            },
+            {
+              "Character": "HORACE",
+              "Line": "\"...Come we where Tullus and where Ancus are, and good Aeneas, we are dust and dreams. Torquatus, if the gods in heaven should add the morrow to the day, ...\"  CLAUDIUS (V.O.) The golden-haired Apollo is Germanicus my brother - already a great soldier. "
+            },
+            {
+              "Character": "HORACE",
+              "Line": "\"...Feast then thy heart, for what thy heart has had, the fingers of no heir will ever hold. When thou descendent once the shades among, the stern assize...\"  CLAUDIUS (V.O.) And if you wait a moment, you will see a creature of a different kind - Livilla my sister. Yes there she is tormenting Postumus as usual when her husband is away. "
+            },
+            {
+              "Character": "HORACE",
+              "Line": "\"...and equal judgment o'er, Not thy long lineage nor thy golden tongue, No, nor thy righteousness, shall friend thee more.\" "
+            },
+            {
+              "Stage Direction": "clapping"
+            },
+            {
+              "Character": "AUGUSTUS",
+              "Line": "Oh, beautiful. Beautiful. Horace, my dear fellow, such language. Wonderful. Wonderful. Weren't they lovely poems? Exquisite. Now, that's what I call poetry. Ovid? I mean there's no comparison. It's better than Ovid. I don't care what they say! I've never liked that man. Alright, his poetry's very beautiful, but it's also very smutty. A lot of it's downright indecent. Frankly, I wouldn't have him in the house. Thank you. People say that he has a lovely voice, but I say what does he do with his lovely voice? Talks a lot of smut, that's what he does! "
+            },
+            {
+              "Stage Direction": "chuckles"
+            },
+            {
+              "Character": "AUGUSTUS",
+              "Line": "Write poetry, yes, but write about nice things - things you'd like your children to hear. Now, I want a copy of the book when you publish. "
+            },
+            {
+              "Character": "HORACE",
+              "Line": "But, of course, Caesar. "
+            },
+            {
+              "Character": "AUGUSTUS",
+              "Line": "And before you go, I've got a good present for you. "
+            },
+            {
+              "Character": "HORACE",
+              "Line": "Oh, but Caesar... "
+            },
+            {
+              "Character": "AUGUSTUS",
+              "Line": "Oh, it's nothing. It's a little gold statue I found, Etruscan, I think. It's solid gold, but you'll appreciate it more than anyone. "
+            },
+            {
+              "Character": "HORACE",
+              "Line": "You go too... "
+            },
+            {
+              "Character": "AUGUSTUS",
+              "Line": "No, no, no. Err, PRAXIS? Praxis, where are you? "
+            },
+            {
+              "Character": "PRAXIS",
+              "Line": "Here, Caesar. "
+            },
+            {
+              "Character": "AUGUSTUS",
+              "Line": "He knows where it is. Now, wait till you see it, really. Yes, you must come again sometime. "
+            },
+            {
+              "Character": "HORACE",
+              "Line": "Any time. "
+            },
+            {
+              "Stage Direction": "knocks cup over"
+            },
+            {
+              "Character": "LIVIA",
+              "Line": "I was wondering how long it would take you to knock that over. "
+            },
+            {
+              "Character": "ANTONIA",
+              "Line": "Claudius, how can you be so clumsy? "
+            },
+            {
+              "Character": "LIVIA",
+              "Line": "Oh, leave it alone, for heaven's sake. If you want to do the clearing up, we'll find you some work in the kitchens. "
+            },
+            {
+              "Character": "ANTONIA",
+              "Line": "Claudius! "
+            },
+            {
+              "Character": "GERMANICUS",
+              "Line": "Pina, wake up. It's time to go home. "
+            },
+            {
+              "Character": "ANTONIA",
+              "Line": "It's time we all went home. "
+            },
+            {
+              "Character": "AUGUSTUS",
+              "Line": "What? Are you leaving? "
+            },
+            {
+              "Character": "ANTONIA",
+              "Line": "It's late. It's two hours after dark already. "
+            },
+            {
+              "Character": "AUGUSTUS",
+              "Line": "Yes, yes, you're right, and there's a lot of work to do tomorrow. A sleepy head's a foolish one. What a poet that Horace is, eh? Well, Livilla, the whole family was here tonight except your husband. It won't do, you know. "
+            },
+            {
+              "Character": "LIVILLA",
+              "Line": "What can I do? Castor hates family dinners. "
+            },
+            {
+              "Character": "AUGUSTUS",
+              "Line": "Oh, I don't understand that. Tiberius, you must talk to that son of yours. "
+            },
+            {
+              "Character": "TIBERIUS",
+              "Line": "You talk to him, he doesn't listen to me. "
+            },
+            {
+              "Character": "AGRIPPINA",
+              "Line": "Goodnight, Uncle. "
+            },
+            {
+              "Character": "AUGUSTUS",
+              "Line": "Goodnight, my dear. "
+            },
+            {
+              "Character": "GERMANICUS",
+              "Line": "Grandfather. "
+            },
+            {
+              "Character": "AUGUSTUS",
+              "Line": "Goodnight Germanicus. Goodnight Pina. "
+            },
+            {
+              "Character": "CLAUDIUS",
+              "Line": "G-G-Goodnight, Grandmother. "
+            },
+            {
+              "Character": "LIVIA",
+              "Line": "That's my foot you're treading on. "
+            },
+            {
+              "Character": "DOMITIA",
+              "Line": "Are we going? "
+            },
+            {
+              "Character": "CLAUDIUS",
+              "Line": "Sorry. "
+            },
+            {
+              "Character": "ANTONIA",
+              "Line": "Claudius, do come on. "
+            },
+            {
+              "Character": "AUGUSTUS",
+              "Line": "Ah, Postumus, I'll come and see those troops of yours tomorrow. How are they shaping up? "
+            },
+            {
+              "Character": "POSTUMUS",
+              "Line": "Very well. There's some good material there. "
+            },
+            {
+              "Character": "AUGUSTUS",
+              "Line": "Good. "
+            },
+            {
+              "Character": "POSTUMUS",
+              "Line": "Goodnight. "
+            },
+            {
+              "Character": "AUGUSTUS",
+              "Line": "Goodnight. "
+            },
+            {
+              "Character": "POSTUMUS",
+              "Line": "Goodnight, everyone. "
+            },
+            {
+              "Character": "AUGUSTUS",
+              "Line": "Goodnight, Domitia. "
+            },
+            {
+              "Character": "DOMITIA",
+              "Line": "Goodnight, Grandfather. "
+            },
+            {
+              "Character": "AUGUSTUS",
+              "Line": "Ah, goodnight, Livilla. Now, you tell that husband of yours... Oh. You know what to tell him. "
+            },
+            {
+              "Character": "LIVILLA",
+              "Line": "Grandmother. "
+            },
+            {
+              "Character": "LIVIA",
+              "Line": "Goodnight, my dear. You looked very lovely tonight. "
+            },
+            {
+              "Character": "LIVILLA",
+              "Line": "Thank you. Goodnight, Uncle. "
+            },
+            {
+              "Character": "CLAUDIUS",
+              "Line": "G-G-Goodnight, Grandfather. "
+            },
+            {
+              "Character": "AUGUSTUS",
+              "Line": "What? Oh, yes goodnight, Claudius. Ah, what a wonderful evening. They're such good children. I think they liked their little presents, eh? "
+            },
+            {
+              "Character": "LIVIA",
+              "Line": "What are we going to do about Claudius? "
+            },
+            {
+              "Character": "AUGUSTUS",
+              "Line": "Claudius what? What? In the matter of what? "
+            },
+            {
+              "Character": "LIVIA",
+              "Line": "In the matter of the games to be held in his father's honor. "
+            },
+            {
+              "Character": "AUGUSTUS",
+              "Line": "Oh, I don't know. I mean, must we think about it now? "
+            },
+            {
+              "Character": "LIVIA",
+              "Line": "Well, how much longer can we leave it? Is he to sit in your box at the games or is he not? "
+            },
+            {
+              "Character": "AUGUSTUS",
+              "Line": "Well, it might look a little odd if he doesn't. "
+            },
+            {
+              "Character": "LIVIA",
+              "Line": "It might look odder if he does. Do you want to sit next to a twitching idiot all day? "
+            },
+            {
+              "Character": "AUGUSTUS",
+              "Line": "Oh, let's think about it tomorrow, eh? Goodnight, my dear. Now don't you worry about Claudius. I'll have him to dinner a few times and I'll see how he gets on. If we could just stop that twitching."
+            }
+          ]
+        },
+        {
+          "Scene": "INT. IMPERIAL STUDY - NIGHT",
+          "Dialogue": [
+            {
+              "Stage Direction": "A formal, book-lined study within the palace. The room is austere and orderly, reflecting the weight of state matters. AUGUSTUS, looking weary, sits at his desk. TIBERIUS stands nearby, his expression grim. PRAXIS, a nervous aide, hovers by the door."
+            },
+            {
+              "Stage Direction": "SOUND: of hurried footsteps approaching."
+            },
+            {
+              "Character": "PRAXIS",
+              "Line": "Caesar! Caesar, forgive me, but a courier has just arrived from Germany. "
+            },
+            {
+              "Stage Direction": "Exasperated"
+            },
+            {
+              "Character": "AUGUSTUS",
+              "Line": "Are you mad? Do you expect me to read dispatches this time of night? "
+            },
+            {
+              "Character": "PRAXIS",
+              "Line": "But it's urgent, Caesar, Urgent! There's been a terrible disaster. "
+            },
+            {
+              "Character": "AUGUSTUS",
+              "Line": "Send him in...  Praxis gestures towards the door. "
+            },
+            {
+              "Character": "PRAXIS",
+              "Line": "Come in, come in.  A COURIER, disheveled and exhausted, enters. He is covered in mud and grime. "
+            },
+            {
+              "Stage Direction": "Disgusted"
+            },
+            {
+              "Character": "AUGUSTUS",
+              "Line": "Is this the way you present yourself? Couldn't you have taken a bath first? "
+            },
+            {
+              "Character": "COURIER",
+              "Line": "Forgive me, Caesar. I've ridden for four days, I would not have presumed... "
+            },
+            {
+              "Character": "AUGUSTUS",
+              "Line": "Which legion are you with? "
+            },
+            {
+              "Character": "COURIER",
+              "Line": "I was with the 19th. "
+            },
+            {
+              "Character": "AUGUSTUS",
+              "Line": "Was? Have you been transferred? "
+            },
+            {
+              "Character": "COURIER",
+              "Line": "No, Caesar. The 19th legion does not exist anymore. Nor does the 17th, nor the 18th. The whole army of Quinctilius Varus was massacred in the Teutoberg Forest. Nothing stands between the German tribes and our provinces in Gaul. "
+            },
+            {
+              "Character": "TIBERIUS",
+              "Line": "Massacred? "
+            },
+            {
+              "Character": "AUGUSTUS",
+              "Line": "What are you saying to me? "
+            },
+            {
+              "Character": "COURIER",
+              "Line": "There is no army in Across-the-Rhine Germany. Troops and orderlies... auxiliaries and general staff... massacred to a man. Those who survived the battle were hunted down, killed. "
+            },
+            {
+              "Character": "TIBERIUS",
+              "Line": "Where is Varus? "
+            },
+            {
+              "Character": "COURIER",
+              "Line": "Dead. When he saw that all was lost, he killed himself. "
+            },
+            {
+              "Character": "AUGUSTUS",
+              "Line": "Three legions? "
+            },
+            {
+              "Character": "COURIER",
+              "Line": "Three legions, Caesar. There's nothing left. "
+            },
+            {
+              "Character": "AUGUSTUS",
+              "Line": "Send for GERMANICUS and POSTUMUS. Hurry!  Praxis bows and rushes out.  AUGUSTUS (to the Courier) Come with me to the study. Come with us!  Augustus rises and moves further into the study, followed by the Courier and Tiberius. "
+            },
+            {
+              "Character": "COURIER",
+              "Line": "They caught us here and here. We were on a punitive expedition because we had news that a tax collector and his staff had all been murdered. "
+            },
+            {
+              "Character": "AUGUSTUS",
+              "Line": "He sent three legions on a punitive expedition? "
+            },
+            {
+              "Character": "COURIER",
+              "Line": "Not at first, Caesar, no. But we'd suffered some early defeats and raids, so he sent back for the rest of the army. "
+            },
+            {
+              "Character": "TIBERIUS",
+              "Line": "What happened to the loyal Germans? "
+            },
+            {
+              "Character": "COURIER",
+              "Line": "They betrayed us, sir. They led us into the forest and vanished. "
+            },
+            {
+              "Character": "AUGUSTUS",
+              "Line": "But weren't you warned? "
+            },
+            {
+              "Character": "COURIER",
+              "Line": "Many times, Caesar. "
+            },
+            {
+              "Character": "AUGUSTUS",
+              "Line": "Go on! "
+            },
+            {
+              "Character": "COURIER",
+              "Line": "We'd... We'd had a mass of intelligence warning us that things were happening in the villages. "
+            },
+            {
+              "Character": "AUGUSTUS",
+              "Line": "Go on. "
+            },
+            {
+              "Character": "COURIER",
+              "Line": "The ummm... The commander ignored it, sir. "
+            },
+            {
+              "Character": "AUGUSTUS",
+              "Line": "Oh, that stiff-knecked fool! I should never have appointed him! Oh, go on, go on. "
+            },
+            {
+              "Character": "COURIER",
+              "Line": "We were advancing along a forest track. We didn't even put out advance guards or flank guards. Our progress was slow because we were constantly felling trees and this gave the tribes time to gather. Then it started to rain. The archers couldn't keep their bows dry and their shields became soaked and too heavy to carry. And our carts got stuck in the mud. When the Germans attacked, we were in a hopeless position.  GERMANICUS enters, looking concerned. "
+            },
+            {
+              "Character": "GERMANICUS",
+              "Line": "What's happened? "
+            },
+            {
+              "Character": "TIBERIUS",
+              "Line": "The army east of the Rhine has been destroyed. All of it. Nothing stands between the Germans and our provinces in Gaul. "
+            },
+            {
+              "Character": "GERMANICUS",
+              "Line": "How did you get out? "
+            },
+            {
+              "Character": "COURIER",
+              "Line": "Only one officer kept his head - Cassius Chaerea. He formed up about 120 of us and we cut our way out and back to the fort. The others are still there. "
+            },
+            {
+              "Character": "GERMANICUS",
+              "Line": "All right. Did the Germans take any prisoners? "
+            },
+            {
+              "Character": "COURIER",
+              "Line": "Yes. They put them in wicker cages and burned them alive.  Praxis re-enters, looking flustered. "
+            },
+            {
+              "Character": "PRAXIS",
+              "Line": "Lady, I can't find Postumus Agrippa. He's not in his room.  LIVIA enters, calm and composed. "
+            },
+            {
+              "Character": "LIVIA",
+              "Line": "Well Praxis, did it occur to you he may have visited his wife's room? "
+            },
+            {
+              "Character": "PRAXIS",
+              "Line": "Naturally I tried there. But he wasn't there either. I then spoke to one of the palace guards, who said he'd seen him earlier walking along the corridor towards your grand-daughter's apartments. "
+            },
+            {
+              "Character": "LIVIA",
+              "Line": "Livilla? "
+            },
+            {
+              "Character": "PRAXIS",
+              "Line": "Yes. Naturally, I didn't enquire further because... "
+            },
+            {
+              "Character": "LIVIA",
+              "Line": "Because her husband has not yet returned. "
+            },
+            {
+              "Character": "TIBERIUS",
+              "Line": "With the men Postumus has been training on Mars field, it brings the number up to about a legion. "
+            },
+            {
+              "Character": "GERMANICUS",
+              "Line": "It will do. It all depends then on whether the Germans have seized the Rhine bridges. "
+            },
+            {
+              "Character": "AUGUSTUS",
+              "Line": "They won't have taken them. They're barbarians. They'll go for plunder and end up fighting each other. "
+            },
+            {
+              "Character": "GERMANICUS",
+              "Line": "Then we'll have to secure the bridges. Fast! "
+            },
+            {
+              "Character": "TIBERIUS",
+              "Line": "Well, I'll take a company and start tomorrow. "
+            },
+            {
+              "Character": "GERMANICUS",
+              "Line": "I can raise the rest and bring them on. "
+            },
+            {
+              "Character": "AUGUSTUS",
+              "Line": "No. Germanicus stays here. When news breaks tomorrow, there'll be panic here. I'll need him to deal with it."
+            }
+          ]
+        },
+        {
+          "Scene": "INT. IMPERIAL LIBRARY - DAY",
+          "Dialogue": [
+            {
+              "Stage Direction": "High shelves line the walls of the Imperial Library, filled with scrolls and books. Dust motes dance in the shafts of sunlight filtering through the tall windows. The air is hushed, filled only with the rustling of papyrus and the distant murmur of the city."
+            },
+            {
+              "Stage Direction": "LIVY, a renowned historian, middle-aged and serious, stands with POLLIO, another historian of similar age and stature. They are speaking with a LIBRARIAN."
+            },
+            {
+              "Character": "LIVY",
+              "Line": "Well, it was here. It was years ago, but I saw it. "
+            },
+            {
+              "Character": "POLLIO",
+              "Line": "Then it's been stolen probably. Ah, here is someone. "
+            },
+            {
+              "Character": "LIVY",
+              "Line": "There's a book we want to look at. It's by a Greek called Polemocles. And it's a commentary on Polybius' Military Tactics. It's not in the catalog but it was here. "
+            },
+            {
+              "Character": "LIBRARIAN",
+              "Line": "I'll see if I can find it. "
+            },
+            {
+              "Character": "LIVY",
+              "Line": "Why, it's young CLAUDIUS, isn't it?  CLAUDIUS, young, with a noticeable stammer and limp, approaches hesitantly. "
+            },
+            {
+              "Character": "CLAUDIUS",
+              "Line": "Yes, it is, sir. "
+            },
+            {
+              "Character": "LIVY",
+              "Line": "You seem very studious. What are you reading? "
+            },
+            {
+              "Character": "POLLIO",
+              "Line": "Romantic rubbish, I'll be bound. That's all the young use this library for. What is it that you're reading? "
+            },
+            {
+              "Character": "CLAUDIUS",
+              "Line": "It's your own History of the C-C-Civil Wars. "
+            },
+            {
+              "Character": "LIVY",
+              "Line": "It's rubbish, all right. "
+            },
+            {
+              "Character": "POLLIO",
+              "Line": "So you know who I am? "
+            },
+            {
+              "Character": "CLAUDIUS",
+              "Line": "Oh, yes, sir. ASINIUS P-P-POLLIO. One of our g-greatest historians. "
+            },
+            {
+              "Character": "POLLIO",
+              "Line": "One of them? What do you mean, one of them? "
+            },
+            {
+              "Character": "CLAUDIUS",
+              "Line": "One of the t-two greatest. "
+            },
+            {
+              "Character": "POLLIO",
+              "Line": "And who is the other one? "
+            },
+            {
+              "Character": "CLAUDIUS",
+              "Line": "L-L-Livy, of course. "
+            },
+            {
+              "Character": "POLLIO",
+              "Line": "Well, there can't be two greatest. That's just shilly-shallying, apart from being an abuse of the Roman tongue. So, you will have to choose. Which one of us would you rather read? "
+            },
+            {
+              "Character": "LIVY",
+              "Line": "Oh come Pollio, that's not fair. "
+            },
+            {
+              "Character": "POLLIO",
+              "Line": "Nonsense. The lad's obviously intelligent. So, speak up, boy. Which of us would you rather read? "
+            },
+            {
+              "Character": "CLAUDIUS",
+              "Line": "Well, it d-d-depends, sir. "
+            },
+            {
+              "Character": "POLLIO",
+              "Line": "Ah, intelligent, but cowardly. "
+            },
+            {
+              "Character": "CLAUDIUS",
+              "Line": "No. I mean, it depends on what I'm reading for. For b-beauty of language I would read L-Livy, and for interpretation of fact I would read P-P-Pollio. "
+            },
+            {
+              "Character": "LIVY",
+              "Line": "Now you please neither of us and that's always a mistake! "
+            },
+            {
+              "Character": "CLAUDIUS",
+              "Line": "I wasn't t-trying to please, just to tell the truth. "
+            },
+            {
+              "Character": "POLLIO",
+              "Line": "He might make an historian after all.  The LIBRARIAN returns, shaking his head. "
+            },
+            {
+              "Character": "LIBRARIAN",
+              "Line": "The book isn't here. Perhaps you read it in the Octavian library? "
+            },
+            {
+              "Character": "LIVY",
+              "Line": "I'm not so old young man that I don't know what library I'm in when I'm in it! "
+            },
+            {
+              "Character": "CLAUDIUS",
+              "Line": "Umm. umm. Excuse me. Um, um, the book you want, it's on the t-t-top shelf, fourth from the window right at the back. I had it out the other day. Only the t-t-title is Dissertation on Tactics and it's by P-P-Polemocrates, not Polemocles, and he was a J-J-Jew, not a Greek. "
+            },
+            {
+              "Character": "POLLIO",
+              "Line": "Hahaha. "
+            },
+            {
+              "Character": "LIVY",
+              "Line": "You'd better be right, boy. For I don't take kindly to that many corrections in one day! "
+            },
+            {
+              "Character": "CLAUDIUS",
+              "Line": "Have I upset him? "
+            },
+            {
+              "Character": "POLLIO",
+              "Line": "Yes. It'll do him good. Do you like history? "
+            },
+            {
+              "Character": "CLAUDIUS",
+              "Line": "Yes, sir. "
+            },
+            {
+              "Character": "POLLIO",
+              "Line": "But who the devil are you? Livy called you Claudius. "
+            },
+            {
+              "Character": "CLAUDIUS",
+              "Line": "I'm T-T-Tiberius Claudius D-Drusus Nero Germanicus. "
+            },
+            {
+              "Character": "POLLIO",
+              "Line": "Oh, that Claudius! They told me you were a half-wit. "
+            },
+            {
+              "Character": "CLAUDIUS",
+              "Line": "Well, my f-family's ashamed of me because I s-s-stammer, and I'm lame and my head twitches. "
+            },
+            {
+              "Character": "POLLIO",
+              "Line": "Yes, I've noticed that. Can't you stop it? "
+            },
+            {
+              "Character": "CLAUDIUS",
+              "Line": "No. The doctors said I might g-g-grow out of it. "
+            },
+            {
+              "Character": "POLLIO",
+              "Line": "Why were you reading my History of the Civil Wars? "
+            },
+            {
+              "Character": "CLAUDIUS",
+              "Line": "Oh, I'm gathering material for a life of my f-f-father and g-g-grandfather. "
+            },
+            {
+              "Character": "POLLIO",
+              "Line": "Oh, I remember them. "
+            },
+            {
+              "Character": "CLAUDIUS",
+              "Line": "They both believed in the Republic. "
+            },
+            {
+              "Character": "POLLIO",
+              "Line": "I know they did. That's why they died. "
+            },
+            {
+              "Character": "CLAUDIUS",
+              "Line": "I beg your pardon? "
+            },
+            {
+              "Character": "POLLIO",
+              "Line": "I mean, that's why they were poisoned. "
+            },
+            {
+              "Character": "CLAUDIUS",
+              "Line": "P-p-p-poisoned! "
+            },
+            {
+              "Character": "POLLIO",
+              "Line": "Sh! Not so loud. Look, I won't mention any names, but I'll tell you this. You say you're writing a life of your father? They won't let you finish it. "
+            },
+            {
+              "Character": "CLAUDIUS",
+              "Line": "Who won't? "
+            },
+            {
+              "Character": "POLLIO",
+              "Line": "Never mind. Look here, Claudius, I'll give you some good advice. Do you want to live a long and useful life? "
+            },
+            {
+              "Character": "CLAUDIUS",
+              "Line": "Yes. "
+            },
+            {
+              "Character": "POLLIO",
+              "Line": "In that case, exaggerate your stutter and your limp. Let your wits wander and play the fool as much as you like. Do you understand me? It's a pleasure to talk to you, my boy. I must find Livy.  Pollio exits, leaving Claudius alone, stunned. "
+            },
+            {
+              "Character": "CLAUDIUS",
+              "Line": "P-P-Poisoned?"
+            }
+          ]
+        },
+        {
+          "Scene": "EXT. AUGUSTUS' GARDENS - DAY",
+          "Dialogue": [
+            {
+              "Stage Direction": "A tranquil garden, bathed in sunlight. AUGUSTUS, Emperor of Rome, stands beside POSTUMUS, his grandson, offering him a fig."
+            },
+            {
+              "Character": "AUGUSTUS",
+              "Line": "Taste that. "
+            },
+            {
+              "Character": "POSTUMUS",
+              "Line": "Yum. "
+            },
+            {
+              "Character": "AUGUSTUS",
+              "Line": "You know, there's nothing quite like a piece of food picked fresh from a tree, or a field or a stalk. "
+            },
+            {
+              "Character": "POSTUMUS",
+              "Line": "It's very nice, but you didn't ask me here to taste the figs. "
+            },
+            {
+              "Character": "AUGUSTUS",
+              "Line": "Did you ever think how fortunate we are? I mean, that we weren't born in a wattle hut on the banks of the Rhine, or in a grubby little tent in Syria. Did you ever think what Rome means? Do you understand the effort that has gone into making this little place master of the world? Do you understand the work and dedication needed to maintain it? "
+            },
+            {
+              "Character": "POSTUMUS",
+              "Line": "Are you displeased with me, Grandfather? "
+            },
+            {
+              "Stage Direction": "gesturing to a nearby bench"
+            },
+            {
+              "Character": "AUGUSTUS",
+              "Line": "Sit down. Listen, Postumus. We can't afford to sleep, you know. Other people, they think only of their bread and their circuses, but us, now, we have to provide them. I hear nothing but complaints about you. "
+            },
+            {
+              "Character": "POSTUMUS",
+              "Line": "What sort of complaints? "
+            },
+            {
+              "Character": "AUGUSTUS",
+              "Line": "Well, all sorts. I mean, you threw a palace guard into the fountain the other day. "
+            },
+            {
+              "Character": "POSTUMUS",
+              "Line": "He was laughing at Claudius. "
+            },
+            {
+              "Character": "AUGUSTUS",
+              "Line": "Well, everyone laughs at Claudius. What are you going to do, throw them all in the fountain? And then people say that you're rude and bad-tempered. "
+            },
+            {
+              "Character": "POSTUMUS",
+              "Line": "Who says? "
+            },
+            {
+              "Character": "AUGUSTUS",
+              "Line": "Well, Livia for instance. I mean she complains about you all the time. "
+            },
+            {
+              "Character": "POSTUMUS",
+              "Line": "What does she say about me? "
+            },
+            {
+              "Character": "AUGUSTUS",
+              "Line": "Well, she says, for example, and I've heard it from others, that you're a bit of a rake. Is it true? You know, the night that the courier brought news from Germany, I sent for you. Yes. You weren't in your room. Your wife complains that you don't sleep with her enough. "
+            },
+            {
+              "Character": "POSTUMUS",
+              "Line": "I never wanted that marriage. "
+            },
+            {
+              "Character": "AUGUSTUS",
+              "Line": "Yes but you could sleep with her, couldn't you? She's made the same as any other woman. It's for us to set an example. Now, without proper family life, where will we find people to carry on? "
+            },
+            {
+              "Character": "POSTUMUS",
+              "Line": "Why has my inheritance from my father been withheld? "
+            },
+            {
+              "Character": "AUGUSTUS",
+              "Line": "Oh, that's what's bothering you. You'll get it when I think you're mature enough to use it. "
+            },
+            {
+              "Character": "POSTUMUS",
+              "Line": "Do I have to sit an examination? "
+            },
+            {
+              "Character": "AUGUSTUS",
+              "Line": "Now, don't be cheeky with me. Now, you listen. Your father was my greatest friend. If anything had happened to me, he would have taken over here. And that's what I look for in his sons. Now, both your brothers are dead and you're all I've left of him. And it's my intention that you should follow me. "
+            },
+            {
+              "Character": "POSTUMUS",
+              "Line": "My step-father may not agree with you. "
+            },
+            {
+              "Character": "AUGUSTUS",
+              "Line": "Oh, you let me worry about Tiberius. "
+            },
+            {
+              "Character": "POSTUMUS",
+              "Line": "You made him your adopted son as well me, what am I to think? "
+            },
+            {
+              "Character": "AUGUSTUS",
+              "Line": "I did it out of respect for his mother. I mean, she deserved it. She's an amazing woman. But Tiberius, that's something else, we just don't get on. I've never liked him. And anyway, he's not right to succeed me, whatever Livia thinks. Now, I say \"succeed\", but we are not kings. We have no divine right to rule. Still, after all my years of service to the state, I think the Senate will accept my recommendation. But you must earn it, you understand. You must give me confidence in you."
+            }
+          ]
+        },
+        {
+          "Scene": "INT. LIVIA'S PRIVATE CHAMBERS - NIGHT",
+          "Dialogue": [
+            {
+              "Stage Direction": "LIVIA sits in her opulent chambers, richly decorated and softly lit by oil lamps. LIVILLA enters, looking anxious."
+            },
+            {
+              "Stage Direction": "knocking"
+            },
+            {
+              "Character": "LIVILLA",
+              "Line": "Grandmother? "
+            },
+            {
+              "Character": "LIVIA",
+              "Line": "Come. "
+            },
+            {
+              "Character": "LIVILLA",
+              "Line": "Grandmother? You sent for me. How are you? Grandmother? "
+            },
+            {
+              "Character": "LIVIA",
+              "Line": "Why do you deceive your husband every time he's away? "
+            },
+            {
+              "Character": "LIVILLA",
+              "Line": "Deceive? I don't understand. "
+            },
+            {
+              "Character": "LIVIA",
+              "Line": "Why do you allow Postumus Agrippa into your room at night? "
+            },
+            {
+              "Character": "LIVILLA",
+              "Line": "But I don't! Who said such a thing? "
+            },
+            {
+              "Stage Direction": "beckoning Livilla closer"
+            },
+            {
+              "Character": "LIVIA",
+              "Line": "Come here. You're not going to lie to me, are you? You're not going to treat me like a fool? Do you think that I who know everything that happens in Rome wouldn't know what happens under my own roof? I've had you watched, child, and Postumus Agrippa... as I had his mother watched - your Aunt Julia. Do you remember her? She was sent to an island called Pandataria. It's a few minutes' walk from end to end. Well, I shouldn't think she walks it much anymore. She's been on it for seven years. "
+            },
+            {
+              "Character": "LIVILLA",
+              "Line": "Oh, God! I didn't mean it. I didn't mean it! I won't ever do it again. Don't send me away. Please. Please. I won't ever see him again, I swear it. [*sobs*] "
+            },
+            {
+              "Character": "LIVIA",
+              "Line": "You were always a naughty little girl, you know that, don't you? Your mother never punished you enough. "
+            },
+            {
+              "Character": "LIVILLA",
+              "Line": "You won't tell Augustus, will you? He'll send me away if you do and I couldn't bear it! "
+            },
+            {
+              "Character": "LIVIA",
+              "Line": "Well, perhaps that won't be necessary. Oh, come on, dry your tears, come on. There. That's better. Such a beautiful girl. I was beautiful too once, you know? "
+            },
+            {
+              "Character": "LIVILLA",
+              "Line": "They say you were the most beautiful woman in the world. "
+            },
+            {
+              "Character": "LIVIA",
+              "Line": "There was one other, but she was in Egypt. And, besides, she didn't last as long as I did. Now, about Postumus Agrippa. You're not in love with him, are you? "
+            },
+            {
+              "Character": "LIVILLA",
+              "Line": "No. "
+            },
+            {
+              "Character": "LIVIA",
+              "Line": "He pestered you, I suppose, and you gave in. Oh, what frail creatures we women are. "
+            },
+            {
+              "Character": "LIVILLA",
+              "Line": "He always wanted me. "
+            },
+            {
+              "Character": "LIVIA",
+              "Line": "Yes, and you always enjoyed teasing him, didn't you? Oh yes, you did, I've seen it. "
+            },
+            {
+              "Character": "LIVILLA",
+              "Line": "I swear to you I won't do it again. "
+            },
+            {
+              "Character": "LIVIA",
+              "Line": "Yes, well, let's not be in too much of a hurry to swear anything, shall we? My dear, I must talk to you like a grown woman now. Can I talk to you? Can I open my heart to you? "
+            },
+            {
+              "Character": "LIVILLA",
+              "Line": "Oh, yes, Grandmother, yes. "
+            },
+            {
+              "Character": "LIVIA",
+              "Line": "Many years ago, you know, before you were born, we all went through the terrible agony of civil war. Rome tottered and shook and nearly fell. I'm afraid that may happen again. "
+            },
+            {
+              "Character": "LIVILLA",
+              "Line": "And will it? "
+            },
+            {
+              "Character": "LIVIA",
+              "Line": "I'm sure of one thing. Only a single hand at the helm will keep this ship on course. Now, the question is, whose hand will it be? If there is any doubt, the rivalry will plunge us into civil war again. "
+            },
+            {
+              "Character": "LIVILLA",
+              "Line": "Is there a doubt, then? "
+            },
+            {
+              "Character": "LIVIA",
+              "Line": "Not in my mind. But there is in someone else's. "
+            },
+            {
+              "Character": "LIVILLA",
+              "Line": "Augustus? "
+            },
+            {
+              "Character": "LIVIA",
+              "Line": "Yes. And it's my duty to remove that doubt. Through everything I've ever done, that has been my only object. And now it must become yours. "
+            },
+            {
+              "Character": "LIVILLA",
+              "Line": "How, Grandmother? "
+            },
+            {
+              "Character": "LIVIA",
+              "Line": "You want your husband to become Emperor of Rome? "
+            },
+            {
+              "Character": "LIVILLA",
+              "Line": "Yes. "
+            },
+            {
+              "Character": "LIVIA",
+              "Line": "Then his father must become Emperor before him. Tiberius must succeed Augustus, if Castor is to succeed Tiberius. Only then will the line become established. It'll seem easier to accept it than reject it. "
+            },
+            {
+              "Character": "LIVILLA",
+              "Line": "And Postumus? "
+            },
+            {
+              "Character": "LIVIA",
+              "Line": "Bravo, my dear, you've put your finger on it. Yes. Postumus. As always, we come back to Postumus."
+            }
+          ]
+        },
+        {
+          "Scene": "INT. IMPERIAL COUNCIL CHAMBER - DAY",
+          "Dialogue": [
+            {
+              "Stage Direction": "Imposing columns frame a room heavy with the symbols of Roman power. AUGUSTUS, Emperor of Rome, paces with barely contained fury. LIVIA, his wife, stands calmly near a large map table, observing him."
+            },
+            {
+              "Character": "AUGUSTUS",
+              "Line": "Nothing! That's what it amounts to, he's done nothing! He holds bridges, but he doesn't cross them. Oh, he's playing some game of his own, that's what he's doing!  *A servant knocks lightly on the door. Livia acknowledges with a subtle nod.* "
+            },
+            {
+              "Character": "AUGUSTUS",
+              "Line": "Oh, come in! ... What's that son of your playing at? Six months he's been out there, and all he's got are the bridges over the Rhine! He just sits on his ass all day! "
+            },
+            {
+              "Character": "LIVIA",
+              "Line": "What does he say? "
+            },
+            {
+              "Character": "AUGUSTUS",
+              "Line": "Oh, what does he say? He says nothing, that's what he says. Or that's what it amounts to. Those damned barbarians have got my eagles! Quinctilius Varus, where are my eagles? "
+            },
+            {
+              "Stage Direction": "to the servants"
+            },
+            {
+              "Character": "LIVIA",
+              "Line": "Leave.  *The servants exit quickly, leaving Augustus and Livia alone. Livia turns her gaze fully on Augustus.* "
+            },
+            {
+              "Character": "LIVIA",
+              "Line": "He is cautious, naturally. "
+            },
+            {
+              "Character": "AUGUSTUS",
+              "Line": "Damn his caution. I sent him out there to get my eagles back, not to sit on the banks of the Rhine for six months! "
+            },
+            {
+              "Character": "LIVIA",
+              "Line": "He has an army of raw recruits. Would you have him risk another ambush? "
+            },
+            {
+              "Character": "AUGUSTUS",
+              "Line": "Well, if he doesn't risk something he may as well have stayed here! Look, he's playing some game of his own, that's what he's doing. "
+            },
+            {
+              "Character": "LIVIA",
+              "Line": "That's a very childish thing to say! "
+            },
+            {
+              "Character": "AUGUSTUS",
+              "Line": "Is it? Then, why doesn't he send my eagles back? "
+            },
+            {
+              "Character": "LIVIA",
+              "Line": "He'll move when he judges the army ready to move. "
+            },
+            {
+              "Character": "AUGUSTUS",
+              "Line": "He'll move now! And I'll send Postumus Agrippa with an army to make sure! "
+            },
+            {
+              "Character": "LIVIA",
+              "Line": "I think that wouldn't be wise. "
+            },
+            {
+              "Character": "AUGUSTUS",
+              "Line": "I make the military decisions, not you! "
+            },
+            {
+              "Character": "LIVIA",
+              "Line": "There's no need to lose your temper. I wouldn't dream of advising you on such matters. I'm sure my son would welcome reinforcements. I question only the wisdom of sending Postumus. "
+            },
+            {
+              "Character": "AUGUSTUS",
+              "Line": "Why? "
+            },
+            {
+              "Character": "LIVIA",
+              "Line": "He's unproved and untried. "
+            },
+            {
+              "Character": "AUGUSTUS",
+              "Line": "Oh, you always say that! "
+            },
+            {
+              "Character": "LIVIA",
+              "Line": "Well, if I always say that, it's because it's always true. "
+            },
+            {
+              "Character": "AUGUSTUS",
+              "Line": "He's the obvious person to send. He's been training recruits on Mars field for months. "
+            },
+            {
+              "Character": "LIVIA",
+              "Line": "Training recruits and leading men into battle are not the same thing. "
+            },
+            {
+              "Character": "AUGUSTUS",
+              "Line": "Oh! How will he ever learn if he never does anything? His brother was Governor of Syria at 19. "
+            },
+            {
+              "Character": "LIVIA",
+              "Line": "Gaius was different. You had confidence in him and so did the Senate. Gaius was reliable. He was a statesman. We all loved him. "
+            },
+            {
+              "Character": "AUGUSTUS",
+              "Line": "Yes, but Postumus... "
+            },
+            {
+              "Character": "LIVIA",
+              "Line": "Postumus is totally unpredictable. Besides, if you send Postumus, Tiberius will naturally regard it as a criticism. "
+            },
+            {
+              "Character": "AUGUSTUS",
+              "Line": "Good! That's what it's meant to be. I'm not sending him a new army to inquire after his health! "
+            },
+            {
+              "Character": "LIVIA",
+              "Line": "But there's a history of mistrust and antagonism between Postumus and Tiberius. I mean if Postumus arrives, Tiberius will regard him as more of a spy than a support. He'll think you don't trust him. "
+            },
+            {
+              "Character": "AUGUSTUS",
+              "Line": "That's ridiculous! "
+            },
+            {
+              "Character": "LIVIA",
+              "Line": "Well, haven't you already said you think he's playing some game of his own? If you want to avoid friction between the commanders, then I suggest you send Germanicus. "
+            },
+            {
+              "Character": "AUGUSTUS",
+              "Line": "All right, I'll send Germanicus! But I want my damned eagles back!  *Livia picks up a scroll from the table, holding it out to Augustus.* "
+            },
+            {
+              "Character": "LIVIA",
+              "Line": "What's this? "
+            },
+            {
+              "Stage Direction": "taking the scroll absently"
+            },
+            {
+              "Character": "AUGUSTUS",
+              "Line": "What's this? "
+            },
+            {
+              "Character": "LIVIA",
+              "Line": "It's a biography, if you please. Well, it's the beginning of one, anyway. "
+            },
+            {
+              "Character": "AUGUSTUS",
+              "Line": "A biography of whom? "
+            },
+            {
+              "Character": "LIVIA",
+              "Line": "By whom is more to the point. It's by my idiot grandson CLAUDIUS. ANTONIA found it in his study and brought it to me. "
+            },
+            {
+              "Character": "AUGUSTUS",
+              "Line": "You don't expect me to read it, do you? "
+            },
+            {
+              "Character": "LIVIA",
+              "Line": "No. I'm going to have it destroyed. It's subversive. I told him on no account is he to continue with it. "
+            },
+            {
+              "Character": "AUGUSTUS",
+              "Line": "How is it subversive? "
+            },
+            {
+              "Character": "LIVIA",
+              "Line": "He praises his father's only fault - his attachment to the Republic. "
+            },
+            {
+              "Character": "AUGUSTUS",
+              "Line": "He's harmless enough. You don't want me to punish him, do you? "
+            },
+            {
+              "Character": "LIVIA",
+              "Line": "No. But I do want a decision on whether or not he is to sit in your box at the Games. "
+            },
+            {
+              "Character": "AUGUSTUS",
+              "Line": "The Games are in honor of his father. If we send Germanicus off to the Rhine, neither of his sons will be in the box. I think he should be there, but at the back. Incidentally, I hope you don't think I'm going to pay for these games. I've had a very expensive year. "
+            },
+            {
+              "Character": "LIVIA",
+              "Line": "If you feel like that about the Games, we needn't have them at all. "
+            },
+            {
+              "Character": "AUGUSTUS",
+              "Line": "I don't feel like that about the Games. I just feel like that about paying for them! "
+            },
+            {
+              "Character": "LIVIA",
+              "Line": "Nobody's asking you to pay for them! "
+            },
+            {
+              "Character": "AUGUSTUS",
+              "Line": "Yes, well, as long as that's understood. "
+            },
+            {
+              "Character": "LIVIA",
+              "Line": "Well, was it ever in doubt? Antonia and I will pay for the Games, and Germanicus and Claudius. "
+            },
+            {
+              "Character": "AUGUSTUS",
+              "Line": "Claudius? That's even more reason why he should be in the box. It'll be a very expensive seat by the time it's finished. Oh, while we're on the subject of Claudius. Now, when is he going to get married? "
+            },
+            {
+              "Character": "LIVIA",
+              "Line": "He'll be married at the end of the year. "
+            },
+            {
+              "Character": "AUGUSTUS",
+              "Line": "Oh, you said that last year. "
+            },
+            {
+              "Character": "LIVIA",
+              "Line": "Yes, but he seemed to get worse last year so I put it off. "
+            },
+            {
+              "Character": "AUGUSTUS",
+              "Line": "Are you sure this girl marry him? "
+            },
+            {
+              "Character": "LIVIA",
+              "Line": "What's it got to do with her? They were betrothed six years ago, and that's that. "
+            },
+            {
+              "Character": "AUGUSTUS",
+              "Line": "Well, to be honest with you, I feel sorry for her. What's she like? "
+            },
+            {
+              "Character": "LIVIA",
+              "Line": "I don't know. I haven't seen her since she was 13. "
+            },
+            {
+              "Character": "AUGUSTUS",
+              "Line": "Well, does she know what she's getting? "
+            },
+            {
+              "Character": "LIVIA",
+              "Line": "Do any of us? Look, you've left these matters to me for the last 30 years. Are you going to start interfering in them now? "
+            },
+            {
+              "Character": "AUGUSTUS",
+              "Line": "I was asking a question, that's all. Can't I ask a question anymore? What's a matter with you today? Why are you so bad tempered? "
+            },
+            {
+              "Character": "LIVIA",
+              "Line": "It's you that's bad tempered! Your temper gets worse by the day. Everybody notices it! I think you could do with a rest! A long one! "
+            },
+            {
+              "Character": "AUGUSTUS",
+              "Line": "Quinctilius Varus, where are my eagles?"
+            }
+          ]
+        },
+        {
+          "Scene": "INT. ARENA - DAY",
+          "Dialogue": [
+            {
+              "Stage Direction": "An arena is packed with people for gladiatorial games. ANTONIA guides CLAUDIUS through the crowd."
+            },
+            {
+              "Character": "ANTONIA",
+              "Line": "Claudius, not there! Those are the Imperial seats. Sit behind. Here, with HEROD... Your nose is running.  HEROD, a Middle-Eastern client king, watches the crowd with a cynical eye. "
+            },
+            {
+              "Character": "HEROD",
+              "Line": "Just look at them all. They can't wait to see the blood start flowing.  CLAUDIUS, awkward and nervous, looks around. "
+            },
+            {
+              "Character": "CLAUDIUS",
+              "Line": "I've n-n-never seen a swordfight before. I wish Ger-Germanicus was here.  Herod gestures dismissively at the crowd. "
+            },
+            {
+              "Character": "HEROD",
+              "Line": "Look at them! Stuffing themselves with cakes while down below their fellow men are preparing to die for their enjoyment. "
+            },
+            {
+              "Character": "CLAUDIUS",
+              "Line": "Oh, Herod! I hope you're not going to s-s-spoil it all. "
+            },
+            {
+              "Character": "HEROD",
+              "Line": "My dear Claudius, I'm fascinated. I never cease to wonder at these spectacles. "
+            },
+            {
+              "Character": "CLAUDIUS",
+              "Line": "Its origin is r-r-religious. It's a r-r-religious r-r-rite... r-r-really. It's an honor. We render the spirits of the dead. "
+            },
+            {
+              "Character": "HEROD",
+              "Line": "By rendering more people dead? How noble! "
+            },
+            {
+              "Character": "CLAUDIUS",
+              "Line": "Oh, shut up, Herod. You're a J-Jew. You don't understand these things. Besides, Mother will hear you and you'll make her cross.  **LIVIA**, regal and imposing, approaches the group, followed by AUGUSTUS and LIVILLA. "
+            },
+            {
+              "Character": "LIVIA",
+              "Line": "I've a few words to say to you before these games begin. Well, gather round. Now, these games are being held in honor of my son, Drusus Nero, who was worth the whole lot of you put together. It's my intention that these games shall be remembered long after you're all dead and forgotten even by your nearest and dearest. You're all scum and you know it, but you've a chance here - some of you - to prove that you're a bit more than that. And for those whom death doesn't liberate, there'll be plenty of freedoms handed out afterwards - to say nothing of gold plate and coin. But... I want a good show. I want my money's worth! I don't want any kiss-in-the-ring stuff. And I don't want my family watching two grown men pussyfooting around each other for half an hour before one of them aims a real blow. There's been too much of that in the past. And, don't think you can fool me either because I know every trick in the book, including the pig's blood in the bladder to make it look as if one of you is dead. There's been too much of that too lately. These games are being degraded by the increasing use of professional tricks to stay alive, and I won't have it. So put on a good show and there'll be plenty of money for the living and a decent burial for the dead. And, if not, I'll break this guild up and I'll send the lot of you to the mines in Numidia. That's all I've got to say to you.  CLAUDIUS shifts uncomfortably. "
+            },
+            {
+              "Stage Direction": "falls over in chair"
+            },
+            {
+              "Character": "CLAUDIUS",
+              "Line": "Oh...  ANTONIA rushes to his side. "
+            },
+            {
+              "Character": "ANTONIA",
+              "Line": "Claudius!  Livia glares at Claudius. "
+            },
+            {
+              "Character": "LIVIA",
+              "Line": "Get him up. This is not a comedy theatre.  AUGUSTUS, distracted, stares into space. "
+            },
+            {
+              "Character": "AUGUSTUS",
+              "Line": "That happened to me once. Do you remember, Livia? "
+            },
+            {
+              "Character": "LIVIA",
+              "Line": "No, I don't. "
+            },
+            {
+              "Character": "AUGUSTUS",
+              "Line": "It did, you know. Which games was it at? "
+            },
+            {
+              "Character": "LIVIA",
+              "Line": "I don't remember. "
+            },
+            {
+              "Character": "AUGUSTUS",
+              "Line": "Or was it at the races? "
+            },
+            {
+              "Character": "LIVIA",
+              "Line": "The gladiators are saluting you. "
+            },
+            {
+              "Character": "AUGUSTUS",
+              "Line": "Eh? Oh."
+            }
+          ]
+        },
+        {
+          "Scene": "INT. ARENA - CONTINUOUS",
+          "Dialogue": [
+            {
+              "Stage Direction": "The games begin. Claudius watches with growing anxiety."
+            },
+            {
+              "Stage Direction": "watching swordfight"
+            },
+            {
+              "Character": "CLAUDIUS",
+              "Line": "Ow. "
+            },
+            {
+              "Character": "HEROD",
+              "Line": "Calm down, for heaven's sake. "
+            },
+            {
+              "Character": "CLAUDIUS",
+              "Line": "I'm t-trying. "
+            },
+            {
+              "Character": "HEROD",
+              "Line": "It's one of them's about to die and they look more relaxed than you do.  LIVIA watches the fight, a nostalgic look on her face. "
+            },
+            {
+              "Character": "LIVIA",
+              "Line": "Drusus would have loved this. "
+            },
+            {
+              "Character": "ANTONIA",
+              "Line": "Yes. I was thinking of him. "
+            },
+            {
+              "Character": "LIVIA",
+              "Line": "I'm sure he's watching, my dear. "
+            },
+            {
+              "Character": "ANTONIA",
+              "Line": "Poor Drusus. "
+            },
+            {
+              "Character": "LIVIA",
+              "Line": "I'm sure the fat one's going to win.  AUGUSTUS turns to Herod, a gleam in his eye. "
+            },
+            {
+              "Character": "AUGUSTUS",
+              "Line": "How about a little bet, Herod, eh? I'll take the fat man for 20 gold pieces. "
+            },
+            {
+              "Character": "HEROD",
+              "Line": "Caesar it would be against my religion to bet on the life of a man. "
+            },
+            {
+              "Character": "AUGUSTUS",
+              "Line": "Oh, really? I would've thought it was against your religion to bet on anything. "
+            },
+            {
+              "Character": "HEROD",
+              "Line": "Caesar, it's true. The Jews love gambling, but they fear their god more. "
+            },
+            {
+              "Character": "AUGUSTUS",
+              "Line": "Which one? "
+            },
+            {
+              "Character": "HEROD",
+              "Line": "We have only one, Caesar. "
+            },
+            {
+              "Character": "AUGUSTUS",
+              "Line": "I've never understood that. It's quite insufficient. You could have some of ours, you know. Lots of people do. "
+            },
+            {
+              "Character": "HEROD",
+              "Line": "Haha. Believe me, Caesar, the one we have is hard enough to live with!  **The crowd ROARS.** "
+            },
+            {
+              "Character": "HEROD",
+              "Line": "But on second thoughts, I'll take the bet. "
+            },
+            {
+              "Character": "AUGUSTUS",
+              "Line": "Good man!  LIVILLA, excited, claps her hands. "
+            },
+            {
+              "Character": "LIVILLA",
+              "Line": "Finish him! Finish him! "
+            },
+            {
+              "Stage Direction": "passes out"
+            },
+            {
+              "Character": "POSTUMUS",
+              "Line": "Err... "
+            },
+            {
+              "Character": "HEROD",
+              "Line": "It's all right. I'll see him home."
+            }
+          ]
+        },
+        {
+          "Scene": "INT. PALACE CORRIDOR - NIGHT",
+          "Dialogue": [
+            {
+              "Stage Direction": "A dimly lit, secluded corridor within the palace. The air is thick with unspoken tension. LIVILLA, beautiful and cunning, stands facing POSTUMUS, who is visibly agitated."
+            },
+            {
+              "Character": "POSTUMUS",
+              "Line": "Where's your husband? "
+            },
+            {
+              "Character": "LIVILLA",
+              "Line": "Gone out on one of his usual jaunts. "
+            },
+            {
+              "Character": "POSTUMUS",
+              "Line": "Oh, Livilla. It was all I could do to stop touching you at the Games today. I nearly went mad.  Livilla moves closer, her voice a seductive whisper. "
+            },
+            {
+              "Character": "LIVILLA",
+              "Line": "Oh, my poor darling.  Postumus reaches for her, but Livilla suddenly recoils, slapping him hard. "
+            },
+            {
+              "Character": "POSTUMUS",
+              "Line": "Oh! Ow! "
+            },
+            {
+              "Character": "LIVILLA",
+              "Line": "Murder! Murder! Stop it! "
+            },
+            {
+              "Character": "POSTUMUS",
+              "Line": "Livilla... "
+            },
+            {
+              "Character": "LIVILLA",
+              "Line": "Help me! Don't! Stop it! Help me! No, please! No! No! No! Help! Help! He tried to rape me! Keep him away! "
+            },
+            {
+              "Character": "POSTUMUS",
+              "Line": "You bitch! You filthy bitch!  The corridor doors burst open. AUGUSTUS, his face a mask of fury, enters followed by CASTOR. "
+            },
+            {
+              "Character": "AUGUSTUS",
+              "Line": "What are you? Some kind of animal? "
+            },
+            {
+              "Character": "POSTUMUS",
+              "Line": "It's a lie. Can't you see? The whole thing's a lie. "
+            },
+            {
+              "Character": "AUGUSTUS",
+              "Line": "Beast, look at her. She's terrified! "
+            },
+            {
+              "Character": "POSTUMUS",
+              "Line": "She invited me into her room. "
+            },
+            {
+              "Character": "LIVILLA",
+              "Line": "I didn't! He climbed up on my balcony and attacked me! "
+            },
+            {
+              "Character": "AUGUSTUS",
+              "Line": "What, you expect me to believe she'd invite you to her room with her husband a few doors away? "
+            },
+            {
+              "Character": "POSTUMUS",
+              "Line": "She told me he'd be out. "
+            },
+            {
+              "Character": "CASTOR",
+              "Line": "You filthy pig! "
+            },
+            {
+              "Character": "AUGUSTUS",
+              "Line": "Stop it! Now, stop it! Wait outside. I suppose you'll tell me that this isn't your dagger? "
+            },
+            {
+              "Character": "POSTUMUS",
+              "Line": "Yes, it's mine, but she could have got it anytime. She and Castor dine with us often enough. "
+            },
+            {
+              "Character": "AUGUSTUS",
+              "Line": "What do you take me for? Do you expect me to believe that she tricked you into coming to her room so that she could falsely accuse you of rape? Well, for what reason? Well, tell me! "
+            },
+            {
+              "Stage Direction": "looking at LIVIA, who has entered the corridor"
+            },
+            {
+              "Character": "POSTUMUS",
+              "Line": "Ask her. Perhaps she knows. "
+            },
+            {
+              "Character": "AUGUSTUS",
+              "Line": "I'm asking you! "
+            },
+            {
+              "Character": "LIVIA",
+              "Line": "He'll incriminate us all before he's done. "
+            },
+            {
+              "Character": "POSTUMUS",
+              "Line": "She hates me and you're so blind you can't see it. "
+            },
+            {
+              "Character": "AUGUSTUS",
+              "Line": "Hates you? What do you mean, hates you? "
+            },
+            {
+              "Character": "POSTUMUS",
+              "Line": "She hates me as she hated my brothers and my mother. She hates anyone who might come between you and her precious son! "
+            },
+            {
+              "Character": "AUGUSTUS",
+              "Line": "What is going on here? What is he saying? "
+            },
+            {
+              "Character": "POSTUMUS",
+              "Line": "Oh, Grandfather, open your eyes! Throw off the blinkers! For years, everyone around you has either died or disappeared. Do you think it was all an accident? My father Agrippa and before him, Marcellus. My brothers Gaius and Lucius, my mother Julia and now me! Well, can't you see? She's clearing a path for herself! And that other son of hers, Drusus, whose revered memory she honors in those games of hers - ask her how he died! There was nothing wrong with him till she sent her personal physician to treat him! "
+            },
+            {
+              "Character": "AUGUSTUS",
+              "Line": "Marcellus? Agrippa? What is he saying? What is he, some kind of raving lunatic? What does he think, that they were all murdered? Are you insane? Or is just that you want me to think you are? Yes! You're very clever. You think that by pretending insanity that I'll be lenient with you. Yes, you think a show of madness will move me and I'll put you away somewhere in the care of a doctor. You're disgusting! You know something, I'd rather clear vomit off the street than talk to you. "
+            },
+            {
+              "Character": "POSTUMUS",
+              "Line": "It's incredible, isn't it? It's too horrific even to think about it. I have to be mad even to mention it. What a joke! What a pathetic joke! Well, can't you see it's not me that's mad, it's her! Look at her, she's a madwoman! She'll destroy us all before she's finished, you included! "
+            },
+            {
+              "Character": "AUGUSTUS",
+              "Line": "I could kill you now. Spill your guts onto the floor and give you no more thought than I would a dog killed on the road. But that'd be too good for you. You're going to suffer, like your mother suffers. Living out your life on a rock somewhere in the middle of the sea with nothing but birds for company. And it won't be on any that you'll find on a map because they're all too big for you. But I'll find one, don't you fear, just your size. In ten minutes you'll know every stone and blade of grass. And you'll stay there till you rot. Guard! Take him out, and keep him under arrest!  Augustus turns to Livilla, concern etched on his face. "
+            },
+            {
+              "Character": "AUGUSTUS",
+              "Line": "Are you all right? "
+            },
+            {
+              "Character": "LIVILLA",
+              "Line": "I feel unclean. "
+            },
+            {
+              "Character": "AUGUSTUS",
+              "Line": "Well, my dear, it's not you that's unclean, it's him. Tomorrow, you and I will go the temple and make a sacrifice together. You'll feel better. (shouting outside) Go on!"
+            }
+          ]
+        },
+        {
+          "Scene": "EXT. PALACE GROUNDS - NIGHT",
+          "Dialogue": [
+            {
+              "Stage Direction": "POSTUMUS, having escaped his guards, stumbles through the palace grounds. He is desperate and fearful."
+            },
+            {
+              "Character": "POSTUMUS",
+              "Line": "Sh! They're searching for me in the grounds. They'll find me soon. I haven't much time.  CLAUDIUS appears from the shadows. He's watchful. "
+            },
+            {
+              "Character": "CLAUDIUS",
+              "Line": "Postumus. "
+            },
+            {
+              "Character": "POSTUMUS",
+              "Line": "Just listen."
+            }
+          ]
+        },
+        {
+          "Scene": "INT. PALACE CORRIDOR - CONTINUOUS",
+          "Dialogue": [
+            {
+              "Stage Direction": "AUGUSTUS paces, impatient. Castor stands nearby, fidgeting."
+            },
+            {
+              "Character": "AUGUSTUS",
+              "Line": "Well? "
+            },
+            {
+              "Character": "CASTOR",
+              "Line": "He slipped the guards. They're searching the palace for him. "
+            },
+            {
+              "Character": "AUGUSTUS",
+              "Line": "He won't get far. If he runs to the ends of the earth, he'll find a Roman or a friend of Rome ready to give him up. Oh, take your wife to bed! And, Castor, be nice to her. Get in beside her. That's your place. If you'd been there more often instead of carousing around town, none of this might have happened! Oh..."
+            }
+          ]
+        },
+        {
+          "Scene": "EXT. PALACE GARDENS - NIGHT",
+          "Dialogue": [
+            {
+              "Stage Direction": "POSTUMUS, panicked, emerges into the dimly lit gardens. He glances around nervously, checking for pursuit."
+            },
+            {
+              "Character": "POSTUMUS",
+              "Line": "Sh! They're searching for me in the grounds. They'll find me soon. I haven't much time.  CLAUDIUS appears silently from the shadows. He observes POSTUMUS with a knowing look. "
+            },
+            {
+              "Character": "CLAUDIUS",
+              "Line": "Postumus. "
+            },
+            {
+              "Character": "POSTUMUS",
+              "Line": "Just listen."
+            }
+          ]
+        },
+        {
+          "Scene": "INT. PALACE CORRIDOR - CONTINUOUS",
+          "Dialogue": [
+            {
+              "Stage Direction": "AUGUSTUS paces impatiently in a corridor, his agitation palpable. CASTOR stands nearby, shifting from foot to foot."
+            },
+            {
+              "Character": "AUGUSTUS",
+              "Line": "Well? "
+            },
+            {
+              "Character": "CASTOR",
+              "Line": "He slipped the guards. They're searching the palace for him. "
+            },
+            {
+              "Character": "AUGUSTUS",
+              "Line": "He won't get far. If he runs to the ends of the earth, he'll find a Roman or a friend of Rome ready to give him up. Oh, take your wife to bed! And, Castor, be nice to her. Get in beside her. That's your place. If you'd been there more often instead of carousing around town, none of this might have happened! Oh..."
+            }
+          ]
+        },
+        {
+          "Scene": "EXT. PALACE GARDENS - NIGHT",
+          "Dialogue": [
+            {
+              "Stage Direction": "CLAUDIUS and POSTUMUS stand facing each other in the garden. The air is still, the only sound the rustling of leaves."
+            },
+            {
+              "Character": "CLAUDIUS",
+              "Line": "And you really think my grandmother put LIVILLA up to it? "
+            },
+            {
+              "Character": "POSTUMUS",
+              "Line": "I'm certain of it. I'll go now. If LIVIA knows I've been here, your life won't be worth much. But I wanted you to know. I wanted you, above all, to know the truth, and I want GERMANICUS to know when he returns. "
+            },
+            {
+              "Character": "CLAUDIUS",
+              "Line": "I'll tell him. But, listen, stay alive. Don't give them any excuse to k-k-kill you. "
+            },
+            {
+              "Character": "POSTUMUS",
+              "Line": "I'm sorry I won't be at your wedding. "
+            },
+            {
+              "Character": "CLAUDIUS",
+              "Line": "Oh, don't worry. It'll be a very small affair. I embarrass them all far too much. "
+            },
+            {
+              "Character": "POSTUMUS",
+              "Line": "Good. Go on embarrassing them. Go on playing the idiot. It's safer that way. "
+            },
+            {
+              "Character": "CLAUDIUS",
+              "Line": "You know, somebody else said that to me a while ago. ASINIUS P-POLLIO. "
+            },
+            {
+              "Character": "POSTUMUS",
+              "Line": "Then we're not the only ones who know what's going on here. Goodbye, old friend.  SOUND of shouting in the distance.  POSTUMUS glances nervously towards the sound.  URGULANILLA (O.S.)"
+            },
+            {
+              "Stage Direction": "shouting"
+            },
+            {
+              "Character": "POSTUMUS",
+              "Line": "[stands]  LIVIA (O.S.)"
+            },
+            {
+              "Stage Direction": "shouting"
+            },
+            {
+              "Character": "POSTUMUS",
+              "Line": "[crowd laughs] She grew! She just kept on growing!"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

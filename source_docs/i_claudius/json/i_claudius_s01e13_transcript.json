@@ -1,0 +1,1438 @@
+{
+  "Story": "I, Claudius",
+  "Airdate": "06 Dec, 1976",
+  "Episodes": [
+    {
+      "Episode": "Old King Log",
+      "Scenes": [
+        {
+          "Scene": "INT. CLAUDIUS'S PRIVATE STUDY - DAY",
+          "Dialogue": [
+            {
+              "Stage Direction": "Shadows cling to the corners of a richly appointed study within the Imperial Villa at Capri. An ornate, mysterious box sits amidst piles of scrolls, wax tablets, and ink-stained parchments. The air is still, untouched by servants."
+            },
+            {
+              "Stage Direction": "The imperial bedchamber lies just beyond, where CLAUDIUS, Rome's Emperor, has breathed his last."
+            },
+            {
+              "Stage Direction": "Nero enters, followed by AGRIPPINILLA. Nero is young, barely a man, with a cruel glint in his eyes. Agrippinilla, his mother, is elegant and ambitious, her face a mask of controlled excitement."
+            },
+            {
+              "Character": "NERO",
+              "Line": "Is he dead? "
+            },
+            {
+              "Character": "AGRIPPINILLA",
+              "Line": "Yes. Yes, he's dead. "
+            },
+            {
+              "Character": "NERO",
+              "Line": "Then I am Emperor. "
+            },
+            {
+              "Character": "AGRIPPINILLA",
+              "Line": "Yes. "
+            },
+            {
+              "Stage Direction": "giddy"
+            },
+            {
+              "Character": "NERO",
+              "Line": "Whee! "
+            },
+            {
+              "Stage Direction": "hissing"
+            },
+            {
+              "Character": "AGRIPPINILLA",
+              "Line": "Sh! You are Emperor. Everything I ever dreamed of has come true. "
+            },
+            {
+              "Character": "NERO",
+              "Line": "Emperor. I am Emperor of Rome. ... I feel sorry for him, don't you? "
+            },
+            {
+              "Character": "AGRIPPINILLA",
+              "Line": "No. "
+            },
+            {
+              "Character": "NERO",
+              "Line": "No? No, neither do I. Let's announce his death. "
+            },
+            {
+              "Character": "AGRIPPINILLA",
+              "Line": "Not yet. First, we shall put out a bulletin to say that he's as well as can be expected. "
+            },
+            {
+              "Character": "NERO",
+              "Line": "Considering he's dead! "
+            },
+            {
+              "Character": "AGRIPPINILLA",
+              "Line": "Yes. Then we must find the will. It will be in his study. Come!  They move further into the cluttered study. "
+            },
+            {
+              "Character": "NERO",
+              "Line": "What a mess! "
+            },
+            {
+              "Character": "AGRIPPINILLA",
+              "Line": "He would never let anyone touch it, that's why. It will be here somewhere. You look over there and I'll look here.  CLAUDIUS (V.O.) Write no more, Claudius. Write no more.  Nero rummages carelessly through a stack of parchments. Agrippinilla searches with focused intensity. "
+            },
+            {
+              "Character": "NERO",
+              "Line": "Have you found it, Mother? Well, what is it? "
+            },
+            {
+              "Stage Direction": "holding up a scroll"
+            },
+            {
+              "Character": "AGRIPPINILLA",
+              "Line": "It looks like a history. "
+            },
+            {
+              "Character": "NERO",
+              "Line": "Of what? "
+            },
+            {
+              "Character": "AGRIPPINILLA",
+              "Line": "Of our family. "
+            },
+            {
+              "Character": "NERO",
+              "Line": "Does it mention me? Where does it begin? "
+            },
+            {
+              "Character": "AGRIPPINILLA",
+              "Line": "With the death of his last wife, Messalina. "
+            },
+            {
+              "Character": "NERO",
+              "Line": "That should be interesting. What's it say about me? "
+            },
+            {
+              "Character": "AGRIPPINILLA",
+              "Line": "Oh, be quiet! How can I tell if you keep talking to me?"
+            }
+          ]
+        },
+        {
+          "Scene": "INT. IMPERIAL PALACE - RECEPTION HALL - DAY",
+          "Dialogue": [
+            {
+              "Stage Direction": "Marble columns rise in an opulent reception hall, adorned with statues of ROMAN ancestors and golden mosaics depicting victorious battles. Heavy silk drapes hang from the high windows, casting the room in a rich, muted light. The air hums with unspoken tension as CLAUDIUS sits on his throne, flanked by his advisors, PALLAS and NARCISSUS."
+            },
+            {
+              "Character": "CLAUDIUS",
+              "Line": "The frog pool wanted a king. Jove sent them Old King Log. I have been as deaf and blind and wooden as a log. My chief fault? I have been too benevolent. I repaired the ruin my predecessors spread. I reconciled Rome and the world to monarchy again. By dulling the blade of tyranny, I fell into great error. By sharpening that blade I might redeem that error. Violent disorders call for violent remedies. Yet I am, I must remember, Old King Log. I shall float inertly in the stagnant pool. Let all the poisons that lurk in the mud hatch out. Yes. Let all the poisons that lurk in the mud hatch out."
+            },
+            {
+              "Stage Direction": "PALLAS, a shrewd and calculating advisor, gestures subtly towards the departing figure of a woman."
+            },
+            {
+              "Character": "PALLAS",
+              "Line": "She did not please you, Caesar? No, I can see she did not. It was a mistake having her here.  NARCISSUS, another advisor, oily and self-serving, nods in agreement. "
+            },
+            {
+              "Character": "NARCISSUS",
+              "Line": "A beautiful woman though. "
+            },
+            {
+              "Character": "PALLAS",
+              "Line": "Yes, beautiful woman. Whoever marries her will be a fortunate man. "
+            },
+            {
+              "Character": "NARCISSUS",
+              "Line": "She's married already. "
+            },
+            {
+              "Character": "PALLAS",
+              "Line": "Really? "
+            },
+            {
+              "Character": "NARCISSUS",
+              "Line": "To the drummer. And has three children. "
+            },
+            {
+              "Character": "PALLAS",
+              "Line": "Oh, I envy him. "
+            },
+            {
+              "Character": "NARCISSUS",
+              "Line": "He tells me she's a shrew. "
+            },
+            {
+              "Character": "PALLAS",
+              "Line": "Well, then I envy him his nights, but not his days. "
+            },
+            {
+              "Character": "NARCISSUS",
+              "Line": "Unfortunately in marriage, one can't have one without the other. You see, Caesar, how even vagabonds and gypsies like those recognize the virtues of marriage and a family...life. "
+            },
+            {
+              "Character": "PALLAS",
+              "Line": "Caesar? Are you well? Is something the matter?  CLAUDIUS stares vacantly ahead, seemingly lost in his own thoughts. "
+            },
+            {
+              "Character": "CLAUDIUS",
+              "Line": "Let all the poisons that lurk in the mud hatch out. "
+            },
+            {
+              "Character": "PALLAS",
+              "Line": "If you will allow us, Caesar, to raise once again the subject of your remarrying? "
+            },
+            {
+              "Character": "NARCISSUS",
+              "Line": "There are so many good reasons for it. But, chiefly, your children need a mother. And Rome needs a mother. It's not right for an Emperor to be alone. Your Uncle Tiberius was alone too long. I'm sure it affected his mind. "
+            },
+            {
+              "Character": "PALLAS",
+              "Line": "Well, it doesn't follow that because your three previous marriages were all a tragedy, your fourth shouldn't be a triumph. "
+            },
+            {
+              "Character": "NARCISSUS",
+              "Line": "I've given this matter a great deal of thought, and there is someone I'd like to recommend. "
+            },
+            {
+              "Character": "PALLAS",
+              "Line": "You never mentioned that to me. "
+            },
+            {
+              "Character": "NARCISSUS",
+              "Line": "I only thought of it this morning. Caesar, the one woman in Rome who would be a perfect wife is Lollia Paulina. "
+            },
+            {
+              "Stage Direction": "scoffs"
+            },
+            {
+              "Character": "PALLAS",
+              "Line": "Lollia Paulina? Haha. Are you mad? "
+            },
+            {
+              "Character": "NARCISSUS",
+              "Line": "She is ideal. She is the daughter of an ex-consul. She has lost none of her looks with advancing age, and she is still childless, which will make her a good stepmother to BRITANNICUS and OCTAVIA. And they need a mother. I think that's more important than anything. "
+            },
+            {
+              "Character": "PALLAS",
+              "Line": "More than the fact that she's the stupidest woman in Rome. "
+            },
+            {
+              "Character": "NARCISSUS",
+              "Line": "The Emperor has had clever ones before that have done him little good. "
+            },
+            {
+              "Character": "PALLAS",
+              "Line": "She's an absurd choice. She walks about like a jeweler's shop and thinks of nothing but ornaments. "
+            },
+            {
+              "Character": "NARCISSUS",
+              "Line": "The Emperor needs... "
+            },
+            {
+              "Character": "PALLAS",
+              "Line": "The Emperor needs a wife capable of helping him. Now Caesar, I have submitted many names in the past for your consideration. I confess, I have been less than enthusiastic about most of them. "
+            },
+            {
+              "Character": "NARCISSUS",
+              "Line": "That didn't prevent you putting them forward. "
+            },
+            {
+              "Character": "PALLAS",
+              "Line": "It was not I who was to marry them. One can recommend with less enthusiasm than one marries. "
+            },
+            {
+              "Character": "NARCISSUS",
+              "Line": "Caesar... "
+            },
+            {
+              "Character": "PALLAS",
+              "Line": "As I was about to say, Caesar! ... One name comes to me now with all the force of divine revelation. The lady in question has been in front of us all the time. So close, in fact, that we've not noticed her. I refer to the Lady AGRIPPINILLA. "
+            },
+            {
+              "Character": "NARCISSUS",
+              "Line": "The Lady Agrippinilla? Are you mad? She's the Emperor's niece! The union would be incestuous. The Senate would never allow it. "
+            },
+            {
+              "Character": "PALLAS",
+              "Line": "A hundred years ago, first cousins couldn't marry. Now it's done all the time. When it's put to the Senate, they will agree. Now, Caesar, she's in every way suitable. She's a woman of powerful intelligence. She is the daughter of Germanicus, and she would bring with her the grandson of Germanicus, NERO, a boy worthy in every respect of Imperial fortune. "
+            },
+            {
+              "Character": "NARCISSUS",
+              "Line": "But the Emperor loathes Nero! A hideous boy. "
+            },
+            {
+              "Character": "PALLAS",
+              "Line": "You are speaking of the Emperor's grand-nephew! "
+            },
+            {
+              "Character": "NARCISSUS",
+              "Line": "I speak the Emperor's own words! And I'll go further. His mother is the most corrupt woman in Rome. Even Caligula said so and he was her brother! "
+            },
+            {
+              "Stage Direction": "outraged"
+            },
+            {
+              "Character": "PALLAS",
+              "Line": "How dare you? How dare you? Narcissus, you may consider our friendship at an end. From this moment, at an end! "
+            },
+            {
+              "Character": "NARCISSUS",
+              "Line": "Caesar... "
+            },
+            {
+              "Character": "PALLAS",
+              "Line": "Caesar! I cannot support these monstrous calumnies against the daughter of Germanicus. "
+            },
+            {
+              "Character": "NARCISSUS",
+              "Line": "Caesar... "
+            },
+            {
+              "Character": "PALLAS",
+              "Line": "In my opinion, your niece is the finest woman in Rome. "
+            },
+            {
+              "Character": "NARCISSUS",
+              "Line": "Oh... "
+            },
+            {
+              "Character": "PALLAS",
+              "Line": "An Emperor should have a wife who is both good looking and of outstanding intelligence. Now, she has both! "
+            },
+            {
+              "Character": "NARCISSUS",
+              "Line": "She... "
+            },
+            {
+              "Character": "PALLAS",
+              "Line": "I beg you to consider her. "
+            },
+            {
+              "Character": "NARCISSUS",
+              "Line": "It would be the Lady Messalina all over again. Worse, it'll be the Lady Messalina with brains. That's a combination more deadly than all the tribes of Germany put together. And as for that son of hers, his mother won't be married ten minutes but she'll be wanting him to be adopted into the family. Caesar, Caesar, I beg you. Caesar, an uncle does not marry his niece. The union will be incestuous and the gods abominate incest. It will bring ruin and destruction on all Rome. "
+            },
+            {
+              "Character": "CLAUDIUS",
+              "Line": "Let all the poisons that lurk in the mud hatch out. "
+            },
+            {
+              "Character": "NARCISSUS",
+              "Line": "Caesar? "
+            },
+            {
+              "Character": "CLAUDIUS",
+              "Line": "Let all the p-poisons that lurk in the mud ha-ha-hatch out. ... I will m-marry my niece. Bring her to me."
+            }
+          ]
+        },
+        {
+          "Scene": "INT. AGRIPPINILLA'S PRIVATE APARTMENTS - NIGHT",
+          "Dialogue": [
+            {
+              "Stage Direction": "Soft lighting from bronze oil lamps illuminates a lavish suite, reflecting off polished bronze mirrors. The air is thick with the scent of perfume and ambition. AGRIPPINILLA, beautiful and calculating, stands awaiting news. PALLAS, enters, breathless."
+            },
+            {
+              "Character": "AGRIPPINILLA",
+              "Line": "Come in. Well? "
+            },
+            {
+              "Character": "PALLAS",
+              "Line": "He's agreed. He has agreed. He wants to see you. "
+            },
+            {
+              "Character": "AGRIPPINILLA",
+              "Line": "Now? "
+            },
+            {
+              "Character": "PALLAS",
+              "Line": "Yes. It was so easy I could hardly believe it. "
+            },
+            {
+              "Character": "AGRIPPINILLA",
+              "Line": "He'll marry me? He said he'd marry me? "
+            },
+            {
+              "Character": "PALLAS",
+              "Line": "Yes. "
+            },
+            {
+              "Character": "AGRIPPINILLA",
+              "Line": "What did he say? "
+            },
+            {
+              "Character": "PALLAS",
+              "Line": "\"I will marry my niece. Send her to me.\" "
+            },
+            {
+              "Character": "AGRIPPINILLA",
+              "Line": "That's all? Anything else? No arguments? No opposition? "
+            },
+            {
+              "Character": "PALLAS",
+              "Line": "Only from NARCISSUS.  Agrippinilla raises an eyebrow, a hint of a smile playing on her lips. "
+            },
+            {
+              "Character": "AGRIPPINILLA",
+              "Line": "Ah. What did he say? "
+            },
+            {
+              "Character": "PALLAS",
+              "Line": "I shan't repeat it. What does it matter? He lost. It was only sour grapes. "
+            },
+            {
+              "Character": "AGRIPPINILLA",
+              "Line": "I'll sour all his grapes before I'm done. And Claudius? He said nothing about my being his niece? "
+            },
+            {
+              "Character": "PALLAS",
+              "Line": "Nothing. "
+            },
+            {
+              "Character": "AGRIPPINILLA",
+              "Line": "Nothing about incest? "
+            },
+            {
+              "Character": "PALLAS",
+              "Line": "Nothing. "
+            },
+            {
+              "Character": "AGRIPPINILLA",
+              "Line": "Perhaps he fancies the idea. "
+            },
+            {
+              "Character": "PALLAS",
+              "Line": "I wouldn't blame him. I shan't like it though, the thought of you in his bed. I'm beginning to have regrets already. I tell you, I found it hard, when it came to it, to suggest you. "
+            },
+            {
+              "Character": "AGRIPPINILLA",
+              "Line": "It didn't stop you though, did it? "
+            },
+            {
+              "Character": "PALLAS",
+              "Line": "No. "
+            },
+            {
+              "Character": "AGRIPPINILLA",
+              "Line": "Your ambition always burned more brightly than your passion. "
+            },
+            {
+              "Character": "PALLAS",
+              "Line": "You ever found my passion wanting? "
+            },
+            {
+              "Character": "AGRIPPINILLA",
+              "Line": "No. But in my case, passion and ambition are beautifully combined... aren't they? "
+            },
+            {
+              "Character": "PALLAS",
+              "Line": "I'm beginning to have regrets already. My regrets are mounting. I hope when you're married... "
+            },
+            {
+              "Character": "AGRIPPINILLA",
+              "Line": "Don't be silly. Oh, I've hurt you. And I shouldn't have. Don't worry. I'll make it up to you. "
+            },
+            {
+              "Character": "PALLAS",
+              "Line": "Now. Make it up to me now. "
+            },
+            {
+              "Character": "AGRIPPINILLA",
+              "Line": "He's waiting for me. "
+            },
+            {
+              "Character": "PALLAS",
+              "Line": "It won't take long. You see, for once, my passion burns brighter than my ambition. "
+            },
+            {
+              "Character": "AGRIPPINILLA",
+              "Line": "Hurry, then. I imagine his passion is burning too... and at his age, the flames don't last very long.  Agrippinilla exits. Pallas watches her go, a mixture of lust and apprehension on his face."
+            }
+          ]
+        },
+        {
+          "Scene": "INT. CLAUDIUS'S CHAMBERS - CONTINUOUS",
+          "Dialogue": [
+            {
+              "Stage Direction": "CLAUDIUS sits, looking tired but alert. Agrippinilla enters, radiating confidence."
+            },
+            {
+              "Stage Direction": "knocking"
+            },
+            {
+              "Character": "AGRIPPINILLA",
+              "Line": "Uncle? Pallas tells me you wanted to see me. "
+            },
+            {
+              "Character": "CLAUDIUS",
+              "Line": "Yes. "
+            },
+            {
+              "Character": "AGRIPPINILLA",
+              "Line": "He said that you had decided to marry again. "
+            },
+            {
+              "Character": "CLAUDIUS",
+              "Line": "Yes. "
+            },
+            {
+              "Character": "AGRIPPINILLA",
+              "Line": "And that you had chosen me? "
+            },
+            {
+              "Character": "CLAUDIUS",
+              "Line": "Would you like to marry me? "
+            },
+            {
+              "Character": "AGRIPPINILLA",
+              "Line": "Oh, Uncle! You have made me the happiest woman in the world. "
+            },
+            {
+              "Character": "CLAUDIUS",
+              "Line": "Yes, I thought I might. "
+            },
+            {
+              "Character": "AGRIPPINILLA",
+              "Line": "How could you known that? How could you have known that I've loved and respected you all these years above all others? "
+            },
+            {
+              "Character": "CLAUDIUS",
+              "Line": "I just guessed it, my dear, just guessed it. "
+            },
+            {
+              "Character": "AGRIPPINILLA",
+              "Line": "I shall be such a good wife to you, you'll see. And I shall be a mother to Britannicus and Octavia just as I am to my own dear Nero. They shall be to me as if they were my own. And there'll be more, why not? I'm still capable of bearing children. And you, such a vigorous man. Such firm flesh. Who would have thought it? You shall have more sons, I promise you. And more love than you have ever had. Yes, love, Uncle, such as you have never known before. Oh, it makes my head reel to think of it. "
+            },
+            {
+              "Character": "CLAUDIUS",
+              "Line": "Does it not worry you, my dear, that you will be committing incest? Oh, but you've done that so many times before, haven't you? With your brother, Caligula?  Agrippinilla's smile falters for a fraction of a second, but she recovers quickly. "
+            },
+            {
+              "Character": "AGRIPPINILLA",
+              "Line": "We all did things during the reign of my mad brother that we might not otherwise have done. "
+            },
+            {
+              "Character": "CLAUDIUS",
+              "Line": "That's true. That is true. Only some of us did them a little more willingly than others, didn't we? I'm not blaming you. I'm only asking. "
+            },
+            {
+              "Character": "AGRIPPINILLA",
+              "Line": "Well, since you ask, the answer is no. Such incest would be technical only. It doesn't disturb me but if it disturbs you... "
+            },
+            {
+              "Character": "CLAUDIUS",
+              "Line": "No, I'm teasing. Please don't be offended. As a matter of fact the q-question of incest is somewhat academic. "
+            },
+            {
+              "Character": "AGRIPPINILLA",
+              "Line": "What does that mean? "
+            },
+            {
+              "Character": "CLAUDIUS",
+              "Line": "It means that as beautiful as you are, your body is of less interest to me than your mind. I'm marrying you for your head, my dear, not your heart, of which, I suspect, you have very little. "
+            },
+            {
+              "Character": "AGRIPPINILLA",
+              "Line": "Well, then, that suits me. You're not the sort of lover one dreams of. "
+            },
+            {
+              "Character": "CLAUDIUS",
+              "Line": "Certainly not the sort that you dream of. Still. I won't discuss your dreams - not on a full stomach. I'm marrying you because I am tired of ruling alone. And there are so many things an Emperor's w-wife could do that others can't. But I need a woman with a mind. Now does that appeal to you? "
+            },
+            {
+              "Character": "AGRIPPINILLA",
+              "Line": "Admirably. But I shan't be a cipher, I can tell you that. If you give me power, I shall use it. "
+            },
+            {
+              "Character": "CLAUDIUS",
+              "Line": "Now why else do you imagine I'm giving it to you?"
+            }
+          ]
+        },
+        {
+          "Scene": "INT. AGRIPPINILLA'S PRIVATE APARTMENTS - LATER",
+          "Dialogue": [
+            {
+              "Stage Direction": "Agrippinilla paces, deep in thought. Pallas enters, concerned."
+            },
+            {
+              "Character": "PALLAS",
+              "Line": "Well? "
+            },
+            {
+              "Character": "AGRIPPINILLA",
+              "Line": "We are to be married. But why? "
+            },
+            {
+              "Character": "PALLAS",
+              "Line": "Why? "
+            },
+            {
+              "Character": "AGRIPPINILLA",
+              "Line": "He doesn't want me to share his bed. He doesn't even like me. He says he wants me to help him rule. "
+            },
+            {
+              "Character": "PALLAS",
+              "Line": "All the better. "
+            },
+            {
+              "Character": "AGRIPPINILLA",
+              "Line": "No, no. There's something odd. What did he say when you suggested me? "
+            },
+            {
+              "Character": "PALLAS",
+              "Line": "I told you. "
+            },
+            {
+              "Character": "AGRIPPINILLA",
+              "Line": "Nothing more? "
+            },
+            {
+              "Character": "PALLAS",
+              "Line": "Well, there was something but it made no sense. "
+            },
+            {
+              "Character": "AGRIPPINILLA",
+              "Line": "What? What did he say? "
+            },
+            {
+              "Character": "PALLAS",
+              "Line": "Er... \"Let all the poisons that are in the mud hatch out\" or something like that. "
+            },
+            {
+              "Character": "AGRIPPINILLA",
+              "Line": "Perhaps his mind's going. "
+            },
+            {
+              "Character": "PALLAS",
+              "Line": "Maybe he won't last long after his marriage. "
+            },
+            {
+              "Character": "AGRIPPINILLA",
+              "Line": "No. We must keep him alive long enough for my son to come of age."
+            }
+          ]
+        },
+        {
+          "Scene": "INT. SENATE - DAY",
+          "Dialogue": [
+            {
+              "Stage Direction": "CLAUDIUS stands before the Senate."
+            },
+            {
+              "Character": "CLAUDIUS",
+              "Line": "Senators. Seven years ago, I undertook the conquest of the island of Britain. It has taken until now to complete it. One man and o-one man alone has been responsible for the enormous losses...  CLAUDIUS (V.O.) The war in Britain finally came to an end, and King CARACTACUS was brought in chains to Rome. The Senate called for his death as punishment for his long and protracted resistance to our arms, but while his family cowered before us, Caractacus did not.  Caractacus, in chains, stands tall and defiant. "
+            },
+            {
+              "Character": "CARACTACUS",
+              "Line": "I'll tell you this. If the sword is all that you're prepared to show us Britons, then be prepared to carry it forever in your hand... and sleep with it forever by your side at night! For you will need it!  The Senate erupts in applause. "
+            },
+            {
+              "Stage Direction": "applause"
+            },
+            {
+              "Character": "SENATE",
+              "Line": "CLAUDIUS (V.O.) His courage and his dignity won the hearts of the Senate. He was granted a pension and allowed to live with his family in the city."
+            }
+          ]
+        },
+        {
+          "Scene": "INT. CLAUDIUS'S BEDROOM - DAY",
+          "Dialogue": [
+            {
+              "Stage Direction": "A grand yet austere imperial chamber. Sunlight streams through the windows, offering a commanding view of the Roman Forum below. CLAUDIUS, weary but resolute, sits on his throne. AGRIPPINELLA, stands before him with BRITANNICUS and NERO."
+            },
+            {
+              "Character": "CLAUDIUS",
+              "Line": "I'm am near the end of my story. I have been married to Agrippinilla for five years and she has turned out as loathsome as I thought she would. As has that slimy son of hers. His mother has plans for him. She thinks I do not know, but I do. And I have my own plans"
+            },
+            {
+              "Character": "CLAUDIUS",
+              "Line": "He's very musical "
+            },
+            {
+              "Character": "AGRIPPINELLA",
+              "Line": "Yes. ... I wonder, Britannicus, that you don't take lessons. "
+            },
+            {
+              "Character": "BRITANNICUS",
+              "Line": "I'm not interested in music. "
+            },
+            {
+              "Character": "AGRIPPINELLA",
+              "Line": "Pity. You could play duets together. "
+            },
+            {
+              "Character": "BRITANNICUS",
+              "Line": "That would be very unlikely, Lucius Domitius being so gifted. "
+            },
+            {
+              "Character": "AGRIPPINELLA",
+              "Line": "I wish you would stop addressing him as Lucius Domitius. He has adopted the name of Nero. "
+            },
+            {
+              "Character": "BRITANNICUS",
+              "Line": "I forgot. "
+            },
+            {
+              "Character": "AGRIPPINELLA",
+              "Line": "No, you do not forget. I think you do it deliberately. "
+            },
+            {
+              "Character": "BRITANNICUS",
+              "Line": "I tell you, I forget. "
+            },
+            {
+              "Character": "AGRIPPINELLA",
+              "Line": "Well, you have been reminded, which I think calls for a correction and an apology. "
+            },
+            {
+              "Character": "NERO",
+              "Line": "Oh, that isn't necessary, Mother. "
+            },
+            {
+              "Character": "AGRIPPINELLA",
+              "Line": "I think it is. Well? "
+            },
+            {
+              "Character": "BRITANNICUS",
+              "Line": "I shall not apologize. "
+            },
+            {
+              "Character": "AGRIPPINELLA",
+              "Line": "I think you will. Claudius, I insist that you order him to apologize. "
+            },
+            {
+              "Character": "CLAUDIUS",
+              "Line": "Apologize to N-Nero, Britannicus. You've hurt his feelings and you know how sensitive he is. "
+            },
+            {
+              "Character": "BRITANNICUS",
+              "Line": "You side with them! You take her side and his against me all the time. I shall not apologize! "
+            },
+            {
+              "Character": "CLAUDIUS",
+              "Line": "You will apologize or you'll be punished. "
+            },
+            {
+              "Character": "BRITANNICUS",
+              "Line": "What will you do? Have me executed as you did my mother? I detest you all! All of you! "
+            },
+            {
+              "Character": "NERO",
+              "Line": "I'm sorry to have been the cause of that. "
+            },
+            {
+              "Character": "AGRIPPINELLA",
+              "Line": "It's not your fault, everyone can see that. "
+            },
+            {
+              "Character": "NERO",
+              "Line": "Nevertheless, I'll go and see him. Come, OCTAVIA, let's go and find your brother. Perhaps we can pacify him. "
+            },
+            {
+              "Character": "OCTAVIA",
+              "Line": "I think you're very kind. "
+            },
+            {
+              "Character": "NERO",
+              "Line": "There's far too little kindness in the world. "
+            },
+            {
+              "Character": "AGRIPPINELLA",
+              "Line": "Have you noticed how fond they are of each other? Everyone's commenting on it. Nero simply adores her. There's something I've been wanting to speak to you about for a long time. "
+            },
+            {
+              "Character": "CLAUDIUS",
+              "Line": "Yes. "
+            },
+            {
+              "Character": "AGRIPPINELLA",
+              "Line": "It concerns the matter of... Pardon? "
+            },
+            {
+              "Character": "CLAUDIUS",
+              "Line": "The answer is yes. "
+            },
+            {
+              "Character": "AGRIPPINELLA",
+              "Line": "You don't know what I'm going to ask. "
+            },
+            {
+              "Character": "CLAUDIUS",
+              "Line": "Aren't you going to suggest that I marry Octavia to your son? "
+            },
+            {
+              "Character": "AGRIPPINELLA",
+              "Line": "Yes. "
+            },
+            {
+              "Character": "CLAUDIUS",
+              "Line": "The answer is yes. "
+            },
+            {
+              "Character": "AGRIPPINELLA",
+              "Line": "Don't you wish to discuss it? "
+            },
+            {
+              "Character": "CLAUDIUS",
+              "Line": "What is there to discuss? They'll be well matched. "
+            },
+            {
+              "Character": "AGRIPPINELLA",
+              "Line": "Nero's very fond you, you know? He thinks of you as a father. He said to me the other day, \"You know, I think of him...\" "
+            },
+            {
+              "Character": "CLAUDIUS",
+              "Line": "...\"as a father\". "
+            },
+            {
+              "Character": "AGRIPPINELLA",
+              "Line": "... It just occurred to me that since he now will be marrying Octavia... "
+            },
+            {
+              "Character": "CLAUDIUS",
+              "Line": "The answer once again is yes. "
+            },
+            {
+              "Character": "AGRIPPINELLA",
+              "Line": "Will you let me finish? You don't even know what I'm going to say! You're in your cups! You've had too much wine again. "
+            },
+            {
+              "Character": "CLAUDIUS",
+              "Line": "Oh my dear, I thought you were going to suggest that I adopt Nero officially as my son. Make him and Britannicus joint heirs. Of course, if that is not what you were going to say. "
+            },
+            {
+              "Character": "AGRIPPINELLA",
+              "Line": "Yes. Yes, it was. It was. I just wish you'd let me finish! Your manner's very strange. "
+            },
+            {
+              "Character": "CLAUDIUS",
+              "Line": "I just wanted to save a lot of unnecessary discussion. You see, that is the success of our marriage, my dear. I read your mind so quickly. Think of the time it saves. Goodnight.  Agrippinella gestures to NARCISSUS. "
+            },
+            {
+              "Character": "AGRIPPINELLA",
+              "Line": "Oh, put him to bed!  Narcissus leads Claudius to his bed. "
+            },
+            {
+              "Character": "NARCISSUS",
+              "Line": "You should have consulted me! I would have talked you out of it. I would never have let it happen. Never! "
+            },
+            {
+              "Character": "CLAUDIUS",
+              "Line": "That's why I never discussed it. "
+            },
+            {
+              "Character": "NARCISSUS",
+              "Line": "Well, do you think that's right? Am I not your principal adviser on matters of state? "
+            },
+            {
+              "Character": "CLAUDIUS",
+              "Line": "Yes. "
+            },
+            {
+              "Character": "NARCISSUS",
+              "Line": "Well, then why do such a thing without consulting me? Do you think she makes a move without consulting PALLAS? "
+            },
+            {
+              "Character": "CLAUDIUS",
+              "Line": "No. "
+            },
+            {
+              "Character": "NARCISSUS",
+              "Line": "You know that they're lovers, don't you? You know that he's switched interests from you to her? "
+            },
+            {
+              "Character": "CLAUDIUS",
+              "Line": "Yes. "
+            },
+            {
+              "Character": "NARCISSUS",
+              "Line": "Then why did you do it? Can't you see what you've done? By marrying Nero to your daughter and adopting him as your son, you've signed your death warrant, that's what you've done. Your wife has got everything she wanted out of marrying you. Everything! She doesn't need you anymore. "
+            },
+            {
+              "Character": "CLAUDIUS",
+              "Line": "I shall die soon anyway. "
+            },
+            {
+              "Character": "NARCISSUS",
+              "Line": "How do you know? "
+            },
+            {
+              "Character": "CLAUDIUS",
+              "Line": "Barbillus told me. "
+            },
+            {
+              "Character": "NARCISSUS",
+              "Line": "Barbillus. "
+            },
+            {
+              "Character": "CLAUDIUS",
+              "Line": "My horoscope. "
+            },
+            {
+              "Character": "NARCISSUS",
+              "Line": "Well, you didn't need him to read your horoscope! By your own actions, you've numbered your days more accurately than a horoscope could do! Why did you do it? Why? Did you not at least think of Britannicus? "
+            },
+            {
+              "Character": "CLAUDIUS",
+              "Line": "I thought principally of him. "
+            },
+            {
+              "Character": "NARCISSUS",
+              "Line": "Then do you not see how this will hurt him? Do you not know how you've hurt him in the past? "
+            },
+            {
+              "Character": "CLAUDIUS",
+              "Line": "Yes, I know. "
+            },
+            {
+              "Character": "NARCISSUS",
+              "Line": "You realize, don't you, you've numbered his days as well? Do you think they'll let him live once you've gone? To say nothing of me! What made you do it? "
+            },
+            {
+              "Character": "CLAUDIUS",
+              "Line": "N-Nero is destined to rule after me, not Britannicus. It has been foretold, Narcissus, nothing can alter it. "
+            },
+            {
+              "Character": "NARCISSUS",
+              "Line": "Foretold? By who? "
+            },
+            {
+              "Character": "CLAUDIUS",
+              "Line": "By the Sibyl "
+            },
+            {
+              "Character": "NARCISSUS",
+              "Line": "Nero may become Emperor - you've seen to that but she will rule, your wife Agrippinilla, through him, as Livia ruled through Tiberius. "
+            },
+            {
+              "Character": "CLAUDIUS",
+              "Line": "No. Nero will kill his mother. That, too, has been foretold by the Sibyl "
+            },
+            {
+              "Character": "NARCISSUS",
+              "Line": "What Sibyl? I've seen no such prophecy. "
+            },
+            {
+              "Character": "CLAUDIUS",
+              "Line": "No. Nor has anyone now, except me. "
+            },
+            {
+              "Character": "NARCISSUS",
+              "Line": "Where did you find this? "
+            },
+            {
+              "Character": "CLAUDIUS",
+              "Line": "It was given to me by LIVIA j-just before she died. She gave a birthday dinner. She invited me. Now, that was unusual. But her purpose became clear toward the end of the evening. She'd found this curious book among Augustus' papers. You won't understand it. It's written in a very archaic language. It frightened Augustus. He kept it hidden. Or perhaps he just didn't understand it. But Livia did. "
+            },
+            {
+              "Character": "NARCISSUS",
+              "Line": "What does it prophesy? "
+            },
+            {
+              "Character": "CLAUDIUS",
+              "Line": "Amongst other things, it prophesied Caligula's reign and his death. It prophesied mine. And it prophesies Nero's. It is written, Narcissus. Nothing you nor I can do will stop it. "
+            },
+            {
+              "Character": "NARCISSUS",
+              "Line": "Is that why you chose the Lady Agrippinilla for your wife? "
+            },
+            {
+              "Character": "CLAUDIUS",
+              "Line": "Yes. All my life I wanted to see the Republic restored, yet I let myself be made an Emperor. That was written too. But I made a mistake. I tried to rule wisely and justly, blunting the edge of monarchy, reconciling the people to it. In doing that, I was helping monarchy. Now I shall destroy it once and for all. Or rather Nero will destroy it. He's as mad as my n-nephew, Caligula. We're all mad, we Caesars. When we are gone, the people will finish with monarchies once and for all, and return to the sanity of the Republic. "
+            },
+            {
+              "Character": "NARCISSUS",
+              "Line": "And Britannicus? "
+            },
+            {
+              "Character": "CLAUDIUS",
+              "Line": "He is my instrument. He will restore the Republic. "
+            },
+            {
+              "Character": "NARCISSUS",
+              "Line": "If he lives. "
+            },
+            {
+              "Character": "CLAUDIUS",
+              "Line": "I have a plan that will save him, but I must leave you to make the arrangements. "
+            },
+            {
+              "Character": "NARCISSUS",
+              "Line": "Tell me what to do. "
+            },
+            {
+              "Character": "CLAUDIUS",
+              "Line": "Well, let me rest for an hour, then you come to my bedroom and we'll talk some more. "
+            },
+            {
+              "Character": "NARCISSUS",
+              "Line": "Can I tell Britannicus? "
+            },
+            {
+              "Character": "CLAUDIUS",
+              "Line": "No, not yet. "
+            },
+            {
+              "Character": "NARCISSUS",
+              "Line": "It grieves me to see how much you've hurt him. "
+            },
+            {
+              "Character": "CLAUDIUS",
+              "Line": "Yes. I killed his mother. I've been less than a father to him ever since. Now, I am tired and I'm not well."
+            }
+          ]
+        },
+        {
+          "Scene": "INT. AGRIPPINA'S BEDROOM - NIGHT",
+          "Dialogue": [
+            {
+              "Stage Direction": "AGRIPPINA, a woman of sharp intellect and ambition, sits in her opulent bedroom, adorned with rich fabrics and flickering candlelight. PALLAS, a shrewd advisor, stands before her, his face etched with concern."
+            },
+            {
+              "Character": "AGRIPPINA",
+              "Line": "We must do it now. "
+            },
+            {
+              "Character": "PALLAS",
+              "Line": "It won't be easy. NARCISSUS watches him like a hawk. Every morsel of food that your husband takes is tasted first by someone else. "
+            },
+            {
+              "Character": "AGRIPPINA",
+              "Line": "Well, we shall need proper advice, but that shouldn't be hard to get. "
+            },
+            {
+              "Character": "PALLAS",
+              "Line": "Well, there is someone. "
+            },
+            {
+              "Character": "AGRIPPINA",
+              "Line": "Ah. "
+            },
+            {
+              "Character": "PALLAS",
+              "Line": "A woman, LOCUSTA. She's very skilled. I'll go and see her. "
+            },
+            {
+              "Character": "AGRIPPINA",
+              "Line": "Yes. But do it soon. He's very unpredictable. He's preferred my son to his own at every turn. I don't understand it. And he could just as easily change his mind tomorrow. "
+            },
+            {
+              "Character": "PALLAS",
+              "Line": "Yes, it's strange, it's very strange. I feel he's playing some sort of game, but I can't guess what it is. "
+            },
+            {
+              "Character": "AGRIPPINA",
+              "Line": "Neither can I, but it worries me. I remember that before TIBERIUS struck at SEJANUS he raised him higher than he'd ever been before. "
+            },
+            {
+              "Character": "PALLAS",
+              "Line": "Something else that worries me. How sure are you of your son? "
+            },
+            {
+              "Character": "AGRIPPINA",
+              "Line": "You may leave my son to me. "
+            },
+            {
+              "Character": "PALLAS",
+              "Line": "Even now that he's married? I know you've had a very great influence on him, but he's no longer a child. And when he's Emperor, who will control him?  Suddenly, a KNOCK on the door. "
+            },
+            {
+              "Stage Direction": "sharply"
+            },
+            {
+              "Character": "AGRIPPINA",
+              "Line": "Who is it?  NERO (O.S.) It is I, Mother. "
+            },
+            {
+              "Character": "AGRIPPINA",
+              "Line": "Come in.  NERO, restless and petulant, enters the room. "
+            },
+            {
+              "Character": "NERO",
+              "Line": "Oh, it doesn't matter. "
+            },
+            {
+              "Character": "PALLAS",
+              "Line": "No, no. I'm just going. Lady.  Pallas bows slightly and exits quickly. "
+            },
+            {
+              "Character": "NERO",
+              "Line": "I don't like that Greek. "
+            },
+            {
+              "Character": "AGRIPPINA",
+              "Line": "That Greek runs this Empire. "
+            },
+            {
+              "Character": "NERO",
+              "Line": "Do you have to receive him in your bedroom? "
+            },
+            {
+              "Character": "AGRIPPINA",
+              "Line": "What is the matter with you? "
+            },
+            {
+              "Character": "NERO",
+              "Line": "Nothing. "
+            },
+            {
+              "Character": "AGRIPPINA",
+              "Line": "Then why aren't you in bed? Where is OCTAVIA? "
+            },
+            {
+              "Character": "NERO",
+              "Line": "She's locked herself in her bedroom. She won't let me in. "
+            },
+            {
+              "Character": "AGRIPPINA",
+              "Line": "Did you quarrel? "
+            },
+            {
+              "Character": "NERO",
+              "Line": "Yes. "
+            },
+            {
+              "Character": "AGRIPPINA",
+              "Line": "Well, why can't you sleep alone? "
+            },
+            {
+              "Character": "NERO",
+              "Line": "I don't feel like it. I feel... Oh, I don't know! She won't lock me out when I'm Emperor. She won't tell me what to do. No one will. I shall do as I please. "
+            },
+            {
+              "Character": "AGRIPPINA",
+              "Line": "It was very naughty of Octavia to lock you out. Very naughty. But she's only a child. She doesn't understand how you feel. Would you like me to find a pretty house girl for you? Shall I find one and send her to you? "
+            },
+            {
+              "Character": "NERO",
+              "Line": "Is that man your lover? "
+            },
+            {
+              "Character": "AGRIPPINA",
+              "Line": "No, of course not. "
+            },
+            {
+              "Character": "NERO",
+              "Line": "I don't like him. He's no business in your bedroom. I won't allow it when I'm Emperor. "
+            },
+            {
+              "Character": "AGRIPPINA",
+              "Line": "I won't see him here again. Oh, my poor baby. It's not fair, is it? Locking you out of your room. And you the Emperor-elect. But then, she's only your wife. She doesn't feel for you as a mother would. A mother knows how her baby feels. Yes. She wouldn't let him be unhappy. No. Never. Never. Never. Oh. I'm so sleepy."
+            }
+          ]
+        },
+        {
+          "Scene": "INT. SENATE HOUSE - DAY",
+          "Dialogue": [
+            {
+              "Stage Direction": "**GRAND columns** line the hall, where senators sit in their **formal robes**. CLAUDIUS, looking frail but resolute, stands before them. His voice, though wavering, carries the weight of his office."
+            },
+            {
+              "Character": "CLAUDIUS",
+              "Line": "Senators, you see me here for the last time. I shall not come again. This is in the nature of a farewell speech. "
+            },
+            {
+              "Character": "SENATE",
+              "Line": "No, no. "
+            },
+            {
+              "Character": "CLAUDIUS",
+              "Line": "I'm too old and I'm not well enough. I don't think you need my presence here anymore. I sometimes wonder if you ever did. "
+            },
+            {
+              "Stage Direction": "dissenting voices"
+            },
+            {
+              "Character": "CLAUDIUS",
+              "Line": "Few of you know, the soldiers dragged me from behind a curtain and made me Emperor. I n-never wanted it. I think it was a mistake. "
+            },
+            {
+              "Character": "SENATE",
+              "Line": "No! No! "
+            },
+            {
+              "Character": "CLAUDIUS",
+              "Line": "Well, be that as it may. Soon I shall retire behind another curtain - the final one. The one the gods draw over all of us in the end, great and small. I shan't be sorry to see that final curtain. "
+            },
+            {
+              "Character": "SENATOR",
+              "Line": "May you live forever, Caesar! "
+            },
+            {
+              "Character": "CLAUDIUS",
+              "Line": "No, thank you! But I've no wish to, even if I could. What you will s-say about me when I'm gone... I can only guess at. I hope it won't be as cutting as the things you've said while I was here. Not to my face, of course. That's not an Emperor's privilege. But what is said about us in our lives is not always what history says. And doubtless history will have its say, as it always does. And about that, I have done something. Oh, not something that need concern you... but something. You see, in the course of my life I have known many people. Great people. People who have m-made Rome what she is today. Yes. And one day, they will all live again. The dead will come to life. The man who dwells by the pool will open graves... and deliver Rome up again. She shall be seen for what she truly was.  CLAUDIUS closes his eyes. A **ROAR of a crowd** echoes in his mind.  AUGUSTUS (V.O.) Well done, Claudius. Emperor after all. Who would have thought it, eh?  LIVIA (V.O.) You're a fool, boy, you always were. People say it's not your fault, but if it's not your fault, whose fault is it, eh?  ANTONIA (V.O.) And your nose is still running, Claudius. It's still running.  CALIGULA (V.O.) Excuse me.  TIBERIUS (V.O.) Just a minute. Just wait your turn. "
+            },
+            {
+              "Character": "SENATOR",
+              "Line": "Shall a doctor be brought?  TIBERIUS (V.O.) It wasn't worth it, was it? I could have told you that.  CALIGULA (V.O.) Uncle Claudius, I wasn't the Messiah after all. Would you believe it? You could have knocked me over with a feather when they told me. "
+            },
+            {
+              "Character": "CONSUL",
+              "Line": "Senators, let us continue with the business of the day."
+            }
+          ]
+        },
+        {
+          "Scene": "INT. CLAUDIUS'S PRIVATE STUDY - NIGHT",
+          "Dialogue": [
+            {
+              "Stage Direction": "A secluded, candlelit chamber deep within the palace. Scrolls and maps line the walls, bearing witness to a desperate attempt to secure BRITANNICUS’s future. CLAUDIUS, looking weary, gestures for Britannicus to approach."
+            },
+            {
+              "Character": "CLAUDIUS",
+              "Line": "Leave us, Narcissus. I will send for you. "
+            },
+            {
+              "Character": "BRITANNICUS",
+              "Line": "Father, you wanted to see me. "
+            },
+            {
+              "Character": "CLAUDIUS",
+              "Line": "Yes, come here. Now listen to me, my son, I've something very important to tell you, so listen carefully. No one must know of it. That's why I've sent for you at this hour, so that no one in the palace will know we've been talking. Now, I intend to alter my will in favor of Nero and I want to explain to you exactly why I'm doing so. "
+            },
+            {
+              "Character": "BRITANNICUS",
+              "Line": "That's very considerate. "
+            },
+            {
+              "Character": "CLAUDIUS",
+              "Line": "Britannicus... "
+            },
+            {
+              "Character": "BRITANNICUS",
+              "Line": "Why this sudden need to explain? You haven't felt it before. You adopted him as your son, you married him to my sister, you made him Consul-elect and City Warden without one word to me. You owe me nothing. "
+            },
+            {
+              "Character": "CLAUDIUS",
+              "Line": "Now don't speak like that. "
+            },
+            {
+              "Character": "BRITANNICUS",
+              "Line": "Well, that's nothing to what I could say! I may be only a child, but I'm not blind and I'm not a stone. Do you think I haven't seen how you preferred him to me. "
+            },
+            {
+              "Character": "CLAUDIUS",
+              "Line": "It was for a reason. "
+            },
+            {
+              "Character": "BRITANNICUS",
+              "Line": "You've never loved me. You've never been as a father to me. Never! Time without number you've shown the world what you thought of me and I shall never forgive you for it, never! And you killed my mother! I shall never forgive you for that either. I hate you. "
+            },
+            {
+              "Character": "CLAUDIUS",
+              "Line": "Now, you listen to me. Yes, it's true. For a long time after I discovered what your mother had been... how she had deceived me every day of her life, I could not find it in my heart to love you. But you must understand, you must be a man. Try to understand a father's weaknesses. I don't believe you are my son. I believe you are C-Caligula's son. But what difference does that make? You do not have his nature. I tell you this only to explain why, for a time, I could not find it in my heart to love you. "
+            },
+            {
+              "Character": "BRITANNICUS",
+              "Line": "Was it my fault, then, whose son I was? Was I to be punished? Does a child choose his parents? "
+            },
+            {
+              "Character": "CLAUDIUS",
+              "Line": "Now, don't cry. Britannicus, please. "
+            },
+            {
+              "Character": "BRITANNICUS",
+              "Line": "May I go now? "
+            },
+            {
+              "Character": "CLAUDIUS",
+              "Line": "No. Come here. "
+            },
+            {
+              "Character": "BRITANNICUS",
+              "Line": "Please may I go? "
+            },
+            {
+              "Character": "CLAUDIUS",
+              "Line": "Come here. Come here. Come. "
+            },
+            {
+              "Character": "BRITANNICUS",
+              "Line": "Oh, Father! Father! "
+            },
+            {
+              "Character": "CLAUDIUS",
+              "Line": "Now, I have something very important to tell you, so listen carefully. First, no matter who your father may have been, you are now my son and I love you more than anyone in the world. Second, Nero is destined to follow me as Emperor. "
+            },
+            {
+              "Character": "BRITANNICUS",
+              "Line": "Why? "
+            },
+            {
+              "Character": "CLAUDIUS",
+              "Line": "Now, now, don't argue! It is written. Nothing can alter it! When I am gone, he will try to kill you, as C-Caligula killed Gemellus. And that is why I have treated you as I have. Kept you out of the public eye all this time. I have a plan to save you. Now, Narcissus has arranged it all through Caractacus. You see, the world is now wholly Roman. There is nowhere you could fly to be safe, except the remotest part of Britain. Nero will not be able to touch you there, for there is no one to give you up. Now very soon I shall allow some of Caractacus' young men to return to northern Britain, and you will go with them in disguise. You will stay at the court of Queen Cartimandua. Only she and Caractacus' son will know your real identity. And from there, she will send you north into regions where no Roman's foot has ever trod, but where she has friends and there you will wait. "
+            },
+            {
+              "Character": "BRITANNICUS",
+              "Line": "Please... "
+            },
+            {
+              "Character": "CLAUDIUS",
+              "Line": "Nero is mad. He will destroy the Empire. His excesses will demand the return of the Republic and you will return to restore it. The Republic will live again. "
+            },
+            {
+              "Character": "BRITANNICUS",
+              "Line": "No. No, I won't do it. It's not honorable. "
+            },
+            {
+              "Character": "CLAUDIUS",
+              "Line": "Britannicus... "
+            },
+            {
+              "Character": "BRITANNICUS",
+              "Line": "No! Do you think that I, a Claudian, will paint my face blue and go and hide among barbarians? "
+            },
+            {
+              "Character": "CLAUDIUS",
+              "Line": "There is no shame. "
+            },
+            {
+              "Character": "BRITANNICUS",
+              "Line": "No, I won't do it! I'm not afraid of Nero. Nero is a coward. I can protect myself. Let me put on my manly gown. Once I'm officially a man, I'll match Nero in everything he does. I don't believe in the Republic. No one believes in the Republic anymore. No one does except you. You're old, Father, and out of touch. I want my chance to rule, and rule Rome as it should be ruled. If you love me, give me that chance. "
+            },
+            {
+              "Character": "CLAUDIUS",
+              "Line": "Yes. Yes, I should have known that would be your answer. Well, so be it. I've done all I could. You shall have your wish. May the gods protect you. ... Britannicus. Perhaps you will confound the prophecies. Yes. Perhaps you will"
+            }
+          ]
+        },
+        {
+          "Scene": "INT. CLAUDIUS'S CHAMBERS - NIGHT",
+          "Dialogue": [
+            {
+              "Stage Direction": "CLAUDIUS sits at his writing desk, surrounded by scrolls. He closes his eyes, exhausted."
+            },
+            {
+              "Character": "CLAUDIUS",
+              "Line": "Write no more, Claudius. Write no more. I have told it all, as I said I would, and as the Sibyl prophesied. I have told the truth. I have set the record straight. It is all here for remote posterity. Come, Death, and draw the final curtain. I am tired. Oh so tired."
+            }
+          ]
+        },
+        {
+          "Scene": "INT. IMPERIAL LIBRARY - NIGHT",
+          "Dialogue": [
+            {
+              "Stage Direction": "AGRIPPINELLA and NERO stand amidst scattered scrolls, a palpable tension between them."
+            },
+            {
+              "Character": "AGRIPPINELLA",
+              "Line": "So much for posterity. Where's the rest of it? It must be here. Find it! "
+            },
+            {
+              "Character": "NERO",
+              "Line": "This looks like them. Yes, this is them all right. What a Herculean labor! It must have taken him years. "
+            },
+            {
+              "Character": "AGRIPPINELLA",
+              "Line": "Years. We'll burn the lot. "
+            },
+            {
+              "Character": "NERO",
+              "Line": "All that work? Good grief. "
+            },
+            {
+              "Character": "AGRIPPINELLA",
+              "Line": "We must find the will "
+            },
+            {
+              "Character": "NERO",
+              "Line": "What a pretty thing a fire is."
+            }
+          ]
+        },
+        {
+          "Scene": "EXT. FERRYMAN'S SHORE - NIGHT",
+          "Dialogue": [
+            {
+              "Stage Direction": "A mist-covered riverbank. Ethereal. An otherworldly space, neither in Rome nor beyond it. Shadows of past figures gather, flickering like ghosts upon the water, their voices murmuring over the gentle lapping of unseen waves. Torches cast a dim light."
+            },
+            {
+              "Stage Direction": "**BRITANNICUS** appears, distraught. **NARCISSUS** stands nearby, his face etched with regret."
+            },
+            {
+              "Character": "BRITANNICUS",
+              "Line": "Did they murder him? "
+            },
+            {
+              "Character": "NARCISSUS",
+              "Line": "Yes. Yes, they poisoned him. "
+            },
+            {
+              "Character": "BRITANNICUS",
+              "Line": "But how? How did they do it? Why didn't you protect him? "
+            },
+            {
+              "Character": "NARCISSUS",
+              "Line": "Well, they were clever, very clever. They tried several times to tamper with his food and get at the slaves who prepared it, but I always stopped them. Always. I built a wall around him they couldn't breach. How then did she do it? I will tell you. For I see now how it was done. Unable to poison his food, she must have poisoned her own. Yes, poisoned hers or part of it. It was in a dish of mushrooms, which he loved, and out of which she'd been eating. He had finished his own and was calling for some more which he often did. It was then that she offered him hers out of her own dish. At first, I thought nothing of it. When you're used to seeing someone eat from a dish, it doesn't occur to you it may contain something different in just one part of it. And then she lifted the mushroom onto her fork and held it out for him to take. I knew then there was something different about it. I knew, as certainly as I had ever known anything, that he was suddenly in the gravest danger. And I knew too, as certainly as I knew that... that he knew - knew it was poisoned, knew that his end was there on that fork... and that he didn't care... that he welcomed it. He died in the night, alone. I knocked on his door soon after dinner, but he sent me away. I believe he wanted no one to see him die. ... Now, you must go away. They will kill you. "
+            },
+            {
+              "Character": "BRITANNICUS",
+              "Line": "No, I shall stay. "
+            },
+            {
+              "Character": "NARCISSUS",
+              "Line": "Go now. "
+            },
+            {
+              "Character": "BRITANNICUS",
+              "Line": "I have put on my manly gown. I can take care of myself. Poor Father. He never could. "
+            },
+            {
+              "Character": "NARCISSUS",
+              "Line": "Oh, I don't know. He didn't do badly when you come to think of it.  **THE SIBYL** appears, her presence woven into the dim light. "
+            },
+            {
+              "Character": "THE SYBIL",
+              "Line": "Well, Old King Log? Poisons all hatched out?  CLAUDIUS (O.S) Is that you, Sibyl? "
+            },
+            {
+              "Character": "THE SIBYL",
+              "Line": "Yes it's me.  CLAUDIUS (O.S) Where are you? "
+            },
+            {
+              "Character": "THE SIBYL",
+              "Line": "Here. Why are you laughing?  CLAUDIUS (O.S) I cheated them again. They all think I'm dead. "
+            },
+            {
+              "Character": "THE SIBYL",
+              "Line": "But you are dead, you fool! You're as dead as anyone can be.  CLAUDIUS (O.S) Oh well, you can't survive them all. "
+            },
+            {
+              "Character": "THE SIBYL",
+              "Line": "No, not even you. It's time to go.  CLAUDIUS (O.S) Wait. Britannicus. What will happen to him? "
+            },
+            {
+              "Character": "THE SIBYL",
+              "Line": "Nero will kill him.  CLAUDIUS (O.S) And Narcissus? "
+            },
+            {
+              "Character": "THE SIBYL",
+              "Line": "Agrippinilla will kill him. Then Nero will kill her.  CLAUDIUS (O.S) It all sounds depressingly familiar. "
+            },
+            {
+              "Character": "THE SIBYL",
+              "Line": "Yes, isn't it?  CLAUDIUS (O.S) And the Empire? "
+            },
+            {
+              "Character": "THE SIBYL",
+              "Line": "Oh that will go on, as Livia said it would. But they'll be no more Claudians after Nero. He'll be the last. But the Emperors won't be a bad lot after him. Well, give or take a few. ... Quite a story, wasn't it? ... They burned your book, you know. All of it. ... Lucky for you, you made a copy and buried it. ... It's time to go, Claudius. The ferryman is waiting.  CLAUDIUS (O.S) Just one thing more. "
+            },
+            {
+              "Character": "THE SIBYL",
+              "Line": "You can't put it off... You can't stay here forever.  CLAUDIUS (O.S) No, I suppose not. "
+            },
+            {
+              "Character": "THE SIBYL",
+              "Line": "Now. ... Close your eyes. It's but a short step to the boat, a short pull across the river..  CLAUDIUS (O.S) And then? "
+            },
+            {
+              "Character": "THE SIBYL",
+              "Line": "And then, I promise you, you'll dream a different story altogether... Farewell, Tiberius Claudius Drusus Nero Germanicus, God of the Britons, one-time Emperor of the Roman world. Farewell.  FADE OUT."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

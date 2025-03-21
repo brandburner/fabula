@@ -706,40 +706,132 @@ function ResolveLocationCluster(entities: Location[]) -> ResolvedLocation[] {
     "#
 }
 
-function ResolveObjectCluster(entities: Object[]) -> ResolvedObject[] {
+function ResolveCrossEpisodeAgentCluster(entities: Agent[]) -> ResolvedAgent[] {
+    client Customo3Mini
+    prompt #"
+        {{ Narrative_analyst_persona() }}
+
+        **Objective**:
+        Disambiguate and resolve a list of primary entities
+        extracted from multiple episodes of I, Claudius. Your task is to identify unique entities 
+        and merge repeated captures into a single, consolidated representation.
+
+        **Instructions**:
+        1. **Disambiguation First**: Analyze each entity’s properties—especially name, description, aliases, and any other contextual metadata—to determine if they refer to the same underlying entity.
+        2. **Merging with Caution**: Only merge entities if there is overwhelming evidence they represent the exact same character, location, or object. If any doubt exists, preserve them as distinct.
+        3. **Canonical Naming**: Select the most complete and contextually accurate name as the canonical value. Normalize names and UUIDs to a standard format (e.g. snake_case with proper prefixes such as 'agent_', 'location_', etc.).
+        4. **Description Synthesis**: Merge descriptions into a cohesive narrative that preserves key details from all captures while eliminating redundancy.
+        5. **Source Tracking**: Include a field `source_uuids` that lists all original UUIDs that were merged into this resolved entity.
+        6. **Contextual Awareness**: Use knowledge of the Claudius narrative (including character evolution, historical aliases, and scene-specific details) to guide your resolution.
+        7. **Output Format**: Return a JSON array of resolved entities. Each resolved entity should include at least:
+            - a new consolidated `uuid`
+            - a canonical `name`
+            - a merged `description`
+            - a `source_uuids` field listing the original UUIDs
+
+        {{ _.role('user') }}
+        Primary entities provided for resolution:
+        {{ entities }}
+
+        *Return all resolved entities as a single JSON array.*
+
+
+        ______
+        {{ ctx.output_format }}
+    "#
+}
+
+function ResolveCrossEpisodeObjectCluster(entities: Object[]) -> ResolvedObject[] {
     client Customo3Mini
     prompt #"
         {{ Narrative_analyst_persona ()}}
 
         **Objective**:
-        Disambiguate and resolve a list of Object entities, identifying all unique objects present. Return the unique objects that account for all provided mentions.
+        Disambiguate and resolve a list of primary entities
+        extracted from multiple episodes of I, Claudius. Your task is to identify unique entities 
+        and merge repeated captures into a single, consolidated representation.
 
         **Instructions**:
+        1. **Disambiguation First**: Analyze each entity’s properties—especially name, description, aliases, and any other contextual metadata—to determine if they refer to the same underlying entity.
+        2. **Merging with Caution**: Only merge entities if there is overwhelming evidence they represent the exact same character, location, or object. If any doubt exists, preserve them as distinct.
+        3. **Canonical Naming**: Select the most complete and contextually accurate name as the canonical value. Normalize names and UUIDs to a standard format (e.g. snake_case with proper prefixes such as 'agent_', 'location_', etc.).
+        4. **Description Synthesis**: Merge descriptions into a cohesive narrative that preserves key details from all captures while eliminating redundancy.
+        5. **Source Tracking**: Include a field `source_uuids` that lists all original UUIDs that were merged into this resolved entity.
+        6. **Contextual Awareness**: Use knowledge of the Claudius narrative (including character evolution, historical aliases, and scene-specific details) to guide your resolution.
+        7. **Output Format**: Return a JSON array of resolved entities. Each resolved entity should include at least:
+            - a new consolidated `uuid`
+            - a canonical `name`
+            - a merged `description`
+            - a `source_uuids` field listing the original UUIDs
 
-        1. **Consider Disambiguation First**: Prioritize *correctly distinguishing* unique objects before attempting to merge. Base your reasoning on all available data in the source entities, particularly name, description, purpose, and significance.
-
-        2. **Unique Object Identification**: Carefully assess each object entity, taking into account their name, description, purpose, significance, and original owner. Only merge entities if there is *overwhelming evidence* they refer to the *exact same* item. Avoid merging entities if there's even a slight chance they could be distinct objects. Pay particular attention to:
-            *   Ensure the uuid is correct and appropriately chosen. Avoid spelling out acronyms etc. in uuid labels.
-            *   Only deduplicate clearly duplicate entries. Maintain granular distinction and don't attempt to merge compound objects into one.
-            *   Object uuids should be prefixed ('object_') then use snake_case (not hyphens) to label the object (example: 'object_quantum_state_analyser')
-        3. **Name Canonization**: Choose the most complete and and descriptive name as canonical for the 'name' property, but only if the meaning is still the same, and the meaning is well-described.
-            *   Normalize or transliterate names and uuids to a standard character set (ASCII or similar) where necessary.
-            *   Correct spelling or factual errors that may have crept in to source entities
-        4. **Contextual Awareness**: Use the description, purpose, and significance to disambiguate entities. If two entities have significantly different descriptions, purposes, or significance, they are likely different objects.
-        5.  **Original Owner Attribution**: Consider the `original_owner` property very carefully. Do not merge two objects unless they have the same likely or explicit `original_owner`, otherwise they are almost certainly different items.
-        6. **Description Preservation**:
-            - Merge descriptions of duplicate objects into a single cohesive, non-redundant description.
-            - Combine purpose and significance fields if they provide distinct information; otherwise, choose the most informative one.
-        7. **Consider 'One Of' scenarios carefully:** Only deduplicate entries with confidence. Make sure you're comparing object concepts - 'the quantum state analyser' rather than specific items 'this quantum state analyser'.
-        8. **Multiple Owners**:  If multiple original_owner values are present, choose the most likely owner based on your understanding of the story.
-        9. **Default to Splitting:** If in doubt, default to preserving two entities as distinct. Only merge entities if you are absolutely certain they are the same.
-        10. **Source UUID Tracking**: Track UUIDs of original entities that were merged into this resolved entity. List them inside the `source_uuids` field.
-        
         {{ _.role('user') }}
-        Objects to consider for resolution:
+        Primary entities provided for resolution:
         {{ entities }}
 
-        *You MUST return ALL requested items in a single response.*
+        ______
+        {{ ctx.output_format }}
+    "#
+}
+
+
+function ResolveCrossEpisodeOrganizationCluster(entities: Organization[]) -> ResolvedOrganization[] {
+    client Customo3Mini
+    prompt #"
+        {{ Narrative_analyst_persona ()}}
+
+        **Objective**:
+        Disambiguate and resolve a list of primary entities
+        extracted from multiple episodes of I, Claudius. Your task is to identify unique entities 
+        and merge repeated captures into a single, consolidated representation.
+
+        **Instructions**:
+        1. **Disambiguation First**: Analyze each entity’s properties—especially name, description, aliases, and any other contextual metadata—to determine if they refer to the same underlying entity.
+        2. **Merging with Caution**: Only merge entities if there is overwhelming evidence they represent the exact same character, location, or object. If any doubt exists, preserve them as distinct.
+        3. **Canonical Naming**: Select the most complete and contextually accurate name as the canonical value. Normalize names and UUIDs to a standard format (e.g. snake_case with proper prefixes such as 'agent_', 'location_', etc.).
+        4. **Description Synthesis**: Merge descriptions into a cohesive narrative that preserves key details from all captures while eliminating redundancy.
+        5. **Source Tracking**: Include a field `source_uuids` that lists all original UUIDs that were merged into this resolved entity.
+        6. **Contextual Awareness**: Use knowledge of the Claudius narrative (including character evolution, historical aliases, and scene-specific details) to guide your resolution.
+        7. **Output Format**: Return a JSON array of resolved entities. Each resolved entity should include at least:
+            - a new consolidated `uuid`
+            - a canonical `name`
+            - a merged `description`
+            - a `source_uuids` field listing the original UUIDs
+
+        {{ _.role('user') }}
+        Primary entities provided for resolution:
+        {{ entities }}
+
+        ______
+        {{ ctx.output_format }}
+    "#
+}
+
+function ResolveCrossEpisodeLocationCluster(entities: Location[]) -> ResolvedLocation[] {
+    client Customo3Mini
+    prompt #"
+        {{ Narrative_analyst_persona ()}}
+
+        **Objective**:
+        Disambiguate and resolve a list of primary entities
+        extracted from multiple episodes of I, Claudius. Your task is to identify unique entities 
+        and merge repeated captures into a single, consolidated representation.
+
+        **Instructions**:
+        1. **Disambiguation First**: Analyze each entity’s properties—especially name, description, aliases, and any other contextual metadata—to determine if they refer to the same underlying entity.
+        2. **Merging with Caution**: Only merge entities if there is overwhelming evidence they represent the exact same character, location, or object. If any doubt exists, preserve them as distinct.
+        3. **Canonical Naming**: Select the most complete and contextually accurate name as the canonical value. Normalize names and UUIDs to a standard format (e.g. snake_case with proper prefixes such as 'agent_', 'location_', etc.).
+        4. **Description Synthesis**: Merge descriptions into a cohesive narrative that preserves key details from all captures while eliminating redundancy.
+        5. **Source Tracking**: Include a field `source_uuids` that lists all original UUIDs that were merged into this resolved entity.
+        6. **Contextual Awareness**: Use knowledge of the Claudius narrative (including character evolution, historical aliases, and scene-specific details) to guide your resolution.
+        7. **Output Format**: Return a JSON array of resolved entities. Each resolved entity should include at least:
+            - a new consolidated `uuid`
+            - a canonical `name`
+            - a merged `description`
+            - a `source_uuids` field listing the original UUIDs
+
+        {{ _.role('user') }}
+        Primary entities provided for resolution:
+        {{ entities }}
 
         ______
         {{ ctx.output_format }}

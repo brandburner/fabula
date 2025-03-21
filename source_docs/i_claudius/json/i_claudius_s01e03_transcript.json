@@ -1,0 +1,1574 @@
+{
+  "Story": "I, Claudius",
+  "Airdate": "27 Sep, 1976",
+  "Episodes": [
+    {
+      "Episode": "Waiting in the Wings",
+      "Scenes": [
+        {
+          "Scene": "INT. TIBERIUS'S STUDY - RHODES - DAY",
+          "Dialogue": [
+            {
+              "Stage Direction": "A modest study in TIBERIUS's villa on Rhodes. Bookshelves line the walls, overflowing with scrolls and tablets. A small writing desk is cluttered with papers. Sunlight streams through a window overlooking the Aegean Sea. CLAUDIUS, mid-thirties and slightly awkward, frantically searches through a pile of documents, muttering to himself."
+            },
+            {
+              "Character": "CLAUDIUS",
+              "Line": "Where is it? There. Where is it? Where is it? Oh, where is it? No. I had it yesterday. What...? Oh, damned secretaries. No system. None at all. They just shove it anywhere. I mean, what do they care? It's just another piece of paper to them. Oh. I'm sure I had it yesterday. Yes, she wrote him a letter after Gaius died. What was it? \"The answer, I'm afraid, is no.\" Yes, that was it. \"My dear Tiberius, the answer, I'm afraid, is no.\" This is the one! Yes! Yes! Yes! This is it. Yes."
+            },
+            {
+              "Stage Direction": "He finds a letter, sealed with the LIVIA's signet. He breaks the seal and begins to read, his voice shifting to mimic Livia's tone."
+            },
+            {
+              "Character": "CLAUDIUS",
+              "Line": "\"My dear Tiberius, the answer, I'm afraid, is no, which is what I expected...\""
+            },
+            {
+              "Stage Direction": "His voice deepens, adopting a mocking impression of LIVIA."
+            },
+            {
+              "Character": "CLAUDIUS",
+              "Line": "\"Augustus refuses to allow you to return to Rome. Refuses even to discuss it. Despite the sudden and unexplained death of his beloved Gaius, and despite my pleading with him, he is adamant that you will stay where you are. He has, of course, never forgiven you for what you did to Julia and frankly I'm not surprised.\""
+            }
+          ]
+        },
+        {
+          "Scene": "EXT. BALCONY - CONTINUOUS",
+          "Dialogue": [
+            {
+              "Stage Direction": "TIBERIUS, late forties, stands on a balcony overlooking the sea, a stern expression etched on his face. THASYLLUS, an astrologer in his fifties, stands beside him, poring over astrological charts. The wind whips at their robes."
+            },
+            {
+              "Character": "TIBERIUS",
+              "Line": "Well? "
+            },
+            {
+              "Character": "THASYLLUS",
+              "Line": "Hmm? Oh, it's very promising, Excellency, very promising indeed. "
+            },
+            {
+              "Character": "TIBERIUS",
+              "Line": "You've been saying that for years. Perhaps if you found some disasters there my life might take a turn for the better. "
+            },
+            {
+              "Character": "THASYLLUS",
+              "Line": "But it has, Excellency. The planets are in a most favorable conjunction. For instance, I'm sure that the letter I brought you from Rome contained good news. Am I not right? "
+            },
+            {
+              "Character": "TIBERIUS",
+              "Line": "You might have known that from my mother when she gave it to you. "
+            },
+            {
+              "Character": "THASYLLUS",
+              "Line": "Excellency, your mother is not the most scrutable of women. One may read her letters, but never her face. I'd stake my life there was some good news in that letter. Come now, my calculations prove it. "
+            },
+            {
+              "Character": "TIBERIUS",
+              "Line": "I'm to stay here and rot if it has anything to do with Augustus. "
+            },
+            {
+              "Character": "THASYLLUS",
+              "Line": "But there's more. I'm sure there must be more. "
+            },
+            {
+              "Character": "TIBERIUS",
+              "Line": "Well, she promises now to work for my return. "
+            },
+            {
+              "Character": "THASYLLUS",
+              "Line": "Excellent! I knew it. It's all here. The chart doesn't lie. But it counsels patience too. Nothing will happen overnight. "
+            },
+            {
+              "Character": "TIBERIUS",
+              "Line": "What else did you learn in Rome? "
+            },
+            {
+              "Character": "THASYLLUS",
+              "Line": "Augustus has taken the death of Gaius very hard. "
+            },
+            {
+              "Character": "TIBERIUS",
+              "Line": "Is there any more news about how he died? "
+            },
+            {
+              "Character": "THASYLLUS",
+              "Line": "None. It's very mysterious. Unfortunately, the body was burned before an autopsy was ordered. When you die in the East, they don't keep you hanging about long. "
+            },
+            {
+              "Character": "TIBERIUS",
+              "Line": "I shan't shed any tears for him. What else did you learn? "
+            },
+            {
+              "Character": "THASYLLUS",
+              "Line": "That Augustus intends to appoint your other stepson to command the armies in Spain. "
+            },
+            {
+              "Character": "TIBERIUS",
+              "Line": "Lucius? He couldn't fight his way out of a harem! What else? "
+            },
+            {
+              "Character": "THASYLLUS",
+              "Line": "Only that your wife's behavior is a scandal known to all except her father. "
+            },
+            {
+              "Stage Direction": "Sighing"
+            },
+            {
+              "Character": "TIBERIUS",
+              "Line": "Suppose you finish that horoscope. "
+            },
+            {
+              "Character": "THASYLLUS",
+              "Line": "Of course, Excellency. Is there anything to drink? My mouth is quite dry. It's such a long climb up this hill. "
+            },
+            {
+              "Character": "TIBERIUS",
+              "Line": "It'll be a lot shorter on the way down if you don't find something to my liking in that chart of yours... Why do they all hate me so? What have I done to them?"
+            }
+          ]
+        },
+        {
+          "Scene": "EXT. SEASIDE TERRACE AT OSTIA - DAY",
+          "Dialogue": [
+            {
+              "Stage Direction": "Sunlight bathes a spacious terrace overlooking the sea. The air is warm, hinting at the oppressive Roman summer. JULIA, in her late 30s, elegant and sharp-tongued, sits with ANTONIA, also in her 30s but more reserved and anxious, sewing. Children play nearby, their laughter occasionally punctuating the conversation."
+            },
+            {
+              "Character": "JULIA",
+              "Line": "You could stay a few more days. What's the hurry? "
+            },
+            {
+              "Character": "ANTONIA",
+              "Line": "Oh, no hurry, really. "
+            },
+            {
+              "Character": "JULIA",
+              "Line": "Rome is like a sewer in summer. "
+            },
+            {
+              "Character": "ANTONIA",
+              "Line": "I wasn't going back to Rome. I was thinking of taking the children down to the house in Ostia. "
+            },
+            {
+              "Character": "JULIA",
+              "Line": "What for? The sea is the sea, one wave is like another. You might as well stay here. "
+            },
+            {
+              "Character": "ANTONIA",
+              "Line": "Well. I thought perhaps you might like to be on your own for a while. "
+            },
+            {
+              "Character": "JULIA",
+              "Line": "When have I ever wanted to be on my own? "
+            },
+            {
+              "Character": "ANTONIA",
+              "Line": "Well, that's what I meant, really. "
+            },
+            {
+              "Character": "JULIA",
+              "Line": "Oh! No, you don't put me out. I have to behave myself when the children are around. Well, up to a point. You're always sewing or weaving or doing something. Why don't you let the slaves do it for you? "
+            },
+            {
+              "Character": "ANTONIA",
+              "Line": "They never do things properly. "
+            },
+            {
+              "Character": "JULIA",
+              "Line": "You know, that's quite true. They don't want to work, they eat you out of house and home, and then they can't get up in the morning. "
+            },
+            {
+              "Character": "ANTONIA",
+              "Line": "It's not easy to buy good slaves anymore. You need to be a very good judge of character. "
+            },
+            {
+              "Character": "JULIA",
+              "Line": "Do you pick your own? "
+            },
+            {
+              "Character": "ANTONIA",
+              "Line": "Yes, of course. Don't you? "
+            },
+            {
+              "Character": "JULIA",
+              "Line": "I used to when I lived with Tiberius. It was one of those things I felt I ought to do. You know me. I was all right with the girls, but when it came to the male slaves I used to pick all the good-looking ones and then I ended up doing the work myself! "
+            },
+            {
+              "Character": "ANTONIA",
+              "Line": "Oh Julia, how could you? "
+            },
+            {
+              "Character": "JULIA",
+              "Line": "Well, living with Tiberius was not the fulfilling experience I'd expected-- "
+            },
+            {
+              "Character": "AGRIPPINA",
+              "Line": "Mother! "
+            },
+            {
+              "Character": "JULIA",
+              "Line": "--I was seldom filled and never full. "
+            },
+            {
+              "Character": "AGRIPPINA",
+              "Line": "Mother! Mother! "
+            },
+            {
+              "Character": "JULIA",
+              "Line": "What is it? "
+            },
+            {
+              "Character": "AGRIPPINA",
+              "Line": "Look what he did. Look what he did. "
+            },
+            {
+              "Character": "JULIA",
+              "Line": "Who did? "
+            },
+            {
+              "Character": "AGRIPPINA",
+              "Line": "GERMANICUS. He threw sand all over me. It's in my face, on my hair, it's everywhere. "
+            },
+            {
+              "Character": "ANTONIA",
+              "Line": "Germanicus, how could you? "
+            },
+            {
+              "Character": "GERMANICUS",
+              "Line": "I was only teasing. She threw it in mine. Oh, come on, Pina. I'm sorry. "
+            },
+            {
+              "Character": "AGRIPPINA",
+              "Line": "You did it on purpose. I'll never speak to you again. "
+            },
+            {
+              "Character": "JULIA",
+              "Line": "Now, come here and let me wipe it off and stop being so dramatic.  She gestures for AGRIPPINA to approach. "
+            },
+            {
+              "Character": "ANTONIA",
+              "Line": "Germanicus? You mustn't be so rough. "
+            },
+            {
+              "Character": "GERMANICUS",
+              "Line": "I'm... I'm sorry. "
+            },
+            {
+              "Character": "JULIA",
+              "Line": "She's perfectly all right. "
+            },
+            {
+              "Character": "ANTONIA",
+              "Line": "How's CLAUDIUS? "
+            },
+            {
+              "Character": "GERMANICUS",
+              "Line": "He's alright. He's looking for shells. "
+            },
+            {
+              "Character": "ANTONIA",
+              "Line": "Well, make sure the slaves keep an eye on him and don't leave him out of the games. "
+            },
+            {
+              "Character": "GERMANICUS",
+              "Line": "We won't. Oh, come on, Pina. I'm sorry. "
+            },
+            {
+              "Character": "JULIA",
+              "Line": "And don't be too long down there! It's time you came in out of the sun! ... They'll be getting married soon. "
+            },
+            {
+              "Character": "ANTONIA",
+              "Line": "What worries me is who's going to marry Claudius, with his foot and his stammer. "
+            },
+            {
+              "Character": "JULIA",
+              "Line": "There's always somebody. "
+            },
+            {
+              "Character": "ANTONIA",
+              "Line": "To tell you the truth Julia, I find it very hard to be affectionate to him. I suppose really I ought to love him more because of his afflictions, but I don't. "
+            },
+            {
+              "Character": "JULIA",
+              "Line": "I think he's sweet. "
+            },
+            {
+              "Character": "ANTONIA",
+              "Line": "You're not his mother. It's not easy living with a child who's so stupid. Everything you tell him you have to repeat half a dozen times. What DRUSUS would have made of him, I don't know. "
+            },
+            {
+              "Character": "JULIA",
+              "Line": "Ah, Drusus. You had something wonderful there, my dear. Tell me, did you never wonder about his death? I mean, did it never strike you as odd that it happened when LIVIA's personal physician was looking after him? "
+            },
+            {
+              "Character": "ANTONIA",
+              "Line": "You said something like that to me once before. "
+            },
+            {
+              "Character": "JULIA",
+              "Line": "I said that I thought that Livia had a hand in it, and I still think so. And I know that Tiberius thought so. "
+            },
+            {
+              "Character": "ANTONIA",
+              "Line": "I can't believe that. "
+            },
+            {
+              "Character": "JULIA",
+              "Line": "People say that Tiberius didn't mind being banished because he was glad to get away from me. But that wasn't all of it. I think he was pleased to get away from his mother. She used to invite him to dinner too often! "
+            },
+            {
+              "Character": "ANTONIA",
+              "Line": "Julia, don't joke. "
+            },
+            {
+              "Character": "JULIA",
+              "Line": "I'm not! I've seen his face often enough when she's poured wine for him. I tell you, I don't dine there happily myself. "
+            },
+            {
+              "Character": "ANTONIA",
+              "Line": "You've upset me, you really have. It's a terrible thing to accuse someone of poisoning without proof. "
+            },
+            {
+              "Character": "JULIA",
+              "Line": "Well, she accuses me of all sorts of things without proof! "
+            },
+            {
+              "Character": "ANTONIA",
+              "Line": "Make sure she doesn't get any then.  LUCIUS, Julia's son, approaches with PLAUTIUS. "
+            },
+            {
+              "Character": "JULIA",
+              "Line": "Are you leaving, Lucius? "
+            },
+            {
+              "Character": "LUCIUS",
+              "Line": "Yes, Mother. If we leave now, we'll be in Rome before nightfall. "
+            },
+            {
+              "Character": "PLAUTIUS",
+              "Line": "It's been so pleasant here. I love your house. "
+            },
+            {
+              "Character": "JULIA",
+              "Line": "Well, you must come again. I've got a little present for you in my study. A memento of your visit. We shan't be long. "
+            },
+            {
+              "Character": "LUCIUS",
+              "Line": "Nothing for me, Mother? "
+            },
+            {
+              "Character": "JULIA",
+              "Line": "You don't deserve anything leaving so soon! "
+            },
+            {
+              "Character": "ANTONIA",
+              "Line": "When are you leaving for Spain? "
+            },
+            {
+              "Character": "LUCIUS",
+              "Line": "In a few months. "
+            },
+            {
+              "Character": "ANTONIA",
+              "Line": "Augustus must have great confidence in you. "
+            },
+            {
+              "Character": "LUCIUS",
+              "Line": "Yes. Yes, I think so. "
+            },
+            {
+              "Character": "JULIA",
+              "Line": "Deserter. I shall be here all summer. Oh, I could eat you. "
+            },
+            {
+              "Character": "ANTONIA",
+              "Line": "Here comes your brother. "
+            },
+            {
+              "Character": "LUCIUS",
+              "Line": "POSTUMUS. I'm leaving. Hey, what's the matter? Have you lost something? "
+            },
+            {
+              "Character": "POSTUMUS",
+              "Line": "No. Are you going back to Rome? "
+            },
+            {
+              "Character": "LUCIUS",
+              "Line": "Yes. "
+            },
+            {
+              "Character": "POSTUMUS",
+              "Line": "May I come with you? "
+            },
+            {
+              "Character": "LUCIUS",
+              "Line": "You'll have to ask Mother, but I'm sure she'll say no. "
+            },
+            {
+              "Character": "ANTONIA",
+              "Line": "What's the matter? "
+            },
+            {
+              "Character": "POSTUMUS",
+              "Line": "Nothing. "
+            },
+            {
+              "Character": "LUCIUS",
+              "Line": "He's had a quarrel with LIVILLA I should think. "
+            },
+            {
+              "Character": "POSTUMUS",
+              "Line": "Oh, shut up. "
+            },
+            {
+              "Character": "ANTONIA",
+              "Line": "I don't know why you children quarrel so much. Why can't you be nice to each other? "
+            },
+            {
+              "Character": "JULIA",
+              "Line": "Look who's called to visit us. GNAEUS DOMITIUS. "
+            },
+            {
+              "Character": "DOMITIUS",
+              "Line": "I was on my way to Formiae. I felt I must call upon you, Lady. "
+            },
+            {
+              "Character": "JULIA",
+              "Line": "Do you know my son, Lucius? "
+            },
+            {
+              "Character": "DOMITIUS",
+              "Line": "Ah, an honor, sir. I took the auspices for your brother GAIUS before he left for Syria. They were most favorable. I've never seen the liver of a ewe so clear. One could almost see through it. His death is inexplicable to me. "
+            },
+            {
+              "Character": "JULIA",
+              "Line": "And to us all. My youngest, Postumus. "
+            },
+            {
+              "Character": "LUCIUS",
+              "Line": "We must go, Mother. "
+            },
+            {
+              "Character": "JULIA",
+              "Line": "Yes. Take care on the journey. "
+            },
+            {
+              "Character": "POSTUMUS",
+              "Line": "May I go with them, Mother? "
+            },
+            {
+              "Character": "JULIA",
+              "Line": "Whatever for? Certainly not. "
+            },
+            {
+              "Character": "LUCIUS",
+              "Line": "Goodbye, Antonia. "
+            },
+            {
+              "Stage Direction": "to Postumus"
+            },
+            {
+              "Character": "POSTUMUS",
+              "Line": "Go and make it up with Livilla, you'll feel better. "
+            },
+            {
+              "Character": "POSTUMUS",
+              "Line": "Oh, shut up. "
+            },
+            {
+              "Character": "DOMITIUS",
+              "Line": "Sir. "
+            },
+            {
+              "Character": "LUCIUS",
+              "Line": "Come, Plautius, we'll make a start. "
+            },
+            {
+              "Character": "PLAUTIUS",
+              "Line": "Goodbye. "
+            },
+            {
+              "Character": "JULIA",
+              "Line": "Goodbye. "
+            },
+            {
+              "Character": "GERMANICUS",
+              "Line": "Eagles. What are they fighting for? "
+            },
+            {
+              "Character": "JULIA",
+              "Line": "Here come the children. Let's go into the house. It sounds as if they've been quarrelling again and I don't think I could stand it. "
+            },
+            {
+              "Character": "GERMANICUS",
+              "Line": "Eagles! They're fighting! Postumus, look at the eagles! "
+            },
+            {
+              "Character": "AGRIPPINA",
+              "Line": "What are they fighting for? "
+            },
+            {
+              "Character": "CASTOR",
+              "Line": "Oh look. One of them's got something! See, in its claws there. It's a small animal,  **A SCREECHING OVERHEAD** "
+            },
+            {
+              "Character": "AGRIPPINA",
+              "Line": "Mother, Mother, the eagles are fighting! "
+            },
+            {
+              "Character": "CASTOR",
+              "Line": "They're fighting over something. Look out! "
+            },
+            {
+              "Character": "LIVILLA",
+              "Line": "What is it, Claudius? "
+            },
+            {
+              "Character": "CASTOR",
+              "Line": "It's a wolf cub. "
+            },
+            {
+              "Character": "GERMANICUS",
+              "Line": "Mother, it dropped right from its claws. "
+            },
+            {
+              "Character": "LIVILLA",
+              "Line": "Let me have him! Let me have him! "
+            },
+            {
+              "Character": "ANTONIA",
+              "Line": "Leave it be! It fell to Claudius, leave it be! "
+            },
+            {
+              "Character": "JULIA",
+              "Line": "Look at the blood. Ye Gods, what does it mean? Domitius, tell us what it means. "
+            },
+            {
+              "Character": "DOMITIUS",
+              "Line": "Lady, I... "
+            },
+            {
+              "Character": "ANTONIA",
+              "Line": "You know what it means, I can see from your face. Tell us, I beg you. Children, go into the house. "
+            },
+            {
+              "Character": "DOMITIUS",
+              "Line": "No! Let them stay. The sign was given to you all, and given now, perhaps, because I am here to read it. But they must be sworn to secrecy. Who are the gods that watch over this house? "
+            },
+            {
+              "Character": "JULIA",
+              "Line": "Jupiter and Mars. "
+            },
+            {
+              "Character": "DOMITIUS",
+              "Line": "Then do you swear, all of you, by these your gods...that no word of what you are about to hear shall ever pass your lips? "
+            },
+            {
+              "Character": "ALL",
+              "Line": "Yes, we do. "
+            },
+            {
+              "Character": "DOMITIUS",
+              "Line": "The wolf cub is Rome. No doubt of it. Romulus was suckled by a wolf as her own cub, and Romulus was Rome. And look at it. All torn about the neck and shivering with fear. A wretched sight. Rome will be wretched one day. But he will protect it. He and no other. "
+            },
+            {
+              "Stage Direction": "laughs"
+            },
+            {
+              "Character": "LIVILLA",
+              "Line": "Claudius as protector of Rome! I hope I shall be dead by then. "
+            },
+            {
+              "Character": "ANTONIA",
+              "Line": "Go to your room! You shall have nothing to eat for the rest of the day! "
+            },
+            {
+              "Character": "JULIA",
+              "Line": "Children, come in. Come inside. "
+            },
+            {
+              "Character": "CLAUDIUS",
+              "Line": "May I k-k-keep the cub, please, Mother? Please may I?"
+            }
+          ]
+        },
+        {
+          "Scene": "INT. PALACE - PRIVATE RECEPTION ROOM - DAY",
+          "Dialogue": [
+            {
+              "Stage Direction": "Shadows play across the walls of a secluded reception room. LIVIA, ever regal and composed, sits opposite PLAUTIUS, a handsome but nervous Roman. The air is thick with unspoken tension."
+            },
+            {
+              "Character": "LIVIA",
+              "Line": "Well, is it true? Have I heard right? Are you having my daughter-in-law? Come, you can be frank with me. As a matter of fact, it would be better for you to be frank with me. "
+            },
+            {
+              "Character": "PLAUTIUS",
+              "Line": "She... She took a fancy to me. "
+            },
+            {
+              "Character": "LIVIA",
+              "Line": "I'm sure she did. "
+            },
+            {
+              "Character": "PLAUTIUS",
+              "Line": "Well, what could I do? She is, after all, Caesar's daughter. "
+            },
+            {
+              "Character": "LIVIA",
+              "Line": "You were wise not to refuse her. Would you do as much for me? I am, after all, Caesar's wife... Quite a stud, aren't you? You find me utterly repulsive, but you'd try all the same. I like that. I like a trier. "
+            },
+            {
+              "Character": "PLAUTIUS",
+              "Line": "You're a very beautiful woman. "
+            },
+            {
+              "Character": "LIVIA",
+              "Line": "I'm an old one. Still, that wouldn't stop you, would it, if you thought I could do something for you. Well, perhaps I can. Yours is a noble family, but poor, I believe. "
+            },
+            {
+              "Character": "PLAUTIUS",
+              "Line": "They've been unfortunate. "
+            },
+            {
+              "Character": "LIVIA",
+              "Line": "But not in you, clearly not in you. No, no, no. In you I would say they have been very fortunate. Come closer.  Livia gestures for Plautius to move closer. He hesitates, then complies. "
+            },
+            {
+              "Character": "LIVIA",
+              "Line": "How long have you known my daughter-in-law? "
+            },
+            {
+              "Character": "PLAUTIUS",
+              "Line": "Not long. A month or so. "
+            },
+            {
+              "Character": "LIVIA",
+              "Line": "And did you meet her through her son, or her son through her? "
+            },
+            {
+              "Character": "PLAUTIUS",
+              "Line": "I was Lucius' friend first. I stayed at the house in Antium for a few days. "
+            },
+            {
+              "Character": "LIVIA",
+              "Line": "What a lovely time you must have had. Have you been there since? "
+            },
+            {
+              "Character": "PLAUTIUS",
+              "Line": "Yes. "
+            },
+            {
+              "Character": "LIVIA",
+              "Line": "And tell me, does Lucius know you're plowing his mother's furrow with such ferocious skill and energy? "
+            },
+            {
+              "Character": "PLAUTIUS",
+              "Line": "Well, I ... I don't know. Perhaps he... Perhaps he... "
+            },
+            {
+              "Character": "LIVIA",
+              "Line": "Guesses? Yes, well, that wouldn't be hard, would it? I would imagine all Rome apart from her father guesses. How much does Lucius mean to you? "
+            },
+            {
+              "Character": "PLAUTIUS",
+              "Line": "He means more than I can say. "
+            },
+            {
+              "Character": "LIVIA",
+              "Line": "Oh, not more than you can say, surely? Try. "
+            },
+            {
+              "Character": "PLAUTIUS",
+              "Line": "I am his best friend. "
+            },
+            {
+              "Stage Direction": "chuckles"
+            },
+            {
+              "Character": "PLAUTIUS",
+              "Line": "Lady, what do you want of me? "
+            },
+            {
+              "Character": "LIVIA",
+              "Line": "I want to help you in your career. You'd liked to be helped, wouldn't you? "
+            },
+            {
+              "Character": "PLAUTIUS",
+              "Line": "Of course. And what must I do in exchange? Stop seeing the Lady Julia? "
+            },
+            {
+              "Character": "LIVIA",
+              "Line": "Oh, you've a mighty high opinion of yourself, haven't you? Do you imagine that I would stoop to buying you off when I could swat you like a fly if I wanted to? "
+            },
+            {
+              "Character": "PLAUTIUS",
+              "Line": "Sorry, I meant no... "
+            },
+            {
+              "Character": "LIVIA",
+              "Line": "Hold your tongue. I will tell you what I want and you will provide it. I want a catalogue of my daughter-in-law's activities. I want names, dates, places. And far from breaking with her, you may encourage her all you like. "
+            },
+            {
+              "Character": "PLAUTIUS",
+              "Line": "Well, she needs little encouragement. "
+            },
+            {
+              "Character": "LIVIA",
+              "Line": "Less work for you, then, isn't it? Yes, I can see the attraction. You should go far, if you manage to keep your head. You may go now. Oh, Plautius? You need not, of course, include your own name on that list... for the moment."
+            }
+          ]
+        },
+        {
+          "Scene": "INT. AUGUSTUS'S OFFICE - DAY",
+          "Dialogue": [
+            {
+              "Stage Direction": "A bust of Gaius sits prominently in the room. AUGUSTUS, weary but still commanding, is speaking with PRAXIS."
+            },
+            {
+              "Character": "AUGUSTUS",
+              "Line": "Praxis, look at this. They've just delivered it. It's a bust of my late adopted son, Gaius. "
+            },
+            {
+              "Character": "PRAXIS",
+              "Line": "What a beautiful face, Caesar. Such a noble brow. What a tragic loss for Rome. "
+            },
+            {
+              "Character": "AUGUSTUS",
+              "Line": "Thank you, Praxis. Thank you. "
+            },
+            {
+              "Character": "PRAXIS",
+              "Line": "Caesar, the representatives of the Noble Order of Knights are here. "
+            },
+            {
+              "Character": "AUGUSTUS",
+              "Line": "Hmm? "
+            },
+            {
+              "Character": "PRAXIS",
+              "Line": "You asked to see them in here to address them on the subject of the marriage laws. "
+            },
+            {
+              "Character": "AUGUSTUS",
+              "Line": "Oh, yes. Yes. I'll see them out there..  He gestures vaguely. Praxis bows and exits. Augustus calls out. "
+            },
+            {
+              "Character": "AUGUSTUS",
+              "Line": "Hey! Hey! Boy! Boy, come here! Come! Come! Stay with me. Here. I've called you here because I'm sick and tired... Look, look, up, up. ...of the constant complaints that I've been getting from you and others about the severity of the laws that I've made against bachelors. Do you know what I say to that? I say stop complaining and get married! Because your complaints, they don't impress me that much. And who in Hades do you think you are, Vestal Virgins? You make me sick, the lot of you! Look at that. Do you know what that is? That is a child. A Roman child. And how in Hades do you think he got there? By a Roman man and a Roman woman coming together in the same bed. That's how. That is a fine product of a proper Roman union! Look, can't you stop that twitching? "
+            },
+            {
+              "Character": "CLAUDIUS",
+              "Line": "I ca-ca... "
+            },
+            {
+              "Character": "AUGUSTUS",
+              "Line": "Oh, never mind. Oh, I hear some titters. You can do better, can you? You murderers of your own posterity! Well, damn well go and do it, now! Quick as boiled asparagus, or, by thunder, I'll bring in some laws you won't like, I can tell you! And that's all I've got to say to you! And don't think you can get round it by getting engaged to nine-year-old girls. I know that dodge. A radish may know no Greek, but I do. Now, which one are you? "
+            },
+            {
+              "Character": "CLAUDIUS",
+              "Line": "Claudius. "
+            },
+            {
+              "Character": "AUGUSTUS",
+              "Line": "Oh, yes, Drusus' boy. Hey, hey, hey, shouldn't you be at your lessons? Don't you like your lessons? No, I didn't think you did, I don't like mine but you can't do nothing all day.  LIVIA enters, her gaze immediately settling on Claudius with disdain. "
+            },
+            {
+              "Character": "LIVIA",
+              "Line": "What are you doing here child? Get back to your lessons at once. "
+            },
+            {
+              "Character": "AUGUSTUS",
+              "Line": "Oh, he's been helping me tell the knights a thing or two. I used him as a model. "
+            },
+            {
+              "Character": "LIVIA",
+              "Line": "A model of what? Idiocy? "
+            },
+            {
+              "Character": "AUGUSTUS",
+              "Line": "No, no. Oh, never mind, off you go.  Claudius shuffles away, relieved. "
+            },
+            {
+              "Character": "LIVIA",
+              "Line": "That child should have been exposed at birth. "
+            },
+            {
+              "Character": "AUGUSTUS",
+              "Line": "Yes, well we don't do that sort of thing anymore. "
+            },
+            {
+              "Character": "LIVIA",
+              "Line": "No, more's the pity. He twitches, he stutters and he limps. He's an embarrassment to everyone. Even his mother can't stand him. "
+            },
+            {
+              "Character": "AUGUSTUS",
+              "Line": "Well, we can keep him out of the way. He's quite harmless. "
+            },
+            {
+              "Character": "LIVIA",
+              "Line": "He gets on my nerves. I bump into him in corridors. He talks to himself and irritates people. I want to talk to you. "
+            },
+            {
+              "Character": "AUGUSTUS",
+              "Line": "Oh, what about? "
+            },
+            {
+              "Character": "LIVIA",
+              "Line": "Marriage. "
+            },
+            {
+              "Character": "AUGUSTUS",
+              "Line": "Oh, that's just what I've been talking about. You know, there's not enough of it. "
+            },
+            {
+              "Character": "LIVIA",
+              "Line": "Which is why the family should set a good example. Now you remember how early Gaius and Lucius were betrothed, and Tiberius too. On the subject of Tiberius... "
+            },
+            {
+              "Character": "AUGUSTUS",
+              "Line": "Livia, leave me alone on the subject of Tiberius. "
+            },
+            {
+              "Character": "LIVIA",
+              "Line": "My dear, what harm would it do if he came back to Rome as a private citizen? "
+            },
+            {
+              "Character": "AUGUSTUS",
+              "Line": "Listen, I know he's your son. I understand your feelings, they're natural in a mother. But we've had this out before and so many times. After what he did to Julia, I shall never forgive him. "
+            },
+            {
+              "Character": "LIVIA",
+              "Line": "Perhaps the fault was not all on one side? Perhaps he was provoked? "
+            },
+            {
+              "Character": "AUGUSTUS",
+              "Line": "No. I can't accept that. I know what you're going to say, I'm her father, she can do no wrong. But be fair, if she's done wrong, let someone prove it. Black and white, as they say, chapter and verse, and not sly backstairs gossip. Let's not talk about it again. On that subject, my mind is closed. Now, on the subject of marriage. What do you suggest? Agrippina and Germanicus, That's obvious. "
+            },
+            {
+              "Character": "LIVIA",
+              "Line": "Yes. We should arrange the betrothal ceremony as soon as possible. And Castor and Livilla too. "
+            },
+            {
+              "Character": "AUGUSTUS",
+              "Line": "Castor and Livilla? Are you sure? I thought Postumus. "
+            },
+            {
+              "Character": "LIVIA",
+              "Line": "Oh, he's a little monster. Besides Livilla can't stand him. "
+            },
+            {
+              "Character": "AUGUSTUS",
+              "Line": "Well, if you say so. She's a bit of a flirt, then. She teases him a lot. "
+            },
+            {
+              "Character": "LIVIA",
+              "Line": "That's natural in a girl "
+            },
+            {
+              "Character": "AUGUSTUS",
+              "Line": "Yes, I suppose so. What about Claudius? Who's going to marry Claudius? "
+            },
+            {
+              "Character": "LIVIA",
+              "Line": "I'll find someone. It won't be easy, but I'll find someone. Most women marry fools, but it takes them a while to find out. Unfortunately, with Claudius, it's as plain as the nose on his face."
+            }
+          ]
+        },
+        {
+          "Scene": "INT. JULIA'S CHAMBERS - NIGHT",
+          "Dialogue": [
+            {
+              "Stage Direction": "JULIA, agitated, confronts PLAUTIUS."
+            },
+            {
+              "Character": "JULIA",
+              "Line": "Plautius, why didn't you save me from this beast?"
+            }
+          ]
+        },
+        {
+          "Scene": "INT. JULIA'S CHAMBERS - DAY",
+          "Dialogue": [
+            {
+              "Stage Direction": "JULIA, still reeling from her confrontation with Plautius in the previous scene, sits amidst the opulent disarray of her chambers. The room is filled with expensive fabrics and discarded finery, reflecting her self-indulgent lifestyle. ANTONIA stands nearby, a picture of controlled disapproval."
+            },
+            {
+              "Character": "JULIA",
+              "Line": "So Father asked me to see his own personal physician, and just to please him, I did. And do you know what he told me? He told me not to eat so much. He said if I stopped eating so much, the palpitations would disappear. Now, I mean, I ask you, am I a big eater? "
+            },
+            {
+              "Character": "ANTONIA",
+              "Line": "Well... "
+            },
+            {
+              "Character": "JULIA",
+              "Line": "I mean, I can't live on a lettuce leaf. I'm not a caterpillar.  The chamber door opens and CLAUDIUS enters, nervously leading a young HEROD AGRIPPA by the arm. Claudius stammers as he approaches. "
+            },
+            {
+              "Character": "CLAUDIUS",
+              "Line": "Hello, Aunt J-J-Julia. "
+            },
+            {
+              "Stage Direction": "turning, intrigued"
+            },
+            {
+              "Character": "JULIA",
+              "Line": "Hello, dear. Who's that you've got there? "
+            },
+            {
+              "Character": "CLAUDIUS",
+              "Line": "His name's HEROD. His grandfather is King of the J-J-Jews. "
+            },
+            {
+              "Stage Direction": "eyes Herod up and down"
+            },
+            {
+              "Character": "JULIA",
+              "Line": "Really? And what's he doing here? "
+            },
+            {
+              "Character": "CLAUDIUS",
+              "Line": "He's been sent to be educated in Rome and he's been put in my class. "
+            },
+            {
+              "Character": "JULIA",
+              "Line": "Well, how nice. He's a handsome lad, isn't he? "
+            },
+            {
+              "Character": "HEROD",
+              "Line": "Thank you Lady. Do I have the honor of addressing the former wife of the great Agrippa? "
+            },
+            {
+              "Character": "JULIA",
+              "Line": "Yes, dear, you do. "
+            },
+            {
+              "Character": "HEROD",
+              "Line": "My name is Herod Agrippa. I was named after your illustrious husband Marcus Agrippa. "
+            },
+            {
+              "Character": "JULIA",
+              "Line": "Really? Well, wasn't that nice of your father to do that? "
+            },
+            {
+              "Character": "HEROD",
+              "Line": "No. It was my grandfather who did that. "
+            },
+            {
+              "Character": "JULIA",
+              "Line": "Well, it was nice of him, then. "
+            },
+            {
+              "Character": "HEROD",
+              "Line": "He's not very nice, Lady. He had my father executed soon after I was born. "
+            },
+            {
+              "Character": "JULIA",
+              "Line": "Oh, dear. I am sorry. "
+            },
+            {
+              "Character": "HEROD",
+              "Line": "Yes, so was my father. "
+            },
+            {
+              "Character": "CLAUDIUS",
+              "Line": "This is my m-m-mother. "
+            },
+            {
+              "Character": "HEROD",
+              "Line": "The great Lady ANTONIA, daughter of Mark Antony and wife of the noble Drusus. "
+            },
+            {
+              "Character": "ANTONIA",
+              "Line": "My, you do know a lot about us. "
+            },
+            {
+              "Character": "HEROD",
+              "Line": "I have studied you all. You are all known throughout the world. You are very famous. "
+            },
+            {
+              "Character": "ANTONIA",
+              "Line": "Well, you may come and visit us whenever you like. Have you introduced him to Germanicus and Livilla yet? "
+            },
+            {
+              "Character": "CLAUDIUS",
+              "Line": "Not yet. C-c-come on, Herod. "
+            },
+            {
+              "Character": "HEROD",
+              "Line": "Thank you for receiving a mere provincial so generously.  Claudius and Herod exit. "
+            },
+            {
+              "Character": "ANTONIA",
+              "Line": "What a polite boy! And how well he speaks Latin. Julia, not another fig. "
+            },
+            {
+              "Character": "JULIA",
+              "Line": "Figs are good for you. You sound just like Lucius. "
+            },
+            {
+              "Character": "ANTONIA",
+              "Line": "Well, I suppose you'll miss him when he goes to Spain. "
+            },
+            {
+              "Character": "JULIA",
+              "Line": "Mmm. I shall miss that good-looking friend of his even more."
+            }
+          ]
+        },
+        {
+          "Scene": "INT. LIVIA'S PRIVATE STUDY - DAY",
+          "Dialogue": [
+            {
+              "Stage Direction": "A sparsely furnished room, dominated by a large writing desk. LIVIA examines a list of names, her expression grim. PLAUTIUS stands before her, sweating slightly."
+            },
+            {
+              "Character": "LIVIA",
+              "Line": "What a collection! It certainly doesn't lack variety, does it? I hope these names will stand up to examination? "
+            },
+            {
+              "Character": "PLAUTIUS",
+              "Line": "There's nothing there that can't be verified. "
+            },
+            {
+              "Character": "LIVIA",
+              "Line": "Who, for example, is Gershon? "
+            },
+            {
+              "Character": "PLAUTIUS",
+              "Line": "One of the house slaves... from Africa. "
+            },
+            {
+              "Character": "LIVIA",
+              "Line": "Scandalous. Are there any other slaves on this list? "
+            },
+            {
+              "Character": "PLAUTIUS",
+              "Line": "One or two. But the rest are mainly Romans of good birth and family. "
+            },
+            {
+              "Character": "LIVIA",
+              "Line": "Not quite good enough, it appears. You've done well. "
+            },
+            {
+              "Character": "PLAUTIUS",
+              "Line": "Thank you. "
+            },
+            {
+              "Character": "LIVIA",
+              "Line": "You've no qualms about betraying your friend's mother? "
+            },
+            {
+              "Character": "PLAUTIUS",
+              "Line": "In matters of state, I... "
+            },
+            {
+              "Character": "LIVIA",
+              "Line": "Oh, you do learn fast, don't you? And what about your friend, as distinct from his mother? You are ambitious. "
+            },
+            {
+              "Character": "PLAUTIUS",
+              "Line": "When you tell Caesar Augustus about... "
+            },
+            {
+              "Character": "LIVIA",
+              "Line": "Oh, I shan't tell him. He wouldn't appreciate it coming from me. You see, he would question, in his mind, my motives. No, no. I must find someone else to do that. But you needn't worry, your name won't be mentioned. I may have another little assignment for you. "
+            },
+            {
+              "Character": "PLAUTIUS",
+              "Line": "If I can be of service. "
+            },
+            {
+              "Character": "LIVIA",
+              "Line": "It may not be quite so enjoyable. "
+            },
+            {
+              "Character": "PLAUTIUS",
+              "Line": "One can't always combine business with pleasure. "
+            },
+            {
+              "Character": "LIVIA",
+              "Line": "No. And, usually, it's better not to. You may go now.  Plautius bows and exits. Livia rises and paces, her face a mask of fury."
+            }
+          ]
+        },
+        {
+          "Scene": "INT. LIVIA'S PRIVATE STUDY - LATER",
+          "Dialogue": [
+            {
+              "Stage Direction": "LIVIA confronts LUCIUS. He stands before her, head bowed, awaiting her judgment."
+            },
+            {
+              "Character": "LIVIA",
+              "Line": "You knew about it! You knew all along, but you did nothing. Nothing! "
+            },
+            {
+              "Character": "LUCIUS",
+              "Line": "But what could I do, I'm not her keeper? "
+            },
+            {
+              "Character": "LIVIA",
+              "Line": "You could have gone to Augustus. "
+            },
+            {
+              "Character": "LUCIUS",
+              "Line": "But... But I thought that like everybody else he knew and had just closed his eyes to it. "
+            },
+            {
+              "Character": "LIVIA",
+              "Line": "Shame on you! Shame that you should think him such a man when he thinks so highly of you! "
+            },
+            {
+              "Character": "LUCIUS",
+              "Line": "She's my mother. Would you have me inform on her? "
+            },
+            {
+              "Character": "LIVIA",
+              "Line": "You could have come to me! You could have come to me! Do you think if I'd known, I'd have stood by and done nothing? Don't you think I'd have tried to save her, for her own sake? And now it's too late to save either of you. "
+            },
+            {
+              "Character": "LUCIUS",
+              "Line": "Gods. I should have told you, it's true. "
+            },
+            {
+              "Character": "LIVIA",
+              "Line": "You should have told him, that's what he'll say. But it's not for that alone that he'll condemn you. That you did nothing is bad enough, but you did more. You aided and abetted... "
+            },
+            {
+              "Character": "LUCIUS",
+              "Line": "No! No. "
+            },
+            {
+              "Character": "LIVIA",
+              "Line": "You acted as her pimp and her procurer! "
+            },
+            {
+              "Character": "LUCIUS",
+              "Line": "That's not true! "
+            },
+            {
+              "Character": "LIVIA",
+              "Line": "Liar! Do you deny that you introduced your friend Plautius to her for that purpose. "
+            },
+            {
+              "Character": "LUCIUS",
+              "Line": "Plautius? "
+            },
+            {
+              "Character": "LIVIA",
+              "Line": "Do you deny he's been her lover? Do you deny he was the chief organizer of her disgusting orgies at the house in Antium and here in Rome? And he's not the first of your friends to have wound up in her bed! "
+            },
+            {
+              "Character": "LUCIUS",
+              "Line": "Oh, you must believe me. It may look that way to you but... "
+            },
+            {
+              "Character": "LIVIA",
+              "Line": "How will it look to Augustus? Like mother, like son, that's how it will look. Oh! What a blow this will be to him. Not enough that his daughter is revealed as the town prostitute, but that her son, whom he groomed for the highest office, has connived with her, encouraged her and even supplied her with lovers. "
+            },
+            {
+              "Character": "LUCIUS",
+              "Line": "What can I do? "
+            },
+            {
+              "Character": "LIVIA",
+              "Line": "Nothing! There's nothing you can do. Between you and your mother, you will have destroyed the two dearest things in his life. And to think that I, his wife, should have to expose the corruption in his own family. "
+            },
+            {
+              "Character": "LUCIUS",
+              "Line": "Let me do it! Please! Give me this once chance to make good. It's not as it seems, I swear it. "
+            },
+            {
+              "Character": "LIVIA",
+              "Line": "You? "
+            },
+            {
+              "Character": "LUCIUS",
+              "Line": "Please. My sin was one of omission, nothing else. Give me this chance to redeem myself. Give me the list. "
+            },
+            {
+              "Character": "LIVIA",
+              "Line": "Very well, let it be your doing and not mine."
+            }
+          ]
+        },
+        {
+          "Scene": "INT. AUGUSTUS'S PALACE - AUDIENCE CHAMBER - DAY",
+          "Dialogue": [
+            {
+              "Stage Direction": "Grand, formal. Sunlight streams through tall windows, illuminating the opulent, imposing decor. AUGUSTUS, the Emperor, sits on a raised dais, his face etched with disappointment and anger. Before him stand several men, heads bowed in shame. To the side, LUCIUS observes, a mixture of guilt and trepidation on his face. LIVIA stands slightly behind Augustus, her expression unreadable."
+            },
+            {
+              "Character": "AUGUSTUS",
+              "Line": "You, AELIUS SEXTUS BALBAS. Is it true? Have you slept with my daughter? "
+            },
+            {
+              "Character": "BALBAS",
+              "Line": "Caesar, I... "
+            },
+            {
+              "Character": "AUGUSTUS",
+              "Line": "Answer the question. "
+            },
+            {
+              "Character": "BALBAS",
+              "Line": "Yes, Caesar. "
+            },
+            {
+              "Character": "AUGUSTUS",
+              "Line": "And you, MARCUS VOLUNSIUS SATURNIUS? Have you slept with my daughter? "
+            },
+            {
+              "Character": "SATURNIUS",
+              "Line": "Caesar... "
+            },
+            {
+              "Character": "AUGUSTUS",
+              "Line": "Just answer the question. "
+            },
+            {
+              "Character": "SATURNIUS",
+              "Line": "Yes, Caesar. "
+            },
+            {
+              "Character": "AUGUSTUS",
+              "Line": "And you? Have you? And you, PUBLIUS NORBANUS FLACCUS? "
+            },
+            {
+              "Character": "FLACCUS",
+              "Line": "Once, Caesar. "
+            },
+            {
+              "Character": "AUGUSTUS",
+              "Line": "Ah, only once? That's all? "
+            },
+            {
+              "Character": "ANOTHER",
+              "Line": "Not slept, Caesar. "
+            },
+            {
+              "Character": "AUGUSTUS",
+              "Line": "Not slept? You mean it happened standing up, perhaps? Or in the street or on a bench? Not slept? "
+            },
+            {
+              "Stage Direction": "To guards"
+            },
+            {
+              "Character": "AUGUSTUS",
+              "Line": "Is there anyone in Rome who has not slept with my daughter? Take them out! I'll decide what to do with them later! "
+            },
+            {
+              "Character": "LUCIUS",
+              "Line": "Grandfather... "
+            },
+            {
+              "Character": "AUGUSTUS",
+              "Line": "No, no! I'm all right. This must have been hard for you. Terrible. It's a wonderful thing you've done coming to me like this. I'm proud of you... "
+            },
+            {
+              "Stage Direction": "Standing abruptly, his voice rising"
+            },
+            {
+              "Character": "AUGUSTUS",
+              "Line": "I shall banish her! Banish her for life. Don't tell me where she's gone nor ever mention her name. But let her...! Let her be all alone. All alone until she dies! She's not fit for human company!  **SOUND** of pounding on a door, desperate cries  JULIA (O.S.)"
+            },
+            {
+              "Stage Direction": "screaming"
+            },
+            {
+              "Character": "AUGUSTUS",
+              "Line": "Father! Father! Please! Please let me in! Let me talk to you! Let me explain! Father? Father! Please don't send me away! Please, please, please don't send me away! I couldn't bear it! I couldn't bear it! Not alone. Please! Plea-ea-ease! Please! Please, Father! Please let me talk to you! Father, please! Please. Give me another chance. Please. Please."
+            }
+          ]
+        },
+        {
+          "Scene": "INT. JULIA'S CHAMBERS - CONTINUOUS",
+          "Dialogue": [
+            {
+              "Stage Direction": "The door to Julia's chambers is slammed shut. She beats on it with her fists, her face contorted with desperation."
+            },
+            {
+              "Stage Direction": "through the door, to Livia"
+            },
+            {
+              "Character": "JULIA",
+              "Line": "This is your doing, isn't it? Don't think I don't know. You think you're very clever. You think that by discrediting me, he'll bring your son back from Rhodes. You're so transparent. You want that precious son of yours to follow him when he dies so you can come into your own. But I have two sons, and they both come before yours. So make your mind up to it, Livia. When my father dies, you won't be wanted anymore. So take my advice and climb on the funeral pyre with him!"
+            }
+          ]
+        },
+        {
+          "Scene": "INT. AUGUSTUS'S PALACE - AUDIENCE CHAMBER - CONTINUOUS",
+          "Dialogue": [
+            {
+              "Stage Direction": "LIVIA remains composed, unfazed by Julia's outburst. Augustus sinks back onto his chair, visibly shaken."
+            },
+            {
+              "Character": "LIVIA",
+              "Line": "So, you've come out of your room at last. "
+            },
+            {
+              "Character": "AUGUSTUS",
+              "Line": "I'm cursed, Livia. I'm cursed. First Gaius, then this. What have I done to deserve this? "
+            },
+            {
+              "Character": "LIVIA",
+              "Line": "Yes. It's a hard thing to see a child banished. Don't I know that? But how much harder, my dear, when one knows the banishment is undeserved? Have you thought of that? Have you thought how I have felt all these years? Yes. You must let my son come home. With Lucius in Spain, we need him here in Rome. And besides, can't you see now what has been plain to me for so many years? That it was her wickedness that drove him away. "
+            },
+            {
+              "Character": "AUGUSTUS",
+              "Line": "I'll never bring him back. Never! He drove her to it! He was the one that set her on that road. None of this would've have happened but for him! I'll never bring him back! Never! He can stay there and rot!"
+            }
+          ]
+        },
+        {
+          "Scene": "INT. TIBERIUS'S VILLA - TERRACE - DAY",
+          "Dialogue": [
+            {
+              "Stage Direction": "Sunlight warms a stone terrace overlooking the bustling harbor of Rhodes. TIBERIUS (40s, stern, calculating), stands with THRASYLLUS (50s, anxious, opportunistic astrologer), both observing a ship arriving in the harbor. The air carries the scent of salt and distant sails."
+            },
+            {
+              "Character": "THRASILLUS",
+              "Line": "Excellency, there's a ship in the harbor. "
+            },
+            {
+              "Character": "TIBERIUS",
+              "Line": "I know, I've seen it. "
+            },
+            {
+              "Character": "THRASILLUS",
+              "Line": "I believe it comes from Rome. I'm sure it will bring important letters for you. In fact, I thought they might have already arrived before I got here. "
+            },
+            {
+              "Character": "TIBERIUS",
+              "Line": "No, Thrasyllus, nothing has arrived. "
+            },
+            {
+              "Character": "THRASILLUS",
+              "Line": "What do you see in your horoscope? It must be good news. "
+            },
+            {
+              "Character": "TIBERIUS",
+              "Line": "I'm not looking at my horoscope, Thrasyllus. I'm looking at yours.  Thrasyllus pales, nervously adjusting his toga. "
+            },
+            {
+              "Character": "THRASILLUS",
+              "Line": "At mine? You must be joking. If there's good news on that boat, you'll find it in your horoscope, not in mine. "
+            },
+            {
+              "Character": "TIBERIUS",
+              "Line": "Mine has been so indecisive lately, I thought I thought it would make more sense if I examined yours. "
+            },
+            {
+              "Character": "THRASILLUS",
+              "Line": "But why? What could that possibly tell you? "
+            },
+            {
+              "Character": "TIBERIUS",
+              "Line": "Let me put it this way. I decided this morning that if nothing pleasing came off that boat, I would have you thrown down the face of the cliff into the bay.  Thrasyllus's eyes dart nervously towards the cliff edge. "
+            },
+            {
+              "Character": "THRASILLUS",
+              "Line": "That's very funny. Very funny. What... What exactly does it say? Can you see anything? "
+            },
+            {
+              "Character": "TIBERIUS",
+              "Line": "Oh, yes, it's very clear. It confirms my worst fears for your safety. Extraordinary how accurate these things are, isn't it. Who would have thought that I could have made a decision about you this morning and seen it clearly reflected in the chart this afternoon? "
+            },
+            {
+              "Character": "THRASILLUS",
+              "Line": "Perhaps... Perhaps you've cast it wrong. "
+            },
+            {
+              "Character": "TIBERIUS",
+              "Line": "Not as wrong as you've been casting mine. "
+            },
+            {
+              "Character": "THRASILLUS",
+              "Line": "Excellency, there's news coming from that boat. I'm sure of it. Didn't you see the eagle perched on your roof this morning? "
+            },
+            {
+              "Character": "TIBERIUS",
+              "Line": "There are no eagles in Rhodes. "
+            },
+            {
+              "Character": "THRASILLUS",
+              "Line": "Exactly! Yet why was it there? The whole town was pointing at it. It can mean only one thing, good news. "
+            },
+            {
+              "Character": "TIBERIUS",
+              "Line": "Alas, but not for you. Sentor.  SENTOR, a burly guard, appears behind Thrasyllus. "
+            },
+            {
+              "Character": "THRASILLUS",
+              "Line": "Excellency, let me look at the chart. A man's destiny is not so easily read, believe me. "
+            },
+            {
+              "Character": "TIBERIUS",
+              "Line": "Yours is. I wrote it myself this morning. Sentor, escort my friend down the cliff path. And take care, I have a terrible feeling he may slip. His stars speak of nothing but disasters. "
+            },
+            {
+              "Character": "SENTOR",
+              "Line": "Yes, master. An imperial courier has arrived with dispatches. "
+            },
+            {
+              "Character": "TIBERIUS",
+              "Line": "Show him out. My friend can wait a while. "
+            },
+            {
+              "Character": "THRASILLUS",
+              "Line": "You see, Excellency, a horoscope, like the heart of a man, is not so easy to read. "
+            },
+            {
+              "Character": "TIBERIUS",
+              "Line": "Let's see what the dispatches say, shall we? Your prophecies haven't inspired much confidence lately.  A COURIER, breathless, enters and bows deeply. "
+            },
+            {
+              "Character": "COURIER",
+              "Line": "Imperial dispatch from Augustus Caesar for the noble Tiberius Claudius Nero. "
+            },
+            {
+              "Stage Direction": "reading the dispatch"
+            },
+            {
+              "Character": "TIBERIUS",
+              "Line": "Lucius is dead. I am to return to Rome. "
+            },
+            {
+              "Character": "THRASILLUS",
+              "Line": "Dead? "
+            },
+            {
+              "Character": "TIBERIUS",
+              "Line": "Dead. "
+            },
+            {
+              "Character": "THRASILLUS",
+              "Line": "HaHaHa... Dead? "
+            },
+            {
+              "Character": "TIBERIUS",
+              "Line": "Dead. HaHaHa... "
+            },
+            {
+              "Character": "COURIER",
+              "Line": "Sir, all Rome is drowned in grief. "
+            },
+            {
+              "Character": "TIBERIUS",
+              "Line": "Well, of course they are. That's only natural. HaHaHa. What happened? "
+            },
+            {
+              "Character": "COURIER",
+              "Line": "It was terrible. A boating accident. "
+            },
+            {
+              "Character": "TIBERIUS",
+              "Line": "A boating accident? HaHaHa. Where? "
+            },
+            {
+              "Character": "COURIER",
+              "Line": "In Marseilles. He was on his way to Spain. He and his friend. "
+            },
+            {
+              "Character": "TIBERIUS",
+              "Line": "His friend? "
+            },
+            {
+              "Character": "COURIER",
+              "Line": "Caius Plautius Silvanus. They were travelling together. They were waiting for the boat to take them to Spain. And while they waited, they went out fishing. "
+            },
+            {
+              "Character": "TIBERIUS",
+              "Line": "Fishing? HaHaHa. "
+            },
+            {
+              "Character": "COURIER",
+              "Line": "I don't understand. Why are you laughing? "
+            },
+            {
+              "Character": "TIBERIUS",
+              "Line": "Well, it's... It's nervous laughter. Umm. Go on with your story. HaHaHa. Well. go on, go on. "
+            },
+            {
+              "Character": "COURIER",
+              "Line": "The boat overturned. "
+            },
+            {
+              "Character": "TIBERIUS",
+              "Line": "Overturned? HaHaHa. "
+            },
+            {
+              "Character": "COURIER",
+              "Line": "Yes. Shall I go on? Plautius behaved like a hero. He swam for two miles holding on to his friend in a desperate effort to save him, but when he got to the shore, his friend was dead and he himself in a state of total exhaustion. "
+            },
+            {
+              "Character": "TIBERIUS",
+              "Line": "What a terrible thing. Gaius and Lucius within 18 months... and their mother banished in between. You know, that family is beginning to resemble a Greek tragedy. Is your ship returning to Rome? "
+            },
+            {
+              "Character": "COURIER",
+              "Line": "Yes, sir. Tomorrow. "
+            },
+            {
+              "Character": "TIBERIUS",
+              "Line": "We'll join it. You may go now. HaHaHa. Curious the fates are. My exile ended and you predicted it. Brave Thrasyllus. I never lost faith in you.  Tiberius claps Thrasyllus on the shoulder, his eyes glinting with dark amusement. Thrasyllus looks utterly bewildered."
+            }
+          ]
+        },
+        {
+          "Scene": "INT. IMPERIAL PALACE - FORMAL HALL - DAY",
+          "Dialogue": [
+            {
+              "Stage Direction": "A stately, dimly lit hall within the Imperial Palace in Rome. AUGUSTUS, weary but still regal, sits on a simple throne. LIVIA stands beside him, her presence radiating power. TIBERIUS enters, his expression carefully neutral."
+            },
+            {
+              "Character": "AUGUSTUS",
+              "Line": "So, you've come home? "
+            },
+            {
+              "Character": "TIBERIUS",
+              "Line": "Yes, Caesar. I am here to do whatever you want. "
+            },
+            {
+              "Character": "AUGUSTUS",
+              "Line": "Hmmm. Well, let bygones be bygones, eh? Families quarrel. They make it up. That's in the nature of things. My two grandsons are dead. My daughter... People say, \"Bring her back\". They shout at me in the street. Do you know that? \"Wicked!\" they say. \"Bring her back.\" But no, no, no, no. She's not my daughter anymore. I've forgotten her. Anyway, we'll talk later. There's a lot to be done. Trouble in Germany. The Parthians are at it again. That king of theirs always stirring up trouble. I've got his son as a hostage. I swore I'd execute him. But he's such a likeable little chap. Anyway, we'll... We'll talk later. Later. "
+            },
+            {
+              "Character": "LIVIA",
+              "Line": "That likeable little chap he talks about is, in fact, now the king who's causing all the trouble. "
+            },
+            {
+              "Character": "TIBERIUS",
+              "Line": "His mind is going. "
+            },
+            {
+              "Character": "LIVIA",
+              "Line": "Yes. But mine isn't. You'll dine with me tonight and we'll talk. "
+            },
+            {
+              "Character": "TIBERIUS",
+              "Line": "Yes, Mother.  CLAUDIUS, stumbles into the hall, followed by POSTUMUS and HEROD. Claudius tries to engage Postumus. "
+            },
+            {
+              "Character": "CLAUDIUS",
+              "Line": "Ch-ch-cheer up, Postumus. Come and play nuts. What's the m-m-matter? "
+            },
+            {
+              "Character": "POSTUMUS",
+              "Line": "Nothing. "
+            },
+            {
+              "Character": "HEROD",
+              "Line": "Oh, sir, be cheerful. Caesar has adopted you into his family and made you his heir. That is an honor. It means you'll succeed him. "
+            },
+            {
+              "Character": "POSTUMUS",
+              "Line": "Yes, Herod. But he's adopted my stepfather too... and we both can't succeed him, can we? I'm frightened. I want my mother. I want my brothers. Where are they? Where are they?"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

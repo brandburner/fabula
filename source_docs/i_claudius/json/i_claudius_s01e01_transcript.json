@@ -1,0 +1,1785 @@
+{
+  "Story": "I, Claudius",
+  "Airdate": "20 Sep, 1976",
+  "Episodes": [
+    {
+      "Episode": "Part 1 of 13: A Touch of Murder",
+      "Scenes": [
+        {
+          "Scene": "INT. CLAUDIUS'S WRITING CHAMBER - DAY",
+          "Dialogue": [
+            {
+              "Stage Direction": "A dimly lit chamber, scrolls lining the walls, the air thick with the scent of old parchment. ELDERLY CLAUDIUS, late 50s, sits hunched over a writing desk, his face etched with weariness and a hint of madness. He begins to write in a hidden journal."
+            },
+            {
+              "Character": "CLAUDIUS",
+              "Line": "I, Tiberius Claudius Drusus Nero Germanicus, oh, this-that-and-the-other... who was once, and not so long ago, better known to my friends and relatives as Claudius the Idiot, or that Fool Claudius, or Claudius the Stammerer. Am now about to write this strange history of my life."
+            },
+            {
+              "Character": "CLAUDIUS",
+              "Line": "Are you there?  CLAUDIUS (V.O.) Yes you're there, I can feel it. I can feel your presence. Yes. I knew you would come the moment I began to write. Yes. It was inevitable. It was prophesied by the Sybil.  CLAUDIUS (V.O.) Spies. Spies everywhere. Spying on me. In my bed. At my prayers. On the street. "
+            },
+            {
+              "Character": "CLAUDIUS",
+              "Line": "Even in the lavoratory. Spies.  CLAUDIUS (V.O.) I'll cheat them. Every one.  CLAUDIUS (V.O.) It was prophesied by the Sybil. I went to Cumae many years ago to consult her. She was most famous. Her prophecies had achieved worldwide renown and she did not consent to see everyone. Unexpectedly she consented to see me. I was terrified. \"Oh Sybil\", I said, \"I've co-co-come to question you about Rome's fate and mine\". \"Hear me Cla-Cla-Claudius\", she answered, mocking my stammer. \"Apollo speaks to you through me. Listen closely.\""
+            }
+          ]
+        },
+        {
+          "Scene": "EXT. CUMAE - SIBYL'S CAVE - DAY (FLASHBACK)",
+          "Dialogue": [
+            {
+              "Stage Direction": "The mouth of a dark, foreboding cave. CLAUDIUS, younger, more timid, stands before the SIBYL, an ancient woman with piercing eyes."
+            },
+            {
+              "Character": "SYBIL",
+              "Line": "What groans beneath the Punic curse and strangles in the strings of purse before she mends must sicken worse. Ten years, fifty days and three, Cla-Cla-Claudius shall be given thee a gift that all desire but he. But when he's done, and no more here, nineteen hundred year or near, Cla-Cla-Claudius shall speak clear."
+            }
+          ]
+        },
+        {
+          "Scene": "INT. CLAUDIUS'S WRITING CHAMBER - DAY",
+          "Dialogue": [
+            {
+              "Stage Direction": "CLAUDIUS, back in his chamber, looks up from his writing, a flicker of understanding in his eyes."
+            },
+            {
+              "Character": "CLAUDIUS",
+              "Line": "Yes, that's what it means. In nineteen hundred years from now they'll hear me."
+            },
+            {
+              "Character": "CLAUDIUS",
+              "Line": "Not before.  CLAUDIUS (V.O.) No. "
+            },
+            {
+              "Character": "CLAUDIUS",
+              "Line": "A box. I need a box.  CLAUDIUS (V.O.) I'll put all it all in here. My story. My history of the family. Yes. And the end of the Republic. Yes. And when I've finished, I'll seal it up and bury it where no one will find it. "
+            },
+            {
+              "Character": "CLAUDIUS",
+              "Line": "No. No one.  CLAUDIUS (V.O.) Not for nineteen hundred years or more. And then it will turn up. Suddenly. People will read it. They'll know the truth. My voice, as the Sybil said, as she prophesied. For them. Not for these fools in Rome. But for them, out there, in remote posterity. "
+            },
+            {
+              "Character": "CLAUDIUS",
+              "Line": "Yes, for you. Yes, it will all be in here. Sealed. You will find it. I promise you.  CLAUDIUS (V.O.) I, Claudius am now about to begin this strange history of my life, of my family, of LIVIA my grandmother, of AUGUSTUS CAESAR, of MARCUS AGRIPPA, yes, and his hatred for MARCELLUS..."
+            }
+          ]
+        },
+        {
+          "Scene": "INT. IMPERIAL BANQUET HALL - NIGHT",
+          "Dialogue": [
+            {
+              "Stage Direction": "Lavish banquet hall in AUGUSTUS' palace. A long table laden with food. AUGUSTUS CAESAR, the Emperor, sits at the head. Around him are LIVIA, his wife; MARCUS AGRIPPA, his general; MARCELLUS, Augustus' nephew; JULIA, Augustus' daughter; and THALLUS, a servant. The air is thick with perfume and the murmur of conversation."
+            },
+            {
+              "Character": "AUGUSTUS",
+              "Line": "Excellent! Excellent! Thallus... See they're well taken care of, they were splendid, really. "
+            },
+            {
+              "Character": "THALLUS",
+              "Line": "Yes Caesar. "
+            },
+            {
+              "Character": "AUGUSTUS",
+              "Line": "And see they're properly fed. Don't give them the scraps and the leftovers. "
+            },
+            {
+              "Character": "THALLUS",
+              "Line": "They'll eat better even than the kitchen staff, Caesar. "
+            },
+            {
+              "Character": "AUGUSTUS",
+              "Line": "Well, there's no need to go that far. Better than us will be quite sufficient. "
+            },
+            {
+              "Stage Direction": "beat"
+            },
+            {
+              "Character": "AUGUSTUS",
+              "Line": "You know Marcus, I like to eat sparingly. There's too much gluttony in Rome especially at festivals. But this one day I think is very special. I'd like to make an exception. And I've got a surprise for you. Two as a matter of fact. Thallus. "
+            },
+            {
+              "Character": "THALLUS",
+              "Line": "Yes Caesar. "
+            },
+            {
+              "Character": "AUGUSTUS",
+              "Line": "Bring in the cake. "
+            },
+            {
+              "Character": "THALLUS",
+              "Line": "But Caesar it's for the end of the meal. "
+            },
+            {
+              "Character": "AUGUSTUS",
+              "Line": "I can't wait. I want the family to see it. "
+            },
+            {
+              "Stage Direction": "beat"
+            },
+            {
+              "Character": "AUGUSTUS",
+              "Line": "Do you know what else I've got? Aristarchus of Athens is in Rome. Oh Marcus. They say that he's the greatest orator of our time and I've asked him to prepare an oration to mark the seventh anniversary of the Battle of Actium. "
+            },
+            {
+              "Character": "MARCELLUS",
+              "Line": "Oh no! "
+            },
+            {
+              "Character": "AUGUSTUS",
+              "Line": "What's a matter, is it too boring for you? "
+            },
+            {
+              "Character": "MARCELLUS",
+              "Line": "Well, we had one last year. "
+            },
+            {
+              "Character": "AUGUSTUS",
+              "Line": "That was last year and anyway the speaker was very dull. This man they say he's wonderful. "
+            },
+            {
+              "Character": "MARCELLUS",
+              "Line": "\"Seven years today, sank Antony and all his hopes in the harbor of Actium\". "
+            },
+            {
+              "Character": "AUGUSTUS",
+              "Line": "You see how the young mock the battle scars of their elders. "
+            },
+            {
+              "Character": "MARCELLUS",
+              "Line": "Battle scars? "
+            },
+            {
+              "Character": "AGRIPPA",
+              "Line": "A lot of good men died in that battle. And a lot of good men got scared. I don't think it's right to make light of it. "
+            },
+            {
+              "Character": "AUGUSTUS",
+              "Line": "Oh, he's just being provocative. "
+            },
+            {
+              "Character": "MARCELLUS",
+              "Line": "Not really. I just think we exaggerate its significance, that's all. "
+            },
+            {
+              "Character": "AUGUSTUS",
+              "Line": "Now, now, now, Marcellus let's not argue. Marcus... "
+            },
+            {
+              "Character": "AGRIPPA",
+              "Line": "No, no just a minute. Let's hear what the young genius has to say. Well.  **A large cake is brought in, shaped like a ship.** "
+            },
+            {
+              "Character": "AUGUSTUS",
+              "Line": "Look! Here is the cake. "
+            },
+            {
+              "Character": "JULIA",
+              "Line": "Do we get one each. "
+            },
+            {
+              "Character": "AUGUSTUS",
+              "Line": "Julia, for heaven's sake. There Marcus, do you recognize it? "
+            },
+            {
+              "Character": "AGRIPPA",
+              "Line": "Yes. It's my ship. "
+            },
+            {
+              "Character": "AUGUSTUS",
+              "Line": "Yes, it's the one that you made your headquarters. "
+            },
+            {
+              "Character": "AGRIPPA",
+              "Line": "She was a fine ship. "
+            },
+            {
+              "Character": "MARCELLUS",
+              "Line": "Ah, that must be you Marcus, the candied cherry in the prow. "
+            },
+            {
+              "Character": "AUGUSTUS",
+              "Line": "Hahaha. Now Marcellus please, now these things mean something to us. "
+            },
+            {
+              "Character": "MARCELLUS",
+              "Line": "Oh, don't you think we're taking ourselves a little seriously tonight. "
+            },
+            {
+              "Character": "AGRIPPA",
+              "Line": "Not seriously enough it seems to me. "
+            },
+            {
+              "Character": "AUGUSTUS",
+              "Line": "Livia, isn't that a wonderful cake? "
+            },
+            {
+              "Character": "LIVIA",
+              "Line": "Wonderful. "
+            },
+            {
+              "Character": "AUGUSTUS",
+              "Line": "What do you mean wonderful? Don't you like it? "
+            },
+            {
+              "Character": "LIVIA",
+              "Line": "Why don't you bring in the Greek? If you keep him waiting much longer, he'll need a shave. "
+            },
+            {
+              "Character": "AUGUSTUS",
+              "Line": "As a matter of fact, he's bearded.... Thallus, bring in the Greek. "
+            },
+            {
+              "Character": "JULIA",
+              "Line": "Leave the cake. "
+            },
+            {
+              "Character": "AUGUSTUS",
+              "Line": "Take the cake... You know Marcus, they say that he writes a sort of prose hymn. What can that mean? It's a form that I've never heard of. One of these new Greek inventions. They're always inventing something. Why are they so clever? "
+            },
+            {
+              "Character": "MARCELLUS",
+              "Line": "If they're so clever, why are they a province of ours instead of vice versa.  **ARISTARCHUS, a Greek orator, enters, led by Thallus.** "
+            },
+            {
+              "Character": "AUGUSTUS",
+              "Line": "Ah, Aristarchus, welcome. "
+            },
+            {
+              "Character": "ARISTARCHUS",
+              "Line": "Hail Caesar. "
+            },
+            {
+              "Character": "AUGUSTUS",
+              "Line": "I hope we haven't kept you waiting too long. Come, we're ready now... Give us your piece. "
+            },
+            {
+              "Character": "ARISTARCHUS",
+              "Line": "Give me your peace Caesar, and I shall gladly give you mine. "
+            },
+            {
+              "Character": "AUGUSTUS",
+              "Line": "Yes, of course, I'm sorry. Thallus. "
+            },
+            {
+              "Character": "THALLUS",
+              "Line": "Caesar calls for silence! "
+            },
+            {
+              "Character": "ARISTARCHUS",
+              "Line": "What a voice. Perhaps we should change places? Only the Romans can afford ushers with a voice like that. Did you have it trained? "
+            },
+            {
+              "Character": "THALLUS",
+              "Line": "I was an actor, sir. "
+            },
+            {
+              "Character": "ARISTARCHUS",
+              "Line": "Oh, that explains it. Resting, are you? "
+            },
+            {
+              "Character": "THALLUS",
+              "Line": "No sir, I've given it up. Everyone's an actor in Rome, there just isn't enough work to go around. "
+            },
+            {
+              "Character": "ARISTARCHUS",
+              "Line": "And what there is, goes to friends and relatives. It's the same everywhere. "
+            },
+            {
+              "Character": "THALLUS",
+              "Line": "The theatre isn't what it was. "
+            },
+            {
+              "Character": "ARISTARCHUS",
+              "Line": "No, and I'll tell you something else. It never was what it was. "
+            },
+            {
+              "Character": "LIVIA",
+              "Line": "We'd be glad Thallus if you'd discuss your personal problems in your own time. "
+            },
+            {
+              "Character": "ARISTARCHUS",
+              "Line": "Today is a day to drink and dance. Let us rival the priests of Mars with feats to deck the couches of the gods. Seven summers past. The wild queen Cleopatra, dreaming her dreams of ruin on your lovely empire, sailed her hopes into the harbor of Actium. And there with noble Antony spat curses on the ships of Caesar and cried \"sink Rome and all her minions. Egypt's not for conquest\". Ah, but words do not kill and curses sink no ships. Before the wind had changed so she could catch her scented breath, mighty Agrippa...  CLAUDIUS (V.O.) Marcus Vipsanius Agrippa, old friend and commander of the armies of Augustus. Emperor of Rome, a most remarkable man. But even more remarkable who was Livia, his second wife. If Augustus ruled the world, Livia ruled Augustus. Octavia, Augustus' sister, mother of Marcellus. And next to him Julia, his wife, Augustus' only daughter. Augustus was now clearly preferring Marcellus over Agrippa. And Agrippa knew it... "
+            },
+            {
+              "Character": "ARISTARCHUS",
+              "Line": "And Antony. Once proud Antony, fearing to be last, chased her to the very gates of heaven. Romans, remember them. Their fateful deaths grace your lives today with living legend. Your names and theirs, in history, will be forever intertwined. "
+            },
+            {
+              "Character": "AUGUSTUS",
+              "Line": "Wonderful. Wonderful. What a gift you Greeks have. Incidentally, the battle, you know, it wasn't like that. "
+            },
+            {
+              "Character": "ARISTARCHUS",
+              "Line": "No? "
+            },
+            {
+              "Character": "AUGUSTUS",
+              "Line": "No, not at all. But you describe it poetically. I understand that. Use poetic license. I'm used to that. As a matter of fact, I write a little poetry myself. Could I show it to you sometime? "
+            },
+            {
+              "Character": "ARISTARCHUS",
+              "Line": "I'd be honored Caesar. "
+            },
+            {
+              "Character": "AUGUSTUS",
+              "Line": "Oh, it's nothing professional like, but well it's not bad, though I say it myself. Ah, Thallus has found a place for you. There, we'll talk some more later... Wasn't that beautiful? "
+            },
+            {
+              "Character": "AGRIPPA",
+              "Line": "He doesn't know much about naval battles. "
+            },
+            {
+              "Character": "MARCELLUS",
+              "Line": "Well, it wasn't that much a battle was it? "
+            },
+            {
+              "Character": "AGRIPPA",
+              "Line": "I beg your pardon? "
+            },
+            {
+              "Character": "MARCELLUS",
+              "Line": "Well, one wine soaked lover and his Egyptian whore. I could've put up a better show myself and I was only a child. "
+            },
+            {
+              "Character": "AUGUSTUS",
+              "Line": "Now, now, now Marcellus. "
+            },
+            {
+              "Character": "MARCELLUS",
+              "Line": "Come, let's not fool ourselves just because we fool the public. "
+            },
+            {
+              "Character": "AGRIPPA",
+              "Line": "You know a great deal about it do you? "
+            },
+            {
+              "Character": "MARCELLUS",
+              "Line": "Yes, I do. I've studied that battle and I'm not impressed. You talk about it as if it was some kind of famous victory, when in fact the result was a foregone conclusion. "
+            },
+            {
+              "Character": "AUGUSTUS",
+              "Line": "Look, why don't we all watch the acrobats... "
+            },
+            {
+              "Character": "AGRIPPA",
+              "Line": "No, just a minute. I'm getting a little tired of being taught the arts of war by kids who've only just learned how to piss in a pot. When you've actually done something lad, instead of just studied it, come back and talk to me again. You'll excuse me. "
+            },
+            {
+              "Character": "AUGUSTUS",
+              "Line": "Oh, Marcus, it's early. "
+            },
+            {
+              "Character": "AGRIPPA",
+              "Line": "Seems late to me. Too late. But perhaps that's because I'm such an old man. "
+            },
+            {
+              "Character": "AUGUSTUS",
+              "Line": "Thallus! Oh, get rid of them. Marcus... Marcus...  CLAUDIUS (V.O.) My grandmother Livia. Her mind always turning. Always scheming. And I - Claudius? You ask where am I? I am not yet born but will be, soon. But now I must continue with the story of the rivalry between Marcellus and Agrippa."
+            }
+          ]
+        },
+        {
+          "Scene": "INT. LIVIA'S CHAMBERS - NIGHT",
+          "Dialogue": [
+            {
+              "Stage Direction": "LIVIA's private chambers. She is in conversation with her servant, PYLADES."
+            },
+            {
+              "Character": "PYLADES",
+              "Line": "[_knocking_] Yes? Yes? "
+            },
+            {
+              "Character": "LIVIA",
+              "Line": "Caesar is asking for you lady. "
+            },
+            {
+              "Character": "PYLADES",
+              "Line": "Yes, I'll come soon. "
+            },
+            {
+              "Character": "LIVIA",
+              "Line": "He says at once. Marcus Vipsanius Agrippa is with him. "
+            },
+            {
+              "Character": "PYLADES",
+              "Line": "[_Tiberius_] You'd better come down and wait outside..."
+            }
+          ]
+        },
+        {
+          "Scene": "INT. PALACE - PRIVATE AUDIENCE CHAMBER - DAY",
+          "Dialogue": [
+            {
+              "Stage Direction": "A quiet, formal room within the palace. AUGUSTUS, the Roman Emperor, sits on a gilded chair, facing MARCUS AGRIPPA. LIVIA stands slightly behind Augustus, observing the exchange with a subtle, calculating gaze. Sunlight filters through sheer curtains, illuminating dust motes dancing in the air, adding to the sense of restrained tension."
+            },
+            {
+              "Character": "AUGUSTUS",
+              "Line": "I don't understand you. You want to leave Rome but you won't say why. "
+            },
+            {
+              "Character": "AGRIPPA",
+              "Line": "I told you why. You don't need me here anymore. "
+            },
+            {
+              "Character": "AUGUSTUS",
+              "Line": "Let me be the judge of that. "
+            },
+            {
+              "Character": "AGRIPPA",
+              "Line": "I'm of no use to the empire. Appoint me governor of Syria and I'll deal with that Parthian king. It's about time someone dealt with him. "
+            },
+            {
+              "Stage Direction": "to Livia"
+            },
+            {
+              "Character": "AUGUSTUS",
+              "Line": "He wants to leave Rome. "
+            },
+            {
+              "Character": "LIVIA",
+              "Line": "Why, Marcus? "
+            },
+            {
+              "Character": "AGRIPPA",
+              "Line": "I told him why. He doesn't need me in Rome anymore. "
+            },
+            {
+              "Character": "AUGUSTUS",
+              "Line": "That's not the reason. You're not being straight with me. "
+            },
+            {
+              "Character": "AGRIPPA",
+              "Line": "Not straight? Oh no. Oh no, don't say that to me. If there's one man been straight with you, that man is Marcus Vipsanius Agrippa. "
+            },
+            {
+              "Character": "AUGUSTUS",
+              "Line": "Is it Marcellus? "
+            },
+            {
+              "Character": "AGRIPPA",
+              "Line": "Marcellus? Oh, what's he got to do with it? "
+            },
+            {
+              "Character": "AUGUSTUS",
+              "Line": "I don't know. I thought perhaps you objected to my appointing him City Magistrate. "
+            },
+            {
+              "Character": "AGRIPPA",
+              "Line": "It's got nothing to do with Marcellus. Except of course he's such a capable young man, he's just another reason why you don't need me here. "
+            },
+            {
+              "Character": "AUGUSTUS",
+              "Line": "Look Marcus, we're old friends. We've shared a lot of campaigns together. If Marcellus has upset you... "
+            },
+            {
+              "Stage Direction": "turning to Livia"
+            },
+            {
+              "Character": "AGRIPPA",
+              "Line": "Oh lady, talk to him. He thinks I resent Marcellus. I'm very fond of the boy. "
+            },
+            {
+              "Character": "LIVIA",
+              "Line": "We all are. "
+            },
+            {
+              "Character": "AGRIPPA",
+              "Line": "If his friends get a little high handed, well I was young once too and had friends. Ah yes, the greatest friend a man ever had. "
+            },
+            {
+              "Character": "AUGUSTUS",
+              "Line": "Marcus. "
+            },
+            {
+              "Character": "AGRIPPA",
+              "Line": "I admit it. Why shouldn't I. I'm not a man to hide my feelings. "
+            },
+            {
+              "Character": "AUGUSTUS",
+              "Line": "You know I feel the same. "
+            },
+            {
+              "Character": "AGRIPPA",
+              "Line": "Of course I do. I'd have gone long ago if I hadn't thought that. That is why I can say to you now that I've got nothing against Marcellus. Nothing. He's a very gifted young man. If you've advanced him a little ahead of his years, well that's only natural too. "
+            },
+            {
+              "Character": "AUGUSTUS",
+              "Line": "Well, I'm very relieved to hear it. I know there's been friction. Oh, I mean not between you and him, but between his followers and yours. "
+            },
+            {
+              "Character": "AGRIPPA",
+              "Line": "Followers? Who has followers? Oh, he may have followers, I don't know about that. Such things don't even come within my notice. But me? I have followers? Show me where are my followers. Lady, do you see any? "
+            },
+            {
+              "Character": "AUGUSTUS",
+              "Line": "No, no, no. Not followers, you know, but people they like to make factions. And that can make bad feeling quicker than boiled asparagus. "
+            },
+            {
+              "Character": "AGRIPPA",
+              "Line": "There's no bad feeling. "
+            },
+            {
+              "Character": "AUGUSTUS",
+              "Line": "Well, you've put my mind at rest. If you feel that you have to leave Rome. "
+            },
+            {
+              "Character": "AGRIPPA",
+              "Line": "I don't feel I have to leave, I just think I could be more use in the East... Of course, if you feel you really need me in Rome... "
+            },
+            {
+              "Character": "AUGUSTUS",
+              "Line": "No, no, no, no, no. I'm sure you're right. You usually are. Your instincts are always very sound. When will you leave? "
+            },
+            {
+              "Character": "AGRIPPA",
+              "Line": "In a few days. "
+            },
+            {
+              "Character": "AUGUSTUS",
+              "Line": "Then we'll have all Rome and Ostia to see you off. For the Senate and the people of Rome eh? "
+            },
+            {
+              "Character": "AGRIPPA",
+              "Line": "For the Senate and the people of Rome! "
+            },
+            {
+              "Character": "AUGUSTUS",
+              "Line": "Goodbye old friend. "
+            },
+            {
+              "Character": "AGRIPPA",
+              "Line": "Goodbye.  Agrippa EXITS. Augustus watches him go, a flicker of anger in his eyes. Livia remains impassive. "
+            },
+            {
+              "Character": "AUGUSTUS",
+              "Line": "Damn him. Who does he think he is? "
+            },
+            {
+              "Character": "LIVIA",
+              "Line": "We know whom he thinks he is. Your successor. "
+            },
+            {
+              "Character": "AUGUSTUS",
+              "Line": "He's too old. I need to groom a younger man. "
+            },
+            {
+              "Character": "LIVIA",
+              "Line": "We can't do without Marcus Agrippa. Give him four or five months then call him back. "
+            },
+            {
+              "Character": "AUGUSTUS",
+              "Line": "No. "
+            },
+            {
+              "Character": "LIVIA",
+              "Line": "Do it my dear. Better to call him back when you don't need him then have to humble yourself when you do. "
+            },
+            {
+              "Character": "AUGUSTUS",
+              "Line": "No! I know what I'm doing. "
+            },
+            {
+              "Character": "LIVIA",
+              "Line": "My son is waiting outside to pay his respects and take his leave. Will you see him? "
+            },
+            {
+              "Character": "AUGUSTUS",
+              "Line": "Yes, of course..."
+            }
+          ]
+        },
+        {
+          "Scene": "INT. PALACE - PRIVATE AUDIENCE CHAMBER - CONTINUOUS",
+          "Dialogue": [
+            {
+              "Stage Direction": "A moment later. TIBERIUS enters. He bows stiffly before Augustus."
+            },
+            {
+              "Character": "AUGUSTUS",
+              "Line": "Ah, Tiberius. You're off to join our troops in Germany? "
+            },
+            {
+              "Character": "TIBERIUS",
+              "Line": "Yes Caesar. "
+            },
+            {
+              "Character": "AUGUSTUS",
+              "Line": "Yes, well I'm sure you'll do well for us. And remember that we need good generals. The empire won't hold together without. Now, write to me, tell me all what's going on. I like to have views from all sides. It helps me to make up my mind about things. Yes. And now I have things to do. Yes, yes, many things. Well, the best of luck go with you and all the muses...  Augustus EXITS abruptly, leaving Tiberius and Livia alone. Tiberius stares after him, his expression unreadable. "
+            },
+            {
+              "Character": "LIVIA",
+              "Line": "gah... "
+            },
+            {
+              "Character": "TIBERIUS",
+              "Line": "I could have saved myself the trouble. "
+            },
+            {
+              "Character": "LIVIA",
+              "Line": "Oh, you're so keen to save yourself trouble. Did that cost you so much - a hail and farewell? "
+            },
+            {
+              "Character": "TIBERIUS",
+              "Line": "He doesn't like me. "
+            },
+            {
+              "Character": "LIVIA",
+              "Line": "Well. We can't all be lovable, though we can all try a little harder. "
+            },
+            {
+              "Character": "TIBERIUS",
+              "Line": "Well, it's my nature and I can't change it now. "
+            },
+            {
+              "Character": "LIVIA",
+              "Line": "And wouldn't if you could, I suspect. You've a mighty high opinion of yourself on the equite didn't you. "
+            },
+            {
+              "Character": "TIBERIUS",
+              "Line": "No wonder you didn't transfer your hopes to my brother. "
+            },
+            {
+              "Character": "LIVIA",
+              "Line": "I might have done that long ago, if he didn't share the same idiotic hopes your father had of the return of the Republic. Besides, I took the auspices when you were born and they were very favorable. "
+            },
+            {
+              "Character": "TIBERIUS",
+              "Line": "Oh, not that old chicken story again. "
+            },
+            {
+              "Character": "LIVIA",
+              "Line": "You may sneer all you like, but I marked a Zodiac on the floor of the hen-house and a chicken came down and rested on your birth sign. I took its egg and warmed it in my hands and it hatched - a young cock chick, and it already had a fine comb on its head... You haven't much patience, have you? You want everything at once. Twenty years ago, Augustus ruled with Mark Antony, but I could see that wouldn't last - I could see that soon one man would be king. So I divorced your father and married Augustus and waited. Now where would I be now if I'd wanted everything at once, eh? And by the same token where would you be? "
+            },
+            {
+              "Character": "TIBERIUS",
+              "Line": "Well, where am I now? For all your patience and your prophetic chickens? "
+            },
+            {
+              "Character": "LIVIA",
+              "Line": "You are my son and I am Augustus' wife - that's where you are. And in the long run, that's better than being anybody else, even Marcellus or Marcus Agrippa... And, Now you may kiss me and take your leave... Remember my prophetic chickens and have patience, hmmm. Do well on the Rhine. Your brother is covering himself with glory in Illyricum. We mustn't fall behind. "
+            },
+            {
+              "Character": "TIBERIUS",
+              "Line": "Well, have I ever? "
+            },
+            {
+              "Character": "LIVIA",
+              "Line": "No. When it comes to the less imaginative arts, you are certainly to be relied upon.  CLAUDIUS (V.O.) And now my grandmother's mind turned more and more towards the removal of Marcellus."
+            }
+          ]
+        },
+        {
+          "Scene": "INT. CLAUDIAN VILLA - SITTING ROOM - DAY",
+          "Dialogue": [
+            {
+              "Stage Direction": "Sunlight filters through sheer curtains into a comfortably appointed sitting room. LIVIA, imperious and shrewd, sits near a loom. ANTONIA, young and pretty, is weaving. OCTAVIA watches them with a weary expression. MARCELLUS and JULIA lounge nearby."
+            },
+            {
+              "Character": "LIVIA",
+              "Line": "Who've you been weaving that for? "
+            },
+            {
+              "Character": "ANTONIA",
+              "Line": "For Uncle. "
+            },
+            {
+              "Character": "LIVIA",
+              "Line": "He's got enough cloth upstairs to outfit the army. "
+            },
+            {
+              "Character": "ANTONIA",
+              "Line": "He likes the way I weave, doesn't he mother? He says I have a very tight hand. "
+            },
+            {
+              "Character": "LIVIA",
+              "Line": "Why didn't you weave something for the rest of us? Is AUGUSTUS the only one who wears clothes?  AUGUSTUS enters, beaming. "
+            },
+            {
+              "Character": "AUGUSTUS",
+              "Line": "Antonia, come here? "
+            },
+            {
+              "Character": "ANTONIA",
+              "Line": "Coming Uncle.  Augustus examines the weaving. "
+            },
+            {
+              "Character": "AUGUSTUS",
+              "Line": "Look at this little creature. Now, you tell me what it is? "
+            },
+            {
+              "Character": "LIVIA",
+              "Line": "She's very pretty. She looks like her father. He was very pretty. "
+            },
+            {
+              "Character": "OCTAVIA",
+              "Line": "Too pretty. "
+            },
+            {
+              "Character": "LIVIA",
+              "Line": "Oh, I don't know. Pleasant I would think if he's your husband. "
+            },
+            {
+              "Character": "OCTAVIA",
+              "Line": "It was no great pleasure being MARK ANTONY's wife. "
+            },
+            {
+              "Character": "MARCELLUS",
+              "Line": "Good day, Mother... Oh, you look a little piqued. Are you feeling well? ... Lady. "
+            },
+            {
+              "Character": "OCTAVIA",
+              "Line": "I slept badly last night. There seems to be so much noise in the streets at night. Can't we do something about it? "
+            },
+            {
+              "Character": "MARCELLUS",
+              "Line": "Well, the traffic must move sometime. Would you have it moving during the day and congest all the streets? "
+            },
+            {
+              "Character": "JULIA",
+              "Line": "There's too many people in Rome. They keep on coming in and coming in from everywhere. Syria, Gaul. Germany. "
+            },
+            {
+              "Character": "MARCELLUS",
+              "Line": "But they're the life blood of the city Julia. They make Rome what it is. "
+            },
+            {
+              "Character": "JULIA",
+              "Line": "Noisy, garish and uninhabitable! I should be glad to get away and it will be even worse when the Games begin.  AUGUSTUS picks up a pear from a bowl. "
+            },
+            {
+              "Character": "AUGUSTUS",
+              "Line": "Look at that! Isn't it a beauty. "
+            },
+            {
+              "Character": "MARCELLUS",
+              "Line": "Off your tree? "
+            },
+            {
+              "Character": "AUGUSTUS",
+              "Line": "Of course. You know, you should eat more pears, Livia, they're very good for the skin. "
+            },
+            {
+              "Character": "LIVIA",
+              "Line": "Well, how can I eat them? You pick them all. "
+            },
+            {
+              "Character": "AUGUSTUS",
+              "Line": "Well, I can have some more sent up from the country... Marcellus, we must talk about these games of yours. "
+            },
+            {
+              "Character": "MARCELLUS",
+              "Line": "Yes. Now I want to do something new. "
+            },
+            {
+              "Character": "AUGUSTUS",
+              "Line": "Oh, that sounds familiar. "
+            },
+            {
+              "Character": "MARCELLUS",
+              "Line": "Well, if I'm to celebrate my appointment as City Magistrate, I want people to remember it. "
+            },
+            {
+              "Character": "AUGUSTUS",
+              "Line": "And, what earth quaking innovations are we to see? Giraffes? Riding elephants? "
+            },
+            {
+              "Character": "MARCELLUS",
+              "Line": "I want to tent in all the theatres and hang them with tapestries. I want to turn the whole marketplace into a gigantic multi-colored marquee. Cover it. "
+            },
+            {
+              "Character": "AUGUSTUS",
+              "Line": "That's all? "
+            },
+            {
+              "Character": "MARCELLUS",
+              "Line": "No. I have an idea for a pitched battle between 50 Germans and 50 blacks from Morocco. "
+            },
+            {
+              "Character": "AUGUSTUS",
+              "Line": "Yes. And who's going to pay for all this? "
+            },
+            {
+              "Character": "OCTAVIA",
+              "Line": "I am, for part. And so are you. "
+            },
+            {
+              "Character": "AUGUSTUS",
+              "Line": "Yes, that's what I thought. Come on. Would you consider 20 Germans against 20 black Moroccans? "
+            },
+            {
+              "Character": "OCTAVIA",
+              "Line": "He spoils him. "
+            },
+            {
+              "Character": "LIVIA",
+              "Line": "It would be hard not to. He has such winning ways. "
+            },
+            {
+              "Character": "JULIA",
+              "Line": "Oh, yes, he has winning ways all right. People are always falling over themselves to do things for him. "
+            },
+            {
+              "Character": "OCTAVIA",
+              "Line": "I must go in. It's too hot. Come, Antonia, I think you should lie down. "
+            },
+            {
+              "Character": "ANTONIA",
+              "Line": "Coming, Mother.  Julia watches them leave, a subtle expression on her face. Livia observes her. "
+            },
+            {
+              "Character": "JULIA",
+              "Line": "I gather there was some opposition in the Senate to Marcellus becoming a City Magistrate. "
+            },
+            {
+              "Character": "LIVIA",
+              "Line": "Oh, nothing to speak of. Some friends of Agrippa that's all. Ha. They're always ready to remind your father there are no kings in Rome. "
+            },
+            {
+              "Character": "JULIA",
+              "Line": "I don't know why he bothers to put up with the farce of the Senate at all. "
+            },
+            {
+              "Character": "LIVIA",
+              "Line": "Well, your father observes the forms. It's very important. Romans like to believe they govern themselves. "
+            },
+            {
+              "Character": "JULIA",
+              "Line": "Oh, the older ones do perhaps, but I don't think it matters to us. You should hear Marcellus' friends talk. "
+            },
+            {
+              "Character": "LIVIA",
+              "Line": "He's very popular, isn't he? "
+            },
+            {
+              "Character": "JULIA",
+              "Line": "Yes. "
+            },
+            {
+              "Character": "LIVIA",
+              "Line": "With you too? "
+            },
+            {
+              "Character": "JULIA",
+              "Line": "Why do you ask? "
+            },
+            {
+              "Character": "LIVIA",
+              "Line": "Well, there are no children yet. "
+            },
+            {
+              "Character": "JULIA",
+              "Line": "There's no issue between you and Father and you've been married for 20 years. "
+            },
+            {
+              "Character": "LIVIA",
+              "Line": "True. Still. I'm very happy with your father. "
+            },
+            {
+              "Character": "JULIA",
+              "Line": "And I am with Marcellus. "
+            },
+            {
+              "Character": "LIVIA",
+              "Line": "Well, I'm very pleased to hear it. There's no substitute for a happy marriage you know. "
+            },
+            {
+              "Character": "JULIA",
+              "Line": "No... Mind you, they seem to be few and far between these days. I always thought Tiberius was very lucky with his Vipsania. "
+            },
+            {
+              "Character": "LIVIA",
+              "Line": "Yes. Yes, they are very much in love. You know, when I first married your father, you were a little girl and Tiberius was a little boy and you used to play together. Do you remember that? "
+            },
+            {
+              "Character": "JULIA",
+              "Line": "Yes, I remember. "
+            },
+            {
+              "Character": "LIVIA",
+              "Line": "And then when you grew up, you seemed so fond of one another. I once had hopes... "
+            },
+            {
+              "Character": "JULIA",
+              "Line": "Yes, I used to adore him. How foolish one is when one is young."
+            }
+          ]
+        },
+        {
+          "Scene": "INT. ROMAN COLISEUM - DAY",
+          "Dialogue": [
+            {
+              "Stage Direction": "AUGUSTUS and LIVIA sit in the imperial box at the Games. The roar of the crowd is deafening. Augustus fidgets, while Livia calmly reads letters."
+            },
+            {
+              "Character": "AUGUSTUS",
+              "Line": "I wish to await the arrival of Marcellus... My dear, you're not going to read letters and petitions during the performance? "
+            },
+            {
+              "Character": "LIVIA",
+              "Line": "I see no reason to sit here doing nothing while we wait for the games to begin. "
+            },
+            {
+              "Character": "AUGUSTUS",
+              "Line": "Oh, it looks so bad. "
+            },
+            {
+              "Character": "LIVIA",
+              "Line": "Shish. These are urgent stop fussing. "
+            },
+            {
+              "Character": "AUGUSTUS",
+              "Line": "My great uncle JULIUS used to do it and the crowd never liked it... Oh... Wait till you see what Marcellus has arranged. He's got a rhinoceros. "
+            },
+            {
+              "Character": "LIVIA",
+              "Line": "What's that? "
+            },
+            {
+              "Character": "AUGUSTUS",
+              "Line": "Well, it's an extraordinary beast. It's got a horn on its nose. "
+            },
+            {
+              "Character": "LIVIA",
+              "Line": "So has Scipio's wife. He could have used her.  MARCELLUS, JULIA and OCTAVIA arrive to a thunderous ovation. "
+            },
+            {
+              "Character": "AUGUSTUS",
+              "Line": "Ah, Marcellus. We've been waiting for you. Julia. Octavia... Marcellus!  The crowd roars its approval. "
+            },
+            {
+              "Stage Direction": "to Livia"
+            },
+            {
+              "Character": "AUGUSTUS",
+              "Line": "I told you he was popular. "
+            },
+            {
+              "Character": "MARCELLUS",
+              "Line": "Let the Games begin!"
+            }
+          ]
+        },
+        {
+          "Scene": "INT. CLAUDIAN VILLA - HALLWAY - NIGHT",
+          "Dialogue": [
+            {
+              "Stage Direction": "AUGUSTUS walks down a hallway, concerned. He finds LIVIA looking unwell."
+            },
+            {
+              "Character": "AUGUSTUS",
+              "Line": "Are you all right? "
+            },
+            {
+              "Character": "LIVIA",
+              "Line": "I have a headache. "
+            },
+            {
+              "Character": "AUGUSTUS",
+              "Line": "What a shame. The games are wonderful. Can't you come back?  Livia shakes her head. "
+            },
+            {
+              "Character": "MARCELLUS",
+              "Line": "No. "
+            },
+            {
+              "Character": "AUGUSTUS",
+              "Line": "Marcellus is a huge success. "
+            },
+            {
+              "Character": "LIVIA",
+              "Line": "Yes. Yes, I could see that. "
+            },
+            {
+              "Character": "AUGUSTUS",
+              "Line": "Yes, well... I'll go back to the Games... You're not worried about me leaving, are you? You'll have Marcellus. He can do all my work. "
+            },
+            {
+              "Character": "LIVIA",
+              "Line": "How long will you be gone? "
+            },
+            {
+              "Character": "AUGUSTUS",
+              "Line": "About four or five months. I haven't been to the Eastern provinces for years, it's time I did. "
+            },
+            {
+              "Character": "LIVIA",
+              "Line": "Will you see Agrippa? "
+            },
+            {
+              "Character": "AUGUSTUS",
+              "Line": "No, why should I? He never got any further than Lesbos. He sent his deputy to govern Syria. He's got a nerve. Well. I can manage without him now. He can see that. Now let him stew. I don't need him... Are you sure you're all right? ... Well. I'll, I'll go back to the Games."
+            }
+          ]
+        },
+        {
+          "Scene": "INT. LIVIA'S CHAMBERS - DAY",
+          "Dialogue": [
+            {
+              "Stage Direction": "PYLADES knocks on Livia's door."
+            },
+            {
+              "Stage Direction": "knocking on Livia's door"
+            },
+            {
+              "Character": "PYLADES",
+              "Line": "Yes... "
+            },
+            {
+              "Character": "LIVIA",
+              "Line": "Are there any letters from the Emperor? "
+            },
+            {
+              "Character": "PYLADES",
+              "Line": "No, Lady, but one has arrived for my lord Marcellus. "
+            },
+            {
+              "Character": "LIVIA",
+              "Line": "Ah, now when you take that to him, ask him would he be good enough to come and see me before dinner? There are some names on this citizens role I want to discuss. "
+            },
+            {
+              "Character": "PYLADES",
+              "Line": "He already has the letter, but it seems my lord Marcellus is in bed and has been seeing no one today. "
+            },
+            {
+              "Character": "LIVIA",
+              "Line": "Oh, what's the matter with him? "
+            },
+            {
+              "Character": "PYLADES",
+              "Line": "Oh, a chill on the stomach that's all... It's a pity his wife and mother went away."
+            }
+          ]
+        },
+        {
+          "Scene": "INT. MARCELLUS'S CHAMBERS - DAY",
+          "Dialogue": [
+            {
+              "Stage Direction": "A dimly lit room. MARCELLUS, pale and sweating, lies in bed. MUSA, a concerned physician, tends to him. LIVIA enters, her expression a mask of concern."
+            },
+            {
+              "Stage Direction": "knocking"
+            },
+            {
+              "Character": "LIVIA",
+              "Line": "Yes?  SLAVE (O.S.)"
+            },
+            {
+              "Stage Direction": "muffled"
+            },
+            {
+              "Character": "LIVIA",
+              "Line": "The Lady Livia has called, master. "
+            },
+            {
+              "Character": "MARCELLUS",
+              "Line": "Ask her to come in... I can't stay in bed all day, I've got too much to do. "
+            },
+            {
+              "Character": "MUSA",
+              "Line": "If you get up now, you'll be in bed all tomorrow, I promise you. "
+            },
+            {
+              "Character": "LIVIA",
+              "Line": "Wise, Musa, wise... Marcellus! "
+            },
+            {
+              "Character": "MARCELLUS",
+              "Line": "Oh, it's nothing, Lady. It's a summer chill that's got on the stomach. I've worked through worse than this.  Livia approaches the bed, her eyes scrutinizing Marcellus. "
+            },
+            {
+              "Character": "LIVIA",
+              "Line": "Have you eaten? "
+            },
+            {
+              "Character": "MUSA",
+              "Line": "He can't keep anything down. It's natural. Perfectly natural. "
+            },
+            {
+              "Character": "LIVIA",
+              "Line": "Well, it's natural if the food doesn't agree with him. I nursed Augustus all last summer, do you remember? And he ate everything I prepared for him. Everything. "
+            },
+            {
+              "Character": "MARCELLUS",
+              "Line": "I'll, I'll be well tomorrow. "
+            },
+            {
+              "Character": "LIVIA",
+              "Line": "These summer chills can be dangerous. Augustus was nearly carried off by one. "
+            },
+            {
+              "Character": "MARCELLUS",
+              "Line": "I'm not so easily disposed of. "
+            },
+            {
+              "Character": "LIVIA",
+              "Line": "I'd never forgive myself if anything happened to you. "
+            },
+            {
+              "Character": "MARCELLUS",
+              "Line": "What can happen to me? I wouldn't think of it. My mother and Julia will..  Livia places a cool hand on Marcellus's forehead. "
+            },
+            {
+              "Character": "LIVIA",
+              "Line": "Exactly. Your mother and Julia. And how, tell me, should I face them if anything did happen? Oh, there, there, there... I shall move my room next to yours and I shall prepare all your food myself. You'll see what dainty little things can be served up to tempt a weak appetite. "
+            },
+            {
+              "Character": "MARCELLUS",
+              "Line": "But it's a chill. Nothing more. Musa assures me. "
+            },
+            {
+              "Character": "LIVIA",
+              "Line": "I wouldn't pay too much attention to Musa, if I were you. He thinks he cured Augustus with his potions, but it was my nursing that did it. And I shall nurse you. "
+            },
+            {
+              "Character": "MARCELLUS",
+              "Line": "Lady... "
+            },
+            {
+              "Character": "LIVIA",
+              "Line": "No. No arguments. "
+            },
+            {
+              "Character": "MARCELLUS",
+              "Line": "But why go to all the trouble? "
+            },
+            {
+              "Character": "LIVIA",
+              "Line": "I insist. "
+            },
+            {
+              "Character": "MARCELLUS",
+              "Line": "It's very good of you. "
+            },
+            {
+              "Character": "LIVIA",
+              "Line": "No, no, no, my dear. Goodness has nothing to do with it.  Musa rushes to the door, agitated. "
+            },
+            {
+              "Stage Direction": "knocking on Livia's door"
+            },
+            {
+              "Character": "MUSA",
+              "Line": "It's Musa, Lady. He's getting worse. Much worse. "
+            },
+            {
+              "Character": "LIVIA",
+              "Line": "Yes. I'll come soon. "
+            },
+            {
+              "Character": "MUSA",
+              "Line": "We ought to inform his wife and his mother. They should be here. "
+            },
+            {
+              "Character": "LIVIA",
+              "Line": "No. You exaggerate. Things have to get worse before they get better. "
+            },
+            {
+              "Character": "MUSA",
+              "Line": "But he keeps nothing down. Nothing. "
+            },
+            {
+              "Character": "LIVIA",
+              "Line": "Yes, that is worrying, isn't it? "
+            },
+            {
+              "Character": "MUSA",
+              "Line": "He's bringing up green slime. I've never seen anything like it.  Livia rises, her eyes widening slightly. "
+            },
+            {
+              "Stage Direction": "opens door"
+            },
+            {
+              "Character": "LIVIA",
+              "Line": "Green, you say? "
+            },
+            {
+              "Character": "MUSA",
+              "Line": "Yes. Yes. Have you see it before? "
+            },
+            {
+              "Character": "LIVIA",
+              "Line": "No. No, I've never see green before. Well, perhaps it's a good sign. "
+            },
+            {
+              "Character": "MUSA",
+              "Line": "Forgive me, Lady."
+            }
+          ]
+        },
+        {
+          "Scene": "INT. LIVIA'S STUDY - DAY",
+          "Dialogue": [
+            {
+              "Stage Direction": "A richly decorated study. LIVIA sits opposite TIBERIUS, who looks uncomfortable."
+            },
+            {
+              "Character": "LIVIA",
+              "Line": "You're thinner... But you look better. The life of the legions agrees with you. "
+            },
+            {
+              "Character": "TIBERIUS",
+              "Line": "Have I ever complained about the life of the legions? Frankly, I'd be as soon be in camp on the Rhine as here. "
+            },
+            {
+              "Character": "LIVIA",
+              "Line": "I had to call you back. Augustus is still in Greece touring the provinces and Marcellus... "
+            },
+            {
+              "Character": "TIBERIUS",
+              "Line": "How is he? "
+            },
+            {
+              "Character": "LIVIA",
+              "Line": "I think he may die. "
+            },
+            {
+              "Character": "TIBERIUS",
+              "Line": "Has Augustus been told? "
+            },
+            {
+              "Character": "LIVIA",
+              "Line": "Well, yes, of course. As soon as it began to look serious. "
+            },
+            {
+              "Character": "TIBERIUS",
+              "Line": "When did he fall ill? "
+            },
+            {
+              "Character": "LIVIA",
+              "Line": "About a month ago. Musa said it was just a chill on the stomach but I could see it was more serious than that, so I decided I'd nurse him myself... Well. His wife and mother were away. I've been at his side day and night. I prepare all his food myself and I see that he eats it. "
+            },
+            {
+              "Character": "TIBERIUS",
+              "Line": "Frankly, I wouldn't have thought you'd care whether he lived or died. "
+            },
+            {
+              "Character": "LIVIA",
+              "Line": "Oh, I care very much whether he lives or dies. "
+            },
+            {
+              "Character": "TIBERIUS",
+              "Line": "Have Julia and his mother been told? "
+            },
+            {
+              "Character": "LIVIA",
+              "Line": "Yes, of course. They're with him now. They returned at once. Julia is being hysterical, of course, And his mother never stops praying. "
+            },
+            {
+              "Character": "TIBERIUS",
+              "Line": "Well, let's hope that her prayers are heard. "
+            },
+            {
+              "Character": "LIVIA",
+              "Line": "Yes, indeed. And mine too... Tell me... What do you think of Julia? "
+            },
+            {
+              "Character": "TIBERIUS",
+              "Line": "Nothing. Why? "
+            },
+            {
+              "Character": "LIVIA",
+              "Line": "Nobody could accuse you of being devious. She thinks very well of you. "
+            },
+            {
+              "Character": "TIBERIUS",
+              "Line": "What's that supposed to mean? "
+            },
+            {
+              "Character": "LIVIA",
+              "Line": "Nothing. She likes you, that's all. Always has. "
+            },
+            {
+              "Character": "TIBERIUS",
+              "Line": "Mother, I'm a happily married man. Julia doesn't interest me. She wouldn't interest me if you hung her naked from the ceiling above my bed. "
+            },
+            {
+              "Character": "LIVIA",
+              "Line": "She might even do that if I asked her! "
+            },
+            {
+              "Character": "TIBERIUS",
+              "Line": "Aren't you forgetting something? She's still married to Marcellus and Marcellus is not dead yet. "
+            },
+            {
+              "Character": "LIVIA",
+              "Line": "When I start to forget things, you may light my funeral pyre and put me on it. Dead or alive. "
+            },
+            {
+              "Character": "TIBERIUS",
+              "Line": "Well, don't ask me to divorce Vipsania because I won't do it. "
+            },
+            {
+              "Character": "LIVIA",
+              "Line": "Oh, what a lover we have here! Did you bring back a pocketful of poems from the Rhine? "
+            },
+            {
+              "Character": "TIBERIUS",
+              "Line": "You may scoff all you like. Vipsania's the only thing in the world that means anything to me. "
+            },
+            {
+              "Character": "LIVIA",
+              "Line": "I always thought a boy's mother meant something. "
+            },
+            {
+              "Character": "TIBERIUS",
+              "Line": "Well. You do mean something, but so does she. So don't ask me to push her aside. "
+            },
+            {
+              "Character": "LIVIA",
+              "Line": "I may ask more than that before I finish. "
+            },
+            {
+              "Character": "TIBERIUS",
+              "Line": "Anyway, where does all this get us? There's not only Marcellus, there's Agrippa too, and Augustus prefers both of them to me.  Suddenly, a piercing scream shatters the air.  JULIA (O.S.)"
+            },
+            {
+              "Stage Direction": "screams"
+            },
+            {
+              "Character": "TIBERIUS",
+              "Line": "No! No! "
+            },
+            {
+              "Character": "TIBERIUS",
+              "Line": "Ye gods! What's that?  JULIA (O.S.) No!. "
+            },
+            {
+              "Character": "LIVIA",
+              "Line": "It sounds as if there is now only Agrippa.  JULIA (O.S.) He's dead! "
+            },
+            {
+              "Character": "LIVIA",
+              "Line": "Julia!  JULIA (O.S.) He's dead! "
+            },
+            {
+              "Character": "LIVIA",
+              "Line": "Julia! Julia! Julia! Control yourself! That's no way for a Roman woman to behave!  JULIA (O.S.) But he's, he's, he's dead. He gave a great cry and, and, and then he rolled over and then, and then he fell off the bed. He's, he's dead! "
+            },
+            {
+              "Character": "LIVIA",
+              "Line": "Yes. Come along.  JULIA (O.S.) He's dead! "
+            },
+            {
+              "Character": "LIVIA",
+              "Line": "Wait here.  JULIA (O.S.) He's dead. "
+            },
+            {
+              "Character": "LIVIA",
+              "Line": "Tiberius, take care of Julia. This is very grave. We must send to Augustus at once. Tiberius! I said take care of Julia!  JULIA (O.S.) Oh, no!"
+            }
+          ]
+        },
+        {
+          "Scene": "INT. MARCELLUS'S CHAMBERS - CONTINUOUS",
+          "Dialogue": [
+            {
+              "Stage Direction": "Musa stands beside the bed, wringing his hands. Octavia sits beside the corpse of her son."
+            },
+            {
+              "Character": "MUSA",
+              "Line": "I did everything I could. Everything. I did everything I could. Everything I did for Augustus I did for him, but it made no difference. "
+            },
+            {
+              "Character": "LIVIA",
+              "Line": "He's dead? You're sure he's dead? "
+            },
+            {
+              "Character": "OCTAVIA",
+              "Line": "My son is dead. You can be sure. "
+            },
+            {
+              "Character": "LIVIA",
+              "Line": "Poor Augustus. His heart will break. "
+            },
+            {
+              "Character": "MUSA",
+              "Line": "It must have been food poisoning. "
+            },
+            {
+              "Character": "LIVIA",
+              "Line": "What do you mean, food poisoning? "
+            },
+            {
+              "Character": "MUSA",
+              "Line": "Well. The summer's been so hot. These things happen. "
+            },
+            {
+              "Character": "LIVIA",
+              "Line": "Yes. Yes, of course. Well. There has been a lot of it about. "
+            },
+            {
+              "Character": "MUSA",
+              "Line": "I thought it was a chill. But I was wrong. Wrong! It must have been something he ate. "
+            },
+            {
+              "Stage Direction": "Octavia exits"
+            },
+            {
+              "Character": "MUSA",
+              "Line": "There ought to be an inquest, I suppose. "
+            },
+            {
+              "Character": "LIVIA",
+              "Line": "No. There's no need of that. We know what he died of. "
+            },
+            {
+              "Character": "MUSA",
+              "Line": "Do we? "
+            },
+            {
+              "Character": "LIVIA",
+              "Line": "Food poisoning! Well, you said so yourself! "
+            },
+            {
+              "Character": "MUSA",
+              "Line": "Yes. I couldn't swear to it. "
+            },
+            {
+              "Character": "LIVIA",
+              "Line": "No... but I could."
+            }
+          ]
+        },
+        {
+          "Scene": "EXT. ROMAN STREETS - DAY",
+          "Dialogue": [
+            {
+              "Stage Direction": "A teeming mass of ROMANS fills the narrow streets. The air vibrates with angry shouts and the sounds of destruction. Statues are toppled, shop windows smashed. This is not mere protest; it's a city on the verge of exploding."
+            }
+          ]
+        },
+        {
+          "Scene": "INT. LIVIA'S PRIVATE CHAMBERS - CONTINUOUS",
+          "Dialogue": [
+            {
+              "Stage Direction": "LIVIA, ever composed, stands before TIBERIUS. Her voice is sharp, commanding. TIBERIUS looks conflicted, torn between duty and fear. From off-screen, the sounds of the riot intensify."
+            },
+            {
+              "Character": "LIVIA",
+              "Line": "Tiberius, take Julia to her room and comfort her... Stay with her a while... I'll send word to your wife what keeps you... My dear Augustus... a most unfortunate and tragic thing has happened... Marcellus, your adopted son has unaccountably died after a short illness. No one is certain of the cause, except that an attack of food poisoning is suspected... I must say that does seem to me the most likely explanation."
+            }
+          ]
+        },
+        {
+          "Scene": "EXT. ROMAN STREETS - CONTINUOUS",
+          "Dialogue": [
+            {
+              "Stage Direction": "The ANGRY MOB continues its rampage. Their shouts are a cacophony of rage and discontent."
+            },
+            {
+              "Character": "CLAUDIUS",
+              "Line": "Rome erupted into fury. The suspicious death of Marcellus led to renewed demands for a return of the Republic, the last thing my grandmother wanted."
+            }
+          ]
+        },
+        {
+          "Scene": "INT. LIVIA'S PRIVATE CHAMBERS - CONTINUOUS",
+          "Dialogue": [
+            {
+              "Stage Direction": "LIVIA paces, her mind racing. Tiberius stands rigidly by the window, watching the chaos unfold."
+            },
+            {
+              "Character": "TIBERIUS",
+              "Line": "They're rampaging through the streets, they're breaking the statutes, they're looting the shops. All the City Watchmen are out there dealing with them. "
+            },
+            {
+              "Character": "LIVIA",
+              "Line": "They're no use! Turn the Guard out on them! "
+            },
+            {
+              "Character": "TIBERIUS",
+              "Line": "If we draw blood, I won't answer for the consequences. "
+            },
+            {
+              "Character": "LIVIA",
+              "Line": "Oh, you drooping lily! Do you want us all to be murdered in our beds? Well, go and talk to them, then. "
+            },
+            {
+              "Character": "TIBERIUS",
+              "Line": "Are you mad? "
+            },
+            {
+              "Character": "LIVIA",
+              "Line": "No. And I'm not frightened of that rabble either. Out of my way!  Livia sweeps past Tiberius, heading towards the entrance. He watches her with a mixture of awe and apprehension."
+            }
+          ]
+        },
+        {
+          "Scene": "EXT. ROMAN STREETS - CONTINUOUS",
+          "Dialogue": [
+            {
+              "Stage Direction": "LIVIA strides into the heart of the riot, her presence immediately drawing attention. The mob momentarily quiets, surprised by her audacity."
+            },
+            {
+              "Stage Direction": "Shouting"
+            },
+            {
+              "Character": "LIVIA",
+              "Line": "What do you want? A Republic? The Republic was all humbug! Do you want civil wars all over again? Do you want famine in the streets? Do you want Gauls and Huns knocking on your doors? You're all crying for the moon! Go on back to your homes and... Rabble! You call yourselves Romans? You wait till my husband gets home!  Tiberius catches up, looking deeply uncomfortable. He tries to pull her back, but she resists. "
+            },
+            {
+              "Character": "TIBERIUS",
+              "Line": "I wish, just for once, you would behave like a normal woman! "
+            },
+            {
+              "Character": "LIVIA",
+              "Line": "To be a normal woman you need normal men around you. Ahhh... We must get Agrippa back to Rome. He's the only one who speaks their language if you can call it that. Whatever Augustus thinks, he must patch up this quarrel and get Agrippa back at any price. I'm going to write to him at once. Meanwhile, order the Guards onto the streets!  Livia turns and strides back towards the palace, leaving Tiberius to face the still-simmering crowd. He sighs, defeated."
+            }
+          ]
+        },
+        {
+          "Scene": "INT. AUGUSTUS'S STUDY - DAY",
+          "Dialogue": [
+            {
+              "Stage Direction": "A richly appointed study within the Imperial Palace. Scrolls line the walls, busts of past emperors stand as silent sentinels, and a large map of the Roman Empire dominates one wall. AUGUSTUS, Emperor of Rome, a man in his late fifties but still possessing a commanding presence, sits at a large table opposite AGRIPPA, a weathered general of similar age. LIVIA stands nearby, observing. A palpable tension hangs in the air."
+            },
+            {
+              "Character": "AUGUSTUS",
+              "Line": "Marcus. Marcus! Ha-ha. Oh, it's been too long, too long. "
+            },
+            {
+              "Character": "AGRIPPA",
+              "Line": "Not my doing Caesar. I wouldn't have had it so. "
+            },
+            {
+              "Character": "AUGUSTUS",
+              "Line": "Oh, Marcus, what silly things get in the way of friendship. How could we let them? How? "
+            },
+            {
+              "Character": "AGRIPPA",
+              "Line": "You could have come to me sooner. You knew where I was. "
+            },
+            {
+              "Character": "AUGUSTUS",
+              "Line": "Oh, how could I have come? Everyone knew how it was between us. "
+            },
+            {
+              "Character": "AGRIPPA",
+              "Line": "I'd have come to you. One word. Just one word. A hint, that's all. Would I have stayed away if I'd been sure of my welcome? "
+            },
+            {
+              "Character": "AUGUSTUS",
+              "Line": "It's pride, stupid pride... Did you have a good journey? "
+            },
+            {
+              "Character": "AGRIPPA",
+              "Line": "The sea was rough, but I didn't really notice it. I was thinking of you and me and how it was in the old days when we were young together. "
+            },
+            {
+              "Character": "AUGUSTUS",
+              "Line": "Oh let's not think of that, it's too painful to think of one's youth. We've come a long way together since then. "
+            },
+            {
+              "Character": "AGRIPPA",
+              "Line": "Not always together. "
+            },
+            {
+              "Character": "AUGUSTUS",
+              "Line": "Marcus, there was never a time when you were out of my thoughts. "
+            },
+            {
+              "Character": "AGRIPPA",
+              "Line": "Forgive me but it wasn't always obvious. No, no, no, be just with me. There were times, oh, I can remember them, when that young man, and I'm sorry he's dead... When that young man went out of his way to insult me with never a word of reproof from you. From my old friend, not a word. "
+            },
+            {
+              "Character": "AUGUSTUS",
+              "Line": "Marcus, he was like a son to me. Now you have children. You know what it's like. Oh, perhaps I was foolish. Perhaps I did indulge him. But it seemed like high spirits, that's all, a little horseplay. Haven't we all been guilty of it? "
+            },
+            {
+              "Character": "AGRIPPA",
+              "Line": "Maybe. Yes, I'm sorry he's dead. I wouldn't have wished it, though he was no friend to me. "
+            },
+            {
+              "Character": "AUGUSTUS",
+              "Line": "Yes... I need my old friend again. "
+            },
+            {
+              "Character": "AGRIPPA",
+              "Line": "Now Marcellus is gone, you need Agrippa. "
+            },
+            {
+              "Character": "AUGUSTUS",
+              "Line": "No, no, no, no, no, you must believe me. I'd already made up my mind to come and see you. Would I pass Lesbos without calling in? It's unthinkable. No. No, Marcus, I need you back in Rome. "
+            },
+            {
+              "Character": "AGRIPPA",
+              "Line": "Well, I don't know. I don't know if I'm up to it anymore... Things are bad there, so I hear. "
+            },
+            {
+              "Character": "AUGUSTUS",
+              "Line": "Oh nothing much, there's been a little trouble. But that's not why I want you back. I want you back Marcus because that's where you belong. My old friend should be in Rome with me. I need that strong right arm again... What do you say? "
+            },
+            {
+              "Character": "AGRIPPA",
+              "Line": "... It's yours! "
+            },
+            {
+              "Character": "AUGUSTUS",
+              "Line": "Marcus! "
+            },
+            {
+              "Character": "AGRIPPA",
+              "Line": "But uh... "
+            },
+            {
+              "Character": "AUGUSTUS",
+              "Line": "But? "
+            },
+            {
+              "Character": "AGRIPPA",
+              "Line": "Let's seal this bond tighter than it's ever been before. "
+            },
+            {
+              "Character": "AUGUSTUS",
+              "Line": "How? "
+            },
+            {
+              "Character": "AGRIPPA",
+              "Line": "What's closer than a family tie? To be related by blood and marriage as a public declaration of what we mean to each other. "
+            },
+            {
+              "Character": "AUGUSTUS",
+              "Line": "You're thinking of your children? "
+            },
+            {
+              "Character": "AGRIPPA",
+              "Line": "No, no, no, they're alright. I'm thinking of myself. You probably know that I don't get on with my wife. "
+            },
+            {
+              "Character": "AUGUSTUS",
+              "Line": "No, I didn't know that. "
+            },
+            {
+              "Character": "AGRIPPA",
+              "Line": "Well, I don't. We haven't slept together for years. Of course, I'm speaking a little soon, I know, and one must observe the decencies, but Julia's a young woman. She'll get married again soon. Well. Why not to me? "
+            },
+            {
+              "Character": "AUGUSTUS",
+              "Line": "To you? "
+            },
+            {
+              "Character": "AGRIPPA",
+              "Line": "Well. Why not? Don't tell me I'm not good enough for your family. "
+            },
+            {
+              "Character": "AUGUSTUS",
+              "Line": "... Why not? It's a deal. You'll be my son-in-law, have you thought of that? "
+            },
+            {
+              "Character": "AGRIPPA",
+              "Line": "I've thought of nothing else since I got your letter."
+            }
+          ]
+        },
+        {
+          "Scene": "INT. AUGUSTUS'S STUDY - LATER",
+          "Dialogue": [
+            {
+              "Stage Direction": "Augustus and Livia are now alone. Livia paces with contained fury."
+            },
+            {
+              "Character": "LIVIA",
+              "Line": "Why? Why did you agree to it? "
+            },
+            {
+              "Character": "AUGUSTUS",
+              "Line": "Because he wanted it. It was his price. "
+            },
+            {
+              "Character": "LIVIA",
+              "Line": "His price! "
+            },
+            {
+              "Character": "AUGUSTUS",
+              "Line": "Well, what could I say? "
+            },
+            {
+              "Character": "LIVIA",
+              "Line": "You could have said no! "
+            },
+            {
+              "Character": "AUGUSTUS",
+              "Line": "No, I could not have said no! I saw no reason to say no. I understood why he wanted it. "
+            },
+            {
+              "Character": "LIVIA",
+              "Line": "Ha. So could anyone! "
+            },
+            {
+              "Character": "AUGUSTUS",
+              "Line": "And what would you have done? "
+            },
+            {
+              "Character": "LIVIA",
+              "Line": "I could've handled him. "
+            },
+            {
+              "Character": "AUGUSTUS",
+              "Line": "How? "
+            },
+            {
+              "Character": "LIVIA",
+              "Line": "I would have reminded him that he's a man of no background and that to assume to enter the Julian family shows the want of modesty. "
+            },
+            {
+              "Character": "AUGUSTUS",
+              "Line": "Ha. And you would have lost him! "
+            },
+            {
+              "Character": "LIVIA",
+              "Line": "I would not have lost him. I know very well how to deal with Marcus Agrippa! "
+            },
+            {
+              "Character": "AUGUSTUS",
+              "Line": "You'd have lost him as quick as boiled asparagus. You'd have lost him. "
+            },
+            {
+              "Character": "LIVIA",
+              "Line": "That is the most foolish expression. I wish you'd stop using that. "
+            },
+            {
+              "Character": "AUGUSTUS",
+              "Line": "Well, it's my expression! I'll use it whenever I like! "
+            },
+            {
+              "Character": "LIVIA",
+              "Line": "Ahhh. "
+            },
+            {
+              "Character": "AUGUSTUS",
+              "Line": "And, why are you so opposed to this marriage? I see no reason for you to be. "
+            },
+            {
+              "Character": "LIVIA",
+              "Line": "It gives him more than he deserves. "
+            },
+            {
+              "Character": "AUGUSTUS",
+              "Line": "That's not the reason. There's some other reason. What is it? "
+            },
+            {
+              "Character": "LIVIA",
+              "Line": "There is no other reason! Except... Except... You might have consulted Julia first. Are we now to ignore the wishes of our children and sell them on the market as if they were slaves? Have you no feelings?"
+            }
+          ]
+        },
+        {
+          "Scene": "INT. CLAUDIUS'S CHAMBER - NIGHT",
+          "Dialogue": [
+            {
+              "Character": "CLAUDIUS",
+              "Line": "But she got her way in the end. Yes. She waited nine years but she got her way. Wicked woman... What was that? Wind? I wonder. They're trying to get rid of me. Yes, they're poisoning me, I know it. Must get it all down, quickly, before they finish me off. Haven't much time."
+            },
+            {
+              "Stage Direction": "FADE OUT."
+            },
+            {
+              "Stage Direction": "/EPISODE1"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
