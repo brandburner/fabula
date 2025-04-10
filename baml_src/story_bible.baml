@@ -576,7 +576,7 @@ function GeneratePolishedExecutiveSummary(
   detail_level: string @description("Desired level of detail: concise, standard, detailed"),
   max_tokens: int? @description("Approximate token limit for the final synopsis (e.g., standard might be ~800 tokens).")
 ) -> Summary { // Returns the enhanced Summary class
-  client GemkuA // Use a capable client for final synthesis and writing
+  client CustomGemini25 // Use a capable client for final synthesis and writing
   prompt #"
     {{ Showrunner_Persona ()}}
     STYLE INSTRUCTION: Synthesize a final story synopsis that reflects the full arc of the narrative with vivid, cinematic, and emotionally grounded prose. Focus on:

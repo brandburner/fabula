@@ -189,6 +189,7 @@ def _format_narrative_stage_md(stage: Dict[str, Any], index: Optional[int] = Non
     return f"{prefix}**{stage.get('stage', 'Unknown Stage')}**: {stage.get('description', 'N/A')}\n"
 
 def _format_character_dynamic_md(dyn: Dict[str, Any], index: Optional[int] = None) -> str:
+    # This one already uses \n\n correctly.
     return f"### {dyn.get('character_name', '?')} ({dyn.get('role', '?')})\n{dyn.get('arc_description', 'N/A')}\n\n"
 
 def _format_theme_md(theme: Dict[str, Any], index: Optional[int] = None) -> str:
@@ -197,7 +198,8 @@ def _format_theme_md(theme: Dict[str, Any], index: Optional[int] = None) -> str:
     if examples and isinstance(examples, list):
         lines.append("**Examples:**\n")
         lines.extend(f"- {str(example)}\n" for example in examples if example)
-    return "".join(lines) + "\n"
+    # MODIFIED LINE: Add extra newline for separation
+    return "".join(lines) + "\n\n"
 
 def _format_conflict_md(conflict: Dict[str, Any], index: Optional[int] = None) -> str:
     title = conflict.get('name', conflict.get('description', 'Unnamed Conflict'))
@@ -216,7 +218,8 @@ def _format_conflict_md(conflict: Dict[str, Any], index: Optional[int] = None) -
         lines.append(f"> *Evidence:* `{evidence_dialogue}`\n")
     elif key_moment_text: # Show key moment if no dialogue evidence
         lines.append(f"> *Key Moment:* `{key_moment_text}`\n")
-    return "".join(lines) + "\n"
+    # MODIFIED LINE: Add extra newline for separation
+    return "".join(lines) + "\n\n"
 
 def _format_character_md(char: Dict[str, Any], index: Optional[int] = None) -> str:
     if not isinstance(char, dict):
@@ -253,7 +256,8 @@ def _format_character_md(char: Dict[str, Any], index: Optional[int] = None) -> s
     elif enhancement_status == 'error_invalid_return': lines.append(f"\n**Note:** Enhancement Error: Invalid return type from BAML.\n")
     elif enhancement_status == 'error': lines.append(f"\n**Note:** Enhancement failed (see error message above or logs).\n")
 
-    return "".join(lines) + "\n"
+    # MODIFIED LINE: Add extra newline for separation
+    return "".join(lines) + "\n\n"
 
 def _format_conflict_arc_md(arc: Dict[str, Any], index: Optional[int] = None) -> str:
     """Formats a conflict arc for markdown, using chunk indices."""
@@ -300,13 +304,15 @@ def _format_conflict_arc_md(arc: Dict[str, Any], index: Optional[int] = None) ->
     if evidence_dialogue: lines.append(f"> *Evidence:* `{evidence_dialogue}`\n")
     elif key_moment_text: lines.append(f"> *Key Moment:* `{key_moment_text}`\n")
 
-    return "".join(lines) + "\n"
+    # MODIFIED LINE: Add extra newline for separation
+    return "".join(lines) + "\n\n"
 
 def _format_location_md(loc: Dict[str, Any], index: Optional[int] = None) -> str:
     lines = [f"### {loc.get('name', 'Unnamed Location')}\n"]
     if loc.get('description'): lines.append(f"{loc.get('description')}\n")
     if loc.get('significance'): lines.append(f"**Significance:** {loc['significance']}\n")
-    return "".join(lines) + "\n"
+    # MODIFIED LINE: Add extra newline for separation
+    return "".join(lines) + "\n\n"
 
 def _format_plot_point_md(pt: Dict[str, Any], index: int) -> str: # Requires index
     line = f"{index+1}. {pt.get('description', 'No description')}."
