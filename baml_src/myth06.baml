@@ -2,6 +2,13 @@
 // Jinja-like template syntax for baml python library
 // Defines classes, enums and functions to guide LLM output to strict schema alignment
 
+generator myth06_generator {
+ output_type "python/pydantic"
+ output_dir "../" // Adjust path as needed
+ version "0.83.0" // Use your current BAML version
+ default_client_mode "sync"
+}
+
 // Reusable template string for the narrative analyst persona
 template_string Narrative_analyst_persona #"
   {{ _.role('system') }}
@@ -603,7 +610,7 @@ class ResolvedLocation {
 }
 
 function ResolveAgentCluster(entities: Agent[]) -> ResolvedAgent[] {
-    client Customo3Mini
+    client CustomGemini25
     prompt #"
         {{ Narrative_analyst_persona ()}}
 
@@ -640,7 +647,7 @@ function ResolveAgentCluster(entities: Agent[]) -> ResolvedAgent[] {
 }
 
 function ResolveOrganizationCluster(entities: Organization[]) -> ResolvedOrganization[] {
-    client Customo3Mini
+    client CustomGemini25
     prompt #"
         {{ Narrative_analyst_persona ()}}
 
@@ -674,7 +681,7 @@ function ResolveOrganizationCluster(entities: Organization[]) -> ResolvedOrganiz
 }
 
 function ResolveLocationCluster(entities: Location[]) -> ResolvedLocation[] {
-    client Customo3Mini
+    client CustomGemini25
     prompt #"
         {{ Narrative_analyst_persona ()}}
 
@@ -707,7 +714,7 @@ function ResolveLocationCluster(entities: Location[]) -> ResolvedLocation[] {
 }
 
 function ResolveCrossEpisodeAgentCluster(entities: Agent[]) -> ResolvedAgent[] {
-    client Customo3Mini
+    client CustomGemini25
     prompt #"
         {{ Narrative_analyst_persona() }}
 
@@ -742,7 +749,7 @@ function ResolveCrossEpisodeAgentCluster(entities: Agent[]) -> ResolvedAgent[] {
 }
 
 function ResolveCrossEpisodeObjectCluster(entities: Object[]) -> ResolvedObject[] {
-    client Customo3Mini
+    client CustomGemini25
     prompt #"
         {{ Narrative_analyst_persona ()}}
 
@@ -775,7 +782,7 @@ function ResolveCrossEpisodeObjectCluster(entities: Object[]) -> ResolvedObject[
 
 
 function ResolveCrossEpisodeOrganizationCluster(entities: Organization[]) -> ResolvedOrganization[] {
-    client Customo3Mini
+    client CustomGemini25
     prompt #"
         {{ Narrative_analyst_persona ()}}
 
@@ -807,7 +814,7 @@ function ResolveCrossEpisodeOrganizationCluster(entities: Organization[]) -> Res
 }
 
 function ResolveCrossEpisodeLocationCluster(entities: Location[]) -> ResolvedLocation[] {
-    client Customo3Mini
+    client CustomGemini25
     prompt #"
         {{ Narrative_analyst_persona ()}}
 

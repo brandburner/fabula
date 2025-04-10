@@ -1,3 +1,10 @@
+generator mythcombo_generator {
+ output_type "python/pydantic"
+ output_dir "../" // Adjust path as needed
+ version "0.83.0" // Use your current BAML version
+ default_client_mode "sync"
+}
+
 // Enhanced narrative analyst template with chain-of-thought prompting
 template_string Narrative_analyst_cot #"
   {{ _.role('system') }}

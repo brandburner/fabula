@@ -27,7 +27,7 @@ client<llm> CustomGPT4oMini {
   options {
     model "gpt-4o-mini"
     api_key env.OPENAI_API_KEY
-    temperature 0.8
+    temperature 0.5
     max_tokens 16384
   }
 }
@@ -46,18 +46,17 @@ client<llm> Customo3Mini {
 client<llm> CustomSonnet {
   provider anthropic
   options {
-    model "claude-3-5-sonnet-20241022"
+    model "claude-3-5-sonnet-latest"
     api_key env.ANTHROPIC_API_KEY
   }
 }
 
 
 client<llm> CustomHaiku {
-  provider "openai-generic"
+  provider anthropic
   options {
-    base_url "https://openrouter.ai/api/v1"
-    api_key env.OPENROUTER_API_KEY
-    model "anthropic/claude-3-haiku"
+    api_key env.ANTHROPIC_API_KEY
+    model "claude-3-haiku-20240307"
   }
 }
 
@@ -69,7 +68,21 @@ client<llm> CustomGemini {
     api_key env.GOOGLE_API_KEY
     generationConfig {
       maxOutputTokens 635536
-      temperature 0.8
+      temperature 0.5
+      topP 0.9
+    }
+  }
+}
+
+client<llm> CustomGemini25 {
+  provider google-ai
+  retry_policy Exponential
+  options {
+    model "gemini-2.5-pro-exp-03-25"
+    api_key env.GOOGLE_API_KEY
+    generationConfig {
+      maxOutputTokens 635536
+      temperature 0.5
       topP 0.9
     }
   }
@@ -103,7 +116,7 @@ client<llm> GemkuA {
   provider round-robin
   options {
     // This will alternate between the two clients
-    strategy [CustomGemini, CustomGPT4oMini]
+    strategy [CustomGeminiFlash, CustomHaiku]
   }
 }
 
@@ -111,7 +124,7 @@ client<llm> GemkuB {
   provider round-robin
   options {
     // This will alternate between the two clients
-    strategy [CustomGPT4oMini, CustomGemini]
+    strategy [CustomHaiku, CustomGemini]
   }
 }
 
