@@ -293,18 +293,26 @@ def _format_conflict_arc_md(arc: Dict[str, Any], index: Optional[int] = None) ->
     if escalation_points and isinstance(escalation_points, list):
         lines.append("**Escalation Points:**\n")
         lines.extend(f"- {str(e)}\n" for e in escalation_points if e)
+        # MODIFICATION: Add separation AFTER the list if Climax/Resolution follows
+        if climax_point_desc or resolution_point_desc:
+            lines.append("\n") # Add a blank line
+
     if climax_point_desc:
         lines.append(f"**Climax Description:** {climax_point_desc}\n")
     if resolution_point_desc:
         lines.append(f"**Resolution Description:** {resolution_point_desc}\n")
 
-    # Evidence
+    # Evidence block separation
     evidence_dialogue = arc.get('evidence_dialogue')
     key_moment_text = arc.get('key_moment_text')
+    # MODIFICATION: Add newline BEFORE evidence block if it exists
+    if evidence_dialogue or key_moment_text:
+        lines.append("\n") # Add a blank line before the blockquote
+
     if evidence_dialogue: lines.append(f"> *Evidence:* `{evidence_dialogue}`\n")
     elif key_moment_text: lines.append(f"> *Key Moment:* `{key_moment_text}`\n")
 
-    # MODIFIED LINE: Add extra newline for separation
+    # Keep the \n\n ending for the whole block from the previous fix
     return "".join(lines) + "\n\n"
 
 def _format_location_md(loc: Dict[str, Any], index: Optional[int] = None) -> str:
@@ -322,9 +330,16 @@ def _format_plot_point_md(pt: Dict[str, Any], index: int) -> str: # Requires ind
     # Add evidence/moment quote block if available
     evidence_dialogue = pt.get('evidence_dialogue')
     key_moment_text = pt.get('key_moment_text')
-    if evidence_dialogue: line += f"\n> *Evidence:* `{evidence_dialogue}`"
-    elif key_moment_text: line += f"\n> *Key Moment:* `{key_moment_text}`"
-    return line + "\n" # Add final newline for spacing
+
+    # MODIFIED PART: Add two newlines BEFORE the evidence block if it exists
+    if evidence_dialogue or key_moment_text:
+        line += "\n\n" # Creates visual separation before the blockquote
+
+    if evidence_dialogue: line += f"> *Evidence:* `{evidence_dialogue}`"
+    elif key_moment_text: line += f"> *Key Moment:* `{key_moment_text}`"
+
+    # MODIFIED RETURN: End with a single newline for list item formatting
+    return line + "\n"
 
 
 # --- File Saving Functions ---
