@@ -449,8 +449,8 @@ def generate_narrative_procedures() -> List[CypherStatement]:
 
 def main():
     try:
-        input_path = Path("/home/user/fabula/output/pre_processed/iclaudius_s01e01_graph.json")
-        output_path = Path("/home/user/fabula/output/post_processed/iclaudius_s01e01_graph.cypher")
+        input_path = Path("/home/user/fabula/output/pre_processed/echoes_of_the_past_graph.json")
+        output_path = Path("/home/user/fabula/output/post_processed/echoes_of_the_past_graph.cypher")
 
         # input_path = Path("/home/user/fabula/output/pre_processed/fault_lines_graph.json")
         # output_path = Path("/home/user/fabula/output/post_processed/fault_lines_graph.cypher")
