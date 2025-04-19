@@ -640,114 +640,6 @@ class BamlAsyncClient:
       )
       return cast(List[types.ResolvedAgent], raw.cast_to(types, types, partial_types, False))
     
-    async def ResolveCrossEpisodeAgentCluster(
-        self,
-        entities: List[types.Agent],
-        baml_options: BamlCallOptions = {},
-    ) -> List[types.ResolvedAgent]:
-      options: BamlCallOptions = {**self.__baml_options, **(baml_options or {})}
-
-      __tb__ = options.get("tb", None)
-      if __tb__ is not None:
-        tb = __tb__._tb # type: ignore (we know how to use this private attribute)
-      else:
-        tb = None
-      __cr__ = options.get("client_registry", None)
-      collector = options.get("collector", None)
-      collectors = collector if isinstance(collector, list) else [collector] if collector is not None else []
-      raw = await self.__runtime.call_function(
-        "ResolveCrossEpisodeAgentCluster",
-        {
-          "entities": entities,
-        },
-        self.__ctx_manager.get(),
-        tb,
-        __cr__,
-        collectors,
-      )
-      return cast(List[types.ResolvedAgent], raw.cast_to(types, types, partial_types, False))
-    
-    async def ResolveCrossEpisodeLocationCluster(
-        self,
-        entities: List[types.Location],
-        baml_options: BamlCallOptions = {},
-    ) -> List[types.ResolvedLocation]:
-      options: BamlCallOptions = {**self.__baml_options, **(baml_options or {})}
-
-      __tb__ = options.get("tb", None)
-      if __tb__ is not None:
-        tb = __tb__._tb # type: ignore (we know how to use this private attribute)
-      else:
-        tb = None
-      __cr__ = options.get("client_registry", None)
-      collector = options.get("collector", None)
-      collectors = collector if isinstance(collector, list) else [collector] if collector is not None else []
-      raw = await self.__runtime.call_function(
-        "ResolveCrossEpisodeLocationCluster",
-        {
-          "entities": entities,
-        },
-        self.__ctx_manager.get(),
-        tb,
-        __cr__,
-        collectors,
-      )
-      return cast(List[types.ResolvedLocation], raw.cast_to(types, types, partial_types, False))
-    
-    async def ResolveCrossEpisodeObjectCluster(
-        self,
-        entities: List[types.Object],
-        baml_options: BamlCallOptions = {},
-    ) -> List[types.ResolvedObject]:
-      options: BamlCallOptions = {**self.__baml_options, **(baml_options or {})}
-
-      __tb__ = options.get("tb", None)
-      if __tb__ is not None:
-        tb = __tb__._tb # type: ignore (we know how to use this private attribute)
-      else:
-        tb = None
-      __cr__ = options.get("client_registry", None)
-      collector = options.get("collector", None)
-      collectors = collector if isinstance(collector, list) else [collector] if collector is not None else []
-      raw = await self.__runtime.call_function(
-        "ResolveCrossEpisodeObjectCluster",
-        {
-          "entities": entities,
-        },
-        self.__ctx_manager.get(),
-        tb,
-        __cr__,
-        collectors,
-      )
-      return cast(List[types.ResolvedObject], raw.cast_to(types, types, partial_types, False))
-    
-    async def ResolveCrossEpisodeOrganizationCluster(
-        self,
-        entities: List[types.Organization],
-        baml_options: BamlCallOptions = {},
-    ) -> List[types.ResolvedOrganization]:
-      options: BamlCallOptions = {**self.__baml_options, **(baml_options or {})}
-
-      __tb__ = options.get("tb", None)
-      if __tb__ is not None:
-        tb = __tb__._tb # type: ignore (we know how to use this private attribute)
-      else:
-        tb = None
-      __cr__ = options.get("client_registry", None)
-      collector = options.get("collector", None)
-      collectors = collector if isinstance(collector, list) else [collector] if collector is not None else []
-      raw = await self.__runtime.call_function(
-        "ResolveCrossEpisodeOrganizationCluster",
-        {
-          "entities": entities,
-        },
-        self.__ctx_manager.get(),
-        tb,
-        __cr__,
-        collectors,
-      )
-      return cast(List[types.ResolvedOrganization], raw.cast_to(types, types, partial_types, False))
-    
     async def ResolveLocationCluster(
         self,
         entities: List[types.Location],
@@ -774,6 +666,33 @@ class BamlAsyncClient:
         collectors,
       )
       return cast(List[types.ResolvedLocation], raw.cast_to(types, types, partial_types, False))
+    
+    async def ResolveObjectCluster(
+        self,
+        entities: List[types.Object],
+        baml_options: BamlCallOptions = {},
+    ) -> List[types.ResolvedObject]:
+      options: BamlCallOptions = {**self.__baml_options, **(baml_options or {})}
+
+      __tb__ = options.get("tb", None)
+      if __tb__ is not None:
+        tb = __tb__._tb # type: ignore (we know how to use this private attribute)
+      else:
+        tb = None
+      __cr__ = options.get("client_registry", None)
+      collector = options.get("collector", None)
+      collectors = collector if isinstance(collector, list) else [collector] if collector is not None else []
+      raw = await self.__runtime.call_function(
+        "ResolveObjectCluster",
+        {
+          "entities": entities,
+        },
+        self.__ctx_manager.get(),
+        tb,
+        __cr__,
+        collectors,
+      )
+      return cast(List[types.ResolvedObject], raw.cast_to(types, types, partial_types, False))
     
     async def ResolveOrganizationCluster(
         self,
@@ -1664,138 +1583,6 @@ class BamlStreamClient:
         self.__ctx_manager.get(),
       )
     
-    def ResolveCrossEpisodeAgentCluster(
-        self,
-        entities: List[types.Agent],
-        baml_options: BamlCallOptions = {},
-    ) -> baml_py.BamlStream[List[partial_types.ResolvedAgent], List[types.ResolvedAgent]]:
-      options: BamlCallOptions = {**self.__baml_options, **(baml_options or {})}
-      __tb__ = options.get("tb", None)
-      if __tb__ is not None:
-        tb = __tb__._tb # type: ignore (we know how to use this private attribute)
-      else:
-        tb = None
-      __cr__ = options.get("client_registry", None)
-      collector = options.get("collector", None)
-      collectors = collector if isinstance(collector, list) else [collector] if collector is not None else []
-      raw = self.__runtime.stream_function(
-        "ResolveCrossEpisodeAgentCluster",
-        {
-          "entities": entities,
-        },
-        None,
-        self.__ctx_manager.get(),
-        tb,
-        __cr__,
-        collectors,
-      )
-
-      return baml_py.BamlStream[List[partial_types.ResolvedAgent], List[types.ResolvedAgent]](
-        raw,
-        lambda x: cast(List[partial_types.ResolvedAgent], x.cast_to(types, types, partial_types, True)),
-        lambda x: cast(List[types.ResolvedAgent], x.cast_to(types, types, partial_types, False)),
-        self.__ctx_manager.get(),
-      )
-    
-    def ResolveCrossEpisodeLocationCluster(
-        self,
-        entities: List[types.Location],
-        baml_options: BamlCallOptions = {},
-    ) -> baml_py.BamlStream[List[partial_types.ResolvedLocation], List[types.ResolvedLocation]]:
-      options: BamlCallOptions = {**self.__baml_options, **(baml_options or {})}
-      __tb__ = options.get("tb", None)
-      if __tb__ is not None:
-        tb = __tb__._tb # type: ignore (we know how to use this private attribute)
-      else:
-        tb = None
-      __cr__ = options.get("client_registry", None)
-      collector = options.get("collector", None)
-      collectors = collector if isinstance(collector, list) else [collector] if collector is not None else []
-      raw = self.__runtime.stream_function(
-        "ResolveCrossEpisodeLocationCluster",
-        {
-          "entities": entities,
-        },
-        None,
-        self.__ctx_manager.get(),
-        tb,
-        __cr__,
-        collectors,
-      )
-
-      return baml_py.BamlStream[List[partial_types.ResolvedLocation], List[types.ResolvedLocation]](
-        raw,
-        lambda x: cast(List[partial_types.ResolvedLocation], x.cast_to(types, types, partial_types, True)),
-        lambda x: cast(List[types.ResolvedLocation], x.cast_to(types, types, partial_types, False)),
-        self.__ctx_manager.get(),
-      )
-    
-    def ResolveCrossEpisodeObjectCluster(
-        self,
-        entities: List[types.Object],
-        baml_options: BamlCallOptions = {},
-    ) -> baml_py.BamlStream[List[partial_types.ResolvedObject], List[types.ResolvedObject]]:
-      options: BamlCallOptions = {**self.__baml_options, **(baml_options or {})}
-      __tb__ = options.get("tb", None)
-      if __tb__ is not None:
-        tb = __tb__._tb # type: ignore (we know how to use this private attribute)
-      else:
-        tb = None
-      __cr__ = options.get("client_registry", None)
-      collector = options.get("collector", None)
-      collectors = collector if isinstance(collector, list) else [collector] if collector is not None else []
-      raw = self.__runtime.stream_function(
-        "ResolveCrossEpisodeObjectCluster",
-        {
-          "entities": entities,
-        },
-        None,
-        self.__ctx_manager.get(),
-        tb,
-        __cr__,
-        collectors,
-      )
-
-      return baml_py.BamlStream[List[partial_types.ResolvedObject], List[types.ResolvedObject]](
-        raw,
-        lambda x: cast(List[partial_types.ResolvedObject], x.cast_to(types, types, partial_types, True)),
-        lambda x: cast(List[types.ResolvedObject], x.cast_to(types, types, partial_types, False)),
-        self.__ctx_manager.get(),
-      )
-    
-    def ResolveCrossEpisodeOrganizationCluster(
-        self,
-        entities: List[types.Organization],
-        baml_options: BamlCallOptions = {},
-    ) -> baml_py.BamlStream[List[partial_types.ResolvedOrganization], List[types.ResolvedOrganization]]:
-      options: BamlCallOptions = {**self.__baml_options, **(baml_options or {})}
-      __tb__ = options.get("tb", None)
-      if __tb__ is not None:
-        tb = __tb__._tb # type: ignore (we know how to use this private attribute)
-      else:
-        tb = None
-      __cr__ = options.get("client_registry", None)
-      collector = options.get("collector", None)
-      collectors = collector if isinstance(collector, list) else [collector] if collector is not None else []
-      raw = self.__runtime.stream_function(
-        "ResolveCrossEpisodeOrganizationCluster",
-        {
-          "entities": entities,
-        },
-        None,
-        self.__ctx_manager.get(),
-        tb,
-        __cr__,
-        collectors,
-      )
-
-      return baml_py.BamlStream[List[partial_types.ResolvedOrganization], List[types.ResolvedOrganization]](
-        raw,
-        lambda x: cast(List[partial_types.ResolvedOrganization], x.cast_to(types, types, partial_types, True)),
-        lambda x: cast(List[types.ResolvedOrganization], x.cast_to(types, types, partial_types, False)),
-        self.__ctx_manager.get(),
-      )
-    
     def ResolveLocationCluster(
         self,
         entities: List[types.Location],
@@ -1826,6 +1613,39 @@ class BamlStreamClient:
         raw,
         lambda x: cast(List[partial_types.ResolvedLocation], x.cast_to(types, types, partial_types, True)),
         lambda x: cast(List[types.ResolvedLocation], x.cast_to(types, types, partial_types, False)),
+        self.__ctx_manager.get(),
+      )
+    
+    def ResolveObjectCluster(
+        self,
+        entities: List[types.Object],
+        baml_options: BamlCallOptions = {},
+    ) -> baml_py.BamlStream[List[partial_types.ResolvedObject], List[types.ResolvedObject]]:
+      options: BamlCallOptions = {**self.__baml_options, **(baml_options or {})}
+      __tb__ = options.get("tb", None)
+      if __tb__ is not None:
+        tb = __tb__._tb # type: ignore (we know how to use this private attribute)
+      else:
+        tb = None
+      __cr__ = options.get("client_registry", None)
+      collector = options.get("collector", None)
+      collectors = collector if isinstance(collector, list) else [collector] if collector is not None else []
+      raw = self.__runtime.stream_function(
+        "ResolveObjectCluster",
+        {
+          "entities": entities,
+        },
+        None,
+        self.__ctx_manager.get(),
+        tb,
+        __cr__,
+        collectors,
+      )
+
+      return baml_py.BamlStream[List[partial_types.ResolvedObject], List[types.ResolvedObject]](
+        raw,
+        lambda x: cast(List[partial_types.ResolvedObject], x.cast_to(types, types, partial_types, True)),
+        lambda x: cast(List[types.ResolvedObject], x.cast_to(types, types, partial_types, False)),
         self.__ctx_manager.get(),
       )
     

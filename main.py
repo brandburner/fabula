@@ -72,11 +72,11 @@ except Exception as e:
 
 
 
-# INPUT_JSON_PATH = Path("/home/user/fabula/source_docs/ai_fanfic/west_wing/fault_lines_transcript.json")
-# CONTEXT_FILES = [
-#     Path("/home/user/fabula/source_docs/ai_fanfic/west_wing/fault_lines_novelization.txt")
-# ]
-# OUTPUT_JSON_PATH = Path("fault_lines_graph.json")
+INPUT_JSON_PATH = Path("/home/user/fabula/source_docs/ai_fanfic/west_wing/fault_lines_transcript.json")
+CONTEXT_FILES = [
+    Path("/home/user/fabula/source_docs/ai_fanfic/west_wing/fault_lines_novelization.txt")
+]
+OUTPUT_JSON_PATH = Path("fault_lines_graph.json")
 
 # INPUT_JSON_PATH = Path("/home/user/fabula/source_docs/ai_fanfic/star_trek_tng/echoes_of_the_past_transcript.json")
 # CONTEXT_FILES = [
@@ -96,11 +96,11 @@ except Exception as e:
 # ]
 # OUTPUT_JSON_PATH = Path("networking_event_graph.json")
 
-INPUT_JSON_PATH = Path("/home/user/fabula/source_docs/ai_fanfic/doctor_who/quantum_archive_transcript.json")
-CONTEXT_FILES = [
-    Path("/home/user/fabula/source_docs/ai_fanfic/doctor_who/quantum_archive_novelization.txt")
-]
-OUTPUT_JSON_PATH = Path("quantum_archive_graph.json")
+# INPUT_JSON_PATH = Path("/home/user/fabula/source_docs/ai_fanfic/doctor_who/quantum_archive_transcript.json")
+# CONTEXT_FILES = [
+#     Path("/home/user/fabula/source_docs/ai_fanfic/doctor_who/quantum_archive_novelization.txt")
+# ]
+# OUTPUT_JSON_PATH = Path("quantum_archive_graph.json")
 
 
 def load_context_documents(context_files: Optional[List[Path]] = None) -> str:

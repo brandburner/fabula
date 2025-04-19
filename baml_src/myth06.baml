@@ -4,7 +4,7 @@
 
 generator myth06_generator {
  output_type "python/pydantic"
- output_dir "../" // Adjust path as needed
+ output_dir "../myth_dev" // Adjust path as needed
  version "0.83.0" // Use your current BAML version
  default_client_mode "sync"
 }
@@ -37,7 +37,6 @@ class Episode {
     synopsis string @description("A brief summary outlining the main plot points and developments of the episode.")
     episode_number int @description("The numerical order of the episode within the season or series. Example: 1 for the first episode.")
     part_of_serial string @description("The name of the larger series or serial to which this episode belongs. Example: 'The West Wing'.")
-    //@@dynamic
 }
 
 class Scene {
@@ -47,7 +46,6 @@ class Scene {
     events string[] @description("An array of UUIDs representing the events that occur within this scene, listed in chronological order.")
     location string|null @description("The UUID of the primary location where the scene takes place. Follows the format 'location_<normalized_name>'.")
     next_scene string|null @description("The UUID of the subsequent scene in the narrative flow, following the format 'scene_XXX'. If there is no next scene, set to null.")
-    //@@dynamic
 }
 
 class Event {
@@ -55,11 +53,10 @@ class Event {
     uuid string @description("Unique identifier for the event, following the format 'event_<scene_number>_<sequence_within_scene>'. Example: 'event_1_1'.")
     description string @description("A comprehensive description detailing what happens during the event, including key actions and outcomes.")
     sequence_within_scene int @description("The order of the event within its scene, starting from 1.")
-    key_dialogue string[] @description("An array of significant dialogue lines that are central to the event's occurrence or impact.")
+    key_dialogue string[] @description("An array of significant dialogue lines (with speaker denoted) that are central to the event's occurrence or impact.")
     agent_participations string[] @skip
     object_involvements string[] @skip
     next_event string|null @description("The UUID of the next event in chronological order within the scene. If there is no subsequent event, set to null.")
-    //@@dynamic
 }
 
 class Agent {
@@ -72,7 +69,6 @@ class Agent {
     traits string[] @description("List of defining qualities and characteristics that describe the agent's personality, behavior, or abilities (e.g., 'Brave', 'Time Lord', 'Resourceful').")
     affiliated_org string|null @description("The organization the agent appears to be officially associated with. Expressed as a unique identifier in snake_case, in the format 'org_{org_id}'") @alias("affiliated_org_uuid")
     sphere_of_influence string? @description("Primary domain, area, or field where the agent exerts their power or influence (e.g., 'Time Travel', 'Military Strategy').")
-    //@@dynamic
 }
 
 class Organization {
@@ -81,7 +77,6 @@ class Organization {
     description string @description("Description of the organization's purpose and role.")
     sphere_of_influence string @description("Area where the organization has influence.")
     members string[] @skip
-    //@@dynamic
 }
 
 class Location {
@@ -89,7 +84,6 @@ class Location {
     name string @description("Name of the location.")
     description string @description("Detailed description of the location's characteristics.")
     type string @description("Type of location (e.g., City, Building, Planet, Office, Apartment).")
-    //@@dynamic
 }
 
 class Object {
@@ -99,7 +93,6 @@ class Object {
     purpose string @description("The intended use or function of the object within the context of the narrative. Example: 'To visualize satellite imagery for briefings'.")
     significance string @description("The narrative importance or symbolic meaning of the object. Example: 'Provides visual context for the Kosovo-Serbia situation'.")
     original_owner string|null @description("The UUID of the agent or org who originally owns the object, following the format 'agent_<agent_id>' or 'org_<org id>' Example: 'agent_josh_lyman', 'org_starfleet'. If no owner, set to null.")
-    //@@dynamic
 }
 
 class AgentParticipation {
@@ -111,7 +104,6 @@ class AgentParticipation {
     active_plans string[] @description("Brief description of the agent's active objectives or strategies in the context of the event.")
     beliefs string[] @description("The agent's beliefs or convictions that influence their actions during the event.")
     goals string[] @description("The agent's short-term and long-term goals related to the event.")
-    //@@dynamic
 }
 
 class ObjectInvolvement {
@@ -121,7 +113,6 @@ class ObjectInvolvement {
     description_of_involvement string @description("Clear description of how the object is used or affected in the event, detailing its functional and narrative role.")
     object_status_before_event string @description("Brief description of the object's state prior to the event.")
     object_status_after_event string @description("Brief description of the object's state following the event.")
-    //@@dynamic
 }
 
 class SceneMetadata {
@@ -713,132 +704,40 @@ function ResolveLocationCluster(entities: Location[]) -> ResolvedLocation[] {
     "#
 }
 
-function ResolveCrossEpisodeAgentCluster(entities: Agent[]) -> ResolvedAgent[] {
-    client CustomGemini25
-    prompt #"
-        {{ Narrative_analyst_persona() }}
-
-        **Objective**:
-        Disambiguate and resolve a list of primary entities
-        extracted from multiple episodes of I, Claudius. Your task is to identify unique entities 
-        and merge repeated captures into a single, consolidated representation.
-
-        **Instructions**:
-        1. **Disambiguation First**: Analyze each entity’s properties—especially name, description, aliases, and any other contextual metadata—to determine if they refer to the same underlying entity.
-        2. **Merging with Caution**: Only merge entities if there is overwhelming evidence they represent the exact same character, location, or object. If any doubt exists, preserve them as distinct.
-        3. **Canonical Naming**: Select the most complete and contextually accurate name as the canonical value. Normalize names and UUIDs to a standard format (e.g. snake_case with proper prefixes such as 'agent_', 'location_', etc.).
-        4. **Description Synthesis**: Merge descriptions into a cohesive narrative that preserves key details from all captures while eliminating redundancy.
-        5. **Source Tracking**: Include a field `source_uuids` that lists all original UUIDs that were merged into this resolved entity.
-        6. **Contextual Awareness**: Use knowledge of the Claudius narrative (including character evolution, historical aliases, and scene-specific details) to guide your resolution.
-        7. **Output Format**: Return a JSON array of resolved entities. Each resolved entity should include at least:
-            - a new consolidated `uuid`
-            - a canonical `name`
-            - a merged `description`
-            - a `source_uuids` field listing the original UUIDs
-
-        {{ _.role('user') }}
-        Primary entities provided for resolution:
-        {{ entities }}
-
-        *Return all resolved entities as a single JSON array.*
-
-
-        ______
-        {{ ctx.output_format }}
-    "#
-}
-
-function ResolveCrossEpisodeObjectCluster(entities: Object[]) -> ResolvedObject[] {
-    client CustomGemini25
+function ResolveObjectCluster(entities: Object[]) -> ResolvedObject[] {
+    client Customo3Mini
     prompt #"
         {{ Narrative_analyst_persona ()}}
 
         **Objective**:
-        Disambiguate and resolve a list of primary entities
-        extracted from multiple episodes of I, Claudius. Your task is to identify unique entities 
-        and merge repeated captures into a single, consolidated representation.
+        Disambiguate and resolve a list of Object entities, identifying all unique objects present. Return the unique objects that account for all provided mentions.
 
         **Instructions**:
-        1. **Disambiguation First**: Analyze each entity’s properties—especially name, description, aliases, and any other contextual metadata—to determine if they refer to the same underlying entity.
-        2. **Merging with Caution**: Only merge entities if there is overwhelming evidence they represent the exact same character, location, or object. If any doubt exists, preserve them as distinct.
-        3. **Canonical Naming**: Select the most complete and contextually accurate name as the canonical value. Normalize names and UUIDs to a standard format (e.g. snake_case with proper prefixes such as 'agent_', 'location_', etc.).
-        4. **Description Synthesis**: Merge descriptions into a cohesive narrative that preserves key details from all captures while eliminating redundancy.
-        5. **Source Tracking**: Include a field `source_uuids` that lists all original UUIDs that were merged into this resolved entity.
-        6. **Contextual Awareness**: Use knowledge of the Claudius narrative (including character evolution, historical aliases, and scene-specific details) to guide your resolution.
-        7. **Output Format**: Return a JSON array of resolved entities. Each resolved entity should include at least:
-            - a new consolidated `uuid`
-            - a canonical `name`
-            - a merged `description`
-            - a `source_uuids` field listing the original UUIDs
 
+        1. **Consider Disambiguation First**: Prioritize *correctly distinguishing* unique objects before attempting to merge. Base your reasoning on all available data in the source entities, particularly name, description, purpose, and significance.
+
+        2. **Unique Object Identification**: Carefully assess each object entity, taking into account their name, description, purpose, significance, and original owner. Only merge entities if there is *overwhelming evidence* they refer to the *exact same* item. Avoid merging entities if there's even a slight chance they could be distinct objects. Pay particular attention to:
+            *   Ensure the uuid is correct and appropriately chosen. Avoid spelling out acronyms etc. in uuid labels.
+            *   Only deduplicate clearly duplicate entries. Maintain granular distinction and don't attempt to merge compound objects into one.
+            *   Object uuids should be prefixed ('object_') then use snake_case (not hyphens) to label the object (example: 'object_quantum_state_analyser')
+        3. **Name Canonization**: Choose the most complete and and descriptive name as canonical for the 'name' property, but only if the meaning is still the same, and the meaning is well-described.
+            *   Normalize or transliterate names and uuids to a standard character set (ASCII or similar) where necessary.
+            *   Correct spelling or factual errors that may have crept in to source entities
+        4. **Contextual Awareness**: Use the description, purpose, and significance to disambiguate entities. If two entities have significantly different descriptions, purposes, or significance, they are likely different objects.
+        5.  **Original Owner Attribution**: Consider the `original_owner` property very carefully. Do not merge two objects unless they have the same likely or explicit `original_owner`, otherwise they are almost certainly different items.
+        6. **Description Preservation**:
+            - Merge descriptions of duplicate objects into a single cohesive, non-redundant description.
+            - Combine purpose and significance fields if they provide distinct information; otherwise, choose the most informative one.
+        7. **Consider 'One Of' scenarios carefully:** Only deduplicate entries with confidence. Make sure you're comparing object concepts - 'the quantum state analyser' rather than specific items 'this quantum state analyser'.
+        8. **Multiple Owners**:  If multiple original_owner values are present, choose the most likely owner based on your understanding of the story.
+        9. **Default to Splitting:** If in doubt, default to preserving two entities as distinct. Only merge entities if you are absolutely certain they are the same.
+        10. **Source UUID Tracking**: Track UUIDs of original entities that were merged into this resolved entity. List them inside the `source_uuids` field.
+        
         {{ _.role('user') }}
-        Primary entities provided for resolution:
+        Objects to consider for resolution:
         {{ entities }}
 
-        ______
-        {{ ctx.output_format }}
-    "#
-}
-
-
-function ResolveCrossEpisodeOrganizationCluster(entities: Organization[]) -> ResolvedOrganization[] {
-    client CustomGemini25
-    prompt #"
-        {{ Narrative_analyst_persona ()}}
-
-        **Objective**:
-        Disambiguate and resolve a list of primary entities
-        extracted from multiple episodes of I, Claudius. Your task is to identify unique entities 
-        and merge repeated captures into a single, consolidated representation.
-
-        **Instructions**:
-        1. **Disambiguation First**: Analyze each entity’s properties—especially name, description, aliases, and any other contextual metadata—to determine if they refer to the same underlying entity.
-        2. **Merging with Caution**: Only merge entities if there is overwhelming evidence they represent the exact same character, location, or object. If any doubt exists, preserve them as distinct.
-        3. **Canonical Naming**: Select the most complete and contextually accurate name as the canonical value. Normalize names and UUIDs to a standard format (e.g. snake_case with proper prefixes such as 'agent_', 'location_', etc.).
-        4. **Description Synthesis**: Merge descriptions into a cohesive narrative that preserves key details from all captures while eliminating redundancy.
-        5. **Source Tracking**: Include a field `source_uuids` that lists all original UUIDs that were merged into this resolved entity.
-        6. **Contextual Awareness**: Use knowledge of the Claudius narrative (including character evolution, historical aliases, and scene-specific details) to guide your resolution.
-        7. **Output Format**: Return a JSON array of resolved entities. Each resolved entity should include at least:
-            - a new consolidated `uuid`
-            - a canonical `name`
-            - a merged `description`
-            - a `source_uuids` field listing the original UUIDs
-
-        {{ _.role('user') }}
-        Primary entities provided for resolution:
-        {{ entities }}
-
-        ______
-        {{ ctx.output_format }}
-    "#
-}
-
-function ResolveCrossEpisodeLocationCluster(entities: Location[]) -> ResolvedLocation[] {
-    client CustomGemini25
-    prompt #"
-        {{ Narrative_analyst_persona ()}}
-
-        **Objective**:
-        Disambiguate and resolve a list of primary entities
-        extracted from multiple episodes of I, Claudius. Your task is to identify unique entities 
-        and merge repeated captures into a single, consolidated representation.
-
-        **Instructions**:
-        1. **Disambiguation First**: Analyze each entity’s properties—especially name, description, aliases, and any other contextual metadata—to determine if they refer to the same underlying entity.
-        2. **Merging with Caution**: Only merge entities if there is overwhelming evidence they represent the exact same character, location, or object. If any doubt exists, preserve them as distinct.
-        3. **Canonical Naming**: Select the most complete and contextually accurate name as the canonical value. Normalize names and UUIDs to a standard format (e.g. snake_case with proper prefixes such as 'agent_', 'location_', etc.).
-        4. **Description Synthesis**: Merge descriptions into a cohesive narrative that preserves key details from all captures while eliminating redundancy.
-        5. **Source Tracking**: Include a field `source_uuids` that lists all original UUIDs that were merged into this resolved entity.
-        6. **Contextual Awareness**: Use knowledge of the Claudius narrative (including character evolution, historical aliases, and scene-specific details) to guide your resolution.
-        7. **Output Format**: Return a JSON array of resolved entities. Each resolved entity should include at least:
-            - a new consolidated `uuid`
-            - a canonical `name`
-            - a merged `description`
-            - a `source_uuids` field listing the original UUIDs
-
-        {{ _.role('user') }}
-        Primary entities provided for resolution:
-        {{ entities }}
+        *You MUST return ALL requested items in a single response.*
 
         ______
         {{ ctx.output_format }}

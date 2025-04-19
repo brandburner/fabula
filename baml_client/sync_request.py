@@ -497,98 +497,6 @@ class HttpRequest:
         False,
       )
     
-    def ResolveCrossEpisodeAgentCluster(
-        self,
-        entities: List[types.Agent],
-        baml_options: BamlCallOptions = {},
-    ) -> baml_py.HTTPRequest:
-      __tb__ = baml_options.get("tb", None)
-      if __tb__ is not None:
-        tb = __tb__._tb # type: ignore (we know how to use this private attribute)
-      else:
-        tb = None
-      __cr__ = baml_options.get("client_registry", None)
-
-      return self.__runtime.build_request_sync(
-        "ResolveCrossEpisodeAgentCluster",
-        {
-          "entities": entities,
-        },
-        self.__ctx_manager.get(),
-        tb,
-        __cr__,
-        False,
-      )
-    
-    def ResolveCrossEpisodeLocationCluster(
-        self,
-        entities: List[types.Location],
-        baml_options: BamlCallOptions = {},
-    ) -> baml_py.HTTPRequest:
-      __tb__ = baml_options.get("tb", None)
-      if __tb__ is not None:
-        tb = __tb__._tb # type: ignore (we know how to use this private attribute)
-      else:
-        tb = None
-      __cr__ = baml_options.get("client_registry", None)
-
-      return self.__runtime.build_request_sync(
-        "ResolveCrossEpisodeLocationCluster",
-        {
-          "entities": entities,
-        },
-        self.__ctx_manager.get(),
-        tb,
-        __cr__,
-        False,
-      )
-    
-    def ResolveCrossEpisodeObjectCluster(
-        self,
-        entities: List[types.Object],
-        baml_options: BamlCallOptions = {},
-    ) -> baml_py.HTTPRequest:
-      __tb__ = baml_options.get("tb", None)
-      if __tb__ is not None:
-        tb = __tb__._tb # type: ignore (we know how to use this private attribute)
-      else:
-        tb = None
-      __cr__ = baml_options.get("client_registry", None)
-
-      return self.__runtime.build_request_sync(
-        "ResolveCrossEpisodeObjectCluster",
-        {
-          "entities": entities,
-        },
-        self.__ctx_manager.get(),
-        tb,
-        __cr__,
-        False,
-      )
-    
-    def ResolveCrossEpisodeOrganizationCluster(
-        self,
-        entities: List[types.Organization],
-        baml_options: BamlCallOptions = {},
-    ) -> baml_py.HTTPRequest:
-      __tb__ = baml_options.get("tb", None)
-      if __tb__ is not None:
-        tb = __tb__._tb # type: ignore (we know how to use this private attribute)
-      else:
-        tb = None
-      __cr__ = baml_options.get("client_registry", None)
-
-      return self.__runtime.build_request_sync(
-        "ResolveCrossEpisodeOrganizationCluster",
-        {
-          "entities": entities,
-        },
-        self.__ctx_manager.get(),
-        tb,
-        __cr__,
-        False,
-      )
-    
     def ResolveLocationCluster(
         self,
         entities: List[types.Location],
@@ -603,6 +511,29 @@ class HttpRequest:
 
       return self.__runtime.build_request_sync(
         "ResolveLocationCluster",
+        {
+          "entities": entities,
+        },
+        self.__ctx_manager.get(),
+        tb,
+        __cr__,
+        False,
+      )
+    
+    def ResolveObjectCluster(
+        self,
+        entities: List[types.Object],
+        baml_options: BamlCallOptions = {},
+    ) -> baml_py.HTTPRequest:
+      __tb__ = baml_options.get("tb", None)
+      if __tb__ is not None:
+        tb = __tb__._tb # type: ignore (we know how to use this private attribute)
+      else:
+        tb = None
+      __cr__ = baml_options.get("client_registry", None)
+
+      return self.__runtime.build_request_sync(
+        "ResolveObjectCluster",
         {
           "entities": entities,
         },
@@ -1221,98 +1152,6 @@ class HttpStreamRequest:
         True,
       )
     
-    def ResolveCrossEpisodeAgentCluster(
-        self,
-        entities: List[types.Agent],
-        baml_options: BamlCallOptions = {},
-    ) -> baml_py.HTTPRequest:
-      __tb__ = baml_options.get("tb", None)
-      if __tb__ is not None:
-        tb = __tb__._tb # type: ignore (we know how to use this private attribute)
-      else:
-        tb = None
-      __cr__ = baml_options.get("client_registry", None)
-
-      return self.__runtime.build_request_sync(
-        "ResolveCrossEpisodeAgentCluster",
-        {
-          "entities": entities,
-        },
-        self.__ctx_manager.get(),
-        tb,
-        __cr__,
-        True,
-      )
-    
-    def ResolveCrossEpisodeLocationCluster(
-        self,
-        entities: List[types.Location],
-        baml_options: BamlCallOptions = {},
-    ) -> baml_py.HTTPRequest:
-      __tb__ = baml_options.get("tb", None)
-      if __tb__ is not None:
-        tb = __tb__._tb # type: ignore (we know how to use this private attribute)
-      else:
-        tb = None
-      __cr__ = baml_options.get("client_registry", None)
-
-      return self.__runtime.build_request_sync(
-        "ResolveCrossEpisodeLocationCluster",
-        {
-          "entities": entities,
-        },
-        self.__ctx_manager.get(),
-        tb,
-        __cr__,
-        True,
-      )
-    
-    def ResolveCrossEpisodeObjectCluster(
-        self,
-        entities: List[types.Object],
-        baml_options: BamlCallOptions = {},
-    ) -> baml_py.HTTPRequest:
-      __tb__ = baml_options.get("tb", None)
-      if __tb__ is not None:
-        tb = __tb__._tb # type: ignore (we know how to use this private attribute)
-      else:
-        tb = None
-      __cr__ = baml_options.get("client_registry", None)
-
-      return self.__runtime.build_request_sync(
-        "ResolveCrossEpisodeObjectCluster",
-        {
-          "entities": entities,
-        },
-        self.__ctx_manager.get(),
-        tb,
-        __cr__,
-        True,
-      )
-    
-    def ResolveCrossEpisodeOrganizationCluster(
-        self,
-        entities: List[types.Organization],
-        baml_options: BamlCallOptions = {},
-    ) -> baml_py.HTTPRequest:
-      __tb__ = baml_options.get("tb", None)
-      if __tb__ is not None:
-        tb = __tb__._tb # type: ignore (we know how to use this private attribute)
-      else:
-        tb = None
-      __cr__ = baml_options.get("client_registry", None)
-
-      return self.__runtime.build_request_sync(
-        "ResolveCrossEpisodeOrganizationCluster",
-        {
-          "entities": entities,
-        },
-        self.__ctx_manager.get(),
-        tb,
-        __cr__,
-        True,
-      )
-    
     def ResolveLocationCluster(
         self,
         entities: List[types.Location],
@@ -1327,6 +1166,29 @@ class HttpStreamRequest:
 
       return self.__runtime.build_request_sync(
         "ResolveLocationCluster",
+        {
+          "entities": entities,
+        },
+        self.__ctx_manager.get(),
+        tb,
+        __cr__,
+        True,
+      )
+    
+    def ResolveObjectCluster(
+        self,
+        entities: List[types.Object],
+        baml_options: BamlCallOptions = {},
+    ) -> baml_py.HTTPRequest:
+      __tb__ = baml_options.get("tb", None)
+      if __tb__ is not None:
+        tb = __tb__._tb # type: ignore (we know how to use this private attribute)
+      else:
+        tb = None
+      __cr__ = baml_options.get("client_registry", None)
+
+      return self.__runtime.build_request_sync(
+        "ResolveObjectCluster",
         {
           "entities": entities,
         },

@@ -1,6 +1,6 @@
 generator mythcombo_generator {
  output_type "python/pydantic"
- output_dir "../" // Adjust path as needed
+ output_dir "../myth_dev" // Adjust path as needed
  version "0.83.0" // Use your current BAML version
  default_client_mode "sync"
 }
@@ -78,6 +78,7 @@ function ExtractPrimaryEntities(
         4. **Description**: Provide a brief description if present.
         5. **ASCII-only**: Avoid using non-ASCII characters in entity names (especially for affiliated_org). Normalize or transliterate names to a standard character set.
         6. **Prefixed snake_case**: Location uuids should be prefixed ('location_') then use snake_case (never hyphens) to label the location (example: 'location_kosovo_serbia_border_region'). Avoid ampersands and apostophes in uuids.
+        7. Convert source case (often uppercase) of location names to ordinary title case.
 
         **For ORGANIZATIONS**:
         * Identify any formal or informal groups mentioned directly or indirectly
@@ -111,8 +112,8 @@ function ExtractPrimaryEntities(
 
         **Additional agent guidance**:
         1. **Identify Agents**: Find characters who speak, act, or are directly referenced. Do *not* treat collective groups (e.g., 'hostages', 'dalek patrol') as Agents.
-        2. **Full Name**: Provide hhe most complete and and descriptive name as canonical for the 'name' property.
-        3. **No Honorifics**: Do not use titles in names (e.g., 'James T. Kirk', not 'Captain Kirk'), except for cases like 'The Doctor'.
+        2. **Full Name**: Provide the most complete and and descriptive name as canonical for the 'name' property. (regardless of source formatting, use title case, e.g. 'Joey Lucas, not 'JOEY')
+        3. **No Honorifics**: Do not use titles in names (e.g., 'James T. Kirk', not 'Captain Kirk'), except for special cases like 'The Doctor'.
         4. **Minor characters**: Minor speaking characters may be identified only by number in the script ('Dalek 1', 'Soldier 2' etc.) Be careful to treat them as distinct.
         5. **Affiliated Organization**: Select the UUID from the available organizations, or leave it null if the agent is not affiliated with any known organization.  (The available organizations are reflected in the expected output schema.)
         6. **Aliases**: Extract any alternative names used for the agent.
@@ -137,18 +138,19 @@ function ExtractPrimaryEntities(
         1. **Relevance**: Extract objects relevant to the story or explicitly mentioned.
         2. **Never People**: Do *not* categorize people as objects. Groups of people are 'organizations'.
         3. **Never locations**: If a scene is set within here, it's always a location (not an object).
-        4. **Prevent duplicates**: For extremely common objects (books, laptops, guns etc.) where several appear in the story, AVOID very generic uuids (e.g. 'object_book', 'object_gun')
+        4. **Prevent duplicates**: For extremely common objects (books, laptops, guns etc.) where several appear in the story, AVOID very generic uuids; prefer disambiguation through ownership (e.g. 'object_marks_laptop', not 'object-laptop')
         5. **Description**: Provide a concise description of each object.
         6. **Original Owner**: Select the UUID of the original owner from the provided `agents` or `organizations` list. If the object has no original owner, leave the field null.
         7. **ASCII-only**: Avoid using non-ASCII characters in entity names (especially for affiliated_org). Normalize or transliterate names to a standard character set.
         8. **Prefixed snake_case**: Object uuids should be prefixed ('object_') then use snake_case (never hyphens) to label the object (example: 'object_quantum_state_analyser', 'object_cd_rom', 'object_merry_go_round', 'object_long-range_sensor_array'). Avoid ampersands and apostophes in uuids.
-
 
         **Critical Requirements for ALL Entities**:
         * Provide significantly detailed descriptions (never just a few words)
         * Ensure all UUIDs follow proper formatting conventions (snake_case, appropriate prefixes)
         * Reference existing entities whenever possible
         * When in doubt about an entity's presence, default to inclusivity with proper justification
+
+        NOTE: Once all primary entities are extracted they will be deduped by uuid. Therefore be careful to favour uniqueness when minting UUIDs.
 
         Before providing your structured analysis, first outline your entity identification process:
         - Identify key narrative elements in the scene

@@ -27,7 +27,7 @@ client<llm> CustomGPT4oMini {
   options {
     model "gpt-4o-mini"
     api_key env.OPENAI_API_KEY
-    temperature 0.5
+    temperature 0.7
     max_tokens 16384
   }
 }
@@ -92,7 +92,7 @@ client<llm> CustomGeminiFlash {
   provider google-ai
   retry_policy Exponential
   options {
-    model "gemini-2.0-flash-001"
+    model "gemini-2.5-flash-preview-04-17"
     api_key env.GOOGLE_API_KEY
     generationConfig {
       maxOutputTokens 635536
@@ -116,7 +116,7 @@ client<llm> GemkuA {
   provider round-robin
   options {
     // This will alternate between the two clients
-    strategy [CustomGeminiFlash, CustomHaiku]
+    strategy [CustomGeminiFlash, CustomGPT4oMini]
   }
 }
 
@@ -124,7 +124,7 @@ client<llm> GemkuB {
   provider round-robin
   options {
     // This will alternate between the two clients
-    strategy [CustomHaiku, CustomGemini]
+    strategy [CustomGPT4oMini, CustomGeminiFlash]
   }
 }
 

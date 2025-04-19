@@ -557,110 +557,6 @@ class LlmResponseParser:
 
       return cast(List[types.ResolvedAgent], parsed)
     
-    def ResolveCrossEpisodeAgentCluster(
-        self,
-        llm_response: str,
-        baml_options: BamlCallOptions = {},
-    ) -> List[types.ResolvedAgent]:
-      __tb__ = baml_options.get("tb", None)
-      if __tb__ is not None:
-        tb = __tb__._tb # type: ignore (we know how to use this private attribute)
-      else:
-        tb = None
-      __cr__ = baml_options.get("client_registry", None)
-
-      parsed = self.__runtime.parse_llm_response(
-        "ResolveCrossEpisodeAgentCluster",
-        llm_response,
-        types,
-        types,
-        partial_types,
-        False,
-        self.__ctx_manager.get(),
-        tb,
-        __cr__,
-      )
-
-      return cast(List[types.ResolvedAgent], parsed)
-    
-    def ResolveCrossEpisodeLocationCluster(
-        self,
-        llm_response: str,
-        baml_options: BamlCallOptions = {},
-    ) -> List[types.ResolvedLocation]:
-      __tb__ = baml_options.get("tb", None)
-      if __tb__ is not None:
-        tb = __tb__._tb # type: ignore (we know how to use this private attribute)
-      else:
-        tb = None
-      __cr__ = baml_options.get("client_registry", None)
-
-      parsed = self.__runtime.parse_llm_response(
-        "ResolveCrossEpisodeLocationCluster",
-        llm_response,
-        types,
-        types,
-        partial_types,
-        False,
-        self.__ctx_manager.get(),
-        tb,
-        __cr__,
-      )
-
-      return cast(List[types.ResolvedLocation], parsed)
-    
-    def ResolveCrossEpisodeObjectCluster(
-        self,
-        llm_response: str,
-        baml_options: BamlCallOptions = {},
-    ) -> List[types.ResolvedObject]:
-      __tb__ = baml_options.get("tb", None)
-      if __tb__ is not None:
-        tb = __tb__._tb # type: ignore (we know how to use this private attribute)
-      else:
-        tb = None
-      __cr__ = baml_options.get("client_registry", None)
-
-      parsed = self.__runtime.parse_llm_response(
-        "ResolveCrossEpisodeObjectCluster",
-        llm_response,
-        types,
-        types,
-        partial_types,
-        False,
-        self.__ctx_manager.get(),
-        tb,
-        __cr__,
-      )
-
-      return cast(List[types.ResolvedObject], parsed)
-    
-    def ResolveCrossEpisodeOrganizationCluster(
-        self,
-        llm_response: str,
-        baml_options: BamlCallOptions = {},
-    ) -> List[types.ResolvedOrganization]:
-      __tb__ = baml_options.get("tb", None)
-      if __tb__ is not None:
-        tb = __tb__._tb # type: ignore (we know how to use this private attribute)
-      else:
-        tb = None
-      __cr__ = baml_options.get("client_registry", None)
-
-      parsed = self.__runtime.parse_llm_response(
-        "ResolveCrossEpisodeOrganizationCluster",
-        llm_response,
-        types,
-        types,
-        partial_types,
-        False,
-        self.__ctx_manager.get(),
-        tb,
-        __cr__,
-      )
-
-      return cast(List[types.ResolvedOrganization], parsed)
-    
     def ResolveLocationCluster(
         self,
         llm_response: str,
@@ -686,6 +582,32 @@ class LlmResponseParser:
       )
 
       return cast(List[types.ResolvedLocation], parsed)
+    
+    def ResolveObjectCluster(
+        self,
+        llm_response: str,
+        baml_options: BamlCallOptions = {},
+    ) -> List[types.ResolvedObject]:
+      __tb__ = baml_options.get("tb", None)
+      if __tb__ is not None:
+        tb = __tb__._tb # type: ignore (we know how to use this private attribute)
+      else:
+        tb = None
+      __cr__ = baml_options.get("client_registry", None)
+
+      parsed = self.__runtime.parse_llm_response(
+        "ResolveObjectCluster",
+        llm_response,
+        types,
+        types,
+        partial_types,
+        False,
+        self.__ctx_manager.get(),
+        tb,
+        __cr__,
+      )
+
+      return cast(List[types.ResolvedObject], parsed)
     
     def ResolveOrganizationCluster(
         self,
@@ -1374,110 +1296,6 @@ class LlmStreamParser:
 
       return cast(List[partial_types.ResolvedAgent], parsed)
     
-    def ResolveCrossEpisodeAgentCluster(
-        self,
-        llm_response: str,
-        baml_options: BamlCallOptions = {},
-    ) -> List[partial_types.ResolvedAgent]:
-      __tb__ = baml_options.get("tb", None)
-      if __tb__ is not None:
-        tb = __tb__._tb # type: ignore (we know how to use this private attribute)
-      else:
-        tb = None
-      __cr__ = baml_options.get("client_registry", None)
-
-      parsed = self.__runtime.parse_llm_response(
-        "ResolveCrossEpisodeAgentCluster",
-        llm_response,
-        types,
-        types,
-        partial_types,
-        True,
-        self.__ctx_manager.get(),
-        tb,
-        __cr__,
-      )
-
-      return cast(List[partial_types.ResolvedAgent], parsed)
-    
-    def ResolveCrossEpisodeLocationCluster(
-        self,
-        llm_response: str,
-        baml_options: BamlCallOptions = {},
-    ) -> List[partial_types.ResolvedLocation]:
-      __tb__ = baml_options.get("tb", None)
-      if __tb__ is not None:
-        tb = __tb__._tb # type: ignore (we know how to use this private attribute)
-      else:
-        tb = None
-      __cr__ = baml_options.get("client_registry", None)
-
-      parsed = self.__runtime.parse_llm_response(
-        "ResolveCrossEpisodeLocationCluster",
-        llm_response,
-        types,
-        types,
-        partial_types,
-        True,
-        self.__ctx_manager.get(),
-        tb,
-        __cr__,
-      )
-
-      return cast(List[partial_types.ResolvedLocation], parsed)
-    
-    def ResolveCrossEpisodeObjectCluster(
-        self,
-        llm_response: str,
-        baml_options: BamlCallOptions = {},
-    ) -> List[partial_types.ResolvedObject]:
-      __tb__ = baml_options.get("tb", None)
-      if __tb__ is not None:
-        tb = __tb__._tb # type: ignore (we know how to use this private attribute)
-      else:
-        tb = None
-      __cr__ = baml_options.get("client_registry", None)
-
-      parsed = self.__runtime.parse_llm_response(
-        "ResolveCrossEpisodeObjectCluster",
-        llm_response,
-        types,
-        types,
-        partial_types,
-        True,
-        self.__ctx_manager.get(),
-        tb,
-        __cr__,
-      )
-
-      return cast(List[partial_types.ResolvedObject], parsed)
-    
-    def ResolveCrossEpisodeOrganizationCluster(
-        self,
-        llm_response: str,
-        baml_options: BamlCallOptions = {},
-    ) -> List[partial_types.ResolvedOrganization]:
-      __tb__ = baml_options.get("tb", None)
-      if __tb__ is not None:
-        tb = __tb__._tb # type: ignore (we know how to use this private attribute)
-      else:
-        tb = None
-      __cr__ = baml_options.get("client_registry", None)
-
-      parsed = self.__runtime.parse_llm_response(
-        "ResolveCrossEpisodeOrganizationCluster",
-        llm_response,
-        types,
-        types,
-        partial_types,
-        True,
-        self.__ctx_manager.get(),
-        tb,
-        __cr__,
-      )
-
-      return cast(List[partial_types.ResolvedOrganization], parsed)
-    
     def ResolveLocationCluster(
         self,
         llm_response: str,
@@ -1503,6 +1321,32 @@ class LlmStreamParser:
       )
 
       return cast(List[partial_types.ResolvedLocation], parsed)
+    
+    def ResolveObjectCluster(
+        self,
+        llm_response: str,
+        baml_options: BamlCallOptions = {},
+    ) -> List[partial_types.ResolvedObject]:
+      __tb__ = baml_options.get("tb", None)
+      if __tb__ is not None:
+        tb = __tb__._tb # type: ignore (we know how to use this private attribute)
+      else:
+        tb = None
+      __cr__ = baml_options.get("client_registry", None)
+
+      parsed = self.__runtime.parse_llm_response(
+        "ResolveObjectCluster",
+        llm_response,
+        types,
+        types,
+        partial_types,
+        True,
+        self.__ctx_manager.get(),
+        tb,
+        __cr__,
+      )
+
+      return cast(List[partial_types.ResolvedObject], parsed)
     
     def ResolveOrganizationCluster(
         self,
