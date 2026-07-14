@@ -4,7 +4,11 @@
 
 Fabula is an AI-powered narrative analysis engine that transforms unstructured narrative texts (scripts, novels, etc.) into richly structured knowledge graphs. By combining LLM-driven extraction with a robust entity resolution pipeline, Fabula enables deep analysis of story structure, character development, and thematic elements.
 
-Inspired by the BBC's [Mythology Engine](https://www.bbc.co.uk/blogs/researchanddevelopment/2010/03/the-mythology-engine-represent.shtml), Fabula aims to unlock narrative information and make it explorable through graph-based queries.
+From the v2 catalog:
+
+[Classic Doctor Who Knowledge Graph](https://fabula.productions/explore/doctor-who/)
+
+[Star Trek: The Next Generation Knowledge Graph](https://fabula.productions/explore/star-trek-the-next-generation/)
 
 ## Core Features
 
